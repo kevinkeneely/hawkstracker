@@ -13,7 +13,11 @@ import os
 import time
 from datetime import date
 
-from nba_api.stats.endpoints import leaguedashplayerstats
+from nba_api.stats.endpoints import (
+    leaguedashplayerstats,
+    leaguehustlestatsplayer,
+    leaguedashplayerclutch,
+)
 
 from pipeline.config import (
     ATLANTA_TEAM_ID,
@@ -26,14 +30,28 @@ from pipeline.config import (
 RATE_LIMIT_SLEEP = 1.0
 
 
-def fetch_endpoint(measure_type, season=SEASON, team_id=ATLANTA_TEAM_ID):
-    """Call leaguedashplayerstats with a given measure type and return the raw dict."""
-    result = leaguedashplayerstats.LeagueDashPlayerStats(
-        season=season,
-        team_id_nullable=team_id,
-        per_mode_detailed="PerGame",
-        measure_type_detailed_defense=measure_type,
-    )
+def fetch_endpoint(friendly_name, measure_type, season=SEASON, team_id=ATLANTA_TEAM_ID):
+    """Call the right NBA API endpoint based on friendly_name. Return raw dict."""
+    if friendly_name == "hustle":
+        result = leaguehustlestatsplayer.LeagueHustleStatsPlayer(
+            season=season,
+            team_id_nullable=team_id,
+            per_mode_time="PerGame",
+        )
+    elif friendly_name.startswith("clutch"):
+        result = leaguedashplayerclutch.LeagueDashPlayerClutch(
+            season=season,
+            team_id_nullable=team_id,
+            per_mode_detailed="PerGame",
+            measure_type_detailed_defense=measure_type,
+        )
+    else:
+        result = leaguedashplayerstats.LeagueDashPlayerStats(
+            season=season,
+            team_id_nullable=team_id,
+            per_mode_detailed="PerGame",
+            measure_type_detailed_defense=measure_type,
+        )
     return result.get_dict()
 
 
@@ -56,7 +74,7 @@ def run():
 
     for friendly_name, measure_type in ENDPOINTS:
         print(f"  → {friendly_name} ({measure_type})... ", end="", flush=True)
-        data = fetch_endpoint(measure_type)
+        data = fetch_endpoint(friendly_name, measure_type)
         out_path = save_raw(data, friendly_name)
         rows = len(data["resultSets"][0]["rowSet"])
         print(f"saved {rows} rows → {out_path}")

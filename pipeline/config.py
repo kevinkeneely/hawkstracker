@@ -23,4 +23,7 @@ ENDPOINTS = [
     ("scoring", "Scoring"),
     ("misc", "Misc"),
     ("usage", "Usage"),
+    ("hustle", None),
+    ("clutch", "Base"),
+    ("clutch_adv", "Advanced"),
 ]
