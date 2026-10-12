@@ -9,6 +9,10 @@
   --accent-border: rgba(170, 59, 255, 0.5);
   --social-bg: rgba(244, 243, 236, 0.5);
   --row-alt: rgba(224, 58, 62, 0.05);
+  --rank-good-text: #16a34a;
+  --rank-good-bg: rgba(22, 163, 74, 0.1);
+  --rank-bad-text: #dc2626;
+  --rank-bad-bg: rgba(220, 38, 38, 0.1);
   --shadow:
     rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
 
@@ -43,6 +47,10 @@
     --accent-border: rgba(192, 132, 252, 0.5);
     --social-bg: rgba(47, 48, 58, 0.5);
     --row-alt: rgba(224, 58, 62, 0.12);
+    --rank-good-text: #4ade80;
+    --rank-good-bg: rgba(74, 222, 128, 0.15);
+    --rank-bad-text: #f87171;
+    --rank-bad-bg: rgba(248, 113, 113, 0.18);
     --shadow:
       rgba(0, 0, 0, 0.4) 0 10px 15px -3px, rgba(0, 0, 0, 0.25) 0 4px 6px -2px;
   }
@@ -161,4 +169,78 @@ code {
 /* Alternating row background (Hawks red at low opacity) for scan-ability. */
 .player-stats tbody tr:nth-child(even) {
   background: var(--row-alt);
+}
+
+/* ---------- Header stat tiles ---------- */
+
+.header-stats {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 12px;
+  margin: 24px 0;
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  .header-stats {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .header-stats {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.stat-tile {
+  padding: 12px 14px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--bg);
+}
+
+.stat-tile .label {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  color: var(--text);
+  margin-bottom: 6px;
+}
+
+.stat-tile .value-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.stat-tile .value {
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--text-h);
+  font-variant-numeric: tabular-nums;
+}
+
+.stat-tile .rank {
+  font-size: 12px;
+  padding: 2px 8px;
+  border-radius: 10px;
+  font-weight: 500;
+  font-variant-numeric: tabular-nums;
+}
+
+.rank-good {
+  color: var(--rank-good-text);
+  background: var(--rank-good-bg);
+}
+
+.rank-mid {
+  color: var(--text);
+  background: var(--code-bg);
+}
+
+.rank-bad {
+  color: var(--rank-bad-text);
+  background: var(--rank-bad-bg);
 }

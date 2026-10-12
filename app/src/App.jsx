@@ -1,32 +1,50 @@
 import { useEffect, useState } from 'react'
-import PlayerStatsTable from "./components/PlayerStatsTable.jsx";
+import PlayerStatsTable from './components/PlayerStatsTable'
+import HeaderStats from './components/HeaderStats'
+
+const HAWKS_TEAM_ID = 1610612737
 
 function App() {
-  const [data, setData] = useState(null)
+  const [playerData, setPlayerData] = useState(null)
+  const [teamData, setTeamData] = useState(null)
   const [error, setError] = useState(null)
 
   useEffect(() => {
-    fetch('/hawksData.json')
-      .then((response) => {
-        if (!response.ok) {
-          throw new Error(`Failed to load hawksData.json (${response.status})`)
-        }
-        return response.json()
+    Promise.all([
+      fetch('/hawksData.json').then((r) => {
+        if (!r.ok) throw new Error(`Failed to load hawksData.json (${r.status})`)
+        return r.json()
+      }),
+      fetch('/teamStatsData.json').then((r) => {
+        if (!r.ok) throw new Error(`Failed to load teamStatsData.json (${r.status})`)
+        return r.json()
+      }),
+    ])
+      .then(([players, teams]) => {
+        setPlayerData(players)
+        setTeamData(teams)
       })
-      .then((json) => setData(json))
       .catch((err) => setError(err.message))
   }, [])
+
+  const hawks = teamData?.teams.find((t) => t.id === HAWKS_TEAM_ID)
+  const loaded = playerData && teamData && hawks
 
   return (
     <main>
       <header>
         <h1>Hawks Tracker</h1>
-        <p>Atlanta Hawks {data?.season ?? '2025–26'} season dashboard</p>
+        <p>Atlanta Hawks {playerData?.season ?? '2025–26'} season dashboard</p>
       </header>
       <section>
         {error && <p>Error: {error}</p>}
-        {!error && !data && <p>Loading…</p>}
-        {data && <PlayerStatsTable players={data.players} />}
+        {!error && !loaded && <p>Loading…</p>}
+        {loaded && (
+          <>
+            <HeaderStats team={hawks} />
+            <PlayerStatsTable players={playerData.players} />
+          </>
+        )}
       </section>
     </main>
   )
