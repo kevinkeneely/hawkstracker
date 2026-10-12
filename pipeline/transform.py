@@ -17,6 +17,10 @@ from pipeline.config import SEASON, RAW_DATA_DIR
 # Where the final merged file lands (read by the React app)
 OUT_PATH = "data/hawksData.json"
 
+# Also copied here so Vite serves it to the React app in dev,
+# and so the Netlify build picks it up when deploying.
+APP_OUT_PATH = "app/public/hawksData.json"
+
 # For each endpoint, which columns to pull and what to rename them to.
 # Format: {endpoint_name: {source_column: output_field}}
 FIELDS = {
@@ -148,11 +152,12 @@ def run():
         "players": players,
     }
 
-    os.makedirs(os.path.dirname(OUT_PATH), exist_ok=True)
-    with open(OUT_PATH, "w") as f:
-        json.dump(output, f, indent=2)
+    for path in (OUT_PATH, APP_OUT_PATH):
+        os.makedirs(os.path.dirname(path), exist_ok=True)
+        with open(path, "w") as f:
+            json.dump(output, f, indent=2)
+        print(f"  wrote {path}")
 
-    print(f"  wrote {OUT_PATH}")
     print("Done.")
 
 
