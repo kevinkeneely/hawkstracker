@@ -8,6 +8,7 @@
   --accent-bg: rgba(170, 59, 255, 0.1);
   --accent-border: rgba(170, 59, 255, 0.5);
   --social-bg: rgba(244, 243, 236, 0.5);
+  --row-alt: rgba(224, 58, 62, 0.05);
   --shadow:
     rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
 
@@ -41,6 +42,7 @@
     --accent-bg: rgba(192, 132, 252, 0.15);
     --accent-border: rgba(192, 132, 252, 0.5);
     --social-bg: rgba(47, 48, 58, 0.5);
+    --row-alt: rgba(224, 58, 62, 0.12);
     --shadow:
       rgba(0, 0, 0, 0.4) 0 10px 15px -3px, rgba(0, 0, 0, 0.25) 0 4px 6px -2px;
   }
@@ -108,4 +110,55 @@ code {
   line-height: 135%;
   padding: 4px 8px;
   background: var(--code-bg);
+}
+
+/* ---------- Player stats table ---------- */
+
+.table-wrap {
+  overflow-x: auto;
+  margin: 24px 0;
+  text-align: left;
+}
+
+.player-stats {
+  width: 100%;
+  border-collapse: collapse;
+  color: var(--text);
+}
+
+.player-stats th,
+.player-stats td {
+  padding: 8px 12px;
+  border-bottom: 1px solid var(--border);
+  white-space: nowrap;
+  text-align: right;
+}
+
+.player-stats th {
+  font-weight: 600;
+  color: var(--text-h);
+  border-bottom-width: 2px;
+}
+
+/* Rank (#) and Player columns are left-aligned; everything else right. */
+.player-stats th:nth-child(1),
+.player-stats th:nth-child(2),
+.player-stats td:nth-child(1),
+.player-stats td:nth-child(2) {
+  text-align: left;
+}
+
+/* Player name uses the headline text color for emphasis. */
+.player-stats td:nth-child(2) {
+  color: var(--text-h);
+}
+
+/* Tabular figures so decimals line up vertically across rows. */
+.player-stats td {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Alternating row background (Hawks red at low opacity) for scan-ability. */
+.player-stats tbody tr:nth-child(even) {
+  background: var(--row-alt);
 }
