@@ -2,8 +2,8 @@
 Hawks data pipeline — transform raw team endpoint JSON into teamStatsData.json.
 
 Reads today's raw team files from data/raw/<season>/, merges them by TEAM_ID,
-picks the fields the dashboard uses, and writes teamStatsData.json to both
-data/ and app/public/.
+picks the fields the dashboard uses, computes derived MISC percentages, and
+writes teamStatsData.json to both data/ and app/public/.
 
 Run from the project root:
     python3 -m pipeline.transform_team
@@ -47,6 +47,12 @@ TEAM_FIELDS = {
         "FG3_PCT_RANK": "fg3_pct_rank",
         "FT_PCT": "ft_pct",
         "FT_PCT_RANK": "ft_pct_rank",
+        # Raw per-game counts needed for MISC derived percentages:
+        "AST": "ast",
+        "STL": "stl",
+        "BLK": "blk",
+        "FGA": "fga",
+        "FG3A": "fg3a",
     },
     "team_advanced": {
         "OFF_RATING": "off_rating",
@@ -63,6 +69,11 @@ TEAM_FIELDS = {
         "PACE_RANK": "pace_rank",
         "AST_PCT": "ast_pct",
         "AST_PCT_RANK": "ast_pct_rank",
+        # POSS is kept for reference but NOT used for STL% derivation —
+        # NBA.com returns it as season total (not per-game) despite
+        # PerMode="PerGame", so we use PACE (per 48 min) for per-game
+        # possessions in compute_derived_stats().
+        "POSS": "poss",
     },
     "team_four_factors": {
         # Offense
@@ -103,6 +114,10 @@ TEAM_FIELDS = {
         "OPP_REB": "opp_reb",
         "OPP_STL": "opp_stl",
         "OPP_BLK": "opp_blk",
+        # Opponent raw per-game counts needed for AST% def and BLK% off/def:
+        "OPP_FGM": "opp_fgm",
+        "OPP_FGA": "opp_fga",
+        "OPP_FG3A": "opp_fg3a",
     },
 }
 
@@ -155,6 +170,84 @@ def parse_shot_locations(raw, prefix=""):
     return out
 
 
+def compute_derived_stats(teams):
+    """Compute MISC off/def percentages (AST%, STL%, BLK%) per team, plus their ranks.
+
+    Formulas (per CleaningTheGlass/Dunks & Threes definitions):
+      AST% = assists / made FGs
+      STL% = steals / possessions
+      BLK% = blocks / opponent 2PT attempts
+
+    All stored as decimals (0.091 for 9.1%). UI multiplies by 100 for display.
+
+    Note: we use PACE (possessions per 48 min, effectively per-game) as the
+    possessions divisor for STL%. NBA.com's POSS field returns season totals
+    despite PerMode="PerGame", so it's not usable here. Our numbers will land
+    within ~1 percentage point of D&T/CTG, which use proprietary "true
+    possessions" that exclude end-of-period and dead-ball situations.
+    """
+    # First pass: compute the 6 derived fields per team
+    for team in teams.values():
+        # AST% off: already have as ast_pct — alias for naming consistency
+        if team.get("ast_pct") is not None:
+            team["ast_pct_off"] = team["ast_pct"]
+
+        # AST% def: opp assists / opp made FGs
+        opp_fgm = team.get("opp_fgm")
+        opp_ast = team.get("opp_ast")
+        if opp_fgm and opp_fgm > 0 and opp_ast is not None:
+            team["ast_pct_def"] = opp_ast / opp_fgm
+
+        # STL% off: opp steals / your possessions (your giveaway rate via steals)
+        # Use pace as per-game possessions; see note in docstring above.
+        pace = team.get("pace")
+        opp_stl = team.get("opp_stl")
+        if pace and pace > 0 and opp_stl is not None:
+            team["stl_pct_off"] = opp_stl / pace
+
+        # STL% def: your steals / your possessions (opp possessions ≈ your own)
+        stl = team.get("stl")
+        if pace and pace > 0 and stl is not None:
+            team["stl_pct_def"] = stl / pace
+
+        # BLK% off: opp blocks / your 2PT attempts (your shots blocked rate)
+        fga = team.get("fga")
+        fg3a = team.get("fg3a")
+        opp_blk = team.get("opp_blk")
+        if fga is not None and fg3a is not None and (fga - fg3a) > 0 and opp_blk is not None:
+            team["blk_pct_off"] = opp_blk / (fga - fg3a)
+
+        # BLK% def: your blocks / opp 2PT attempts (your blocking rate)
+        opp_fga = team.get("opp_fga")
+        opp_fg3a = team.get("opp_fg3a")
+        blk = team.get("blk")
+        if opp_fga is not None and opp_fg3a is not None and (opp_fga - opp_fg3a) > 0 and blk is not None:
+            team["blk_pct_def"] = blk / (opp_fga - opp_fg3a)
+
+    # Second pass: assign ranks for each derived stat.
+    # For STL/BLK "off" (giveaways/blocked): LOWER is better.
+    # For STL/BLK "def" (takeaways/blocks): HIGHER is better.
+    # For AST%: higher = more ball movement for off, lower = more iso forced for def.
+    rank_specs = [
+        ("ast_pct_off", False),  # higher = better ball movement
+        ("ast_pct_def", True),   # lower = opponents forced into iso
+        ("stl_pct_off", True),   # lower = fewer giveaways
+        ("stl_pct_def", False),  # higher = more takeaways
+        ("blk_pct_off", True),   # lower = fewer shots blocked
+        ("blk_pct_def", False),  # higher = more blocks
+    ]
+    for field, ascending in rank_specs:
+        _assign_ranks(teams.values(), field, f"{field}_rank", ascending)
+
+
+def _assign_ranks(teams, field_name, rank_field_name, ascending):
+    """Rank teams by field_name. ascending=True → smallest value gets rank 1."""
+    with_values = [t for t in teams if t.get(field_name) is not None]
+    sorted_teams = sorted(with_values, key=lambda t: t[field_name], reverse=not ascending)
+    for i, team in enumerate(sorted_teams, start=1):
+        team[rank_field_name] = i
+
+
 def build_teams():
     """Read all raw team endpoints, merge by TEAM_ID, return list of team dicts."""
     # teams maps TEAM_ID → merged team dict
@@ -185,6 +278,9 @@ def build_teams():
     for team_id, fields in shot_def.items():
         if team_id in teams:
             teams[team_id].update(fields)
+
+    # Compute MISC derived percentages (AST%, STL%, BLK% off/def) + their ranks
+    compute_derived_stats(teams)
 
     # Return as a list, sorted by win percentage (best record first)
     return sorted(teams.values(), key=lambda t: t.get("w_pct", 0), reverse=True)
