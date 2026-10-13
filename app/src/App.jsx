@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import PlayerStatsTable from './components/PlayerStatsTable'
 import HeaderStats from './components/HeaderStats'
+import TeamStats from './components/TeamStats'
 
 const HAWKS_TEAM_ID = 1610612737
 
@@ -43,6 +44,7 @@ function App() {
           <>
             <HeaderStats team={hawks} />
             <PlayerStatsTable players={playerData.players} />
+            <TeamStats team={hawks} allTeams={teamData.teams} />
           </>
         )}
       </section>

@@ -244,3 +244,130 @@ code {
   color: var(--rank-bad-text);
   background: var(--rank-bad-bg);
 }
+/* ---------- Team Stats section ---------- */
+
+.team-stats {
+  margin: 32px 0;
+  text-align: left;
+}
+
+.ts-section {
+  margin-bottom: 28px;
+}
+
+.ts-section-name {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  color: var(--text);
+  margin-bottom: 8px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--border);
+}
+
+.ts-off-def-head {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  color: var(--text);
+  margin-bottom: 8px;
+}
+
+.ts-off-def-head span:first-child {
+  text-align: right;
+  padding-right: 80px;
+}
+
+.ts-off-def-head span:last-child {
+  text-align: left;
+  padding-left: 80px;
+}
+
+.ts-row {
+  display: grid;
+  grid-template-columns: 1fr 60px 70px 60px 1fr;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 0;
+}
+
+.ts-plot {
+  display: flex;
+}
+
+.ts-plot:first-child {
+  justify-content: flex-end;
+}
+
+.ts-value {
+  font-family: var(--mono);
+  font-size: 14px;
+  font-variant-numeric: tabular-nums;
+  color: var(--text-h);
+  text-align: center;
+}
+
+.ts-label {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-h);
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .ts-row {
+    grid-template-columns: 1fr 50px 60px 50px 1fr;
+  }
+  .ts-off-def-head span:first-child { padding-right: 60px; }
+  .ts-off-def-head span:last-child { padding-left: 60px; }
+}
+
+/* ---------- Dot plot ---------- */
+
+.dot-plot {
+  position: relative;
+  display: inline-block;
+}
+
+.dot-plot-baseline {
+  stroke: var(--border);
+  stroke-width: 1;
+}
+
+.dot-plot-dot {
+  fill: var(--text);
+  opacity: 0.35;
+  cursor: pointer;
+}
+
+.dot-plot-dot:hover {
+  opacity: 1;
+}
+
+.dot-plot-hawks {
+  fill: #E03A3E;
+  cursor: pointer;
+}
+
+.dot-plot-hawks-rank {
+  fill: #fff;
+  font-size: 11px;
+  font-weight: 600;
+  pointer-events: none;
+}
+
+.dot-plot-tooltip {
+  position: absolute;
+  bottom: 100%;
+  transform: translateX(-50%);
+  background: var(--text-h);
+  color: var(--bg);
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  white-space: nowrap;
+  pointer-events: none;
+  z-index: 10;
+}

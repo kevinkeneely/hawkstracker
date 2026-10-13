@@ -172,6 +172,8 @@ def parse_shot_locations(raw, prefix=""):
 
 def compute_derived_stats(teams):
     """Compute MISC off/def percentages (AST%, STL%, BLK%) per team, plus their ranks.
+    Also compute ranks for shot-location and opponent-shooting fields that NBA.com's
+    endpoints don't rank natively.
 
     Formulas (per CleaningTheGlass/Dunks & Threes definitions):
       AST% = assists / made FGs
@@ -224,17 +226,26 @@ def compute_derived_stats(teams):
         if opp_fga is not None and opp_fg3a is not None and (opp_fga - opp_fg3a) > 0 and blk is not None:
             team["blk_pct_def"] = blk / (opp_fga - opp_fg3a)
 
-    # Second pass: assign ranks for each derived stat.
+    # Second pass: assign ranks for each derived stat, plus a few native fields
+    # that NBA.com doesn't rank (shot_locations and some opponent percentages).
     # For STL/BLK "off" (giveaways/blocked): LOWER is better.
     # For STL/BLK "def" (takeaways/blocks): HIGHER is better.
     # For AST%: higher = more ball movement for off, lower = more iso forced for def.
     rank_specs = [
-        ("ast_pct_off", False),  # higher = better ball movement
-        ("ast_pct_def", True),   # lower = opponents forced into iso
-        ("stl_pct_off", True),   # lower = fewer giveaways
-        ("stl_pct_def", False),  # higher = more takeaways
-        ("blk_pct_off", True),   # lower = fewer shots blocked
-        ("blk_pct_def", False),  # higher = more blocks
+        ("ast_pct_off", False),      # higher = better ball movement
+        ("ast_pct_def", True),       # lower = opponents forced into iso
+        ("stl_pct_off", True),       # lower = fewer giveaways
+        ("stl_pct_def", False),      # higher = more takeaways
+        ("blk_pct_off", True),       # lower = fewer shots blocked
+        ("blk_pct_def", False),      # higher = more blocks
+        # Shot location ranks (NBA.com's shot_locations endpoint doesn't provide them)
+        ("rim_fg_pct", False),       # higher = better offense (more rim makes)
+        ("opp_rim_fg_pct", True),    # lower = better defense (fewer rim allowed)
+        ("mid_fg_pct", False),       # higher = better offense
+        ("opp_mid_fg_pct", True),    # lower = better defense
+        # Opponent percentages that team_opponent endpoint doesn't rank
+        ("opp_fg3_pct", True),       # lower = better defense (opponents miss more 3s)
+        ("opp_ft_pct", True),        # lower = better defense (opponents miss more FTs)
     ]
     for field, ascending in rank_specs:
         _assign_ranks(teams.values(), field, f"{field}_rank", ascending)
