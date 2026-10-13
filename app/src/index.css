@@ -371,3 +371,42 @@ code {
   pointer-events: none;
   z-index: 10;
 }
+/* ---------- Tabs nav ---------- */
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+  margin: 24px 0 8px;
+  border-bottom: 1px solid var(--border);
+}
+
+.tab {
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text);
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -1px;
+  transition: color 0.15s, border-color 0.15s;
+}
+
+.tab:hover {
+  color: var(--text-h);
+}
+
+.tab.active {
+  color: var(--text-h);
+  border-bottom-color: #E03A3E;
+}
+
+@media (max-width: 640px) {
+  .tabs {
+    gap: 0;
+  }
+  .tab {
+    padding: 10px 12px;
+    font-size: 13px;
+  }
+}
