@@ -3,120 +3,44 @@ import DotPlot from './DotPlot'
 const pctFmt = (v) => (v * 100).toFixed(1) + '%'
 const signedFmt = (v) => (v >= 0 ? '+' : '') + v.toFixed(1)
 
-const SECTIONS = [
+// Standalone top block — single stat, no pairing.
+const OVERALL = {
+  name: 'OVERALL',
+  stat: {
+    label: 'Net Rtg',
+    field: 'net_rating',
+    rankField: 'net_rating_rank',
+    format: signedFmt,
+  },
+}
+
+// Paired table — Hawks on left, Opponents on right for every stat.
+const PAIRED_SECTIONS = [
   {
-    name: 'ADJUSTED EFFICIENCY',
+    name: 'SCORING',
     stats: [
-      {
-        label: 'Net Rtg',
-        offField: 'net_rating',
-        offRankField: 'net_rating_rank',
-        defField: null,
-        format: signedFmt,
-      },
+      { label: 'eFG%', hawks: 'efg_pct',       hawksRank: 'efg_pct_rank',       opp: 'opp_efg_pct',       oppRank: 'opp_efg_pct_rank',       format: pctFmt },
+      { label: 'TS%',  hawks: 'ts_pct',        hawksRank: 'ts_pct_rank',        opp: 'opp_ts_pct',        oppRank: 'opp_ts_pct_rank',        format: pctFmt },
+      { label: 'Rim%', hawks: 'rim_fg_pct',    hawksRank: 'rim_fg_pct_rank',    opp: 'opp_rim_fg_pct',    oppRank: 'opp_rim_fg_pct_rank',    format: pctFmt },
+      { label: 'Mid%', hawks: 'mid_fg_pct',    hawksRank: 'mid_fg_pct_rank',    opp: 'opp_mid_fg_pct',    oppRank: 'opp_mid_fg_pct_rank',    format: pctFmt },
+      { label: '3P%',  hawks: 'fg3_pct',       hawksRank: 'fg3_pct_rank',       opp: 'opp_fg3_pct',       oppRank: 'opp_fg3_pct_rank',       format: pctFmt },
+      { label: 'FT%',  hawks: 'ft_pct',        hawksRank: 'ft_pct_rank',        opp: 'opp_ft_pct',        oppRank: 'opp_ft_pct_rank',        format: pctFmt },
     ],
   },
   {
-    name: 'FOUR FACTORS',
+    name: 'BALL MOVEMENT',
     stats: [
-      {
-        label: 'eFG%',
-        offField: 'efg_pct',
-        offRankField: 'efg_pct_rank',
-        defField: 'opp_efg_pct',
-        defRankField: 'opp_efg_pct_rank',
-        format: pctFmt,
-      },
-      {
-        label: 'TOV%',
-        offField: 'tov_pct',
-        offRankField: 'tov_pct_rank',
-        defField: 'opp_tov_pct',
-        defRankField: 'opp_tov_pct_rank',
-        format: pctFmt,
-      },
-      {
-        label: 'OReb%',
-        offField: 'oreb_pct',
-        offRankField: 'oreb_pct_rank',
-        defField: 'opp_oreb_pct',
-        defRankField: 'opp_oreb_pct_rank',
-        format: pctFmt,
-      },
-      {
-        label: 'FTr',
-        offField: 'fta_rate',
-        offRankField: 'fta_rate_rank',
-        defField: 'opp_fta_rate',
-        defRankField: 'opp_fta_rate_rank',
-        format: pctFmt,
-      },
+      { label: 'AST%', hawks: 'ast_pct_off',   hawksRank: 'ast_pct_off_rank',   opp: 'ast_pct_def',       oppRank: 'ast_pct_def_rank',       format: pctFmt },
+      { label: 'TOV%', hawks: 'tov_pct',       hawksRank: 'tov_pct_rank',       opp: 'opp_tov_pct',       oppRank: 'opp_tov_pct_rank',       format: pctFmt },
+      { label: 'STL%', hawks: 'stl_pct_def',   hawksRank: 'stl_pct_def_rank',   opp: 'stl_pct_off',       oppRank: 'stl_pct_off_rank',       format: pctFmt },
     ],
   },
   {
-    name: 'SHOOTING EFFICIENCY',
+    name: 'REBOUNDING & RIM PROTECTION',
     stats: [
-      {
-        label: 'Rim%',
-        offField: 'rim_fg_pct',
-        offRankField: 'rim_fg_pct_rank',
-        defField: 'opp_rim_fg_pct',
-        defRankField: 'opp_rim_fg_pct_rank',
-        format: pctFmt,
-      },
-      {
-        label: 'Mid%',
-        offField: 'mid_fg_pct',
-        offRankField: 'mid_fg_pct_rank',
-        defField: 'opp_mid_fg_pct',
-        defRankField: 'opp_mid_fg_pct_rank',
-        format: pctFmt,
-      },
-      {
-        label: '3P%',
-        offField: 'fg3_pct',
-        offRankField: 'fg3_pct_rank',
-        defField: 'opp_fg3_pct',
-        defRankField: 'opp_fg3_pct_rank',
-        format: pctFmt,
-      },
-      {
-        label: 'FT%',
-        offField: 'ft_pct',
-        offRankField: 'ft_pct_rank',
-        defField: 'opp_ft_pct',
-        defRankField: 'opp_ft_pct_rank',
-        format: pctFmt,
-      },
-    ],
-  },
-  {
-    name: 'MISC',
-    stats: [
-      {
-        label: 'AST%',
-        offField: 'ast_pct_off',
-        offRankField: 'ast_pct_off_rank',
-        defField: 'ast_pct_def',
-        defRankField: 'ast_pct_def_rank',
-        format: pctFmt,
-      },
-      {
-        label: 'STL%',
-        offField: 'stl_pct_off',
-        offRankField: 'stl_pct_off_rank',
-        defField: 'stl_pct_def',
-        defRankField: 'stl_pct_def_rank',
-        format: pctFmt,
-      },
-      {
-        label: 'BLK%',
-        offField: 'blk_pct_off',
-        offRankField: 'blk_pct_off_rank',
-        defField: 'blk_pct_def',
-        defRankField: 'blk_pct_def_rank',
-        format: pctFmt,
-      },
+      { label: 'OReb%', hawks: 'oreb_pct',    hawksRank: 'oreb_pct_rank',    opp: 'opp_oreb_pct',    oppRank: 'opp_oreb_pct_rank',    format: pctFmt },
+      { label: 'DReb%', hawks: 'dreb_pct',    hawksRank: 'dreb_pct_rank',    opp: 'opp_dreb_pct',    oppRank: 'opp_dreb_pct_rank',    format: pctFmt },
+      { label: 'BLK%',  hawks: 'blk_pct_def', hawksRank: 'blk_pct_def_rank', opp: 'blk_pct_off',     oppRank: 'blk_pct_off_rank',     format: pctFmt },
     ],
   },
 ]
@@ -130,64 +54,86 @@ export default function TeamStats({ team, allTeams }) {
   if (!team || !allTeams) return null
 
   return (
-    <section className="team-stats">
-      {SECTIONS.map((section) => (
-        <div className="ts-section" key={section.name}>
-          <div className="ts-section-name">{section.name}</div>
-          <div className="ts-off-def-head">
-            <span>Offense</span>
-            <span>Defense</span>
-          </div>
-          {section.stats.map((stat) => (
-            <StatRow
-              key={stat.label}
-              stat={stat}
-              team={team}
-              allTeams={allTeams}
-            />
-          ))}
+    <>
+      <section className="ts-legend">
+        <span className="ts-legend-swatch" aria-hidden="true">●</span>
+        <span>Each dot shows where a team ranks across the league. The number inside the red dot is the Hawks' rank.</span>
+      </section>
+
+      {/* Standalone OVERALL block */}
+      <section className="team-stats">
+        <div className="ts-section">
+          <div className="ts-section-name">{OVERALL.name}</div>
+          <StatLine
+            stat={OVERALL.stat}
+            field={OVERALL.stat.field}
+            rankField={OVERALL.stat.rankField}
+            team={team}
+            allTeams={allTeams}
+          />
         </div>
-      ))}
-    </section>
+      </section>
+
+      {/* Paired table — Hawks column | Opponents column */}
+      <section className="team-stats">
+        <div className="ts-pair-header">
+          <span>Hawks</span>
+          <span>Opponents</span>
+        </div>
+        {PAIRED_SECTIONS.map((section) => (
+          <div className="ts-paired-section" key={section.name}>
+            <div className="ts-section-name">{section.name}</div>
+            <div className="ts-two-cols">
+              <div className="ts-col ts-col-hawks">
+                {section.stats.map((stat) => (
+                  <StatLine
+                    key={stat.label}
+                    stat={stat}
+                    field={stat.hawks}
+                    rankField={stat.hawksRank}
+                    team={team}
+                    allTeams={allTeams}
+                  />
+                ))}
+              </div>
+              <div className="ts-col ts-col-opp">
+                {section.stats.map((stat) => (
+                  <StatLine
+                    key={stat.label}
+                    stat={stat}
+                    field={stat.opp}
+                    rankField={stat.oppRank}
+                    team={team}
+                    allTeams={allTeams}
+                  />
+                ))}
+              </div>
+            </div>
+          </div>
+        ))}
+      </section>
+    </>
   )
 }
 
-function StatRow({ stat, team, allTeams }) {
-  const offValue = team[stat.offField]
-  const offRank = team[stat.offRankField]
-  const offValues = buildValues(allTeams, stat.offField)
-
-  const hasDef = stat.defField != null
-  const defValue = hasDef ? team[stat.defField] : null
-  const defRank = hasDef ? team[stat.defRankField] : null
-  const defValues = hasDef ? buildValues(allTeams, stat.defField) : []
+function StatLine({ stat, field, rankField, team, allTeams }) {
+  const value = team[field]
+  const rank = team[rankField]
+  const values = buildValues(allTeams, field)
 
   return (
     <div className="ts-row">
+      <div className="ts-label">{stat.label}</div>
       <div className="ts-plot">
         <DotPlot
-          values={offValues}
+          values={values}
           hawksId={team.id}
-          hawksRank={offRank}
+          hawksRank={rank}
           format={stat.format}
         />
       </div>
       <div className="ts-value">
-        {offValue != null ? stat.format(offValue) : '—'}
-      </div>
-      <div className="ts-label">{stat.label}</div>
-      <div className="ts-value">
-        {hasDef && defValue != null ? stat.format(defValue) : ''}
-      </div>
-      <div className="ts-plot">
-        {hasDef && (
-          <DotPlot
-            values={defValues}
-            hawksId={team.id}
-            hawksRank={defRank}
-            format={stat.format}
-          />
-        )}
+        {value != null ? stat.format(value) : '—'}
       </div>
     </div>
   )

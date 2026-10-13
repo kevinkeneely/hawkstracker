@@ -247,12 +247,13 @@ code {
 /* ---------- Team Stats section ---------- */
 
 .team-stats {
-  margin: 32px 0;
+  margin: 24px 0;
   text-align: left;
 }
 
-.ts-section {
-  margin-bottom: 28px;
+.ts-section,
+.ts-paired-section {
+  margin-bottom: 24px;
 }
 
 .ts-section-name {
@@ -265,40 +266,70 @@ code {
   border-bottom: 1px solid var(--border);
 }
 
-.ts-off-def-head {
+/* Hawks | Opponents header row (above all paired sections) */
+.ts-pair-header {
   display: grid;
-  grid-template-columns: 1fr auto 1fr;
-  font-size: 11px;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  font-size: 13px;
+  font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 0.6px;
-  color: var(--text);
-  margin-bottom: 8px;
+  letter-spacing: 0.8px;
+  margin-bottom: 12px;
 }
 
-.ts-off-def-head span:first-child {
-  text-align: right;
-  padding-right: 80px;
+.ts-pair-header span {
+  text-align: center;
+  padding: 6px 0;
 }
 
-.ts-off-def-head span:last-child {
-  text-align: left;
-  padding-left: 80px;
+.ts-pair-header span:first-child {
+  color: #E03A3E;
 }
 
+.ts-pair-header span:last-child {
+  color: #4A90E2;
+}
+
+/* Two columns side by side within each paired section */
+.ts-two-cols {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.ts-col {
+  padding: 10px 12px;
+  border: 2px solid;
+  border-radius: 8px;
+}
+
+.ts-col-hawks {
+  border-color: #E03A3E;
+}
+
+.ts-col-opp {
+  border-color: #4A90E2;
+}
+
+/* Simple label | plot | value row (same shape inside Hawks and Opp columns) */
 .ts-row {
   display: grid;
-  grid-template-columns: 1fr 60px 70px 60px 1fr;
+  grid-template-columns: 70px 1fr 60px;
   align-items: center;
-  gap: 8px;
-  padding: 6px 0;
+  gap: 10px;
+  padding: 4px 0;
+}
+
+.ts-label {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-h);
 }
 
 .ts-plot {
   display: flex;
-}
-
-.ts-plot:first-child {
-  justify-content: flex-end;
+  justify-content: center;
 }
 
 .ts-value {
@@ -306,24 +337,36 @@ code {
   font-size: 14px;
   font-variant-numeric: tabular-nums;
   color: var(--text-h);
-  text-align: center;
+  text-align: right;
 }
 
-.ts-label {
+.ts-legend {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 14px;
+  margin: 24px 0 16px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--code-bg);
+  color: var(--text);
   font-size: 13px;
-  font-weight: 600;
-  color: var(--text-h);
-  text-align: center;
 }
 
-@media (max-width: 768px) {
-  .ts-row {
-    grid-template-columns: 1fr 50px 60px 50px 1fr;
+.ts-legend-swatch {
+  color: #E03A3E;
+  font-size: 18px;
+  line-height: 1;
+}
+
+@media (max-width: 900px) {
+  .ts-two-cols {
+    grid-template-columns: 1fr;
   }
-  .ts-off-def-head span:first-child { padding-right: 60px; }
-  .ts-off-def-head span:last-child { padding-left: 60px; }
+  .ts-row {
+    grid-template-columns: 70px 1fr 60px;
+  }
 }
-
 /* ---------- Dot plot ---------- */
 
 .dot-plot {

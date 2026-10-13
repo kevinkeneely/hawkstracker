@@ -1,6 +1,6 @@
 {
   "season": "2025-26",
-  "updated": "2026-10-12",
+  "updated": "2026-10-13",
   "teams": [
     {
       "id": 1610612760,
@@ -84,6 +84,9 @@
       "stl_pct_def": 0.09664242303477133,
       "blk_pct_off": 0.08593750000000001,
       "blk_pct_def": 0.11111111111111109,
+      "opp_ts_pct": 0.5502507552357354,
+      "dreb_pct": 0.6970000000000001,
+      "opp_dreb_pct": 0.736,
       "ast_pct_off_rank": 25,
       "ast_pct_def_rank": 24,
       "stl_pct_off_rank": 4,
@@ -95,7 +98,10 @@
       "mid_fg_pct_rank": 1,
       "opp_mid_fg_pct_rank": 1,
       "opp_fg3_pct_rank": 25,
-      "opp_ft_pct_rank": 1
+      "opp_ft_pct_rank": 1,
+      "opp_ts_pct_rank": 1,
+      "dreb_pct_rank": 13,
+      "opp_dreb_pct_rank": 28
     },
     {
       "id": 1610612759,
@@ -179,6 +185,9 @@
       "stl_pct_def": 0.0744638602065131,
       "blk_pct_off": 0.08846153846153844,
       "blk_pct_def": 0.10147601476014761,
+      "opp_ts_pct": 0.5561699085403277,
+      "dreb_pct": 0.724,
+      "opp_dreb_pct": 0.694,
       "ast_pct_off_rank": 13,
       "ast_pct_def_rank": 16,
       "stl_pct_off_rank": 6,
@@ -190,7 +199,10 @@
       "mid_fg_pct_rank": 7,
       "opp_mid_fg_pct_rank": 21,
       "opp_fg3_pct_rank": 9,
-      "opp_ft_pct_rank": 21
+      "opp_ft_pct_rank": 21,
+      "opp_ts_pct_rank": 2,
+      "dreb_pct_rank": 1,
+      "opp_dreb_pct_rank": 12
     },
     {
       "id": 1610612765,
@@ -274,6 +286,9 @@
       "stl_pct_def": 0.10412494993992792,
       "blk_pct_off": 0.09897610921501707,
       "blk_pct_def": 0.1322314049586777,
+      "opp_ts_pct": 0.5640258236547324,
+      "dreb_pct": 0.6890000000000001,
+      "opp_dreb_pct": 0.646,
       "ast_pct_off_rank": 16,
       "ast_pct_def_rank": 5,
       "stl_pct_off_rank": 24,
@@ -285,7 +300,10 @@
       "mid_fg_pct_rank": 14,
       "opp_mid_fg_pct_rank": 6,
       "opp_fg3_pct_rank": 1,
-      "opp_ft_pct_rank": 18
+      "opp_ft_pct_rank": 18,
+      "opp_ts_pct_rank": 5,
+      "dreb_pct_rank": 20,
+      "opp_dreb_pct_rank": 3
     },
     {
       "id": 1610612738,
@@ -369,6 +387,9 @@
       "stl_pct_def": 0.0742833228708935,
       "blk_pct_off": 0.08523908523908523,
       "blk_pct_def": 0.10482180293501049,
+      "opp_ts_pct": 0.5574214846879647,
+      "dreb_pct": 0.71,
+      "opp_dreb_pct": 0.6639999999999999,
       "ast_pct_off_rank": 30,
       "ast_pct_def_rank": 21,
       "stl_pct_off_rank": 1,
@@ -380,7 +401,10 @@
       "mid_fg_pct_rank": 18,
       "opp_mid_fg_pct_rank": 17,
       "opp_fg3_pct_rank": 15,
-      "opp_ft_pct_rank": 8
+      "opp_ft_pct_rank": 8,
+      "opp_ts_pct_rank": 3,
+      "dreb_pct_rank": 5,
+      "opp_dreb_pct_rank": 5
     },
     {
       "id": 1610612743,
@@ -464,6 +488,9 @@
       "stl_pct_def": 0.06834857774650718,
       "blk_pct_off": 0.08846153846153845,
       "blk_pct_def": 0.07677543186180422,
+      "opp_ts_pct": 0.5764725505567906,
+      "dreb_pct": 0.7170000000000001,
+      "opp_dreb_pct": 0.714,
       "ast_pct_off_rank": 9,
       "ast_pct_def_rank": 22,
       "stl_pct_off_rank": 7,
@@ -475,7 +502,10 @@
       "mid_fg_pct_rank": 3,
       "opp_mid_fg_pct_rank": 11,
       "opp_fg3_pct_rank": 3,
-      "opp_ft_pct_rank": 4
+      "opp_ft_pct_rank": 4,
+      "opp_ts_pct_rank": 9,
+      "dreb_pct_rank": 3,
+      "opp_dreb_pct_rank": 22
     },
     {
       "id": 1610612747,
@@ -559,6 +589,9 @@
       "stl_pct_def": 0.08566821205402136,
       "blk_pct_off": 0.06889763779527558,
       "blk_pct_def": 0.08317214700193425,
+      "opp_ts_pct": 0.5880413690489752,
+      "dreb_pct": 0.7,
+      "opp_dreb_pct": 0.7150000000000001,
       "ast_pct_off_rank": 19,
       "ast_pct_def_rank": 23,
       "stl_pct_off_rank": 25,
@@ -570,7 +603,10 @@
       "mid_fg_pct_rank": 4,
       "opp_mid_fg_pct_rank": 29,
       "opp_fg3_pct_rank": 8,
-      "opp_ft_pct_rank": 22
+      "opp_ft_pct_rank": 22,
+      "opp_ts_pct_rank": 22,
+      "dreb_pct_rank": 12,
+      "opp_dreb_pct_rank": 23
     },
     {
       "id": 1610612752,
@@ -654,6 +690,9 @@
       "stl_pct_def": 0.0828983727356463,
       "blk_pct_off": 0.08398437499999999,
       "blk_pct_def": 0.08280254777070063,
+      "opp_ts_pct": 0.5766251559401817,
+      "dreb_pct": 0.7150000000000001,
+      "opp_dreb_pct": 0.6719999999999999,
       "ast_pct_off_rank": 15,
       "ast_pct_def_rank": 13,
       "stl_pct_off_rank": 3,
@@ -665,7 +704,10 @@
       "mid_fg_pct_rank": 5,
       "opp_mid_fg_pct_rank": 7,
       "opp_fg3_pct_rank": 20,
-      "opp_ft_pct_rank": 12
+      "opp_ft_pct_rank": 12,
+      "opp_ts_pct_rank": 10,
+      "dreb_pct_rank": 4,
+      "opp_dreb_pct_rank": 7
     },
     {
       "id": 1610612739,
@@ -749,6 +791,9 @@
       "stl_pct_def": 0.08440913604766634,
       "blk_pct_off": 0.08565737051792828,
       "blk_pct_def": 0.09803921568627452,
+      "opp_ts_pct": 0.5804206977739167,
+      "dreb_pct": 0.692,
+      "opp_dreb_pct": 0.6930000000000001,
       "ast_pct_off_rank": 11,
       "ast_pct_def_rank": 25,
       "stl_pct_off_rank": 16,
@@ -760,7 +805,10 @@
       "mid_fg_pct_rank": 2,
       "opp_mid_fg_pct_rank": 19,
       "opp_fg3_pct_rank": 26,
-      "opp_ft_pct_rank": 25
+      "opp_ft_pct_rank": 25,
+      "opp_ts_pct_rank": 17,
+      "dreb_pct_rank": 18,
+      "opp_dreb_pct_rank": 9
     },
     {
       "id": 1610612745,
@@ -844,6 +892,9 @@
       "stl_pct_def": 0.08764693751288925,
       "blk_pct_off": 0.08061749571183534,
       "blk_pct_def": 0.11005692599620492,
+      "opp_ts_pct": 0.5628399553330211,
+      "dreb_pct": 0.7010000000000001,
+      "opp_dreb_pct": 0.612,
       "ast_pct_off_rank": 27,
       "ast_pct_def_rank": 2,
       "stl_pct_off_rank": 27,
@@ -855,7 +906,10 @@
       "mid_fg_pct_rank": 19,
       "opp_mid_fg_pct_rank": 4,
       "opp_fg3_pct_rank": 7,
-      "opp_ft_pct_rank": 2
+      "opp_ft_pct_rank": 2,
+      "opp_ts_pct_rank": 4,
+      "dreb_pct_rank": 11,
+      "opp_dreb_pct_rank": 1
     },
     {
       "id": 1610612750,
@@ -939,6 +993,9 @@
       "stl_pct_def": 0.0857142857142857,
       "blk_pct_off": 0.07992202729044834,
       "blk_pct_def": 0.10412926391382404,
+      "opp_ts_pct": 0.568283384298336,
+      "dreb_pct": 0.6910000000000001,
+      "opp_dreb_pct": 0.698,
       "ast_pct_off_rank": 21,
       "ast_pct_def_rank": 8,
       "stl_pct_off_rank": 13,
@@ -950,7 +1007,10 @@
       "mid_fg_pct_rank": 15,
       "opp_mid_fg_pct_rank": 9,
       "opp_fg3_pct_rank": 14,
-      "opp_ft_pct_rank": 13
+      "opp_ft_pct_rank": 13,
+      "opp_ts_pct_rank": 6,
+      "dreb_pct_rank": 19,
+      "opp_dreb_pct_rank": 14
     },
     {
       "id": 1610612737,
@@ -1034,6 +1094,9 @@
       "stl_pct_def": 0.09170731707317073,
       "blk_pct_off": 0.09333333333333334,
       "blk_pct_def": 0.08851224105461393,
+      "opp_ts_pct": 0.5821693960373937,
+      "dreb_pct": 0.702,
+      "opp_dreb_pct": 0.7090000000000001,
       "ast_pct_off_rank": 4,
       "ast_pct_def_rank": 7,
       "stl_pct_off_rank": 14,
@@ -1045,7 +1108,10 @@
       "mid_fg_pct_rank": 9,
       "opp_mid_fg_pct_rank": 13,
       "opp_fg3_pct_rank": 12,
-      "opp_ft_pct_rank": 24
+      "opp_ft_pct_rank": 24,
+      "opp_ts_pct_rank": 18,
+      "dreb_pct_rank": 9,
+      "opp_dreb_pct_rank": 20
     },
     {
       "id": 1610612761,
@@ -1129,6 +1195,9 @@
       "stl_pct_def": 0.08869179600886919,
       "blk_pct_off": 0.08880994671403196,
       "blk_pct_def": 0.09599999999999999,
+      "opp_ts_pct": 0.5796044513787763,
+      "dreb_pct": 0.6930000000000001,
+      "opp_dreb_pct": 0.7,
       "ast_pct_off_rank": 3,
       "ast_pct_def_rank": 4,
       "stl_pct_off_rank": 8,
@@ -1140,7 +1209,10 @@
       "mid_fg_pct_rank": 6,
       "opp_mid_fg_pct_rank": 5,
       "opp_fg3_pct_rank": 4,
-      "opp_ft_pct_rank": 23
+      "opp_ft_pct_rank": 23,
+      "opp_ts_pct_rank": 15,
+      "dreb_pct_rank": 16,
+      "opp_dreb_pct_rank": 16
     },
     {
       "id": 1610612753,
@@ -1224,6 +1296,9 @@
       "stl_pct_def": 0.0845266507557677,
       "blk_pct_off": 0.09963099630996311,
       "blk_pct_def": 0.08801498127340823,
+      "opp_ts_pct": 0.5830943372674385,
+      "dreb_pct": 0.71,
+      "opp_dreb_pct": 0.694,
       "ast_pct_off_rank": 12,
       "ast_pct_def_rank": 3,
       "stl_pct_off_rank": 12,
@@ -1235,7 +1310,10 @@
       "mid_fg_pct_rank": 10,
       "opp_mid_fg_pct_rank": 18,
       "opp_fg3_pct_rank": 10,
-      "opp_ft_pct_rank": 14
+      "opp_ft_pct_rank": 14,
+      "opp_ts_pct_rank": 19,
+      "dreb_pct_rank": 6,
+      "opp_dreb_pct_rank": 10
     },
     {
       "id": 1610612755,
@@ -1319,6 +1397,9 @@
       "stl_pct_def": 0.09064647873294153,
       "blk_pct_off": 0.09272727272727273,
       "blk_pct_def": 0.11025145067698261,
+      "opp_ts_pct": 0.5790842548138312,
+      "dreb_pct": 0.6779999999999999,
+      "opp_dreb_pct": 0.694,
       "ast_pct_off_rank": 28,
       "ast_pct_def_rank": 28,
       "stl_pct_off_rank": 2,
@@ -1330,7 +1411,10 @@
       "mid_fg_pct_rank": 11,
       "opp_mid_fg_pct_rank": 14,
       "opp_fg3_pct_rank": 11,
-      "opp_ft_pct_rank": 16
+      "opp_ft_pct_rank": 16,
+      "opp_ts_pct_rank": 13,
+      "dreb_pct_rank": 26,
+      "opp_dreb_pct_rank": 11
     },
     {
       "id": 1610612756,
@@ -1414,6 +1498,9 @@
       "stl_pct_def": 0.09680048909720806,
       "blk_pct_off": 0.09127789046653144,
       "blk_pct_def": 0.08333333333333334,
+      "opp_ts_pct": 0.5793511934113116,
+      "dreb_pct": 0.677,
+      "opp_dreb_pct": 0.669,
       "ast_pct_off_rank": 23,
       "ast_pct_def_rank": 6,
       "stl_pct_off_rank": 11,
@@ -1425,7 +1512,10 @@
       "mid_fg_pct_rank": 12,
       "opp_mid_fg_pct_rank": 16,
       "opp_fg3_pct_rank": 2,
-      "opp_ft_pct_rank": 17
+      "opp_ft_pct_rank": 17,
+      "opp_ts_pct_rank": 14,
+      "dreb_pct_rank": 27,
+      "opp_dreb_pct_rank": 6
     },
     {
       "id": 1610612766,
@@ -1509,6 +1599,9 @@
       "stl_pct_def": 0.07172866072343477,
       "blk_pct_off": 0.09649122807017543,
       "blk_pct_def": 0.08620689655172413,
+      "opp_ts_pct": 0.5739483284642696,
+      "dreb_pct": 0.722,
+      "opp_dreb_pct": 0.642,
       "ast_pct_off_rank": 14,
       "ast_pct_def_rank": 10,
       "stl_pct_off_rank": 15,
@@ -1520,7 +1613,10 @@
       "mid_fg_pct_rank": 29,
       "opp_mid_fg_pct_rank": 8,
       "opp_fg3_pct_rank": 17,
-      "opp_ft_pct_rank": 28
+      "opp_ft_pct_rank": 28,
+      "opp_ts_pct_rank": 7,
+      "dreb_pct_rank": 2,
+      "opp_dreb_pct_rank": 2
     },
     {
       "id": 1610612748,
@@ -1604,6 +1700,9 @@
       "stl_pct_def": 0.0825177509115333,
       "blk_pct_off": 0.0884476534296029,
       "blk_pct_def": 0.07962962962962962,
+      "opp_ts_pct": 0.5762452733299099,
+      "dreb_pct": 0.7030000000000001,
+      "opp_dreb_pct": 0.704,
       "ast_pct_off_rank": 10,
       "ast_pct_def_rank": 12,
       "stl_pct_off_rank": 5,
@@ -1615,7 +1714,10 @@
       "mid_fg_pct_rank": 26,
       "opp_mid_fg_pct_rank": 3,
       "opp_fg3_pct_rank": 18,
-      "opp_ft_pct_rank": 30
+      "opp_ft_pct_rank": 30,
+      "opp_ts_pct_rank": 8,
+      "dreb_pct_rank": 8,
+      "opp_dreb_pct_rank": 19
     },
     {
       "id": 1610612746,
@@ -1699,6 +1801,9 @@
       "stl_pct_def": 0.09250693802035152,
       "blk_pct_off": 0.09236947791164658,
       "blk_pct_def": 0.09589041095890412,
+      "opp_ts_pct": 0.5801252988212019,
+      "dreb_pct": 0.681,
+      "opp_dreb_pct": 0.716,
       "ast_pct_off_rank": 29,
       "ast_pct_def_rank": 15,
       "stl_pct_off_rank": 20,
@@ -1710,7 +1815,10 @@
       "mid_fg_pct_rank": 17,
       "opp_mid_fg_pct_rank": 2,
       "opp_fg3_pct_rank": 21,
-      "opp_ft_pct_rank": 26
+      "opp_ft_pct_rank": 26,
+      "opp_ts_pct_rank": 16,
+      "dreb_pct_rank": 25,
+      "opp_dreb_pct_rank": 25
     },
     {
       "id": 1610612757,
@@ -1794,6 +1902,9 @@
       "stl_pct_def": 0.08166879858309556,
       "blk_pct_off": 0.11899791231732779,
       "blk_pct_def": 0.10128913443830571,
+      "opp_ts_pct": 0.5790728241983711,
+      "dreb_pct": 0.688,
+      "opp_dreb_pct": 0.646,
       "ast_pct_off_rank": 18,
       "ast_pct_def_rank": 9,
       "stl_pct_off_rank": 30,
@@ -1805,7 +1916,10 @@
       "mid_fg_pct_rank": 27,
       "opp_mid_fg_pct_rank": 20,
       "opp_fg3_pct_rank": 16,
-      "opp_ft_pct_rank": 20
+      "opp_ft_pct_rank": 20,
+      "opp_ts_pct_rank": 12,
+      "dreb_pct_rank": 21,
+      "opp_dreb_pct_rank": 4
     },
     {
       "id": 1610612744,
@@ -1889,6 +2003,9 @@
       "stl_pct_def": 0.09695152423788106,
       "blk_pct_off": 0.09395973154362418,
       "blk_pct_def": 0.0801526717557252,
+      "opp_ts_pct": 0.5883768362413654,
+      "dreb_pct": 0.6839999999999999,
+      "opp_dreb_pct": 0.698,
       "ast_pct_off_rank": 1,
       "ast_pct_def_rank": 17,
       "stl_pct_off_rank": 21,
@@ -1900,7 +2017,10 @@
       "mid_fg_pct_rank": 23,
       "opp_mid_fg_pct_rank": 26,
       "opp_fg3_pct_rank": 19,
-      "opp_ft_pct_rank": 29
+      "opp_ft_pct_rank": 29,
+      "opp_ts_pct_rank": 23,
+      "dreb_pct_rank": 24,
+      "opp_dreb_pct_rank": 13
     },
     {
       "id": 1610612749,
@@ -1984,6 +2104,9 @@
       "stl_pct_def": 0.07525678836570732,
       "blk_pct_off": 0.08836206896551724,
       "blk_pct_def": 0.08281573498964803,
+      "opp_ts_pct": 0.5935854071012004,
+      "dreb_pct": 0.6950000000000001,
+      "opp_dreb_pct": 0.737,
       "ast_pct_off_rank": 17,
       "ast_pct_def_rank": 29,
       "stl_pct_off_rank": 23,
@@ -1995,7 +2118,10 @@
       "mid_fg_pct_rank": 13,
       "opp_mid_fg_pct_rank": 23,
       "opp_fg3_pct_rank": 28,
-      "opp_ft_pct_rank": 15
+      "opp_ft_pct_rank": 15,
+      "opp_ts_pct_rank": 25,
+      "dreb_pct_rank": 15,
+      "opp_dreb_pct_rank": 30
     },
     {
       "id": 1610612741,
@@ -2079,6 +2205,9 @@
       "stl_pct_def": 0.0736291416392172,
       "blk_pct_off": 0.1111111111111111,
       "blk_pct_def": 0.09009009009009009,
+      "opp_ts_pct": 0.585255266671201,
+      "dreb_pct": 0.708,
+      "opp_dreb_pct": 0.721,
       "ast_pct_off_rank": 7,
       "ast_pct_def_rank": 20,
       "stl_pct_off_rank": 22,
@@ -2090,7 +2219,10 @@
       "mid_fg_pct_rank": 20,
       "opp_mid_fg_pct_rank": 24,
       "opp_fg3_pct_rank": 23,
-      "opp_ft_pct_rank": 6
+      "opp_ft_pct_rank": 6,
+      "opp_ts_pct_rank": 20,
+      "dreb_pct_rank": 7,
+      "opp_dreb_pct_rank": 26
     },
     {
       "id": 1610612742,
@@ -2174,6 +2306,9 @@
       "stl_pct_def": 0.0730851685831222,
       "blk_pct_off": 0.09153713298791019,
       "blk_pct_def": 0.09075043630017453,
+      "opp_ts_pct": 0.5770934286081773,
+      "dreb_pct": 0.702,
+      "opp_dreb_pct": 0.721,
       "ast_pct_off_rank": 22,
       "ast_pct_def_rank": 11,
       "stl_pct_off_rank": 17,
@@ -2185,7 +2320,10 @@
       "mid_fg_pct_rank": 25,
       "opp_mid_fg_pct_rank": 25,
       "opp_fg3_pct_rank": 5,
-      "opp_ft_pct_rank": 3
+      "opp_ft_pct_rank": 3,
+      "opp_ts_pct_rank": 11,
+      "dreb_pct_rank": 10,
+      "opp_dreb_pct_rank": 27
     },
     {
       "id": 1610612740,
@@ -2269,6 +2407,9 @@
       "stl_pct_def": 0.08779717865246128,
       "blk_pct_off": 0.09931506849315068,
       "blk_pct_def": 0.1015625,
+      "opp_ts_pct": 0.5876028491060171,
+      "dreb_pct": 0.6739999999999999,
+      "opp_dreb_pct": 0.6890000000000001,
       "ast_pct_off_rank": 26,
       "ast_pct_def_rank": 19,
       "stl_pct_off_rank": 9,
@@ -2280,7 +2421,10 @@
       "mid_fg_pct_rank": 30,
       "opp_mid_fg_pct_rank": 10,
       "opp_fg3_pct_rank": 6,
-      "opp_ft_pct_rank": 7
+      "opp_ft_pct_rank": 7,
+      "opp_ts_pct_rank": 21,
+      "dreb_pct_rank": 28,
+      "opp_dreb_pct_rank": 8
     },
     {
       "id": 1610612763,
@@ -2364,6 +2508,9 @@
       "stl_pct_def": 0.08653751597993904,
       "blk_pct_off": 0.10371819960861058,
       "blk_pct_def": 0.0916030534351145,
+      "opp_ts_pct": 0.5946370536428638,
+      "dreb_pct": 0.663,
+      "opp_dreb_pct": 0.6990000000000001,
       "ast_pct_off_rank": 6,
       "ast_pct_def_rank": 18,
       "stl_pct_off_rank": 18,
@@ -2375,7 +2522,10 @@
       "mid_fg_pct_rank": 22,
       "opp_mid_fg_pct_rank": 22,
       "opp_fg3_pct_rank": 22,
-      "opp_ft_pct_rank": 10
+      "opp_ft_pct_rank": 10,
+      "opp_ts_pct_rank": 26,
+      "dreb_pct_rank": 30,
+      "opp_dreb_pct_rank": 15
     },
     {
       "id": 1610612758,
@@ -2459,6 +2609,9 @@
       "stl_pct_def": 0.07990411506192568,
       "blk_pct_off": 0.07993197278911565,
       "blk_pct_def": 0.08571428571428572,
+      "opp_ts_pct": 0.6066388956404623,
+      "dreb_pct": 0.685,
+      "opp_dreb_pct": 0.702,
       "ast_pct_off_rank": 20,
       "ast_pct_def_rank": 14,
       "stl_pct_off_rank": 19,
@@ -2470,7 +2623,10 @@
       "mid_fg_pct_rank": 16,
       "opp_mid_fg_pct_rank": 27,
       "opp_fg3_pct_rank": 29,
-      "opp_ft_pct_rank": 19
+      "opp_ft_pct_rank": 19,
+      "opp_ts_pct_rank": 28,
+      "dreb_pct_rank": 23,
+      "opp_dreb_pct_rank": 17
     },
     {
       "id": 1610612762,
@@ -2554,6 +2710,9 @@
       "stl_pct_def": 0.08595711802202047,
       "blk_pct_off": 0.10661764705882354,
       "blk_pct_def": 0.07584830339321356,
+      "opp_ts_pct": 0.6121415299200789,
+      "dreb_pct": 0.6930000000000001,
+      "opp_dreb_pct": 0.702,
       "ast_pct_off_rank": 2,
       "ast_pct_def_rank": 30,
       "stl_pct_off_rank": 26,
@@ -2565,7 +2724,10 @@
       "mid_fg_pct_rank": 24,
       "opp_mid_fg_pct_rank": 28,
       "opp_fg3_pct_rank": 27,
-      "opp_ft_pct_rank": 11
+      "opp_ft_pct_rank": 11,
+      "opp_ts_pct_rank": 30,
+      "dreb_pct_rank": 17,
+      "opp_dreb_pct_rank": 18
     },
     {
       "id": 1610612751,
@@ -2649,6 +2811,9 @@
       "stl_pct_def": 0.0819672131147541,
       "blk_pct_off": 0.11496746203904555,
       "blk_pct_def": 0.083011583011583,
+      "opp_ts_pct": 0.6067572338654929,
+      "dreb_pct": 0.687,
+      "opp_dreb_pct": 0.7130000000000001,
       "ast_pct_off_rank": 8,
       "ast_pct_def_rank": 26,
       "stl_pct_off_rank": 28,
@@ -2660,7 +2825,10 @@
       "mid_fg_pct_rank": 28,
       "opp_mid_fg_pct_rank": 12,
       "opp_fg3_pct_rank": 30,
-      "opp_ft_pct_rank": 9
+      "opp_ft_pct_rank": 9,
+      "opp_ts_pct_rank": 29,
+      "dreb_pct_rank": 22,
+      "opp_dreb_pct_rank": 21
     },
     {
       "id": 1610612754,
@@ -2744,6 +2912,9 @@
       "stl_pct_def": 0.07270583611711535,
       "blk_pct_off": 0.09320388349514563,
       "blk_pct_def": 0.08156028368794326,
+      "opp_ts_pct": 0.591766929547493,
+      "dreb_pct": 0.6950000000000001,
+      "opp_dreb_pct": 0.737,
       "ast_pct_off_rank": 5,
       "ast_pct_def_rank": 1,
       "stl_pct_off_rank": 10,
@@ -2755,7 +2926,10 @@
       "mid_fg_pct_rank": 21,
       "opp_mid_fg_pct_rank": 30,
       "opp_fg3_pct_rank": 13,
-      "opp_ft_pct_rank": 5
+      "opp_ft_pct_rank": 5,
+      "opp_ts_pct_rank": 24,
+      "dreb_pct_rank": 14,
+      "opp_dreb_pct_rank": 29
     },
     {
       "id": 1610612764,
@@ -2839,6 +3013,9 @@
       "stl_pct_def": 0.07805639574592643,
       "blk_pct_off": 0.09999999999999999,
       "blk_pct_def": 0.10036496350364964,
+      "opp_ts_pct": 0.601520937744654,
+      "dreb_pct": 0.6639999999999999,
+      "opp_dreb_pct": 0.7150000000000001,
       "ast_pct_off_rank": 24,
       "ast_pct_def_rank": 27,
       "stl_pct_off_rank": 29,
@@ -2850,7 +3027,10 @@
       "mid_fg_pct_rank": 8,
       "opp_mid_fg_pct_rank": 15,
       "opp_fg3_pct_rank": 24,
-      "opp_ft_pct_rank": 27
+      "opp_ft_pct_rank": 27,
+      "opp_ts_pct_rank": 27,
+      "dreb_pct_rank": 29,
+      "opp_dreb_pct_rank": 24
     }
   ]
 }

@@ -226,6 +226,26 @@ def compute_derived_stats(teams):
         if opp_fga is not None and opp_fg3a is not None and (opp_fga - opp_fg3a) > 0 and blk is not None:
             team["blk_pct_def"] = blk / (opp_fga - opp_fg3a)
 
+        # Opp TS%: opp_pts / (2 * (opp_fga + 0.44 * opp_fta))
+        # opp_fta = opp_fga * opp_fta_rate (since FTr = FTA/FGA)
+        opp_pts = team.get("opp_pts")
+        opp_fta_rate = team.get("opp_fta_rate")
+        if (opp_pts is not None and opp_fga is not None and opp_fga > 0
+                and opp_fta_rate is not None):
+            denom = 2 * opp_fga * (1 + 0.44 * opp_fta_rate)
+            if denom > 0:
+                team["opp_ts_pct"] = opp_pts / denom
+
+        # DReb%: 1 - opp OReb% (opponents' O-reb rate against us)
+        opp_oreb_pct = team.get("opp_oreb_pct")
+        if opp_oreb_pct is not None:
+            team["dreb_pct"] = 1 - opp_oreb_pct
+
+        # Opp DReb%: 1 - our OReb% (our opponents' D-reb rate against us)
+        oreb_pct = team.get("oreb_pct")
+        if oreb_pct is not None:
+            team["opp_dreb_pct"] = 1 - oreb_pct
+
     # Second pass: assign ranks for each derived stat, plus a few native fields
     # that NBA.com doesn't rank (shot_locations and some opponent percentages).
     # For STL/BLK "off" (giveaways/blocked): LOWER is better.
@@ -246,6 +266,9 @@ def compute_derived_stats(teams):
         # Opponent percentages that team_opponent endpoint doesn't rank
         ("opp_fg3_pct", True),       # lower = better defense (opponents miss more 3s)
         ("opp_ft_pct", True),        # lower = better defense (opponents miss more FTs)
+        ("opp_ts_pct", True),        # lower = better defense (opponents' true shooting)
+        ("dreb_pct", False),         # higher = better rebounding defense
+        ("opp_dreb_pct", True),      # lower = better offensive rebounding help
     ]
     for field, ascending in rank_specs:
         _assign_ranks(teams.values(), field, f"{field}_rank", ascending)
