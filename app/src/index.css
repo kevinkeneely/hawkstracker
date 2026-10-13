@@ -410,3 +410,73 @@ code {
     font-size: 13px;
   }
 }
+/* ---------- Standings ---------- */
+
+.standings {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  margin: 24px 0;
+  text-align: left;
+}
+
+@media (max-width: 900px) {
+  .standings {
+    grid-template-columns: 1fr;
+  }
+}
+
+.conference-name {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--text-h);
+  margin: 0 0 12px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--border);
+}
+
+.standings-table {
+  width: 100%;
+  border-collapse: collapse;
+  color: var(--text);
+  font-size: 14px;
+}
+
+.standings-table th,
+.standings-table td {
+  padding: 6px 8px;
+  border-bottom: 1px solid var(--border);
+  white-space: nowrap;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+.standings-table th {
+  font-weight: 600;
+  color: var(--text-h);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+}
+
+/* # and Team columns left-aligned. */
+.standings-table th:nth-child(1),
+.standings-table th:nth-child(2),
+.standings-table td:nth-child(1),
+.standings-table td:nth-child(2) {
+  text-align: left;
+}
+
+/* Team name uses heading color for emphasis. */
+.standings-table td:nth-child(2) {
+  color: var(--text-h);
+}
+
+/* Hawks row — red tint, same as player table zebra. */
+.standings-table .hawks-row {
+  background: var(--row-alt);
+}
+
+.standings-table .hawks-row td {
+  color: var(--text-h);
+}
