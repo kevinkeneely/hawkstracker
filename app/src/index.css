@@ -171,6 +171,25 @@ code {
   background: var(--row-alt);
 }
 
+/* Percentile-colored cells (PPG, RPG, APG, SPG, BPG, FG%, 3P%, FT%) */
+
+.player-stats td.pctile-cell {
+  color: #fff;
+  font-weight: 500;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+}
+
+/* Faded style for unqualified players (< 200 total minutes). */
+.player-stats td.pctile-cell.faded {
+  opacity: 0.45;
+  background-image: repeating-linear-gradient(
+    135deg,
+    transparent 0,
+    transparent 4px,
+    rgba(255, 255, 255, 0.2) 4px,
+    rgba(255, 255, 255, 0.2) 6px
+  );
+}
 /* ---------- Header stat tiles ---------- */
 
 .header-stats {
