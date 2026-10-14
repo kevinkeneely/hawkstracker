@@ -92,6 +92,16 @@ def fetch_team_endpoint(friendly_name, measure_type, season=SEASON):
         )
     return result.get_dict()
 
+def _fetch_league_base(season=SEASON):
+    """League-wide player base stats (no team filter) — for percentile computation."""
+    result = leaguedashplayerstats.LeagueDashPlayerStats(
+        season=season,
+        per_mode_detailed="PerGame",
+        measure_type_detailed_defense="Base",
+        timeout=TIMEOUT,
+    )
+    return result.get_dict()
+
 def fetch_with_retries(fetch_fn, *args, **kwargs):
     """Call a fetch_* function with retries on network errors.
     Retries MAX_RETRIES times with RETRY_SLEEP seconds between attempts.
@@ -155,6 +165,15 @@ def run():
         rows = count_rows(data)
         print(f"saved {rows} rows → {out_path}")
         time.sleep(RATE_LIMIT_SLEEP)
+
+    # League-wide base stats (all ~500 NBA players, no team filter).
+    # Needed to compute percentile rankings for Hawks players.
+    print("League-wide: 1")
+    print("  → league_base (Base)... ", end="", flush=True)
+    data = fetch_with_retries(_fetch_league_base)
+    out_path = save_raw(data, "league_base")
+    rows = count_rows(data)
+    print(f"saved {rows} rows → {out_path}")
 
     print("Done.")
 
