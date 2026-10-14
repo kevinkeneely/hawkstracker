@@ -284,11 +284,11 @@ code {
 }
 
 .ts-pair-header span:first-child {
-  color: #E03A3E;
+  color: #C8102E;
 }
 
 .ts-pair-header span:last-child {
-  color: #4A90E2;
+  color: #FFC72C;
 }
 
 /* Two columns side by side within each paired section */
@@ -305,11 +305,11 @@ code {
 }
 
 .ts-col-hawks {
-  border-color: #E03A3E;
+  border-color: #C8102E;
 }
 
 .ts-col-opp {
-  border-color: #4A90E2;
+  border-color: #FFC72C;
 }
 
 /* Simple label | plot | value row (same shape inside Hawks and Opp columns) */
@@ -354,7 +354,7 @@ code {
 }
 
 .ts-legend-swatch {
-  color: #E03A3E;
+  color: #C8102E;
   font-size: 18px;
   line-height: 1;
 }
@@ -390,7 +390,7 @@ code {
 }
 
 .dot-plot-hawks {
-  fill: #E03A3E;
+  fill: #C8102E;
   cursor: pointer;
 }
 
@@ -441,7 +441,7 @@ code {
 
 .tab.active {
   color: var(--text-h);
-  border-bottom-color: #E03A3E;
+  border-bottom-color: #C8102E;
 }
 
 @media (max-width: 640px) {
