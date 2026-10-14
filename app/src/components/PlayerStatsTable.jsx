@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 
 export default function PlayerStatsTable({ players }) {
   const [mode, setMode] = useState('per-game') // 'per-game' | 'per-36'
@@ -47,7 +48,7 @@ export default function PlayerStatsTable({ players }) {
               return (
                 <tr key={p.id}>
                   <td>{i + 1}</td>
-                  <td>{p.name}</td>
+                  <td><Link to={`/players/${p.id}`} className="player-link">{p.name}</Link></td>
                   <td>{p.age}</td>
                   <td>{p.gp}</td>
                   <td>{fmt(p.mpg)}</td>

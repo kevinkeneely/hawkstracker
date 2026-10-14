@@ -3,6 +3,7 @@ import { NavLink, Navigate, Route, Routes } from 'react-router-dom'
 import PlayerStatsPage from './pages/PlayerStatsPage'
 import TeamStatsPage from './pages/TeamStatsPage'
 import StandingsPage from './pages/StandingsPage'
+import PlayerProfilePage from './pages/PlayerProfilePage'
 
 const HAWKS_TEAM_ID = 1610612737
 
@@ -58,6 +59,7 @@ function App() {
             <Route path="/players" element={<PlayerStatsPage playerData={playerData} />} />
             <Route path="/team" element={<TeamStatsPage hawks={hawks} teamData={teamData} />} />
             <Route path="/standings" element={<StandingsPage standingsData={standingsData} />} />
+            <Route path="/players/:id" element={<PlayerProfilePage playerData={playerData} />} />
           </Routes>
         )}
       </section>
