@@ -1,56 +1,80 @@
+import { useState } from 'react'
+
 export default function PlayerStatsTable({ players }) {
+  const [mode, setMode] = useState('per-game') // 'per-game' | 'per-36'
+  const suf = mode === 'per-36' ? '_p36' : ''
+
   return (
-    <div className="table-wrap">
-      <table className="player-stats">
-        <thead>
-          <tr>
-            <th>#</th>
-            <th>Player</th>
-            <th>Age</th>
-            <th>GP</th>
-            <th>MPG</th>
-            <th>PPG</th>
-            <th>RPG</th>
-            <th>APG</th>
-            <th>SPG</th>
-            <th>BPG</th>
-            <th>TOV</th>
-            <th>FG%</th>
-            <th>3P%</th>
-            <th>FT%</th>
-          </tr>
-        </thead>
-        <tbody>
-          {players.map((p, i) => {
-            const faded = !p.qualified ? 'faded' : ''
-            return (
-              <tr key={p.id}>
-                <td>{i + 1}</td>
-                <td>{p.name}</td>
-                <td>{p.age}</td>
-                <td>{p.gp}</td>
-                <td>{fmt(p.mpg)}</td>
-                <PctileCell value={fmt(p.ppg)}      pctile={p.ppg_pctile}     faded={faded} />
-                <PctileCell value={fmt(p.rpg)}      pctile={p.rpg_pctile}     faded={faded} />
-                <PctileCell value={fmt(p.apg)}      pctile={p.apg_pctile}     faded={faded} />
-                <PctileCell value={fmt(p.spg)}      pctile={p.spg_pctile}     faded={faded} />
-                <PctileCell value={fmt(p.bpg)}      pctile={p.bpg_pctile}     faded={faded} />
-                <td>{fmt(p.tov)}</td>
-                <PctileCell value={pct(p.fg_pct)}   pctile={p.fg_pct_pctile}  faded={faded} />
-                <PctileCell value={pct(p.fg3_pct)}  pctile={p.fg3_pct_pctile} faded={faded} />
-                <PctileCell value={pct(p.ft_pct)}   pctile={p.ft_pct_pctile}  faded={faded} />
-              </tr>
-            )
-          })}
-        </tbody>
-      </table>
+    <div>
+      <div className="stats-mode-toggle">
+        <button
+          className={`stats-mode-btn ${mode === 'per-game' ? 'active' : ''}`}
+          onClick={() => setMode('per-game')}
+        >
+          Per Game
+        </button>
+        <button
+          className={`stats-mode-btn ${mode === 'per-36' ? 'active' : ''}`}
+          onClick={() => setMode('per-36')}
+        >
+          Per 36
+        </button>
+      </div>
+
+      <div className="table-wrap">
+        <table className="player-stats">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Player</th>
+              <th>Age</th>
+              <th>GP</th>
+              <th>MPG</th>
+              <th>{mode === 'per-36' ? 'PTS' : 'PPG'}</th>
+              <th>{mode === 'per-36' ? 'REB' : 'RPG'}</th>
+              <th>{mode === 'per-36' ? 'AST' : 'APG'}</th>
+              <th>{mode === 'per-36' ? 'STL' : 'SPG'}</th>
+              <th>{mode === 'per-36' ? 'BLK' : 'BPG'}</th>
+              <th>TOV</th>
+              <th>FG%</th>
+              <th>3P%</th>
+              <th>FT%</th>
+            </tr>
+          </thead>
+          <tbody>
+            {players.map((p, i) => {
+              const faded = !p.qualified ? 'faded' : ''
+              return (
+                <tr key={p.id}>
+                  <td>{i + 1}</td>
+                  <td>{p.name}</td>
+                  <td>{p.age}</td>
+                  <td>{p.gp}</td>
+                  <td>{fmt(p.mpg)}</td>
+                  <PctileCell value={fmt(p[`ppg${suf}`])} pctile={p[`ppg${suf}_pctile`]} faded={faded} />
+                  <PctileCell value={fmt(p[`rpg${suf}`])} pctile={p[`rpg${suf}_pctile`]} faded={faded} />
+                  <PctileCell value={fmt(p[`apg${suf}`])} pctile={p[`apg${suf}_pctile`]} faded={faded} />
+                  <PctileCell value={fmt(p[`spg${suf}`])} pctile={p[`spg${suf}_pctile`]} faded={faded} />
+                  <PctileCell value={fmt(p[`bpg${suf}`])} pctile={p[`bpg${suf}_pctile`]} faded={faded} />
+                  <PctileCell value={fmt(p[`tov${suf}`])} pctile={p[`tov${suf}_pctile`]} faded={faded} invert />
+                  <PctileCell value={pct(p.fg_pct)}  pctile={p.fg_pct_pctile}  faded={faded} />
+                  <PctileCell value={pct(p.fg3_pct)} pctile={p.fg3_pct_pctile} faded={faded} />
+                  <PctileCell value={pct(p.ft_pct)}  pctile={p.ft_pct_pctile}  faded={faded} />
+                </tr>
+              )
+            })}
+          </tbody>
+        </table>
+      </div>
     </div>
   )
 }
 
-// A single colored cell. Background interpolates blue → gray → red by percentile.
-function PctileCell({ value, pctile, faded }) {
-  const bg = colorForPctile(pctile)
+// A single colored cell. `invert` flips the gradient (used for TOV where
+// lower is better: low TOV = Torch Red, high TOV = blue).
+function PctileCell({ value, pctile, faded, invert = false }) {
+  const colorPctile = invert && pctile != null ? 1 - pctile : pctile
+  const bg = colorForPctile(colorPctile)
   const className = ['pctile-cell', faded].filter(Boolean).join(' ')
   return (
     <td className={className} style={{ backgroundColor: bg }}>
@@ -59,8 +83,6 @@ function PctileCell({ value, pctile, faded }) {
   )
 }
 
-// Linear interpolation from deep blue (0) through muted mid (0.5) to Torch Red (1).
-// Returns a CSS rgb string, or 'transparent' when percentile is missing.
 function colorForPctile(pctile) {
   if (pctile == null) return 'transparent'
   const BLUE = [63, 81, 181]    // 0th percentile

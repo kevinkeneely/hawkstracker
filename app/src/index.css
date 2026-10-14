@@ -190,6 +190,45 @@ code {
     rgba(255, 255, 255, 0.2) 6px
   );
 }
+
+/* Per Game / Per 36 toggle above the player stats table */
+
+.stats-mode-toggle {
+  display: flex;
+  gap: 2px;
+  justify-content: flex-end;
+  margin: 24px 0 12px;
+}
+
+.stats-mode-btn {
+  padding: 6px 14px;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text);
+  background: transparent;
+  border: 1px solid var(--border);
+  cursor: pointer;
+  transition: color 0.15s, border-color 0.15s, background 0.15s;
+}
+
+.stats-mode-btn:first-child {
+  border-radius: 6px 0 0 6px;
+}
+
+.stats-mode-btn:last-child {
+  border-radius: 0 6px 6px 0;
+  border-left: none;
+}
+
+.stats-mode-btn:hover {
+  color: var(--text-h);
+}
+
+.stats-mode-btn.active {
+  color: #fff;
+  background: #C8102E;
+  border-color: #C8102E;
+}
 /* ---------- Header stat tiles ---------- */
 
 .header-stats {

@@ -109,6 +109,7 @@ PCTILE_STATS = {
     "apg": "AST",
     "spg": "STL",
     "bpg": "BLK",
+    "tov": "TOV",
     "fg_pct": "FG_PCT",
     "fg3_pct": "FG3_PCT",
     "ft_pct": "FT_PCT",
@@ -117,6 +118,9 @@ PCTILE_STATS = {
 # Minimum total minutes played (mpg * gp) for a player to be "qualified".
 # Below this threshold, UI greys out the cells to signal small sample size.
 MIN_PLAYED_THRESHOLD = 200
+
+# Counting stats that convert meaningfully to Per 36. Percentages don't change.
+PER_36_STATS = ["ppg", "rpg", "apg", "spg", "bpg", "tov"]
 
 def load_raw(endpoint_name, season=SEASON, as_of=None):
     """Load today's raw JSON for one endpoint. Returns the parsed dict."""
@@ -135,34 +139,66 @@ def rows_as_dicts(raw):
     return [dict(zip(headers, row)) for row in result_set["rowSet"]]
 
 def compute_percentiles(hawks_players):
-    """Add _pctile fields (0.0-1.0) to each Hawks player, plus a 'qualified' boolean.
+    """Add percentile and Per 36 fields to each Hawks player, plus 'qualified' bool.
 
-    Percentile = fraction of all NBA players with a strictly lower value for
-    that stat. Comparison pool is league_base (all ~500 players, no team filter).
-    qualified = True iff total minutes played (mpg * gp) >= MIN_PLAYED_THRESHOLD.
+    Per-game percentiles (ppg_pctile, etc.) are vs. all NBA players.
+    Per-36 values (ppg_p36, etc.) and their percentiles are computed by
+    scaling each counting stat by 36 / mpg, with the comparison pool being
+    the same scaling applied to every league player.
+    qualified = total minutes played (mpg * gp) >= MIN_PLAYED_THRESHOLD.
     """
     league = rows_as_dicts(load_raw("league_base"))
 
-    # Collect each stat's values across the league (non-null only).
-    league_values = {}
+    # Per-game league values per stat (non-null only).
+    league_values_pg = {}
     for hawks_field, league_col in PCTILE_STATS.items():
-        league_values[hawks_field] = [
+        league_values_pg[hawks_field] = [
             row[league_col] for row in league if row.get(league_col) is not None
         ]
+
+    # Per-36 league values for counting stats (val * 36 / mpg).
+    league_values_p36 = {}
+    for hawks_field in PER_36_STATS:
+        league_col = PCTILE_STATS[hawks_field]
+        values = []
+        for row in league:
+            val = row.get(league_col)
+            mpg = row.get("MIN")
+            if val is None or not mpg:
+                continue
+            values.append(val * 36 / mpg)
+        league_values_p36[hawks_field] = values
 
     for player in hawks_players:
         mpg = player.get("mpg") or 0
         gp = player.get("gp") or 0
         player["qualified"] = (mpg * gp) >= MIN_PLAYED_THRESHOLD
 
+        # Per-game percentiles for every PCTILE_STATS field.
         for hawks_field in PCTILE_STATS:
             value = player.get(hawks_field)
-            values = league_values[hawks_field]
+            values = league_values_pg[hawks_field]
             if value is None or not values:
                 player[f"{hawks_field}_pctile"] = None
                 continue
             below = sum(1 for v in values if v < value)
             player[f"{hawks_field}_pctile"] = below / len(values)
+
+        # Per-36 values + percentiles for counting stats.
+        for hawks_field in PER_36_STATS:
+            value = player.get(hawks_field)
+            if value is None or not mpg:
+                player[f"{hawks_field}_p36"] = None
+                player[f"{hawks_field}_p36_pctile"] = None
+                continue
+            value_p36 = value * 36 / mpg
+            player[f"{hawks_field}_p36"] = value_p36
+            values_p36 = league_values_p36[hawks_field]
+            if not values_p36:
+                player[f"{hawks_field}_p36_pctile"] = None
+                continue
+            below = sum(1 for v in values_p36 if v < value_p36)
+            player[f"{hawks_field}_p36_pctile"] = below / len(values_p36)
 
 def build_players():
     """Read all raw endpoints, merge by PLAYER_ID, return list of player dicts."""
