@@ -1,6 +1,7 @@
 import { useParams, Link } from 'react-router-dom'
+import ShotChart from '../components/ShotChart'
 
-export default function PlayerProfilePage({ playerData }) {
+export default function PlayerProfilePage({ playerData, leagueBaseline }) {
   const { id } = useParams()
   const playerId = Number(id)
   const player = playerData?.players.find((p) => p.id === playerId)
@@ -47,7 +48,7 @@ export default function PlayerProfilePage({ playerData }) {
 
       <section className="profile-shots">
         <h2>Shot Chart</h2>
-        <p className="profile-stub">Shot chart coming in the next commit.</p>
+        <ShotChart playerId={player.id} leagueBaseline={leagueBaseline} />
       </section>
     </div>
   )

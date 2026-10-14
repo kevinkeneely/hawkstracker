@@ -756,3 +756,77 @@ code {
   text-decoration: underline;
   color: #C8102E;
 }
+/* ---------- Shot chart ---------- */
+
+.shot-chart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  padding: 20px;
+  background: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+}
+
+.shot-chart-svg {
+  width: 100%;
+  max-width: 560px;
+  height: auto;
+  display: block;
+}
+
+.shot-chart-empty {
+  padding: 60px 20px;
+  text-align: center;
+  color: var(--text);
+  font-size: 14px;
+}
+
+.shot-chart-legend {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  max-width: 560px;
+  padding-top: 12px;
+  border-top: 1px solid var(--border);
+  font-size: 12px;
+  color: var(--text);
+}
+
+.legend-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.legend-label {
+  flex: 0 0 110px;
+  font-weight: 500;
+  color: var(--text-h);
+}
+
+.legend-gradient {
+  flex: 1;
+  height: 12px;
+  border-radius: 6px;
+  background: linear-gradient(to right, #3F51B5, #8A8290, #C8102E);
+}
+
+.legend-tick {
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--text);
+}
+
+.legend-size-dot {
+  display: inline-block;
+  border-radius: 50%;
+  background: var(--text);
+  opacity: 0.6;
+}
+
+.legend-size-dot.small { width: 8px; height: 8px; }
+.legend-size-dot.med   { width: 14px; height: 14px; }
+.legend-size-dot.large { width: 22px; height: 22px; }

@@ -23,6 +23,8 @@ python3 -m pipeline.transform_team
 python3 -m pipeline.transform_standings
 python3 -m pipeline.fetch_shots
 python3 -m pipeline.transform_shots
+python3 -m pipeline.fetch_league_shots
+python3 -m pipeline.transform_league_baseline
 
 # Commit and push if JSON changed
 git add data/*.json app/public/*.json

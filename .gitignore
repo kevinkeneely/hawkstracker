@@ -1,3 +1,6 @@
 .venv/
 __pycache__/
 data/raw/
+# League-wide raw shot files (~50MB/day, grows unbounded)
+# The league_shot_baseline.json derived from these IS committed (small, ships to frontend)
+data/raw/*/league_shots/

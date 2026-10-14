@@ -11,6 +11,7 @@ function App() {
   const [playerData, setPlayerData] = useState(null)
   const [teamData, setTeamData] = useState(null)
   const [standingsData, setStandingsData] = useState(null)
+  const [leagueBaseline, setLeagueBaseline] = useState(null)
   const [error, setError] = useState(null)
 
   useEffect(() => {
@@ -27,11 +28,16 @@ function App() {
         if (!r.ok) throw new Error(`Failed to load standingsData.json (${r.status})`)
         return r.json()
       }),
+      // Baseline is optional — profile page handles null gracefully if it's missing
+      fetch('/league_shot_baseline.json')
+        .then((r) => (r.ok ? r.json() : null))
+        .catch(() => null),
     ])
-      .then(([players, teams, standings]) => {
+      .then(([players, teams, standings, baseline]) => {
         setPlayerData(players)
         setTeamData(teams)
         setStandingsData(standings)
+        setLeagueBaseline(baseline)
       })
       .catch((err) => setError(err.message))
   }, [])
@@ -59,7 +65,7 @@ function App() {
             <Route path="/players" element={<PlayerStatsPage playerData={playerData} />} />
             <Route path="/team" element={<TeamStatsPage hawks={hawks} teamData={teamData} />} />
             <Route path="/standings" element={<StandingsPage standingsData={standingsData} />} />
-            <Route path="/players/:id" element={<PlayerProfilePage playerData={playerData} />} />
+            <Route path="/players/:id" element={<PlayerProfilePage playerData={playerData} leagueBaseline={leagueBaseline} />} />
           </Routes>
         )}
       </section>
