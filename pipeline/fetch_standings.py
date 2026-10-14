@@ -4,6 +4,8 @@ import json
 from datetime import date
 from pathlib import Path
 
+from pipeline import config  # noqa: F401 — triggers NBA.com header override
+
 from nba_api.stats.endpoints import leaguestandings
 
 RAW_DIR = Path("data/raw")
