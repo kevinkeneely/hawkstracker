@@ -32,6 +32,15 @@ from pipeline.config import (
     TEAM_ENDPOINTS,
 )
 
+from nba_api.stats.endpoints import (
+    leaguedashplayerstats,
+    leaguehustlestatsplayer,
+    leaguedashplayerclutch,
+    leaguedashteamstats,
+    leaguedashteamshotlocations,
+    commonteamroster,
+)
+
 # Seconds to wait between API calls (NBA.com rate limiting)
 RATE_LIMIT_SLEEP = 1.0
 
@@ -98,6 +107,15 @@ def _fetch_league_base(season=SEASON):
         season=season,
         per_mode_detailed="PerGame",
         measure_type_detailed_defense="Base",
+        timeout=TIMEOUT,
+    )
+    return result.get_dict()
+
+def _fetch_team_roster(season=SEASON, team_id=ATLANTA_TEAM_ID):
+    """Hawks roster with positions (not in leaguedashplayerstats)."""
+    result = commonteamroster.CommonTeamRoster(
+        team_id=team_id,
+        season=season,
         timeout=TIMEOUT,
     )
     return result.get_dict()
@@ -175,6 +193,14 @@ def run():
     rows = count_rows(data)
     print(f"saved {rows} rows → {out_path}")
 
+    # Hawks roster — for POSITION field (not returned by leaguedashplayerstats)
+    print("Roster: 1")
+    print("  → team_roster... ", end="", flush=True)
+    data = fetch_with_retries(_fetch_team_roster)
+    out_path = save_raw(data, "team_roster")
+    rows = count_rows(data)
+    print(f"saved {rows} rows → {out_path}")
+    
     print("Done.")
 
 

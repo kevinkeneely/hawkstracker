@@ -216,6 +216,12 @@ def build_players():
                 if source_col in row:
                     players[player_id][output_field] = row[source_col]
 
+    # Merge POSITION from team_roster (not returned by leaguedashplayerstats)
+    roster = rows_as_dicts(load_raw("team_roster"))
+    pos_by_id = {row["PLAYER_ID"]: row.get("POSITION") for row in roster}
+    for player_id, player in players.items():
+        player["pos"] = pos_by_id.get(player_id)
+
     # Return as a list, sorted by minutes per game (descending) for display order
     return sorted(players.values(), key=lambda p: p.get("mpg", 0), reverse=True)
 
