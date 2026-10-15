@@ -23,6 +23,7 @@ python3 -m pipeline.transform_team
 python3 -m pipeline.transform_standings
 python3 -m pipeline.fetch_shots
 python3 -m pipeline.transform_shots
+python3 -m pipeline.transform_shot_zones
 python3 -m pipeline.fetch_league_shots
 python3 -m pipeline.transform_league_baseline
 

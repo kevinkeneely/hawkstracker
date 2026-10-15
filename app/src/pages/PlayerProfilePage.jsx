@@ -41,6 +41,13 @@ export default function PlayerProfilePage({ playerData, leagueBaseline }) {
         <StatLine player={player} />
       </section>
 
+      {player.zones && (
+        <section className="profile-zones">
+          <h2>Shot Zones</h2>
+          <ZoneChips zones={player.zones} />
+        </section>
+      )}
+
       <section className="profile-percentiles">
         <h2>vs. League</h2>
         <PercentileBars player={player} />
@@ -76,6 +83,33 @@ function StatLine({ player }) {
           <div className="stat-chip-value">{value}</div>
         </div>
       ))}
+    </div>
+  )
+}
+
+function ZoneChips({ zones }) {
+  const rows = [
+    ['At Rim',       zones.at_rim],
+    ['Paint',        zones.paint],
+    ['Mid-Range',    zones.mid],
+    ['Corner 3',     zones.corner_3],
+    ['Above Break',  zones.above_break_3],
+  ]
+  return (
+    <div className="stat-line">
+      {rows.map(([label, z]) => {
+        const displayPct = z.pct == null ? '—' : (z.pct * 100).toFixed(1) + '%'
+        const tooltip =
+          z.pct == null
+            ? `${label}: no attempts`
+            : `${z.fgm}/${z.fga} · ${(z.pct * 100).toFixed(1)}%`
+        return (
+          <div className="stat-chip" key={label} title={tooltip}>
+            <div className="stat-chip-label">{label}</div>
+            <div className="stat-chip-value">{displayPct}</div>
+          </div>
+        )
+      })}
     </div>
   )
 }
