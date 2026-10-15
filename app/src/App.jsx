@@ -8,6 +8,23 @@ import LeadersPage from './pages/LeadersPage'
 
 const HAWKS_TEAM_ID = 1610612737
 
+function formatUpdatedAt(iso) {
+  try {
+    const d = new Date(iso)
+    return d.toLocaleString('en-US', {
+      month: 'short',
+      day: 'numeric',
+      year: 'numeric',
+      hour: 'numeric',
+      minute: '2-digit',
+      timeZone: 'America/New_York',
+      timeZoneName: 'short',
+    })
+  } catch {
+    return iso
+  }
+}
+
 function App() {
   const [playerData, setPlayerData] = useState(null)
   const [teamData, setTeamData] = useState(null)
@@ -57,6 +74,9 @@ function App() {
       <header>
         <h1>Hawks Tracker</h1>
         <p>Atlanta Hawks {playerData?.season ?? '2025–26'} season dashboard</p>
+        {leaderboards?.generated_at && (
+          <p className="last-updated">Updated {formatUpdatedAt(leaderboards.generated_at)}</p>
+        )}
         <nav className="tabs">
           <NavLink to="/players" className="tab">Player Stats</NavLink>
           <NavLink to="/team" className="tab">Team Stats</NavLink>

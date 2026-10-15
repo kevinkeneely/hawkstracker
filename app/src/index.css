@@ -948,3 +948,10 @@ code {
 .leader-table tbody tr:hover {
   background: var(--row-alt);
 }
+
+.last-updated {
+  font-size: 12px;
+  color: var(--text);
+  margin-top: 4px;
+  opacity: 0.7;
+}

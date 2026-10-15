@@ -15,7 +15,7 @@ Must run AFTER fetch.py (base stats) and fetch_league_shots.py (shot files).
 
 import json
 from collections import defaultdict
-from datetime import date
+from datetime import date, datetime
 from pathlib import Path
 
 from pipeline.config import SEASON
@@ -165,7 +165,7 @@ def run():
 
     out = {
         "season": SEASON,
-        "generated_at": date.today().isoformat(),
+        "generated_at": datetime.now().astimezone().isoformat(),
         "min_gp": MIN_GP,
         "min_fga_per_zone": MIN_FGA,
         "players": players,
