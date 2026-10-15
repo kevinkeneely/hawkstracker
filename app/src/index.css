@@ -830,3 +830,121 @@ code {
 .legend-size-dot.small { width: 8px; height: 8px; }
 .legend-size-dot.med   { width: 14px; height: 14px; }
 .legend-size-dot.large { width: 22px; height: 22px; }
+/* ---------- Leaders page ---------- */
+
+.leaders-page {
+  text-align: left;
+  margin: 24px 0;
+}
+
+.leaders-header {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.leaders-header h2 {
+  margin: 0 0 4px;
+}
+
+.leaders-sub {
+  color: var(--text);
+  font-size: 14px;
+}
+
+.leaders-empty {
+  text-align: center;
+  margin: 60px 20px;
+  color: var(--text);
+}
+
+.leaders-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  gap: 20px;
+}
+
+.leader-card {
+  padding: 16px 18px;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+}
+
+.leader-card-title {
+  margin: 0 0 2px;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text-h);
+  border-bottom: 2px solid #C8102E;
+  padding-bottom: 6px;
+}
+
+.leader-card-sub {
+  margin: 6px 0 10px;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  color: var(--text);
+}
+
+.leader-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+  color: var(--text);
+}
+
+.leader-table th {
+  font-weight: 600;
+  color: var(--text-h);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  text-align: right;
+  padding: 6px 4px;
+  border-bottom: 1px solid var(--border);
+}
+
+.leader-table td {
+  padding: 6px 4px;
+  border-bottom: 1px solid var(--border);
+  font-variant-numeric: tabular-nums;
+}
+
+.leader-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+/* Column alignments */
+.leader-table .col-rank {
+  width: 24px;
+  text-align: right;
+  color: var(--text);
+}
+.leader-table .col-player {
+  text-align: left;
+  color: var(--text-h);
+}
+.leader-table .col-team {
+  text-align: left;
+  width: 42px;
+  color: var(--text);
+  font-family: var(--mono);
+  font-size: 12px;
+}
+.leader-table .col-pct {
+  text-align: right;
+  width: 56px;
+  color: var(--text-h);
+  font-weight: 500;
+}
+.leader-table .col-vol {
+  text-align: right;
+  width: 64px;
+  font-family: var(--mono);
+  font-size: 12px;
+}
+
+.leader-table tbody tr:hover {
+  background: var(--row-alt);
+}
