@@ -89,7 +89,6 @@ function Legend() {
       <div className="legend-row">
         <span className="legend-label">FG% vs league:</span>
         <div className="legend-gradient" />
-        <span className="legend-tick">−15pp &nbsp; • &nbsp; avg &nbsp; • &nbsp; +15pp</span>
       </div>
       <div className="legend-row">
         <span className="legend-label">Hex size:</span>
@@ -172,7 +171,7 @@ export default function ShotChart({ playerId, leagueBaseline }) {
                 strokeWidth={0.5}
               >
                 <title>
-                  {cell.shots} shots · {(cell.fg_pct * 100).toFixed(1)}% FG · {cell.diff >= 0 ? '+' : ''}{(cell.diff * 100).toFixed(1)}pp vs league
+                  {cell.shots} FGA · {(cell.fg_pct * 100).toFixed(1)}% FG (League AVG {((cell.fg_pct - cell.diff) * 100).toFixed(1)}% FG)
                 </title>
               </polygon>
             )
