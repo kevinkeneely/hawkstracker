@@ -5,6 +5,7 @@ import TeamStatsPage from './pages/TeamStatsPage'
 import StandingsPage from './pages/StandingsPage'
 import PlayerProfilePage from './pages/PlayerProfilePage'
 import LeadersPage from './pages/LeadersPage'
+import Footer from './components/Footer'
 
 const HAWKS_TEAM_ID = 1610612737
 
@@ -98,6 +99,7 @@ function App() {
           </Routes>
         )}
       </section>
+      <Footer />
     </main>
   )
 }
