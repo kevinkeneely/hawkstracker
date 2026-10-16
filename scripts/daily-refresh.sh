@@ -27,6 +27,10 @@ python3 -m pipeline.transform_shot_zones
 python3 -m pipeline.fetch_league_shots
 python3 -m pipeline.transform_league_baseline
 python3 -m pipeline.transform_league_leaderboards
+python3 -m pipeline.fetch_hustle
+python3 -m pipeline.fetch_league_clutch
+python3 -m pipeline.transform_hustle
+python3 -m pipeline.transform_clutch
 
 # Commit and push if JSON changed
 git add data/*.json app/public/*.json
