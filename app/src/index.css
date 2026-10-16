@@ -962,3 +962,222 @@ code {
   opacity: 0.7;
   margin-top: 4px;
 }
+
+/* ─────────────── Mobile responsive pass ─────────────── */
+
+/* Safety: never let a rogue child force page-level horizontal scroll */
+html, body {
+  overflow-x: hidden;
+}
+
+@media (max-width: 640px) {
+  /* Drop the vertical borders on the main container — they visually crowd narrow screens */
+  #root {
+    border-inline: none;
+  }
+
+  /* Smaller headline on mobile */
+  h1 {
+    font-size: 30px !important;
+    letter-spacing: -0.4px;
+    margin: 20px 12px 8px;
+  }
+
+  /* Add consistent side padding to every top-level section */
+  main > section,
+  main > header {
+    padding-left: 12px;
+    padding-right: 12px;
+    box-sizing: border-box;
+  }
+
+  /* Nav tabs: scroll horizontally rather than cut off "Leaders" */
+  .tabs {
+    overflow-x: auto;
+    justify-content: flex-start;
+    padding: 0 12px;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+  .tabs::-webkit-scrollbar { display: none; }
+  .tab { flex-shrink: 0; }
+
+  /* Player Stats table: horizontally scroll INSIDE the wrapper */
+  .table-wrap {
+    max-width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  /* Stat chips: 2 per row (was 3) */
+  .stat-chip {
+    flex-basis: calc(50% - 4px);
+  }
+  .stat-chip-value {
+    font-size: 16px;
+  }
+
+  /* Percentile bars: tighter columns so the dot + value fit on screen */
+  .pctile-bar-row {
+    grid-template-columns: 40px 1fr 48px;
+    gap: 8px;
+  }
+  .pctile-bar-label { font-size: 11px; }
+  .pctile-bar-value { font-size: 11px; }
+  .pctile-bar-dot {
+    width: 22px;
+    height: 22px;
+    font-size: 10px;
+  }
+
+  /* Profile header: stack vertically */
+  .profile-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 16px;
+  }
+  .profile-headshot {
+    width: 100px;
+  }
+  .profile-identity h1 {
+    font-size: 22px !important;
+    margin: 0;
+  }
+
+  /* Shot chart: tighter padding + legend that wraps */
+  .shot-chart {
+    padding: 12px 8px;
+  }
+  .shot-chart-legend .legend-row {
+    flex-wrap: wrap;
+    row-gap: 4px;
+  }
+  .shot-chart-legend .legend-label {
+    flex: 0 0 100%;
+  }
+
+  /* Team stats: slim down the row columns so dot plots fit */
+  .ts-row {
+    grid-template-columns: 50px 1fr 48px;
+    gap: 6px;
+  }
+  .ts-label { font-size: 11px; }
+  .ts-value { font-size: 11px; }
+  .ts-col {
+    padding: 8px 10px;
+  }
+  .ts-pair-header {
+    font-size: 11px;
+    letter-spacing: 0.5px;
+  }
+  .ts-legend {
+    font-size: 12px;
+    padding: 8px 10px;
+  }
+
+  /* Leaders: compact tables */
+  .leader-card {
+    padding: 14px 12px;
+  }
+  .leader-table th,
+  .leader-table td {
+    padding: 5px 3px;
+    font-size: 12px;
+  }
+  .leader-table .col-team { font-size: 11px; width: 36px; }
+  .leader-table .col-pct { width: 50px; }
+  .leader-table .col-vol { width: 54px; font-size: 11px; }
+
+  /* Last-updated + Leaders note: slightly smaller on mobile */
+  .last-updated,
+  .leaders-note {
+    font-size: 11px;
+  }
+
+  /* Header stat tiles (Team Stats page): ensure value + rank fit on one line */
+  .stat-tile .value {
+    font-size: 20px;
+  }
+  .stat-tile .rank {
+    font-size: 11px;
+    padding: 2px 6px;
+  }
+
+  /* Dot plot SVG: let it scale to its container */
+  .dot-plot svg {
+    width: 100%;
+    max-width: 260px;
+    height: auto;
+  }
+}
+
+/* ─────────────── Mobile responsive — second pass ─────────────── */
+
+@media (max-width: 640px) {
+  /* Force #root to viewport width, no wider */
+  #root {
+    max-width: 100vw;
+    overflow-x: hidden;
+  }
+
+  /* Subtitle paragraphs: wrap properly + horizontal padding */
+  header > p {
+    padding: 0 16px;
+    text-align: center;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+
+  /* Stat chips: force exactly 2 per row (the earlier flex-basis was being overridden) */
+  .stat-chip {
+    flex: 1 0 calc(50% - 4px) !important;
+    min-width: 0;
+  }
+
+  /* Stats mode toggle: center so it never overflows right */
+  .stats-mode-toggle {
+    justify-content: center;
+    margin-right: 12px;
+    margin-left: 12px;
+  }
+
+  /* Team Stats tiles: value + rank wrap if cramped so rank is always visible */
+  .stat-tile .value-row {
+    flex-wrap: wrap;
+    gap: 4px;
+  }
+
+  /* Standings table: compact columns so L10 fits */
+  .standings-table th,
+  .standings-table td {
+    padding: 6px 4px;
+    font-size: 13px;
+  }
+  .standings-table th:first-child,
+  .standings-table td:first-child {
+    padding-left: 10px;
+  }
+  .standings-table th:last-child,
+  .standings-table td:last-child {
+    padding-right: 10px;
+  }
+
+  /* Leaders note: smaller font + proper padding so it wraps instead of truncating */
+  .leaders-note {
+    padding: 0 16px;
+    font-size: 10px;
+    line-height: 1.4;
+  }
+
+  /* Leaders tables: let them scroll horizontally inside the card if truly needed */
+  .leader-card {
+    overflow-x: auto;
+  }
+
+  /* Last-updated: give it padding and let it wrap */
+  .last-updated {
+    padding: 0 16px;
+    word-wrap: break-word;
+  }
+}
