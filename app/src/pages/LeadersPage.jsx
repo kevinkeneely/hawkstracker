@@ -29,6 +29,9 @@ export default function LeadersPage({ leaderboards }) {
         <p className="leaders-sub">
           Top {TOP_N} by FG% in each zone · minimum {leaderboards.min_gp} GP
         </p>
+        <p className="leaders-note">
+          Leaderboards update daily. Early-season samples may be noisy.
+        </p>
       </header>
 
       <div className="leaders-grid">

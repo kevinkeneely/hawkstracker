@@ -24,7 +24,7 @@ RAW_DIR = Path("data/raw") / SEASON
 SHOTS_DIR = RAW_DIR / "league_shots"
 OUT_PATH = Path("app/public/league_leaderboards.json")
 
-MIN_GP = 20
+MIN_GP = 5  # Lowered for early 2026-27 season; bump back to 20 after ~Nov 15
 
 ZONE_MAP = {
     "Restricted Area":         "at_rim",
@@ -43,14 +43,16 @@ OUTPUT_KEYS = [
 ]
 
 # Minimum FGA per zone to appear on that zone's leaderboard (frontend filter)
+# Lowered for early 2026-27 season; restore to full-season floors (~Nov 15):
+#   at_rim 50, paint 25, mid 20, corner_3 20, l_corner_3 10, r_corner_3 10, above_break_3 50
 MIN_FGA = {
-    "at_rim": 50,
-    "paint": 25,
-    "mid": 20,
-    "corner_3": 20,
-    "l_corner_3": 10,
-    "r_corner_3": 10,
-    "above_break_3": 50,
+    "at_rim": 15,
+    "paint": 10,
+    "mid": 10,
+    "corner_3": 8,
+    "l_corner_3": 5,
+    "r_corner_3": 5,
+    "above_break_3": 15,
 }
 
 
