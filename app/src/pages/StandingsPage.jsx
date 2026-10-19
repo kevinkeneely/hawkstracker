@@ -1,3 +1,5 @@
+import ScheduleStrip from '../components/ScheduleStrip'
+
 const HAWKS_TEAM_ID = 1610612737
 
 export default function StandingsPage({ standingsData }) {
@@ -5,6 +7,7 @@ export default function StandingsPage({ standingsData }) {
 
   return (
     <div className="standings">
+      <ScheduleStrip />
       <ConferenceTable name="Eastern Conference" teams={standingsData.east} />
       <ConferenceTable name="Western Conference" teams={standingsData.west} />
     </div>

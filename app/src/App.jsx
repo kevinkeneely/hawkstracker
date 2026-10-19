@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useLayoutEffect, useState } from 'react'
 import { NavLink, Navigate, Route, Routes } from 'react-router-dom'
 import PlayerStatsPage from './pages/PlayerStatsPage'
 import TeamStatsPage from './pages/TeamStatsPage'
@@ -6,6 +6,7 @@ import StandingsPage from './pages/StandingsPage'
 import PlayerProfilePage from './pages/PlayerProfilePage'
 import LeadersPage from './pages/LeadersPage'
 import Footer from './components/Footer'
+import BoxScorePage from './pages/BoxScorePage'
 
 const HAWKS_TEAM_ID = 1610612737
 
@@ -33,6 +34,20 @@ function App() {
   const [leagueBaseline, setLeagueBaseline] = useState(null)
   const [leaderboards, setLeaderboards] = useState(null)
   const [error, setError] = useState(null)
+
+    const [theme, setTheme] = useState(() => {
+    if (typeof window === 'undefined') return 'dark'
+    const stored = localStorage.getItem('theme')
+    if (stored === 'light' || stored === 'dark') return stored
+    return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
+  })
+
+  useLayoutEffect(() => {
+    document.documentElement.setAttribute('data-theme', theme)
+    localStorage.setItem('theme', theme)
+  }, [theme])
+
+  const toggleTheme = () => setTheme((t) => (t === 'dark' ? 'light' : 'dark'))
 
   useEffect(() => {
     Promise.all([
@@ -73,6 +88,27 @@ function App() {
   return (
     <main>
       <header>
+        <div className="header-actions">
+          <a
+            href="https://x.com/KevinKeneely1"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="header-btn header-btn-x"
+            aria-label="Follow @KevinKeneely1 on X"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true">
+              <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+            </svg>
+          </a>
+          <button
+            type="button"
+            onClick={toggleTheme}
+            className="header-btn header-btn-theme"
+            aria-label={`Switch to ${theme === 'dark' ? 'light' : 'dark'} mode`}
+          >
+            {theme === 'dark' ? 'Light mode' : 'Dark mode'}
+          </button>
+        </div>
         <h1>Hawks Tracker</h1>
         <p>Atlanta Hawks {playerData?.season ?? '2025–26'} season dashboard</p>
         {leaderboards?.generated_at && (
@@ -96,6 +132,7 @@ function App() {
             <Route path="/standings" element={<StandingsPage standingsData={standingsData} />} />
             <Route path="/leaders" element={<LeadersPage leaderboards={leaderboards} />} />
             <Route path="/players/:id" element={<PlayerProfilePage playerData={playerData} leagueBaseline={leagueBaseline} />} />
+            <Route path="/games/:id" element={<BoxScorePage />} />
           </Routes>
         )}
       </section>

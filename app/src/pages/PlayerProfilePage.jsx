@@ -1,5 +1,6 @@
 import { useParams, Link } from 'react-router-dom'
 import ShotChart from '../components/ShotChart'
+import Tabs from '../components/Tabs'
 
 export default function PlayerProfilePage({ playerData, leagueBaseline }) {
   const { id } = useParams()
@@ -36,6 +37,37 @@ export default function PlayerProfilePage({ playerData, leagueBaseline }) {
         </div>
       </header>
 
+      <Tabs
+        tabs={[
+          {
+            key: 'traditional',
+            label: 'Traditional',
+            content: <TraditionalTab player={player} leagueBaseline={leagueBaseline} />,
+          },
+          {
+            key: 'hustle',
+            label: 'Hustle',
+            content: <HustleTab player={player} />,
+          },
+          {
+            key: 'clutch',
+            label: 'Clutch',
+            content: <ClutchTab player={player} />,
+          },
+          {
+            key: 'shot-charts',
+            label: 'Shot Charts',
+            content: <ShotChartTab player={player} leagueBaseline={leagueBaseline} />,
+          },
+        ]}
+      />
+    </div>
+  )
+}
+
+function TraditionalTab({ player, leagueBaseline }) {
+  return (
+    <>
       <section className="profile-stats">
         <h2>2025–26 Season</h2>
         <StatLine player={player} />
@@ -52,11 +84,152 @@ export default function PlayerProfilePage({ playerData, leagueBaseline }) {
         <h2>vs. League</h2>
         <PercentileBars player={player} />
       </section>
+    </>
+  )
+}
 
-      <section className="profile-shots">
-        <h2>Shot Chart</h2>
-        <ShotChart playerId={player.id} leagueBaseline={leagueBaseline} />
-      </section>
+// ─────────────── Hustle + Clutch config ───────────────
+
+const HUSTLE_GROUPS = [
+  [
+    { key: 'contested_shots', label: 'Contested Shots', format: 'num1' },
+    { key: 'box_outs', label: 'Box Outs', format: 'num1' },
+  ],
+  [
+    { key: 'contested_shots_2pt', label: 'Contested 2PT', format: 'num1' },
+    { key: 'pct_box_outs_off', label: 'Box Outs — Offensive %', format: 'pct' },
+  ],
+  [
+    { key: 'contested_shots_3pt', label: 'Contested 3PT', format: 'num1' },
+    { key: 'pct_box_outs_def', label: 'Box Outs — Defensive %', format: 'pct' },
+  ],
+  [
+    { key: 'screen_assists', label: 'Screen Assists', format: 'num1' },
+    { key: 'charges_drawn', label: 'Charges Drawn', format: 'num1' },
+  ],
+  [
+    { key: 'screen_ast_pts', label: 'Screen Assist Points', format: 'num1' },
+    { key: 'loose_balls_recovered', label: 'Loose Balls Recovered', format: 'num1' },
+  ],
+  [
+    { key: 'deflections', label: 'Deflections', format: 'num1' },
+  ],
+]
+
+const CLUTCH_GROUPS = [
+  [
+    { key: 'pts', label: 'PTS', format: 'num1' },
+    { key: 'net_rating', label: 'Net Rating', format: 'num1' },
+    { key: 'reb', label: 'REB', format: 'num1' },
+    { key: 'off_rating', label: 'Off Rating', format: 'num1' },
+    { key: 'ast', label: 'AST', format: 'num1' },
+    { key: 'def_rating', label: 'Def Rating', format: 'num1', invert: true },
+    { key: 'stl', label: 'STL', format: 'num1' },
+    { key: 'plus_minus', label: '+/−', format: 'num1' },
+    { key: 'blk', label: 'BLK', format: 'num1' },
+    { key: 'oreb', label: 'OREB', format: 'num1' },
+    { key: 'tov', label: 'TOV', format: 'num1', invert: true },
+    { key: 'dreb', label: 'DREB', format: 'num1' },
+    { key: 'fg_pct', label: 'FG%', format: 'pct' },
+    { key: 'pf', label: 'PF', format: 'num1', invert: true },
+    { key: 'fg3_pct', label: '3P%', format: 'pct' },
+    { key: 'efg_pct', label: 'eFG%', format: 'pct' },
+    { key: 'ft_pct', label: 'FT%', format: 'pct' },
+    { key: 'ts_pct', label: 'TS%', format: 'pct' },
+  ],
+  [
+    { key: 'ast_pct', label: 'AST%', format: 'pct' },
+    { key: 'oreb_pct', label: 'OREB%', format: 'pct' },
+    { key: 'dreb_pct', label: 'DREB%', format: 'pct' },
+    { key: 'reb_pct', label: 'REB%', format: 'pct' },
+    { key: 'tm_tov_pct', label: 'Team TOV%', format: 'pct_raw', invert: true },
+    { key: 'usg_pct', label: 'USG%', format: 'pct' },
+    { key: 'pie', label: 'PIE', format: 'pct' },
+  ],
+]
+
+function formatStatValue(value, format) {
+  if (value == null || Number.isNaN(value)) return '—'
+  if (format === 'pct') return `${(value * 100).toFixed(1)}%`
+  if (format === 'pct_raw') return `${Number(value).toFixed(1)}%`
+  if (format === 'int') return `${Math.round(value)}`
+  return Number(value).toFixed(1)
+}
+
+function GroupedPctileBars({ groups, data }) {
+  return (
+    <div className="pctile-grouped">
+      {groups.map((group, gIdx) => (
+        <div key={gIdx}>
+          {gIdx > 0 && <div className="pctile-divider" />}
+          <div className="pctile-group">
+            {group.map(({ key, label, format, invert }) => {
+              const entry = data?.[key]
+              return (
+                <PctileBar
+                  key={key}
+                  label={label}
+                  value={formatStatValue(entry?.value, format)}
+                  pctile={entry?.pctile}
+                  invert={invert}
+                />
+              )
+            })}
+          </div>
+        </div>
+      ))}
+    </div>
+  )
+}
+
+function HustleTab({ player }) {
+  if (!player.hustle) {
+    return (
+      <div className="tab-placeholder">
+        <p>No hustle data available yet.</p>
+      </div>
+    )
+  }
+  return (
+    <section className="profile-percentiles">
+      <GroupedPctileBars groups={HUSTLE_GROUPS} data={player.hustle} />
+    </section>
+  )
+}
+
+function ClutchTab({ player }) {
+  if (!player.clutch) {
+    return (
+      <div className="tab-placeholder">
+        <p>No clutch minutes played yet this season.</p>
+      </div>
+    )
+  }
+  const gp = player.clutch.gp?.value
+  const mpg = player.clutch.min?.value
+  return (
+    <section className="profile-percentiles">
+      <div className="clutch-summary">
+        GP: {gp ?? '—'} · MPG: {mpg != null ? mpg.toFixed(1) : '—'}
+      </div>
+      <GroupedPctileBars groups={CLUTCH_GROUPS} data={player.clutch} />
+    </section>
+  )
+}
+
+function ShotChartTab({ player, leagueBaseline }) {
+  return (
+    <section className="profile-shots">
+      <h2>Shot Chart</h2>
+      <ShotChart playerId={player.id} leagueBaseline={leagueBaseline} zones={player.zones} />
+    </section>
+  )
+}
+
+function ComingSoon({ label }) {
+  return (
+    <div className="tab-placeholder">
+      <p>{label} coming soon.</p>
     </div>
   )
 }

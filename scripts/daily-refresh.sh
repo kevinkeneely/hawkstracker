@@ -31,6 +31,10 @@ python3 -m pipeline.fetch_hustle
 python3 -m pipeline.fetch_league_clutch
 python3 -m pipeline.transform_hustle
 python3 -m pipeline.transform_clutch
+python3 -m pipeline.fetch_schedule
+python3 -m pipeline.fetch_upcoming
+python3 -m pipeline.transform_schedule
+python3 -m pipeline.fetch_boxscores
 
 # Commit and push if JSON changed
 git add data/*.json app/public/*.json

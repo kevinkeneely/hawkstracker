@@ -1,11 +1,13 @@
 """
 Compute Hawks players' clutch stats + percentiles vs the full league.
 
-NBA.com's "Advanced" clutch measure includes every Base clutch field
-PLUS the advanced ratings/percentages, so we only need to read the
-Advanced raw file to cover all 33 picks.
+NBA.com's Advanced clutch measure covers ratings, efficiency and
+percentage-based impact stats. The Base measure covers counting stats
+(PTS, REB, AST, STL, BLK, TOV, 3PM/A/%, FTM/A/%, PF, +/−). We load
+BOTH raw files and pull each field from the right source.
 
-Reads: data/raw/<SEASON>/league_clutch_adv_<date>.json (latest)
+Reads: data/raw/<SEASON>/league_clutch_<date>.json       (base measure)
+       data/raw/<SEASON>/league_clutch_adv_<date>.json   (advanced measure)
 Reads+writes: app/public/hawksData.json (adds player.clutch nested object)
 
 NBA's clutch definition: last 5 minutes of game, score margin ≤ 5.
@@ -24,9 +26,8 @@ RAW_DIR = Path("data/raw") / SEASON
 
 MIN_CLUTCH_GP = 3  # Needs some clutch time to be a meaningful comparison
 
-# 33 clutch fields we track, mapped from NBA.com column → our JSON key
-CLUTCH_FIELDS = {
-    # Base-measure fields (volume, counting, basic shooting)
+# Fields from the Base measure (counting stats, basic shooting, context)
+BASE_FIELDS = {
     "GP":         "gp",
     "MIN":        "min",
     "PTS":        "pts",
@@ -48,7 +49,10 @@ CLUTCH_FIELDS = {
     "FT_PCT":     "ft_pct",
     "PF":         "pf",
     "PLUS_MINUS": "plus_minus",
-    # Advanced-measure fields (ratings, efficiency, impact)
+}
+
+# Fields from the Advanced measure (ratings, efficiency, impact)
+ADV_FIELDS = {
     "OFF_RATING": "off_rating",
     "DEF_RATING": "def_rating",
     "NET_RATING": "net_rating",
@@ -69,12 +73,12 @@ def latest_file(pattern: str) -> Path | None:
     return files[-1] if files else None
 
 
-def load_rows() -> list[dict]:
-    """Load latest league_clutch_adv_*.json, return rows as dicts."""
-    f = latest_file("league_clutch_adv_*.json")
+def load_rows(pattern: str) -> list[dict]:
+    """Load latest raw clutch file matching pattern, return rows as dicts."""
+    f = latest_file(pattern)
     if f is None:
         raise FileNotFoundError(
-            "No league_clutch_adv_*.json in data/raw — run fetch_league_clutch.py first"
+            f"No {pattern} in data/raw — run fetch_league_clutch.py first"
         )
     data = json.loads(f.read_text())
     rs = data["resultSets"][0]
@@ -92,21 +96,38 @@ def compute_percentile(value, pool: list) -> float | None:
 
 
 def run():
-    rows = load_rows()
-    print(f"[clutch] loaded {len(rows)} players from latest league clutch (advanced) file")
+    # Base file matches league_clutch_<date>.json but NOT league_clutch_adv_<date>.json.
+    # The adv glob is more specific, so we filter base manually to avoid overlap.
+    base_rows = [
+        r for r in load_rows("league_clutch_*.json")
+    ]
+    # Re-glob narrowly: pick latest base-only file (filename does NOT contain "_adv_")
+    base_file = sorted(
+        f for f in RAW_DIR.glob("league_clutch_*.json")
+        if "_adv_" not in f.name
+    )[-1]
+    base_data = json.loads(base_file.read_text())
+    base_rs = base_data["resultSets"][0]
+    base_rows = [dict(zip(base_rs["headers"], row)) for row in base_rs["rowSet"]]
 
-    # Qualifying pool: players with real clutch time, not noise samples
-    pool_rows = [r for r in rows if (r.get("GP") or 0) >= MIN_CLUTCH_GP]
-    print(f"[clutch] percentile pool: {len(pool_rows)} players with GP >= {MIN_CLUTCH_GP}")
+    adv_rows = load_rows("league_clutch_adv_*.json")
+    print(f"[clutch] loaded base={len(base_rows)} players, advanced={len(adv_rows)} players")
 
-    # Pre-extract each stat's full pool once
-    pool_by_stat = {
-        nba_key: [r.get(nba_key) for r in pool_rows]
-        for nba_key in CLUTCH_FIELDS
-    }
+    # Qualifying pools: each file gates on its own GP column
+    base_pool = [r for r in base_rows if (r.get("GP") or 0) >= MIN_CLUTCH_GP]
+    adv_pool = [r for r in adv_rows if (r.get("GP") or 0) >= MIN_CLUTCH_GP]
+    print(f"[clutch] percentile pools: base={len(base_pool)}, advanced={len(adv_pool)}")
 
-    # Index all rows by PLAYER_ID for O(1) Hawks lookup
-    by_pid = {r["PLAYER_ID"]: r for r in rows}
+    # Pre-extract per-stat pools from the right source
+    pool_by_stat = {}
+    for nba_key in BASE_FIELDS:
+        pool_by_stat[nba_key] = [r.get(nba_key) for r in base_pool]
+    for nba_key in ADV_FIELDS:
+        pool_by_stat[nba_key] = [r.get(nba_key) for r in adv_pool]
+
+    # Index both files by PLAYER_ID for O(1) lookup
+    base_by_pid = {r["PLAYER_ID"]: r for r in base_rows}
+    adv_by_pid = {r["PLAYER_ID"]: r for r in adv_rows}
 
     # Load hawksData.json, add clutch to each Hawks player
     hawks = json.loads(HAWKS_DATA.read_text())
@@ -115,13 +136,18 @@ def run():
     updated = 0
     missing = 0
     for player in players:
-        row = by_pid.get(player["id"])
-        if row is None:
+        base_row = base_by_pid.get(player["id"])
+        adv_row = adv_by_pid.get(player["id"])
+        if base_row is None and adv_row is None:
             missing += 1
             continue
         clutch = {}
-        for nba_key, our_key in CLUTCH_FIELDS.items():
-            value = row.get(nba_key)
+        for nba_key, our_key in BASE_FIELDS.items():
+            value = base_row.get(nba_key) if base_row else None
+            pctile = compute_percentile(value, pool_by_stat[nba_key])
+            clutch[our_key] = {"value": value, "pctile": pctile}
+        for nba_key, our_key in ADV_FIELDS.items():
+            value = adv_row.get(nba_key) if adv_row else None
             pctile = compute_percentile(value, pool_by_stat[nba_key])
             clutch[our_key] = {"value": value, "pctile": pctile}
         player["clutch"] = clutch
