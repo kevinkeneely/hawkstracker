@@ -130,7 +130,7 @@ function App() {
             <Route path="/players" element={<PlayerStatsPage playerData={playerData} />} />
             <Route path="/team" element={<TeamStatsPage hawks={hawks} teamData={teamData} />} />
             <Route path="/standings" element={<StandingsPage standingsData={standingsData} />} />
-            <Route path="/leaders" element={<LeadersPage leaderboards={leaderboards} />} />
+            <Route path="/leaders" element={<LeadersPage leaderboards={leaderboards} playerData={playerData} />} />
             <Route path="/players/:id" element={<PlayerProfilePage playerData={playerData} leagueBaseline={leagueBaseline} />} />
             <Route path="/games/:id" element={<BoxScorePage />} />
           </Routes>

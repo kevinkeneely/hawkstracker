@@ -1735,3 +1735,43 @@ header {
   font-style: italic;
   margin-top: 4px;
 }
+
+/* Leaders toggle (League | Hawks) */
+.leaders-toggle {
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+  margin-bottom: 24px;
+  border-bottom: 1px solid var(--border);
+}
+
+.leaders-toggle-btn {
+  padding: 8px 20px;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text);
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -1px;
+  cursor: pointer;
+  font-family: inherit;
+  transition: color 0.15s, border-color 0.15s;
+}
+
+.leaders-toggle-btn:hover {
+  color: var(--text-h);
+}
+
+.leaders-toggle-btn.active {
+  color: var(--text-h);
+  border-bottom-color: #C8102E;
+}
+
+.leader-empty {
+  text-align: center;
+  color: var(--text);
+  font-size: 12px;
+  font-style: italic;
+  padding: 12px;
+}
