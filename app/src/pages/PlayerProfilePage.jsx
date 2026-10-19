@@ -94,25 +94,15 @@ const HUSTLE_GROUPS = [
   [
     { key: 'contested_shots', label: 'Contested Shots', format: 'num1' },
     { key: 'box_outs', label: 'Box Outs', format: 'num1' },
-  ],
-  [
     { key: 'contested_shots_2pt', label: 'Contested 2PT', format: 'num1' },
-    { key: 'pct_box_outs_off', label: 'Box Outs — Offensive %', format: 'pct' },
-  ],
-  [
+    { key: 'pct_box_outs_off', label: 'Off. Box Outs', format: 'pct' },
     { key: 'contested_shots_3pt', label: 'Contested 3PT', format: 'num1' },
-    { key: 'pct_box_outs_def', label: 'Box Outs — Defensive %', format: 'pct' },
-  ],
-  [
+    { key: 'pct_box_outs_def', label: 'Def. Box Outs', format: 'pct' },
     { key: 'screen_assists', label: 'Screen Assists', format: 'num1' },
     { key: 'charges_drawn', label: 'Charges Drawn', format: 'num1' },
-  ],
-  [
-    { key: 'screen_ast_pts', label: 'Screen Assist Points', format: 'num1' },
-    { key: 'loose_balls_recovered', label: 'Loose Balls Recovered', format: 'num1' },
-  ],
-  [
+    { key: 'screen_ast_pts', label: 'Screen Assist PTS', format: 'num1' },
     { key: 'deflections', label: 'Deflections', format: 'num1' },
+    { key: 'loose_balls_recovered', label: 'Loose Balls Recovered', format: 'num1' },
   ],
 ]
 
