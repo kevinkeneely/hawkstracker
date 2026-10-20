@@ -152,8 +152,20 @@ def run():
         player["blk_pct_pctile"] = compute_percentile(blk_pct, blk_pool)
         updated += 1
 
+    # Add stl/blk medians to the top-level league_medians dict transform.py
+    # wrote earlier, so the Charts tab crosshair can read them from one place.
+    def _median(vals):
+        s = sorted(v for v in vals if v is not None)
+        if not s: return None
+        mid = len(s) // 2
+        return s[mid] if len(s) % 2 else (s[mid - 1] + s[mid]) / 2
+    medians = hawks.setdefault("league_medians", {})
+    medians["stl_pct"] = _median(stl_pool)
+    medians["blk_pct"] = _median(blk_pool)
+
     HAWKS_DATA.write_text(json.dumps(hawks, indent=2))
-    print(f"[def_rates] wrote stl_pct/blk_pct onto {updated} Hawks players")
+    print(f"[def_rates] wrote stl_pct/blk_pct onto {updated} Hawks players "
+          f"(league medians: STL%={medians['stl_pct']:.2f}, BLK%={medians['blk_pct']:.2f})")
 
 
 if __name__ == "__main__":

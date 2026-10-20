@@ -1775,3 +1775,157 @@ header {
   font-style: italic;
   padding: 12px;
 }
+
+/* Charts page --------------------------------------------------------- */
+.charts-page {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 16px 0 32px;
+}
+
+.charts-header {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.charts-picker {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.charts-picker-label {
+  font-size: 13px;
+  color: var(--text);
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+}
+
+.charts-select {
+  font: inherit;
+  font-size: 15px;
+  padding: 8px 12px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--bg);
+  color: var(--text-h);
+  min-width: 280px;
+}
+
+.charts-select:focus {
+  outline: 2px solid var(--accent);
+  outline-offset: 1px;
+}
+
+.charts-desc {
+  margin: 0;
+  font-size: 15px;
+  color: var(--text-h);
+}
+
+.charts-note {
+  margin: 0;
+  font-size: 13px;
+  color: var(--text);
+  font-style: italic;
+}
+
+.charts-canvas-wrap {
+  width: 100%;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.charts-svg {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.charts-plot-bg {
+  fill: var(--code-bg);
+  stroke: var(--border);
+  stroke-width: 1;
+}
+
+.charts-grid {
+  stroke: var(--border);
+  stroke-width: 1;
+  stroke-opacity: 0.5;
+}
+
+.charts-median {
+  stroke: var(--accent);
+  stroke-width: 1.2;
+  stroke-dasharray: 4 4;
+  stroke-opacity: 0.7;
+}
+
+.charts-tick {
+  fill: var(--text);
+  font-size: 11px;
+}
+
+.charts-axis-label {
+  fill: var(--text-h);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+}
+
+.charts-dot {
+  transition: opacity 120ms ease;
+}
+
+.charts-dot.is-dim {
+  opacity: 0.4;
+}
+
+.charts-dot-ring {
+  stroke: var(--text-h);
+  stroke-width: 1.5;
+}
+
+.charts-dot.is-dim .charts-dot-ring {
+  stroke: var(--text);
+  stroke-dasharray: 2 2;
+}
+
+.charts-dot.is-hover .charts-dot-ring {
+  stroke: var(--accent);
+  stroke-width: 2.5;
+}
+
+.charts-tip-bg {
+  fill: var(--bg);
+  stroke: var(--accent);
+  stroke-width: 1.5;
+  filter: drop-shadow(0 2px 6px rgba(0,0,0,0.2));
+}
+
+.charts-tip-name {
+  fill: var(--text-h);
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.charts-tip-val {
+  fill: var(--text);
+  font-size: 12px;
+  font-family: var(--mono);
+}
+
+.charts-empty {
+  padding: 48px 16px;
+  text-align: center;
+  color: var(--text);
+}
+
+@media (max-width: 640px) {
+  .charts-select { min-width: 200px; }
+  .charts-tick { font-size: 10px; }
+}

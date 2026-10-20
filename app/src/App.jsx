@@ -7,6 +7,7 @@ import PlayerProfilePage from './pages/PlayerProfilePage'
 import LeadersPage from './pages/LeadersPage'
 import Footer from './components/Footer'
 import BoxScorePage from './pages/BoxScorePage'
+import ChartsPage from './pages/ChartsPage'
 
 const HAWKS_TEAM_ID = 1610612737
 
@@ -119,6 +120,7 @@ function App() {
           <NavLink to="/team" className="tab">Team Stats</NavLink>
           <NavLink to="/standings" className="tab">Standings</NavLink>
           <NavLink to="/leaders" className="tab">Leaders</NavLink>
+          <NavLink to="/charts" className="tab">Charts</NavLink>
         </nav>
       </header>
       <section>
@@ -131,6 +133,7 @@ function App() {
             <Route path="/team" element={<TeamStatsPage hawks={hawks} teamData={teamData} />} />
             <Route path="/standings" element={<StandingsPage standingsData={standingsData} />} />
             <Route path="/leaders" element={<LeadersPage leaderboards={leaderboards} playerData={playerData} />} />
+            <Route path="/charts" element={<ChartsPage playerData={playerData} leaderboards={leaderboards} />} />
             <Route path="/players/:id" element={<PlayerProfilePage playerData={playerData} leagueBaseline={leagueBaseline} />} />
             <Route path="/games/:id" element={<BoxScorePage />} />
           </Routes>

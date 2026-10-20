@@ -1,6 +1,6 @@
 {
   "season": "2025-26",
-  "updated": "2026-10-19",
+  "updated": "2026-10-20",
   "players": [
     {
       "id": 1630552,
@@ -2081,5 +2081,18 @@
       "tov_p36": 0.0,
       "tov_p36_pctile": 0.0
     }
-  ]
+  ],
+  "league_medians": {
+    "ppg": 7.8,
+    "rpg": 3.1,
+    "apg": 1.6,
+    "spg": 0.6,
+    "bpg": 0.3,
+    "tov": 0.9,
+    "fg_pct": 0.456,
+    "fg3_pct": 0.338,
+    "ft_pct": 0.7765,
+    "ast_pct": 0.122,
+    "tov_pct": 0.1
+  }
 }

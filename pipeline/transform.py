@@ -157,6 +157,9 @@ def compute_percentiles(hawks_players):
     scaling each counting stat by 36 / mpg, with the comparison pool being
     the same scaling applied to every league player.
     qualified = total minutes played (mpg * gp) >= MIN_PLAYED_THRESHOLD.
+
+    Returns a dict of league medians per PCTILE field, suitable for crosshairs
+    on the Charts tab. Keyed by our Hawks field names.
     """
     league = rows_as_dicts(load_raw("league_base"))
     league_adv = rows_as_dicts(load_raw("league_advanced"))
@@ -223,6 +226,19 @@ def compute_percentiles(hawks_players):
             below = sum(1 for v in values_p36 if v < value_p36)
             player[f"{hawks_field}_p36_pctile"] = below / len(values_p36)
 
+    # League medians per field — used by the Charts tab crosshair so dashed
+    # lines read as the league midpoint (stable even with 1 Hawks game played)
+    # instead of a tiny Hawks sample.
+    league_medians = {}
+    def _median(vals):
+        s = sorted(v for v in vals if v is not None)
+        if not s: return None
+        mid = len(s) // 2
+        return s[mid] if len(s) % 2 else (s[mid - 1] + s[mid]) / 2
+    for field in list(PCTILE_STATS) + list(PCTILE_STATS_ADV):
+        league_medians[field] = _median(league_values_pg[field])
+    return league_medians
+
 def build_players():
     """Read all raw endpoints, merge by PLAYER_ID, return list of player dicts."""
     # players maps PLAYER_ID → merged player dict
@@ -262,13 +278,14 @@ def run():
 
     players = build_players()
     print(f"  merged {len(players)} players across {len(FIELDS)} endpoints")
-    compute_percentiles(players)
-    print(f"  computed percentiles vs. league")
+    league_medians = compute_percentiles(players)
+    print(f"  computed percentiles vs. league ({len(league_medians)} medians)")
 
     output = {
         "season": SEASON,
         "updated": date.today().isoformat(),
         "players": players,
+        "league_medians": league_medians,
     }
 
     for path in (OUT_PATH, APP_OUT_PATH):
