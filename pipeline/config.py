@@ -37,7 +37,7 @@ NBAStatsHTTP.headers.update({
 ATLANTA_TEAM_ID = 1610612737
 
 # Current season — change this once per year
-SEASON = "2025-26"
+SEASON = "2026-27"
 
 # Where to save raw API responses
 RAW_DATA_DIR = "data/raw"
