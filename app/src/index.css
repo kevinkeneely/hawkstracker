@@ -1385,6 +1385,24 @@ header {
   padding: 0;
 }
 
+/* Native <select> styled to match the other header buttons.
+   -webkit-appearance:none removes the OS chevron so we can draw our own. */
+.header-btn-season {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  padding-right: 24px;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12' fill='currentColor'><path d='M3 4.5l3 3 3-3' stroke='currentColor' stroke-width='1.5' fill='none'/></svg>");
+  background-repeat: no-repeat;
+  background-position: right 8px center;
+  background-size: 10px;
+}
+
+.header-btn-season:disabled {
+  opacity: 0.5;
+  cursor: wait;
+}
+
 @media (max-width: 640px) {
   .header-actions {
     top: 10px;

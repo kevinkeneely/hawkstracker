@@ -7,20 +7,22 @@ function formatGameDate(iso) {
   return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' })
 }
 
-export default function ScheduleStrip() {
+export default function ScheduleStrip({ season }) {
   const [schedule, setSchedule] = useState(null)
   const [error, setError] = useState(null)
   const stripRef = useRef(null)
 
   useEffect(() => {
-    fetch('/schedule.json')
+    if (!season) return
+    setSchedule(null)
+    fetch(`/schedule-${season}.json`)
       .then((r) => {
-        if (!r.ok) throw new Error(`Failed to load schedule.json (${r.status})`)
+        if (!r.ok) throw new Error(`Failed to load schedule-${season}.json (${r.status})`)
         return r.json()
       })
       .then(setSchedule)
       .catch((e) => setError(e.message))
-  }, [])
+  }, [season])
 
   // Auto-scroll to center today's game (or next upcoming) once chips render
   useLayoutEffect(() => {

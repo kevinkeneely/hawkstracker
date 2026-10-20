@@ -34,7 +34,7 @@ function fmtPlusMinus(v) {
   return n > 0 ? `+${n}` : `${n}`
 }
 
-export default function BoxScorePage() {
+export default function BoxScorePage({ season }) {
   const { id } = useParams()
   const [box, setBox] = useState(null)
   const [schedule, setSchedule] = useState(null)
@@ -46,15 +46,17 @@ export default function BoxScorePage() {
       fetch(`/boxscores/${id}.json`)
         .then((r) => (r.ok ? r.json() : null))
         .catch(() => null),
-      fetch('/schedule.json')
-        .then((r) => (r.ok ? r.json() : null))
-        .catch(() => null),
+      season
+        ? fetch(`/schedule-${season}.json`)
+            .then((r) => (r.ok ? r.json() : null))
+            .catch(() => null)
+        : Promise.resolve(null),
     ]).then(([b, s]) => {
       setBox(b)
       setSchedule(s)
       setLoaded(true)
     })
-  }, [id])
+  }, [id, season])
 
   if (!loaded) return <p>Loading…</p>
 
