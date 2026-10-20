@@ -8,8 +8,9 @@ from pathlib import Path
 from nba_api.stats.static import teams
 
 RAW_DIR = Path("data/raw")
-OUT_DATA = Path("data/standingsData.json")
-OUT_PUBLIC = Path("app/public/standingsData.json")
+from pipeline.config import STANDINGS_FILENAME
+OUT_DATA = Path("data") / STANDINGS_FILENAME
+OUT_PUBLIC = Path("app/public") / STANDINGS_FILENAME
 
 # Columns we pull from the leaguestandings response.
 FIELDS = {

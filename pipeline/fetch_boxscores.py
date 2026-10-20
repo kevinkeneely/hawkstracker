@@ -19,7 +19,8 @@ from nba_api.stats.endpoints import boxscoretraditionalv2
 
 from pipeline.fetch import TIMEOUT, fetch_with_retries
 
-SCHEDULE_PATH = Path("app/public/schedule.json")
+from pipeline.config import SCHEDULE_FILENAME
+SCHEDULE_PATH = Path("app/public") / SCHEDULE_FILENAME
 OUT_DIR = Path("app/public/boxscores")
 
 # Polite delay between NBA API calls so we don't get rate-limited

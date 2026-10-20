@@ -14,7 +14,8 @@ from pathlib import Path
 from pipeline.config import SEASON
 
 RAW_DIR = Path("data/raw") / SEASON / "league_shots"
-OUT_PATH = Path("app/public/league_shot_baseline.json")
+from pipeline.config import SHOT_BASELINE_FILENAME
+OUT_PATH = Path("app/public") / SHOT_BASELINE_FILENAME
 
 # Hex grid spec — MUST match the ShotChart component on the frontend
 HEX_SIZE = 22        # NBA coord units (1 unit = 0.1 ft), ~2.2 ft radius

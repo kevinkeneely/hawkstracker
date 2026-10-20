@@ -39,6 +39,16 @@ ATLANTA_TEAM_ID = 1610612737
 # Current season — change this once per year
 SEASON = "2026-27"
 
+# Season-suffixed filenames. Every writer and reader in the pipeline uses
+# these so each season's data lives in its own file (e.g. hawksData-2026-27.json).
+# The frontend's season toggle picks which file to fetch.
+HAWKS_DATA_FILENAME    = f"hawksData-{SEASON}.json"
+LEADERBOARDS_FILENAME  = f"league_leaderboards-{SEASON}.json"
+SCHEDULE_FILENAME      = f"schedule-{SEASON}.json"
+SHOT_BASELINE_FILENAME = f"league_shot_baseline-{SEASON}.json"
+TEAM_STATS_FILENAME    = f"teamStatsData-{SEASON}.json"
+STANDINGS_FILENAME     = f"standingsData-{SEASON}.json"
+
 # Where to save raw API responses
 RAW_DATA_DIR = "data/raw"
 

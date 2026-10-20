@@ -19,9 +19,9 @@ fetch_league_clutch.py.
 import json
 from pathlib import Path
 
-from pipeline.config import SEASON
+from pipeline.config import SEASON, HAWKS_DATA_FILENAME
 
-HAWKS_DATA = Path("app/public/hawksData.json")
+HAWKS_DATA = Path("app/public") / HAWKS_DATA_FILENAME
 RAW_DIR = Path("data/raw") / SEASON
 
 MIN_CLUTCH_GP = 3  # Needs some clutch time to be a meaningful comparison

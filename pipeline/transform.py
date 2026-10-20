@@ -12,14 +12,14 @@ import json
 import os
 from datetime import date
 
-from pipeline.config import SEASON, RAW_DATA_DIR
+from pipeline.config import SEASON, RAW_DATA_DIR, HAWKS_DATA_FILENAME
 
 # Where the final merged file lands (read by the React app)
-OUT_PATH = "data/hawksData.json"
+OUT_PATH = f"data/{HAWKS_DATA_FILENAME}"
 
 # Also copied here so Vite serves it to the React app in dev,
 # and so the Netlify build picks it up when deploying.
-APP_OUT_PATH = "app/public/hawksData.json"
+APP_OUT_PATH = f"app/public/{HAWKS_DATA_FILENAME}"
 
 # For each endpoint, which columns to pull and what to rename them to.
 # Format: {endpoint_name: {source_column: output_field}}

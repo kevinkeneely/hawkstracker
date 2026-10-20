@@ -17,7 +17,8 @@ import json
 from collections import defaultdict
 from pathlib import Path
 
-HAWKS_DATA = Path("app/public/hawksData.json")
+from pipeline.config import HAWKS_DATA_FILENAME
+HAWKS_DATA = Path("app/public") / HAWKS_DATA_FILENAME
 SHOTS_DIR = Path("data/shots")
 
 # Map NBA.com's SHOT_ZONE_BASIC values → our internal bucket name.

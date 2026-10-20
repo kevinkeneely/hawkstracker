@@ -18,11 +18,12 @@ from nba_api.stats.static import teams as nba_teams
 from pipeline.config import SEASON, RAW_DATA_DIR
 
 # Where the final merged file lands
-OUT_PATH = "data/teamStatsData.json"
+from pipeline.config import TEAM_STATS_FILENAME
+OUT_PATH = f"data/{TEAM_STATS_FILENAME}"
 
 # Also copied here so Vite serves it to the React app in dev,
 # and so the Netlify build picks it up when deploying.
-APP_OUT_PATH = "app/public/teamStatsData.json"
+APP_OUT_PATH = f"app/public/{TEAM_STATS_FILENAME}"
 
 # Build {team_id: abbreviation} lookup once at module load.
 # nba_api ships with static team metadata — no API call needed.

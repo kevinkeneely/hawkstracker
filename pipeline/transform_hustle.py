@@ -10,9 +10,9 @@ Must run AFTER transform.py (writes hawksData.json) and fetch_hustle.py.
 import json
 from pathlib import Path
 
-from pipeline.config import SEASON
+from pipeline.config import SEASON, HAWKS_DATA_FILENAME
 
-HAWKS_DATA = Path("app/public/hawksData.json")
+HAWKS_DATA = Path("app/public") / HAWKS_DATA_FILENAME
 RAW_DIR = Path("data/raw") / SEASON
 
 MIN_GP = 5  # Early-season threshold; matches Leaders page floor

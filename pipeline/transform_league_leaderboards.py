@@ -22,7 +22,8 @@ from pipeline.config import SEASON
 
 RAW_DIR = Path("data/raw") / SEASON
 SHOTS_DIR = RAW_DIR / "league_shots"
-OUT_PATH = Path("app/public/league_leaderboards.json")
+from pipeline.config import LEADERBOARDS_FILENAME
+OUT_PATH = Path("app/public") / LEADERBOARDS_FILENAME
 
 MIN_GP = 5  # Lowered for early 2026-27 season; bump back to 20 after ~Nov 15
 

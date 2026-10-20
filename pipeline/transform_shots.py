@@ -27,7 +27,8 @@ FIELDS = {
 
 
 def _load_hawks_player_ids():
-    with open("data/hawksData.json") as f:
+    from pipeline.config import HAWKS_DATA_FILENAME
+    with open(f"data/{HAWKS_DATA_FILENAME}") as f:
         return [p["id"] for p in json.load(f)["players"]]
 
 

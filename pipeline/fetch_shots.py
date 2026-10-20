@@ -33,7 +33,8 @@ def _fetch_player_shots(player_id, season=SEASON, team_id=ATLANTA_TEAM_ID):
 
 def _load_hawks_player_ids():
     """Read the current hawksData.json to get the list of player IDs."""
-    with open("data/hawksData.json") as f:
+    from pipeline.config import HAWKS_DATA_FILENAME
+    with open(f"data/{HAWKS_DATA_FILENAME}") as f:
         return [p["id"] for p in json.load(f)["players"]]
 
 

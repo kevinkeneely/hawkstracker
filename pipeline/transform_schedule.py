@@ -18,7 +18,8 @@ from pipeline.config import SEASON
 
 HAWKS_TEAM_ID = 1610612737
 RAW_DIR = Path("data/raw") / SEASON
-OUT_PATH = Path("app/public/schedule.json")
+from pipeline.config import SCHEDULE_FILENAME
+OUT_PATH = Path("app/public") / SCHEDULE_FILENAME
 
 
 def latest_file(pattern: str) -> Path | None:
