@@ -111,6 +111,18 @@ def _fetch_league_base(season=SEASON):
     )
     return result.get_dict()
 
+
+def _fetch_league_advanced(season=SEASON):
+    """League-wide player advanced stats (no team filter) — for AST%/TOV% percentiles
+    and as input to the computed STL%/BLK% league pool."""
+    result = leaguedashplayerstats.LeagueDashPlayerStats(
+        season=season,
+        per_mode_detailed="PerGame",
+        measure_type_detailed_defense="Advanced",
+        timeout=TIMEOUT,
+    )
+    return result.get_dict()
+
 def _fetch_team_roster(season=SEASON, team_id=ATLANTA_TEAM_ID):
     """Hawks roster with positions (not in leaguedashplayerstats)."""
     result = commonteamroster.CommonTeamRoster(
@@ -186,10 +198,17 @@ def run():
 
     # League-wide base stats (all ~500 NBA players, no team filter).
     # Needed to compute percentile rankings for Hawks players.
-    print("League-wide: 1")
+    print("League-wide: 2")
     print("  → league_base (Base)... ", end="", flush=True)
     data = fetch_with_retries(_fetch_league_base)
     out_path = save_raw(data, "league_base")
+    rows = count_rows(data)
+    print(f"saved {rows} rows → {out_path}")
+    time.sleep(RATE_LIMIT_SLEEP)
+
+    print("  → league_advanced (Advanced)... ", end="", flush=True)
+    data = fetch_with_retries(_fetch_league_advanced)
+    out_path = save_raw(data, "league_advanced")
     rows = count_rows(data)
     print(f"saved {rows} rows → {out_path}")
 

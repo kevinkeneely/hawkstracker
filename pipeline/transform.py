@@ -49,6 +49,8 @@ FIELDS = {
         "TS_PCT": "ts_pct",
         "EFG_PCT": "efg_pct",
         "USG_PCT": "usg_pct",
+        "AST_PCT": "ast_pct",
+        "TM_TOV_PCT": "tov_pct",
         "PACE": "pace",
         "PIE": "per",
     },
@@ -115,6 +117,15 @@ PCTILE_STATS = {
     "ft_pct": "FT_PCT",
 }
 
+# Advanced-measure percentile fields. Source column lives in league_advanced,
+# NOT league_base, so computed separately. tov_pct is normalized to 0–1 in
+# build_players() to match the other _pct conventions; its league pool values
+# are rescaled to match before comparison.
+PCTILE_STATS_ADV = {
+    "ast_pct": "AST_PCT",
+    "tov_pct": "TM_TOV_PCT",
+}
+
 # Minimum total minutes played (mpg * gp) for a player to be "qualified".
 # Below this threshold, UI greys out the cells to signal small sample size.
 MIN_PLAYED_THRESHOLD = 200
@@ -148,6 +159,7 @@ def compute_percentiles(hawks_players):
     qualified = total minutes played (mpg * gp) >= MIN_PLAYED_THRESHOLD.
     """
     league = rows_as_dicts(load_raw("league_base"))
+    league_adv = rows_as_dicts(load_raw("league_advanced"))
 
     # Per-game league values per stat (non-null only).
     league_values_pg = {}
@@ -155,6 +167,17 @@ def compute_percentiles(hawks_players):
         league_values_pg[hawks_field] = [
             row[league_col] for row in league if row.get(league_col) is not None
         ]
+
+    # Advanced-measure pools. TM_TOV_PCT comes from the API as a percent number
+    # (11.1), so divide by 100 to match our normalized Hawks tov_pct (0.111).
+    # AST_PCT already arrives as a decimal (0.325) and needs no rescaling.
+    for hawks_field, league_col in PCTILE_STATS_ADV.items():
+        values = [
+            row[league_col] for row in league_adv if row.get(league_col) is not None
+        ]
+        if hawks_field == "tov_pct":
+            values = [v / 100 for v in values]
+        league_values_pg[hawks_field] = values
 
     # Per-36 league values for counting stats (val * 36 / mpg).
     league_values_p36 = {}
@@ -174,8 +197,8 @@ def compute_percentiles(hawks_players):
         gp = player.get("gp") or 0
         player["qualified"] = (mpg * gp) >= MIN_PLAYED_THRESHOLD
 
-        # Per-game percentiles for every PCTILE_STATS field.
-        for hawks_field in PCTILE_STATS:
+        # Per-game percentiles for every PCTILE_STATS and PCTILE_STATS_ADV field.
+        for hawks_field in list(PCTILE_STATS) + list(PCTILE_STATS_ADV):
             value = player.get(hawks_field)
             values = league_values_pg[hawks_field]
             if value is None or not values:
@@ -221,6 +244,13 @@ def build_players():
     pos_by_id = {row["PLAYER_ID"]: row.get("POSITION") for row in roster}
     for player_id, player in players.items():
         player["pos"] = pos_by_id.get(player_id)
+
+    # Normalize NBA.com API quirk: AST_PCT/USG_PCT come as decimals (0.325) but
+    # TM_TOV_PCT comes as a percent number (11.1). Rescale tov_pct to a decimal
+    # so every "_pct" field in hawksData.json follows the same 0–1 convention.
+    for player in players.values():
+        if player.get("tov_pct") is not None:
+            player["tov_pct"] = player["tov_pct"] / 100
 
     # Return as a list, sorted by minutes per game (descending) for display order
     return sorted(players.values(), key=lambda p: p.get("mpg", 0), reverse=True)

@@ -31,6 +31,7 @@ python3 -m pipeline.fetch_hustle
 python3 -m pipeline.fetch_league_clutch
 python3 -m pipeline.transform_hustle
 python3 -m pipeline.transform_clutch
+python3 -m pipeline.transform_defensive_rates
 python3 -m pipeline.fetch_schedule
 python3 -m pipeline.fetch_upcoming
 python3 -m pipeline.transform_schedule
