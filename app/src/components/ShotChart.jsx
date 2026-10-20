@@ -239,8 +239,8 @@ function ZoneLabels({ zones }) {
     { x: 0,    y: 275, text: fmt(zones.paint) },
     { x: 0,    y: 195, text: fmt(zones.mid) },
     { x: 0,    y: 115, text: fmt(zones.above_break_3) },
-    { x: -225, y: 355, text: fmt(zones.corner_3) },
-    { x: 225,  y: 355, text: fmt(zones.corner_3) },
+    { x: -225, y: 355, text: fmt(zones.l_corner_3) },
+    { x: 225,  y: 355, text: fmt(zones.r_corner_3) },
   ]
   return (
     <g>
