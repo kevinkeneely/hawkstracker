@@ -1,4 +1,4 @@
-import { useParams, Link } from 'react-router-dom'
+import { useParams, Link, useNavigate } from 'react-router-dom'
 import ShotChart from '../components/ShotChart'
 import Tabs from '../components/Tabs'
 
@@ -34,6 +34,7 @@ export default function PlayerProfilePage({ playerData, leagueBaseline }) {
           <p className="profile-meta">
             {player.pos ?? '—'} · Age {player.age} · Atlanta Hawks
           </p>
+          <CompareSelector currentPlayerId={player.id} playerData={playerData} />
         </div>
       </header>
 
@@ -349,4 +350,30 @@ function fmt(value) {
 function pct(value) {
   if (value == null) return '—'
   return (value * 100).toFixed(1) + '%'
+}
+
+
+function CompareSelector({ currentPlayerId, playerData }) {
+  const navigate = useNavigate()
+  const others = (playerData?.players || [])
+    .filter((p) => p.id !== currentPlayerId)
+    .slice()
+    .sort((a, b) => (b.mpg ?? 0) - (a.mpg ?? 0))
+  if (others.length === 0) return null
+  return (
+    <select
+      className="compare-select"
+      value=""
+      onChange={(e) => {
+        const otherId = e.target.value
+        if (otherId) navigate(`/compare/${currentPlayerId}/${otherId}`)
+      }}
+      aria-label="Compare with another Hawks player"
+    >
+      <option value="">Compare with…</option>
+      {others.map((p) => (
+        <option key={p.id} value={p.id}>{p.name}</option>
+      ))}
+    </select>
+  )
 }

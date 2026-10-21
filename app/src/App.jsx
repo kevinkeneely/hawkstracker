@@ -8,6 +8,7 @@ import LeadersPage from './pages/LeadersPage'
 import Footer from './components/Footer'
 import BoxScorePage from './pages/BoxScorePage'
 import ChartsPage from './pages/ChartsPage'
+import ComparePage from './pages/ComparePage'
 import { Analytics } from '@vercel/analytics/react'
 
 const HAWKS_TEAM_ID = 1610612737
@@ -200,6 +201,7 @@ function App() {
             <Route path="/leaders" element={<LeadersPage leaderboards={leaderboards} playerData={playerData} />} />
             <Route path="/charts" element={<ChartsPage playerData={playerData} leaderboards={leaderboards} />} />
             <Route path="/players/:id" element={<PlayerProfilePage playerData={playerData} leagueBaseline={leagueBaseline} />} />
+            <Route path="/compare/:id1/:id2" element={<ComparePage playerData={playerData} />} />
             <Route path="/games/:id" element={<BoxScorePage season={season} />} />
           </Routes>
         )}
