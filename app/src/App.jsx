@@ -8,6 +8,7 @@ import LeadersPage from './pages/LeadersPage'
 import Footer from './components/Footer'
 import BoxScorePage from './pages/BoxScorePage'
 import ChartsPage from './pages/ChartsPage'
+import { Analytics } from '@vercel/analytics/react'
 
 const HAWKS_TEAM_ID = 1610612737
 
@@ -204,6 +205,7 @@ function App() {
         )}
       </section>
       <Footer />
+      <Analytics />
     </main>
   )
 }
