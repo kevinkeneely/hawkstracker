@@ -6,6 +6,25 @@ picks the fields the dashboard uses, and writes data/hawksData.json.
 
 Run from the project root:
     python3 -m pipeline.transform
+
+IMPORTANT — enrichment chain:
+This script writes hawksData-<SEASON>.json from scratch, OVERWRITING anything
+already in it. Several later transforms add nested blocks to that file
+in-place and MUST run after this one to restore full data. Order matters —
+the daily-refresh.sh script does the full sequence:
+
+    transform.py                  → writes hawksData-<SEASON>.json (base)
+    transform_hustle.py           → adds player.hustle
+    transform_clutch.py           → adds player.clutch
+    transform_defensive_rates.py  → adds player.stl_pct / blk_pct + league_medians
+    transform_shots.py            → writes per-player shots/<id>.json (independent file)
+    transform_shot_zones.py       → adds player.zones (reads per-player shots)
+
+If you run transform.py manually without the rest, the shot chart heat map
+will lose its zone FG% overlays, the Hustle and Clutch tabs will go empty,
+and the Defense chart will lose stl_pct/blk_pct until the next 2 AM cron.
+To re-run safely, invoke scripts/daily-refresh.sh or run the chain above
+in order.
 """
 
 import json
@@ -134,11 +153,25 @@ MIN_PLAYED_THRESHOLD = 200
 PER_36_STATS = ["ppg", "rpg", "apg", "spg", "bpg", "tov"]
 
 def load_raw(endpoint_name, season=SEASON, as_of=None):
-    """Load today's raw JSON for one endpoint. Returns the parsed dict."""
-    if as_of is None:
-        as_of = date.today().isoformat()
-    filename = f"{endpoint_name}_{as_of}.json"
-    path = os.path.join(RAW_DATA_DIR, season, filename)
+    """Load a raw JSON file for one endpoint. Returns the parsed dict.
+
+    If `as_of` (YYYY-MM-DD) is given, use that exact date's file. Otherwise
+    pick the newest file on disk matching `{endpoint_name}_*.json`. The
+    newest-file fallback lets manual re-runs tolerate stale data (e.g.
+    running transform before a fresh fetch); the daily cron is unaffected
+    since it always fetches before transforming.
+    """
+    from pathlib import Path as _Path
+    if as_of is not None:
+        path = os.path.join(RAW_DATA_DIR, season, f"{endpoint_name}_{as_of}.json")
+    else:
+        files = sorted(_Path(RAW_DATA_DIR, season).glob(f"{endpoint_name}_*.json"))
+        if not files:
+            raise FileNotFoundError(
+                f"No {endpoint_name}_*.json files in {RAW_DATA_DIR}/{season} "
+                f"— run `python3 -m pipeline.fetch` first."
+            )
+        path = str(files[-1])
     with open(path, "r") as f:
         return json.load(f)
 

@@ -15,7 +15,13 @@ echo "=========================================="
 # Activate the virtual env so nba_api etc. are available
 source .venv/bin/activate
 
-# Run the pipeline
+# Run the pipeline.
+#
+# Order matters. transform.py writes hawksData-<SEASON>.json from scratch;
+# the "enrichment" transforms below it add nested blocks (hustle, clutch,
+# zones, stl_pct/blk_pct, league_medians) to that file in-place. Running
+# transform.py alone wipes those blocks. If you re-run manually, re-run the
+# full chain in this order.
 python3 -m pipeline.fetch
 python3 -m pipeline.fetch_standings
 python3 -m pipeline.transform

@@ -49,7 +49,6 @@ def _transform_one(pid, today):
 
 
 def run():
-    today = date.today().isoformat()
     OUT_DIR_PUBLIC.mkdir(parents=True, exist_ok=True)
     OUT_DIR_DATA.mkdir(parents=True, exist_ok=True)
 
@@ -57,7 +56,7 @@ def run():
     print(f"Transforming shots for {len(player_ids)} Hawks players")
 
     for pid in player_ids:
-        shots = _transform_one(pid, today)
+        shots = _transform_one(pid)
         for out_dir in (OUT_DIR_DATA, OUT_DIR_PUBLIC):
             with open(out_dir / f"{pid}.json", "w") as f:
                 json.dump(shots, f)
