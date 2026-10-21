@@ -75,6 +75,16 @@ export default function ChartsPage({ playerData, leaderboards }) {
   const [hoveredId, setHoveredId] = useState(null)
   const navigate = useNavigate()
 
+  // Detect touch-primary devices (phones, tablets, iPhone emulation in DevTools).
+  // On these, we use a two-tap pattern: first tap on a dot sets the tooltip,
+  // second tap on the same dot navigates. Desktop with a mouse keeps single-click
+  // navigation and hover-driven tooltips. The matchMedia check is more reliable
+  // across browsers than per-event pointerType.
+  const isTouch =
+    typeof window !== 'undefined' &&
+    window.matchMedia &&
+    window.matchMedia('(hover: none)').matches
+
   const chart = CHARTS.find(c => c.key === chartKey) || CHARTS[0]
   const players = playerData?.players || []
 
@@ -222,10 +232,13 @@ export default function ChartsPage({ playerData, leaderboards }) {
           role="img"
           aria-label={`${chart.label} scatter plot`}
         >
-          {/* Plot frame */}
+          {/* Plot frame — clicking the background dismisses the tooltip on touch
+              devices so users can poke multiple players without being forced into
+              a profile. */}
           <rect
             x={PAD.left} y={PAD.top} width={PLOT_W} height={PLOT_H}
             className="charts-plot-bg"
+            onClick={() => { if (isTouch) setHoveredId(null) }}
           />
 
           {/* Gridlines */}
@@ -323,9 +336,18 @@ export default function ChartsPage({ playerData, leaderboards }) {
                 key={p.id}
                 transform={`translate(${cx}, ${cy})`}
                 className={`charts-dot ${isHover ? 'is-hover' : ''}`}
-                onMouseEnter={() => setHoveredId(p.id)}
-                onMouseLeave={() => setHoveredId(null)}
-                onClick={() => navigate(`/players/${p.id}`)}
+                onMouseEnter={() => { if (!isTouch) setHoveredId(p.id) }}
+                onMouseLeave={() => { if (!isTouch) setHoveredId(null) }}
+                onClick={() => {
+                  // Touch devices: first tap on a dot shows the tooltip, second
+                  // tap on the SAME dot navigates. Mouse devices: single-click
+                  // navigates straight through.
+                  if (isTouch && hoveredId !== p.id) {
+                    setHoveredId(p.id)
+                  } else {
+                    navigate(`/players/${p.id}`)
+                  }
+                }}
                 style={{ cursor: 'pointer' }}
               >
                 <image
