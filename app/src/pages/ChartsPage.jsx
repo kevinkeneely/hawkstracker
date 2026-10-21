@@ -33,8 +33,8 @@ const CHARTS = [
     key: 'stl-blk',
     label: 'Defense — STL% × BLK%',
     desc: 'Opponent possessions ended with a steal vs opp 2-pt attempts blocked. Top-right = disruptive defender.',
-    xField: 'stl_pct', xLabel: 'STL%', xScale: 'percent', xMin: 0,
-    yField: 'blk_pct', yLabel: 'BLK%', yScale: 'percent', yMin: 0,
+    xField: 'stl_pct', xLabel: 'STL%', xScale: 'decimal', xMin: 0,
+    yField: 'blk_pct', yLabel: 'BLK%', yScale: 'decimal', yMin: 0,
   },
 ]
 
@@ -53,7 +53,12 @@ const DOT_HOVER = 44   // enlarged on hover
 
 function fmt(value, scale) {
   if (value == null || !Number.isFinite(value)) return '—'
-  if (scale === 'decimal') return (value * 100).toFixed(1) + '%'
+  if (scale === 'decimal') {
+    // Preserve precision for small stats like stl_pct (0.0285 → "2.85%")
+    // while keeping larger stats like fg_pct terse (0.489 → "48.9%").
+    const dp = Math.abs(value) < 0.1 ? 2 : 1
+    return (value * 100).toFixed(dp) + '%'
+  }
   if (scale === 'percent') return value.toFixed(2) + '%'
   return value.toFixed(1)
 }

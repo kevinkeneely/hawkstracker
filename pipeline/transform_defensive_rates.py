@@ -164,7 +164,8 @@ def run():
     medians["blk_pct"] = _median(blk_pool)
 
     HAWKS_DATA.write_text(json.dumps(hawks, indent=2))
-    def _fmt(v): return f"{v:.2f}" if v is not None else "n/a"
+    # Store is 0-1 decimal; multiply by 100 for the human-readable log line.
+    def _fmt(v): return f"{v*100:.2f}" if v is not None else "n/a"
     print(f"[def_rates] wrote stl_pct/blk_pct onto {updated} Hawks players "
           f"(league medians: STL%={_fmt(medians['stl_pct'])}, BLK%={_fmt(medians['blk_pct'])})")
 
