@@ -1,8 +1,114 @@
 {
   "season": "2026-27",
-  "generated_at": "2026-10-20",
-  "total_shots": 0,
+  "generated_at": "2026-10-21",
+  "total_shots": 545,
   "hex_size": 22,
   "min_sample": 10,
-  "hexes": []
+  "hexes": [
+    {
+      "q": 7,
+      "r": -3,
+      "shots": 17,
+      "makes": 6,
+      "fg_pct": 0.3529
+    },
+    {
+      "q": -1,
+      "r": 0,
+      "shots": 10,
+      "makes": 4,
+      "fg_pct": 0.4
+    },
+    {
+      "q": 0,
+      "r": 0,
+      "shots": 75,
+      "makes": 51,
+      "fg_pct": 0.68
+    },
+    {
+      "q": 1,
+      "r": 0,
+      "shots": 29,
+      "makes": 14,
+      "fg_pct": 0.4828
+    },
+    {
+      "q": -1,
+      "r": 1,
+      "shots": 26,
+      "makes": 14,
+      "fg_pct": 0.5385
+    },
+    {
+      "q": 0,
+      "r": 1,
+      "shots": 15,
+      "makes": 8,
+      "fg_pct": 0.5333
+    },
+    {
+      "q": 0,
+      "r": 2,
+      "shots": 10,
+      "makes": 4,
+      "fg_pct": 0.4
+    },
+    {
+      "q": -7,
+      "r": 3,
+      "shots": 16,
+      "makes": 3,
+      "fg_pct": 0.1875
+    },
+    {
+      "q": 5,
+      "r": 3,
+      "shots": 11,
+      "makes": 5,
+      "fg_pct": 0.4545
+    },
+    {
+      "q": -7,
+      "r": 4,
+      "shots": 14,
+      "makes": 2,
+      "fg_pct": 0.1429
+    },
+    {
+      "q": 4,
+      "r": 4,
+      "shots": 10,
+      "makes": 4,
+      "fg_pct": 0.4
+    },
+    {
+      "q": 3,
+      "r": 5,
+      "shots": 10,
+      "makes": 3,
+      "fg_pct": 0.3
+    },
+    {
+      "q": 2,
+      "r": 6,
+      "shots": 10,
+      "makes": 5,
+      "fg_pct": 0.5
+    },
+    {
+      "q": -5,
+      "r": 8,
+      "shots": 12,
+      "makes": 6,
+      "fg_pct": 0.5
+    },
+    {
+      "q": -4,
+      "r": 8,
+      "shots": 14,
+      "makes": 6,
+      "fg_pct": 0.4286
+    }
+  ]
 }
