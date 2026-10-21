@@ -1404,13 +1404,21 @@ header {
 }
 
 @media (max-width: 640px) {
+  /* Pull the buttons out of absolute positioning on narrow screens so they
+     don't overlap the centered <h1>. They sit on their own row above the title. */
   .header-actions {
-    top: 10px;
-    right: 12px;
+    position: static;
+    top: auto;
+    right: auto;
+    justify-content: flex-end;
+    padding: 10px 12px 4px;
   }
   .header-btn-theme {
     padding: 6px 10px;
     font-size: 11px;
+  }
+  .header-btn-season {
+    min-width: auto;
   }
 }
 
@@ -2087,20 +2095,26 @@ header {
 }
 
 @media (max-width: 640px) {
+  /* Keep the same 3-col layout as the stat rows below so each headshot
+     sits directly above its column of numbers. Just scale down. */
   .compare-header {
-    grid-template-columns: 1fr 1fr;
-    gap: 12px;
-    padding: 14px;
+    grid-template-columns: 1fr auto 1fr;
+    gap: 10px;
+    padding: 14px 10px;
   }
   .compare-vs {
-    grid-column: 1 / -1;
-    font-size: 16px;
+    font-size: 14px;
+    letter-spacing: 2px;
   }
   .compare-player-card .profile-headshot {
-    width: 80px;
+    width: 68px;
   }
   .compare-player-card h2 {
-    font-size: 15px;
+    font-size: 13px;
+    line-height: 1.2;
+  }
+  .compare-player-card p {
+    font-size: 11px;
   }
   .compare-row {
     padding: 8px 10px;
