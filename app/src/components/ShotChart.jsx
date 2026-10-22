@@ -267,7 +267,7 @@ function ZoneLabels({ zones }) {
 }
 
 // ──────────────── Main component ────────────────
-export default function ShotChart({ playerId, leagueBaseline, zones }) {
+export default function ShotChart({ playerId, season, leagueBaseline, zones }) {
   const [shots, setShots] = useState(null)
   const [error, setError] = useState(null)
   const [view, setView] = useState('hex') // 'hex' | 'heatmap'
@@ -275,14 +275,14 @@ export default function ShotChart({ playerId, leagueBaseline, zones }) {
   useEffect(() => {
     setShots(null)
     setError(null)
-    fetch(`/shots/${playerId}.json`)
+    fetch(`/shots/${playerId}-${season}.json`)
       .then((r) => {
         if (!r.ok) throw new Error('no shot data')
         return r.json()
       })
       .then(setShots)
       .catch((e) => setError(e.message))
-  }, [playerId])
+  }, [playerId, season])
 
   if (error) return <div className="shot-chart-empty">No shot data available.</div>
   if (!shots) return <div className="shot-chart-empty">Loading shot chart…</div>

@@ -17,7 +17,7 @@ import json
 from collections import defaultdict
 from pathlib import Path
 
-from pipeline.config import HAWKS_DATA_FILENAME
+from pipeline.config import HAWKS_DATA_FILENAME, SEASON
 HAWKS_DATA = Path("app/public") / HAWKS_DATA_FILENAME
 SHOTS_DIR = Path("data/shots")
 
@@ -45,7 +45,7 @@ OUTPUT_KEYS = [
 
 def compute_zones_for_player(player_id: int) -> dict | None:
     """Read one player's shot file, return {zone_key: {fga, fgm, pct}} or None."""
-    shot_file = SHOTS_DIR / f"{player_id}.json"
+    shot_file = SHOTS_DIR / f"{player_id}-{SEASON}.json"
     if not shot_file.exists():
         return None
 

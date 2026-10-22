@@ -3,7 +3,7 @@ import { useParams, Link, useNavigate } from 'react-router-dom'
 import ShotChart from '../components/ShotChart'
 import Tabs from '../components/Tabs'
 
-export default function PlayerProfilePage({ playerData, leagueBaseline }) {
+export default function PlayerProfilePage({ playerData, season, leagueBaseline }) {
   const { id } = useParams()
   const playerId = Number(id)
   const player = playerData?.players.find((p) => p.id === playerId)
@@ -59,7 +59,7 @@ export default function PlayerProfilePage({ playerData, leagueBaseline }) {
           {
             key: 'shot-charts',
             label: 'Shot Charts',
-            content: <ShotChartTab player={player} leagueBaseline={leagueBaseline} />,
+            content: <ShotChartTab player={player} season={season} leagueBaseline={leagueBaseline} />,
           },
         ]}
       />
@@ -267,11 +267,11 @@ function useIsMobile() {
   return isMobile
 }
 
-function ShotChartTab({ player, leagueBaseline }) {
+function ShotChartTab({ player, season, leagueBaseline }) {
   return (
     <section className="profile-shots">
       <h2>Shot Chart</h2>
-      <ShotChart playerId={player.id} leagueBaseline={leagueBaseline} zones={player.zones} />
+      <ShotChart playerId={player.id} season={season} leagueBaseline={leagueBaseline} zones={player.zones} />
     </section>
   )
 }

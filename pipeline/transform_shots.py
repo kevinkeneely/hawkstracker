@@ -65,7 +65,7 @@ def run():
     for pid in player_ids:
         shots = _transform_one(pid)
         for out_dir in (OUT_DIR_DATA, OUT_DIR_PUBLIC):
-            with open(out_dir / f"{pid}.json", "w") as f:
+            with open(out_dir / f"{pid}-{SEASON}.json", "w") as f:
                 json.dump(shots, f)
         print(f"  wrote {len(shots)} shots for player {pid}")
 
