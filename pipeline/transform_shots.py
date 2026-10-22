@@ -32,10 +32,17 @@ def _load_hawks_player_ids():
         return [p["id"] for p in json.load(f)["players"]]
 
 
-def _transform_one(pid, today):
-    """Read today's raw shot file for one player, return list of trimmed shots."""
-    raw_path = Path(RAW_DATA_DIR) / SEASON / f"shots_{pid}_{today}.json"
-    with open(raw_path) as f:
+def _transform_one(pid):
+    """Read the latest raw shot file for one player, return list of trimmed shots.
+
+    Picks the newest shots_{pid}_*.json on disk rather than today's date, so
+    manual re-runs tolerate stale data (same policy as load_raw in transform.py).
+    Returns an empty list if no shot file exists yet.
+    """
+    files = sorted((Path(RAW_DATA_DIR) / SEASON).glob(f"shots_{pid}_*.json"))
+    if not files:
+        return []
+    with open(files[-1]) as f:
         raw = json.load(f)
 
     rs = raw["resultSets"][0]
