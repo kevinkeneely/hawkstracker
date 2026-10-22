@@ -89,6 +89,18 @@ FIELDS = {
         "PCT_REB": "pct_team_reb",
         "PCT_AST": "pct_team_ast",
     },
+    "base_totals": {
+        "MIN": "min_total",
+        "PTS": "pts_total",
+        "REB": "reb_total",
+        "AST": "ast_total",
+        "STL": "stl_total",
+        "BLK": "blk_total",
+        "TOV": "tov_total",
+        "FGM": "fgm_total",
+        "FG3M": "fg3m_total",
+        "FTM": "ftm_total",
+    },
     "hustle": {
         "CONTESTED_SHOTS": "contested_shots",
         "CONTESTED_SHOTS_2PT": "contested_2pt",

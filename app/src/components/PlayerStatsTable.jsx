@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { Link } from 'react-router-dom'
 
 export default function PlayerStatsTable({ players }) {
-  const [mode, setMode] = useState('per-game') // 'per-game' | 'per-36'
+  const [mode, setMode] = useState('per-game') // 'per-game' | 'per-36' | 'totals'
   const suf = mode === 'per-36' ? '_p36' : ''
 
   return (
@@ -20,6 +20,12 @@ export default function PlayerStatsTable({ players }) {
         >
           Per 36
         </button>
+        <button
+          className={`stats-mode-btn ${mode === 'totals' ? 'active' : ''}`}
+          onClick={() => setMode('totals')}
+        >
+          Totals
+        </button>
       </div>
 
       <div className="table-wrap">
@@ -30,21 +36,41 @@ export default function PlayerStatsTable({ players }) {
               <th>Player</th>
               <th>Age</th>
               <th>GP</th>
-              <th>MPG</th>
-              <th>{mode === 'per-36' ? 'PTS' : 'PPG'}</th>
-              <th>{mode === 'per-36' ? 'REB' : 'RPG'}</th>
-              <th>{mode === 'per-36' ? 'AST' : 'APG'}</th>
-              <th>{mode === 'per-36' ? 'STL' : 'SPG'}</th>
-              <th>{mode === 'per-36' ? 'BLK' : 'BPG'}</th>
+              <th>{mode === 'totals' ? 'MIN' : 'MPG'}</th>
+              <th>{mode === 'per-game' ? 'PPG' : 'PTS'}</th>
+              <th>{mode === 'per-game' ? 'RPG' : 'REB'}</th>
+              <th>{mode === 'per-game' ? 'APG' : 'AST'}</th>
+              <th>{mode === 'per-game' ? 'SPG' : 'STL'}</th>
+              <th>{mode === 'per-game' ? 'BPG' : 'BLK'}</th>
               <th>TOV</th>
-              <th>FG%</th>
-              <th>3P%</th>
-              <th>FT%</th>
+              <th>{mode === 'totals' ? 'FGM' : 'FG%'}</th>
+              <th>{mode === 'totals' ? '3PM' : '3P%'}</th>
+              <th>{mode === 'totals' ? 'FTM' : 'FT%'}</th>
             </tr>
           </thead>
           <tbody>
             {players.map((p, i) => {
               const faded = !p.qualified ? 'faded' : ''
+              if (mode === 'totals') {
+                return (
+                  <tr key={p.id} className={faded}>
+                    <td>{i + 1}</td>
+                    <td><Link to={`/players/${p.id}`} className="player-link">{p.name}</Link></td>
+                    <td>{p.age}</td>
+                    <td>{p.gp}</td>
+                    <td>{num(p.min_total)}</td>
+                    <td>{num(p.pts_total)}</td>
+                    <td>{num(p.reb_total)}</td>
+                    <td>{num(p.ast_total)}</td>
+                    <td>{num(p.stl_total)}</td>
+                    <td>{num(p.blk_total)}</td>
+                    <td>{num(p.tov_total)}</td>
+                    <td>{num(p.fgm_total)}</td>
+                    <td>{num(p.fg3m_total)}</td>
+                    <td>{num(p.ftm_total)}</td>
+                  </tr>
+                )
+              }
               return (
                 <tr key={p.id}>
                   <td>{i + 1}</td>
@@ -108,4 +134,11 @@ function fmt(value) {
 function pct(value) {
   if (value == null) return '—'
   return (value * 100).toFixed(1) + '%'
+}
+
+// Season total → integer with thousands separators. Minutes come as decimals
+// from NBA.com (e.g. 2531.59) so we round first.
+function num(value) {
+  if (value == null) return '—'
+  return Math.round(value).toLocaleString()
 }

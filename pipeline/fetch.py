@@ -132,6 +132,20 @@ def _fetch_team_roster(season=SEASON, team_id=ATLANTA_TEAM_ID):
     )
     return result.get_dict()
 
+def _fetch_base_totals(season=SEASON, team_id=ATLANTA_TEAM_ID):
+    """Hawks player base stats in Totals mode — season totals (PTS, REB, FGM, etc.)
+    for the Totals pill in Player Stats. Separate call because fetch_endpoint
+    hardcodes PerMode=PerGame."""
+    result = leaguedashplayerstats.LeagueDashPlayerStats(
+        season=season,
+        team_id_nullable=team_id,
+        per_mode_detailed="Totals",
+        measure_type_detailed_defense="Base",
+        timeout=TIMEOUT,
+    )
+    return result.get_dict()
+
+
 def fetch_with_retries(fetch_fn, *args, **kwargs):
     """Call a fetch_* function with retries on network errors.
     Retries MAX_RETRIES times with RETRY_SLEEP seconds between attempts.
@@ -219,7 +233,14 @@ def run():
     out_path = save_raw(data, "team_roster")
     rows = count_rows(data)
     print(f"saved {rows} rows → {out_path}")
-    
+
+    print("Totals: 1")
+    print("  → base_totals (season totals for Player Stats Totals pill)... ", end="", flush=True)
+    data = fetch_with_retries(_fetch_base_totals)
+    out_path = save_raw(data, "base_totals")
+    rows = count_rows(data)
+    print(f"saved {rows} rows → {out_path}")
+
     print("Done.")
 
 
