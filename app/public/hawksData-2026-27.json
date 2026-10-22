@@ -80,7 +80,228 @@
       "bpg_p36": 0.0,
       "bpg_p36_pctile": 0.0,
       "tov_p36": 2.0809248554913293,
-      "tov_p36_pctile": 0.5248447204968945
+      "tov_p36_pctile": 0.5248447204968945,
+      "zones": {
+        "at_rim": {
+          "fga": 6,
+          "fgm": 5,
+          "pct": 0.8333
+        },
+        "paint": {
+          "fga": 5,
+          "fgm": 3,
+          "pct": 0.6
+        },
+        "mid": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "l_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "r_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "above_break_3": {
+          "fga": 2,
+          "fgm": 0,
+          "pct": 0.0
+        }
+      },
+      "hustle": {
+        "contested_shots": {
+          "value": 7.0,
+          "pctile": null
+        },
+        "contested_shots_2pt": {
+          "value": 1.0,
+          "pctile": null
+        },
+        "contested_shots_3pt": {
+          "value": 6.0,
+          "pctile": null
+        },
+        "deflections": {
+          "value": 8.0,
+          "pctile": null
+        },
+        "charges_drawn": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "screen_assists": {
+          "value": 1.0,
+          "pctile": null
+        },
+        "screen_ast_pts": {
+          "value": 2.0,
+          "pctile": null
+        },
+        "loose_balls_recovered": {
+          "value": 1.0,
+          "pctile": null
+        },
+        "box_outs": {
+          "value": 1.0,
+          "pctile": null
+        },
+        "pct_box_outs_off": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "pct_box_outs_def": {
+          "value": 1.0,
+          "pctile": null
+        }
+      },
+      "clutch": {
+        "gp": {
+          "value": 1,
+          "pctile": null
+        },
+        "min": {
+          "value": 4.6,
+          "pctile": null
+        },
+        "pts": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "oreb": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "dreb": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "reb": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "ast": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "stl": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "blk": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "tov": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "fgm": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "fga": {
+          "value": 1.0,
+          "pctile": null
+        },
+        "fg_pct": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "fg3m": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "fg3a": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "fg3_pct": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "ftm": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "fta": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "ft_pct": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "pf": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "plus_minus": {
+          "value": 7.0,
+          "pctile": null
+        },
+        "off_rating": {
+          "value": 118.2,
+          "pctile": null
+        },
+        "def_rating": {
+          "value": 66.7,
+          "pctile": null
+        },
+        "net_rating": {
+          "value": 51.5,
+          "pctile": null
+        },
+        "efg_pct": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "ts_pct": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "ast_pct": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "oreb_pct": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "dreb_pct": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "reb_pct": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "tm_tov_pct": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "usg_pct": {
+          "value": 0.091,
+          "pctile": null
+        },
+        "pie": {
+          "value": -0.065,
+          "pctile": null
+        }
+      },
+      "stl_pct": 6.305431640687501,
+      "blk_pct": 0.0,
+      "stl_pct_pctile": null,
+      "blk_pct_pctile": null
     },
     {
       "id": 1630598,
@@ -160,7 +381,228 @@
       "bpg_p36": 0.0,
       "bpg_p36_pctile": 0.0,
       "tov_p36": 2.2641509433962264,
-      "tov_p36_pctile": 0.5683229813664596
+      "tov_p36_pctile": 0.5683229813664596,
+      "zones": {
+        "at_rim": {
+          "fga": 2,
+          "fgm": 2,
+          "pct": 1.0
+        },
+        "paint": {
+          "fga": 2,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "mid": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "l_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "r_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "above_break_3": {
+          "fga": 5,
+          "fgm": 3,
+          "pct": 0.6
+        }
+      },
+      "hustle": {
+        "contested_shots": {
+          "value": 4.0,
+          "pctile": null
+        },
+        "contested_shots_2pt": {
+          "value": 3.0,
+          "pctile": null
+        },
+        "contested_shots_3pt": {
+          "value": 1.0,
+          "pctile": null
+        },
+        "deflections": {
+          "value": 3.0,
+          "pctile": null
+        },
+        "charges_drawn": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "screen_assists": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "screen_ast_pts": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "loose_balls_recovered": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "box_outs": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "pct_box_outs_off": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "pct_box_outs_def": {
+          "value": 0.0,
+          "pctile": null
+        }
+      },
+      "clutch": {
+        "gp": {
+          "value": 1,
+          "pctile": null
+        },
+        "min": {
+          "value": 4.6,
+          "pctile": null
+        },
+        "pts": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "oreb": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "dreb": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "reb": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "ast": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "stl": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "blk": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "tov": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "fgm": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "fga": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "fg_pct": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "fg3m": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "fg3a": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "fg3_pct": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "ftm": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "fta": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "ft_pct": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "pf": {
+          "value": 1.0,
+          "pctile": null
+        },
+        "plus_minus": {
+          "value": 8.0,
+          "pctile": null
+        },
+        "off_rating": {
+          "value": 127.3,
+          "pctile": null
+        },
+        "def_rating": {
+          "value": 66.7,
+          "pctile": null
+        },
+        "net_rating": {
+          "value": 60.6,
+          "pctile": null
+        },
+        "efg_pct": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "ts_pct": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "ast_pct": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "oreb_pct": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "dreb_pct": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "reb_pct": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "tm_tov_pct": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "usg_pct": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "pie": {
+          "value": -0.065,
+          "pctile": null
+        }
+      },
+      "stl_pct": 2.7442507517960695,
+      "blk_pct": 0.0,
+      "stl_pct_pctile": null,
+      "blk_pct_pctile": null
     },
     {
       "id": 1629638,
@@ -240,7 +682,228 @@
       "bpg_p36": 1.2121212121212122,
       "bpg_p36_pctile": 0.7639751552795031,
       "tov_p36": 2.4242424242424243,
-      "tov_p36_pctile": 0.5993788819875776
+      "tov_p36_pctile": 0.5993788819875776,
+      "zones": {
+        "at_rim": {
+          "fga": 2,
+          "fgm": 1,
+          "pct": 0.5
+        },
+        "paint": {
+          "fga": 4,
+          "fgm": 2,
+          "pct": 0.5
+        },
+        "mid": {
+          "fga": 1,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "l_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "r_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "above_break_3": {
+          "fga": 8,
+          "fgm": 5,
+          "pct": 0.625
+        }
+      },
+      "hustle": {
+        "contested_shots": {
+          "value": 1.0,
+          "pctile": null
+        },
+        "contested_shots_2pt": {
+          "value": 1.0,
+          "pctile": null
+        },
+        "contested_shots_3pt": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "deflections": {
+          "value": 3.0,
+          "pctile": null
+        },
+        "charges_drawn": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "screen_assists": {
+          "value": 1.0,
+          "pctile": null
+        },
+        "screen_ast_pts": {
+          "value": 2.0,
+          "pctile": null
+        },
+        "loose_balls_recovered": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "box_outs": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "pct_box_outs_off": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "pct_box_outs_def": {
+          "value": 0.0,
+          "pctile": null
+        }
+      },
+      "clutch": {
+        "gp": {
+          "value": 1,
+          "pctile": null
+        },
+        "min": {
+          "value": 4.6,
+          "pctile": null
+        },
+        "pts": {
+          "value": 8.0,
+          "pctile": null
+        },
+        "oreb": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "dreb": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "reb": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "ast": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "stl": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "blk": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "tov": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "fgm": {
+          "value": 3.0,
+          "pctile": null
+        },
+        "fga": {
+          "value": 4.0,
+          "pctile": null
+        },
+        "fg_pct": {
+          "value": 0.75,
+          "pctile": null
+        },
+        "fg3m": {
+          "value": 2.0,
+          "pctile": null
+        },
+        "fg3a": {
+          "value": 3.0,
+          "pctile": null
+        },
+        "fg3_pct": {
+          "value": 0.667,
+          "pctile": null
+        },
+        "ftm": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "fta": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "ft_pct": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "pf": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "plus_minus": {
+          "value": 8.0,
+          "pctile": null
+        },
+        "off_rating": {
+          "value": 127.3,
+          "pctile": null
+        },
+        "def_rating": {
+          "value": 66.7,
+          "pctile": null
+        },
+        "net_rating": {
+          "value": 60.6,
+          "pctile": null
+        },
+        "efg_pct": {
+          "value": 1.0,
+          "pctile": null
+        },
+        "ts_pct": {
+          "value": 1.0,
+          "pctile": null
+        },
+        "ast_pct": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "oreb_pct": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "dreb_pct": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "reb_pct": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "tm_tov_pct": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "usg_pct": {
+          "value": 0.364,
+          "pctile": null
+        },
+        "pie": {
+          "value": 0.452,
+          "pctile": null
+        }
+      },
+      "stl_pct": 1.4691443418706231,
+      "blk_pct": 3.591470258136925,
+      "stl_pct_pctile": null,
+      "blk_pct_pctile": null
     },
     {
       "id": 1630168,
@@ -320,7 +983,228 @@
       "bpg_p36": 0.0,
       "bpg_p36_pctile": 0.0,
       "tov_p36": 2.4573378839590445,
-      "tov_p36_pctile": 0.6118012422360248
+      "tov_p36_pctile": 0.6118012422360248,
+      "zones": {
+        "at_rim": {
+          "fga": 2,
+          "fgm": 1,
+          "pct": 0.5
+        },
+        "paint": {
+          "fga": 2,
+          "fgm": 2,
+          "pct": 1.0
+        },
+        "mid": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "corner_3": {
+          "fga": 1,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "l_corner_3": {
+          "fga": 1,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "r_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "above_break_3": {
+          "fga": 3,
+          "fgm": 0,
+          "pct": 0.0
+        }
+      },
+      "hustle": {
+        "contested_shots": {
+          "value": 6.0,
+          "pctile": null
+        },
+        "contested_shots_2pt": {
+          "value": 3.0,
+          "pctile": null
+        },
+        "contested_shots_3pt": {
+          "value": 3.0,
+          "pctile": null
+        },
+        "deflections": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "charges_drawn": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "screen_assists": {
+          "value": 8.0,
+          "pctile": null
+        },
+        "screen_ast_pts": {
+          "value": 20.0,
+          "pctile": null
+        },
+        "loose_balls_recovered": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "box_outs": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "pct_box_outs_off": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "pct_box_outs_def": {
+          "value": 0.0,
+          "pctile": null
+        }
+      },
+      "clutch": {
+        "gp": {
+          "value": 1,
+          "pctile": null
+        },
+        "min": {
+          "value": 4.6,
+          "pctile": null
+        },
+        "pts": {
+          "value": 1.0,
+          "pctile": null
+        },
+        "oreb": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "dreb": {
+          "value": 1.0,
+          "pctile": null
+        },
+        "reb": {
+          "value": 1.0,
+          "pctile": null
+        },
+        "ast": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "stl": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "blk": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "tov": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "fgm": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "fga": {
+          "value": 1.0,
+          "pctile": null
+        },
+        "fg_pct": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "fg3m": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "fg3a": {
+          "value": 1.0,
+          "pctile": null
+        },
+        "fg3_pct": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "ftm": {
+          "value": 1.0,
+          "pctile": null
+        },
+        "fta": {
+          "value": 1.0,
+          "pctile": null
+        },
+        "ft_pct": {
+          "value": 1.0,
+          "pctile": null
+        },
+        "pf": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "plus_minus": {
+          "value": 8.0,
+          "pctile": null
+        },
+        "off_rating": {
+          "value": 127.3,
+          "pctile": null
+        },
+        "def_rating": {
+          "value": 66.7,
+          "pctile": null
+        },
+        "net_rating": {
+          "value": 60.6,
+          "pctile": null
+        },
+        "efg_pct": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "ts_pct": {
+          "value": 0.347,
+          "pctile": null
+        },
+        "ast_pct": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "oreb_pct": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "dreb_pct": {
+          "value": 0.167,
+          "pctile": null
+        },
+        "reb_pct": {
+          "value": 0.091,
+          "pctile": null
+        },
+        "tm_tov_pct": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "usg_pct": {
+          "value": 0.182,
+          "pctile": null
+        },
+        "pie": {
+          "value": 0.065,
+          "pctile": null
+        }
+      },
+      "stl_pct": 0.0,
+      "blk_pct": 0.0,
+      "stl_pct_pctile": null,
+      "blk_pct_pctile": null
     },
     {
       "id": 1629652,
@@ -395,7 +1279,94 @@
       "bpg_p36": 0.0,
       "bpg_p36_pctile": 0.0,
       "tov_p36": 2.5441696113074204,
-      "tov_p36_pctile": 0.6304347826086957
+      "tov_p36_pctile": 0.6304347826086957,
+      "zones": {
+        "at_rim": {
+          "fga": 2,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "paint": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "mid": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "corner_3": {
+          "fga": 1,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "l_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "r_corner_3": {
+          "fga": 1,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "above_break_3": {
+          "fga": 4,
+          "fgm": 2,
+          "pct": 0.5
+        }
+      },
+      "hustle": {
+        "contested_shots": {
+          "value": 2.0,
+          "pctile": null
+        },
+        "contested_shots_2pt": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "contested_shots_3pt": {
+          "value": 2.0,
+          "pctile": null
+        },
+        "deflections": {
+          "value": 2.0,
+          "pctile": null
+        },
+        "charges_drawn": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "screen_assists": {
+          "value": 1.0,
+          "pctile": null
+        },
+        "screen_ast_pts": {
+          "value": 2.0,
+          "pctile": null
+        },
+        "loose_balls_recovered": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "box_outs": {
+          "value": 1.0,
+          "pctile": null
+        },
+        "pct_box_outs_off": {
+          "value": 1.0,
+          "pctile": null
+        },
+        "pct_box_outs_def": {
+          "value": 0.0,
+          "pctile": null
+        }
+      },
+      "stl_pct": 1.5418228605497353,
+      "blk_pct": 0.0,
+      "stl_pct_pctile": null,
+      "blk_pct_pctile": null
     },
     {
       "id": 1630552,
@@ -475,7 +1446,228 @@
       "bpg_p36": 0.0,
       "bpg_p36_pctile": 0.0,
       "tov_p36": 2.5899280575539567,
-      "tov_p36_pctile": 0.639751552795031
+      "tov_p36_pctile": 0.639751552795031,
+      "zones": {
+        "at_rim": {
+          "fga": 9,
+          "fgm": 6,
+          "pct": 0.6667
+        },
+        "paint": {
+          "fga": 4,
+          "fgm": 1,
+          "pct": 0.25
+        },
+        "mid": {
+          "fga": 2,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "l_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "r_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "above_break_3": {
+          "fga": 4,
+          "fgm": 0,
+          "pct": 0.0
+        }
+      },
+      "hustle": {
+        "contested_shots": {
+          "value": 3.0,
+          "pctile": null
+        },
+        "contested_shots_2pt": {
+          "value": 2.0,
+          "pctile": null
+        },
+        "contested_shots_3pt": {
+          "value": 1.0,
+          "pctile": null
+        },
+        "deflections": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "charges_drawn": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "screen_assists": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "screen_ast_pts": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "loose_balls_recovered": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "box_outs": {
+          "value": 2.0,
+          "pctile": null
+        },
+        "pct_box_outs_off": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "pct_box_outs_def": {
+          "value": 1.0,
+          "pctile": null
+        }
+      },
+      "clutch": {
+        "gp": {
+          "value": 1,
+          "pctile": null
+        },
+        "min": {
+          "value": 4.6,
+          "pctile": null
+        },
+        "pts": {
+          "value": 5.0,
+          "pctile": null
+        },
+        "oreb": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "dreb": {
+          "value": 4.0,
+          "pctile": null
+        },
+        "reb": {
+          "value": 4.0,
+          "pctile": null
+        },
+        "ast": {
+          "value": 2.0,
+          "pctile": null
+        },
+        "stl": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "blk": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "tov": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "fgm": {
+          "value": 2.0,
+          "pctile": null
+        },
+        "fga": {
+          "value": 3.0,
+          "pctile": null
+        },
+        "fg_pct": {
+          "value": 0.667,
+          "pctile": null
+        },
+        "fg3m": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "fg3a": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "fg3_pct": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "ftm": {
+          "value": 1.0,
+          "pctile": null
+        },
+        "fta": {
+          "value": 2.0,
+          "pctile": null
+        },
+        "ft_pct": {
+          "value": 0.5,
+          "pctile": null
+        },
+        "pf": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "plus_minus": {
+          "value": 8.0,
+          "pctile": null
+        },
+        "off_rating": {
+          "value": 127.3,
+          "pctile": null
+        },
+        "def_rating": {
+          "value": 66.7,
+          "pctile": null
+        },
+        "net_rating": {
+          "value": 60.6,
+          "pctile": null
+        },
+        "efg_pct": {
+          "value": 0.667,
+          "pctile": null
+        },
+        "ts_pct": {
+          "value": 0.644,
+          "pctile": null
+        },
+        "ast_pct": {
+          "value": 0.667,
+          "pctile": null
+        },
+        "oreb_pct": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "dreb_pct": {
+          "value": 0.667,
+          "pctile": null
+        },
+        "reb_pct": {
+          "value": 0.364,
+          "pctile": null
+        },
+        "tm_tov_pct": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "usg_pct": {
+          "value": 0.364,
+          "pctile": null
+        },
+        "pie": {
+          "value": 0.581,
+          "pctile": null
+        }
+      },
+      "stl_pct": 0.0,
+      "blk_pct": 0.0,
+      "stl_pct_pctile": null,
+      "blk_pct_pctile": null
     },
     {
       "id": 203468,
@@ -555,7 +1747,228 @@
       "bpg_p36": 0.0,
       "bpg_p36_pctile": 0.0,
       "tov_p36": 4.372469635627531,
-      "tov_p36_pctile": 0.84472049689441
+      "tov_p36_pctile": 0.84472049689441,
+      "zones": {
+        "at_rim": {
+          "fga": 2,
+          "fgm": 2,
+          "pct": 1.0
+        },
+        "paint": {
+          "fga": 1,
+          "fgm": 1,
+          "pct": 1.0
+        },
+        "mid": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "l_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "r_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "above_break_3": {
+          "fga": 6,
+          "fgm": 4,
+          "pct": 0.6667
+        }
+      },
+      "hustle": {
+        "contested_shots": {
+          "value": 7.0,
+          "pctile": null
+        },
+        "contested_shots_2pt": {
+          "value": 2.0,
+          "pctile": null
+        },
+        "contested_shots_3pt": {
+          "value": 5.0,
+          "pctile": null
+        },
+        "deflections": {
+          "value": 1.0,
+          "pctile": null
+        },
+        "charges_drawn": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "screen_assists": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "screen_ast_pts": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "loose_balls_recovered": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "box_outs": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "pct_box_outs_off": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "pct_box_outs_def": {
+          "value": 0.0,
+          "pctile": null
+        }
+      },
+      "clutch": {
+        "gp": {
+          "value": 1,
+          "pctile": null
+        },
+        "min": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "pts": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "oreb": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "dreb": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "reb": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "ast": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "stl": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "blk": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "tov": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "fgm": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "fga": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "fg_pct": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "fg3m": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "fg3a": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "fg3_pct": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "ftm": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "fta": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "ft_pct": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "pf": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "plus_minus": {
+          "value": 1.0,
+          "pctile": null
+        },
+        "off_rating": {
+          "value": 100.0,
+          "pctile": null
+        },
+        "def_rating": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "net_rating": {
+          "value": 100.0,
+          "pctile": null
+        },
+        "efg_pct": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "ts_pct": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "ast_pct": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "oreb_pct": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "dreb_pct": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "reb_pct": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "tm_tov_pct": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "usg_pct": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "pie": {
+          "value": 0.0,
+          "pctile": null
+        }
+      },
+      "stl_pct": 0.0,
+      "blk_pct": 0.0,
+      "stl_pct_pctile": null,
+      "blk_pct_pctile": null
     },
     {
       "id": 1629111,
@@ -630,7 +2043,94 @@
       "bpg_p36": 1.9354838709677418,
       "bpg_p36_pctile": 0.8540372670807453,
       "tov_p36": 0.0,
-      "tov_p36_pctile": 0.0
+      "tov_p36_pctile": 0.0,
+      "zones": {
+        "at_rim": {
+          "fga": 4,
+          "fgm": 4,
+          "pct": 1.0
+        },
+        "paint": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "mid": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "l_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "r_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "above_break_3": {
+          "fga": 1,
+          "fgm": 0,
+          "pct": 0.0
+        }
+      },
+      "hustle": {
+        "contested_shots": {
+          "value": 4.0,
+          "pctile": null
+        },
+        "contested_shots_2pt": {
+          "value": 4.0,
+          "pctile": null
+        },
+        "contested_shots_3pt": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "deflections": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "charges_drawn": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "screen_assists": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "screen_ast_pts": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "loose_balls_recovered": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "box_outs": {
+          "value": 1.0,
+          "pctile": null
+        },
+        "pct_box_outs_off": {
+          "value": 1.0,
+          "pctile": null
+        },
+        "pct_box_outs_def": {
+          "value": 0.0,
+          "pctile": null
+        }
+      },
+      "stl_pct": 0.0,
+      "blk_pct": 5.734767025089605,
+      "stl_pct_pctile": null,
+      "blk_pct_pctile": null
     },
     {
       "id": 1643412,
@@ -705,7 +2205,94 @@
       "bpg_p36": 2.368421052631579,
       "bpg_p36_pctile": 0.8757763975155279,
       "tov_p36": 4.736842105263158,
-      "tov_p36_pctile": 0.8850931677018633
+      "tov_p36_pctile": 0.8850931677018633,
+      "zones": {
+        "at_rim": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "paint": {
+          "fga": 3,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "mid": {
+          "fga": 1,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "l_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "r_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "above_break_3": {
+          "fga": 1,
+          "fgm": 0,
+          "pct": 0.0
+        }
+      },
+      "hustle": {
+        "contested_shots": {
+          "value": 3.0,
+          "pctile": null
+        },
+        "contested_shots_2pt": {
+          "value": 2.0,
+          "pctile": null
+        },
+        "contested_shots_3pt": {
+          "value": 1.0,
+          "pctile": null
+        },
+        "deflections": {
+          "value": 2.0,
+          "pctile": null
+        },
+        "charges_drawn": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "screen_assists": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "screen_ast_pts": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "loose_balls_recovered": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "box_outs": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "pct_box_outs_off": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "pct_box_outs_def": {
+          "value": 0.0,
+          "pctile": null
+        }
+      },
+      "stl_pct": 0.0,
+      "blk_pct": 7.017543859649122,
+      "stl_pct_pctile": null,
+      "blk_pct_pctile": null
     }
   ],
   "league_medians": {
@@ -719,6 +2306,8 @@
     "fg3_pct": 0.143,
     "ft_pct": 0.5,
     "ast_pct": 0.11449999999999999,
-    "tov_pct": 0.091
+    "tov_pct": 0.091,
+    "stl_pct": null,
+    "blk_pct": null
   }
 }
