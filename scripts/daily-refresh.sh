@@ -44,7 +44,7 @@ python3 -m pipeline.transform_schedule
 python3 -m pipeline.fetch_boxscores
 
 # Commit and push if JSON changed
-git add data/*.json app/public/*.json
+git add data app/public
 if git diff --staged --quiet; then
     echo "No data changes today — nothing to commit."
 else
