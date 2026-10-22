@@ -6,7 +6,7 @@ import { useEffect, useRef, useState } from 'react'
 //   hoop center at (0, 0)
 
 const HEX_SIZE = 22          // MUST match pipeline/transform_league_baseline.py
-const MIN_SHOTS_PER_HEX = 3  // hide hexes with fewer shots (Q4 Option B)
+const MIN_SHOTS_PER_HEX = 1  // TEMP early-season — was 3. Raise back when players have enough cluster volume (~mid-Nov). See post-launch-followups.md #5
 
 // ──────────────── Diverging color: blue (below avg) → gray (avg) → red (above) ────────────────
 const COLOR_LOW = { r: 63, g: 81, b: 181 }    // #3F51B5
