@@ -11,7 +11,7 @@ const ZONES = [
 const TOP_N = 10
 
 export default function LeadersPage({ leaderboards, playerData }) {
-  const [source, setSource] = useState('league')
+  const [source, setSource] = useState('hawks')
 
   if (!leaderboards) {
     return (
@@ -37,17 +37,17 @@ export default function LeadersPage({ leaderboards, playerData }) {
       <div className="leaders-toggle">
         <button
           type="button"
-          className={`leaders-toggle-btn ${source === 'league' ? 'active' : ''}`}
-          onClick={() => setSource('league')}
-        >
-          League
-        </button>
-        <button
-          type="button"
           className={`leaders-toggle-btn ${source === 'hawks' ? 'active' : ''}`}
           onClick={() => setSource('hawks')}
         >
           Hawks
+        </button>
+        <button
+          type="button"
+          className={`leaders-toggle-btn ${source === 'league' ? 'active' : ''}`}
+          onClick={() => setSource('league')}
+        >
+          League
         </button>
       </div>
 

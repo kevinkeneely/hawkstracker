@@ -186,7 +186,7 @@ function App() {
           <NavLink to="/team" className="tab">Team Stats</NavLink>
           <NavLink to="/standings" className="tab">Standings</NavLink>
           <NavLink to="/leaders" className="tab">Leaders</NavLink>
-          <NavLink to="/charts" className="tab">Charts</NavLink>
+          <NavLink to="/charts" className="tab">Scatter Plots</NavLink>
         </nav>
       </header>
       <section>
