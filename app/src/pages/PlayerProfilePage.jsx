@@ -1,3 +1,4 @@
+import { useEffect, useState } from 'react'
 import { useParams, Link, useNavigate } from 'react-router-dom'
 import ShotChart from '../components/ShotChart'
 import Tabs from '../components/Tabs'
@@ -139,6 +140,43 @@ const CLUTCH_GROUPS = [
   ],
 ]
 
+// Same stats as CLUTCH_GROUPS but reordered for narrow (single-column) screens.
+// Group 1's desktop ordering reads top-to-bottom down two columns; on mobile
+// that interleaving reads jumbled. The mobile list reads straight down:
+// ratings → counting stats → shooting splits → PF / +/−. Group 2 (advanced
+// rate stats) is unchanged below.
+const CLUTCH_GROUPS_MOBILE = [
+  [
+    { key: 'net_rating', label: 'Net Rating', format: 'num1' },
+    { key: 'off_rating', label: 'Off Rating', format: 'num1' },
+    { key: 'def_rating', label: 'Def Rating', format: 'num1', invert: true },
+    { key: 'pts',        label: 'PTS',        format: 'num1' },
+    { key: 'reb',        label: 'REB',        format: 'num1' },
+    { key: 'oreb',       label: 'OREB',       format: 'num1' },
+    { key: 'dreb',       label: 'DREB',       format: 'num1' },
+    { key: 'ast',        label: 'AST',        format: 'num1' },
+    { key: 'stl',        label: 'STL',        format: 'num1' },
+    { key: 'blk',        label: 'BLK',        format: 'num1' },
+    { key: 'tov',        label: 'TOV',        format: 'num1', invert: true },
+    { key: 'fg_pct',     label: 'FG%',        format: 'pct'  },
+    { key: 'fg3_pct',    label: '3P%',        format: 'pct'  },
+    { key: 'ft_pct',     label: 'FT%',        format: 'pct'  },
+    { key: 'efg_pct',    label: 'eFG%',       format: 'pct'  },
+    { key: 'ts_pct',     label: 'TS%',        format: 'pct'  },
+    { key: 'pf',         label: 'PF',         format: 'num1', invert: true },
+    { key: 'plus_minus', label: '+/−',        format: 'num1' },
+  ],
+  [
+    { key: 'ast_pct',    label: 'AST%',       format: 'pct'  },
+    { key: 'oreb_pct',   label: 'OREB%',      format: 'pct'  },
+    { key: 'dreb_pct',   label: 'DREB%',      format: 'pct'  },
+    { key: 'reb_pct',    label: 'REB%',       format: 'pct'  },
+    { key: 'tm_tov_pct', label: 'Team TOV%',  format: 'pct_raw', invert: true },
+    { key: 'usg_pct',    label: 'USG%',       format: 'pct'  },
+    { key: 'pie',        label: 'PIE',        format: 'pct'  },
+  ],
+]
+
 function formatStatValue(value, format) {
   if (value == null || Number.isNaN(value)) return '—'
   if (format === 'pct') return `${(value * 100).toFixed(1)}%`
@@ -189,6 +227,7 @@ function HustleTab({ player }) {
 }
 
 function ClutchTab({ player }) {
+  const isMobile = useIsMobile()
   if (!player.clutch) {
     return (
       <div className="tab-placeholder">
@@ -198,14 +237,34 @@ function ClutchTab({ player }) {
   }
   const gp = player.clutch.gp?.value
   const mpg = player.clutch.min?.value
+  const groups = isMobile ? CLUTCH_GROUPS_MOBILE : CLUTCH_GROUPS
   return (
     <section className="profile-percentiles">
       <div className="clutch-summary">
         GP: {gp ?? '—'} · MPG: {mpg != null ? mpg.toFixed(1) : '—'}
       </div>
-      <GroupedPctileBars groups={CLUTCH_GROUPS} data={player.clutch} />
+      <GroupedPctileBars groups={groups} data={player.clutch} />
     </section>
   )
+}
+
+// Tracks whether the viewport matches the mobile media query so components can
+// swap stat orderings between the desktop two-column read-down ordering and a
+// mobile straight-down ordering. Listens for changes so a desktop user resizing
+// their window flips live.
+function useIsMobile() {
+  const [isMobile, setIsMobile] = useState(() => {
+    if (typeof window === 'undefined' || !window.matchMedia) return false
+    return window.matchMedia('(max-width: 640px)').matches
+  })
+  useEffect(() => {
+    if (typeof window === 'undefined' || !window.matchMedia) return
+    const mq = window.matchMedia('(max-width: 640px)')
+    const handler = (e) => setIsMobile(e.matches)
+    mq.addEventListener('change', handler)
+    return () => mq.removeEventListener('change', handler)
+  }, [])
+  return isMobile
 }
 
 function ShotChartTab({ player, leagueBaseline }) {
