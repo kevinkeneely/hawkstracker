@@ -9,13 +9,13 @@
       "gp": 3,
       "w": 2,
       "l": 1,
-      "mpg": 94.59666666666666,
-      "ppg": 65,
-      "rpg": 30,
-      "apg": 30,
-      "spg": 5,
-      "bpg": 1,
-      "tov": 7,
+      "mpg": 31.5,
+      "ppg": 21.7,
+      "rpg": 10.0,
+      "apg": 10.0,
+      "spg": 1.7,
+      "bpg": 0.3,
+      "tov": 2.3,
       "fg_pct": 0.444,
       "fg3_pct": 0.143,
       "ft_pct": 0.833,
@@ -67,67 +67,30 @@
       "clutch_efg_pct": 0.5,
       "clutch_ts_pct": 0.512,
       "pos": "F",
-      "qualified": true,
-      "ppg_pctile": 1.0,
-      "rpg_pctile": 1.0,
-      "apg_pctile": 1.0,
-      "spg_pctile": 1.0,
-      "bpg_pctile": 0.8025,
-      "tov_pctile": 0.9975,
+      "qualified": false,
+      "ppg_pctile": 0.9175,
+      "rpg_pctile": 0.9775,
+      "apg_pctile": 0.995,
+      "spg_pctile": 0.86,
+      "bpg_pctile": 0.48,
+      "tov_pctile": 0.8125,
       "fg_pct_pctile": 0.4825,
       "fg3_pct_pctile": 0.3275,
       "ft_pct_pctile": 0.6875,
       "ast_pct_pctile": 0.96,
       "tov_pct_pctile": 0.35,
-      "ppg_p36": 24.73660100778745,
+      "ppg_p36": 24.799999999999997,
       "ppg_p36_pctile": 0.87468671679198,
-      "rpg_p36": 11.416892772824976,
+      "rpg_p36": 11.428571428571429,
       "rpg_p36_pctile": 0.87468671679198,
-      "apg_p36": 11.416892772824976,
+      "apg_p36": 11.428571428571429,
       "apg_p36_pctile": 0.974937343358396,
-      "spg_p36": 1.9028154621374962,
-      "spg_p36_pctile": 0.7468671679197995,
-      "bpg_p36": 0.3805630924274992,
-      "bpg_p36_pctile": 0.5388471177944862,
-      "tov_p36": 2.6639416469924946,
-      "tov_p36_pctile": 0.631578947368421,
-      "zones": {
-        "at_rim": {
-          "fga": 22,
-          "fgm": 15,
-          "pct": 0.6818
-        },
-        "paint": {
-          "fga": 13,
-          "fgm": 6,
-          "pct": 0.4615
-        },
-        "mid": {
-          "fga": 5,
-          "fgm": 1,
-          "pct": 0.2
-        },
-        "corner_3": {
-          "fga": 1,
-          "fgm": 1,
-          "pct": 1.0
-        },
-        "l_corner_3": {
-          "fga": 1,
-          "fgm": 1,
-          "pct": 1.0
-        },
-        "r_corner_3": {
-          "fga": 0,
-          "fgm": 0,
-          "pct": null
-        },
-        "above_break_3": {
-          "fga": 13,
-          "fgm": 1,
-          "pct": 0.0769
-        }
-      },
+      "spg_p36": 1.9428571428571426,
+      "spg_p36_pctile": 0.7619047619047619,
+      "bpg_p36": 0.3428571428571428,
+      "bpg_p36_pctile": 0.506265664160401,
+      "tov_p36": 2.6285714285714286,
+      "tov_p36_pctile": 0.6265664160401002,
       "hustle": {
         "contested_shots": {
           "value": 4.0,
@@ -308,10 +271,47 @@
           "pctile": 1.0
         }
       },
-      "stl_pct": 2.3565432680714182,
-      "blk_pct": 1.0158730158730158,
+      "stl_pct": 0.023565432680714184,
+      "blk_pct": 0.010158730158730157,
       "stl_pct_pctile": null,
-      "blk_pct_pctile": null
+      "blk_pct_pctile": null,
+      "zones": {
+        "at_rim": {
+          "fga": 22,
+          "fgm": 15,
+          "pct": 0.6818
+        },
+        "paint": {
+          "fga": 13,
+          "fgm": 6,
+          "pct": 0.4615
+        },
+        "mid": {
+          "fga": 5,
+          "fgm": 1,
+          "pct": 0.2
+        },
+        "corner_3": {
+          "fga": 1,
+          "fgm": 1,
+          "pct": 1.0
+        },
+        "l_corner_3": {
+          "fga": 1,
+          "fgm": 1,
+          "pct": 1.0
+        },
+        "r_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "above_break_3": {
+          "fga": 13,
+          "fgm": 1,
+          "pct": 0.0769
+        }
+      }
     },
     {
       "id": 1629638,
@@ -320,13 +320,13 @@
       "gp": 3,
       "w": 2,
       "l": 1,
-      "mpg": 89.47,
-      "ppg": 63,
-      "rpg": 12,
-      "apg": 12,
-      "spg": 6,
-      "bpg": 1,
-      "tov": 5,
+      "mpg": 29.8,
+      "ppg": 21.0,
+      "rpg": 4.0,
+      "apg": 4.0,
+      "spg": 2.0,
+      "bpg": 0.3,
+      "tov": 1.7,
       "fg_pct": 0.465,
       "fg3_pct": 0.407,
       "ft_pct": 0.75,
@@ -378,67 +378,30 @@
       "clutch_efg_pct": 0.8,
       "clutch_ts_pct": 0.8,
       "pos": "G",
-      "qualified": true,
-      "ppg_pctile": 1.0,
-      "rpg_pctile": 0.9925,
-      "apg_pctile": 1.0,
-      "spg_pctile": 1.0,
-      "bpg_pctile": 0.8025,
-      "tov_pctile": 0.9875,
+      "qualified": false,
+      "ppg_pctile": 0.9025,
+      "rpg_pctile": 0.5975,
+      "apg_pctile": 0.835,
+      "spg_pctile": 0.89,
+      "bpg_pctile": 0.48,
+      "tov_pctile": 0.65,
       "fg_pct_pctile": 0.5425,
       "fg3_pct_pctile": 0.7125,
       "ft_pct_pctile": 0.5825,
       "ast_pct_pctile": 0.685,
       "tov_pct_pctile": 0.38,
-      "ppg_p36": 25.349279087962447,
+      "ppg_p36": 25.369127516778523,
       "ppg_p36_pctile": 0.8947368421052632,
-      "rpg_p36": 4.828434111992847,
+      "rpg_p36": 4.832214765100671,
       "rpg_p36_pctile": 0.3408521303258145,
-      "apg_p36": 4.828434111992847,
-      "apg_p36_pctile": 0.7468671679197995,
-      "spg_p36": 2.4142170559964233,
+      "apg_p36": 4.832214765100671,
+      "apg_p36_pctile": 0.7493734335839599,
+      "spg_p36": 2.4161073825503356,
       "spg_p36_pctile": 0.8320802005012531,
-      "bpg_p36": 0.40236950933273724,
-      "bpg_p36_pctile": 0.5488721804511278,
-      "tov_p36": 2.0118475466636863,
-      "tov_p36_pctile": 0.506265664160401,
-      "zones": {
-        "at_rim": {
-          "fga": 8,
-          "fgm": 6,
-          "pct": 0.75
-        },
-        "paint": {
-          "fga": 5,
-          "fgm": 2,
-          "pct": 0.4
-        },
-        "mid": {
-          "fga": 3,
-          "fgm": 1,
-          "pct": 0.3333
-        },
-        "corner_3": {
-          "fga": 6,
-          "fgm": 2,
-          "pct": 0.3333
-        },
-        "l_corner_3": {
-          "fga": 5,
-          "fgm": 2,
-          "pct": 0.4
-        },
-        "r_corner_3": {
-          "fga": 1,
-          "fgm": 0,
-          "pct": 0.0
-        },
-        "above_break_3": {
-          "fga": 21,
-          "fgm": 9,
-          "pct": 0.4286
-        }
-      },
+      "bpg_p36": 0.3624161073825503,
+      "bpg_p36_pctile": 0.5288220551378446,
+      "tov_p36": 2.053691275167785,
+      "tov_p36_pctile": 0.5112781954887218,
       "hustle": {
         "contested_shots": {
           "value": 1.0,
@@ -619,10 +582,47 @@
           "pctile": 1.0
         }
       },
-      "stl_pct": 2.930561111103422,
-      "blk_pct": 1.0738255033557047,
+      "stl_pct": 0.029305611111034222,
+      "blk_pct": 0.010738255033557046,
       "stl_pct_pctile": null,
-      "blk_pct_pctile": null
+      "blk_pct_pctile": null,
+      "zones": {
+        "at_rim": {
+          "fga": 8,
+          "fgm": 6,
+          "pct": 0.75
+        },
+        "paint": {
+          "fga": 5,
+          "fgm": 2,
+          "pct": 0.4
+        },
+        "mid": {
+          "fga": 3,
+          "fgm": 1,
+          "pct": 0.3333
+        },
+        "corner_3": {
+          "fga": 6,
+          "fgm": 2,
+          "pct": 0.3333
+        },
+        "l_corner_3": {
+          "fga": 5,
+          "fgm": 2,
+          "pct": 0.4
+        },
+        "r_corner_3": {
+          "fga": 1,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "above_break_3": {
+          "fga": 21,
+          "fgm": 9,
+          "pct": 0.4286
+        }
+      }
     },
     {
       "id": 1630700,
@@ -631,13 +631,13 @@
       "gp": 3,
       "w": 2,
       "l": 1,
-      "mpg": 86.89166666666667,
-      "ppg": 49,
-      "rpg": 21,
-      "apg": 10,
-      "spg": 13,
-      "bpg": 1,
-      "tov": 3,
+      "mpg": 29.0,
+      "ppg": 16.3,
+      "rpg": 7.0,
+      "apg": 3.3,
+      "spg": 4.3,
+      "bpg": 0.3,
+      "tov": 1.0,
       "fg_pct": 0.618,
       "fg3_pct": 0.25,
       "ft_pct": 0.545,
@@ -689,67 +689,30 @@
       "clutch_efg_pct": 0.0,
       "clutch_ts_pct": 0.0,
       "pos": "G",
-      "qualified": true,
-      "ppg_pctile": 1.0,
-      "rpg_pctile": 1.0,
-      "apg_pctile": 0.995,
-      "spg_pctile": 1.0,
-      "bpg_pctile": 0.8025,
-      "tov_pctile": 0.8825,
+      "qualified": false,
+      "ppg_pctile": 0.8025,
+      "rpg_pctile": 0.85,
+      "apg_pctile": 0.7775,
+      "spg_pctile": 0.9975,
+      "bpg_pctile": 0.48,
+      "tov_pctile": 0.415,
       "fg_pct_pctile": 0.8725,
       "fg3_pct_pctile": 0.43,
       "ft_pct_pctile": 0.435,
       "ast_pct_pctile": 0.635,
       "tov_pct_pctile": 0.3025,
-      "ppg_p36": 20.30114126786228,
-      "ppg_p36_pctile": 0.7493734335839599,
-      "rpg_p36": 8.70048911479812,
-      "rpg_p36_pctile": 0.7343358395989975,
-      "apg_p36": 4.143090054665771,
-      "apg_p36_pctile": 0.6867167919799498,
-      "spg_p36": 5.386017071065503,
-      "spg_p36_pctile": 0.9949874686716792,
-      "bpg_p36": 0.4143090054665772,
-      "bpg_p36_pctile": 0.5538847117794486,
-      "tov_p36": 1.2429270163997315,
-      "tov_p36_pctile": 0.3533834586466165,
-      "zones": {
-        "at_rim": {
-          "fga": 17,
-          "fgm": 12,
-          "pct": 0.7059
-        },
-        "paint": {
-          "fga": 13,
-          "fgm": 8,
-          "pct": 0.6154
-        },
-        "mid": {
-          "fga": 0,
-          "fgm": 0,
-          "pct": null
-        },
-        "corner_3": {
-          "fga": 0,
-          "fgm": 0,
-          "pct": null
-        },
-        "l_corner_3": {
-          "fga": 0,
-          "fgm": 0,
-          "pct": null
-        },
-        "r_corner_3": {
-          "fga": 0,
-          "fgm": 0,
-          "pct": null
-        },
-        "above_break_3": {
-          "fga": 4,
-          "fgm": 1,
-          "pct": 0.25
-        }
-      },
+      "ppg_p36": 20.234482758620693,
+      "ppg_p36_pctile": 0.7443609022556391,
+      "rpg_p36": 8.689655172413794,
+      "rpg_p36_pctile": 0.731829573934837,
+      "apg_p36": 4.096551724137931,
+      "apg_p36_pctile": 0.6766917293233082,
+      "spg_p36": 5.337931034482758,
+      "spg_p36_pctile": 0.9899749373433584,
+      "bpg_p36": 0.37241379310344824,
+      "bpg_p36_pctile": 0.5363408521303258,
+      "tov_p36": 1.2413793103448276,
+      "tov_p36_pctile": 0.3483709273182957,
       "hustle": {
         "contested_shots": {
           "value": 5.0,
@@ -930,10 +893,47 @@
           "pctile": 0.0
         }
       },
-      "stl_pct": 6.474518978910215,
-      "blk_pct": 1.103448275862069,
+      "stl_pct": 0.06474518978910214,
+      "blk_pct": 0.011034482758620689,
       "stl_pct_pctile": null,
-      "blk_pct_pctile": null
+      "blk_pct_pctile": null,
+      "zones": {
+        "at_rim": {
+          "fga": 17,
+          "fgm": 12,
+          "pct": 0.7059
+        },
+        "paint": {
+          "fga": 13,
+          "fgm": 8,
+          "pct": 0.6154
+        },
+        "mid": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "l_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "r_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "above_break_3": {
+          "fga": 4,
+          "fgm": 1,
+          "pct": 0.25
+        }
+      }
     },
     {
       "id": 1630598,
@@ -942,13 +942,13 @@
       "gp": 3,
       "w": 2,
       "l": 1,
-      "mpg": 81.75,
-      "ppg": 51,
-      "rpg": 9,
-      "apg": 3,
-      "spg": 5,
-      "bpg": 1,
-      "tov": 3,
+      "mpg": 27.3,
+      "ppg": 17.0,
+      "rpg": 3.0,
+      "apg": 1.0,
+      "spg": 1.7,
+      "bpg": 0.3,
+      "tov": 1.0,
       "fg_pct": 0.581,
       "fg3_pct": 0.526,
       "ft_pct": 0.714,
@@ -1000,67 +1000,30 @@
       "clutch_efg_pct": 0.0,
       "clutch_ts_pct": 0.0,
       "pos": "G",
-      "qualified": true,
-      "ppg_pctile": 1.0,
-      "rpg_pctile": 0.9475,
-      "apg_pctile": 0.7175,
-      "spg_pctile": 1.0,
-      "bpg_pctile": 0.8025,
-      "tov_pctile": 0.8825,
+      "qualified": false,
+      "ppg_pctile": 0.815,
+      "rpg_pctile": 0.46,
+      "apg_pctile": 0.3125,
+      "spg_pctile": 0.86,
+      "bpg_pctile": 0.48,
+      "tov_pctile": 0.415,
       "fg_pct_pctile": 0.8275,
       "fg3_pct_pctile": 0.8925,
       "ft_pct_pctile": 0.5575,
       "ast_pct_pctile": 0.235,
       "tov_pct_pctile": 0.37,
-      "ppg_p36": 22.458715596330276,
-      "ppg_p36_pctile": 0.7994987468671679,
-      "rpg_p36": 3.963302752293578,
-      "rpg_p36_pctile": 0.2681704260651629,
-      "apg_p36": 1.3211009174311927,
-      "apg_p36_pctile": 0.23809523809523808,
-      "spg_p36": 2.2018348623853212,
-      "spg_p36_pctile": 0.7944862155388471,
-      "bpg_p36": 0.44036697247706424,
-      "bpg_p36_pctile": 0.568922305764411,
-      "tov_p36": 1.3211009174311927,
-      "tov_p36_pctile": 0.3659147869674185,
-      "zones": {
-        "at_rim": {
-          "fga": 4,
-          "fgm": 4,
-          "pct": 1.0
-        },
-        "paint": {
-          "fga": 8,
-          "fgm": 4,
-          "pct": 0.5
-        },
-        "mid": {
-          "fga": 0,
-          "fgm": 0,
-          "pct": null
-        },
-        "corner_3": {
-          "fga": 6,
-          "fgm": 3,
-          "pct": 0.5
-        },
-        "l_corner_3": {
-          "fga": 5,
-          "fgm": 2,
-          "pct": 0.4
-        },
-        "r_corner_3": {
-          "fga": 1,
-          "fgm": 1,
-          "pct": 1.0
-        },
-        "above_break_3": {
-          "fga": 13,
-          "fgm": 7,
-          "pct": 0.5385
-        }
-      },
+      "ppg_p36": 22.417582417582416,
+      "ppg_p36_pctile": 0.7969924812030075,
+      "rpg_p36": 3.9560439560439558,
+      "rpg_p36_pctile": 0.2656641604010025,
+      "apg_p36": 1.3186813186813187,
+      "apg_p36_pctile": 0.23558897243107768,
+      "spg_p36": 2.2417582417582413,
+      "spg_p36_pctile": 0.7969924812030075,
+      "bpg_p36": 0.39560439560439553,
+      "bpg_p36_pctile": 0.5463659147869674,
+      "tov_p36": 1.3186813186813187,
+      "tov_p36_pctile": 0.3634085213032581,
       "hustle": {
         "contested_shots": {
           "value": 3.33,
@@ -1241,10 +1204,47 @@
           "pctile": 0.1667
         }
       },
-      "stl_pct": 2.719088386236252,
-      "blk_pct": 1.1721611721611722,
+      "stl_pct": 0.027190883862362517,
+      "blk_pct": 0.01172161172161172,
       "stl_pct_pctile": null,
-      "blk_pct_pctile": null
+      "blk_pct_pctile": null,
+      "zones": {
+        "at_rim": {
+          "fga": 4,
+          "fgm": 4,
+          "pct": 1.0
+        },
+        "paint": {
+          "fga": 8,
+          "fgm": 4,
+          "pct": 0.5
+        },
+        "mid": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "corner_3": {
+          "fga": 6,
+          "fgm": 3,
+          "pct": 0.5
+        },
+        "l_corner_3": {
+          "fga": 5,
+          "fgm": 2,
+          "pct": 0.4
+        },
+        "r_corner_3": {
+          "fga": 1,
+          "fgm": 1,
+          "pct": 1.0
+        },
+        "above_break_3": {
+          "fga": 13,
+          "fgm": 7,
+          "pct": 0.5385
+        }
+      }
     },
     {
       "id": 1630168,
@@ -1253,13 +1253,13 @@
       "gp": 3,
       "w": 2,
       "l": 1,
-      "mpg": 76.98,
-      "ppg": 26,
-      "rpg": 15,
-      "apg": 10,
-      "spg": 1,
-      "bpg": 1,
-      "tov": 3,
+      "mpg": 25.7,
+      "ppg": 8.7,
+      "rpg": 5.0,
+      "apg": 3.3,
+      "spg": 0.3,
+      "bpg": 0.3,
+      "tov": 1.0,
       "fg_pct": 0.375,
       "fg3_pct": 0.154,
       "ft_pct": 0.857,
@@ -1311,67 +1311,30 @@
       "clutch_efg_pct": 0.0,
       "clutch_ts_pct": 0.347,
       "pos": "F-C",
-      "qualified": true,
-      "ppg_pctile": 0.9725,
-      "rpg_pctile": 0.9975,
-      "apg_pctile": 0.995,
-      "spg_pctile": 0.6125,
-      "bpg_pctile": 0.8025,
-      "tov_pctile": 0.8825,
+      "qualified": false,
+      "ppg_pctile": 0.5425,
+      "rpg_pctile": 0.71,
+      "apg_pctile": 0.7775,
+      "spg_pctile": 0.2925,
+      "bpg_pctile": 0.48,
+      "tov_pctile": 0.415,
       "fg_pct_pctile": 0.295,
       "fg3_pct_pctile": 0.345,
       "ft_pct_pctile": 0.73,
       "ast_pct_pctile": 0.6075,
       "tov_pct_pctile": 0.37,
-      "ppg_p36": 12.15900233826968,
+      "ppg_p36": 12.186770428015564,
       "ppg_p36_pctile": 0.3508771929824561,
-      "rpg_p36": 7.014809041309431,
-      "rpg_p36_pctile": 0.6140350877192983,
-      "apg_p36": 4.676539360872954,
-      "apg_p36_pctile": 0.7368421052631579,
-      "spg_p36": 0.4676539360872954,
-      "spg_p36_pctile": 0.3408521303258145,
-      "bpg_p36": 0.4676539360872954,
-      "bpg_p36_pctile": 0.5839598997493735,
-      "tov_p36": 1.4029618082618862,
-      "tov_p36_pctile": 0.37844611528822053,
-      "zones": {
-        "at_rim": {
-          "fga": 8,
-          "fgm": 4,
-          "pct": 0.5
-        },
-        "paint": {
-          "fga": 3,
-          "fgm": 3,
-          "pct": 1.0
-        },
-        "mid": {
-          "fga": 0,
-          "fgm": 0,
-          "pct": null
-        },
-        "corner_3": {
-          "fga": 4,
-          "fgm": 0,
-          "pct": 0.0
-        },
-        "l_corner_3": {
-          "fga": 2,
-          "fgm": 0,
-          "pct": 0.0
-        },
-        "r_corner_3": {
-          "fga": 2,
-          "fgm": 0,
-          "pct": 0.0
-        },
-        "above_break_3": {
-          "fga": 9,
-          "fgm": 2,
-          "pct": 0.2222
-        }
-      },
+      "rpg_p36": 7.003891050583658,
+      "rpg_p36_pctile": 0.6090225563909775,
+      "apg_p36": 4.6225680933852145,
+      "apg_p36_pctile": 0.7293233082706767,
+      "spg_p36": 0.4202334630350194,
+      "spg_p36_pctile": 0.3233082706766917,
+      "bpg_p36": 0.4202334630350194,
+      "bpg_p36_pctile": 0.5538847117794486,
+      "tov_p36": 1.4007782101167316,
+      "tov_p36_pctile": 0.37593984962406013,
       "hustle": {
         "contested_shots": {
           "value": 4.33,
@@ -1552,10 +1515,47 @@
           "pctile": 0.6667
         }
       },
-      "stl_pct": 0.509712380024603,
-      "blk_pct": 1.245136186770428,
+      "stl_pct": 0.0050971238002460294,
+      "blk_pct": 0.01245136186770428,
       "stl_pct_pctile": null,
-      "blk_pct_pctile": null
+      "blk_pct_pctile": null,
+      "zones": {
+        "at_rim": {
+          "fga": 8,
+          "fgm": 4,
+          "pct": 0.5
+        },
+        "paint": {
+          "fga": 3,
+          "fgm": 3,
+          "pct": 1.0
+        },
+        "mid": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "corner_3": {
+          "fga": 4,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "l_corner_3": {
+          "fga": 2,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "r_corner_3": {
+          "fga": 2,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "above_break_3": {
+          "fga": 9,
+          "fgm": 2,
+          "pct": 0.2222
+        }
+      }
     },
     {
       "id": 203468,
@@ -1564,13 +1564,13 @@
       "gp": 3,
       "w": 2,
       "l": 1,
-      "mpg": 76.28833333333333,
-      "ppg": 49,
-      "rpg": 5,
-      "apg": 6,
-      "spg": 0,
-      "bpg": 1,
-      "tov": 4,
+      "mpg": 25.4,
+      "ppg": 16.3,
+      "rpg": 1.7,
+      "apg": 2.0,
+      "spg": 0.0,
+      "bpg": 0.3,
+      "tov": 1.3,
       "fg_pct": 0.545,
       "fg3_pct": 0.389,
       "ft_pct": 0.857,
@@ -1622,67 +1622,30 @@
       "clutch_efg_pct": 0.0,
       "clutch_ts_pct": 0.0,
       "pos": "G",
-      "qualified": true,
-      "ppg_pctile": 1.0,
-      "rpg_pctile": 0.71,
-      "apg_pctile": 0.9325,
+      "qualified": false,
+      "ppg_pctile": 0.8025,
+      "rpg_pctile": 0.235,
+      "apg_pctile": 0.5725,
       "spg_pctile": 0.0,
-      "bpg_pctile": 0.8025,
-      "tov_pctile": 0.955,
+      "bpg_pctile": 0.48,
+      "tov_pctile": 0.565,
       "fg_pct_pctile": 0.7625,
       "fg3_pct_pctile": 0.67,
       "ft_pct_pctile": 0.73,
       "ast_pct_pctile": 0.4275,
       "tov_pct_pctile": 0.435,
-      "ppg_p36": 23.12280165162869,
-      "ppg_p36_pctile": 0.8370927318295739,
-      "rpg_p36": 2.359469556288642,
-      "rpg_p36_pctile": 0.10275689223057644,
-      "apg_p36": 2.8313634675463706,
-      "apg_p36_pctile": 0.49624060150375937,
+      "ppg_p36": 23.102362204724415,
+      "ppg_p36_pctile": 0.8345864661654135,
+      "rpg_p36": 2.409448818897638,
+      "rpg_p36_pctile": 0.10526315789473684,
+      "apg_p36": 2.834645669291339,
+      "apg_p36_pctile": 0.5012531328320802,
       "spg_p36": 0.0,
       "spg_p36_pctile": 0.0,
-      "bpg_p36": 0.4718939112577284,
-      "bpg_p36_pctile": 0.5839598997493735,
-      "tov_p36": 1.8875756450309136,
-      "tov_p36_pctile": 0.48370927318295737,
-      "zones": {
-        "at_rim": {
-          "fga": 8,
-          "fgm": 7,
-          "pct": 0.875
-        },
-        "paint": {
-          "fga": 5,
-          "fgm": 3,
-          "pct": 0.6
-        },
-        "mid": {
-          "fga": 2,
-          "fgm": 1,
-          "pct": 0.5
-        },
-        "corner_3": {
-          "fga": 3,
-          "fgm": 2,
-          "pct": 0.6667
-        },
-        "l_corner_3": {
-          "fga": 3,
-          "fgm": 2,
-          "pct": 0.6667
-        },
-        "r_corner_3": {
-          "fga": 0,
-          "fgm": 0,
-          "pct": null
-        },
-        "above_break_3": {
-          "fga": 15,
-          "fgm": 5,
-          "pct": 0.3333
-        }
-      },
+      "bpg_p36": 0.42519685039370075,
+      "bpg_p36_pctile": 0.5614035087719298,
+      "tov_p36": 1.8425196850393704,
+      "tov_p36_pctile": 0.47117794486215536,
       "hustle": {
         "contested_shots": {
           "value": 3.33,
@@ -1864,9 +1827,46 @@
         }
       },
       "stl_pct": 0.0,
-      "blk_pct": 1.2598425196850394,
+      "blk_pct": 0.012598425196850392,
       "stl_pct_pctile": null,
-      "blk_pct_pctile": null
+      "blk_pct_pctile": null,
+      "zones": {
+        "at_rim": {
+          "fga": 8,
+          "fgm": 7,
+          "pct": 0.875
+        },
+        "paint": {
+          "fga": 5,
+          "fgm": 3,
+          "pct": 0.6
+        },
+        "mid": {
+          "fga": 2,
+          "fgm": 1,
+          "pct": 0.5
+        },
+        "corner_3": {
+          "fga": 3,
+          "fgm": 2,
+          "pct": 0.6667
+        },
+        "l_corner_3": {
+          "fga": 3,
+          "fgm": 2,
+          "pct": 0.6667
+        },
+        "r_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "above_break_3": {
+          "fga": 15,
+          "fgm": 5,
+          "pct": 0.3333
+        }
+      }
     },
     {
       "id": 1629652,
@@ -1875,13 +1875,13 @@
       "gp": 3,
       "w": 2,
       "l": 1,
-      "mpg": 69.96833333333333,
-      "ppg": 24,
-      "rpg": 11,
-      "apg": 5,
-      "spg": 3,
-      "bpg": 0,
-      "tov": 3,
+      "mpg": 23.3,
+      "ppg": 8.0,
+      "rpg": 3.7,
+      "apg": 1.7,
+      "spg": 1.0,
+      "bpg": 0.0,
+      "tov": 1.0,
       "fg_pct": 0.389,
       "fg3_pct": 0.333,
       "ft_pct": 0.857,
@@ -1928,67 +1928,30 @@
       "box_outs": 1.0,
       "box_out_team_rebs": 1.0,
       "pos": "G",
-      "qualified": true,
-      "ppg_pctile": 0.955,
-      "rpg_pctile": 0.985,
-      "apg_pctile": 0.8925,
-      "spg_pctile": 0.9775,
+      "qualified": false,
+      "ppg_pctile": 0.5075,
+      "rpg_pctile": 0.5625,
+      "apg_pctile": 0.52,
+      "spg_pctile": 0.6125,
       "bpg_pctile": 0.0,
-      "tov_pctile": 0.8825,
+      "tov_pctile": 0.415,
       "fg_pct_pctile": 0.3275,
       "fg3_pct_pctile": 0.555,
       "ft_pct_pctile": 0.73,
       "ast_pct_pctile": 0.3625,
       "tov_pct_pctile": 0.495,
-      "ppg_p36": 12.34844334341726,
-      "ppg_p36_pctile": 0.3659147869674185,
-      "rpg_p36": 5.659703199066244,
-      "rpg_p36_pctile": 0.45614035087719296,
-      "apg_p36": 2.572592363211929,
-      "apg_p36_pctile": 0.43358395989974935,
-      "spg_p36": 1.5435554179271576,
+      "ppg_p36": 12.360515021459227,
+      "ppg_p36_pctile": 0.3684210526315789,
+      "rpg_p36": 5.716738197424894,
+      "rpg_p36_pctile": 0.45864661654135336,
+      "apg_p36": 2.6266094420600856,
+      "apg_p36_pctile": 0.43859649122807015,
+      "spg_p36": 1.5450643776824033,
       "spg_p36_pctile": 0.6741854636591479,
       "bpg_p36": 0.0,
       "bpg_p36_pctile": 0.0,
-      "tov_p36": 1.5435554179271576,
+      "tov_p36": 1.5450643776824033,
       "tov_p36_pctile": 0.41604010025062654,
-      "zones": {
-        "at_rim": {
-          "fga": 5,
-          "fgm": 3,
-          "pct": 0.6
-        },
-        "paint": {
-          "fga": 1,
-          "fgm": 0,
-          "pct": 0.0
-        },
-        "mid": {
-          "fga": 0,
-          "fgm": 0,
-          "pct": null
-        },
-        "corner_3": {
-          "fga": 3,
-          "fgm": 1,
-          "pct": 0.3333
-        },
-        "l_corner_3": {
-          "fga": 1,
-          "fgm": 0,
-          "pct": 0.0
-        },
-        "r_corner_3": {
-          "fga": 2,
-          "fgm": 1,
-          "pct": 0.5
-        },
-        "above_break_3": {
-          "fga": 9,
-          "fgm": 3,
-          "pct": 0.3333
-        }
-      },
       "hustle": {
         "contested_shots": {
           "value": 3.0,
@@ -2035,10 +1998,47 @@
           "pctile": null
         }
       },
-      "stl_pct": 1.8740498092463942,
+      "stl_pct": 0.01874049809246394,
       "blk_pct": 0.0,
       "stl_pct_pctile": null,
-      "blk_pct_pctile": null
+      "blk_pct_pctile": null,
+      "zones": {
+        "at_rim": {
+          "fga": 5,
+          "fgm": 3,
+          "pct": 0.6
+        },
+        "paint": {
+          "fga": 1,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "mid": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "corner_3": {
+          "fga": 3,
+          "fgm": 1,
+          "pct": 0.3333
+        },
+        "l_corner_3": {
+          "fga": 1,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "r_corner_3": {
+          "fga": 2,
+          "fgm": 1,
+          "pct": 0.5
+        },
+        "above_break_3": {
+          "fga": 9,
+          "fgm": 3,
+          "pct": 0.3333
+        }
+      }
     },
     {
       "id": 1629111,
@@ -2047,13 +2047,13 @@
       "gp": 3,
       "w": 2,
       "l": 1,
-      "mpg": 55.425,
-      "ppg": 20,
-      "rpg": 12,
-      "apg": 9,
-      "spg": 1,
-      "bpg": 2,
-      "tov": 5,
+      "mpg": 18.5,
+      "ppg": 6.7,
+      "rpg": 4.0,
+      "apg": 3.0,
+      "spg": 0.3,
+      "bpg": 0.7,
+      "tov": 1.7,
       "fg_pct": 0.444,
       "fg3_pct": 0.111,
       "ft_pct": 0.75,
@@ -2101,66 +2101,29 @@
       "box_out_team_rebs": 2.33,
       "pos": "C",
       "qualified": false,
-      "ppg_pctile": 0.88,
-      "rpg_pctile": 0.9925,
-      "apg_pctile": 0.9875,
-      "spg_pctile": 0.6125,
-      "bpg_pctile": 0.9625,
-      "tov_pctile": 0.9875,
+      "ppg_pctile": 0.435,
+      "rpg_pctile": 0.5975,
+      "apg_pctile": 0.7175,
+      "spg_pctile": 0.2925,
+      "bpg_pctile": 0.7075,
+      "tov_pctile": 0.65,
       "fg_pct_pctile": 0.4825,
       "fg3_pct_pctile": 0.3025,
       "ft_pct_pctile": 0.5825,
       "ast_pct_pctile": 0.78,
       "tov_pct_pctile": 0.725,
-      "ppg_p36": 12.990527740189446,
-      "ppg_p36_pctile": 0.40350877192982454,
-      "rpg_p36": 7.7943166441136675,
-      "rpg_p36_pctile": 0.6842105263157895,
-      "apg_p36": 5.845737483085251,
-      "apg_p36_pctile": 0.8070175438596491,
-      "spg_p36": 0.6495263870094723,
-      "spg_p36_pctile": 0.37844611528822053,
-      "bpg_p36": 1.2990527740189446,
-      "bpg_p36_pctile": 0.7944862155388471,
-      "tov_p36": 3.2476319350473615,
-      "tov_p36_pctile": 0.7619047619047619,
-      "zones": {
-        "at_rim": {
-          "fga": 8,
-          "fgm": 6,
-          "pct": 0.75
-        },
-        "paint": {
-          "fga": 0,
-          "fgm": 0,
-          "pct": null
-        },
-        "mid": {
-          "fga": 1,
-          "fgm": 1,
-          "pct": 1.0
-        },
-        "corner_3": {
-          "fga": 3,
-          "fgm": 1,
-          "pct": 0.3333
-        },
-        "l_corner_3": {
-          "fga": 2,
-          "fgm": 0,
-          "pct": 0.0
-        },
-        "r_corner_3": {
-          "fga": 1,
-          "fgm": 1,
-          "pct": 1.0
-        },
-        "above_break_3": {
-          "fga": 6,
-          "fgm": 0,
-          "pct": 0.0
-        }
-      },
+      "ppg_p36": 13.037837837837838,
+      "ppg_p36_pctile": 0.40601503759398494,
+      "rpg_p36": 7.783783783783784,
+      "rpg_p36_pctile": 0.681704260651629,
+      "apg_p36": 5.837837837837838,
+      "apg_p36_pctile": 0.8045112781954887,
+      "spg_p36": 0.5837837837837837,
+      "spg_p36_pctile": 0.3634085213032581,
+      "bpg_p36": 1.362162162162162,
+      "bpg_p36_pctile": 0.8095238095238095,
+      "tov_p36": 3.308108108108108,
+      "tov_p36_pctile": 0.7669172932330827,
       "hustle": {
         "contested_shots": {
           "value": 4.67,
@@ -2207,10 +2170,47 @@
           "pctile": null
         }
       },
-      "stl_pct": 0.7080869279260701,
-      "blk_pct": 4.036036036036036,
+      "stl_pct": 0.0070808692792607006,
+      "blk_pct": 0.04036036036036035,
       "stl_pct_pctile": null,
-      "blk_pct_pctile": null
+      "blk_pct_pctile": null,
+      "zones": {
+        "at_rim": {
+          "fga": 8,
+          "fgm": 6,
+          "pct": 0.75
+        },
+        "paint": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "mid": {
+          "fga": 1,
+          "fgm": 1,
+          "pct": 1.0
+        },
+        "corner_3": {
+          "fga": 3,
+          "fgm": 1,
+          "pct": 0.3333
+        },
+        "l_corner_3": {
+          "fga": 2,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "r_corner_3": {
+          "fga": 1,
+          "fgm": 1,
+          "pct": 1.0
+        },
+        "above_break_3": {
+          "fga": 6,
+          "fgm": 0,
+          "pct": 0.0
+        }
+      }
     },
     {
       "id": 1643412,
@@ -2219,13 +2219,13 @@
       "gp": 3,
       "w": 2,
       "l": 1,
-      "mpg": 54.56333333333333,
-      "ppg": 7,
-      "rpg": 11,
-      "apg": 13,
-      "spg": 1,
-      "bpg": 1,
-      "tov": 7,
+      "mpg": 18.2,
+      "ppg": 2.3,
+      "rpg": 3.7,
+      "apg": 4.3,
+      "spg": 0.3,
+      "bpg": 0.3,
+      "tov": 2.3,
       "fg_pct": 0.214,
       "fg3_pct": 0.25,
       "ft_pct": 0.0,
@@ -2273,66 +2273,29 @@
       "box_out_team_rebs": 0.0,
       "pos": "G",
       "qualified": false,
-      "ppg_pctile": 0.44,
-      "rpg_pctile": 0.985,
-      "apg_pctile": 1.0,
-      "spg_pctile": 0.6125,
-      "bpg_pctile": 0.8025,
-      "tov_pctile": 0.9975,
+      "ppg_pctile": 0.1875,
+      "rpg_pctile": 0.5625,
+      "apg_pctile": 0.8575,
+      "spg_pctile": 0.2925,
+      "bpg_pctile": 0.48,
+      "tov_pctile": 0.8125,
       "fg_pct_pctile": 0.1275,
       "fg3_pct_pctile": 0.43,
       "ft_pct_pctile": 0.0,
       "ast_pct_pctile": 0.8925,
       "tov_pct_pctile": 0.885,
-      "ppg_p36": 4.618486162868837,
-      "ppg_p36_pctile": 0.11278195488721804,
-      "rpg_p36": 7.257621113079602,
-      "rpg_p36_pctile": 0.6290726817042607,
-      "apg_p36": 8.577188588184985,
-      "apg_p36_pctile": 0.9298245614035088,
-      "spg_p36": 0.659783737552691,
-      "spg_p36_pctile": 0.38095238095238093,
-      "bpg_p36": 0.659783737552691,
-      "bpg_p36_pctile": 0.6466165413533834,
-      "tov_p36": 4.618486162868837,
-      "tov_p36_pctile": 0.9172932330827067,
-      "zones": {
-        "at_rim": {
-          "fga": 3,
-          "fgm": 2,
-          "pct": 0.6667
-        },
-        "paint": {
-          "fga": 5,
-          "fgm": 0,
-          "pct": 0.0
-        },
-        "mid": {
-          "fga": 2,
-          "fgm": 0,
-          "pct": 0.0
-        },
-        "corner_3": {
-          "fga": 0,
-          "fgm": 0,
-          "pct": null
-        },
-        "l_corner_3": {
-          "fga": 0,
-          "fgm": 0,
-          "pct": null
-        },
-        "r_corner_3": {
-          "fga": 0,
-          "fgm": 0,
-          "pct": null
-        },
-        "above_break_3": {
-          "fga": 4,
-          "fgm": 1,
-          "pct": 0.25
-        }
-      },
+      "ppg_p36": 4.549450549450549,
+      "ppg_p36_pctile": 0.10776942355889724,
+      "rpg_p36": 7.31868131868132,
+      "rpg_p36_pctile": 0.6365914786967418,
+      "apg_p36": 8.505494505494505,
+      "apg_p36_pctile": 0.9273182957393483,
+      "spg_p36": 0.5934065934065934,
+      "spg_p36_pctile": 0.3659147869674185,
+      "bpg_p36": 0.5934065934065934,
+      "bpg_p36_pctile": 0.6290726817042607,
+      "tov_p36": 4.549450549450549,
+      "tov_p36_pctile": 0.9047619047619048,
       "hustle": {
         "contested_shots": {
           "value": 1.33,
@@ -2379,10 +2342,47 @@
           "pctile": null
         }
       },
-      "stl_pct": 0.7197586904743021,
-      "blk_pct": 1.7582417582417582,
+      "stl_pct": 0.00719758690474302,
+      "blk_pct": 0.017582417582417582,
       "stl_pct_pctile": null,
-      "blk_pct_pctile": null
+      "blk_pct_pctile": null,
+      "zones": {
+        "at_rim": {
+          "fga": 3,
+          "fgm": 2,
+          "pct": 0.6667
+        },
+        "paint": {
+          "fga": 5,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "mid": {
+          "fga": 2,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "l_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "r_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "above_break_3": {
+          "fga": 4,
+          "fgm": 1,
+          "pct": 0.25
+        }
+      }
     },
     {
       "id": 1630557,
@@ -2391,13 +2391,13 @@
       "gp": 1,
       "w": 1,
       "l": 0,
-      "mpg": 9.666666666666666,
-      "ppg": 11,
-      "rpg": 1,
-      "apg": 1,
-      "spg": 0,
-      "bpg": 0,
-      "tov": 0,
+      "mpg": 9.7,
+      "ppg": 11.0,
+      "rpg": 1.0,
+      "apg": 1.0,
+      "spg": 0.0,
+      "bpg": 0.0,
+      "tov": 0.0,
       "fg_pct": 0.8,
       "fg3_pct": 0.75,
       "ft_pct": 0.0,
@@ -2456,55 +2456,18 @@
       "ft_pct_pctile": 0.0,
       "ast_pct_pctile": 0.725,
       "tov_pct_pctile": 0.0,
-      "ppg_p36": 40.96551724137931,
-      "ppg_p36_pctile": 0.9774436090225563,
-      "rpg_p36": 3.724137931034483,
-      "rpg_p36_pctile": 0.24310776942355888,
-      "apg_p36": 3.724137931034483,
-      "apg_p36_pctile": 0.6290726817042607,
+      "ppg_p36": 40.82474226804124,
+      "ppg_p36_pctile": 0.974937343358396,
+      "rpg_p36": 3.711340206185567,
+      "rpg_p36_pctile": 0.23558897243107768,
+      "apg_p36": 3.711340206185567,
+      "apg_p36_pctile": 0.6215538847117794,
       "spg_p36": 0.0,
       "spg_p36_pctile": 0.0,
       "bpg_p36": 0.0,
       "bpg_p36_pctile": 0.0,
       "tov_p36": 0.0,
       "tov_p36_pctile": 0.0,
-      "zones": {
-        "at_rim": {
-          "fga": 0,
-          "fgm": 0,
-          "pct": null
-        },
-        "paint": {
-          "fga": 1,
-          "fgm": 1,
-          "pct": 1.0
-        },
-        "mid": {
-          "fga": 0,
-          "fgm": 0,
-          "pct": null
-        },
-        "corner_3": {
-          "fga": 0,
-          "fgm": 0,
-          "pct": null
-        },
-        "l_corner_3": {
-          "fga": 0,
-          "fgm": 0,
-          "pct": null
-        },
-        "r_corner_3": {
-          "fga": 0,
-          "fgm": 0,
-          "pct": null
-        },
-        "above_break_3": {
-          "fga": 4,
-          "fgm": 3,
-          "pct": 0.75
-        }
-      },
       "hustle": {
         "contested_shots": {
           "value": 1.0,
@@ -2554,7 +2517,44 @@
       "stl_pct": 0.0,
       "blk_pct": 0.0,
       "stl_pct_pctile": null,
-      "blk_pct_pctile": null
+      "blk_pct_pctile": null,
+      "zones": {
+        "at_rim": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "paint": {
+          "fga": 1,
+          "fgm": 1,
+          "pct": 1.0
+        },
+        "mid": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "l_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "r_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "above_break_3": {
+          "fga": 4,
+          "fgm": 3,
+          "pct": 0.75
+        }
+      }
     },
     {
       "id": 1642854,
@@ -2563,13 +2563,13 @@
       "gp": 1,
       "w": 1,
       "l": 0,
-      "mpg": 8.133333333333333,
-      "ppg": 3,
-      "rpg": 1,
-      "apg": 0,
-      "spg": 0,
-      "bpg": 0,
-      "tov": 0,
+      "mpg": 8.1,
+      "ppg": 3.0,
+      "rpg": 1.0,
+      "apg": 0.0,
+      "spg": 0.0,
+      "bpg": 0.0,
+      "tov": 0.0,
       "fg_pct": 0.5,
       "fg3_pct": 0.5,
       "ft_pct": 0.0,
@@ -2628,9 +2628,9 @@
       "ft_pct_pctile": 0.0,
       "ast_pct_pctile": 0.0,
       "tov_pct_pctile": 0.0,
-      "ppg_p36": 13.278688524590164,
-      "ppg_p36_pctile": 0.42105263157894735,
-      "rpg_p36": 4.426229508196721,
+      "ppg_p36": 13.333333333333334,
+      "ppg_p36_pctile": 0.42355889724310775,
+      "rpg_p36": 4.444444444444445,
       "rpg_p36_pctile": 0.3057644110275689,
       "apg_p36": 0.0,
       "apg_p36_pctile": 0.0,
@@ -2640,43 +2640,6 @@
       "bpg_p36_pctile": 0.0,
       "tov_p36": 0.0,
       "tov_p36_pctile": 0.0,
-      "zones": {
-        "at_rim": {
-          "fga": 0,
-          "fgm": 0,
-          "pct": null
-        },
-        "paint": {
-          "fga": 0,
-          "fgm": 0,
-          "pct": null
-        },
-        "mid": {
-          "fga": 0,
-          "fgm": 0,
-          "pct": null
-        },
-        "corner_3": {
-          "fga": 1,
-          "fgm": 0,
-          "pct": 0.0
-        },
-        "l_corner_3": {
-          "fga": 1,
-          "fgm": 0,
-          "pct": 0.0
-        },
-        "r_corner_3": {
-          "fga": 0,
-          "fgm": 0,
-          "pct": null
-        },
-        "above_break_3": {
-          "fga": 1,
-          "fgm": 1,
-          "pct": 1.0
-        }
-      },
       "hustle": {
         "contested_shots": {
           "value": 1.0,
@@ -2726,7 +2689,44 @@
       "stl_pct": 0.0,
       "blk_pct": 0.0,
       "stl_pct_pctile": null,
-      "blk_pct_pctile": null
+      "blk_pct_pctile": null,
+      "zones": {
+        "at_rim": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "paint": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "mid": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "corner_3": {
+          "fga": 1,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "l_corner_3": {
+          "fga": 1,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "r_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "above_break_3": {
+          "fga": 1,
+          "fgm": 1,
+          "pct": 1.0
+        }
+      }
     },
     {
       "id": 1627827,
@@ -2735,13 +2735,13 @@
       "gp": 1,
       "w": 1,
       "l": 0,
-      "mpg": 8.133333333333333,
-      "ppg": 3,
-      "rpg": 2,
-      "apg": 1,
-      "spg": 0,
-      "bpg": 0,
-      "tov": 1,
+      "mpg": 8.1,
+      "ppg": 3.0,
+      "rpg": 2.0,
+      "apg": 1.0,
+      "spg": 0.0,
+      "bpg": 0.0,
+      "tov": 1.0,
       "fg_pct": 0.5,
       "fg3_pct": 0.5,
       "ft_pct": 0.0,
@@ -2800,55 +2800,18 @@
       "ft_pct_pctile": 0.0,
       "ast_pct_pctile": 0.65,
       "tov_pct_pctile": 0.925,
-      "ppg_p36": 13.278688524590164,
-      "ppg_p36_pctile": 0.42105263157894735,
-      "rpg_p36": 8.852459016393443,
-      "rpg_p36_pctile": 0.7443609022556391,
-      "apg_p36": 4.426229508196721,
+      "ppg_p36": 13.333333333333334,
+      "ppg_p36_pctile": 0.42355889724310775,
+      "rpg_p36": 8.88888888888889,
+      "rpg_p36_pctile": 0.7468671679197995,
+      "apg_p36": 4.444444444444445,
       "apg_p36_pctile": 0.7092731829573935,
       "spg_p36": 0.0,
       "spg_p36_pctile": 0.0,
       "bpg_p36": 0.0,
       "bpg_p36_pctile": 0.0,
-      "tov_p36": 4.426229508196721,
+      "tov_p36": 4.444444444444445,
       "tov_p36_pctile": 0.8947368421052632,
-      "zones": {
-        "at_rim": {
-          "fga": 0,
-          "fgm": 0,
-          "pct": null
-        },
-        "paint": {
-          "fga": 0,
-          "fgm": 0,
-          "pct": null
-        },
-        "mid": {
-          "fga": 0,
-          "fgm": 0,
-          "pct": null
-        },
-        "corner_3": {
-          "fga": 1,
-          "fgm": 1,
-          "pct": 1.0
-        },
-        "l_corner_3": {
-          "fga": 0,
-          "fgm": 0,
-          "pct": null
-        },
-        "r_corner_3": {
-          "fga": 1,
-          "fgm": 1,
-          "pct": 1.0
-        },
-        "above_break_3": {
-          "fga": 1,
-          "fgm": 0,
-          "pct": 0.0
-        }
-      },
       "hustle": {
         "contested_shots": {
           "value": 1.0,
@@ -2898,7 +2861,44 @@
       "stl_pct": 0.0,
       "blk_pct": 0.0,
       "stl_pct_pctile": null,
-      "blk_pct_pctile": null
+      "blk_pct_pctile": null,
+      "zones": {
+        "at_rim": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "paint": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "mid": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "corner_3": {
+          "fga": 1,
+          "fgm": 1,
+          "pct": 1.0
+        },
+        "l_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "r_corner_3": {
+          "fga": 1,
+          "fgm": 1,
+          "pct": 1.0
+        },
+        "above_break_3": {
+          "fga": 1,
+          "fgm": 0,
+          "pct": 0.0
+        }
+      }
     },
     {
       "id": 1643544,
@@ -2907,13 +2907,13 @@
       "gp": 1,
       "w": 1,
       "l": 0,
-      "mpg": 8.133333333333333,
-      "ppg": 3,
-      "rpg": 2,
-      "apg": 0,
-      "spg": 0,
-      "bpg": 0,
-      "tov": 1,
+      "mpg": 8.1,
+      "ppg": 3.0,
+      "rpg": 2.0,
+      "apg": 0.0,
+      "spg": 0.0,
+      "bpg": 0.0,
+      "tov": 1.0,
       "fg_pct": 0.333,
       "fg3_pct": 0.5,
       "ft_pct": 0.0,
@@ -2972,55 +2972,18 @@
       "ft_pct_pctile": 0.0,
       "ast_pct_pctile": 0.0,
       "tov_pct_pctile": 0.925,
-      "ppg_p36": 13.278688524590164,
-      "ppg_p36_pctile": 0.42105263157894735,
-      "rpg_p36": 8.852459016393443,
-      "rpg_p36_pctile": 0.7443609022556391,
+      "ppg_p36": 13.333333333333334,
+      "ppg_p36_pctile": 0.42355889724310775,
+      "rpg_p36": 8.88888888888889,
+      "rpg_p36_pctile": 0.7468671679197995,
       "apg_p36": 0.0,
       "apg_p36_pctile": 0.0,
       "spg_p36": 0.0,
       "spg_p36_pctile": 0.0,
       "bpg_p36": 0.0,
       "bpg_p36_pctile": 0.0,
-      "tov_p36": 4.426229508196721,
+      "tov_p36": 4.444444444444445,
       "tov_p36_pctile": 0.8947368421052632,
-      "zones": {
-        "at_rim": {
-          "fga": 1,
-          "fgm": 0,
-          "pct": 0.0
-        },
-        "paint": {
-          "fga": 0,
-          "fgm": 0,
-          "pct": null
-        },
-        "mid": {
-          "fga": 0,
-          "fgm": 0,
-          "pct": null
-        },
-        "corner_3": {
-          "fga": 2,
-          "fgm": 1,
-          "pct": 0.5
-        },
-        "l_corner_3": {
-          "fga": 1,
-          "fgm": 1,
-          "pct": 1.0
-        },
-        "r_corner_3": {
-          "fga": 1,
-          "fgm": 0,
-          "pct": 0.0
-        },
-        "above_break_3": {
-          "fga": 0,
-          "fgm": 0,
-          "pct": null
-        }
-      },
       "hustle": {
         "contested_shots": {
           "value": 1.0,
@@ -3070,7 +3033,44 @@
       "stl_pct": 0.0,
       "blk_pct": 0.0,
       "stl_pct_pctile": null,
-      "blk_pct_pctile": null
+      "blk_pct_pctile": null,
+      "zones": {
+        "at_rim": {
+          "fga": 1,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "paint": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "mid": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "corner_3": {
+          "fga": 2,
+          "fgm": 1,
+          "pct": 0.5
+        },
+        "l_corner_3": {
+          "fga": 1,
+          "fgm": 1,
+          "pct": 1.0
+        },
+        "r_corner_3": {
+          "fga": 1,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "above_break_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        }
+      }
     }
   ],
   "league_medians": {

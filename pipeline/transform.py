@@ -89,7 +89,7 @@ FIELDS = {
         "PCT_REB": "pct_team_reb",
         "PCT_AST": "pct_team_ast",
     },
-    "base_totals": {
+    "totals": {
         "MIN": "min_total",
         "PTS": "pts_total",
         "REB": "reb_total",

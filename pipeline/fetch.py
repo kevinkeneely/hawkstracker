@@ -237,7 +237,7 @@ def run():
     print("Totals: 1")
     print("  → base_totals (season totals for Player Stats Totals pill)... ", end="", flush=True)
     data = fetch_with_retries(_fetch_base_totals)
-    out_path = save_raw(data, "base_totals")
+    out_path = save_raw(data, "totals")
     rows = count_rows(data)
     print(f"saved {rows} rows → {out_path}")
 

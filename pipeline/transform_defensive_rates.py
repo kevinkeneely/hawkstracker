@@ -104,8 +104,8 @@ def compute_player_rates(player: dict, team_pace: dict) -> tuple[float | None, f
     opp_2pa = pace["opp_fga_minus_fg3a"]
     if not mp or not tm_mp or not opp_poss:
         return None, None
-    stl_pct = (100 * (stl or 0) * tm_mp) / (mp * opp_poss) if stl is not None else None
-    blk_pct = (100 * (blk or 0) * tm_mp) / (mp * opp_2pa)  if (blk is not None and opp_2pa) else None
+    stl_pct = ((stl or 0) * tm_mp) / (mp * opp_poss) if stl is not None else None
+    blk_pct = ((blk or 0) * tm_mp) / (mp * opp_2pa)  if (blk is not None and opp_2pa) else None
     return stl_pct, blk_pct
 
 
