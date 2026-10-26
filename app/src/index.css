@@ -2134,3 +2134,26 @@ header {
     min-width: 54px;
   }
 }
+
+
+/* Save PNG button + top bar (shared by Compare and Charts pages) */
+.save-png-btn {
+  padding: 6px 14px;
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  color: var(--text);
+  cursor: pointer;
+  font-size: 0.9em;
+}
+.save-png-btn:hover {
+  background: var(--row-alt);
+}
+.compare-top-bar,
+.charts-top-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 16px;
+}

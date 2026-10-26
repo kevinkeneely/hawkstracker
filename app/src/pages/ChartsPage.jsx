@@ -1,5 +1,6 @@
-import { useMemo, useState } from 'react'
+import { useMemo, useState, useRef } from 'react'
 import { useNavigate } from 'react-router-dom'
+import { downloadNodeAsPng } from '../utils/downloadImage'
 
 // Each chart config:
 //   xField/yField: key on the player object (hawksData.json)
@@ -87,6 +88,12 @@ export default function ChartsPage({ playerData, leaderboards }) {
 
   const chart = CHARTS.find(c => c.key === chartKey) || CHARTS[0]
   const players = playerData?.players || []
+
+  const pageRef = useRef(null)
+  const handleDownload = () => {
+    const filename = chart.label.replace(/[^a-z0-9]+/gi, '-').toLowerCase()
+    downloadNodeAsPng(pageRef.current, filename)
+  }
 
   // Build a quick rim_pct lookup from the league leaderboards file,
   // which carries shot-zone splits that hawksData.json does not.
@@ -199,7 +206,10 @@ export default function ChartsPage({ playerData, leaderboards }) {
   }
 
   return (
-    <div className="charts-page">
+    <div className="charts-page" ref={pageRef}>
+      <div className="charts-top-bar">
+        <button type="button" className="save-png-btn" onClick={handleDownload} style={{ marginLeft: 'auto' }}>Save PNG</button>
+      </div>
       <header className="charts-header">
         <div className="charts-picker">
           <label htmlFor="chart-select" className="charts-picker-label">Chart</label>
@@ -351,7 +361,7 @@ export default function ChartsPage({ playerData, leaderboards }) {
                 style={{ cursor: 'pointer' }}
               >
                 <image
-                  href={`https://cdn.nba.com/headshots/nba/latest/1040x760/${p.id}.png`}
+                  href={`/nba-headshots/${p.id}.png`}
                   x={-size / 2}
                   y={-size / 2}
                   width={size}

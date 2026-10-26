@@ -1,5 +1,7 @@
+import { useRef } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import Tabs from '../components/Tabs'
+import { downloadNodeAsPng } from '../utils/downloadImage'
 
 // Mirror the hustle/clutch field configs from PlayerProfilePage so the compare
 // view uses the same stat set + labels + per-field format/invert flags.
@@ -76,6 +78,12 @@ export default function ComparePage({ playerData }) {
   const p1 = playerData?.players.find(p => p.id === Number(id1))
   const p2 = playerData?.players.find(p => p.id === Number(id2))
 
+  const pageRef = useRef(null)
+  const handleDownload = () => {
+    if (!p1 || !p2) return
+    downloadNodeAsPng(pageRef.current, `${p1.name}-vs-${p2.name}`)
+  }
+
   if (!p1 || !p2) {
     return (
       <div className="profile-missing">
@@ -86,8 +94,11 @@ export default function ComparePage({ playerData }) {
   }
 
   return (
-    <div className="compare-page">
-      <Link to={`/players/${p1.id}`} className="profile-back">← Back to {p1.name}</Link>
+    <div className="compare-page" ref={pageRef}>
+      <div className="compare-top-bar">
+        <Link to={`/players/${p1.id}`} className="profile-back">← Back to {p1.name}</Link>
+        <button type="button" className="save-png-btn" onClick={handleDownload}>Save PNG</button>
+      </div>
 
       <header className="compare-header">
         <PlayerCard player={p1} />
@@ -119,7 +130,7 @@ export default function ComparePage({ playerData }) {
 }
 
 function PlayerCard({ player }) {
-  const url = `https://cdn.nba.com/headshots/nba/latest/1040x760/${player.id}.png`
+  const url = `/nba-headshots/${player.id}.png`
   return (
     <Link to={`/players/${player.id}`} className="compare-player-card">
       <img

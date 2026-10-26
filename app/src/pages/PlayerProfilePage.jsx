@@ -17,7 +17,7 @@ export default function PlayerProfilePage({ playerData, season, leagueBaseline }
     )
   }
 
-  const headshotUrl = `https://cdn.nba.com/headshots/nba/latest/1040x760/${player.id}.png`
+  const headshotUrl = `/nba-headshots/${player.id}.png`
 
   return (
     <div className="player-profile">

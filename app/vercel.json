@@ -1,5 +1,6 @@
 {
   "rewrites": [
+    { "source": "/nba-headshots/:id.png", "destination": "https://cdn.nba.com/headshots/nba/latest/1040x760/:id.png" },
     { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
