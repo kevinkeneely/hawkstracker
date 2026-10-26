@@ -54,6 +54,8 @@ TEAM_FIELDS = {
         "BLK": "blk",
         "FGA": "fga",
         "FG3A": "fg3a",
+        "OREB": "oreb",
+        "DREB": "dreb",
     },
     "team_advanced": {
         "OFF_RATING": "off_rating",
@@ -119,6 +121,8 @@ TEAM_FIELDS = {
         "OPP_FGM": "opp_fgm",
         "OPP_FGA": "opp_fga",
         "OPP_FG3A": "opp_fg3a",
+        "OPP_OREB": "opp_oreb",
+        "OPP_DREB": "opp_dreb",
     },
 }
 
@@ -237,6 +241,18 @@ def compute_derived_stats(teams):
             if denom > 0:
                 team["opp_ts_pct"] = opp_pts / denom
 
+        # Override NBA.com's OREB_PCT with the BR/D&T formula:
+        # OREB% = OREB / (OREB + Opp DREB). NBA.com's Four Factors value
+        # ran ~5pp higher than BR/D&T; this matches them.
+        oreb = team.get("oreb")
+        opp_dreb = team.get("opp_dreb")
+        if oreb is not None and opp_dreb is not None and (oreb + opp_dreb) > 0:
+            team["oreb_pct"] = oreb / (oreb + opp_dreb)
+        opp_oreb = team.get("opp_oreb")
+        dreb = team.get("dreb")
+        if opp_oreb is not None and dreb is not None and (opp_oreb + dreb) > 0:
+            team["opp_oreb_pct"] = opp_oreb / (opp_oreb + dreb)
+
         # DReb%: 1 - opp OReb% (opponents' O-reb rate against us)
         opp_oreb_pct = team.get("opp_oreb_pct")
         if opp_oreb_pct is not None:
@@ -270,6 +286,8 @@ def compute_derived_stats(teams):
         ("opp_ts_pct", True),        # lower = better defense (opponents' true shooting)
         ("dreb_pct", False),         # higher = better rebounding defense
         ("opp_dreb_pct", True),      # lower = better offensive rebounding help
+        ("oreb_pct", False),         # higher = better O-rebounding (recomputed via BR formula)
+        ("opp_oreb_pct", True),      # lower = better D-rebounding (recomputed via BR formula)
     ]
     for field, ascending in rank_specs:
         _assign_ranks(teams.values(), field, f"{field}_rank", ascending)
