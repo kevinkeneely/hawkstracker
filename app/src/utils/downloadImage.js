@@ -72,7 +72,6 @@ export async function downloadNodeAsPng(node, filename) {
       scale: 2,
       useCORS: false,
       logging: false,
-      foreignObjectRendering: true,
     })
     canvas.toBlob((blob) => {
       if (!blob) throw new Error('Canvas toBlob returned null')
