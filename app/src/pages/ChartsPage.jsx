@@ -101,7 +101,7 @@ export default function ChartsPage({ playerData, leaderboards }) {
   // Enrich each Hawks player with the fields that live outside hawksData.json
   // before reading chart axis values.
   const enriched = useMemo(() => (
-    players.map(p => ({ ...p, rim_pct: rimById[p.id] ?? null }))
+    players.map(p => ({ ...p, rim_pct: rimById[p.id] ?? p?.zones?.at_rim?.pct ?? null }))
   ), [players, rimById])
 
   // League medians. Most come from hawksData.json's league_medians block
