@@ -17,30 +17,30 @@ const OVERALL = {
 // Paired table — Hawks on left, Opponents on right for every stat.
 const PAIRED_SECTIONS = [
   {
+    name: 'FOUR FACTORS',
+    stats: [
+      { label: 'eFG%',  hawks: 'efg_pct',     hawksRank: 'efg_pct_rank',     opp: 'opp_efg_pct',     oppRank: 'opp_efg_pct_rank',     format: pctFmt },
+      { label: 'TOV%',  hawks: 'tov_pct',     hawksRank: 'tov_pct_rank',     opp: 'opp_tov_pct',     oppRank: 'opp_tov_pct_rank',     format: pctFmt },
+      { label: 'OReb%', hawks: 'oreb_pct',    hawksRank: 'oreb_pct_rank',    opp: 'opp_oreb_pct',    oppRank: 'opp_oreb_pct_rank',    format: pctFmt },
+      { label: 'FTr',   hawks: 'fta_rate',    hawksRank: 'fta_rate_rank',    opp: 'opp_fta_rate',    oppRank: 'opp_fta_rate_rank',    format: pctFmt },
+    ],
+  },
+  {
     name: 'SCORING',
     stats: [
-      { label: 'eFG%', hawks: 'efg_pct',       hawksRank: 'efg_pct_rank',       opp: 'opp_efg_pct',       oppRank: 'opp_efg_pct_rank',       format: pctFmt },
-      { label: 'TS%',  hawks: 'ts_pct',        hawksRank: 'ts_pct_rank',        opp: 'opp_ts_pct',        oppRank: 'opp_ts_pct_rank',        format: pctFmt },
-      { label: 'Rim%', hawks: 'rim_fg_pct',    hawksRank: 'rim_fg_pct_rank',    opp: 'opp_rim_fg_pct',    oppRank: 'opp_rim_fg_pct_rank',    format: pctFmt },
-      { label: 'Mid%', hawks: 'mid_fg_pct',    hawksRank: 'mid_fg_pct_rank',    opp: 'opp_mid_fg_pct',    oppRank: 'opp_mid_fg_pct_rank',    format: pctFmt },
-      { label: '3P%',  hawks: 'fg3_pct',       hawksRank: 'fg3_pct_rank',       opp: 'opp_fg3_pct',       oppRank: 'opp_fg3_pct_rank',       format: pctFmt },
-      { label: 'FT%',  hawks: 'ft_pct',        hawksRank: 'ft_pct_rank',        opp: 'opp_ft_pct',        oppRank: 'opp_ft_pct_rank',        format: pctFmt },
+      { label: 'Rim%', hawks: 'rim_fg_pct',   hawksRank: 'rim_fg_pct_rank',  opp: 'opp_rim_fg_pct',  oppRank: 'opp_rim_fg_pct_rank',  format: pctFmt },
+      { label: 'Mid%', hawks: 'mid_fg_pct',   hawksRank: 'mid_fg_pct_rank',  opp: 'opp_mid_fg_pct',  oppRank: 'opp_mid_fg_pct_rank',  format: pctFmt },
+      { label: '3P%',  hawks: 'fg3_pct',      hawksRank: 'fg3_pct_rank',     opp: 'opp_fg3_pct',     oppRank: 'opp_fg3_pct_rank',     format: pctFmt },
+      { label: 'FT%',  hawks: 'ft_pct',       hawksRank: 'ft_pct_rank',      opp: 'opp_ft_pct',      oppRank: 'opp_ft_pct_rank',      format: pctFmt },
+      { label: 'TS%',  hawks: 'ts_pct',       hawksRank: 'ts_pct_rank',      opp: 'opp_ts_pct',      oppRank: 'opp_ts_pct_rank',      format: pctFmt },
     ],
   },
   {
     name: 'MISC',
     stats: [
-      { label: 'AST%', hawks: 'ast_pct_off',   hawksRank: 'ast_pct_off_rank',   opp: 'ast_pct_def',       oppRank: 'ast_pct_def_rank',       format: pctFmt },
-      { label: 'TOV%', hawks: 'tov_pct',       hawksRank: 'tov_pct_rank',       opp: 'opp_tov_pct',       oppRank: 'opp_tov_pct_rank',       format: pctFmt },
-      { label: 'STL%', hawks: 'stl_pct_def',   hawksRank: 'stl_pct_def_rank',   opp: 'stl_pct_off',       oppRank: 'stl_pct_off_rank',       format: pctFmt },
-      { label: 'BLK%', hawks: 'blk_pct_def',   hawksRank: 'blk_pct_def_rank',   opp: 'blk_pct_off',       oppRank: 'blk_pct_off_rank',       format: pctFmt },
-    ],
-  },
-  {
-    name: 'REBOUNDING',
-    stats: [
-      { label: 'OReb%', hawks: 'oreb_pct',    hawksRank: 'oreb_pct_rank',    opp: 'opp_oreb_pct',    oppRank: 'opp_oreb_pct_rank',    format: pctFmt },
-      { label: 'DReb%', hawks: 'dreb_pct',    hawksRank: 'dreb_pct_rank',    opp: 'opp_dreb_pct',    oppRank: 'opp_dreb_pct_rank',    format: pctFmt },
+      { label: 'AST%', hawks: 'ast_pct_off',  hawksRank: 'ast_pct_off_rank', opp: 'ast_pct_def',     oppRank: 'ast_pct_def_rank',     format: pctFmt },
+      { label: 'STL%', hawks: 'stl_pct_def',  hawksRank: 'stl_pct_def_rank', opp: 'stl_pct_off',     oppRank: 'stl_pct_off_rank',     format: pctFmt },
+      { label: 'BLK%', hawks: 'blk_pct_def',  hawksRank: 'blk_pct_def_rank', opp: 'blk_pct_off',     oppRank: 'blk_pct_off_rank',     format: pctFmt },
     ],
   },
 ]

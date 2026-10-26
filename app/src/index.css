@@ -161,6 +161,12 @@ code {
   text-align: right;
 }
 
+/* Column dividers between every column except the last. */
+.player-stats th:not(:last-child),
+.player-stats td:not(:last-child) {
+  border-right: 1px solid var(--border);
+}
+
 .player-stats th {
   font-weight: 600;
   color: var(--text-h);
