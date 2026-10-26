@@ -1,9 +1,73 @@
-import { useState } from 'react'
+import { useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
+
+// Canonical sort keys (what the <th> click sends) mapped to the underlying
+// field name for each display mode. Keeps the sort stable when the user
+// flips Per Game ↔ Per 36 ↔ Totals: a sort by "pts" follows the user from
+// ppg to ppg_p36 to pts_total.
+function fieldForKey(key, mode) {
+  if (key === 'gp')  return 'gp'
+  if (key === 'min') return mode === 'totals' ? 'min_total' : 'mpg'
+  if (mode === 'totals') {
+    return {
+      pts: 'pts_total', reb: 'reb_total', ast: 'ast_total',
+      stl: 'stl_total', blk: 'blk_total', tov: 'tov_total',
+      fg:  'fgm_total', fg3: 'fg3m_total', ft:  'ftm_total',
+    }[key]
+  }
+  if (mode === 'per-36') {
+    return {
+      pts: 'ppg_p36', reb: 'rpg_p36', ast: 'apg_p36',
+      stl: 'spg_p36', blk: 'bpg_p36', tov: 'tov_p36',
+      fg:  'fg_pct',  fg3: 'fg3_pct', ft:  'ft_pct',
+    }[key]
+  }
+  // per-game
+  return {
+    pts: 'ppg', reb: 'rpg', ast: 'apg',
+    stl: 'spg', blk: 'bpg', tov: 'tov',
+    fg:  'fg_pct', fg3: 'fg3_pct', ft:  'ft_pct',
+  }[key]
+}
 
 export default function PlayerStatsTable({ players }) {
   const [mode, setMode] = useState('per-game') // 'per-game' | 'per-36' | 'totals'
+  const [sortKey, setSortKey] = useState('min') // canonical key, see fieldForKey
+  const [sortDir, setSortDir] = useState('desc') // 'asc' | 'desc'
   const suf = mode === 'per-36' ? '_p36' : ''
+
+  // Clicking the active column flips direction; a new column resets to desc.
+  function handleSort(key) {
+    if (key === sortKey) {
+      setSortDir(d => (d === 'desc' ? 'asc' : 'desc'))
+    } else {
+      setSortKey(key)
+      setSortDir('desc')
+    }
+  }
+
+  // Qualified players sort first, then unqualified at the bottom (matches
+  // Basketball Reference / NBA.com leaders behavior). Nulls always go last
+  // regardless of direction so small-sample or missing values don't float up.
+  const sortedPlayers = useMemo(() => {
+    const field = fieldForKey(sortKey, mode)
+    const dir = sortDir === 'desc' ? -1 : 1
+    const cmp = (a, b) => {
+      const av = a[field]
+      const bv = b[field]
+      const aNull = av == null
+      const bNull = bv == null
+      if (aNull && bNull) return 0
+      if (aNull) return 1  // nulls to bottom
+      if (bNull) return -1
+      return (av - bv) * dir
+    }
+    const qualified = players.filter(p => p.qualified)
+    const unqualified = players.filter(p => !p.qualified)
+    qualified.sort(cmp)
+    unqualified.sort(cmp)
+    return [...qualified, ...unqualified]
+  }, [players, sortKey, sortDir, mode])
 
   return (
     <div>
@@ -35,21 +99,21 @@ export default function PlayerStatsTable({ players }) {
               <th>#</th>
               <th>Player</th>
               <th>Age</th>
-              <th>GP</th>
-              <th>{mode === 'totals' ? 'MIN' : 'MPG'}</th>
-              <th>{mode === 'per-game' ? 'PPG' : 'PTS'}</th>
-              <th>{mode === 'per-game' ? 'RPG' : 'REB'}</th>
-              <th>{mode === 'per-game' ? 'APG' : 'AST'}</th>
-              <th>{mode === 'per-game' ? 'SPG' : 'STL'}</th>
-              <th>{mode === 'per-game' ? 'BPG' : 'BLK'}</th>
-              <th>TOV</th>
-              <th>{mode === 'totals' ? 'FGM' : 'FG%'}</th>
-              <th>{mode === 'totals' ? '3PM' : '3P%'}</th>
-              <th>{mode === 'totals' ? 'FTM' : 'FT%'}</th>
+              <SortableTh k="gp"  label="GP" activeKey={sortKey} activeDir={sortDir} onSort={handleSort} />
+              <SortableTh k="min" label={mode === 'totals' ? 'MIN' : 'MPG'} activeKey={sortKey} activeDir={sortDir} onSort={handleSort} />
+              <SortableTh k="pts" label={mode === 'per-game' ? 'PPG' : 'PTS'} activeKey={sortKey} activeDir={sortDir} onSort={handleSort} />
+              <SortableTh k="reb" label={mode === 'per-game' ? 'RPG' : 'REB'} activeKey={sortKey} activeDir={sortDir} onSort={handleSort} />
+              <SortableTh k="ast" label={mode === 'per-game' ? 'APG' : 'AST'} activeKey={sortKey} activeDir={sortDir} onSort={handleSort} />
+              <SortableTh k="stl" label={mode === 'per-game' ? 'SPG' : 'STL'} activeKey={sortKey} activeDir={sortDir} onSort={handleSort} />
+              <SortableTh k="blk" label={mode === 'per-game' ? 'BPG' : 'BLK'} activeKey={sortKey} activeDir={sortDir} onSort={handleSort} />
+              <SortableTh k="tov" label="TOV" activeKey={sortKey} activeDir={sortDir} onSort={handleSort} />
+              <SortableTh k="fg"  label={mode === 'totals' ? 'FGM' : 'FG%'} activeKey={sortKey} activeDir={sortDir} onSort={handleSort} />
+              <SortableTh k="fg3" label={mode === 'totals' ? '3PM' : '3P%'} activeKey={sortKey} activeDir={sortDir} onSort={handleSort} />
+              <SortableTh k="ft"  label={mode === 'totals' ? 'FTM' : 'FT%'} activeKey={sortKey} activeDir={sortDir} onSort={handleSort} />
             </tr>
           </thead>
           <tbody>
-            {players.map((p, i) => {
+            {sortedPlayers.map((p, i) => {
               const faded = !p.qualified ? 'faded' : ''
               if (mode === 'totals') {
                 return (
@@ -94,6 +158,23 @@ export default function PlayerStatsTable({ players }) {
         </table>
       </div>
     </div>
+  )
+}
+
+// Clickable column header. Shows ▲/▼ next to the label when this column is
+// the active sort. Minimal inline style so no CSS file changes are needed;
+// add a `.sortable-th:hover` rule later if you want a hover affordance.
+function SortableTh({ k, label, activeKey, activeDir, onSort }) {
+  const isActive = k === activeKey
+  const arrow = isActive ? (activeDir === 'desc' ? ' ▼' : ' ▲') : ''
+  return (
+    <th
+      className="sortable-th"
+      onClick={() => onSort(k)}
+      style={{ cursor: 'pointer', userSelect: 'none' }}
+    >
+      {label}{arrow}
+    </th>
   )
 }
 
