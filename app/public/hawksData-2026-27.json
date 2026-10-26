@@ -1,6 +1,6 @@
 {
   "season": "2026-27",
-  "updated": "2026-10-25",
+  "updated": "2026-10-26",
   "players": [
     {
       "id": 1630552,
@@ -55,7 +55,7 @@
       "deflections": 1.67,
       "charges_drawn": 0.0,
       "screen_assists": 0.33,
-      "screen_ast_pts": 0.0,
+      "screen_ast_pts": 1.0,
       "loose_balls": 0.0,
       "off_boxouts": 0.0,
       "def_boxouts": 0.67,
@@ -72,25 +72,25 @@
       "rpg_pctile": 1.0,
       "apg_pctile": 1.0,
       "spg_pctile": 1.0,
-      "bpg_pctile": 0.7963917525773195,
-      "tov_pctile": 0.9974226804123711,
-      "fg_pct_pctile": 0.47164948453608246,
-      "fg3_pct_pctile": 0.3427835051546392,
-      "ft_pct_pctile": 0.6984536082474226,
-      "ast_pct_pctile": 0.9587628865979382,
-      "tov_pct_pctile": 0.3582474226804124,
+      "bpg_pctile": 0.8025,
+      "tov_pctile": 0.9975,
+      "fg_pct_pctile": 0.4825,
+      "fg3_pct_pctile": 0.3275,
+      "ft_pct_pctile": 0.6875,
+      "ast_pct_pctile": 0.96,
+      "tov_pct_pctile": 0.35,
       "ppg_p36": 24.73660100778745,
-      "ppg_p36_pctile": 0.8711340206185567,
+      "ppg_p36_pctile": 0.87468671679198,
       "rpg_p36": 11.416892772824976,
-      "rpg_p36_pctile": 0.8685567010309279,
+      "rpg_p36_pctile": 0.87468671679198,
       "apg_p36": 11.416892772824976,
-      "apg_p36_pctile": 0.9768041237113402,
+      "apg_p36_pctile": 0.974937343358396,
       "spg_p36": 1.9028154621374962,
-      "spg_p36_pctile": 0.7551546391752577,
+      "spg_p36_pctile": 0.7468671679197995,
       "bpg_p36": 0.3805630924274992,
-      "bpg_p36_pctile": 0.5463917525773195,
+      "bpg_p36_pctile": 0.5388471177944862,
       "tov_p36": 2.6639416469924946,
-      "tov_p36_pctile": 0.6237113402061856,
+      "tov_p36_pctile": 0.631578947368421,
       "zones": {
         "at_rim": {
           "fga": 22,
@@ -154,7 +154,7 @@
           "pctile": null
         },
         "screen_ast_pts": {
-          "value": 0.0,
+          "value": 1.0,
           "pctile": null
         },
         "loose_balls_recovered": {
@@ -181,7 +181,7 @@
         },
         "min": {
           "value": 2.4,
-          "pctile": 0.625
+          "pctile": 0.5
         },
         "pts": {
           "value": 2.5,
@@ -225,7 +225,7 @@
         },
         "fg_pct": {
           "value": 0.5,
-          "pctile": 0.625
+          "pctile": 0.6667
         },
         "fg3m": {
           "value": 0.0,
@@ -241,15 +241,15 @@
         },
         "ftm": {
           "value": 0.5,
-          "pctile": 0.625
+          "pctile": 0.6667
         },
         "fta": {
           "value": 1.0,
-          "pctile": 0.75
+          "pctile": 0.8333
         },
         "ft_pct": {
           "value": 0.5,
-          "pctile": 0.5
+          "pctile": 0.5833
         },
         "pf": {
           "value": 0.0,
@@ -257,11 +257,11 @@
         },
         "plus_minus": {
           "value": 3.5,
-          "pctile": 0.625
+          "pctile": 0.75
         },
         "off_rating": {
           "value": 116.7,
-          "pctile": 0.375
+          "pctile": 0.5833
         },
         "def_rating": {
           "value": 63.6,
@@ -269,11 +269,11 @@
         },
         "net_rating": {
           "value": 53.0,
-          "pctile": 0.5
+          "pctile": 0.6667
         },
         "efg_pct": {
           "value": 0.5,
-          "pctile": 0.5
+          "pctile": 0.5833
         },
         "ts_pct": {
           "value": 0.512,
@@ -281,7 +281,7 @@
         },
         "ast_pct": {
           "value": 0.667,
-          "pctile": 1.0
+          "pctile": 0.9167
         },
         "oreb_pct": {
           "value": 0.0,
@@ -301,14 +301,14 @@
         },
         "usg_pct": {
           "value": 0.385,
-          "pctile": 1.0
+          "pctile": 0.9167
         },
         "pie": {
           "value": 0.571,
           "pctile": 1.0
         }
       },
-      "stl_pct": 2.547117255944315,
+      "stl_pct": 2.3565432680714182,
       "blk_pct": 1.0158730158730158,
       "stl_pct_pctile": null,
       "blk_pct_pctile": null
@@ -366,12 +366,12 @@
       "deflections": 2.67,
       "charges_drawn": 0.0,
       "screen_assists": 0.67,
-      "screen_ast_pts": 0.67,
+      "screen_ast_pts": 1.33,
       "loose_balls": 0.67,
       "off_boxouts": 0.0,
-      "def_boxouts": 0.0,
+      "def_boxouts": 0.33,
       "box_outs": 0.33,
-      "box_out_team_rebs": 0.0,
+      "box_out_team_rebs": 0.33,
       "clutch_gp": 2,
       "clutch_min": 2.4,
       "clutch_fg_pct": 0.6,
@@ -380,28 +380,28 @@
       "pos": "G",
       "qualified": true,
       "ppg_pctile": 1.0,
-      "rpg_pctile": 0.9871134020618557,
+      "rpg_pctile": 0.9925,
       "apg_pctile": 1.0,
       "spg_pctile": 1.0,
-      "bpg_pctile": 0.7963917525773195,
-      "tov_pctile": 0.9845360824742269,
-      "fg_pct_pctile": 0.5283505154639175,
-      "fg3_pct_pctile": 0.7216494845360825,
-      "ft_pct_pctile": 0.595360824742268,
-      "ast_pct_pctile": 0.6829896907216495,
-      "tov_pct_pctile": 0.3943298969072165,
+      "bpg_pctile": 0.8025,
+      "tov_pctile": 0.9875,
+      "fg_pct_pctile": 0.5425,
+      "fg3_pct_pctile": 0.7125,
+      "ft_pct_pctile": 0.5825,
+      "ast_pct_pctile": 0.685,
+      "tov_pct_pctile": 0.38,
       "ppg_p36": 25.349279087962447,
-      "ppg_p36_pctile": 0.8814432989690721,
+      "ppg_p36_pctile": 0.8947368421052632,
       "rpg_p36": 4.828434111992847,
-      "rpg_p36_pctile": 0.3556701030927835,
+      "rpg_p36_pctile": 0.3408521303258145,
       "apg_p36": 4.828434111992847,
-      "apg_p36_pctile": 0.7422680412371134,
+      "apg_p36_pctile": 0.7468671679197995,
       "spg_p36": 2.4142170559964233,
-      "spg_p36_pctile": 0.8376288659793815,
+      "spg_p36_pctile": 0.8320802005012531,
       "bpg_p36": 0.40236950933273724,
-      "bpg_p36_pctile": 0.5489690721649485,
+      "bpg_p36_pctile": 0.5488721804511278,
       "tov_p36": 2.0118475466636863,
-      "tov_p36_pctile": 0.5154639175257731,
+      "tov_p36_pctile": 0.506265664160401,
       "zones": {
         "at_rim": {
           "fga": 8,
@@ -465,7 +465,7 @@
           "pctile": null
         },
         "screen_ast_pts": {
-          "value": 0.67,
+          "value": 1.33,
           "pctile": null
         },
         "loose_balls_recovered": {
@@ -481,7 +481,7 @@
           "pctile": null
         },
         "pct_box_outs_def": {
-          "value": 0.0,
+          "value": 1.0,
           "pctile": null
         }
       },
@@ -492,11 +492,11 @@
         },
         "min": {
           "value": 2.4,
-          "pctile": 0.625
+          "pctile": 0.5
         },
         "pts": {
           "value": 4.0,
-          "pctile": 0.875
+          "pctile": 0.9167
         },
         "oreb": {
           "value": 0.0,
@@ -532,11 +532,11 @@
         },
         "fga": {
           "value": 2.5,
-          "pctile": 0.875
+          "pctile": 0.9167
         },
         "fg_pct": {
           "value": 0.6,
-          "pctile": 0.625
+          "pctile": 0.6667
         },
         "fg3m": {
           "value": 1.0,
@@ -568,11 +568,11 @@
         },
         "plus_minus": {
           "value": 3.5,
-          "pctile": 0.625
+          "pctile": 0.75
         },
         "off_rating": {
           "value": 116.7,
-          "pctile": 0.375
+          "pctile": 0.5833
         },
         "def_rating": {
           "value": 63.6,
@@ -580,15 +580,15 @@
         },
         "net_rating": {
           "value": 53.0,
-          "pctile": 0.5
+          "pctile": 0.6667
         },
         "efg_pct": {
           "value": 0.8,
-          "pctile": 0.625
+          "pctile": 0.6667
         },
         "ts_pct": {
           "value": 0.8,
-          "pctile": 0.625
+          "pctile": 0.6667
         },
         "ast_pct": {
           "value": 0.0,
@@ -612,14 +612,14 @@
         },
         "usg_pct": {
           "value": 0.385,
-          "pctile": 1.0
+          "pctile": 0.9167
         },
         "pie": {
           "value": 0.429,
           "pctile": 1.0
         }
       },
-      "stl_pct": 3.1675560032469767,
+      "stl_pct": 2.930561111103422,
       "blk_pct": 1.0738255033557047,
       "stl_pct_pctile": null,
       "blk_pct_pctile": null
@@ -674,11 +674,11 @@
       "contested_shots": 5.0,
       "contested_2pt": 2.0,
       "contested_3pt": 3.0,
-      "deflections": 7.33,
+      "deflections": 8.0,
       "charges_drawn": 0.0,
       "screen_assists": 2.33,
-      "screen_ast_pts": 4.0,
-      "loose_balls": 1.33,
+      "screen_ast_pts": 5.67,
+      "loose_balls": 1.67,
       "off_boxouts": 0.0,
       "def_boxouts": 0.33,
       "box_outs": 0.33,
@@ -692,27 +692,27 @@
       "qualified": true,
       "ppg_pctile": 1.0,
       "rpg_pctile": 1.0,
-      "apg_pctile": 0.9948453608247423,
+      "apg_pctile": 0.995,
       "spg_pctile": 1.0,
-      "bpg_pctile": 0.7963917525773195,
-      "tov_pctile": 0.8685567010309279,
-      "fg_pct_pctile": 0.8582474226804123,
-      "fg3_pct_pctile": 0.44587628865979384,
-      "ft_pct_pctile": 0.4690721649484536,
-      "ast_pct_pctile": 0.6391752577319587,
-      "tov_pct_pctile": 0.31958762886597936,
+      "bpg_pctile": 0.8025,
+      "tov_pctile": 0.8825,
+      "fg_pct_pctile": 0.8725,
+      "fg3_pct_pctile": 0.43,
+      "ft_pct_pctile": 0.435,
+      "ast_pct_pctile": 0.635,
+      "tov_pct_pctile": 0.3025,
       "ppg_p36": 20.30114126786228,
-      "ppg_p36_pctile": 0.7396907216494846,
+      "ppg_p36_pctile": 0.7493734335839599,
       "rpg_p36": 8.70048911479812,
-      "rpg_p36_pctile": 0.7345360824742269,
+      "rpg_p36_pctile": 0.7343358395989975,
       "apg_p36": 4.143090054665771,
-      "apg_p36_pctile": 0.6675257731958762,
+      "apg_p36_pctile": 0.6867167919799498,
       "spg_p36": 5.386017071065503,
-      "spg_p36_pctile": 0.9896907216494846,
+      "spg_p36_pctile": 0.9949874686716792,
       "bpg_p36": 0.4143090054665772,
-      "bpg_p36_pctile": 0.5515463917525774,
+      "bpg_p36_pctile": 0.5538847117794486,
       "tov_p36": 1.2429270163997315,
-      "tov_p36_pctile": 0.37628865979381443,
+      "tov_p36_pctile": 0.3533834586466165,
       "zones": {
         "at_rim": {
           "fga": 17,
@@ -764,7 +764,7 @@
           "pctile": null
         },
         "deflections": {
-          "value": 7.33,
+          "value": 8.0,
           "pctile": null
         },
         "charges_drawn": {
@@ -776,11 +776,11 @@
           "pctile": null
         },
         "screen_ast_pts": {
-          "value": 4.0,
+          "value": 5.67,
           "pctile": null
         },
         "loose_balls_recovered": {
-          "value": 1.33,
+          "value": 1.67,
           "pctile": null
         },
         "box_outs": {
@@ -803,7 +803,7 @@
         },
         "min": {
           "value": 2.4,
-          "pctile": 0.625
+          "pctile": 0.5
         },
         "pts": {
           "value": 0.0,
@@ -827,7 +827,7 @@
         },
         "stl": {
           "value": 0.5,
-          "pctile": 0.875
+          "pctile": 0.9167
         },
         "blk": {
           "value": 0.0,
@@ -843,7 +843,7 @@
         },
         "fga": {
           "value": 0.5,
-          "pctile": 0.25
+          "pctile": 0.3333
         },
         "fg_pct": {
           "value": 0.0,
@@ -875,15 +875,15 @@
         },
         "pf": {
           "value": 1.0,
-          "pctile": 0.875
+          "pctile": 0.8333
         },
         "plus_minus": {
           "value": 3.0,
-          "pctile": 0.5
+          "pctile": 0.6667
         },
         "off_rating": {
           "value": 108.3,
-          "pctile": 0.375
+          "pctile": 0.5833
         },
         "def_rating": {
           "value": 63.6,
@@ -891,7 +891,7 @@
         },
         "net_rating": {
           "value": 44.7,
-          "pctile": 0.375
+          "pctile": 0.5833
         },
         "efg_pct": {
           "value": 0.0,
@@ -923,14 +923,14 @@
         },
         "usg_pct": {
           "value": 0.077,
-          "pctile": 0.125
+          "pctile": 0.1667
         },
         "pie": {
           "value": -0.143,
           "pctile": 0.0
         }
       },
-      "stl_pct": 6.9981142457942696,
+      "stl_pct": 6.474518978910215,
       "blk_pct": 1.103448275862069,
       "stl_pct_pctile": null,
       "blk_pct_pctile": null
@@ -985,15 +985,15 @@
       "contested_shots": 3.33,
       "contested_2pt": 1.67,
       "contested_3pt": 1.67,
-      "deflections": 1.67,
+      "deflections": 2.33,
       "charges_drawn": 0.0,
       "screen_assists": 0.0,
       "screen_ast_pts": 0.0,
       "loose_balls": 1.0,
       "off_boxouts": 0.0,
-      "def_boxouts": 0.0,
+      "def_boxouts": 0.33,
       "box_outs": 0.33,
-      "box_out_team_rebs": 0.0,
+      "box_out_team_rebs": 0.33,
       "clutch_gp": 2,
       "clutch_min": 2.4,
       "clutch_fg_pct": 0.0,
@@ -1002,28 +1002,28 @@
       "pos": "G",
       "qualified": true,
       "ppg_pctile": 1.0,
-      "rpg_pctile": 0.9432989690721649,
-      "apg_pctile": 0.7190721649484536,
+      "rpg_pctile": 0.9475,
+      "apg_pctile": 0.7175,
       "spg_pctile": 1.0,
-      "bpg_pctile": 0.7963917525773195,
-      "tov_pctile": 0.8685567010309279,
-      "fg_pct_pctile": 0.8118556701030928,
-      "fg3_pct_pctile": 0.8762886597938144,
-      "ft_pct_pctile": 0.5773195876288659,
-      "ast_pct_pctile": 0.2603092783505155,
-      "tov_pct_pctile": 0.38144329896907214,
+      "bpg_pctile": 0.8025,
+      "tov_pctile": 0.8825,
+      "fg_pct_pctile": 0.8275,
+      "fg3_pct_pctile": 0.8925,
+      "ft_pct_pctile": 0.5575,
+      "ast_pct_pctile": 0.235,
+      "tov_pct_pctile": 0.37,
       "ppg_p36": 22.458715596330276,
-      "ppg_p36_pctile": 0.7989690721649485,
+      "ppg_p36_pctile": 0.7994987468671679,
       "rpg_p36": 3.963302752293578,
-      "rpg_p36_pctile": 0.2860824742268041,
+      "rpg_p36_pctile": 0.2681704260651629,
       "apg_p36": 1.3211009174311927,
-      "apg_p36_pctile": 0.2706185567010309,
+      "apg_p36_pctile": 0.23809523809523808,
       "spg_p36": 2.2018348623853212,
-      "spg_p36_pctile": 0.8092783505154639,
+      "spg_p36_pctile": 0.7944862155388471,
       "bpg_p36": 0.44036697247706424,
-      "bpg_p36_pctile": 0.5644329896907216,
+      "bpg_p36_pctile": 0.568922305764411,
       "tov_p36": 1.3211009174311927,
-      "tov_p36_pctile": 0.38917525773195877,
+      "tov_p36_pctile": 0.3659147869674185,
       "zones": {
         "at_rim": {
           "fga": 4,
@@ -1075,7 +1075,7 @@
           "pctile": null
         },
         "deflections": {
-          "value": 1.67,
+          "value": 2.33,
           "pctile": null
         },
         "charges_drawn": {
@@ -1103,7 +1103,7 @@
           "pctile": null
         },
         "pct_box_outs_def": {
-          "value": 0.0,
+          "value": 1.0,
           "pctile": null
         }
       },
@@ -1114,7 +1114,7 @@
         },
         "min": {
           "value": 2.4,
-          "pctile": 0.625
+          "pctile": 0.5
         },
         "pts": {
           "value": 0.0,
@@ -1186,15 +1186,15 @@
         },
         "pf": {
           "value": 0.5,
-          "pctile": 0.625
+          "pctile": 0.6667
         },
         "plus_minus": {
           "value": 3.5,
-          "pctile": 0.625
+          "pctile": 0.75
         },
         "off_rating": {
           "value": 116.7,
-          "pctile": 0.375
+          "pctile": 0.5833
         },
         "def_rating": {
           "value": 63.6,
@@ -1202,7 +1202,7 @@
         },
         "net_rating": {
           "value": 53.0,
-          "pctile": 0.5
+          "pctile": 0.6667
         },
         "efg_pct": {
           "value": 0.0,
@@ -1238,10 +1238,10 @@
         },
         "pie": {
           "value": -0.071,
-          "pctile": 0.125
+          "pctile": 0.1667
         }
       },
-      "stl_pct": 2.9389814491665174,
+      "stl_pct": 2.719088386236252,
       "blk_pct": 1.1721611721611722,
       "stl_pct_pctile": null,
       "blk_pct_pctile": null
@@ -1302,9 +1302,9 @@
       "screen_ast_pts": 6.67,
       "loose_balls": 0.33,
       "off_boxouts": 0.0,
-      "def_boxouts": 1.0,
+      "def_boxouts": 1.33,
       "box_outs": 1.33,
-      "box_out_team_rebs": 1.0,
+      "box_out_team_rebs": 1.33,
       "clutch_gp": 2,
       "clutch_min": 2.4,
       "clutch_fg_pct": 0.0,
@@ -1312,29 +1312,29 @@
       "clutch_ts_pct": 0.347,
       "pos": "F-C",
       "qualified": true,
-      "ppg_pctile": 0.9716494845360825,
-      "rpg_pctile": 0.9974226804123711,
-      "apg_pctile": 0.9948453608247423,
-      "spg_pctile": 0.5927835051546392,
-      "bpg_pctile": 0.7963917525773195,
-      "tov_pctile": 0.8685567010309279,
-      "fg_pct_pctile": 0.31443298969072164,
-      "fg3_pct_pctile": 0.35051546391752575,
-      "ft_pct_pctile": 0.7525773195876289,
-      "ast_pct_pctile": 0.6082474226804123,
-      "tov_pct_pctile": 0.38144329896907214,
+      "ppg_pctile": 0.9725,
+      "rpg_pctile": 0.9975,
+      "apg_pctile": 0.995,
+      "spg_pctile": 0.6125,
+      "bpg_pctile": 0.8025,
+      "tov_pctile": 0.8825,
+      "fg_pct_pctile": 0.295,
+      "fg3_pct_pctile": 0.345,
+      "ft_pct_pctile": 0.73,
+      "ast_pct_pctile": 0.6075,
+      "tov_pct_pctile": 0.37,
       "ppg_p36": 12.15900233826968,
-      "ppg_p36_pctile": 0.3556701030927835,
+      "ppg_p36_pctile": 0.3508771929824561,
       "rpg_p36": 7.014809041309431,
-      "rpg_p36_pctile": 0.5979381443298969,
+      "rpg_p36_pctile": 0.6140350877192983,
       "apg_p36": 4.676539360872954,
-      "apg_p36_pctile": 0.7371134020618557,
+      "apg_p36_pctile": 0.7368421052631579,
       "spg_p36": 0.4676539360872954,
-      "spg_p36_pctile": 0.3582474226804124,
+      "spg_p36_pctile": 0.3408521303258145,
       "bpg_p36": 0.4676539360872954,
-      "bpg_p36_pctile": 0.5747422680412371,
+      "bpg_p36_pctile": 0.5839598997493735,
       "tov_p36": 1.4029618082618862,
-      "tov_p36_pctile": 0.39690721649484534,
+      "tov_p36_pctile": 0.37844611528822053,
       "zones": {
         "at_rim": {
           "fga": 8,
@@ -1414,7 +1414,7 @@
           "pctile": null
         },
         "pct_box_outs_def": {
-          "value": 0.75,
+          "value": 1.0,
           "pctile": null
         }
       },
@@ -1425,23 +1425,23 @@
         },
         "min": {
           "value": 2.4,
-          "pctile": 0.625
+          "pctile": 0.5
         },
         "pts": {
           "value": 0.5,
-          "pctile": 0.125
+          "pctile": 0.1667
         },
         "oreb": {
           "value": 0.5,
-          "pctile": 0.75
+          "pctile": 0.8333
         },
         "dreb": {
           "value": 0.5,
-          "pctile": 1.0
+          "pctile": 0.9167
         },
         "reb": {
           "value": 1.0,
-          "pctile": 1.0
+          "pctile": 0.9167
         },
         "ast": {
           "value": 0.0,
@@ -1465,7 +1465,7 @@
         },
         "fga": {
           "value": 0.5,
-          "pctile": 0.25
+          "pctile": 0.3333
         },
         "fg_pct": {
           "value": 0.0,
@@ -1477,7 +1477,7 @@
         },
         "fg3a": {
           "value": 0.5,
-          "pctile": 0.625
+          "pctile": 0.5833
         },
         "fg3_pct": {
           "value": 0.0,
@@ -1485,7 +1485,7 @@
         },
         "ftm": {
           "value": 0.5,
-          "pctile": 0.625
+          "pctile": 0.6667
         },
         "fta": {
           "value": 0.5,
@@ -1501,11 +1501,11 @@
         },
         "plus_minus": {
           "value": 3.5,
-          "pctile": 0.625
+          "pctile": 0.75
         },
         "off_rating": {
           "value": 116.7,
-          "pctile": 0.375
+          "pctile": 0.5833
         },
         "def_rating": {
           "value": 63.6,
@@ -1513,7 +1513,7 @@
         },
         "net_rating": {
           "value": 53.0,
-          "pctile": 0.5
+          "pctile": 0.6667
         },
         "efg_pct": {
           "value": 0.0,
@@ -1521,7 +1521,7 @@
         },
         "ts_pct": {
           "value": 0.347,
-          "pctile": 0.125
+          "pctile": 0.25
         },
         "ast_pct": {
           "value": 0.0,
@@ -1529,15 +1529,15 @@
         },
         "oreb_pct": {
           "value": 0.143,
-          "pctile": 0.875
+          "pctile": 0.75
         },
         "dreb_pct": {
           "value": 0.167,
-          "pctile": 0.75
+          "pctile": 0.6667
         },
         "reb_pct": {
           "value": 0.154,
-          "pctile": 0.625
+          "pctile": 0.5833
         },
         "tm_tov_pct": {
           "value": 0.0,
@@ -1545,14 +1545,14 @@
         },
         "usg_pct": {
           "value": 0.154,
-          "pctile": 0.375
+          "pctile": 0.3333
         },
         "pie": {
           "value": 0.107,
-          "pctile": 0.625
+          "pctile": 0.6667
         }
       },
-      "stl_pct": 0.5509328923935404,
+      "stl_pct": 0.509712380024603,
       "blk_pct": 1.245136186770428,
       "stl_pct_pctile": null,
       "blk_pct_pctile": null
@@ -1624,28 +1624,28 @@
       "pos": "G",
       "qualified": true,
       "ppg_pctile": 1.0,
-      "rpg_pctile": 0.7010309278350515,
-      "apg_pctile": 0.9304123711340206,
+      "rpg_pctile": 0.71,
+      "apg_pctile": 0.9325,
       "spg_pctile": 0.0,
-      "bpg_pctile": 0.7963917525773195,
-      "tov_pctile": 0.9484536082474226,
-      "fg_pct_pctile": 0.75,
-      "fg3_pct_pctile": 0.6804123711340206,
-      "ft_pct_pctile": 0.7525773195876289,
-      "ast_pct_pctile": 0.43041237113402064,
-      "tov_pct_pctile": 0.4587628865979381,
+      "bpg_pctile": 0.8025,
+      "tov_pctile": 0.955,
+      "fg_pct_pctile": 0.7625,
+      "fg3_pct_pctile": 0.67,
+      "ft_pct_pctile": 0.73,
+      "ast_pct_pctile": 0.4275,
+      "tov_pct_pctile": 0.435,
       "ppg_p36": 23.12280165162869,
-      "ppg_p36_pctile": 0.8376288659793815,
+      "ppg_p36_pctile": 0.8370927318295739,
       "rpg_p36": 2.359469556288642,
-      "rpg_p36_pctile": 0.12371134020618557,
+      "rpg_p36_pctile": 0.10275689223057644,
       "apg_p36": 2.8313634675463706,
-      "apg_p36_pctile": 0.5,
+      "apg_p36_pctile": 0.49624060150375937,
       "spg_p36": 0.0,
       "spg_p36_pctile": 0.0,
       "bpg_p36": 0.4718939112577284,
-      "bpg_p36_pctile": 0.5747422680412371,
+      "bpg_p36_pctile": 0.5839598997493735,
       "tov_p36": 1.8875756450309136,
-      "tov_p36_pctile": 0.4948453608247423,
+      "tov_p36_pctile": 0.48370927318295737,
       "zones": {
         "at_rim": {
           "fga": 8,
@@ -1812,11 +1812,11 @@
         },
         "plus_minus": {
           "value": 1.0,
-          "pctile": 0.375
+          "pctile": 0.5833
         },
         "off_rating": {
           "value": 100.0,
-          "pctile": 0.0
+          "pctile": 0.3333
         },
         "def_rating": {
           "value": 0.0,
@@ -1860,7 +1860,7 @@
         },
         "pie": {
           "value": 0.0,
-          "pctile": 0.125
+          "pctile": 0.1667
         }
       },
       "stl_pct": 0.0,
@@ -1924,34 +1924,34 @@
       "screen_ast_pts": 1.67,
       "loose_balls": 1.0,
       "off_boxouts": 0.0,
-      "def_boxouts": 0.67,
+      "def_boxouts": 1.0,
       "box_outs": 1.0,
-      "box_out_team_rebs": 0.67,
+      "box_out_team_rebs": 1.0,
       "pos": "G",
       "qualified": true,
-      "ppg_pctile": 0.9432989690721649,
-      "rpg_pctile": 0.979381443298969,
-      "apg_pctile": 0.884020618556701,
-      "spg_pctile": 0.9716494845360825,
+      "ppg_pctile": 0.955,
+      "rpg_pctile": 0.985,
+      "apg_pctile": 0.8925,
+      "spg_pctile": 0.9775,
       "bpg_pctile": 0.0,
-      "tov_pctile": 0.8685567010309279,
-      "fg_pct_pctile": 0.3582474226804124,
-      "fg3_pct_pctile": 0.5515463917525774,
-      "ft_pct_pctile": 0.7525773195876289,
-      "ast_pct_pctile": 0.3711340206185567,
-      "tov_pct_pctile": 0.5128865979381443,
+      "tov_pctile": 0.8825,
+      "fg_pct_pctile": 0.3275,
+      "fg3_pct_pctile": 0.555,
+      "ft_pct_pctile": 0.73,
+      "ast_pct_pctile": 0.3625,
+      "tov_pct_pctile": 0.495,
       "ppg_p36": 12.34844334341726,
-      "ppg_p36_pctile": 0.36597938144329895,
+      "ppg_p36_pctile": 0.3659147869674185,
       "rpg_p36": 5.659703199066244,
-      "rpg_p36_pctile": 0.45103092783505155,
+      "rpg_p36_pctile": 0.45614035087719296,
       "apg_p36": 2.572592363211929,
-      "apg_p36_pctile": 0.4381443298969072,
+      "apg_p36_pctile": 0.43358395989974935,
       "spg_p36": 1.5435554179271576,
-      "spg_p36_pctile": 0.6778350515463918,
+      "spg_p36_pctile": 0.6741854636591479,
       "bpg_p36": 0.0,
       "bpg_p36_pctile": 0.0,
       "tov_p36": 1.5435554179271576,
-      "tov_p36_pctile": 0.42783505154639173,
+      "tov_p36_pctile": 0.41604010025062654,
       "zones": {
         "at_rim": {
           "fga": 5,
@@ -2031,11 +2031,11 @@
           "pctile": null
         },
         "pct_box_outs_def": {
-          "value": 0.667,
+          "value": 1.0,
           "pctile": null
         }
       },
-      "stl_pct": 2.025604482763088,
+      "stl_pct": 1.8740498092463942,
       "blk_pct": 0.0,
       "stl_pct_pctile": null,
       "blk_pct_pctile": null
@@ -2093,7 +2093,7 @@
       "deflections": 0.33,
       "charges_drawn": 0.0,
       "screen_assists": 2.0,
-      "screen_ast_pts": 1.67,
+      "screen_ast_pts": 5.0,
       "loose_balls": 0.0,
       "off_boxouts": 0.33,
       "def_boxouts": 2.0,
@@ -2101,29 +2101,29 @@
       "box_out_team_rebs": 2.33,
       "pos": "C",
       "qualified": false,
-      "ppg_pctile": 0.8711340206185567,
-      "rpg_pctile": 0.9871134020618557,
-      "apg_pctile": 0.9871134020618557,
-      "spg_pctile": 0.5927835051546392,
-      "bpg_pctile": 0.9484536082474226,
-      "tov_pctile": 0.9845360824742269,
-      "fg_pct_pctile": 0.47164948453608246,
-      "fg3_pct_pctile": 0.31443298969072164,
-      "ft_pct_pctile": 0.595360824742268,
-      "ast_pct_pctile": 0.7835051546391752,
-      "tov_pct_pctile": 0.7319587628865979,
+      "ppg_pctile": 0.88,
+      "rpg_pctile": 0.9925,
+      "apg_pctile": 0.9875,
+      "spg_pctile": 0.6125,
+      "bpg_pctile": 0.9625,
+      "tov_pctile": 0.9875,
+      "fg_pct_pctile": 0.4825,
+      "fg3_pct_pctile": 0.3025,
+      "ft_pct_pctile": 0.5825,
+      "ast_pct_pctile": 0.78,
+      "tov_pct_pctile": 0.725,
       "ppg_p36": 12.990527740189446,
-      "ppg_p36_pctile": 0.4097938144329897,
+      "ppg_p36_pctile": 0.40350877192982454,
       "rpg_p36": 7.7943166441136675,
-      "rpg_p36_pctile": 0.6675257731958762,
+      "rpg_p36_pctile": 0.6842105263157895,
       "apg_p36": 5.845737483085251,
-      "apg_p36_pctile": 0.8170103092783505,
+      "apg_p36_pctile": 0.8070175438596491,
       "spg_p36": 0.6495263870094723,
-      "spg_p36_pctile": 0.41237113402061853,
+      "spg_p36_pctile": 0.37844611528822053,
       "bpg_p36": 1.2990527740189446,
-      "bpg_p36_pctile": 0.8144329896907216,
+      "bpg_p36_pctile": 0.7944862155388471,
       "tov_p36": 3.2476319350473615,
-      "tov_p36_pctile": 0.729381443298969,
+      "tov_p36_pctile": 0.7619047619047619,
       "zones": {
         "at_rim": {
           "fga": 8,
@@ -2187,7 +2187,7 @@
           "pctile": null
         },
         "screen_ast_pts": {
-          "value": 1.67,
+          "value": 5.0,
           "pctile": null
         },
         "loose_balls_recovered": {
@@ -2207,7 +2207,7 @@
           "pctile": null
         }
       },
-      "stl_pct": 0.7653500180818372,
+      "stl_pct": 0.7080869279260701,
       "blk_pct": 4.036036036036036,
       "stl_pct_pctile": null,
       "blk_pct_pctile": null
@@ -2273,29 +2273,29 @@
       "box_out_team_rebs": 0.0,
       "pos": "G",
       "qualified": false,
-      "ppg_pctile": 0.4381443298969072,
-      "rpg_pctile": 0.979381443298969,
+      "ppg_pctile": 0.44,
+      "rpg_pctile": 0.985,
       "apg_pctile": 1.0,
-      "spg_pctile": 0.5927835051546392,
-      "bpg_pctile": 0.7963917525773195,
-      "tov_pctile": 0.9974226804123711,
-      "fg_pct_pctile": 0.14690721649484537,
-      "fg3_pct_pctile": 0.44587628865979384,
+      "spg_pctile": 0.6125,
+      "bpg_pctile": 0.8025,
+      "tov_pctile": 0.9975,
+      "fg_pct_pctile": 0.1275,
+      "fg3_pct_pctile": 0.43,
       "ft_pct_pctile": 0.0,
-      "ast_pct_pctile": 0.8969072164948454,
-      "tov_pct_pctile": 0.8711340206185567,
+      "ast_pct_pctile": 0.8925,
+      "tov_pct_pctile": 0.885,
       "ppg_p36": 4.618486162868837,
-      "ppg_p36_pctile": 0.12371134020618557,
+      "ppg_p36_pctile": 0.11278195488721804,
       "rpg_p36": 7.257621113079602,
-      "rpg_p36_pctile": 0.615979381443299,
+      "rpg_p36_pctile": 0.6290726817042607,
       "apg_p36": 8.577188588184985,
-      "apg_p36_pctile": 0.9304123711340206,
+      "apg_p36_pctile": 0.9298245614035088,
       "spg_p36": 0.659783737552691,
-      "spg_p36_pctile": 0.4175257731958763,
+      "spg_p36_pctile": 0.38095238095238093,
       "bpg_p36": 0.659783737552691,
-      "bpg_p36_pctile": 0.6597938144329897,
+      "bpg_p36_pctile": 0.6466165413533834,
       "tov_p36": 4.618486162868837,
-      "tov_p36_pctile": 0.904639175257732,
+      "tov_p36_pctile": 0.9172932330827067,
       "zones": {
         "at_rim": {
           "fga": 3,
@@ -2379,7 +2379,7 @@
           "pctile": null
         }
       },
-      "stl_pct": 0.7779656777205488,
+      "stl_pct": 0.7197586904743021,
       "blk_pct": 1.7582417582417582,
       "stl_pct_pctile": null,
       "blk_pct_pctile": null
@@ -2445,23 +2445,23 @@
       "box_out_team_rebs": 0.0,
       "pos": "F",
       "qualified": false,
-      "ppg_pctile": 0.6443298969072165,
-      "rpg_pctile": 0.11597938144329897,
-      "apg_pctile": 0.31443298969072164,
+      "ppg_pctile": 0.6575,
+      "rpg_pctile": 0.11,
+      "apg_pctile": 0.3125,
       "spg_pctile": 0.0,
       "bpg_pctile": 0.0,
       "tov_pctile": 0.0,
-      "fg_pct_pctile": 0.9381443298969072,
-      "fg3_pct_pctile": 0.9561855670103093,
+      "fg_pct_pctile": 0.9425,
+      "fg3_pct_pctile": 0.955,
       "ft_pct_pctile": 0.0,
-      "ast_pct_pctile": 0.7216494845360825,
+      "ast_pct_pctile": 0.725,
       "tov_pct_pctile": 0.0,
       "ppg_p36": 40.96551724137931,
-      "ppg_p36_pctile": 0.9768041237113402,
+      "ppg_p36_pctile": 0.9774436090225563,
       "rpg_p36": 3.724137931034483,
-      "rpg_p36_pctile": 0.2706185567010309,
+      "rpg_p36_pctile": 0.24310776942355888,
       "apg_p36": 3.724137931034483,
-      "apg_p36_pctile": 0.6237113402061856,
+      "apg_p36_pctile": 0.6290726817042607,
       "spg_p36": 0.0,
       "spg_p36_pctile": 0.0,
       "bpg_p36": 0.0,
@@ -2617,21 +2617,21 @@
       "box_out_team_rebs": 0.0,
       "pos": "F",
       "qualified": false,
-      "ppg_pctile": 0.20103092783505155,
-      "rpg_pctile": 0.11597938144329897,
+      "ppg_pctile": 0.2175,
+      "rpg_pctile": 0.11,
       "apg_pctile": 0.0,
       "spg_pctile": 0.0,
       "bpg_pctile": 0.0,
       "tov_pctile": 0.0,
-      "fg_pct_pctile": 0.5876288659793815,
-      "fg3_pct_pctile": 0.7783505154639175,
+      "fg_pct_pctile": 0.5925,
+      "fg3_pct_pctile": 0.7975,
       "ft_pct_pctile": 0.0,
       "ast_pct_pctile": 0.0,
       "tov_pct_pctile": 0.0,
       "ppg_p36": 13.278688524590164,
-      "ppg_p36_pctile": 0.422680412371134,
+      "ppg_p36_pctile": 0.42105263157894735,
       "rpg_p36": 4.426229508196721,
-      "rpg_p36_pctile": 0.327319587628866,
+      "rpg_p36_pctile": 0.3057644110275689,
       "apg_p36": 0.0,
       "apg_p36_pctile": 0.0,
       "spg_p36": 0.0,
@@ -2789,29 +2789,29 @@
       "box_out_team_rebs": 0.0,
       "pos": "F",
       "qualified": false,
-      "ppg_pctile": 0.20103092783505155,
-      "rpg_pctile": 0.2603092783505155,
-      "apg_pctile": 0.31443298969072164,
+      "ppg_pctile": 0.2175,
+      "rpg_pctile": 0.2675,
+      "apg_pctile": 0.3125,
       "spg_pctile": 0.0,
       "bpg_pctile": 0.0,
-      "tov_pctile": 0.4020618556701031,
-      "fg_pct_pctile": 0.5876288659793815,
-      "fg3_pct_pctile": 0.7783505154639175,
+      "tov_pctile": 0.415,
+      "fg_pct_pctile": 0.5925,
+      "fg3_pct_pctile": 0.7975,
       "ft_pct_pctile": 0.0,
-      "ast_pct_pctile": 0.6520618556701031,
-      "tov_pct_pctile": 0.9226804123711341,
+      "ast_pct_pctile": 0.65,
+      "tov_pct_pctile": 0.925,
       "ppg_p36": 13.278688524590164,
-      "ppg_p36_pctile": 0.422680412371134,
+      "ppg_p36_pctile": 0.42105263157894735,
       "rpg_p36": 8.852459016393443,
-      "rpg_p36_pctile": 0.75,
+      "rpg_p36_pctile": 0.7443609022556391,
       "apg_p36": 4.426229508196721,
-      "apg_p36_pctile": 0.6958762886597938,
+      "apg_p36_pctile": 0.7092731829573935,
       "spg_p36": 0.0,
       "spg_p36_pctile": 0.0,
       "bpg_p36": 0.0,
       "bpg_p36_pctile": 0.0,
       "tov_p36": 4.426229508196721,
-      "tov_p36_pctile": 0.8814432989690721,
+      "tov_p36_pctile": 0.8947368421052632,
       "zones": {
         "at_rim": {
           "fga": 0,
@@ -2961,21 +2961,21 @@
       "box_out_team_rebs": 2.0,
       "pos": "F",
       "qualified": false,
-      "ppg_pctile": 0.20103092783505155,
-      "rpg_pctile": 0.2603092783505155,
+      "ppg_pctile": 0.2175,
+      "rpg_pctile": 0.2675,
       "apg_pctile": 0.0,
       "spg_pctile": 0.0,
       "bpg_pctile": 0.0,
-      "tov_pctile": 0.4020618556701031,
-      "fg_pct_pctile": 0.21649484536082475,
-      "fg3_pct_pctile": 0.7783505154639175,
+      "tov_pctile": 0.415,
+      "fg_pct_pctile": 0.2,
+      "fg3_pct_pctile": 0.7975,
       "ft_pct_pctile": 0.0,
       "ast_pct_pctile": 0.0,
-      "tov_pct_pctile": 0.9226804123711341,
+      "tov_pct_pctile": 0.925,
       "ppg_p36": 13.278688524590164,
-      "ppg_p36_pctile": 0.422680412371134,
+      "ppg_p36_pctile": 0.42105263157894735,
       "rpg_p36": 8.852459016393443,
-      "rpg_p36_pctile": 0.75,
+      "rpg_p36_pctile": 0.7443609022556391,
       "apg_p36": 0.0,
       "apg_p36_pctile": 0.0,
       "spg_p36": 0.0,
@@ -2983,7 +2983,7 @@
       "bpg_p36": 0.0,
       "bpg_p36_pctile": 0.0,
       "tov_p36": 4.426229508196721,
-      "tov_p36_pctile": 0.8814432989690721,
+      "tov_p36_pctile": 0.8947368421052632,
       "zones": {
         "at_rim": {
           "fga": 1,
@@ -3078,13 +3078,13 @@
     "rpg": 3.0,
     "apg": 1.5,
     "spg": 0.5,
-    "bpg": 0.0,
+    "bpg": 0.3,
     "tov": 1.0,
     "fg_pct": 0.444,
-    "fg3_pct": 0.273,
-    "ft_pct": 0.6074999999999999,
-    "ast_pct": 0.114,
-    "tov_pct": 0.1,
+    "fg3_pct": 0.286,
+    "ft_pct": 0.667,
+    "ast_pct": 0.11649999999999999,
+    "tov_pct": 0.10300000000000001,
     "stl_pct": null,
     "blk_pct": null
   }
