@@ -1,66 +1,66 @@
 {
   "season": "2026-27",
-  "updated": "2026-10-26",
+  "updated": "2026-10-27",
   "players": [
     {
       "id": 1630552,
       "name": "Jalen Johnson",
       "age": 24.0,
-      "gp": 3,
+      "gp": 4,
       "w": 2,
-      "l": 1,
-      "mpg": 31.5,
-      "ppg": 21.7,
-      "rpg": 10.0,
-      "apg": 10.0,
-      "spg": 1.7,
-      "bpg": 0.3,
-      "tov": 2.3,
-      "fg_pct": 0.444,
-      "fg3_pct": 0.143,
+      "l": 2,
+      "mpg": 32.5,
+      "ppg": 21.5,
+      "rpg": 9.8,
+      "apg": 8.3,
+      "spg": 1.5,
+      "bpg": 0.8,
+      "tov": 2.8,
+      "fg_pct": 0.426,
+      "fg3_pct": 0.158,
       "ft_pct": 0.833,
-      "off_rating": 124.0,
-      "def_rating": 105.0,
-      "net_rating": 19.0,
-      "ts_pct": 0.525,
-      "efg_pct": 0.463,
-      "usg_pct": 0.292,
-      "ast_pct": 0.469,
-      "tov_pct": 0.071,
-      "pace": 101.74,
-      "per": 0.198,
-      "pct_fga_3pt": 0.259,
-      "pct_pts_paint": 0.646,
-      "pct_pts_fb": 0.185,
+      "off_rating": 118.4,
+      "def_rating": 107.1,
+      "net_rating": 11.3,
+      "ts_pct": 0.53,
+      "efg_pct": 0.449,
+      "usg_pct": 0.287,
+      "ast_pct": 0.371,
+      "tov_pct": 0.087,
+      "pace": 102.73,
+      "per": 0.17,
+      "pct_fga_3pt": 0.279,
+      "pct_pts_paint": 0.581,
+      "pct_pts_fb": 0.198,
       "pts_off_tov": 5.3,
-      "pts_2nd_chance": 2.0,
-      "pts_fb": 4.0,
-      "pts_paint": 14.0,
+      "pts_2nd_chance": 1.5,
+      "pts_fb": 4.3,
+      "pts_paint": 12.5,
       "pct_team_pts": 0.262,
-      "pct_team_reb": 0.326,
-      "pct_team_ast": 0.469,
-      "min_total": 94.59666666666666,
-      "pts_total": 65,
-      "reb_total": 30,
-      "ast_total": 30,
-      "stl_total": 5,
-      "blk_total": 1,
-      "tov_total": 7,
-      "fgm_total": 24,
-      "fg3m_total": 2,
-      "ftm_total": 15,
-      "contested_shots": 4.0,
-      "contested_2pt": 2.33,
-      "contested_3pt": 1.67,
-      "deflections": 1.67,
+      "pct_team_reb": 0.336,
+      "pct_team_ast": 0.398,
+      "min_total": 130.13,
+      "pts_total": 86,
+      "reb_total": 39,
+      "ast_total": 33,
+      "stl_total": 6,
+      "blk_total": 3,
+      "tov_total": 11,
+      "fgm_total": 29,
+      "fg3m_total": 3,
+      "ftm_total": 25,
+      "contested_shots": 4.25,
+      "contested_2pt": 2.75,
+      "contested_3pt": 1.5,
+      "deflections": 1.75,
       "charges_drawn": 0.0,
-      "screen_assists": 0.33,
-      "screen_ast_pts": 1.0,
+      "screen_assists": 0.5,
+      "screen_ast_pts": 0.75,
       "loose_balls": 0.0,
       "off_boxouts": 0.0,
-      "def_boxouts": 0.67,
-      "box_outs": 0.67,
-      "box_out_team_rebs": 0.67,
+      "def_boxouts": 0.5,
+      "box_outs": 0.75,
+      "box_out_team_rebs": 0.5,
       "clutch_gp": 2,
       "clutch_min": 2.4,
       "clutch_fg_pct": 0.5,
@@ -68,44 +68,81 @@
       "clutch_ts_pct": 0.512,
       "pos": "F",
       "qualified": false,
-      "ppg_pctile": 0.9175,
-      "rpg_pctile": 0.9775,
-      "apg_pctile": 0.995,
-      "spg_pctile": 0.86,
-      "bpg_pctile": 0.48,
-      "tov_pctile": 0.8125,
-      "fg_pct_pctile": 0.4825,
-      "fg3_pct_pctile": 0.3275,
-      "ft_pct_pctile": 0.6875,
-      "ast_pct_pctile": 0.96,
-      "tov_pct_pctile": 0.35,
-      "ppg_p36": 24.799999999999997,
-      "ppg_p36_pctile": 0.87468671679198,
-      "rpg_p36": 11.428571428571429,
-      "rpg_p36_pctile": 0.87468671679198,
-      "apg_p36": 11.428571428571429,
-      "apg_p36_pctile": 0.974937343358396,
-      "spg_p36": 1.9428571428571426,
-      "spg_p36_pctile": 0.7619047619047619,
-      "bpg_p36": 0.3428571428571428,
-      "bpg_p36_pctile": 0.506265664160401,
-      "tov_p36": 2.6285714285714286,
-      "tov_p36_pctile": 0.6265664160401002,
+      "ppg_pctile": 0.9148418491484185,
+      "rpg_pctile": 0.9854014598540146,
+      "apg_pctile": 0.9854014598540146,
+      "spg_pctile": 0.8369829683698297,
+      "bpg_pctile": 0.8004866180048662,
+      "tov_pctile": 0.8905109489051095,
+      "fg_pct_pctile": 0.4233576642335766,
+      "fg3_pct_pctile": 0.3309002433090024,
+      "ft_pct_pctile": 0.6861313868613139,
+      "ast_pct_pctile": 0.9440389294403893,
+      "tov_pct_pctile": 0.4209245742092457,
+      "ppg_p36": 23.815384615384616,
+      "ppg_p36_pctile": 0.8512195121951219,
+      "rpg_p36": 10.855384615384615,
+      "rpg_p36_pctile": 0.8658536585365854,
+      "apg_p36": 9.193846153846154,
+      "apg_p36_pctile": 0.9585365853658536,
+      "spg_p36": 1.6615384615384616,
+      "spg_p36_pctile": 0.7048780487804878,
+      "bpg_p36": 0.8861538461538462,
+      "bpg_p36_pctile": 0.6951219512195121,
+      "tov_p36": 3.1015384615384614,
+      "tov_p36_pctile": 0.7365853658536585,
+      "zones": {
+        "at_rim": {
+          "fga": 24,
+          "fgm": 17,
+          "pct": 0.7083
+        },
+        "paint": {
+          "fga": 19,
+          "fgm": 8,
+          "pct": 0.4211
+        },
+        "mid": {
+          "fga": 6,
+          "fgm": 1,
+          "pct": 0.1667
+        },
+        "corner_3": {
+          "fga": 1,
+          "fgm": 1,
+          "pct": 1.0
+        },
+        "l_corner_3": {
+          "fga": 1,
+          "fgm": 1,
+          "pct": 1.0
+        },
+        "r_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "above_break_3": {
+          "fga": 18,
+          "fgm": 2,
+          "pct": 0.1111
+        }
+      },
       "hustle": {
         "contested_shots": {
-          "value": 4.0,
+          "value": 4.25,
           "pctile": null
         },
         "contested_shots_2pt": {
-          "value": 2.33,
+          "value": 2.75,
           "pctile": null
         },
         "contested_shots_3pt": {
-          "value": 1.67,
+          "value": 1.5,
           "pctile": null
         },
         "deflections": {
-          "value": 1.67,
+          "value": 1.75,
           "pctile": null
         },
         "charges_drawn": {
@@ -113,11 +150,11 @@
           "pctile": null
         },
         "screen_assists": {
-          "value": 0.33,
+          "value": 0.5,
           "pctile": null
         },
         "screen_ast_pts": {
-          "value": 1.0,
+          "value": 0.75,
           "pctile": null
         },
         "loose_balls_recovered": {
@@ -125,7 +162,7 @@
           "pctile": null
         },
         "box_outs": {
-          "value": 0.67,
+          "value": 0.75,
           "pctile": null
         },
         "pct_box_outs_off": {
@@ -133,7 +170,7 @@
           "pctile": null
         },
         "pct_box_outs_def": {
-          "value": 1.0,
+          "value": 0.667,
           "pctile": null
         }
       },
@@ -144,11 +181,11 @@
         },
         "min": {
           "value": 2.4,
-          "pctile": 0.5
+          "pctile": 0.3462
         },
         "pts": {
           "value": 2.5,
-          "pctile": 0.75
+          "pctile": 0.6923
         },
         "oreb": {
           "value": 0.0,
@@ -164,7 +201,7 @@
         },
         "ast": {
           "value": 1.0,
-          "pctile": 1.0
+          "pctile": 0.9231
         },
         "stl": {
           "value": 0.0,
@@ -180,15 +217,15 @@
         },
         "fgm": {
           "value": 1.0,
-          "pctile": 0.75
+          "pctile": 0.7308
         },
         "fga": {
           "value": 2.0,
-          "pctile": 0.75
+          "pctile": 0.7308
         },
         "fg_pct": {
           "value": 0.5,
-          "pctile": 0.6667
+          "pctile": 0.5769
         },
         "fg3m": {
           "value": 0.0,
@@ -204,15 +241,15 @@
         },
         "ftm": {
           "value": 0.5,
-          "pctile": 0.6667
+          "pctile": 0.5769
         },
         "fta": {
           "value": 1.0,
-          "pctile": 0.8333
+          "pctile": 0.6923
         },
         "ft_pct": {
           "value": 0.5,
-          "pctile": 0.5833
+          "pctile": 0.5
         },
         "pf": {
           "value": 0.0,
@@ -220,31 +257,31 @@
         },
         "plus_minus": {
           "value": 3.5,
-          "pctile": 0.75
+          "pctile": 0.7692
         },
         "off_rating": {
           "value": 116.7,
-          "pctile": 0.5833
+          "pctile": 0.5385
         },
         "def_rating": {
           "value": 63.6,
-          "pctile": 0.0
+          "pctile": 0.1154
         },
         "net_rating": {
           "value": 53.0,
-          "pctile": 0.6667
+          "pctile": 0.7308
         },
         "efg_pct": {
           "value": 0.5,
-          "pctile": 0.5833
+          "pctile": 0.5385
         },
         "ts_pct": {
           "value": 0.512,
-          "pctile": 0.5
+          "pctile": 0.4615
         },
         "ast_pct": {
           "value": 0.667,
-          "pctile": 0.9167
+          "pctile": 0.9615
         },
         "oreb_pct": {
           "value": 0.0,
@@ -264,114 +301,77 @@
         },
         "usg_pct": {
           "value": 0.385,
-          "pctile": 0.9167
+          "pctile": 0.8462
         },
         "pie": {
           "value": 0.571,
           "pctile": 1.0
         }
       },
-      "stl_pct": 0.023565432680714184,
-      "blk_pct": 0.010158730158730157,
+      "stl_pct": 0.02178973960504584,
+      "blk_pct": 0.02503259452411995,
       "stl_pct_pctile": null,
-      "blk_pct_pctile": null,
-      "zones": {
-        "at_rim": {
-          "fga": 22,
-          "fgm": 15,
-          "pct": 0.6818
-        },
-        "paint": {
-          "fga": 13,
-          "fgm": 6,
-          "pct": 0.4615
-        },
-        "mid": {
-          "fga": 5,
-          "fgm": 1,
-          "pct": 0.2
-        },
-        "corner_3": {
-          "fga": 1,
-          "fgm": 1,
-          "pct": 1.0
-        },
-        "l_corner_3": {
-          "fga": 1,
-          "fgm": 1,
-          "pct": 1.0
-        },
-        "r_corner_3": {
-          "fga": 0,
-          "fgm": 0,
-          "pct": null
-        },
-        "above_break_3": {
-          "fga": 13,
-          "fgm": 1,
-          "pct": 0.0769
-        }
-      }
+      "blk_pct_pctile": null
     },
     {
       "id": 1629638,
       "name": "Nickeil Alexander-Walker",
       "age": 28.0,
-      "gp": 3,
+      "gp": 4,
       "w": 2,
-      "l": 1,
-      "mpg": 29.8,
-      "ppg": 21.0,
-      "rpg": 4.0,
-      "apg": 4.0,
-      "spg": 2.0,
+      "l": 2,
+      "mpg": 29.6,
+      "ppg": 18.8,
+      "rpg": 3.5,
+      "apg": 3.8,
+      "spg": 1.8,
       "bpg": 0.3,
-      "tov": 1.7,
-      "fg_pct": 0.465,
-      "fg3_pct": 0.407,
-      "ft_pct": 0.75,
-      "off_rating": 121.4,
-      "def_rating": 95.4,
-      "net_rating": 26.0,
-      "ts_pct": 0.629,
-      "efg_pct": 0.593,
-      "usg_pct": 0.232,
-      "ast_pct": 0.174,
-      "tov_pct": 0.076,
-      "pace": 105.15,
-      "per": 0.151,
-      "pct_fga_3pt": 0.628,
-      "pct_pts_paint": 0.254,
-      "pct_pts_fb": 0.143,
-      "pts_off_tov": 5.3,
-      "pts_2nd_chance": 1.7,
-      "pts_fb": 3.0,
-      "pts_paint": 5.3,
-      "pct_team_pts": 0.265,
-      "pct_team_reb": 0.145,
-      "pct_team_ast": 0.174,
-      "min_total": 89.47,
-      "pts_total": 63,
-      "reb_total": 12,
-      "ast_total": 12,
-      "stl_total": 6,
+      "tov": 2.0,
+      "fg_pct": 0.446,
+      "fg3_pct": 0.382,
+      "ft_pct": 0.667,
+      "off_rating": 116.4,
+      "def_rating": 100.4,
+      "net_rating": 16.0,
+      "ts_pct": 0.587,
+      "efg_pct": 0.563,
+      "usg_pct": 0.234,
+      "ast_pct": 0.172,
+      "tov_pct": 0.09300000000000001,
+      "pace": 104.27,
+      "per": 0.117,
+      "pct_fga_3pt": 0.607,
+      "pct_pts_paint": 0.267,
+      "pct_pts_fb": 0.173,
+      "pts_off_tov": 5.0,
+      "pts_2nd_chance": 2.8,
+      "pts_fb": 3.3,
+      "pts_paint": 5.0,
+      "pct_team_pts": 0.252,
+      "pct_team_reb": 0.136,
+      "pct_team_ast": 0.183,
+      "min_total": 118.30333333333333,
+      "pts_total": 75,
+      "reb_total": 14,
+      "ast_total": 15,
+      "stl_total": 7,
       "blk_total": 1,
-      "tov_total": 5,
-      "fgm_total": 20,
-      "fg3m_total": 11,
+      "tov_total": 8,
+      "fgm_total": 25,
+      "fg3m_total": 13,
       "ftm_total": 12,
-      "contested_shots": 1.0,
-      "contested_2pt": 1.0,
-      "contested_3pt": 0.0,
-      "deflections": 2.67,
+      "contested_shots": 1.25,
+      "contested_2pt": 0.75,
+      "contested_3pt": 0.5,
+      "deflections": 2.0,
       "charges_drawn": 0.0,
-      "screen_assists": 0.67,
-      "screen_ast_pts": 1.33,
-      "loose_balls": 0.67,
+      "screen_assists": 0.5,
+      "screen_ast_pts": 1.0,
+      "loose_balls": 0.75,
       "off_boxouts": 0.0,
-      "def_boxouts": 0.33,
-      "box_outs": 0.33,
-      "box_out_team_rebs": 0.33,
+      "def_boxouts": 0.25,
+      "box_outs": 0.25,
+      "box_out_team_rebs": 0.25,
       "clutch_gp": 2,
       "clutch_min": 2.4,
       "clutch_fg_pct": 0.6,
@@ -379,44 +379,81 @@
       "clutch_ts_pct": 0.8,
       "pos": "G",
       "qualified": false,
-      "ppg_pctile": 0.9025,
-      "rpg_pctile": 0.5975,
-      "apg_pctile": 0.835,
-      "spg_pctile": 0.89,
-      "bpg_pctile": 0.48,
-      "tov_pctile": 0.65,
-      "fg_pct_pctile": 0.5425,
-      "fg3_pct_pctile": 0.7125,
-      "ft_pct_pctile": 0.5825,
-      "ast_pct_pctile": 0.685,
-      "tov_pct_pctile": 0.38,
-      "ppg_p36": 25.369127516778523,
-      "ppg_p36_pctile": 0.8947368421052632,
-      "rpg_p36": 4.832214765100671,
-      "rpg_p36_pctile": 0.3408521303258145,
-      "apg_p36": 4.832214765100671,
-      "apg_p36_pctile": 0.7493734335839599,
-      "spg_p36": 2.4161073825503356,
-      "spg_p36_pctile": 0.8320802005012531,
-      "bpg_p36": 0.3624161073825503,
-      "bpg_p36_pctile": 0.5288220551378446,
-      "tov_p36": 2.053691275167785,
-      "tov_p36_pctile": 0.5112781954887218,
+      "ppg_pctile": 0.8710462287104623,
+      "rpg_pctile": 0.5620437956204379,
+      "apg_pctile": 0.8272506082725061,
+      "spg_pctile": 0.8905109489051095,
+      "bpg_pctile": 0.45012165450121655,
+      "tov_pctile": 0.7274939172749392,
+      "fg_pct_pctile": 0.48175182481751827,
+      "fg3_pct_pctile": 0.6739659367396593,
+      "ft_pct_pctile": 0.4720194647201946,
+      "ast_pct_pctile": 0.6934306569343066,
+      "tov_pct_pctile": 0.45498783454987834,
+      "ppg_p36": 22.864864864864867,
+      "ppg_p36_pctile": 0.8292682926829268,
+      "rpg_p36": 4.256756756756756,
+      "rpg_p36_pctile": 0.2780487804878049,
+      "apg_p36": 4.621621621621621,
+      "apg_p36_pctile": 0.7414634146341463,
+      "spg_p36": 2.189189189189189,
+      "spg_p36_pctile": 0.802439024390244,
+      "bpg_p36": 0.3648648648648648,
+      "bpg_p36_pctile": 0.4975609756097561,
+      "tov_p36": 2.4324324324324325,
+      "tov_p36_pctile": 0.5926829268292683,
+      "zones": {
+        "at_rim": {
+          "fga": 12,
+          "fgm": 8,
+          "pct": 0.6667
+        },
+        "paint": {
+          "fga": 6,
+          "fgm": 2,
+          "pct": 0.3333
+        },
+        "mid": {
+          "fga": 4,
+          "fgm": 2,
+          "pct": 0.5
+        },
+        "corner_3": {
+          "fga": 8,
+          "fgm": 2,
+          "pct": 0.25
+        },
+        "l_corner_3": {
+          "fga": 6,
+          "fgm": 2,
+          "pct": 0.3333
+        },
+        "r_corner_3": {
+          "fga": 2,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "above_break_3": {
+          "fga": 26,
+          "fgm": 11,
+          "pct": 0.4231
+        }
+      },
       "hustle": {
         "contested_shots": {
-          "value": 1.0,
+          "value": 1.25,
           "pctile": null
         },
         "contested_shots_2pt": {
-          "value": 1.0,
+          "value": 0.75,
           "pctile": null
         },
         "contested_shots_3pt": {
-          "value": 0.0,
+          "value": 0.5,
           "pctile": null
         },
         "deflections": {
-          "value": 2.67,
+          "value": 2.0,
           "pctile": null
         },
         "charges_drawn": {
@@ -424,19 +461,19 @@
           "pctile": null
         },
         "screen_assists": {
-          "value": 0.67,
+          "value": 0.5,
           "pctile": null
         },
         "screen_ast_pts": {
-          "value": 1.33,
+          "value": 1.0,
           "pctile": null
         },
         "loose_balls_recovered": {
-          "value": 0.67,
+          "value": 0.75,
           "pctile": null
         },
         "box_outs": {
-          "value": 0.33,
+          "value": 0.25,
           "pctile": null
         },
         "pct_box_outs_off": {
@@ -455,11 +492,11 @@
         },
         "min": {
           "value": 2.4,
-          "pctile": 0.5
+          "pctile": 0.3462
         },
         "pts": {
           "value": 4.0,
-          "pctile": 0.9167
+          "pctile": 0.9231
         },
         "oreb": {
           "value": 0.0,
@@ -491,15 +528,15 @@
         },
         "fgm": {
           "value": 1.5,
-          "pctile": 1.0
+          "pctile": 0.9615
         },
         "fga": {
           "value": 2.5,
-          "pctile": 0.9167
+          "pctile": 0.9231
         },
         "fg_pct": {
           "value": 0.6,
-          "pctile": 0.6667
+          "pctile": 0.6923
         },
         "fg3m": {
           "value": 1.0,
@@ -511,7 +548,7 @@
         },
         "fg3_pct": {
           "value": 0.5,
-          "pctile": 0.75
+          "pctile": 0.7692
         },
         "ftm": {
           "value": 0.0,
@@ -531,27 +568,27 @@
         },
         "plus_minus": {
           "value": 3.5,
-          "pctile": 0.75
+          "pctile": 0.7692
         },
         "off_rating": {
           "value": 116.7,
-          "pctile": 0.5833
+          "pctile": 0.5385
         },
         "def_rating": {
           "value": 63.6,
-          "pctile": 0.0
+          "pctile": 0.1154
         },
         "net_rating": {
           "value": 53.0,
-          "pctile": 0.6667
+          "pctile": 0.7308
         },
         "efg_pct": {
           "value": 0.8,
-          "pctile": 0.6667
+          "pctile": 0.6923
         },
         "ts_pct": {
           "value": 0.8,
-          "pctile": 0.6667
+          "pctile": 0.6538
         },
         "ast_pct": {
           "value": 0.0,
@@ -575,114 +612,77 @@
         },
         "usg_pct": {
           "value": 0.385,
-          "pctile": 0.9167
+          "pctile": 0.8462
         },
         "pie": {
           "value": 0.429,
-          "pctile": 1.0
+          "pctile": 0.9231
         }
       },
-      "stl_pct": 0.029305611111034222,
-      "blk_pct": 0.010738255033557046,
+      "stl_pct": 0.028709454209350935,
+      "blk_pct": 0.010306917086578101,
       "stl_pct_pctile": null,
-      "blk_pct_pctile": null,
-      "zones": {
-        "at_rim": {
-          "fga": 8,
-          "fgm": 6,
-          "pct": 0.75
-        },
-        "paint": {
-          "fga": 5,
-          "fgm": 2,
-          "pct": 0.4
-        },
-        "mid": {
-          "fga": 3,
-          "fgm": 1,
-          "pct": 0.3333
-        },
-        "corner_3": {
-          "fga": 6,
-          "fgm": 2,
-          "pct": 0.3333
-        },
-        "l_corner_3": {
-          "fga": 5,
-          "fgm": 2,
-          "pct": 0.4
-        },
-        "r_corner_3": {
-          "fga": 1,
-          "fgm": 0,
-          "pct": 0.0
-        },
-        "above_break_3": {
-          "fga": 21,
-          "fgm": 9,
-          "pct": 0.4286
-        }
-      }
+      "blk_pct_pctile": null
     },
     {
       "id": 1630700,
       "name": "Dyson Daniels",
       "age": 23.0,
-      "gp": 3,
+      "gp": 4,
       "w": 2,
-      "l": 1,
-      "mpg": 29.0,
-      "ppg": 16.3,
-      "rpg": 7.0,
-      "apg": 3.3,
-      "spg": 4.3,
+      "l": 2,
+      "mpg": 28.8,
+      "ppg": 13.3,
+      "rpg": 5.3,
+      "apg": 3.5,
+      "spg": 3.5,
       "bpg": 0.3,
-      "tov": 1.0,
-      "fg_pct": 0.618,
-      "fg3_pct": 0.25,
+      "tov": 0.8,
+      "fg_pct": 0.548,
+      "fg3_pct": 0.2,
       "ft_pct": 0.545,
-      "off_rating": 117.3,
-      "def_rating": 99.5,
-      "net_rating": 17.8,
-      "ts_pct": 0.631,
-      "efg_pct": 0.632,
-      "usg_pct": 0.185,
-      "ast_pct": 0.161,
-      "tov_pct": 0.057999999999999996,
-      "pace": 105.51,
-      "per": 0.156,
-      "pct_fga_3pt": 0.118,
-      "pct_pts_paint": 0.816,
-      "pct_pts_fb": 0.082,
-      "pts_off_tov": 2.0,
-      "pts_2nd_chance": 2.7,
-      "pts_fb": 1.3,
-      "pts_paint": 13.3,
-      "pct_team_pts": 0.219,
-      "pct_team_reb": 0.241,
-      "pct_team_ast": 0.169,
-      "min_total": 86.89166666666667,
-      "pts_total": 49,
+      "off_rating": 115.8,
+      "def_rating": 102.4,
+      "net_rating": 13.4,
+      "ts_pct": 0.566,
+      "efg_pct": 0.56,
+      "usg_pct": 0.169,
+      "ast_pct": 0.165,
+      "tov_pct": 0.047,
+      "pace": 105.69,
+      "per": 0.12,
+      "pct_fga_3pt": 0.119,
+      "pct_pts_paint": 0.83,
+      "pct_pts_fb": 0.113,
+      "pts_off_tov": 1.5,
+      "pts_2nd_chance": 2.5,
+      "pts_fb": 1.5,
+      "pts_paint": 11.0,
+      "pct_team_pts": 0.181,
+      "pct_team_reb": 0.204,
+      "pct_team_ast": 0.192,
+      "min_total": 115.125,
+      "pts_total": 53,
       "reb_total": 21,
-      "ast_total": 10,
-      "stl_total": 13,
+      "ast_total": 14,
+      "stl_total": 14,
       "blk_total": 1,
       "tov_total": 3,
-      "fgm_total": 21,
+      "fgm_total": 23,
       "fg3m_total": 1,
       "ftm_total": 6,
-      "contested_shots": 5.0,
-      "contested_2pt": 2.0,
-      "contested_3pt": 3.0,
-      "deflections": 8.0,
+      "contested_shots": 4.5,
+      "contested_2pt": 1.75,
+      "contested_3pt": 2.75,
+      "deflections": 6.5,
       "charges_drawn": 0.0,
-      "screen_assists": 2.33,
-      "screen_ast_pts": 5.67,
-      "loose_balls": 1.67,
+      "screen_assists": 3.0,
+      "screen_ast_pts": 4.25,
+      "loose_balls": 1.25,
       "off_boxouts": 0.0,
-      "def_boxouts": 0.33,
-      "box_outs": 0.33,
-      "box_out_team_rebs": 0.33,
+      "def_boxouts": 0.25,
+      "box_outs": 0.25,
+      "box_out_team_rebs": 0.25,
       "clutch_gp": 2,
       "clutch_min": 2.4,
       "clutch_fg_pct": 0.0,
@@ -690,44 +690,81 @@
       "clutch_ts_pct": 0.0,
       "pos": "G",
       "qualified": false,
-      "ppg_pctile": 0.8025,
-      "rpg_pctile": 0.85,
-      "apg_pctile": 0.7775,
-      "spg_pctile": 0.9975,
-      "bpg_pctile": 0.48,
-      "tov_pctile": 0.415,
-      "fg_pct_pctile": 0.8725,
-      "fg3_pct_pctile": 0.43,
-      "ft_pct_pctile": 0.435,
-      "ast_pct_pctile": 0.635,
-      "tov_pct_pctile": 0.3025,
-      "ppg_p36": 20.234482758620693,
-      "ppg_p36_pctile": 0.7443609022556391,
-      "rpg_p36": 8.689655172413794,
-      "rpg_p36_pctile": 0.731829573934837,
-      "apg_p36": 4.096551724137931,
-      "apg_p36_pctile": 0.6766917293233082,
-      "spg_p36": 5.337931034482758,
-      "spg_p36_pctile": 0.9899749373433584,
-      "bpg_p36": 0.37241379310344824,
-      "bpg_p36_pctile": 0.5363408521303258,
-      "tov_p36": 1.2413793103448276,
-      "tov_p36_pctile": 0.3483709273182957,
+      "ppg_pctile": 0.7420924574209246,
+      "rpg_pctile": 0.7566909975669099,
+      "apg_pctile": 0.8102189781021898,
+      "spg_pctile": 0.9927007299270073,
+      "bpg_pctile": 0.45012165450121655,
+      "tov_pctile": 0.40389294403892945,
+      "fg_pct_pctile": 0.7907542579075426,
+      "fg3_pct_pctile": 0.36739659367396593,
+      "ft_pct_pctile": 0.40875912408759124,
+      "ast_pct_pctile": 0.6739659367396593,
+      "tov_pct_pctile": 0.24817518248175183,
+      "ppg_p36": 16.625,
+      "ppg_p36_pctile": 0.5951219512195122,
+      "rpg_p36": 6.624999999999999,
+      "rpg_p36_pctile": 0.5487804878048781,
+      "apg_p36": 4.375,
+      "apg_p36_pctile": 0.7195121951219512,
+      "spg_p36": 4.375,
+      "spg_p36_pctile": 0.9658536585365853,
+      "bpg_p36": 0.37499999999999994,
+      "bpg_p36_pctile": 0.5048780487804878,
+      "tov_p36": 1.0,
+      "tov_p36_pctile": 0.28536585365853656,
+      "zones": {
+        "at_rim": {
+          "fga": 20,
+          "fgm": 13,
+          "pct": 0.65
+        },
+        "paint": {
+          "fga": 17,
+          "fgm": 9,
+          "pct": 0.5294
+        },
+        "mid": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "l_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "r_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "above_break_3": {
+          "fga": 5,
+          "fgm": 1,
+          "pct": 0.2
+        }
+      },
       "hustle": {
         "contested_shots": {
-          "value": 5.0,
+          "value": 4.5,
           "pctile": null
         },
         "contested_shots_2pt": {
-          "value": 2.0,
+          "value": 1.75,
           "pctile": null
         },
         "contested_shots_3pt": {
-          "value": 3.0,
+          "value": 2.75,
           "pctile": null
         },
         "deflections": {
-          "value": 8.0,
+          "value": 6.5,
           "pctile": null
         },
         "charges_drawn": {
@@ -735,19 +772,19 @@
           "pctile": null
         },
         "screen_assists": {
-          "value": 2.33,
+          "value": 3.0,
           "pctile": null
         },
         "screen_ast_pts": {
-          "value": 5.67,
+          "value": 4.25,
           "pctile": null
         },
         "loose_balls_recovered": {
-          "value": 1.67,
+          "value": 1.25,
           "pctile": null
         },
         "box_outs": {
-          "value": 0.33,
+          "value": 0.25,
           "pctile": null
         },
         "pct_box_outs_off": {
@@ -766,7 +803,7 @@
         },
         "min": {
           "value": 2.4,
-          "pctile": 0.5
+          "pctile": 0.3462
         },
         "pts": {
           "value": 0.0,
@@ -790,7 +827,7 @@
         },
         "stl": {
           "value": 0.5,
-          "pctile": 0.9167
+          "pctile": 0.9615
         },
         "blk": {
           "value": 0.0,
@@ -806,7 +843,7 @@
         },
         "fga": {
           "value": 0.5,
-          "pctile": 0.3333
+          "pctile": 0.3077
         },
         "fg_pct": {
           "value": 0.0,
@@ -838,23 +875,23 @@
         },
         "pf": {
           "value": 1.0,
-          "pctile": 0.8333
+          "pctile": 0.8846
         },
         "plus_minus": {
           "value": 3.0,
-          "pctile": 0.6667
+          "pctile": 0.7308
         },
         "off_rating": {
           "value": 108.3,
-          "pctile": 0.5833
+          "pctile": 0.4615
         },
         "def_rating": {
           "value": 63.6,
-          "pctile": 0.0
+          "pctile": 0.1154
         },
         "net_rating": {
           "value": 44.7,
-          "pctile": 0.5833
+          "pctile": 0.6923
         },
         "efg_pct": {
           "value": 0.0,
@@ -886,114 +923,77 @@
         },
         "usg_pct": {
           "value": 0.077,
-          "pctile": 0.1667
+          "pctile": 0.1154
         },
         "pie": {
           "value": -0.143,
-          "pctile": 0.0
+          "pctile": 0.0385
         }
       },
-      "stl_pct": 0.06474518978910214,
-      "blk_pct": 0.011034482758620689,
+      "stl_pct": 0.05737460370541583,
+      "blk_pct": 0.010593220338983049,
       "stl_pct_pctile": null,
-      "blk_pct_pctile": null,
-      "zones": {
-        "at_rim": {
-          "fga": 17,
-          "fgm": 12,
-          "pct": 0.7059
-        },
-        "paint": {
-          "fga": 13,
-          "fgm": 8,
-          "pct": 0.6154
-        },
-        "mid": {
-          "fga": 0,
-          "fgm": 0,
-          "pct": null
-        },
-        "corner_3": {
-          "fga": 0,
-          "fgm": 0,
-          "pct": null
-        },
-        "l_corner_3": {
-          "fga": 0,
-          "fgm": 0,
-          "pct": null
-        },
-        "r_corner_3": {
-          "fga": 0,
-          "fgm": 0,
-          "pct": null
-        },
-        "above_break_3": {
-          "fga": 4,
-          "fgm": 1,
-          "pct": 0.25
-        }
-      }
+      "blk_pct_pctile": null
     },
     {
       "id": 1630598,
       "name": "Aaron Wiggins",
       "age": 27.0,
-      "gp": 3,
+      "gp": 4,
       "w": 2,
-      "l": 1,
-      "mpg": 27.3,
-      "ppg": 17.0,
-      "rpg": 3.0,
-      "apg": 1.0,
-      "spg": 1.7,
+      "l": 2,
+      "mpg": 27.1,
+      "ppg": 15.8,
+      "rpg": 3.3,
+      "apg": 1.5,
+      "spg": 1.5,
       "bpg": 0.3,
-      "tov": 1.0,
-      "fg_pct": 0.581,
-      "fg3_pct": 0.526,
+      "tov": 0.8,
+      "fg_pct": 0.535,
+      "fg3_pct": 0.48,
       "ft_pct": 0.714,
-      "off_rating": 117.6,
-      "def_rating": 113.2,
-      "net_rating": 4.4,
-      "ts_pct": 0.748,
-      "efg_pct": 0.742,
-      "usg_pct": 0.175,
-      "ast_pct": 0.053,
-      "tov_pct": 0.075,
-      "pace": 106.86,
-      "per": 0.119,
-      "pct_fga_3pt": 0.613,
-      "pct_pts_paint": 0.314,
-      "pct_pts_fb": 0.176,
-      "pts_off_tov": 2.7,
-      "pts_2nd_chance": 0.7,
-      "pts_fb": 3.0,
-      "pts_paint": 5.3,
-      "pct_team_pts": 0.238,
-      "pct_team_reb": 0.123,
-      "pct_team_ast": 0.056,
-      "min_total": 81.75,
-      "pts_total": 51,
-      "reb_total": 9,
-      "ast_total": 3,
-      "stl_total": 5,
+      "off_rating": 113.2,
+      "def_rating": 115.4,
+      "net_rating": -2.1,
+      "ts_pct": 0.684,
+      "efg_pct": 0.674,
+      "usg_pct": 0.174,
+      "ast_pct": 0.079,
+      "tov_pct": 0.055,
+      "pace": 106.94,
+      "per": 0.109,
+      "pct_fga_3pt": 0.581,
+      "pct_pts_paint": 0.317,
+      "pct_pts_fb": 0.143,
+      "pts_off_tov": 3.5,
+      "pts_2nd_chance": 0.5,
+      "pts_fb": 2.3,
+      "pts_paint": 5.0,
+      "pct_team_pts": 0.23,
+      "pct_team_reb": 0.134,
+      "pct_team_ast": 0.087,
+      "min_total": 108.4,
+      "pts_total": 63,
+      "reb_total": 13,
+      "ast_total": 6,
+      "stl_total": 6,
       "blk_total": 1,
       "tov_total": 3,
-      "fgm_total": 18,
-      "fg3m_total": 10,
+      "fgm_total": 23,
+      "fg3m_total": 12,
       "ftm_total": 5,
-      "contested_shots": 3.33,
-      "contested_2pt": 1.67,
-      "contested_3pt": 1.67,
-      "deflections": 2.33,
+      "contested_shots": 3.25,
+      "contested_2pt": 1.75,
+      "contested_3pt": 1.5,
+      "deflections": 2.5,
       "charges_drawn": 0.0,
       "screen_assists": 0.0,
       "screen_ast_pts": 0.0,
       "loose_balls": 1.0,
       "off_boxouts": 0.0,
-      "def_boxouts": 0.33,
-      "box_outs": 0.33,
-      "box_out_team_rebs": 0.33,
+      "def_boxouts": 0.25,
+      "box_outs": 0.25,
+      "box_out_team_rebs": 0.25,
       "clutch_gp": 2,
       "clutch_min": 2.4,
       "clutch_fg_pct": 0.0,
@@ -1001,44 +1001,81 @@
       "clutch_ts_pct": 0.0,
       "pos": "G",
       "qualified": false,
-      "ppg_pctile": 0.815,
-      "rpg_pctile": 0.46,
-      "apg_pctile": 0.3125,
-      "spg_pctile": 0.86,
-      "bpg_pctile": 0.48,
-      "tov_pctile": 0.415,
-      "fg_pct_pctile": 0.8275,
-      "fg3_pct_pctile": 0.8925,
-      "ft_pct_pctile": 0.5575,
-      "ast_pct_pctile": 0.235,
-      "tov_pct_pctile": 0.37,
-      "ppg_p36": 22.417582417582416,
-      "ppg_p36_pctile": 0.7969924812030075,
-      "rpg_p36": 3.9560439560439558,
-      "rpg_p36_pctile": 0.2656641604010025,
-      "apg_p36": 1.3186813186813187,
-      "apg_p36_pctile": 0.23558897243107768,
-      "spg_p36": 2.2417582417582413,
-      "spg_p36_pctile": 0.7969924812030075,
-      "bpg_p36": 0.39560439560439553,
-      "bpg_p36_pctile": 0.5463659147869674,
-      "tov_p36": 1.3186813186813187,
-      "tov_p36_pctile": 0.3634085213032581,
+      "ppg_pctile": 0.8029197080291971,
+      "rpg_pctile": 0.5255474452554745,
+      "apg_pctile": 0.48661800486618007,
+      "spg_pctile": 0.8369829683698297,
+      "bpg_pctile": 0.45012165450121655,
+      "tov_pctile": 0.40389294403892945,
+      "fg_pct_pctile": 0.7591240875912408,
+      "fg3_pct_pctile": 0.8126520681265207,
+      "ft_pct_pctile": 0.5352798053527981,
+      "ast_pct_pctile": 0.3381995133819951,
+      "tov_pct_pctile": 0.2725060827250608,
+      "ppg_p36": 20.988929889298895,
+      "ppg_p36_pctile": 0.7609756097560976,
+      "rpg_p36": 4.383763837638376,
+      "rpg_p36_pctile": 0.29024390243902437,
+      "apg_p36": 1.9926199261992619,
+      "apg_p36_pctile": 0.33658536585365856,
+      "spg_p36": 1.9926199261992619,
+      "spg_p36_pctile": 0.7731707317073171,
+      "bpg_p36": 0.39852398523985233,
+      "bpg_p36_pctile": 0.5146341463414634,
+      "tov_p36": 1.062730627306273,
+      "tov_p36_pctile": 0.2975609756097561,
+      "zones": {
+        "at_rim": {
+          "fga": 5,
+          "fgm": 5,
+          "pct": 1.0
+        },
+        "paint": {
+          "fga": 10,
+          "fgm": 5,
+          "pct": 0.5
+        },
+        "mid": {
+          "fga": 3,
+          "fgm": 1,
+          "pct": 0.3333
+        },
+        "corner_3": {
+          "fga": 7,
+          "fgm": 4,
+          "pct": 0.5714
+        },
+        "l_corner_3": {
+          "fga": 5,
+          "fgm": 2,
+          "pct": 0.4
+        },
+        "r_corner_3": {
+          "fga": 2,
+          "fgm": 2,
+          "pct": 1.0
+        },
+        "above_break_3": {
+          "fga": 18,
+          "fgm": 8,
+          "pct": 0.4444
+        }
+      },
       "hustle": {
         "contested_shots": {
-          "value": 3.33,
+          "value": 3.25,
           "pctile": null
         },
         "contested_shots_2pt": {
-          "value": 1.67,
+          "value": 1.75,
           "pctile": null
         },
         "contested_shots_3pt": {
-          "value": 1.67,
+          "value": 1.5,
           "pctile": null
         },
         "deflections": {
-          "value": 2.33,
+          "value": 2.5,
           "pctile": null
         },
         "charges_drawn": {
@@ -1058,7 +1095,7 @@
           "pctile": null
         },
         "box_outs": {
-          "value": 0.33,
+          "value": 0.25,
           "pctile": null
         },
         "pct_box_outs_off": {
@@ -1077,7 +1114,7 @@
         },
         "min": {
           "value": 2.4,
-          "pctile": 0.5
+          "pctile": 0.3462
         },
         "pts": {
           "value": 0.0,
@@ -1149,23 +1186,23 @@
         },
         "pf": {
           "value": 0.5,
-          "pctile": 0.6667
+          "pctile": 0.6923
         },
         "plus_minus": {
           "value": 3.5,
-          "pctile": 0.75
+          "pctile": 0.7692
         },
         "off_rating": {
           "value": 116.7,
-          "pctile": 0.5833
+          "pctile": 0.5385
         },
         "def_rating": {
           "value": 63.6,
-          "pctile": 0.0
+          "pctile": 0.1154
         },
         "net_rating": {
           "value": 53.0,
-          "pctile": 0.6667
+          "pctile": 0.7308
         },
         "efg_pct": {
           "value": 0.0,
@@ -1201,417 +1238,69 @@
         },
         "pie": {
           "value": -0.071,
-          "pctile": 0.1667
+          "pctile": 0.1154
         }
       },
-      "stl_pct": 0.027190883862362517,
-      "blk_pct": 0.01172161172161172,
+      "stl_pct": 0.026131606537416596,
+      "blk_pct": 0.011257739696041026,
       "stl_pct_pctile": null,
-      "blk_pct_pctile": null,
-      "zones": {
-        "at_rim": {
-          "fga": 4,
-          "fgm": 4,
-          "pct": 1.0
-        },
-        "paint": {
-          "fga": 8,
-          "fgm": 4,
-          "pct": 0.5
-        },
-        "mid": {
-          "fga": 0,
-          "fgm": 0,
-          "pct": null
-        },
-        "corner_3": {
-          "fga": 6,
-          "fgm": 3,
-          "pct": 0.5
-        },
-        "l_corner_3": {
-          "fga": 5,
-          "fgm": 2,
-          "pct": 0.4
-        },
-        "r_corner_3": {
-          "fga": 1,
-          "fgm": 1,
-          "pct": 1.0
-        },
-        "above_break_3": {
-          "fga": 13,
-          "fgm": 7,
-          "pct": 0.5385
-        }
-      }
-    },
-    {
-      "id": 1630168,
-      "name": "Onyeka Okongwu",
-      "age": 25.0,
-      "gp": 3,
-      "w": 2,
-      "l": 1,
-      "mpg": 25.7,
-      "ppg": 8.7,
-      "rpg": 5.0,
-      "apg": 3.3,
-      "spg": 0.3,
-      "bpg": 0.3,
-      "tov": 1.0,
-      "fg_pct": 0.375,
-      "fg3_pct": 0.154,
-      "ft_pct": 0.857,
-      "off_rating": 121.3,
-      "def_rating": 107.1,
-      "net_rating": 14.2,
-      "ts_pct": 0.48,
-      "efg_pct": 0.417,
-      "usg_pct": 0.153,
-      "ast_pct": 0.152,
-      "tov_pct": 0.075,
-      "pace": 105.38,
-      "per": 0.075,
-      "pct_fga_3pt": 0.542,
-      "pct_pts_paint": 0.538,
-      "pct_pts_fb": 0.192,
-      "pts_off_tov": 2.7,
-      "pts_2nd_chance": 1.7,
-      "pts_fb": 1.7,
-      "pts_paint": 4.7,
-      "pct_team_pts": 0.127,
-      "pct_team_reb": 0.211,
-      "pct_team_ast": 0.192,
-      "min_total": 76.98,
-      "pts_total": 26,
-      "reb_total": 15,
-      "ast_total": 10,
-      "stl_total": 1,
-      "blk_total": 1,
-      "tov_total": 3,
-      "fgm_total": 9,
-      "fg3m_total": 2,
-      "ftm_total": 6,
-      "contested_shots": 4.33,
-      "contested_2pt": 3.0,
-      "contested_3pt": 1.33,
-      "deflections": 2.33,
-      "charges_drawn": 0.0,
-      "screen_assists": 2.67,
-      "screen_ast_pts": 6.67,
-      "loose_balls": 0.33,
-      "off_boxouts": 0.0,
-      "def_boxouts": 1.33,
-      "box_outs": 1.33,
-      "box_out_team_rebs": 1.33,
-      "clutch_gp": 2,
-      "clutch_min": 2.4,
-      "clutch_fg_pct": 0.0,
-      "clutch_efg_pct": 0.0,
-      "clutch_ts_pct": 0.347,
-      "pos": "F-C",
-      "qualified": false,
-      "ppg_pctile": 0.5425,
-      "rpg_pctile": 0.71,
-      "apg_pctile": 0.7775,
-      "spg_pctile": 0.2925,
-      "bpg_pctile": 0.48,
-      "tov_pctile": 0.415,
-      "fg_pct_pctile": 0.295,
-      "fg3_pct_pctile": 0.345,
-      "ft_pct_pctile": 0.73,
-      "ast_pct_pctile": 0.6075,
-      "tov_pct_pctile": 0.37,
-      "ppg_p36": 12.186770428015564,
-      "ppg_p36_pctile": 0.3508771929824561,
-      "rpg_p36": 7.003891050583658,
-      "rpg_p36_pctile": 0.6090225563909775,
-      "apg_p36": 4.6225680933852145,
-      "apg_p36_pctile": 0.7293233082706767,
-      "spg_p36": 0.4202334630350194,
-      "spg_p36_pctile": 0.3233082706766917,
-      "bpg_p36": 0.4202334630350194,
-      "bpg_p36_pctile": 0.5538847117794486,
-      "tov_p36": 1.4007782101167316,
-      "tov_p36_pctile": 0.37593984962406013,
-      "hustle": {
-        "contested_shots": {
-          "value": 4.33,
-          "pctile": null
-        },
-        "contested_shots_2pt": {
-          "value": 3.0,
-          "pctile": null
-        },
-        "contested_shots_3pt": {
-          "value": 1.33,
-          "pctile": null
-        },
-        "deflections": {
-          "value": 2.33,
-          "pctile": null
-        },
-        "charges_drawn": {
-          "value": 0.0,
-          "pctile": null
-        },
-        "screen_assists": {
-          "value": 2.67,
-          "pctile": null
-        },
-        "screen_ast_pts": {
-          "value": 6.67,
-          "pctile": null
-        },
-        "loose_balls_recovered": {
-          "value": 0.33,
-          "pctile": null
-        },
-        "box_outs": {
-          "value": 1.33,
-          "pctile": null
-        },
-        "pct_box_outs_off": {
-          "value": 0.0,
-          "pctile": null
-        },
-        "pct_box_outs_def": {
-          "value": 1.0,
-          "pctile": null
-        }
-      },
-      "clutch": {
-        "gp": {
-          "value": 2,
-          "pctile": 0.0
-        },
-        "min": {
-          "value": 2.4,
-          "pctile": 0.5
-        },
-        "pts": {
-          "value": 0.5,
-          "pctile": 0.1667
-        },
-        "oreb": {
-          "value": 0.5,
-          "pctile": 0.8333
-        },
-        "dreb": {
-          "value": 0.5,
-          "pctile": 0.9167
-        },
-        "reb": {
-          "value": 1.0,
-          "pctile": 0.9167
-        },
-        "ast": {
-          "value": 0.0,
-          "pctile": 0.0
-        },
-        "stl": {
-          "value": 0.0,
-          "pctile": 0.0
-        },
-        "blk": {
-          "value": 0.0,
-          "pctile": 0.0
-        },
-        "tov": {
-          "value": 0.0,
-          "pctile": 0.0
-        },
-        "fgm": {
-          "value": 0.0,
-          "pctile": 0.0
-        },
-        "fga": {
-          "value": 0.5,
-          "pctile": 0.3333
-        },
-        "fg_pct": {
-          "value": 0.0,
-          "pctile": 0.0
-        },
-        "fg3m": {
-          "value": 0.0,
-          "pctile": 0.0
-        },
-        "fg3a": {
-          "value": 0.5,
-          "pctile": 0.5833
-        },
-        "fg3_pct": {
-          "value": 0.0,
-          "pctile": 0.0
-        },
-        "ftm": {
-          "value": 0.5,
-          "pctile": 0.6667
-        },
-        "fta": {
-          "value": 0.5,
-          "pctile": 0.5
-        },
-        "ft_pct": {
-          "value": 1.0,
-          "pctile": 0.75
-        },
-        "pf": {
-          "value": 0.0,
-          "pctile": 0.0
-        },
-        "plus_minus": {
-          "value": 3.5,
-          "pctile": 0.75
-        },
-        "off_rating": {
-          "value": 116.7,
-          "pctile": 0.5833
-        },
-        "def_rating": {
-          "value": 63.6,
-          "pctile": 0.0
-        },
-        "net_rating": {
-          "value": 53.0,
-          "pctile": 0.6667
-        },
-        "efg_pct": {
-          "value": 0.0,
-          "pctile": 0.0
-        },
-        "ts_pct": {
-          "value": 0.347,
-          "pctile": 0.25
-        },
-        "ast_pct": {
-          "value": 0.0,
-          "pctile": 0.0
-        },
-        "oreb_pct": {
-          "value": 0.143,
-          "pctile": 0.75
-        },
-        "dreb_pct": {
-          "value": 0.167,
-          "pctile": 0.6667
-        },
-        "reb_pct": {
-          "value": 0.154,
-          "pctile": 0.5833
-        },
-        "tm_tov_pct": {
-          "value": 0.0,
-          "pctile": 0.0
-        },
-        "usg_pct": {
-          "value": 0.154,
-          "pctile": 0.3333
-        },
-        "pie": {
-          "value": 0.107,
-          "pctile": 0.6667
-        }
-      },
-      "stl_pct": 0.0050971238002460294,
-      "blk_pct": 0.01245136186770428,
-      "stl_pct_pctile": null,
-      "blk_pct_pctile": null,
-      "zones": {
-        "at_rim": {
-          "fga": 8,
-          "fgm": 4,
-          "pct": 0.5
-        },
-        "paint": {
-          "fga": 3,
-          "fgm": 3,
-          "pct": 1.0
-        },
-        "mid": {
-          "fga": 0,
-          "fgm": 0,
-          "pct": null
-        },
-        "corner_3": {
-          "fga": 4,
-          "fgm": 0,
-          "pct": 0.0
-        },
-        "l_corner_3": {
-          "fga": 2,
-          "fgm": 0,
-          "pct": 0.0
-        },
-        "r_corner_3": {
-          "fga": 2,
-          "fgm": 0,
-          "pct": 0.0
-        },
-        "above_break_3": {
-          "fga": 9,
-          "fgm": 2,
-          "pct": 0.2222
-        }
-      }
+      "blk_pct_pctile": null
     },
     {
       "id": 203468,
       "name": "CJ McCollum",
       "age": 35.0,
-      "gp": 3,
+      "gp": 4,
       "w": 2,
-      "l": 1,
-      "mpg": 25.4,
-      "ppg": 16.3,
-      "rpg": 1.7,
-      "apg": 2.0,
-      "spg": 0.0,
+      "l": 2,
+      "mpg": 26.5,
+      "ppg": 17.3,
+      "rpg": 1.5,
+      "apg": 2.3,
+      "spg": 1.0,
       "bpg": 0.3,
       "tov": 1.3,
-      "fg_pct": 0.545,
-      "fg3_pct": 0.389,
+      "fg_pct": 0.531,
+      "fg3_pct": 0.44,
       "ft_pct": 0.857,
-      "off_rating": 123.6,
-      "def_rating": 106.1,
-      "net_rating": 17.5,
-      "ts_pct": 0.679,
-      "efg_pct": 0.652,
-      "usg_pct": 0.202,
-      "ast_pct": 0.103,
-      "tov_pct": 0.08900000000000001,
-      "pace": 103.19,
-      "per": 0.102,
-      "pct_fga_3pt": 0.545,
-      "pct_pts_paint": 0.408,
-      "pct_pts_fb": 0.102,
-      "pts_off_tov": 1.0,
-      "pts_2nd_chance": 2.7,
-      "pts_fb": 1.7,
-      "pts_paint": 6.7,
-      "pct_team_pts": 0.24,
-      "pct_team_reb": 0.074,
-      "pct_team_ast": 0.111,
-      "min_total": 76.28833333333333,
-      "pts_total": 49,
-      "reb_total": 5,
-      "ast_total": 6,
-      "stl_total": 0,
+      "off_rating": 118.7,
+      "def_rating": 108.3,
+      "net_rating": 10.4,
+      "ts_pct": 0.662,
+      "efg_pct": 0.643,
+      "usg_pct": 0.211,
+      "ast_pct": 0.12,
+      "tov_pct": 0.077,
+      "pace": 103.89,
+      "per": 0.11,
+      "pct_fga_3pt": 0.51,
+      "pct_pts_paint": 0.377,
+      "pct_pts_fb": 0.116,
+      "pts_off_tov": 2.0,
+      "pts_2nd_chance": 3.0,
+      "pts_fb": 2.0,
+      "pts_paint": 6.5,
+      "pct_team_pts": 0.253,
+      "pct_team_reb": 0.071,
+      "pct_team_ast": 0.132,
+      "min_total": 105.805,
+      "pts_total": 69,
+      "reb_total": 6,
+      "ast_total": 9,
+      "stl_total": 4,
       "blk_total": 1,
-      "tov_total": 4,
-      "fgm_total": 18,
-      "fg3m_total": 7,
+      "tov_total": 5,
+      "fgm_total": 26,
+      "fg3m_total": 11,
       "ftm_total": 6,
-      "contested_shots": 3.33,
-      "contested_2pt": 0.67,
-      "contested_3pt": 2.67,
-      "deflections": 1.0,
+      "contested_shots": 2.75,
+      "contested_2pt": 0.75,
+      "contested_3pt": 2.0,
+      "deflections": 1.25,
       "charges_drawn": 0.0,
-      "screen_assists": 0.33,
-      "screen_ast_pts": 1.0,
-      "loose_balls": 0.33,
+      "screen_assists": 0.25,
+      "screen_ast_pts": 0.75,
+      "loose_balls": 0.25,
       "off_boxouts": 0.0,
       "def_boxouts": 0.0,
       "box_outs": 0.0,
@@ -1623,44 +1312,81 @@
       "clutch_ts_pct": 0.0,
       "pos": "G",
       "qualified": false,
-      "ppg_pctile": 0.8025,
-      "rpg_pctile": 0.235,
-      "apg_pctile": 0.5725,
-      "spg_pctile": 0.0,
-      "bpg_pctile": 0.48,
-      "tov_pctile": 0.565,
-      "fg_pct_pctile": 0.7625,
-      "fg3_pct_pctile": 0.67,
-      "ft_pct_pctile": 0.73,
-      "ast_pct_pctile": 0.4275,
-      "tov_pct_pctile": 0.435,
-      "ppg_p36": 23.102362204724415,
-      "ppg_p36_pctile": 0.8345864661654135,
-      "rpg_p36": 2.409448818897638,
-      "rpg_p36_pctile": 0.10526315789473684,
-      "apg_p36": 2.834645669291339,
-      "apg_p36_pctile": 0.5012531328320802,
-      "spg_p36": 0.0,
-      "spg_p36_pctile": 0.0,
-      "bpg_p36": 0.42519685039370075,
-      "bpg_p36_pctile": 0.5614035087719298,
-      "tov_p36": 1.8425196850393704,
-      "tov_p36_pctile": 0.47117794486215536,
+      "ppg_pctile": 0.8394160583941606,
+      "rpg_pctile": 0.21897810218978103,
+      "apg_pctile": 0.6374695863746959,
+      "spg_pctile": 0.6472019464720195,
+      "bpg_pctile": 0.45012165450121655,
+      "tov_pctile": 0.5571776155717761,
+      "fg_pct_pctile": 0.7347931873479319,
+      "fg3_pct_pctile": 0.7591240875912408,
+      "ft_pct_pctile": 0.7469586374695864,
+      "ast_pct_pctile": 0.5352798053527981,
+      "tov_pct_pctile": 0.36496350364963503,
+      "ppg_p36": 23.501886792452833,
+      "ppg_p36_pctile": 0.8414634146341463,
+      "rpg_p36": 2.0377358490566038,
+      "rpg_p36_pctile": 0.09024390243902439,
+      "apg_p36": 3.124528301886792,
+      "apg_p36_pctile": 0.5536585365853659,
+      "spg_p36": 1.3584905660377358,
+      "spg_p36_pctile": 0.6170731707317073,
+      "bpg_p36": 0.4075471698113207,
+      "bpg_p36_pctile": 0.5219512195121951,
+      "tov_p36": 1.7660377358490567,
+      "tov_p36_pctile": 0.44634146341463415,
+      "zones": {
+        "at_rim": {
+          "fga": 8,
+          "fgm": 7,
+          "pct": 0.875
+        },
+        "paint": {
+          "fga": 10,
+          "fgm": 6,
+          "pct": 0.6
+        },
+        "mid": {
+          "fga": 6,
+          "fgm": 2,
+          "pct": 0.3333
+        },
+        "corner_3": {
+          "fga": 3,
+          "fgm": 2,
+          "pct": 0.6667
+        },
+        "l_corner_3": {
+          "fga": 3,
+          "fgm": 2,
+          "pct": 0.6667
+        },
+        "r_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "above_break_3": {
+          "fga": 22,
+          "fgm": 9,
+          "pct": 0.4091
+        }
+      },
       "hustle": {
         "contested_shots": {
-          "value": 3.33,
+          "value": 2.75,
           "pctile": null
         },
         "contested_shots_2pt": {
-          "value": 0.67,
+          "value": 0.75,
           "pctile": null
         },
         "contested_shots_3pt": {
-          "value": 2.67,
+          "value": 2.0,
           "pctile": null
         },
         "deflections": {
-          "value": 1.0,
+          "value": 1.25,
           "pctile": null
         },
         "charges_drawn": {
@@ -1668,15 +1394,15 @@
           "pctile": null
         },
         "screen_assists": {
-          "value": 0.33,
+          "value": 0.25,
           "pctile": null
         },
         "screen_ast_pts": {
-          "value": 1.0,
+          "value": 0.75,
           "pctile": null
         },
         "loose_balls_recovered": {
-          "value": 0.33,
+          "value": 0.25,
           "pctile": null
         },
         "box_outs": {
@@ -1775,11 +1501,11 @@
         },
         "plus_minus": {
           "value": 1.0,
-          "pctile": 0.5833
+          "pctile": 0.6154
         },
         "off_rating": {
           "value": 100.0,
-          "pctile": 0.3333
+          "pctile": 0.1923
         },
         "def_rating": {
           "value": 0.0,
@@ -1823,195 +1549,113 @@
         },
         "pie": {
           "value": 0.0,
-          "pctile": 0.1667
+          "pctile": 0.1538
         }
       },
-      "stl_pct": 0.0,
-      "blk_pct": 0.012598425196850392,
+      "stl_pct": 0.017815510368905406,
+      "blk_pct": 0.01151263191557403,
       "stl_pct_pctile": null,
-      "blk_pct_pctile": null,
-      "zones": {
-        "at_rim": {
-          "fga": 8,
-          "fgm": 7,
-          "pct": 0.875
-        },
-        "paint": {
-          "fga": 5,
-          "fgm": 3,
-          "pct": 0.6
-        },
-        "mid": {
-          "fga": 2,
-          "fgm": 1,
-          "pct": 0.5
-        },
-        "corner_3": {
-          "fga": 3,
-          "fgm": 2,
-          "pct": 0.6667
-        },
-        "l_corner_3": {
-          "fga": 3,
-          "fgm": 2,
-          "pct": 0.6667
-        },
-        "r_corner_3": {
-          "fga": 0,
-          "fgm": 0,
-          "pct": null
-        },
-        "above_break_3": {
-          "fga": 15,
-          "fgm": 5,
-          "pct": 0.3333
-        }
-      }
+      "blk_pct_pctile": null
     },
     {
-      "id": 1629652,
-      "name": "Luguentz Dort",
-      "age": 27.0,
-      "gp": 3,
+      "id": 1630168,
+      "name": "Onyeka Okongwu",
+      "age": 25.0,
+      "gp": 4,
       "w": 2,
-      "l": 1,
-      "mpg": 23.3,
-      "ppg": 8.0,
-      "rpg": 3.7,
-      "apg": 1.7,
-      "spg": 1.0,
-      "bpg": 0.0,
+      "l": 2,
+      "mpg": 26.5,
+      "ppg": 9.3,
+      "rpg": 6.0,
+      "apg": 2.8,
+      "spg": 0.8,
+      "bpg": 0.5,
       "tov": 1.0,
-      "fg_pct": 0.389,
-      "fg3_pct": 0.333,
+      "fg_pct": 0.412,
+      "fg3_pct": 0.176,
       "ft_pct": 0.857,
-      "off_rating": 115.3,
-      "def_rating": 115.4,
-      "net_rating": -0.1,
-      "ts_pct": 0.569,
-      "efg_pct": 0.5,
-      "usg_pct": 0.135,
-      "ast_pct": 0.088,
-      "tov_pct": 0.10300000000000001,
-      "pace": 107.36,
-      "per": 0.052,
-      "pct_fga_3pt": 0.667,
-      "pct_pts_paint": 0.25,
-      "pct_pts_fb": 0.375,
-      "pts_off_tov": 1.7,
-      "pts_2nd_chance": 1.7,
-      "pts_fb": 3.0,
-      "pts_paint": 2.0,
-      "pct_team_pts": 0.133,
-      "pct_team_reb": 0.186,
-      "pct_team_ast": 0.1,
-      "min_total": 69.96833333333333,
-      "pts_total": 24,
-      "reb_total": 11,
-      "ast_total": 5,
+      "off_rating": 118.1,
+      "def_rating": 107.8,
+      "net_rating": 10.3,
+      "ts_pct": 0.499,
+      "efg_pct": 0.456,
+      "usg_pct": 0.154,
+      "ast_pct": 0.128,
+      "tov_pct": 0.077,
+      "pace": 105.24,
+      "per": 0.083,
+      "pct_fga_3pt": 0.5,
+      "pct_pts_paint": 0.595,
+      "pct_pts_fb": 0.135,
+      "pts_off_tov": 2.5,
+      "pts_2nd_chance": 2.3,
+      "pts_fb": 1.3,
+      "pts_paint": 5.5,
+      "pct_team_pts": 0.135,
+      "pct_team_reb": 0.273,
+      "pct_team_ast": 0.167,
+      "min_total": 105.81333333333333,
+      "pts_total": 37,
+      "reb_total": 24,
+      "ast_total": 11,
       "stl_total": 3,
-      "blk_total": 0,
-      "tov_total": 3,
-      "fgm_total": 7,
-      "fg3m_total": 4,
+      "blk_total": 2,
+      "tov_total": 4,
+      "fgm_total": 14,
+      "fg3m_total": 3,
       "ftm_total": 6,
-      "contested_shots": 3.0,
-      "contested_2pt": 0.0,
-      "contested_3pt": 3.0,
-      "deflections": 1.33,
+      "contested_shots": 5.25,
+      "contested_2pt": 3.75,
+      "contested_3pt": 1.5,
+      "deflections": 1.75,
       "charges_drawn": 0.0,
-      "screen_assists": 0.67,
-      "screen_ast_pts": 1.67,
-      "loose_balls": 1.0,
+      "screen_assists": 2.25,
+      "screen_ast_pts": 5.0,
+      "loose_balls": 0.25,
       "off_boxouts": 0.0,
       "def_boxouts": 1.0,
       "box_outs": 1.0,
       "box_out_team_rebs": 1.0,
-      "pos": "G",
+      "clutch_gp": 2,
+      "clutch_min": 2.4,
+      "clutch_fg_pct": 0.0,
+      "clutch_efg_pct": 0.0,
+      "clutch_ts_pct": 0.347,
+      "pos": "F-C",
       "qualified": false,
-      "ppg_pctile": 0.5075,
-      "rpg_pctile": 0.5625,
-      "apg_pctile": 0.52,
-      "spg_pctile": 0.6125,
-      "bpg_pctile": 0.0,
-      "tov_pctile": 0.415,
-      "fg_pct_pctile": 0.3275,
-      "fg3_pct_pctile": 0.555,
-      "ft_pct_pctile": 0.73,
-      "ast_pct_pctile": 0.3625,
-      "tov_pct_pctile": 0.495,
-      "ppg_p36": 12.360515021459227,
-      "ppg_p36_pctile": 0.3684210526315789,
-      "rpg_p36": 5.716738197424894,
-      "rpg_p36_pctile": 0.45864661654135336,
-      "apg_p36": 2.6266094420600856,
-      "apg_p36_pctile": 0.43859649122807015,
-      "spg_p36": 1.5450643776824033,
-      "spg_p36_pctile": 0.6741854636591479,
-      "bpg_p36": 0.0,
-      "bpg_p36_pctile": 0.0,
-      "tov_p36": 1.5450643776824033,
-      "tov_p36_pctile": 0.41604010025062654,
-      "hustle": {
-        "contested_shots": {
-          "value": 3.0,
-          "pctile": null
-        },
-        "contested_shots_2pt": {
-          "value": 0.0,
-          "pctile": null
-        },
-        "contested_shots_3pt": {
-          "value": 3.0,
-          "pctile": null
-        },
-        "deflections": {
-          "value": 1.33,
-          "pctile": null
-        },
-        "charges_drawn": {
-          "value": 0.0,
-          "pctile": null
-        },
-        "screen_assists": {
-          "value": 0.67,
-          "pctile": null
-        },
-        "screen_ast_pts": {
-          "value": 1.67,
-          "pctile": null
-        },
-        "loose_balls_recovered": {
-          "value": 1.0,
-          "pctile": null
-        },
-        "box_outs": {
-          "value": 1.0,
-          "pctile": null
-        },
-        "pct_box_outs_off": {
-          "value": 0.0,
-          "pctile": null
-        },
-        "pct_box_outs_def": {
-          "value": 1.0,
-          "pctile": null
-        }
-      },
-      "stl_pct": 0.01874049809246394,
-      "blk_pct": 0.0,
-      "stl_pct_pctile": null,
-      "blk_pct_pctile": null,
+      "ppg_pctile": 0.6034063260340633,
+      "rpg_pctile": 0.8126520681265207,
+      "apg_pctile": 0.7226277372262774,
+      "spg_pctile": 0.5985401459854015,
+      "bpg_pctile": 0.635036496350365,
+      "tov_pctile": 0.45012165450121655,
+      "fg_pct_pctile": 0.38686131386861317,
+      "fg3_pct_pctile": 0.34549878345498786,
+      "ft_pct_pctile": 0.7469586374695864,
+      "ast_pct_pctile": 0.5547445255474452,
+      "tov_pct_pctile": 0.36496350364963503,
+      "ppg_p36": 12.633962264150943,
+      "ppg_p36_pctile": 0.36829268292682926,
+      "rpg_p36": 8.150943396226415,
+      "rpg_p36_pctile": 0.7146341463414634,
+      "apg_p36": 3.8037735849056604,
+      "apg_p36_pctile": 0.6536585365853659,
+      "spg_p36": 1.0867924528301887,
+      "spg_p36_pctile": 0.5292682926829269,
+      "bpg_p36": 0.6792452830188679,
+      "bpg_p36_pctile": 0.6170731707317073,
+      "tov_p36": 1.3584905660377358,
+      "tov_p36_pctile": 0.35609756097560974,
       "zones": {
         "at_rim": {
-          "fga": 5,
-          "fgm": 3,
-          "pct": 0.6
+          "fga": 12,
+          "fgm": 6,
+          "pct": 0.5
         },
         "paint": {
-          "fga": 1,
-          "fgm": 0,
-          "pct": 0.0
+          "fga": 5,
+          "fgm": 5,
+          "pct": 1.0
         },
         "mid": {
           "fga": 0,
@@ -2019,126 +1663,41 @@
           "pct": null
         },
         "corner_3": {
-          "fga": 3,
-          "fgm": 1,
-          "pct": 0.3333
+          "fga": 4,
+          "fgm": 0,
+          "pct": 0.0
         },
         "l_corner_3": {
-          "fga": 1,
+          "fga": 2,
           "fgm": 0,
           "pct": 0.0
         },
         "r_corner_3": {
           "fga": 2,
-          "fgm": 1,
-          "pct": 0.5
+          "fgm": 0,
+          "pct": 0.0
         },
         "above_break_3": {
-          "fga": 9,
+          "fga": 13,
           "fgm": 3,
-          "pct": 0.3333
+          "pct": 0.2308
         }
-      }
-    },
-    {
-      "id": 1629111,
-      "name": "Jock Landale",
-      "age": 31.0,
-      "gp": 3,
-      "w": 2,
-      "l": 1,
-      "mpg": 18.5,
-      "ppg": 6.7,
-      "rpg": 4.0,
-      "apg": 3.0,
-      "spg": 0.3,
-      "bpg": 0.7,
-      "tov": 1.7,
-      "fg_pct": 0.444,
-      "fg3_pct": 0.111,
-      "ft_pct": 0.75,
-      "off_rating": 111.2,
-      "def_rating": 106.6,
-      "net_rating": 4.6,
-      "ts_pct": 0.506,
-      "efg_pct": 0.472,
-      "usg_pct": 0.174,
-      "ast_pct": 0.22,
-      "tov_pct": 0.147,
-      "pace": 106.96,
-      "per": 0.082,
-      "pct_fga_3pt": 0.5,
-      "pct_pts_paint": 0.6,
-      "pct_pts_fb": 0.1,
-      "pts_off_tov": 1.3,
-      "pts_2nd_chance": 1.0,
-      "pts_fb": 0.7,
-      "pts_paint": 4.0,
-      "pct_team_pts": 0.144,
-      "pct_team_reb": 0.245,
-      "pct_team_ast": 0.231,
-      "min_total": 55.425,
-      "pts_total": 20,
-      "reb_total": 12,
-      "ast_total": 9,
-      "stl_total": 1,
-      "blk_total": 2,
-      "tov_total": 5,
-      "fgm_total": 8,
-      "fg3m_total": 1,
-      "ftm_total": 3,
-      "contested_shots": 4.67,
-      "contested_2pt": 3.33,
-      "contested_3pt": 1.33,
-      "deflections": 0.33,
-      "charges_drawn": 0.0,
-      "screen_assists": 2.0,
-      "screen_ast_pts": 5.0,
-      "loose_balls": 0.0,
-      "off_boxouts": 0.33,
-      "def_boxouts": 2.0,
-      "box_outs": 2.33,
-      "box_out_team_rebs": 2.33,
-      "pos": "C",
-      "qualified": false,
-      "ppg_pctile": 0.435,
-      "rpg_pctile": 0.5975,
-      "apg_pctile": 0.7175,
-      "spg_pctile": 0.2925,
-      "bpg_pctile": 0.7075,
-      "tov_pctile": 0.65,
-      "fg_pct_pctile": 0.4825,
-      "fg3_pct_pctile": 0.3025,
-      "ft_pct_pctile": 0.5825,
-      "ast_pct_pctile": 0.78,
-      "tov_pct_pctile": 0.725,
-      "ppg_p36": 13.037837837837838,
-      "ppg_p36_pctile": 0.40601503759398494,
-      "rpg_p36": 7.783783783783784,
-      "rpg_p36_pctile": 0.681704260651629,
-      "apg_p36": 5.837837837837838,
-      "apg_p36_pctile": 0.8045112781954887,
-      "spg_p36": 0.5837837837837837,
-      "spg_p36_pctile": 0.3634085213032581,
-      "bpg_p36": 1.362162162162162,
-      "bpg_p36_pctile": 0.8095238095238095,
-      "tov_p36": 3.308108108108108,
-      "tov_p36_pctile": 0.7669172932330827,
+      },
       "hustle": {
         "contested_shots": {
-          "value": 4.67,
+          "value": 5.25,
           "pctile": null
         },
         "contested_shots_2pt": {
-          "value": 3.33,
+          "value": 3.75,
           "pctile": null
         },
         "contested_shots_3pt": {
-          "value": 1.33,
+          "value": 1.5,
           "pctile": null
         },
         "deflections": {
-          "value": 0.33,
+          "value": 1.75,
           "pctile": null
         },
         "charges_drawn": {
@@ -2146,7 +1705,7 @@
           "pctile": null
         },
         "screen_assists": {
-          "value": 2.0,
+          "value": 2.25,
           "pctile": null
         },
         "screen_ast_pts": {
@@ -2154,36 +1713,427 @@
           "pctile": null
         },
         "loose_balls_recovered": {
-          "value": 0.0,
+          "value": 0.25,
           "pctile": null
         },
         "box_outs": {
-          "value": 2.33,
+          "value": 1.0,
           "pctile": null
         },
         "pct_box_outs_off": {
-          "value": 0.143,
+          "value": 0.0,
           "pctile": null
         },
         "pct_box_outs_def": {
-          "value": 0.857,
+          "value": 1.0,
           "pctile": null
         }
       },
-      "stl_pct": 0.0070808692792607006,
-      "blk_pct": 0.04036036036036035,
+      "clutch": {
+        "gp": {
+          "value": 2,
+          "pctile": 0.0
+        },
+        "min": {
+          "value": 2.4,
+          "pctile": 0.3462
+        },
+        "pts": {
+          "value": 0.5,
+          "pctile": 0.1154
+        },
+        "oreb": {
+          "value": 0.5,
+          "pctile": 0.8462
+        },
+        "dreb": {
+          "value": 0.5,
+          "pctile": 0.6923
+        },
+        "reb": {
+          "value": 1.0,
+          "pctile": 0.7692
+        },
+        "ast": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "stl": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "blk": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "tov": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "fgm": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "fga": {
+          "value": 0.5,
+          "pctile": 0.3077
+        },
+        "fg_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "fg3m": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "fg3a": {
+          "value": 0.5,
+          "pctile": 0.5
+        },
+        "fg3_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "ftm": {
+          "value": 0.5,
+          "pctile": 0.5769
+        },
+        "fta": {
+          "value": 0.5,
+          "pctile": 0.3846
+        },
+        "ft_pct": {
+          "value": 1.0,
+          "pctile": 0.6923
+        },
+        "pf": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "plus_minus": {
+          "value": 3.5,
+          "pctile": 0.7692
+        },
+        "off_rating": {
+          "value": 116.7,
+          "pctile": 0.5385
+        },
+        "def_rating": {
+          "value": 63.6,
+          "pctile": 0.1154
+        },
+        "net_rating": {
+          "value": 53.0,
+          "pctile": 0.7308
+        },
+        "efg_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "ts_pct": {
+          "value": 0.347,
+          "pctile": 0.1923
+        },
+        "ast_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "oreb_pct": {
+          "value": 0.143,
+          "pctile": 0.8077
+        },
+        "dreb_pct": {
+          "value": 0.167,
+          "pctile": 0.6154
+        },
+        "reb_pct": {
+          "value": 0.154,
+          "pctile": 0.6538
+        },
+        "tm_tov_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "usg_pct": {
+          "value": 0.154,
+          "pctile": 0.4615
+        },
+        "pie": {
+          "value": 0.107,
+          "pctile": 0.5769
+        }
+      },
+      "stl_pct": 0.014252408295124325,
+      "blk_pct": 0.01918771985929005,
       "stl_pct_pctile": null,
-      "blk_pct_pctile": null,
+      "blk_pct_pctile": null
+    },
+    {
+      "id": 1629652,
+      "name": "Luguentz Dort",
+      "age": 27.0,
+      "gp": 4,
+      "w": 2,
+      "l": 2,
+      "mpg": 22.7,
+      "ppg": 8.8,
+      "rpg": 3.3,
+      "apg": 1.5,
+      "spg": 0.8,
+      "bpg": 0.0,
+      "tov": 0.8,
+      "fg_pct": 0.379,
+      "fg3_pct": 0.235,
+      "ft_pct": 0.9,
+      "off_rating": 108.9,
+      "def_rating": 117.3,
+      "net_rating": -8.5,
+      "ts_pct": 0.524,
+      "efg_pct": 0.448,
+      "usg_pct": 0.155,
+      "ast_pct": 0.088,
+      "tov_pct": 0.071,
+      "pace": 107.26,
+      "per": 0.049,
+      "pct_fga_3pt": 0.586,
+      "pct_pts_paint": 0.4,
+      "pct_pts_fb": 0.314,
+      "pts_off_tov": 2.0,
+      "pts_2nd_chance": 1.8,
+      "pts_fb": 2.8,
+      "pts_paint": 3.5,
+      "pct_team_pts": 0.158,
+      "pct_team_reb": 0.169,
+      "pct_team_ast": 0.098,
+      "min_total": 90.61833333333334,
+      "pts_total": 35,
+      "reb_total": 13,
+      "ast_total": 6,
+      "stl_total": 3,
+      "blk_total": 0,
+      "tov_total": 3,
+      "fgm_total": 11,
+      "fg3m_total": 4,
+      "ftm_total": 9,
+      "contested_shots": 3.75,
+      "contested_2pt": 0.25,
+      "contested_3pt": 3.5,
+      "deflections": 1.25,
+      "charges_drawn": 0.25,
+      "screen_assists": 0.5,
+      "screen_ast_pts": 1.25,
+      "loose_balls": 0.75,
+      "off_boxouts": 0.0,
+      "def_boxouts": 0.75,
+      "box_outs": 0.75,
+      "box_out_team_rebs": 0.75,
+      "pos": "G",
+      "qualified": false,
+      "ppg_pctile": 0.5717761557177615,
+      "rpg_pctile": 0.5255474452554745,
+      "apg_pctile": 0.48661800486618007,
+      "spg_pctile": 0.5985401459854015,
+      "bpg_pctile": 0.0,
+      "tov_pctile": 0.40389294403892945,
+      "fg_pct_pctile": 0.30900243309002434,
+      "fg3_pct_pctile": 0.4209245742092457,
+      "ft_pct_pctile": 0.7980535279805353,
+      "ast_pct_pctile": 0.3746958637469586,
+      "tov_pct_pctile": 0.34306569343065696,
+      "ppg_p36": 13.955947136563877,
+      "ppg_p36_pctile": 0.424390243902439,
+      "rpg_p36": 5.233480176211454,
+      "rpg_p36_pctile": 0.3975609756097561,
+      "apg_p36": 2.378854625550661,
+      "apg_p36_pctile": 0.40487804878048783,
+      "spg_p36": 1.2687224669603525,
+      "spg_p36_pctile": 0.5975609756097561,
+      "bpg_p36": 0.0,
+      "bpg_p36_pctile": 0.0,
+      "tov_p36": 1.2687224669603525,
+      "tov_p36_pctile": 0.33414634146341465,
       "zones": {
         "at_rim": {
-          "fga": 8,
-          "fgm": 6,
-          "pct": 0.75
+          "fga": 10,
+          "fgm": 7,
+          "pct": 0.7
         },
         "paint": {
+          "fga": 2,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "mid": {
           "fga": 0,
           "fgm": 0,
           "pct": null
+        },
+        "corner_3": {
+          "fga": 3,
+          "fgm": 1,
+          "pct": 0.3333
+        },
+        "l_corner_3": {
+          "fga": 1,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "r_corner_3": {
+          "fga": 2,
+          "fgm": 1,
+          "pct": 0.5
+        },
+        "above_break_3": {
+          "fga": 14,
+          "fgm": 3,
+          "pct": 0.2143
+        }
+      },
+      "hustle": {
+        "contested_shots": {
+          "value": 3.75,
+          "pctile": null
+        },
+        "contested_shots_2pt": {
+          "value": 0.25,
+          "pctile": null
+        },
+        "contested_shots_3pt": {
+          "value": 3.5,
+          "pctile": null
+        },
+        "deflections": {
+          "value": 1.25,
+          "pctile": null
+        },
+        "charges_drawn": {
+          "value": 0.25,
+          "pctile": null
+        },
+        "screen_assists": {
+          "value": 0.5,
+          "pctile": null
+        },
+        "screen_ast_pts": {
+          "value": 1.25,
+          "pctile": null
+        },
+        "loose_balls_recovered": {
+          "value": 0.75,
+          "pctile": null
+        },
+        "box_outs": {
+          "value": 0.75,
+          "pctile": null
+        },
+        "pct_box_outs_off": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "pct_box_outs_def": {
+          "value": 1.0,
+          "pctile": null
+        }
+      },
+      "stl_pct": 0.016638274000916064,
+      "blk_pct": 0.0,
+      "stl_pct_pctile": null,
+      "blk_pct_pctile": null
+    },
+    {
+      "id": 1629111,
+      "name": "Jock Landale",
+      "age": 31.0,
+      "gp": 4,
+      "w": 2,
+      "l": 2,
+      "mpg": 18.3,
+      "ppg": 7.0,
+      "rpg": 4.5,
+      "apg": 3.3,
+      "spg": 0.3,
+      "bpg": 0.8,
+      "tov": 1.3,
+      "fg_pct": 0.423,
+      "fg3_pct": 0.091,
+      "ft_pct": 0.714,
+      "off_rating": 104.8,
+      "def_rating": 111.7,
+      "net_rating": -6.9,
+      "ts_pct": 0.481,
+      "efg_pct": 0.442,
+      "usg_pct": 0.177,
+      "ast_pct": 0.25,
+      "tov_pct": 0.106,
+      "pace": 107.18,
+      "per": 0.088,
+      "pct_fga_3pt": 0.423,
+      "pct_pts_paint": 0.643,
+      "pct_pts_fb": 0.143,
+      "pts_off_tov": 1.5,
+      "pts_2nd_chance": 0.8,
+      "pts_fb": 1.0,
+      "pts_paint": 4.5,
+      "pct_team_pts": 0.162,
+      "pct_team_reb": 0.273,
+      "pct_team_ast": 0.265,
+      "min_total": 73.225,
+      "pts_total": 28,
+      "reb_total": 18,
+      "ast_total": 13,
+      "stl_total": 1,
+      "blk_total": 3,
+      "tov_total": 5,
+      "fgm_total": 11,
+      "fg3m_total": 1,
+      "ftm_total": 5,
+      "contested_shots": 5.75,
+      "contested_2pt": 4.5,
+      "contested_3pt": 1.25,
+      "deflections": 0.25,
+      "charges_drawn": 0.0,
+      "screen_assists": 1.75,
+      "screen_ast_pts": 3.75,
+      "loose_balls": 0.0,
+      "off_boxouts": 0.25,
+      "def_boxouts": 1.5,
+      "box_outs": 2.0,
+      "box_out_team_rebs": 1.75,
+      "pos": "C",
+      "qualified": false,
+      "ppg_pctile": 0.45012165450121655,
+      "rpg_pctile": 0.681265206812652,
+      "apg_pctile": 0.7785888077858881,
+      "spg_pctile": 0.25304136253041365,
+      "bpg_pctile": 0.8004866180048662,
+      "tov_pctile": 0.5571776155717761,
+      "fg_pct_pctile": 0.41605839416058393,
+      "fg3_pct_pctile": 0.2822384428223844,
+      "ft_pct_pctile": 0.5352798053527981,
+      "ast_pct_pctile": 0.8272506082725061,
+      "tov_pct_pctile": 0.537712895377129,
+      "ppg_p36": 13.770491803278688,
+      "ppg_p36_pctile": 0.4121951219512195,
+      "rpg_p36": 8.852459016393443,
+      "rpg_p36_pctile": 0.7560975609756098,
+      "apg_p36": 6.491803278688524,
+      "apg_p36_pctile": 0.8560975609756097,
+      "spg_p36": 0.5901639344262294,
+      "spg_p36_pctile": 0.33658536585365856,
+      "bpg_p36": 1.5737704918032787,
+      "bpg_p36_pctile": 0.8414634146341463,
+      "tov_p36": 2.557377049180328,
+      "tov_p36_pctile": 0.6146341463414634,
+      "zones": {
+        "at_rim": {
+          "fga": 11,
+          "fgm": 7,
+          "pct": 0.6364
+        },
+        "paint": {
+          "fga": 3,
+          "fgm": 2,
+          "pct": 0.6667
         },
         "mid": {
           "fga": 1,
@@ -2206,63 +2156,113 @@
           "pct": 1.0
         },
         "above_break_3": {
-          "fga": 6,
+          "fga": 8,
           "fgm": 0,
           "pct": 0.0
         }
-      }
+      },
+      "hustle": {
+        "contested_shots": {
+          "value": 5.75,
+          "pctile": null
+        },
+        "contested_shots_2pt": {
+          "value": 4.5,
+          "pctile": null
+        },
+        "contested_shots_3pt": {
+          "value": 1.25,
+          "pctile": null
+        },
+        "deflections": {
+          "value": 0.25,
+          "pctile": null
+        },
+        "charges_drawn": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "screen_assists": {
+          "value": 1.75,
+          "pctile": null
+        },
+        "screen_ast_pts": {
+          "value": 3.75,
+          "pctile": null
+        },
+        "loose_balls_recovered": {
+          "value": 0.0,
+          "pctile": null
+        },
+        "box_outs": {
+          "value": 2.0,
+          "pctile": null
+        },
+        "pct_box_outs_off": {
+          "value": 0.125,
+          "pctile": null
+        },
+        "pct_box_outs_def": {
+          "value": 0.75,
+          "pctile": null
+        }
+      },
+      "stl_pct": 0.007739524996327757,
+      "blk_pct": 0.04445679355376494,
+      "stl_pct_pctile": null,
+      "blk_pct_pctile": null
     },
     {
       "id": 1643412,
       "name": "Kingston Flemings",
       "age": 19.0,
-      "gp": 3,
+      "gp": 4,
       "w": 2,
-      "l": 1,
-      "mpg": 18.2,
-      "ppg": 2.3,
-      "rpg": 3.7,
+      "l": 2,
+      "mpg": 18.3,
+      "ppg": 3.3,
+      "rpg": 3.0,
       "apg": 4.3,
       "spg": 0.3,
       "bpg": 0.3,
-      "tov": 2.3,
-      "fg_pct": 0.214,
-      "fg3_pct": 0.25,
+      "tov": 2.8,
+      "fg_pct": 0.333,
+      "fg3_pct": 0.2,
       "ft_pct": 0.0,
-      "off_rating": 108.2,
-      "def_rating": 106.6,
-      "net_rating": 1.6,
-      "ts_pct": 0.25,
-      "efg_pct": 0.25,
-      "usg_pct": 0.15,
-      "ast_pct": 0.302,
-      "tov_pct": 0.20600000000000002,
-      "pace": 106.88,
-      "per": 0.024,
-      "pct_fga_3pt": 0.286,
-      "pct_pts_paint": 0.571,
-      "pct_pts_fb": 0.286,
-      "pts_off_tov": 1.0,
-      "pts_2nd_chance": 0.7,
-      "pts_fb": 0.7,
-      "pts_paint": 1.3,
-      "pct_team_pts": 0.053,
-      "pct_team_reb": 0.224,
-      "pct_team_ast": 0.342,
-      "min_total": 54.56333333333333,
-      "pts_total": 7,
-      "reb_total": 11,
-      "ast_total": 13,
+      "off_rating": 106.8,
+      "def_rating": 108.0,
+      "net_rating": -1.2,
+      "ts_pct": 0.352,
+      "efg_pct": 0.361,
+      "usg_pct": 0.154,
+      "ast_pct": 0.298,
+      "tov_pct": 0.239,
+      "pace": 106.45,
+      "per": 0.028,
+      "pct_fga_3pt": 0.278,
+      "pct_pts_paint": 0.769,
+      "pct_pts_fb": 0.308,
+      "pts_off_tov": 1.3,
+      "pts_2nd_chance": 0.5,
+      "pts_fb": 1.0,
+      "pts_paint": 2.5,
+      "pct_team_pts": 0.075,
+      "pct_team_reb": 0.179,
+      "pct_team_ast": 0.34,
+      "min_total": 73.04666666666667,
+      "pts_total": 13,
+      "reb_total": 12,
+      "ast_total": 17,
       "stl_total": 1,
       "blk_total": 1,
-      "tov_total": 7,
-      "fgm_total": 3,
+      "tov_total": 11,
+      "fgm_total": 6,
       "fg3m_total": 1,
       "ftm_total": 0,
-      "contested_shots": 1.33,
+      "contested_shots": 1.5,
       "contested_2pt": 1.0,
-      "contested_3pt": 0.33,
-      "deflections": 2.67,
+      "contested_3pt": 0.5,
+      "deflections": 2.0,
       "charges_drawn": 0.0,
       "screen_assists": 0.0,
       "screen_ast_pts": 0.0,
@@ -2273,32 +2273,69 @@
       "box_out_team_rebs": 0.0,
       "pos": "G",
       "qualified": false,
-      "ppg_pctile": 0.1875,
-      "rpg_pctile": 0.5625,
-      "apg_pctile": 0.8575,
-      "spg_pctile": 0.2925,
-      "bpg_pctile": 0.48,
-      "tov_pctile": 0.8125,
-      "fg_pct_pctile": 0.1275,
-      "fg3_pct_pctile": 0.43,
+      "ppg_pctile": 0.25304136253041365,
+      "rpg_pctile": 0.45255474452554745,
+      "apg_pctile": 0.8588807785888077,
+      "spg_pctile": 0.25304136253041365,
+      "bpg_pctile": 0.45012165450121655,
+      "tov_pctile": 0.8905109489051095,
+      "fg_pct_pctile": 0.19951338199513383,
+      "fg3_pct_pctile": 0.36739659367396593,
       "ft_pct_pctile": 0.0,
-      "ast_pct_pctile": 0.8925,
-      "tov_pct_pctile": 0.885,
-      "ppg_p36": 4.549450549450549,
-      "ppg_p36_pctile": 0.10776942355889724,
-      "rpg_p36": 7.31868131868132,
-      "rpg_p36_pctile": 0.6365914786967418,
-      "apg_p36": 8.505494505494505,
-      "apg_p36_pctile": 0.9273182957393483,
-      "spg_p36": 0.5934065934065934,
-      "spg_p36_pctile": 0.3659147869674185,
-      "bpg_p36": 0.5934065934065934,
-      "bpg_p36_pctile": 0.6290726817042607,
-      "tov_p36": 4.549450549450549,
-      "tov_p36_pctile": 0.9047619047619048,
+      "ast_pct_pctile": 0.8905109489051095,
+      "tov_pct_pctile": 0.9051094890510949,
+      "ppg_p36": 6.491803278688524,
+      "ppg_p36_pctile": 0.13170731707317074,
+      "rpg_p36": 5.9016393442622945,
+      "rpg_p36_pctile": 0.4658536585365854,
+      "apg_p36": 8.459016393442623,
+      "apg_p36_pctile": 0.9439024390243902,
+      "spg_p36": 0.5901639344262294,
+      "spg_p36_pctile": 0.33658536585365856,
+      "bpg_p36": 0.5901639344262294,
+      "bpg_p36_pctile": 0.5926829268292683,
+      "tov_p36": 5.508196721311475,
+      "tov_p36_pctile": 0.9463414634146341,
+      "zones": {
+        "at_rim": {
+          "fga": 6,
+          "fgm": 5,
+          "pct": 0.8333
+        },
+        "paint": {
+          "fga": 5,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "mid": {
+          "fga": 2,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "l_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "r_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "above_break_3": {
+          "fga": 5,
+          "fgm": 1,
+          "pct": 0.2
+        }
+      },
       "hustle": {
         "contested_shots": {
-          "value": 1.33,
+          "value": 1.5,
           "pctile": null
         },
         "contested_shots_2pt": {
@@ -2306,11 +2343,11 @@
           "pctile": null
         },
         "contested_shots_3pt": {
-          "value": 0.33,
+          "value": 0.5,
           "pctile": null
         },
         "deflections": {
-          "value": 2.67,
+          "value": 2.0,
           "pctile": null
         },
         "charges_drawn": {
@@ -2342,94 +2379,57 @@
           "pctile": null
         }
       },
-      "stl_pct": 0.00719758690474302,
-      "blk_pct": 0.017582417582417582,
+      "stl_pct": 0.007739524996327757,
+      "blk_pct": 0.016671297582661847,
       "stl_pct_pctile": null,
-      "blk_pct_pctile": null,
-      "zones": {
-        "at_rim": {
-          "fga": 3,
-          "fgm": 2,
-          "pct": 0.6667
-        },
-        "paint": {
-          "fga": 5,
-          "fgm": 0,
-          "pct": 0.0
-        },
-        "mid": {
-          "fga": 2,
-          "fgm": 0,
-          "pct": 0.0
-        },
-        "corner_3": {
-          "fga": 0,
-          "fgm": 0,
-          "pct": null
-        },
-        "l_corner_3": {
-          "fga": 0,
-          "fgm": 0,
-          "pct": null
-        },
-        "r_corner_3": {
-          "fga": 0,
-          "fgm": 0,
-          "pct": null
-        },
-        "above_break_3": {
-          "fga": 4,
-          "fgm": 1,
-          "pct": 0.25
-        }
-      }
+      "blk_pct_pctile": null
     },
     {
       "id": 1630557,
       "name": "Corey Kispert",
       "age": 27.0,
-      "gp": 1,
+      "gp": 2,
       "w": 1,
-      "l": 0,
-      "mpg": 9.7,
-      "ppg": 11.0,
-      "rpg": 1.0,
-      "apg": 1.0,
+      "l": 1,
+      "mpg": 5.5,
+      "ppg": 8.0,
+      "rpg": 0.5,
+      "apg": 0.5,
       "spg": 0.0,
       "bpg": 0.0,
       "tov": 0.0,
-      "fg_pct": 0.8,
-      "fg3_pct": 0.75,
+      "fg_pct": 0.857,
+      "fg3_pct": 0.8,
       "ft_pct": 0.0,
-      "off_rating": 138.9,
-      "def_rating": 66.7,
-      "net_rating": 72.2,
-      "ts_pct": 1.1,
-      "efg_pct": 1.1,
-      "usg_pct": 0.238,
-      "ast_pct": 0.2,
+      "off_rating": 152.4,
+      "def_rating": 57.1,
+      "net_rating": 95.2,
+      "ts_pct": 1.143,
+      "efg_pct": 1.143,
+      "usg_pct": 0.292,
+      "ast_pct": 0.167,
       "tov_pct": 0.0,
-      "pace": 89.38,
-      "per": 0.386,
-      "pct_fga_3pt": 0.8,
-      "pct_pts_paint": 0.182,
+      "pace": 91.36,
+      "per": 0.471,
+      "pct_fga_3pt": 0.714,
+      "pct_pts_paint": 0.25,
       "pct_pts_fb": 0.0,
       "pts_off_tov": 3.0,
-      "pts_2nd_chance": 6.0,
+      "pts_2nd_chance": 3.0,
       "pts_fb": 0.0,
       "pts_paint": 2.0,
-      "pct_team_pts": 0.44,
-      "pct_team_reb": 0.125,
-      "pct_team_ast": 0.167,
-      "min_total": 9.666666666666666,
-      "pts_total": 11,
+      "pct_team_pts": 0.5,
+      "pct_team_reb": 0.111,
+      "pct_team_ast": 0.125,
+      "min_total": 11.033333333333333,
+      "pts_total": 16,
       "reb_total": 1,
       "ast_total": 1,
       "stl_total": 0,
       "blk_total": 0,
       "tov_total": 0,
-      "fgm_total": 4,
-      "fg3m_total": 3,
+      "fgm_total": 6,
+      "fg3m_total": 4,
       "ftm_total": 0,
       "contested_shots": 1.0,
       "contested_2pt": 0.0,
@@ -2445,29 +2445,66 @@
       "box_out_team_rebs": 0.0,
       "pos": "F",
       "qualified": false,
-      "ppg_pctile": 0.6575,
-      "rpg_pctile": 0.11,
-      "apg_pctile": 0.3125,
+      "ppg_pctile": 0.5206812652068127,
+      "rpg_pctile": 0.08029197080291971,
+      "apg_pctile": 0.2141119221411192,
       "spg_pctile": 0.0,
       "bpg_pctile": 0.0,
       "tov_pctile": 0.0,
-      "fg_pct_pctile": 0.9425,
-      "fg3_pct_pctile": 0.955,
+      "fg_pct_pctile": 0.9537712895377128,
+      "fg3_pct_pctile": 0.9537712895377128,
       "ft_pct_pctile": 0.0,
-      "ast_pct_pctile": 0.725,
+      "ast_pct_pctile": 0.6763990267639902,
       "tov_pct_pctile": 0.0,
-      "ppg_p36": 40.82474226804124,
-      "ppg_p36_pctile": 0.974937343358396,
-      "rpg_p36": 3.711340206185567,
-      "rpg_p36_pctile": 0.23558897243107768,
-      "apg_p36": 3.711340206185567,
-      "apg_p36_pctile": 0.6215538847117794,
+      "ppg_p36": 52.36363636363637,
+      "ppg_p36_pctile": 0.9878048780487805,
+      "rpg_p36": 3.272727272727273,
+      "rpg_p36_pctile": 0.17073170731707318,
+      "apg_p36": 3.272727272727273,
+      "apg_p36_pctile": 0.5780487804878048,
       "spg_p36": 0.0,
       "spg_p36_pctile": 0.0,
       "bpg_p36": 0.0,
       "bpg_p36_pctile": 0.0,
       "tov_p36": 0.0,
       "tov_p36_pctile": 0.0,
+      "zones": {
+        "at_rim": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "paint": {
+          "fga": 2,
+          "fgm": 2,
+          "pct": 1.0
+        },
+        "mid": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "l_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "r_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "above_break_3": {
+          "fga": 5,
+          "fgm": 4,
+          "pct": 0.8
+        }
+      },
       "hustle": {
         "contested_shots": {
           "value": 1.0,
@@ -2517,54 +2554,17 @@
       "stl_pct": 0.0,
       "blk_pct": 0.0,
       "stl_pct_pctile": null,
-      "blk_pct_pctile": null,
-      "zones": {
-        "at_rim": {
-          "fga": 0,
-          "fgm": 0,
-          "pct": null
-        },
-        "paint": {
-          "fga": 1,
-          "fgm": 1,
-          "pct": 1.0
-        },
-        "mid": {
-          "fga": 0,
-          "fgm": 0,
-          "pct": null
-        },
-        "corner_3": {
-          "fga": 0,
-          "fgm": 0,
-          "pct": null
-        },
-        "l_corner_3": {
-          "fga": 0,
-          "fgm": 0,
-          "pct": null
-        },
-        "r_corner_3": {
-          "fga": 0,
-          "fgm": 0,
-          "pct": null
-        },
-        "above_break_3": {
-          "fga": 4,
-          "fgm": 3,
-          "pct": 0.75
-        }
-      }
+      "blk_pct_pctile": null
     },
     {
       "id": 1642854,
       "name": "Asa Newell",
       "age": 21.0,
-      "gp": 1,
+      "gp": 2,
       "w": 1,
-      "l": 0,
-      "mpg": 8.1,
-      "ppg": 3.0,
+      "l": 1,
+      "mpg": 4.8,
+      "ppg": 1.5,
       "rpg": 1.0,
       "apg": 0.0,
       "spg": 0.0,
@@ -2573,16 +2573,16 @@
       "fg_pct": 0.5,
       "fg3_pct": 0.5,
       "ft_pct": 0.0,
-      "off_rating": 142.9,
-      "def_rating": 80.0,
-      "net_rating": 62.9,
+      "off_rating": 158.8,
+      "def_rating": 66.7,
+      "net_rating": 92.2,
       "ts_pct": 0.521,
       "efg_pct": 0.75,
-      "usg_pct": 0.188,
+      "usg_pct": 0.158,
       "ast_pct": 0.0,
       "tov_pct": 0.0,
-      "pace": 85.57,
-      "per": 0.041,
+      "pace": 88.42,
+      "per": 0.067,
       "pct_fga_3pt": 1.0,
       "pct_pts_paint": 0.0,
       "pct_pts_fb": 0.0,
@@ -2590,12 +2590,12 @@
       "pts_2nd_chance": 0.0,
       "pts_fb": 0.0,
       "pts_paint": 0.0,
-      "pct_team_pts": 0.15,
-      "pct_team_reb": 0.143,
+      "pct_team_pts": 0.111,
+      "pct_team_reb": 0.25,
       "pct_team_ast": 0.0,
-      "min_total": 8.133333333333333,
+      "min_total": 9.5,
       "pts_total": 3,
-      "reb_total": 1,
+      "reb_total": 2,
       "ast_total": 0,
       "stl_total": 0,
       "blk_total": 0,
@@ -2617,21 +2617,21 @@
       "box_out_team_rebs": 0.0,
       "pos": "F",
       "qualified": false,
-      "ppg_pctile": 0.2175,
-      "rpg_pctile": 0.11,
+      "ppg_pctile": 0.12408759124087591,
+      "rpg_pctile": 0.12165450121654502,
       "apg_pctile": 0.0,
       "spg_pctile": 0.0,
       "bpg_pctile": 0.0,
       "tov_pctile": 0.0,
-      "fg_pct_pctile": 0.5925,
-      "fg3_pct_pctile": 0.7975,
+      "fg_pct_pctile": 0.5936739659367397,
+      "fg3_pct_pctile": 0.8175182481751825,
       "ft_pct_pctile": 0.0,
       "ast_pct_pctile": 0.0,
       "tov_pct_pctile": 0.0,
-      "ppg_p36": 13.333333333333334,
-      "ppg_p36_pctile": 0.42355889724310775,
-      "rpg_p36": 4.444444444444445,
-      "rpg_p36_pctile": 0.3057644110275689,
+      "ppg_p36": 11.25,
+      "ppg_p36_pctile": 0.2951219512195122,
+      "rpg_p36": 7.5,
+      "rpg_p36_pctile": 0.6560975609756098,
       "apg_p36": 0.0,
       "apg_p36_pctile": 0.0,
       "spg_p36": 0.0,
@@ -2640,6 +2640,43 @@
       "bpg_p36_pctile": 0.0,
       "tov_p36": 0.0,
       "tov_p36_pctile": 0.0,
+      "zones": {
+        "at_rim": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "paint": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "mid": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "corner_3": {
+          "fga": 1,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "l_corner_3": {
+          "fga": 1,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "r_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "above_break_3": {
+          "fga": 1,
+          "fgm": 1,
+          "pct": 1.0
+        }
+      },
       "hustle": {
         "contested_shots": {
           "value": 1.0,
@@ -2689,72 +2726,35 @@
       "stl_pct": 0.0,
       "blk_pct": 0.0,
       "stl_pct_pctile": null,
-      "blk_pct_pctile": null,
-      "zones": {
-        "at_rim": {
-          "fga": 0,
-          "fgm": 0,
-          "pct": null
-        },
-        "paint": {
-          "fga": 0,
-          "fgm": 0,
-          "pct": null
-        },
-        "mid": {
-          "fga": 0,
-          "fgm": 0,
-          "pct": null
-        },
-        "corner_3": {
-          "fga": 1,
-          "fgm": 0,
-          "pct": 0.0
-        },
-        "l_corner_3": {
-          "fga": 1,
-          "fgm": 0,
-          "pct": 0.0
-        },
-        "r_corner_3": {
-          "fga": 0,
-          "fgm": 0,
-          "pct": null
-        },
-        "above_break_3": {
-          "fga": 1,
-          "fgm": 1,
-          "pct": 1.0
-        }
-      }
+      "blk_pct_pctile": null
     },
     {
       "id": 1627827,
       "name": "Dorian Finney-Smith",
       "age": 33.0,
-      "gp": 1,
+      "gp": 2,
       "w": 1,
-      "l": 0,
-      "mpg": 8.1,
-      "ppg": 3.0,
-      "rpg": 2.0,
-      "apg": 1.0,
+      "l": 1,
+      "mpg": 4.8,
+      "ppg": 1.5,
+      "rpg": 1.0,
+      "apg": 0.5,
       "spg": 0.0,
       "bpg": 0.0,
-      "tov": 1.0,
+      "tov": 0.5,
       "fg_pct": 0.5,
       "fg3_pct": 0.5,
       "ft_pct": 0.0,
-      "off_rating": 142.9,
-      "def_rating": 80.0,
-      "net_rating": 62.9,
+      "off_rating": 158.8,
+      "def_rating": 66.7,
+      "net_rating": 92.2,
       "ts_pct": 0.75,
       "efg_pct": 0.75,
-      "usg_pct": 0.188,
-      "ast_pct": 0.167,
+      "usg_pct": 0.158,
+      "ast_pct": 0.111,
       "tov_pct": 0.25,
-      "pace": 85.57,
-      "per": 0.163,
+      "pace": 88.42,
+      "per": 0.133,
       "pct_fga_3pt": 1.0,
       "pct_pts_paint": 0.0,
       "pct_pts_fb": 0.0,
@@ -2762,10 +2762,10 @@
       "pts_2nd_chance": 0.0,
       "pts_fb": 0.0,
       "pts_paint": 0.0,
-      "pct_team_pts": 0.15,
-      "pct_team_reb": 0.286,
-      "pct_team_ast": 0.2,
-      "min_total": 8.133333333333333,
+      "pct_team_pts": 0.111,
+      "pct_team_reb": 0.25,
+      "pct_team_ast": 0.143,
+      "min_total": 9.5,
       "pts_total": 3,
       "reb_total": 2,
       "ast_total": 1,
@@ -2789,29 +2789,66 @@
       "box_out_team_rebs": 0.0,
       "pos": "F",
       "qualified": false,
-      "ppg_pctile": 0.2175,
-      "rpg_pctile": 0.2675,
-      "apg_pctile": 0.3125,
+      "ppg_pctile": 0.12408759124087591,
+      "rpg_pctile": 0.12165450121654502,
+      "apg_pctile": 0.2141119221411192,
       "spg_pctile": 0.0,
       "bpg_pctile": 0.0,
-      "tov_pctile": 0.415,
-      "fg_pct_pctile": 0.5925,
-      "fg3_pct_pctile": 0.7975,
+      "tov_pctile": 0.25790754257907544,
+      "fg_pct_pctile": 0.5936739659367397,
+      "fg3_pct_pctile": 0.8175182481751825,
       "ft_pct_pctile": 0.0,
-      "ast_pct_pctile": 0.65,
-      "tov_pct_pctile": 0.925,
-      "ppg_p36": 13.333333333333334,
-      "ppg_p36_pctile": 0.42355889724310775,
-      "rpg_p36": 8.88888888888889,
-      "rpg_p36_pctile": 0.7468671679197995,
-      "apg_p36": 4.444444444444445,
-      "apg_p36_pctile": 0.7092731829573935,
+      "ast_pct_pctile": 0.48661800486618007,
+      "tov_pct_pctile": 0.9075425790754258,
+      "ppg_p36": 11.25,
+      "ppg_p36_pctile": 0.2951219512195122,
+      "rpg_p36": 7.5,
+      "rpg_p36_pctile": 0.6560975609756098,
+      "apg_p36": 3.75,
+      "apg_p36_pctile": 0.6390243902439025,
       "spg_p36": 0.0,
       "spg_p36_pctile": 0.0,
       "bpg_p36": 0.0,
       "bpg_p36_pctile": 0.0,
-      "tov_p36": 4.444444444444445,
-      "tov_p36_pctile": 0.8947368421052632,
+      "tov_p36": 3.75,
+      "tov_p36_pctile": 0.8268292682926829,
+      "zones": {
+        "at_rim": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "paint": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "mid": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "corner_3": {
+          "fga": 1,
+          "fgm": 1,
+          "pct": 1.0
+        },
+        "l_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "r_corner_3": {
+          "fga": 1,
+          "fgm": 1,
+          "pct": 1.0
+        },
+        "above_break_3": {
+          "fga": 1,
+          "fgm": 0,
+          "pct": 0.0
+        }
+      },
       "hustle": {
         "contested_shots": {
           "value": 1.0,
@@ -2861,72 +2898,35 @@
       "stl_pct": 0.0,
       "blk_pct": 0.0,
       "stl_pct_pctile": null,
-      "blk_pct_pctile": null,
-      "zones": {
-        "at_rim": {
-          "fga": 0,
-          "fgm": 0,
-          "pct": null
-        },
-        "paint": {
-          "fga": 0,
-          "fgm": 0,
-          "pct": null
-        },
-        "mid": {
-          "fga": 0,
-          "fgm": 0,
-          "pct": null
-        },
-        "corner_3": {
-          "fga": 1,
-          "fgm": 1,
-          "pct": 1.0
-        },
-        "l_corner_3": {
-          "fga": 0,
-          "fgm": 0,
-          "pct": null
-        },
-        "r_corner_3": {
-          "fga": 1,
-          "fgm": 1,
-          "pct": 1.0
-        },
-        "above_break_3": {
-          "fga": 1,
-          "fgm": 0,
-          "pct": 0.0
-        }
-      }
+      "blk_pct_pctile": null
     },
     {
       "id": 1643544,
       "name": "Zuby Ejiofor",
       "age": 22.0,
-      "gp": 1,
+      "gp": 2,
       "w": 1,
-      "l": 0,
-      "mpg": 8.1,
-      "ppg": 3.0,
-      "rpg": 2.0,
+      "l": 1,
+      "mpg": 4.8,
+      "ppg": 1.5,
+      "rpg": 1.0,
       "apg": 0.0,
       "spg": 0.0,
       "bpg": 0.0,
-      "tov": 1.0,
+      "tov": 0.5,
       "fg_pct": 0.333,
       "fg3_pct": 0.5,
       "ft_pct": 0.0,
-      "off_rating": 142.9,
-      "def_rating": 80.0,
-      "net_rating": 62.9,
+      "off_rating": 158.8,
+      "def_rating": 66.7,
+      "net_rating": 92.2,
       "ts_pct": 0.5,
       "efg_pct": 0.5,
-      "usg_pct": 0.25,
+      "usg_pct": 0.211,
       "ast_pct": 0.0,
       "tov_pct": 0.25,
-      "pace": 85.57,
-      "per": -0.041,
+      "pace": 88.42,
+      "per": -0.033,
       "pct_fga_3pt": 0.667,
       "pct_pts_paint": 0.0,
       "pct_pts_fb": 0.0,
@@ -2934,10 +2934,10 @@
       "pts_2nd_chance": 0.0,
       "pts_fb": 0.0,
       "pts_paint": 0.0,
-      "pct_team_pts": 0.15,
-      "pct_team_reb": 0.286,
+      "pct_team_pts": 0.111,
+      "pct_team_reb": 0.25,
       "pct_team_ast": 0.0,
-      "min_total": 8.133333333333333,
+      "min_total": 9.5,
       "pts_total": 3,
       "reb_total": 2,
       "ast_total": 0,
@@ -2961,29 +2961,66 @@
       "box_out_team_rebs": 2.0,
       "pos": "F",
       "qualified": false,
-      "ppg_pctile": 0.2175,
-      "rpg_pctile": 0.2675,
+      "ppg_pctile": 0.12408759124087591,
+      "rpg_pctile": 0.12165450121654502,
       "apg_pctile": 0.0,
       "spg_pctile": 0.0,
       "bpg_pctile": 0.0,
-      "tov_pctile": 0.415,
-      "fg_pct_pctile": 0.2,
-      "fg3_pct_pctile": 0.7975,
+      "tov_pctile": 0.25790754257907544,
+      "fg_pct_pctile": 0.19951338199513383,
+      "fg3_pct_pctile": 0.8175182481751825,
       "ft_pct_pctile": 0.0,
       "ast_pct_pctile": 0.0,
-      "tov_pct_pctile": 0.925,
-      "ppg_p36": 13.333333333333334,
-      "ppg_p36_pctile": 0.42355889724310775,
-      "rpg_p36": 8.88888888888889,
-      "rpg_p36_pctile": 0.7468671679197995,
+      "tov_pct_pctile": 0.9075425790754258,
+      "ppg_p36": 11.25,
+      "ppg_p36_pctile": 0.2951219512195122,
+      "rpg_p36": 7.5,
+      "rpg_p36_pctile": 0.6560975609756098,
       "apg_p36": 0.0,
       "apg_p36_pctile": 0.0,
       "spg_p36": 0.0,
       "spg_p36_pctile": 0.0,
       "bpg_p36": 0.0,
       "bpg_p36_pctile": 0.0,
-      "tov_p36": 4.444444444444445,
-      "tov_p36_pctile": 0.8947368421052632,
+      "tov_p36": 3.75,
+      "tov_p36_pctile": 0.8268292682926829,
+      "zones": {
+        "at_rim": {
+          "fga": 1,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "paint": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "mid": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "corner_3": {
+          "fga": 2,
+          "fgm": 1,
+          "pct": 0.5
+        },
+        "l_corner_3": {
+          "fga": 1,
+          "fgm": 1,
+          "pct": 1.0
+        },
+        "r_corner_3": {
+          "fga": 1,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "above_break_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        }
+      },
       "hustle": {
         "contested_shots": {
           "value": 1.0,
@@ -3033,58 +3070,21 @@
       "stl_pct": 0.0,
       "blk_pct": 0.0,
       "stl_pct_pctile": null,
-      "blk_pct_pctile": null,
-      "zones": {
-        "at_rim": {
-          "fga": 1,
-          "fgm": 0,
-          "pct": 0.0
-        },
-        "paint": {
-          "fga": 0,
-          "fgm": 0,
-          "pct": null
-        },
-        "mid": {
-          "fga": 0,
-          "fgm": 0,
-          "pct": null
-        },
-        "corner_3": {
-          "fga": 2,
-          "fgm": 1,
-          "pct": 0.5
-        },
-        "l_corner_3": {
-          "fga": 1,
-          "fgm": 1,
-          "pct": 1.0
-        },
-        "r_corner_3": {
-          "fga": 1,
-          "fgm": 0,
-          "pct": 0.0
-        },
-        "above_break_3": {
-          "fga": 0,
-          "fgm": 0,
-          "pct": null
-        }
-      }
+      "blk_pct_pctile": null
     }
   ],
   "league_medians": {
-    "ppg": 7.7,
+    "ppg": 7.5,
     "rpg": 3.0,
     "apg": 1.5,
     "spg": 0.5,
     "bpg": 0.3,
     "tov": 1.0,
-    "fg_pct": 0.444,
+    "fg_pct": 0.457,
     "fg3_pct": 0.286,
     "ft_pct": 0.667,
-    "ast_pct": 0.11649999999999999,
-    "tov_pct": 0.10300000000000001,
+    "ast_pct": 0.111,
+    "tov_pct": 0.1,
     "stl_pct": null,
     "blk_pct": null
   }
