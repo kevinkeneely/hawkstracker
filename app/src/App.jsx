@@ -1,5 +1,5 @@
 import { useEffect, useLayoutEffect, useState } from 'react'
-import { NavLink, Navigate, Route, Routes } from 'react-router-dom'
+import { Link, NavLink, Navigate, Route, Routes } from 'react-router-dom'
 import PlayerStatsPage from './pages/PlayerStatsPage'
 import TeamStatsPage from './pages/TeamStatsPage'
 import StandingsPage from './pages/StandingsPage'
@@ -9,6 +9,7 @@ import Footer from './components/Footer'
 import BoxScorePage from './pages/BoxScorePage'
 import ChartsPage from './pages/ChartsPage'
 import ComparePage from './pages/ComparePage'
+import HomePage from './pages/HomePage'
 import { Analytics } from '@vercel/analytics/react'
 
 const HAWKS_TEAM_ID = 1610612737
@@ -176,7 +177,7 @@ function App() {
             {theme === 'dark' ? 'Light mode' : 'Dark mode'}
           </button>
         </div>
-        <h1>Hawks Tracker</h1>
+        <Link to="/" style={{ color: "inherit", textDecoration: "none" }}><h1>Hawks Tracker</h1></Link>
         <p>Atlanta Hawks {playerData?.season ?? season ?? '2025–26'} season dashboard</p>
         {leaderboards?.generated_at && (
           <p className="last-updated">Updated {formatUpdatedAt(leaderboards.generated_at)}</p>
@@ -194,7 +195,7 @@ function App() {
         {!error && !loaded && <p>Loading…</p>}
         {loaded && (
           <Routes>
-            <Route path="/" element={<Navigate to="/players" replace />} />
+            <Route path="/" element={<HomePage hawks={hawks} teamData={teamData} />} />
             <Route path="/players" element={<PlayerStatsPage playerData={playerData} />} />
             <Route path="/team" element={<TeamStatsPage hawks={hawks} teamData={teamData} />} />
             <Route path="/standings" element={<StandingsPage standingsData={standingsData} season={season} />} />
