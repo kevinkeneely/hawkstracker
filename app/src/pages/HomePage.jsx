@@ -1,19 +1,43 @@
-// HomePage — the default landing page at `/`.
+import HeaderStats from '../components/HeaderStats'
+import TeamStats from '../components/TeamStats'
+
+// HomePage — default landing page at `/`.
 //
-// Phase 1 of the Home page build (Oct 27, 2026): skeleton only, confirms
-// the route works and the clickable title lands here. Phase 2 will move
-// Team Stats content in. Phase 5 adds the point-differential chart.
+// Layout uses CSS grid with `auto-fit` + `minmax`: as many columns as fit
+// at ≥420px wide, each flexing up to 1fr. One child fills the row; two
+// children sit side-by-side on wide screens and stack on narrow. Adding
+// a third block later just drops in — no layout rewrite needed.
 //
-// Layout uses CSS grid with `auto-fit` so adding a third or fourth block
-// later just drops in without rewriting the layout rule — see §Phase 6.
+// Phase 2 (Oct 27, 2026): Team Stats moved onto this page, full-size for
+// now. Phase 5 adds a point-differential chart next to it. Phase 6 compacts
+// the Team Stats cards so both fit cleanly side-by-side without scroll.
 export default function HomePage({ hawks, teamData }) {
-  return (
-    <div className="home-page" style={{ padding: '1rem 0' }}>
-      <h2 style={{ marginTop: 0 }}>Home</h2>
-      <p style={{ opacity: 0.7 }}>
-        Phase 1 skeleton — routing is wired. Team Stats and the point-differential
-        chart arrive in the next phases.
+  // Early-season / empty-data fallback: before the Hawks have played a game,
+  // the stats endpoints return no rows. Mirror TeamStatsPage's empty state so
+  // the home page doesn't look broken on the first visit of the season.
+  if (!hawks) {
+    return (
+      <p className="empty-state">
+        The dashboard will populate once the Hawks have played their first game.
       </p>
+    )
+  }
+
+  return (
+    <div
+      className="home-grid"
+      style={{
+        display: 'grid',
+        gridTemplateColumns: 'repeat(auto-fit, minmax(420px, 1fr))',
+        gap: '1.5rem',
+        padding: '1rem 0',
+      }}
+    >
+      <section className="home-team-stats">
+        <HeaderStats team={hawks} />
+        <TeamStats team={hawks} allTeams={teamData.teams} />
+      </section>
+      {/* Phase 5 adds <PointDifferentialChart /> here as a second grid child. */}
     </div>
   )
 }
