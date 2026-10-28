@@ -32,13 +32,15 @@ export default function HomePage({ hawks, teamData, season }) {
         gridTemplateColumns: 'repeat(auto-fit, minmax(420px, 1fr))',
         gap: '1.5rem',
         padding: '1rem 0',
+        maxWidth: '100%',
+        overflowX: 'hidden',
       }}
     >
-      <section className="home-team-stats" style={{ minWidth: 0 }}>
+      <section className="home-team-stats" style={{ minWidth: 0, maxWidth: '100%', overflowX: 'hidden' }}>
         <HeaderStats team={hawks} />
         <TeamStats team={hawks} allTeams={teamData.teams} />
       </section>
-      <section className="home-point-diff" style={{ minWidth: 0 }}>
+      <section className="home-point-diff" style={{ minWidth: 0, maxWidth: '100%', overflowX: 'hidden' }}>
         <PointDifferentialChart season={season} />
       </section>
     </div>
