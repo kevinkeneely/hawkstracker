@@ -497,6 +497,31 @@ code {
   pointer-events: none;
   z-index: 10;
 }
+
+/* Point-differential chart tooltip — positioned by inline left/top set from
+   the hovered dot's SVG coords expressed as percentages of W/H. Pointer
+   events disabled so it doesn't flicker when hovering across dots. */
+.pdiff-tooltip {
+  position: absolute;
+  transform: translate(-50%, calc(-100% - 10px));
+  background: var(--text-h);
+  color: var(--bg);
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 12px;
+  line-height: 1.35;
+  white-space: nowrap;
+  pointer-events: none;
+  box-shadow: var(--shadow);
+  z-index: 2;
+}
+.pdiff-tooltip-head {
+  font-weight: 600;
+}
+.pdiff-tooltip-cum {
+  opacity: 0.75;
+}
+
 /* ---------- Tabs nav ---------- */
 
 .tabs {

@@ -42,6 +42,10 @@ function pickXStep(n) {
 export default function PointDifferentialChart({ season }) {
   const [schedule, setSchedule] = useState(null)
   const [error, setError] = useState(null)
+  // Which dot's tooltip is open. Driven by mouseenter/mouseleave on the
+  // invisible hit circles; mobile browsers synthesize mouseenter from a tap,
+  // so the tooltip opens on tap too (unlike the native <title> which doesn't).
+  const [hovered, setHovered] = useState(null)
 
   useEffect(() => {
     setSchedule(null)
@@ -147,7 +151,7 @@ export default function PointDifferentialChart({ season }) {
   const signed = (final >= 0 ? '+' : '') + final
 
   return (
-    <div className="pdiff-chart">
+    <div className="pdiff-chart" style={{ position: 'relative' }}>
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', marginBottom: '0.5rem' }}>
         <h3 style={{ margin: 0 }}>Cumulative point differential</h3>
         <span style={{ fontSize: '0.9rem', opacity: 0.7 }}>
@@ -160,6 +164,7 @@ export default function PointDifferentialChart({ season }) {
         role="img"
         aria-label={`Hawks cumulative point differential through ${nGames} games`}
         style={{ width: '100%', height: 'auto', display: 'block' }}
+        onClick={() => setHovered(null)}
       >
         {/* Y-axis grid + labels */}
         {yTicks.map((v) => (
@@ -237,35 +242,54 @@ export default function PointDifferentialChart({ season }) {
           strokeLinecap="round"
         />
 
-        {/* A dot at each game, plus a larger invisible hit-area circle on top
-            so hovering is easy and the native <title> tooltip appears. */}
-        {points.map((p) => {
-          const result = p.gameDiff >= 0 ? `W by ${p.gameDiff}` : `L by ${-p.gameDiff}`
-          const cumLabel = (p.cumDiff >= 0 ? '+' : '') + p.cumDiff
-          return (
-            <g key={p.gameNum}>
-              <circle
-                cx={xScale(p.gameNum)}
-                cy={yScale(p.cumDiff)}
-                r={3}
-                fill="var(--hawks-red, #c8102e)"
-                stroke="var(--bg, #111216)"
-                strokeWidth="1"
-                pointerEvents="none"
-              />
-              <circle
-                cx={xScale(p.gameNum)}
-                cy={yScale(p.cumDiff)}
-                r={12}
-                fill="transparent"
-                style={{ cursor: 'pointer' }}
-              >
-                <title>{`Game ${p.gameNum} (${p.date}) vs ${p.opp}\n${result} (${p.hawksScore}-${p.oppScore})\nCumulative: ${cumLabel}`}</title>
-              </circle>
-            </g>
-          )
-        })}
+        {/* A dot at each game, plus a larger invisible hit-area circle on top.
+            onMouseEnter/Leave drives a positioned <div> tooltip below — this
+            works on tap on mobile (which the native <title> does not). */}
+        {points.map((p) => (
+          <g key={p.gameNum}>
+            <circle
+              cx={xScale(p.gameNum)}
+              cy={yScale(p.cumDiff)}
+              r={3}
+              fill="var(--hawks-red, #c8102e)"
+              stroke="var(--bg, #111216)"
+              strokeWidth="1"
+              pointerEvents="none"
+            />
+            <circle
+              cx={xScale(p.gameNum)}
+              cy={yScale(p.cumDiff)}
+              r={12}
+              fill="transparent"
+              style={{ cursor: 'pointer' }}
+              onMouseEnter={() => setHovered(p)}
+              onMouseLeave={() => setHovered(null)}
+              onClick={(e) => { e.stopPropagation(); setHovered(p) }}
+            />
+          </g>
+        ))}
       </svg>
+
+      {hovered && (
+        <div
+          className="pdiff-tooltip"
+          style={{
+            left: `${(xScale(hovered.gameNum) / W) * 100}%`,
+            top: `${(yScale(hovered.cumDiff) / H) * 100}%`,
+          }}
+        >
+          <div className="pdiff-tooltip-line pdiff-tooltip-head">
+            Game {hovered.gameNum} vs {hovered.opp}
+          </div>
+          <div className="pdiff-tooltip-line">
+            {hovered.gameDiff >= 0 ? 'W' : 'L'} {hovered.hawksScore}-{hovered.oppScore}
+            {' '}({hovered.gameDiff >= 0 ? '+' : ''}{hovered.gameDiff})
+          </div>
+          <div className="pdiff-tooltip-line pdiff-tooltip-cum">
+            Cumulative: {hovered.cumDiff >= 0 ? '+' : ''}{hovered.cumDiff}
+          </div>
+        </div>
+      )}
     </div>
   )
 }
