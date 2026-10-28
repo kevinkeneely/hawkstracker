@@ -133,6 +133,14 @@ export default function PointDifferentialChart({ season }) {
     .map((p, i) => `${i === 0 ? 'M' : 'L'} ${xScale(p.gameNum).toFixed(1)} ${yScale(p.cumDiff).toFixed(1)}`)
     .join(' ')
 
+  // Build a closed area polygon = line + down to zero on the right + back
+  // along the zero line to the left. We render this polygon twice, once
+  // clipped to above-zero (green fill) and once clipped to below-zero
+  // (light Hawks-red fill), so zigzags across zero split color automatically.
+  const firstX = xScale(points[0].gameNum)
+  const lastX = xScale(points[points.length - 1].gameNum)
+  const areaPath = `${linePath} L ${lastX.toFixed(1)} ${y0.toFixed(1)} L ${firstX.toFixed(1)} ${y0.toFixed(1)} Z`
+
   // Y-axis ticks: 5 lines, nice round numbers at yBound / 2 steps.
   const yStep = yBound / 2
   const yTicks = []
@@ -166,6 +174,21 @@ export default function PointDifferentialChart({ season }) {
         style={{ width: '100%', height: 'auto', display: 'block' }}
         onClick={() => setHovered(null)}
       >
+        {/* Clip paths used by the two area fills: above-zero (green) and
+            below-zero (light Hawks red). */}
+        <defs>
+          <clipPath id="pdiff-above-zero">
+            <rect x={PAD.left} y={PAD.top} width={PLOT_W} height={Math.max(0, y0 - PAD.top)} />
+          </clipPath>
+          <clipPath id="pdiff-below-zero">
+            <rect x={PAD.left} y={y0} width={PLOT_W} height={Math.max(0, PAD.top + PLOT_H - y0)} />
+          </clipPath>
+        </defs>
+
+        {/* Area fills — same polygon, two colors clipped to each half. */}
+        <path d={areaPath} fill="rgba(76, 175, 80, 0.18)" clipPath="url(#pdiff-above-zero)" />
+        <path d={areaPath} fill="rgba(200, 16, 46, 0.18)" clipPath="url(#pdiff-below-zero)" />
+
         {/* Y-axis grid + labels */}
         {yTicks.map((v) => (
           <g key={`y-${v}`}>
