@@ -1,5 +1,6 @@
 import HeaderStats from '../components/HeaderStats'
 import TeamStats from '../components/TeamStats'
+import PointDifferentialChart from '../components/PointDifferentialChart'
 
 // HomePage — default landing page at `/`.
 //
@@ -11,7 +12,7 @@ import TeamStats from '../components/TeamStats'
 // Phase 2 (Oct 27, 2026): Team Stats moved onto this page, full-size for
 // now. Phase 5 adds a point-differential chart next to it. Phase 6 compacts
 // the Team Stats cards so both fit cleanly side-by-side without scroll.
-export default function HomePage({ hawks, teamData }) {
+export default function HomePage({ hawks, teamData, season }) {
   // Early-season / empty-data fallback: before the Hawks have played a game,
   // the stats endpoints return no rows. Mirror TeamStatsPage's empty state so
   // the home page doesn't look broken on the first visit of the season.
@@ -33,11 +34,13 @@ export default function HomePage({ hawks, teamData }) {
         padding: '1rem 0',
       }}
     >
-      <section className="home-team-stats">
+      <section className="home-team-stats" style={{ minWidth: 0 }}>
         <HeaderStats team={hawks} />
         <TeamStats team={hawks} allTeams={teamData.teams} />
       </section>
-      {/* Phase 5 adds <PointDifferentialChart /> here as a second grid child. */}
+      <section className="home-point-diff" style={{ minWidth: 0 }}>
+        <PointDifferentialChart season={season} />
+      </section>
     </div>
   )
 }
