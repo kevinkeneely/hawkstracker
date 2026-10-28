@@ -18,7 +18,8 @@ function ConferenceTable({ name, teams }) {
   return (
     <div className="conference">
       <h2 className="conference-name">{name}</h2>
-      <table className="standings-table">
+      <div className="table-wrap">
+        <table className="standings-table">
         <thead>
           <tr>
             <th>#</th>
@@ -46,7 +47,8 @@ function ConferenceTable({ name, teams }) {
             </tr>
           ))}
         </tbody>
-      </table>
+        </table>
+      </div>
     </div>
   )
 }

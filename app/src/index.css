@@ -398,9 +398,9 @@ code {
 /* Simple label | plot | value row (same shape inside Hawks and Opp columns) */
 .ts-row {
   display: grid;
-  grid-template-columns: 70px 1fr 60px;
+  grid-template-columns: 70px 1fr auto;
   align-items: center;
-  gap: 10px;
+  gap: 12px;
   padding: 4px 0;
 }
 
@@ -411,8 +411,7 @@ code {
 }
 
 .ts-plot {
-  display: flex;
-  justify-content: center;
+  display: block;
 }
 
 .ts-value {
@@ -447,7 +446,7 @@ code {
     grid-template-columns: 1fr;
   }
   .ts-row {
-    grid-template-columns: 70px 1fr 60px;
+    grid-template-columns: 70px 1fr auto;
   }
 }
 /* ---------- Dot plot ---------- */
@@ -480,7 +479,7 @@ code {
 
 .dot-plot-hawks-rank {
   fill: #fff;
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 600;
   pointer-events: none;
 }

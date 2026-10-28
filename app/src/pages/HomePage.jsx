@@ -25,6 +25,7 @@ export default function HomePage({ hawks, teamData, season }) {
   }
 
   return (
+    <>
     <div
       className="home-grid"
       style={{
@@ -36,13 +37,16 @@ export default function HomePage({ hawks, teamData, season }) {
         overflowX: 'hidden',
       }}
     >
-      <section className="home-team-stats" style={{ minWidth: 0, maxWidth: '100%', overflowX: 'hidden' }}>
+      <section className="home-kpi" style={{ minWidth: 0, maxWidth: '100%', overflowX: 'hidden' }}>
         <HeaderStats team={hawks} />
-        <TeamStats team={hawks} allTeams={teamData.teams} />
       </section>
       <section className="home-point-diff" style={{ minWidth: 0, maxWidth: '100%', overflowX: 'hidden' }}>
         <PointDifferentialChart season={season} />
       </section>
     </div>
+    <section className="home-team-stats-full">
+      <TeamStats team={hawks} allTeams={teamData.teams} />
+    </section>
+    </>
   )
 }
