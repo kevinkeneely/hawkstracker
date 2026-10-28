@@ -18,8 +18,7 @@ function ConferenceTable({ name, teams }) {
   return (
     <div className="conference">
       <h2 className="conference-name">{name}</h2>
-      <div className="table-wrap">
-        <table className="standings-table">
+      <table className="standings-table">
         <thead>
           <tr>
             <th>#</th>
@@ -38,7 +37,10 @@ function ConferenceTable({ name, teams }) {
               className={t.team_id === HAWKS_TEAM_ID ? 'hawks-row' : ''}
             >
               <td>{t.conf_rank}</td>
-              <td>{t.name}</td>
+              <td>
+                <span className="team-name-full">{t.name}</span>
+                <span className="team-name-abbr">{t.abbr}</span>
+              </td>
               <td>{t.w}-{t.l}</td>
               <td>{formatPct(t.pct)}</td>
               <td>{formatGb(t.gb)}</td>
@@ -47,8 +49,7 @@ function ConferenceTable({ name, teams }) {
             </tr>
           ))}
         </tbody>
-        </table>
-      </div>
+      </table>
     </div>
   )
 }

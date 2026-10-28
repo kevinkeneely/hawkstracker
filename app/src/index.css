@@ -593,6 +593,9 @@ code {
   font-size: 14px;
 }
 
+.team-name-full { display: inline; }
+.team-name-abbr { display: none; }
+
 .standings-table th,
 .standings-table td {
   padding: 6px 8px;
@@ -1159,6 +1162,25 @@ html, body {
     width: 100%;
     max-width: 260px;
     height: auto;
+  }
+}
+
+
+/* Standings: fit to narrow screens — use team tricodes, tighter padding/font */
+@media (max-width: 640px) {
+  .team-name-full { display: none; }
+  .team-name-abbr { display: inline; font-weight: 600; }
+  .standings-table {
+    font-size: 12px;
+  }
+  .standings-table th,
+  .standings-table td {
+    padding: 4px 4px;
+    letter-spacing: 0;
+  }
+  .standings-table th {
+    font-size: 10px;
+    letter-spacing: 0.2px;
   }
 }
 
