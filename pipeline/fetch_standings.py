@@ -5,6 +5,7 @@ from datetime import date
 from pathlib import Path
 
 from pipeline import config  # noqa: F401 — triggers NBA.com header override
+from pipeline.config import SEASON
 
 from nba_api.stats.endpoints import leaguestandings
 
@@ -16,8 +17,17 @@ def fetch_standings():
     today = date.today().isoformat()
     out_path = RAW_DIR / f"standings_{today}.json"
 
-    print(f"Fetching standings for {today}...")
-    response = leaguestandings.LeagueStandings()
+    print(f"Fetching standings for {today} (season={SEASON})...")
+    # Pass season and season_type explicitly — a bare LeagueStandings() call
+    # returns whatever NBA.com considers the "current" season, which at a
+    # season flip can disagree with our config.SEASON. That mismatch is how
+    # standingsData-2025-26.json got overwritten with 2026-27 data on the
+    # Oct 20 flip. Explicit params = our configured season is always what we
+    # fetch, so the output filename and the content always match.
+    response = leaguestandings.LeagueStandings(
+        season=SEASON,
+        season_type="Regular Season",
+    )
     raw = response.get_dict()
 
     with open(out_path, "w") as f:
