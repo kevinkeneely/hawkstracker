@@ -454,7 +454,8 @@ code {
 
 .dot-plot {
   position: relative;
-  display: inline-block;
+  display: block;
+  width: 100%;
 }
 
 .dot-plot-baseline {

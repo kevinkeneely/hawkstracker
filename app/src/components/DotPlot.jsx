@@ -27,7 +27,13 @@ export default function DotPlot({ values, hawksId, hawksRank, format }) {
 
   return (
     <div className="dot-plot">
-      <svg width={WIDTH} height={HEIGHT} role="img" aria-label="Distribution across 30 teams">
+      <svg
+        viewBox={`0 0 ${WIDTH} ${HEIGHT}`}
+        preserveAspectRatio="xMidYMid meet"
+        role="img"
+        aria-label="Distribution across 30 teams"
+        style={{ width: '100%', height: 'auto', display: 'block' }}
+      >
         {/* Baseline */}
         <line
           x1={MARGIN_X}
@@ -81,7 +87,7 @@ export default function DotPlot({ values, hawksId, hawksRank, format }) {
       </svg>
 
       {hovered && (
-        <div className="dot-plot-tooltip" style={{ left: hovered.x }}>
+        <div className="dot-plot-tooltip" style={{ left: `${(hovered.x / WIDTH) * 100}%` }}>
           {hovered.name}: {fmt(hovered.value)}
         </div>
       )}
