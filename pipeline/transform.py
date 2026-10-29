@@ -98,8 +98,10 @@ FIELDS = {
         "BLK": "blk_total",
         "TOV": "tov_total",
         "FGM": "fgm_total",
+        "FGA": "fga_total",
         "FG3M": "fg3m_total",
         "FTM": "ftm_total",
+        "FTA": "fta_total",
     },
     "hustle": {
         "CONTESTED_SHOTS": "contested_shots",

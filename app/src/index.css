@@ -910,10 +910,29 @@ code {
   color: var(--text);
 }
 
+.leaders-section-title {
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--text-h);
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  margin: 32px 0 12px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--border);
+}
+.leaders-section-title:first-of-type {
+  margin-top: 0;
+}
+
 .leaders-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
   gap: 20px;
+}
+
+/* Space between the two grids on the Leaders page. */
+.leaders-grid + .leaders-section-title {
+  margin-top: 32px;
 }
 
 .leader-card {
@@ -1853,6 +1872,44 @@ header {
   font-size: 12px;
   font-style: italic;
   padding: 12px;
+}
+
+/* Leaders page — 4-column dropdown layout */
+
+.leader-column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.leader-column-title {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-h, #e8e8e8);
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  margin: 0;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--border);
+}
+
+.leader-select {
+  background: var(--card, #1a1a1a);
+  color: var(--text, #e8e8e8);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 8px 12px;
+  font-size: 14px;
+  font-family: inherit;
+  cursor: pointer;
+  width: 100%;
+  /* Native select for now — followup item: swap to custom dropdown to match
+     the Scatter Plots page selector. */
+}
+
+.leader-select:focus {
+  outline: 2px solid var(--accent, #e03a3e);
+  outline-offset: 2px;
 }
 
 /* Charts page --------------------------------------------------------- */
