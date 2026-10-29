@@ -177,7 +177,145 @@
         }
       },
       "stl_p75": 1.1848549210974388,
-      "deflections_p75": 2.3697098421948777
+      "deflections_p75": 2.3697098421948777,
+      "clutch": {
+        "gp": {
+          "value": 34,
+          "pctile": 0.9376
+        },
+        "min": {
+          "value": 3.8,
+          "pctile": 0.8825
+        },
+        "pts": {
+          "value": 2.9,
+          "pctile": 0.9424
+        },
+        "oreb": {
+          "value": 0.1,
+          "pctile": 0.3645
+        },
+        "dreb": {
+          "value": 0.6,
+          "pctile": 0.8153
+        },
+        "reb": {
+          "value": 0.8,
+          "pctile": 0.8177
+        },
+        "ast": {
+          "value": 0.7,
+          "pctile": 0.9568
+        },
+        "stl": {
+          "value": 0.3,
+          "pctile": 0.9448
+        },
+        "blk": {
+          "value": 0.1,
+          "pctile": 0.6283
+        },
+        "tov": {
+          "value": 0.4,
+          "pctile": 0.9305
+        },
+        "fgm": {
+          "value": 1.0,
+          "pctile": 0.952
+        },
+        "fga": {
+          "value": 1.9,
+          "pctile": 0.9065
+        },
+        "fg_pct": {
+          "value": 0.516,
+          "pctile": 0.7458
+        },
+        "fg3m": {
+          "value": 0.2,
+          "pctile": 0.6978
+        },
+        "fg3a": {
+          "value": 0.6,
+          "pctile": 0.7578
+        },
+        "fg3_pct": {
+          "value": 0.35,
+          "pctile": 0.7218
+        },
+        "ftm": {
+          "value": 0.7,
+          "pctile": 0.8609
+        },
+        "fta": {
+          "value": 0.9,
+          "pctile": 0.8849
+        },
+        "ft_pct": {
+          "value": 0.806,
+          "pctile": 0.6451
+        },
+        "pf": {
+          "value": 0.3,
+          "pctile": 0.3957
+        },
+        "plus_minus": {
+          "value": 0.0,
+          "pctile": 0.5252
+        },
+        "off_rating": {
+          "value": 111.2,
+          "pctile": 0.6115
+        },
+        "def_rating": {
+          "value": 106.6,
+          "pctile": 0.4388
+        },
+        "net_rating": {
+          "value": 4.7,
+          "pctile": 0.6259
+        },
+        "efg_pct": {
+          "value": 0.57,
+          "pctile": 0.7002
+        },
+        "ts_pct": {
+          "value": 0.631,
+          "pctile": 0.693
+        },
+        "ast_pct": {
+          "value": 0.353,
+          "pctile": 0.9544
+        },
+        "oreb_pct": {
+          "value": 0.03,
+          "pctile": 0.5156
+        },
+        "dreb_pct": {
+          "value": 0.148,
+          "pctile": 0.6739
+        },
+        "reb_pct": {
+          "value": 0.093,
+          "pctile": 0.6427
+        },
+        "tm_tov_pct": {
+          "value": 12.1,
+          "pctile": 0.7266
+        },
+        "usg_pct": {
+          "value": 0.297,
+          "pctile": 0.9089
+        },
+        "pie": {
+          "value": 0.202,
+          "pctile": 0.9353
+        }
+      },
+      "stl_pct": 0.01610866075338186,
+      "blk_pct": 0.010315014552302687,
+      "stl_pct_pctile": 0.4860215053763441,
+      "blk_pct_pctile": 0.34623655913978496
     },
     {
       "id": 1629638,
@@ -354,7 +492,145 @@
         }
       },
       "stl_p75": 1.3424004644476137,
-      "deflections_p75": 3.583176624333246
+      "deflections_p75": 3.583176624333246,
+      "clutch": {
+        "gp": {
+          "value": 34,
+          "pctile": 0.9376
+        },
+        "min": {
+          "value": 3.8,
+          "pctile": 0.8825
+        },
+        "pts": {
+          "value": 2.3,
+          "pctile": 0.8921
+        },
+        "oreb": {
+          "value": 0.1,
+          "pctile": 0.3645
+        },
+        "dreb": {
+          "value": 0.2,
+          "pctile": 0.2374
+        },
+        "reb": {
+          "value": 0.3,
+          "pctile": 0.2662
+        },
+        "ast": {
+          "value": 0.1,
+          "pctile": 0.2398
+        },
+        "stl": {
+          "value": 0.1,
+          "pctile": 0.47
+        },
+        "blk": {
+          "value": 0.1,
+          "pctile": 0.6283
+        },
+        "tov": {
+          "value": 0.1,
+          "pctile": 0.3501
+        },
+        "fgm": {
+          "value": 0.7,
+          "pctile": 0.8489
+        },
+        "fga": {
+          "value": 1.7,
+          "pctile": 0.8705
+        },
+        "fg_pct": {
+          "value": 0.404,
+          "pctile": 0.4772
+        },
+        "fg3m": {
+          "value": 0.3,
+          "pctile": 0.8585
+        },
+        "fg3a": {
+          "value": 0.9,
+          "pctile": 0.9281
+        },
+        "fg3_pct": {
+          "value": 0.367,
+          "pctile": 0.7362
+        },
+        "ftm": {
+          "value": 0.6,
+          "pctile": 0.8177
+        },
+        "fta": {
+          "value": 0.8,
+          "pctile": 0.8417
+        },
+        "ft_pct": {
+          "value": 0.815,
+          "pctile": 0.6523
+        },
+        "pf": {
+          "value": 0.4,
+          "pctile": 0.6115
+        },
+        "plus_minus": {
+          "value": -0.6,
+          "pctile": 0.3477
+        },
+        "off_rating": {
+          "value": 108.8,
+          "pctile": 0.554
+        },
+        "def_rating": {
+          "value": 108.9,
+          "pctile": 0.5012
+        },
+        "net_rating": {
+          "value": -0.1,
+          "pctile": 0.5276
+        },
+        "efg_pct": {
+          "value": 0.5,
+          "pctile": 0.4988
+        },
+        "ts_pct": {
+          "value": 0.573,
+          "pctile": 0.5659
+        },
+        "ast_pct": {
+          "value": 0.053,
+          "pctile": 0.3094
+        },
+        "oreb_pct": {
+          "value": 0.015,
+          "pctile": 0.3621
+        },
+        "dreb_pct": {
+          "value": 0.054,
+          "pctile": 0.199
+        },
+        "reb_pct": {
+          "value": 0.035,
+          "pctile": 0.1727
+        },
+        "tm_tov_pct": {
+          "value": 5.3,
+          "pctile": 0.3933
+        },
+        "usg_pct": {
+          "value": 0.235,
+          "pctile": 0.8106
+        },
+        "pie": {
+          "value": 0.09,
+          "pctile": 0.518
+        }
+      },
+      "stl_pct": 0.018391524852164522,
+      "blk_pct": 0.013588641925189169,
+      "stl_pct_pctile": 0.6494623655913978,
+      "blk_pct_pctile": 0.4967741935483871
     },
     {
       "id": 1630700,
@@ -531,7 +807,145 @@
         }
       },
       "stl_p75": 2.1018363043178723,
-      "deflections_p75": 4.371819512981174
+      "deflections_p75": 4.371819512981174,
+      "clutch": {
+        "gp": {
+          "value": 33,
+          "pctile": 0.9281
+        },
+        "min": {
+          "value": 3.8,
+          "pctile": 0.8825
+        },
+        "pts": {
+          "value": 1.0,
+          "pctile": 0.5012
+        },
+        "oreb": {
+          "value": 0.3,
+          "pctile": 0.8249
+        },
+        "dreb": {
+          "value": 0.7,
+          "pctile": 0.8873
+        },
+        "reb": {
+          "value": 1.0,
+          "pctile": 0.9185
+        },
+        "ast": {
+          "value": 0.5,
+          "pctile": 0.8585
+        },
+        "stl": {
+          "value": 0.1,
+          "pctile": 0.47
+        },
+        "blk": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "tov": {
+          "value": 0.1,
+          "pctile": 0.3501
+        },
+        "fgm": {
+          "value": 0.5,
+          "pctile": 0.6811
+        },
+        "fga": {
+          "value": 0.9,
+          "pctile": 0.6139
+        },
+        "fg_pct": {
+          "value": 0.5,
+          "pctile": 0.6427
+        },
+        "fg3m": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "fg3a": {
+          "value": 0.1,
+          "pctile": 0.2206
+        },
+        "fg3_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "ftm": {
+          "value": 0.1,
+          "pctile": 0.2806
+        },
+        "fta": {
+          "value": 0.1,
+          "pctile": 0.247
+        },
+        "ft_pct": {
+          "value": 0.75,
+          "pctile": 0.5156
+        },
+        "pf": {
+          "value": 0.5,
+          "pctile": 0.7722
+        },
+        "plus_minus": {
+          "value": -0.5,
+          "pctile": 0.3813
+        },
+        "off_rating": {
+          "value": 112.6,
+          "pctile": 0.6547
+        },
+        "def_rating": {
+          "value": 107.1,
+          "pctile": 0.4532
+        },
+        "net_rating": {
+          "value": 5.5,
+          "pctile": 0.6331
+        },
+        "efg_pct": {
+          "value": 0.5,
+          "pctile": 0.4988
+        },
+        "ts_pct": {
+          "value": 0.52,
+          "pctile": 0.4388
+        },
+        "ast_pct": {
+          "value": 0.198,
+          "pctile": 0.7362
+        },
+        "oreb_pct": {
+          "value": 0.081,
+          "pctile": 0.801
+        },
+        "dreb_pct": {
+          "value": 0.154,
+          "pctile": 0.7074
+        },
+        "reb_pct": {
+          "value": 0.12,
+          "pctile": 0.7866
+        },
+        "tm_tov_pct": {
+          "value": 7.8,
+          "pctile": 0.53
+        },
+        "usg_pct": {
+          "value": 0.123,
+          "pctile": 0.3405
+        },
+        "pie": {
+          "value": 0.095,
+          "pctile": 0.5612
+        }
+      },
+      "stl_pct": 0.02846510333930931,
+      "blk_pct": 0.0109364009711161,
+      "stl_pct_pctile": 0.9419354838709677,
+      "blk_pct_pctile": 0.3849462365591398
     },
     {
       "id": 1630168,
@@ -708,7 +1122,145 @@
         }
       },
       "stl_p75": 1.223698970053367,
-      "deflections_p75": 2.614265981477647
+      "deflections_p75": 2.614265981477647,
+      "clutch": {
+        "gp": {
+          "value": 29,
+          "pctile": 0.8465
+        },
+        "min": {
+          "value": 3.4,
+          "pctile": 0.7698
+        },
+        "pts": {
+          "value": 0.8,
+          "pctile": 0.3981
+        },
+        "oreb": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "dreb": {
+          "value": 0.7,
+          "pctile": 0.8873
+        },
+        "reb": {
+          "value": 0.7,
+          "pctile": 0.7338
+        },
+        "ast": {
+          "value": 0.2,
+          "pctile": 0.4796
+        },
+        "stl": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "blk": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "tov": {
+          "value": 0.1,
+          "pctile": 0.3501
+        },
+        "fgm": {
+          "value": 0.2,
+          "pctile": 0.2614
+        },
+        "fga": {
+          "value": 0.6,
+          "pctile": 0.3645
+        },
+        "fg_pct": {
+          "value": 0.412,
+          "pctile": 0.4796
+        },
+        "fg3m": {
+          "value": 0.1,
+          "pctile": 0.4484
+        },
+        "fg3a": {
+          "value": 0.4,
+          "pctile": 0.5803
+        },
+        "fg3_pct": {
+          "value": 0.308,
+          "pctile": 0.6211
+        },
+        "ftm": {
+          "value": 0.2,
+          "pctile": 0.4173
+        },
+        "fta": {
+          "value": 0.2,
+          "pctile": 0.3405
+        },
+        "ft_pct": {
+          "value": 0.833,
+          "pctile": 0.6595
+        },
+        "pf": {
+          "value": 0.7,
+          "pctile": 0.9424
+        },
+        "plus_minus": {
+          "value": 0.1,
+          "pctile": 0.554
+        },
+        "off_rating": {
+          "value": 110.1,
+          "pctile": 0.5779
+        },
+        "def_rating": {
+          "value": 103.7,
+          "pctile": 0.3501
+        },
+        "net_rating": {
+          "value": 6.4,
+          "pctile": 0.6547
+        },
+        "efg_pct": {
+          "value": 0.529,
+          "pctile": 0.6403
+        },
+        "ts_pct": {
+          "value": 0.586,
+          "pctile": 0.5923
+        },
+        "ast_pct": {
+          "value": 0.091,
+          "pctile": 0.4556
+        },
+        "oreb_pct": {
+          "value": 0.01,
+          "pctile": 0.3261
+        },
+        "dreb_pct": {
+          "value": 0.17,
+          "pctile": 0.7842
+        },
+        "reb_pct": {
+          "value": 0.095,
+          "pctile": 0.6475
+        },
+        "tm_tov_pct": {
+          "value": 10.7,
+          "pctile": 0.6595
+        },
+        "usg_pct": {
+          "value": 0.095,
+          "pctile": 0.2206
+        },
+        "pie": {
+          "value": 0.046,
+          "pctile": 0.3237
+        }
+      },
+      "stl_pct": 0.016766864095993164,
+      "blk_pct": 0.032209464795577424,
+      "stl_pct_pctile": 0.546236559139785,
+      "blk_pct_pctile": 0.843010752688172
     },
     {
       "id": 203468,
@@ -885,7 +1437,145 @@
         }
       },
       "stl_p75": 1.2085468432756452,
-      "deflections_p75": 2.0061877598375712
+      "deflections_p75": 2.0061877598375712,
+      "clutch": {
+        "gp": {
+          "value": 27,
+          "pctile": 0.7818
+        },
+        "min": {
+          "value": 3.9,
+          "pctile": 0.8969
+        },
+        "pts": {
+          "value": 2.5,
+          "pctile": 0.9161
+        },
+        "oreb": {
+          "value": 0.2,
+          "pctile": 0.6787
+        },
+        "dreb": {
+          "value": 0.2,
+          "pctile": 0.2374
+        },
+        "reb": {
+          "value": 0.4,
+          "pctile": 0.3957
+        },
+        "ast": {
+          "value": 0.4,
+          "pctile": 0.8106
+        },
+        "stl": {
+          "value": 0.1,
+          "pctile": 0.47
+        },
+        "blk": {
+          "value": 0.1,
+          "pctile": 0.6283
+        },
+        "tov": {
+          "value": 0.2,
+          "pctile": 0.6763
+        },
+        "fgm": {
+          "value": 0.9,
+          "pctile": 0.9209
+        },
+        "fga": {
+          "value": 2.3,
+          "pctile": 0.9592
+        },
+        "fg_pct": {
+          "value": 0.381,
+          "pctile": 0.4293
+        },
+        "fg3m": {
+          "value": 0.4,
+          "pctile": 0.9568
+        },
+        "fg3a": {
+          "value": 1.0,
+          "pctile": 0.9568
+        },
+        "fg3_pct": {
+          "value": 0.37,
+          "pctile": 0.7434
+        },
+        "ftm": {
+          "value": 0.3,
+          "pctile": 0.542
+        },
+        "fta": {
+          "value": 0.5,
+          "pctile": 0.6499
+        },
+        "ft_pct": {
+          "value": 0.692,
+          "pctile": 0.4796
+        },
+        "pf": {
+          "value": 0.4,
+          "pctile": 0.6115
+        },
+        "plus_minus": {
+          "value": 0.3,
+          "pctile": 0.6067
+        },
+        "off_rating": {
+          "value": 100.0,
+          "pctile": 0.2926
+        },
+        "def_rating": {
+          "value": 101.4,
+          "pctile": 0.2806
+        },
+        "net_rating": {
+          "value": -1.4,
+          "pctile": 0.494
+        },
+        "efg_pct": {
+          "value": 0.46,
+          "pctile": 0.4412
+        },
+        "ts_pct": {
+          "value": 0.487,
+          "pctile": 0.3573
+        },
+        "ast_pct": {
+          "value": 0.208,
+          "pctile": 0.7674
+        },
+        "oreb_pct": {
+          "value": 0.038,
+          "pctile": 0.5827
+        },
+        "dreb_pct": {
+          "value": 0.037,
+          "pctile": 0.1607
+        },
+        "reb_pct": {
+          "value": 0.038,
+          "pctile": 0.1918
+        },
+        "tm_tov_pct": {
+          "value": 6.0,
+          "pctile": 0.4341
+        },
+        "usg_pct": {
+          "value": 0.28,
+          "pctile": 0.8921
+        },
+        "pie": {
+          "value": 0.101,
+          "pctile": 0.6019
+        }
+      },
+      "stl_pct": 0.012685119877383478,
+      "blk_pct": 0.015230222828903295,
+      "stl_pct_pctile": 0.2817204301075269,
+      "blk_pct_pctile": 0.5483870967741935
     },
     {
       "id": 1629027,
@@ -1062,7 +1752,145 @@
         }
       },
       "stl_p75": 1.1787973647330023,
-      "deflections_p75": 1.5324365741529031
+      "deflections_p75": 1.5324365741529031,
+      "clutch": {
+        "gp": {
+          "value": 5,
+          "pctile": 0.0983
+        },
+        "min": {
+          "value": 4.3,
+          "pctile": 0.9496
+        },
+        "pts": {
+          "value": 2.8,
+          "pctile": 0.9376
+        },
+        "oreb": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "dreb": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "reb": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "ast": {
+          "value": 0.8,
+          "pctile": 0.9712
+        },
+        "stl": {
+          "value": 0.4,
+          "pctile": 0.9832
+        },
+        "blk": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "tov": {
+          "value": 0.2,
+          "pctile": 0.6763
+        },
+        "fgm": {
+          "value": 0.4,
+          "pctile": 0.5755
+        },
+        "fga": {
+          "value": 1.8,
+          "pctile": 0.8897
+        },
+        "fg_pct": {
+          "value": 0.222,
+          "pctile": 0.1894
+        },
+        "fg3m": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "fg3a": {
+          "value": 0.8,
+          "pctile": 0.8873
+        },
+        "fg3_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "ftm": {
+          "value": 2.0,
+          "pctile": 0.9952
+        },
+        "fta": {
+          "value": 2.0,
+          "pctile": 0.9928
+        },
+        "ft_pct": {
+          "value": 1.0,
+          "pctile": 0.8153
+        },
+        "pf": {
+          "value": 0.6,
+          "pctile": 0.8921
+        },
+        "plus_minus": {
+          "value": -3.6,
+          "pctile": 0.0216
+        },
+        "off_rating": {
+          "value": 110.6,
+          "pctile": 0.5923
+        },
+        "def_rating": {
+          "value": 137.3,
+          "pctile": 0.9448
+        },
+        "net_rating": {
+          "value": -26.6,
+          "pctile": 0.1775
+        },
+        "efg_pct": {
+          "value": 0.222,
+          "pctile": 0.1751
+        },
+        "ts_pct": {
+          "value": 0.522,
+          "pctile": 0.4412
+        },
+        "ast_pct": {
+          "value": 0.25,
+          "pctile": 0.8297
+        },
+        "oreb_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "dreb_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "reb_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "tm_tov_pct": {
+          "value": 5.3,
+          "pctile": 0.3933
+        },
+        "usg_pct": {
+          "value": 0.3,
+          "pctile": 0.9161
+        },
+        "pie": {
+          "value": 0.088,
+          "pctile": 0.506
+        }
+      },
+      "stl_pct": 0.016692350176114056,
+      "blk_pct": 0.0034357892335766423,
+      "stl_pct_pctile": 0.5419354838709678,
+      "blk_pct_pctile": 0.07311827956989247
     },
     {
       "id": 1642933,
@@ -1234,7 +2062,11 @@
         }
       },
       "stl_p75": 1.3410892997837496,
-      "deflections_p75": 2.682178599567499
+      "deflections_p75": 2.682178599567499,
+      "stl_pct": 0.020544378931849332,
+      "blk_pct": 0.04933267829362155,
+      "stl_pct_pctile": 0.7612903225806451,
+      "blk_pct_pctile": 0.9311827956989247
     },
     {
       "id": 204001,
@@ -1411,7 +2243,145 @@
         }
       },
       "stl_p75": 0.7095217823187172,
-      "deflections_p75": 2.0008514261387824
+      "deflections_p75": 2.0008514261387824,
+      "clutch": {
+        "gp": {
+          "value": 12,
+          "pctile": 0.3621
+        },
+        "min": {
+          "value": 2.8,
+          "pctile": 0.5156
+        },
+        "pts": {
+          "value": 1.8,
+          "pctile": 0.7938
+        },
+        "oreb": {
+          "value": 0.3,
+          "pctile": 0.8249
+        },
+        "dreb": {
+          "value": 0.1,
+          "pctile": 0.1367
+        },
+        "reb": {
+          "value": 0.3,
+          "pctile": 0.2662
+        },
+        "ast": {
+          "value": 0.1,
+          "pctile": 0.2398
+        },
+        "stl": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "blk": {
+          "value": 0.1,
+          "pctile": 0.6283
+        },
+        "tov": {
+          "value": 0.3,
+          "pctile": 0.8345
+        },
+        "fgm": {
+          "value": 0.6,
+          "pctile": 0.7842
+        },
+        "fga": {
+          "value": 1.6,
+          "pctile": 0.8561
+        },
+        "fg_pct": {
+          "value": 0.368,
+          "pctile": 0.4077
+        },
+        "fg3m": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "fg3a": {
+          "value": 0.1,
+          "pctile": 0.2206
+        },
+        "fg3_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "ftm": {
+          "value": 0.7,
+          "pctile": 0.8609
+        },
+        "fta": {
+          "value": 0.8,
+          "pctile": 0.8417
+        },
+        "ft_pct": {
+          "value": 0.889,
+          "pctile": 0.7554
+        },
+        "pf": {
+          "value": 0.1,
+          "pctile": 0.1223
+        },
+        "plus_minus": {
+          "value": -0.3,
+          "pctile": 0.4436
+        },
+        "off_rating": {
+          "value": 104.2,
+          "pctile": 0.4029
+        },
+        "def_rating": {
+          "value": 112.9,
+          "pctile": 0.6235
+        },
+        "net_rating": {
+          "value": -8.7,
+          "pctile": 0.3573
+        },
+        "efg_pct": {
+          "value": 0.368,
+          "pctile": 0.3046
+        },
+        "ts_pct": {
+          "value": 0.479,
+          "pctile": 0.3477
+        },
+        "ast_pct": {
+          "value": 0.059,
+          "pctile": 0.3429
+        },
+        "oreb_pct": {
+          "value": 0.094,
+          "pctile": 0.8561
+        },
+        "dreb_pct": {
+          "value": 0.042,
+          "pctile": 0.1655
+        },
+        "reb_pct": {
+          "value": 0.071,
+          "pctile": 0.4436
+        },
+        "tm_tov_pct": {
+          "value": 11.1,
+          "pctile": 0.6739
+        },
+        "usg_pct": {
+          "value": 0.31,
+          "pctile": 0.9305
+        },
+        "pie": {
+          "value": 0.073,
+          "pctile": 0.446
+        }
+      },
+      "stl_pct": 0.012119770431975718,
+      "blk_pct": 0.046087786259541984,
+      "stl_pct_pctile": 0.23870967741935484,
+      "blk_pct_pctile": 0.9247311827956989
     },
     {
       "id": 1642258,
@@ -1588,7 +2558,145 @@
         }
       },
       "stl_p75": 1.3731047763703925,
-      "deflections_p75": 3.0666006672272097
+      "deflections_p75": 3.0666006672272097,
+      "clutch": {
+        "gp": {
+          "value": 9,
+          "pctile": 0.2758
+        },
+        "min": {
+          "value": 2.2,
+          "pctile": 0.3189
+        },
+        "pts": {
+          "value": 0.8,
+          "pctile": 0.3981
+        },
+        "oreb": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "dreb": {
+          "value": 0.3,
+          "pctile": 0.3789
+        },
+        "reb": {
+          "value": 0.3,
+          "pctile": 0.2662
+        },
+        "ast": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "stl": {
+          "value": 0.1,
+          "pctile": 0.47
+        },
+        "blk": {
+          "value": 0.1,
+          "pctile": 0.6283
+        },
+        "tov": {
+          "value": 0.1,
+          "pctile": 0.3501
+        },
+        "fgm": {
+          "value": 0.3,
+          "pctile": 0.4029
+        },
+        "fga": {
+          "value": 0.6,
+          "pctile": 0.3645
+        },
+        "fg_pct": {
+          "value": 0.6,
+          "pctile": 0.8441
+        },
+        "fg3m": {
+          "value": 0.1,
+          "pctile": 0.4484
+        },
+        "fg3a": {
+          "value": 0.2,
+          "pctile": 0.3261
+        },
+        "fg3_pct": {
+          "value": 0.5,
+          "pctile": 0.8537
+        },
+        "ftm": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "fta": {
+          "value": 0.2,
+          "pctile": 0.3405
+        },
+        "ft_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "pf": {
+          "value": 0.4,
+          "pctile": 0.6115
+        },
+        "plus_minus": {
+          "value": 1.0,
+          "pctile": 0.7674
+        },
+        "off_rating": {
+          "value": 110.6,
+          "pctile": 0.5923
+        },
+        "def_rating": {
+          "value": 91.5,
+          "pctile": 0.1151
+        },
+        "net_rating": {
+          "value": 19.1,
+          "pctile": 0.8273
+        },
+        "efg_pct": {
+          "value": 0.7,
+          "pctile": 0.8537
+        },
+        "ts_pct": {
+          "value": 0.595,
+          "pctile": 0.6259
+        },
+        "ast_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "oreb_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "dreb_pct": {
+          "value": 0.15,
+          "pctile": 0.6835
+        },
+        "reb_pct": {
+          "value": 0.067,
+          "pctile": 0.4077
+        },
+        "tm_tov_pct": {
+          "value": 14.3,
+          "pctile": 0.777
+        },
+        "usg_pct": {
+          "value": 0.125,
+          "pctile": 0.3525
+        },
+        "pie": {
+          "value": 0.034,
+          "pctile": 0.2494
+        }
+      },
+      "stl_pct": 0.018985207316485765,
+      "blk_pct": 0.020261635727737422,
+      "stl_pct_pctile": 0.6709677419354839,
+      "blk_pct_pctile": 0.6731182795698925
     },
     {
       "id": 1630249,
@@ -1765,7 +2873,145 @@
         }
       },
       "stl_p75": 1.2604722043995733,
-      "deflections_p75": 2.237338162809243
+      "deflections_p75": 2.237338162809243,
+      "clutch": {
+        "gp": {
+          "value": 16,
+          "pctile": 0.4916
+        },
+        "min": {
+          "value": 2.5,
+          "pctile": 0.4149
+        },
+        "pts": {
+          "value": 0.5,
+          "pctile": 0.259
+        },
+        "oreb": {
+          "value": 0.1,
+          "pctile": 0.3645
+        },
+        "dreb": {
+          "value": 0.3,
+          "pctile": 0.3789
+        },
+        "reb": {
+          "value": 0.4,
+          "pctile": 0.3957
+        },
+        "ast": {
+          "value": 0.2,
+          "pctile": 0.4796
+        },
+        "stl": {
+          "value": 0.1,
+          "pctile": 0.47
+        },
+        "blk": {
+          "value": 0.1,
+          "pctile": 0.6283
+        },
+        "tov": {
+          "value": 0.1,
+          "pctile": 0.3501
+        },
+        "fgm": {
+          "value": 0.2,
+          "pctile": 0.2614
+        },
+        "fga": {
+          "value": 0.3,
+          "pctile": 0.1631
+        },
+        "fg_pct": {
+          "value": 0.6,
+          "pctile": 0.8441
+        },
+        "fg3m": {
+          "value": 0.1,
+          "pctile": 0.4484
+        },
+        "fg3a": {
+          "value": 0.2,
+          "pctile": 0.3261
+        },
+        "fg3_pct": {
+          "value": 0.667,
+          "pctile": 0.9424
+        },
+        "ftm": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "fta": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "ft_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "pf": {
+          "value": 0.4,
+          "pctile": 0.6115
+        },
+        "plus_minus": {
+          "value": 0.3,
+          "pctile": 0.6067
+        },
+        "off_rating": {
+          "value": 114.1,
+          "pctile": 0.693
+        },
+        "def_rating": {
+          "value": 98.1,
+          "pctile": 0.1847
+        },
+        "net_rating": {
+          "value": 16.1,
+          "pctile": 0.7962
+        },
+        "efg_pct": {
+          "value": 0.8,
+          "pctile": 0.9113
+        },
+        "ts_pct": {
+          "value": 0.8,
+          "pctile": 0.8993
+        },
+        "ast_pct": {
+          "value": 0.094,
+          "pctile": 0.482
+        },
+        "oreb_pct": {
+          "value": 0.049,
+          "pctile": 0.6547
+        },
+        "dreb_pct": {
+          "value": 0.085,
+          "pctile": 0.3525
+        },
+        "reb_pct": {
+          "value": 0.068,
+          "pctile": 0.4245
+        },
+        "tm_tov_pct": {
+          "value": 20.0,
+          "pctile": 0.8969
+        },
+        "usg_pct": {
+          "value": 0.069,
+          "pctile": 0.1367
+        },
+        "pie": {
+          "value": 0.045,
+          "pctile": 0.3165
+        }
+      },
+      "stl_pct": 0.015643466623110704,
+      "blk_pct": 0.012443847782310119,
+      "stl_pct_pctile": 0.44946236559139785,
+      "blk_pct_pctile": 0.4666666666666667
     },
     {
       "id": 1630228,
@@ -1942,7 +3188,145 @@
         }
       },
       "stl_p75": 1.4092697764263094,
-      "deflections_p75": 3.335271804208932
+      "deflections_p75": 3.335271804208932,
+      "clutch": {
+        "gp": {
+          "value": 9,
+          "pctile": 0.2758
+        },
+        "min": {
+          "value": 2.1,
+          "pctile": 0.295
+        },
+        "pts": {
+          "value": 0.4,
+          "pctile": 0.2014
+        },
+        "oreb": {
+          "value": 0.1,
+          "pctile": 0.3645
+        },
+        "dreb": {
+          "value": 0.1,
+          "pctile": 0.1367
+        },
+        "reb": {
+          "value": 0.2,
+          "pctile": 0.1655
+        },
+        "ast": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "stl": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "blk": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "tov": {
+          "value": 0.1,
+          "pctile": 0.3501
+        },
+        "fgm": {
+          "value": 0.2,
+          "pctile": 0.2614
+        },
+        "fga": {
+          "value": 0.7,
+          "pctile": 0.4556
+        },
+        "fg_pct": {
+          "value": 0.333,
+          "pctile": 0.3165
+        },
+        "fg3m": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "fg3a": {
+          "value": 0.1,
+          "pctile": 0.2206
+        },
+        "fg3_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "ftm": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "fta": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "ft_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "pf": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "plus_minus": {
+          "value": -2.1,
+          "pctile": 0.0767
+        },
+        "off_rating": {
+          "value": 83.3,
+          "pctile": 0.1223
+        },
+        "def_rating": {
+          "value": 119.5,
+          "pctile": 0.7602
+        },
+        "net_rating": {
+          "value": -36.2,
+          "pctile": 0.1007
+        },
+        "efg_pct": {
+          "value": 0.333,
+          "pctile": 0.2446
+        },
+        "ts_pct": {
+          "value": 0.333,
+          "pctile": 0.1535
+        },
+        "ast_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "oreb_pct": {
+          "value": 0.043,
+          "pctile": 0.6163
+        },
+        "dreb_pct": {
+          "value": 0.059,
+          "pctile": 0.223
+        },
+        "reb_pct": {
+          "value": 0.05,
+          "pctile": 0.2686
+        },
+        "tm_tov_pct": {
+          "value": 14.3,
+          "pctile": 0.777
+        },
+        "usg_pct": {
+          "value": 0.171,
+          "pctile": 0.6139
+        },
+        "pie": {
+          "value": 0.008,
+          "pctile": 0.1607
+        }
+      },
+      "stl_pct": 0.01227326533590999,
+      "blk_pct": 0.011788588059774497,
+      "stl_pct_pctile": 0.25161290322580643,
+      "blk_pct_pctile": 0.443010752688172
     },
     {
       "id": 1628379,
@@ -2119,7 +3503,145 @@
         }
       },
       "stl_p75": 1.1957862769289171,
-      "deflections_p75": 2.545316503748695
+      "deflections_p75": 2.545316503748695,
+      "clutch": {
+        "gp": {
+          "value": 21,
+          "pctile": 0.6451
+        },
+        "min": {
+          "value": 0.8,
+          "pctile": 0.0456
+        },
+        "pts": {
+          "value": 0.4,
+          "pctile": 0.2014
+        },
+        "oreb": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "dreb": {
+          "value": 0.1,
+          "pctile": 0.1367
+        },
+        "reb": {
+          "value": 0.1,
+          "pctile": 0.1007
+        },
+        "ast": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "stl": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "blk": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "tov": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "fgm": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "fga": {
+          "value": 0.1,
+          "pctile": 0.0767
+        },
+        "fg_pct": {
+          "value": 0.333,
+          "pctile": 0.3165
+        },
+        "fg3m": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "fg3a": {
+          "value": 0.1,
+          "pctile": 0.2206
+        },
+        "fg3_pct": {
+          "value": 0.5,
+          "pctile": 0.8537
+        },
+        "ftm": {
+          "value": 0.2,
+          "pctile": 0.4173
+        },
+        "fta": {
+          "value": 0.2,
+          "pctile": 0.3405
+        },
+        "ft_pct": {
+          "value": 1.0,
+          "pctile": 0.8153
+        },
+        "pf": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "plus_minus": {
+          "value": 0.3,
+          "pctile": 0.6067
+        },
+        "off_rating": {
+          "value": 97.8,
+          "pctile": 0.2614
+        },
+        "def_rating": {
+          "value": 90.7,
+          "pctile": 0.1007
+        },
+        "net_rating": {
+          "value": 7.1,
+          "pctile": 0.6691
+        },
+        "efg_pct": {
+          "value": 0.5,
+          "pctile": 0.4988
+        },
+        "ts_pct": {
+          "value": 0.769,
+          "pctile": 0.8825
+        },
+        "ast_pct": {
+          "value": 0.091,
+          "pctile": 0.4556
+        },
+        "oreb_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "dreb_pct": {
+          "value": 0.087,
+          "pctile": 0.3597
+        },
+        "reb_pct": {
+          "value": 0.047,
+          "pctile": 0.2422
+        },
+        "tm_tov_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "usg_pct": {
+          "value": 0.093,
+          "pctile": 0.2134
+        },
+        "pie": {
+          "value": 0.132,
+          "pctile": 0.7482
+        }
+      },
+      "stl_pct": 0.015876903255355044,
+      "blk_pct": 0.004327290720165535,
+      "stl_pct_pctile": 0.47096774193548385,
+      "blk_pct_pctile": 0.1032258064516129
     },
     {
       "id": 1629111,
@@ -2296,7 +3818,145 @@
         }
       },
       "stl_p75": 0.7318032546949753,
-      "deflections_p75": 1.994163869043808
+      "deflections_p75": 1.994163869043808,
+      "clutch": {
+        "gp": {
+          "value": 24,
+          "pctile": 0.717
+        },
+        "min": {
+          "value": 2.2,
+          "pctile": 0.3189
+        },
+        "pts": {
+          "value": 1.0,
+          "pctile": 0.5012
+        },
+        "oreb": {
+          "value": 0.5,
+          "pctile": 0.9568
+        },
+        "dreb": {
+          "value": 0.4,
+          "pctile": 0.554
+        },
+        "reb": {
+          "value": 0.9,
+          "pctile": 0.8873
+        },
+        "ast": {
+          "value": 0.3,
+          "pctile": 0.6811
+        },
+        "stl": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "blk": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "tov": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "fgm": {
+          "value": 0.3,
+          "pctile": 0.4029
+        },
+        "fga": {
+          "value": 0.6,
+          "pctile": 0.3645
+        },
+        "fg_pct": {
+          "value": 0.533,
+          "pctile": 0.7698
+        },
+        "fg3m": {
+          "value": 0.2,
+          "pctile": 0.6978
+        },
+        "fg3a": {
+          "value": 0.3,
+          "pctile": 0.4388
+        },
+        "fg3_pct": {
+          "value": 0.625,
+          "pctile": 0.9376
+        },
+        "ftm": {
+          "value": 0.1,
+          "pctile": 0.2806
+        },
+        "fta": {
+          "value": 0.3,
+          "pctile": 0.446
+        },
+        "ft_pct": {
+          "value": 0.333,
+          "pctile": 0.271
+        },
+        "pf": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "plus_minus": {
+          "value": -1.4,
+          "pctile": 0.1871
+        },
+        "off_rating": {
+          "value": 94.4,
+          "pctile": 0.211
+        },
+        "def_rating": {
+          "value": 115.4,
+          "pctile": 0.6835
+        },
+        "net_rating": {
+          "value": -21.0,
+          "pctile": 0.2134
+        },
+        "efg_pct": {
+          "value": 0.7,
+          "pctile": 0.8537
+        },
+        "ts_pct": {
+          "value": 0.652,
+          "pctile": 0.7386
+        },
+        "ast_pct": {
+          "value": 0.222,
+          "pctile": 0.7962
+        },
+        "oreb_pct": {
+          "value": 0.179,
+          "pctile": 0.9616
+        },
+        "dreb_pct": {
+          "value": 0.15,
+          "pctile": 0.6835
+        },
+        "reb_pct": {
+          "value": 0.165,
+          "pctile": 0.9161
+        },
+        "tm_tov_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "usg_pct": {
+          "value": 0.134,
+          "pctile": 0.4029
+        },
+        "pie": {
+          "value": 0.169,
+          "pctile": 0.8633
+        }
+      },
+      "stl_pct": 0.010690513923812999,
+      "blk_pct": 0.020536680556620734,
+      "stl_pct_pctile": 0.12903225806451613,
+      "blk_pct_pctile": 0.6817204301075269
     },
     {
       "id": 1630557,
@@ -2473,7 +4133,145 @@
         }
       },
       "stl_p75": 0.3846420958720424,
-      "deflections_p75": 1.3462473355521485
+      "deflections_p75": 1.3462473355521485,
+      "clutch": {
+        "gp": {
+          "value": 6,
+          "pctile": 0.1535
+        },
+        "min": {
+          "value": 1.2,
+          "pctile": 0.1031
+        },
+        "pts": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "oreb": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "dreb": {
+          "value": 0.2,
+          "pctile": 0.2374
+        },
+        "reb": {
+          "value": 0.2,
+          "pctile": 0.1655
+        },
+        "ast": {
+          "value": 0.2,
+          "pctile": 0.4796
+        },
+        "stl": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "blk": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "tov": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "fgm": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "fga": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "fg_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "fg3m": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "fg3a": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "fg3_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "ftm": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "fta": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "ft_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "pf": {
+          "value": 0.2,
+          "pctile": 0.223
+        },
+        "plus_minus": {
+          "value": -2.2,
+          "pctile": 0.0695
+        },
+        "off_rating": {
+          "value": 70.0,
+          "pctile": 0.06
+        },
+        "def_rating": {
+          "value": 122.7,
+          "pctile": 0.8225
+        },
+        "net_rating": {
+          "value": -52.7,
+          "pctile": 0.0552
+        },
+        "efg_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "ts_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "ast_pct": {
+          "value": 0.2,
+          "pctile": 0.7386
+        },
+        "oreb_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "dreb_pct": {
+          "value": 0.143,
+          "pctile": 0.6475
+        },
+        "reb_pct": {
+          "value": 0.05,
+          "pctile": 0.2686
+        },
+        "tm_tov_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "usg_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "pie": {
+          "value": 0.031,
+          "pctile": 0.2374
+        }
+      },
+      "stl_pct": 0.007621301861815074,
+      "blk_pct": 0.009760443877447704,
+      "stl_pct_pctile": 0.03655913978494624,
+      "blk_pct_pctile": 0.3204301075268817
     },
     {
       "id": 1631243,
@@ -2650,7 +4448,145 @@
         }
       },
       "stl_p75": 1.8344731908941336,
-      "deflections_p75": 4.196357424170331
+      "deflections_p75": 4.196357424170331,
+      "clutch": {
+        "gp": {
+          "value": 13,
+          "pctile": 0.3885
+        },
+        "min": {
+          "value": 0.5,
+          "pctile": 0.0192
+        },
+        "pts": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "oreb": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "dreb": {
+          "value": 0.2,
+          "pctile": 0.2374
+        },
+        "reb": {
+          "value": 0.2,
+          "pctile": 0.1655
+        },
+        "ast": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "stl": {
+          "value": 0.1,
+          "pctile": 0.47
+        },
+        "blk": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "tov": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "fgm": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "fga": {
+          "value": 0.1,
+          "pctile": 0.0767
+        },
+        "fg_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "fg3m": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "fg3a": {
+          "value": 0.1,
+          "pctile": 0.2206
+        },
+        "fg3_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "ftm": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "fta": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "ft_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "pf": {
+          "value": 0.3,
+          "pctile": 0.3957
+        },
+        "plus_minus": {
+          "value": -1.0,
+          "pctile": 0.247
+        },
+        "off_rating": {
+          "value": 76.5,
+          "pctile": 0.0863
+        },
+        "def_rating": {
+          "value": 108.3,
+          "pctile": 0.482
+        },
+        "net_rating": {
+          "value": -31.9,
+          "pctile": 0.1295
+        },
+        "efg_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "ts_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "ast_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "oreb_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "dreb_pct": {
+          "value": 0.2,
+          "pctile": 0.8681
+        },
+        "reb_pct": {
+          "value": 0.1,
+          "pctile": 0.6835
+        },
+        "tm_tov_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "usg_pct": {
+          "value": 0.05,
+          "pctile": 0.0743
+        },
+        "pie": {
+          "value": -0.087,
+          "pctile": 0.0432
+        }
+      },
+      "stl_pct": 0.024706965512812262,
+      "blk_pct": 0.029664094137341057,
+      "stl_pct_pctile": 0.8924731182795699,
+      "blk_pct_pctile": 0.8172043010752689
     },
     {
       "id": 1629216,
@@ -2822,7 +4758,145 @@
         }
       },
       "stl_p75": 1.3071117043139042,
-      "deflections_p75": 3.084783622180814
+      "deflections_p75": 3.084783622180814,
+      "clutch": {
+        "gp": {
+          "value": 3,
+          "pctile": 0.0
+        },
+        "min": {
+          "value": 0.6,
+          "pctile": 0.036
+        },
+        "pts": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "oreb": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "dreb": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "reb": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "ast": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "stl": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "blk": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "tov": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "fgm": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "fga": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "fg_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "fg3m": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "fg3a": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "fg3_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "ftm": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "fta": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "ft_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "pf": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "plus_minus": {
+          "value": 0.0,
+          "pctile": 0.5252
+        },
+        "off_rating": {
+          "value": 71.4,
+          "pctile": 0.0695
+        },
+        "def_rating": {
+          "value": 100.0,
+          "pctile": 0.2086
+        },
+        "net_rating": {
+          "value": -28.6,
+          "pctile": 0.1583
+        },
+        "efg_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "ts_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "ast_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "oreb_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "dreb_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "reb_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "tm_tov_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "usg_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "pie": {
+          "value": 0.0,
+          "pctile": 0.1151
+        }
+      },
+      "stl_pct": 0.014232551669654654,
+      "blk_pct": 0.00546820048555805,
+      "stl_pct_pctile": 0.36989247311827955,
+      "blk_pct_pctile": 0.13763440860215054
     },
     {
       "id": 1642484,
@@ -2994,7 +5068,145 @@
         }
       },
       "stl_p75": 0.8868924683941909,
-      "deflections_p75": 1.9807265127470264
+      "deflections_p75": 1.9807265127470264,
+      "clutch": {
+        "gp": {
+          "value": 2,
+          "pctile": 0.0
+        },
+        "min": {
+          "value": 2.5,
+          "pctile": 0.4149
+        },
+        "pts": {
+          "value": 0.5,
+          "pctile": 0.259
+        },
+        "oreb": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "dreb": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "reb": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "ast": {
+          "value": 0.5,
+          "pctile": 0.8585
+        },
+        "stl": {
+          "value": 0.5,
+          "pctile": 0.9952
+        },
+        "blk": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "tov": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "fgm": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "fga": {
+          "value": 0.5,
+          "pctile": 0.3094
+        },
+        "fg_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "fg3m": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "fg3a": {
+          "value": 0.5,
+          "pctile": 0.6906
+        },
+        "fg3_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "ftm": {
+          "value": 0.5,
+          "pctile": 0.7578
+        },
+        "fta": {
+          "value": 1.0,
+          "pctile": 0.9209
+        },
+        "ft_pct": {
+          "value": 0.5,
+          "pctile": 0.2902
+        },
+        "pf": {
+          "value": 0.5,
+          "pctile": 0.7722
+        },
+        "plus_minus": {
+          "value": -4.5,
+          "pctile": 0.012
+        },
+        "off_rating": {
+          "value": 66.7,
+          "pctile": 0.0408
+        },
+        "def_rating": {
+          "value": 100.0,
+          "pctile": 0.2086
+        },
+        "net_rating": {
+          "value": -33.3,
+          "pctile": 0.1151
+        },
+        "efg_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "ts_pct": {
+          "value": 0.266,
+          "pctile": 0.1367
+        },
+        "ast_pct": {
+          "value": 1.0,
+          "pctile": 0.9976
+        },
+        "oreb_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "dreb_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "reb_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "tm_tov_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "usg_pct": {
+          "value": 0.154,
+          "pctile": 0.5084
+        },
+        "pie": {
+          "value": 0.0,
+          "pctile": 0.1151
+        }
+      },
+      "stl_pct": 0.007810259759215447,
+      "blk_pct": 0.01500365753062209,
+      "stl_pct_pctile": 0.04086021505376344,
+      "blk_pct_pctile": 0.535483870967742
     },
     {
       "id": 1628396,
@@ -3166,7 +5378,145 @@
         }
       },
       "stl_p75": 0.0,
-      "deflections_p75": 0.9745693191140279
+      "deflections_p75": 0.9745693191140279,
+      "clutch": {
+        "gp": {
+          "value": 6,
+          "pctile": 0.1535
+        },
+        "min": {
+          "value": 1.0,
+          "pctile": 0.0695
+        },
+        "pts": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "oreb": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "dreb": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "reb": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "ast": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "stl": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "blk": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "tov": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "fgm": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "fga": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "fg_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "fg3m": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "fg3a": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "fg3_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "ftm": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "fta": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "ft_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "pf": {
+          "value": 0.2,
+          "pctile": 0.223
+        },
+        "plus_minus": {
+          "value": -2.2,
+          "pctile": 0.0695
+        },
+        "off_rating": {
+          "value": 44.4,
+          "pctile": 0.0096
+        },
+        "def_rating": {
+          "value": 130.8,
+          "pctile": 0.9041
+        },
+        "net_rating": {
+          "value": -86.3,
+          "pctile": 0.0144
+        },
+        "efg_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "ts_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "ast_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "oreb_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "dreb_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "reb_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "tm_tov_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "usg_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "pie": {
+          "value": -0.1,
+          "pctile": 0.0384
+        }
+      },
+      "stl_pct": 0.004295642867568496,
+      "blk_pct": 0.016504023283684298,
+      "stl_pct_pctile": 0.002150537634408602,
+      "blk_pct_pctile": 0.5870967741935483
     },
     {
       "id": 1642854,
@@ -3343,7 +5693,145 @@
         }
       },
       "stl_p75": 1.1948145050480912,
-      "deflections_p75": 1.164944142421889
+      "deflections_p75": 1.164944142421889,
+      "clutch": {
+        "gp": {
+          "value": 2,
+          "pctile": 0.0
+        },
+        "min": {
+          "value": 0.1,
+          "pctile": 0.0
+        },
+        "pts": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "oreb": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "dreb": {
+          "value": 0.5,
+          "pctile": 0.7002
+        },
+        "reb": {
+          "value": 0.5,
+          "pctile": 0.542
+        },
+        "ast": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "stl": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "blk": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "tov": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "fgm": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "fga": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "fg_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "fg3m": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "fg3a": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "fg3_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "ftm": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "fta": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "ft_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "pf": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "plus_minus": {
+          "value": 0.5,
+          "pctile": 0.6859
+        },
+        "off_rating": {
+          "value": 100.0,
+          "pctile": 0.2926
+        },
+        "def_rating": {
+          "value": 50.0,
+          "pctile": 0.0216
+        },
+        "net_rating": {
+          "value": 50.0,
+          "pctile": 0.9616
+        },
+        "efg_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "ts_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "ast_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "oreb_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "dreb_pct": {
+          "value": 1.0,
+          "pctile": 1.0
+        },
+        "reb_pct": {
+          "value": 0.5,
+          "pctile": 0.9976
+        },
+        "tm_tov_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "usg_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "pie": {
+          "value": 0.333,
+          "pctile": 0.9856
+        }
+      },
+      "stl_pct": 0.01657967422570297,
+      "blk_pct": 0.02388740212112201,
+      "stl_pct_pctile": 0.5290322580645161,
+      "blk_pct_pctile": 0.7483870967741936
     },
     {
       "id": 1631132,
@@ -3520,7 +6008,145 @@
         }
       },
       "stl_p75": 0.912561407778065,
-      "deflections_p75": 1.3080046844818933
+      "deflections_p75": 1.3080046844818933,
+      "clutch": {
+        "gp": {
+          "value": 2,
+          "pctile": 0.0
+        },
+        "min": {
+          "value": 1.1,
+          "pctile": 0.0887
+        },
+        "pts": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "oreb": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "dreb": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "reb": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "ast": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "stl": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "blk": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "tov": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "fgm": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "fga": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "fg_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "fg3m": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "fg3a": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "fg3_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "ftm": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "fta": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "ft_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "pf": {
+          "value": 0.5,
+          "pctile": 0.7722
+        },
+        "plus_minus": {
+          "value": -1.5,
+          "pctile": 0.1775
+        },
+        "off_rating": {
+          "value": 125.0,
+          "pctile": 0.8705
+        },
+        "def_rating": {
+          "value": 160.0,
+          "pctile": 0.9832
+        },
+        "net_rating": {
+          "value": -35.0,
+          "pctile": 0.1127
+        },
+        "efg_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "ts_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "ast_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "oreb_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "dreb_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "reb_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "tm_tov_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "usg_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "pie": {
+          "value": -0.091,
+          "pctile": 0.0408
+        }
+      },
+      "stl_pct": 0.017898511948202068,
+      "blk_pct": 0.06189008731381612,
+      "stl_pct_pctile": 0.6236559139784946,
+      "blk_pct_pctile": 0.9612903225806452
     },
     {
       "id": 1630811,
@@ -3697,7 +6323,145 @@
         }
       },
       "stl_p75": 1.7380321999432242,
-      "deflections_p75": 3.649867619880771
+      "deflections_p75": 3.649867619880771,
+      "clutch": {
+        "gp": {
+          "value": 1,
+          "pctile": 0.0
+        },
+        "min": {
+          "value": 4.0,
+          "pctile": 0.9113
+        },
+        "pts": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "oreb": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "dreb": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "reb": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "ast": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "stl": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "blk": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "tov": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "fgm": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "fga": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "fg_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "fg3m": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "fg3a": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "fg3_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "ftm": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "fta": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "ft_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "pf": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "plus_minus": {
+          "value": -10.0,
+          "pctile": 0.0
+        },
+        "off_rating": {
+          "value": 33.3,
+          "pctile": 0.0
+        },
+        "def_rating": {
+          "value": 144.4,
+          "pctile": 0.964
+        },
+        "net_rating": {
+          "value": -111.1,
+          "pctile": 0.0072
+        },
+        "efg_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "ts_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "ast_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "oreb_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "dreb_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "reb_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "tm_tov_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "usg_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "pie": {
+          "value": 0.0,
+          "pctile": 0.1151
+        }
+      },
+      "stl_pct": 0.023392114625373002,
+      "blk_pct": 0.008987339411907292,
+      "stl_pct_pctile": 0.8580645161290322,
+      "blk_pct_pctile": 0.2946236559139785
     },
     {
       "id": 1627741,
@@ -3869,7 +6633,145 @@
         }
       },
       "stl_p75": 1.3838294404588163,
-      "deflections_p75": 4.612764801529388
+      "deflections_p75": 4.612764801529388,
+      "clutch": {
+        "gp": {
+          "value": 7,
+          "pctile": 0.1894
+        },
+        "min": {
+          "value": 1.7,
+          "pctile": 0.1942
+        },
+        "pts": {
+          "value": 0.3,
+          "pctile": 0.1535
+        },
+        "oreb": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "dreb": {
+          "value": 0.3,
+          "pctile": 0.3789
+        },
+        "reb": {
+          "value": 0.3,
+          "pctile": 0.2662
+        },
+        "ast": {
+          "value": 0.3,
+          "pctile": 0.6811
+        },
+        "stl": {
+          "value": 0.1,
+          "pctile": 0.47
+        },
+        "blk": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "tov": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "fgm": {
+          "value": 0.1,
+          "pctile": 0.1679
+        },
+        "fga": {
+          "value": 0.6,
+          "pctile": 0.3645
+        },
+        "fg_pct": {
+          "value": 0.25,
+          "pctile": 0.2062
+        },
+        "fg3m": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "fg3a": {
+          "value": 0.4,
+          "pctile": 0.5803
+        },
+        "fg3_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "ftm": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "fta": {
+          "value": 0.3,
+          "pctile": 0.446
+        },
+        "ft_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "pf": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "plus_minus": {
+          "value": -1.1,
+          "pctile": 0.223
+        },
+        "off_rating": {
+          "value": 92.0,
+          "pctile": 0.1799
+        },
+        "def_rating": {
+          "value": 110.7,
+          "pctile": 0.5516
+        },
+        "net_rating": {
+          "value": -18.7,
+          "pctile": 0.2254
+        },
+        "efg_pct": {
+          "value": 0.25,
+          "pctile": 0.1823
+        },
+        "ts_pct": {
+          "value": 0.205,
+          "pctile": 0.1223
+        },
+        "ast_pct": {
+          "value": 0.286,
+          "pctile": 0.9017
+        },
+        "oreb_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "dreb_pct": {
+          "value": 0.167,
+          "pctile": 0.753
+        },
+        "reb_pct": {
+          "value": 0.074,
+          "pctile": 0.4748
+        },
+        "tm_tov_pct": {
+          "value": 0.0,
+          "pctile": 0.0
+        },
+        "usg_pct": {
+          "value": 0.172,
+          "pctile": 0.6211
+        },
+        "pie": {
+          "value": 0.058,
+          "pctile": 0.3669
+        }
+      },
+      "stl_pct": 0.023479290207827807,
+      "blk_pct": 0.01127604075282778,
+      "stl_pct_pctile": 0.8602150537634409,
+      "blk_pct_pctile": 0.4064516129032258
     },
     {
       "id": 1631216,
@@ -4041,7 +6943,11 @@
         }
       },
       "stl_p75": 0.8021175904387583,
-      "deflections_p75": 8.021175904387583
+      "deflections_p75": 8.021175904387583,
+      "stl_pct": 0.011250493224584157,
+      "blk_pct": 0.021612411442919914,
+      "stl_pct_pctile": 0.17419354838709677,
+      "blk_pct_pctile": 0.7139784946236559
     },
     {
       "id": 1642368,
@@ -4213,7 +7119,11 @@
         }
       },
       "stl_p75": 4.705734722047936,
-      "deflections_p75": 4.705734722047936
+      "deflections_p75": 4.705734722047936,
+      "stl_pct": 0.060579578901607,
+      "blk_pct": 0.0,
+      "stl_pct_pctile": 1.0,
+      "blk_pct_pctile": 0.0
     },
     {
       "id": 1631210,
@@ -4385,7 +7295,11 @@
         }
       },
       "stl_p75": 0.0,
-      "deflections_p75": 0.0
+      "deflections_p75": 0.0,
+      "stl_pct": 0.0,
+      "blk_pct": 0.05339536944721391,
+      "stl_pct_pctile": 0.0,
+      "blk_pct_pctile": 0.946236559139785
     }
   ],
   "league_medians": {
@@ -4399,6 +7313,8 @@
     "fg3_pct": 0.338,
     "ft_pct": 0.7765,
     "ast_pct": 0.122,
-    "tov_pct": 0.1
+    "tov_pct": 0.1,
+    "stl_pct": 0.016237099354690056,
+    "blk_pct": 0.013631221719457015
   }
 }
