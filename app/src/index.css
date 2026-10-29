@@ -1159,7 +1159,15 @@ html, body {
   }
   .leader-table .col-team { font-size: 11px; width: 36px; }
   .leader-table .col-pct { width: 50px; }
-  .leader-table .col-vol { width: 54px; font-size: 11px; }
+  /* Hide the volume column on narrow screens — season FGA / shot-zone M-A
+     are nice-to-have context, not core info. Keeps the pct value readable
+     without the table overflowing the viewport. */
+  .leader-table .col-vol { display: none; }
+  /* Belt-and-suspenders: if a very long player name or small viewport still
+     makes the table wider than its card, scroll inside the card rather than
+     clipping (body-level overflow-x: hidden would otherwise cut off the
+     right edge). */
+  .leader-card { overflow-x: auto; }
 
   /* Last-updated + Leaders note: slightly smaller on mobile */
   .last-updated,

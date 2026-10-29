@@ -125,7 +125,10 @@ function floorLabel(section, stat, floor) {
 function valueHeader(section, stat) {
   if (section === 'zones') return 'FG%'
   if (section === 'overall') return stat.label
-  return 'Per Game'
+  // Short header so the column fits in the narrow mobile width without
+  // wrapping. Dropdown above (e.g. "Steals Per Game") still names the metric
+  // in full.
+  return '/G'
 }
 
 function volumeHeader(section, stat) {
