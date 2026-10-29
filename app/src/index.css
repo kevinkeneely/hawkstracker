@@ -1148,26 +1148,36 @@ html, body {
     padding: 8px 10px;
   }
 
-  /* Leaders: compact tables */
+  /* Leaders: compact tables with hard-sized columns so nothing overflows the
+     viewport. Scoped to .leader-table only — Standings, Player Stats, Box
+     Score and other tables keep their own styling. */
   .leader-card {
     padding: 14px 12px;
+    /* overflow-x safety net is unnecessary with table-layout:fixed below,
+       but kept as a backstop for any future edge case. */
+    overflow-x: auto;
   }
   .leader-table th,
   .leader-table td {
     padding: 5px 3px;
     font-size: 12px;
   }
-  .leader-table .col-team { font-size: 11px; width: 36px; }
-  .leader-table .col-pct { width: 50px; }
+  /* The percentage widths add up to exactly 100%, so columns stay within the
+     card. col-player is the only flexible one; longer names clip with an
+     ellipsis rather than pushing the table past the card edge. */
+  .leader-table { table-layout: fixed; }
+  .leader-table .col-rank { width: 10%; }
+  .leader-table .col-player {
+    width: 55%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .leader-table .col-team { width: 15%; font-size: 11px; }
+  .leader-table .col-pct { width: 20%; }
   /* Hide the volume column on narrow screens — season FGA / shot-zone M-A
-     are nice-to-have context, not core info. Keeps the pct value readable
-     without the table overflowing the viewport. */
+     are nice-to-have context, not core info. */
   .leader-table .col-vol { display: none; }
-  /* Belt-and-suspenders: if a very long player name or small viewport still
-     makes the table wider than its card, scroll inside the card rather than
-     clipping (body-level overflow-x: hidden would otherwise cut off the
-     right edge). */
-  .leader-card { overflow-x: auto; }
 
   /* Last-updated + Leaders note: slightly smaller on mobile */
   .last-updated,
