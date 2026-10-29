@@ -1,6 +1,6 @@
 {
   "season": "2026-27",
-  "generated_at": "2026-10-28T03:07:35.209399-04:00",
+  "generated_at": "2026-10-29T03:07:24.734463-04:00",
   "min_gp": 5,
   "min_fga_per_zone": {
     "at_rim": 15,
@@ -11,5 +11,5682 @@
     "r_corner_3": 5,
     "above_break_3": 15
   },
-  "players": []
+  "players": [
+    {
+      "id": 1631260,
+      "name": "AJ Green",
+      "team": "MIL",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 1,
+          "fgm": 1,
+          "pct": 1.0
+        },
+        "paint": {
+          "fga": 1,
+          "fgm": 1,
+          "pct": 1.0
+        },
+        "mid": {
+          "fga": 1,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "corner_3": {
+          "fga": 11,
+          "fgm": 4,
+          "pct": 0.3636
+        },
+        "l_corner_3": {
+          "fga": 3,
+          "fgm": 2,
+          "pct": 0.6667
+        },
+        "r_corner_3": {
+          "fga": 8,
+          "fgm": 2,
+          "pct": 0.25
+        },
+        "above_break_3": {
+          "fga": 14,
+          "fgm": 8,
+          "pct": 0.5714
+        }
+      }
+    },
+    {
+      "id": 1630598,
+      "name": "Aaron Wiggins",
+      "team": "ATL",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 8,
+          "fgm": 7,
+          "pct": 0.875
+        },
+        "paint": {
+          "fga": 10,
+          "fgm": 5,
+          "pct": 0.5
+        },
+        "mid": {
+          "fga": 4,
+          "fgm": 1,
+          "pct": 0.25
+        },
+        "corner_3": {
+          "fga": 11,
+          "fgm": 6,
+          "pct": 0.5455
+        },
+        "l_corner_3": {
+          "fga": 7,
+          "fgm": 3,
+          "pct": 0.4286
+        },
+        "r_corner_3": {
+          "fga": 4,
+          "fgm": 3,
+          "pct": 0.75
+        },
+        "above_break_3": {
+          "fga": 21,
+          "fgm": 8,
+          "pct": 0.381
+        }
+      }
+    },
+    {
+      "id": 1642846,
+      "name": "Ace Bailey",
+      "team": "UTA",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 14,
+          "fgm": 12,
+          "pct": 0.8571
+        },
+        "paint": {
+          "fga": 9,
+          "fgm": 6,
+          "pct": 0.6667
+        },
+        "mid": {
+          "fga": 10,
+          "fgm": 4,
+          "pct": 0.4
+        },
+        "corner_3": {
+          "fga": 10,
+          "fgm": 3,
+          "pct": 0.3
+        },
+        "l_corner_3": {
+          "fga": 7,
+          "fgm": 2,
+          "pct": 0.2857
+        },
+        "r_corner_3": {
+          "fga": 3,
+          "fgm": 1,
+          "pct": 0.3333
+        },
+        "above_break_3": {
+          "fga": 15,
+          "fgm": 5,
+          "pct": 0.3333
+        }
+      }
+    },
+    {
+      "id": 1643530,
+      "name": "Aday Mara",
+      "team": "OKC",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 13,
+          "fgm": 8,
+          "pct": 0.6154
+        },
+        "paint": {
+          "fga": 7,
+          "fgm": 3,
+          "pct": 0.4286
+        },
+        "mid": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "l_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "r_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "above_break_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        }
+      }
+    },
+    {
+      "id": 1641737,
+      "name": "Adem Bona",
+      "team": "PHI",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 7,
+          "fgm": 4,
+          "pct": 0.5714
+        },
+        "paint": {
+          "fga": 1,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "mid": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "corner_3": {
+          "fga": 2,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "l_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "r_corner_3": {
+          "fga": 2,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "above_break_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        }
+      }
+    },
+    {
+      "id": 1642349,
+      "name": "Ajay Mitchell",
+      "team": "OKC",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 25,
+          "fgm": 15,
+          "pct": 0.6
+        },
+        "paint": {
+          "fga": 20,
+          "fgm": 14,
+          "pct": 0.7
+        },
+        "mid": {
+          "fga": 9,
+          "fgm": 4,
+          "pct": 0.4444
+        },
+        "corner_3": {
+          "fga": 2,
+          "fgm": 2,
+          "pct": 1.0
+        },
+        "l_corner_3": {
+          "fga": 1,
+          "fgm": 1,
+          "pct": 1.0
+        },
+        "r_corner_3": {
+          "fga": 1,
+          "fgm": 1,
+          "pct": 1.0
+        },
+        "above_break_3": {
+          "fga": 13,
+          "fgm": 2,
+          "pct": 0.1538
+        }
+      }
+    },
+    {
+      "id": 1642259,
+      "name": "Alex Sarr",
+      "team": "WAS",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 16,
+          "fgm": 14,
+          "pct": 0.875
+        },
+        "paint": {
+          "fga": 5,
+          "fgm": 3,
+          "pct": 0.6
+        },
+        "mid": {
+          "fga": 3,
+          "fgm": 1,
+          "pct": 0.3333
+        },
+        "corner_3": {
+          "fga": 6,
+          "fgm": 1,
+          "pct": 0.1667
+        },
+        "l_corner_3": {
+          "fga": 3,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "r_corner_3": {
+          "fga": 3,
+          "fgm": 1,
+          "pct": 0.3333
+        },
+        "above_break_3": {
+          "fga": 7,
+          "fgm": 2,
+          "pct": 0.2857
+        }
+      }
+    },
+    {
+      "id": 1641708,
+      "name": "Amen Thompson",
+      "team": "HOU",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 34,
+          "fgm": 24,
+          "pct": 0.7059
+        },
+        "paint": {
+          "fga": 16,
+          "fgm": 7,
+          "pct": 0.4375
+        },
+        "mid": {
+          "fga": 7,
+          "fgm": 2,
+          "pct": 0.2857
+        },
+        "corner_3": {
+          "fga": 2,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "l_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "r_corner_3": {
+          "fga": 2,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "above_break_3": {
+          "fga": 4,
+          "fgm": 2,
+          "pct": 0.5
+        }
+      }
+    },
+    {
+      "id": 203083,
+      "name": "Andre Drummond",
+      "team": "NYK",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 27,
+          "fgm": 15,
+          "pct": 0.5556
+        },
+        "paint": {
+          "fga": 3,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "mid": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "l_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "r_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "above_break_3": {
+          "fga": 1,
+          "fgm": 0,
+          "pct": 0.0
+        }
+      }
+    },
+    {
+      "id": 203952,
+      "name": "Andrew Wiggins",
+      "team": "MIA",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 7,
+          "fgm": 5,
+          "pct": 0.7143
+        },
+        "paint": {
+          "fga": 14,
+          "fgm": 7,
+          "pct": 0.5
+        },
+        "mid": {
+          "fga": 5,
+          "fgm": 4,
+          "pct": 0.8
+        },
+        "corner_3": {
+          "fga": 8,
+          "fgm": 2,
+          "pct": 0.25
+        },
+        "l_corner_3": {
+          "fga": 2,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "r_corner_3": {
+          "fga": 6,
+          "fgm": 2,
+          "pct": 0.3333
+        },
+        "above_break_3": {
+          "fga": 15,
+          "fgm": 4,
+          "pct": 0.2667
+        }
+      }
+    },
+    {
+      "id": 1629014,
+      "name": "Anfernee Simons",
+      "team": "PHI",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 6,
+          "fgm": 1,
+          "pct": 0.1667
+        },
+        "paint": {
+          "fga": 3,
+          "fgm": 2,
+          "pct": 0.6667
+        },
+        "mid": {
+          "fga": 2,
+          "fgm": 1,
+          "pct": 0.5
+        },
+        "corner_3": {
+          "fga": 6,
+          "fgm": 3,
+          "pct": 0.5
+        },
+        "l_corner_3": {
+          "fga": 5,
+          "fgm": 2,
+          "pct": 0.4
+        },
+        "r_corner_3": {
+          "fga": 1,
+          "fgm": 1,
+          "pct": 1.0
+        },
+        "above_break_3": {
+          "fga": 25,
+          "fgm": 8,
+          "pct": 0.32
+        }
+      }
+    },
+    {
+      "id": 203076,
+      "name": "Anthony Davis",
+      "team": "WAS",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 34,
+          "fgm": 24,
+          "pct": 0.7059
+        },
+        "paint": {
+          "fga": 25,
+          "fgm": 8,
+          "pct": 0.32
+        },
+        "mid": {
+          "fga": 17,
+          "fgm": 3,
+          "pct": 0.1765
+        },
+        "corner_3": {
+          "fga": 2,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "l_corner_3": {
+          "fga": 1,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "r_corner_3": {
+          "fga": 1,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "above_break_3": {
+          "fga": 15,
+          "fgm": 6,
+          "pct": 0.4
+        }
+      }
+    },
+    {
+      "id": 1630559,
+      "name": "Austin Reaves",
+      "team": "LAL",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 8,
+          "fgm": 5,
+          "pct": 0.625
+        },
+        "paint": {
+          "fga": 25,
+          "fgm": 18,
+          "pct": 0.72
+        },
+        "mid": {
+          "fga": 5,
+          "fgm": 1,
+          "pct": 0.2
+        },
+        "corner_3": {
+          "fga": 2,
+          "fgm": 1,
+          "pct": 0.5
+        },
+        "l_corner_3": {
+          "fga": 2,
+          "fgm": 1,
+          "pct": 0.5
+        },
+        "r_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "above_break_3": {
+          "fga": 25,
+          "fgm": 12,
+          "pct": 0.48
+        }
+      }
+    },
+    {
+      "id": 1630245,
+      "name": "Ayo Dosunmu",
+      "team": "MIN",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 19,
+          "fgm": 13,
+          "pct": 0.6842
+        },
+        "paint": {
+          "fga": 16,
+          "fgm": 5,
+          "pct": 0.3125
+        },
+        "mid": {
+          "fga": 2,
+          "fgm": 1,
+          "pct": 0.5
+        },
+        "corner_3": {
+          "fga": 3,
+          "fgm": 1,
+          "pct": 0.3333
+        },
+        "l_corner_3": {
+          "fga": 1,
+          "fgm": 1,
+          "pct": 1.0
+        },
+        "r_corner_3": {
+          "fga": 2,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "above_break_3": {
+          "fga": 13,
+          "fgm": 6,
+          "pct": 0.4615
+        }
+      }
+    },
+    {
+      "id": 1628389,
+      "name": "Bam Adebayo",
+      "team": "MIA",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 19,
+          "fgm": 11,
+          "pct": 0.5789
+        },
+        "paint": {
+          "fga": 14,
+          "fgm": 11,
+          "pct": 0.7857
+        },
+        "mid": {
+          "fga": 9,
+          "fgm": 1,
+          "pct": 0.1111
+        },
+        "corner_3": {
+          "fga": 7,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "l_corner_3": {
+          "fga": 3,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "r_corner_3": {
+          "fga": 4,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "above_break_3": {
+          "fga": 12,
+          "fgm": 3,
+          "pct": 0.25
+        }
+      }
+    },
+    {
+      "id": 1642892,
+      "name": "Bennett Stirtz",
+      "team": "OKC",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 3,
+          "fgm": 2,
+          "pct": 0.6667
+        },
+        "paint": {
+          "fga": 2,
+          "fgm": 1,
+          "pct": 0.5
+        },
+        "mid": {
+          "fga": 1,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "l_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "r_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "above_break_3": {
+          "fga": 9,
+          "fgm": 2,
+          "pct": 0.2222
+        }
+      }
+    },
+    {
+      "id": 1641731,
+      "name": "Bilal Coulibaly",
+      "team": "WAS",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 16,
+          "fgm": 15,
+          "pct": 0.9375
+        },
+        "paint": {
+          "fga": 4,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "mid": {
+          "fga": 1,
+          "fgm": 1,
+          "pct": 1.0
+        },
+        "corner_3": {
+          "fga": 11,
+          "fgm": 2,
+          "pct": 0.1818
+        },
+        "l_corner_3": {
+          "fga": 8,
+          "fgm": 1,
+          "pct": 0.125
+        },
+        "r_corner_3": {
+          "fga": 3,
+          "fgm": 1,
+          "pct": 0.3333
+        },
+        "above_break_3": {
+          "fga": 2,
+          "fgm": 1,
+          "pct": 0.5
+        }
+      }
+    },
+    {
+      "id": 1626171,
+      "name": "Bobby Portis Jr.",
+      "team": "MIA",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 8,
+          "fgm": 2,
+          "pct": 0.25
+        },
+        "paint": {
+          "fga": 5,
+          "fgm": 3,
+          "pct": 0.6
+        },
+        "mid": {
+          "fga": 10,
+          "fgm": 4,
+          "pct": 0.4
+        },
+        "corner_3": {
+          "fga": 10,
+          "fgm": 5,
+          "pct": 0.5
+        },
+        "l_corner_3": {
+          "fga": 6,
+          "fgm": 3,
+          "pct": 0.5
+        },
+        "r_corner_3": {
+          "fga": 4,
+          "fgm": 2,
+          "pct": 0.5
+        },
+        "above_break_3": {
+          "fga": 14,
+          "fgm": 5,
+          "pct": 0.3571
+        }
+      }
+    },
+    {
+      "id": 203992,
+      "name": "Bogdan Bogdanovi\u0107",
+      "team": "HOU",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 1,
+          "fgm": 1,
+          "pct": 1.0
+        },
+        "paint": {
+          "fga": 4,
+          "fgm": 2,
+          "pct": 0.5
+        },
+        "mid": {
+          "fga": 2,
+          "fgm": 1,
+          "pct": 0.5
+        },
+        "corner_3": {
+          "fga": 6,
+          "fgm": 6,
+          "pct": 1.0
+        },
+        "l_corner_3": {
+          "fga": 3,
+          "fgm": 3,
+          "pct": 1.0
+        },
+        "r_corner_3": {
+          "fga": 3,
+          "fgm": 3,
+          "pct": 1.0
+        },
+        "above_break_3": {
+          "fga": 9,
+          "fgm": 4,
+          "pct": 0.4444
+        }
+      }
+    },
+    {
+      "id": 1630538,
+      "name": "Bones Hyland",
+      "team": "MIN",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 1,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "paint": {
+          "fga": 1,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "mid": {
+          "fga": 1,
+          "fgm": 1,
+          "pct": 1.0
+        },
+        "corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "l_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "r_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "above_break_3": {
+          "fga": 14,
+          "fgm": 5,
+          "pct": 0.3571
+        }
+      }
+    },
+    {
+      "id": 1641706,
+      "name": "Brandon Miller",
+      "team": "CHA",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 18,
+          "fgm": 12,
+          "pct": 0.6667
+        },
+        "paint": {
+          "fga": 31,
+          "fgm": 13,
+          "pct": 0.4194
+        },
+        "mid": {
+          "fga": 14,
+          "fgm": 6,
+          "pct": 0.4286
+        },
+        "corner_3": {
+          "fga": 9,
+          "fgm": 3,
+          "pct": 0.3333
+        },
+        "l_corner_3": {
+          "fga": 4,
+          "fgm": 1,
+          "pct": 0.25
+        },
+        "r_corner_3": {
+          "fga": 5,
+          "fgm": 2,
+          "pct": 0.4
+        },
+        "above_break_3": {
+          "fga": 46,
+          "fgm": 12,
+          "pct": 0.2609
+        }
+      }
+    },
+    {
+      "id": 1630314,
+      "name": "Brandon Williams",
+      "team": "GSW",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 13,
+          "fgm": 6,
+          "pct": 0.4615
+        },
+        "paint": {
+          "fga": 11,
+          "fgm": 4,
+          "pct": 0.3636
+        },
+        "mid": {
+          "fga": 5,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "corner_3": {
+          "fga": 4,
+          "fgm": 1,
+          "pct": 0.25
+        },
+        "l_corner_3": {
+          "fga": 2,
+          "fgm": 1,
+          "pct": 0.5
+        },
+        "r_corner_3": {
+          "fga": 2,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "above_break_3": {
+          "fga": 11,
+          "fgm": 4,
+          "pct": 0.3636
+        }
+      }
+    },
+    {
+      "id": 1643415,
+      "name": "Brayden Burries",
+      "team": "MIL",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 6,
+          "fgm": 4,
+          "pct": 0.6667
+        },
+        "paint": {
+          "fga": 7,
+          "fgm": 4,
+          "pct": 0.5714
+        },
+        "mid": {
+          "fga": 1,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "corner_3": {
+          "fga": 2,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "l_corner_3": {
+          "fga": 2,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "r_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "above_break_3": {
+          "fga": 11,
+          "fgm": 4,
+          "pct": 0.3636
+        }
+      }
+    },
+    {
+      "id": 1641729,
+      "name": "Brice Sensabaugh",
+      "team": "UTA",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 2,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "paint": {
+          "fga": 9,
+          "fgm": 5,
+          "pct": 0.5556
+        },
+        "mid": {
+          "fga": 2,
+          "fgm": 1,
+          "pct": 0.5
+        },
+        "corner_3": {
+          "fga": 4,
+          "fgm": 2,
+          "pct": 0.5
+        },
+        "l_corner_3": {
+          "fga": 2,
+          "fgm": 1,
+          "pct": 0.5
+        },
+        "r_corner_3": {
+          "fga": 2,
+          "fgm": 1,
+          "pct": 0.5
+        },
+        "above_break_3": {
+          "fga": 15,
+          "fgm": 8,
+          "pct": 0.5333
+        }
+      }
+    },
+    {
+      "id": 1642267,
+      "name": "Bub Carrington",
+      "team": "WAS",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 1,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "paint": {
+          "fga": 3,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "mid": {
+          "fga": 2,
+          "fgm": 1,
+          "pct": 0.5
+        },
+        "corner_3": {
+          "fga": 9,
+          "fgm": 4,
+          "pct": 0.4444
+        },
+        "l_corner_3": {
+          "fga": 7,
+          "fgm": 3,
+          "pct": 0.4286
+        },
+        "r_corner_3": {
+          "fga": 2,
+          "fgm": 1,
+          "pct": 0.5
+        },
+        "above_break_3": {
+          "fga": 12,
+          "fgm": 4,
+          "pct": 0.3333
+        }
+      }
+    },
+    {
+      "id": 1627741,
+      "name": "Buddy Hield",
+      "team": "CHI",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 7,
+          "fgm": 5,
+          "pct": 0.7143
+        },
+        "paint": {
+          "fga": 1,
+          "fgm": 1,
+          "pct": 1.0
+        },
+        "mid": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "corner_3": {
+          "fga": 3,
+          "fgm": 2,
+          "pct": 0.6667
+        },
+        "l_corner_3": {
+          "fga": 3,
+          "fgm": 2,
+          "pct": 0.6667
+        },
+        "r_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "above_break_3": {
+          "fga": 11,
+          "fgm": 3,
+          "pct": 0.2727
+        }
+      }
+    },
+    {
+      "id": 203468,
+      "name": "CJ McCollum",
+      "team": "ATL",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 12,
+          "fgm": 10,
+          "pct": 0.8333
+        },
+        "paint": {
+          "fga": 12,
+          "fgm": 7,
+          "pct": 0.5833
+        },
+        "mid": {
+          "fga": 7,
+          "fgm": 3,
+          "pct": 0.4286
+        },
+        "corner_3": {
+          "fga": 3,
+          "fgm": 2,
+          "pct": 0.6667
+        },
+        "l_corner_3": {
+          "fga": 3,
+          "fgm": 2,
+          "pct": 0.6667
+        },
+        "r_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "above_break_3": {
+          "fga": 24,
+          "fgm": 10,
+          "pct": 0.4167
+        }
+      }
+    },
+    {
+      "id": 1630595,
+      "name": "Cade Cunningham",
+      "team": "DET",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 18,
+          "fgm": 10,
+          "pct": 0.5556
+        },
+        "paint": {
+          "fga": 18,
+          "fgm": 10,
+          "pct": 0.5556
+        },
+        "mid": {
+          "fga": 16,
+          "fgm": 7,
+          "pct": 0.4375
+        },
+        "corner_3": {
+          "fga": 4,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "l_corner_3": {
+          "fga": 3,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "r_corner_3": {
+          "fga": 1,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "above_break_3": {
+          "fga": 29,
+          "fgm": 12,
+          "pct": 0.4138
+        }
+      }
+    },
+    {
+      "id": 1643410,
+      "name": "Caleb Wilson",
+      "team": "CHI",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 31,
+          "fgm": 21,
+          "pct": 0.6774
+        },
+        "paint": {
+          "fga": 15,
+          "fgm": 4,
+          "pct": 0.2667
+        },
+        "mid": {
+          "fga": 10,
+          "fgm": 5,
+          "pct": 0.5
+        },
+        "corner_3": {
+          "fga": 12,
+          "fgm": 3,
+          "pct": 0.25
+        },
+        "l_corner_3": {
+          "fga": 5,
+          "fgm": 1,
+          "pct": 0.2
+        },
+        "r_corner_3": {
+          "fga": 7,
+          "fgm": 2,
+          "pct": 0.2857
+        },
+        "above_break_3": {
+          "fga": 24,
+          "fgm": 5,
+          "pct": 0.2083
+        }
+      }
+    },
+    {
+      "id": 1642868,
+      "name": "Carter Bryant",
+      "team": "SAS",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 2,
+          "fgm": 2,
+          "pct": 1.0
+        },
+        "paint": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "mid": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "corner_3": {
+          "fga": 3,
+          "fgm": 1,
+          "pct": 0.3333
+        },
+        "l_corner_3": {
+          "fga": 2,
+          "fgm": 1,
+          "pct": 0.5
+        },
+        "r_corner_3": {
+          "fga": 1,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "above_break_3": {
+          "fga": 6,
+          "fgm": 0,
+          "pct": 0.0
+        }
+      }
+    },
+    {
+      "id": 1643515,
+      "name": "Christian Anderson",
+      "team": "CHA",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 1,
+          "fgm": 1,
+          "pct": 1.0
+        },
+        "paint": {
+          "fga": 2,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "mid": {
+          "fga": 2,
+          "fgm": 1,
+          "pct": 0.5
+        },
+        "corner_3": {
+          "fga": 1,
+          "fgm": 1,
+          "pct": 1.0
+        },
+        "l_corner_3": {
+          "fga": 1,
+          "fgm": 1,
+          "pct": 1.0
+        },
+        "r_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "above_break_3": {
+          "fga": 9,
+          "fgm": 0,
+          "pct": 0.0
+        }
+      }
+    },
+    {
+      "id": 1629655,
+      "name": "Daniel Gafford",
+      "team": "DAL",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 15,
+          "fgm": 11,
+          "pct": 0.7333
+        },
+        "paint": {
+          "fga": 6,
+          "fgm": 2,
+          "pct": 0.3333
+        },
+        "mid": {
+          "fga": 1,
+          "fgm": 1,
+          "pct": 1.0
+        },
+        "corner_3": {
+          "fga": 1,
+          "fgm": 1,
+          "pct": 1.0
+        },
+        "l_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "r_corner_3": {
+          "fga": 1,
+          "fgm": 1,
+          "pct": 1.0
+        },
+        "above_break_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        }
+      }
+    },
+    {
+      "id": 1642450,
+      "name": "Daniss Jenkins",
+      "team": "DET",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 9,
+          "fgm": 5,
+          "pct": 0.5556
+        },
+        "paint": {
+          "fga": 8,
+          "fgm": 4,
+          "pct": 0.5
+        },
+        "mid": {
+          "fga": 8,
+          "fgm": 4,
+          "pct": 0.5
+        },
+        "corner_3": {
+          "fga": 9,
+          "fgm": 4,
+          "pct": 0.4444
+        },
+        "l_corner_3": {
+          "fga": 6,
+          "fgm": 3,
+          "pct": 0.5
+        },
+        "r_corner_3": {
+          "fga": 3,
+          "fgm": 1,
+          "pct": 0.3333
+        },
+        "above_break_3": {
+          "fga": 8,
+          "fgm": 4,
+          "pct": 0.5
+        }
+      }
+    },
+    {
+      "id": 1643408,
+      "name": "Darryn Peterson",
+      "team": "UTA",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 7,
+          "fgm": 4,
+          "pct": 0.5714
+        },
+        "paint": {
+          "fga": 24,
+          "fgm": 9,
+          "pct": 0.375
+        },
+        "mid": {
+          "fga": 12,
+          "fgm": 2,
+          "pct": 0.1667
+        },
+        "corner_3": {
+          "fga": 5,
+          "fgm": 1,
+          "pct": 0.2
+        },
+        "l_corner_3": {
+          "fga": 2,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "r_corner_3": {
+          "fga": 3,
+          "fgm": 1,
+          "pct": 0.3333
+        },
+        "above_break_3": {
+          "fga": 15,
+          "fgm": 6,
+          "pct": 0.4
+        }
+      }
+    },
+    {
+      "id": 1630558,
+      "name": "Davion Mitchell",
+      "team": "MIA",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 22,
+          "fgm": 15,
+          "pct": 0.6818
+        },
+        "paint": {
+          "fga": 14,
+          "fgm": 6,
+          "pct": 0.4286
+        },
+        "mid": {
+          "fga": 3,
+          "fgm": 2,
+          "pct": 0.6667
+        },
+        "corner_3": {
+          "fga": 4,
+          "fgm": 2,
+          "pct": 0.5
+        },
+        "l_corner_3": {
+          "fga": 2,
+          "fgm": 1,
+          "pct": 0.5
+        },
+        "r_corner_3": {
+          "fga": 2,
+          "fgm": 1,
+          "pct": 0.5
+        },
+        "above_break_3": {
+          "fga": 19,
+          "fgm": 7,
+          "pct": 0.3684
+        }
+      }
+    },
+    {
+      "id": 1628368,
+      "name": "De'Aaron Fox",
+      "team": "SAS",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 12,
+          "fgm": 7,
+          "pct": 0.5833
+        },
+        "paint": {
+          "fga": 15,
+          "fgm": 10,
+          "pct": 0.6667
+        },
+        "mid": {
+          "fga": 4,
+          "fgm": 2,
+          "pct": 0.5
+        },
+        "corner_3": {
+          "fga": 7,
+          "fgm": 2,
+          "pct": 0.2857
+        },
+        "l_corner_3": {
+          "fga": 4,
+          "fgm": 1,
+          "pct": 0.25
+        },
+        "r_corner_3": {
+          "fga": 3,
+          "fgm": 1,
+          "pct": 0.3333
+        },
+        "above_break_3": {
+          "fga": 11,
+          "fgm": 5,
+          "pct": 0.4545
+        }
+      }
+    },
+    {
+      "id": 1629001,
+      "name": "De'Anthony Melton",
+      "team": "GSW",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 8,
+          "fgm": 5,
+          "pct": 0.625
+        },
+        "paint": {
+          "fga": 3,
+          "fgm": 1,
+          "pct": 0.3333
+        },
+        "mid": {
+          "fga": 1,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "corner_3": {
+          "fga": 5,
+          "fgm": 2,
+          "pct": 0.4
+        },
+        "l_corner_3": {
+          "fga": 2,
+          "fgm": 1,
+          "pct": 0.5
+        },
+        "r_corner_3": {
+          "fga": 3,
+          "fgm": 1,
+          "pct": 0.3333
+        },
+        "above_break_3": {
+          "fga": 17,
+          "fgm": 7,
+          "pct": 0.4118
+        }
+      }
+    },
+    {
+      "id": 1629028,
+      "name": "Deandre Ayton",
+      "team": "WAS",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 13,
+          "fgm": 11,
+          "pct": 0.8462
+        },
+        "paint": {
+          "fga": 6,
+          "fgm": 4,
+          "pct": 0.6667
+        },
+        "mid": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "l_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "r_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "above_break_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        }
+      }
+    },
+    {
+      "id": 203471,
+      "name": "Dennis Schr\u00f6der",
+      "team": "CHA",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 21,
+          "fgm": 13,
+          "pct": 0.619
+        },
+        "paint": {
+          "fga": 12,
+          "fgm": 4,
+          "pct": 0.3333
+        },
+        "mid": {
+          "fga": 8,
+          "fgm": 4,
+          "pct": 0.5
+        },
+        "corner_3": {
+          "fga": 2,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "l_corner_3": {
+          "fga": 1,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "r_corner_3": {
+          "fga": 1,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "above_break_3": {
+          "fga": 18,
+          "fgm": 5,
+          "pct": 0.2778
+        }
+      }
+    },
+    {
+      "id": 1630170,
+      "name": "Devin Vassell",
+      "team": "SAS",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 6,
+          "fgm": 4,
+          "pct": 0.6667
+        },
+        "paint": {
+          "fga": 12,
+          "fgm": 6,
+          "pct": 0.5
+        },
+        "mid": {
+          "fga": 10,
+          "fgm": 4,
+          "pct": 0.4
+        },
+        "corner_3": {
+          "fga": 13,
+          "fgm": 4,
+          "pct": 0.3077
+        },
+        "l_corner_3": {
+          "fga": 7,
+          "fgm": 3,
+          "pct": 0.4286
+        },
+        "r_corner_3": {
+          "fga": 6,
+          "fgm": 1,
+          "pct": 0.1667
+        },
+        "above_break_3": {
+          "fga": 14,
+          "fgm": 5,
+          "pct": 0.3571
+        }
+      }
+    },
+    {
+      "id": 1629130,
+      "name": "Duncan Robinson",
+      "team": "DET",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 6,
+          "fgm": 3,
+          "pct": 0.5
+        },
+        "paint": {
+          "fga": 6,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "mid": {
+          "fga": 3,
+          "fgm": 1,
+          "pct": 0.3333
+        },
+        "corner_3": {
+          "fga": 10,
+          "fgm": 4,
+          "pct": 0.4
+        },
+        "l_corner_3": {
+          "fga": 4,
+          "fgm": 1,
+          "pct": 0.25
+        },
+        "r_corner_3": {
+          "fga": 6,
+          "fgm": 3,
+          "pct": 0.5
+        },
+        "above_break_3": {
+          "fga": 36,
+          "fgm": 16,
+          "pct": 0.4444
+        }
+      }
+    },
+    {
+      "id": 1642844,
+      "name": "Dylan Harper",
+      "team": "SAS",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 31,
+          "fgm": 23,
+          "pct": 0.7419
+        },
+        "paint": {
+          "fga": 15,
+          "fgm": 5,
+          "pct": 0.3333
+        },
+        "mid": {
+          "fga": 10,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "corner_3": {
+          "fga": 6,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "l_corner_3": {
+          "fga": 1,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "r_corner_3": {
+          "fga": 5,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "above_break_3": {
+          "fga": 12,
+          "fgm": 6,
+          "pct": 0.5
+        }
+      }
+    },
+    {
+      "id": 1630700,
+      "name": "Dyson Daniels",
+      "team": "ATL",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 23,
+          "fgm": 16,
+          "pct": 0.6957
+        },
+        "paint": {
+          "fga": 20,
+          "fgm": 9,
+          "pct": 0.45
+        },
+        "mid": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "l_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "r_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "above_break_3": {
+          "fga": 6,
+          "fgm": 1,
+          "pct": 0.1667
+        }
+      }
+    },
+    {
+      "id": 1627780,
+      "name": "Gary Payton II",
+      "team": "GSW",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 10,
+          "fgm": 8,
+          "pct": 0.8
+        },
+        "paint": {
+          "fga": 7,
+          "fgm": 3,
+          "pct": 0.4286
+        },
+        "mid": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "corner_3": {
+          "fga": 5,
+          "fgm": 1,
+          "pct": 0.2
+        },
+        "l_corner_3": {
+          "fga": 2,
+          "fgm": 1,
+          "pct": 0.5
+        },
+        "r_corner_3": {
+          "fga": 3,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "above_break_3": {
+          "fga": 5,
+          "fgm": 1,
+          "pct": 0.2
+        }
+      }
+    },
+    {
+      "id": 1627777,
+      "name": "Georges Niang",
+      "team": "GSW",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 6,
+          "fgm": 5,
+          "pct": 0.8333
+        },
+        "paint": {
+          "fga": 7,
+          "fgm": 4,
+          "pct": 0.5714
+        },
+        "mid": {
+          "fga": 1,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "corner_3": {
+          "fga": 11,
+          "fgm": 2,
+          "pct": 0.1818
+        },
+        "l_corner_3": {
+          "fga": 7,
+          "fgm": 1,
+          "pct": 0.1429
+        },
+        "r_corner_3": {
+          "fga": 4,
+          "fgm": 1,
+          "pct": 0.25
+        },
+        "above_break_3": {
+          "fga": 10,
+          "fgm": 2,
+          "pct": 0.2
+        }
+      }
+    },
+    {
+      "id": 203507,
+      "name": "Giannis Antetokounmpo",
+      "team": "MIA",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 53,
+          "fgm": 35,
+          "pct": 0.6604
+        },
+        "paint": {
+          "fga": 20,
+          "fgm": 13,
+          "pct": 0.65
+        },
+        "mid": {
+          "fga": 12,
+          "fgm": 4,
+          "pct": 0.3333
+        },
+        "corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "l_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "r_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "above_break_3": {
+          "fga": 12,
+          "fgm": 3,
+          "pct": 0.25
+        }
+      }
+    },
+    {
+      "id": 1628960,
+      "name": "Grayson Allen",
+      "team": "CHA",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 2,
+          "fgm": 2,
+          "pct": 1.0
+        },
+        "paint": {
+          "fga": 5,
+          "fgm": 1,
+          "pct": 0.2
+        },
+        "mid": {
+          "fga": 3,
+          "fgm": 1,
+          "pct": 0.3333
+        },
+        "corner_3": {
+          "fga": 6,
+          "fgm": 2,
+          "pct": 0.3333
+        },
+        "l_corner_3": {
+          "fga": 5,
+          "fgm": 2,
+          "pct": 0.4
+        },
+        "r_corner_3": {
+          "fga": 1,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "above_break_3": {
+          "fga": 29,
+          "fgm": 14,
+          "pct": 0.4828
+        }
+      }
+    },
+    {
+      "id": 1630171,
+      "name": "Isaac Okoro",
+      "team": "CHI",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 6,
+          "fgm": 3,
+          "pct": 0.5
+        },
+        "paint": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "mid": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "corner_3": {
+          "fga": 8,
+          "fgm": 2,
+          "pct": 0.25
+        },
+        "l_corner_3": {
+          "fga": 2,
+          "fgm": 2,
+          "pct": 1.0
+        },
+        "r_corner_3": {
+          "fga": 6,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "above_break_3": {
+          "fga": 1,
+          "fgm": 0,
+          "pct": 0.0
+        }
+      }
+    },
+    {
+      "id": 1642268,
+      "name": "Isaiah Collier",
+      "team": "UTA",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 8,
+          "fgm": 3,
+          "pct": 0.375
+        },
+        "paint": {
+          "fga": 14,
+          "fgm": 8,
+          "pct": 0.5714
+        },
+        "mid": {
+          "fga": 3,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "corner_3": {
+          "fga": 2,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "l_corner_3": {
+          "fga": 2,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "r_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "above_break_3": {
+          "fga": 6,
+          "fgm": 0,
+          "pct": 0.0
+        }
+      }
+    },
+    {
+      "id": 1628392,
+      "name": "Isaiah Hartenstein",
+      "team": "OKC",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 21,
+          "fgm": 15,
+          "pct": 0.7143
+        },
+        "paint": {
+          "fga": 12,
+          "fgm": 5,
+          "pct": 0.4167
+        },
+        "mid": {
+          "fga": 3,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "l_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "r_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "above_break_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        }
+      }
+    },
+    {
+      "id": 1631095,
+      "name": "Jabari Smith Jr.",
+      "team": "HOU",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 17,
+          "fgm": 11,
+          "pct": 0.6471
+        },
+        "paint": {
+          "fga": 4,
+          "fgm": 1,
+          "pct": 0.25
+        },
+        "mid": {
+          "fga": 10,
+          "fgm": 4,
+          "pct": 0.4
+        },
+        "corner_3": {
+          "fga": 8,
+          "fgm": 4,
+          "pct": 0.5
+        },
+        "l_corner_3": {
+          "fga": 3,
+          "fgm": 1,
+          "pct": 0.3333
+        },
+        "r_corner_3": {
+          "fga": 5,
+          "fgm": 3,
+          "pct": 0.6
+        },
+        "above_break_3": {
+          "fga": 20,
+          "fgm": 8,
+          "pct": 0.4
+        }
+      }
+    },
+    {
+      "id": 1630183,
+      "name": "Jaden McDaniels",
+      "team": "MIN",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 14,
+          "fgm": 10,
+          "pct": 0.7143
+        },
+        "paint": {
+          "fga": 21,
+          "fgm": 13,
+          "pct": 0.619
+        },
+        "mid": {
+          "fga": 5,
+          "fgm": 4,
+          "pct": 0.8
+        },
+        "corner_3": {
+          "fga": 15,
+          "fgm": 7,
+          "pct": 0.4667
+        },
+        "l_corner_3": {
+          "fga": 6,
+          "fgm": 3,
+          "pct": 0.5
+        },
+        "r_corner_3": {
+          "fga": 9,
+          "fgm": 4,
+          "pct": 0.4444
+        },
+        "above_break_3": {
+          "fga": 7,
+          "fgm": 0,
+          "pct": 0.0
+        }
+      }
+    },
+    {
+      "id": 1631170,
+      "name": "Jaime Jaquez Jr.",
+      "team": "MIL",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 24,
+          "fgm": 17,
+          "pct": 0.7083
+        },
+        "paint": {
+          "fga": 14,
+          "fgm": 5,
+          "pct": 0.3571
+        },
+        "mid": {
+          "fga": 5,
+          "fgm": 3,
+          "pct": 0.6
+        },
+        "corner_3": {
+          "fga": 9,
+          "fgm": 3,
+          "pct": 0.3333
+        },
+        "l_corner_3": {
+          "fga": 5,
+          "fgm": 2,
+          "pct": 0.4
+        },
+        "r_corner_3": {
+          "fga": 4,
+          "fgm": 1,
+          "pct": 0.25
+        },
+        "above_break_3": {
+          "fga": 10,
+          "fgm": 5,
+          "pct": 0.5
+        }
+      }
+    },
+    {
+      "id": 1628973,
+      "name": "Jalen Brunson",
+      "team": "NYK",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 23,
+          "fgm": 13,
+          "pct": 0.5652
+        },
+        "paint": {
+          "fga": 28,
+          "fgm": 7,
+          "pct": 0.25
+        },
+        "mid": {
+          "fga": 26,
+          "fgm": 13,
+          "pct": 0.5
+        },
+        "corner_3": {
+          "fga": 3,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "l_corner_3": {
+          "fga": 1,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "r_corner_3": {
+          "fga": 2,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "above_break_3": {
+          "fga": 27,
+          "fgm": 10,
+          "pct": 0.3704
+        }
+      }
+    },
+    {
+      "id": 1630552,
+      "name": "Jalen Johnson",
+      "team": "ATL",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 27,
+          "fgm": 18,
+          "pct": 0.6667
+        },
+        "paint": {
+          "fga": 23,
+          "fgm": 9,
+          "pct": 0.3913
+        },
+        "mid": {
+          "fga": 7,
+          "fgm": 1,
+          "pct": 0.1429
+        },
+        "corner_3": {
+          "fga": 1,
+          "fgm": 1,
+          "pct": 1.0
+        },
+        "l_corner_3": {
+          "fga": 1,
+          "fgm": 1,
+          "pct": 1.0
+        },
+        "r_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "above_break_3": {
+          "fga": 22,
+          "fgm": 4,
+          "pct": 0.1818
+        }
+      }
+    },
+    {
+      "id": 1630188,
+      "name": "Jalen Smith",
+      "team": "CHI",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 18,
+          "fgm": 12,
+          "pct": 0.6667
+        },
+        "paint": {
+          "fga": 4,
+          "fgm": 3,
+          "pct": 0.75
+        },
+        "mid": {
+          "fga": 2,
+          "fgm": 1,
+          "pct": 0.5
+        },
+        "corner_3": {
+          "fga": 6,
+          "fgm": 1,
+          "pct": 0.1667
+        },
+        "l_corner_3": {
+          "fga": 5,
+          "fgm": 1,
+          "pct": 0.2
+        },
+        "r_corner_3": {
+          "fga": 1,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "above_break_3": {
+          "fga": 21,
+          "fgm": 8,
+          "pct": 0.381
+        }
+      }
+    },
+    {
+      "id": 1641716,
+      "name": "Jarace Walker",
+      "team": "IND",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 8,
+          "fgm": 3,
+          "pct": 0.375
+        },
+        "paint": {
+          "fga": 5,
+          "fgm": 3,
+          "pct": 0.6
+        },
+        "mid": {
+          "fga": 2,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "corner_3": {
+          "fga": 3,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "l_corner_3": {
+          "fga": 1,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "r_corner_3": {
+          "fga": 2,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "above_break_3": {
+          "fga": 13,
+          "fgm": 4,
+          "pct": 0.3077
+        }
+      }
+    },
+    {
+      "id": 1642272,
+      "name": "Jared McCain",
+      "team": "OKC",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 11,
+          "fgm": 5,
+          "pct": 0.4545
+        },
+        "paint": {
+          "fga": 5,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "mid": {
+          "fga": 5,
+          "fgm": 2,
+          "pct": 0.4
+        },
+        "corner_3": {
+          "fga": 10,
+          "fgm": 3,
+          "pct": 0.3
+        },
+        "l_corner_3": {
+          "fga": 3,
+          "fgm": 1,
+          "pct": 0.3333
+        },
+        "r_corner_3": {
+          "fga": 7,
+          "fgm": 2,
+          "pct": 0.2857
+        },
+        "above_break_3": {
+          "fga": 19,
+          "fgm": 8,
+          "pct": 0.4211
+        }
+      }
+    },
+    {
+      "id": 1629750,
+      "name": "Javonte Green",
+      "team": "DET",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 3,
+          "fgm": 1,
+          "pct": 0.3333
+        },
+        "paint": {
+          "fga": 1,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "mid": {
+          "fga": 1,
+          "fgm": 1,
+          "pct": 1.0
+        },
+        "corner_3": {
+          "fga": 10,
+          "fgm": 5,
+          "pct": 0.5
+        },
+        "l_corner_3": {
+          "fga": 5,
+          "fgm": 4,
+          "pct": 0.8
+        },
+        "r_corner_3": {
+          "fga": 5,
+          "fgm": 1,
+          "pct": 0.2
+        },
+        "above_break_3": {
+          "fga": 12,
+          "fgm": 3,
+          "pct": 0.25
+        }
+      }
+    },
+    {
+      "id": 1627759,
+      "name": "Jaylen Brown",
+      "team": "PHI",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 32,
+          "fgm": 19,
+          "pct": 0.5938
+        },
+        "paint": {
+          "fga": 18,
+          "fgm": 5,
+          "pct": 0.2778
+        },
+        "mid": {
+          "fga": 14,
+          "fgm": 5,
+          "pct": 0.3571
+        },
+        "corner_3": {
+          "fga": 12,
+          "fgm": 5,
+          "pct": 0.4167
+        },
+        "l_corner_3": {
+          "fga": 8,
+          "fgm": 2,
+          "pct": 0.25
+        },
+        "r_corner_3": {
+          "fga": 4,
+          "fgm": 3,
+          "pct": 0.75
+        },
+        "above_break_3": {
+          "fga": 10,
+          "fgm": 4,
+          "pct": 0.4
+        }
+      }
+    },
+    {
+      "id": 1631119,
+      "name": "Jaylin Williams",
+      "team": "OKC",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 2,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "paint": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "mid": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "corner_3": {
+          "fga": 7,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "l_corner_3": {
+          "fga": 6,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "r_corner_3": {
+          "fga": 1,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "above_break_3": {
+          "fga": 9,
+          "fgm": 4,
+          "pct": 0.4444
+        }
+      }
+    },
+    {
+      "id": 1642866,
+      "name": "Joan Beringer",
+      "team": "MIN",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 21,
+          "fgm": 14,
+          "pct": 0.6667
+        },
+        "paint": {
+          "fga": 1,
+          "fgm": 1,
+          "pct": 1.0
+        },
+        "mid": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "l_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "r_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "above_break_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        }
+      }
+    },
+    {
+      "id": 1629111,
+      "name": "Jock Landale",
+      "team": "ATL",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 15,
+          "fgm": 11,
+          "pct": 0.7333
+        },
+        "paint": {
+          "fga": 3,
+          "fgm": 2,
+          "pct": 0.6667
+        },
+        "mid": {
+          "fga": 1,
+          "fgm": 1,
+          "pct": 1.0
+        },
+        "corner_3": {
+          "fga": 5,
+          "fgm": 1,
+          "pct": 0.2
+        },
+        "l_corner_3": {
+          "fga": 4,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "r_corner_3": {
+          "fga": 1,
+          "fgm": 1,
+          "pct": 1.0
+        },
+        "above_break_3": {
+          "fga": 8,
+          "fgm": 0,
+          "pct": 0.0
+        }
+      }
+    },
+    {
+      "id": 1628381,
+      "name": "John Collins",
+      "team": "DET",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 21,
+          "fgm": 13,
+          "pct": 0.619
+        },
+        "paint": {
+          "fga": 8,
+          "fgm": 1,
+          "pct": 0.125
+        },
+        "mid": {
+          "fga": 3,
+          "fgm": 1,
+          "pct": 0.3333
+        },
+        "corner_3": {
+          "fga": 9,
+          "fgm": 4,
+          "pct": 0.4444
+        },
+        "l_corner_3": {
+          "fga": 5,
+          "fgm": 2,
+          "pct": 0.4
+        },
+        "r_corner_3": {
+          "fga": 4,
+          "fgm": 2,
+          "pct": 0.5
+        },
+        "above_break_3": {
+          "fga": 8,
+          "fgm": 3,
+          "pct": 0.375
+        }
+      }
+    },
+    {
+      "id": 1630228,
+      "name": "Jonathan Kuminga",
+      "team": "MIN",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 13,
+          "fgm": 8,
+          "pct": 0.6154
+        },
+        "paint": {
+          "fga": 12,
+          "fgm": 3,
+          "pct": 0.25
+        },
+        "mid": {
+          "fga": 4,
+          "fgm": 2,
+          "pct": 0.5
+        },
+        "corner_3": {
+          "fga": 11,
+          "fgm": 5,
+          "pct": 0.4545
+        },
+        "l_corner_3": {
+          "fga": 10,
+          "fgm": 4,
+          "pct": 0.4
+        },
+        "r_corner_3": {
+          "fga": 1,
+          "fgm": 1,
+          "pct": 1.0
+        },
+        "above_break_3": {
+          "fga": 10,
+          "fgm": 5,
+          "pct": 0.5
+        }
+      }
+    },
+    {
+      "id": 1630581,
+      "name": "Josh Giddey",
+      "team": "CHI",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 16,
+          "fgm": 7,
+          "pct": 0.4375
+        },
+        "paint": {
+          "fga": 11,
+          "fgm": 5,
+          "pct": 0.4545
+        },
+        "mid": {
+          "fga": 1,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "corner_3": {
+          "fga": 5,
+          "fgm": 1,
+          "pct": 0.2
+        },
+        "l_corner_3": {
+          "fga": 4,
+          "fgm": 1,
+          "pct": 0.25
+        },
+        "r_corner_3": {
+          "fga": 1,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "above_break_3": {
+          "fga": 9,
+          "fgm": 2,
+          "pct": 0.2222
+        }
+      }
+    },
+    {
+      "id": 1628404,
+      "name": "Josh Hart",
+      "team": "NYK",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 10,
+          "fgm": 5,
+          "pct": 0.5
+        },
+        "paint": {
+          "fga": 5,
+          "fgm": 3,
+          "pct": 0.6
+        },
+        "mid": {
+          "fga": 1,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "corner_3": {
+          "fga": 9,
+          "fgm": 3,
+          "pct": 0.3333
+        },
+        "l_corner_3": {
+          "fga": 7,
+          "fgm": 3,
+          "pct": 0.4286
+        },
+        "r_corner_3": {
+          "fga": 2,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "above_break_3": {
+          "fga": 17,
+          "fgm": 6,
+          "pct": 0.3529
+        }
+      }
+    },
+    {
+      "id": 1630577,
+      "name": "Julian Champagnie",
+      "team": "SAS",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 3,
+          "fgm": 3,
+          "pct": 1.0
+        },
+        "paint": {
+          "fga": 2,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "mid": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "corner_3": {
+          "fga": 12,
+          "fgm": 8,
+          "pct": 0.6667
+        },
+        "l_corner_3": {
+          "fga": 6,
+          "fgm": 3,
+          "pct": 0.5
+        },
+        "r_corner_3": {
+          "fga": 6,
+          "fgm": 5,
+          "pct": 0.8333
+        },
+        "above_break_3": {
+          "fga": 23,
+          "fgm": 9,
+          "pct": 0.3913
+        }
+      }
+    },
+    {
+      "id": 1626157,
+      "name": "Karl-Anthony Towns",
+      "team": "NYK",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 38,
+          "fgm": 27,
+          "pct": 0.7105
+        },
+        "paint": {
+          "fga": 7,
+          "fgm": 4,
+          "pct": 0.5714
+        },
+        "mid": {
+          "fga": 5,
+          "fgm": 2,
+          "pct": 0.4
+        },
+        "corner_3": {
+          "fga": 1,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "l_corner_3": {
+          "fga": 1,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "r_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "above_break_3": {
+          "fga": 21,
+          "fgm": 9,
+          "pct": 0.4286
+        }
+      }
+    },
+    {
+      "id": 1642857,
+      "name": "Kasparas Jaku\u010dionis",
+      "team": "MIL",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 11,
+          "fgm": 9,
+          "pct": 0.8182
+        },
+        "paint": {
+          "fga": 2,
+          "fgm": 1,
+          "pct": 0.5
+        },
+        "mid": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "corner_3": {
+          "fga": 3,
+          "fgm": 1,
+          "pct": 0.3333
+        },
+        "l_corner_3": {
+          "fga": 1,
+          "fgm": 1,
+          "pct": 1.0
+        },
+        "r_corner_3": {
+          "fga": 2,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "above_break_3": {
+          "fga": 10,
+          "fgm": 2,
+          "pct": 0.2
+        }
+      }
+    },
+    {
+      "id": 1642276,
+      "name": "Kel'el Ware",
+      "team": "MIL",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 28,
+          "fgm": 19,
+          "pct": 0.6786
+        },
+        "paint": {
+          "fga": 3,
+          "fgm": 1,
+          "pct": 0.3333
+        },
+        "mid": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "corner_3": {
+          "fga": 2,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "l_corner_3": {
+          "fga": 2,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "r_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "above_break_3": {
+          "fga": 13,
+          "fgm": 3,
+          "pct": 0.2308
+        }
+      }
+    },
+    {
+      "id": 1629640,
+      "name": "Keldon Johnson",
+      "team": "SAS",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 21,
+          "fgm": 16,
+          "pct": 0.7619
+        },
+        "paint": {
+          "fga": 11,
+          "fgm": 3,
+          "pct": 0.2727
+        },
+        "mid": {
+          "fga": 1,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "corner_3": {
+          "fga": 3,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "l_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "r_corner_3": {
+          "fga": 3,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "above_break_3": {
+          "fga": 2,
+          "fgm": 1,
+          "pct": 0.5
+        }
+      }
+    },
+    {
+      "id": 1626162,
+      "name": "Kelly Oubre Jr.",
+      "team": "IND",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 13,
+          "fgm": 9,
+          "pct": 0.6923
+        },
+        "paint": {
+          "fga": 5,
+          "fgm": 2,
+          "pct": 0.4
+        },
+        "mid": {
+          "fga": 3,
+          "fgm": 2,
+          "pct": 0.6667
+        },
+        "corner_3": {
+          "fga": 11,
+          "fgm": 2,
+          "pct": 0.1818
+        },
+        "l_corner_3": {
+          "fga": 3,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "r_corner_3": {
+          "fga": 8,
+          "fgm": 2,
+          "pct": 0.25
+        },
+        "above_break_3": {
+          "fga": 9,
+          "fgm": 2,
+          "pct": 0.2222
+        }
+      }
+    },
+    {
+      "id": 1629026,
+      "name": "Kenrich Williams",
+      "team": "OKC",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 6,
+          "fgm": 3,
+          "pct": 0.5
+        },
+        "paint": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "mid": {
+          "fga": 2,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "corner_3": {
+          "fga": 3,
+          "fgm": 2,
+          "pct": 0.6667
+        },
+        "l_corner_3": {
+          "fga": 2,
+          "fgm": 1,
+          "pct": 0.5
+        },
+        "r_corner_3": {
+          "fga": 1,
+          "fgm": 1,
+          "pct": 1.0
+        },
+        "above_break_3": {
+          "fga": 6,
+          "fgm": 2,
+          "pct": 0.3333
+        }
+      }
+    },
+    {
+      "id": 203484,
+      "name": "Kentavious Caldwell-Pope",
+      "team": "PHI",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 2,
+          "fgm": 1,
+          "pct": 0.5
+        },
+        "paint": {
+          "fga": 4,
+          "fgm": 1,
+          "pct": 0.25
+        },
+        "mid": {
+          "fga": 3,
+          "fgm": 2,
+          "pct": 0.6667
+        },
+        "corner_3": {
+          "fga": 9,
+          "fgm": 4,
+          "pct": 0.4444
+        },
+        "l_corner_3": {
+          "fga": 1,
+          "fgm": 1,
+          "pct": 1.0
+        },
+        "r_corner_3": {
+          "fga": 8,
+          "fgm": 3,
+          "pct": 0.375
+        },
+        "above_break_3": {
+          "fga": 11,
+          "fgm": 4,
+          "pct": 0.3636
+        }
+      }
+    },
+    {
+      "id": 201142,
+      "name": "Kevin Durant",
+      "team": "HOU",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 10,
+          "fgm": 9,
+          "pct": 0.9
+        },
+        "paint": {
+          "fga": 19,
+          "fgm": 7,
+          "pct": 0.3684
+        },
+        "mid": {
+          "fga": 14,
+          "fgm": 8,
+          "pct": 0.5714
+        },
+        "corner_3": {
+          "fga": 6,
+          "fgm": 2,
+          "pct": 0.3333
+        },
+        "l_corner_3": {
+          "fga": 2,
+          "fgm": 1,
+          "pct": 0.5
+        },
+        "r_corner_3": {
+          "fga": 4,
+          "fgm": 1,
+          "pct": 0.25
+        },
+        "above_break_3": {
+          "fga": 14,
+          "fgm": 8,
+          "pct": 0.5714
+        }
+      }
+    },
+    {
+      "id": 1628989,
+      "name": "Kevin Huerter",
+      "team": "DET",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 1,
+          "fgm": 1,
+          "pct": 1.0
+        },
+        "paint": {
+          "fga": 6,
+          "fgm": 4,
+          "pct": 0.6667
+        },
+        "mid": {
+          "fga": 4,
+          "fgm": 1,
+          "pct": 0.25
+        },
+        "corner_3": {
+          "fga": 3,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "l_corner_3": {
+          "fga": 2,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "r_corner_3": {
+          "fga": 1,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "above_break_3": {
+          "fga": 14,
+          "fgm": 5,
+          "pct": 0.3571
+        }
+      }
+    },
+    {
+      "id": 1641718,
+      "name": "Keyonte George",
+      "team": "UTA",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 4,
+          "fgm": 3,
+          "pct": 0.75
+        },
+        "paint": {
+          "fga": 20,
+          "fgm": 10,
+          "pct": 0.5
+        },
+        "mid": {
+          "fga": 23,
+          "fgm": 13,
+          "pct": 0.5652
+        },
+        "corner_3": {
+          "fga": 2,
+          "fgm": 2,
+          "pct": 1.0
+        },
+        "l_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "r_corner_3": {
+          "fga": 2,
+          "fgm": 2,
+          "pct": 1.0
+        },
+        "above_break_3": {
+          "fga": 32,
+          "fgm": 12,
+          "pct": 0.375
+        }
+      }
+    },
+    {
+      "id": 1643412,
+      "name": "Kingston Flemings",
+      "team": "ATL",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 10,
+          "fgm": 9,
+          "pct": 0.9
+        },
+        "paint": {
+          "fga": 5,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "mid": {
+          "fga": 5,
+          "fgm": 2,
+          "pct": 0.4
+        },
+        "corner_3": {
+          "fga": 2,
+          "fgm": 1,
+          "pct": 0.5
+        },
+        "l_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "r_corner_3": {
+          "fga": 2,
+          "fgm": 1,
+          "pct": 0.5
+        },
+        "above_break_3": {
+          "fga": 8,
+          "fgm": 3,
+          "pct": 0.375
+        }
+      }
+    },
+    {
+      "id": 202691,
+      "name": "Klay Thompson",
+      "team": "MIA",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "paint": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "mid": {
+          "fga": 4,
+          "fgm": 1,
+          "pct": 0.25
+        },
+        "corner_3": {
+          "fga": 11,
+          "fgm": 2,
+          "pct": 0.1818
+        },
+        "l_corner_3": {
+          "fga": 4,
+          "fgm": 1,
+          "pct": 0.25
+        },
+        "r_corner_3": {
+          "fga": 7,
+          "fgm": 1,
+          "pct": 0.1429
+        },
+        "above_break_3": {
+          "fga": 26,
+          "fgm": 10,
+          "pct": 0.3846
+        }
+      }
+    },
+    {
+      "id": 1628398,
+      "name": "Kyle Kuzma",
+      "team": "MIL",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 19,
+          "fgm": 12,
+          "pct": 0.6316
+        },
+        "paint": {
+          "fga": 5,
+          "fgm": 2,
+          "pct": 0.4
+        },
+        "mid": {
+          "fga": 4,
+          "fgm": 1,
+          "pct": 0.25
+        },
+        "corner_3": {
+          "fga": 7,
+          "fgm": 3,
+          "pct": 0.4286
+        },
+        "l_corner_3": {
+          "fga": 4,
+          "fgm": 3,
+          "pct": 0.75
+        },
+        "r_corner_3": {
+          "fga": 3,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "above_break_3": {
+          "fga": 13,
+          "fgm": 4,
+          "pct": 0.3077
+        }
+      }
+    },
+    {
+      "id": 1642273,
+      "name": "Kyshawn George",
+      "team": "WAS",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 24,
+          "fgm": 18,
+          "pct": 0.75
+        },
+        "paint": {
+          "fga": 12,
+          "fgm": 5,
+          "pct": 0.4167
+        },
+        "mid": {
+          "fga": 7,
+          "fgm": 3,
+          "pct": 0.4286
+        },
+        "corner_3": {
+          "fga": 5,
+          "fgm": 1,
+          "pct": 0.2
+        },
+        "l_corner_3": {
+          "fga": 3,
+          "fgm": 1,
+          "pct": 0.3333
+        },
+        "r_corner_3": {
+          "fga": 2,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "above_break_3": {
+          "fga": 16,
+          "fgm": 3,
+          "pct": 0.1875
+        }
+      }
+    },
+    {
+      "id": 1630163,
+      "name": "LaMelo Ball",
+      "team": "MIN",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 6,
+          "fgm": 3,
+          "pct": 0.5
+        },
+        "paint": {
+          "fga": 11,
+          "fgm": 7,
+          "pct": 0.6364
+        },
+        "mid": {
+          "fga": 3,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "corner_3": {
+          "fga": 4,
+          "fgm": 1,
+          "pct": 0.25
+        },
+        "l_corner_3": {
+          "fga": 4,
+          "fgm": 1,
+          "pct": 0.25
+        },
+        "r_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "above_break_3": {
+          "fga": 35,
+          "fgm": 13,
+          "pct": 0.3714
+        }
+      }
+    },
+    {
+      "id": 1629013,
+      "name": "Landry Shamet",
+      "team": "NYK",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 6,
+          "fgm": 1,
+          "pct": 0.1667
+        },
+        "paint": {
+          "fga": 3,
+          "fgm": 1,
+          "pct": 0.3333
+        },
+        "mid": {
+          "fga": 2,
+          "fgm": 1,
+          "pct": 0.5
+        },
+        "corner_3": {
+          "fga": 14,
+          "fgm": 5,
+          "pct": 0.3571
+        },
+        "l_corner_3": {
+          "fga": 10,
+          "fgm": 2,
+          "pct": 0.2
+        },
+        "r_corner_3": {
+          "fga": 4,
+          "fgm": 3,
+          "pct": 0.75
+        },
+        "above_break_3": {
+          "fga": 12,
+          "fgm": 7,
+          "pct": 0.5833
+        }
+      }
+    },
+    {
+      "id": 1626204,
+      "name": "Larry Nance Jr.",
+      "team": "IND",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 5,
+          "fgm": 3,
+          "pct": 0.6
+        },
+        "paint": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "mid": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "corner_3": {
+          "fga": 4,
+          "fgm": 1,
+          "pct": 0.25
+        },
+        "l_corner_3": {
+          "fga": 1,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "r_corner_3": {
+          "fga": 3,
+          "fgm": 1,
+          "pct": 0.3333
+        },
+        "above_break_3": {
+          "fga": 6,
+          "fgm": 1,
+          "pct": 0.1667
+        }
+      }
+    },
+    {
+      "id": 1631159,
+      "name": "Leonard Miller",
+      "team": "CHI",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 20,
+          "fgm": 14,
+          "pct": 0.7
+        },
+        "paint": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "mid": {
+          "fga": 2,
+          "fgm": 1,
+          "pct": 0.5
+        },
+        "corner_3": {
+          "fga": 4,
+          "fgm": 2,
+          "pct": 0.5
+        },
+        "l_corner_3": {
+          "fga": 2,
+          "fgm": 1,
+          "pct": 0.5
+        },
+        "r_corner_3": {
+          "fga": 2,
+          "fgm": 1,
+          "pct": 0.5
+        },
+        "above_break_3": {
+          "fga": 17,
+          "fgm": 3,
+          "pct": 0.1765
+        }
+      }
+    },
+    {
+      "id": 1629652,
+      "name": "Luguentz Dort",
+      "team": "ATL",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 14,
+          "fgm": 7,
+          "pct": 0.5
+        },
+        "paint": {
+          "fga": 2,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "mid": {
+          "fga": 2,
+          "fgm": 1,
+          "pct": 0.5
+        },
+        "corner_3": {
+          "fga": 4,
+          "fgm": 1,
+          "pct": 0.25
+        },
+        "l_corner_3": {
+          "fga": 1,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "r_corner_3": {
+          "fga": 3,
+          "fgm": 1,
+          "pct": 0.3333
+        },
+        "above_break_3": {
+          "fga": 18,
+          "fgm": 5,
+          "pct": 0.2778
+        }
+      }
+    },
+    {
+      "id": 1628436,
+      "name": "Luke Kornet",
+      "team": "SAS",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 9,
+          "fgm": 4,
+          "pct": 0.4444
+        },
+        "paint": {
+          "fga": 1,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "mid": {
+          "fga": 1,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "l_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "r_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "above_break_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        }
+      }
+    },
+    {
+      "id": 1631204,
+      "name": "Marcus Sasser",
+      "team": "DAL",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 3,
+          "fgm": 2,
+          "pct": 0.6667
+        },
+        "paint": {
+          "fga": 6,
+          "fgm": 4,
+          "pct": 0.6667
+        },
+        "mid": {
+          "fga": 6,
+          "fgm": 2,
+          "pct": 0.3333
+        },
+        "corner_3": {
+          "fga": 8,
+          "fgm": 3,
+          "pct": 0.375
+        },
+        "l_corner_3": {
+          "fga": 3,
+          "fgm": 1,
+          "pct": 0.3333
+        },
+        "r_corner_3": {
+          "fga": 5,
+          "fgm": 2,
+          "pct": 0.4
+        },
+        "above_break_3": {
+          "fga": 11,
+          "fgm": 6,
+          "pct": 0.5455
+        }
+      }
+    },
+    {
+      "id": 1641824,
+      "name": "Matas Buzelis",
+      "team": "CHI",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 14,
+          "fgm": 10,
+          "pct": 0.7143
+        },
+        "paint": {
+          "fga": 6,
+          "fgm": 1,
+          "pct": 0.1667
+        },
+        "mid": {
+          "fga": 4,
+          "fgm": 1,
+          "pct": 0.25
+        },
+        "corner_3": {
+          "fga": 13,
+          "fgm": 4,
+          "pct": 0.3077
+        },
+        "l_corner_3": {
+          "fga": 12,
+          "fgm": 4,
+          "pct": 0.3333
+        },
+        "r_corner_3": {
+          "fga": 1,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "above_break_3": {
+          "fga": 12,
+          "fgm": 3,
+          "pct": 0.25
+        }
+      }
+    },
+    {
+      "id": 1629680,
+      "name": "Matisse Thybulle",
+      "team": "LAL",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 5,
+          "fgm": 3,
+          "pct": 0.6
+        },
+        "paint": {
+          "fga": 2,
+          "fgm": 2,
+          "pct": 1.0
+        },
+        "mid": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "corner_3": {
+          "fga": 17,
+          "fgm": 10,
+          "pct": 0.5882
+        },
+        "l_corner_3": {
+          "fga": 9,
+          "fgm": 6,
+          "pct": 0.6667
+        },
+        "r_corner_3": {
+          "fga": 8,
+          "fgm": 4,
+          "pct": 0.5
+        },
+        "above_break_3": {
+          "fga": 7,
+          "fgm": 2,
+          "pct": 0.2857
+        }
+      }
+    },
+    {
+      "id": 1631108,
+      "name": "Max Christie",
+      "team": "DAL",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 7,
+          "fgm": 2,
+          "pct": 0.2857
+        },
+        "paint": {
+          "fga": 7,
+          "fgm": 4,
+          "pct": 0.5714
+        },
+        "mid": {
+          "fga": 1,
+          "fgm": 1,
+          "pct": 1.0
+        },
+        "corner_3": {
+          "fga": 9,
+          "fgm": 3,
+          "pct": 0.3333
+        },
+        "l_corner_3": {
+          "fga": 7,
+          "fgm": 3,
+          "pct": 0.4286
+        },
+        "r_corner_3": {
+          "fga": 2,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "above_break_3": {
+          "fga": 21,
+          "fgm": 7,
+          "pct": 0.3333
+        }
+      }
+    },
+    {
+      "id": 1628969,
+      "name": "Mikal Bridges",
+      "team": "NYK",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 7,
+          "fgm": 4,
+          "pct": 0.5714
+        },
+        "paint": {
+          "fga": 7,
+          "fgm": 1,
+          "pct": 0.1429
+        },
+        "mid": {
+          "fga": 3,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "corner_3": {
+          "fga": 12,
+          "fgm": 4,
+          "pct": 0.3333
+        },
+        "l_corner_3": {
+          "fga": 4,
+          "fgm": 1,
+          "pct": 0.25
+        },
+        "r_corner_3": {
+          "fga": 8,
+          "fgm": 3,
+          "pct": 0.375
+        },
+        "above_break_3": {
+          "fga": 8,
+          "fgm": 1,
+          "pct": 0.125
+        }
+      }
+    },
+    {
+      "id": 1630540,
+      "name": "Miles McBride",
+      "team": "NYK",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 3,
+          "fgm": 1,
+          "pct": 0.3333
+        },
+        "paint": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "mid": {
+          "fga": 3,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "corner_3": {
+          "fga": 12,
+          "fgm": 4,
+          "pct": 0.3333
+        },
+        "l_corner_3": {
+          "fga": 5,
+          "fgm": 1,
+          "pct": 0.2
+        },
+        "r_corner_3": {
+          "fga": 7,
+          "fgm": 3,
+          "pct": 0.4286
+        },
+        "above_break_3": {
+          "fga": 10,
+          "fgm": 5,
+          "pct": 0.5
+        }
+      }
+    },
+    {
+      "id": 1643516,
+      "name": "Morez Johnson Jr.",
+      "team": "DAL",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 12,
+          "fgm": 10,
+          "pct": 0.8333
+        },
+        "paint": {
+          "fga": 8,
+          "fgm": 5,
+          "pct": 0.625
+        },
+        "mid": {
+          "fga": 3,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "l_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "r_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "above_break_3": {
+          "fga": 3,
+          "fgm": 0,
+          "pct": 0.0
+        }
+      }
+    },
+    {
+      "id": 1631217,
+      "name": "Moussa Diabat\u00e9",
+      "team": "CHA",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 24,
+          "fgm": 18,
+          "pct": 0.75
+        },
+        "paint": {
+          "fga": 2,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "mid": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "l_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "r_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "above_break_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        }
+      }
+    },
+    {
+      "id": 1626167,
+      "name": "Myles Turner",
+      "team": "MIL",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 10,
+          "fgm": 7,
+          "pct": 0.7
+        },
+        "paint": {
+          "fga": 2,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "mid": {
+          "fga": 3,
+          "fgm": 2,
+          "pct": 0.6667
+        },
+        "corner_3": {
+          "fga": 3,
+          "fgm": 1,
+          "pct": 0.3333
+        },
+        "l_corner_3": {
+          "fga": 2,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "r_corner_3": {
+          "fga": 1,
+          "fgm": 1,
+          "pct": 1.0
+        },
+        "above_break_3": {
+          "fga": 19,
+          "fgm": 3,
+          "pct": 0.1579
+        }
+      }
+    },
+    {
+      "id": 1629675,
+      "name": "Naz Reid",
+      "team": "CHA",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 15,
+          "fgm": 9,
+          "pct": 0.6
+        },
+        "paint": {
+          "fga": 18,
+          "fgm": 6,
+          "pct": 0.3333
+        },
+        "mid": {
+          "fga": 11,
+          "fgm": 4,
+          "pct": 0.3636
+        },
+        "corner_3": {
+          "fga": 9,
+          "fgm": 3,
+          "pct": 0.3333
+        },
+        "l_corner_3": {
+          "fga": 4,
+          "fgm": 1,
+          "pct": 0.25
+        },
+        "r_corner_3": {
+          "fga": 5,
+          "fgm": 2,
+          "pct": 0.4
+        },
+        "above_break_3": {
+          "fga": 26,
+          "fgm": 12,
+          "pct": 0.4615
+        }
+      }
+    },
+    {
+      "id": 1629638,
+      "name": "Nickeil Alexander-Walker",
+      "team": "ATL",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 18,
+          "fgm": 11,
+          "pct": 0.6111
+        },
+        "paint": {
+          "fga": 9,
+          "fgm": 2,
+          "pct": 0.2222
+        },
+        "mid": {
+          "fga": 4,
+          "fgm": 2,
+          "pct": 0.5
+        },
+        "corner_3": {
+          "fga": 12,
+          "fgm": 5,
+          "pct": 0.4167
+        },
+        "l_corner_3": {
+          "fga": 10,
+          "fgm": 5,
+          "pct": 0.5
+        },
+        "r_corner_3": {
+          "fga": 2,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "above_break_3": {
+          "fga": 31,
+          "fgm": 13,
+          "pct": 0.4194
+        }
+      }
+    },
+    {
+      "id": 1626181,
+      "name": "Norman Powell",
+      "team": "CHI",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 9,
+          "fgm": 5,
+          "pct": 0.5556
+        },
+        "paint": {
+          "fga": 5,
+          "fgm": 3,
+          "pct": 0.6
+        },
+        "mid": {
+          "fga": 12,
+          "fgm": 6,
+          "pct": 0.5
+        },
+        "corner_3": {
+          "fga": 4,
+          "fgm": 2,
+          "pct": 0.5
+        },
+        "l_corner_3": {
+          "fga": 1,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "r_corner_3": {
+          "fga": 3,
+          "fgm": 2,
+          "pct": 0.6667
+        },
+        "above_break_3": {
+          "fga": 37,
+          "fgm": 13,
+          "pct": 0.3514
+        }
+      }
+    },
+    {
+      "id": 1628384,
+      "name": "OG Anunoby",
+      "team": "NYK",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 29,
+          "fgm": 16,
+          "pct": 0.5517
+        },
+        "paint": {
+          "fga": 1,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "mid": {
+          "fga": 2,
+          "fgm": 1,
+          "pct": 0.5
+        },
+        "corner_3": {
+          "fga": 15,
+          "fgm": 6,
+          "pct": 0.4
+        },
+        "l_corner_3": {
+          "fga": 9,
+          "fgm": 5,
+          "pct": 0.5556
+        },
+        "r_corner_3": {
+          "fga": 6,
+          "fgm": 1,
+          "pct": 0.1667
+        },
+        "above_break_3": {
+          "fga": 18,
+          "fgm": 3,
+          "pct": 0.1667
+        }
+      }
+    },
+    {
+      "id": 1630167,
+      "name": "Obi Toppin",
+      "team": "IND",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 20,
+          "fgm": 16,
+          "pct": 0.8
+        },
+        "paint": {
+          "fga": 5,
+          "fgm": 1,
+          "pct": 0.2
+        },
+        "mid": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "corner_3": {
+          "fga": 10,
+          "fgm": 4,
+          "pct": 0.4
+        },
+        "l_corner_3": {
+          "fga": 7,
+          "fgm": 3,
+          "pct": 0.4286
+        },
+        "r_corner_3": {
+          "fga": 3,
+          "fgm": 1,
+          "pct": 0.3333
+        },
+        "above_break_3": {
+          "fga": 17,
+          "fgm": 7,
+          "pct": 0.4118
+        }
+      }
+    },
+    {
+      "id": 1630168,
+      "name": "Onyeka Okongwu",
+      "team": "ATL",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 17,
+          "fgm": 9,
+          "pct": 0.5294
+        },
+        "paint": {
+          "fga": 7,
+          "fgm": 6,
+          "pct": 0.8571
+        },
+        "mid": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "corner_3": {
+          "fga": 4,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "l_corner_3": {
+          "fga": 2,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "r_corner_3": {
+          "fga": 2,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "above_break_3": {
+          "fga": 16,
+          "fgm": 4,
+          "pct": 0.25
+        }
+      }
+    },
+    {
+      "id": 1629023,
+      "name": "P.J. Washington",
+      "team": "DAL",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 14,
+          "fgm": 9,
+          "pct": 0.6429
+        },
+        "paint": {
+          "fga": 14,
+          "fgm": 7,
+          "pct": 0.5
+        },
+        "mid": {
+          "fga": 4,
+          "fgm": 3,
+          "pct": 0.75
+        },
+        "corner_3": {
+          "fga": 11,
+          "fgm": 4,
+          "pct": 0.3636
+        },
+        "l_corner_3": {
+          "fga": 6,
+          "fgm": 2,
+          "pct": 0.3333
+        },
+        "r_corner_3": {
+          "fga": 5,
+          "fgm": 2,
+          "pct": 0.4
+        },
+        "above_break_3": {
+          "fga": 20,
+          "fgm": 6,
+          "pct": 0.3
+        }
+      }
+    },
+    {
+      "id": 1627783,
+      "name": "Pascal Siakam",
+      "team": "IND",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 27,
+          "fgm": 20,
+          "pct": 0.7407
+        },
+        "paint": {
+          "fga": 24,
+          "fgm": 13,
+          "pct": 0.5417
+        },
+        "mid": {
+          "fga": 13,
+          "fgm": 6,
+          "pct": 0.4615
+        },
+        "corner_3": {
+          "fga": 5,
+          "fgm": 2,
+          "pct": 0.4
+        },
+        "l_corner_3": {
+          "fga": 3,
+          "fgm": 1,
+          "pct": 0.3333
+        },
+        "r_corner_3": {
+          "fga": 2,
+          "fgm": 1,
+          "pct": 0.5
+        },
+        "above_break_3": {
+          "fga": 16,
+          "fgm": 6,
+          "pct": 0.375
+        }
+      }
+    },
+    {
+      "id": 1630194,
+      "name": "Paul Reed",
+      "team": "DET",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 16,
+          "fgm": 14,
+          "pct": 0.875
+        },
+        "paint": {
+          "fga": 13,
+          "fgm": 6,
+          "pct": 0.4615
+        },
+        "mid": {
+          "fga": 8,
+          "fgm": 3,
+          "pct": 0.375
+        },
+        "corner_3": {
+          "fga": 1,
+          "fgm": 1,
+          "pct": 1.0
+        },
+        "l_corner_3": {
+          "fga": 1,
+          "fgm": 1,
+          "pct": 1.0
+        },
+        "r_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "above_break_3": {
+          "fga": 4,
+          "fgm": 4,
+          "pct": 1.0
+        }
+      }
+    },
+    {
+      "id": 1641796,
+      "name": "Pelle Larsson",
+      "team": "MIA",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 14,
+          "fgm": 9,
+          "pct": 0.6429
+        },
+        "paint": {
+          "fga": 8,
+          "fgm": 1,
+          "pct": 0.125
+        },
+        "mid": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "corner_3": {
+          "fga": 4,
+          "fgm": 2,
+          "pct": 0.5
+        },
+        "l_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "r_corner_3": {
+          "fga": 4,
+          "fgm": 2,
+          "pct": 0.5
+        },
+        "above_break_3": {
+          "fga": 10,
+          "fgm": 3,
+          "pct": 0.3
+        }
+      }
+    },
+    {
+      "id": 1629656,
+      "name": "Quentin Grimes",
+      "team": "LAL",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 12,
+          "fgm": 11,
+          "pct": 0.9167
+        },
+        "paint": {
+          "fga": 5,
+          "fgm": 2,
+          "pct": 0.4
+        },
+        "mid": {
+          "fga": 3,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "corner_3": {
+          "fga": 5,
+          "fgm": 2,
+          "pct": 0.4
+        },
+        "l_corner_3": {
+          "fga": 4,
+          "fgm": 2,
+          "pct": 0.5
+        },
+        "r_corner_3": {
+          "fga": 1,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "above_break_3": {
+          "fga": 9,
+          "fgm": 1,
+          "pct": 0.1111
+        }
+      }
+    },
+    {
+      "id": 1631245,
+      "name": "Quenton Jackson",
+      "team": "IND",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 10,
+          "fgm": 5,
+          "pct": 0.5
+        },
+        "paint": {
+          "fga": 4,
+          "fgm": 2,
+          "pct": 0.5
+        },
+        "mid": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "corner_3": {
+          "fga": 3,
+          "fgm": 1,
+          "pct": 0.3333
+        },
+        "l_corner_3": {
+          "fga": 1,
+          "fgm": 1,
+          "pct": 1.0
+        },
+        "r_corner_3": {
+          "fga": 2,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "above_break_3": {
+          "fga": 7,
+          "fgm": 0,
+          "pct": 0.0
+        }
+      }
+    },
+    {
+      "id": 1641842,
+      "name": "Ronald Holland II",
+      "team": "DET",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 6,
+          "fgm": 3,
+          "pct": 0.5
+        },
+        "paint": {
+          "fga": 9,
+          "fgm": 3,
+          "pct": 0.3333
+        },
+        "mid": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "corner_3": {
+          "fga": 5,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "l_corner_3": {
+          "fga": 2,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "r_corner_3": {
+          "fga": 3,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "above_break_3": {
+          "fga": 1,
+          "fgm": 0,
+          "pct": 0.0
+        }
+      }
+    },
+    {
+      "id": 1626220,
+      "name": "Royce O'Neale",
+      "team": "CHA",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 1,
+          "fgm": 1,
+          "pct": 1.0
+        },
+        "paint": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "mid": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "corner_3": {
+          "fga": 4,
+          "fgm": 2,
+          "pct": 0.5
+        },
+        "l_corner_3": {
+          "fga": 3,
+          "fgm": 2,
+          "pct": 0.6667
+        },
+        "r_corner_3": {
+          "fga": 1,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "above_break_3": {
+          "fga": 17,
+          "fgm": 5,
+          "pct": 0.2941
+        }
+      }
+    },
+    {
+      "id": 203497,
+      "name": "Rudy Gobert",
+      "team": "MIN",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 19,
+          "fgm": 8,
+          "pct": 0.4211
+        },
+        "paint": {
+          "fga": 6,
+          "fgm": 2,
+          "pct": 0.3333
+        },
+        "mid": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "l_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "r_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "above_break_3": {
+          "fga": 2,
+          "fgm": 0,
+          "pct": 0.0
+        }
+      }
+    },
+    {
+      "id": 1641750,
+      "name": "Ryan Kalkbrenner",
+      "team": "CHA",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 11,
+          "fgm": 10,
+          "pct": 0.9091
+        },
+        "paint": {
+          "fga": 2,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "mid": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "l_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "r_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "above_break_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        }
+      }
+    },
+    {
+      "id": 1631157,
+      "name": "Ryan Rollins",
+      "team": "MIL",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 19,
+          "fgm": 9,
+          "pct": 0.4737
+        },
+        "paint": {
+          "fga": 7,
+          "fgm": 1,
+          "pct": 0.1429
+        },
+        "mid": {
+          "fga": 11,
+          "fgm": 4,
+          "pct": 0.3636
+        },
+        "corner_3": {
+          "fga": 10,
+          "fgm": 1,
+          "pct": 0.1
+        },
+        "l_corner_3": {
+          "fga": 3,
+          "fgm": 1,
+          "pct": 0.3333
+        },
+        "r_corner_3": {
+          "fga": 7,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "above_break_3": {
+          "fga": 18,
+          "fgm": 7,
+          "pct": 0.3889
+        }
+      }
+    },
+    {
+      "id": 1630572,
+      "name": "Sandro Mamukelashvili",
+      "team": "LAL",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 11,
+          "fgm": 8,
+          "pct": 0.7273
+        },
+        "paint": {
+          "fga": 8,
+          "fgm": 4,
+          "pct": 0.5
+        },
+        "mid": {
+          "fga": 4,
+          "fgm": 2,
+          "pct": 0.5
+        },
+        "corner_3": {
+          "fga": 3,
+          "fgm": 1,
+          "pct": 0.3333
+        },
+        "l_corner_3": {
+          "fga": 1,
+          "fgm": 1,
+          "pct": 1.0
+        },
+        "r_corner_3": {
+          "fga": 2,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "above_break_3": {
+          "fga": 11,
+          "fgm": 4,
+          "pct": 0.3636
+        }
+      }
+    },
+    {
+      "id": 1628983,
+      "name": "Shai Gilgeous-Alexander",
+      "team": "OKC",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 19,
+          "fgm": 11,
+          "pct": 0.5789
+        },
+        "paint": {
+          "fga": 18,
+          "fgm": 9,
+          "pct": 0.5
+        },
+        "mid": {
+          "fga": 38,
+          "fgm": 21,
+          "pct": 0.5526
+        },
+        "corner_3": {
+          "fga": 2,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "l_corner_3": {
+          "fga": 1,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "r_corner_3": {
+          "fga": 1,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "above_break_3": {
+          "fga": 32,
+          "fgm": 9,
+          "pct": 0.2812
+        }
+      }
+    },
+    {
+      "id": 1642883,
+      "name": "Sion James",
+      "team": "CHA",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "paint": {
+          "fga": 3,
+          "fgm": 1,
+          "pct": 0.3333
+        },
+        "mid": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "corner_3": {
+          "fga": 14,
+          "fgm": 1,
+          "pct": 0.0714
+        },
+        "l_corner_3": {
+          "fga": 5,
+          "fgm": 1,
+          "pct": 0.2
+        },
+        "r_corner_3": {
+          "fga": 9,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "above_break_3": {
+          "fga": 10,
+          "fgm": 3,
+          "pct": 0.3
+        }
+      }
+    },
+    {
+      "id": 1642264,
+      "name": "Stephon Castle",
+      "team": "SAS",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 19,
+          "fgm": 9,
+          "pct": 0.4737
+        },
+        "paint": {
+          "fga": 11,
+          "fgm": 5,
+          "pct": 0.4545
+        },
+        "mid": {
+          "fga": 7,
+          "fgm": 4,
+          "pct": 0.5714
+        },
+        "corner_3": {
+          "fga": 9,
+          "fgm": 3,
+          "pct": 0.3333
+        },
+        "l_corner_3": {
+          "fga": 5,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "r_corner_3": {
+          "fga": 4,
+          "fgm": 3,
+          "pct": 0.75
+        },
+        "above_break_3": {
+          "fga": 32,
+          "fgm": 12,
+          "pct": 0.375
+        }
+      }
+    },
+    {
+      "id": 1629004,
+      "name": "Svi Mykhailiuk",
+      "team": "UTA",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 3,
+          "fgm": 2,
+          "pct": 0.6667
+        },
+        "paint": {
+          "fga": 4,
+          "fgm": 1,
+          "pct": 0.25
+        },
+        "mid": {
+          "fga": 2,
+          "fgm": 1,
+          "pct": 0.5
+        },
+        "corner_3": {
+          "fga": 4,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "l_corner_3": {
+          "fga": 3,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "r_corner_3": {
+          "fga": 1,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "above_break_3": {
+          "fga": 10,
+          "fgm": 3,
+          "pct": 0.3
+        }
+      }
+    },
+    {
+      "id": 1631106,
+      "name": "Tari Eason",
+      "team": "HOU",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 18,
+          "fgm": 15,
+          "pct": 0.8333
+        },
+        "paint": {
+          "fga": 6,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "mid": {
+          "fga": 4,
+          "fgm": 2,
+          "pct": 0.5
+        },
+        "corner_3": {
+          "fga": 8,
+          "fgm": 2,
+          "pct": 0.25
+        },
+        "l_corner_3": {
+          "fga": 2,
+          "fgm": 1,
+          "pct": 0.5
+        },
+        "r_corner_3": {
+          "fga": 6,
+          "fgm": 1,
+          "pct": 0.1667
+        },
+        "above_break_3": {
+          "fga": 3,
+          "fgm": 0,
+          "pct": 0.0
+        }
+      }
+    },
+    {
+      "id": 1630545,
+      "name": "Terrence Shannon Jr",
+      "team": "MIN",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 8,
+          "fgm": 4,
+          "pct": 0.5
+        },
+        "paint": {
+          "fga": 9,
+          "fgm": 5,
+          "pct": 0.5556
+        },
+        "mid": {
+          "fga": 3,
+          "fgm": 1,
+          "pct": 0.3333
+        },
+        "corner_3": {
+          "fga": 7,
+          "fgm": 4,
+          "pct": 0.5714
+        },
+        "l_corner_3": {
+          "fga": 5,
+          "fgm": 2,
+          "pct": 0.4
+        },
+        "r_corner_3": {
+          "fga": 2,
+          "fgm": 2,
+          "pct": 1.0
+        },
+        "above_break_3": {
+          "fga": 18,
+          "fgm": 7,
+          "pct": 0.3889
+        }
+      }
+    },
+    {
+      "id": 203501,
+      "name": "Tim Hardaway Jr.",
+      "team": "MIA",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 5,
+          "fgm": 4,
+          "pct": 0.8
+        },
+        "paint": {
+          "fga": 2,
+          "fgm": 1,
+          "pct": 0.5
+        },
+        "mid": {
+          "fga": 4,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "corner_3": {
+          "fga": 5,
+          "fgm": 1,
+          "pct": 0.2
+        },
+        "l_corner_3": {
+          "fga": 3,
+          "fgm": 1,
+          "pct": 0.3333
+        },
+        "r_corner_3": {
+          "fga": 2,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "above_break_3": {
+          "fga": 19,
+          "fgm": 5,
+          "pct": 0.2632
+        }
+      }
+    },
+    {
+      "id": 1629027,
+      "name": "Trae Young",
+      "team": "WAS",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 7,
+          "fgm": 4,
+          "pct": 0.5714
+        },
+        "paint": {
+          "fga": 20,
+          "fgm": 12,
+          "pct": 0.6
+        },
+        "mid": {
+          "fga": 9,
+          "fgm": 2,
+          "pct": 0.2222
+        },
+        "corner_3": {
+          "fga": 4,
+          "fgm": 2,
+          "pct": 0.5
+        },
+        "l_corner_3": {
+          "fga": 1,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "r_corner_3": {
+          "fga": 3,
+          "fgm": 2,
+          "pct": 0.6667
+        },
+        "above_break_3": {
+          "fga": 33,
+          "fgm": 8,
+          "pct": 0.2424
+        }
+      }
+    },
+    {
+      "id": 1630200,
+      "name": "Tre Jones",
+      "team": "CHI",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 17,
+          "fgm": 11,
+          "pct": 0.6471
+        },
+        "paint": {
+          "fga": 8,
+          "fgm": 1,
+          "pct": 0.125
+        },
+        "mid": {
+          "fga": 4,
+          "fgm": 2,
+          "pct": 0.5
+        },
+        "corner_3": {
+          "fga": 1,
+          "fgm": 1,
+          "pct": 1.0
+        },
+        "l_corner_3": {
+          "fga": 1,
+          "fgm": 1,
+          "pct": 1.0
+        },
+        "r_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "above_break_3": {
+          "fga": 3,
+          "fgm": 1,
+          "pct": 0.3333
+        }
+      }
+    },
+    {
+      "id": 1626168,
+      "name": "Trey Lyles",
+      "team": "MIN",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 1,
+          "fgm": 1,
+          "pct": 1.0
+        },
+        "paint": {
+          "fga": 1,
+          "fgm": 1,
+          "pct": 1.0
+        },
+        "mid": {
+          "fga": 2,
+          "fgm": 1,
+          "pct": 0.5
+        },
+        "corner_3": {
+          "fga": 3,
+          "fgm": 2,
+          "pct": 0.6667
+        },
+        "l_corner_3": {
+          "fga": 1,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "r_corner_3": {
+          "fga": 2,
+          "fgm": 2,
+          "pct": 1.0
+        },
+        "above_break_3": {
+          "fga": 9,
+          "fgm": 3,
+          "pct": 0.3333
+        }
+      }
+    },
+    {
+      "id": 1629639,
+      "name": "Tyler Herro",
+      "team": "MIL",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 24,
+          "fgm": 14,
+          "pct": 0.5833
+        },
+        "paint": {
+          "fga": 17,
+          "fgm": 9,
+          "pct": 0.5294
+        },
+        "mid": {
+          "fga": 9,
+          "fgm": 3,
+          "pct": 0.3333
+        },
+        "corner_3": {
+          "fga": 3,
+          "fgm": 2,
+          "pct": 0.6667
+        },
+        "l_corner_3": {
+          "fga": 2,
+          "fgm": 2,
+          "pct": 1.0
+        },
+        "r_corner_3": {
+          "fga": 1,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "above_break_3": {
+          "fga": 33,
+          "fgm": 15,
+          "pct": 0.4545
+        }
+      }
+    },
+    {
+      "id": 1630178,
+      "name": "Tyrese Maxey",
+      "team": "PHI",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 35,
+          "fgm": 24,
+          "pct": 0.6857
+        },
+        "paint": {
+          "fga": 17,
+          "fgm": 6,
+          "pct": 0.3529
+        },
+        "mid": {
+          "fga": 17,
+          "fgm": 7,
+          "pct": 0.4118
+        },
+        "corner_3": {
+          "fga": 4,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "l_corner_3": {
+          "fga": 3,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "r_corner_3": {
+          "fga": 1,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "above_break_3": {
+          "fga": 32,
+          "fgm": 11,
+          "pct": 0.3438
+        }
+      }
+    },
+    {
+      "id": 1641705,
+      "name": "Victor Wembanyama",
+      "team": "SAS",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 45,
+          "fgm": 32,
+          "pct": 0.7111
+        },
+        "paint": {
+          "fga": 10,
+          "fgm": 3,
+          "pct": 0.3
+        },
+        "mid": {
+          "fga": 14,
+          "fgm": 4,
+          "pct": 0.2857
+        },
+        "corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "l_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "r_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "above_break_3": {
+          "fga": 29,
+          "fgm": 8,
+          "pct": 0.2759
+        }
+      }
+    },
+    {
+      "id": 1631117,
+      "name": "Walker Kessler",
+      "team": "LAL",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 37,
+          "fgm": 31,
+          "pct": 0.8378
+        },
+        "paint": {
+          "fga": 7,
+          "fgm": 2,
+          "pct": 0.2857
+        },
+        "mid": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "l_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "r_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "above_break_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        }
+      }
+    },
+    {
+      "id": 1642954,
+      "name": "Will Richard",
+      "team": "GSW",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 9,
+          "fgm": 7,
+          "pct": 0.7778
+        },
+        "paint": {
+          "fga": 1,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "mid": {
+          "fga": 2,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "corner_3": {
+          "fga": 5,
+          "fgm": 2,
+          "pct": 0.4
+        },
+        "l_corner_3": {
+          "fga": 5,
+          "fgm": 2,
+          "pct": 0.4
+        },
+        "r_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "above_break_3": {
+          "fga": 3,
+          "fgm": 1,
+          "pct": 0.3333
+        }
+      }
+    },
+    {
+      "id": 1642865,
+      "name": "Yaxel Lendeborg",
+      "team": "GSW",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 28,
+          "fgm": 18,
+          "pct": 0.6429
+        },
+        "paint": {
+          "fga": 18,
+          "fgm": 8,
+          "pct": 0.4444
+        },
+        "mid": {
+          "fga": 3,
+          "fgm": 1,
+          "pct": 0.3333
+        },
+        "corner_3": {
+          "fga": 9,
+          "fgm": 6,
+          "pct": 0.6667
+        },
+        "l_corner_3": {
+          "fga": 1,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "r_corner_3": {
+          "fga": 8,
+          "fgm": 6,
+          "pct": 0.75
+        },
+        "above_break_3": {
+          "fga": 22,
+          "fgm": 5,
+          "pct": 0.2273
+        }
+      }
+    },
+    {
+      "id": 1642258,
+      "name": "Zaccharie Risacher",
+      "team": "DAL",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 14,
+          "fgm": 8,
+          "pct": 0.5714
+        },
+        "paint": {
+          "fga": 7,
+          "fgm": 1,
+          "pct": 0.1429
+        },
+        "mid": {
+          "fga": 4,
+          "fgm": 3,
+          "pct": 0.75
+        },
+        "corner_3": {
+          "fga": 2,
+          "fgm": 1,
+          "pct": 0.5
+        },
+        "l_corner_3": {
+          "fga": 2,
+          "fgm": 1,
+          "pct": 0.5
+        },
+        "r_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "above_break_3": {
+          "fga": 18,
+          "fgm": 4,
+          "pct": 0.2222
+        }
+      }
+    }
+  ]
 }
