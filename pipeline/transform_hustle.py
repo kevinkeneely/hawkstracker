@@ -97,6 +97,33 @@ def run():
             pctile = compute_percentile(value, pool_by_stat[nba_key])
             hustle[our_key] = {"value": value, "pctile": pctile}
         player["hustle"] = hustle
+
+        # Per-75-possessions normalization. Standard analytics convention
+        # (The F5, Thinking Basketball, etc.) is to normalize counting
+        # stats by estimated possessions on the floor rather than minutes,
+        # because pace varies by team and lineup.
+        #
+        # Approximation: possessions_on_floor_per_game ≈ pace * mpg / 48,
+        # where pace is team pace (poss per 48) from the advanced measure.
+        # So: stat_per_75 = stat_per_game * 75 / (pace * mpg / 48)
+        #                 = stat_per_game * 3600 / (pace * mpg)
+        #
+        # We ship these fields flat so Charts/Compare pages can read them
+        # directly without any extra computation.
+        pace = player.get("pace")
+        mpg = player.get("mpg")
+        if pace and mpg:
+            denom = pace * mpg
+            spg = player.get("spg")
+            deflections = player.get("deflections")
+            player["stl_p75"] = (spg * 3600 / denom) if spg is not None else None
+            player["deflections_p75"] = (
+                deflections * 3600 / denom if deflections is not None else None
+            )
+        else:
+            player["stl_p75"] = None
+            player["deflections_p75"] = None
+
         updated += 1
 
     HAWKS_DATA.write_text(json.dumps(hawks, indent=2))

@@ -37,6 +37,13 @@ const CHARTS = [
     xField: 'stl_pct', xLabel: 'STL%', xScale: 'decimal', xMin: 0,
     yField: 'blk_pct', yLabel: 'BLK%', yScale: 'decimal', yMin: 0,
   },
+  {
+    key: 'stl-defl-per75',
+    label: 'Defense — Steals × Deflections per 75',
+    desc: 'Both stats normalized to 75 possessions on the floor (pace-adjusted via team pace). Top-right = most disruptive hands-on defender.',
+    xField: 'stl_p75',         xLabel: 'STL per 75',  xScale: 'raw', xMin: 0,
+    yField: 'deflections_p75', yLabel: 'DEFL per 75', yScale: 'raw', yMin: 0,
+  },
 ]
 
 // Players under this total MP (mpg * gp) are hidden entirely.
