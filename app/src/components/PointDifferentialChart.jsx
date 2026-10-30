@@ -293,12 +293,23 @@ export default function PointDifferentialChart({ season }) {
         ))}
       </svg>
 
-      {hovered && (
+      {hovered && (() => {
+        // Center the tooltip on the dot for middle games, but anchor to the
+        // left or right edge for dots within 15% of either side so the
+        // tooltip stays fully within the chart container. The CSS transform
+        // (-50%) is overridden inline here so the vertical offset stays.
+        const leftPct = (xScale(hovered.gameNum) / W) * 100
+        const topPct  = (yScale(hovered.cumDiff) / H) * 100
+        let translateX = '-50%'
+        if (leftPct < 15) translateX = '0%'
+        else if (leftPct > 85) translateX = '-100%'
+        return (
         <div
           className="pdiff-tooltip"
           style={{
-            left: `${(xScale(hovered.gameNum) / W) * 100}%`,
-            top: `${(yScale(hovered.cumDiff) / H) * 100}%`,
+            left: `${leftPct}%`,
+            top: `${topPct}%`,
+            transform: `translate(${translateX}, calc(-100% - 10px))`,
           }}
         >
           <div className="pdiff-tooltip-line pdiff-tooltip-head">
@@ -312,7 +323,8 @@ export default function PointDifferentialChart({ season }) {
             Cumulative: {hovered.cumDiff >= 0 ? '+' : ''}{hovered.cumDiff}
           </div>
         </div>
-      )}
+        )
+      })()}
     </div>
   )
 }
