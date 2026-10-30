@@ -1912,17 +1912,25 @@ header {
 }
 
 .leader-select {
-  background: var(--card, #1a1a1a);
-  color: var(--text, #e8e8e8);
+  /* Mirrors .charts-select's colors so the two pages feel like one site, and
+     adds appearance: none + an inline-SVG chevron so dark-theme rendering
+     actually works on macOS Safari (where native <select> ignores the dark
+     colors above the appearance reset). */
+  background-color: var(--bg);
+  color: var(--text-h);
   border: 1px solid var(--border);
   border-radius: 6px;
-  padding: 8px 12px;
-  font-size: 14px;
-  font-family: inherit;
+  padding: 8px 36px 8px 12px;
+  font: inherit;
+  font-size: 15px;
   cursor: pointer;
   width: 100%;
-  /* Native select for now — followup item: swap to custom dropdown to match
-     the Scatter Plots page selector. */
+  appearance: none;
+  -webkit-appearance: none;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'><path d='M5 8l5 5 5-5' stroke='%23e8e8e8' stroke-width='1.5' fill='none' stroke-linecap='round' stroke-linejoin='round'/></svg>");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 16px;
 }
 
 .leader-select:focus {
