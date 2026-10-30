@@ -1679,13 +1679,30 @@ header {
 
 .boxscore-team {
   margin-bottom: 40px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  overflow: hidden;  /* clips the h2 and table to the rounded corners */
 }
 
+/* Team header strip: full-width colored bar at the top of the team's table.
+   ATL gets Hawks red, the opponent gets Hawks gold. Styled to butt flush
+   against the table below so the whole team box reads as one unit. */
 .boxscore-team h2 {
-  font-size: 20px;
-  font-weight: 600;
-  margin-bottom: 12px;
-  color: var(--text-h);
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-align: center;
+  margin: 0;
+  padding: 10px 12px;
+  text-transform: uppercase;
+}
+.boxscore-team.is-hawks h2 {
+  background: #C8102E;
+  color: #fff;
+}
+.boxscore-team.is-opponent h2 {
+  background: #FFC72C;
+  color: #1a1a1a;
 }
 
 .boxscore-table-wrap {
@@ -1699,16 +1716,24 @@ header {
   font-variant-numeric: tabular-nums;
 }
 
+/* Column lines + per-column styling. col-player is the only left-aligned
+   column; its cells use a slightly darker background so the roster column
+   stands apart from the stat grid. */
 .boxscore-table th,
 .boxscore-table td {
   padding: 8px 10px;
   text-align: right;
   border-bottom: 1px solid var(--border);
+  border-right: 1px solid var(--border);
+}
+.boxscore-table th:last-child,
+.boxscore-table td:last-child {
+  border-right: none;
 }
 
 .boxscore-table th {
-  color: var(--text);
-  font-weight: 500;
+  color: var(--text-h);
+  font-weight: 700;
   font-size: 11px;
   text-transform: uppercase;
   letter-spacing: 0.03em;
@@ -1718,6 +1743,8 @@ header {
   text-align: left;
   font-weight: 500;
   color: var(--text-h);
+  background: var(--code-bg);
+  border-right: 2px solid var(--border);
 }
 
 .boxscore-pos {

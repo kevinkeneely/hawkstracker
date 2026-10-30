@@ -172,8 +172,9 @@ function TeamBox({ team, players }) {
     .sort((a, b) => (b.min ?? 0) - (a.min ?? 0))
   const dnp = players.filter((p) => !p.pos && !p.min)
 
+  const teamClass = team === 'ATL' ? 'is-hawks' : 'is-opponent'
   return (
-    <section className="boxscore-team">
+    <section className={`boxscore-team ${teamClass}`}>
       <h2>{team}</h2>
       <div className="boxscore-table-wrap">
         <table className="boxscore-table">
