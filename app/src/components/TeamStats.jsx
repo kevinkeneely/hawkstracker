@@ -1,6 +1,9 @@
 import DotPlot from './DotPlot'
 
 const pctFmt = (v) => (v * 100).toFixed(1) + '%'
+// Same scaling as pctFmt but no trailing % — for ratios like FTr (FTA/FGA)
+// that are conventionally shown as a bare number (e.g. 23.2).
+const rateFmt = (v) => (v * 100).toFixed(1)
 const signedFmt = (v) => (v >= 0 ? '+' : '') + v.toFixed(1)
 
 // Standalone top block — single stat, no pairing.
@@ -22,7 +25,7 @@ const PAIRED_SECTIONS = [
       { label: 'eFG%',  hawks: 'efg_pct',     hawksRank: 'efg_pct_rank',     opp: 'opp_efg_pct',     oppRank: 'opp_efg_pct_rank',     format: pctFmt },
       { label: 'TOV%',  hawks: 'tov_pct',     hawksRank: 'tov_pct_rank',     opp: 'opp_tov_pct',     oppRank: 'opp_tov_pct_rank',     format: pctFmt },
       { label: 'OReb%', hawks: 'oreb_pct',    hawksRank: 'oreb_pct_rank',    opp: 'opp_oreb_pct',    oppRank: 'opp_oreb_pct_rank',    format: pctFmt },
-      { label: 'FTr',   hawks: 'fta_rate',    hawksRank: 'fta_rate_rank',    opp: 'opp_fta_rate',    oppRank: 'opp_fta_rate_rank',    format: pctFmt },
+      { label: 'FTr',   hawks: 'fta_rate',    hawksRank: 'fta_rate_rank',    opp: 'opp_fta_rate',    oppRank: 'opp_fta_rate_rank',    format: rateFmt },
     ],
   },
   {
