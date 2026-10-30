@@ -627,6 +627,17 @@ code {
 }
 
 /* Hawks row — red tint, same as player table zebra. */
+/* Hawks row's team name is a Link to the Home page. Inherit color so it
+   doesn't become default-blue; subtle hover underline for affordance. */
+.standings-table .hawks-row-link {
+  color: inherit;
+  text-decoration: none;
+}
+.standings-table .hawks-row-link:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
 .standings-table .hawks-row {
   background: var(--row-alt);
 }
