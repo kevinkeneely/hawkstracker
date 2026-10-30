@@ -300,16 +300,22 @@ export default function PointDifferentialChart({ season }) {
         // (-50%) is overridden inline here so the vertical offset stays.
         const leftPct = (xScale(hovered.gameNum) / W) * 100
         const topPct  = (yScale(hovered.cumDiff) / H) * 100
+        // Horizontal anchor: left-edge dots push tooltip right, right-edge
+        // push left, middle stays centered.
         let translateX = '-50%'
         if (leftPct < 15) translateX = '0%'
         else if (leftPct > 85) translateX = '-100%'
+        // Vertical anchor: top-edge dots flip the tooltip below the dot so
+        // it doesn't get clipped by the top of the chart. Bottom-edge dots
+        // keep the default (above the dot) since the chart has room below.
+        const translateY = topPct < 20 ? '10px' : 'calc(-100% - 10px)'
         return (
         <div
           className="pdiff-tooltip"
           style={{
             left: `${leftPct}%`,
             top: `${topPct}%`,
-            transform: `translate(${translateX}, calc(-100% - 10px))`,
+            transform: `translate(${translateX}, ${translateY})`,
           }}
         >
           <div className="pdiff-tooltip-line pdiff-tooltip-head">
