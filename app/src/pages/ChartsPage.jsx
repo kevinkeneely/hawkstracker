@@ -46,10 +46,10 @@ const CHARTS = [
   },
 ]
 
-// Players under this total MP (mpg * gp) are hidden entirely.
-// Matches the pipeline's MIN_PLAYED_THRESHOLD so the chart's pool lines up
-// with the percentile pool used for stl_pct / blk_pct.
-const MIN_TOTAL_MP = 200
+// The pipeline sets `qualified` on each player based on total minutes played
+// (MIN_PLAYED_THRESHOLD in pipeline/transform.py). We read it directly rather
+// than recomputing a threshold here, so the chart's pool always matches the
+// pipeline's percentile pool even if the threshold is retuned.
 
 // SVG canvas (viewBox units). Scales to any container width.
 const W = 800, H = 500
@@ -135,22 +135,21 @@ export default function ChartsPage({ playerData, leaderboards }) {
     return { ...base, rim_pct: rimMedian }
   }, [playerData, leaderboards])
 
-  // Only players with both axis values populated. We first try to apply the
-  // 200-min threshold (matches the pipeline's percentile pool). If NOBODY
-  // qualifies — early in the season nobody will — fall back to the full
-  // (unfiltered) set and flag it so the UI can show an early-season banner.
+  // Only players with both axis values populated. Prefer the pipeline's
+  // `qualified` set (percentile pool). If NOBODY qualifies — early in the
+  // season nobody will — fall back to the full (unfiltered) set and flag it
+  // so the UI can show an early-season banner.
   const { points, isEarlySeason } = useMemo(() => {
     const withValues = enriched
       .filter(p => p[chart.xField] != null && p[chart.yField] != null)
       .map(p => ({
         id: p.id,
         name: p.name,
-        mpg: p.mpg ?? 0,
-        gp: p.gp ?? 0,
+        qualified: !!p.qualified,
         x: p[chart.xField],
         y: p[chart.yField],
       }))
-    const qualified = withValues.filter(p => p.mpg * p.gp >= MIN_TOTAL_MP)
+    const qualified = withValues.filter(p => p.qualified)
     if (qualified.length > 0) return { points: qualified, isEarlySeason: false }
     return { points: withValues, isEarlySeason: true }
   }, [enriched, chart])
@@ -159,8 +158,21 @@ export default function ChartsPage({ playerData, leaderboards }) {
   const scale = useMemo(() => {
     if (!points.length) return null
     const xs = points.map(p => p.x), ys = points.map(p => p.y)
-    const xMin = Math.min(...xs), xMax = Math.max(...xs)
-    const yMin = Math.min(...ys), yMax = Math.max(...ys)
+    // League medians for the crosshair, with Hawks-median fallback for the
+    // rare case where the league value is missing (e.g. before the pipeline
+    // has been re-run since this feature shipped). Computed first so the
+    // auto-scaled domain can be extended to include them — this guarantees
+    // the dashed median lines are always visible on the chart, so viewers
+    // can read every player's position relative to league average on both
+    // axes even when all shown players are clustered to one side.
+    const mx = leagueMedians[chart.xField] ?? median(xs)
+    const my = leagueMedians[chart.yField] ?? median(ys)
+    // Include the medians in the min/max calc so the domain spans at least
+    // from the farthest-from-median point to the median itself on each side.
+    const xMin = Math.min(...xs, mx ?? Infinity)
+    const xMax = Math.max(...xs, mx ?? -Infinity)
+    const yMin = Math.min(...ys, my ?? Infinity)
+    const yMax = Math.max(...ys, my ?? -Infinity)
     const xPad = (xMax - xMin) * 0.08 || Math.abs(xMax) * 0.08 || 1
     const yPad = (yMax - yMin) * 0.08 || Math.abs(yMax) * 0.08 || 1
     // Clamp padded domain to the chart config's natural bounds when provided
@@ -184,11 +196,6 @@ export default function ChartsPage({ playerData, leaderboards }) {
     const yd = chart.invertY ? [yDomain[1], yDomain[0]] : yDomain
     const toX = (v) => PAD.left + ((v - xd[0]) / (xd[1] - xd[0])) * PLOT_W
     const toY = (v) => PAD.top + PLOT_H - ((v - yd[0]) / (yd[1] - yd[0])) * PLOT_H
-    // League medians for the crosshair, with Hawks-median fallback for the
-    // rare case where the league value is missing (e.g. before the pipeline
-    // has been re-run since this feature shipped).
-    const mx = leagueMedians[chart.xField] ?? median(xs)
-    const my = leagueMedians[chart.yField] ?? median(ys)
     return { xd, yd, toX, toY, mx, my }
   }, [points, chart, leagueMedians])
 
@@ -235,8 +242,8 @@ export default function ChartsPage({ playerData, leaderboards }) {
         <p className="charts-note">
           Dashed lines = league median.{' '}
           {isEarlySeason
-            ? `Early-season sample — showing all players; filter relaxes once anyone reaches ${MIN_TOTAL_MP}+ total minutes.`
-            : `Showing players with ${MIN_TOTAL_MP}+ total minutes.`}
+            ? 'Early-season sample — showing all players; filter kicks in once anyone reaches the qualified-minutes threshold.'
+            : 'Showing qualified players.'}
           {' '}Click a player to open their profile.
         </p>
       </header>
