@@ -422,6 +422,11 @@ code {
   text-align: right;
 }
 
+/* Color-only variants of .ts-value — same green/red the Home KPI tile ranks
+   use, but no background pill (would look cramped next to a dot plot). */
+.ts-value-good { color: var(--rank-good-text); }
+.ts-value-bad  { color: var(--rank-bad-text);  }
+
 .ts-legend {
   display: flex;
   align-items: center;

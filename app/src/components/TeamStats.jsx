@@ -116,6 +116,16 @@ export default function TeamStats({ team, allTeams }) {
   )
 }
 
+// Mirror HeaderStats.jsx's rankClass() so Four-Factors / Scoring stat
+// values get the same green/red/neutral treatment as the Home-page KPI tiles.
+// Returns an empty string for the neutral band so no class is applied.
+function rankTextClass(rank) {
+  if (rank == null) return ''
+  if (rank <= 10) return 'ts-value-good'
+  if (rank >= 21) return 'ts-value-bad'
+  return ''
+}
+
 function StatLine({ stat, field, rankField, team, allTeams }) {
   const value = team[field]
   const rank = team[rankField]
@@ -132,7 +142,7 @@ function StatLine({ stat, field, rankField, team, allTeams }) {
           format={stat.format}
         />
       </div>
-      <div className="ts-value">
+      <div className={`ts-value ${rankTextClass(rank)}`}>
         {value != null ? stat.format(value) : '—'}
       </div>
     </div>
