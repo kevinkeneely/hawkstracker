@@ -7,7 +7,7 @@ export default function HeaderStats({ team }) {
     { label: 'eFG%',    value: pct(team.efg_pct),          rank: team.efg_pct_rank },
     { label: 'TOV%',    value: pct(team.tov_pct),          rank: team.tov_pct_rank },
     { label: 'OReb%',   value: pct(team.oreb_pct),         rank: team.oreb_pct_rank },
-    { label: 'FTr',     value: pct(team.fta_rate),         rank: team.fta_rate_rank },
+    { label: 'FTr',     value: fmt(team.fta_rate),         rank: team.fta_rate_rank },
   ]
 
   return (
