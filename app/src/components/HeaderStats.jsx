@@ -7,7 +7,7 @@ export default function HeaderStats({ team }) {
     { label: 'eFG%',    value: pct(team.efg_pct),          rank: team.efg_pct_rank },
     { label: 'TOV%',    value: pct(team.tov_pct),          rank: team.tov_pct_rank },
     { label: 'OReb%',   value: pct(team.oreb_pct),         rank: team.oreb_pct_rank },
-    { label: 'FTr',     value: fmt(team.fta_rate),         rank: team.fta_rate_rank },
+    { label: 'FTr',     value: rate(team.fta_rate),        rank: team.fta_rate_rank },
   ]
 
   return (
@@ -38,6 +38,14 @@ function fmtSigned(n) {
 function pct(n) {
   if (n == null) return '—'
   return (n * 100).toFixed(1) + '%'
+}
+
+// Same scaling as pct() but no trailing %. For ratios like FTr (FTA/FGA)
+// that are conventionally displayed as a bare 2-3 digit number (e.g. 23.2),
+// not a percentage of a whole.
+function rate(n) {
+  if (n == null) return '—'
+  return (n * 100).toFixed(1)
 }
 
 // Turn 1 → "1st", 2 → "2nd", 11 → "11th", 23 → "23rd", etc.
