@@ -1,6 +1,6 @@
 {
   "season": "2026-27",
-  "generated_at": "2026-10-29T13:25:14.372156-04:00",
+  "generated_at": "2026-10-30T02:11:28.846827-04:00",
   "min_gp": 5,
   "min_fga_per_zone": {
     "at_rim": 15,
@@ -102,60 +102,60 @@
       "id": 1630598,
       "name": "Aaron Wiggins",
       "team": "ATL",
-      "gp": 5,
+      "gp": 6,
       "zones": {
         "at_rim": {
-          "fga": 8,
-          "fgm": 7,
-          "pct": 0.875
+          "fga": 11,
+          "fgm": 9,
+          "pct": 0.8182
         },
         "paint": {
-          "fga": 10,
-          "fgm": 5,
-          "pct": 0.5
+          "fga": 13,
+          "fgm": 7,
+          "pct": 0.5385
         },
         "mid": {
-          "fga": 4,
+          "fga": 5,
           "fgm": 1,
-          "pct": 0.25
+          "pct": 0.2
         },
         "corner_3": {
-          "fga": 11,
-          "fgm": 6,
-          "pct": 0.5455
+          "fga": 13,
+          "fgm": 8,
+          "pct": 0.6154
         },
         "l_corner_3": {
-          "fga": 7,
-          "fgm": 3,
-          "pct": 0.4286
+          "fga": 8,
+          "fgm": 4,
+          "pct": 0.5
         },
         "r_corner_3": {
-          "fga": 4,
-          "fgm": 3,
-          "pct": 0.75
+          "fga": 5,
+          "fgm": 4,
+          "pct": 0.8
         },
         "above_break_3": {
-          "fga": 21,
-          "fgm": 8,
-          "pct": 0.381
+          "fga": 26,
+          "fgm": 10,
+          "pct": 0.3846
         }
       },
       "overall": {
-        "fg_pct": 0.5,
-        "efg_pct": 0.6296296296296297,
+        "fg_pct": 0.515,
+        "efg_pct": 0.6460176991150441,
         "ft_pct": 0.714,
-        "fga": 10.8,
-        "fta": 1.4,
-        "fgm": 5.4,
-        "fga_total": 54,
+        "fga": 11.3,
+        "fta": 1.2,
+        "fgm": 5.8,
+        "fga_total": 68,
         "fta_total": 7,
-        "fgm_total": 27,
-        "ts_pct": 0.639
+        "fgm_total": 35,
+        "ts_pct": 0.654
       },
       "defense": {
-        "spg": 1.2,
-        "bpg": 0.2,
-        "rpg": 3.4
+        "spg": 1.0,
+        "bpg": 0.3,
+        "rpg": 4.0
       },
       "hustle": {
         "contested_shots": 3.2,
@@ -425,7 +425,7 @@
         "ts_pct": 0.612
       },
       "defense": {
-        "spg": 2.0,
+        "spg": 1.8,
         "bpg": 0.6,
         "rpg": 3.4
       },
@@ -1048,6 +1048,74 @@
         "loose_balls_recovered": 0.4,
         "charges_drawn": 0.0,
         "screen_assists": 3.0
+      }
+    },
+    {
+      "id": 1631097,
+      "name": "Bennedict Mathurin",
+      "team": "NOP",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 10,
+          "fgm": 8,
+          "pct": 0.8
+        },
+        "paint": {
+          "fga": 5,
+          "fgm": 2,
+          "pct": 0.4
+        },
+        "mid": {
+          "fga": 1,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "corner_3": {
+          "fga": 3,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "l_corner_3": {
+          "fga": 2,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "r_corner_3": {
+          "fga": 1,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "above_break_3": {
+          "fga": 13,
+          "fgm": 4,
+          "pct": 0.3077
+        }
+      },
+      "overall": {
+        "fg_pct": 0.438,
+        "efg_pct": 0.49999999999999994,
+        "ft_pct": 0.875,
+        "fga": 6.4,
+        "fta": 1.6,
+        "fgm": 2.8,
+        "fga_total": 32,
+        "fta_total": 8,
+        "fgm_total": 14,
+        "ts_pct": 0.549
+      },
+      "defense": {
+        "spg": 0.4,
+        "bpg": 0.0,
+        "rpg": 2.6
+      },
+      "hustle": {
+        "contested_shots": 1.0,
+        "deflections": 0.75,
+        "box_outs": 0.0,
+        "loose_balls_recovered": 0.0,
+        "charges_drawn": 0.0,
+        "screen_assists": 0.25
       }
     },
     {
@@ -1802,22 +1870,22 @@
       "id": 203468,
       "name": "CJ McCollum",
       "team": "ATL",
-      "gp": 5,
+      "gp": 6,
       "zones": {
         "at_rim": {
-          "fga": 12,
+          "fga": 14,
           "fgm": 10,
-          "pct": 0.8333
+          "pct": 0.7143
         },
         "paint": {
-          "fga": 12,
-          "fgm": 7,
-          "pct": 0.5833
+          "fga": 13,
+          "fgm": 8,
+          "pct": 0.6154
         },
         "mid": {
-          "fga": 7,
+          "fga": 8,
           "fgm": 3,
-          "pct": 0.4286
+          "pct": 0.375
         },
         "corner_3": {
           "fga": 3,
@@ -1835,27 +1903,27 @@
           "pct": null
         },
         "above_break_3": {
-          "fga": 24,
+          "fga": 28,
           "fgm": 10,
-          "pct": 0.4167
+          "pct": 0.3571
         }
       },
       "overall": {
-        "fg_pct": 0.552,
-        "efg_pct": 0.6551724137931035,
-        "ft_pct": 0.857,
-        "fga": 11.6,
-        "fta": 1.4,
-        "fgm": 6.4,
-        "fga_total": 58,
-        "fta_total": 7,
-        "fgm_total": 32,
-        "ts_pct": 0.671
+        "fg_pct": 0.5,
+        "efg_pct": 0.5909090909090909,
+        "ft_pct": 0.818,
+        "fga": 11.0,
+        "fta": 1.8,
+        "fgm": 5.5,
+        "fga_total": 66,
+        "fta_total": 11,
+        "fgm_total": 33,
+        "ts_pct": 0.614
       },
       "defense": {
-        "spg": 0.8,
+        "spg": 1.0,
         "bpg": 0.2,
-        "rpg": 1.6
+        "rpg": 1.8
       },
       "hustle": {
         "contested_shots": 2.6,
@@ -2000,6 +2068,142 @@
         "loose_balls_recovered": 0.8,
         "charges_drawn": 0.0,
         "screen_assists": 0.0
+      }
+    },
+    {
+      "id": 1642285,
+      "name": "Cam Spencer",
+      "team": "MEM",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 3,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "paint": {
+          "fga": 6,
+          "fgm": 1,
+          "pct": 0.1667
+        },
+        "mid": {
+          "fga": 5,
+          "fgm": 5,
+          "pct": 1.0
+        },
+        "corner_3": {
+          "fga": 3,
+          "fgm": 2,
+          "pct": 0.6667
+        },
+        "l_corner_3": {
+          "fga": 2,
+          "fgm": 1,
+          "pct": 0.5
+        },
+        "r_corner_3": {
+          "fga": 1,
+          "fgm": 1,
+          "pct": 1.0
+        },
+        "above_break_3": {
+          "fga": 14,
+          "fgm": 8,
+          "pct": 0.5714
+        }
+      },
+      "overall": {
+        "fg_pct": 0.516,
+        "efg_pct": 0.6774193548387097,
+        "ft_pct": 1.0,
+        "fga": 6.2,
+        "fta": 0.2,
+        "fgm": 3.2,
+        "fga_total": 31,
+        "fta_total": 1,
+        "fgm_total": 16,
+        "ts_pct": 0.684
+      },
+      "defense": {
+        "spg": 0.8,
+        "bpg": 0.0,
+        "rpg": 3.6
+      },
+      "hustle": {
+        "contested_shots": 1.75,
+        "deflections": 1.25,
+        "box_outs": 0.25,
+        "loose_balls_recovered": 0.75,
+        "charges_drawn": 0.0,
+        "screen_assists": 0.0
+      }
+    },
+    {
+      "id": 1643409,
+      "name": "Cameron Boozer",
+      "team": "MEM",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 9,
+          "fgm": 3,
+          "pct": 0.3333
+        },
+        "paint": {
+          "fga": 23,
+          "fgm": 8,
+          "pct": 0.3478
+        },
+        "mid": {
+          "fga": 7,
+          "fgm": 1,
+          "pct": 0.1429
+        },
+        "corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "l_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "r_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "above_break_3": {
+          "fga": 32,
+          "fgm": 11,
+          "pct": 0.3438
+        }
+      },
+      "overall": {
+        "fg_pct": 0.324,
+        "efg_pct": 0.4014084507042253,
+        "ft_pct": 0.952,
+        "fga": 14.2,
+        "fta": 4.2,
+        "fgm": 4.6,
+        "fga_total": 71,
+        "fta_total": 21,
+        "fgm_total": 23,
+        "ts_pct": 0.48
+      },
+      "defense": {
+        "spg": 0.4,
+        "bpg": 0.6,
+        "rpg": 10.8
+      },
+      "hustle": {
+        "contested_shots": 4.25,
+        "deflections": 1.5,
+        "box_outs": 1.25,
+        "loose_balls_recovered": 0.25,
+        "charges_drawn": 0.0,
+        "screen_assists": 2.5
       }
     },
     {
@@ -2275,6 +2479,74 @@
       }
     },
     {
+      "id": 1643411,
+      "name": "Darius Acuff Jr.",
+      "team": "SAC",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 23,
+          "fgm": 14,
+          "pct": 0.6087
+        },
+        "paint": {
+          "fga": 32,
+          "fgm": 15,
+          "pct": 0.4688
+        },
+        "mid": {
+          "fga": 19,
+          "fgm": 6,
+          "pct": 0.3158
+        },
+        "corner_3": {
+          "fga": 5,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "l_corner_3": {
+          "fga": 5,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "r_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "above_break_3": {
+          "fga": 40,
+          "fgm": 10,
+          "pct": 0.25
+        }
+      },
+      "overall": {
+        "fg_pct": 0.378,
+        "efg_pct": 0.42016806722689076,
+        "ft_pct": 0.833,
+        "fga": 23.8,
+        "fta": 4.8,
+        "fgm": 9.0,
+        "fga_total": 119,
+        "fta_total": 24,
+        "fgm_total": 45,
+        "ts_pct": 0.463
+      },
+      "defense": {
+        "spg": 0.6,
+        "bpg": 0.2,
+        "rpg": 3.4
+      },
+      "hustle": {
+        "contested_shots": 1.25,
+        "deflections": 1.75,
+        "box_outs": 0.0,
+        "loose_balls_recovered": 0.0,
+        "charges_drawn": 0.0,
+        "screen_assists": 0.25
+      }
+    },
+    {
       "id": 1643408,
       "name": "Darryn Peterson",
       "team": "UTA",
@@ -2476,6 +2748,74 @@
         "loose_balls_recovered": 0.6,
         "charges_drawn": 0.0,
         "screen_assists": 0.0
+      }
+    },
+    {
+      "id": 1629631,
+      "name": "De'Andre Hunter",
+      "team": "SAC",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 6,
+          "fgm": 4,
+          "pct": 0.6667
+        },
+        "paint": {
+          "fga": 8,
+          "fgm": 3,
+          "pct": 0.375
+        },
+        "mid": {
+          "fga": 3,
+          "fgm": 1,
+          "pct": 0.3333
+        },
+        "corner_3": {
+          "fga": 9,
+          "fgm": 5,
+          "pct": 0.5556
+        },
+        "l_corner_3": {
+          "fga": 5,
+          "fgm": 2,
+          "pct": 0.4
+        },
+        "r_corner_3": {
+          "fga": 4,
+          "fgm": 3,
+          "pct": 0.75
+        },
+        "above_break_3": {
+          "fga": 16,
+          "fgm": 8,
+          "pct": 0.5
+        }
+      },
+      "overall": {
+        "fg_pct": 0.5,
+        "efg_pct": 0.6547619047619048,
+        "ft_pct": 0.625,
+        "fga": 8.4,
+        "fta": 3.2,
+        "fgm": 4.2,
+        "fga_total": 42,
+        "fta_total": 16,
+        "fgm_total": 21,
+        "ts_pct": 0.663
+      },
+      "defense": {
+        "spg": 0.2,
+        "bpg": 0.2,
+        "rpg": 5.2
+      },
+      "hustle": {
+        "contested_shots": 2.75,
+        "deflections": 2.0,
+        "box_outs": 1.0,
+        "loose_balls_recovered": 0.25,
+        "charges_drawn": 0.0,
+        "screen_assists": 1.25
       }
     },
     {
@@ -2683,6 +3023,74 @@
       }
     },
     {
+      "id": 1642852,
+      "name": "Derik Queen",
+      "team": "NOP",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 16,
+          "fgm": 9,
+          "pct": 0.5625
+        },
+        "paint": {
+          "fga": 12,
+          "fgm": 7,
+          "pct": 0.5833
+        },
+        "mid": {
+          "fga": 3,
+          "fgm": 1,
+          "pct": 0.3333
+        },
+        "corner_3": {
+          "fga": 2,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "l_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "r_corner_3": {
+          "fga": 2,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "above_break_3": {
+          "fga": 3,
+          "fgm": 2,
+          "pct": 0.6667
+        }
+      },
+      "overall": {
+        "fg_pct": 0.528,
+        "efg_pct": 0.5555555555555556,
+        "ft_pct": 0.864,
+        "fga": 7.2,
+        "fta": 4.4,
+        "fgm": 3.8,
+        "fga_total": 36,
+        "fta_total": 22,
+        "fgm_total": 19,
+        "ts_pct": 0.646
+      },
+      "defense": {
+        "spg": 1.0,
+        "bpg": 0.6,
+        "rpg": 7.8
+      },
+      "hustle": {
+        "contested_shots": 8.0,
+        "deflections": 1.5,
+        "box_outs": 0.75,
+        "loose_balls_recovered": 0.5,
+        "charges_drawn": 0.0,
+        "screen_assists": 1.0
+      }
+    },
+    {
       "id": 1630170,
       "name": "Devin Vassell",
       "team": "SAS",
@@ -2748,6 +3156,142 @@
         "loose_balls_recovered": 0.8,
         "charges_drawn": 0.0,
         "screen_assists": 0.2
+      }
+    },
+    {
+      "id": 1627734,
+      "name": "Domantas Sabonis",
+      "team": "SAC",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 26,
+          "fgm": 20,
+          "pct": 0.7692
+        },
+        "paint": {
+          "fga": 21,
+          "fgm": 14,
+          "pct": 0.6667
+        },
+        "mid": {
+          "fga": 2,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "l_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "r_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "above_break_3": {
+          "fga": 1,
+          "fgm": 1,
+          "pct": 1.0
+        }
+      },
+      "overall": {
+        "fg_pct": 0.7,
+        "efg_pct": 0.71,
+        "ft_pct": 0.824,
+        "fga": 10.0,
+        "fta": 3.4,
+        "fgm": 7.0,
+        "fga_total": 50,
+        "fta_total": 17,
+        "fgm_total": 35,
+        "ts_pct": 0.739
+      },
+      "defense": {
+        "spg": 1.0,
+        "bpg": 0.2,
+        "rpg": 16.2
+      },
+      "hustle": {
+        "contested_shots": 7.75,
+        "deflections": 1.0,
+        "box_outs": 4.0,
+        "loose_balls_recovered": 0.75,
+        "charges_drawn": 0.0,
+        "screen_assists": 7.25
+      }
+    },
+    {
+      "id": 1628378,
+      "name": "Donovan Mitchell",
+      "team": "CLE",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 23,
+          "fgm": 15,
+          "pct": 0.6522
+        },
+        "paint": {
+          "fga": 18,
+          "fgm": 8,
+          "pct": 0.4444
+        },
+        "mid": {
+          "fga": 13,
+          "fgm": 6,
+          "pct": 0.4615
+        },
+        "corner_3": {
+          "fga": 4,
+          "fgm": 1,
+          "pct": 0.25
+        },
+        "l_corner_3": {
+          "fga": 2,
+          "fgm": 1,
+          "pct": 0.5
+        },
+        "r_corner_3": {
+          "fga": 2,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "above_break_3": {
+          "fga": 29,
+          "fgm": 11,
+          "pct": 0.3793
+        }
+      },
+      "overall": {
+        "fg_pct": 0.471,
+        "efg_pct": 0.5402298850574713,
+        "ft_pct": 0.871,
+        "fga": 17.4,
+        "fta": 6.2,
+        "fgm": 8.2,
+        "fga_total": 87,
+        "fta_total": 31,
+        "fgm_total": 41,
+        "ts_pct": 0.601
+      },
+      "defense": {
+        "spg": 1.6,
+        "bpg": 0.6,
+        "rpg": 5.6
+      },
+      "hustle": {
+        "contested_shots": 4.0,
+        "deflections": 1.75,
+        "box_outs": 0.75,
+        "loose_balls_recovered": 0.5,
+        "charges_drawn": 0.0,
+        "screen_assists": 0.25
       }
     },
     {
@@ -2890,17 +3434,17 @@
       "id": 1630700,
       "name": "Dyson Daniels",
       "team": "ATL",
-      "gp": 5,
+      "gp": 6,
       "zones": {
         "at_rim": {
-          "fga": 23,
-          "fgm": 16,
-          "pct": 0.6957
+          "fga": 27,
+          "fgm": 18,
+          "pct": 0.6667
         },
         "paint": {
-          "fga": 20,
+          "fga": 23,
           "fgm": 9,
-          "pct": 0.45
+          "pct": 0.3913
         },
         "mid": {
           "fga": 0,
@@ -2923,27 +3467,27 @@
           "pct": null
         },
         "above_break_3": {
-          "fga": 6,
+          "fga": 7,
           "fgm": 1,
-          "pct": 0.1667
+          "pct": 0.1429
         }
       },
       "overall": {
-        "fg_pct": 0.531,
-        "efg_pct": 0.5408163265306122,
+        "fg_pct": 0.491,
+        "efg_pct": 0.5052631578947369,
         "ft_pct": 0.538,
-        "fga": 9.8,
-        "fta": 2.6,
-        "fgm": 5.2,
-        "fga_total": 49,
+        "fga": 9.5,
+        "fta": 2.2,
+        "fgm": 4.7,
+        "fga_total": 57,
         "fta_total": 13,
-        "fgm_total": 26,
-        "ts_pct": 0.548
+        "fgm_total": 28,
+        "ts_pct": 0.51
       },
       "defense": {
-        "spg": 3.4,
-        "bpg": 0.4,
-        "rpg": 5.0
+        "spg": 3.0,
+        "bpg": 0.3,
+        "rpg": 5.2
       },
       "hustle": {
         "contested_shots": 4.6,
@@ -2952,6 +3496,210 @@
         "loose_balls_recovered": 1.0,
         "charges_drawn": 0.0,
         "screen_assists": 2.6
+      }
+    },
+    {
+      "id": 1643567,
+      "name": "Emanuel Sharp",
+      "team": "SAC",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 1,
+          "fgm": 1,
+          "pct": 1.0
+        },
+        "paint": {
+          "fga": 5,
+          "fgm": 1,
+          "pct": 0.2
+        },
+        "mid": {
+          "fga": 1,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "corner_3": {
+          "fga": 1,
+          "fgm": 1,
+          "pct": 1.0
+        },
+        "l_corner_3": {
+          "fga": 1,
+          "fgm": 1,
+          "pct": 1.0
+        },
+        "r_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "above_break_3": {
+          "fga": 12,
+          "fgm": 4,
+          "pct": 0.3333
+        }
+      },
+      "overall": {
+        "fg_pct": 0.35,
+        "efg_pct": 0.475,
+        "ft_pct": 1.0,
+        "fga": 4.0,
+        "fta": 0.4,
+        "fgm": 1.4,
+        "fga_total": 20,
+        "fta_total": 2,
+        "fgm_total": 7,
+        "ts_pct": 0.503
+      },
+      "defense": {
+        "spg": 0.4,
+        "bpg": 0.2,
+        "rpg": 0.6
+      },
+      "hustle": {
+        "contested_shots": 0.75,
+        "deflections": 1.25,
+        "box_outs": 0.5,
+        "loose_balls_recovered": 0.0,
+        "charges_drawn": 0.0,
+        "screen_assists": 0.0
+      }
+    },
+    {
+      "id": 1630596,
+      "name": "Evan Mobley",
+      "team": "CLE",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 22,
+          "fgm": 15,
+          "pct": 0.6818
+        },
+        "paint": {
+          "fga": 11,
+          "fgm": 3,
+          "pct": 0.2727
+        },
+        "mid": {
+          "fga": 4,
+          "fgm": 2,
+          "pct": 0.5
+        },
+        "corner_3": {
+          "fga": 3,
+          "fgm": 2,
+          "pct": 0.6667
+        },
+        "l_corner_3": {
+          "fga": 2,
+          "fgm": 1,
+          "pct": 0.5
+        },
+        "r_corner_3": {
+          "fga": 1,
+          "fgm": 1,
+          "pct": 1.0
+        },
+        "above_break_3": {
+          "fga": 18,
+          "fgm": 10,
+          "pct": 0.5556
+        }
+      },
+      "overall": {
+        "fg_pct": 0.552,
+        "efg_pct": 0.6551724137931035,
+        "ft_pct": 0.625,
+        "fga": 11.6,
+        "fta": 4.8,
+        "fgm": 6.4,
+        "fga_total": 58,
+        "fta_total": 24,
+        "fgm_total": 32,
+        "ts_pct": 0.664
+      },
+      "defense": {
+        "spg": 0.4,
+        "bpg": 1.2,
+        "rpg": 8.8
+      },
+      "hustle": {
+        "contested_shots": 7.75,
+        "deflections": 1.25,
+        "box_outs": 2.0,
+        "loose_balls_recovered": 0.0,
+        "charges_drawn": 0.0,
+        "screen_assists": 2.75
+      }
+    },
+    {
+      "id": 1641713,
+      "name": "GG Jackson",
+      "team": "MEM",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 10,
+          "fgm": 5,
+          "pct": 0.5
+        },
+        "paint": {
+          "fga": 10,
+          "fgm": 1,
+          "pct": 0.1
+        },
+        "mid": {
+          "fga": 1,
+          "fgm": 1,
+          "pct": 1.0
+        },
+        "corner_3": {
+          "fga": 2,
+          "fgm": 2,
+          "pct": 1.0
+        },
+        "l_corner_3": {
+          "fga": 1,
+          "fgm": 1,
+          "pct": 1.0
+        },
+        "r_corner_3": {
+          "fga": 1,
+          "fgm": 1,
+          "pct": 1.0
+        },
+        "above_break_3": {
+          "fga": 11,
+          "fgm": 2,
+          "pct": 0.1818
+        }
+      },
+      "overall": {
+        "fg_pct": 0.324,
+        "efg_pct": 0.3823529411764706,
+        "ft_pct": 0.714,
+        "fga": 6.8,
+        "fta": 1.4,
+        "fgm": 2.2,
+        "fga_total": 34,
+        "fta_total": 7,
+        "fgm_total": 11,
+        "ts_pct": 0.418
+      },
+      "defense": {
+        "spg": 0.2,
+        "bpg": 0.4,
+        "rpg": 4.6
+      },
+      "hustle": {
+        "contested_shots": 2.75,
+        "deflections": 0.5,
+        "box_outs": 0.0,
+        "loose_balls_recovered": 0.25,
+        "charges_drawn": 0.0,
+        "screen_assists": 0.0
       }
     },
     {
@@ -3224,6 +3972,74 @@
         "loose_balls_recovered": 0.2,
         "charges_drawn": 0.0,
         "screen_assists": 0.0
+      }
+    },
+    {
+      "id": 1630529,
+      "name": "Herbert Jones",
+      "team": "NOP",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 12,
+          "fgm": 8,
+          "pct": 0.6667
+        },
+        "paint": {
+          "fga": 5,
+          "fgm": 2,
+          "pct": 0.4
+        },
+        "mid": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "corner_3": {
+          "fga": 4,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "l_corner_3": {
+          "fga": 2,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "r_corner_3": {
+          "fga": 2,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "above_break_3": {
+          "fga": 5,
+          "fgm": 2,
+          "pct": 0.4
+        }
+      },
+      "overall": {
+        "fg_pct": 0.462,
+        "efg_pct": 0.5,
+        "ft_pct": 0.8,
+        "fga": 5.2,
+        "fta": 1.0,
+        "fgm": 2.4,
+        "fga_total": 26,
+        "fta_total": 5,
+        "fgm_total": 12,
+        "ts_pct": 0.532
+      },
+      "defense": {
+        "spg": 1.2,
+        "bpg": 0.2,
+        "rpg": 2.4
+      },
+      "hustle": {
+        "contested_shots": 3.0,
+        "deflections": 1.25,
+        "box_outs": 0.0,
+        "loose_balls_recovered": 0.25,
+        "charges_drawn": 0.0,
+        "screen_assists": 0.25
       }
     },
     {
@@ -3706,17 +4522,17 @@
       "id": 1630552,
       "name": "Jalen Johnson",
       "team": "ATL",
-      "gp": 5,
+      "gp": 6,
       "zones": {
         "at_rim": {
-          "fga": 27,
-          "fgm": 18,
-          "pct": 0.6667
+          "fga": 32,
+          "fgm": 23,
+          "pct": 0.7188
         },
         "paint": {
-          "fga": 23,
+          "fga": 29,
           "fgm": 9,
-          "pct": 0.3913
+          "pct": 0.3103
         },
         "mid": {
           "fga": 7,
@@ -3724,9 +4540,9 @@
           "pct": 0.1429
         },
         "corner_3": {
-          "fga": 1,
+          "fga": 2,
           "fgm": 1,
-          "pct": 1.0
+          "pct": 0.5
         },
         "l_corner_3": {
           "fga": 1,
@@ -3734,32 +4550,32 @@
           "pct": 1.0
         },
         "r_corner_3": {
-          "fga": 0,
+          "fga": 1,
           "fgm": 0,
-          "pct": null
+          "pct": 0.0
         },
         "above_break_3": {
-          "fga": 22,
-          "fgm": 4,
-          "pct": 0.1818
+          "fga": 26,
+          "fgm": 6,
+          "pct": 0.2308
         }
       },
       "overall": {
-        "fg_pct": 0.413,
-        "efg_pct": 0.44375,
+        "fg_pct": 0.417,
+        "efg_pct": 0.45625,
         "ft_pct": 0.818,
         "fga": 16.0,
-        "fta": 6.6,
-        "fgm": 6.6,
-        "fga_total": 80,
+        "fta": 5.5,
+        "fgm": 6.7,
+        "fga_total": 96,
         "fta_total": 33,
-        "fgm_total": 33,
-        "ts_pct": 0.518
+        "fgm_total": 40,
+        "ts_pct": 0.516
       },
       "defense": {
-        "spg": 1.2,
-        "bpg": 0.8,
-        "rpg": 9.6
+        "spg": 1.0,
+        "bpg": 0.7,
+        "rpg": 9.3
       },
       "hustle": {
         "contested_shots": 5.2,
@@ -3836,6 +4652,74 @@
         "loose_balls_recovered": 0.0,
         "charges_drawn": 0.2,
         "screen_assists": 1.4
+      }
+    },
+    {
+      "id": 201935,
+      "name": "James Harden",
+      "team": "CLE",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 16,
+          "fgm": 8,
+          "pct": 0.5
+        },
+        "paint": {
+          "fga": 11,
+          "fgm": 4,
+          "pct": 0.3636
+        },
+        "mid": {
+          "fga": 3,
+          "fgm": 1,
+          "pct": 0.3333
+        },
+        "corner_3": {
+          "fga": 4,
+          "fgm": 2,
+          "pct": 0.5
+        },
+        "l_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "r_corner_3": {
+          "fga": 4,
+          "fgm": 2,
+          "pct": 0.5
+        },
+        "above_break_3": {
+          "fga": 35,
+          "fgm": 10,
+          "pct": 0.2857
+        }
+      },
+      "overall": {
+        "fg_pct": 0.362,
+        "efg_pct": 0.4492753623188406,
+        "ft_pct": 0.833,
+        "fga": 13.8,
+        "fta": 6.0,
+        "fgm": 5.0,
+        "fga_total": 69,
+        "fta_total": 30,
+        "fgm_total": 25,
+        "ts_pct": 0.529
+      },
+      "defense": {
+        "spg": 0.8,
+        "bpg": 0.4,
+        "rpg": 4.6
+      },
+      "hustle": {
+        "contested_shots": 5.25,
+        "deflections": 2.0,
+        "box_outs": 1.5,
+        "loose_balls_recovered": 0.5,
+        "charges_drawn": 0.0,
+        "screen_assists": 0.0
       }
     },
     {
@@ -3951,14 +4835,14 @@
       "overall": {
         "fg_pct": 0.36,
         "efg_pct": 0.47000000000000003,
-        "ft_pct": 0.778,
+        "ft_pct": 0.8,
         "fga": 10.0,
-        "fta": 1.8,
+        "fta": 2.0,
         "fgm": 3.6,
         "fga_total": 50,
-        "fta_total": 9,
+        "fta_total": 10,
         "fgm_total": 18,
-        "ts_pct": 0.5
+        "ts_pct": 0.506
       },
       "defense": {
         "spg": 0.6,
@@ -3972,6 +4856,74 @@
         "loose_balls_recovered": 0.4,
         "charges_drawn": 0.2,
         "screen_assists": 0.6
+      }
+    },
+    {
+      "id": 1628386,
+      "name": "Jarrett Allen",
+      "team": "CLE",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 24,
+          "fgm": 17,
+          "pct": 0.7083
+        },
+        "paint": {
+          "fga": 7,
+          "fgm": 2,
+          "pct": 0.2857
+        },
+        "mid": {
+          "fga": 6,
+          "fgm": 3,
+          "pct": 0.5
+        },
+        "corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "l_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "r_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "above_break_3": {
+          "fga": 2,
+          "fgm": 2,
+          "pct": 1.0
+        }
+      },
+      "overall": {
+        "fg_pct": 0.615,
+        "efg_pct": 0.6410256410256411,
+        "ft_pct": 0.773,
+        "fga": 7.8,
+        "fta": 4.4,
+        "fgm": 4.8,
+        "fga_total": 39,
+        "fta_total": 22,
+        "fgm_total": 24,
+        "ts_pct": 0.688
+      },
+      "defense": {
+        "spg": 0.6,
+        "bpg": 2.2,
+        "rpg": 8.8
+      },
+      "hustle": {
+        "contested_shots": 10.0,
+        "deflections": 3.25,
+        "box_outs": 0.75,
+        "loose_balls_recovered": 0.75,
+        "charges_drawn": 0.0,
+        "screen_assists": 2.0
       }
     },
     {
@@ -4111,6 +5063,74 @@
       }
     },
     {
+      "id": 1642377,
+      "name": "Jaylen Wells",
+      "team": "MEM",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 9,
+          "fgm": 8,
+          "pct": 0.8889
+        },
+        "paint": {
+          "fga": 6,
+          "fgm": 2,
+          "pct": 0.3333
+        },
+        "mid": {
+          "fga": 4,
+          "fgm": 4,
+          "pct": 1.0
+        },
+        "corner_3": {
+          "fga": 12,
+          "fgm": 6,
+          "pct": 0.5
+        },
+        "l_corner_3": {
+          "fga": 6,
+          "fgm": 3,
+          "pct": 0.5
+        },
+        "r_corner_3": {
+          "fga": 6,
+          "fgm": 3,
+          "pct": 0.5
+        },
+        "above_break_3": {
+          "fga": 13,
+          "fgm": 5,
+          "pct": 0.3846
+        }
+      },
+      "overall": {
+        "fg_pct": 0.568,
+        "efg_pct": 0.6931818181818181,
+        "ft_pct": 0.667,
+        "fga": 8.8,
+        "fta": 2.4,
+        "fgm": 5.0,
+        "fga_total": 44,
+        "fta_total": 12,
+        "fgm_total": 25,
+        "ts_pct": 0.7
+      },
+      "defense": {
+        "spg": 1.2,
+        "bpg": 0.0,
+        "rpg": 4.0
+      },
+      "hustle": {
+        "contested_shots": 2.75,
+        "deflections": 2.0,
+        "box_outs": 0.25,
+        "loose_balls_recovered": 0.75,
+        "charges_drawn": 0.25,
+        "screen_assists": 1.0
+      }
+    },
+    {
       "id": 1631119,
       "name": "Jaylin Williams",
       "team": "OKC",
@@ -4167,7 +5187,7 @@
       "defense": {
         "spg": 0.2,
         "bpg": 0.0,
-        "rpg": 4.4
+        "rpg": 4.2
       },
       "hustle": {
         "contested_shots": 5.4,
@@ -4176,6 +5196,210 @@
         "loose_balls_recovered": 0.2,
         "charges_drawn": 0.0,
         "screen_assists": 1.2
+      }
+    },
+    {
+      "id": 1642281,
+      "name": "Jaylon Tyson",
+      "team": "CLE",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 13,
+          "fgm": 9,
+          "pct": 0.6923
+        },
+        "paint": {
+          "fga": 2,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "mid": {
+          "fga": 2,
+          "fgm": 2,
+          "pct": 1.0
+        },
+        "corner_3": {
+          "fga": 5,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "l_corner_3": {
+          "fga": 3,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "r_corner_3": {
+          "fga": 2,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "above_break_3": {
+          "fga": 17,
+          "fgm": 5,
+          "pct": 0.2941
+        }
+      },
+      "overall": {
+        "fg_pct": 0.41,
+        "efg_pct": 0.4743589743589744,
+        "ft_pct": 0.5,
+        "fga": 7.8,
+        "fta": 0.8,
+        "fgm": 3.2,
+        "fga_total": 39,
+        "fta_total": 4,
+        "fgm_total": 16,
+        "ts_pct": 0.478
+      },
+      "defense": {
+        "spg": 0.6,
+        "bpg": 0.4,
+        "rpg": 3.6
+      },
+      "hustle": {
+        "contested_shots": 2.75,
+        "deflections": 1.25,
+        "box_outs": 0.75,
+        "loose_balls_recovered": 0.25,
+        "charges_drawn": 0.0,
+        "screen_assists": 0.25
+      }
+    },
+    {
+      "id": 203924,
+      "name": "Jerami Grant",
+      "team": "MEM",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 9,
+          "fgm": 4,
+          "pct": 0.4444
+        },
+        "paint": {
+          "fga": 7,
+          "fgm": 2,
+          "pct": 0.2857
+        },
+        "mid": {
+          "fga": 2,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "corner_3": {
+          "fga": 7,
+          "fgm": 1,
+          "pct": 0.1429
+        },
+        "l_corner_3": {
+          "fga": 3,
+          "fgm": 1,
+          "pct": 0.3333
+        },
+        "r_corner_3": {
+          "fga": 4,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "above_break_3": {
+          "fga": 14,
+          "fgm": 6,
+          "pct": 0.4286
+        }
+      },
+      "overall": {
+        "fg_pct": 0.333,
+        "efg_pct": 0.4230769230769231,
+        "ft_pct": 0.8,
+        "fga": 7.8,
+        "fta": 2.0,
+        "fgm": 2.6,
+        "fga_total": 39,
+        "fta_total": 10,
+        "fgm_total": 13,
+        "ts_pct": 0.472
+      },
+      "defense": {
+        "spg": 0.4,
+        "bpg": 1.2,
+        "rpg": 2.4
+      },
+      "hustle": {
+        "contested_shots": 3.25,
+        "deflections": 0.75,
+        "box_outs": 1.0,
+        "loose_balls_recovered": 0.0,
+        "charges_drawn": 0.25,
+        "screen_assists": 0.0
+      }
+    },
+    {
+      "id": 1642847,
+      "name": "Jeremiah Fears",
+      "team": "NOP",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 19,
+          "fgm": 12,
+          "pct": 0.6316
+        },
+        "paint": {
+          "fga": 15,
+          "fgm": 4,
+          "pct": 0.2667
+        },
+        "mid": {
+          "fga": 6,
+          "fgm": 1,
+          "pct": 0.1667
+        },
+        "corner_3": {
+          "fga": 4,
+          "fgm": 2,
+          "pct": 0.5
+        },
+        "l_corner_3": {
+          "fga": 2,
+          "fgm": 1,
+          "pct": 0.5
+        },
+        "r_corner_3": {
+          "fga": 2,
+          "fgm": 1,
+          "pct": 0.5
+        },
+        "above_break_3": {
+          "fga": 17,
+          "fgm": 4,
+          "pct": 0.2353
+        }
+      },
+      "overall": {
+        "fg_pct": 0.377,
+        "efg_pct": 0.4262295081967213,
+        "ft_pct": 0.667,
+        "fga": 12.2,
+        "fta": 1.8,
+        "fgm": 4.6,
+        "fga_total": 61,
+        "fta_total": 9,
+        "fgm_total": 23,
+        "ts_pct": 0.446
+      },
+      "defense": {
+        "spg": 1.0,
+        "bpg": 0.8,
+        "rpg": 4.2
+      },
+      "hustle": {
+        "contested_shots": 2.25,
+        "deflections": 2.0,
+        "box_outs": 0.0,
+        "loose_balls_recovered": 0.5,
+        "charges_drawn": 0.0,
+        "screen_assists": 0.0
       }
     },
     {
@@ -4250,17 +5474,17 @@
       "id": 1629111,
       "name": "Jock Landale",
       "team": "ATL",
-      "gp": 5,
+      "gp": 6,
       "zones": {
         "at_rim": {
-          "fga": 15,
+          "fga": 16,
           "fgm": 11,
-          "pct": 0.7333
+          "pct": 0.6875
         },
         "paint": {
-          "fga": 3,
+          "fga": 4,
           "fgm": 2,
-          "pct": 0.6667
+          "pct": 0.5
         },
         "mid": {
           "fga": 1,
@@ -4268,14 +5492,14 @@
           "pct": 1.0
         },
         "corner_3": {
-          "fga": 5,
-          "fgm": 1,
-          "pct": 0.2
+          "fga": 7,
+          "fgm": 2,
+          "pct": 0.2857
         },
         "l_corner_3": {
-          "fga": 4,
-          "fgm": 0,
-          "pct": 0.0
+          "fga": 6,
+          "fgm": 1,
+          "pct": 0.1667
         },
         "r_corner_3": {
           "fga": 1,
@@ -4283,27 +5507,27 @@
           "pct": 1.0
         },
         "above_break_3": {
-          "fga": 8,
-          "fgm": 0,
-          "pct": 0.0
+          "fga": 10,
+          "fgm": 1,
+          "pct": 0.1
         }
       },
       "overall": {
-        "fg_pct": 0.469,
-        "efg_pct": 0.484375,
-        "ft_pct": 0.7,
-        "fga": 6.4,
+        "fg_pct": 0.447,
+        "efg_pct": 0.48412698412698413,
+        "ft_pct": 0.583,
+        "fga": 6.3,
         "fta": 2.0,
-        "fgm": 3.0,
-        "fga_total": 32,
-        "fta_total": 10,
-        "fgm_total": 15,
-        "ts_pct": 0.522
+        "fgm": 2.8,
+        "fga_total": 38,
+        "fta_total": 12,
+        "fgm_total": 17,
+        "ts_pct": 0.508
       },
       "defense": {
         "spg": 0.2,
-        "bpg": 0.6,
-        "rpg": 4.8
+        "bpg": 0.5,
+        "rpg": 5.7
       },
       "hustle": {
         "contested_shots": 5.8,
@@ -5338,15 +6562,15 @@
       "id": 1643412,
       "name": "Kingston Flemings",
       "team": "ATL",
-      "gp": 5,
+      "gp": 6,
       "zones": {
         "at_rim": {
-          "fga": 10,
-          "fgm": 9,
-          "pct": 0.9
+          "fga": 12,
+          "fgm": 10,
+          "pct": 0.8333
         },
         "paint": {
-          "fga": 5,
+          "fga": 6,
           "fgm": 0,
           "pct": 0.0
         },
@@ -5371,27 +6595,27 @@
           "pct": 0.5
         },
         "above_break_3": {
-          "fga": 8,
+          "fga": 9,
           "fgm": 3,
-          "pct": 0.375
+          "pct": 0.3333
         }
       },
       "overall": {
-        "fg_pct": 0.5,
-        "efg_pct": 0.5666666666666667,
+        "fg_pct": 0.471,
+        "efg_pct": 0.5350877192982456,
         "ft_pct": 0.5,
-        "fga": 6.0,
-        "fta": 0.8,
-        "fgm": 3.0,
-        "fga_total": 30,
+        "fga": 5.7,
+        "fta": 0.7,
+        "fgm": 2.7,
+        "fga_total": 34,
         "fta_total": 4,
-        "fgm_total": 15,
-        "ts_pct": 0.567
+        "fgm_total": 16,
+        "ts_pct": 0.531
       },
       "defense": {
-        "spg": 0.4,
-        "bpg": 0.4,
-        "rpg": 3.4
+        "spg": 0.3,
+        "bpg": 0.3,
+        "rpg": 3.0
       },
       "hustle": {
         "contested_shots": 1.8,
@@ -5882,15 +7106,15 @@
       "id": 1629652,
       "name": "Luguentz Dort",
       "team": "ATL",
-      "gp": 5,
+      "gp": 6,
       "zones": {
         "at_rim": {
-          "fga": 14,
-          "fgm": 7,
-          "pct": 0.5
+          "fga": 15,
+          "fgm": 8,
+          "pct": 0.5333
         },
         "paint": {
-          "fga": 2,
+          "fga": 3,
           "fgm": 0,
           "pct": 0.0
         },
@@ -5900,12 +7124,12 @@
           "pct": 0.5
         },
         "corner_3": {
-          "fga": 4,
+          "fga": 6,
           "fgm": 1,
-          "pct": 0.25
+          "pct": 0.1667
         },
         "l_corner_3": {
-          "fga": 1,
+          "fga": 3,
           "fgm": 0,
           "pct": 0.0
         },
@@ -5915,25 +7139,25 @@
           "pct": 0.3333
         },
         "above_break_3": {
-          "fga": 18,
-          "fgm": 5,
-          "pct": 0.2778
+          "fga": 19,
+          "fgm": 6,
+          "pct": 0.3158
         }
       },
       "overall": {
-        "fg_pct": 0.35,
-        "efg_pct": 0.425,
-        "ft_pct": 0.9,
-        "fga": 8.0,
+        "fg_pct": 0.356,
+        "efg_pct": 0.44000000000000006,
+        "ft_pct": 0.833,
+        "fga": 7.5,
         "fta": 2.0,
-        "fgm": 2.8,
-        "fga_total": 40,
-        "fta_total": 10,
-        "fgm_total": 14,
-        "ts_pct": 0.484
+        "fgm": 2.7,
+        "fga_total": 45,
+        "fta_total": 12,
+        "fgm_total": 16,
+        "ts_pct": 0.487
       },
       "defense": {
-        "spg": 0.8,
+        "spg": 0.7,
         "bpg": 0.2,
         "rpg": 3.2
       },
@@ -6080,6 +7304,74 @@
         "loose_balls_recovered": 0.0,
         "charges_drawn": 0.0,
         "screen_assists": 0.25
+      }
+    },
+    {
+      "id": 1626209,
+      "name": "Mario Hezonja",
+      "team": "CLE",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 8,
+          "fgm": 5,
+          "pct": 0.625
+        },
+        "paint": {
+          "fga": 7,
+          "fgm": 4,
+          "pct": 0.5714
+        },
+        "mid": {
+          "fga": 2,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "corner_3": {
+          "fga": 4,
+          "fgm": 2,
+          "pct": 0.5
+        },
+        "l_corner_3": {
+          "fga": 2,
+          "fgm": 1,
+          "pct": 0.5
+        },
+        "r_corner_3": {
+          "fga": 2,
+          "fgm": 1,
+          "pct": 0.5
+        },
+        "above_break_3": {
+          "fga": 13,
+          "fgm": 4,
+          "pct": 0.3077
+        }
+      },
+      "overall": {
+        "fg_pct": 0.441,
+        "efg_pct": 0.5294117647058824,
+        "ft_pct": 0.5,
+        "fga": 6.8,
+        "fta": 0.4,
+        "fgm": 3.0,
+        "fga_total": 34,
+        "fta_total": 2,
+        "fgm_total": 15,
+        "ts_pct": 0.53
+      },
+      "defense": {
+        "spg": 0.8,
+        "bpg": 0.2,
+        "rpg": 4.0
+      },
+      "hustle": {
+        "contested_shots": 1.75,
+        "deflections": 1.25,
+        "box_outs": 0.5,
+        "loose_balls_recovered": 0.25,
+        "charges_drawn": 0.0,
+        "screen_assists": 1.0
       }
     },
     {
@@ -6698,12 +7990,12 @@
       "id": 1629638,
       "name": "Nickeil Alexander-Walker",
       "team": "ATL",
-      "gp": 5,
+      "gp": 6,
       "zones": {
         "at_rim": {
-          "fga": 18,
-          "fgm": 11,
-          "pct": 0.6111
+          "fga": 23,
+          "fgm": 15,
+          "pct": 0.6522
         },
         "paint": {
           "fga": 9,
@@ -6716,42 +8008,42 @@
           "pct": 0.5
         },
         "corner_3": {
-          "fga": 12,
-          "fgm": 5,
-          "pct": 0.4167
+          "fga": 18,
+          "fgm": 8,
+          "pct": 0.4444
         },
         "l_corner_3": {
-          "fga": 10,
-          "fgm": 5,
-          "pct": 0.5
+          "fga": 14,
+          "fgm": 6,
+          "pct": 0.4286
         },
         "r_corner_3": {
-          "fga": 2,
-          "fgm": 0,
-          "pct": 0.0
+          "fga": 4,
+          "fgm": 2,
+          "pct": 0.5
         },
         "above_break_3": {
-          "fga": 31,
-          "fgm": 13,
-          "pct": 0.4194
+          "fga": 37,
+          "fgm": 14,
+          "pct": 0.3784
         }
       },
       "overall": {
-        "fg_pct": 0.446,
-        "efg_pct": 0.5675675675675675,
-        "ft_pct": 0.7,
-        "fga": 14.8,
-        "fta": 4.0,
-        "fgm": 6.6,
-        "fga_total": 74,
-        "fta_total": 20,
-        "fgm_total": 33,
-        "ts_pct": 0.592
+        "fg_pct": 0.451,
+        "efg_pct": 0.5690789473684211,
+        "ft_pct": 0.76,
+        "fga": 15.2,
+        "fta": 4.2,
+        "fgm": 6.8,
+        "fga_total": 91,
+        "fta_total": 25,
+        "fgm_total": 41,
+        "ts_pct": 0.603
       },
       "defense": {
-        "spg": 1.6,
-        "bpg": 0.2,
-        "rpg": 3.4
+        "spg": 1.3,
+        "bpg": 0.3,
+        "rpg": 3.3
       },
       "hustle": {
         "contested_shots": 1.8,
@@ -6970,17 +8262,17 @@
       "id": 1630168,
       "name": "Onyeka Okongwu",
       "team": "ATL",
-      "gp": 5,
+      "gp": 6,
       "zones": {
         "at_rim": {
-          "fga": 17,
-          "fgm": 9,
-          "pct": 0.5294
+          "fga": 24,
+          "fgm": 14,
+          "pct": 0.5833
         },
         "paint": {
-          "fga": 7,
-          "fgm": 6,
-          "pct": 0.8571
+          "fga": 11,
+          "fgm": 8,
+          "pct": 0.7273
         },
         "mid": {
           "fga": 0,
@@ -7003,27 +8295,27 @@
           "pct": 0.0
         },
         "above_break_3": {
-          "fga": 16,
-          "fgm": 4,
-          "pct": 0.25
+          "fga": 22,
+          "fgm": 8,
+          "pct": 0.3636
         }
       },
       "overall": {
-        "fg_pct": 0.432,
-        "efg_pct": 0.47727272727272724,
+        "fg_pct": 0.492,
+        "efg_pct": 0.553921568627451,
         "ft_pct": 0.75,
-        "fga": 8.8,
-        "fta": 1.6,
-        "fgm": 3.8,
-        "fga_total": 44,
-        "fta_total": 8,
-        "fgm_total": 19,
-        "ts_pct": 0.505
+        "fga": 10.2,
+        "fta": 2.0,
+        "fgm": 5.0,
+        "fga_total": 61,
+        "fta_total": 12,
+        "fgm_total": 30,
+        "ts_pct": 0.581
       },
       "defense": {
-        "spg": 0.6,
-        "bpg": 0.6,
-        "rpg": 5.6
+        "spg": 0.7,
+        "bpg": 0.7,
+        "rpg": 6.7
       },
       "hustle": {
         "contested_shots": 6.8,
@@ -7307,6 +8599,142 @@
       }
     },
     {
+      "id": 1631212,
+      "name": "Peyton Watson",
+      "team": "CLE",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 20,
+          "fgm": 10,
+          "pct": 0.5
+        },
+        "paint": {
+          "fga": 11,
+          "fgm": 7,
+          "pct": 0.6364
+        },
+        "mid": {
+          "fga": 4,
+          "fgm": 1,
+          "pct": 0.25
+        },
+        "corner_3": {
+          "fga": 9,
+          "fgm": 1,
+          "pct": 0.1111
+        },
+        "l_corner_3": {
+          "fga": 5,
+          "fgm": 1,
+          "pct": 0.2
+        },
+        "r_corner_3": {
+          "fga": 4,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "above_break_3": {
+          "fga": 12,
+          "fgm": 2,
+          "pct": 0.1667
+        }
+      },
+      "overall": {
+        "fg_pct": 0.375,
+        "efg_pct": 0.4017857142857143,
+        "ft_pct": 0.789,
+        "fga": 11.2,
+        "fta": 3.8,
+        "fgm": 4.2,
+        "fga_total": 56,
+        "fta_total": 19,
+        "fgm_total": 21,
+        "ts_pct": 0.466
+      },
+      "defense": {
+        "spg": 1.2,
+        "bpg": 1.8,
+        "rpg": 4.4
+      },
+      "hustle": {
+        "contested_shots": 8.5,
+        "deflections": 2.5,
+        "box_outs": 0.0,
+        "loose_balls_recovered": 0.5,
+        "charges_drawn": 0.0,
+        "screen_assists": 0.0
+      }
+    },
+    {
+      "id": 1630173,
+      "name": "Precious Achiuwa",
+      "team": "SAC",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 20,
+          "fgm": 15,
+          "pct": 0.75
+        },
+        "paint": {
+          "fga": 27,
+          "fgm": 14,
+          "pct": 0.5185
+        },
+        "mid": {
+          "fga": 3,
+          "fgm": 2,
+          "pct": 0.6667
+        },
+        "corner_3": {
+          "fga": 4,
+          "fgm": 1,
+          "pct": 0.25
+        },
+        "l_corner_3": {
+          "fga": 2,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "r_corner_3": {
+          "fga": 2,
+          "fgm": 1,
+          "pct": 0.5
+        },
+        "above_break_3": {
+          "fga": 1,
+          "fgm": 0,
+          "pct": 0.0
+        }
+      },
+      "overall": {
+        "fg_pct": 0.582,
+        "efg_pct": 0.5909090909090909,
+        "ft_pct": 0.333,
+        "fga": 11.0,
+        "fta": 2.4,
+        "fgm": 6.4,
+        "fga_total": 55,
+        "fta_total": 12,
+        "fgm_total": 32,
+        "ts_pct": 0.572
+      },
+      "defense": {
+        "spg": 2.0,
+        "bpg": 0.6,
+        "rpg": 6.2
+      },
+      "hustle": {
+        "contested_shots": 8.25,
+        "deflections": 1.75,
+        "box_outs": 1.5,
+        "loose_balls_recovered": 0.25,
+        "charges_drawn": 0.0,
+        "screen_assists": 1.5
+      }
+    },
+    {
       "id": 1629656,
       "name": "Quentin Grimes",
       "team": "LAL",
@@ -7440,6 +8868,74 @@
         "loose_balls_recovered": 0.4,
         "charges_drawn": 0.0,
         "screen_assists": 0.0
+      }
+    },
+    {
+      "id": 1642366,
+      "name": "Quinten Post",
+      "team": "MEM",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 8,
+          "fgm": 7,
+          "pct": 0.875
+        },
+        "paint": {
+          "fga": 3,
+          "fgm": 3,
+          "pct": 1.0
+        },
+        "mid": {
+          "fga": 1,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "corner_3": {
+          "fga": 3,
+          "fgm": 1,
+          "pct": 0.3333
+        },
+        "l_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "r_corner_3": {
+          "fga": 3,
+          "fgm": 1,
+          "pct": 0.3333
+        },
+        "above_break_3": {
+          "fga": 9,
+          "fgm": 4,
+          "pct": 0.4444
+        }
+      },
+      "overall": {
+        "fg_pct": 0.625,
+        "efg_pct": 0.7291666666666667,
+        "ft_pct": 0.75,
+        "fga": 4.8,
+        "fta": 0.8,
+        "fgm": 3.0,
+        "fga_total": 24,
+        "fta_total": 4,
+        "fgm_total": 15,
+        "ts_pct": 0.738
+      },
+      "defense": {
+        "spg": 0.0,
+        "bpg": 0.4,
+        "rpg": 2.6
+      },
+      "hustle": {
+        "contested_shots": 4.5,
+        "deflections": 0.5,
+        "box_outs": 1.0,
+        "loose_balls_recovered": 0.25,
+        "charges_drawn": 0.0,
+        "screen_assists": 0.75
       }
     },
     {
@@ -7783,6 +9279,142 @@
       }
     },
     {
+      "id": 1630180,
+      "name": "Saddiq Bey",
+      "team": "NOP",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 5,
+          "fgm": 2,
+          "pct": 0.4
+        },
+        "paint": {
+          "fga": 11,
+          "fgm": 5,
+          "pct": 0.4545
+        },
+        "mid": {
+          "fga": 7,
+          "fgm": 5,
+          "pct": 0.7143
+        },
+        "corner_3": {
+          "fga": 7,
+          "fgm": 2,
+          "pct": 0.2857
+        },
+        "l_corner_3": {
+          "fga": 5,
+          "fgm": 1,
+          "pct": 0.2
+        },
+        "r_corner_3": {
+          "fga": 2,
+          "fgm": 1,
+          "pct": 0.5
+        },
+        "above_break_3": {
+          "fga": 17,
+          "fgm": 7,
+          "pct": 0.4118
+        }
+      },
+      "overall": {
+        "fg_pct": 0.447,
+        "efg_pct": 0.5425531914893618,
+        "ft_pct": 0.882,
+        "fga": 9.4,
+        "fta": 3.4,
+        "fgm": 4.2,
+        "fga_total": 47,
+        "fta_total": 17,
+        "fgm_total": 21,
+        "ts_pct": 0.606
+      },
+      "defense": {
+        "spg": 0.6,
+        "bpg": 0.2,
+        "rpg": 3.2
+      },
+      "hustle": {
+        "contested_shots": 2.5,
+        "deflections": 1.0,
+        "box_outs": 1.5,
+        "loose_balls_recovered": 1.0,
+        "charges_drawn": 0.0,
+        "screen_assists": 0.25
+      }
+    },
+    {
+      "id": 1630241,
+      "name": "Sam Merrill",
+      "team": "CLE",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 4,
+          "fgm": 4,
+          "pct": 1.0
+        },
+        "paint": {
+          "fga": 3,
+          "fgm": 1,
+          "pct": 0.3333
+        },
+        "mid": {
+          "fga": 2,
+          "fgm": 1,
+          "pct": 0.5
+        },
+        "corner_3": {
+          "fga": 7,
+          "fgm": 3,
+          "pct": 0.4286
+        },
+        "l_corner_3": {
+          "fga": 2,
+          "fgm": 1,
+          "pct": 0.5
+        },
+        "r_corner_3": {
+          "fga": 5,
+          "fgm": 2,
+          "pct": 0.4
+        },
+        "above_break_3": {
+          "fga": 19,
+          "fgm": 6,
+          "pct": 0.3158
+        }
+      },
+      "overall": {
+        "fg_pct": 0.429,
+        "efg_pct": 0.5571428571428572,
+        "ft_pct": 1.0,
+        "fga": 7.0,
+        "fta": 1.2,
+        "fgm": 3.0,
+        "fga_total": 35,
+        "fta_total": 6,
+        "fgm_total": 15,
+        "ts_pct": 0.598
+      },
+      "defense": {
+        "spg": 0.8,
+        "bpg": 0.0,
+        "rpg": 2.8
+      },
+      "hustle": {
+        "contested_shots": 3.25,
+        "deflections": 3.0,
+        "box_outs": 0.75,
+        "loose_balls_recovered": 0.5,
+        "charges_drawn": 0.25,
+        "screen_assists": 0.0
+      }
+    },
+    {
       "id": 1630572,
       "name": "Sandro Mamukelashvili",
       "team": "LAL",
@@ -7848,6 +9480,74 @@
         "loose_balls_recovered": 0.0,
         "charges_drawn": 0.0,
         "screen_assists": 0.8
+      }
+    },
+    {
+      "id": 1630590,
+      "name": "Scotty Pippen Jr.",
+      "team": "MEM",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 2,
+          "fgm": 2,
+          "pct": 1.0
+        },
+        "paint": {
+          "fga": 15,
+          "fgm": 7,
+          "pct": 0.4667
+        },
+        "mid": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "corner_3": {
+          "fga": 2,
+          "fgm": 1,
+          "pct": 0.5
+        },
+        "l_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "r_corner_3": {
+          "fga": 2,
+          "fgm": 1,
+          "pct": 0.5
+        },
+        "above_break_3": {
+          "fga": 7,
+          "fgm": 1,
+          "pct": 0.1429
+        }
+      },
+      "overall": {
+        "fg_pct": 0.423,
+        "efg_pct": 0.46153846153846156,
+        "ft_pct": 0.8,
+        "fga": 5.2,
+        "fta": 2.0,
+        "fgm": 2.2,
+        "fga_total": 26,
+        "fta_total": 10,
+        "fgm_total": 11,
+        "ts_pct": 0.526
+      },
+      "defense": {
+        "spg": 1.0,
+        "bpg": 0.2,
+        "rpg": 2.2
+      },
+      "hustle": {
+        "contested_shots": 1.5,
+        "deflections": 2.25,
+        "box_outs": 0.0,
+        "loose_balls_recovered": 1.0,
+        "charges_drawn": 0.25,
+        "screen_assists": 0.0
       }
     },
     {
@@ -8531,6 +10231,142 @@
       }
     },
     {
+      "id": 1630530,
+      "name": "Trey Murphy III",
+      "team": "NOP",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 15,
+          "fgm": 9,
+          "pct": 0.6
+        },
+        "paint": {
+          "fga": 8,
+          "fgm": 5,
+          "pct": 0.625
+        },
+        "mid": {
+          "fga": 2,
+          "fgm": 1,
+          "pct": 0.5
+        },
+        "corner_3": {
+          "fga": 2,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "l_corner_3": {
+          "fga": 2,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "r_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "above_break_3": {
+          "fga": 29,
+          "fgm": 11,
+          "pct": 0.3793
+        }
+      },
+      "overall": {
+        "fg_pct": 0.464,
+        "efg_pct": 0.5625000000000001,
+        "ft_pct": 0.667,
+        "fga": 11.2,
+        "fta": 2.4,
+        "fgm": 5.2,
+        "fga_total": 56,
+        "fta_total": 12,
+        "fgm_total": 26,
+        "ts_pct": 0.579
+      },
+      "defense": {
+        "spg": 1.0,
+        "bpg": 0.0,
+        "rpg": 4.4
+      },
+      "hustle": {
+        "contested_shots": 2.5,
+        "deflections": 1.75,
+        "box_outs": 0.5,
+        "loose_balls_recovered": 0.75,
+        "charges_drawn": 0.0,
+        "screen_assists": 1.0
+      }
+    },
+    {
+      "id": 1629660,
+      "name": "Ty Jerome",
+      "team": "MEM",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 6,
+          "fgm": 5,
+          "pct": 0.8333
+        },
+        "paint": {
+          "fga": 38,
+          "fgm": 21,
+          "pct": 0.5526
+        },
+        "mid": {
+          "fga": 15,
+          "fgm": 6,
+          "pct": 0.4
+        },
+        "corner_3": {
+          "fga": 3,
+          "fgm": 1,
+          "pct": 0.3333
+        },
+        "l_corner_3": {
+          "fga": 1,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "r_corner_3": {
+          "fga": 2,
+          "fgm": 1,
+          "pct": 0.5
+        },
+        "above_break_3": {
+          "fga": 29,
+          "fgm": 10,
+          "pct": 0.3448
+        }
+      },
+      "overall": {
+        "fg_pct": 0.473,
+        "efg_pct": 0.532967032967033,
+        "ft_pct": 0.889,
+        "fga": 18.2,
+        "fta": 7.2,
+        "fgm": 8.6,
+        "fga_total": 91,
+        "fta_total": 36,
+        "fgm_total": 43,
+        "ts_pct": 0.604
+      },
+      "defense": {
+        "spg": 1.0,
+        "bpg": 0.2,
+        "rpg": 3.2
+      },
+      "hustle": {
+        "contested_shots": 2.0,
+        "deflections": 2.0,
+        "box_outs": 0.5,
+        "loose_balls_recovered": 0.0,
+        "charges_drawn": 0.0,
+        "screen_assists": 0.0
+      }
+    },
+    {
       "id": 1629639,
       "name": "Tyler Herro",
       "team": "MIL",
@@ -9004,6 +10840,142 @@
         "loose_balls_recovered": 1.4,
         "charges_drawn": 0.0,
         "screen_assists": 0.4
+      }
+    },
+    {
+      "id": 203897,
+      "name": "Zach LaVine",
+      "team": "SAC",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 17,
+          "fgm": 12,
+          "pct": 0.7059
+        },
+        "paint": {
+          "fga": 9,
+          "fgm": 4,
+          "pct": 0.4444
+        },
+        "mid": {
+          "fga": 18,
+          "fgm": 12,
+          "pct": 0.6667
+        },
+        "corner_3": {
+          "fga": 6,
+          "fgm": 1,
+          "pct": 0.1667
+        },
+        "l_corner_3": {
+          "fga": 5,
+          "fgm": 1,
+          "pct": 0.2
+        },
+        "r_corner_3": {
+          "fga": 1,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "above_break_3": {
+          "fga": 36,
+          "fgm": 14,
+          "pct": 0.3889
+        }
+      },
+      "overall": {
+        "fg_pct": 0.5,
+        "efg_pct": 0.5872093023255814,
+        "ft_pct": 0.806,
+        "fga": 17.2,
+        "fta": 7.2,
+        "fgm": 8.6,
+        "fga_total": 86,
+        "fta_total": 36,
+        "fgm_total": 43,
+        "ts_pct": 0.638
+      },
+      "defense": {
+        "spg": 1.4,
+        "bpg": 0.4,
+        "rpg": 3.4
+      },
+      "hustle": {
+        "contested_shots": 3.5,
+        "deflections": 1.75,
+        "box_outs": 0.5,
+        "loose_balls_recovered": 0.5,
+        "charges_drawn": 0.0,
+        "screen_assists": 0.0
+      }
+    },
+    {
+      "id": 1629627,
+      "name": "Zion Williamson",
+      "team": "NOP",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 44,
+          "fgm": 32,
+          "pct": 0.7273
+        },
+        "paint": {
+          "fga": 13,
+          "fgm": 6,
+          "pct": 0.4615
+        },
+        "mid": {
+          "fga": 1,
+          "fgm": 1,
+          "pct": 1.0
+        },
+        "corner_3": {
+          "fga": 1,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "l_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "r_corner_3": {
+          "fga": 1,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "above_break_3": {
+          "fga": 6,
+          "fgm": 3,
+          "pct": 0.5
+        }
+      },
+      "overall": {
+        "fg_pct": 0.646,
+        "efg_pct": 0.6692307692307693,
+        "ft_pct": 0.759,
+        "fga": 13.0,
+        "fta": 5.8,
+        "fgm": 8.4,
+        "fga_total": 65,
+        "fta_total": 29,
+        "fgm_total": 42,
+        "ts_pct": 0.701
+      },
+      "defense": {
+        "spg": 3.2,
+        "bpg": 0.6,
+        "rpg": 4.0
+      },
+      "hustle": {
+        "contested_shots": 5.5,
+        "deflections": 3.25,
+        "box_outs": 0.75,
+        "loose_balls_recovered": 0.5,
+        "charges_drawn": 0.0,
+        "screen_assists": 0.0
       }
     }
   ]
