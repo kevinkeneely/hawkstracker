@@ -161,7 +161,7 @@ PCTILE_STATS_ADV = {
 
 # Minimum total minutes played (mpg * gp) for a player to be "qualified".
 # Below this threshold, UI greys out the cells to signal small sample size.
-MIN_PLAYED_THRESHOLD = 200
+MIN_PLAYED_THRESHOLD = 150
 
 # Counting stats that convert meaningfully to Per 36. Percentages don't change.
 PER_36_STATS = ["ppg", "rpg", "apg", "spg", "bpg", "tov"]
