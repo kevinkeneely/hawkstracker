@@ -63,6 +63,26 @@ run_step fetch_league_clutch          python3 -m pipeline.fetch_league_clutch
 run_step transform_hustle             python3 -m pipeline.transform_hustle
 run_step transform_clutch             python3 -m pipeline.transform_clutch
 run_step transform_defensive_rates    python3 -m pipeline.transform_defensive_rates
+
+# Advanced tracking data (Phase 1 of the Advanced Stats plan — see
+# claude/advanced-stats-plan.md). Five fetches hit NBA.com tracking
+# endpoints, three "transform_tracking_X" transforms publish per-season
+# league JSONs under app/public/, three "transform_hawks_X_tracking"
+# transforms enrich each Hawks player in hawksData with percentile-ranked
+# blocks. Hawks enrichment MUST run after both the league transforms
+# AND transform.py (which creates hawksData).
+run_step fetch_tracking_drives           python3 -m pipeline.fetch_tracking_drives
+run_step fetch_tracking_passing          python3 -m pipeline.fetch_tracking_passing
+run_step fetch_tracking_possessions      python3 -m pipeline.fetch_tracking_possessions
+run_step fetch_tracking_defense          python3 -m pipeline.fetch_tracking_defense
+run_step fetch_tracking_shots            python3 -m pipeline.fetch_tracking_shots
+run_step transform_tracking_defense      python3 -m pipeline.transform_tracking_defense
+run_step transform_tracking_playmaking   python3 -m pipeline.transform_tracking_playmaking
+run_step transform_tracking_shooting     python3 -m pipeline.transform_tracking_shooting
+run_step transform_hawks_defense_tracking    python3 -m pipeline.transform_hawks_defense_tracking
+run_step transform_hawks_playmaking_tracking python3 -m pipeline.transform_hawks_playmaking_tracking
+run_step transform_hawks_shooting_tracking   python3 -m pipeline.transform_hawks_shooting_tracking
+
 run_step fetch_schedule               python3 -m pipeline.fetch_schedule
 run_step fetch_upcoming               python3 -m pipeline.fetch_upcoming
 run_step transform_schedule           python3 -m pipeline.transform_schedule
