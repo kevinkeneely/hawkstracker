@@ -1,6 +1,6 @@
 {
   "season": "2026-27",
-  "generated_at": "2026-11-01T02:11:41.125716-05:00",
+  "generated_at": "2026-11-02T02:11:38.312204-05:00",
   "min_gp": 5,
   "min_fga_per_zone": {
     "at_rim": 15,
@@ -90,12 +90,12 @@
         "rpg": 2.0
       },
       "hustle": {
-        "contested_shots": 2.4,
+        "contested_shots": 2.0,
         "deflections": 0.0,
         "box_outs": 0.0,
-        "loose_balls_recovered": 0.4,
+        "loose_balls_recovered": 0.33,
         "charges_drawn": 0.0,
-        "screen_assists": 0.4
+        "screen_assists": 0.33
       }
     },
     {
@@ -158,10 +158,10 @@
         "rpg": 6.0
       },
       "hustle": {
-        "contested_shots": 2.2,
+        "contested_shots": 2.8,
         "deflections": 0.8,
         "box_outs": 0.4,
-        "loose_balls_recovered": 0.4,
+        "loose_balls_recovered": 0.6,
         "charges_drawn": 0.0,
         "screen_assists": 0.6
       }
@@ -170,27 +170,27 @@
       "id": 1630174,
       "name": "Aaron Nesmith",
       "team": "IND",
-      "gp": 5,
+      "gp": 6,
       "zones": {
         "at_rim": {
-          "fga": 8,
-          "fgm": 4,
+          "fga": 10,
+          "fgm": 5,
           "pct": 0.5
         },
         "paint": {
-          "fga": 8,
-          "fgm": 4,
-          "pct": 0.5
+          "fga": 9,
+          "fgm": 5,
+          "pct": 0.5556
         },
         "mid": {
-          "fga": 3,
-          "fgm": 1,
-          "pct": 0.3333
+          "fga": 4,
+          "fgm": 2,
+          "pct": 0.5
         },
         "corner_3": {
-          "fga": 9,
+          "fga": 12,
           "fgm": 3,
-          "pct": 0.3333
+          "pct": 0.25
         },
         "l_corner_3": {
           "fga": 3,
@@ -198,32 +198,32 @@
           "pct": 0.3333
         },
         "r_corner_3": {
-          "fga": 6,
+          "fga": 9,
           "fgm": 2,
-          "pct": 0.3333
+          "pct": 0.2222
         },
         "above_break_3": {
-          "fga": 20,
+          "fga": 21,
           "fgm": 7,
-          "pct": 0.35
+          "pct": 0.3333
         }
       },
       "overall": {
-        "fg_pct": 0.396,
-        "efg_pct": 0.5,
-        "ft_pct": 0.875,
-        "fga": 9.6,
-        "fta": 3.2,
-        "fgm": 3.8,
-        "fga_total": 48,
-        "fta_total": 16,
-        "fgm_total": 19,
-        "ts_pct": 0.563
+        "fg_pct": 0.393,
+        "efg_pct": 0.48924731182795694,
+        "ft_pct": 0.864,
+        "fga": 9.3,
+        "fta": 3.7,
+        "fgm": 3.7,
+        "fga_total": 56,
+        "fta_total": 22,
+        "fgm_total": 22,
+        "ts_pct": 0.556
       },
       "defense": {
-        "spg": 0.6,
+        "spg": 0.7,
         "bpg": 0.2,
-        "rpg": 2.0
+        "rpg": 2.2
       },
       "hustle": {
         "contested_shots": 3.4,
@@ -294,12 +294,12 @@
         "rpg": 3.7
       },
       "hustle": {
-        "contested_shots": 3.33,
-        "deflections": 1.83,
-        "box_outs": 0.5,
-        "loose_balls_recovered": 0.83,
+        "contested_shots": 3.14,
+        "deflections": 2.0,
+        "box_outs": 0.43,
+        "loose_balls_recovered": 0.71,
         "charges_drawn": 0.0,
-        "screen_assists": 0.0
+        "screen_assists": 0.29
       }
     },
     {
@@ -362,10 +362,10 @@
         "rpg": 7.8
       },
       "hustle": {
-        "contested_shots": 6.0,
-        "deflections": 0.8,
-        "box_outs": 0.4,
-        "loose_balls_recovered": 0.8,
+        "contested_shots": 6.5,
+        "deflections": 1.17,
+        "box_outs": 0.33,
+        "loose_balls_recovered": 0.83,
         "charges_drawn": 0.0,
         "screen_assists": 0.0
       }
@@ -430,12 +430,12 @@
         "rpg": 5.0
       },
       "hustle": {
-        "contested_shots": 7.2,
-        "deflections": 0.8,
-        "box_outs": 0.4,
+        "contested_shots": 7.83,
+        "deflections": 0.67,
+        "box_outs": 0.5,
         "loose_balls_recovered": 0.0,
         "charges_drawn": 0.0,
-        "screen_assists": 3.2
+        "screen_assists": 3.17
       }
     },
     {
@@ -498,12 +498,12 @@
         "rpg": 3.9
       },
       "hustle": {
-        "contested_shots": 5.83,
-        "deflections": 1.17,
-        "box_outs": 0.83,
-        "loose_balls_recovered": 0.33,
+        "contested_shots": 6.43,
+        "deflections": 1.14,
+        "box_outs": 0.71,
+        "loose_balls_recovered": 0.43,
         "charges_drawn": 0.0,
-        "screen_assists": 1.5
+        "screen_assists": 1.71
       }
     },
     {
@@ -566,19 +566,19 @@
         "rpg": 3.3
       },
       "hustle": {
-        "contested_shots": 3.0,
-        "deflections": 3.4,
-        "box_outs": 0.4,
-        "loose_balls_recovered": 0.4,
+        "contested_shots": 3.17,
+        "deflections": 3.17,
+        "box_outs": 0.33,
+        "loose_balls_recovered": 0.33,
         "charges_drawn": 0.0,
-        "screen_assists": 0.2
+        "screen_assists": 0.17
       }
     },
     {
       "id": 201143,
       "name": "Al Horford",
       "team": "GSW",
-      "gp": 5,
+      "gp": 6,
       "zones": {
         "at_rim": {
           "fga": 2,
@@ -596,14 +596,14 @@
           "pct": 0.3333
         },
         "corner_3": {
+          "fga": 5,
+          "fgm": 2,
+          "pct": 0.4
+        },
+        "l_corner_3": {
           "fga": 4,
           "fgm": 2,
           "pct": 0.5
-        },
-        "l_corner_3": {
-          "fga": 3,
-          "fgm": 2,
-          "pct": 0.6667
         },
         "r_corner_3": {
           "fga": 1,
@@ -611,31 +611,31 @@
           "pct": 0.0
         },
         "above_break_3": {
-          "fga": 9,
-          "fgm": 3,
-          "pct": 0.3333
+          "fga": 15,
+          "fgm": 6,
+          "pct": 0.4
         }
       },
       "overall": {
-        "fg_pct": 0.4,
-        "efg_pct": 0.525,
+        "fg_pct": 0.407,
+        "efg_pct": 0.5444444444444445,
         "ft_pct": 0.0,
-        "fga": 4.0,
-        "fta": 0,
-        "fgm": 1.6,
-        "fga_total": 20,
-        "fta_total": 0,
-        "fgm_total": 8,
-        "ts_pct": 0.525
+        "fga": 4.5,
+        "fta": 0.2,
+        "fgm": 1.8,
+        "fga_total": 27,
+        "fta_total": 1,
+        "fgm_total": 11,
+        "ts_pct": 0.547
       },
       "defense": {
-        "spg": 0.4,
-        "bpg": 0.6,
-        "rpg": 3.8
+        "spg": 0.3,
+        "bpg": 0.7,
+        "rpg": 4.0
       },
       "hustle": {
         "contested_shots": 6.4,
-        "deflections": 1.0,
+        "deflections": 1.2,
         "box_outs": 1.6,
         "loose_balls_recovered": 0.0,
         "charges_drawn": 0.0,
@@ -711,20 +711,88 @@
       }
     },
     {
-      "id": 1643512,
-      "name": "Allen Graves",
+      "id": 1642918,
+      "name": "Alijah Martin",
       "team": "TOR",
       "gp": 5,
       "zones": {
         "at_rim": {
-          "fga": 8,
-          "fgm": 6,
-          "pct": 0.75
+          "fga": 4,
+          "fgm": 4,
+          "pct": 1.0
         },
         "paint": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "mid": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "corner_3": {
+          "fga": 3,
+          "fgm": 1,
+          "pct": 0.3333
+        },
+        "l_corner_3": {
           "fga": 2,
+          "fgm": 1,
+          "pct": 0.5
+        },
+        "r_corner_3": {
+          "fga": 1,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "above_break_3": {
+          "fga": 3,
+          "fgm": 1,
+          "pct": 0.3333
+        }
+      },
+      "overall": {
+        "fg_pct": 0.6,
+        "efg_pct": 0.7,
+        "ft_pct": 0.5,
+        "fga": 2.0,
+        "fta": 0.4,
+        "fgm": 1.2,
+        "fga_total": 10,
+        "fta_total": 2,
+        "fgm_total": 6,
+        "ts_pct": 0.689
+      },
+      "defense": {
+        "spg": 0.2,
+        "bpg": 0.0,
+        "rpg": 1.0
+      },
+      "hustle": {
+        "contested_shots": 1.0,
+        "deflections": 1.5,
+        "box_outs": 0.0,
+        "loose_balls_recovered": 0.5,
+        "charges_drawn": 0.0,
+        "screen_assists": 0.0
+      }
+    },
+    {
+      "id": 1643512,
+      "name": "Allen Graves",
+      "team": "TOR",
+      "gp": 6,
+      "zones": {
+        "at_rim": {
+          "fga": 9,
+          "fgm": 7,
+          "pct": 0.7778
+        },
+        "paint": {
+          "fga": 3,
           "fgm": 2,
-          "pct": 1.0
+          "pct": 0.6667
         },
         "mid": {
           "fga": 1,
@@ -732,45 +800,45 @@
           "pct": 0.0
         },
         "corner_3": {
-          "fga": 5,
+          "fga": 7,
           "fgm": 1,
-          "pct": 0.2
+          "pct": 0.1429
         },
         "l_corner_3": {
-          "fga": 3,
+          "fga": 4,
           "fgm": 0,
           "pct": 0.0
         },
         "r_corner_3": {
-          "fga": 2,
+          "fga": 3,
           "fgm": 1,
-          "pct": 0.5
+          "pct": 0.3333
         },
         "above_break_3": {
-          "fga": 2,
+          "fga": 3,
           "fgm": 1,
-          "pct": 0.5
+          "pct": 0.3333
         }
       },
       "overall": {
-        "fg_pct": 0.556,
-        "efg_pct": 0.6111111111111112,
-        "ft_pct": 0.667,
-        "fga": 3.6,
+        "fg_pct": 0.478,
+        "efg_pct": 0.5131578947368421,
+        "ft_pct": 0.636,
+        "fga": 3.8,
         "fta": 1.8,
-        "fgm": 2.0,
-        "fga_total": 18,
-        "fta_total": 9,
-        "fgm_total": 10,
-        "ts_pct": 0.638
+        "fgm": 1.8,
+        "fga_total": 23,
+        "fta_total": 11,
+        "fgm_total": 11,
+        "ts_pct": 0.557
       },
       "defense": {
-        "spg": 0.6,
-        "bpg": 1.0,
-        "rpg": 3.6
+        "spg": 0.7,
+        "bpg": 0.8,
+        "rpg": 3.0
       },
       "hustle": {
-        "contested_shots": 3.4,
+        "contested_shots": 3.8,
         "deflections": 1.0,
         "box_outs": 0.6,
         "loose_balls_recovered": 0.2,
@@ -838,12 +906,12 @@
         "rpg": 9.0
       },
       "hustle": {
-        "contested_shots": 9.25,
-        "deflections": 2.0,
-        "box_outs": 1.75,
-        "loose_balls_recovered": 0.75,
-        "charges_drawn": 0.25,
-        "screen_assists": 3.75
+        "contested_shots": 8.6,
+        "deflections": 1.8,
+        "box_outs": 1.6,
+        "loose_balls_recovered": 0.6,
+        "charges_drawn": 0.2,
+        "screen_assists": 4.0
       }
     },
     {
@@ -906,12 +974,12 @@
         "rpg": 6.6
       },
       "hustle": {
-        "contested_shots": 2.17,
-        "deflections": 1.83,
-        "box_outs": 0.33,
-        "loose_balls_recovered": 0.83,
-        "charges_drawn": 0.17,
-        "screen_assists": 0.33
+        "contested_shots": 2.57,
+        "deflections": 1.57,
+        "box_outs": 0.29,
+        "loose_balls_recovered": 0.71,
+        "charges_drawn": 0.14,
+        "screen_assists": 0.57
       }
     },
     {
@@ -986,22 +1054,22 @@
       "id": 1629614,
       "name": "Andrew Nembhard",
       "team": "IND",
-      "gp": 5,
+      "gp": 6,
       "zones": {
         "at_rim": {
-          "fga": 9,
-          "fgm": 6,
-          "pct": 0.6667
+          "fga": 13,
+          "fgm": 8,
+          "pct": 0.6154
         },
         "paint": {
-          "fga": 16,
-          "fgm": 10,
-          "pct": 0.625
+          "fga": 18,
+          "fgm": 11,
+          "pct": 0.6111
         },
         "mid": {
-          "fga": 10,
+          "fga": 13,
           "fgm": 2,
-          "pct": 0.2
+          "pct": 0.1538
         },
         "corner_3": {
           "fga": 2,
@@ -1019,27 +1087,27 @@
           "pct": 1.0
         },
         "above_break_3": {
-          "fga": 24,
-          "fgm": 10,
-          "pct": 0.4167
+          "fga": 34,
+          "fgm": 14,
+          "pct": 0.4118
         }
       },
       "overall": {
-        "fg_pct": 0.475,
-        "efg_pct": 0.5655737704918034,
-        "ft_pct": 0.905,
-        "fga": 12.2,
-        "fta": 4.2,
-        "fgm": 5.8,
-        "fga_total": 61,
-        "fta_total": 21,
-        "fgm_total": 29,
-        "ts_pct": 0.626
+        "fg_pct": 0.45,
+        "efg_pct": 0.5451127819548872,
+        "ft_pct": 0.889,
+        "fga": 13.3,
+        "fta": 4.5,
+        "fgm": 6.0,
+        "fga_total": 80,
+        "fta_total": 27,
+        "fgm_total": 36,
+        "ts_pct": 0.604
       },
       "defense": {
-        "spg": 0.6,
+        "spg": 0.7,
         "bpg": 0.0,
-        "rpg": 2.0
+        "rpg": 2.2
       },
       "hustle": {
         "contested_shots": 3.4,
@@ -1112,7 +1180,7 @@
       "hustle": {
         "contested_shots": 6.0,
         "deflections": 1.83,
-        "box_outs": 1.0,
+        "box_outs": 1.17,
         "loose_balls_recovered": 0.67,
         "charges_drawn": 0.0,
         "screen_assists": 0.0
@@ -1178,10 +1246,10 @@
         "rpg": 2.0
       },
       "hustle": {
-        "contested_shots": 2.0,
-        "deflections": 1.0,
-        "box_outs": 0.17,
-        "loose_balls_recovered": 0.67,
+        "contested_shots": 2.29,
+        "deflections": 1.29,
+        "box_outs": 0.14,
+        "loose_balls_recovered": 0.57,
         "charges_drawn": 0.0,
         "screen_assists": 0.0
       }
@@ -1326,22 +1394,22 @@
       "id": 1630559,
       "name": "Austin Reaves",
       "team": "LAL",
-      "gp": 6,
+      "gp": 7,
       "zones": {
         "at_rim": {
-          "fga": 10,
-          "fgm": 7,
-          "pct": 0.7
+          "fga": 13,
+          "fgm": 9,
+          "pct": 0.6923
         },
         "paint": {
-          "fga": 31,
-          "fgm": 23,
-          "pct": 0.7419
+          "fga": 36,
+          "fgm": 25,
+          "pct": 0.6944
         },
         "mid": {
-          "fga": 10,
+          "fga": 11,
           "fgm": 2,
-          "pct": 0.2
+          "pct": 0.1818
         },
         "corner_3": {
           "fga": 2,
@@ -1359,30 +1427,30 @@
           "pct": null
         },
         "above_break_3": {
-          "fga": 31,
-          "fgm": 13,
-          "pct": 0.4194
+          "fga": 38,
+          "fgm": 15,
+          "pct": 0.3947
         }
       },
       "overall": {
-        "fg_pct": 0.548,
-        "efg_pct": 0.6321428571428571,
-        "ft_pct": 0.881,
-        "fga": 14.0,
-        "fta": 7.0,
-        "fgm": 7.7,
-        "fga_total": 84,
-        "fta_total": 42,
-        "fgm_total": 46,
-        "ts_pct": 0.698
+        "fg_pct": 0.52,
+        "efg_pct": 0.5979020979020979,
+        "ft_pct": 0.875,
+        "fga": 14.3,
+        "fta": 6.9,
+        "fgm": 7.4,
+        "fga_total": 100,
+        "fta_total": 48,
+        "fgm_total": 52,
+        "ts_pct": 0.669
       },
       "defense": {
-        "spg": 1.2,
-        "bpg": 0.7,
-        "rpg": 3.5
+        "spg": 1.0,
+        "bpg": 0.6,
+        "rpg": 3.4
       },
       "hustle": {
-        "contested_shots": 1.67,
+        "contested_shots": 1.83,
         "deflections": 1.17,
         "box_outs": 0.17,
         "loose_balls_recovered": 0.67,
@@ -1450,12 +1518,80 @@
         "rpg": 5.0
       },
       "hustle": {
-        "contested_shots": 3.33,
-        "deflections": 1.33,
-        "box_outs": 0.33,
-        "loose_balls_recovered": 0.17,
+        "contested_shots": 3.14,
+        "deflections": 1.57,
+        "box_outs": 0.43,
+        "loose_balls_recovered": 0.43,
         "charges_drawn": 0.0,
         "screen_assists": 0.0
+      }
+    },
+    {
+      "id": 1642394,
+      "name": "Baba Miller",
+      "team": "LAC",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 4,
+          "fgm": 4,
+          "pct": 1.0
+        },
+        "paint": {
+          "fga": 2,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "mid": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "l_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "r_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "above_break_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        }
+      },
+      "overall": {
+        "fg_pct": 0.667,
+        "efg_pct": 0.6666666666666667,
+        "ft_pct": 1.0,
+        "fga": 1.2,
+        "fta": 0.4,
+        "fgm": 0.8,
+        "fga_total": 6,
+        "fta_total": 2,
+        "fgm_total": 4,
+        "ts_pct": 0.727
+      },
+      "defense": {
+        "spg": 0.4,
+        "bpg": 0.4,
+        "rpg": 2.8
+      },
+      "hustle": {
+        "contested_shots": 3.67,
+        "deflections": 1.33,
+        "box_outs": 0.33,
+        "loose_balls_recovered": 0.0,
+        "charges_drawn": 0.0,
+        "screen_assists": 0.67
       }
     },
     {
@@ -1518,7 +1654,7 @@
         "rpg": 7.8
       },
       "hustle": {
-        "contested_shots": 7.0,
+        "contested_shots": 7.17,
         "deflections": 4.67,
         "box_outs": 1.83,
         "loose_balls_recovered": 0.33,
@@ -1530,7 +1666,7 @@
       "id": 1631248,
       "name": "Baylor Scheierman",
       "team": "BOS",
-      "gp": 5,
+      "gp": 6,
       "zones": {
         "at_rim": {
           "fga": 2,
@@ -1538,9 +1674,9 @@
           "pct": 0.5
         },
         "paint": {
-          "fga": 5,
-          "fgm": 2,
-          "pct": 0.4
+          "fga": 7,
+          "fgm": 4,
+          "pct": 0.5714
         },
         "mid": {
           "fga": 2,
@@ -1548,9 +1684,9 @@
           "pct": 0.5
         },
         "corner_3": {
-          "fga": 5,
-          "fgm": 1,
-          "pct": 0.2
+          "fga": 6,
+          "fgm": 2,
+          "pct": 0.3333
         },
         "l_corner_3": {
           "fga": 5,
@@ -1558,32 +1694,32 @@
           "pct": 0.2
         },
         "r_corner_3": {
-          "fga": 0,
-          "fgm": 0,
-          "pct": null
+          "fga": 1,
+          "fgm": 1,
+          "pct": 1.0
         },
         "above_break_3": {
-          "fga": 6,
-          "fgm": 2,
-          "pct": 0.3333
+          "fga": 8,
+          "fgm": 3,
+          "pct": 0.375
         }
       },
       "overall": {
-        "fg_pct": 0.35,
-        "efg_pct": 0.425,
+        "fg_pct": 0.44,
+        "efg_pct": 0.5238095238095238,
         "ft_pct": 0.0,
-        "fga": 4.0,
+        "fga": 4.2,
         "fta": 0,
-        "fgm": 1.4,
-        "fga_total": 20,
+        "fgm": 1.8,
+        "fga_total": 25,
         "fta_total": 0,
-        "fgm_total": 7,
-        "ts_pct": 0.425
+        "fgm_total": 11,
+        "ts_pct": 0.54
       },
       "defense": {
-        "spg": 0.8,
+        "spg": 0.7,
         "bpg": 0.0,
-        "rpg": 3.2
+        "rpg": 3.0
       },
       "hustle": {
         "contested_shots": 1.6,
@@ -1654,12 +1790,12 @@
         "rpg": 2.3
       },
       "hustle": {
-        "contested_shots": 1.0,
-        "deflections": 0.6,
+        "contested_shots": 0.83,
+        "deflections": 0.5,
         "box_outs": 0.0,
-        "loose_balls_recovered": 0.2,
+        "loose_balls_recovered": 0.33,
         "charges_drawn": 0.0,
-        "screen_assists": 0.2
+        "screen_assists": 0.17
       }
     },
     {
@@ -1722,10 +1858,10 @@
         "rpg": 0.5
       },
       "hustle": {
-        "contested_shots": 1.0,
-        "deflections": 1.75,
+        "contested_shots": 1.2,
+        "deflections": 1.8,
         "box_outs": 0.0,
-        "loose_balls_recovered": 0.25,
+        "loose_balls_recovered": 0.4,
         "charges_drawn": 0.0,
         "screen_assists": 0.0
       }
@@ -1926,9 +2062,9 @@
         "rpg": 1.4
       },
       "hustle": {
-        "contested_shots": 1.5,
-        "deflections": 1.75,
-        "box_outs": 0.0,
+        "contested_shots": 1.4,
+        "deflections": 1.6,
+        "box_outs": 0.2,
         "loose_balls_recovered": 0.0,
         "charges_drawn": 0.0,
         "screen_assists": 0.0
@@ -1994,12 +2130,80 @@
         "rpg": 1.1
       },
       "hustle": {
-        "contested_shots": 2.33,
-        "deflections": 1.17,
+        "contested_shots": 2.29,
+        "deflections": 1.43,
         "box_outs": 0.0,
         "loose_balls_recovered": 0.0,
         "charges_drawn": 0.0,
         "screen_assists": 0.0
+      }
+    },
+    {
+      "id": 1641764,
+      "name": "Brandin Podziemski",
+      "team": "GSW",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 16,
+          "fgm": 14,
+          "pct": 0.875
+        },
+        "paint": {
+          "fga": 9,
+          "fgm": 3,
+          "pct": 0.3333
+        },
+        "mid": {
+          "fga": 8,
+          "fgm": 2,
+          "pct": 0.25
+        },
+        "corner_3": {
+          "fga": 10,
+          "fgm": 6,
+          "pct": 0.6
+        },
+        "l_corner_3": {
+          "fga": 8,
+          "fgm": 4,
+          "pct": 0.5
+        },
+        "r_corner_3": {
+          "fga": 2,
+          "fgm": 2,
+          "pct": 1.0
+        },
+        "above_break_3": {
+          "fga": 22,
+          "fgm": 5,
+          "pct": 0.2273
+        }
+      },
+      "overall": {
+        "fg_pct": 0.462,
+        "efg_pct": 0.5461538461538461,
+        "ft_pct": 0.688,
+        "fga": 13.0,
+        "fta": 3.2,
+        "fgm": 6.0,
+        "fga_total": 65,
+        "fta_total": 16,
+        "fgm_total": 30,
+        "ts_pct": 0.569
+      },
+      "defense": {
+        "spg": 1.2,
+        "bpg": 0.4,
+        "rpg": 5.4
+      },
+      "hustle": {
+        "contested_shots": 3.75,
+        "deflections": 3.0,
+        "box_outs": 0.75,
+        "loose_balls_recovered": 0.5,
+        "charges_drawn": 0.5,
+        "screen_assists": 0.5
       }
     },
     {
@@ -2062,29 +2266,29 @@
         "rpg": 6.1
       },
       "hustle": {
-        "contested_shots": 4.17,
+        "contested_shots": 3.86,
         "deflections": 3.0,
-        "box_outs": 0.67,
-        "loose_balls_recovered": 0.17,
+        "box_outs": 0.57,
+        "loose_balls_recovered": 0.14,
         "charges_drawn": 0.0,
-        "screen_assists": 0.5
+        "screen_assists": 0.43
       }
     },
     {
       "id": 1630314,
       "name": "Brandon Williams",
       "team": "GSW",
-      "gp": 6,
+      "gp": 7,
       "zones": {
         "at_rim": {
-          "fga": 16,
-          "fgm": 7,
-          "pct": 0.4375
+          "fga": 18,
+          "fgm": 9,
+          "pct": 0.5
         },
         "paint": {
-          "fga": 14,
-          "fgm": 5,
-          "pct": 0.3571
+          "fga": 20,
+          "fgm": 8,
+          "pct": 0.4
         },
         "mid": {
           "fga": 5,
@@ -2092,48 +2296,48 @@
           "pct": 0.0
         },
         "corner_3": {
-          "fga": 5,
-          "fgm": 1,
-          "pct": 0.2
+          "fga": 7,
+          "fgm": 2,
+          "pct": 0.2857
         },
         "l_corner_3": {
-          "fga": 3,
-          "fgm": 1,
-          "pct": 0.3333
+          "fga": 4,
+          "fgm": 2,
+          "pct": 0.5
         },
         "r_corner_3": {
-          "fga": 2,
+          "fga": 3,
           "fgm": 0,
           "pct": 0.0
         },
         "above_break_3": {
-          "fga": 12,
-          "fgm": 4,
-          "pct": 0.3333
+          "fga": 13,
+          "fgm": 5,
+          "pct": 0.3846
         }
       },
       "overall": {
-        "fg_pct": 0.327,
-        "efg_pct": 0.367816091954023,
-        "ft_pct": 0.862,
-        "fga": 8.7,
-        "fta": 4.8,
-        "fgm": 2.8,
-        "fga_total": 52,
-        "fta_total": 29,
-        "fgm_total": 17,
-        "ts_pct": 0.494
+        "fg_pct": 0.381,
+        "efg_pct": 0.43333333333333335,
+        "ft_pct": 0.839,
+        "fga": 9.0,
+        "fta": 4.4,
+        "fgm": 3.4,
+        "fga_total": 63,
+        "fta_total": 31,
+        "fgm_total": 24,
+        "ts_pct": 0.528
       },
       "defense": {
-        "spg": 1.2,
-        "bpg": 0.2,
-        "rpg": 2.8
+        "spg": 1.0,
+        "bpg": 0.3,
+        "rpg": 2.9
       },
       "hustle": {
         "contested_shots": 1.33,
         "deflections": 1.83,
         "box_outs": 0.0,
-        "loose_balls_recovered": 0.67,
+        "loose_balls_recovered": 0.83,
         "charges_drawn": 0.17,
         "screen_assists": 0.0
       }
@@ -2198,10 +2402,10 @@
         "rpg": 3.7
       },
       "hustle": {
-        "contested_shots": 1.4,
-        "deflections": 1.0,
-        "box_outs": 0.2,
-        "loose_balls_recovered": 0.0,
+        "contested_shots": 1.5,
+        "deflections": 1.33,
+        "box_outs": 0.17,
+        "loose_balls_recovered": 0.17,
         "charges_drawn": 0.0,
         "screen_assists": 0.0
       }
@@ -2278,22 +2482,22 @@
       "id": 201572,
       "name": "Brook Lopez",
       "team": "LAC",
-      "gp": 5,
+      "gp": 6,
       "zones": {
         "at_rim": {
-          "fga": 14,
-          "fgm": 13,
-          "pct": 0.9286
+          "fga": 15,
+          "fgm": 14,
+          "pct": 0.9333
         },
         "paint": {
-          "fga": 13,
+          "fga": 14,
           "fgm": 5,
-          "pct": 0.3846
+          "pct": 0.3571
         },
         "mid": {
-          "fga": 3,
-          "fgm": 1,
-          "pct": 0.3333
+          "fga": 7,
+          "fgm": 2,
+          "pct": 0.2857
         },
         "corner_3": {
           "fga": 2,
@@ -2311,27 +2515,27 @@
           "pct": null
         },
         "above_break_3": {
-          "fga": 14,
-          "fgm": 7,
+          "fga": 16,
+          "fgm": 8,
           "pct": 0.5
         }
       },
       "overall": {
-        "fg_pct": 0.565,
-        "efg_pct": 0.641304347826087,
+        "fg_pct": 0.537,
+        "efg_pct": 0.6055555555555556,
         "ft_pct": 0.833,
-        "fga": 9.2,
-        "fta": 2.4,
-        "fgm": 5.2,
-        "fga_total": 46,
+        "fga": 9.0,
+        "fta": 2.0,
+        "fgm": 4.8,
+        "fga_total": 54,
         "fta_total": 12,
-        "fgm_total": 26,
-        "ts_pct": 0.673
+        "fgm_total": 29,
+        "ts_pct": 0.641
       },
       "defense": {
-        "spg": 0.2,
-        "bpg": 1.2,
-        "rpg": 5.0
+        "spg": 0.5,
+        "bpg": 1.0,
+        "rpg": 4.5
       },
       "hustle": {
         "contested_shots": 6.8,
@@ -2402,9 +2606,9 @@
         "rpg": 0.8
       },
       "hustle": {
-        "contested_shots": 3.0,
-        "deflections": 0.0,
-        "box_outs": 0.0,
+        "contested_shots": 2.0,
+        "deflections": 0.5,
+        "box_outs": 0.5,
         "loose_balls_recovered": 0.0,
         "charges_drawn": 0.0,
         "screen_assists": 0.0
@@ -2470,10 +2674,10 @@
         "rpg": 0.2
       },
       "hustle": {
-        "contested_shots": 1.0,
-        "deflections": 0.5,
+        "contested_shots": 0.67,
+        "deflections": 0.33,
         "box_outs": 0.0,
-        "loose_balls_recovered": 0.0,
+        "loose_balls_recovered": 0.33,
         "charges_drawn": 0.0,
         "screen_assists": 0.0
       }
@@ -2674,12 +2878,12 @@
         "rpg": 1.9
       },
       "hustle": {
-        "contested_shots": 3.0,
-        "deflections": 1.17,
-        "box_outs": 0.33,
-        "loose_balls_recovered": 0.17,
+        "contested_shots": 3.29,
+        "deflections": 1.29,
+        "box_outs": 0.29,
+        "loose_balls_recovered": 0.14,
         "charges_drawn": 0.0,
-        "screen_assists": 0.17
+        "screen_assists": 0.14
       }
     },
     {
@@ -2878,10 +3082,10 @@
         "rpg": 3.8
       },
       "hustle": {
-        "contested_shots": 2.2,
-        "deflections": 1.6,
-        "box_outs": 0.4,
-        "loose_balls_recovered": 0.6,
+        "contested_shots": 2.5,
+        "deflections": 1.67,
+        "box_outs": 0.33,
+        "loose_balls_recovered": 0.67,
         "charges_drawn": 0.0,
         "screen_assists": 0.0
       }
@@ -2946,12 +3150,12 @@
         "rpg": 10.5
       },
       "hustle": {
-        "contested_shots": 4.2,
-        "deflections": 1.6,
-        "box_outs": 1.2,
-        "loose_balls_recovered": 0.2,
+        "contested_shots": 4.17,
+        "deflections": 1.83,
+        "box_outs": 1.0,
+        "loose_balls_recovered": 0.5,
         "charges_drawn": 0.0,
-        "screen_assists": 2.2
+        "screen_assists": 2.0
       }
     },
     {
@@ -3014,12 +3218,12 @@
         "rpg": 0.3
       },
       "hustle": {
-        "contested_shots": 2.0,
-        "deflections": 0.5,
-        "box_outs": 0.25,
+        "contested_shots": 1.8,
+        "deflections": 0.8,
+        "box_outs": 0.4,
         "loose_balls_recovered": 0.0,
         "charges_drawn": 0.0,
-        "screen_assists": 0.25
+        "screen_assists": 0.2
       }
     },
     {
@@ -3082,19 +3286,19 @@
         "rpg": 8.6
       },
       "hustle": {
-        "contested_shots": 6.5,
+        "contested_shots": 6.0,
         "deflections": 2.0,
-        "box_outs": 0.5,
+        "box_outs": 0.4,
         "loose_balls_recovered": 0.0,
         "charges_drawn": 0.0,
-        "screen_assists": 0.25
+        "screen_assists": 0.2
       }
     },
     {
       "id": 1643052,
       "name": "Chaney Johnson",
       "team": "BKN",
-      "gp": 5,
+      "gp": 6,
       "zones": {
         "at_rim": {
           "fga": 10,
@@ -3107,14 +3311,14 @@
           "pct": 0.5
         },
         "mid": {
-          "fga": 2,
+          "fga": 3,
           "fgm": 1,
-          "pct": 0.5
+          "pct": 0.3333
         },
         "corner_3": {
-          "fga": 12,
+          "fga": 13,
           "fgm": 3,
-          "pct": 0.25
+          "pct": 0.2308
         },
         "l_corner_3": {
           "fga": 4,
@@ -3122,9 +3326,9 @@
           "pct": 0.25
         },
         "r_corner_3": {
-          "fga": 8,
+          "fga": 9,
           "fgm": 2,
-          "pct": 0.25
+          "pct": 0.2222
         },
         "above_break_3": {
           "fga": 4,
@@ -3133,21 +3337,21 @@
         }
       },
       "overall": {
-        "fg_pct": 0.406,
-        "efg_pct": 0.484375,
+        "fg_pct": 0.382,
+        "efg_pct": 0.45614035087719296,
         "ft_pct": 1.0,
-        "fga": 6.4,
-        "fta": 0.8,
-        "fgm": 2.6,
-        "fga_total": 32,
-        "fta_total": 4,
+        "fga": 5.7,
+        "fta": 1.0,
+        "fgm": 2.2,
+        "fga_total": 34,
+        "fta_total": 6,
         "fgm_total": 13,
-        "ts_pct": 0.518
+        "ts_pct": 0.505
       },
       "defense": {
-        "spg": 0.8,
-        "bpg": 0.2,
-        "rpg": 3.2
+        "spg": 0.7,
+        "bpg": 0.3,
+        "rpg": 3.0
       },
       "hustle": {
         "contested_shots": 1.4,
@@ -3156,6 +3360,74 @@
         "loose_balls_recovered": 0.2,
         "charges_drawn": 0.0,
         "screen_assists": 0.4
+      }
+    },
+    {
+      "id": 1629646,
+      "name": "Charles Bassey",
+      "team": "GSW",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 8,
+          "fgm": 5,
+          "pct": 0.625
+        },
+        "paint": {
+          "fga": 6,
+          "fgm": 4,
+          "pct": 0.6667
+        },
+        "mid": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "corner_3": {
+          "fga": 1,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "l_corner_3": {
+          "fga": 1,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "r_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "above_break_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        }
+      },
+      "overall": {
+        "fg_pct": 0.6,
+        "efg_pct": 0.6,
+        "ft_pct": 0.8,
+        "fga": 3.0,
+        "fta": 1.0,
+        "fgm": 1.8,
+        "fga_total": 15,
+        "fta_total": 5,
+        "fgm_total": 9,
+        "ts_pct": 0.64
+      },
+      "defense": {
+        "spg": 0.2,
+        "bpg": 0.8,
+        "rpg": 4.4
+      },
+      "hustle": {
+        "contested_shots": 1.25,
+        "deflections": 1.0,
+        "box_outs": 0.5,
+        "loose_balls_recovered": 0.5,
+        "charges_drawn": 0.0,
+        "screen_assists": 0.75
       }
     },
     {
@@ -3218,10 +3490,10 @@
         "rpg": 1.4
       },
       "hustle": {
-        "contested_shots": 1.2,
-        "deflections": 1.2,
+        "contested_shots": 1.5,
+        "deflections": 1.0,
         "box_outs": 0.0,
-        "loose_balls_recovered": 0.2,
+        "loose_balls_recovered": 0.17,
         "charges_drawn": 0.0,
         "screen_assists": 0.0
       }
@@ -3286,7 +3558,7 @@
         "rpg": 4.2
       },
       "hustle": {
-        "contested_shots": 6.0,
+        "contested_shots": 6.4,
         "deflections": 3.8,
         "box_outs": 0.2,
         "loose_balls_recovered": 0.4,
@@ -3354,29 +3626,29 @@
         "rpg": 5.2
       },
       "hustle": {
-        "contested_shots": 6.4,
-        "deflections": 1.8,
-        "box_outs": 1.4,
-        "loose_balls_recovered": 0.4,
-        "charges_drawn": 0.2,
-        "screen_assists": 2.6
+        "contested_shots": 5.67,
+        "deflections": 1.67,
+        "box_outs": 1.67,
+        "loose_balls_recovered": 0.5,
+        "charges_drawn": 0.17,
+        "screen_assists": 2.83
       }
     },
     {
       "id": 1642867,
       "name": "Collin Murray-Boyles",
       "team": "TOR",
-      "gp": 5,
+      "gp": 6,
       "zones": {
         "at_rim": {
-          "fga": 12,
+          "fga": 13,
           "fgm": 9,
-          "pct": 0.75
+          "pct": 0.6923
         },
         "paint": {
-          "fga": 8,
-          "fgm": 2,
-          "pct": 0.25
+          "fga": 11,
+          "fgm": 3,
+          "pct": 0.2727
         },
         "mid": {
           "fga": 4,
@@ -3399,52 +3671,52 @@
           "pct": 1.0
         },
         "above_break_3": {
-          "fga": 6,
+          "fga": 8,
           "fgm": 2,
-          "pct": 0.3333
+          "pct": 0.25
         }
       },
       "overall": {
-        "fg_pct": 0.516,
-        "efg_pct": 0.564516129032258,
-        "ft_pct": 0.875,
+        "fg_pct": 0.459,
+        "efg_pct": 0.4919354838709677,
+        "ft_pct": 0.9,
         "fga": 6.2,
-        "fta": 1.6,
-        "fgm": 3.2,
-        "fga_total": 31,
-        "fta_total": 8,
-        "fgm_total": 16,
-        "ts_pct": 0.608
+        "fta": 1.7,
+        "fgm": 2.8,
+        "fga_total": 37,
+        "fta_total": 10,
+        "fgm_total": 17,
+        "ts_pct": 0.556
       },
       "defense": {
-        "spg": 0.8,
-        "bpg": 0.4,
-        "rpg": 5.0
+        "spg": 1.2,
+        "bpg": 0.3,
+        "rpg": 4.7
       },
       "hustle": {
-        "contested_shots": 2.8,
+        "contested_shots": 3.4,
         "deflections": 3.4,
         "box_outs": 0.2,
         "loose_balls_recovered": 0.4,
         "charges_drawn": 0.0,
-        "screen_assists": 0.4
+        "screen_assists": 0.6
       }
     },
     {
       "id": 1629012,
       "name": "Collin Sexton",
       "team": "LAL",
-      "gp": 5,
+      "gp": 6,
       "zones": {
         "at_rim": {
-          "fga": 8,
-          "fgm": 6,
-          "pct": 0.75
+          "fga": 14,
+          "fgm": 11,
+          "pct": 0.7857
         },
         "paint": {
-          "fga": 10,
+          "fga": 11,
           "fgm": 4,
-          "pct": 0.4
+          "pct": 0.3636
         },
         "mid": {
           "fga": 4,
@@ -3467,27 +3739,27 @@
           "pct": 0.0
         },
         "above_break_3": {
-          "fga": 18,
-          "fgm": 4,
-          "pct": 0.2222
+          "fga": 21,
+          "fgm": 5,
+          "pct": 0.2381
         }
       },
       "overall": {
-        "fg_pct": 0.378,
-        "efg_pct": 0.4444444444444444,
-        "ft_pct": 0.667,
-        "fga": 9.0,
-        "fta": 2.4,
-        "fgm": 3.4,
-        "fga_total": 45,
-        "fta_total": 12,
-        "fgm_total": 17,
-        "ts_pct": 0.477
+        "fg_pct": 0.418,
+        "efg_pct": 0.47826086956521735,
+        "ft_pct": 0.643,
+        "fga": 9.2,
+        "fta": 2.3,
+        "fgm": 3.8,
+        "fga_total": 55,
+        "fta_total": 14,
+        "fgm_total": 23,
+        "ts_pct": 0.507
       },
       "defense": {
         "spg": 0.8,
         "bpg": 0.2,
-        "rpg": 2.0
+        "rpg": 2.2
       },
       "hustle": {
         "contested_shots": 0.8,
@@ -3694,12 +3966,12 @@
         "rpg": 4.0
       },
       "hustle": {
-        "contested_shots": 1.0,
-        "deflections": 2.25,
+        "contested_shots": 1.6,
+        "deflections": 2.2,
         "box_outs": 0.0,
-        "loose_balls_recovered": 0.0,
+        "loose_balls_recovered": 0.4,
         "charges_drawn": 0.0,
-        "screen_assists": 0.25
+        "screen_assists": 0.2
       }
     },
     {
@@ -3762,12 +4034,12 @@
         "rpg": 7.0
       },
       "hustle": {
-        "contested_shots": 7.33,
+        "contested_shots": 7.67,
         "deflections": 1.17,
         "box_outs": 2.33,
         "loose_balls_recovered": 0.0,
         "charges_drawn": 0.0,
-        "screen_assists": 3.5
+        "screen_assists": 3.67
       }
     },
     {
@@ -3898,29 +4170,29 @@
         "rpg": 3.7
       },
       "hustle": {
-        "contested_shots": 1.4,
-        "deflections": 1.8,
-        "box_outs": 0.2,
-        "loose_balls_recovered": 0.0,
+        "contested_shots": 1.5,
+        "deflections": 1.83,
+        "box_outs": 0.17,
+        "loose_balls_recovered": 0.17,
         "charges_drawn": 0.0,
-        "screen_assists": 0.2
+        "screen_assists": 0.17
       }
     },
     {
       "id": 1629636,
       "name": "Darius Garland",
       "team": "LAC",
-      "gp": 5,
+      "gp": 6,
       "zones": {
         "at_rim": {
-          "fga": 16,
-          "fgm": 12,
-          "pct": 0.75
+          "fga": 17,
+          "fgm": 13,
+          "pct": 0.7647
         },
         "paint": {
-          "fga": 27,
-          "fgm": 12,
-          "pct": 0.4444
+          "fga": 31,
+          "fgm": 14,
+          "pct": 0.4516
         },
         "mid": {
           "fga": 9,
@@ -3928,9 +4200,9 @@
           "pct": 0.3333
         },
         "corner_3": {
-          "fga": 3,
+          "fga": 4,
           "fgm": 2,
-          "pct": 0.6667
+          "pct": 0.5
         },
         "l_corner_3": {
           "fga": 2,
@@ -3938,32 +4210,32 @@
           "pct": 0.5
         },
         "r_corner_3": {
-          "fga": 1,
+          "fga": 2,
           "fgm": 1,
-          "pct": 1.0
+          "pct": 0.5
         },
         "above_break_3": {
-          "fga": 34,
-          "fgm": 12,
-          "pct": 0.3529
+          "fga": 40,
+          "fgm": 13,
+          "pct": 0.325
         }
       },
       "overall": {
-        "fg_pct": 0.461,
-        "efg_pct": 0.5393258426966292,
-        "ft_pct": 0.778,
-        "fga": 17.8,
-        "fta": 3.6,
-        "fgm": 8.2,
-        "fga_total": 89,
-        "fta_total": 18,
-        "fgm_total": 41,
-        "ts_pct": 0.567
+        "fg_pct": 0.446,
+        "efg_pct": 0.5208333333333333,
+        "ft_pct": 0.833,
+        "fga": 16.8,
+        "fta": 4.0,
+        "fgm": 7.5,
+        "fga_total": 101,
+        "fta_total": 24,
+        "fgm_total": 45,
+        "ts_pct": 0.56
       },
       "defense": {
         "spg": 0.8,
         "bpg": 0.0,
-        "rpg": 1.6
+        "rpg": 1.3
       },
       "hustle": {
         "contested_shots": 4.0,
@@ -4034,12 +4306,12 @@
         "rpg": 4.3
       },
       "hustle": {
-        "contested_shots": 3.6,
-        "deflections": 3.2,
-        "box_outs": 0.2,
+        "contested_shots": 3.5,
+        "deflections": 3.0,
+        "box_outs": 0.17,
         "loose_balls_recovered": 0.0,
         "charges_drawn": 0.0,
-        "screen_assists": 0.4
+        "screen_assists": 0.33
       }
     },
     {
@@ -4114,12 +4386,12 @@
       "id": 1630549,
       "name": "Day'Ron Sharpe",
       "team": "BKN",
-      "gp": 5,
+      "gp": 6,
       "zones": {
         "at_rim": {
-          "fga": 14,
-          "fgm": 7,
-          "pct": 0.5
+          "fga": 20,
+          "fgm": 11,
+          "pct": 0.55
         },
         "paint": {
           "fga": 7,
@@ -4132,9 +4404,9 @@
           "pct": null
         },
         "corner_3": {
-          "fga": 2,
-          "fgm": 0,
-          "pct": 0.0
+          "fga": 3,
+          "fgm": 1,
+          "pct": 0.3333
         },
         "l_corner_3": {
           "fga": 1,
@@ -4142,9 +4414,9 @@
           "pct": 0.0
         },
         "r_corner_3": {
-          "fga": 1,
-          "fgm": 0,
-          "pct": 0.0
+          "fga": 2,
+          "fgm": 1,
+          "pct": 0.5
         },
         "above_break_3": {
           "fga": 4,
@@ -4153,21 +4425,21 @@
         }
       },
       "overall": {
-        "fg_pct": 0.481,
-        "efg_pct": 0.5185185185185185,
-        "ft_pct": 0.5,
-        "fga": 5.4,
-        "fta": 2.0,
-        "fgm": 2.6,
-        "fga_total": 27,
-        "fta_total": 10,
-        "fgm_total": 13,
-        "ts_pct": 0.525
+        "fg_pct": 0.529,
+        "efg_pct": 0.5701754385964912,
+        "ft_pct": 0.6,
+        "fga": 5.7,
+        "fta": 2.5,
+        "fgm": 3.0,
+        "fga_total": 34,
+        "fta_total": 15,
+        "fgm_total": 18,
+        "ts_pct": 0.591
       },
       "defense": {
-        "spg": 0.8,
-        "bpg": 1.2,
-        "rpg": 6.6
+        "spg": 0.7,
+        "bpg": 1.0,
+        "rpg": 7.7
       },
       "hustle": {
         "contested_shots": 5.8,
@@ -4238,10 +4510,10 @@
         "rpg": 4.8
       },
       "hustle": {
-        "contested_shots": 3.6,
-        "deflections": 3.6,
-        "box_outs": 0.0,
-        "loose_balls_recovered": 0.6,
+        "contested_shots": 3.67,
+        "deflections": 3.67,
+        "box_outs": 0.17,
+        "loose_balls_recovered": 0.5,
         "charges_drawn": 0.0,
         "screen_assists": 0.0
       }
@@ -4306,19 +4578,19 @@
         "rpg": 4.8
       },
       "hustle": {
-        "contested_shots": 2.4,
-        "deflections": 1.8,
-        "box_outs": 1.0,
-        "loose_balls_recovered": 0.2,
+        "contested_shots": 2.67,
+        "deflections": 1.5,
+        "box_outs": 0.83,
+        "loose_balls_recovered": 0.17,
         "charges_drawn": 0.0,
-        "screen_assists": 1.2
+        "screen_assists": 1.0
       }
     },
     {
       "id": 1629001,
       "name": "De'Anthony Melton",
       "team": "GSW",
-      "gp": 6,
+      "gp": 7,
       "zones": {
         "at_rim": {
           "fga": 10,
@@ -4326,9 +4598,9 @@
           "pct": 0.6
         },
         "paint": {
-          "fga": 5,
+          "fga": 6,
           "fgm": 1,
-          "pct": 0.2
+          "pct": 0.1667
         },
         "mid": {
           "fga": 1,
@@ -4336,9 +4608,9 @@
           "pct": 0.0
         },
         "corner_3": {
-          "fga": 9,
-          "fgm": 4,
-          "pct": 0.4444
+          "fga": 10,
+          "fgm": 5,
+          "pct": 0.5
         },
         "l_corner_3": {
           "fga": 5,
@@ -4346,36 +4618,36 @@
           "pct": 0.6
         },
         "r_corner_3": {
-          "fga": 4,
-          "fgm": 1,
-          "pct": 0.25
+          "fga": 5,
+          "fgm": 2,
+          "pct": 0.4
         },
         "above_break_3": {
-          "fga": 19,
-          "fgm": 9,
-          "pct": 0.4737
+          "fga": 26,
+          "fgm": 14,
+          "pct": 0.5385
         }
       },
       "overall": {
-        "fg_pct": 0.455,
-        "efg_pct": 0.6027397260273973,
-        "ft_pct": 1.0,
-        "fga": 7.3,
-        "fta": 1.5,
-        "fgm": 3.3,
-        "fga_total": 44,
-        "fta_total": 9,
-        "fgm_total": 20,
-        "ts_pct": 0.646
+        "fg_pct": 0.491,
+        "efg_pct": 0.6644736842105264,
+        "ft_pct": 0.923,
+        "fga": 7.6,
+        "fta": 1.9,
+        "fgm": 3.7,
+        "fga_total": 53,
+        "fta_total": 13,
+        "fgm_total": 26,
+        "ts_pct": 0.707
       },
       "defense": {
-        "spg": 1.3,
-        "bpg": 0.3,
-        "rpg": 3.8
+        "spg": 1.4,
+        "bpg": 0.4,
+        "rpg": 4.1
       },
       "hustle": {
         "contested_shots": 1.5,
-        "deflections": 1.83,
+        "deflections": 2.17,
         "box_outs": 0.67,
         "loose_balls_recovered": 0.5,
         "charges_drawn": 0.0,
@@ -4442,10 +4714,10 @@
         "rpg": 2.4
       },
       "hustle": {
-        "contested_shots": 1.0,
+        "contested_shots": 1.5,
         "deflections": 1.25,
         "box_outs": 0.0,
-        "loose_balls_recovered": 0.25,
+        "loose_balls_recovered": 0.5,
         "charges_drawn": 0.0,
         "screen_assists": 0.0
       }
@@ -4510,12 +4782,12 @@
         "rpg": 3.0
       },
       "hustle": {
-        "contested_shots": 4.75,
-        "deflections": 2.25,
-        "box_outs": 0.5,
-        "loose_balls_recovered": 0.75,
+        "contested_shots": 4.8,
+        "deflections": 2.4,
+        "box_outs": 1.0,
+        "loose_balls_recovered": 1.2,
         "charges_drawn": 0.0,
-        "screen_assists": 1.5
+        "screen_assists": 1.4
       }
     },
     {
@@ -4646,10 +4918,10 @@
         "rpg": 7.0
       },
       "hustle": {
-        "contested_shots": 3.75,
-        "deflections": 1.75,
-        "box_outs": 1.0,
-        "loose_balls_recovered": 0.25,
+        "contested_shots": 3.2,
+        "deflections": 1.4,
+        "box_outs": 0.8,
+        "loose_balls_recovered": 0.2,
         "charges_drawn": 0.0,
         "screen_assists": 0.0
       }
@@ -4714,12 +4986,12 @@
         "rpg": 3.6
       },
       "hustle": {
-        "contested_shots": 2.0,
-        "deflections": 2.17,
-        "box_outs": 0.17,
-        "loose_balls_recovered": 0.83,
+        "contested_shots": 2.43,
+        "deflections": 2.0,
+        "box_outs": 0.14,
+        "loose_balls_recovered": 0.71,
         "charges_drawn": 0.0,
-        "screen_assists": 0.17
+        "screen_assists": 0.14
       }
     },
     {
@@ -4782,72 +5054,72 @@
         "rpg": 7.8
       },
       "hustle": {
-        "contested_shots": 7.6,
-        "deflections": 1.6,
-        "box_outs": 0.8,
-        "loose_balls_recovered": 0.4,
+        "contested_shots": 7.0,
+        "deflections": 1.83,
+        "box_outs": 0.83,
+        "loose_balls_recovered": 0.33,
         "charges_drawn": 0.0,
-        "screen_assists": 1.0
+        "screen_assists": 1.17
       }
     },
     {
       "id": 1627884,
       "name": "Derrick Jones Jr.",
       "team": "LAC",
-      "gp": 5,
+      "gp": 6,
       "zones": {
         "at_rim": {
-          "fga": 12,
-          "fgm": 9,
-          "pct": 0.75
+          "fga": 15,
+          "fgm": 10,
+          "pct": 0.6667
         },
         "paint": {
-          "fga": 5,
-          "fgm": 2,
-          "pct": 0.4
+          "fga": 7,
+          "fgm": 3,
+          "pct": 0.4286
         },
         "mid": {
-          "fga": 1,
+          "fga": 2,
           "fgm": 0,
           "pct": 0.0
         },
         "corner_3": {
-          "fga": 7,
+          "fga": 10,
           "fgm": 6,
-          "pct": 0.8571
+          "pct": 0.6
         },
         "l_corner_3": {
-          "fga": 2,
+          "fga": 3,
           "fgm": 1,
-          "pct": 0.5
+          "pct": 0.3333
         },
         "r_corner_3": {
-          "fga": 5,
+          "fga": 7,
           "fgm": 5,
-          "pct": 1.0
+          "pct": 0.7143
         },
         "above_break_3": {
-          "fga": 13,
-          "fgm": 6,
-          "pct": 0.4615
+          "fga": 15,
+          "fgm": 7,
+          "pct": 0.4667
         }
       },
       "overall": {
-        "fg_pct": 0.605,
-        "efg_pct": 0.7631578947368421,
-        "ft_pct": 0.5,
-        "fga": 7.6,
-        "fta": 0.8,
-        "fgm": 4.6,
-        "fga_total": 38,
-        "fta_total": 4,
-        "fgm_total": 23,
-        "ts_pct": 0.755
+        "fg_pct": 0.531,
+        "efg_pct": 0.6585365853658538,
+        "ft_pct": 0.667,
+        "fga": 8.2,
+        "fta": 1.0,
+        "fgm": 4.3,
+        "fga_total": 49,
+        "fta_total": 6,
+        "fgm_total": 26,
+        "ts_pct": 0.668
       },
       "defense": {
-        "spg": 1.4,
-        "bpg": 0.6,
-        "rpg": 4.4
+        "spg": 1.2,
+        "bpg": 0.5,
+        "rpg": 4.8
       },
       "hustle": {
         "contested_shots": 4.8,
@@ -4862,22 +5134,22 @@
       "id": 1628401,
       "name": "Derrick White",
       "team": "BOS",
-      "gp": 5,
+      "gp": 6,
       "zones": {
         "at_rim": {
-          "fga": 10,
-          "fgm": 7,
-          "pct": 0.7
+          "fga": 11,
+          "fgm": 8,
+          "pct": 0.7273
         },
         "paint": {
-          "fga": 12,
+          "fga": 13,
           "fgm": 6,
-          "pct": 0.5
+          "pct": 0.4615
         },
         "mid": {
-          "fga": 3,
-          "fgm": 2,
-          "pct": 0.6667
+          "fga": 4,
+          "fgm": 3,
+          "pct": 0.75
         },
         "corner_3": {
           "fga": 5,
@@ -4895,27 +5167,27 @@
           "pct": null
         },
         "above_break_3": {
-          "fga": 19,
-          "fgm": 7,
-          "pct": 0.3684
+          "fga": 24,
+          "fgm": 9,
+          "pct": 0.375
         }
       },
       "overall": {
-        "fg_pct": 0.469,
-        "efg_pct": 0.5510204081632653,
+        "fg_pct": 0.474,
+        "efg_pct": 0.5631578947368421,
         "ft_pct": 1.0,
-        "fga": 9.8,
-        "fta": 1.0,
-        "fgm": 4.6,
-        "fga_total": 49,
-        "fta_total": 5,
-        "fgm_total": 23,
-        "ts_pct": 0.576
+        "fga": 9.5,
+        "fta": 1.2,
+        "fgm": 4.5,
+        "fga_total": 57,
+        "fta_total": 7,
+        "fgm_total": 27,
+        "ts_pct": 0.591
       },
       "defense": {
-        "spg": 1.4,
+        "spg": 1.5,
         "bpg": 0.2,
-        "rpg": 3.6
+        "rpg": 3.3
       },
       "hustle": {
         "contested_shots": 4.4,
@@ -4930,12 +5202,12 @@
       "id": 1630217,
       "name": "Desmond Bane",
       "team": "ORL",
-      "gp": 5,
+      "gp": 6,
       "zones": {
         "at_rim": {
-          "fga": 13,
-          "fgm": 4,
-          "pct": 0.3077
+          "fga": 14,
+          "fgm": 5,
+          "pct": 0.3571
         },
         "paint": {
           "fga": 3,
@@ -4943,14 +5215,14 @@
           "pct": 0.3333
         },
         "mid": {
-          "fga": 7,
-          "fgm": 3,
-          "pct": 0.4286
+          "fga": 10,
+          "fgm": 4,
+          "pct": 0.4
         },
         "corner_3": {
-          "fga": 12,
-          "fgm": 5,
-          "pct": 0.4167
+          "fga": 13,
+          "fgm": 6,
+          "pct": 0.4615
         },
         "l_corner_3": {
           "fga": 8,
@@ -4958,38 +5230,38 @@
           "pct": 0.375
         },
         "r_corner_3": {
-          "fga": 4,
-          "fgm": 2,
-          "pct": 0.5
+          "fga": 5,
+          "fgm": 3,
+          "pct": 0.6
         },
         "above_break_3": {
-          "fga": 36,
-          "fgm": 11,
-          "pct": 0.3056
+          "fga": 44,
+          "fgm": 15,
+          "pct": 0.3409
         }
       },
       "overall": {
-        "fg_pct": 0.338,
-        "efg_pct": 0.45070422535211274,
+        "fg_pct": 0.369,
+        "efg_pct": 0.49642857142857144,
         "ft_pct": 0.846,
-        "fga": 14.2,
-        "fta": 5.2,
-        "fgm": 4.8,
-        "fga_total": 71,
+        "fga": 14.0,
+        "fta": 4.3,
+        "fgm": 5.2,
+        "fga_total": 84,
         "fta_total": 26,
-        "fgm_total": 24,
-        "ts_pct": 0.522
+        "fgm_total": 31,
+        "ts_pct": 0.55
       },
       "defense": {
-        "spg": 0.8,
+        "spg": 1.0,
         "bpg": 1.0,
-        "rpg": 4.0
+        "rpg": 3.7
       },
       "hustle": {
-        "contested_shots": 4.4,
+        "contested_shots": 5.2,
         "deflections": 2.0,
         "box_outs": 0.8,
-        "loose_balls_recovered": 0.4,
+        "loose_balls_recovered": 0.6,
         "charges_drawn": 0.2,
         "screen_assists": 0.2
       }
@@ -5054,12 +5326,12 @@
         "rpg": 4.2
       },
       "hustle": {
-        "contested_shots": 4.4,
-        "deflections": 2.8,
-        "box_outs": 0.0,
-        "loose_balls_recovered": 0.8,
+        "contested_shots": 4.0,
+        "deflections": 3.5,
+        "box_outs": 0.17,
+        "loose_balls_recovered": 0.83,
         "charges_drawn": 0.0,
-        "screen_assists": 0.2
+        "screen_assists": 0.17
       }
     },
     {
@@ -5122,12 +5394,12 @@
         "rpg": 15.8
       },
       "hustle": {
-        "contested_shots": 8.2,
-        "deflections": 1.4,
-        "box_outs": 3.2,
-        "loose_balls_recovered": 0.6,
+        "contested_shots": 7.83,
+        "deflections": 1.5,
+        "box_outs": 2.83,
+        "loose_balls_recovered": 0.5,
         "charges_drawn": 0.0,
-        "screen_assists": 6.8
+        "screen_assists": 6.33
       }
     },
     {
@@ -5190,10 +5462,10 @@
         "rpg": 9.0
       },
       "hustle": {
-        "contested_shots": 10.5,
+        "contested_shots": 9.4,
         "deflections": 1.0,
         "box_outs": 1.0,
-        "loose_balls_recovered": 0.0,
+        "loose_balls_recovered": 0.2,
         "charges_drawn": 0.0,
         "screen_assists": 3.0
       }
@@ -5258,12 +5530,12 @@
         "rpg": 5.3
       },
       "hustle": {
-        "contested_shots": 5.0,
-        "deflections": 1.6,
-        "box_outs": 0.8,
-        "loose_balls_recovered": 1.2,
+        "contested_shots": 4.83,
+        "deflections": 1.33,
+        "box_outs": 0.67,
+        "loose_balls_recovered": 1.0,
         "charges_drawn": 0.0,
-        "screen_assists": 0.2
+        "screen_assists": 0.33
       }
     },
     {
@@ -5326,9 +5598,9 @@
         "rpg": 5.2
       },
       "hustle": {
-        "contested_shots": 6.6,
-        "deflections": 1.8,
-        "box_outs": 1.4,
+        "contested_shots": 7.0,
+        "deflections": 2.0,
+        "box_outs": 1.6,
         "loose_balls_recovered": 0.2,
         "charges_drawn": 0.6,
         "screen_assists": 2.6
@@ -5462,12 +5734,12 @@
         "rpg": 5.5
       },
       "hustle": {
-        "contested_shots": 4.4,
-        "deflections": 2.0,
-        "box_outs": 0.4,
-        "loose_balls_recovered": 0.2,
+        "contested_shots": 4.17,
+        "deflections": 2.17,
+        "box_outs": 0.33,
+        "loose_balls_recovered": 0.17,
         "charges_drawn": 0.0,
-        "screen_assists": 0.4
+        "screen_assists": 0.5
       }
     },
     {
@@ -5530,12 +5802,12 @@
         "rpg": 5.0
       },
       "hustle": {
-        "contested_shots": 5.0,
-        "deflections": 5.67,
-        "box_outs": 0.33,
-        "loose_balls_recovered": 1.17,
+        "contested_shots": 4.57,
+        "deflections": 6.0,
+        "box_outs": 0.29,
+        "loose_balls_recovered": 1.0,
         "charges_drawn": 0.0,
-        "screen_assists": 2.67
+        "screen_assists": 2.43
       }
     },
     {
@@ -5598,10 +5870,10 @@
         "rpg": 0.7
       },
       "hustle": {
-        "contested_shots": 0.6,
-        "deflections": 1.0,
-        "box_outs": 0.4,
-        "loose_balls_recovered": 0.2,
+        "contested_shots": 0.83,
+        "deflections": 1.5,
+        "box_outs": 0.33,
+        "loose_balls_recovered": 0.17,
         "charges_drawn": 0.0,
         "screen_assists": 0.0
       }
@@ -5666,44 +5938,44 @@
         "rpg": 8.2
       },
       "hustle": {
-        "contested_shots": 8.8,
-        "deflections": 1.2,
-        "box_outs": 1.6,
-        "loose_balls_recovered": 0.2,
+        "contested_shots": 9.33,
+        "deflections": 1.33,
+        "box_outs": 1.33,
+        "loose_balls_recovered": 0.17,
         "charges_drawn": 0.0,
-        "screen_assists": 2.6
+        "screen_assists": 2.33
       }
     },
     {
       "id": 1630532,
       "name": "Franz Wagner",
       "team": "ORL",
-      "gp": 5,
+      "gp": 6,
       "zones": {
         "at_rim": {
-          "fga": 30,
-          "fgm": 22,
-          "pct": 0.7333
+          "fga": 35,
+          "fgm": 24,
+          "pct": 0.6857
         },
         "paint": {
-          "fga": 24,
-          "fgm": 9,
-          "pct": 0.375
+          "fga": 33,
+          "fgm": 11,
+          "pct": 0.3333
         },
         "mid": {
+          "fga": 7,
+          "fgm": 1,
+          "pct": 0.1429
+        },
+        "corner_3": {
+          "fga": 12,
+          "fgm": 3,
+          "pct": 0.25
+        },
+        "l_corner_3": {
           "fga": 5,
           "fgm": 1,
           "pct": 0.2
-        },
-        "corner_3": {
-          "fga": 11,
-          "fgm": 3,
-          "pct": 0.2727
-        },
-        "l_corner_3": {
-          "fga": 4,
-          "fgm": 1,
-          "pct": 0.25
         },
         "r_corner_3": {
           "fga": 7,
@@ -5711,33 +5983,33 @@
           "pct": 0.2857
         },
         "above_break_3": {
-          "fga": 16,
-          "fgm": 2,
-          "pct": 0.125
+          "fga": 19,
+          "fgm": 3,
+          "pct": 0.1579
         }
       },
       "overall": {
-        "fg_pct": 0.43,
-        "efg_pct": 0.4593023255813954,
-        "ft_pct": 0.781,
-        "fga": 17.2,
-        "fta": 6.4,
-        "fgm": 7.4,
-        "fga_total": 86,
-        "fta_total": 32,
-        "fgm_total": 37,
-        "ts_pct": 0.52
+        "fg_pct": 0.396,
+        "efg_pct": 0.42372881355932207,
+        "ft_pct": 0.778,
+        "fga": 17.7,
+        "fta": 6.0,
+        "fgm": 7.0,
+        "fga_total": 106,
+        "fta_total": 36,
+        "fgm_total": 42,
+        "ts_pct": 0.484
       },
       "defense": {
-        "spg": 1.0,
+        "spg": 0.8,
         "bpg": 0.0,
-        "rpg": 6.8
+        "rpg": 6.7
       },
       "hustle": {
-        "contested_shots": 4.2,
+        "contested_shots": 4.4,
         "deflections": 1.2,
         "box_outs": 2.0,
-        "loose_balls_recovered": 1.2,
+        "loose_balls_recovered": 1.4,
         "charges_drawn": 0.2,
         "screen_assists": 0.8
       }
@@ -5807,7 +6079,7 @@
         "box_outs": 0.2,
         "loose_balls_recovered": 0.8,
         "charges_drawn": 0.0,
-        "screen_assists": 0.6
+        "screen_assists": 0.8
       }
     },
     {
@@ -5870,10 +6142,10 @@
         "rpg": 4.3
       },
       "hustle": {
-        "contested_shots": 3.2,
-        "deflections": 0.4,
+        "contested_shots": 3.5,
+        "deflections": 0.33,
         "box_outs": 0.0,
-        "loose_balls_recovered": 0.2,
+        "loose_balls_recovered": 0.17,
         "charges_drawn": 0.0,
         "screen_assists": 0.0
       }
@@ -5882,12 +6154,12 @@
       "id": 1627780,
       "name": "Gary Payton II",
       "team": "GSW",
-      "gp": 6,
+      "gp": 7,
       "zones": {
         "at_rim": {
-          "fga": 13,
-          "fgm": 8,
-          "pct": 0.6154
+          "fga": 14,
+          "fgm": 9,
+          "pct": 0.6429
         },
         "paint": {
           "fga": 8,
@@ -5900,13 +6172,13 @@
           "pct": null
         },
         "corner_3": {
-          "fga": 6,
-          "fgm": 1,
-          "pct": 0.1667
+          "fga": 9,
+          "fgm": 2,
+          "pct": 0.2222
         },
         "l_corner_3": {
-          "fga": 3,
-          "fgm": 1,
+          "fga": 6,
+          "fgm": 2,
           "pct": 0.3333
         },
         "r_corner_3": {
@@ -5921,26 +6193,26 @@
         }
       },
       "overall": {
-        "fg_pct": 0.438,
-        "efg_pct": 0.4622641509433962,
+        "fg_pct": 0.444,
+        "efg_pct": 0.4901960784313726,
         "ft_pct": 0.0,
-        "fga": 5.3,
+        "fga": 5.1,
         "fta": 0,
         "fgm": 2.3,
-        "fga_total": 32,
+        "fga_total": 36,
         "fta_total": 0,
-        "fgm_total": 14,
-        "ts_pct": 0.469
+        "fgm_total": 16,
+        "ts_pct": 0.486
       },
       "defense": {
-        "spg": 0.5,
+        "spg": 0.6,
         "bpg": 0.0,
         "rpg": 2.0
       },
       "hustle": {
-        "contested_shots": 0.83,
+        "contested_shots": 1.0,
         "deflections": 1.33,
-        "box_outs": 0.0,
+        "box_outs": 0.17,
         "loose_balls_recovered": 0.33,
         "charges_drawn": 0.0,
         "screen_assists": 0.17
@@ -5950,7 +6222,7 @@
       "id": 1627777,
       "name": "Georges Niang",
       "team": "GSW",
-      "gp": 6,
+      "gp": 7,
       "zones": {
         "at_rim": {
           "fga": 6,
@@ -5958,9 +6230,9 @@
           "pct": 0.8333
         },
         "paint": {
-          "fga": 8,
+          "fga": 10,
           "fgm": 4,
-          "pct": 0.5
+          "pct": 0.4
         },
         "mid": {
           "fga": 2,
@@ -5968,47 +6240,47 @@
           "pct": 0.5
         },
         "corner_3": {
-          "fga": 13,
+          "fga": 15,
           "fgm": 4,
-          "pct": 0.3077
+          "pct": 0.2667
         },
         "l_corner_3": {
-          "fga": 9,
+          "fga": 10,
           "fgm": 3,
-          "pct": 0.3333
+          "pct": 0.3
         },
         "r_corner_3": {
-          "fga": 4,
+          "fga": 5,
           "fgm": 1,
-          "pct": 0.25
+          "pct": 0.2
         },
         "above_break_3": {
-          "fga": 11,
-          "fgm": 3,
-          "pct": 0.2727
+          "fga": 14,
+          "fgm": 4,
+          "pct": 0.2857
         }
       },
       "overall": {
-        "fg_pct": 0.425,
-        "efg_pct": 0.5074626865671642,
+        "fg_pct": 0.383,
+        "efg_pct": 0.4701492537313433,
         "ft_pct": 1.0,
         "fga": 6.7,
-        "fta": 0.2,
-        "fgm": 2.8,
-        "fga_total": 40,
+        "fta": 0.1,
+        "fgm": 2.6,
+        "fga_total": 47,
         "fta_total": 1,
-        "fgm_total": 17,
-        "ts_pct": 0.519
+        "fgm_total": 18,
+        "ts_pct": 0.474
       },
       "defense": {
-        "spg": 0.8,
-        "bpg": 0.2,
-        "rpg": 3.2
+        "spg": 0.7,
+        "bpg": 0.1,
+        "rpg": 2.9
       },
       "hustle": {
-        "contested_shots": 2.5,
+        "contested_shots": 2.67,
         "deflections": 0.83,
-        "box_outs": 0.67,
+        "box_outs": 0.83,
         "loose_balls_recovered": 0.67,
         "charges_drawn": 0.0,
         "screen_assists": 0.67
@@ -6083,18 +6355,86 @@
       }
     },
     {
-      "id": 1641711,
-      "name": "Gradey Dick",
-      "team": "LAC",
+      "id": 1629048,
+      "name": "Goga Bitadze",
+      "team": "ORL",
       "gp": 5,
       "zones": {
         "at_rim": {
-          "fga": 6,
+          "fga": 10,
           "fgm": 4,
-          "pct": 0.6667
+          "pct": 0.4
         },
         "paint": {
-          "fga": 2,
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "mid": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "l_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "r_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "above_break_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        }
+      },
+      "overall": {
+        "fg_pct": 0.4,
+        "efg_pct": 0.4,
+        "ft_pct": 0.909,
+        "fga": 2.0,
+        "fta": 2.2,
+        "fgm": 0.8,
+        "fga_total": 10,
+        "fta_total": 11,
+        "fgm_total": 4,
+        "ts_pct": 0.606
+      },
+      "defense": {
+        "spg": 0.2,
+        "bpg": 0.4,
+        "rpg": 2.8
+      },
+      "hustle": {
+        "contested_shots": 4.0,
+        "deflections": 0.75,
+        "box_outs": 0.75,
+        "loose_balls_recovered": 0.25,
+        "charges_drawn": 0.0,
+        "screen_assists": 0.75
+      }
+    },
+    {
+      "id": 1641711,
+      "name": "Gradey Dick",
+      "team": "LAC",
+      "gp": 6,
+      "zones": {
+        "at_rim": {
+          "fga": 7,
+          "fgm": 4,
+          "pct": 0.5714
+        },
+        "paint": {
+          "fga": 3,
           "fgm": 0,
           "pct": 0.0
         },
@@ -6119,27 +6459,27 @@
           "pct": 0.0
         },
         "above_break_3": {
-          "fga": 6,
+          "fga": 7,
           "fgm": 3,
-          "pct": 0.5
+          "pct": 0.4286
         }
       },
       "overall": {
-        "fg_pct": 0.5,
-        "efg_pct": 0.625,
+        "fg_pct": 0.435,
+        "efg_pct": 0.5526315789473685,
         "ft_pct": 0.875,
-        "fga": 4.0,
-        "fta": 1.6,
-        "fgm": 2.0,
-        "fga_total": 20,
+        "fga": 3.8,
+        "fta": 1.3,
+        "fgm": 1.7,
+        "fga_total": 23,
         "fta_total": 8,
         "fgm_total": 10,
-        "ts_pct": 0.68
+        "ts_pct": 0.603
       },
       "defense": {
-        "spg": 0.4,
-        "bpg": 0.4,
-        "rpg": 3.2
+        "spg": 0.3,
+        "bpg": 0.3,
+        "rpg": 2.8
       },
       "hustle": {
         "contested_shots": 1.0,
@@ -6148,6 +6488,74 @@
         "loose_balls_recovered": 0.4,
         "charges_drawn": 0.0,
         "screen_assists": 0.0
+      }
+    },
+    {
+      "id": 1643633,
+      "name": "Graham Ike",
+      "team": "GSW",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 14,
+          "fgm": 8,
+          "pct": 0.5714
+        },
+        "paint": {
+          "fga": 4,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "mid": {
+          "fga": 3,
+          "fgm": 1,
+          "pct": 0.3333
+        },
+        "corner_3": {
+          "fga": 1,
+          "fgm": 1,
+          "pct": 1.0
+        },
+        "l_corner_3": {
+          "fga": 1,
+          "fgm": 1,
+          "pct": 1.0
+        },
+        "r_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "above_break_3": {
+          "fga": 3,
+          "fgm": 3,
+          "pct": 1.0
+        }
+      },
+      "overall": {
+        "fg_pct": 0.52,
+        "efg_pct": 0.6,
+        "ft_pct": 0.833,
+        "fga": 5.0,
+        "fta": 1.2,
+        "fgm": 2.6,
+        "fga_total": 25,
+        "fta_total": 6,
+        "fgm_total": 13,
+        "ts_pct": 0.633
+      },
+      "defense": {
+        "spg": 0.6,
+        "bpg": 0.2,
+        "rpg": 3.2
+      },
+      "hustle": {
+        "contested_shots": 4.67,
+        "deflections": 2.0,
+        "box_outs": 0.33,
+        "loose_balls_recovered": 0.0,
+        "charges_drawn": 0.0,
+        "screen_assists": 2.33
       }
     },
     {
@@ -6210,10 +6618,10 @@
         "rpg": 3.1
       },
       "hustle": {
-        "contested_shots": 2.5,
-        "deflections": 1.67,
+        "contested_shots": 2.57,
+        "deflections": 1.71,
         "box_outs": 0.0,
-        "loose_balls_recovered": 0.17,
+        "loose_balls_recovered": 0.14,
         "charges_drawn": 0.0,
         "screen_assists": 0.0
       }
@@ -6222,12 +6630,12 @@
       "id": 1630611,
       "name": "Gui Santos",
       "team": "GSW",
-      "gp": 5,
+      "gp": 6,
       "zones": {
         "at_rim": {
-          "fga": 11,
-          "fgm": 7,
-          "pct": 0.6364
+          "fga": 13,
+          "fgm": 9,
+          "pct": 0.6923
         },
         "paint": {
           "fga": 6,
@@ -6255,35 +6663,35 @@
           "pct": 0.3333
         },
         "above_break_3": {
-          "fga": 4,
+          "fga": 6,
           "fgm": 1,
-          "pct": 0.25
+          "pct": 0.1667
         }
       },
       "overall": {
-        "fg_pct": 0.481,
-        "efg_pct": 0.5555555555555555,
+        "fg_pct": 0.484,
+        "efg_pct": 0.5480769230769231,
         "ft_pct": 0.643,
-        "fga": 5.4,
-        "fta": 2.8,
-        "fgm": 2.6,
-        "fga_total": 27,
+        "fga": 5.2,
+        "fta": 2.3,
+        "fgm": 2.5,
+        "fga_total": 31,
         "fta_total": 14,
-        "fgm_total": 13,
-        "ts_pct": 0.588
+        "fgm_total": 15,
+        "ts_pct": 0.579
       },
       "defense": {
-        "spg": 0.6,
-        "bpg": 0.2,
-        "rpg": 4.2
+        "spg": 0.5,
+        "bpg": 0.3,
+        "rpg": 4.0
       },
       "hustle": {
-        "contested_shots": 3.0,
+        "contested_shots": 3.2,
         "deflections": 1.8,
         "box_outs": 0.4,
         "loose_balls_recovered": 0.4,
         "charges_drawn": 0.0,
-        "screen_assists": 0.6
+        "screen_assists": 0.8
       }
     },
     {
@@ -6346,24 +6754,24 @@
         "rpg": 2.5
       },
       "hustle": {
-        "contested_shots": 3.2,
-        "deflections": 1.6,
-        "box_outs": 0.2,
-        "loose_balls_recovered": 0.2,
+        "contested_shots": 3.33,
+        "deflections": 1.67,
+        "box_outs": 0.33,
+        "loose_balls_recovered": 0.17,
         "charges_drawn": 0.0,
-        "screen_assists": 0.4
+        "screen_assists": 0.33
       }
     },
     {
       "id": 1642864,
       "name": "Hugo Gonz\u00e1lez",
       "team": "BOS",
-      "gp": 5,
+      "gp": 6,
       "zones": {
         "at_rim": {
-          "fga": 5,
-          "fgm": 3,
-          "pct": 0.6
+          "fga": 7,
+          "fgm": 5,
+          "pct": 0.7143
         },
         "paint": {
           "fga": 0,
@@ -6376,9 +6784,9 @@
           "pct": null
         },
         "corner_3": {
-          "fga": 2,
-          "fgm": 1,
-          "pct": 0.5
+          "fga": 3,
+          "fgm": 2,
+          "pct": 0.6667
         },
         "l_corner_3": {
           "fga": 2,
@@ -6386,32 +6794,32 @@
           "pct": 0.5
         },
         "r_corner_3": {
-          "fga": 0,
-          "fgm": 0,
-          "pct": null
+          "fga": 1,
+          "fgm": 1,
+          "pct": 1.0
         },
         "above_break_3": {
-          "fga": 4,
+          "fga": 6,
           "fgm": 0,
           "pct": 0.0
         }
       },
       "overall": {
-        "fg_pct": 0.364,
-        "efg_pct": 0.40909090909090906,
-        "ft_pct": 0.667,
-        "fga": 2.2,
+        "fg_pct": 0.438,
+        "efg_pct": 0.49999999999999994,
+        "ft_pct": 0.571,
+        "fga": 2.7,
         "fta": 1.2,
-        "fgm": 0.8,
-        "fga_total": 11,
-        "fta_total": 6,
-        "fgm_total": 4,
-        "ts_pct": 0.477
+        "fgm": 1.2,
+        "fga_total": 16,
+        "fta_total": 7,
+        "fgm_total": 7,
+        "ts_pct": 0.524
       },
       "defense": {
-        "spg": 0.2,
+        "spg": 0.5,
         "bpg": 0.2,
-        "rpg": 2.4
+        "rpg": 2.2
       },
       "hustle": {
         "contested_shots": 4.33,
@@ -6426,17 +6834,17 @@
       "id": 1630193,
       "name": "Immanuel Quickley",
       "team": "TOR",
-      "gp": 5,
+      "gp": 6,
       "zones": {
         "at_rim": {
-          "fga": 7,
+          "fga": 8,
           "fgm": 4,
-          "pct": 0.5714
+          "pct": 0.5
         },
         "paint": {
-          "fga": 18,
+          "fga": 19,
           "fgm": 8,
-          "pct": 0.4444
+          "pct": 0.4211
         },
         "mid": {
           "fga": 7,
@@ -6459,35 +6867,35 @@
           "pct": 0.5
         },
         "above_break_3": {
-          "fga": 34,
-          "fgm": 13,
-          "pct": 0.3824
+          "fga": 45,
+          "fgm": 16,
+          "pct": 0.3556
         }
       },
       "overall": {
-        "fg_pct": 0.403,
-        "efg_pct": 0.5069444444444444,
-        "ft_pct": 0.778,
-        "fga": 14.4,
-        "fta": 3.6,
-        "fgm": 5.8,
-        "fga_total": 72,
-        "fta_total": 18,
-        "fgm_total": 29,
-        "ts_pct": 0.544
+        "fg_pct": 0.376,
+        "efg_pct": 0.47887323943661975,
+        "ft_pct": 0.81,
+        "fga": 14.2,
+        "fta": 3.5,
+        "fgm": 5.3,
+        "fga_total": 85,
+        "fta_total": 21,
+        "fgm_total": 32,
+        "ts_pct": 0.525
       },
       "defense": {
         "spg": 1.0,
         "bpg": 0.0,
-        "rpg": 3.4
+        "rpg": 3.8
       },
       "hustle": {
-        "contested_shots": 3.2,
+        "contested_shots": 3.4,
         "deflections": 1.4,
-        "box_outs": 0.2,
+        "box_outs": 0.4,
         "loose_balls_recovered": 0.4,
         "charges_drawn": 0.0,
-        "screen_assists": 0.4
+        "screen_assists": 0.6
       }
     },
     {
@@ -6618,12 +7026,12 @@
         "rpg": 4.0
       },
       "hustle": {
-        "contested_shots": 1.6,
-        "deflections": 1.0,
-        "box_outs": 0.4,
+        "contested_shots": 1.83,
+        "deflections": 1.33,
+        "box_outs": 0.33,
         "loose_balls_recovered": 0.0,
         "charges_drawn": 0.0,
-        "screen_assists": 0.2
+        "screen_assists": 0.17
       }
     },
     {
@@ -6686,12 +7094,12 @@
         "rpg": 0.2
       },
       "hustle": {
-        "contested_shots": 0.5,
-        "deflections": 0.0,
+        "contested_shots": 0.33,
+        "deflections": 0.33,
         "box_outs": 0.0,
         "loose_balls_recovered": 0.0,
         "charges_drawn": 0.0,
-        "screen_assists": 0.5
+        "screen_assists": 0.67
       }
     },
     {
@@ -6755,33 +7163,33 @@
       },
       "hustle": {
         "contested_shots": 6.0,
-        "deflections": 1.8,
-        "box_outs": 2.4,
-        "loose_balls_recovered": 0.2,
+        "deflections": 2.33,
+        "box_outs": 2.17,
+        "loose_balls_recovered": 0.33,
         "charges_drawn": 0.0,
-        "screen_assists": 3.4
+        "screen_assists": 3.17
       }
     },
     {
       "id": 1630543,
       "name": "Isaiah Jackson",
       "team": "LAC",
-      "gp": 5,
+      "gp": 6,
       "zones": {
         "at_rim": {
-          "fga": 20,
-          "fgm": 13,
-          "pct": 0.65
+          "fga": 22,
+          "fgm": 15,
+          "pct": 0.6818
         },
         "paint": {
-          "fga": 8,
+          "fga": 10,
           "fgm": 3,
-          "pct": 0.375
+          "pct": 0.3
         },
         "mid": {
-          "fga": 2,
+          "fga": 5,
           "fgm": 2,
-          "pct": 1.0
+          "pct": 0.4
         },
         "corner_3": {
           "fga": 0,
@@ -6805,21 +7213,21 @@
         }
       },
       "overall": {
-        "fg_pct": 0.6,
-        "efg_pct": 0.6,
-        "ft_pct": 0.7,
-        "fga": 6.0,
+        "fg_pct": 0.541,
+        "efg_pct": 0.532258064516129,
+        "ft_pct": 0.667,
+        "fga": 6.2,
         "fta": 2.0,
-        "fgm": 3.6,
-        "fga_total": 30,
-        "fta_total": 10,
-        "fgm_total": 18,
-        "ts_pct": 0.625
+        "fgm": 3.3,
+        "fga_total": 37,
+        "fta_total": 12,
+        "fgm_total": 20,
+        "ts_pct": 0.568
       },
       "defense": {
-        "spg": 2.0,
-        "bpg": 1.2,
-        "rpg": 5.8
+        "spg": 1.7,
+        "bpg": 1.0,
+        "rpg": 6.2
       },
       "hustle": {
         "contested_shots": 4.0,
@@ -6890,19 +7298,19 @@
         "rpg": 3.6
       },
       "hustle": {
-        "contested_shots": 4.5,
+        "contested_shots": 5.0,
         "deflections": 0.0,
-        "box_outs": 0.25,
+        "box_outs": 0.2,
         "loose_balls_recovered": 0.0,
         "charges_drawn": 0.0,
-        "screen_assists": 2.25
+        "screen_assists": 2.4
       }
     },
     {
       "id": 1642266,
       "name": "Ja'Kobe Walter",
       "team": "TOR",
-      "gp": 5,
+      "gp": 6,
       "zones": {
         "at_rim": {
           "fga": 5,
@@ -6910,24 +7318,24 @@
           "pct": 1.0
         },
         "paint": {
-          "fga": 3,
+          "fga": 5,
           "fgm": 1,
-          "pct": 0.3333
+          "pct": 0.2
         },
         "mid": {
-          "fga": 2,
-          "fgm": 1,
-          "pct": 0.5
+          "fga": 3,
+          "fgm": 2,
+          "pct": 0.6667
         },
         "corner_3": {
-          "fga": 13,
-          "fgm": 4,
-          "pct": 0.3077
+          "fga": 14,
+          "fgm": 5,
+          "pct": 0.3571
         },
         "l_corner_3": {
-          "fga": 9,
-          "fgm": 3,
-          "pct": 0.3333
+          "fga": 10,
+          "fgm": 4,
+          "pct": 0.4
         },
         "r_corner_3": {
           "fga": 4,
@@ -6935,35 +7343,35 @@
           "pct": 0.25
         },
         "above_break_3": {
-          "fga": 19,
-          "fgm": 10,
-          "pct": 0.5263
+          "fga": 27,
+          "fgm": 12,
+          "pct": 0.4444
         }
       },
       "overall": {
-        "fg_pct": 0.5,
-        "efg_pct": 0.6666666666666666,
+        "fg_pct": 0.463,
+        "efg_pct": 0.6222222222222222,
         "ft_pct": 0.667,
-        "fga": 8.4,
-        "fta": 1.8,
+        "fga": 9.0,
+        "fta": 1.5,
         "fgm": 4.2,
-        "fga_total": 42,
+        "fga_total": 54,
         "fta_total": 9,
-        "fgm_total": 21,
-        "ts_pct": 0.674
+        "fgm_total": 25,
+        "ts_pct": 0.63
       },
       "defense": {
-        "spg": 1.8,
-        "bpg": 0.4,
+        "spg": 1.7,
+        "bpg": 0.5,
         "rpg": 3.8
       },
       "hustle": {
-        "contested_shots": 4.4,
-        "deflections": 3.0,
-        "box_outs": 0.2,
+        "contested_shots": 5.2,
+        "deflections": 3.8,
+        "box_outs": 0.4,
         "loose_balls_recovered": 0.8,
         "charges_drawn": 0.0,
-        "screen_assists": 0.0
+        "screen_assists": 0.2
       }
     },
     {
@@ -7026,12 +7434,80 @@
         "rpg": 5.9
       },
       "hustle": {
-        "contested_shots": 4.5,
-        "deflections": 1.83,
-        "box_outs": 0.17,
-        "loose_balls_recovered": 0.67,
+        "contested_shots": 4.86,
+        "deflections": 1.71,
+        "box_outs": 0.14,
+        "loose_balls_recovered": 0.57,
         "charges_drawn": 0.0,
-        "screen_assists": 0.17
+        "screen_assists": 0.29
+      }
+    },
+    {
+      "id": 1643558,
+      "name": "Jaden Bradley",
+      "team": "TOR",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 2,
+          "fgm": 2,
+          "pct": 1.0
+        },
+        "paint": {
+          "fga": 3,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "mid": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "l_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "r_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "above_break_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        }
+      },
+      "overall": {
+        "fg_pct": 0.4,
+        "efg_pct": 0.4,
+        "ft_pct": 1.0,
+        "fga": 1.0,
+        "fta": 1.0,
+        "fgm": 0.4,
+        "fga_total": 5,
+        "fta_total": 5,
+        "fgm_total": 2,
+        "ts_pct": 0.625
+      },
+      "defense": {
+        "spg": 0.6,
+        "bpg": 0.0,
+        "rpg": 0.6
+      },
+      "hustle": {
+        "contested_shots": 0.0,
+        "deflections": 1.0,
+        "box_outs": 0.0,
+        "loose_balls_recovered": 0.0,
+        "charges_drawn": 0.0,
+        "screen_assists": 0.0
       }
     },
     {
@@ -7094,12 +7570,12 @@
         "rpg": 6.0
       },
       "hustle": {
-        "contested_shots": 5.5,
-        "deflections": 1.67,
-        "box_outs": 0.5,
-        "loose_balls_recovered": 0.33,
+        "contested_shots": 5.0,
+        "deflections": 1.43,
+        "box_outs": 0.57,
+        "loose_balls_recovered": 0.29,
         "charges_drawn": 0.0,
-        "screen_assists": 0.33
+        "screen_assists": 0.29
       }
     },
     {
@@ -7162,8 +7638,8 @@
         "rpg": 0.8
       },
       "hustle": {
-        "contested_shots": 0.5,
-        "deflections": 0.5,
+        "contested_shots": 0.33,
+        "deflections": 0.67,
         "box_outs": 0.0,
         "loose_balls_recovered": 0.0,
         "charges_drawn": 0.0,
@@ -7230,24 +7706,24 @@
         "rpg": 7.2
       },
       "hustle": {
-        "contested_shots": 5.0,
-        "deflections": 1.8,
-        "box_outs": 0.2,
-        "loose_balls_recovered": 0.6,
+        "contested_shots": 4.67,
+        "deflections": 1.67,
+        "box_outs": 0.33,
+        "loose_balls_recovered": 0.5,
         "charges_drawn": 0.0,
-        "screen_assists": 0.4
+        "screen_assists": 0.33
       }
     },
     {
       "id": 1631222,
       "name": "Jake LaRavia",
       "team": "LAL",
-      "gp": 5,
+      "gp": 6,
       "zones": {
         "at_rim": {
-          "fga": 7,
-          "fgm": 4,
-          "pct": 0.5714
+          "fga": 9,
+          "fgm": 5,
+          "pct": 0.5556
         },
         "paint": {
           "fga": 1,
@@ -7255,19 +7731,19 @@
           "pct": 1.0
         },
         "mid": {
-          "fga": 0,
+          "fga": 1,
           "fgm": 0,
-          "pct": null
+          "pct": 0.0
         },
         "corner_3": {
-          "fga": 5,
-          "fgm": 3,
-          "pct": 0.6
+          "fga": 7,
+          "fgm": 5,
+          "pct": 0.7143
         },
         "l_corner_3": {
-          "fga": 4,
-          "fgm": 2,
-          "pct": 0.5
+          "fga": 6,
+          "fgm": 4,
+          "pct": 0.6667
         },
         "r_corner_3": {
           "fga": 1,
@@ -7275,31 +7751,31 @@
           "pct": 1.0
         },
         "above_break_3": {
-          "fga": 6,
+          "fga": 7,
           "fgm": 2,
-          "pct": 0.3333
+          "pct": 0.2857
         }
       },
       "overall": {
-        "fg_pct": 0.526,
-        "efg_pct": 0.6578947368421053,
+        "fg_pct": 0.52,
+        "efg_pct": 0.6666666666666667,
         "ft_pct": 0.5,
-        "fga": 3.8,
-        "fta": 0.8,
-        "fgm": 2.0,
-        "fga_total": 19,
+        "fga": 4.2,
+        "fta": 0.7,
+        "fgm": 2.2,
+        "fga_total": 25,
         "fta_total": 4,
-        "fgm_total": 10,
-        "ts_pct": 0.65
+        "fgm_total": 13,
+        "ts_pct": 0.654
       },
       "defense": {
-        "spg": 2.0,
+        "spg": 1.8,
         "bpg": 0.8,
-        "rpg": 3.8
+        "rpg": 3.5
       },
       "hustle": {
         "contested_shots": 3.6,
-        "deflections": 2.6,
+        "deflections": 2.8,
         "box_outs": 0.8,
         "loose_balls_recovered": 0.2,
         "charges_drawn": 0.0,
@@ -7366,12 +7842,12 @@
         "rpg": 5.8
       },
       "hustle": {
-        "contested_shots": 3.6,
+        "contested_shots": 4.2,
         "deflections": 1.6,
         "box_outs": 0.4,
         "loose_balls_recovered": 0.8,
         "charges_drawn": 0.0,
-        "screen_assists": 2.4
+        "screen_assists": 3.0
       }
     },
     {
@@ -7502,23 +7978,23 @@
         "rpg": 9.0
       },
       "hustle": {
-        "contested_shots": 5.67,
-        "deflections": 1.83,
-        "box_outs": 0.83,
-        "loose_balls_recovered": 0.17,
+        "contested_shots": 5.29,
+        "deflections": 2.0,
+        "box_outs": 0.71,
+        "loose_balls_recovered": 0.43,
         "charges_drawn": 0.0,
-        "screen_assists": 0.67
+        "screen_assists": 0.57
       }
     },
     {
       "id": 1641771,
       "name": "Jalen Slawson",
       "team": "IND",
-      "gp": 5,
+      "gp": 6,
       "zones": {
         "at_rim": {
-          "fga": 3,
-          "fgm": 3,
+          "fga": 4,
+          "fgm": 4,
           "pct": 1.0
         },
         "paint": {
@@ -7553,25 +8029,25 @@
         }
       },
       "overall": {
-        "fg_pct": 0.8,
+        "fg_pct": 0.833,
         "efg_pct": 0.8,
-        "ft_pct": 0.556,
+        "ft_pct": 0.545,
         "fga": 1.0,
         "fta": 1.8,
         "fgm": 0.8,
-        "fga_total": 5,
-        "fta_total": 9,
-        "fgm_total": 4,
-        "ts_pct": 0.725
+        "fga_total": 6,
+        "fta_total": 11,
+        "fgm_total": 5,
+        "ts_pct": 0.738
       },
       "defense": {
-        "spg": 0.8,
-        "bpg": 0.6,
-        "rpg": 2.6
+        "spg": 0.7,
+        "bpg": 0.5,
+        "rpg": 3.0
       },
       "hustle": {
-        "contested_shots": 2.2,
-        "deflections": 1.2,
+        "contested_shots": 2.4,
+        "deflections": 1.4,
         "box_outs": 0.4,
         "loose_balls_recovered": 0.2,
         "charges_drawn": 0.0,
@@ -7650,7 +8126,7 @@
       "id": 1631288,
       "name": "Jamal Cain",
       "team": "ORL",
-      "gp": 5,
+      "gp": 6,
       "zones": {
         "at_rim": {
           "fga": 1,
@@ -7663,14 +8139,14 @@
           "pct": 0.3333
         },
         "mid": {
-          "fga": 1,
-          "fgm": 1,
+          "fga": 2,
+          "fgm": 2,
           "pct": 1.0
         },
         "corner_3": {
-          "fga": 3,
-          "fgm": 2,
-          "pct": 0.6667
+          "fga": 4,
+          "fgm": 3,
+          "pct": 0.75
         },
         "l_corner_3": {
           "fga": 2,
@@ -7678,35 +8154,35 @@
           "pct": 0.5
         },
         "r_corner_3": {
-          "fga": 1,
-          "fgm": 1,
+          "fga": 2,
+          "fgm": 2,
           "pct": 1.0
         },
         "above_break_3": {
-          "fga": 9,
+          "fga": 12,
           "fgm": 2,
-          "pct": 0.2222
+          "pct": 0.1667
         }
       },
       "overall": {
         "fg_pct": 0.4,
         "efg_pct": 0.5,
         "ft_pct": 1.0,
-        "fga": 4.0,
-        "fta": 1.4,
-        "fgm": 1.6,
-        "fga_total": 20,
+        "fga": 4.2,
+        "fta": 1.2,
+        "fgm": 1.7,
+        "fga_total": 25,
         "fta_total": 7,
-        "fgm_total": 8,
-        "ts_pct": 0.585
+        "fgm_total": 10,
+        "ts_pct": 0.57
       },
       "defense": {
-        "spg": 0.4,
+        "spg": 0.3,
         "bpg": 0.0,
-        "rpg": 1.4
+        "rpg": 1.3
       },
       "hustle": {
-        "contested_shots": 2.25,
+        "contested_shots": 2.75,
         "deflections": 1.25,
         "box_outs": 0.0,
         "loose_balls_recovered": 0.0,
@@ -7774,7 +8250,7 @@
         "rpg": 5.6
       },
       "hustle": {
-        "contested_shots": 4.0,
+        "contested_shots": 4.2,
         "deflections": 1.0,
         "box_outs": 0.2,
         "loose_balls_recovered": 0.8,
@@ -7786,15 +8262,15 @@
       "id": 1642347,
       "name": "Jamal Shead",
       "team": "TOR",
-      "gp": 5,
+      "gp": 6,
       "zones": {
         "at_rim": {
-          "fga": 8,
-          "fgm": 4,
-          "pct": 0.5
+          "fga": 9,
+          "fgm": 5,
+          "pct": 0.5556
         },
         "paint": {
-          "fga": 2,
+          "fga": 3,
           "fgm": 0,
           "pct": 0.0
         },
@@ -7804,14 +8280,14 @@
           "pct": 0.4
         },
         "corner_3": {
-          "fga": 1,
-          "fgm": 0,
-          "pct": 0.0
+          "fga": 2,
+          "fgm": 1,
+          "pct": 0.5
         },
         "l_corner_3": {
-          "fga": 1,
-          "fgm": 0,
-          "pct": 0.0
+          "fga": 2,
+          "fgm": 1,
+          "pct": 0.5
         },
         "r_corner_3": {
           "fga": 0,
@@ -7819,31 +8295,31 @@
           "pct": null
         },
         "above_break_3": {
-          "fga": 7,
-          "fgm": 1,
-          "pct": 0.1429
+          "fga": 10,
+          "fgm": 2,
+          "pct": 0.2
         }
       },
       "overall": {
-        "fg_pct": 0.304,
-        "efg_pct": 0.32608695652173914,
-        "ft_pct": 0.917,
-        "fga": 4.6,
-        "fta": 2.4,
-        "fgm": 1.4,
-        "fga_total": 23,
-        "fta_total": 12,
-        "fgm_total": 7,
-        "ts_pct": 0.46
+        "fg_pct": 0.345,
+        "efg_pct": 0.40625,
+        "ft_pct": 0.923,
+        "fga": 4.8,
+        "fta": 2.2,
+        "fgm": 1.7,
+        "fga_total": 29,
+        "fta_total": 13,
+        "fgm_total": 10,
+        "ts_pct": 0.504
       },
       "defense": {
-        "spg": 1.2,
-        "bpg": 0.4,
+        "spg": 1.5,
+        "bpg": 0.3,
         "rpg": 2.0
       },
       "hustle": {
-        "contested_shots": 1.2,
-        "deflections": 2.2,
+        "contested_shots": 1.6,
+        "deflections": 2.6,
         "box_outs": 0.2,
         "loose_balls_recovered": 0.4,
         "charges_drawn": 0.2,
@@ -7910,10 +8386,10 @@
         "rpg": 4.8
       },
       "hustle": {
-        "contested_shots": 5.0,
-        "deflections": 2.2,
-        "box_outs": 1.2,
-        "loose_balls_recovered": 0.4,
+        "contested_shots": 4.67,
+        "deflections": 2.0,
+        "box_outs": 1.17,
+        "loose_balls_recovered": 0.5,
         "charges_drawn": 0.0,
         "screen_assists": 0.0
       }
@@ -7922,63 +8398,63 @@
       "id": 1642419,
       "name": "Jamison Battle",
       "team": "TOR",
-      "gp": 5,
+      "gp": 6,
       "zones": {
         "at_rim": {
-          "fga": 6,
-          "fgm": 3,
-          "pct": 0.5
+          "fga": 7,
+          "fgm": 4,
+          "pct": 0.5714
         },
         "paint": {
-          "fga": 0,
-          "fgm": 0,
-          "pct": null
+          "fga": 2,
+          "fgm": 2,
+          "pct": 1.0
         },
         "mid": {
-          "fga": 0,
-          "fgm": 0,
-          "pct": null
-        },
-        "corner_3": {
-          "fga": 4,
-          "fgm": 2,
-          "pct": 0.5
-        },
-        "l_corner_3": {
-          "fga": 3,
-          "fgm": 2,
-          "pct": 0.6667
-        },
-        "r_corner_3": {
           "fga": 1,
           "fgm": 0,
           "pct": 0.0
         },
-        "above_break_3": {
-          "fga": 10,
+        "corner_3": {
+          "fga": 7,
           "fgm": 3,
-          "pct": 0.3
+          "pct": 0.4286
+        },
+        "l_corner_3": {
+          "fga": 4,
+          "fgm": 2,
+          "pct": 0.5
+        },
+        "r_corner_3": {
+          "fga": 3,
+          "fgm": 1,
+          "pct": 0.3333
+        },
+        "above_break_3": {
+          "fga": 17,
+          "fgm": 6,
+          "pct": 0.3529
         }
       },
       "overall": {
-        "fg_pct": 0.4,
-        "efg_pct": 0.525,
-        "ft_pct": 0.833,
-        "fga": 4.0,
-        "fta": 1.2,
-        "fgm": 1.6,
-        "fga_total": 20,
-        "fta_total": 6,
-        "fgm_total": 8,
-        "ts_pct": 0.574
+        "fg_pct": 0.441,
+        "efg_pct": 0.5701754385964912,
+        "ft_pct": 0.875,
+        "fga": 5.7,
+        "fta": 1.3,
+        "fgm": 2.5,
+        "fga_total": 34,
+        "fta_total": 8,
+        "fgm_total": 15,
+        "ts_pct": 0.613
       },
       "defense": {
-        "spg": 1.0,
+        "spg": 0.8,
         "bpg": 0.0,
-        "rpg": 1.2
+        "rpg": 1.8
       },
       "hustle": {
-        "contested_shots": 0.5,
+        "contested_shots": 1.0,
         "deflections": 0.75,
         "box_outs": 0.0,
         "loose_balls_recovered": 0.5,
@@ -7990,12 +8466,12 @@
       "id": 1641716,
       "name": "Jarace Walker",
       "team": "IND",
-      "gp": 6,
+      "gp": 7,
       "zones": {
         "at_rim": {
-          "fga": 9,
+          "fga": 10,
           "fgm": 4,
-          "pct": 0.4444
+          "pct": 0.4
         },
         "paint": {
           "fga": 9,
@@ -8008,9 +8484,9 @@
           "pct": 0.0
         },
         "corner_3": {
-          "fga": 3,
-          "fgm": 0,
-          "pct": 0.0
+          "fga": 5,
+          "fgm": 1,
+          "pct": 0.2
         },
         "l_corner_3": {
           "fga": 1,
@@ -8018,38 +8494,38 @@
           "pct": 0.0
         },
         "r_corner_3": {
-          "fga": 2,
-          "fgm": 0,
-          "pct": 0.0
+          "fga": 4,
+          "fgm": 1,
+          "pct": 0.25
         },
         "above_break_3": {
-          "fga": 18,
-          "fgm": 7,
-          "pct": 0.3889
+          "fga": 19,
+          "fgm": 8,
+          "pct": 0.4211
         }
       },
       "overall": {
-        "fg_pct": 0.357,
-        "efg_pct": 0.4428571428571429,
+        "fg_pct": 0.37,
+        "efg_pct": 0.4621212121212121,
         "ft_pct": 0.5,
-        "fga": 7.0,
-        "fta": 1.7,
-        "fgm": 2.5,
-        "fga_total": 42,
+        "fga": 6.6,
+        "fta": 1.4,
+        "fgm": 2.4,
+        "fga_total": 46,
         "fta_total": 10,
-        "fgm_total": 15,
-        "ts_pct": 0.453
+        "fgm_total": 17,
+        "ts_pct": 0.476
       },
       "defense": {
         "spg": 0.7,
-        "bpg": 0.5,
+        "bpg": 0.4,
         "rpg": 6.0
       },
       "hustle": {
         "contested_shots": 2.0,
         "deflections": 2.0,
         "box_outs": 0.5,
-        "loose_balls_recovered": 0.33,
+        "loose_balls_recovered": 0.5,
         "charges_drawn": 0.0,
         "screen_assists": 0.17
       }
@@ -8114,12 +8590,12 @@
         "rpg": 2.3
       },
       "hustle": {
-        "contested_shots": 2.4,
-        "deflections": 1.2,
-        "box_outs": 0.2,
-        "loose_balls_recovered": 0.4,
-        "charges_drawn": 0.2,
-        "screen_assists": 0.6
+        "contested_shots": 2.17,
+        "deflections": 1.17,
+        "box_outs": 0.17,
+        "loose_balls_recovered": 0.33,
+        "charges_drawn": 0.17,
+        "screen_assists": 0.5
       }
     },
     {
@@ -8182,19 +8658,19 @@
         "rpg": 9.2
       },
       "hustle": {
-        "contested_shots": 10.6,
-        "deflections": 2.6,
+        "contested_shots": 10.17,
+        "deflections": 2.33,
         "box_outs": 1.0,
-        "loose_balls_recovered": 0.6,
+        "loose_balls_recovered": 0.5,
         "charges_drawn": 0.0,
-        "screen_assists": 2.4
+        "screen_assists": 2.33
       }
     },
     {
       "id": 1642859,
       "name": "Jase Richardson",
       "team": "ORL",
-      "gp": 5,
+      "gp": 6,
       "zones": {
         "at_rim": {
           "fga": 10,
@@ -8202,19 +8678,19 @@
           "pct": 0.3
         },
         "paint": {
-          "fga": 6,
-          "fgm": 3,
-          "pct": 0.5
+          "fga": 9,
+          "fgm": 5,
+          "pct": 0.5556
         },
         "mid": {
-          "fga": 1,
+          "fga": 2,
           "fgm": 0,
           "pct": 0.0
         },
         "corner_3": {
-          "fga": 4,
+          "fga": 6,
           "fgm": 3,
-          "pct": 0.75
+          "pct": 0.5
         },
         "l_corner_3": {
           "fga": 3,
@@ -8222,37 +8698,37 @@
           "pct": 0.6667
         },
         "r_corner_3": {
-          "fga": 1,
+          "fga": 3,
           "fgm": 1,
-          "pct": 1.0
+          "pct": 0.3333
         },
         "above_break_3": {
-          "fga": 7,
+          "fga": 9,
           "fgm": 2,
-          "pct": 0.2857
+          "pct": 0.2222
         }
       },
       "overall": {
-        "fg_pct": 0.393,
-        "efg_pct": 0.4821428571428572,
+        "fg_pct": 0.361,
+        "efg_pct": 0.43333333333333335,
         "ft_pct": 0.5,
-        "fga": 5.6,
-        "fta": 0.4,
+        "fga": 6.0,
+        "fta": 0.3,
         "fgm": 2.2,
-        "fga_total": 28,
+        "fga_total": 36,
         "fta_total": 2,
-        "fgm_total": 11,
-        "ts_pct": 0.485
+        "fgm_total": 13,
+        "ts_pct": 0.434
       },
       "defense": {
-        "spg": 0.6,
-        "bpg": 0.6,
-        "rpg": 2.2
+        "spg": 0.5,
+        "bpg": 0.5,
+        "rpg": 2.0
       },
       "hustle": {
-        "contested_shots": 1.4,
-        "deflections": 1.4,
-        "box_outs": 0.0,
+        "contested_shots": 1.6,
+        "deflections": 1.6,
+        "box_outs": 0.2,
         "loose_balls_recovered": 0.6,
         "charges_drawn": 0.2,
         "screen_assists": 0.4
@@ -8386,19 +8862,19 @@
         "rpg": 6.6
       },
       "hustle": {
-        "contested_shots": 9.0,
-        "deflections": 1.5,
-        "box_outs": 2.0,
-        "loose_balls_recovered": 0.0,
+        "contested_shots": 7.8,
+        "deflections": 1.6,
+        "box_outs": 1.6,
+        "loose_balls_recovered": 0.2,
         "charges_drawn": 0.0,
-        "screen_assists": 4.25
+        "screen_assists": 4.0
       }
     },
     {
       "id": 1630643,
       "name": "Jay Huff",
       "team": "IND",
-      "gp": 5,
+      "gp": 6,
       "zones": {
         "at_rim": {
           "fga": 9,
@@ -8431,27 +8907,27 @@
           "pct": 0.6667
         },
         "above_break_3": {
-          "fga": 7,
+          "fga": 9,
           "fgm": 2,
-          "pct": 0.2857
+          "pct": 0.2222
         }
       },
       "overall": {
-        "fg_pct": 0.538,
-        "efg_pct": 0.6538461538461539,
+        "fg_pct": 0.5,
+        "efg_pct": 0.5957446808510638,
         "ft_pct": 1.0,
-        "fga": 5.2,
-        "fta": 0.4,
-        "fgm": 2.8,
-        "fga_total": 26,
+        "fga": 4.7,
+        "fta": 0.3,
+        "fgm": 2.3,
+        "fga_total": 28,
         "fta_total": 2,
         "fgm_total": 14,
-        "ts_pct": 0.67
+        "ts_pct": 0.623
       },
       "defense": {
         "spg": 0.0,
-        "bpg": 0.6,
-        "rpg": 3.4
+        "bpg": 0.7,
+        "rpg": 3.3
       },
       "hustle": {
         "contested_shots": 6.4,
@@ -8522,12 +8998,12 @@
         "rpg": 6.2
       },
       "hustle": {
-        "contested_shots": 6.6,
-        "deflections": 3.6,
-        "box_outs": 1.8,
-        "loose_balls_recovered": 0.8,
+        "contested_shots": 6.5,
+        "deflections": 3.5,
+        "box_outs": 1.67,
+        "loose_balls_recovered": 0.83,
         "charges_drawn": 0.0,
-        "screen_assists": 0.4
+        "screen_assists": 0.33
       }
     },
     {
@@ -8590,12 +9066,12 @@
         "rpg": 1.3
       },
       "hustle": {
-        "contested_shots": 0.75,
-        "deflections": 1.75,
+        "contested_shots": 1.2,
+        "deflections": 2.0,
         "box_outs": 0.0,
-        "loose_balls_recovered": 0.75,
+        "loose_balls_recovered": 0.6,
         "charges_drawn": 0.0,
-        "screen_assists": 0.0
+        "screen_assists": 0.4
       }
     },
     {
@@ -8658,12 +9134,12 @@
         "rpg": 3.7
       },
       "hustle": {
-        "contested_shots": 2.4,
+        "contested_shots": 2.33,
         "deflections": 2.0,
-        "box_outs": 0.4,
-        "loose_balls_recovered": 0.6,
-        "charges_drawn": 0.2,
-        "screen_assists": 0.8
+        "box_outs": 0.33,
+        "loose_balls_recovered": 0.5,
+        "charges_drawn": 0.17,
+        "screen_assists": 0.67
       }
     },
     {
@@ -8726,12 +9202,12 @@
         "rpg": 4.2
       },
       "hustle": {
-        "contested_shots": 6.2,
-        "deflections": 0.4,
-        "box_outs": 0.8,
-        "loose_balls_recovered": 0.2,
-        "charges_drawn": 0.0,
-        "screen_assists": 1.2
+        "contested_shots": 6.17,
+        "deflections": 0.5,
+        "box_outs": 0.83,
+        "loose_balls_recovered": 0.17,
+        "charges_drawn": 0.17,
+        "screen_assists": 1.33
       }
     },
     {
@@ -8806,27 +9282,27 @@
       "id": 1628369,
       "name": "Jayson Tatum",
       "team": "BOS",
-      "gp": 5,
+      "gp": 6,
       "zones": {
         "at_rim": {
-          "fga": 27,
-          "fgm": 19,
-          "pct": 0.7037
+          "fga": 32,
+          "fgm": 22,
+          "pct": 0.6875
         },
         "paint": {
-          "fga": 20,
-          "fgm": 8,
-          "pct": 0.4
+          "fga": 24,
+          "fgm": 9,
+          "pct": 0.375
         },
         "mid": {
-          "fga": 23,
-          "fgm": 10,
-          "pct": 0.4348
+          "fga": 28,
+          "fgm": 13,
+          "pct": 0.4643
         },
         "corner_3": {
-          "fga": 3,
+          "fga": 4,
           "fgm": 1,
-          "pct": 0.3333
+          "pct": 0.25
         },
         "l_corner_3": {
           "fga": 2,
@@ -8834,32 +9310,32 @@
           "pct": 0.0
         },
         "r_corner_3": {
-          "fga": 1,
+          "fga": 2,
           "fgm": 1,
-          "pct": 1.0
+          "pct": 0.5
         },
         "above_break_3": {
-          "fga": 33,
-          "fgm": 8,
-          "pct": 0.2424
+          "fga": 37,
+          "fgm": 9,
+          "pct": 0.2432
         }
       },
       "overall": {
-        "fg_pct": 0.434,
-        "efg_pct": 0.47641509433962265,
-        "ft_pct": 0.841,
-        "fga": 21.2,
-        "fta": 8.8,
-        "fgm": 9.2,
-        "fga_total": 106,
-        "fta_total": 44,
-        "fgm_total": 46,
-        "ts_pct": 0.55
+        "fg_pct": 0.432,
+        "efg_pct": 0.4735576923076923,
+        "ft_pct": 0.852,
+        "fga": 20.8,
+        "fta": 10.2,
+        "fgm": 9.0,
+        "fga_total": 125,
+        "fta_total": 61,
+        "fgm_total": 54,
+        "ts_pct": 0.56
       },
       "defense": {
-        "spg": 0.8,
-        "bpg": 0.2,
-        "rpg": 6.4
+        "spg": 0.7,
+        "bpg": 0.5,
+        "rpg": 6.0
       },
       "hustle": {
         "contested_shots": 4.2,
@@ -8930,12 +9406,12 @@
         "rpg": 2.3
       },
       "hustle": {
-        "contested_shots": 3.0,
-        "deflections": 0.6,
-        "box_outs": 0.8,
-        "loose_balls_recovered": 0.2,
-        "charges_drawn": 0.2,
-        "screen_assists": 0.2
+        "contested_shots": 3.33,
+        "deflections": 1.17,
+        "box_outs": 0.67,
+        "loose_balls_recovered": 0.17,
+        "charges_drawn": 0.17,
+        "screen_assists": 0.17
       }
     },
     {
@@ -8998,10 +9474,10 @@
         "rpg": 4.3
       },
       "hustle": {
-        "contested_shots": 2.6,
-        "deflections": 2.2,
+        "contested_shots": 2.83,
+        "deflections": 2.5,
         "box_outs": 0.0,
-        "loose_balls_recovered": 0.4,
+        "loose_balls_recovered": 0.33,
         "charges_drawn": 0.0,
         "screen_assists": 0.0
       }
@@ -9066,12 +9542,12 @@
         "rpg": 6.9
       },
       "hustle": {
-        "contested_shots": 7.33,
-        "deflections": 0.67,
-        "box_outs": 1.67,
-        "loose_balls_recovered": 0.33,
+        "contested_shots": 8.43,
+        "deflections": 0.71,
+        "box_outs": 1.86,
+        "loose_balls_recovered": 0.29,
         "charges_drawn": 0.0,
-        "screen_assists": 2.5
+        "screen_assists": 2.43
       }
     },
     {
@@ -9338,12 +9814,12 @@
         "rpg": 4.7
       },
       "hustle": {
-        "contested_shots": 3.67,
-        "deflections": 2.83,
-        "box_outs": 0.83,
-        "loose_balls_recovered": 0.5,
+        "contested_shots": 3.71,
+        "deflections": 2.57,
+        "box_outs": 0.86,
+        "loose_balls_recovered": 0.43,
         "charges_drawn": 0.0,
-        "screen_assists": 0.83
+        "screen_assists": 0.71
       }
     },
     {
@@ -9418,7 +9894,7 @@
       "id": 1641775,
       "name": "Jordan Walsh",
       "team": "BOS",
-      "gp": 5,
+      "gp": 6,
       "zones": {
         "at_rim": {
           "fga": 10,
@@ -9436,42 +9912,42 @@
           "pct": 0.0
         },
         "corner_3": {
-          "fga": 6,
+          "fga": 8,
           "fgm": 2,
-          "pct": 0.3333
+          "pct": 0.25
         },
         "l_corner_3": {
-          "fga": 4,
+          "fga": 5,
           "fgm": 2,
-          "pct": 0.5
+          "pct": 0.4
         },
         "r_corner_3": {
-          "fga": 2,
+          "fga": 3,
           "fgm": 0,
           "pct": 0.0
         },
         "above_break_3": {
-          "fga": 6,
+          "fga": 7,
           "fgm": 2,
-          "pct": 0.3333
+          "pct": 0.2857
         }
       },
       "overall": {
-        "fg_pct": 0.435,
-        "efg_pct": 0.5217391304347826,
+        "fg_pct": 0.385,
+        "efg_pct": 0.4767441860465116,
         "ft_pct": 1.0,
-        "fga": 4.6,
-        "fta": 0.4,
-        "fgm": 2.0,
-        "fga_total": 23,
+        "fga": 4.3,
+        "fta": 0.3,
+        "fgm": 1.7,
+        "fga_total": 26,
         "fta_total": 2,
         "fgm_total": 10,
-        "ts_pct": 0.544
+        "ts_pct": 0.484
       },
       "defense": {
-        "spg": 1.0,
+        "spg": 0.8,
         "bpg": 0.2,
-        "rpg": 4.0
+        "rpg": 3.8
       },
       "hustle": {
         "contested_shots": 2.8,
@@ -9678,12 +10154,12 @@
         "rpg": 3.0
       },
       "hustle": {
-        "contested_shots": 2.75,
-        "deflections": 2.0,
-        "box_outs": 0.25,
-        "loose_balls_recovered": 0.75,
-        "charges_drawn": 0.25,
-        "screen_assists": 0.0
+        "contested_shots": 2.4,
+        "deflections": 1.6,
+        "box_outs": 0.4,
+        "loose_balls_recovered": 0.6,
+        "charges_drawn": 0.2,
+        "screen_assists": 0.2
       }
     },
     {
@@ -9746,10 +10222,10 @@
         "rpg": 3.8
       },
       "hustle": {
-        "contested_shots": 1.75,
-        "deflections": 2.5,
-        "box_outs": 0.25,
-        "loose_balls_recovered": 1.0,
+        "contested_shots": 1.8,
+        "deflections": 2.8,
+        "box_outs": 0.2,
+        "loose_balls_recovered": 0.8,
         "charges_drawn": 0.0,
         "screen_assists": 1.0
       }
@@ -9814,44 +10290,44 @@
         "rpg": 3.3
       },
       "hustle": {
-        "contested_shots": 4.0,
-        "deflections": 1.8,
-        "box_outs": 0.0,
-        "loose_balls_recovered": 0.2,
+        "contested_shots": 3.67,
+        "deflections": 2.17,
+        "box_outs": 0.17,
+        "loose_balls_recovered": 0.17,
         "charges_drawn": 0.0,
-        "screen_assists": 0.2
+        "screen_assists": 0.17
       }
     },
     {
       "id": 203944,
       "name": "Julius Randle",
       "team": "BKN",
-      "gp": 5,
+      "gp": 6,
       "zones": {
         "at_rim": {
-          "fga": 16,
-          "fgm": 8,
+          "fga": 18,
+          "fgm": 9,
           "pct": 0.5
         },
         "paint": {
-          "fga": 23,
+          "fga": 26,
           "fgm": 12,
-          "pct": 0.5217
+          "pct": 0.4615
         },
         "mid": {
-          "fga": 12,
+          "fga": 13,
           "fgm": 6,
-          "pct": 0.5
+          "pct": 0.4615
         },
         "corner_3": {
-          "fga": 5,
+          "fga": 6,
           "fgm": 3,
-          "pct": 0.6
+          "pct": 0.5
         },
         "l_corner_3": {
-          "fga": 3,
+          "fga": 4,
           "fgm": 2,
-          "pct": 0.6667
+          "pct": 0.5
         },
         "r_corner_3": {
           "fga": 2,
@@ -9859,27 +10335,27 @@
           "pct": 0.5
         },
         "above_break_3": {
-          "fga": 19,
-          "fgm": 5,
-          "pct": 0.2632
+          "fga": 27,
+          "fgm": 9,
+          "pct": 0.3333
         }
       },
       "overall": {
-        "fg_pct": 0.453,
-        "efg_pct": 0.5066666666666666,
-        "ft_pct": 0.806,
+        "fg_pct": 0.433,
+        "efg_pct": 0.5,
+        "ft_pct": 0.833,
         "fga": 15.0,
-        "fta": 7.2,
-        "fgm": 6.8,
-        "fga_total": 75,
-        "fta_total": 36,
-        "fgm_total": 34,
-        "ts_pct": 0.578
+        "fta": 7.0,
+        "fgm": 6.5,
+        "fga_total": 90,
+        "fta_total": 42,
+        "fgm_total": 39,
+        "ts_pct": 0.576
       },
       "defense": {
-        "spg": 0.6,
+        "spg": 0.8,
         "bpg": 0.2,
-        "rpg": 7.6
+        "rpg": 7.2
       },
       "hustle": {
         "contested_shots": 3.6,
@@ -10018,12 +10494,12 @@
         "rpg": 4.2
       },
       "hustle": {
-        "contested_shots": 3.25,
-        "deflections": 1.75,
-        "box_outs": 1.25,
-        "loose_balls_recovered": 0.0,
+        "contested_shots": 3.8,
+        "deflections": 2.4,
+        "box_outs": 1.2,
+        "loose_balls_recovered": 0.2,
         "charges_drawn": 0.0,
-        "screen_assists": 0.75
+        "screen_assists": 1.4
       }
     },
     {
@@ -10086,11 +10562,11 @@
         "rpg": 2.8
       },
       "hustle": {
-        "contested_shots": 2.4,
-        "deflections": 2.2,
+        "contested_shots": 2.5,
+        "deflections": 2.17,
         "box_outs": 0.0,
-        "loose_balls_recovered": 0.2,
-        "charges_drawn": 0.0,
+        "loose_balls_recovered": 0.33,
+        "charges_drawn": 0.17,
         "screen_assists": 0.0
       }
     },
@@ -10098,20 +10574,20 @@
       "id": 1643413,
       "name": "Keaton Wagler",
       "team": "LAC",
-      "gp": 5,
+      "gp": 6,
       "zones": {
         "at_rim": {
-          "fga": 7,
-          "fgm": 2,
-          "pct": 0.2857
+          "fga": 8,
+          "fgm": 3,
+          "pct": 0.375
         },
         "paint": {
-          "fga": 9,
-          "fgm": 2,
-          "pct": 0.2222
+          "fga": 11,
+          "fgm": 3,
+          "pct": 0.2727
         },
         "mid": {
-          "fga": 5,
+          "fga": 6,
           "fgm": 0,
           "pct": 0.0
         },
@@ -10131,27 +10607,27 @@
           "pct": 0.0
         },
         "above_break_3": {
-          "fga": 24,
+          "fga": 28,
           "fgm": 8,
-          "pct": 0.3333
+          "pct": 0.2857
         }
       },
       "overall": {
-        "fg_pct": 0.286,
-        "efg_pct": 0.38775510204081626,
-        "ft_pct": 0.872,
-        "fga": 9.8,
-        "fta": 7.8,
-        "fgm": 2.8,
-        "fga_total": 49,
-        "fta_total": 39,
-        "fgm_total": 14,
-        "ts_pct": 0.544
+        "fg_pct": 0.281,
+        "efg_pct": 0.37368421052631584,
+        "ft_pct": 0.881,
+        "fga": 9.5,
+        "fta": 7.0,
+        "fgm": 2.7,
+        "fga_total": 57,
+        "fta_total": 42,
+        "fgm_total": 16,
+        "ts_pct": 0.523
       },
       "defense": {
-        "spg": 1.0,
+        "spg": 0.8,
         "bpg": 0.2,
-        "rpg": 4.6
+        "rpg": 4.5
       },
       "hustle": {
         "contested_shots": 4.6,
@@ -10222,12 +10698,12 @@
         "rpg": 8.7
       },
       "hustle": {
-        "contested_shots": 4.4,
-        "deflections": 0.6,
-        "box_outs": 1.6,
-        "loose_balls_recovered": 0.4,
+        "contested_shots": 5.33,
+        "deflections": 0.5,
+        "box_outs": 1.5,
+        "loose_balls_recovered": 0.5,
         "charges_drawn": 0.0,
-        "screen_assists": 1.4
+        "screen_assists": 1.5
       }
     },
     {
@@ -10290,29 +10766,29 @@
         "rpg": 5.3
       },
       "hustle": {
-        "contested_shots": 1.8,
-        "deflections": 1.2,
-        "box_outs": 1.4,
-        "loose_balls_recovered": 0.4,
+        "contested_shots": 1.67,
+        "deflections": 1.0,
+        "box_outs": 1.5,
+        "loose_balls_recovered": 0.33,
         "charges_drawn": 0.0,
-        "screen_assists": 0.0
+        "screen_assists": 0.17
       }
     },
     {
       "id": 1626162,
       "name": "Kelly Oubre Jr.",
       "team": "IND",
-      "gp": 6,
+      "gp": 7,
       "zones": {
         "at_rim": {
-          "fga": 15,
+          "fga": 16,
           "fgm": 9,
-          "pct": 0.6
+          "pct": 0.5625
         },
         "paint": {
-          "fga": 8,
-          "fgm": 5,
-          "pct": 0.625
+          "fga": 10,
+          "fgm": 6,
+          "pct": 0.6
         },
         "mid": {
           "fga": 3,
@@ -10320,42 +10796,42 @@
           "pct": 0.6667
         },
         "corner_3": {
-          "fga": 13,
-          "fgm": 3,
-          "pct": 0.2308
-        },
-        "l_corner_3": {
-          "fga": 4,
-          "fgm": 1,
+          "fga": 16,
+          "fgm": 4,
           "pct": 0.25
         },
-        "r_corner_3": {
-          "fga": 9,
+        "l_corner_3": {
+          "fga": 6,
           "fgm": 2,
-          "pct": 0.2222
+          "pct": 0.3333
+        },
+        "r_corner_3": {
+          "fga": 10,
+          "fgm": 2,
+          "pct": 0.2
         },
         "above_break_3": {
-          "fga": 9,
-          "fgm": 2,
-          "pct": 0.2222
+          "fga": 11,
+          "fgm": 3,
+          "pct": 0.2727
         }
       },
       "overall": {
-        "fg_pct": 0.438,
+        "fg_pct": 0.429,
         "efg_pct": 0.4875,
-        "ft_pct": 0.667,
+        "ft_pct": 0.688,
         "fga": 8.0,
-        "fta": 2.0,
-        "fgm": 3.5,
-        "fga_total": 48,
-        "fta_total": 12,
-        "fgm_total": 21,
-        "ts_pct": 0.516
+        "fta": 2.3,
+        "fgm": 3.4,
+        "fga_total": 56,
+        "fta_total": 16,
+        "fgm_total": 24,
+        "ts_pct": 0.523
       },
       "defense": {
         "spg": 0.3,
         "bpg": 0.7,
-        "rpg": 2.7
+        "rpg": 2.6
       },
       "hustle": {
         "contested_shots": 3.67,
@@ -10426,12 +10902,12 @@
         "rpg": 3.5
       },
       "hustle": {
-        "contested_shots": 2.0,
-        "deflections": 0.67,
-        "box_outs": 0.67,
-        "loose_balls_recovered": 0.0,
+        "contested_shots": 1.75,
+        "deflections": 0.75,
+        "box_outs": 0.5,
+        "loose_balls_recovered": 0.25,
         "charges_drawn": 0.0,
-        "screen_assists": 0.33
+        "screen_assists": 0.5
       }
     },
     {
@@ -10494,19 +10970,19 @@
         "rpg": 2.7
       },
       "hustle": {
-        "contested_shots": 1.33,
-        "deflections": 1.5,
-        "box_outs": 0.5,
-        "loose_balls_recovered": 0.33,
+        "contested_shots": 1.29,
+        "deflections": 1.57,
+        "box_outs": 0.57,
+        "loose_balls_recovered": 0.29,
         "charges_drawn": 0.0,
-        "screen_assists": 0.17
+        "screen_assists": 0.14
       }
     },
     {
       "id": 1631165,
       "name": "Keon Ellis",
       "team": "BKN",
-      "gp": 5,
+      "gp": 6,
       "zones": {
         "at_rim": {
           "fga": 5,
@@ -10519,7 +10995,7 @@
           "pct": 0.5
         },
         "mid": {
-          "fga": 1,
+          "fga": 3,
           "fgm": 0,
           "pct": 0.0
         },
@@ -10539,30 +11015,30 @@
           "pct": 0.6667
         },
         "above_break_3": {
-          "fga": 10,
+          "fga": 13,
           "fgm": 3,
-          "pct": 0.3
+          "pct": 0.2308
         }
       },
       "overall": {
-        "fg_pct": 0.414,
-        "efg_pct": 0.5172413793103449,
+        "fg_pct": 0.353,
+        "efg_pct": 0.43859649122807015,
         "ft_pct": 0.0,
-        "fga": 5.8,
+        "fga": 5.7,
         "fta": 0,
-        "fgm": 2.4,
-        "fga_total": 29,
+        "fgm": 2.0,
+        "fga_total": 34,
         "fta_total": 0,
         "fgm_total": 12,
-        "ts_pct": 0.517
+        "ts_pct": 0.441
       },
       "defense": {
-        "spg": 1.4,
-        "bpg": 1.2,
+        "spg": 1.3,
+        "bpg": 1.0,
         "rpg": 1.8
       },
       "hustle": {
-        "contested_shots": 3.6,
+        "contested_shots": 3.4,
         "deflections": 2.8,
         "box_outs": 0.4,
         "loose_balls_recovered": 0.6,
@@ -10630,12 +11106,12 @@
         "rpg": 5.6
       },
       "hustle": {
-        "contested_shots": 5.67,
+        "contested_shots": 5.86,
         "deflections": 1.0,
-        "box_outs": 0.5,
-        "loose_balls_recovered": 0.17,
-        "charges_drawn": 0.33,
-        "screen_assists": 0.83
+        "box_outs": 0.57,
+        "loose_balls_recovered": 0.14,
+        "charges_drawn": 0.29,
+        "screen_assists": 0.71
       }
     },
     {
@@ -10766,12 +11242,12 @@
         "rpg": 3.8
       },
       "hustle": {
-        "contested_shots": 3.8,
-        "deflections": 1.6,
+        "contested_shots": 3.5,
+        "deflections": 1.33,
         "box_outs": 0.0,
-        "loose_balls_recovered": 0.4,
-        "charges_drawn": 0.6,
-        "screen_assists": 0.6
+        "loose_balls_recovered": 0.5,
+        "charges_drawn": 0.5,
+        "screen_assists": 0.5
       }
     },
     {
@@ -10902,12 +11378,12 @@
         "rpg": 2.9
       },
       "hustle": {
-        "contested_shots": 1.67,
-        "deflections": 1.83,
-        "box_outs": 0.17,
-        "loose_balls_recovered": 0.0,
+        "contested_shots": 1.43,
+        "deflections": 2.0,
+        "box_outs": 0.14,
+        "loose_balls_recovered": 0.14,
         "charges_drawn": 0.0,
-        "screen_assists": 0.17
+        "screen_assists": 0.14
       }
     },
     {
@@ -10982,17 +11458,17 @@
       "id": 1642920,
       "name": "Kobe Sanders",
       "team": "LAC",
-      "gp": 5,
+      "gp": 6,
       "zones": {
         "at_rim": {
-          "fga": 8,
-          "fgm": 4,
-          "pct": 0.5
+          "fga": 10,
+          "fgm": 6,
+          "pct": 0.6
         },
         "paint": {
-          "fga": 6,
+          "fga": 7,
           "fgm": 2,
-          "pct": 0.3333
+          "pct": 0.2857
         },
         "mid": {
           "fga": 1,
@@ -11000,14 +11476,14 @@
           "pct": 1.0
         },
         "corner_3": {
-          "fga": 3,
-          "fgm": 0,
-          "pct": 0.0
+          "fga": 6,
+          "fgm": 3,
+          "pct": 0.5
         },
         "l_corner_3": {
-          "fga": 1,
-          "fgm": 0,
-          "pct": 0.0
+          "fga": 4,
+          "fgm": 3,
+          "pct": 0.75
         },
         "r_corner_3": {
           "fga": 2,
@@ -11015,25 +11491,25 @@
           "pct": 0.0
         },
         "above_break_3": {
-          "fga": 12,
-          "fgm": 5,
-          "pct": 0.4167
+          "fga": 15,
+          "fgm": 6,
+          "pct": 0.4
         }
       },
       "overall": {
-        "fg_pct": 0.4,
-        "efg_pct": 0.48333333333333334,
+        "fg_pct": 0.462,
+        "efg_pct": 0.5769230769230769,
         "ft_pct": 1.0,
-        "fga": 6.0,
-        "fta": 1.2,
-        "fgm": 2.4,
-        "fga_total": 30,
+        "fga": 6.5,
+        "fta": 1.0,
+        "fgm": 3.0,
+        "fga_total": 39,
         "fta_total": 6,
-        "fgm_total": 12,
-        "ts_pct": 0.536
+        "fgm_total": 18,
+        "ts_pct": 0.612
       },
       "defense": {
-        "spg": 1.6,
+        "spg": 1.5,
         "bpg": 0.0,
         "rpg": 3.0
       },
@@ -11050,17 +11526,17 @@
       "id": 1627739,
       "name": "Kris Dunn",
       "team": "LAC",
-      "gp": 5,
+      "gp": 6,
       "zones": {
         "at_rim": {
-          "fga": 8,
-          "fgm": 6,
-          "pct": 0.75
+          "fga": 12,
+          "fgm": 10,
+          "pct": 0.8333
         },
         "paint": {
-          "fga": 6,
-          "fgm": 3,
-          "pct": 0.5
+          "fga": 7,
+          "fgm": 4,
+          "pct": 0.5714
         },
         "mid": {
           "fga": 0,
@@ -11068,42 +11544,42 @@
           "pct": null
         },
         "corner_3": {
-          "fga": 1,
+          "fga": 3,
           "fgm": 1,
-          "pct": 1.0
+          "pct": 0.3333
         },
         "l_corner_3": {
-          "fga": 1,
+          "fga": 2,
           "fgm": 1,
-          "pct": 1.0
+          "pct": 0.5
         },
         "r_corner_3": {
-          "fga": 0,
+          "fga": 1,
           "fgm": 0,
-          "pct": null
+          "pct": 0.0
         },
         "above_break_3": {
-          "fga": 12,
+          "fga": 13,
           "fgm": 4,
-          "pct": 0.3333
+          "pct": 0.3077
         }
       },
       "overall": {
-        "fg_pct": 0.519,
-        "efg_pct": 0.611111111111111,
-        "ft_pct": 0.75,
-        "fga": 5.4,
-        "fta": 1.6,
-        "fgm": 2.8,
-        "fga_total": 27,
-        "fta_total": 8,
-        "fgm_total": 14,
-        "ts_pct": 0.639
+        "fg_pct": 0.543,
+        "efg_pct": 0.6206896551724138,
+        "ft_pct": 0.8,
+        "fga": 5.8,
+        "fta": 1.7,
+        "fgm": 3.2,
+        "fga_total": 35,
+        "fta_total": 10,
+        "fgm_total": 19,
+        "ts_pct": 0.647
       },
       "defense": {
-        "spg": 2.2,
-        "bpg": 0.8,
-        "rpg": 4.4
+        "spg": 3.0,
+        "bpg": 0.7,
+        "rpg": 4.0
       },
       "hustle": {
         "contested_shots": 2.2,
@@ -11174,12 +11650,12 @@
         "rpg": 7.2
       },
       "hustle": {
-        "contested_shots": 3.8,
+        "contested_shots": 3.5,
         "deflections": 1.0,
-        "box_outs": 0.6,
+        "box_outs": 0.5,
         "loose_balls_recovered": 0.0,
         "charges_drawn": 0.0,
-        "screen_assists": 0.4
+        "screen_assists": 0.33
       }
     },
     {
@@ -11242,7 +11718,7 @@
         "rpg": 3.4
       },
       "hustle": {
-        "contested_shots": 2.6,
+        "contested_shots": 3.0,
         "deflections": 3.4,
         "box_outs": 0.2,
         "loose_balls_recovered": 0.2,
@@ -11319,6 +11795,74 @@
       }
     },
     {
+      "id": 1643018,
+      "name": "LJ Cryer",
+      "team": "GSW",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 1,
+          "fgm": 1,
+          "pct": 1.0
+        },
+        "paint": {
+          "fga": 2,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "mid": {
+          "fga": 3,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "corner_3": {
+          "fga": 1,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "l_corner_3": {
+          "fga": 1,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "r_corner_3": {
+          "fga": 0,
+          "fgm": 0,
+          "pct": null
+        },
+        "above_break_3": {
+          "fga": 8,
+          "fgm": 5,
+          "pct": 0.625
+        }
+      },
+      "overall": {
+        "fg_pct": 0.4,
+        "efg_pct": 0.5666666666666667,
+        "ft_pct": 0.5,
+        "fga": 3.0,
+        "fta": 0.4,
+        "fgm": 1.2,
+        "fga_total": 15,
+        "fta_total": 2,
+        "fgm_total": 6,
+        "ts_pct": 0.567
+      },
+      "defense": {
+        "spg": 0.0,
+        "bpg": 0.0,
+        "rpg": 0.4
+      },
+      "hustle": {
+        "contested_shots": 0.5,
+        "deflections": 0.0,
+        "box_outs": 0.5,
+        "loose_balls_recovered": 0.5,
+        "charges_drawn": 0.0,
+        "screen_assists": 0.0
+      }
+    },
+    {
       "id": 1630163,
       "name": "LaMelo Ball",
       "team": "MIN",
@@ -11378,12 +11922,12 @@
         "rpg": 3.3
       },
       "hustle": {
-        "contested_shots": 1.33,
-        "deflections": 3.0,
-        "box_outs": 0.67,
-        "loose_balls_recovered": 0.67,
+        "contested_shots": 1.43,
+        "deflections": 2.86,
+        "box_outs": 0.57,
+        "loose_balls_recovered": 0.71,
         "charges_drawn": 0.0,
-        "screen_assists": 0.17
+        "screen_assists": 0.14
       }
     },
     {
@@ -11458,7 +12002,7 @@
       "id": 1626204,
       "name": "Larry Nance Jr.",
       "team": "IND",
-      "gp": 6,
+      "gp": 7,
       "zones": {
         "at_rim": {
           "fga": 5,
@@ -11466,9 +12010,9 @@
           "pct": 0.6
         },
         "paint": {
-          "fga": 0,
+          "fga": 1,
           "fgm": 0,
-          "pct": null
+          "pct": 0.0
         },
         "mid": {
           "fga": 2,
@@ -11476,42 +12020,42 @@
           "pct": 0.0
         },
         "corner_3": {
-          "fga": 5,
-          "fgm": 2,
-          "pct": 0.4
+          "fga": 8,
+          "fgm": 3,
+          "pct": 0.375
         },
         "l_corner_3": {
-          "fga": 2,
-          "fgm": 1,
-          "pct": 0.5
-        },
-        "r_corner_3": {
           "fga": 3,
           "fgm": 1,
           "pct": 0.3333
         },
-        "above_break_3": {
-          "fga": 7,
+        "r_corner_3": {
+          "fga": 5,
           "fgm": 2,
-          "pct": 0.2857
+          "pct": 0.4
+        },
+        "above_break_3": {
+          "fga": 8,
+          "fgm": 2,
+          "pct": 0.25
         }
       },
       "overall": {
-        "fg_pct": 0.368,
-        "efg_pct": 0.48437499999999994,
-        "ft_pct": 1.0,
-        "fga": 3.2,
-        "fta": 0.2,
-        "fgm": 1.2,
-        "fga_total": 19,
-        "fta_total": 1,
-        "fgm_total": 7,
-        "ts_pct": 0.489
+        "fg_pct": 0.333,
+        "efg_pct": 0.42647058823529416,
+        "ft_pct": 0.4,
+        "fga": 3.4,
+        "fta": 0.7,
+        "fgm": 1.1,
+        "fga_total": 24,
+        "fta_total": 5,
+        "fgm_total": 8,
+        "ts_pct": 0.439
       },
       "defense": {
-        "spg": 1.2,
+        "spg": 1.1,
         "bpg": 0.3,
-        "rpg": 2.7
+        "rpg": 3.1
       },
       "hustle": {
         "contested_shots": 3.0,
@@ -11582,12 +12126,12 @@
         "rpg": 5.6
       },
       "hustle": {
-        "contested_shots": 7.25,
-        "deflections": 1.5,
-        "box_outs": 1.5,
-        "loose_balls_recovered": 0.5,
+        "contested_shots": 7.2,
+        "deflections": 1.6,
+        "box_outs": 1.2,
+        "loose_balls_recovered": 0.4,
         "charges_drawn": 0.0,
-        "screen_assists": 0.25
+        "screen_assists": 0.2
       }
     },
     {
@@ -11786,34 +12330,34 @@
         "rpg": 3.1
       },
       "hustle": {
-        "contested_shots": 3.67,
-        "deflections": 1.5,
-        "box_outs": 1.17,
-        "loose_balls_recovered": 0.5,
-        "charges_drawn": 0.17,
-        "screen_assists": 0.33
+        "contested_shots": 3.57,
+        "deflections": 1.57,
+        "box_outs": 1.14,
+        "loose_balls_recovered": 0.43,
+        "charges_drawn": 0.14,
+        "screen_assists": 0.43
       }
     },
     {
       "id": 1629029,
       "name": "Luka Don\u010di\u0107",
       "team": "LAL",
-      "gp": 5,
+      "gp": 6,
       "zones": {
         "at_rim": {
-          "fga": 6,
-          "fgm": 5,
-          "pct": 0.8333
+          "fga": 9,
+          "fgm": 7,
+          "pct": 0.7778
         },
         "paint": {
-          "fga": 18,
-          "fgm": 11,
-          "pct": 0.6111
+          "fga": 24,
+          "fgm": 12,
+          "pct": 0.5
         },
         "mid": {
-          "fga": 25,
-          "fgm": 13,
-          "pct": 0.52
+          "fga": 27,
+          "fgm": 14,
+          "pct": 0.5185
         },
         "corner_3": {
           "fga": 7,
@@ -11831,30 +12375,30 @@
           "pct": 0.0
         },
         "above_break_3": {
-          "fga": 61,
-          "fgm": 22,
-          "pct": 0.3607
+          "fga": 73,
+          "fgm": 30,
+          "pct": 0.411
         }
       },
       "overall": {
-        "fg_pct": 0.475,
-        "efg_pct": 0.5889830508474575,
-        "ft_pct": 0.875,
-        "fga": 23.6,
-        "fta": 9.6,
-        "fgm": 11.2,
-        "fga_total": 118,
-        "fta_total": 48,
-        "fgm_total": 56,
-        "ts_pct": 0.651
+        "fg_pct": 0.482,
+        "efg_pct": 0.6042553191489363,
+        "ft_pct": 0.902,
+        "fga": 23.5,
+        "fta": 10.2,
+        "fgm": 11.3,
+        "fga_total": 141,
+        "fta_total": 61,
+        "fgm_total": 68,
+        "ts_pct": 0.673
       },
       "defense": {
-        "spg": 1.2,
+        "spg": 1.8,
         "bpg": 0.8,
-        "rpg": 6.8
+        "rpg": 8.2
       },
       "hustle": {
-        "contested_shots": 3.4,
+        "contested_shots": 3.8,
         "deflections": 1.6,
         "box_outs": 0.4,
         "loose_balls_recovered": 1.0,
@@ -11866,26 +12410,26 @@
       "id": 1630568,
       "name": "Luka Garza",
       "team": "BOS",
-      "gp": 5,
+      "gp": 6,
       "zones": {
         "at_rim": {
-          "fga": 10,
-          "fgm": 4,
-          "pct": 0.4
+          "fga": 11,
+          "fgm": 5,
+          "pct": 0.4545
         },
         "paint": {
-          "fga": 1,
-          "fgm": 1,
+          "fga": 2,
+          "fgm": 2,
           "pct": 1.0
         },
         "mid": {
-          "fga": 0,
+          "fga": 1,
           "fgm": 0,
-          "pct": null
+          "pct": 0.0
         },
         "corner_3": {
-          "fga": 1,
-          "fgm": 1,
+          "fga": 3,
+          "fgm": 3,
           "pct": 1.0
         },
         "l_corner_3": {
@@ -11894,32 +12438,32 @@
           "pct": null
         },
         "r_corner_3": {
-          "fga": 1,
-          "fgm": 1,
+          "fga": 3,
+          "fgm": 3,
           "pct": 1.0
         },
         "above_break_3": {
-          "fga": 5,
+          "fga": 7,
           "fgm": 1,
-          "pct": 0.2
+          "pct": 0.1429
         }
       },
       "overall": {
-        "fg_pct": 0.412,
-        "efg_pct": 0.47058823529411764,
-        "ft_pct": 0.7,
-        "fga": 3.4,
-        "fta": 2.0,
-        "fgm": 1.4,
-        "fga_total": 17,
-        "fta_total": 10,
-        "fgm_total": 7,
-        "ts_pct": 0.537
+        "fg_pct": 0.458,
+        "efg_pct": 0.5375,
+        "ft_pct": 0.692,
+        "fga": 4.0,
+        "fta": 2.2,
+        "fgm": 1.8,
+        "fga_total": 24,
+        "fta_total": 13,
+        "fgm_total": 11,
+        "ts_pct": 0.589
       },
       "defense": {
-        "spg": 0.4,
+        "spg": 0.5,
         "bpg": 0.0,
-        "rpg": 2.2
+        "rpg": 2.8
       },
       "hustle": {
         "contested_shots": 1.6,
@@ -11990,12 +12534,12 @@
         "rpg": 4.3
       },
       "hustle": {
-        "contested_shots": 4.6,
-        "deflections": 0.6,
-        "box_outs": 1.4,
-        "loose_balls_recovered": 0.2,
+        "contested_shots": 5.0,
+        "deflections": 0.5,
+        "box_outs": 1.5,
+        "loose_balls_recovered": 0.17,
         "charges_drawn": 0.0,
-        "screen_assists": 3.0
+        "screen_assists": 2.67
       }
     },
     {
@@ -12058,12 +12602,12 @@
         "rpg": 1.2
       },
       "hustle": {
-        "contested_shots": 1.0,
-        "deflections": 0.5,
+        "contested_shots": 0.67,
+        "deflections": 1.0,
         "box_outs": 0.0,
         "loose_balls_recovered": 0.0,
         "charges_drawn": 0.0,
-        "screen_assists": 0.5
+        "screen_assists": 0.33
       }
     },
     {
@@ -12194,12 +12738,12 @@
         "rpg": 5.2
       },
       "hustle": {
-        "contested_shots": 2.4,
-        "deflections": 1.4,
-        "box_outs": 0.4,
-        "loose_balls_recovered": 0.4,
+        "contested_shots": 2.67,
+        "deflections": 1.33,
+        "box_outs": 0.5,
+        "loose_balls_recovered": 0.33,
         "charges_drawn": 0.0,
-        "screen_assists": 0.8
+        "screen_assists": 0.67
       }
     },
     {
@@ -12262,7 +12806,7 @@
         "rpg": 3.8
       },
       "hustle": {
-        "contested_shots": 3.6,
+        "contested_shots": 3.8,
         "deflections": 0.8,
         "box_outs": 0.4,
         "loose_balls_recovered": 0.4,
@@ -12342,17 +12886,17 @@
       "id": 1629680,
       "name": "Matisse Thybulle",
       "team": "LAL",
-      "gp": 6,
+      "gp": 7,
       "zones": {
         "at_rim": {
-          "fga": 6,
+          "fga": 7,
           "fgm": 3,
-          "pct": 0.5
+          "pct": 0.4286
         },
         "paint": {
-          "fga": 4,
+          "fga": 5,
           "fgm": 3,
-          "pct": 0.75
+          "pct": 0.6
         },
         "mid": {
           "fga": 0,
@@ -12360,14 +12904,14 @@
           "pct": null
         },
         "corner_3": {
-          "fga": 20,
+          "fga": 21,
           "fgm": 11,
-          "pct": 0.55
+          "pct": 0.5238
         },
         "l_corner_3": {
-          "fga": 11,
+          "fga": 12,
           "fgm": 7,
-          "pct": 0.6364
+          "pct": 0.5833
         },
         "r_corner_3": {
           "fga": 9,
@@ -12375,31 +12919,31 @@
           "pct": 0.4444
         },
         "above_break_3": {
-          "fga": 7,
-          "fgm": 2,
-          "pct": 0.2857
+          "fga": 10,
+          "fgm": 4,
+          "pct": 0.4
         }
       },
       "overall": {
-        "fg_pct": 0.514,
-        "efg_pct": 0.6935483870967742,
+        "fg_pct": 0.488,
+        "efg_pct": 0.6639344262295082,
         "ft_pct": 0.857,
-        "fga": 6.2,
-        "fta": 1.2,
-        "fgm": 3.2,
-        "fga_total": 37,
+        "fga": 6.1,
+        "fta": 1.0,
+        "fgm": 3.0,
+        "fga_total": 43,
         "fta_total": 7,
-        "fgm_total": 19,
-        "ts_pct": 0.711
+        "fgm_total": 21,
+        "ts_pct": 0.684
       },
       "defense": {
-        "spg": 1.8,
-        "bpg": 0.7,
-        "rpg": 1.8
+        "spg": 1.9,
+        "bpg": 0.9,
+        "rpg": 1.9
       },
       "hustle": {
-        "contested_shots": 1.5,
-        "deflections": 4.0,
+        "contested_shots": 1.67,
+        "deflections": 4.33,
         "box_outs": 0.17,
         "loose_balls_recovered": 0.33,
         "charges_drawn": 0.0,
@@ -12478,12 +13022,12 @@
       "id": 1629008,
       "name": "Michael Porter Jr.",
       "team": "BKN",
-      "gp": 5,
+      "gp": 6,
       "zones": {
         "at_rim": {
-          "fga": 18,
-          "fgm": 13,
-          "pct": 0.7222
+          "fga": 21,
+          "fgm": 16,
+          "pct": 0.7619
         },
         "paint": {
           "fga": 7,
@@ -12491,47 +13035,47 @@
           "pct": 0.4286
         },
         "mid": {
-          "fga": 10,
-          "fgm": 3,
-          "pct": 0.3
+          "fga": 13,
+          "fgm": 4,
+          "pct": 0.3077
         },
         "corner_3": {
-          "fga": 7,
-          "fgm": 2,
-          "pct": 0.2857
+          "fga": 12,
+          "fgm": 4,
+          "pct": 0.3333
         },
         "l_corner_3": {
-          "fga": 2,
-          "fgm": 0,
-          "pct": 0.0
+          "fga": 6,
+          "fgm": 2,
+          "pct": 0.3333
         },
         "r_corner_3": {
-          "fga": 5,
+          "fga": 6,
           "fgm": 2,
-          "pct": 0.4
+          "pct": 0.3333
         },
         "above_break_3": {
-          "fga": 35,
-          "fgm": 15,
-          "pct": 0.4286
+          "fga": 40,
+          "fgm": 16,
+          "pct": 0.4
         }
       },
       "overall": {
-        "fg_pct": 0.468,
-        "efg_pct": 0.577922077922078,
-        "ft_pct": 0.833,
-        "fga": 15.4,
-        "fta": 3.6,
+        "fg_pct": 0.462,
+        "efg_pct": 0.5709677419354838,
+        "ft_pct": 0.778,
+        "fga": 15.5,
+        "fta": 4.5,
         "fgm": 7.2,
-        "fga_total": 77,
-        "fta_total": 18,
-        "fgm_total": 36,
-        "ts_pct": 0.612
+        "fga_total": 93,
+        "fta_total": 27,
+        "fgm_total": 43,
+        "ts_pct": 0.605
       },
       "defense": {
-        "spg": 1.8,
-        "bpg": 0.6,
-        "rpg": 7.0
+        "spg": 1.7,
+        "bpg": 0.5,
+        "rpg": 7.3
       },
       "hustle": {
         "contested_shots": 3.0,
@@ -12740,7 +13284,7 @@
       "hustle": {
         "contested_shots": 4.8,
         "deflections": 1.2,
-        "box_outs": 1.2,
+        "box_outs": 1.4,
         "loose_balls_recovered": 0.2,
         "charges_drawn": 0.0,
         "screen_assists": 1.6
@@ -12818,12 +13362,12 @@
       "id": 1629021,
       "name": "Moritz Wagner",
       "team": "BKN",
-      "gp": 5,
+      "gp": 6,
       "zones": {
         "at_rim": {
-          "fga": 20,
-          "fgm": 12,
-          "pct": 0.6
+          "fga": 24,
+          "fgm": 15,
+          "pct": 0.625
         },
         "paint": {
           "fga": 4,
@@ -12851,27 +13395,27 @@
           "pct": 0.0
         },
         "above_break_3": {
-          "fga": 11,
-          "fgm": 7,
-          "pct": 0.6364
+          "fga": 13,
+          "fgm": 8,
+          "pct": 0.6154
         }
       },
       "overall": {
-        "fg_pct": 0.556,
-        "efg_pct": 0.6527777777777778,
-        "ft_pct": 0.769,
-        "fga": 7.2,
-        "fta": 2.6,
+        "fg_pct": 0.571,
+        "efg_pct": 0.6642857142857144,
+        "ft_pct": 0.789,
+        "fga": 7.0,
+        "fta": 3.2,
         "fgm": 4.0,
-        "fga_total": 36,
-        "fta_total": 13,
-        "fgm_total": 20,
-        "ts_pct": 0.683
+        "fga_total": 42,
+        "fta_total": 19,
+        "fgm_total": 24,
+        "ts_pct": 0.705
       },
       "defense": {
-        "spg": 0.8,
-        "bpg": 0.0,
-        "rpg": 3.8
+        "spg": 0.7,
+        "bpg": 0.2,
+        "rpg": 4.2
       },
       "hustle": {
         "contested_shots": 3.0,
@@ -12942,12 +13486,12 @@
         "rpg": 9.6
       },
       "hustle": {
-        "contested_shots": 7.5,
-        "deflections": 2.33,
+        "contested_shots": 7.14,
+        "deflections": 2.0,
         "box_outs": 4.0,
-        "loose_balls_recovered": 0.5,
+        "loose_balls_recovered": 0.43,
         "charges_drawn": 0.0,
-        "screen_assists": 2.5
+        "screen_assists": 2.57
       }
     },
     {
@@ -13010,12 +13554,12 @@
         "rpg": 5.2
       },
       "hustle": {
-        "contested_shots": 8.8,
-        "deflections": 1.0,
-        "box_outs": 1.0,
-        "loose_balls_recovered": 0.2,
+        "contested_shots": 9.17,
+        "deflections": 0.83,
+        "box_outs": 0.83,
+        "loose_balls_recovered": 0.17,
         "charges_drawn": 0.0,
-        "screen_assists": 2.8
+        "screen_assists": 3.0
       }
     },
     {
@@ -13078,29 +13622,29 @@
         "rpg": 8.6
       },
       "hustle": {
-        "contested_shots": 4.83,
-        "deflections": 1.5,
-        "box_outs": 2.17,
-        "loose_balls_recovered": 0.17,
+        "contested_shots": 5.43,
+        "deflections": 1.29,
+        "box_outs": 1.86,
+        "loose_balls_recovered": 0.14,
         "charges_drawn": 0.0,
-        "screen_assists": 1.0
+        "screen_assists": 0.86
       }
     },
     {
       "id": 1629674,
       "name": "Neemias Queta",
       "team": "BOS",
-      "gp": 5,
+      "gp": 6,
       "zones": {
         "at_rim": {
-          "fga": 16,
-          "fgm": 9,
-          "pct": 0.5625
+          "fga": 23,
+          "fgm": 13,
+          "pct": 0.5652
         },
         "paint": {
-          "fga": 6,
+          "fga": 7,
           "fgm": 3,
-          "pct": 0.5
+          "pct": 0.4286
         },
         "mid": {
           "fga": 1,
@@ -13123,27 +13667,27 @@
           "pct": null
         },
         "above_break_3": {
-          "fga": 0,
+          "fga": 1,
           "fgm": 0,
-          "pct": null
+          "pct": 0.0
         }
       },
       "overall": {
-        "fg_pct": 0.583,
-        "efg_pct": 0.6041666666666666,
+        "fg_pct": 0.545,
+        "efg_pct": 0.5636363636363636,
         "ft_pct": 0.64,
-        "fga": 4.8,
-        "fta": 5.0,
-        "fgm": 2.8,
-        "fga_total": 24,
+        "fga": 5.5,
+        "fta": 4.2,
+        "fgm": 3.0,
+        "fga_total": 33,
         "fta_total": 25,
-        "fgm_total": 14,
-        "ts_pct": 0.643
+        "fgm_total": 18,
+        "ts_pct": 0.602
       },
       "defense": {
-        "spg": 0.4,
-        "bpg": 1.6,
-        "rpg": 4.8
+        "spg": 0.3,
+        "bpg": 1.7,
+        "rpg": 5.3
       },
       "hustle": {
         "contested_shots": 7.6,
@@ -13214,12 +13758,12 @@
         "rpg": 3.1
       },
       "hustle": {
-        "contested_shots": 2.17,
-        "deflections": 1.67,
-        "box_outs": 0.5,
-        "loose_balls_recovered": 1.0,
-        "charges_drawn": 0.0,
-        "screen_assists": 0.5
+        "contested_shots": 1.86,
+        "deflections": 1.71,
+        "box_outs": 0.57,
+        "loose_balls_recovered": 1.14,
+        "charges_drawn": 0.14,
+        "screen_assists": 0.43
       }
     },
     {
@@ -13350,8 +13894,8 @@
         "rpg": 3.4
       },
       "hustle": {
-        "contested_shots": 3.6,
-        "deflections": 0.8,
+        "contested_shots": 3.8,
+        "deflections": 1.4,
         "box_outs": 1.0,
         "loose_balls_recovered": 0.2,
         "charges_drawn": 0.2,
@@ -13362,7 +13906,7 @@
       "id": 202696,
       "name": "Nikola Vu\u010devi\u0107",
       "team": "ORL",
-      "gp": 5,
+      "gp": 6,
       "zones": {
         "at_rim": {
           "fga": 2,
@@ -13370,9 +13914,9 @@
           "pct": 1.0
         },
         "paint": {
-          "fga": 3,
-          "fgm": 1,
-          "pct": 0.3333
+          "fga": 5,
+          "fgm": 2,
+          "pct": 0.4
         },
         "mid": {
           "fga": 0,
@@ -13401,24 +13945,24 @@
         }
       },
       "overall": {
-        "fg_pct": 0.385,
-        "efg_pct": 0.4615384615384615,
+        "fg_pct": 0.4,
+        "efg_pct": 0.45999999999999996,
         "ft_pct": 0.5,
-        "fga": 2.6,
-        "fta": 0.4,
+        "fga": 2.5,
+        "fta": 0.3,
         "fgm": 1.0,
-        "fga_total": 13,
+        "fga_total": 15,
         "fta_total": 2,
-        "fgm_total": 5,
-        "ts_pct": 0.468
+        "fgm_total": 6,
+        "ts_pct": 0.472
       },
       "defense": {
         "spg": 0.0,
-        "bpg": 0.6,
-        "rpg": 2.2
+        "bpg": 0.7,
+        "rpg": 2.5
       },
       "hustle": {
-        "contested_shots": 4.4,
+        "contested_shots": 4.6,
         "deflections": 0.2,
         "box_outs": 0.6,
         "loose_balls_recovered": 0.0,
@@ -13486,8 +14030,8 @@
         "rpg": 0.4
       },
       "hustle": {
-        "contested_shots": 3.0,
-        "deflections": 3.0,
+        "contested_shots": 1.5,
+        "deflections": 2.5,
         "box_outs": 0.0,
         "loose_balls_recovered": 0.0,
         "charges_drawn": 0.0,
@@ -13566,12 +14110,12 @@
       "id": 1641730,
       "name": "Noah Clowney",
       "team": "BKN",
-      "gp": 5,
+      "gp": 6,
       "zones": {
         "at_rim": {
-          "fga": 7,
-          "fgm": 3,
-          "pct": 0.4286
+          "fga": 10,
+          "fgm": 6,
+          "pct": 0.6
         },
         "paint": {
           "fga": 3,
@@ -13599,27 +14143,27 @@
           "pct": null
         },
         "above_break_3": {
-          "fga": 6,
+          "fga": 10,
           "fgm": 3,
-          "pct": 0.5
+          "pct": 0.3
         }
       },
       "overall": {
-        "fg_pct": 0.368,
-        "efg_pct": 0.47368421052631576,
-        "ft_pct": 0.714,
-        "fga": 3.8,
+        "fg_pct": 0.385,
+        "efg_pct": 0.4767441860465116,
+        "ft_pct": 0.706,
+        "fga": 4.3,
         "fta": 2.8,
-        "fgm": 1.4,
-        "fga_total": 19,
-        "fta_total": 14,
-        "fgm_total": 7,
-        "ts_pct": 0.556
+        "fgm": 1.7,
+        "fga_total": 26,
+        "fta_total": 17,
+        "fgm_total": 10,
+        "ts_pct": 0.538
       },
       "defense": {
-        "spg": 0.6,
-        "bpg": 0.8,
-        "rpg": 5.0
+        "spg": 0.5,
+        "bpg": 0.7,
+        "rpg": 4.7
       },
       "hustle": {
         "contested_shots": 5.4,
@@ -13634,59 +14178,59 @@
       "id": 1642849,
       "name": "Nolan Traore",
       "team": "BKN",
-      "gp": 5,
+      "gp": 6,
       "zones": {
         "at_rim": {
-          "fga": 13,
+          "fga": 14,
           "fgm": 8,
-          "pct": 0.6154
+          "pct": 0.5714
         },
         "paint": {
-          "fga": 12,
-          "fgm": 4,
-          "pct": 0.3333
+          "fga": 16,
+          "fgm": 5,
+          "pct": 0.3125
         },
         "mid": {
-          "fga": 2,
-          "fgm": 1,
-          "pct": 0.5
+          "fga": 3,
+          "fgm": 2,
+          "pct": 0.6667
         },
         "corner_3": {
-          "fga": 3,
-          "fgm": 0,
-          "pct": 0.0
+          "fga": 7,
+          "fgm": 2,
+          "pct": 0.2857
         },
         "l_corner_3": {
-          "fga": 2,
-          "fgm": 0,
-          "pct": 0.0
+          "fga": 3,
+          "fgm": 1,
+          "pct": 0.3333
         },
         "r_corner_3": {
-          "fga": 1,
-          "fgm": 0,
-          "pct": 0.0
+          "fga": 4,
+          "fgm": 1,
+          "pct": 0.25
         },
         "above_break_3": {
-          "fga": 7,
-          "fgm": 3,
-          "pct": 0.4286
+          "fga": 11,
+          "fgm": 5,
+          "pct": 0.4545
         }
       },
       "overall": {
-        "fg_pct": 0.432,
-        "efg_pct": 0.47297297297297297,
+        "fg_pct": 0.431,
+        "efg_pct": 0.5058823529411764,
         "ft_pct": 0.706,
-        "fga": 7.4,
-        "fta": 3.4,
-        "fgm": 3.2,
-        "fga_total": 37,
+        "fga": 8.5,
+        "fta": 2.8,
+        "fgm": 3.7,
+        "fga_total": 51,
         "fta_total": 17,
-        "fgm_total": 16,
-        "ts_pct": 0.528
+        "fgm_total": 22,
+        "ts_pct": 0.539
       },
       "defense": {
         "spg": 0.8,
-        "bpg": 0.8,
+        "bpg": 0.7,
         "rpg": 1.8
       },
       "hustle": {
@@ -13962,12 +14506,12 @@
         "rpg": 7.1
       },
       "hustle": {
-        "contested_shots": 7.0,
+        "contested_shots": 6.86,
         "deflections": 2.0,
-        "box_outs": 0.83,
-        "loose_balls_recovered": 0.5,
+        "box_outs": 1.0,
+        "loose_balls_recovered": 0.43,
         "charges_drawn": 0.0,
-        "screen_assists": 2.17
+        "screen_assists": 2.14
       }
     },
     {
@@ -14030,12 +14574,12 @@
         "rpg": 1.2
       },
       "hustle": {
-        "contested_shots": 1.75,
-        "deflections": 1.25,
+        "contested_shots": 1.6,
+        "deflections": 1.0,
         "box_outs": 0.0,
-        "loose_balls_recovered": 0.5,
+        "loose_balls_recovered": 0.4,
         "charges_drawn": 0.0,
-        "screen_assists": 0.25
+        "screen_assists": 0.2
       }
     },
     {
@@ -14110,27 +14654,27 @@
       "id": 1627783,
       "name": "Pascal Siakam",
       "team": "IND",
-      "gp": 6,
+      "gp": 7,
       "zones": {
         "at_rim": {
-          "fga": 29,
-          "fgm": 22,
-          "pct": 0.7586
+          "fga": 34,
+          "fgm": 25,
+          "pct": 0.7353
         },
         "paint": {
-          "fga": 29,
-          "fgm": 16,
-          "pct": 0.5517
+          "fga": 32,
+          "fgm": 18,
+          "pct": 0.5625
         },
         "mid": {
-          "fga": 18,
-          "fgm": 6,
-          "pct": 0.3333
+          "fga": 22,
+          "fgm": 7,
+          "pct": 0.3182
         },
         "corner_3": {
-          "fga": 8,
+          "fga": 9,
           "fgm": 2,
-          "pct": 0.25
+          "pct": 0.2222
         },
         "l_corner_3": {
           "fga": 4,
@@ -14138,32 +14682,32 @@
           "pct": 0.25
         },
         "r_corner_3": {
-          "fga": 4,
+          "fga": 5,
           "fgm": 1,
-          "pct": 0.25
+          "pct": 0.2
         },
         "above_break_3": {
-          "fga": 18,
+          "fga": 19,
           "fgm": 6,
-          "pct": 0.3333
+          "pct": 0.3158
         }
       },
       "overall": {
-        "fg_pct": 0.51,
-        "efg_pct": 0.5499999999999999,
-        "ft_pct": 0.618,
-        "fga": 17.0,
+        "fg_pct": 0.5,
+        "efg_pct": 0.533132530120482,
+        "ft_pct": 0.65,
+        "fga": 16.6,
         "fta": 5.7,
-        "fgm": 8.7,
-        "fga_total": 102,
-        "fta_total": 34,
-        "fgm_total": 52,
-        "ts_pct": 0.569
+        "fgm": 8.3,
+        "fga_total": 116,
+        "fta_total": 40,
+        "fgm_total": 58,
+        "ts_pct": 0.561
       },
       "defense": {
-        "spg": 0.8,
+        "spg": 0.9,
         "bpg": 0.0,
-        "rpg": 7.8
+        "rpg": 7.4
       },
       "hustle": {
         "contested_shots": 4.17,
@@ -14178,7 +14722,7 @@
       "id": 202331,
       "name": "Paul George",
       "team": "BOS",
-      "gp": 5,
+      "gp": 6,
       "zones": {
         "at_rim": {
           "fga": 20,
@@ -14186,51 +14730,51 @@
           "pct": 0.65
         },
         "paint": {
-          "fga": 9,
-          "fgm": 4,
-          "pct": 0.4444
+          "fga": 12,
+          "fgm": 6,
+          "pct": 0.5
         },
         "mid": {
-          "fga": 13,
-          "fgm": 5,
-          "pct": 0.3846
+          "fga": 14,
+          "fgm": 6,
+          "pct": 0.4286
         },
         "corner_3": {
-          "fga": 10,
-          "fgm": 6,
-          "pct": 0.6
+          "fga": 13,
+          "fgm": 7,
+          "pct": 0.5385
         },
         "l_corner_3": {
-          "fga": 3,
+          "fga": 4,
           "fgm": 2,
-          "pct": 0.6667
+          "pct": 0.5
         },
         "r_corner_3": {
-          "fga": 7,
-          "fgm": 4,
-          "pct": 0.5714
+          "fga": 9,
+          "fgm": 5,
+          "pct": 0.5556
         },
         "above_break_3": {
-          "fga": 29,
-          "fgm": 10,
-          "pct": 0.3448
+          "fga": 36,
+          "fgm": 12,
+          "pct": 0.3333
         }
       },
       "overall": {
-        "fg_pct": 0.469,
-        "efg_pct": 0.5679012345679012,
-        "ft_pct": 0.882,
-        "fga": 16.2,
-        "fta": 3.4,
-        "fgm": 7.6,
-        "fga_total": 81,
-        "fta_total": 17,
-        "fgm_total": 38,
-        "ts_pct": 0.605
+        "fg_pct": 0.463,
+        "efg_pct": 0.5632911392405063,
+        "ft_pct": 0.895,
+        "fga": 15.8,
+        "fta": 3.2,
+        "fgm": 7.3,
+        "fga_total": 95,
+        "fta_total": 19,
+        "fgm_total": 44,
+        "ts_pct": 0.6
       },
       "defense": {
-        "spg": 2.4,
-        "bpg": 0.0,
+        "spg": 2.3,
+        "bpg": 0.3,
         "rpg": 6.0
       },
       "hustle": {
@@ -14314,25 +14858,25 @@
       "id": 1630202,
       "name": "Payton Pritchard",
       "team": "BOS",
-      "gp": 5,
+      "gp": 6,
       "zones": {
         "at_rim": {
-          "fga": 10,
-          "fgm": 8,
-          "pct": 0.8
+          "fga": 11,
+          "fgm": 9,
+          "pct": 0.8182
         },
         "paint": {
-          "fga": 10,
-          "fgm": 4,
-          "pct": 0.4
+          "fga": 11,
+          "fgm": 5,
+          "pct": 0.4545
         },
         "mid": {
-          "fga": 4,
-          "fgm": 1,
-          "pct": 0.25
+          "fga": 6,
+          "fgm": 2,
+          "pct": 0.3333
         },
         "corner_3": {
-          "fga": 2,
+          "fga": 3,
           "fgm": 0,
           "pct": 0.0
         },
@@ -14342,32 +14886,32 @@
           "pct": 0.0
         },
         "r_corner_3": {
-          "fga": 1,
+          "fga": 2,
           "fgm": 0,
           "pct": 0.0
         },
         "above_break_3": {
-          "fga": 28,
+          "fga": 34,
           "fgm": 13,
-          "pct": 0.4643
+          "pct": 0.3824
         }
       },
       "overall": {
-        "fg_pct": 0.481,
-        "efg_pct": 0.6018518518518519,
-        "ft_pct": 0.9,
+        "fg_pct": 0.446,
+        "efg_pct": 0.5462962962962963,
+        "ft_pct": 0.905,
         "fga": 10.8,
-        "fta": 4.0,
-        "fgm": 5.2,
-        "fga_total": 54,
-        "fta_total": 20,
-        "fgm_total": 26,
-        "ts_pct": 0.661
+        "fta": 3.5,
+        "fgm": 4.8,
+        "fga_total": 65,
+        "fta_total": 21,
+        "fgm_total": 29,
+        "ts_pct": 0.606
       },
       "defense": {
         "spg": 0.8,
-        "bpg": 0.2,
-        "rpg": 2.2
+        "bpg": 0.3,
+        "rpg": 3.0
       },
       "hustle": {
         "contested_shots": 2.0,
@@ -14506,12 +15050,12 @@
         "rpg": 4.0
       },
       "hustle": {
-        "contested_shots": 8.0,
-        "deflections": 2.0,
-        "box_outs": 0.4,
-        "loose_balls_recovered": 0.4,
+        "contested_shots": 7.33,
+        "deflections": 2.17,
+        "box_outs": 0.33,
+        "loose_balls_recovered": 0.33,
         "charges_drawn": 0.0,
-        "screen_assists": 0.0
+        "screen_assists": 0.17
       }
     },
     {
@@ -14574,24 +15118,24 @@
         "rpg": 6.0
       },
       "hustle": {
-        "contested_shots": 6.8,
-        "deflections": 2.4,
-        "box_outs": 1.4,
-        "loose_balls_recovered": 0.2,
+        "contested_shots": 6.83,
+        "deflections": 2.33,
+        "box_outs": 1.33,
+        "loose_balls_recovered": 0.33,
         "charges_drawn": 0.0,
-        "screen_assists": 1.4
+        "screen_assists": 1.17
       }
     },
     {
       "id": 1629656,
       "name": "Quentin Grimes",
       "team": "LAL",
-      "gp": 6,
+      "gp": 7,
       "zones": {
         "at_rim": {
-          "fga": 12,
-          "fgm": 11,
-          "pct": 0.9167
+          "fga": 13,
+          "fgm": 12,
+          "pct": 0.9231
         },
         "paint": {
           "fga": 5,
@@ -14604,9 +15148,9 @@
           "pct": 0.0
         },
         "corner_3": {
-          "fga": 7,
+          "fga": 9,
           "fgm": 3,
-          "pct": 0.4286
+          "pct": 0.3333
         },
         "l_corner_3": {
           "fga": 5,
@@ -14614,36 +15158,36 @@
           "pct": 0.4
         },
         "r_corner_3": {
-          "fga": 2,
+          "fga": 4,
           "fgm": 1,
-          "pct": 0.5
+          "pct": 0.25
         },
         "above_break_3": {
-          "fga": 10,
-          "fgm": 1,
-          "pct": 0.1
+          "fga": 11,
+          "fgm": 2,
+          "pct": 0.1818
         }
       },
       "overall": {
-        "fg_pct": 0.459,
-        "efg_pct": 0.5080645161290323,
-        "ft_pct": 0.762,
-        "fga": 6.2,
-        "fta": 3.5,
-        "fgm": 2.8,
-        "fga_total": 37,
-        "fta_total": 21,
-        "fgm_total": 17,
-        "ts_pct": 0.584
+        "fg_pct": 0.463,
+        "efg_pct": 0.516949152542373,
+        "ft_pct": 0.72,
+        "fga": 5.9,
+        "fta": 3.6,
+        "fgm": 2.7,
+        "fga_total": 41,
+        "fta_total": 25,
+        "fgm_total": 19,
+        "ts_pct": 0.587
       },
       "defense": {
-        "spg": 1.0,
-        "bpg": 0.2,
-        "rpg": 3.5
+        "spg": 0.9,
+        "bpg": 0.1,
+        "rpg": 3.1
       },
       "hustle": {
-        "contested_shots": 3.0,
-        "deflections": 1.33,
+        "contested_shots": 3.17,
+        "deflections": 1.5,
         "box_outs": 0.83,
         "loose_balls_recovered": 0.17,
         "charges_drawn": 0.0,
@@ -14654,17 +15198,17 @@
       "id": 1631245,
       "name": "Quenton Jackson",
       "team": "IND",
-      "gp": 6,
+      "gp": 7,
       "zones": {
         "at_rim": {
-          "fga": 13,
-          "fgm": 8,
-          "pct": 0.6154
+          "fga": 14,
+          "fgm": 9,
+          "pct": 0.6429
         },
         "paint": {
-          "fga": 7,
+          "fga": 10,
           "fgm": 4,
-          "pct": 0.5714
+          "pct": 0.4
         },
         "mid": {
           "fga": 3,
@@ -14672,14 +15216,14 @@
           "pct": 0.6667
         },
         "corner_3": {
-          "fga": 4,
-          "fgm": 1,
-          "pct": 0.25
+          "fga": 7,
+          "fgm": 3,
+          "pct": 0.4286
         },
         "l_corner_3": {
-          "fga": 1,
-          "fgm": 1,
-          "pct": 1.0
+          "fga": 4,
+          "fgm": 3,
+          "pct": 0.75
         },
         "r_corner_3": {
           "fga": 3,
@@ -14687,33 +15231,33 @@
           "pct": 0.0
         },
         "above_break_3": {
-          "fga": 10,
-          "fgm": 2,
-          "pct": 0.2
+          "fga": 11,
+          "fgm": 3,
+          "pct": 0.2727
         }
       },
       "overall": {
-        "fg_pct": 0.459,
-        "efg_pct": 0.4919354838709677,
-        "ft_pct": 0.923,
-        "fga": 6.2,
-        "fta": 2.2,
-        "fgm": 2.8,
-        "fga_total": 37,
-        "fta_total": 13,
-        "fgm_total": 17,
-        "ts_pct": 0.574
+        "fg_pct": 0.467,
+        "efg_pct": 0.5390625,
+        "ft_pct": 0.867,
+        "fga": 6.4,
+        "fta": 2.1,
+        "fgm": 3.0,
+        "fga_total": 45,
+        "fta_total": 15,
+        "fgm_total": 21,
+        "ts_pct": 0.591
       },
       "defense": {
-        "spg": 1.2,
-        "bpg": 0.2,
-        "rpg": 2.3
+        "spg": 1.0,
+        "bpg": 0.1,
+        "rpg": 2.4
       },
       "hustle": {
-        "contested_shots": 1.5,
-        "deflections": 2.17,
+        "contested_shots": 1.67,
+        "deflections": 2.33,
         "box_outs": 0.33,
-        "loose_balls_recovered": 0.5,
+        "loose_balls_recovered": 0.67,
         "charges_drawn": 0.0,
         "screen_assists": 0.0
       }
@@ -14790,27 +15334,27 @@
       "id": 1629628,
       "name": "RJ Barrett",
       "team": "TOR",
-      "gp": 5,
+      "gp": 6,
       "zones": {
         "at_rim": {
-          "fga": 35,
-          "fgm": 23,
-          "pct": 0.6571
+          "fga": 39,
+          "fgm": 26,
+          "pct": 0.6667
         },
         "paint": {
-          "fga": 17,
-          "fgm": 7,
-          "pct": 0.4118
+          "fga": 20,
+          "fgm": 8,
+          "pct": 0.4
         },
         "mid": {
-          "fga": 5,
-          "fgm": 3,
-          "pct": 0.6
+          "fga": 7,
+          "fgm": 4,
+          "pct": 0.5714
         },
         "corner_3": {
-          "fga": 2,
-          "fgm": 0,
-          "pct": 0.0
+          "fga": 4,
+          "fgm": 1,
+          "pct": 0.25
         },
         "l_corner_3": {
           "fga": 0,
@@ -14818,36 +15362,36 @@
           "pct": null
         },
         "r_corner_3": {
-          "fga": 2,
-          "fgm": 0,
-          "pct": 0.0
+          "fga": 4,
+          "fgm": 1,
+          "pct": 0.25
         },
         "above_break_3": {
-          "fga": 20,
-          "fgm": 5,
-          "pct": 0.25
+          "fga": 27,
+          "fgm": 8,
+          "pct": 0.2963
         }
       },
       "overall": {
-        "fg_pct": 0.481,
-        "efg_pct": 0.5126582278481012,
+        "fg_pct": 0.485,
+        "efg_pct": 0.5277777777777778,
         "ft_pct": 0.615,
-        "fga": 15.8,
-        "fta": 5.2,
-        "fgm": 7.6,
-        "fga_total": 79,
+        "fga": 16.2,
+        "fta": 4.3,
+        "fgm": 7.8,
+        "fga_total": 97,
         "fta_total": 26,
-        "fgm_total": 38,
-        "ts_pct": 0.536
+        "fgm_total": 47,
+        "ts_pct": 0.549
       },
       "defense": {
-        "spg": 0.8,
-        "bpg": 0.4,
-        "rpg": 5.4
+        "spg": 0.7,
+        "bpg": 0.3,
+        "rpg": 6.2
       },
       "hustle": {
-        "contested_shots": 2.8,
-        "deflections": 1.2,
+        "contested_shots": 3.4,
+        "deflections": 1.4,
         "box_outs": 0.4,
         "loose_balls_recovered": 0.2,
         "charges_drawn": 0.2,
@@ -14982,12 +15526,12 @@
         "rpg": 2.9
       },
       "hustle": {
-        "contested_shots": 1.17,
-        "deflections": 0.67,
-        "box_outs": 0.83,
-        "loose_balls_recovered": 0.17,
+        "contested_shots": 1.43,
+        "deflections": 0.71,
+        "box_outs": 0.71,
+        "loose_balls_recovered": 0.29,
         "charges_drawn": 0.0,
-        "screen_assists": 0.5
+        "screen_assists": 0.57
       }
     },
     {
@@ -15059,6 +15603,74 @@
       }
     },
     {
+      "id": 1629060,
+      "name": "Rui Hachimura",
+      "team": "LAC",
+      "gp": 5,
+      "zones": {
+        "at_rim": {
+          "fga": 15,
+          "fgm": 7,
+          "pct": 0.4667
+        },
+        "paint": {
+          "fga": 6,
+          "fgm": 4,
+          "pct": 0.6667
+        },
+        "mid": {
+          "fga": 13,
+          "fgm": 1,
+          "pct": 0.0769
+        },
+        "corner_3": {
+          "fga": 10,
+          "fgm": 4,
+          "pct": 0.4
+        },
+        "l_corner_3": {
+          "fga": 2,
+          "fgm": 0,
+          "pct": 0.0
+        },
+        "r_corner_3": {
+          "fga": 8,
+          "fgm": 4,
+          "pct": 0.5
+        },
+        "above_break_3": {
+          "fga": 21,
+          "fgm": 8,
+          "pct": 0.381
+        }
+      },
+      "overall": {
+        "fg_pct": 0.369,
+        "efg_pct": 0.46153846153846156,
+        "ft_pct": 0.583,
+        "fga": 13.0,
+        "fta": 2.4,
+        "fgm": 4.8,
+        "fga_total": 65,
+        "fta_total": 12,
+        "fgm_total": 24,
+        "ts_pct": 0.477
+      },
+      "defense": {
+        "spg": 1.0,
+        "bpg": 0.2,
+        "rpg": 6.0
+      },
+      "hustle": {
+        "contested_shots": 2.5,
+        "deflections": 1.75,
+        "box_outs": 0.75,
+        "loose_balls_recovered": 0.25,
+        "charges_drawn": 0.0,
+        "screen_assists": 1.0
+      }
+    },
+    {
       "id": 1641750,
       "name": "Ryan Kalkbrenner",
       "team": "CHA",
@@ -15118,12 +15730,12 @@
         "rpg": 4.1
       },
       "hustle": {
-        "contested_shots": 6.83,
-        "deflections": 0.5,
-        "box_outs": 1.17,
-        "loose_balls_recovered": 0.0,
+        "contested_shots": 7.14,
+        "deflections": 0.71,
+        "box_outs": 1.29,
+        "loose_balls_recovered": 0.14,
         "charges_drawn": 0.0,
-        "screen_assists": 2.17
+        "screen_assists": 2.0
       }
     },
     {
@@ -15186,12 +15798,12 @@
         "rpg": 4.3
       },
       "hustle": {
-        "contested_shots": 2.0,
-        "deflections": 3.6,
-        "box_outs": 0.2,
+        "contested_shots": 1.83,
+        "deflections": 3.17,
+        "box_outs": 0.17,
         "loose_balls_recovered": 1.0,
         "charges_drawn": 0.0,
-        "screen_assists": 0.2
+        "screen_assists": 0.17
       }
     },
     {
@@ -15254,19 +15866,19 @@
         "rpg": 3.7
       },
       "hustle": {
-        "contested_shots": 2.4,
-        "deflections": 0.8,
-        "box_outs": 1.4,
-        "loose_balls_recovered": 0.8,
+        "contested_shots": 3.0,
+        "deflections": 1.5,
+        "box_outs": 1.5,
+        "loose_balls_recovered": 0.67,
         "charges_drawn": 0.0,
-        "screen_assists": 0.2
+        "screen_assists": 0.17
       }
     },
     {
       "id": 1630573,
       "name": "Sam Hauser",
       "team": "BOS",
-      "gp": 5,
+      "gp": 6,
       "zones": {
         "at_rim": {
           "fga": 2,
@@ -15284,9 +15896,9 @@
           "pct": 1.0
         },
         "corner_3": {
-          "fga": 7,
-          "fgm": 4,
-          "pct": 0.5714
+          "fga": 9,
+          "fgm": 5,
+          "pct": 0.5556
         },
         "l_corner_3": {
           "fga": 4,
@@ -15294,32 +15906,32 @@
           "pct": 0.5
         },
         "r_corner_3": {
-          "fga": 3,
-          "fgm": 2,
-          "pct": 0.6667
+          "fga": 5,
+          "fgm": 3,
+          "pct": 0.6
         },
         "above_break_3": {
-          "fga": 19,
+          "fga": 20,
           "fgm": 9,
-          "pct": 0.4737
+          "pct": 0.45
         }
       },
       "overall": {
-        "fg_pct": 0.5,
-        "efg_pct": 0.703125,
+        "fg_pct": 0.486,
+        "efg_pct": 0.6810344827586207,
         "ft_pct": 0.0,
-        "fga": 6.4,
+        "fga": 5.8,
         "fta": 0,
-        "fgm": 3.2,
-        "fga_total": 32,
+        "fgm": 2.8,
+        "fga_total": 35,
         "fta_total": 0,
-        "fgm_total": 16,
-        "ts_pct": 0.703
+        "fgm_total": 17,
+        "ts_pct": 0.686
       },
       "defense": {
-        "spg": 0.0,
+        "spg": 0.2,
         "bpg": 0.0,
-        "rpg": 3.4
+        "rpg": 3.2
       },
       "hustle": {
         "contested_shots": 1.4,
@@ -15402,17 +16014,17 @@
       "id": 1630572,
       "name": "Sandro Mamukelashvili",
       "team": "LAL",
-      "gp": 6,
+      "gp": 7,
       "zones": {
         "at_rim": {
-          "fga": 13,
-          "fgm": 9,
-          "pct": 0.6923
+          "fga": 14,
+          "fgm": 10,
+          "pct": 0.7143
         },
         "paint": {
-          "fga": 9,
-          "fgm": 5,
-          "pct": 0.5556
+          "fga": 10,
+          "fgm": 6,
+          "pct": 0.6
         },
         "mid": {
           "fga": 5,
@@ -15435,27 +16047,27 @@
           "pct": 0.0
         },
         "above_break_3": {
-          "fga": 13,
-          "fgm": 4,
-          "pct": 0.3077
+          "fga": 18,
+          "fgm": 6,
+          "pct": 0.3333
         }
       },
       "overall": {
-        "fg_pct": 0.488,
-        "efg_pct": 0.5416666666666666,
-        "ft_pct": 0.727,
-        "fga": 7.2,
-        "fta": 1.8,
-        "fgm": 3.5,
-        "fga_total": 43,
-        "fta_total": 11,
-        "fgm_total": 21,
-        "ts_pct": 0.575
+        "fg_pct": 0.5,
+        "efg_pct": 0.5774647887323944,
+        "ft_pct": 0.75,
+        "fga": 7.1,
+        "fta": 1.7,
+        "fgm": 3.6,
+        "fga_total": 50,
+        "fta_total": 12,
+        "fgm_total": 25,
+        "ts_pct": 0.597
       },
       "defense": {
-        "spg": 0.8,
-        "bpg": 0.7,
-        "rpg": 5.2
+        "spg": 0.7,
+        "bpg": 0.6,
+        "rpg": 4.6
       },
       "hustle": {
         "contested_shots": 4.17,
@@ -15526,39 +16138,39 @@
         "rpg": 2.4
       },
       "hustle": {
-        "contested_shots": 1.0,
-        "deflections": 1.25,
-        "box_outs": 0.25,
-        "loose_balls_recovered": 0.0,
+        "contested_shots": 1.4,
+        "deflections": 1.8,
+        "box_outs": 0.2,
+        "loose_balls_recovered": 0.4,
         "charges_drawn": 0.0,
-        "screen_assists": 0.25
+        "screen_assists": 0.4
       }
     },
     {
       "id": 1630567,
       "name": "Scottie Barnes",
       "team": "TOR",
-      "gp": 5,
+      "gp": 6,
       "zones": {
         "at_rim": {
-          "fga": 29,
-          "fgm": 18,
-          "pct": 0.6207
+          "fga": 34,
+          "fgm": 22,
+          "pct": 0.6471
         },
         "paint": {
-          "fga": 27,
-          "fgm": 12,
+          "fga": 36,
+          "fgm": 16,
           "pct": 0.4444
         },
         "mid": {
-          "fga": 34,
-          "fgm": 17,
-          "pct": 0.5
+          "fga": 37,
+          "fgm": 20,
+          "pct": 0.5405
         },
         "corner_3": {
-          "fga": 6,
+          "fga": 7,
           "fgm": 1,
-          "pct": 0.1667
+          "pct": 0.1429
         },
         "l_corner_3": {
           "fga": 3,
@@ -15566,36 +16178,36 @@
           "pct": 0.0
         },
         "r_corner_3": {
-          "fga": 3,
+          "fga": 4,
           "fgm": 1,
-          "pct": 0.3333
+          "pct": 0.25
         },
         "above_break_3": {
-          "fga": 12,
+          "fga": 14,
           "fgm": 2,
-          "pct": 0.1667
+          "pct": 0.1429
         }
       },
       "overall": {
-        "fg_pct": 0.463,
-        "efg_pct": 0.47685185185185186,
-        "ft_pct": 0.944,
-        "fga": 21.6,
-        "fta": 3.6,
-        "fgm": 10.0,
-        "fga_total": 108,
-        "fta_total": 18,
-        "fgm_total": 50,
-        "ts_pct": 0.518
+        "fg_pct": 0.477,
+        "efg_pct": 0.49061032863849763,
+        "ft_pct": 0.774,
+        "fga": 21.3,
+        "fta": 5.2,
+        "fgm": 10.2,
+        "fga_total": 128,
+        "fta_total": 31,
+        "fgm_total": 61,
+        "ts_pct": 0.526
       },
       "defense": {
         "spg": 2.2,
-        "bpg": 1.0,
-        "rpg": 6.8
+        "bpg": 0.8,
+        "rpg": 6.7
       },
       "hustle": {
-        "contested_shots": 3.4,
-        "deflections": 3.2,
+        "contested_shots": 4.0,
+        "deflections": 4.0,
         "box_outs": 0.8,
         "loose_balls_recovered": 0.4,
         "charges_drawn": 0.0,
@@ -15730,10 +16342,10 @@
         "rpg": 4.5
       },
       "hustle": {
-        "contested_shots": 6.2,
-        "deflections": 1.4,
+        "contested_shots": 6.0,
+        "deflections": 1.67,
         "box_outs": 0.0,
-        "loose_balls_recovered": 0.4,
+        "loose_balls_recovered": 0.33,
         "charges_drawn": 0.0,
         "screen_assists": 0.0
       }
@@ -15798,10 +16410,10 @@
         "rpg": 4.4
       },
       "hustle": {
-        "contested_shots": 1.75,
-        "deflections": 1.5,
-        "box_outs": 0.5,
-        "loose_balls_recovered": 0.25,
+        "contested_shots": 1.4,
+        "deflections": 1.4,
+        "box_outs": 0.4,
+        "loose_balls_recovered": 0.4,
         "charges_drawn": 0.0,
         "screen_assists": 0.0
       }
@@ -15866,10 +16478,10 @@
         "rpg": 3.0
       },
       "hustle": {
-        "contested_shots": 3.5,
-        "deflections": 1.83,
-        "box_outs": 0.17,
-        "loose_balls_recovered": 0.33,
+        "contested_shots": 3.14,
+        "deflections": 1.57,
+        "box_outs": 0.14,
+        "loose_balls_recovered": 0.29,
         "charges_drawn": 0.0,
         "screen_assists": 0.0
       }
@@ -15935,7 +16547,7 @@
       },
       "hustle": {
         "contested_shots": 1.8,
-        "deflections": 1.8,
+        "deflections": 2.0,
         "box_outs": 0.0,
         "loose_balls_recovered": 0.2,
         "charges_drawn": 0.2,
@@ -16002,12 +16614,12 @@
         "rpg": 5.7
       },
       "hustle": {
-        "contested_shots": 4.4,
+        "contested_shots": 4.17,
         "deflections": 3.0,
-        "box_outs": 0.2,
-        "loose_balls_recovered": 1.0,
+        "box_outs": 0.17,
+        "loose_balls_recovered": 1.17,
         "charges_drawn": 0.0,
-        "screen_assists": 0.8
+        "screen_assists": 0.67
       }
     },
     {
@@ -16070,9 +16682,9 @@
         "rpg": 2.0
       },
       "hustle": {
-        "contested_shots": 2.75,
-        "deflections": 1.0,
-        "box_outs": 0.25,
+        "contested_shots": 2.8,
+        "deflections": 0.8,
+        "box_outs": 0.2,
         "loose_balls_recovered": 0.0,
         "charges_drawn": 0.0,
         "screen_assists": 0.0
@@ -16139,9 +16751,9 @@
       },
       "hustle": {
         "contested_shots": 5.0,
-        "deflections": 1.83,
-        "box_outs": 0.83,
-        "loose_balls_recovered": 0.33,
+        "deflections": 1.57,
+        "box_outs": 0.71,
+        "loose_balls_recovered": 0.43,
         "charges_drawn": 0.0,
         "screen_assists": 0.0
       }
@@ -16206,11 +16818,11 @@
         "rpg": 3.6
       },
       "hustle": {
-        "contested_shots": 2.4,
-        "deflections": 0.8,
-        "box_outs": 0.6,
-        "loose_balls_recovered": 1.2,
-        "charges_drawn": 0.2,
+        "contested_shots": 2.17,
+        "deflections": 0.67,
+        "box_outs": 0.5,
+        "loose_balls_recovered": 1.0,
+        "charges_drawn": 0.33,
         "screen_assists": 0.0
       }
     },
@@ -16274,10 +16886,10 @@
         "rpg": 3.2
       },
       "hustle": {
-        "contested_shots": 1.8,
-        "deflections": 0.6,
-        "box_outs": 0.2,
-        "loose_balls_recovered": 0.0,
+        "contested_shots": 1.5,
+        "deflections": 0.67,
+        "box_outs": 0.17,
+        "loose_balls_recovered": 0.17,
         "charges_drawn": 0.0,
         "screen_assists": 0.0
       }
@@ -16478,12 +17090,12 @@
         "rpg": 2.2
       },
       "hustle": {
-        "contested_shots": 4.0,
-        "deflections": 2.25,
-        "box_outs": 0.5,
-        "loose_balls_recovered": 0.5,
+        "contested_shots": 3.6,
+        "deflections": 2.6,
+        "box_outs": 1.0,
+        "loose_balls_recovered": 0.6,
         "charges_drawn": 0.0,
-        "screen_assists": 1.0
+        "screen_assists": 0.8
       }
     },
     {
@@ -16558,17 +17170,17 @@
       "id": 1631218,
       "name": "Trayce Jackson-Davis",
       "team": "TOR",
-      "gp": 5,
+      "gp": 6,
       "zones": {
         "at_rim": {
-          "fga": 7,
-          "fgm": 5,
-          "pct": 0.7143
+          "fga": 9,
+          "fgm": 7,
+          "pct": 0.7778
         },
         "paint": {
-          "fga": 4,
+          "fga": 5,
           "fgm": 3,
-          "pct": 0.75
+          "pct": 0.6
         },
         "mid": {
           "fga": 0,
@@ -16597,21 +17209,21 @@
         }
       },
       "overall": {
-        "fg_pct": 0.727,
-        "efg_pct": 0.7272727272727273,
+        "fg_pct": 0.714,
+        "efg_pct": 0.7391304347826088,
         "ft_pct": 1.0,
-        "fga": 2.2,
-        "fta": 0.4,
-        "fgm": 1.6,
-        "fga_total": 11,
-        "fta_total": 2,
-        "fgm_total": 8,
-        "ts_pct": 0.758
+        "fga": 2.3,
+        "fta": 0.5,
+        "fgm": 1.7,
+        "fga_total": 14,
+        "fta_total": 3,
+        "fgm_total": 10,
+        "ts_pct": 0.751
       },
       "defense": {
-        "spg": 0.0,
-        "bpg": 0.4,
-        "rpg": 2.6
+        "spg": 0.3,
+        "bpg": 0.3,
+        "rpg": 3.0
       },
       "hustle": {
         "contested_shots": 4.0,
@@ -16818,7 +17430,7 @@
         "rpg": 6.6
       },
       "hustle": {
-        "contested_shots": 4.5,
+        "contested_shots": 4.75,
         "deflections": 1.75,
         "box_outs": 0.25,
         "loose_balls_recovered": 0.25,
@@ -16887,11 +17499,11 @@
       },
       "hustle": {
         "contested_shots": 4.0,
-        "deflections": 0.67,
-        "box_outs": 0.67,
+        "deflections": 0.57,
+        "box_outs": 0.86,
         "loose_balls_recovered": 0.0,
-        "charges_drawn": 0.33,
-        "screen_assists": 0.0
+        "charges_drawn": 0.29,
+        "screen_assists": 0.29
       }
     },
     {
@@ -16954,29 +17566,29 @@
         "rpg": 4.5
       },
       "hustle": {
-        "contested_shots": 2.6,
-        "deflections": 1.8,
-        "box_outs": 0.4,
-        "loose_balls_recovered": 0.6,
+        "contested_shots": 3.0,
+        "deflections": 2.33,
+        "box_outs": 0.67,
+        "loose_balls_recovered": 0.67,
         "charges_drawn": 0.0,
-        "screen_assists": 0.8
+        "screen_assists": 0.83
       }
     },
     {
       "id": 1641783,
       "name": "Tristan da Silva",
       "team": "ORL",
-      "gp": 5,
+      "gp": 6,
       "zones": {
         "at_rim": {
-          "fga": 6,
-          "fgm": 4,
-          "pct": 0.6667
+          "fga": 10,
+          "fgm": 6,
+          "pct": 0.6
         },
         "paint": {
-          "fga": 7,
-          "fgm": 5,
-          "pct": 0.7143
+          "fga": 9,
+          "fgm": 7,
+          "pct": 0.7778
         },
         "mid": {
           "fga": 1,
@@ -16984,50 +17596,50 @@
           "pct": 0.0
         },
         "corner_3": {
-          "fga": 8,
-          "fgm": 5,
-          "pct": 0.625
+          "fga": 10,
+          "fgm": 6,
+          "pct": 0.6
         },
         "l_corner_3": {
-          "fga": 4,
+          "fga": 5,
           "fgm": 1,
-          "pct": 0.25
+          "pct": 0.2
         },
         "r_corner_3": {
-          "fga": 4,
-          "fgm": 4,
+          "fga": 5,
+          "fgm": 5,
           "pct": 1.0
         },
         "above_break_3": {
-          "fga": 26,
-          "fgm": 11,
-          "pct": 0.4231
+          "fga": 32,
+          "fgm": 15,
+          "pct": 0.4688
         }
       },
       "overall": {
-        "fg_pct": 0.521,
-        "efg_pct": 0.6875,
+        "fg_pct": 0.548,
+        "efg_pct": 0.7233009708737864,
         "ft_pct": 0.0,
-        "fga": 9.6,
-        "fta": 0.6,
-        "fgm": 5.0,
-        "fga_total": 48,
+        "fga": 10.3,
+        "fta": 0.5,
+        "fgm": 5.7,
+        "fga_total": 62,
         "fta_total": 3,
-        "fgm_total": 25,
-        "ts_pct": 0.669
+        "fgm_total": 34,
+        "ts_pct": 0.703
       },
       "defense": {
-        "spg": 0.4,
-        "bpg": 0.6,
-        "rpg": 2.0
+        "spg": 0.3,
+        "bpg": 0.5,
+        "rpg": 3.3
       },
       "hustle": {
-        "contested_shots": 3.5,
-        "deflections": 2.25,
-        "box_outs": 0.5,
-        "loose_balls_recovered": 0.25,
+        "contested_shots": 3.6,
+        "deflections": 1.8,
+        "box_outs": 0.6,
+        "loose_balls_recovered": 0.2,
         "charges_drawn": 0.0,
-        "screen_assists": 1.25
+        "screen_assists": 1.2
       }
     },
     {
@@ -17158,10 +17770,10 @@
         "rpg": 4.8
       },
       "hustle": {
-        "contested_shots": 2.5,
-        "deflections": 0.75,
+        "contested_shots": 2.2,
+        "deflections": 0.6,
         "box_outs": 0.0,
-        "loose_balls_recovered": 0.75,
+        "loose_balls_recovered": 0.8,
         "charges_drawn": 0.0,
         "screen_assists": 0.0
       }
@@ -17227,11 +17839,11 @@
       },
       "hustle": {
         "contested_shots": 5.0,
-        "deflections": 3.33,
-        "box_outs": 0.67,
-        "loose_balls_recovered": 0.5,
+        "deflections": 3.14,
+        "box_outs": 0.71,
+        "loose_balls_recovered": 0.57,
         "charges_drawn": 0.0,
-        "screen_assists": 0.17
+        "screen_assists": 0.14
       }
     },
     {
@@ -17294,11 +17906,11 @@
         "rpg": 2.6
       },
       "hustle": {
-        "contested_shots": 7.0,
-        "deflections": 0.0,
+        "contested_shots": 3.5,
+        "deflections": 0.5,
         "box_outs": 0.0,
         "loose_balls_recovered": 1.0,
-        "charges_drawn": 1.0,
+        "charges_drawn": 0.5,
         "screen_assists": 0.0
       }
     },
@@ -17430,10 +18042,10 @@
         "rpg": 7.8
       },
       "hustle": {
-        "contested_shots": 6.0,
-        "deflections": 2.8,
-        "box_outs": 0.8,
-        "loose_balls_recovered": 1.2,
+        "contested_shots": 5.17,
+        "deflections": 2.67,
+        "box_outs": 0.83,
+        "loose_balls_recovered": 1.17,
         "charges_drawn": 0.0,
         "screen_assists": 0.0
       }
@@ -17498,12 +18110,12 @@
         "rpg": 10.7
       },
       "hustle": {
-        "contested_shots": 12.4,
-        "deflections": 2.8,
-        "box_outs": 1.6,
-        "loose_balls_recovered": 0.8,
-        "charges_drawn": 0.0,
-        "screen_assists": 2.2
+        "contested_shots": 12.33,
+        "deflections": 3.0,
+        "box_outs": 1.83,
+        "loose_balls_recovered": 0.67,
+        "charges_drawn": 0.17,
+        "screen_assists": 2.5
       }
     },
     {
@@ -17566,9 +18178,9 @@
         "rpg": 1.6
       },
       "hustle": {
-        "contested_shots": 0.67,
-        "deflections": 0.67,
-        "box_outs": 0.33,
+        "contested_shots": 1.25,
+        "deflections": 0.75,
+        "box_outs": 0.25,
         "loose_balls_recovered": 0.0,
         "charges_drawn": 0.0,
         "screen_assists": 0.0
@@ -17578,12 +18190,12 @@
       "id": 1631117,
       "name": "Walker Kessler",
       "team": "LAL",
-      "gp": 6,
+      "gp": 7,
       "zones": {
         "at_rim": {
-          "fga": 43,
-          "fgm": 34,
-          "pct": 0.7907
+          "fga": 49,
+          "fgm": 40,
+          "pct": 0.8163
         },
         "paint": {
           "fga": 8,
@@ -17617,24 +18229,24 @@
         }
       },
       "overall": {
-        "fg_pct": 0.725,
-        "efg_pct": 0.7294117647058824,
-        "ft_pct": 0.476,
-        "fga": 8.5,
-        "fta": 3.5,
-        "fgm": 6.2,
-        "fga_total": 51,
-        "fta_total": 21,
-        "fgm_total": 37,
-        "ts_pct": 0.697
+        "fg_pct": 0.754,
+        "efg_pct": 0.7530864197530864,
+        "ft_pct": 0.56,
+        "fga": 8.1,
+        "fta": 3.6,
+        "fgm": 6.1,
+        "fga_total": 57,
+        "fta_total": 25,
+        "fgm_total": 43,
+        "ts_pct": 0.735
       },
       "defense": {
         "spg": 1.0,
-        "bpg": 2.8,
-        "rpg": 9.0
+        "bpg": 2.9,
+        "rpg": 9.9
       },
       "hustle": {
-        "contested_shots": 12.5,
+        "contested_shots": 12.83,
         "deflections": 1.83,
         "box_outs": 1.0,
         "loose_balls_recovered": 0.5,
@@ -17714,7 +18326,7 @@
       "id": 1628976,
       "name": "Wendell Carter Jr.",
       "team": "ORL",
-      "gp": 5,
+      "gp": 6,
       "zones": {
         "at_rim": {
           "fga": 18,
@@ -17722,9 +18334,9 @@
           "pct": 1.0
         },
         "paint": {
-          "fga": 4,
-          "fgm": 1,
-          "pct": 0.25
+          "fga": 5,
+          "fgm": 2,
+          "pct": 0.4
         },
         "mid": {
           "fga": 5,
@@ -17732,14 +18344,14 @@
           "pct": 0.4
         },
         "corner_3": {
-          "fga": 3,
-          "fgm": 1,
-          "pct": 0.3333
+          "fga": 4,
+          "fgm": 2,
+          "pct": 0.5
         },
         "l_corner_3": {
-          "fga": 0,
-          "fgm": 0,
-          "pct": null
+          "fga": 1,
+          "fgm": 1,
+          "pct": 1.0
         },
         "r_corner_3": {
           "fga": 3,
@@ -17747,42 +18359,42 @@
           "pct": 0.3333
         },
         "above_break_3": {
-          "fga": 10,
+          "fga": 14,
           "fgm": 4,
-          "pct": 0.4
+          "pct": 0.2857
         }
       },
       "overall": {
-        "fg_pct": 0.65,
-        "efg_pct": 0.7125,
-        "ft_pct": 0.85,
-        "fga": 8.0,
+        "fg_pct": 0.609,
+        "efg_pct": 0.6753246753246753,
+        "ft_pct": 0.792,
+        "fga": 7.7,
         "fta": 4.0,
-        "fgm": 5.2,
-        "fga_total": 40,
-        "fta_total": 20,
-        "fgm_total": 26,
-        "ts_pct": 0.758
+        "fgm": 4.7,
+        "fga_total": 46,
+        "fta_total": 24,
+        "fgm_total": 28,
+        "ts_pct": 0.716
       },
       "defense": {
-        "spg": 1.2,
-        "bpg": 0.6,
-        "rpg": 8.6
+        "spg": 1.3,
+        "bpg": 0.5,
+        "rpg": 8.8
       },
       "hustle": {
-        "contested_shots": 8.2,
+        "contested_shots": 9.6,
         "deflections": 1.2,
         "box_outs": 5.0,
-        "loose_balls_recovered": 0.8,
+        "loose_balls_recovered": 1.0,
         "charges_drawn": 0.0,
-        "screen_assists": 2.0
+        "screen_assists": 2.2
       }
     },
     {
       "id": 1642954,
       "name": "Will Richard",
       "team": "GSW",
-      "gp": 6,
+      "gp": 7,
       "zones": {
         "at_rim": {
           "fga": 10,
@@ -17800,14 +18412,14 @@
           "pct": 0.0
         },
         "corner_3": {
-          "fga": 6,
-          "fgm": 3,
-          "pct": 0.5
+          "fga": 7,
+          "fgm": 4,
+          "pct": 0.5714
         },
         "l_corner_3": {
-          "fga": 6,
-          "fgm": 3,
-          "pct": 0.5
+          "fga": 7,
+          "fgm": 4,
+          "pct": 0.5714
         },
         "r_corner_3": {
           "fga": 0,
@@ -17815,65 +18427,65 @@
           "pct": null
         },
         "above_break_3": {
-          "fga": 3,
+          "fga": 5,
           "fgm": 1,
-          "pct": 0.3333
+          "pct": 0.2
         }
       },
       "overall": {
-        "fg_pct": 0.478,
-        "efg_pct": 0.5657894736842105,
+        "fg_pct": 0.462,
+        "efg_pct": 0.554054054054054,
         "ft_pct": 0.667,
-        "fga": 3.8,
-        "fta": 0.5,
-        "fgm": 1.8,
-        "fga_total": 23,
+        "fga": 3.7,
+        "fta": 0.4,
+        "fgm": 1.7,
+        "fga_total": 26,
         "fta_total": 3,
-        "fgm_total": 11,
-        "ts_pct": 0.576
+        "fgm_total": 12,
+        "ts_pct": 0.567
       },
       "defense": {
-        "spg": 0.7,
-        "bpg": 0.2,
-        "rpg": 1.8
+        "spg": 0.6,
+        "bpg": 0.1,
+        "rpg": 1.6
       },
       "hustle": {
-        "contested_shots": 3.2,
+        "contested_shots": 3.4,
         "deflections": 1.6,
         "box_outs": 0.4,
         "loose_balls_recovered": 0.4,
         "charges_drawn": 0.0,
-        "screen_assists": 0.0
+        "screen_assists": 0.2
       }
     },
     {
       "id": 1642865,
       "name": "Yaxel Lendeborg",
       "team": "GSW",
-      "gp": 6,
+      "gp": 7,
       "zones": {
         "at_rim": {
-          "fga": 29,
-          "fgm": 19,
-          "pct": 0.6552
+          "fga": 31,
+          "fgm": 21,
+          "pct": 0.6774
         },
         "paint": {
-          "fga": 18,
-          "fgm": 8,
-          "pct": 0.4444
+          "fga": 21,
+          "fgm": 11,
+          "pct": 0.5238
         },
         "mid": {
-          "fga": 3,
-          "fgm": 1,
-          "pct": 0.3333
+          "fga": 6,
+          "fgm": 3,
+          "pct": 0.5
         },
         "corner_3": {
-          "fga": 9,
+          "fga": 11,
           "fgm": 6,
-          "pct": 0.6667
+          "pct": 0.5455
         },
         "l_corner_3": {
-          "fga": 1,
+          "fga": 3,
           "fgm": 0,
           "pct": 0.0
         },
@@ -17883,32 +18495,32 @@
           "pct": 0.75
         },
         "above_break_3": {
-          "fga": 24,
-          "fgm": 6,
-          "pct": 0.25
+          "fga": 33,
+          "fgm": 12,
+          "pct": 0.3636
         }
       },
       "overall": {
-        "fg_pct": 0.482,
-        "efg_pct": 0.5579710144927537,
-        "ft_pct": 0.73,
-        "fga": 13.8,
-        "fta": 6.2,
-        "fgm": 6.7,
-        "fga_total": 83,
-        "fta_total": 37,
-        "fgm_total": 40,
-        "ts_pct": 0.599
+        "fg_pct": 0.52,
+        "efg_pct": 0.6095890410958904,
+        "ft_pct": 0.744,
+        "fga": 14.6,
+        "fta": 6.1,
+        "fgm": 7.6,
+        "fga_total": 102,
+        "fta_total": 43,
+        "fgm_total": 53,
+        "ts_pct": 0.645
       },
       "defense": {
-        "spg": 0.8,
-        "bpg": 0.5,
-        "rpg": 7.8
+        "spg": 0.9,
+        "bpg": 0.4,
+        "rpg": 7.3
       },
       "hustle": {
-        "contested_shots": 5.67,
+        "contested_shots": 6.0,
         "deflections": 2.0,
-        "box_outs": 0.5,
+        "box_outs": 0.67,
         "loose_balls_recovered": 0.67,
         "charges_drawn": 0.0,
         "screen_assists": 0.0
@@ -18042,12 +18654,12 @@
         "rpg": 7.0
       },
       "hustle": {
-        "contested_shots": 7.25,
-        "deflections": 0.5,
+        "contested_shots": 7.0,
+        "deflections": 0.4,
         "box_outs": 2.0,
-        "loose_balls_recovered": 1.0,
+        "loose_balls_recovered": 0.8,
         "charges_drawn": 0.0,
-        "screen_assists": 2.75
+        "screen_assists": 2.6
       }
     },
     {
@@ -18110,10 +18722,10 @@
         "rpg": 2.8
       },
       "hustle": {
-        "contested_shots": 3.6,
-        "deflections": 2.2,
-        "box_outs": 0.4,
-        "loose_balls_recovered": 0.4,
+        "contested_shots": 3.33,
+        "deflections": 1.83,
+        "box_outs": 0.33,
+        "loose_balls_recovered": 0.33,
         "charges_drawn": 0.0,
         "screen_assists": 0.0
       }
@@ -18178,10 +18790,10 @@
         "rpg": 4.3
       },
       "hustle": {
-        "contested_shots": 5.4,
-        "deflections": 2.8,
-        "box_outs": 0.6,
-        "loose_balls_recovered": 0.6,
+        "contested_shots": 5.5,
+        "deflections": 3.0,
+        "box_outs": 0.83,
+        "loose_balls_recovered": 0.67,
         "charges_drawn": 0.0,
         "screen_assists": 0.0
       }
