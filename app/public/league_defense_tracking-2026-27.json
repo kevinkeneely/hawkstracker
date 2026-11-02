@@ -1,0 +1,5985 @@
+{
+  "season": "2026-27",
+  "generated_at": "2026-11-02T12:41:03.409385-05:00",
+  "source_file": "league_defense_tracking_2026-11-02.json",
+  "players": [
+    {
+      "id": 1643407,
+      "name": "AJ Dybantsa",
+      "team": "WAS",
+      "position": "F",
+      "gp": 2,
+      "defense": {
+        "d_fgm": 4.0,
+        "d_fga": 12.5,
+        "d_fg_pct": 0.32,
+        "normal_fg_pct": 0.407,
+        "pct_plusminus": -0.087
+      }
+    },
+    {
+      "id": 1631260,
+      "name": "AJ Green",
+      "team": "MIL",
+      "position": "G",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 3.0,
+        "d_fga": 6.83,
+        "d_fg_pct": 0.439,
+        "normal_fg_pct": 0.465,
+        "pct_plusminus": -0.026
+      }
+    },
+    {
+      "id": 1642358,
+      "name": "AJ Johnson",
+      "team": "NOP",
+      "position": "G",
+      "gp": 1,
+      "defense": {
+        "d_fgm": 2.0,
+        "d_fga": 4.0,
+        "d_fg_pct": 0.5,
+        "normal_fg_pct": 0.446,
+        "pct_plusminus": 0.054
+      }
+    },
+    {
+      "id": 203932,
+      "name": "Aaron Gordon",
+      "team": "DEN",
+      "position": "F",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 4.8,
+        "d_fga": 11.4,
+        "d_fg_pct": 0.421,
+        "normal_fg_pct": 0.497,
+        "pct_plusminus": -0.076
+      }
+    },
+    {
+      "id": 1630174,
+      "name": "Aaron Nesmith",
+      "team": "IND",
+      "position": "G-F",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 4.4,
+        "d_fga": 10.6,
+        "d_fg_pct": 0.415,
+        "normal_fg_pct": 0.446,
+        "pct_plusminus": -0.031
+      }
+    },
+    {
+      "id": 1630598,
+      "name": "Aaron Wiggins",
+      "team": "ATL",
+      "position": "G",
+      "gp": 7,
+      "defense": {
+        "d_fgm": 4.43,
+        "d_fga": 9.14,
+        "d_fg_pct": 0.484,
+        "normal_fg_pct": 0.457,
+        "pct_plusminus": 0.027
+      }
+    },
+    {
+      "id": 1642846,
+      "name": "Ace Bailey",
+      "team": "UTA",
+      "position": "F",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 6.0,
+        "d_fga": 12.33,
+        "d_fg_pct": 0.486,
+        "normal_fg_pct": 0.472,
+        "pct_plusminus": 0.015
+      }
+    },
+    {
+      "id": 1643530,
+      "name": "Aday Mara",
+      "team": "OKC",
+      "position": "C",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 4.17,
+        "d_fga": 10.17,
+        "d_fg_pct": 0.41,
+        "normal_fg_pct": 0.515,
+        "pct_plusminus": -0.105
+      }
+    },
+    {
+      "id": 1641737,
+      "name": "Adem Bona",
+      "team": "PHI",
+      "position": "F",
+      "gp": 7,
+      "defense": {
+        "d_fgm": 4.43,
+        "d_fga": 8.29,
+        "d_fg_pct": 0.534,
+        "normal_fg_pct": 0.493,
+        "pct_plusminus": 0.042
+      }
+    },
+    {
+      "id": 1642349,
+      "name": "Ajay Mitchell",
+      "team": "OKC",
+      "position": "G",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 4.0,
+        "d_fga": 8.0,
+        "d_fg_pct": 0.5,
+        "normal_fg_pct": 0.471,
+        "pct_plusminus": 0.029
+      }
+    },
+    {
+      "id": 201143,
+      "name": "Al Horford",
+      "team": "GSW",
+      "position": "C",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 2.8,
+        "d_fga": 7.2,
+        "d_fg_pct": 0.389,
+        "normal_fg_pct": 0.487,
+        "pct_plusminus": -0.098
+      }
+    },
+    {
+      "id": 1627936,
+      "name": "Alex Caruso",
+      "team": "OKC",
+      "position": "G",
+      "gp": 4,
+      "defense": {
+        "d_fgm": 3.0,
+        "d_fga": 7.25,
+        "d_fg_pct": 0.414,
+        "normal_fg_pct": 0.446,
+        "pct_plusminus": -0.032
+      }
+    },
+    {
+      "id": 1642284,
+      "name": "Alex Karaban",
+      "team": "SAC",
+      "position": "F",
+      "gp": 4,
+      "defense": {
+        "d_fgm": 1.75,
+        "d_fga": 3.0,
+        "d_fg_pct": 0.583,
+        "normal_fg_pct": 0.474,
+        "pct_plusminus": 0.109
+      }
+    },
+    {
+      "id": 1631457,
+      "name": "Alex Morales",
+      "team": "ORL",
+      "position": "G",
+      "gp": 2,
+      "defense": {
+        "d_fgm": 0.5,
+        "d_fga": 1.0,
+        "d_fg_pct": 0.5,
+        "normal_fg_pct": 0.452,
+        "pct_plusminus": 0.049
+      }
+    },
+    {
+      "id": 1642259,
+      "name": "Alex Sarr",
+      "team": "WAS",
+      "position": "C",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 7.0,
+        "d_fga": 15.33,
+        "d_fg_pct": 0.457,
+        "normal_fg_pct": 0.422,
+        "pct_plusminus": 0.034
+      }
+    },
+    {
+      "id": 1642918,
+      "name": "Alijah Martin",
+      "team": "TOR",
+      "position": "G",
+      "gp": 3,
+      "defense": {
+        "d_fgm": 1.0,
+        "d_fga": 2.0,
+        "d_fg_pct": 0.5,
+        "normal_fg_pct": 0.541,
+        "pct_plusminus": -0.041
+      }
+    },
+    {
+      "id": 1643512,
+      "name": "Allen Graves",
+      "team": "TOR",
+      "position": "F",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 2.0,
+        "d_fga": 5.2,
+        "d_fg_pct": 0.385,
+        "normal_fg_pct": 0.448,
+        "pct_plusminus": -0.063
+      }
+    },
+    {
+      "id": 1630578,
+      "name": "Alperen Sengun",
+      "team": "HOU",
+      "position": "C",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 8.6,
+        "d_fga": 18.4,
+        "d_fg_pct": 0.467,
+        "normal_fg_pct": 0.458,
+        "pct_plusminus": 0.009
+      }
+    },
+    {
+      "id": 1643813,
+      "name": "Alpha Diallo",
+      "team": "DEN",
+      "position": "G",
+      "gp": 1,
+      "defense": {
+        "d_fgm": 6.0,
+        "d_fga": 11.0,
+        "d_fg_pct": 0.545,
+        "normal_fg_pct": 0.453,
+        "pct_plusminus": 0.093
+      }
+    },
+    {
+      "id": 1641708,
+      "name": "Amen Thompson",
+      "team": "HOU",
+      "position": "G-F",
+      "gp": 7,
+      "defense": {
+        "d_fgm": 2.43,
+        "d_fga": 7.29,
+        "d_fg_pct": 0.333,
+        "normal_fg_pct": 0.458,
+        "pct_plusminus": -0.125
+      }
+    },
+    {
+      "id": 203083,
+      "name": "Andre Drummond",
+      "team": "NYK",
+      "position": "C",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 2.83,
+        "d_fga": 5.67,
+        "d_fg_pct": 0.5,
+        "normal_fg_pct": 0.448,
+        "pct_plusminus": 0.052
+      }
+    },
+    {
+      "id": 1629614,
+      "name": "Andrew Nembhard",
+      "team": "IND",
+      "position": "G-F",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 3.8,
+        "d_fga": 10.4,
+        "d_fg_pct": 0.365,
+        "normal_fg_pct": 0.449,
+        "pct_plusminus": -0.083
+      }
+    },
+    {
+      "id": 203952,
+      "name": "Andrew Wiggins",
+      "team": "MIA",
+      "position": "F",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 5.5,
+        "d_fga": 10.5,
+        "d_fg_pct": 0.524,
+        "normal_fg_pct": 0.461,
+        "pct_plusminus": 0.062
+      }
+    },
+    {
+      "id": 1629014,
+      "name": "Anfernee Simons",
+      "team": "PHI",
+      "position": "G",
+      "gp": 7,
+      "defense": {
+        "d_fgm": 4.14,
+        "d_fga": 7.86,
+        "d_fg_pct": 0.527,
+        "normal_fg_pct": 0.43,
+        "pct_plusminus": 0.098
+      }
+    },
+    {
+      "id": 1641710,
+      "name": "Anthony Black",
+      "team": "ORL",
+      "position": "G",
+      "gp": 3,
+      "defense": {
+        "d_fgm": 5.33,
+        "d_fga": 12.0,
+        "d_fg_pct": 0.444,
+        "normal_fg_pct": 0.409,
+        "pct_plusminus": 0.035
+      }
+    },
+    {
+      "id": 203076,
+      "name": "Anthony Davis",
+      "team": "WAS",
+      "position": "F-C",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 5.0,
+        "d_fga": 14.83,
+        "d_fg_pct": 0.337,
+        "normal_fg_pct": 0.434,
+        "pct_plusminus": -0.097
+      }
+    },
+    {
+      "id": 1630162,
+      "name": "Anthony Edwards",
+      "team": "MIN",
+      "position": "G",
+      "gp": 4,
+      "defense": {
+        "d_fgm": 3.0,
+        "d_fga": 9.75,
+        "d_fg_pct": 0.308,
+        "normal_fg_pct": 0.443,
+        "pct_plusminus": -0.135
+      }
+    },
+    {
+      "id": 1642854,
+      "name": "Asa Newell",
+      "team": "ATL",
+      "position": "F",
+      "gp": 2,
+      "defense": {
+        "d_fgm": 1.5,
+        "d_fga": 4.5,
+        "d_fg_pct": 0.333,
+        "normal_fg_pct": 0.438,
+        "pct_plusminus": -0.104
+      }
+    },
+    {
+      "id": 1641709,
+      "name": "Ausar Thompson",
+      "team": "DET",
+      "position": "G-F",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 3.6,
+        "d_fga": 10.6,
+        "d_fg_pct": 0.34,
+        "normal_fg_pct": 0.432,
+        "pct_plusminus": -0.092
+      }
+    },
+    {
+      "id": 1630559,
+      "name": "Austin Reaves",
+      "team": "LAL",
+      "position": "G",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 5.67,
+        "d_fga": 9.17,
+        "d_fg_pct": 0.618,
+        "normal_fg_pct": 0.452,
+        "pct_plusminus": 0.166
+      }
+    },
+    {
+      "id": 1630245,
+      "name": "Ayo Dosunmu",
+      "team": "MIN",
+      "position": "G",
+      "gp": 7,
+      "defense": {
+        "d_fgm": 4.43,
+        "d_fga": 7.86,
+        "d_fg_pct": 0.564,
+        "normal_fg_pct": 0.459,
+        "pct_plusminus": 0.104
+      }
+    },
+    {
+      "id": 1642394,
+      "name": "Baba Miller",
+      "team": "LAC",
+      "position": "F",
+      "gp": 4,
+      "defense": {
+        "d_fgm": 2.75,
+        "d_fga": 4.5,
+        "d_fg_pct": 0.611,
+        "normal_fg_pct": 0.5,
+        "pct_plusminus": 0.111
+      }
+    },
+    {
+      "id": 1628389,
+      "name": "Bam Adebayo",
+      "team": "MIA",
+      "position": "C-F",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 4.83,
+        "d_fga": 11.0,
+        "d_fg_pct": 0.439,
+        "normal_fg_pct": 0.46,
+        "pct_plusminus": -0.021
+      }
+    },
+    {
+      "id": 1631248,
+      "name": "Baylor Scheierman",
+      "team": "BOS",
+      "position": "G",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 2.6,
+        "d_fga": 5.8,
+        "d_fg_pct": 0.448,
+        "normal_fg_pct": 0.402,
+        "pct_plusminus": 0.046
+      }
+    },
+    {
+      "id": 1641767,
+      "name": "Ben Sheppard",
+      "team": "IND",
+      "position": "G",
+      "gp": 1,
+      "defense": {
+        "d_fgm": 0.0,
+        "d_fga": 4.0,
+        "d_fg_pct": 0.0,
+        "normal_fg_pct": 0.461,
+        "pct_plusminus": -0.461
+      }
+    },
+    {
+      "id": 1631097,
+      "name": "Bennedict Mathurin",
+      "team": "NOP",
+      "position": "G-F",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 1.5,
+        "d_fga": 3.83,
+        "d_fg_pct": 0.391,
+        "normal_fg_pct": 0.469,
+        "pct_plusminus": -0.078
+      }
+    },
+    {
+      "id": 1642892,
+      "name": "Bennett Stirtz",
+      "team": "OKC",
+      "position": "G",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 1.5,
+        "d_fga": 4.17,
+        "d_fg_pct": 0.36,
+        "normal_fg_pct": 0.49,
+        "pct_plusminus": -0.13
+      }
+    },
+    {
+      "id": 1641731,
+      "name": "Bilal Coulibaly",
+      "team": "WAS",
+      "position": "G",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 3.33,
+        "d_fga": 7.33,
+        "d_fg_pct": 0.455,
+        "normal_fg_pct": 0.44,
+        "pct_plusminus": 0.014
+      }
+    },
+    {
+      "id": 1631104,
+      "name": "Blake Wesley",
+      "team": "LAC",
+      "position": "G",
+      "gp": 1,
+      "defense": {
+        "d_fgm": 0.0,
+        "d_fga": 1.0,
+        "d_fg_pct": 0.0,
+        "normal_fg_pct": 0.424,
+        "pct_plusminus": -0.424
+      }
+    },
+    {
+      "id": 1626171,
+      "name": "Bobby Portis Jr.",
+      "team": "MIA",
+      "position": "F",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 4.17,
+        "d_fga": 8.83,
+        "d_fg_pct": 0.472,
+        "normal_fg_pct": 0.45,
+        "pct_plusminus": 0.021
+      }
+    },
+    {
+      "id": 203992,
+      "name": "Bogdan Bogdanovi\u0107",
+      "team": "HOU",
+      "position": "G",
+      "gp": 7,
+      "defense": {
+        "d_fgm": 2.57,
+        "d_fga": 4.29,
+        "d_fg_pct": 0.6,
+        "normal_fg_pct": 0.473,
+        "pct_plusminus": 0.127
+      }
+    },
+    {
+      "id": 1630538,
+      "name": "Bones Hyland",
+      "team": "MIN",
+      "position": "G",
+      "gp": 7,
+      "defense": {
+        "d_fgm": 2.14,
+        "d_fga": 4.57,
+        "d_fg_pct": 0.469,
+        "normal_fg_pct": 0.438,
+        "pct_plusminus": 0.031
+      }
+    },
+    {
+      "id": 1643552,
+      "name": "Braden Smith",
+      "team": "IND",
+      "position": "G",
+      "gp": 2,
+      "defense": {
+        "d_fgm": 1.5,
+        "d_fga": 3.0,
+        "d_fg_pct": 0.5,
+        "normal_fg_pct": 0.434,
+        "pct_plusminus": 0.067
+      }
+    },
+    {
+      "id": 1642382,
+      "name": "Branden Carlson",
+      "team": "POR",
+      "position": "C",
+      "gp": 2,
+      "defense": {
+        "d_fgm": 2.0,
+        "d_fga": 5.0,
+        "d_fg_pct": 0.4,
+        "normal_fg_pct": 0.562,
+        "pct_plusminus": -0.162
+      }
+    },
+    {
+      "id": 1641764,
+      "name": "Brandin Podziemski",
+      "team": "GSW",
+      "position": "G",
+      "gp": 4,
+      "defense": {
+        "d_fgm": 5.25,
+        "d_fga": 11.5,
+        "d_fg_pct": 0.457,
+        "normal_fg_pct": 0.469,
+        "pct_plusminus": -0.012
+      }
+    },
+    {
+      "id": 1641706,
+      "name": "Brandon Miller",
+      "team": "CHA",
+      "position": "F",
+      "gp": 7,
+      "defense": {
+        "d_fgm": 4.29,
+        "d_fga": 9.71,
+        "d_fg_pct": 0.441,
+        "normal_fg_pct": 0.452,
+        "pct_plusminus": -0.011
+      }
+    },
+    {
+      "id": 1630314,
+      "name": "Brandon Williams",
+      "team": "GSW",
+      "position": "G",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 1.83,
+        "d_fga": 3.17,
+        "d_fg_pct": 0.579,
+        "normal_fg_pct": 0.467,
+        "pct_plusminus": 0.112
+      }
+    },
+    {
+      "id": 1643415,
+      "name": "Brayden Burries",
+      "team": "MIL",
+      "position": "G",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 3.33,
+        "d_fga": 7.33,
+        "d_fg_pct": 0.455,
+        "normal_fg_pct": 0.459,
+        "pct_plusminus": -0.004
+      }
+    },
+    {
+      "id": 1641729,
+      "name": "Brice Sensabaugh",
+      "team": "UTA",
+      "position": "F",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 2.33,
+        "d_fga": 4.83,
+        "d_fg_pct": 0.483,
+        "normal_fg_pct": 0.461,
+        "pct_plusminus": 0.021
+      }
+    },
+    {
+      "id": 1642355,
+      "name": "Bronny James",
+      "team": "LAL",
+      "position": "G",
+      "gp": 2,
+      "defense": {
+        "d_fgm": 2.0,
+        "d_fga": 4.5,
+        "d_fg_pct": 0.444,
+        "normal_fg_pct": 0.39,
+        "pct_plusminus": 0.055
+      }
+    },
+    {
+      "id": 201572,
+      "name": "Brook Lopez",
+      "team": "LAC",
+      "position": "C",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 4.2,
+        "d_fga": 8.6,
+        "d_fg_pct": 0.488,
+        "normal_fg_pct": 0.458,
+        "pct_plusminus": 0.03
+      }
+    },
+    {
+      "id": 1642964,
+      "name": "Brooks Barnhizer",
+      "team": "OKC",
+      "position": "G",
+      "gp": 3,
+      "defense": {
+        "d_fgm": 1.67,
+        "d_fga": 4.0,
+        "d_fg_pct": 0.417,
+        "normal_fg_pct": 0.414,
+        "pct_plusminus": 0.003
+      }
+    },
+    {
+      "id": 1643570,
+      "name": "Bruce Thornton",
+      "team": "HOU",
+      "position": "G",
+      "gp": 3,
+      "defense": {
+        "d_fgm": 1.0,
+        "d_fga": 1.67,
+        "d_fg_pct": 0.6,
+        "normal_fg_pct": 0.526,
+        "pct_plusminus": 0.074
+      }
+    },
+    {
+      "id": 1643624,
+      "name": "Bryce Hopkins",
+      "team": "DEN",
+      "position": "F",
+      "gp": 2,
+      "defense": {
+        "d_fgm": 4.5,
+        "d_fga": 8.5,
+        "d_fg_pct": 0.529,
+        "normal_fg_pct": 0.519,
+        "pct_plusminus": 0.01
+      }
+    },
+    {
+      "id": 1631121,
+      "name": "Bryce McGowens",
+      "team": "NOP",
+      "position": "G",
+      "gp": 2,
+      "defense": {
+        "d_fgm": 1.5,
+        "d_fga": 3.5,
+        "d_fg_pct": 0.429,
+        "normal_fg_pct": 0.491,
+        "pct_plusminus": -0.063
+      }
+    },
+    {
+      "id": 1642267,
+      "name": "Bub Carrington",
+      "team": "WAS",
+      "position": "G",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 2.83,
+        "d_fga": 7.67,
+        "d_fg_pct": 0.37,
+        "normal_fg_pct": 0.407,
+        "pct_plusminus": -0.038
+      }
+    },
+    {
+      "id": 1627741,
+      "name": "Buddy Hield",
+      "team": "CHI",
+      "position": "G",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 3.17,
+        "d_fga": 4.17,
+        "d_fg_pct": 0.76,
+        "normal_fg_pct": 0.446,
+        "pct_plusminus": 0.314
+      }
+    },
+    {
+      "id": 203468,
+      "name": "CJ McCollum",
+      "team": "ATL",
+      "position": "G",
+      "gp": 7,
+      "defense": {
+        "d_fgm": 3.71,
+        "d_fga": 8.14,
+        "d_fg_pct": 0.456,
+        "normal_fg_pct": 0.413,
+        "pct_plusminus": 0.043
+      }
+    },
+    {
+      "id": 1630595,
+      "name": "Cade Cunningham",
+      "team": "DET",
+      "position": "G",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 4.67,
+        "d_fga": 12.0,
+        "d_fg_pct": 0.389,
+        "normal_fg_pct": 0.435,
+        "pct_plusminus": -0.046
+      }
+    },
+    {
+      "id": 1628997,
+      "name": "Caleb Martin",
+      "team": "DAL",
+      "position": "F",
+      "gp": 2,
+      "defense": {
+        "d_fgm": 2.0,
+        "d_fga": 6.0,
+        "d_fg_pct": 0.333,
+        "normal_fg_pct": 0.501,
+        "pct_plusminus": -0.168
+      }
+    },
+    {
+      "id": 1643410,
+      "name": "Caleb Wilson",
+      "team": "CHI",
+      "position": "F",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 8.33,
+        "d_fga": 18.83,
+        "d_fg_pct": 0.442,
+        "normal_fg_pct": 0.467,
+        "pct_plusminus": -0.024
+      }
+    },
+    {
+      "id": 1642353,
+      "name": "Cam Christie",
+      "team": "LAC",
+      "position": "G",
+      "gp": 3,
+      "defense": {
+        "d_fgm": 1.0,
+        "d_fga": 2.67,
+        "d_fg_pct": 0.375,
+        "normal_fg_pct": 0.46,
+        "pct_plusminus": -0.085
+      }
+    },
+    {
+      "id": 1642285,
+      "name": "Cam Spencer",
+      "team": "MEM",
+      "position": "G",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 3.5,
+        "d_fga": 6.83,
+        "d_fg_pct": 0.512,
+        "normal_fg_pct": 0.415,
+        "pct_plusminus": 0.098
+      }
+    },
+    {
+      "id": 1641715,
+      "name": "Cam Whitmore",
+      "team": "DEN",
+      "position": "F",
+      "gp": 2,
+      "defense": {
+        "d_fgm": 2.5,
+        "d_fga": 2.5,
+        "d_fg_pct": 1.0,
+        "normal_fg_pct": 0.415,
+        "pct_plusminus": 0.585
+      }
+    },
+    {
+      "id": 1643409,
+      "name": "Cameron Boozer",
+      "team": "MEM",
+      "position": "F",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 4.33,
+        "d_fga": 8.83,
+        "d_fg_pct": 0.491,
+        "normal_fg_pct": 0.467,
+        "pct_plusminus": 0.023
+      }
+    },
+    {
+      "id": 1629661,
+      "name": "Cameron Johnson",
+      "team": "DEN",
+      "position": "F",
+      "gp": 2,
+      "defense": {
+        "d_fgm": 7.0,
+        "d_fga": 12.0,
+        "d_fg_pct": 0.583,
+        "normal_fg_pct": 0.465,
+        "pct_plusminus": 0.118
+      }
+    },
+    {
+      "id": 1643721,
+      "name": "Carson Cooper",
+      "team": "MEM",
+      "position": "F",
+      "gp": 1,
+      "defense": {
+        "d_fgm": 2.0,
+        "d_fga": 2.0,
+        "d_fg_pct": 1.0,
+        "normal_fg_pct": 0.427,
+        "pct_plusminus": 0.574
+      }
+    },
+    {
+      "id": 1642868,
+      "name": "Carter Bryant",
+      "team": "SAS",
+      "position": "F",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 1.5,
+        "d_fga": 3.5,
+        "d_fg_pct": 0.429,
+        "normal_fg_pct": 0.419,
+        "pct_plusminus": 0.009
+      }
+    },
+    {
+      "id": 1641717,
+      "name": "Cason Wallace",
+      "team": "OKC",
+      "position": "G",
+      "gp": 3,
+      "defense": {
+        "d_fgm": 3.0,
+        "d_fga": 7.33,
+        "d_fg_pct": 0.409,
+        "normal_fg_pct": 0.444,
+        "pct_plusminus": -0.035
+      }
+    },
+    {
+      "id": 1642907,
+      "name": "Cedric Coward",
+      "team": "MEM",
+      "position": "G",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 4.6,
+        "d_fga": 10.8,
+        "d_fg_pct": 0.426,
+        "normal_fg_pct": 0.456,
+        "pct_plusminus": -0.03
+      }
+    },
+    {
+      "id": 1643052,
+      "name": "Chaney Johnson",
+      "team": "BKN",
+      "position": "G-F",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 2.2,
+        "d_fga": 5.0,
+        "d_fg_pct": 0.44,
+        "normal_fg_pct": 0.456,
+        "pct_plusminus": -0.016
+      }
+    },
+    {
+      "id": 1629646,
+      "name": "Charles Bassey",
+      "team": "GSW",
+      "position": "F-C",
+      "gp": 3,
+      "defense": {
+        "d_fgm": 1.67,
+        "d_fga": 4.33,
+        "d_fg_pct": 0.385,
+        "normal_fg_pct": 0.574,
+        "pct_plusminus": -0.189
+      }
+    },
+    {
+      "id": 1642404,
+      "name": "Chaz Lanier",
+      "team": "DET",
+      "position": "G",
+      "gp": 1,
+      "defense": {
+        "d_fgm": 0.0,
+        "d_fga": 1.0,
+        "d_fg_pct": 0.0,
+        "normal_fg_pct": 0.286,
+        "pct_plusminus": -0.286
+      }
+    },
+    {
+      "id": 1631096,
+      "name": "Chet Holmgren",
+      "team": "OKC",
+      "position": "C-F",
+      "gp": 3,
+      "defense": {
+        "d_fgm": 3.0,
+        "d_fga": 12.0,
+        "d_fg_pct": 0.25,
+        "normal_fg_pct": 0.464,
+        "pct_plusminus": -0.214
+      }
+    },
+    {
+      "id": 1643416,
+      "name": "Chris Cenac Jr.",
+      "team": "BOS",
+      "position": "F",
+      "gp": 1,
+      "defense": {
+        "d_fgm": 2.0,
+        "d_fga": 2.0,
+        "d_fg_pct": 1.0,
+        "normal_fg_pct": 0.417,
+        "pct_plusminus": 0.583
+      }
+    },
+    {
+      "id": 1643024,
+      "name": "Chris Ma\u00f1on",
+      "team": "LAL",
+      "position": "G",
+      "gp": 1,
+      "defense": {
+        "d_fgm": 1.0,
+        "d_fga": 1.0,
+        "d_fg_pct": 1.0,
+        "normal_fg_pct": 0.425,
+        "pct_plusminus": 0.575
+      }
+    },
+    {
+      "id": 1642959,
+      "name": "Chris Youngblood",
+      "team": "POR",
+      "position": "G",
+      "gp": 1,
+      "defense": {
+        "d_fgm": 0.0,
+        "d_fga": 1.0,
+        "d_fg_pct": 0.0,
+        "normal_fg_pct": 0.5,
+        "pct_plusminus": -0.5
+      }
+    },
+    {
+      "id": 1643515,
+      "name": "Christian Anderson",
+      "team": "CHA",
+      "position": "G",
+      "gp": 7,
+      "defense": {
+        "d_fgm": 1.71,
+        "d_fga": 3.71,
+        "d_fg_pct": 0.462,
+        "normal_fg_pct": 0.45,
+        "pct_plusminus": 0.012
+      }
+    },
+    {
+      "id": 1631128,
+      "name": "Christian Braun",
+      "team": "DEN",
+      "position": "G",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 6.4,
+        "d_fga": 14.2,
+        "d_fg_pct": 0.451,
+        "normal_fg_pct": 0.462,
+        "pct_plusminus": -0.011
+      }
+    },
+    {
+      "id": 203991,
+      "name": "Clint Capela",
+      "team": "HOU",
+      "position": "C",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 3.5,
+        "d_fga": 7.0,
+        "d_fg_pct": 0.5,
+        "normal_fg_pct": 0.49,
+        "pct_plusminus": 0.01
+      }
+    },
+    {
+      "id": 1642262,
+      "name": "Cody Williams",
+      "team": "MIN",
+      "position": "F",
+      "gp": 1,
+      "defense": {
+        "d_fgm": 0.0,
+        "d_fga": 2.0,
+        "d_fg_pct": 0.0,
+        "normal_fg_pct": 0.612,
+        "pct_plusminus": -0.612
+      }
+    },
+    {
+      "id": 1630658,
+      "name": "Colin Castleton",
+      "team": "ORL",
+      "position": "C",
+      "gp": 2,
+      "defense": {
+        "d_fgm": 1.0,
+        "d_fga": 3.0,
+        "d_fg_pct": 0.333,
+        "normal_fg_pct": 0.553,
+        "pct_plusminus": -0.219
+      }
+    },
+    {
+      "id": 1631221,
+      "name": "Collin Gillespie",
+      "team": "PHX",
+      "position": "G",
+      "gp": 4,
+      "defense": {
+        "d_fgm": 4.5,
+        "d_fga": 9.0,
+        "d_fg_pct": 0.5,
+        "normal_fg_pct": 0.43,
+        "pct_plusminus": 0.07
+      }
+    },
+    {
+      "id": 1642867,
+      "name": "Collin Murray-Boyles",
+      "team": "TOR",
+      "position": "F",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 3.4,
+        "d_fga": 8.0,
+        "d_fg_pct": 0.425,
+        "normal_fg_pct": 0.448,
+        "pct_plusminus": -0.023
+      }
+    },
+    {
+      "id": 1629012,
+      "name": "Collin Sexton",
+      "team": "LAL",
+      "position": "G",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 2.0,
+        "d_fga": 5.4,
+        "d_fg_pct": 0.37,
+        "normal_fg_pct": 0.443,
+        "pct_plusminus": -0.073
+      }
+    },
+    {
+      "id": 1642843,
+      "name": "Cooper Flagg",
+      "team": "DAL",
+      "position": "F",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 4.4,
+        "d_fga": 11.8,
+        "d_fg_pct": 0.373,
+        "normal_fg_pct": 0.471,
+        "pct_plusminus": -0.098
+      }
+    },
+    {
+      "id": 1630557,
+      "name": "Corey Kispert",
+      "team": "ATL",
+      "position": "F",
+      "gp": 1,
+      "defense": {
+        "d_fgm": 1.0,
+        "d_fga": 4.0,
+        "d_fg_pct": 0.25,
+        "normal_fg_pct": 0.271,
+        "pct_plusminus": -0.021
+      }
+    },
+    {
+      "id": 1641854,
+      "name": "Craig Porter Jr.",
+      "team": "CLE",
+      "position": "G",
+      "gp": 3,
+      "defense": {
+        "d_fgm": 0.67,
+        "d_fga": 3.0,
+        "d_fg_pct": 0.222,
+        "normal_fg_pct": 0.447,
+        "pct_plusminus": -0.224
+      }
+    },
+    {
+      "id": 1641747,
+      "name": "DaRon Holmes II",
+      "team": "DEN",
+      "position": "F",
+      "gp": 1,
+      "defense": {
+        "d_fgm": 2.0,
+        "d_fga": 4.0,
+        "d_fg_pct": 0.5,
+        "normal_fg_pct": 0.463,
+        "pct_plusminus": 0.037
+      }
+    },
+    {
+      "id": 1631342,
+      "name": "Daeqwon Plowden",
+      "team": "SAC",
+      "position": "G-F",
+      "gp": 4,
+      "defense": {
+        "d_fgm": 2.75,
+        "d_fga": 6.25,
+        "d_fg_pct": 0.44,
+        "normal_fg_pct": 0.475,
+        "pct_plusminus": -0.035
+      }
+    },
+    {
+      "id": 1643517,
+      "name": "Dailyn Swain",
+      "team": "CHI",
+      "position": "F",
+      "gp": 1,
+      "defense": {
+        "d_fgm": 5.0,
+        "d_fga": 7.0,
+        "d_fg_pct": 0.714,
+        "normal_fg_pct": 0.573,
+        "pct_plusminus": 0.141
+      }
+    },
+    {
+      "id": 203081,
+      "name": "Damian Lillard",
+      "team": "POR",
+      "position": "G",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 1.2,
+        "d_fga": 5.6,
+        "d_fg_pct": 0.214,
+        "normal_fg_pct": 0.437,
+        "pct_plusminus": -0.223
+      }
+    },
+    {
+      "id": 1629655,
+      "name": "Daniel Gafford",
+      "team": "DAL",
+      "position": "F-C",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 5.67,
+        "d_fga": 13.0,
+        "d_fg_pct": 0.436,
+        "normal_fg_pct": 0.508,
+        "pct_plusminus": -0.072
+      }
+    },
+    {
+      "id": 1642450,
+      "name": "Daniss Jenkins",
+      "team": "DET",
+      "position": "G",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 3.17,
+        "d_fga": 7.83,
+        "d_fg_pct": 0.404,
+        "normal_fg_pct": 0.427,
+        "pct_plusminus": -0.022
+      }
+    },
+    {
+      "id": 1642874,
+      "name": "Danny Wolf",
+      "team": "BKN",
+      "position": "F",
+      "gp": 2,
+      "defense": {
+        "d_fgm": 2.0,
+        "d_fga": 4.5,
+        "d_fg_pct": 0.444,
+        "normal_fg_pct": 0.45,
+        "pct_plusminus": -0.005
+      }
+    },
+    {
+      "id": 1643411,
+      "name": "Darius Acuff Jr.",
+      "team": "SAC",
+      "position": "G",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 6.17,
+        "d_fga": 11.33,
+        "d_fg_pct": 0.544,
+        "normal_fg_pct": 0.467,
+        "pct_plusminus": 0.077
+      }
+    },
+    {
+      "id": 1629636,
+      "name": "Darius Garland",
+      "team": "LAC",
+      "position": "G",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 5.6,
+        "d_fga": 10.6,
+        "d_fg_pct": 0.528,
+        "normal_fg_pct": 0.475,
+        "pct_plusminus": 0.054
+      }
+    },
+    {
+      "id": 1643408,
+      "name": "Darryn Peterson",
+      "team": "UTA",
+      "position": "G",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 4.83,
+        "d_fga": 10.33,
+        "d_fg_pct": 0.468,
+        "normal_fg_pct": 0.459,
+        "pct_plusminus": 0.009
+      }
+    },
+    {
+      "id": 1630558,
+      "name": "Davion Mitchell",
+      "team": "MIA",
+      "position": "G",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 6.5,
+        "d_fga": 13.0,
+        "d_fg_pct": 0.5,
+        "normal_fg_pct": 0.456,
+        "pct_plusminus": 0.044
+      }
+    },
+    {
+      "id": 1630549,
+      "name": "Day'Ron Sharpe",
+      "team": "BKN",
+      "position": "C",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 5.0,
+        "d_fga": 11.0,
+        "d_fg_pct": 0.455,
+        "normal_fg_pct": 0.48,
+        "pct_plusminus": -0.025
+      }
+    },
+    {
+      "id": 1628368,
+      "name": "De'Aaron Fox",
+      "team": "SAS",
+      "position": "G",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 4.33,
+        "d_fga": 10.5,
+        "d_fg_pct": 0.413,
+        "normal_fg_pct": 0.465,
+        "pct_plusminus": -0.053
+      }
+    },
+    {
+      "id": 1629631,
+      "name": "De'Andre Hunter",
+      "team": "SAC",
+      "position": "F-G",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 5.67,
+        "d_fga": 10.33,
+        "d_fg_pct": 0.548,
+        "normal_fg_pct": 0.459,
+        "pct_plusminus": 0.09
+      }
+    },
+    {
+      "id": 1629001,
+      "name": "De'Anthony Melton",
+      "team": "GSW",
+      "position": "G",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 3.33,
+        "d_fga": 5.67,
+        "d_fg_pct": 0.588,
+        "normal_fg_pct": 0.499,
+        "pct_plusminus": 0.089
+      }
+    },
+    {
+      "id": 201599,
+      "name": "DeAndre Jordan",
+      "team": "NOP",
+      "position": "C",
+      "gp": 2,
+      "defense": {
+        "d_fgm": 5.0,
+        "d_fga": 9.0,
+        "d_fg_pct": 0.556,
+        "normal_fg_pct": 0.46,
+        "pct_plusminus": 0.096
+      }
+    },
+    {
+      "id": 201942,
+      "name": "DeMar DeRozan",
+      "team": "DEN",
+      "position": "G-F",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 4.2,
+        "d_fga": 6.6,
+        "d_fg_pct": 0.636,
+        "normal_fg_pct": 0.472,
+        "pct_plusminus": 0.165
+      }
+    },
+    {
+      "id": 1629731,
+      "name": "Dean Wade",
+      "team": "PHI",
+      "position": "F-C",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 4.8,
+        "d_fga": 9.6,
+        "d_fg_pct": 0.5,
+        "normal_fg_pct": 0.419,
+        "pct_plusminus": 0.081
+      }
+    },
+    {
+      "id": 1629028,
+      "name": "Deandre Ayton",
+      "team": "WAS",
+      "position": "C",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 4.17,
+        "d_fga": 9.0,
+        "d_fg_pct": 0.463,
+        "normal_fg_pct": 0.461,
+        "pct_plusminus": 0.002
+      }
+    },
+    {
+      "id": 1627749,
+      "name": "Dejounte Murray",
+      "team": "NOP",
+      "position": "G",
+      "gp": 4,
+      "defense": {
+        "d_fgm": 7.75,
+        "d_fga": 15.25,
+        "d_fg_pct": 0.508,
+        "normal_fg_pct": 0.478,
+        "pct_plusminus": 0.031
+      }
+    },
+    {
+      "id": 1630166,
+      "name": "Deni Avdija",
+      "team": "POR",
+      "position": "F",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 3.0,
+        "d_fga": 9.6,
+        "d_fg_pct": 0.313,
+        "normal_fg_pct": 0.45,
+        "pct_plusminus": -0.137
+      }
+    },
+    {
+      "id": 203471,
+      "name": "Dennis Schr\u00f6der",
+      "team": "CHA",
+      "position": "G",
+      "gp": 7,
+      "defense": {
+        "d_fgm": 4.86,
+        "d_fga": 9.86,
+        "d_fg_pct": 0.493,
+        "normal_fg_pct": 0.422,
+        "pct_plusminus": 0.07
+      }
+    },
+    {
+      "id": 1642852,
+      "name": "Derik Queen",
+      "team": "NOP",
+      "position": "C",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 6.17,
+        "d_fga": 13.17,
+        "d_fg_pct": 0.468,
+        "normal_fg_pct": 0.481,
+        "pct_plusminus": -0.013
+      }
+    },
+    {
+      "id": 1627884,
+      "name": "Derrick Jones Jr.",
+      "team": "LAC",
+      "position": "F",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 2.6,
+        "d_fga": 9.6,
+        "d_fg_pct": 0.271,
+        "normal_fg_pct": 0.466,
+        "pct_plusminus": -0.196
+      }
+    },
+    {
+      "id": 1628401,
+      "name": "Derrick White",
+      "team": "BOS",
+      "position": "G",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 5.6,
+        "d_fga": 11.8,
+        "d_fg_pct": 0.475,
+        "normal_fg_pct": 0.419,
+        "pct_plusminus": 0.056
+      }
+    },
+    {
+      "id": 1630217,
+      "name": "Desmond Bane",
+      "team": "ORL",
+      "position": "G",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 3.8,
+        "d_fga": 9.8,
+        "d_fg_pct": 0.388,
+        "normal_fg_pct": 0.467,
+        "pct_plusminus": -0.079
+      }
+    },
+    {
+      "id": 1626164,
+      "name": "Devin Booker",
+      "team": "PHX",
+      "position": "G",
+      "gp": 4,
+      "defense": {
+        "d_fgm": 4.0,
+        "d_fga": 9.0,
+        "d_fg_pct": 0.444,
+        "normal_fg_pct": 0.464,
+        "pct_plusminus": -0.02
+      }
+    },
+    {
+      "id": 1630170,
+      "name": "Devin Vassell",
+      "team": "SAS",
+      "position": "G-F",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 3.17,
+        "d_fga": 8.17,
+        "d_fg_pct": 0.388,
+        "normal_fg_pct": 0.444,
+        "pct_plusminus": -0.056
+      }
+    },
+    {
+      "id": 1628415,
+      "name": "Dillon Brooks",
+      "team": "PHX",
+      "position": "G-F",
+      "gp": 4,
+      "defense": {
+        "d_fgm": 8.5,
+        "d_fga": 12.75,
+        "d_fg_pct": 0.667,
+        "normal_fg_pct": 0.456,
+        "pct_plusminus": 0.211
+      }
+    },
+    {
+      "id": 1627734,
+      "name": "Domantas Sabonis",
+      "team": "SAC",
+      "position": "F-C",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 8.83,
+        "d_fga": 18.5,
+        "d_fg_pct": 0.477,
+        "normal_fg_pct": 0.508,
+        "pct_plusminus": -0.031
+      }
+    },
+    {
+      "id": 1642270,
+      "name": "Donovan Clingan",
+      "team": "POR",
+      "position": "C",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 5.0,
+        "d_fga": 11.8,
+        "d_fg_pct": 0.424,
+        "normal_fg_pct": 0.502,
+        "pct_plusminus": -0.079
+      }
+    },
+    {
+      "id": 1628378,
+      "name": "Donovan Mitchell",
+      "team": "CLE",
+      "position": "G",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 5.5,
+        "d_fga": 11.5,
+        "d_fg_pct": 0.478,
+        "normal_fg_pct": 0.447,
+        "pct_plusminus": 0.031
+      }
+    },
+    {
+      "id": 1627827,
+      "name": "Dorian Finney-Smith",
+      "team": "ATL",
+      "position": "F",
+      "gp": 3,
+      "defense": {
+        "d_fgm": 0.33,
+        "d_fga": 2.33,
+        "d_fg_pct": 0.143,
+        "normal_fg_pct": 0.438,
+        "pct_plusminus": -0.296
+      }
+    },
+    {
+      "id": 1642962,
+      "name": "Drake Powell",
+      "team": "BKN",
+      "position": "G-F",
+      "gp": 2,
+      "defense": {
+        "d_fgm": 1.0,
+        "d_fga": 4.5,
+        "d_fg_pct": 0.222,
+        "normal_fg_pct": 0.345,
+        "pct_plusminus": -0.123
+      }
+    },
+    {
+      "id": 203110,
+      "name": "Draymond Green",
+      "team": "GSW",
+      "position": "F-C",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 4.8,
+        "d_fga": 12.4,
+        "d_fg_pct": 0.387,
+        "normal_fg_pct": 0.5,
+        "pct_plusminus": -0.113
+      }
+    },
+    {
+      "id": 1630696,
+      "name": "Dru Smith",
+      "team": "MIA",
+      "position": "G",
+      "gp": 3,
+      "defense": {
+        "d_fgm": 2.67,
+        "d_fga": 5.0,
+        "d_fg_pct": 0.533,
+        "normal_fg_pct": 0.469,
+        "pct_plusminus": 0.064
+      }
+    },
+    {
+      "id": 1629130,
+      "name": "Duncan Robinson",
+      "team": "DET",
+      "position": "F",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 3.83,
+        "d_fga": 7.5,
+        "d_fg_pct": 0.511,
+        "normal_fg_pct": 0.419,
+        "pct_plusminus": 0.092
+      }
+    },
+    {
+      "id": 1641871,
+      "name": "Duop Reath",
+      "team": "PHX",
+      "position": "C",
+      "gp": 2,
+      "defense": {
+        "d_fgm": 2.5,
+        "d_fga": 6.0,
+        "d_fg_pct": 0.417,
+        "normal_fg_pct": 0.46,
+        "pct_plusminus": -0.043
+      }
+    },
+    {
+      "id": 1642844,
+      "name": "Dylan Harper",
+      "team": "SAS",
+      "position": "G",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 4.33,
+        "d_fga": 9.67,
+        "d_fg_pct": 0.448,
+        "normal_fg_pct": 0.469,
+        "pct_plusminus": -0.02
+      }
+    },
+    {
+      "id": 1630700,
+      "name": "Dyson Daniels",
+      "team": "ATL",
+      "position": "G",
+      "gp": 7,
+      "defense": {
+        "d_fgm": 4.71,
+        "d_fga": 10.29,
+        "d_fg_pct": 0.458,
+        "normal_fg_pct": 0.478,
+        "pct_plusminus": -0.02
+      }
+    },
+    {
+      "id": 1643536,
+      "name": "Ebuka Okorie",
+      "team": "DET",
+      "position": "G",
+      "gp": 1,
+      "defense": {
+        "d_fgm": 0.0,
+        "d_fga": 1.0,
+        "d_fg_pct": 0.0,
+        "normal_fg_pct": 0.375,
+        "pct_plusminus": -0.375
+      }
+    },
+    {
+      "id": 1642856,
+      "name": "Egor D\u00ebmin",
+      "team": "BKN",
+      "position": "G",
+      "gp": 4,
+      "defense": {
+        "d_fgm": 4.5,
+        "d_fga": 7.5,
+        "d_fg_pct": 0.6,
+        "normal_fg_pct": 0.447,
+        "pct_plusminus": 0.153
+      }
+    },
+    {
+      "id": 1641989,
+      "name": "Elijah Harkless",
+      "team": "DET",
+      "position": "G",
+      "gp": 1,
+      "defense": {
+        "d_fgm": 0.0,
+        "d_fga": 1.0,
+        "d_fg_pct": 0.0,
+        "normal_fg_pct": 0.395,
+        "pct_plusminus": -0.395
+      }
+    },
+    {
+      "id": 1643567,
+      "name": "Emanuel Sharp",
+      "team": "SAC",
+      "position": "G",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 2.0,
+        "d_fga": 4.5,
+        "d_fg_pct": 0.444,
+        "normal_fg_pct": 0.438,
+        "pct_plusminus": 0.006
+      }
+    },
+    {
+      "id": 1630596,
+      "name": "Evan Mobley",
+      "team": "CLE",
+      "position": "C",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 8.0,
+        "d_fga": 18.0,
+        "d_fg_pct": 0.444,
+        "normal_fg_pct": 0.45,
+        "pct_plusminus": -0.006
+      }
+    },
+    {
+      "id": 1643590,
+      "name": "Felix Okpara",
+      "team": "WAS",
+      "position": "C",
+      "gp": 1,
+      "defense": {
+        "d_fgm": 0.0,
+        "d_fga": 1.0,
+        "d_fg_pct": 0.0,
+        "normal_fg_pct": 0.324,
+        "pct_plusminus": -0.324
+      }
+    },
+    {
+      "id": 1630532,
+      "name": "Franz Wagner",
+      "team": "ORL",
+      "position": "F",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 6.2,
+        "d_fga": 12.6,
+        "d_fg_pct": 0.492,
+        "normal_fg_pct": 0.452,
+        "pct_plusminus": 0.04
+      }
+    },
+    {
+      "id": 1627832,
+      "name": "Fred VanVleet",
+      "team": "HOU",
+      "position": "G",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 5.0,
+        "d_fga": 9.2,
+        "d_fg_pct": 0.543,
+        "normal_fg_pct": 0.469,
+        "pct_plusminus": 0.075
+      }
+    },
+    {
+      "id": 1641713,
+      "name": "GG Jackson",
+      "team": "MEM",
+      "position": "F",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 3.17,
+        "d_fga": 6.5,
+        "d_fg_pct": 0.487,
+        "normal_fg_pct": 0.436,
+        "pct_plusminus": 0.051
+      }
+    },
+    {
+      "id": 1627780,
+      "name": "Gary Payton II",
+      "team": "GSW",
+      "position": "G",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 3.33,
+        "d_fga": 5.83,
+        "d_fg_pct": 0.571,
+        "normal_fg_pct": 0.459,
+        "pct_plusminus": 0.113
+      }
+    },
+    {
+      "id": 1629018,
+      "name": "Gary Trent Jr.",
+      "team": "MIL",
+      "position": "G",
+      "gp": 2,
+      "defense": {
+        "d_fgm": 1.5,
+        "d_fga": 2.5,
+        "d_fg_pct": 0.6,
+        "normal_fg_pct": 0.438,
+        "pct_plusminus": 0.162
+      }
+    },
+    {
+      "id": 1627777,
+      "name": "Georges Niang",
+      "team": "GSW",
+      "position": "F",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 3.17,
+        "d_fga": 7.67,
+        "d_fg_pct": 0.413,
+        "normal_fg_pct": 0.462,
+        "pct_plusminus": -0.049
+      }
+    },
+    {
+      "id": 203507,
+      "name": "Giannis Antetokounmpo",
+      "team": "MIA",
+      "position": "F",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 5.83,
+        "d_fga": 11.33,
+        "d_fg_pct": 0.515,
+        "normal_fg_pct": 0.463,
+        "pct_plusminus": 0.052
+      }
+    },
+    {
+      "id": 1629048,
+      "name": "Goga Bitadze",
+      "team": "ORL",
+      "position": "C-F",
+      "gp": 4,
+      "defense": {
+        "d_fgm": 1.5,
+        "d_fga": 4.25,
+        "d_fg_pct": 0.353,
+        "normal_fg_pct": 0.487,
+        "pct_plusminus": -0.135
+      }
+    },
+    {
+      "id": 1641711,
+      "name": "Gradey Dick",
+      "team": "LAC",
+      "position": "G-F",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 2.2,
+        "d_fga": 5.4,
+        "d_fg_pct": 0.407,
+        "normal_fg_pct": 0.453,
+        "pct_plusminus": -0.045
+      }
+    },
+    {
+      "id": 1643633,
+      "name": "Graham Ike",
+      "team": "GSW",
+      "position": "F-C",
+      "gp": 3,
+      "defense": {
+        "d_fgm": 4.0,
+        "d_fga": 7.67,
+        "d_fg_pct": 0.522,
+        "normal_fg_pct": 0.501,
+        "pct_plusminus": 0.021
+      }
+    },
+    {
+      "id": 1628960,
+      "name": "Grayson Allen",
+      "team": "CHA",
+      "position": "G",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 3.33,
+        "d_fga": 8.0,
+        "d_fg_pct": 0.417,
+        "normal_fg_pct": 0.425,
+        "pct_plusminus": -0.009
+      }
+    },
+    {
+      "id": 1630611,
+      "name": "Gui Santos",
+      "team": "GSW",
+      "position": "F",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 3.4,
+        "d_fga": 6.6,
+        "d_fg_pct": 0.515,
+        "normal_fg_pct": 0.485,
+        "pct_plusminus": 0.03
+      }
+    },
+    {
+      "id": 1643419,
+      "name": "Hannes Steinbach",
+      "team": "CHA",
+      "position": "F",
+      "gp": 2,
+      "defense": {
+        "d_fgm": 2.5,
+        "d_fga": 4.5,
+        "d_fg_pct": 0.556,
+        "normal_fg_pct": 0.43,
+        "pct_plusminus": 0.126
+      }
+    },
+    {
+      "id": 203084,
+      "name": "Harrison Barnes",
+      "team": "SAS",
+      "position": "F",
+      "gp": 4,
+      "defense": {
+        "d_fgm": 2.0,
+        "d_fga": 3.25,
+        "d_fg_pct": 0.615,
+        "normal_fg_pct": 0.444,
+        "pct_plusminus": 0.171
+      }
+    },
+    {
+      "id": 1630529,
+      "name": "Herbert Jones",
+      "team": "NOP",
+      "position": "F",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 3.17,
+        "d_fga": 6.67,
+        "d_fg_pct": 0.475,
+        "normal_fg_pct": 0.457,
+        "pct_plusminus": 0.018
+      }
+    },
+    {
+      "id": 1642864,
+      "name": "Hugo Gonz\u00e1lez",
+      "team": "BOS",
+      "position": "G",
+      "gp": 4,
+      "defense": {
+        "d_fgm": 2.75,
+        "d_fga": 7.25,
+        "d_fg_pct": 0.379,
+        "normal_fg_pct": 0.388,
+        "pct_plusminus": -0.008
+      }
+    },
+    {
+      "id": 1630193,
+      "name": "Immanuel Quickley",
+      "team": "TOR",
+      "position": "G",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 4.4,
+        "d_fga": 9.8,
+        "d_fg_pct": 0.449,
+        "normal_fg_pct": 0.461,
+        "pct_plusminus": -0.012
+      }
+    },
+    {
+      "id": 1642403,
+      "name": "Isaac Jones",
+      "team": "DET",
+      "position": "F",
+      "gp": 2,
+      "defense": {
+        "d_fgm": 1.5,
+        "d_fga": 2.0,
+        "d_fg_pct": 0.75,
+        "normal_fg_pct": 0.561,
+        "pct_plusminus": 0.189
+      }
+    },
+    {
+      "id": 1630171,
+      "name": "Isaac Okoro",
+      "team": "CHI",
+      "position": "F-G",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 4.0,
+        "d_fga": 7.33,
+        "d_fg_pct": 0.545,
+        "normal_fg_pct": 0.445,
+        "pct_plusminus": 0.101
+      }
+    },
+    {
+      "id": 1642268,
+      "name": "Isaiah Collier",
+      "team": "UTA",
+      "position": "G",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 3.5,
+        "d_fga": 6.17,
+        "d_fg_pct": 0.568,
+        "normal_fg_pct": 0.452,
+        "pct_plusminus": 0.115
+      }
+    },
+    {
+      "id": 1642384,
+      "name": "Isaiah Crawford",
+      "team": "HOU",
+      "position": "F",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 0.6,
+        "d_fga": 1.6,
+        "d_fg_pct": 0.375,
+        "normal_fg_pct": 0.443,
+        "pct_plusminus": -0.068
+      }
+    },
+    {
+      "id": 1642912,
+      "name": "Isaiah Evans",
+      "team": "MIN",
+      "position": "F",
+      "gp": 1,
+      "defense": {
+        "d_fgm": 1.0,
+        "d_fga": 1.0,
+        "d_fg_pct": 1.0,
+        "normal_fg_pct": 0.4,
+        "pct_plusminus": 0.6
+      }
+    },
+    {
+      "id": 1628392,
+      "name": "Isaiah Hartenstein",
+      "team": "OKC",
+      "position": "C-F",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 5.83,
+        "d_fga": 11.5,
+        "d_fg_pct": 0.507,
+        "normal_fg_pct": 0.495,
+        "pct_plusminus": 0.012
+      }
+    },
+    {
+      "id": 1630543,
+      "name": "Isaiah Jackson",
+      "team": "LAC",
+      "position": "F",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 4.6,
+        "d_fga": 9.4,
+        "d_fg_pct": 0.489,
+        "normal_fg_pct": 0.517,
+        "pct_plusminus": -0.028
+      }
+    },
+    {
+      "id": 1630198,
+      "name": "Isaiah Joe",
+      "team": "DET",
+      "position": "G",
+      "gp": 3,
+      "defense": {
+        "d_fgm": 1.33,
+        "d_fga": 3.67,
+        "d_fg_pct": 0.364,
+        "normal_fg_pct": 0.415,
+        "pct_plusminus": -0.051
+      }
+    },
+    {
+      "id": 1630191,
+      "name": "Isaiah Stewart",
+      "team": "MEM",
+      "position": "F-C",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 2.0,
+        "d_fga": 4.8,
+        "d_fg_pct": 0.417,
+        "normal_fg_pct": 0.507,
+        "pct_plusminus": -0.091
+      }
+    },
+    {
+      "id": 1627826,
+      "name": "Ivica Zubac",
+      "team": "IND",
+      "position": "C",
+      "gp": 3,
+      "defense": {
+        "d_fgm": 6.0,
+        "d_fga": 11.67,
+        "d_fg_pct": 0.514,
+        "normal_fg_pct": 0.563,
+        "pct_plusminus": -0.049
+      }
+    },
+    {
+      "id": 1629630,
+      "name": "Ja Morant",
+      "team": "POR",
+      "position": "G",
+      "gp": 4,
+      "defense": {
+        "d_fgm": 4.25,
+        "d_fga": 8.25,
+        "d_fg_pct": 0.515,
+        "normal_fg_pct": 0.482,
+        "pct_plusminus": 0.033
+      }
+    },
+    {
+      "id": 1642266,
+      "name": "Ja'Kobe Walter",
+      "team": "TOR",
+      "position": "G",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 3.6,
+        "d_fga": 8.8,
+        "d_fg_pct": 0.409,
+        "normal_fg_pct": 0.447,
+        "pct_plusminus": -0.038
+      }
+    },
+    {
+      "id": 1643551,
+      "name": "Ja'Kobi Gillespie",
+      "team": "SAS",
+      "position": "G",
+      "gp": 1,
+      "defense": {
+        "d_fgm": 1.0,
+        "d_fga": 1.0,
+        "d_fg_pct": 1.0,
+        "normal_fg_pct": 0.525,
+        "pct_plusminus": 0.475
+      }
+    },
+    {
+      "id": 1631095,
+      "name": "Jabari Smith Jr.",
+      "team": "HOU",
+      "position": "F",
+      "gp": 7,
+      "defense": {
+        "d_fgm": 5.86,
+        "d_fga": 13.29,
+        "d_fg_pct": 0.441,
+        "normal_fg_pct": 0.462,
+        "pct_plusminus": -0.021
+      }
+    },
+    {
+      "id": 1631133,
+      "name": "Jabari Walker",
+      "team": "PHI",
+      "position": "F",
+      "gp": 3,
+      "defense": {
+        "d_fgm": 2.0,
+        "d_fga": 4.0,
+        "d_fg_pct": 0.5,
+        "normal_fg_pct": 0.445,
+        "pct_plusminus": 0.055
+      }
+    },
+    {
+      "id": 1643558,
+      "name": "Jaden Bradley",
+      "team": "TOR",
+      "position": "G",
+      "gp": 1,
+      "defense": {
+        "d_fgm": 1.0,
+        "d_fga": 1.0,
+        "d_fg_pct": 1.0,
+        "normal_fg_pct": 0.25,
+        "pct_plusminus": 0.75
+      }
+    },
+    {
+      "id": 1630702,
+      "name": "Jaden Hardy",
+      "team": "LAL",
+      "position": "G",
+      "gp": 2,
+      "defense": {
+        "d_fgm": 1.5,
+        "d_fga": 2.5,
+        "d_fg_pct": 0.6,
+        "normal_fg_pct": 0.437,
+        "pct_plusminus": 0.163
+      }
+    },
+    {
+      "id": 1630183,
+      "name": "Jaden McDaniels",
+      "team": "MIN",
+      "position": "F",
+      "gp": 7,
+      "defense": {
+        "d_fgm": 5.86,
+        "d_fga": 13.57,
+        "d_fg_pct": 0.432,
+        "normal_fg_pct": 0.465,
+        "pct_plusminus": -0.033
+      }
+    },
+    {
+      "id": 1630256,
+      "name": "Jae'Sean Tate",
+      "team": "HOU",
+      "position": "F",
+      "gp": 4,
+      "defense": {
+        "d_fgm": 0.75,
+        "d_fga": 1.0,
+        "d_fg_pct": 0.75,
+        "normal_fg_pct": 0.491,
+        "pct_plusminus": 0.26
+      }
+    },
+    {
+      "id": 1642942,
+      "name": "Jahmai Mashack",
+      "team": "MEM",
+      "position": "G",
+      "gp": 1,
+      "defense": {
+        "d_fgm": 0.0,
+        "d_fga": 2.0,
+        "d_fg_pct": 0.0,
+        "normal_fg_pct": 0.325,
+        "pct_plusminus": -0.325
+      }
+    },
+    {
+      "id": 1631170,
+      "name": "Jaime Jaquez Jr.",
+      "team": "MIL",
+      "position": "G",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 7.17,
+        "d_fga": 13.0,
+        "d_fg_pct": 0.551,
+        "normal_fg_pct": 0.453,
+        "pct_plusminus": 0.098
+      }
+    },
+    {
+      "id": 1631222,
+      "name": "Jake LaRavia",
+      "team": "LAL",
+      "position": "F",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 3.6,
+        "d_fga": 9.4,
+        "d_fg_pct": 0.383,
+        "normal_fg_pct": 0.423,
+        "pct_plusminus": -0.04
+      }
+    },
+    {
+      "id": 1627751,
+      "name": "Jakob Poeltl",
+      "team": "TOR",
+      "position": "C",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 3.4,
+        "d_fga": 8.0,
+        "d_fg_pct": 0.425,
+        "normal_fg_pct": 0.483,
+        "pct_plusminus": -0.058
+      }
+    },
+    {
+      "id": 1628973,
+      "name": "Jalen Brunson",
+      "team": "NYK",
+      "position": "G",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 6.0,
+        "d_fga": 12.17,
+        "d_fg_pct": 0.493,
+        "normal_fg_pct": 0.432,
+        "pct_plusminus": 0.061
+      }
+    },
+    {
+      "id": 1631105,
+      "name": "Jalen Duren",
+      "team": "DET",
+      "position": "C",
+      "gp": 2,
+      "defense": {
+        "d_fgm": 3.0,
+        "d_fga": 7.5,
+        "d_fg_pct": 0.4,
+        "normal_fg_pct": 0.494,
+        "pct_plusminus": -0.094
+      }
+    },
+    {
+      "id": 1630224,
+      "name": "Jalen Green",
+      "team": "PHX",
+      "position": "G",
+      "gp": 4,
+      "defense": {
+        "d_fgm": 4.0,
+        "d_fga": 7.25,
+        "d_fg_pct": 0.552,
+        "normal_fg_pct": 0.436,
+        "pct_plusminus": 0.116
+      }
+    },
+    {
+      "id": 1630552,
+      "name": "Jalen Johnson",
+      "team": "ATL",
+      "position": "F",
+      "gp": 7,
+      "defense": {
+        "d_fgm": 6.43,
+        "d_fga": 11.43,
+        "d_fg_pct": 0.563,
+        "normal_fg_pct": 0.488,
+        "pct_plusminus": 0.075
+      }
+    },
+    {
+      "id": 1629618,
+      "name": "Jalen Pickett",
+      "team": "LAC",
+      "position": "G",
+      "gp": 1,
+      "defense": {
+        "d_fgm": 1.0,
+        "d_fga": 1.0,
+        "d_fg_pct": 1.0,
+        "normal_fg_pct": 0.725,
+        "pct_plusminus": 0.275
+      }
+    },
+    {
+      "id": 1641771,
+      "name": "Jalen Slawson",
+      "team": "IND",
+      "position": "F",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 2.2,
+        "d_fga": 5.6,
+        "d_fg_pct": 0.393,
+        "normal_fg_pct": 0.478,
+        "pct_plusminus": -0.086
+      }
+    },
+    {
+      "id": 1630188,
+      "name": "Jalen Smith",
+      "team": "CHI",
+      "position": "F-C",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 4.0,
+        "d_fga": 11.0,
+        "d_fg_pct": 0.364,
+        "normal_fg_pct": 0.452,
+        "pct_plusminus": -0.088
+      }
+    },
+    {
+      "id": 1630591,
+      "name": "Jalen Suggs",
+      "team": "ORL",
+      "position": "G",
+      "gp": 3,
+      "defense": {
+        "d_fgm": 4.0,
+        "d_fga": 12.0,
+        "d_fg_pct": 0.333,
+        "normal_fg_pct": 0.419,
+        "pct_plusminus": -0.086
+      }
+    },
+    {
+      "id": 1631114,
+      "name": "Jalen Williams",
+      "team": "OKC",
+      "position": "G-F",
+      "gp": 3,
+      "defense": {
+        "d_fgm": 3.0,
+        "d_fga": 7.67,
+        "d_fg_pct": 0.391,
+        "normal_fg_pct": 0.429,
+        "pct_plusminus": -0.038
+      }
+    },
+    {
+      "id": 1631288,
+      "name": "Jamal Cain",
+      "team": "ORL",
+      "position": "F",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 2.4,
+        "d_fga": 5.4,
+        "d_fg_pct": 0.444,
+        "normal_fg_pct": 0.442,
+        "pct_plusminus": 0.002
+      }
+    },
+    {
+      "id": 1627750,
+      "name": "Jamal Murray",
+      "team": "DEN",
+      "position": "G",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 3.8,
+        "d_fga": 11.8,
+        "d_fg_pct": 0.322,
+        "normal_fg_pct": 0.449,
+        "pct_plusminus": -0.127
+      }
+    },
+    {
+      "id": 1642347,
+      "name": "Jamal Shead",
+      "team": "TOR",
+      "position": "G",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 2.6,
+        "d_fga": 6.4,
+        "d_fg_pct": 0.406,
+        "normal_fg_pct": 0.44,
+        "pct_plusminus": -0.033
+      }
+    },
+    {
+      "id": 1631123,
+      "name": "Jamaree Bouyea",
+      "team": "PHX",
+      "position": "G",
+      "gp": 2,
+      "defense": {
+        "d_fgm": 0.5,
+        "d_fga": 1.5,
+        "d_fg_pct": 0.333,
+        "normal_fg_pct": 0.264,
+        "pct_plusminus": 0.07
+      }
+    },
+    {
+      "id": 201935,
+      "name": "James Harden",
+      "team": "CLE",
+      "position": "G",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 5.67,
+        "d_fga": 12.33,
+        "d_fg_pct": 0.459,
+        "normal_fg_pct": 0.449,
+        "pct_plusminus": 0.011
+      }
+    },
+    {
+      "id": 1630164,
+      "name": "James Wiseman",
+      "team": "NYK",
+      "position": "C",
+      "gp": 2,
+      "defense": {
+        "d_fgm": 1.5,
+        "d_fga": 3.0,
+        "d_fg_pct": 0.5,
+        "normal_fg_pct": 0.452,
+        "pct_plusminus": 0.048
+      }
+    },
+    {
+      "id": 1642419,
+      "name": "Jamison Battle",
+      "team": "TOR",
+      "position": "F",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 2.2,
+        "d_fga": 3.8,
+        "d_fg_pct": 0.579,
+        "normal_fg_pct": 0.449,
+        "pct_plusminus": 0.13
+      }
+    },
+    {
+      "id": 1641716,
+      "name": "Jarace Walker",
+      "team": "IND",
+      "position": "F",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 4.17,
+        "d_fga": 7.0,
+        "d_fg_pct": 0.595,
+        "normal_fg_pct": 0.459,
+        "pct_plusminus": 0.136
+      }
+    },
+    {
+      "id": 1642272,
+      "name": "Jared McCain",
+      "team": "OKC",
+      "position": "G",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 3.0,
+        "d_fga": 7.0,
+        "d_fg_pct": 0.429,
+        "normal_fg_pct": 0.478,
+        "pct_plusminus": -0.049
+      }
+    },
+    {
+      "id": 1628991,
+      "name": "Jaren Jackson Jr.",
+      "team": "UTA",
+      "position": "F-C",
+      "gp": 4,
+      "defense": {
+        "d_fgm": 3.75,
+        "d_fga": 8.5,
+        "d_fg_pct": 0.441,
+        "normal_fg_pct": 0.5,
+        "pct_plusminus": -0.059
+      }
+    },
+    {
+      "id": 1629020,
+      "name": "Jarred Vanderbilt",
+      "team": "LAL",
+      "position": "F",
+      "gp": 2,
+      "defense": {
+        "d_fgm": 0.5,
+        "d_fga": 4.5,
+        "d_fg_pct": 0.111,
+        "normal_fg_pct": 0.484,
+        "pct_plusminus": -0.373
+      }
+    },
+    {
+      "id": 1628386,
+      "name": "Jarrett Allen",
+      "team": "CLE",
+      "position": "C",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 5.83,
+        "d_fga": 13.83,
+        "d_fg_pct": 0.422,
+        "normal_fg_pct": 0.46,
+        "pct_plusminus": -0.038
+      }
+    },
+    {
+      "id": 1642859,
+      "name": "Jase Richardson",
+      "team": "ORL",
+      "position": "G",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 2.6,
+        "d_fga": 5.2,
+        "d_fg_pct": 0.5,
+        "normal_fg_pct": 0.445,
+        "pct_plusminus": 0.055
+      }
+    },
+    {
+      "id": 1642914,
+      "name": "Javon Small",
+      "team": "MEM",
+      "position": "G",
+      "gp": 1,
+      "defense": {
+        "d_fgm": 1.0,
+        "d_fga": 5.0,
+        "d_fg_pct": 0.2,
+        "normal_fg_pct": 0.354,
+        "pct_plusminus": -0.154
+      }
+    },
+    {
+      "id": 1629750,
+      "name": "Javonte Green",
+      "team": "DET",
+      "position": "G",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 2.5,
+        "d_fga": 6.17,
+        "d_fg_pct": 0.405,
+        "normal_fg_pct": 0.433,
+        "pct_plusminus": -0.027
+      }
+    },
+    {
+      "id": 1629637,
+      "name": "Jaxson Hayes",
+      "team": "UTA",
+      "position": "C-F",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 4.2,
+        "d_fga": 11.0,
+        "d_fg_pct": 0.382,
+        "normal_fg_pct": 0.491,
+        "pct_plusminus": -0.109
+      }
+    },
+    {
+      "id": 1630643,
+      "name": "Jay Huff",
+      "team": "IND",
+      "position": "C",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 4.6,
+        "d_fga": 9.4,
+        "d_fg_pct": 0.489,
+        "normal_fg_pct": 0.457,
+        "pct_plusminus": 0.032
+      }
+    },
+    {
+      "id": 1627759,
+      "name": "Jaylen Brown",
+      "team": "PHI",
+      "position": "G-F",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 4.5,
+        "d_fga": 12.67,
+        "d_fg_pct": 0.355,
+        "normal_fg_pct": 0.446,
+        "pct_plusminus": -0.091
+      }
+    },
+    {
+      "id": 1641740,
+      "name": "Jaylen Clark",
+      "team": "MIN",
+      "position": "G",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 1.4,
+        "d_fga": 3.4,
+        "d_fg_pct": 0.412,
+        "normal_fg_pct": 0.465,
+        "pct_plusminus": -0.053
+      }
+    },
+    {
+      "id": 1642377,
+      "name": "Jaylen Wells",
+      "team": "MEM",
+      "position": "F",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 3.67,
+        "d_fga": 9.83,
+        "d_fg_pct": 0.373,
+        "normal_fg_pct": 0.444,
+        "pct_plusminus": -0.071
+      }
+    },
+    {
+      "id": 1643637,
+      "name": "Jaylin Sellers",
+      "team": "CHI",
+      "position": "G",
+      "gp": 2,
+      "defense": {
+        "d_fgm": 1.5,
+        "d_fga": 3.5,
+        "d_fg_pct": 0.429,
+        "normal_fg_pct": 0.354,
+        "pct_plusminus": 0.074
+      }
+    },
+    {
+      "id": 1631119,
+      "name": "Jaylin Williams",
+      "team": "OKC",
+      "position": "F",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 4.0,
+        "d_fga": 9.5,
+        "d_fg_pct": 0.421,
+        "normal_fg_pct": 0.485,
+        "pct_plusminus": -0.064
+      }
+    },
+    {
+      "id": 1642281,
+      "name": "Jaylon Tyson",
+      "team": "CLE",
+      "position": "G-F",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 2.4,
+        "d_fga": 4.6,
+        "d_fg_pct": 0.522,
+        "normal_fg_pct": 0.43,
+        "pct_plusminus": 0.092
+      }
+    },
+    {
+      "id": 1643257,
+      "name": "Jayson Kent",
+      "team": "POR",
+      "position": "F",
+      "gp": 1,
+      "defense": {
+        "d_fgm": 1.0,
+        "d_fga": 1.0,
+        "d_fg_pct": 1.0,
+        "normal_fg_pct": 0.6,
+        "pct_plusminus": 0.4
+      }
+    },
+    {
+      "id": 1628369,
+      "name": "Jayson Tatum",
+      "team": "BOS",
+      "position": "F-G",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 4.2,
+        "d_fga": 9.2,
+        "d_fg_pct": 0.457,
+        "normal_fg_pct": 0.404,
+        "pct_plusminus": 0.052
+      }
+    },
+    {
+      "id": 203924,
+      "name": "Jerami Grant",
+      "team": "MEM",
+      "position": "F",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 2.83,
+        "d_fga": 8.0,
+        "d_fg_pct": 0.354,
+        "normal_fg_pct": 0.443,
+        "pct_plusminus": -0.089
+      }
+    },
+    {
+      "id": 1642847,
+      "name": "Jeremiah Fears",
+      "team": "NOP",
+      "position": "G",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 6.0,
+        "d_fga": 11.33,
+        "d_fg_pct": 0.529,
+        "normal_fg_pct": 0.454,
+        "pct_plusminus": 0.075
+      }
+    },
+    {
+      "id": 1630579,
+      "name": "Jericho Sims",
+      "team": "MIL",
+      "position": "C",
+      "gp": 2,
+      "defense": {
+        "d_fgm": 0.5,
+        "d_fga": 1.5,
+        "d_fg_pct": 0.333,
+        "normal_fg_pct": 0.497,
+        "pct_plusminus": -0.164
+      }
+    },
+    {
+      "id": 1641724,
+      "name": "Jett Howard",
+      "team": "DAL",
+      "position": "G",
+      "gp": 2,
+      "defense": {
+        "d_fgm": 0.0,
+        "d_fga": 1.0,
+        "d_fg_pct": 0.0,
+        "normal_fg_pct": 0.336,
+        "pct_plusminus": -0.336
+      }
+    },
+    {
+      "id": 1628975,
+      "name": "Jevon Carter",
+      "team": "ORL",
+      "position": "G",
+      "gp": 2,
+      "defense": {
+        "d_fgm": 2.0,
+        "d_fga": 6.0,
+        "d_fg_pct": 0.333,
+        "normal_fg_pct": 0.477,
+        "pct_plusminus": -0.144
+      }
+    },
+    {
+      "id": 1642866,
+      "name": "Joan Beringer",
+      "team": "MIN",
+      "position": "F",
+      "gp": 7,
+      "defense": {
+        "d_fgm": 6.14,
+        "d_fga": 12.71,
+        "d_fg_pct": 0.483,
+        "normal_fg_pct": 0.485,
+        "pct_plusminus": -0.002
+      }
+    },
+    {
+      "id": 1629111,
+      "name": "Jock Landale",
+      "team": "ATL",
+      "position": "C",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 5.17,
+        "d_fga": 9.5,
+        "d_fg_pct": 0.544,
+        "normal_fg_pct": 0.49,
+        "pct_plusminus": 0.054
+      }
+    },
+    {
+      "id": 203954,
+      "name": "Joel Embiid",
+      "team": "PHI",
+      "position": "C-F",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 6.8,
+        "d_fga": 16.4,
+        "d_fg_pct": 0.415,
+        "normal_fg_pct": 0.474,
+        "pct_plusminus": -0.059
+      }
+    },
+    {
+      "id": 1628381,
+      "name": "John Collins",
+      "team": "DET",
+      "position": "F-C",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 4.17,
+        "d_fga": 10.33,
+        "d_fg_pct": 0.403,
+        "normal_fg_pct": 0.447,
+        "pct_plusminus": -0.043
+      }
+    },
+    {
+      "id": 1642910,
+      "name": "John Tonje",
+      "team": "POR",
+      "position": "G",
+      "gp": 1,
+      "defense": {
+        "d_fgm": 0.0,
+        "d_fga": 1.0,
+        "d_fg_pct": 0.0,
+        "normal_fg_pct": 0.551,
+        "pct_plusminus": -0.551
+      }
+    },
+    {
+      "id": 1630228,
+      "name": "Jonathan Kuminga",
+      "team": "MIN",
+      "position": "F",
+      "gp": 7,
+      "defense": {
+        "d_fgm": 3.29,
+        "d_fga": 8.86,
+        "d_fg_pct": 0.371,
+        "normal_fg_pct": 0.467,
+        "pct_plusminus": -0.096
+      }
+    },
+    {
+      "id": 1642367,
+      "name": "Jonathan Mogbo",
+      "team": "SAC",
+      "position": "F",
+      "gp": 4,
+      "defense": {
+        "d_fgm": 2.75,
+        "d_fga": 5.25,
+        "d_fg_pct": 0.524,
+        "normal_fg_pct": 0.441,
+        "pct_plusminus": 0.082
+      }
+    },
+    {
+      "id": 203903,
+      "name": "Jordan Clarkson",
+      "team": "NYK",
+      "position": "G",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 0.8,
+        "d_fga": 2.6,
+        "d_fg_pct": 0.308,
+        "normal_fg_pct": 0.437,
+        "pct_plusminus": -0.129
+      }
+    },
+    {
+      "id": 1630692,
+      "name": "Jordan Goodwin",
+      "team": "PHX",
+      "position": "G",
+      "gp": 4,
+      "defense": {
+        "d_fgm": 3.75,
+        "d_fga": 5.25,
+        "d_fg_pct": 0.714,
+        "normal_fg_pct": 0.47,
+        "pct_plusminus": 0.244
+      }
+    },
+    {
+      "id": 1641722,
+      "name": "Jordan Hawkins",
+      "team": "CHI",
+      "position": "G",
+      "gp": 2,
+      "defense": {
+        "d_fgm": 1.0,
+        "d_fga": 1.5,
+        "d_fg_pct": 0.667,
+        "normal_fg_pct": 0.437,
+        "pct_plusminus": 0.229
+      }
+    },
+    {
+      "id": 1629162,
+      "name": "Jordan McLaughlin",
+      "team": "SAS",
+      "position": "G",
+      "gp": 2,
+      "defense": {
+        "d_fgm": 1.0,
+        "d_fga": 2.0,
+        "d_fg_pct": 0.5,
+        "normal_fg_pct": 0.367,
+        "pct_plusminus": 0.133
+      }
+    },
+    {
+      "id": 1629673,
+      "name": "Jordan Poole",
+      "team": "NOP",
+      "position": "G",
+      "gp": 3,
+      "defense": {
+        "d_fgm": 1.33,
+        "d_fga": 3.67,
+        "d_fg_pct": 0.364,
+        "normal_fg_pct": 0.413,
+        "pct_plusminus": -0.049
+      }
+    },
+    {
+      "id": 1641775,
+      "name": "Jordan Walsh",
+      "team": "BOS",
+      "position": "G",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 2.8,
+        "d_fga": 5.8,
+        "d_fg_pct": 0.483,
+        "normal_fg_pct": 0.442,
+        "pct_plusminus": 0.041
+      }
+    },
+    {
+      "id": 1630631,
+      "name": "Jose Alvarado",
+      "team": "NYK",
+      "position": "G",
+      "gp": 2,
+      "defense": {
+        "d_fgm": 3.5,
+        "d_fga": 5.5,
+        "d_fg_pct": 0.636,
+        "normal_fg_pct": 0.431,
+        "pct_plusminus": 0.205
+      }
+    },
+    {
+      "id": 1643717,
+      "name": "Josh Dix",
+      "team": "OKC",
+      "position": "G",
+      "gp": 2,
+      "defense": {
+        "d_fgm": 4.0,
+        "d_fga": 7.0,
+        "d_fg_pct": 0.571,
+        "normal_fg_pct": 0.427,
+        "pct_plusminus": 0.144
+      }
+    },
+    {
+      "id": 1630581,
+      "name": "Josh Giddey",
+      "team": "CHI",
+      "position": "G",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 5.0,
+        "d_fga": 10.5,
+        "d_fg_pct": 0.476,
+        "normal_fg_pct": 0.454,
+        "pct_plusminus": 0.022
+      }
+    },
+    {
+      "id": 1630182,
+      "name": "Josh Green",
+      "team": "UTA",
+      "position": "G",
+      "gp": 2,
+      "defense": {
+        "d_fgm": 2.0,
+        "d_fga": 6.0,
+        "d_fg_pct": 0.333,
+        "normal_fg_pct": 0.454,
+        "pct_plusminus": -0.12
+      }
+    },
+    {
+      "id": 1628404,
+      "name": "Josh Hart",
+      "team": "NYK",
+      "position": "G",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 5.17,
+        "d_fga": 13.0,
+        "d_fg_pct": 0.397,
+        "normal_fg_pct": 0.43,
+        "pct_plusminus": -0.033
+      }
+    },
+    {
+      "id": 1631169,
+      "name": "Josh Minott",
+      "team": "BKN",
+      "position": "F",
+      "gp": 3,
+      "defense": {
+        "d_fgm": 2.0,
+        "d_fga": 3.33,
+        "d_fg_pct": 0.6,
+        "normal_fg_pct": 0.422,
+        "pct_plusminus": 0.178
+      }
+    },
+    {
+      "id": 1629006,
+      "name": "Josh Okogie",
+      "team": "UTA",
+      "position": "G",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 2.2,
+        "d_fga": 3.6,
+        "d_fg_pct": 0.611,
+        "normal_fg_pct": 0.493,
+        "pct_plusminus": 0.118
+      }
+    },
+    {
+      "id": 1643538,
+      "name": "Joshua Jefferson",
+      "team": "BKN",
+      "position": "F",
+      "gp": 1,
+      "defense": {
+        "d_fgm": 1.0,
+        "d_fga": 1.0,
+        "d_fg_pct": 1.0,
+        "normal_fg_pct": 0.438,
+        "pct_plusminus": 0.562
+      }
+    },
+    {
+      "id": 201950,
+      "name": "Jrue Holiday",
+      "team": "POR",
+      "position": "G",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 4.8,
+        "d_fga": 8.2,
+        "d_fg_pct": 0.585,
+        "normal_fg_pct": 0.465,
+        "pct_plusminus": 0.12
+      }
+    },
+    {
+      "id": 1630577,
+      "name": "Julian Champagnie",
+      "team": "SAS",
+      "position": "F",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 4.5,
+        "d_fga": 9.33,
+        "d_fg_pct": 0.482,
+        "normal_fg_pct": 0.472,
+        "pct_plusminus": 0.01
+      }
+    },
+    {
+      "id": 203944,
+      "name": "Julius Randle",
+      "team": "BKN",
+      "position": "F-C",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 6.6,
+        "d_fga": 11.4,
+        "d_fg_pct": 0.579,
+        "normal_fg_pct": 0.472,
+        "pct_plusminus": 0.107
+      }
+    },
+    {
+      "id": 1630551,
+      "name": "Justin Champagnie",
+      "team": "WAS",
+      "position": "G-F",
+      "gp": 4,
+      "defense": {
+        "d_fgm": 2.0,
+        "d_fga": 7.0,
+        "d_fg_pct": 0.286,
+        "normal_fg_pct": 0.465,
+        "pct_plusminus": -0.179
+      }
+    },
+    {
+      "id": 1642348,
+      "name": "Justin Edwards",
+      "team": "PHI",
+      "position": "F",
+      "gp": 1,
+      "defense": {
+        "d_fgm": 1.0,
+        "d_fga": 1.0,
+        "d_fg_pct": 1.0,
+        "normal_fg_pct": 0.371,
+        "pct_plusminus": 0.629
+      }
+    },
+    {
+      "id": 1643510,
+      "name": "Karim L\u00f3pez",
+      "team": "MEM",
+      "position": "F",
+      "gp": 2,
+      "defense": {
+        "d_fgm": 0.5,
+        "d_fga": 1.5,
+        "d_fg_pct": 0.333,
+        "normal_fg_pct": 0.361,
+        "pct_plusminus": -0.027
+      }
+    },
+    {
+      "id": 1626157,
+      "name": "Karl-Anthony Towns",
+      "team": "NYK",
+      "position": "C-F",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 5.0,
+        "d_fga": 11.17,
+        "d_fg_pct": 0.448,
+        "normal_fg_pct": 0.485,
+        "pct_plusminus": -0.037
+      }
+    },
+    {
+      "id": 1631255,
+      "name": "Karlo Matkovi\u0107",
+      "team": "NOP",
+      "position": "F-C",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 3.4,
+        "d_fga": 7.0,
+        "d_fg_pct": 0.486,
+        "normal_fg_pct": 0.497,
+        "pct_plusminus": -0.011
+      }
+    },
+    {
+      "id": 1642857,
+      "name": "Kasparas Jaku\u010dionis",
+      "team": "MIL",
+      "position": "G",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 2.83,
+        "d_fga": 5.17,
+        "d_fg_pct": 0.548,
+        "normal_fg_pct": 0.459,
+        "pct_plusminus": 0.089
+      }
+    },
+    {
+      "id": 202695,
+      "name": "Kawhi Leonard",
+      "team": "TOR",
+      "position": "F",
+      "gp": 2,
+      "defense": {
+        "d_fgm": 3.0,
+        "d_fga": 7.0,
+        "d_fg_pct": 0.429,
+        "normal_fg_pct": 0.425,
+        "pct_plusminus": 0.003
+      }
+    },
+    {
+      "id": 1643413,
+      "name": "Keaton Wagler",
+      "team": "LAC",
+      "position": "G",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 5.4,
+        "d_fga": 10.0,
+        "d_fg_pct": 0.54,
+        "normal_fg_pct": 0.458,
+        "pct_plusminus": 0.082
+      }
+    },
+    {
+      "id": 1631099,
+      "name": "Keegan Murray",
+      "team": "SAC",
+      "position": "F",
+      "gp": 2,
+      "defense": {
+        "d_fgm": 8.5,
+        "d_fga": 15.0,
+        "d_fg_pct": 0.567,
+        "normal_fg_pct": 0.512,
+        "pct_plusminus": 0.054
+      }
+    },
+    {
+      "id": 1642276,
+      "name": "Kel'el Ware",
+      "team": "MIL",
+      "position": "C",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 3.67,
+        "d_fga": 9.0,
+        "d_fg_pct": 0.407,
+        "normal_fg_pct": 0.471,
+        "pct_plusminus": -0.064
+      }
+    },
+    {
+      "id": 1629640,
+      "name": "Keldon Johnson",
+      "team": "SAS",
+      "position": "F-G",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 3.0,
+        "d_fga": 5.17,
+        "d_fg_pct": 0.581,
+        "normal_fg_pct": 0.448,
+        "pct_plusminus": 0.133
+      }
+    },
+    {
+      "id": 1626162,
+      "name": "Kelly Oubre Jr.",
+      "team": "IND",
+      "position": "F-G",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 4.33,
+        "d_fga": 8.67,
+        "d_fg_pct": 0.5,
+        "normal_fg_pct": 0.446,
+        "pct_plusminus": 0.054
+      }
+    },
+    {
+      "id": 1629026,
+      "name": "Kenrich Williams",
+      "team": "OKC",
+      "position": "G-F",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 1.5,
+        "d_fga": 3.83,
+        "d_fg_pct": 0.391,
+        "normal_fg_pct": 0.48,
+        "pct_plusminus": -0.088
+      }
+    },
+    {
+      "id": 203484,
+      "name": "Kentavious Caldwell-Pope",
+      "team": "PHI",
+      "position": "G",
+      "gp": 7,
+      "defense": {
+        "d_fgm": 2.86,
+        "d_fga": 5.43,
+        "d_fg_pct": 0.526,
+        "normal_fg_pct": 0.429,
+        "pct_plusminus": 0.097
+      }
+    },
+    {
+      "id": 1631165,
+      "name": "Keon Ellis",
+      "team": "BKN",
+      "position": "G",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 3.6,
+        "d_fga": 8.4,
+        "d_fg_pct": 0.429,
+        "normal_fg_pct": 0.464,
+        "pct_plusminus": -0.036
+      }
+    },
+    {
+      "id": 201142,
+      "name": "Kevin Durant",
+      "team": "HOU",
+      "position": "F",
+      "gp": 7,
+      "defense": {
+        "d_fgm": 4.43,
+        "d_fga": 12.0,
+        "d_fg_pct": 0.369,
+        "normal_fg_pct": 0.468,
+        "pct_plusminus": -0.099
+      }
+    },
+    {
+      "id": 1628989,
+      "name": "Kevin Huerter",
+      "team": "DET",
+      "position": "G-F",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 3.17,
+        "d_fga": 6.17,
+        "d_fg_pct": 0.514,
+        "normal_fg_pct": 0.425,
+        "pct_plusminus": 0.089
+      }
+    },
+    {
+      "id": 1626172,
+      "name": "Kevon Looney",
+      "team": "LAL",
+      "position": "F",
+      "gp": 3,
+      "defense": {
+        "d_fgm": 3.33,
+        "d_fga": 5.67,
+        "d_fg_pct": 0.588,
+        "normal_fg_pct": 0.448,
+        "pct_plusminus": 0.14
+      }
+    },
+    {
+      "id": 1641718,
+      "name": "Keyonte George",
+      "team": "UTA",
+      "position": "G",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 4.0,
+        "d_fga": 10.5,
+        "d_fg_pct": 0.381,
+        "normal_fg_pct": 0.474,
+        "pct_plusminus": -0.093
+      }
+    },
+    {
+      "id": 1642863,
+      "name": "Khaman Maluach",
+      "team": "PHX",
+      "position": "C",
+      "gp": 4,
+      "defense": {
+        "d_fgm": 5.75,
+        "d_fga": 11.5,
+        "d_fg_pct": 0.5,
+        "normal_fg_pct": 0.481,
+        "pct_plusminus": 0.019
+      }
+    },
+    {
+      "id": 203114,
+      "name": "Khris Middleton",
+      "team": "WAS",
+      "position": "F",
+      "gp": 4,
+      "defense": {
+        "d_fgm": 2.25,
+        "d_fga": 4.0,
+        "d_fg_pct": 0.563,
+        "normal_fg_pct": 0.421,
+        "pct_plusminus": 0.141
+      }
+    },
+    {
+      "id": 1643412,
+      "name": "Kingston Flemings",
+      "team": "ATL",
+      "position": "G",
+      "gp": 7,
+      "defense": {
+        "d_fgm": 2.14,
+        "d_fga": 5.43,
+        "d_fg_pct": 0.395,
+        "normal_fg_pct": 0.446,
+        "pct_plusminus": -0.051
+      }
+    },
+    {
+      "id": 202691,
+      "name": "Klay Thompson",
+      "team": "MIA",
+      "position": "G-F",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 4.33,
+        "d_fga": 7.33,
+        "d_fg_pct": 0.591,
+        "normal_fg_pct": 0.452,
+        "pct_plusminus": 0.139
+      }
+    },
+    {
+      "id": 1643520,
+      "name": "Koa Peat",
+      "team": "PHX",
+      "position": "F",
+      "gp": 1,
+      "defense": {
+        "d_fgm": 0.0,
+        "d_fga": 1.0,
+        "d_fg_pct": 0.0,
+        "normal_fg_pct": 0.0,
+        "pct_plusminus": 0.0
+      }
+    },
+    {
+      "id": 1641738,
+      "name": "Kobe Brown",
+      "team": "IND",
+      "position": "F",
+      "gp": 2,
+      "defense": {
+        "d_fgm": 2.0,
+        "d_fga": 4.0,
+        "d_fg_pct": 0.5,
+        "normal_fg_pct": 0.497,
+        "pct_plusminus": 0.004
+      }
+    },
+    {
+      "id": 1642920,
+      "name": "Kobe Sanders",
+      "team": "LAC",
+      "position": "G",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 4.0,
+        "d_fga": 7.4,
+        "d_fg_pct": 0.541,
+        "normal_fg_pct": 0.47,
+        "pct_plusminus": 0.07
+      }
+    },
+    {
+      "id": 1627739,
+      "name": "Kris Dunn",
+      "team": "LAC",
+      "position": "G",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 3.0,
+        "d_fga": 8.6,
+        "d_fg_pct": 0.349,
+        "normal_fg_pct": 0.439,
+        "pct_plusminus": -0.09
+      }
+    },
+    {
+      "id": 1631200,
+      "name": "Kris Murray",
+      "team": "MEM",
+      "position": "F",
+      "gp": 2,
+      "defense": {
+        "d_fgm": 0.5,
+        "d_fga": 4.5,
+        "d_fg_pct": 0.111,
+        "normal_fg_pct": 0.463,
+        "pct_plusminus": -0.352
+      }
+    },
+    {
+      "id": 203937,
+      "name": "Kyle Anderson",
+      "team": "TOR",
+      "position": "F-G",
+      "gp": 3,
+      "defense": {
+        "d_fgm": 1.67,
+        "d_fga": 2.67,
+        "d_fg_pct": 0.625,
+        "normal_fg_pct": 0.429,
+        "pct_plusminus": 0.197
+      }
+    },
+    {
+      "id": 1642271,
+      "name": "Kyle Filipowski",
+      "team": "UTA",
+      "position": "C",
+      "gp": 4,
+      "defense": {
+        "d_fgm": 2.25,
+        "d_fga": 4.0,
+        "d_fg_pct": 0.563,
+        "normal_fg_pct": 0.47,
+        "pct_plusminus": 0.093
+      }
+    },
+    {
+      "id": 1628398,
+      "name": "Kyle Kuzma",
+      "team": "MIL",
+      "position": "F",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 5.0,
+        "d_fga": 10.5,
+        "d_fg_pct": 0.476,
+        "normal_fg_pct": 0.474,
+        "pct_plusminus": 0.002
+      }
+    },
+    {
+      "id": 202681,
+      "name": "Kyrie Irving",
+      "team": "DAL",
+      "position": "G",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 3.0,
+        "d_fga": 7.4,
+        "d_fg_pct": 0.405,
+        "normal_fg_pct": 0.475,
+        "pct_plusminus": -0.07
+      }
+    },
+    {
+      "id": 1642273,
+      "name": "Kyshawn George",
+      "team": "WAS",
+      "position": "F",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 7.33,
+        "d_fga": 15.83,
+        "d_fg_pct": 0.463,
+        "normal_fg_pct": 0.432,
+        "pct_plusminus": 0.032
+      }
+    },
+    {
+      "id": 1643018,
+      "name": "LJ Cryer",
+      "team": "GSW",
+      "position": "G",
+      "gp": 2,
+      "defense": {
+        "d_fgm": 1.0,
+        "d_fga": 1.5,
+        "d_fg_pct": 0.667,
+        "normal_fg_pct": 0.37,
+        "pct_plusminus": 0.296
+      }
+    },
+    {
+      "id": 1630163,
+      "name": "LaMelo Ball",
+      "team": "MIN",
+      "position": "G",
+      "gp": 7,
+      "defense": {
+        "d_fgm": 3.0,
+        "d_fga": 6.29,
+        "d_fg_pct": 0.477,
+        "normal_fg_pct": 0.437,
+        "pct_plusminus": 0.041
+      }
+    },
+    {
+      "id": 1642889,
+      "name": "Labaron Philon Jr.",
+      "team": "PHI",
+      "position": "G",
+      "gp": 4,
+      "defense": {
+        "d_fgm": 0.75,
+        "d_fga": 1.75,
+        "d_fg_pct": 0.429,
+        "normal_fg_pct": 0.401,
+        "pct_plusminus": 0.027
+      }
+    },
+    {
+      "id": 1629013,
+      "name": "Landry Shamet",
+      "team": "NYK",
+      "position": "G",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 1.83,
+        "d_fga": 6.33,
+        "d_fg_pct": 0.289,
+        "normal_fg_pct": 0.432,
+        "pct_plusminus": -0.142
+      }
+    },
+    {
+      "id": 1626204,
+      "name": "Larry Nance Jr.",
+      "team": "IND",
+      "position": "F-C",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 3.8,
+        "d_fga": 7.8,
+        "d_fg_pct": 0.487,
+        "normal_fg_pct": 0.459,
+        "pct_plusminus": 0.028
+      }
+    },
+    {
+      "id": 1628374,
+      "name": "Lauri Markkanen",
+      "team": "UTA",
+      "position": "F-C",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 5.0,
+        "d_fga": 11.2,
+        "d_fg_pct": 0.446,
+        "normal_fg_pct": 0.497,
+        "pct_plusminus": -0.051
+      }
+    },
+    {
+      "id": 2544,
+      "name": "LeBron James",
+      "team": "PHI",
+      "position": "F",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 3.6,
+        "d_fga": 12.8,
+        "d_fg_pct": 0.281,
+        "normal_fg_pct": 0.442,
+        "pct_plusminus": -0.16
+      }
+    },
+    {
+      "id": 1641778,
+      "name": "Leaky Black",
+      "team": "SAC",
+      "position": "F",
+      "gp": 1,
+      "defense": {
+        "d_fgm": 1.0,
+        "d_fga": 2.0,
+        "d_fg_pct": 0.5,
+        "normal_fg_pct": 0.512,
+        "pct_plusminus": -0.012
+      }
+    },
+    {
+      "id": 1631159,
+      "name": "Leonard Miller",
+      "team": "CHI",
+      "position": "F",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 3.67,
+        "d_fga": 8.5,
+        "d_fg_pct": 0.431,
+        "normal_fg_pct": 0.452,
+        "pct_plusminus": -0.021
+      }
+    },
+    {
+      "id": 1642862,
+      "name": "Liam McNeeley",
+      "team": "CHA",
+      "position": "F",
+      "gp": 3,
+      "defense": {
+        "d_fgm": 1.0,
+        "d_fga": 1.33,
+        "d_fg_pct": 0.75,
+        "normal_fg_pct": 0.402,
+        "pct_plusminus": 0.349
+      }
+    },
+    {
+      "id": 1629652,
+      "name": "Luguentz Dort",
+      "team": "ATL",
+      "position": "G",
+      "gp": 7,
+      "defense": {
+        "d_fgm": 4.0,
+        "d_fga": 8.14,
+        "d_fg_pct": 0.491,
+        "normal_fg_pct": 0.465,
+        "pct_plusminus": 0.026
+      }
+    },
+    {
+      "id": 1629029,
+      "name": "Luka Don\u010di\u0107",
+      "team": "LAL",
+      "position": "F-G",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 4.2,
+        "d_fga": 11.2,
+        "d_fg_pct": 0.375,
+        "normal_fg_pct": 0.457,
+        "pct_plusminus": -0.082
+      }
+    },
+    {
+      "id": 1630568,
+      "name": "Luka Garza",
+      "team": "BOS",
+      "position": "C",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 0.8,
+        "d_fga": 2.6,
+        "d_fg_pct": 0.308,
+        "normal_fg_pct": 0.454,
+        "pct_plusminus": -0.146
+      }
+    },
+    {
+      "id": 1628379,
+      "name": "Luke Kennard",
+      "team": "PHX",
+      "position": "G",
+      "gp": 3,
+      "defense": {
+        "d_fgm": 1.33,
+        "d_fga": 4.33,
+        "d_fg_pct": 0.308,
+        "normal_fg_pct": 0.421,
+        "pct_plusminus": -0.113
+      }
+    },
+    {
+      "id": 1628436,
+      "name": "Luke Kornet",
+      "team": "SAS",
+      "position": "C-F",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 4.5,
+        "d_fga": 8.33,
+        "d_fg_pct": 0.54,
+        "normal_fg_pct": 0.537,
+        "pct_plusminus": 0.003
+      }
+    },
+    {
+      "id": 1642502,
+      "name": "Malevy Leons",
+      "team": "GSW",
+      "position": "F",
+      "gp": 3,
+      "defense": {
+        "d_fgm": 1.33,
+        "d_fga": 1.67,
+        "d_fg_pct": 0.8,
+        "normal_fg_pct": 0.485,
+        "pct_plusminus": 0.315
+      }
+    },
+    {
+      "id": 1628370,
+      "name": "Malik Monk",
+      "team": "SAC",
+      "position": "G",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 1.8,
+        "d_fga": 3.0,
+        "d_fg_pct": 0.6,
+        "normal_fg_pct": 0.479,
+        "pct_plusminus": 0.121
+      }
+    },
+    {
+      "id": 1631204,
+      "name": "Marcus Sasser",
+      "team": "DAL",
+      "position": "G",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 3.0,
+        "d_fga": 6.17,
+        "d_fg_pct": 0.486,
+        "normal_fg_pct": 0.469,
+        "pct_plusminus": 0.018
+      }
+    },
+    {
+      "id": 203935,
+      "name": "Marcus Smart",
+      "team": "HOU",
+      "position": "G",
+      "gp": 4,
+      "defense": {
+        "d_fgm": 5.25,
+        "d_fga": 8.5,
+        "d_fg_pct": 0.618,
+        "normal_fg_pct": 0.445,
+        "pct_plusminus": 0.173
+      }
+    },
+    {
+      "id": 1626209,
+      "name": "Mario Hezonja",
+      "team": "CLE",
+      "position": "F-G",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 2.83,
+        "d_fga": 5.83,
+        "d_fg_pct": 0.486,
+        "normal_fg_pct": 0.458,
+        "pct_plusminus": 0.028
+      }
+    },
+    {
+      "id": 1628963,
+      "name": "Marvin Bagley III",
+      "team": "DEN",
+      "position": "F",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 2.6,
+        "d_fga": 6.2,
+        "d_fg_pct": 0.419,
+        "normal_fg_pct": 0.496,
+        "pct_plusminus": -0.077
+      }
+    },
+    {
+      "id": 1641824,
+      "name": "Matas Buzelis",
+      "team": "CHI",
+      "position": "F",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 4.0,
+        "d_fga": 8.67,
+        "d_fg_pct": 0.462,
+        "normal_fg_pct": 0.443,
+        "pct_plusminus": 0.019
+      }
+    },
+    {
+      "id": 1629680,
+      "name": "Matisse Thybulle",
+      "team": "LAL",
+      "position": "G-F",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 2.17,
+        "d_fga": 4.83,
+        "d_fg_pct": 0.448,
+        "normal_fg_pct": 0.466,
+        "pct_plusminus": -0.018
+      }
+    },
+    {
+      "id": 1631108,
+      "name": "Max Christie",
+      "team": "DAL",
+      "position": "G",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 5.67,
+        "d_fga": 9.83,
+        "d_fg_pct": 0.576,
+        "normal_fg_pct": 0.46,
+        "pct_plusminus": 0.116
+      }
+    },
+    {
+      "id": 1643509,
+      "name": "Meleek Thomas",
+      "team": "CLE",
+      "position": "G",
+      "gp": 3,
+      "defense": {
+        "d_fgm": 1.67,
+        "d_fga": 6.67,
+        "d_fg_pct": 0.25,
+        "normal_fg_pct": 0.458,
+        "pct_plusminus": -0.208
+      }
+    },
+    {
+      "id": 1642877,
+      "name": "Micah Peavy",
+      "team": "OKC",
+      "position": "G-F",
+      "gp": 2,
+      "defense": {
+        "d_fgm": 2.5,
+        "d_fga": 4.5,
+        "d_fg_pct": 0.556,
+        "normal_fg_pct": 0.475,
+        "pct_plusminus": 0.081
+      }
+    },
+    {
+      "id": 1630695,
+      "name": "Micah Potter",
+      "team": "POR",
+      "position": "C",
+      "gp": 3,
+      "defense": {
+        "d_fgm": 3.33,
+        "d_fga": 5.33,
+        "d_fg_pct": 0.625,
+        "normal_fg_pct": 0.513,
+        "pct_plusminus": 0.112
+      }
+    },
+    {
+      "id": 1629008,
+      "name": "Michael Porter Jr.",
+      "team": "BKN",
+      "position": "F",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 4.4,
+        "d_fga": 11.0,
+        "d_fg_pct": 0.4,
+        "normal_fg_pct": 0.438,
+        "pct_plusminus": -0.038
+      }
+    },
+    {
+      "id": 1628969,
+      "name": "Mikal Bridges",
+      "team": "NYK",
+      "position": "G-F",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 3.83,
+        "d_fga": 7.5,
+        "d_fg_pct": 0.511,
+        "normal_fg_pct": 0.453,
+        "pct_plusminus": 0.058
+      }
+    },
+    {
+      "id": 201144,
+      "name": "Mike Conley",
+      "team": "BOS",
+      "position": "G",
+      "gp": 1,
+      "defense": {
+        "d_fgm": 0.0,
+        "d_fga": 1.0,
+        "d_fg_pct": 0.0,
+        "normal_fg_pct": 0.167,
+        "pct_plusminus": -0.167
+      }
+    },
+    {
+      "id": 1643414,
+      "name": "Mikel Brown Jr.",
+      "team": "BKN",
+      "position": "G",
+      "gp": 4,
+      "defense": {
+        "d_fgm": 3.5,
+        "d_fga": 5.5,
+        "d_fg_pct": 0.636,
+        "normal_fg_pct": 0.42,
+        "pct_plusminus": 0.217
+      }
+    },
+    {
+      "id": 1628970,
+      "name": "Miles Bridges",
+      "team": "PHX",
+      "position": "F",
+      "gp": 4,
+      "defense": {
+        "d_fgm": 4.75,
+        "d_fga": 13.5,
+        "d_fg_pct": 0.352,
+        "normal_fg_pct": 0.46,
+        "pct_plusminus": -0.109
+      }
+    },
+    {
+      "id": 1630540,
+      "name": "Miles McBride",
+      "team": "NYK",
+      "position": "G",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 4.17,
+        "d_fga": 8.33,
+        "d_fg_pct": 0.5,
+        "normal_fg_pct": 0.446,
+        "pct_plusminus": 0.054
+      }
+    },
+    {
+      "id": 1629011,
+      "name": "Mitchell Robinson",
+      "team": "BOS",
+      "position": "C-F",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 2.4,
+        "d_fga": 6.0,
+        "d_fg_pct": 0.4,
+        "normal_fg_pct": 0.455,
+        "pct_plusminus": -0.055
+      }
+    },
+    {
+      "id": 1628964,
+      "name": "Mo Bamba",
+      "team": "UTA",
+      "position": "C",
+      "gp": 3,
+      "defense": {
+        "d_fgm": 2.0,
+        "d_fga": 6.67,
+        "d_fg_pct": 0.3,
+        "normal_fg_pct": 0.467,
+        "pct_plusminus": -0.167
+      }
+    },
+    {
+      "id": 1643516,
+      "name": "Morez Johnson Jr.",
+      "team": "DAL",
+      "position": "F",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 3.67,
+        "d_fga": 6.83,
+        "d_fg_pct": 0.537,
+        "normal_fg_pct": 0.485,
+        "pct_plusminus": 0.052
+      }
+    },
+    {
+      "id": 1629021,
+      "name": "Moritz Wagner",
+      "team": "BKN",
+      "position": "F-C",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 4.0,
+        "d_fga": 8.4,
+        "d_fg_pct": 0.476,
+        "normal_fg_pct": 0.503,
+        "pct_plusminus": -0.026
+      }
+    },
+    {
+      "id": 1630619,
+      "name": "Moussa Ciss\u00e9",
+      "team": "DAL",
+      "position": "C",
+      "gp": 2,
+      "defense": {
+        "d_fgm": 0.5,
+        "d_fga": 1.5,
+        "d_fg_pct": 0.333,
+        "normal_fg_pct": 0.346,
+        "pct_plusminus": -0.013
+      }
+    },
+    {
+      "id": 1631217,
+      "name": "Moussa Diabat\u00e9",
+      "team": "CHA",
+      "position": "F",
+      "gp": 7,
+      "defense": {
+        "d_fgm": 6.14,
+        "d_fga": 13.0,
+        "d_fg_pct": 0.473,
+        "normal_fg_pct": 0.463,
+        "pct_plusminus": 0.009
+      }
+    },
+    {
+      "id": 1626167,
+      "name": "Myles Turner",
+      "team": "MIL",
+      "position": "C-F",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 6.0,
+        "d_fga": 14.17,
+        "d_fg_pct": 0.424,
+        "normal_fg_pct": 0.482,
+        "pct_plusminus": -0.058
+      }
+    },
+    {
+      "id": 1642066,
+      "name": "Myron Gardner",
+      "team": "MIA",
+      "position": "F",
+      "gp": 2,
+      "defense": {
+        "d_fgm": 0.0,
+        "d_fga": 1.0,
+        "d_fg_pct": 0.0,
+        "normal_fg_pct": 0.379,
+        "pct_plusminus": -0.379
+      }
+    },
+    {
+      "id": 1630230,
+      "name": "Naji Marshall",
+      "team": "DAL",
+      "position": "F",
+      "gp": 3,
+      "defense": {
+        "d_fgm": 2.67,
+        "d_fga": 5.0,
+        "d_fg_pct": 0.533,
+        "normal_fg_pct": 0.465,
+        "pct_plusminus": 0.068
+      }
+    },
+    {
+      "id": 1643417,
+      "name": "Nate Ament",
+      "team": "MIL",
+      "position": "F",
+      "gp": 4,
+      "defense": {
+        "d_fgm": 2.25,
+        "d_fga": 7.25,
+        "d_fg_pct": 0.31,
+        "normal_fg_pct": 0.462,
+        "pct_plusminus": -0.151
+      }
+    },
+    {
+      "id": 1629675,
+      "name": "Naz Reid",
+      "team": "CHA",
+      "position": "C-F",
+      "gp": 7,
+      "defense": {
+        "d_fgm": 4.43,
+        "d_fga": 10.43,
+        "d_fg_pct": 0.425,
+        "normal_fg_pct": 0.459,
+        "pct_plusminus": -0.034
+      }
+    },
+    {
+      "id": 1629674,
+      "name": "Neemias Queta",
+      "team": "BOS",
+      "position": "C",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 3.8,
+        "d_fga": 10.2,
+        "d_fg_pct": 0.373,
+        "normal_fg_pct": 0.432,
+        "pct_plusminus": -0.059
+      }
+    },
+    {
+      "id": 1643568,
+      "name": "Nick Martinelli",
+      "team": "LAC",
+      "position": "F",
+      "gp": 1,
+      "defense": {
+        "d_fgm": 1.0,
+        "d_fga": 2.0,
+        "d_fg_pct": 0.5,
+        "normal_fg_pct": 0.285,
+        "pct_plusminus": 0.215
+      }
+    },
+    {
+      "id": 1630208,
+      "name": "Nick Richards",
+      "team": "MIA",
+      "position": "C",
+      "gp": 2,
+      "defense": {
+        "d_fgm": 0.5,
+        "d_fga": 1.0,
+        "d_fg_pct": 0.5,
+        "normal_fg_pct": 0.715,
+        "pct_plusminus": -0.215
+      }
+    },
+    {
+      "id": 1629638,
+      "name": "Nickeil Alexander-Walker",
+      "team": "ATL",
+      "position": "G",
+      "gp": 7,
+      "defense": {
+        "d_fgm": 3.71,
+        "d_fga": 7.29,
+        "d_fg_pct": 0.51,
+        "normal_fg_pct": 0.461,
+        "pct_plusminus": 0.048
+      }
+    },
+    {
+      "id": 203999,
+      "name": "Nikola Joki\u0107",
+      "team": "DEN",
+      "position": "C",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 9.0,
+        "d_fga": 16.4,
+        "d_fg_pct": 0.549,
+        "normal_fg_pct": 0.486,
+        "pct_plusminus": 0.063
+      }
+    },
+    {
+      "id": 1631107,
+      "name": "Nikola Jovi\u0107",
+      "team": "MIA",
+      "position": "F",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 2.2,
+        "d_fga": 6.8,
+        "d_fg_pct": 0.324,
+        "normal_fg_pct": 0.454,
+        "pct_plusminus": -0.13
+      }
+    },
+    {
+      "id": 202696,
+      "name": "Nikola Vu\u010devi\u0107",
+      "team": "ORL",
+      "position": "C",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 2.4,
+        "d_fga": 6.4,
+        "d_fg_pct": 0.375,
+        "normal_fg_pct": 0.49,
+        "pct_plusminus": -0.115
+      }
+    },
+    {
+      "id": 1642363,
+      "name": "Nique Clifford",
+      "team": "SAC",
+      "position": "G",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 1.6,
+        "d_fga": 2.4,
+        "d_fg_pct": 0.667,
+        "normal_fg_pct": 0.453,
+        "pct_plusminus": 0.214
+      }
+    },
+    {
+      "id": 1642855,
+      "name": "Noa Essengue",
+      "team": "CHI",
+      "position": "F",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 1.8,
+        "d_fga": 4.6,
+        "d_fg_pct": 0.391,
+        "normal_fg_pct": 0.442,
+        "pct_plusminus": -0.051
+      }
+    },
+    {
+      "id": 1641730,
+      "name": "Noah Clowney",
+      "team": "BKN",
+      "position": "F-C",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 4.8,
+        "d_fga": 11.0,
+        "d_fg_pct": 0.436,
+        "normal_fg_pct": 0.443,
+        "pct_plusminus": -0.007
+      }
+    },
+    {
+      "id": 1642849,
+      "name": "Nolan Traore",
+      "team": "BKN",
+      "position": "G",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 2.2,
+        "d_fga": 4.8,
+        "d_fg_pct": 0.458,
+        "normal_fg_pct": 0.463,
+        "pct_plusminus": -0.005
+      }
+    },
+    {
+      "id": 1626181,
+      "name": "Norman Powell",
+      "team": "CHI",
+      "position": "G",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 4.5,
+        "d_fga": 8.33,
+        "d_fg_pct": 0.54,
+        "normal_fg_pct": 0.459,
+        "pct_plusminus": 0.081
+      }
+    },
+    {
+      "id": 1628384,
+      "name": "OG Anunoby",
+      "team": "NYK",
+      "position": "F-G",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 5.17,
+        "d_fga": 12.0,
+        "d_fg_pct": 0.431,
+        "normal_fg_pct": 0.458,
+        "pct_plusminus": -0.028
+      }
+    },
+    {
+      "id": 1630167,
+      "name": "Obi Toppin",
+      "team": "IND",
+      "position": "F",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 2.0,
+        "d_fga": 6.0,
+        "d_fg_pct": 0.333,
+        "normal_fg_pct": 0.437,
+        "pct_plusminus": -0.104
+      }
+    },
+    {
+      "id": 1641765,
+      "name": "Olivier-Maxence Prosper",
+      "team": "MEM",
+      "position": "F",
+      "gp": 1,
+      "defense": {
+        "d_fgm": 1.0,
+        "d_fga": 3.0,
+        "d_fg_pct": 0.333,
+        "normal_fg_pct": 0.429,
+        "pct_plusminus": -0.095
+      }
+    },
+    {
+      "id": 1630168,
+      "name": "Onyeka Okongwu",
+      "team": "ATL",
+      "position": "F-C",
+      "gp": 7,
+      "defense": {
+        "d_fgm": 5.71,
+        "d_fga": 12.71,
+        "d_fg_pct": 0.449,
+        "normal_fg_pct": 0.503,
+        "pct_plusminus": -0.054
+      }
+    },
+    {
+      "id": 1631131,
+      "name": "Oscar Tshiebwe",
+      "team": "HOU",
+      "position": "F-C",
+      "gp": 3,
+      "defense": {
+        "d_fgm": 1.33,
+        "d_fga": 3.67,
+        "d_fg_pct": 0.364,
+        "normal_fg_pct": 0.542,
+        "pct_plusminus": -0.178
+      }
+    },
+    {
+      "id": 1642345,
+      "name": "Oso Ighodaro",
+      "team": "PHX",
+      "position": "F",
+      "gp": 2,
+      "defense": {
+        "d_fgm": 5.0,
+        "d_fga": 10.0,
+        "d_fg_pct": 0.5,
+        "normal_fg_pct": 0.481,
+        "pct_plusminus": 0.019
+      }
+    },
+    {
+      "id": 1631172,
+      "name": "Ousmane Dieng",
+      "team": "MIL",
+      "position": "F",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 2.2,
+        "d_fga": 3.8,
+        "d_fg_pct": 0.579,
+        "normal_fg_pct": 0.44,
+        "pct_plusminus": 0.139
+      }
+    },
+    {
+      "id": 1629023,
+      "name": "P.J. Washington",
+      "team": "DAL",
+      "position": "F",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 6.17,
+        "d_fga": 12.83,
+        "d_fg_pct": 0.481,
+        "normal_fg_pct": 0.494,
+        "pct_plusminus": -0.014
+      }
+    },
+    {
+      "id": 1641790,
+      "name": "PJ Hall",
+      "team": "CHA",
+      "position": "C",
+      "gp": 1,
+      "defense": {
+        "d_fgm": 1.0,
+        "d_fga": 5.0,
+        "d_fg_pct": 0.2,
+        "normal_fg_pct": 0.448,
+        "pct_plusminus": -0.248
+      }
+    },
+    {
+      "id": 1631094,
+      "name": "Paolo Banchero",
+      "team": "ORL",
+      "position": "F",
+      "gp": 2,
+      "defense": {
+        "d_fgm": 5.5,
+        "d_fga": 15.0,
+        "d_fg_pct": 0.367,
+        "normal_fg_pct": 0.473,
+        "pct_plusminus": -0.106
+      }
+    },
+    {
+      "id": 1627783,
+      "name": "Pascal Siakam",
+      "team": "IND",
+      "position": "F",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 5.5,
+        "d_fga": 9.83,
+        "d_fg_pct": 0.559,
+        "normal_fg_pct": 0.474,
+        "pct_plusminus": 0.085
+      }
+    },
+    {
+      "id": 1630311,
+      "name": "Pat Spencer",
+      "team": "PHX",
+      "position": "G",
+      "gp": 1,
+      "defense": {
+        "d_fgm": 1.0,
+        "d_fga": 3.0,
+        "d_fg_pct": 0.333,
+        "normal_fg_pct": 0.3,
+        "pct_plusminus": 0.033
+      }
+    },
+    {
+      "id": 202331,
+      "name": "Paul George",
+      "team": "BOS",
+      "position": "F",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 5.2,
+        "d_fga": 11.8,
+        "d_fg_pct": 0.441,
+        "normal_fg_pct": 0.433,
+        "pct_plusminus": 0.007
+      }
+    },
+    {
+      "id": 1630194,
+      "name": "Paul Reed",
+      "team": "DET",
+      "position": "F",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 5.67,
+        "d_fga": 13.5,
+        "d_fg_pct": 0.42,
+        "normal_fg_pct": 0.49,
+        "pct_plusminus": -0.07
+      }
+    },
+    {
+      "id": 1630202,
+      "name": "Payton Pritchard",
+      "team": "BOS",
+      "position": "G",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 3.0,
+        "d_fga": 9.0,
+        "d_fg_pct": 0.333,
+        "normal_fg_pct": 0.415,
+        "pct_plusminus": -0.082
+      }
+    },
+    {
+      "id": 1641796,
+      "name": "Pelle Larsson",
+      "team": "MIA",
+      "position": "G",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 2.83,
+        "d_fga": 8.17,
+        "d_fg_pct": 0.347,
+        "normal_fg_pct": 0.438,
+        "pct_plusminus": -0.092
+      }
+    },
+    {
+      "id": 1631212,
+      "name": "Peyton Watson",
+      "team": "CLE",
+      "position": "G",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 4.5,
+        "d_fga": 11.67,
+        "d_fg_pct": 0.386,
+        "normal_fg_pct": 0.454,
+        "pct_plusminus": -0.069
+      }
+    },
+    {
+      "id": 1630173,
+      "name": "Precious Achiuwa",
+      "team": "SAC",
+      "position": "F",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 6.67,
+        "d_fga": 13.5,
+        "d_fg_pct": 0.494,
+        "normal_fg_pct": 0.47,
+        "pct_plusminus": 0.024
+      }
+    },
+    {
+      "id": 1629656,
+      "name": "Quentin Grimes",
+      "team": "LAL",
+      "position": "G",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 2.67,
+        "d_fga": 7.0,
+        "d_fg_pct": 0.381,
+        "normal_fg_pct": 0.418,
+        "pct_plusminus": -0.037
+      }
+    },
+    {
+      "id": 1631245,
+      "name": "Quenton Jackson",
+      "team": "IND",
+      "position": "G",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 2.67,
+        "d_fga": 6.0,
+        "d_fg_pct": 0.444,
+        "normal_fg_pct": 0.413,
+        "pct_plusminus": 0.032
+      }
+    },
+    {
+      "id": 1642366,
+      "name": "Quinten Post",
+      "team": "MEM",
+      "position": "C",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 3.2,
+        "d_fga": 6.4,
+        "d_fg_pct": 0.5,
+        "normal_fg_pct": 0.488,
+        "pct_plusminus": 0.012
+      }
+    },
+    {
+      "id": 1629628,
+      "name": "RJ Barrett",
+      "team": "TOR",
+      "position": "F-G",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 3.8,
+        "d_fga": 8.0,
+        "d_fg_pct": 0.475,
+        "normal_fg_pct": 0.452,
+        "pct_plusminus": 0.023
+      }
+    },
+    {
+      "id": 1642853,
+      "name": "Rasheer Fleming",
+      "team": "PHX",
+      "position": "F",
+      "gp": 2,
+      "defense": {
+        "d_fgm": 1.0,
+        "d_fga": 3.5,
+        "d_fg_pct": 0.286,
+        "normal_fg_pct": 0.34,
+        "pct_plusminus": -0.054
+      }
+    },
+    {
+      "id": 1642263,
+      "name": "Reed Sheppard",
+      "team": "HOU",
+      "position": "G",
+      "gp": 4,
+      "defense": {
+        "d_fgm": 3.75,
+        "d_fga": 8.75,
+        "d_fg_pct": 0.429,
+        "normal_fg_pct": 0.465,
+        "pct_plusminus": -0.037
+      }
+    },
+    {
+      "id": 1629057,
+      "name": "Robert Williams III",
+      "team": "POR",
+      "position": "C-F",
+      "gp": 4,
+      "defense": {
+        "d_fgm": 5.25,
+        "d_fga": 7.75,
+        "d_fg_pct": 0.677,
+        "normal_fg_pct": 0.52,
+        "pct_plusminus": 0.157
+      }
+    },
+    {
+      "id": 1631199,
+      "name": "Ron Harper Jr.",
+      "team": "BOS",
+      "position": "G-F",
+      "gp": 1,
+      "defense": {
+        "d_fgm": 2.0,
+        "d_fga": 4.0,
+        "d_fg_pct": 0.5,
+        "normal_fg_pct": 0.429,
+        "pct_plusminus": 0.071
+      }
+    },
+    {
+      "id": 1641842,
+      "name": "Ronald Holland II",
+      "team": "DET",
+      "position": "F",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 2.5,
+        "d_fga": 6.83,
+        "d_fg_pct": 0.366,
+        "normal_fg_pct": 0.445,
+        "pct_plusminus": -0.079
+      }
+    },
+    {
+      "id": 1626220,
+      "name": "Royce O'Neale",
+      "team": "CHA",
+      "position": "F",
+      "gp": 7,
+      "defense": {
+        "d_fgm": 2.14,
+        "d_fga": 5.14,
+        "d_fg_pct": 0.417,
+        "normal_fg_pct": 0.446,
+        "pct_plusminus": -0.029
+      }
+    },
+    {
+      "id": 203497,
+      "name": "Rudy Gobert",
+      "team": "MIN",
+      "position": "C",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 4.5,
+        "d_fga": 11.83,
+        "d_fg_pct": 0.38,
+        "normal_fg_pct": 0.483,
+        "pct_plusminus": -0.103
+      }
+    },
+    {
+      "id": 1629060,
+      "name": "Rui Hachimura",
+      "team": "LAC",
+      "position": "F",
+      "gp": 4,
+      "defense": {
+        "d_fgm": 7.5,
+        "d_fga": 10.75,
+        "d_fg_pct": 0.698,
+        "normal_fg_pct": 0.491,
+        "pct_plusminus": 0.207
+      }
+    },
+    {
+      "id": 1643553,
+      "name": "Ryan Conwell",
+      "team": "MIA",
+      "position": "G",
+      "gp": 4,
+      "defense": {
+        "d_fgm": 1.5,
+        "d_fga": 2.25,
+        "d_fg_pct": 0.667,
+        "normal_fg_pct": 0.332,
+        "pct_plusminus": 0.335
+      }
+    },
+    {
+      "id": 1642346,
+      "name": "Ryan Dunn",
+      "team": "PHX",
+      "position": "F",
+      "gp": 4,
+      "defense": {
+        "d_fgm": 1.5,
+        "d_fga": 4.0,
+        "d_fg_pct": 0.375,
+        "normal_fg_pct": 0.447,
+        "pct_plusminus": -0.072
+      }
+    },
+    {
+      "id": 1641750,
+      "name": "Ryan Kalkbrenner",
+      "team": "CHA",
+      "position": "C",
+      "gp": 7,
+      "defense": {
+        "d_fgm": 3.43,
+        "d_fga": 9.57,
+        "d_fg_pct": 0.358,
+        "normal_fg_pct": 0.469,
+        "pct_plusminus": -0.111
+      }
+    },
+    {
+      "id": 1642948,
+      "name": "Ryan Nembhard",
+      "team": "DEN",
+      "position": "G",
+      "gp": 2,
+      "defense": {
+        "d_fgm": 0.5,
+        "d_fga": 1.0,
+        "d_fg_pct": 0.5,
+        "normal_fg_pct": 0.434,
+        "pct_plusminus": 0.066
+      }
+    },
+    {
+      "id": 1631157,
+      "name": "Ryan Rollins",
+      "team": "MIL",
+      "position": "G",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 5.0,
+        "d_fga": 8.5,
+        "d_fg_pct": 0.588,
+        "normal_fg_pct": 0.451,
+        "pct_plusminus": 0.137
+      }
+    },
+    {
+      "id": 1630180,
+      "name": "Saddiq Bey",
+      "team": "NOP",
+      "position": "F",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 2.83,
+        "d_fga": 6.33,
+        "d_fg_pct": 0.447,
+        "normal_fg_pct": 0.463,
+        "pct_plusminus": -0.015
+      }
+    },
+    {
+      "id": 1630573,
+      "name": "Sam Hauser",
+      "team": "BOS",
+      "position": "F",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 3.4,
+        "d_fga": 6.8,
+        "d_fg_pct": 0.5,
+        "normal_fg_pct": 0.424,
+        "pct_plusminus": 0.076
+      }
+    },
+    {
+      "id": 1630241,
+      "name": "Sam Merrill",
+      "team": "CLE",
+      "position": "G",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 3.17,
+        "d_fga": 6.67,
+        "d_fg_pct": 0.475,
+        "normal_fg_pct": 0.436,
+        "pct_plusminus": 0.039
+      }
+    },
+    {
+      "id": 1630572,
+      "name": "Sandro Mamukelashvili",
+      "team": "LAL",
+      "position": "F-C",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 3.83,
+        "d_fga": 8.17,
+        "d_fg_pct": 0.469,
+        "normal_fg_pct": 0.459,
+        "pct_plusminus": 0.01
+      }
+    },
+    {
+      "id": 1630703,
+      "name": "Scoot Henderson",
+      "team": "POR",
+      "position": "G",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 2.8,
+        "d_fga": 8.2,
+        "d_fg_pct": 0.341,
+        "normal_fg_pct": 0.432,
+        "pct_plusminus": -0.091
+      }
+    },
+    {
+      "id": 1630567,
+      "name": "Scottie Barnes",
+      "team": "TOR",
+      "position": "F-G",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 4.2,
+        "d_fga": 10.6,
+        "d_fg_pct": 0.396,
+        "normal_fg_pct": 0.43,
+        "pct_plusminus": -0.033
+      }
+    },
+    {
+      "id": 1630590,
+      "name": "Scotty Pippen Jr.",
+      "team": "MEM",
+      "position": "G",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 2.6,
+        "d_fga": 6.4,
+        "d_fg_pct": 0.406,
+        "normal_fg_pct": 0.399,
+        "pct_plusminus": 0.008
+      }
+    },
+    {
+      "id": 1643547,
+      "name": "Sergio de Larrea",
+      "team": "DAL",
+      "position": "G",
+      "gp": 3,
+      "defense": {
+        "d_fgm": 2.0,
+        "d_fga": 5.0,
+        "d_fg_pct": 0.4,
+        "normal_fg_pct": 0.49,
+        "pct_plusminus": -0.09
+      }
+    },
+    {
+      "id": 1628983,
+      "name": "Shai Gilgeous-Alexander",
+      "team": "OKC",
+      "position": "G",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 5.67,
+        "d_fga": 13.0,
+        "d_fg_pct": 0.436,
+        "normal_fg_pct": 0.473,
+        "pct_plusminus": -0.037
+      }
+    },
+    {
+      "id": 1631321,
+      "name": "Sidy Cissoko",
+      "team": "POR",
+      "position": "G",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 3.0,
+        "d_fga": 6.4,
+        "d_fg_pct": 0.469,
+        "normal_fg_pct": 0.423,
+        "pct_plusminus": 0.045
+      }
+    },
+    {
+      "id": 1631323,
+      "name": "Simone Fontecchio",
+      "team": "MIA",
+      "position": "F",
+      "gp": 2,
+      "defense": {
+        "d_fgm": 0.5,
+        "d_fga": 2.0,
+        "d_fg_pct": 0.25,
+        "normal_fg_pct": 0.391,
+        "pct_plusminus": -0.141
+      }
+    },
+    {
+      "id": 1642883,
+      "name": "Sion James",
+      "team": "CHA",
+      "position": "G",
+      "gp": 7,
+      "defense": {
+        "d_fgm": 4.14,
+        "d_fga": 8.0,
+        "d_fg_pct": 0.518,
+        "normal_fg_pct": 0.439,
+        "pct_plusminus": 0.079
+      }
+    },
+    {
+      "id": 201939,
+      "name": "Stephen Curry",
+      "team": "GSW",
+      "position": "G",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 3.0,
+        "d_fga": 5.4,
+        "d_fg_pct": 0.556,
+        "normal_fg_pct": 0.508,
+        "pct_plusminus": 0.048
+      }
+    },
+    {
+      "id": 1642264,
+      "name": "Stephon Castle",
+      "team": "SAS",
+      "position": "G",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 5.33,
+        "d_fga": 10.33,
+        "d_fg_pct": 0.516,
+        "normal_fg_pct": 0.447,
+        "pct_plusminus": 0.07
+      }
+    },
+    {
+      "id": 203500,
+      "name": "Steven Adams",
+      "team": "HOU",
+      "position": "C",
+      "gp": 1,
+      "defense": {
+        "d_fgm": 1.0,
+        "d_fga": 3.0,
+        "d_fg_pct": 0.333,
+        "normal_fg_pct": 0.517,
+        "pct_plusminus": -0.183
+      }
+    },
+    {
+      "id": 1629004,
+      "name": "Svi Mykhailiuk",
+      "team": "UTA",
+      "position": "G-F",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 3.33,
+        "d_fga": 6.5,
+        "d_fg_pct": 0.513,
+        "normal_fg_pct": 0.423,
+        "pct_plusminus": 0.09
+      }
+    },
+    {
+      "id": 1631106,
+      "name": "Tari Eason",
+      "team": "HOU",
+      "position": "F",
+      "gp": 7,
+      "defense": {
+        "d_fgm": 4.43,
+        "d_fga": 10.29,
+        "d_fg_pct": 0.431,
+        "normal_fg_pct": 0.455,
+        "pct_plusminus": -0.024
+      }
+    },
+    {
+      "id": 1643542,
+      "name": "Tarris Reed Jr.",
+      "team": "SAS",
+      "position": "C",
+      "gp": 3,
+      "defense": {
+        "d_fgm": 0.67,
+        "d_fga": 2.0,
+        "d_fg_pct": 0.333,
+        "normal_fg_pct": 0.43,
+        "pct_plusminus": -0.096
+      }
+    },
+    {
+      "id": 1627752,
+      "name": "Taurean Prince",
+      "team": "DET",
+      "position": "F",
+      "gp": 1,
+      "defense": {
+        "d_fgm": 1.0,
+        "d_fga": 1.0,
+        "d_fg_pct": 1.0,
+        "normal_fg_pct": 0.395,
+        "pct_plusminus": 0.605
+      }
+    },
+    {
+      "id": 1641707,
+      "name": "Taylor Hendricks",
+      "team": "MEM",
+      "position": "F",
+      "gp": 2,
+      "defense": {
+        "d_fgm": 1.0,
+        "d_fga": 2.0,
+        "d_fg_pct": 0.5,
+        "normal_fg_pct": 0.453,
+        "pct_plusminus": 0.048
+      }
+    },
+    {
+      "id": 1629611,
+      "name": "Terance Mann",
+      "team": "BKN",
+      "position": "G-F",
+      "gp": 1,
+      "defense": {
+        "d_fgm": 0.0,
+        "d_fga": 2.0,
+        "d_fg_pct": 0.0,
+        "normal_fg_pct": 0.411,
+        "pct_plusminus": -0.411
+      }
+    },
+    {
+      "id": 1630545,
+      "name": "Terrence Shannon Jr",
+      "team": "MIN",
+      "position": "G-F",
+      "gp": 7,
+      "defense": {
+        "d_fgm": 2.14,
+        "d_fga": 5.57,
+        "d_fg_pct": 0.385,
+        "normal_fg_pct": 0.41,
+        "pct_plusminus": -0.026
+      }
+    },
+    {
+      "id": 1628418,
+      "name": "Thomas Bryant",
+      "team": "CLE",
+      "position": "C-F",
+      "gp": 1,
+      "defense": {
+        "d_fgm": 7.0,
+        "d_fga": 9.0,
+        "d_fg_pct": 0.778,
+        "normal_fg_pct": 0.466,
+        "pct_plusminus": 0.312
+      }
+    },
+    {
+      "id": 1642275,
+      "name": "Tidjane Sala\u00fcn",
+      "team": "CHA",
+      "position": "F",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 2.0,
+        "d_fga": 3.67,
+        "d_fg_pct": 0.545,
+        "normal_fg_pct": 0.529,
+        "pct_plusminus": 0.017
+      }
+    },
+    {
+      "id": 203501,
+      "name": "Tim Hardaway Jr.",
+      "team": "MIA",
+      "position": "G",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 4.17,
+        "d_fga": 7.67,
+        "d_fg_pct": 0.543,
+        "normal_fg_pct": 0.418,
+        "pct_plusminus": 0.125
+      }
+    },
+    {
+      "id": 1643591,
+      "name": "Tobe Awaka",
+      "team": "CHI",
+      "position": "F",
+      "gp": 3,
+      "defense": {
+        "d_fgm": 1.33,
+        "d_fga": 3.0,
+        "d_fg_pct": 0.444,
+        "normal_fg_pct": 0.535,
+        "pct_plusminus": -0.091
+      }
+    },
+    {
+      "id": 1643588,
+      "name": "Tobi Lawal",
+      "team": "DAL",
+      "position": "F",
+      "gp": 2,
+      "defense": {
+        "d_fgm": 0.5,
+        "d_fga": 2.5,
+        "d_fg_pct": 0.2,
+        "normal_fg_pct": 0.325,
+        "pct_plusminus": -0.125
+      }
+    },
+    {
+      "id": 1642449,
+      "name": "Tolu Smith",
+      "team": "DET",
+      "position": "F",
+      "gp": 3,
+      "defense": {
+        "d_fgm": 0.67,
+        "d_fga": 1.0,
+        "d_fg_pct": 0.667,
+        "normal_fg_pct": 0.648,
+        "pct_plusminus": 0.019
+      }
+    },
+    {
+      "id": 1628396,
+      "name": "Tony Bradley",
+      "team": "UTA",
+      "position": "C-F",
+      "gp": 1,
+      "defense": {
+        "d_fgm": 2.0,
+        "d_fga": 2.0,
+        "d_fg_pct": 1.0,
+        "normal_fg_pct": 0.625,
+        "pct_plusminus": 0.375
+      }
+    },
+    {
+      "id": 1641739,
+      "name": "Toumani Camara",
+      "team": "POR",
+      "position": "F",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 5.2,
+        "d_fga": 11.8,
+        "d_fg_pct": 0.441,
+        "normal_fg_pct": 0.471,
+        "pct_plusminus": -0.03
+      }
+    },
+    {
+      "id": 1629027,
+      "name": "Trae Young",
+      "team": "WAS",
+      "position": "G",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 3.5,
+        "d_fga": 7.0,
+        "d_fg_pct": 0.5,
+        "normal_fg_pct": 0.408,
+        "pct_plusminus": 0.092
+      }
+    },
+    {
+      "id": 1631218,
+      "name": "Trayce Jackson-Davis",
+      "team": "TOR",
+      "position": "F",
+      "gp": 4,
+      "defense": {
+        "d_fgm": 1.75,
+        "d_fga": 5.0,
+        "d_fg_pct": 0.35,
+        "normal_fg_pct": 0.404,
+        "pct_plusminus": -0.054
+      }
+    },
+    {
+      "id": 1642848,
+      "name": "Tre Johnson",
+      "team": "WAS",
+      "position": "G",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 1.8,
+        "d_fga": 5.8,
+        "d_fg_pct": 0.31,
+        "normal_fg_pct": 0.421,
+        "pct_plusminus": -0.111
+      }
+    },
+    {
+      "id": 1630200,
+      "name": "Tre Jones",
+      "team": "CHI",
+      "position": "G",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 2.67,
+        "d_fga": 4.5,
+        "d_fg_pct": 0.593,
+        "normal_fg_pct": 0.467,
+        "pct_plusminus": 0.125
+      }
+    },
+    {
+      "id": 1630570,
+      "name": "Trendon Watford",
+      "team": "NOP",
+      "position": "G-F",
+      "gp": 2,
+      "defense": {
+        "d_fgm": 3.0,
+        "d_fga": 6.5,
+        "d_fg_pct": 0.462,
+        "normal_fg_pct": 0.454,
+        "pct_plusminus": 0.007
+      }
+    },
+    {
+      "id": 1642350,
+      "name": "Trevon Brazile",
+      "team": "DEN",
+      "position": "F",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 3.0,
+        "d_fga": 9.6,
+        "d_fg_pct": 0.313,
+        "normal_fg_pct": 0.452,
+        "pct_plusminus": -0.139
+      }
+    },
+    {
+      "id": 1626168,
+      "name": "Trey Lyles",
+      "team": "MIN",
+      "position": "F",
+      "gp": 7,
+      "defense": {
+        "d_fgm": 4.43,
+        "d_fga": 7.86,
+        "d_fg_pct": 0.564,
+        "normal_fg_pct": 0.45,
+        "pct_plusminus": 0.113
+      }
+    },
+    {
+      "id": 1630530,
+      "name": "Trey Murphy III",
+      "team": "NOP",
+      "position": "F",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 4.17,
+        "d_fga": 8.67,
+        "d_fg_pct": 0.481,
+        "normal_fg_pct": 0.463,
+        "pct_plusminus": 0.018
+      }
+    },
+    {
+      "id": 1642400,
+      "name": "Tristan Enaruna",
+      "team": "CLE",
+      "position": "F",
+      "gp": 1,
+      "defense": {
+        "d_fgm": 2.0,
+        "d_fga": 3.0,
+        "d_fg_pct": 0.667,
+        "normal_fg_pct": 0.442,
+        "pct_plusminus": 0.225
+      }
+    },
+    {
+      "id": 1641783,
+      "name": "Tristan da Silva",
+      "team": "ORL",
+      "position": "F",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 5.4,
+        "d_fga": 8.4,
+        "d_fg_pct": 0.643,
+        "normal_fg_pct": 0.451,
+        "pct_plusminus": 0.192
+      }
+    },
+    {
+      "id": 1629660,
+      "name": "Ty Jerome",
+      "team": "MEM",
+      "position": "G-F",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 4.0,
+        "d_fga": 10.0,
+        "d_fg_pct": 0.4,
+        "normal_fg_pct": 0.45,
+        "pct_plusminus": -0.05
+      }
+    },
+    {
+      "id": 1629639,
+      "name": "Tyler Herro",
+      "team": "MIL",
+      "position": "G",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 3.83,
+        "d_fga": 8.33,
+        "d_fg_pct": 0.46,
+        "normal_fg_pct": 0.454,
+        "pct_plusminus": 0.006
+      }
+    },
+    {
+      "id": 1642278,
+      "name": "Tyler Kolek",
+      "team": "NYK",
+      "position": "G",
+      "gp": 4,
+      "defense": {
+        "d_fgm": 2.5,
+        "d_fga": 5.25,
+        "d_fg_pct": 0.476,
+        "normal_fg_pct": 0.441,
+        "pct_plusminus": 0.035
+      }
+    },
+    {
+      "id": 1630169,
+      "name": "Tyrese Haliburton",
+      "team": "IND",
+      "position": "G",
+      "gp": 4,
+      "defense": {
+        "d_fgm": 4.25,
+        "d_fga": 8.75,
+        "d_fg_pct": 0.486,
+        "normal_fg_pct": 0.456,
+        "pct_plusminus": 0.03
+      }
+    },
+    {
+      "id": 1630178,
+      "name": "Tyrese Maxey",
+      "team": "PHI",
+      "position": "G",
+      "gp": 7,
+      "defense": {
+        "d_fgm": 5.43,
+        "d_fga": 11.86,
+        "d_fg_pct": 0.458,
+        "normal_fg_pct": 0.415,
+        "pct_plusminus": 0.042
+      }
+    },
+    {
+      "id": 1642878,
+      "name": "Tyrese Proctor",
+      "team": "CLE",
+      "position": "G",
+      "gp": 4,
+      "defense": {
+        "d_fgm": 2.5,
+        "d_fga": 5.0,
+        "d_fg_pct": 0.5,
+        "normal_fg_pct": 0.443,
+        "pct_plusminus": 0.057
+      }
+    },
+    {
+      "id": 1626145,
+      "name": "Tyus Jones",
+      "team": "DEN",
+      "position": "G",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 1.4,
+        "d_fga": 2.6,
+        "d_fg_pct": 0.538,
+        "normal_fg_pct": 0.434,
+        "pct_plusminus": 0.104
+      }
+    },
+    {
+      "id": 1642845,
+      "name": "VJ Edgecombe",
+      "team": "PHI",
+      "position": "G",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 4.83,
+        "d_fga": 12.0,
+        "d_fg_pct": 0.403,
+        "normal_fg_pct": 0.452,
+        "pct_plusminus": -0.049
+      }
+    },
+    {
+      "id": 1641705,
+      "name": "Victor Wembanyama",
+      "team": "SAS",
+      "position": "F-C",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 6.5,
+        "d_fga": 17.67,
+        "d_fg_pct": 0.368,
+        "normal_fg_pct": 0.504,
+        "pct_plusminus": -0.136
+      }
+    },
+    {
+      "id": 1630249,
+      "name": "V\u00edt Krej\u010d\u00ed",
+      "team": "POR",
+      "position": "G",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 1.0,
+        "d_fga": 2.4,
+        "d_fg_pct": 0.417,
+        "normal_fg_pct": 0.442,
+        "pct_plusminus": -0.026
+      }
+    },
+    {
+      "id": 1631117,
+      "name": "Walker Kessler",
+      "team": "LAL",
+      "position": "C",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 8.5,
+        "d_fga": 19.0,
+        "d_fg_pct": 0.447,
+        "normal_fg_pct": 0.476,
+        "pct_plusminus": -0.029
+      }
+    },
+    {
+      "id": 1642383,
+      "name": "Walter Clayton Jr.",
+      "team": "DAL",
+      "position": "G",
+      "gp": 3,
+      "defense": {
+        "d_fgm": 2.67,
+        "d_fga": 6.0,
+        "d_fg_pct": 0.444,
+        "normal_fg_pct": 0.437,
+        "pct_plusminus": 0.007
+      }
+    },
+    {
+      "id": 1628976,
+      "name": "Wendell Carter Jr.",
+      "team": "ORL",
+      "position": "C-F",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 8.8,
+        "d_fga": 15.2,
+        "d_fg_pct": 0.579,
+        "normal_fg_pct": 0.453,
+        "pct_plusminus": 0.126
+      }
+    },
+    {
+      "id": 1642954,
+      "name": "Will Richard",
+      "team": "GSW",
+      "position": "G",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 3.4,
+        "d_fga": 8.0,
+        "d_fg_pct": 0.425,
+        "normal_fg_pct": 0.473,
+        "pct_plusminus": -0.048
+      }
+    },
+    {
+      "id": 1642860,
+      "name": "Will Riley",
+      "team": "WAS",
+      "position": "F",
+      "gp": 1,
+      "defense": {
+        "d_fgm": 1.0,
+        "d_fga": 1.0,
+        "d_fg_pct": 1.0,
+        "normal_fg_pct": 0.458,
+        "pct_plusminus": 0.542
+      }
+    },
+    {
+      "id": 1642905,
+      "name": "Yang Hansen",
+      "team": "POR",
+      "position": "C",
+      "gp": 3,
+      "defense": {
+        "d_fgm": 2.33,
+        "d_fga": 6.0,
+        "d_fg_pct": 0.389,
+        "normal_fg_pct": 0.426,
+        "pct_plusminus": -0.038
+      }
+    },
+    {
+      "id": 1642865,
+      "name": "Yaxel Lendeborg",
+      "team": "GSW",
+      "position": "F",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 7.33,
+        "d_fga": 13.0,
+        "d_fg_pct": 0.564,
+        "normal_fg_pct": 0.494,
+        "pct_plusminus": 0.07
+      }
+    },
+    {
+      "id": 1642274,
+      "name": "Yves Missi",
+      "team": "NOP",
+      "position": "C",
+      "gp": 2,
+      "defense": {
+        "d_fgm": 4.0,
+        "d_fga": 8.5,
+        "d_fg_pct": 0.471,
+        "normal_fg_pct": 0.505,
+        "pct_plusminus": -0.034
+      }
+    },
+    {
+      "id": 1642258,
+      "name": "Zaccharie Risacher",
+      "team": "DAL",
+      "position": "F",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 5.83,
+        "d_fga": 12.67,
+        "d_fg_pct": 0.461,
+        "normal_fg_pct": 0.473,
+        "pct_plusminus": -0.013
+      }
+    },
+    {
+      "id": 1628380,
+      "name": "Zach Collins",
+      "team": "CHI",
+      "position": "F-C",
+      "gp": 4,
+      "defense": {
+        "d_fgm": 1.75,
+        "d_fga": 4.75,
+        "d_fg_pct": 0.368,
+        "normal_fg_pct": 0.465,
+        "pct_plusminus": -0.096
+      }
+    },
+    {
+      "id": 1641744,
+      "name": "Zach Edey",
+      "team": "MEM",
+      "position": "C",
+      "gp": 5,
+      "defense": {
+        "d_fgm": 4.4,
+        "d_fga": 8.8,
+        "d_fg_pct": 0.5,
+        "normal_fg_pct": 0.498,
+        "pct_plusminus": 0.002
+      }
+    },
+    {
+      "id": 203897,
+      "name": "Zach LaVine",
+      "team": "SAC",
+      "position": "G",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 5.0,
+        "d_fga": 9.67,
+        "d_fg_pct": 0.517,
+        "normal_fg_pct": 0.46,
+        "pct_plusminus": 0.057
+      }
+    },
+    {
+      "id": 1630533,
+      "name": "Ziaire Williams",
+      "team": "LAL",
+      "position": "F",
+      "gp": 4,
+      "defense": {
+        "d_fgm": 6.25,
+        "d_fga": 10.75,
+        "d_fg_pct": 0.581,
+        "normal_fg_pct": 0.475,
+        "pct_plusminus": 0.106
+      }
+    },
+    {
+      "id": 1629627,
+      "name": "Zion Williamson",
+      "team": "NOP",
+      "position": "F",
+      "gp": 6,
+      "defense": {
+        "d_fgm": 4.17,
+        "d_fga": 9.83,
+        "d_fg_pct": 0.424,
+        "normal_fg_pct": 0.452,
+        "pct_plusminus": -0.028
+      }
+    },
+    {
+      "id": 1643544,
+      "name": "Zuby Ejiofor",
+      "team": "ATL",
+      "position": "F",
+      "gp": 1,
+      "defense": {
+        "d_fgm": 2.0,
+        "d_fga": 3.0,
+        "d_fg_pct": 0.667,
+        "normal_fg_pct": 0.333,
+        "pct_plusminus": 0.333
+      }
+    },
+    {
+      "id": 1642389,
+      "name": "Zyon Pullin",
+      "team": "MIN",
+      "position": "G",
+      "gp": 2,
+      "defense": {
+        "d_fgm": 0.5,
+        "d_fga": 2.0,
+        "d_fg_pct": 0.25,
+        "normal_fg_pct": 0.282,
+        "pct_plusminus": -0.032
+      }
+    }
+  ]
+}
