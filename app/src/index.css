@@ -2526,6 +2526,12 @@ header {
   stroke-width: 1.5;
   pointer-events: none;
 }
+/* In light mode the default white ring blends into the white chart
+   background and the headshot circles disappear visually. Use a dark
+   gray stroke so each headshot has a visible outline. */
+:root[data-theme="light"] .adv-scatter-dot-ring {
+  stroke: #1f2937;
+}
 .adv-scatter-dot-ring.faded {
   stroke-opacity: 0.4;
 }
