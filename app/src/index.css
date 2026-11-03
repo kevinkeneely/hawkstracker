@@ -2532,6 +2532,11 @@ header {
 :root[data-theme="light"] .adv-scatter-dot-ring {
   stroke: #1f2937;
 }
+/* Re-apply the Hawks-highlight red at matching specificity so the light-mode
+   rule above doesn't override the ATL-toggle ring color. */
+:root[data-theme="light"] .adv-scatter-dot-ring.hawks-highlight {
+  stroke: #C8102E;
+}
 .adv-scatter-dot-ring.faded {
   stroke-opacity: 0.4;
 }
