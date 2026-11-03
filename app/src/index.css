@@ -2556,7 +2556,10 @@ header {
      transforms below shift the tooltip inward so it still fits. */
   white-space: nowrap;
   width: max-content;
-  max-width: min(260px, calc(100vw - 32px));
+  /* Give the tooltip enough room for the longest line (e.g. "Uncontested
+     FG%: 49.9% · Uncontested FGA: 3.2" ≈ 350px at this font size); on
+     narrower viewports fall back to viewport-16px-on-each-side. */
+  max-width: min(380px, calc(100vw - 32px));
 }
 /* Default placement: tooltip sits above the dot, centered horizontally. */
 .adv-scatter-tooltip.adv-tip-x-center {
