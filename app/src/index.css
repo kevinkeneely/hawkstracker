@@ -2587,3 +2587,72 @@ header {
   display: flex;
   justify-content: center;
 }
+
+
+/* ─── Player Profile — Tracking tab (Phase 2) ─────────────────── */
+/* Reuses the Advanced-page toggle look & feel for consistency. */
+.profile-tracking { }
+
+.tracking-toggle-row {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin: 8px 0 20px;
+}
+.tracking-toggle-btn {
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text);
+  background: var(--card, #1a1a1a);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: inherit;
+  transition: color 0.15s, border-color 0.15s, background 0.15s;
+}
+.tracking-toggle-btn:hover:not(:disabled) {
+  color: var(--text-h);
+  border-color: var(--text);
+}
+.tracking-toggle-btn.active {
+  color: #fff;
+  background: #C8102E;
+  border-color: #C8102E;
+}
+.tracking-toggle-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+/* Smaller / lighter sub-toggle for the shot-split / drives-passing-touches
+   second row — visually subordinate to the top-level category toggle. */
+.tracking-subtoggle-row {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin: 0 0 20px;
+}
+.tracking-subtoggle-btn {
+  padding: 5px 12px;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--text);
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  cursor: pointer;
+  font-family: inherit;
+  transition: color 0.15s, border-color 0.15s, background 0.15s;
+}
+.tracking-subtoggle-btn:hover {
+  color: var(--text-h);
+  border-color: var(--text);
+}
+.tracking-subtoggle-btn.active {
+  color: var(--text-h);
+  border-color: var(--text-h);
+  background: var(--card, #1a1a1a);
+}

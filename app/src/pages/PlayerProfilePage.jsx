@@ -61,6 +61,11 @@ export default function PlayerProfilePage({ playerData, season, leagueBaseline }
             label: 'Shot Charts',
             content: <ShotChartTab player={player} season={season} leagueBaseline={leagueBaseline} />,
           },
+          {
+            key: 'tracking',
+            label: 'Tracking',
+            content: <TrackingTab player={player} />,
+          },
         ]}
       />
     </div>
@@ -192,7 +197,15 @@ function GroupedPctileBars({ groups, data }) {
         <div key={gIdx}>
           {gIdx > 0 && <div className="pctile-divider" />}
           <div className="pctile-group">
-            {group.map(({ key, label, format, invert }) => {
+            {group.map((field, i) => {
+              // Allow {placeholder: true} entries to render an empty grid cell
+              // so authors can control pairing in the 2-column layout (used by
+              // the Shooting sub-blocks to put FGA/3PA on the left column and
+              // FG%/3P%/eFG% on the right).
+              if (field.placeholder) {
+                return <div key={`ph-${i}`} className="pctile-placeholder" aria-hidden="true" />
+              }
+              const { key, label, format, invert } = field
               const entry = data?.[key]
               return (
                 <PctileBar
@@ -284,19 +297,184 @@ function ComingSoon({ label }) {
   )
 }
 
+// ─────────────── Tracking tab config ───────────────
+// Mirrors the Advanced pages' structure (Shooting splits, Defense tracking,
+// Playmaking sub-blocks). Each sub-block's fields are read from the matching
+// block on the Hawks player (player.shooting_tracking.<sub>,
+// player.defense_tracking, player.playmaking_tracking.<sub>) which Phase 1
+// enriched into hawksData. Values are stored as {value, pctile} and consumed
+// by GroupedPctileBars.
+
+const SHOOTING_SUBBLOCKS = [
+  { key: 'cs',          label: 'Catch & Shoot' },
+  { key: 'pullup',      label: 'Pull-Up' },
+  { key: 'contested',   label: 'Contested' },
+  { key: 'uncontested', label: 'Uncontested' },
+]
+
+const SHOOTING_FIELDS = [
+  // Grid is row-first with 2 columns, so we pair volume with efficiency per
+  // row: FGA|FG%, 3PA|3P%, (empty)|eFG%. FGM/3PM were dropped because the
+  // attempt + percentage columns already carry the "how often made" story.
+  { key: 'fga',     label: 'FGA',  format: 'num1' },
+  { key: 'fg_pct',  label: 'FG%',  format: 'pct'  },
+  { key: 'fg3a',    label: '3PA',  format: 'num1' },
+  { key: 'fg3_pct', label: '3P%',  format: 'pct'  },
+  { placeholder: true },
+  { key: 'efg_pct', label: 'eFG%', format: 'pct'  },
+]
+
+const DEFENSE_FIELDS = [
+  // DFGM dropped — DFGA + DFG% already carry the "how often made against" story.
+  { key: 'd_fga',          label: 'DFGA',           format: 'num1'                },
+  { key: 'd_fg_pct',       label: 'DFG%',           format: 'pct',  invert: true  },
+  { key: 'normal_fg_pct',  label: 'Normal FG%',     format: 'pct'                 },
+  { key: 'pct_plusminus',  label: 'DFG± vs Norm',   format: 'pct',  invert: true  },
+]
+
+const PLAYMAKING_SUBBLOCKS = [
+  { key: 'drives',      label: 'Drives' },
+  { key: 'passing',     label: 'Passing' },
+  { key: 'possessions', label: 'Touches' },
+]
+
+const PLAYMAKING_FIELDS = {
+  drives: [
+    // Drive FGM dropped — Drive FGA + Drive FG% carry the same info without duplication.
+    { key: 'drives',        label: 'Drives',        format: 'num1' },
+    { key: 'drive_fga',     label: 'Drive FGA',     format: 'num1' },
+    { key: 'drive_fg_pct',  label: 'Drive FG%',     format: 'pct'  },
+    { key: 'drive_pts',     label: 'Drive PTS',     format: 'num1' },
+    { key: 'drive_ast',     label: 'Drive AST',     format: 'num1' },
+    { key: 'drive_tov',     label: 'Drive TOV',     format: 'num1', invert: true },
+  ],
+  passing: [
+    { key: 'passes_made',         label: 'Passes Made',          format: 'num1' },
+    { key: 'passes_received',     label: 'Passes Received',      format: 'num1' },
+    { key: 'potential_ast',       label: 'Potential AST',        format: 'num1' },
+    { key: 'ast_points_created',  label: 'AST Points Created',   format: 'num1' },
+    { key: 'ast_to_pass_pct',     label: 'AST / Pass %',         format: 'pct'  },
+  ],
+  possessions: [
+    { key: 'touches',            label: 'Touches',            format: 'num1' },
+    { key: 'front_ct_touches',   label: 'Front Ct Touches',   format: 'num1' },
+    { key: 'time_of_poss',       label: 'Time of Poss.',      format: 'num1' },
+    { key: 'avg_sec_per_touch',  label: 'Avg Sec / Touch',    format: 'num1' },
+    { key: 'pts_per_touch',      label: 'Pts per Touch',      format: 'num1' },
+    { key: 'elbow_touches',      label: 'Elbow Touches',      format: 'num1' },
+    { key: 'post_touches',       label: 'Post Touches',       format: 'num1' },
+    { key: 'paint_touches',      label: 'Paint Touches',      format: 'num1' },
+  ],
+}
+
+function TrackingTab({ player }) {
+  const hasShooting   = !!player.shooting_tracking
+  const hasDefense    = !!player.defense_tracking
+  const hasPlaymaking = !!player.playmaking_tracking
+
+  // Pick first available category by default; falls back to Shooting if none
+  // (component will show an empty state).
+  const firstCategory = hasShooting ? 'shooting' : hasDefense ? 'defense' : hasPlaymaking ? 'playmaking' : 'shooting'
+  const [category, setCategory] = useState(firstCategory)
+  const [shootingSub, setShootingSub] = useState(SHOOTING_SUBBLOCKS[0].key)
+  const [playmakingSub, setPlaymakingSub] = useState(PLAYMAKING_SUBBLOCKS[0].key)
+
+  if (!hasShooting && !hasDefense && !hasPlaymaking) {
+    return (
+      <div className="tab-placeholder">
+        <p>No tracking data available yet.</p>
+      </div>
+    )
+  }
+
+  return (
+    <section className="profile-percentiles profile-tracking">
+      <div className="tracking-toggle-row">
+        <button
+          type="button"
+          className={`tracking-toggle-btn ${category === 'shooting' ? 'active' : ''}`}
+          onClick={() => setCategory('shooting')}
+          disabled={!hasShooting}
+        >
+          Shooting
+        </button>
+        <button
+          type="button"
+          className={`tracking-toggle-btn ${category === 'defense' ? 'active' : ''}`}
+          onClick={() => setCategory('defense')}
+          disabled={!hasDefense}
+        >
+          Defense
+        </button>
+        <button
+          type="button"
+          className={`tracking-toggle-btn ${category === 'playmaking' ? 'active' : ''}`}
+          onClick={() => setCategory('playmaking')}
+          disabled={!hasPlaymaking}
+        >
+          Playmaking
+        </button>
+      </div>
+
+      {category === 'shooting' && (
+        <>
+          <div className="tracking-subtoggle-row">
+            {SHOOTING_SUBBLOCKS.map(sb => (
+              <button
+                key={sb.key}
+                type="button"
+                className={`tracking-subtoggle-btn ${shootingSub === sb.key ? 'active' : ''}`}
+                onClick={() => setShootingSub(sb.key)}
+              >
+                {sb.label}
+              </button>
+            ))}
+          </div>
+          <GroupedPctileBars
+            groups={[SHOOTING_FIELDS]}
+            data={player.shooting_tracking?.[shootingSub]}
+          />
+        </>
+      )}
+
+      {category === 'defense' && (
+        <GroupedPctileBars
+          groups={[DEFENSE_FIELDS]}
+          data={player.defense_tracking}
+        />
+      )}
+
+      {category === 'playmaking' && (
+        <>
+          <div className="tracking-subtoggle-row">
+            {PLAYMAKING_SUBBLOCKS.map(sb => (
+              <button
+                key={sb.key}
+                type="button"
+                className={`tracking-subtoggle-btn ${playmakingSub === sb.key ? 'active' : ''}`}
+                onClick={() => setPlaymakingSub(sb.key)}
+              >
+                {sb.label}
+              </button>
+            ))}
+          </div>
+          <GroupedPctileBars
+            groups={[PLAYMAKING_FIELDS[playmakingSub]]}
+            data={player.playmaking_tracking?.[playmakingSub]}
+          />
+        </>
+      )}
+    </section>
+  )
+}
+
 function StatLine({ player }) {
+  // Only GP + MPG shown here — every other stat appears below in the vs.
+  // League percentile bars with its value next to the bar, so duplicating
+  // them as chips at the top is just visual noise.
   const rows = [
     ['GP', player.gp],
     ['MPG', fmt(player.mpg)],
-    ['PPG', fmt(player.ppg)],
-    ['RPG', fmt(player.rpg)],
-    ['APG', fmt(player.apg)],
-    ['SPG', fmt(player.spg)],
-    ['BPG', fmt(player.bpg)],
-    ['TOV', fmt(player.tov)],
-    ['FG%', pct(player.fg_pct)],
-    ['3P%', pct(player.fg3_pct)],
-    ['FT%', pct(player.ft_pct)],
   ]
   return (
     <div className="stat-line">
