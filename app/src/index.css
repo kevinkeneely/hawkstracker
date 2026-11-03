@@ -1793,6 +1793,11 @@ header {
   background: rgba(243, 244, 246, 0.08);
   color: #ffffff;
 }
+/* Light mode: the inverse — add a subtle dark background behind the thead
+   so the header row reads clearly on a white page. */
+:root[data-theme="light"] .boxscore-table thead th {
+  background: rgba(8, 6, 13, 0.06);
+}
 
 .boxscore-table .col-player {
   text-align: left;
