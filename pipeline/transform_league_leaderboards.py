@@ -180,20 +180,30 @@ def load_hustle_stats() -> dict:
     h = rs["headers"]
     pid_i = h.index("PLAYER_ID")
     cs_i = h.index("CONTESTED_SHOTS")
+    cs2_i = h.index("CONTESTED_SHOTS_2PT")
+    cs3_i = h.index("CONTESTED_SHOTS_3PT")
     defl_i = h.index("DEFLECTIONS")
     bo_i = h.index("BOX_OUTS")
+    pct_bo_off_i = h.index("PCT_BOX_OUTS_OFF")
+    pct_bo_def_i = h.index("PCT_BOX_OUTS_DEF")
     lbr_i = h.index("LOOSE_BALLS_RECOVERED")
     cd_i = h.index("CHARGES_DRAWN")
     sa_i = h.index("SCREEN_ASSISTS")
+    sap_i = h.index("SCREEN_AST_PTS")
     out = {}
     for row in rs["rowSet"]:
         out[row[pid_i]] = {
             "contested_shots":       row[cs_i],
+            "contested_shots_2pt":   row[cs2_i],
+            "contested_shots_3pt":   row[cs3_i],
             "deflections":           row[defl_i],
             "box_outs":              row[bo_i],
+            "pct_box_outs_off":      row[pct_bo_off_i],
+            "pct_box_outs_def":      row[pct_bo_def_i],
             "loose_balls_recovered": row[lbr_i],
             "charges_drawn":         row[cd_i],
             "screen_assists":        row[sa_i],
+            "screen_ast_pts":        row[sap_i],
         }
     return out
 

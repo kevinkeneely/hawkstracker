@@ -1,12 +1,142 @@
 /**
- * PlaymakingPage - placeholder until Step 2 builds the shared AdvancedPage wrapper.
- * See claude/advanced-stats-plan.md for the full spec of what this page will show.
+ * Playmaking page — Drives, Passing, Touches (possessions).
+ * See claude/advanced-stats-plan.md for the full spec.
+ *
+ * Data source: league_playmaking_tracking-<SEASON>.json (one merged file
+ * with drives, passing, and possessions sub-blocks per player) + Hawks
+ * players' player.playmaking_tracking blocks from hawksData.
  */
-export default function PlaymakingPage() {
+
+import { useEffect, useState } from 'react'
+import AdvancedPage from './AdvancedPage'
+
+// Shape adapter: Hawks data nests under player.playmaking_tracking.<sub>.<field>.value;
+// League data has player.<sub>.<field> directly. This handles both.
+function extract(player, subBlock, field) {
+  const block = player.playmaking_tracking?.[subBlock] ?? player[subBlock]
+  const raw = block?.[field]
+  if (raw == null) return null
+  return typeof raw === 'object' ? raw.value : raw
+}
+
+const pct = (v) => (v == null ? '—' : `${(v * 100).toFixed(1)}%`)
+const num = (v) => (v == null ? '—' : Number(v).toFixed(1))
+
+// ─── Scatter plot configs (6) ─────────────────────────────────
+const SCATTER_CONFIGS = [
+  {
+    title: 'Drive PTS × Drive AST',
+    description: 'Upper-right = elite driver who also passes off the drive.',
+    xLabel: 'Drive PTS', yLabel: 'Drive AST',
+    extractX: (p) => extract(p, 'drives', 'drive_pts'),
+    extractY: (p) => extract(p, 'drives', 'drive_ast'),
+    xFormat: num,
+    yFormat: num,
+    extractRate: (p) => extract(p, 'drives', 'drives'),
+    minRate: 2.5,
+    minMinutes: 100,
+  },
+  {
+    title: 'Drive PTS × Drive FG%',
+    description: 'Upper-right = efficient high-volume driving scorer.',
+    xLabel: 'Drive PTS', yLabel: 'Drive FG%',
+    extractX: (p) => extract(p, 'drives', 'drive_pts'),
+    extractY: (p) => extract(p, 'drives', 'drive_fg_pct'),
+    xFormat: num,
+    yFormat: pct,
+    extractRate: (p) => extract(p, 'drives', 'drives'),
+    minRate: 2.5,
+    minMinutes: 100,
+  },
+  {
+    title: 'Drive TOV × Drive AST',
+    description: 'Upper-left = high-AST, low-TOV driver (ideal). Upper-right = ball-dominant playmaker with both.',
+    xLabel: 'Drive TOV', yLabel: 'Drive AST',
+    extractX: (p) => extract(p, 'drives', 'drive_tov'),
+    extractY: (p) => extract(p, 'drives', 'drive_ast'),
+    xFormat: num,
+    yFormat: num,
+    extractRate: (p) => extract(p, 'drives', 'drives'),
+    minRate: 2.5,
+    minMinutes: 100,
+  },
+  {
+    title: 'Touches × Points per Touch',
+    description: 'Upper-right = tons of touches AND efficient scoring per touch.',
+    xLabel: 'Touches', yLabel: 'Pts per Touch',
+    extractX: (p) => extract(p, 'possessions', 'touches'),
+    extractY: (p) => extract(p, 'possessions', 'pts_per_touch'),
+    xFormat: num,
+    yFormat: num,
+    minMinutes: 100,
+  },
+]
+
+// ─── Toggle configs (3) ───────────────────────────────────────
+const TOGGLE_CONFIGS = [
+  {
+    key: 'drives',
+    label: 'Drives',
+    hawksStats: [
+      { key: 'drives',        label: 'Drives',       extract: (p) => extract(p, 'drives', 'drives'),        format: num },
+      { key: 'drive_pts',     label: 'Drive PTS',    extract: (p) => extract(p, 'drives', 'drive_pts'),     format: num },
+      { key: 'drive_ast',     label: 'Drive AST',    extract: (p) => extract(p, 'drives', 'drive_ast'),     format: num },
+      { key: 'drive_fg_pct',  label: 'Drive FG%',    extract: (p) => extract(p, 'drives', 'drive_fg_pct'),  format: pct },
+      { key: 'drive_tov',     label: 'Drive TOV',    extract: (p) => extract(p, 'drives', 'drive_tov'),     format: num, lowerIsBetter: true },
+    ],
+  },
+  {
+    key: 'passing',
+    label: 'Passing',
+    hawksStats: [
+      { key: 'passes_made',         label: 'Passes Made',       extract: (p) => extract(p, 'passing', 'passes_made'),         format: num },
+      { key: 'passes_received',     label: 'Passes Received',   extract: (p) => extract(p, 'passing', 'passes_received'),     format: num },
+      { key: 'potential_ast',       label: 'Potential AST',     extract: (p) => extract(p, 'passing', 'potential_ast'),       format: num },
+      { key: 'ast_points_created',  label: 'AST Points Created', extract: (p) => extract(p, 'passing', 'ast_points_created'), format: num },
+    ],
+  },
+  {
+    key: 'touches',
+    label: 'Touches',
+    hawksStats: [
+      { key: 'touches',         label: 'Touches',         extract: (p) => extract(p, 'possessions', 'touches'),         format: num },
+      { key: 'pts_per_touch',   label: 'Pts per Touch',   extract: (p) => extract(p, 'possessions', 'pts_per_touch'),   format: num },
+      { key: 'elbow_touches',   label: 'Elbow Touches',   extract: (p) => extract(p, 'possessions', 'elbow_touches'),   format: num },
+      { key: 'post_touches',    label: 'Post Touches',    extract: (p) => extract(p, 'possessions', 'post_touches'),    format: num },
+      { key: 'paint_touches',   label: 'Paint Touches',   extract: (p) => extract(p, 'possessions', 'paint_touches'),   format: num },
+    ],
+  },
+]
+
+export default function PlaymakingPage({ playerData, season }) {
+  const [leagueData, setLeagueData] = useState(null)
+  const [error, setError] = useState(null)
+
+  useEffect(() => {
+    if (!season) return
+    setLeagueData(null)
+    setError(null)
+    fetch(`/league_playmaking_tracking-${season}.json`)
+      .then((r) => {
+        if (!r.ok) throw new Error(`HTTP ${r.status}`)
+        return r.json()
+      })
+      .then(setLeagueData)
+      .catch((e) => setError(e.message))
+  }, [season])
+
+  if (error) return <div className="advanced-placeholder"><p>Error loading playmaking data: {error}</p></div>
+  if (!leagueData || !playerData) return <div className="advanced-placeholder"><p>Loading…</p></div>
+
   return (
-    <div className="advanced-placeholder">
-      <h2>Playmaking</h2>
-      <p>Coming soon — playmaking scatter plots + Hawks/League leaderboards.</p>
-    </div>
+    <AdvancedPage
+      title="Playmaking"
+      subtitle="Drives, passing, touches and possessions"
+      hawksPlayers={playerData.players}
+      leagueData={leagueData}
+      scatterConfigs={SCATTER_CONFIGS}
+      toggleConfigs={TOGGLE_CONFIGS}
+      leagueMinMinutes={100}
+    />
   )
 }

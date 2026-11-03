@@ -55,15 +55,18 @@ export default function AdvancedPage({
   // thousands of values on every interaction.
   const scatterData = useMemo(() => {
     return scatterConfigs.map(cfg => {
-      // Player floor. Two kinds supported:
-      //   - minVolume: season-total count of the X-axis stat (e.g. "10 FGA").
-      //     Volume per game × games played = season total. Defaults to using
-      //     extractX; a config can override with extractVolume.
+      // Player floor. Three kinds supported, all additive (all must pass):
+      //   - minVolume: season-total count of a stat (e.g. "10 FGA all season").
+      //     Volume per game × games played = season total. Uses extractVolume
+      //     if set, else extractX.
       //   - minMinutes: season-total minutes played, read from p.min_total
       //     (added by the pipeline). Used on Defense where "100 minutes" is
       //     more meaningful than a per-stat shot count.
-      // A config can set either (or both — all floors must pass).
+      //   - minRate: per-game rate floor (e.g. "2.5 drives/game"). Doesn't
+      //     scale with games played — stays meaningful whether we're in
+      //     game 10 or game 60. Uses extractRate if set, else extractX.
       const volumeFn = cfg.extractVolume || cfg.extractX
+      const rateFn   = cfg.extractRate   || cfg.extractX
       const passesFloor = (p) => {
         if (cfg.minVolume != null) {
           const perGame = volumeFn(p)
@@ -74,6 +77,11 @@ export default function AdvancedPage({
         if (cfg.minMinutes != null) {
           const mins = p.min_total ?? 0
           if (mins < cfg.minMinutes) return false
+        }
+        if (cfg.minRate != null) {
+          const perGame = rateFn(p)
+          if (perGame == null) return false
+          if (perGame < cfg.minRate) return false
         }
         return true
       }

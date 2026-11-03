@@ -1,6 +1,6 @@
 {
   "season": "2025-26",
-  "generated_at": "2026-11-02T12:53:31.188130-05:00",
+  "generated_at": "2026-11-03T07:40:26.194831+00:00",
   "source_files": {
     "drives": "league_drives_2026-11-02.json",
     "passing": "league_passing_2026-11-02.json",
@@ -13,6 +13,7 @@
       "team": "TOR",
       "gp": 24,
       "mpg": 9.4,
+      "min_total": 226,
       "drives": {
         "drives": 1.1,
         "drive_fgm": 0.3,
@@ -46,6 +47,7 @@
       "team": "MIL",
       "gp": 78,
       "mpg": 29.1,
+      "min_total": 2270,
       "drives": {
         "drives": 2.8,
         "drive_fgm": 0.2,
@@ -79,6 +81,7 @@
       "team": "DAL",
       "gp": 48,
       "mpg": 9.4,
+      "min_total": 451,
       "drives": {
         "drives": 3.9,
         "drive_fgm": 0.7,
@@ -112,6 +115,7 @@
       "team": "DEN",
       "gp": 36,
       "mpg": 27.9,
+      "min_total": 1004,
       "drives": {
         "drives": 4.0,
         "drive_fgm": 0.8,
@@ -145,6 +149,7 @@
       "team": "HOU",
       "gp": 57,
       "mpg": 13.7,
+      "min_total": 781,
       "drives": {
         "drives": 3.1,
         "drive_fgm": 0.5,
@@ -178,6 +183,7 @@
       "team": "IND",
       "gp": 45,
       "mpg": 29.7,
+      "min_total": 1336,
       "drives": {
         "drives": 9.2,
         "drive_fgm": 1.9,
@@ -211,6 +217,7 @@
       "team": "OKC",
       "gp": 65,
       "mpg": 21.8,
+      "min_total": 1417,
       "drives": {
         "drives": 6.7,
         "drive_fgm": 1.2,
@@ -244,6 +251,7 @@
       "team": "UTA",
       "gp": 72,
       "mpg": 27.6,
+      "min_total": 1987,
       "drives": {
         "drives": 6.5,
         "drive_fgm": 1.4,
@@ -277,6 +285,7 @@
       "team": "MEM",
       "gp": 8,
       "mpg": 30.2,
+      "min_total": 242,
       "drives": {
         "drives": 4.3,
         "drive_fgm": 0.9,
@@ -310,6 +319,7 @@
       "team": "PHI",
       "gp": 71,
       "mpg": 17.4,
+      "min_total": 1235,
       "drives": {
         "drives": 0.6,
         "drive_fgm": 0.2,
@@ -343,6 +353,7 @@
       "team": "LAL",
       "gp": 25,
       "mpg": 6.0,
+      "min_total": 150,
       "drives": {
         "drives": 0.9,
         "drive_fgm": 0.2,
@@ -376,6 +387,7 @@
       "team": "OKC",
       "gp": 57,
       "mpg": 25.8,
+      "min_total": 1471,
       "drives": {
         "drives": 13.8,
         "drive_fgm": 2.9,
@@ -409,6 +421,7 @@
       "team": "GSW",
       "gp": 45,
       "mpg": 21.5,
+      "min_total": 968,
       "drives": {
         "drives": 1.6,
         "drive_fgm": 0.2,
@@ -442,6 +455,7 @@
       "team": "MIL",
       "gp": 6,
       "mpg": 3.4,
+      "min_total": 20,
       "drives": {
         "drives": 0.5,
         "drive_fgm": 0.0,
@@ -475,6 +489,7 @@
       "team": "OKC",
       "gp": 56,
       "mpg": 18.2,
+      "min_total": 1019,
       "drives": {
         "drives": 2.9,
         "drive_fgm": 0.4,
@@ -508,6 +523,7 @@
       "team": "ORL",
       "gp": 4,
       "mpg": 5.9,
+      "min_total": 24,
       "drives": {
         "drives": 2.3,
         "drive_fgm": 0.5,
@@ -541,6 +557,7 @@
       "team": "WAS",
       "gp": 48,
       "mpg": 27.2,
+      "min_total": 1306,
       "drives": {
         "drives": 6.0,
         "drive_fgm": 1.4,
@@ -574,6 +591,7 @@
       "team": "TOR",
       "gp": 23,
       "mpg": 6.3,
+      "min_total": 145,
       "drives": {
         "drives": 1.8,
         "drive_fgm": 0.3,
@@ -607,6 +625,7 @@
       "team": "WAS",
       "gp": 4,
       "mpg": 25.2,
+      "min_total": 101,
       "drives": {
         "drives": 3.8,
         "drive_fgm": 1.0,
@@ -640,6 +659,7 @@
       "team": "HOU",
       "gp": 72,
       "mpg": 33.3,
+      "min_total": 2398,
       "drives": {
         "drives": 12.4,
         "drive_fgm": 3.0,
@@ -673,6 +693,7 @@
       "team": "BOS",
       "gp": 22,
       "mpg": 6.6,
+      "min_total": 145,
       "drives": {
         "drives": 0.2,
         "drive_fgm": 0.0,
@@ -706,6 +727,7 @@
       "team": "HOU",
       "gp": 79,
       "mpg": 37.4,
+      "min_total": 2955,
       "drives": {
         "drives": 15.5,
         "drive_fgm": 2.8,
@@ -739,6 +761,7 @@
       "team": "PHX",
       "gp": 46,
       "mpg": 10.7,
+      "min_total": 492,
       "drives": {
         "drives": 1.7,
         "drive_fgm": 0.5,
@@ -772,6 +795,7 @@
       "team": "UTA",
       "gp": 5,
       "mpg": 33.8,
+      "min_total": 169,
       "drives": {
         "drives": 3.4,
         "drive_fgm": 0.4,
@@ -805,6 +829,7 @@
       "team": "PHI",
       "gp": 63,
       "mpg": 19.5,
+      "min_total": 1228,
       "drives": {
         "drives": 0.6,
         "drive_fgm": 0.0,
@@ -838,6 +863,7 @@
       "team": "MIL",
       "gp": 48,
       "mpg": 8.5,
+      "min_total": 408,
       "drives": {
         "drives": 2.0,
         "drive_fgm": 0.2,
@@ -871,6 +897,7 @@
       "team": "IND",
       "gp": 57,
       "mpg": 31.3,
+      "min_total": 1784,
       "drives": {
         "drives": 18.5,
         "drive_fgm": 3.1,
@@ -904,6 +931,7 @@
       "team": "MIA",
       "gp": 68,
       "mpg": 30.3,
+      "min_total": 2060,
       "drives": {
         "drives": 10.1,
         "drive_fgm": 1.9,
@@ -937,6 +965,7 @@
       "team": "CHI",
       "gp": 55,
       "mpg": 24.9,
+      "min_total": 1370,
       "drives": {
         "drives": 6.9,
         "drive_fgm": 2.0,
@@ -970,6 +999,7 @@
       "team": "ORL",
       "gp": 64,
       "mpg": 29.8,
+      "min_total": 1907,
       "drives": {
         "drives": 10.0,
         "drive_fgm": 2.1,
@@ -1003,6 +1033,7 @@
       "team": "WAS",
       "gp": 20,
       "mpg": 31.3,
+      "min_total": 626,
       "drives": {
         "drives": 5.8,
         "drive_fgm": 1.7,
@@ -1036,6 +1067,7 @@
       "team": "MIN",
       "gp": 61,
       "mpg": 35.0,
+      "min_total": 2135,
       "drives": {
         "drives": 14.5,
         "drive_fgm": 4.2,
@@ -1069,6 +1101,7 @@
       "team": "WAS",
       "gp": 55,
       "mpg": 17.3,
+      "min_total": 952,
       "drives": {
         "drives": 1.6,
         "drive_fgm": 0.6,
@@ -1102,6 +1135,7 @@
       "team": "CHA",
       "gp": 10,
       "mpg": 6.8,
+      "min_total": 68,
       "drives": {
         "drives": 1.3,
         "drive_fgm": 0.3,
@@ -1135,6 +1169,7 @@
       "team": "NYK",
       "gp": 54,
       "mpg": 9.2,
+      "min_total": 497,
       "drives": {
         "drives": 0.3,
         "drive_fgm": 0.1,
@@ -1168,6 +1203,7 @@
       "team": "ATL",
       "gp": 44,
       "mpg": 11.4,
+      "min_total": 502,
       "drives": {
         "drives": 1.6,
         "drive_fgm": 0.3,
@@ -1201,6 +1237,7 @@
       "team": "DET",
       "gp": 73,
       "mpg": 26.0,
+      "min_total": 1898,
       "drives": {
         "drives": 7.8,
         "drive_fgm": 1.4,
@@ -1234,6 +1271,7 @@
       "team": "LAL",
       "gp": 51,
       "mpg": 34.5,
+      "min_total": 1760,
       "drives": {
         "drives": 14.8,
         "drive_fgm": 3.8,
@@ -1267,6 +1305,7 @@
       "team": "MIN",
       "gp": 69,
       "mpg": 27.3,
+      "min_total": 1884,
       "drives": {
         "drives": 11.9,
         "drive_fgm": 2.8,
@@ -1300,6 +1339,7 @@
       "team": "MIA",
       "gp": 73,
       "mpg": 32.4,
+      "min_total": 2365,
       "drives": {
         "drives": 9.5,
         "drive_fgm": 2.1,
@@ -1333,6 +1373,7 @@
       "team": "BOS",
       "gp": 77,
       "mpg": 18.6,
+      "min_total": 1432,
       "drives": {
         "drives": 2.5,
         "drive_fgm": 0.4,
@@ -1366,6 +1407,7 @@
       "team": "BKN",
       "gp": 44,
       "mpg": 20.8,
+      "min_total": 915,
       "drives": {
         "drives": 11.3,
         "drive_fgm": 1.7,
@@ -1399,6 +1441,7 @@
       "team": "IND",
       "gp": 65,
       "mpg": 21.4,
+      "min_total": 1391,
       "drives": {
         "drives": 3.3,
         "drive_fgm": 0.7,
@@ -1432,6 +1475,7 @@
       "team": "LAC",
       "gp": 54,
       "mpg": 30.0,
+      "min_total": 1620,
       "drives": {
         "drives": 10.6,
         "drive_fgm": 1.8,
@@ -1465,6 +1509,7 @@
       "team": "UTA",
       "gp": 15,
       "mpg": 32.8,
+      "min_total": 492,
       "drives": {
         "drives": 7.1,
         "drive_fgm": 1.6,
@@ -1498,6 +1543,7 @@
       "team": "WAS",
       "gp": 56,
       "mpg": 26.2,
+      "min_total": 1467,
       "drives": {
         "drives": 7.1,
         "drive_fgm": 1.1,
@@ -1531,6 +1577,7 @@
       "team": "SAS",
       "gp": 25,
       "mpg": 5.7,
+      "min_total": 142,
       "drives": {
         "drives": 0.0,
         "drive_fgm": 0.0,
@@ -1564,6 +1611,7 @@
       "team": "UTA",
       "gp": 14,
       "mpg": 20.4,
+      "min_total": 286,
       "drives": {
         "drives": 2.6,
         "drive_fgm": 0.9,
@@ -1597,6 +1645,7 @@
       "team": "POR",
       "gp": 31,
       "mpg": 11.6,
+      "min_total": 360,
       "drives": {
         "drives": 7.1,
         "drive_fgm": 1.0,
@@ -1630,6 +1679,7 @@
       "team": "MIL",
       "gp": 67,
       "mpg": 24.2,
+      "min_total": 1621,
       "drives": {
         "drives": 3.0,
         "drive_fgm": 0.7,
@@ -1663,6 +1713,7 @@
       "team": "DET",
       "gp": 12,
       "mpg": 5.9,
+      "min_total": 71,
       "drives": {
         "drives": 1.0,
         "drive_fgm": 0.1,
@@ -1696,6 +1747,7 @@
       "team": "LAC",
       "gp": 23,
       "mpg": 19.7,
+      "min_total": 453,
       "drives": {
         "drives": 5.3,
         "drive_fgm": 0.8,
@@ -1729,6 +1781,7 @@
       "team": "MIN",
       "gp": 71,
       "mpg": 16.6,
+      "min_total": 1179,
       "drives": {
         "drives": 4.5,
         "drive_fgm": 1.0,
@@ -1762,6 +1815,7 @@
       "team": "LAC",
       "gp": 6,
       "mpg": 20.2,
+      "min_total": 121,
       "drives": {
         "drives": 4.5,
         "drive_fgm": 0.7,
@@ -1795,6 +1849,7 @@
       "team": "OKC",
       "gp": 42,
       "mpg": 11.6,
+      "min_total": 487,
       "drives": {
         "drives": 0.5,
         "drive_fgm": 0.1,
@@ -1828,6 +1883,7 @@
       "team": "GSW",
       "gp": 82,
       "mpg": 28.4,
+      "min_total": 2329,
       "drives": {
         "drives": 11.5,
         "drive_fgm": 1.9,
@@ -1861,6 +1917,7 @@
       "team": "MEM",
       "gp": 2,
       "mpg": 10.2,
+      "min_total": 20,
       "drives": {
         "drives": 3.0,
         "drive_fgm": 0.0,
@@ -1894,6 +1951,7 @@
       "team": "TOR",
       "gp": 77,
       "mpg": 33.8,
+      "min_total": 2603,
       "drives": {
         "drives": 14.9,
         "drive_fgm": 3.7,
@@ -1927,6 +1985,7 @@
       "team": "CHA",
       "gp": 65,
       "mpg": 30.3,
+      "min_total": 1970,
       "drives": {
         "drives": 10.9,
         "drive_fgm": 2.4,
@@ -1960,6 +2019,7 @@
       "team": "DAL",
       "gp": 66,
       "mpg": 22.2,
+      "min_total": 1465,
       "drives": {
         "drives": 14.6,
         "drive_fgm": 2.9,
@@ -1993,6 +2053,7 @@
       "team": "UTA",
       "gp": 74,
       "mpg": 23.8,
+      "min_total": 1761,
       "drives": {
         "drives": 8.4,
         "drive_fgm": 2.1,
@@ -2026,6 +2087,7 @@
       "team": "LAL",
       "gp": 42,
       "mpg": 8.9,
+      "min_total": 374,
       "drives": {
         "drives": 2.1,
         "drive_fgm": 0.3,
@@ -2059,6 +2121,7 @@
       "team": "LAC",
       "gp": 75,
       "mpg": 21.8,
+      "min_total": 1635,
       "drives": {
         "drives": 1.7,
         "drive_fgm": 0.4,
@@ -2092,6 +2155,7 @@
       "team": "OKC",
       "gp": 40,
       "mpg": 8.7,
+      "min_total": 348,
       "drives": {
         "drives": 1.4,
         "drive_fgm": 0.2,
@@ -2125,6 +2189,7 @@
       "team": "DEN",
       "gp": 82,
       "mpg": 24.4,
+      "min_total": 2001,
       "drives": {
         "drives": 4.7,
         "drive_fgm": 0.9,
@@ -2158,6 +2223,7 @@
       "team": "NOP",
       "gp": 42,
       "mpg": 21.0,
+      "min_total": 882,
       "drives": {
         "drives": 4.3,
         "drive_fgm": 1.0,
@@ -2191,6 +2257,7 @@
       "team": "WAS",
       "gp": 82,
       "mpg": 27.7,
+      "min_total": 2271,
       "drives": {
         "drives": 6.2,
         "drive_fgm": 1.1,
@@ -2224,6 +2291,7 @@
       "team": "OKC",
       "gp": 4,
       "mpg": 3.8,
+      "min_total": 15,
       "drives": {
         "drives": 0.0,
         "drive_fgm": 0.0,
@@ -2257,6 +2325,7 @@
       "team": "ATL",
       "gp": 51,
       "mpg": 16.1,
+      "min_total": 821,
       "drives": {
         "drives": 2.7,
         "drive_fgm": 0.6,
@@ -2290,6 +2359,7 @@
       "team": "PHX",
       "gp": 4,
       "mpg": 10.1,
+      "min_total": 40,
       "drives": {
         "drives": 0.5,
         "drive_fgm": 0.0,
@@ -2323,6 +2393,7 @@
       "team": "ATL",
       "gp": 76,
       "mpg": 29.8,
+      "min_total": 2265,
       "drives": {
         "drives": 14.1,
         "drive_fgm": 3.4,
@@ -2356,6 +2427,7 @@
       "team": "DET",
       "gp": 64,
       "mpg": 33.9,
+      "min_total": 2170,
       "drives": {
         "drives": 22.2,
         "drive_fgm": 4.8,
@@ -2389,6 +2461,7 @@
       "team": "ATL",
       "gp": 18,
       "mpg": 4.2,
+      "min_total": 76,
       "drives": {
         "drives": 0.6,
         "drive_fgm": 0.1,
@@ -2422,6 +2495,7 @@
       "team": "POR",
       "gp": 49,
       "mpg": 20.7,
+      "min_total": 1014,
       "drives": {
         "drives": 7.8,
         "drive_fgm": 1.4,
@@ -2455,6 +2529,7 @@
       "team": "DAL",
       "gp": 58,
       "mpg": 14.8,
+      "min_total": 858,
       "drives": {
         "drives": 3.4,
         "drive_fgm": 0.6,
@@ -2488,6 +2563,7 @@
       "team": "LAC",
       "gp": 55,
       "mpg": 8.7,
+      "min_total": 478,
       "drives": {
         "drives": 2.1,
         "drive_fgm": 0.4,
@@ -2521,6 +2597,7 @@
       "team": "MEM",
       "gp": 72,
       "mpg": 23.8,
+      "min_total": 1714,
       "drives": {
         "drives": 8.6,
         "drive_fgm": 1.1,
@@ -2554,6 +2631,7 @@
       "team": "MIL",
       "gp": 42,
       "mpg": 21.0,
+      "min_total": 882,
       "drives": {
         "drives": 10.9,
         "drive_fgm": 2.4,
@@ -2587,6 +2665,7 @@
       "team": "WAS",
       "gp": 21,
       "mpg": 16.9,
+      "min_total": 355,
       "drives": {
         "drives": 3.7,
         "drive_fgm": 1.1,
@@ -2620,6 +2699,7 @@
       "team": "DEN",
       "gp": 54,
       "mpg": 30.5,
+      "min_total": 1647,
       "drives": {
         "drives": 6.3,
         "drive_fgm": 0.9,
@@ -2653,6 +2733,7 @@
       "team": "PHI",
       "gp": 22,
       "mpg": 17.0,
+      "min_total": 374,
       "drives": {
         "drives": 4.5,
         "drive_fgm": 0.9,
@@ -2686,6 +2767,7 @@
       "team": "DET",
       "gp": 60,
       "mpg": 19.2,
+      "min_total": 1152,
       "drives": {
         "drives": 7.2,
         "drive_fgm": 1.1,
@@ -2719,6 +2801,7 @@
       "team": "SAS",
       "gp": 71,
       "mpg": 11.5,
+      "min_total": 816,
       "drives": {
         "drives": 1.5,
         "drive_fgm": 0.2,
@@ -2752,6 +2835,7 @@
       "team": "OKC",
       "gp": 77,
       "mpg": 26.6,
+      "min_total": 2048,
       "drives": {
         "drives": 7.3,
         "drive_fgm": 1.0,
@@ -2785,6 +2869,7 @@
       "team": "MEM",
       "gp": 62,
       "mpg": 25.8,
+      "min_total": 1600,
       "drives": {
         "drives": 7.3,
         "drive_fgm": 1.7,
@@ -2818,6 +2903,7 @@
       "team": "BKN",
       "gp": 17,
       "mpg": 20.4,
+      "min_total": 347,
       "drives": {
         "drives": 3.2,
         "drive_fgm": 1.1,
@@ -2851,6 +2937,7 @@
       "team": "GSW",
       "gp": 13,
       "mpg": 11.7,
+      "min_total": 152,
       "drives": {
         "drives": 0.3,
         "drive_fgm": 0.0,
@@ -2884,6 +2971,7 @@
       "team": "DET",
       "gp": 34,
       "mpg": 7.7,
+      "min_total": 262,
       "drives": {
         "drives": 0.6,
         "drive_fgm": 0.2,
@@ -2917,6 +3005,7 @@
       "team": "OKC",
       "gp": 69,
       "mpg": 28.9,
+      "min_total": 1994,
       "drives": {
         "drives": 6.4,
         "drive_fgm": 1.4,
@@ -2950,6 +3039,7 @@
       "team": "BOS",
       "gp": 9,
       "mpg": 10.5,
+      "min_total": 94,
       "drives": {
         "drives": 0.2,
         "drive_fgm": 0.0,
@@ -2983,6 +3073,7 @@
       "team": "CLE",
       "gp": 3,
       "mpg": 5.8,
+      "min_total": 17,
       "drives": {
         "drives": 1.7,
         "drive_fgm": 1.3,
@@ -3016,6 +3107,7 @@
       "team": "LAL",
       "gp": 9,
       "mpg": 5.1,
+      "min_total": 46,
       "drives": {
         "drives": 0.9,
         "drive_fgm": 0.0,
@@ -3049,6 +3141,7 @@
       "team": "LAC",
       "gp": 16,
       "mpg": 14.2,
+      "min_total": 227,
       "drives": {
         "drives": 3.0,
         "drive_fgm": 0.4,
@@ -3082,6 +3175,7 @@
       "team": "POR",
       "gp": 34,
       "mpg": 5.4,
+      "min_total": 184,
       "drives": {
         "drives": 0.4,
         "drive_fgm": 0.0,
@@ -3115,6 +3209,7 @@
       "team": "DEN",
       "gp": 44,
       "mpg": 31.8,
+      "min_total": 1399,
       "drives": {
         "drives": 4.5,
         "drive_fgm": 0.9,
@@ -3148,6 +3243,7 @@
       "team": "ATL",
       "gp": 27,
       "mpg": 13.2,
+      "min_total": 356,
       "drives": {
         "drives": 0.0,
         "drive_fgm": 0.0,
@@ -3181,6 +3277,7 @@
       "team": "TOR",
       "gp": 2,
       "mpg": 6.6,
+      "min_total": 13,
       "drives": {
         "drives": 1.5,
         "drive_fgm": 0.0,
@@ -3214,6 +3311,7 @@
       "team": "HOU",
       "gp": 75,
       "mpg": 12.3,
+      "min_total": 922,
       "drives": {
         "drives": 0.5,
         "drive_fgm": 0.0,
@@ -3247,6 +3345,7 @@
       "team": "CHA",
       "gp": 50,
       "mpg": 25.0,
+      "min_total": 1250,
       "drives": {
         "drives": 14.6,
         "drive_fgm": 2.6,
@@ -3280,6 +3379,7 @@
       "team": "IND",
       "gp": 4,
       "mpg": 13.8,
+      "min_total": 55,
       "drives": {
         "drives": 2.0,
         "drive_fgm": 0.3,
@@ -3313,6 +3413,7 @@
       "team": "UTA",
       "gp": 67,
       "mpg": 24.3,
+      "min_total": 1628,
       "drives": {
         "drives": 5.6,
         "drive_fgm": 1.2,
@@ -3346,6 +3447,7 @@
       "team": "DET",
       "gp": 1,
       "mpg": 6.8,
+      "min_total": 7,
       "drives": {
         "drives": 2.0,
         "drive_fgm": 1.0,
@@ -3379,6 +3481,7 @@
       "team": "MIL",
       "gp": 35,
       "mpg": 15.0,
+      "min_total": 525,
       "drives": {
         "drives": 10.1,
         "drive_fgm": 1.8,
@@ -3412,6 +3515,7 @@
       "team": "ORL",
       "gp": 4,
       "mpg": 5.3,
+      "min_total": 21,
       "drives": {
         "drives": 0.3,
         "drive_fgm": 0.0,
@@ -3445,6 +3549,7 @@
       "team": "PHX",
       "gp": 80,
       "mpg": 28.5,
+      "min_total": 2280,
       "drives": {
         "drives": 8.4,
         "drive_fgm": 1.1,
@@ -3478,6 +3583,7 @@
       "team": "TOR",
       "gp": 57,
       "mpg": 21.9,
+      "min_total": 1248,
       "drives": {
         "drives": 2.2,
         "drive_fgm": 0.6,
@@ -3511,6 +3617,7 @@
       "team": "CHI",
       "gp": 68,
       "mpg": 23.7,
+      "min_total": 1612,
       "drives": {
         "drives": 12.9,
         "drive_fgm": 2.9,
@@ -3544,6 +3651,7 @@
       "team": "DAL",
       "gp": 70,
       "mpg": 33.5,
+      "min_total": 2345,
       "drives": {
         "drives": 17.2,
         "drive_fgm": 4.4,
@@ -3577,6 +3685,7 @@
       "team": "ATL",
       "gp": 58,
       "mpg": 18.6,
+      "min_total": 1079,
       "drives": {
         "drives": 4.1,
         "drive_fgm": 0.9,
@@ -3610,6 +3719,7 @@
       "team": "MIL",
       "gp": 11,
       "mpg": 24.6,
+      "min_total": 271,
       "drives": {
         "drives": 5.6,
         "drive_fgm": 1.4,
@@ -3643,6 +3753,7 @@
       "team": "CLE",
       "gp": 64,
       "mpg": 17.9,
+      "min_total": 1146,
       "drives": {
         "drives": 5.8,
         "drive_fgm": 0.8,
@@ -3676,6 +3787,7 @@
       "team": "DEN",
       "gp": 10,
       "mpg": 8.8,
+      "min_total": 88,
       "drives": {
         "drives": 2.0,
         "drive_fgm": 0.4,
@@ -3709,6 +3821,7 @@
       "team": "WAS",
       "gp": 26,
       "mpg": 19.0,
+      "min_total": 494,
       "drives": {
         "drives": 8.0,
         "drive_fgm": 1.8,
@@ -3742,6 +3855,7 @@
       "team": "SAC",
       "gp": 3,
       "mpg": 20.0,
+      "min_total": 60,
       "drives": {
         "drives": 3.3,
         "drive_fgm": 1.7,
@@ -3775,6 +3889,7 @@
       "team": "DEN",
       "gp": 25,
       "mpg": 8.4,
+      "min_total": 210,
       "drives": {
         "drives": 0.8,
         "drive_fgm": 0.2,
@@ -3808,6 +3923,7 @@
       "team": "SAC",
       "gp": 32,
       "mpg": 26.4,
+      "min_total": 845,
       "drives": {
         "drives": 3.0,
         "drive_fgm": 0.6,
@@ -3841,6 +3957,7 @@
       "team": "BOS",
       "gp": 6,
       "mpg": 10.3,
+      "min_total": 62,
       "drives": {
         "drives": 5.8,
         "drive_fgm": 0.5,
@@ -3874,6 +3991,7 @@
       "team": "PHI",
       "gp": 48,
       "mpg": 11.5,
+      "min_total": 552,
       "drives": {
         "drives": 4.2,
         "drive_fgm": 0.6,
@@ -3907,6 +4025,7 @@
       "team": "LAL",
       "gp": 54,
       "mpg": 10.2,
+      "min_total": 551,
       "drives": {
         "drives": 1.8,
         "drive_fgm": 0.5,
@@ -3940,6 +4059,7 @@
       "team": "DAL",
       "gp": 55,
       "mpg": 21.7,
+      "min_total": 1194,
       "drives": {
         "drives": 1.0,
         "drive_fgm": 0.3,
@@ -3973,6 +4093,7 @@
       "team": "DET",
       "gp": 72,
       "mpg": 20.2,
+      "min_total": 1454,
       "drives": {
         "drives": 10.6,
         "drive_fgm": 1.5,
@@ -4006,6 +4127,7 @@
       "team": "BKN",
       "gp": 57,
       "mpg": 20.8,
+      "min_total": 1186,
       "drives": {
         "drives": 5.4,
         "drive_fgm": 1.1,
@@ -4039,6 +4161,7 @@
       "team": "SAC",
       "gp": 5,
       "mpg": 8.3,
+      "min_total": 42,
       "drives": {
         "drives": 0.0,
         "drive_fgm": 0.0,
@@ -4072,6 +4195,7 @@
       "team": "MEM",
       "gp": 6,
       "mpg": 30.5,
+      "min_total": 183,
       "drives": {
         "drives": 4.7,
         "drive_fgm": 1.5,
@@ -4105,6 +4229,7 @@
       "team": "CLE",
       "gp": 1,
       "mpg": 2.7,
+      "min_total": 3,
       "drives": {
         "drives": 2.0,
         "drive_fgm": 0.0,
@@ -4138,6 +4263,7 @@
       "team": "LAC",
       "gp": 45,
       "mpg": 29.9,
+      "min_total": 1346,
       "drives": {
         "drives": 18.0,
         "drive_fgm": 3.3,
@@ -4171,6 +4297,7 @@
       "team": "SAS",
       "gp": 11,
       "mpg": 6.2,
+      "min_total": 68,
       "drives": {
         "drives": 3.1,
         "drive_fgm": 0.6,
@@ -4204,6 +4331,7 @@
       "team": "DEN",
       "gp": 5,
       "mpg": 14.6,
+      "min_total": 73,
       "drives": {
         "drives": 2.8,
         "drive_fgm": 0.4,
@@ -4237,6 +4365,7 @@
       "team": "MIA",
       "gp": 70,
       "mpg": 28.6,
+      "min_total": 2002,
       "drives": {
         "drives": 12.5,
         "drive_fgm": 2.0,
@@ -4270,6 +4399,7 @@
       "team": "BKN",
       "gp": 62,
       "mpg": 18.7,
+      "min_total": 1159,
       "drives": {
         "drives": 1.5,
         "drive_fgm": 0.3,
@@ -4303,6 +4433,7 @@
       "team": "SAS",
       "gp": 72,
       "mpg": 31.0,
+      "min_total": 2232,
       "drives": {
         "drives": 16.5,
         "drive_fgm": 3.8,
@@ -4336,6 +4467,7 @@
       "team": "SAC",
       "gp": 45,
       "mpg": 26.1,
+      "min_total": 1174,
       "drives": {
         "drives": 7.8,
         "drive_fgm": 1.6,
@@ -4369,6 +4501,7 @@
       "team": "GSW",
       "gp": 49,
       "mpg": 23.0,
+      "min_total": 1127,
       "drives": {
         "drives": 10.4,
         "drive_fgm": 1.9,
@@ -4402,6 +4535,7 @@
       "team": "NOP",
       "gp": 12,
       "mpg": 16.6,
+      "min_total": 199,
       "drives": {
         "drives": 0.1,
         "drive_fgm": 0.0,
@@ -4435,6 +4569,7 @@
       "team": "MEM",
       "gp": 11,
       "mpg": 21.0,
+      "min_total": 231,
       "drives": {
         "drives": 9.0,
         "drive_fgm": 1.7,
@@ -4468,6 +4603,7 @@
       "team": "SAC",
       "gp": 77,
       "mpg": 31.2,
+      "min_total": 2402,
       "drives": {
         "drives": 13.2,
         "drive_fgm": 2.8,
@@ -4501,6 +4637,7 @@
       "team": "CLE",
       "gp": 59,
       "mpg": 22.3,
+      "min_total": 1316,
       "drives": {
         "drives": 2.1,
         "drive_fgm": 0.2,
@@ -4534,6 +4671,7 @@
       "team": "LAL",
       "gp": 72,
       "mpg": 27.2,
+      "min_total": 1958,
       "drives": {
         "drives": 1.1,
         "drive_fgm": 0.3,
@@ -4567,6 +4705,7 @@
       "team": "NOP",
       "gp": 14,
       "mpg": 27.8,
+      "min_total": 389,
       "drives": {
         "drives": 15.0,
         "drive_fgm": 3.3,
@@ -4600,6 +4739,7 @@
       "team": "POR",
       "gp": 66,
       "mpg": 33.3,
+      "min_total": 2198,
       "drives": {
         "drives": 27.8,
         "drive_fgm": 4.2,
@@ -4633,6 +4773,7 @@
       "team": "CLE",
       "gp": 70,
       "mpg": 24.2,
+      "min_total": 1694,
       "drives": {
         "drives": 13.0,
         "drive_fgm": 2.2,
@@ -4666,6 +4807,7 @@
       "team": "DAL",
       "gp": 7,
       "mpg": 16.5,
+      "min_total": 116,
       "drives": {
         "drives": 0.1,
         "drive_fgm": 0.0,
@@ -4699,6 +4841,7 @@
       "team": "NOP",
       "gp": 81,
       "mpg": 25.0,
+      "min_total": 2025,
       "drives": {
         "drives": 6.7,
         "drive_fgm": 1.7,
@@ -4732,6 +4875,7 @@
       "team": "LAC",
       "gp": 50,
       "mpg": 27.0,
+      "min_total": 1350,
       "drives": {
         "drives": 3.3,
         "drive_fgm": 0.8,
@@ -4765,6 +4909,7 @@
       "team": "BOS",
       "gp": 77,
       "mpg": 34.1,
+      "min_total": 2626,
       "drives": {
         "drives": 10.1,
         "drive_fgm": 2.4,
@@ -4798,6 +4943,7 @@
       "team": "ORL",
       "gp": 82,
       "mpg": 33.6,
+      "min_total": 2755,
       "drives": {
         "drives": 15.0,
         "drive_fgm": 3.6,
@@ -4831,6 +4977,7 @@
       "team": "PHX",
       "gp": 64,
       "mpg": 33.5,
+      "min_total": 2144,
       "drives": {
         "drives": 22.5,
         "drive_fgm": 4.9,
@@ -4864,6 +5011,7 @@
       "team": "SAC",
       "gp": 38,
       "mpg": 18.4,
+      "min_total": 699,
       "drives": {
         "drives": 8.8,
         "drive_fgm": 1.4,
@@ -4897,6 +5045,7 @@
       "team": "SAS",
       "gp": 67,
       "mpg": 30.5,
+      "min_total": 2044,
       "drives": {
         "drives": 6.3,
         "drive_fgm": 1.3,
@@ -4930,6 +5079,7 @@
       "team": "PHX",
       "gp": 56,
       "mpg": 30.4,
+      "min_total": 1702,
       "drives": {
         "drives": 11.2,
         "drive_fgm": 3.6,
@@ -4963,6 +5113,7 @@
       "team": "NYK",
       "gp": 7,
       "mpg": 5.6,
+      "min_total": 39,
       "drives": {
         "drives": 1.1,
         "drive_fgm": 0.0,
@@ -4996,6 +5147,7 @@
       "team": "SAC",
       "gp": 19,
       "mpg": 29.7,
+      "min_total": 564,
       "drives": {
         "drives": 2.8,
         "drive_fgm": 0.2,
@@ -5029,6 +5181,7 @@
       "team": "PHI",
       "gp": 71,
       "mpg": 23.8,
+      "min_total": 1690,
       "drives": {
         "drives": 3.0,
         "drive_fgm": 0.7,
@@ -5062,6 +5215,7 @@
       "team": "POR",
       "gp": 77,
       "mpg": 27.2,
+      "min_total": 2094,
       "drives": {
         "drives": 0.7,
         "drive_fgm": 0.1,
@@ -5095,6 +5249,7 @@
       "team": "CLE",
       "gp": 70,
       "mpg": 33.5,
+      "min_total": 2345,
       "drives": {
         "drives": 18.5,
         "drive_fgm": 4.7,
@@ -5128,6 +5283,7 @@
       "team": "MIN",
       "gp": 82,
       "mpg": 30.4,
+      "min_total": 2493,
       "drives": {
         "drives": 5.2,
         "drive_fgm": 0.7,
@@ -5161,6 +5317,7 @@
       "team": "HOU",
       "gp": 37,
       "mpg": 16.8,
+      "min_total": 622,
       "drives": {
         "drives": 1.0,
         "drive_fgm": 0.1,
@@ -5194,6 +5351,7 @@
       "team": "SAC",
       "gp": 29,
       "mpg": 15.1,
+      "min_total": 438,
       "drives": {
         "drives": 1.4,
         "drive_fgm": 0.1,
@@ -5227,6 +5385,7 @@
       "team": "BKN",
       "gp": 63,
       "mpg": 20.9,
+      "min_total": 1317,
       "drives": {
         "drives": 5.2,
         "drive_fgm": 1.0,
@@ -5260,6 +5419,7 @@
       "team": "GSW",
       "gp": 68,
       "mpg": 27.5,
+      "min_total": 1870,
       "drives": {
         "drives": 3.9,
         "drive_fgm": 0.6,
@@ -5293,6 +5453,7 @@
       "team": "SAC",
       "gp": 42,
       "mpg": 13.1,
+      "min_total": 550,
       "drives": {
         "drives": 0.7,
         "drive_fgm": 0.2,
@@ -5326,6 +5487,7 @@
       "team": "CHA",
       "gp": 6,
       "mpg": 10.7,
+      "min_total": 64,
       "drives": {
         "drives": 1.2,
         "drive_fgm": 0.2,
@@ -5359,6 +5521,7 @@
       "team": "LAL",
       "gp": 27,
       "mpg": 8.7,
+      "min_total": 235,
       "drives": {
         "drives": 1.0,
         "drive_fgm": 0.3,
@@ -5392,6 +5555,7 @@
       "team": "MIA",
       "gp": 70,
       "mpg": 16.3,
+      "min_total": 1141,
       "drives": {
         "drives": 4.3,
         "drive_fgm": 0.8,
@@ -5425,6 +5589,7 @@
       "team": "DET",
       "gp": 77,
       "mpg": 27.4,
+      "min_total": 2110,
       "drives": {
         "drives": 3.9,
         "drive_fgm": 0.8,
@@ -5458,6 +5623,7 @@
       "team": "POR",
       "gp": 32,
       "mpg": 8.1,
+      "min_total": 259,
       "drives": {
         "drives": 0.7,
         "drive_fgm": 0.1,
@@ -5491,6 +5657,7 @@
       "team": "DAL",
       "gp": 63,
       "mpg": 14.4,
+      "min_total": 907,
       "drives": {
         "drives": 0.5,
         "drive_fgm": 0.1,
@@ -5524,6 +5691,7 @@
       "team": "SAC",
       "gp": 44,
       "mpg": 20.6,
+      "min_total": 906,
       "drives": {
         "drives": 0.4,
         "drive_fgm": 0.0,
@@ -5557,6 +5725,7 @@
       "team": "SAS",
       "gp": 69,
       "mpg": 22.6,
+      "min_total": 1559,
       "drives": {
         "drives": 11.7,
         "drive_fgm": 2.7,
@@ -5590,6 +5759,7 @@
       "team": "ATL",
       "gp": 76,
       "mpg": 33.2,
+      "min_total": 2523,
       "drives": {
         "drives": 13.4,
         "drive_fgm": 2.3,
@@ -5623,6 +5793,7 @@
       "team": "BKN",
       "gp": 26,
       "mpg": 13.4,
+      "min_total": 348,
       "drives": {
         "drives": 2.0,
         "drive_fgm": 0.5,
@@ -5656,6 +5827,7 @@
       "team": "BKN",
       "gp": 52,
       "mpg": 25.2,
+      "min_total": 1310,
       "drives": {
         "drives": 5.4,
         "drive_fgm": 0.7,
@@ -5689,6 +5861,7 @@
       "team": "UTA",
       "gp": 26,
       "mpg": 21.0,
+      "min_total": 546,
       "drives": {
         "drives": 6.3,
         "drive_fgm": 0.9,
@@ -5722,6 +5895,7 @@
       "team": "SAS",
       "gp": 5,
       "mpg": 6.6,
+      "min_total": 33,
       "drives": {
         "drives": 1.0,
         "drive_fgm": 0.2,
@@ -5755,6 +5929,7 @@
       "team": "MIN",
       "gp": 4,
       "mpg": 9.3,
+      "min_total": 37,
       "drives": {
         "drives": 0.0,
         "drive_fgm": 0.0,
@@ -5788,6 +5963,7 @@
       "team": "PHI",
       "gp": 6,
       "mpg": 12.3,
+      "min_total": 74,
       "drives": {
         "drives": 2.3,
         "drive_fgm": 0.7,
@@ -5821,6 +5997,7 @@
       "team": "IND",
       "gp": 32,
       "mpg": 20.4,
+      "min_total": 653,
       "drives": {
         "drives": 4.7,
         "drive_fgm": 0.6,
@@ -5854,6 +6031,7 @@
       "team": "CLE",
       "gp": 65,
       "mpg": 31.9,
+      "min_total": 2074,
       "drives": {
         "drives": 9.0,
         "drive_fgm": 1.9,
@@ -5887,6 +6065,7 @@
       "team": "ORL",
       "gp": 34,
       "mpg": 30.0,
+      "min_total": 1020,
       "drives": {
         "drives": 13.4,
         "drive_fgm": 3.4,
@@ -5920,6 +6099,7 @@
       "team": "MEM",
       "gp": 55,
       "mpg": 21.4,
+      "min_total": 1177,
       "drives": {
         "drives": 7.7,
         "drive_fgm": 2.2,
@@ -5953,6 +6133,7 @@
       "team": "ATL",
       "gp": 53,
       "mpg": 16.6,
+      "min_total": 880,
       "drives": {
         "drives": 2.2,
         "drive_fgm": 0.2,
@@ -5986,6 +6167,7 @@
       "team": "TOR",
       "gp": 22,
       "mpg": 3.3,
+      "min_total": 73,
       "drives": {
         "drives": 0.4,
         "drive_fgm": 0.1,
@@ -6019,6 +6201,7 @@
       "team": "IND",
       "gp": 15,
       "mpg": 13.1,
+      "min_total": 196,
       "drives": {
         "drives": 1.2,
         "drive_fgm": 0.2,
@@ -6052,6 +6235,7 @@
       "team": "MIL",
       "gp": 48,
       "mpg": 13.8,
+      "min_total": 662,
       "drives": {
         "drives": 1.4,
         "drive_fgm": 0.2,
@@ -6085,6 +6269,7 @@
       "team": "GSW",
       "gp": 73,
       "mpg": 15.6,
+      "min_total": 1139,
       "drives": {
         "drives": 1.6,
         "drive_fgm": 0.4,
@@ -6118,6 +6303,7 @@
       "team": "MIL",
       "gp": 65,
       "mpg": 21.2,
+      "min_total": 1378,
       "drives": {
         "drives": 2.2,
         "drive_fgm": 0.6,
@@ -6151,6 +6337,7 @@
       "team": "MIL",
       "gp": 36,
       "mpg": 28.9,
+      "min_total": 1040,
       "drives": {
         "drives": 14.9,
         "drive_fgm": 3.5,
@@ -6184,6 +6371,7 @@
       "team": "ORL",
       "gp": 64,
       "mpg": 15.2,
+      "min_total": 973,
       "drives": {
         "drives": 0.3,
         "drive_fgm": 0.0,
@@ -6217,6 +6405,7 @@
       "team": "TOR",
       "gp": 76,
       "mpg": 14.0,
+      "min_total": 1064,
       "drives": {
         "drives": 2.9,
         "drive_fgm": 0.5,
@@ -6250,6 +6439,7 @@
       "team": "BKN",
       "gp": 4,
       "mpg": 8.8,
+      "min_total": 35,
       "drives": {
         "drives": 0.5,
         "drive_fgm": 0.3,
@@ -6283,6 +6473,7 @@
       "team": "CHA",
       "gp": 36,
       "mpg": 19.8,
+      "min_total": 713,
       "drives": {
         "drives": 1.6,
         "drive_fgm": 0.2,
@@ -6316,6 +6507,7 @@
       "team": "PHX",
       "gp": 51,
       "mpg": 28.8,
+      "min_total": 1469,
       "drives": {
         "drives": 12.0,
         "drive_fgm": 1.5,
@@ -6349,6 +6541,7 @@
       "team": "CHI",
       "gp": 67,
       "mpg": 15.0,
+      "min_total": 1005,
       "drives": {
         "drives": 1.7,
         "drive_fgm": 0.3,
@@ -6382,6 +6575,7 @@
       "team": "GSW",
       "gp": 68,
       "mpg": 20.5,
+      "min_total": 1394,
       "drives": {
         "drives": 5.4,
         "drive_fgm": 0.9,
@@ -6415,6 +6609,7 @@
       "team": "SAS",
       "gp": 77,
       "mpg": 25.8,
+      "min_total": 1987,
       "drives": {
         "drives": 4.2,
         "drive_fgm": 1.2,
@@ -6448,6 +6643,7 @@
       "team": "SAS",
       "gp": 7,
       "mpg": 3.7,
+      "min_total": 26,
       "drives": {
         "drives": 1.3,
         "drive_fgm": 0.3,
@@ -6481,6 +6677,7 @@
       "team": "UTA",
       "gp": 1,
       "mpg": 24.8,
+      "min_total": 25,
       "drives": {
         "drives": 5.0,
         "drive_fgm": 1.0,
@@ -6514,6 +6711,7 @@
       "team": "PHX",
       "gp": 7,
       "mpg": 13.0,
+      "min_total": 91,
       "drives": {
         "drives": 1.3,
         "drive_fgm": 0.4,
@@ -6547,6 +6745,7 @@
       "team": "NOP",
       "gp": 56,
       "mpg": 28.4,
+      "min_total": 1590,
       "drives": {
         "drives": 5.8,
         "drive_fgm": 1.2,
@@ -6580,6 +6779,7 @@
       "team": "BOS",
       "gp": 74,
       "mpg": 14.6,
+      "min_total": 1080,
       "drives": {
         "drives": 1.4,
         "drive_fgm": 0.4,
@@ -6613,6 +6813,7 @@
       "team": "NOP",
       "gp": 5,
       "mpg": 8.5,
+      "min_total": 42,
       "drives": {
         "drives": 0.0,
         "drive_fgm": 0.0,
@@ -6646,6 +6847,7 @@
       "team": "PHI",
       "gp": 7,
       "mpg": 3.7,
+      "min_total": 26,
       "drives": {
         "drives": 2.3,
         "drive_fgm": 0.4,
@@ -6679,6 +6881,7 @@
       "team": "DEN",
       "gp": 21,
       "mpg": 7.7,
+      "min_total": 162,
       "drives": {
         "drives": 1.5,
         "drive_fgm": 0.1,
@@ -6712,6 +6915,7 @@
       "team": "TOR",
       "gp": 70,
       "mpg": 31.9,
+      "min_total": 2233,
       "drives": {
         "drives": 13.9,
         "drive_fgm": 2.2,
@@ -6745,6 +6949,7 @@
       "team": "DET",
       "gp": 7,
       "mpg": 5.1,
+      "min_total": 36,
       "drives": {
         "drives": 0.1,
         "drive_fgm": 0.0,
@@ -6778,6 +6983,7 @@
       "team": "CHI",
       "gp": 63,
       "mpg": 26.9,
+      "min_total": 1695,
       "drives": {
         "drives": 5.2,
         "drive_fgm": 0.8,
@@ -6811,6 +7017,7 @@
       "team": "UTA",
       "gp": 59,
       "mpg": 25.7,
+      "min_total": 1516,
       "drives": {
         "drives": 16.6,
         "drive_fgm": 2.8,
@@ -6844,6 +7051,7 @@
       "team": "HOU",
       "gp": 14,
       "mpg": 6.6,
+      "min_total": 92,
       "drives": {
         "drives": 0.5,
         "drive_fgm": 0.1,
@@ -6877,6 +7085,7 @@
       "team": "OKC",
       "gp": 47,
       "mpg": 24.2,
+      "min_total": 1137,
       "drives": {
         "drives": 1.1,
         "drive_fgm": 0.2,
@@ -6910,6 +7119,7 @@
       "team": "LAC",
       "gp": 55,
       "mpg": 16.5,
+      "min_total": 908,
       "drives": {
         "drives": 0.9,
         "drive_fgm": 0.2,
@@ -6943,6 +7153,7 @@
       "team": "OKC",
       "gp": 71,
       "mpg": 21.2,
+      "min_total": 1505,
       "drives": {
         "drives": 3.5,
         "drive_fgm": 0.5,
@@ -6976,6 +7187,7 @@
       "team": "PHX",
       "gp": 36,
       "mpg": 9.6,
+      "min_total": 346,
       "drives": {
         "drives": 0.6,
         "drive_fgm": 0.1,
@@ -7009,6 +7221,7 @@
       "team": "SAC",
       "gp": 3,
       "mpg": 14.3,
+      "min_total": 43,
       "drives": {
         "drives": 5.3,
         "drive_fgm": 0.7,
@@ -7042,6 +7255,7 @@
       "team": "DET",
       "gp": 58,
       "mpg": 22.7,
+      "min_total": 1317,
       "drives": {
         "drives": 1.3,
         "drive_fgm": 0.3,
@@ -7075,6 +7289,7 @@
       "team": "IND",
       "gp": 48,
       "mpg": 30.1,
+      "min_total": 1445,
       "drives": {
         "drives": 1.2,
         "drive_fgm": 0.2,
@@ -7108,6 +7323,7 @@
       "team": "HOU",
       "gp": 28,
       "mpg": 7.8,
+      "min_total": 218,
       "drives": {
         "drives": 2.6,
         "drive_fgm": 0.4,
@@ -7141,6 +7357,7 @@
       "team": "MEM",
       "gp": 20,
       "mpg": 28.4,
+      "min_total": 568,
       "drives": {
         "drives": 21.3,
         "drive_fgm": 4.3,
@@ -7174,6 +7391,7 @@
       "team": "TOR",
       "gp": 72,
       "mpg": 20.5,
+      "min_total": 1476,
       "drives": {
         "drives": 2.1,
         "drive_fgm": 0.3,
@@ -7207,6 +7425,7 @@
       "team": "HOU",
       "gp": 77,
       "mpg": 35.1,
+      "min_total": 2703,
       "drives": {
         "drives": 5.5,
         "drive_fgm": 1.4,
@@ -7240,6 +7459,7 @@
       "team": "PHI",
       "gp": 64,
       "mpg": 11.9,
+      "min_total": 762,
       "drives": {
         "drives": 1.0,
         "drive_fgm": 0.2,
@@ -7273,6 +7493,7 @@
       "team": "ATL",
       "gp": 5,
       "mpg": 3.4,
+      "min_total": 17,
       "drives": {
         "drives": 1.0,
         "drive_fgm": 0.2,
@@ -7306,6 +7527,7 @@
       "team": "WAS",
       "gp": 57,
       "mpg": 15.8,
+      "min_total": 901,
       "drives": {
         "drives": 5.0,
         "drive_fgm": 1.1,
@@ -7339,6 +7561,7 @@
       "team": "CHI",
       "gp": 37,
       "mpg": 18.1,
+      "min_total": 670,
       "drives": {
         "drives": 5.0,
         "drive_fgm": 0.9,
@@ -7372,6 +7595,7 @@
       "team": "MIN",
       "gp": 73,
       "mpg": 31.7,
+      "min_total": 2314,
       "drives": {
         "drives": 10.0,
         "drive_fgm": 2.7,
@@ -7405,6 +7629,7 @@
       "team": "HOU",
       "gp": 46,
       "mpg": 8.8,
+      "min_total": 405,
       "drives": {
         "drives": 1.4,
         "drive_fgm": 0.3,
@@ -7438,6 +7663,7 @@
       "team": "MEM",
       "gp": 31,
       "mpg": 21.7,
+      "min_total": 673,
       "drives": {
         "drives": 6.8,
         "drive_fgm": 1.1,
@@ -7471,6 +7697,7 @@
       "team": "MIA",
       "gp": 14,
       "mpg": 4.2,
+      "min_total": 59,
       "drives": {
         "drives": 1.6,
         "drive_fgm": 0.6,
@@ -7504,6 +7731,7 @@
       "team": "LAC",
       "gp": 8,
       "mpg": 4.0,
+      "min_total": 32,
       "drives": {
         "drives": 0.4,
         "drive_fgm": 0.0,
@@ -7537,6 +7765,7 @@
       "team": "MIA",
       "gp": 75,
       "mpg": 28.3,
+      "min_total": 2122,
       "drives": {
         "drives": 17.4,
         "drive_fgm": 3.5,
@@ -7570,6 +7799,7 @@
       "team": "LAL",
       "gp": 82,
       "mpg": 25.1,
+      "min_total": 2058,
       "drives": {
         "drives": 4.3,
         "drive_fgm": 0.7,
@@ -7603,6 +7833,7 @@
       "team": "TOR",
       "gp": 46,
       "mpg": 25.0,
+      "min_total": 1150,
       "drives": {
         "drives": 0.7,
         "drive_fgm": 0.1,
@@ -7636,6 +7867,7 @@
       "team": "NYK",
       "gp": 74,
       "mpg": 35.0,
+      "min_total": 2590,
       "drives": {
         "drives": 20.2,
         "drive_fgm": 5.4,
@@ -7669,6 +7901,7 @@
       "team": "DET",
       "gp": 70,
       "mpg": 28.2,
+      "min_total": 1974,
       "drives": {
         "drives": 4.6,
         "drive_fgm": 1.5,
@@ -7702,6 +7935,7 @@
       "team": "PHX",
       "gp": 32,
       "mpg": 25.9,
+      "min_total": 829,
       "drives": {
         "drives": 13.6,
         "drive_fgm": 3.2,
@@ -7735,6 +7969,7 @@
       "team": "ATL",
       "gp": 72,
       "mpg": 35.2,
+      "min_total": 2534,
       "drives": {
         "drives": 17.3,
         "drive_fgm": 3.6,
@@ -7768,6 +8003,7 @@
       "team": "DEN",
       "gp": 50,
       "mpg": 16.1,
+      "min_total": 805,
       "drives": {
         "drives": 4.2,
         "drive_fgm": 0.6,
@@ -7801,6 +8037,7 @@
       "team": "IND",
       "gp": 13,
       "mpg": 23.9,
+      "min_total": 311,
       "drives": {
         "drives": 5.8,
         "drive_fgm": 0.6,
@@ -7834,6 +8071,7 @@
       "team": "CHI",
       "gp": 53,
       "mpg": 20.7,
+      "min_total": 1097,
       "drives": {
         "drives": 1.5,
         "drive_fgm": 0.3,
@@ -7867,6 +8105,7 @@
       "team": "ORL",
       "gp": 57,
       "mpg": 27.6,
+      "min_total": 1573,
       "drives": {
         "drives": 10.3,
         "drive_fgm": 1.9,
@@ -7900,6 +8139,7 @@
       "team": "OKC",
       "gp": 33,
       "mpg": 28.4,
+      "min_total": 937,
       "drives": {
         "drives": 18.2,
         "drive_fgm": 4.2,
@@ -7933,6 +8173,7 @@
       "team": "BKN",
       "gp": 54,
       "mpg": 15.9,
+      "min_total": 859,
       "drives": {
         "drives": 4.8,
         "drive_fgm": 0.8,
@@ -7966,6 +8207,7 @@
       "team": "ORL",
       "gp": 40,
       "mpg": 12.1,
+      "min_total": 484,
       "drives": {
         "drives": 2.1,
         "drive_fgm": 0.4,
@@ -7999,6 +8241,7 @@
       "team": "DEN",
       "gp": 75,
       "mpg": 35.4,
+      "min_total": 2655,
       "drives": {
         "drives": 17.0,
         "drive_fgm": 4.0,
@@ -8032,6 +8275,7 @@
       "team": "TOR",
       "gp": 82,
       "mpg": 22.6,
+      "min_total": 1853,
       "drives": {
         "drives": 9.1,
         "drive_fgm": 0.9,
@@ -8065,6 +8309,7 @@
       "team": "PHX",
       "gp": 46,
       "mpg": 14.0,
+      "min_total": 644,
       "drives": {
         "drives": 6.2,
         "drive_fgm": 1.4,
@@ -8098,6 +8343,7 @@
       "team": "CLE",
       "gp": 70,
       "mpg": 34.8,
+      "min_total": 2436,
       "drives": {
         "drives": 17.2,
         "drive_fgm": 3.5,
@@ -8131,6 +8377,7 @@
       "team": "IND",
       "gp": 4,
       "mpg": 14.6,
+      "min_total": 58,
       "drives": {
         "drives": 0.3,
         "drive_fgm": 0.0,
@@ -8164,6 +8411,7 @@
       "team": "WAS",
       "gp": 50,
       "mpg": 20.6,
+      "min_total": 1030,
       "drives": {
         "drives": 2.9,
         "drive_fgm": 0.7,
@@ -8197,6 +8445,7 @@
       "team": "TOR",
       "gp": 61,
       "mpg": 8.5,
+      "min_total": 518,
       "drives": {
         "drives": 0.7,
         "drive_fgm": 0.2,
@@ -8230,6 +8479,7 @@
       "team": "IND",
       "gp": 76,
       "mpg": 25.7,
+      "min_total": 1953,
       "drives": {
         "drives": 7.3,
         "drive_fgm": 1.4,
@@ -8263,6 +8513,7 @@
       "team": "OKC",
       "gp": 67,
       "mpg": 17.3,
+      "min_total": 1159,
       "drives": {
         "drives": 5.6,
         "drive_fgm": 1.3,
@@ -8296,6 +8547,7 @@
       "team": "UTA",
       "gp": 48,
       "mpg": 30.3,
+      "min_total": 1454,
       "drives": {
         "drives": 10.5,
         "drive_fgm": 3.4,
@@ -8329,6 +8581,7 @@
       "team": "LAL",
       "gp": 65,
       "mpg": 17.4,
+      "min_total": 1131,
       "drives": {
         "drives": 1.3,
         "drive_fgm": 0.2,
@@ -8362,6 +8615,7 @@
       "team": "CLE",
       "gp": 56,
       "mpg": 27.1,
+      "min_total": 1518,
       "drives": {
         "drives": 2.0,
         "drive_fgm": 0.5,
@@ -8395,6 +8649,7 @@
       "team": "ORL",
       "gp": 54,
       "mpg": 10.9,
+      "min_total": 589,
       "drives": {
         "drives": 3.6,
         "drive_fgm": 0.7,
@@ -8428,6 +8683,7 @@
       "team": "MEM",
       "gp": 41,
       "mpg": 20.2,
+      "min_total": 828,
       "drives": {
         "drives": 6.8,
         "drive_fgm": 1.0,
@@ -8461,6 +8717,7 @@
       "team": "POR",
       "gp": 19,
       "mpg": 4.9,
+      "min_total": 93,
       "drives": {
         "drives": 1.2,
         "drive_fgm": 0.0,
@@ -8494,6 +8751,7 @@
       "team": "DET",
       "gp": 82,
       "mpg": 17.6,
+      "min_total": 1443,
       "drives": {
         "drives": 1.2,
         "drive_fgm": 0.2,
@@ -8527,6 +8785,7 @@
       "team": "LAL",
       "gp": 66,
       "mpg": 18.3,
+      "min_total": 1208,
       "drives": {
         "drives": 0.5,
         "drive_fgm": 0.2,
@@ -8560,6 +8819,7 @@
       "team": "IND",
       "gp": 82,
       "mpg": 21.0,
+      "min_total": 1722,
       "drives": {
         "drives": 2.7,
         "drive_fgm": 0.7,
@@ -8593,6 +8853,7 @@
       "team": "BOS",
       "gp": 71,
       "mpg": 34.4,
+      "min_total": 2442,
       "drives": {
         "drives": 24.6,
         "drive_fgm": 6.2,
@@ -8626,6 +8887,7 @@
       "team": "MIN",
       "gp": 68,
       "mpg": 13.1,
+      "min_total": 891,
       "drives": {
         "drives": 1.8,
         "drive_fgm": 0.4,
@@ -8659,6 +8921,7 @@
       "team": "MEM",
       "gp": 69,
       "mpg": 26.4,
+      "min_total": 1822,
       "drives": {
         "drives": 6.3,
         "drive_fgm": 1.3,
@@ -8692,6 +8955,7 @@
       "team": "OKC",
       "gp": 65,
       "mpg": 19.7,
+      "min_total": 1280,
       "drives": {
         "drives": 1.6,
         "drive_fgm": 0.2,
@@ -8725,6 +8989,7 @@
       "team": "CLE",
       "gp": 66,
       "mpg": 26.9,
+      "min_total": 1775,
       "drives": {
         "drives": 5.5,
         "drive_fgm": 1.3,
@@ -8758,6 +9023,7 @@
       "team": "POR",
       "gp": 5,
       "mpg": 4.5,
+      "min_total": 22,
       "drives": {
         "drives": 0.0,
         "drive_fgm": 0.0,
@@ -8791,6 +9057,7 @@
       "team": "BOS",
       "gp": 16,
       "mpg": 32.6,
+      "min_total": 522,
       "drives": {
         "drives": 12.4,
         "drive_fgm": 2.9,
@@ -8824,6 +9091,7 @@
       "team": "HOU",
       "gp": 30,
       "mpg": 5.8,
+      "min_total": 174,
       "drives": {
         "drives": 0.5,
         "drive_fgm": 0.2,
@@ -8857,6 +9125,7 @@
       "team": "POR",
       "gp": 57,
       "mpg": 29.7,
+      "min_total": 1693,
       "drives": {
         "drives": 12.8,
         "drive_fgm": 2.4,
@@ -8890,6 +9159,7 @@
       "team": "NOP",
       "gp": 82,
       "mpg": 25.8,
+      "min_total": 2116,
       "drives": {
         "drives": 14.1,
         "drive_fgm": 2.8,
@@ -8923,6 +9193,7 @@
       "team": "DAL",
       "gp": 22,
       "mpg": 16.4,
+      "min_total": 361,
       "drives": {
         "drives": 2.0,
         "drive_fgm": 0.2,
@@ -8956,6 +9227,7 @@
       "team": "NYK",
       "gp": 44,
       "mpg": 10.6,
+      "min_total": 466,
       "drives": {
         "drives": 1.3,
         "drive_fgm": 0.2,
@@ -8989,6 +9261,7 @@
       "team": "MIL",
       "gp": 67,
       "mpg": 19.7,
+      "min_total": 1320,
       "drives": {
         "drives": 0.9,
         "drive_fgm": 0.2,
@@ -9022,6 +9295,7 @@
       "team": "ORL",
       "gp": 55,
       "mpg": 12.6,
+      "min_total": 693,
       "drives": {
         "drives": 3.1,
         "drive_fgm": 0.6,
@@ -9055,6 +9329,7 @@
       "team": "ORL",
       "gp": 53,
       "mpg": 16.4,
+      "min_total": 869,
       "drives": {
         "drives": 3.7,
         "drive_fgm": 0.5,
@@ -9088,6 +9363,7 @@
       "team": "GSW",
       "gp": 38,
       "mpg": 31.1,
+      "min_total": 1182,
       "drives": {
         "drives": 13.7,
         "drive_fgm": 2.2,
@@ -9121,6 +9397,7 @@
       "team": "MIN",
       "gp": 40,
       "mpg": 7.9,
+      "min_total": 316,
       "drives": {
         "drives": 0.3,
         "drive_fgm": 0.1,
@@ -9154,6 +9431,7 @@
       "team": "ATL",
       "gp": 68,
       "mpg": 22.1,
+      "min_total": 1503,
       "drives": {
         "drives": 0.5,
         "drive_fgm": 0.0,
@@ -9187,6 +9465,7 @@
       "team": "MIN",
       "gp": 27,
       "mpg": 5.7,
+      "min_total": 154,
       "drives": {
         "drives": 1.4,
         "drive_fgm": 0.3,
@@ -9220,6 +9499,7 @@
       "team": "PHI",
       "gp": 38,
       "mpg": 31.6,
+      "min_total": 1201,
       "drives": {
         "drives": 8.8,
         "drive_fgm": 1.8,
@@ -9253,6 +9533,7 @@
       "team": "LAC",
       "gp": 69,
       "mpg": 27.1,
+      "min_total": 1870,
       "drives": {
         "drives": 3.6,
         "drive_fgm": 0.9,
@@ -9286,6 +9567,7 @@
       "team": "UTA",
       "gp": 56,
       "mpg": 19.9,
+      "min_total": 1114,
       "drives": {
         "drives": 2.8,
         "drive_fgm": 0.3,
@@ -9319,6 +9601,7 @@
       "team": "DAL",
       "gp": 13,
       "mpg": 19.5,
+      "min_total": 254,
       "drives": {
         "drives": 1.4,
         "drive_fgm": 0.3,
@@ -9352,6 +9635,7 @@
       "team": "BOS",
       "gp": 6,
       "mpg": 7.0,
+      "min_total": 42,
       "drives": {
         "drives": 0.8,
         "drive_fgm": 0.0,
@@ -9385,6 +9669,7 @@
       "team": "PHI",
       "gp": 11,
       "mpg": 5.0,
+      "min_total": 55,
       "drives": {
         "drives": 0.5,
         "drive_fgm": 0.1,
@@ -9418,6 +9703,7 @@
       "team": "IND",
       "gp": 35,
       "mpg": 18.4,
+      "min_total": 644,
       "drives": {
         "drives": 2.9,
         "drive_fgm": 0.4,
@@ -9451,6 +9737,7 @@
       "team": "MIN",
       "gp": 21,
       "mpg": 4.2,
+      "min_total": 88,
       "drives": {
         "drives": 0.6,
         "drive_fgm": 0.1,
@@ -9484,6 +9771,7 @@
       "team": "DEN",
       "gp": 65,
       "mpg": 13.4,
+      "min_total": 871,
       "drives": {
         "drives": 0.9,
         "drive_fgm": 0.3,
@@ -9517,6 +9805,7 @@
       "team": "ORL",
       "gp": 52,
       "mpg": 10.0,
+      "min_total": 520,
       "drives": {
         "drives": 0.5,
         "drive_fgm": 0.0,
@@ -9550,6 +9839,7 @@
       "team": "ATL",
       "gp": 36,
       "mpg": 23.1,
+      "min_total": 832,
       "drives": {
         "drives": 8.1,
         "drive_fgm": 1.6,
@@ -9583,6 +9873,7 @@
       "team": "TOR",
       "gp": 40,
       "mpg": 6.2,
+      "min_total": 248,
       "drives": {
         "drives": 0.6,
         "drive_fgm": 0.1,
@@ -9616,6 +9907,7 @@
       "team": "NYK",
       "gp": 72,
       "mpg": 17.8,
+      "min_total": 1282,
       "drives": {
         "drives": 5.5,
         "drive_fgm": 1.5,
@@ -9649,6 +9941,7 @@
       "team": "PHX",
       "gp": 70,
       "mpg": 22.5,
+      "min_total": 1575,
       "drives": {
         "drives": 3.8,
         "drive_fgm": 0.7,
@@ -9682,6 +9975,7 @@
       "team": "NOP",
       "gp": 51,
       "mpg": 13.6,
+      "min_total": 694,
       "drives": {
         "drives": 2.5,
         "drive_fgm": 0.5,
@@ -9715,6 +10009,7 @@
       "team": "SAS",
       "gp": 44,
       "mpg": 6.4,
+      "min_total": 282,
       "drives": {
         "drives": 1.7,
         "drive_fgm": 0.2,
@@ -9748,6 +10043,7 @@
       "team": "LAC",
       "gp": 60,
       "mpg": 22.1,
+      "min_total": 1326,
       "drives": {
         "drives": 8.4,
         "drive_fgm": 1.7,
@@ -9781,6 +10077,7 @@
       "team": "NOP",
       "gp": 39,
       "mpg": 23.9,
+      "min_total": 932,
       "drives": {
         "drives": 8.4,
         "drive_fgm": 1.3,
@@ -9814,6 +10111,7 @@
       "team": "BOS",
       "gp": 68,
       "mpg": 17.8,
+      "min_total": 1210,
       "drives": {
         "drives": 1.6,
         "drive_fgm": 0.4,
@@ -9847,6 +10145,7 @@
       "team": "NYK",
       "gp": 69,
       "mpg": 19.9,
+      "min_total": 1373,
       "drives": {
         "drives": 6.1,
         "drive_fgm": 0.9,
@@ -9880,6 +10179,7 @@
       "team": "CHI",
       "gp": 54,
       "mpg": 32.1,
+      "min_total": 1733,
       "drives": {
         "drives": 20.9,
         "drive_fgm": 2.9,
@@ -9913,6 +10213,7 @@
       "team": "CHA",
       "gp": 58,
       "mpg": 15.7,
+      "min_total": 911,
       "drives": {
         "drives": 1.7,
         "drive_fgm": 0.2,
@@ -9946,6 +10247,7 @@
       "team": "NYK",
       "gp": 66,
       "mpg": 30.2,
+      "min_total": 1993,
       "drives": {
         "drives": 7.7,
         "drive_fgm": 1.9,
@@ -9979,6 +10281,7 @@
       "team": "BKN",
       "gp": 49,
       "mpg": 17.0,
+      "min_total": 833,
       "drives": {
         "drives": 2.3,
         "drive_fgm": 0.4,
@@ -10012,6 +10315,7 @@
       "team": "NOP",
       "gp": 3,
       "mpg": 27.3,
+      "min_total": 82,
       "drives": {
         "drives": 1.3,
         "drive_fgm": 0.3,
@@ -10045,6 +10349,7 @@
       "team": "HOU",
       "gp": 78,
       "mpg": 17.4,
+      "min_total": 1357,
       "drives": {
         "drives": 1.9,
         "drive_fgm": 0.3,
@@ -10078,6 +10383,7 @@
       "team": "POR",
       "gp": 53,
       "mpg": 29.4,
+      "min_total": 1558,
       "drives": {
         "drives": 15.3,
         "drive_fgm": 2.4,
@@ -10111,6 +10417,7 @@
       "team": "SAS",
       "gp": 82,
       "mpg": 27.6,
+      "min_total": 2263,
       "drives": {
         "drives": 3.3,
         "drive_fgm": 0.5,
@@ -10144,6 +10451,7 @@
       "team": "MIN",
       "gp": 47,
       "mpg": 9.0,
+      "min_total": 423,
       "drives": {
         "drives": 0.9,
         "drive_fgm": 0.2,
@@ -10177,6 +10485,7 @@
       "team": "WAS",
       "gp": 13,
       "mpg": 30.9,
+      "min_total": 402,
       "drives": {
         "drives": 1.9,
         "drive_fgm": 0.3,
@@ -10210,6 +10519,7 @@
       "team": "DEN",
       "gp": 57,
       "mpg": 15.1,
+      "min_total": 861,
       "drives": {
         "drives": 4.4,
         "drive_fgm": 1.1,
@@ -10243,6 +10553,7 @@
       "team": "MIN",
       "gp": 79,
       "mpg": 33.0,
+      "min_total": 2607,
       "drives": {
         "drives": 14.5,
         "drive_fgm": 3.3,
@@ -10276,6 +10587,7 @@
       "team": "WAS",
       "gp": 69,
       "mpg": 20.0,
+      "min_total": 1380,
       "drives": {
         "drives": 2.6,
         "drive_fgm": 0.5,
@@ -10309,6 +10621,7 @@
       "team": "PHI",
       "gp": 64,
       "mpg": 15.3,
+      "min_total": 979,
       "drives": {
         "drives": 3.1,
         "drive_fgm": 0.8,
@@ -10342,6 +10655,7 @@
       "team": "UTA",
       "gp": 41,
       "mpg": 26.4,
+      "min_total": 1082,
       "drives": {
         "drives": 1.9,
         "drive_fgm": 0.4,
@@ -10375,6 +10689,7 @@
       "team": "DEN",
       "gp": 20,
       "mpg": 12.9,
+      "min_total": 258,
       "drives": {
         "drives": 4.1,
         "drive_fgm": 0.7,
@@ -10408,6 +10723,7 @@
       "team": "WAS",
       "gp": 3,
       "mpg": 22.3,
+      "min_total": 67,
       "drives": {
         "drives": 2.7,
         "drive_fgm": 0.3,
@@ -10441,6 +10757,7 @@
       "team": "IND",
       "gp": 37,
       "mpg": 16.7,
+      "min_total": 618,
       "drives": {
         "drives": 6.9,
         "drive_fgm": 0.9,
@@ -10474,6 +10791,7 @@
       "team": "NYK",
       "gp": 75,
       "mpg": 31.0,
+      "min_total": 2325,
       "drives": {
         "drives": 8.1,
         "drive_fgm": 2.0,
@@ -10507,6 +10825,7 @@
       "team": "NOP",
       "gp": 62,
       "mpg": 14.7,
+      "min_total": 911,
       "drives": {
         "drives": 0.8,
         "drive_fgm": 0.1,
@@ -10540,6 +10859,7 @@
       "team": "MIA",
       "gp": 53,
       "mpg": 17.8,
+      "min_total": 943,
       "drives": {
         "drives": 4.4,
         "drive_fgm": 0.3,
@@ -10573,6 +10893,7 @@
       "team": "LAC",
       "gp": 65,
       "mpg": 32.1,
+      "min_total": 2086,
       "drives": {
         "drives": 13.8,
         "drive_fgm": 3.9,
@@ -10606,6 +10927,7 @@
       "team": "ATL",
       "gp": 53,
       "mpg": 10.1,
+      "min_total": 535,
       "drives": {
         "drives": 3.9,
         "drive_fgm": 0.5,
@@ -10639,6 +10961,7 @@
       "team": "SAC",
       "gp": 23,
       "mpg": 34.5,
+      "min_total": 794,
       "drives": {
         "drives": 7.3,
         "drive_fgm": 2.0,
@@ -10672,6 +10995,7 @@
       "team": "MIA",
       "gp": 77,
       "mpg": 22.1,
+      "min_total": 1702,
       "drives": {
         "drives": 0.8,
         "drive_fgm": 0.2,
@@ -10705,6 +11029,7 @@
       "team": "SAS",
       "gp": 82,
       "mpg": 23.3,
+      "min_total": 1911,
       "drives": {
         "drives": 7.2,
         "drive_fgm": 2.3,
@@ -10738,6 +11063,7 @@
       "team": "SAS",
       "gp": 41,
       "mpg": 8.8,
+      "min_total": 361,
       "drives": {
         "drives": 1.8,
         "drive_fgm": 0.2,
@@ -10771,6 +11097,7 @@
       "team": "PHI",
       "gp": 50,
       "mpg": 31.5,
+      "min_total": 1575,
       "drives": {
         "drives": 6.3,
         "drive_fgm": 2.1,
@@ -10804,6 +11131,7 @@
       "team": "UTA",
       "gp": 11,
       "mpg": 32.3,
+      "min_total": 355,
       "drives": {
         "drives": 14.7,
         "drive_fgm": 2.9,
@@ -10837,6 +11165,7 @@
       "team": "OKC",
       "gp": 56,
       "mpg": 15.3,
+      "min_total": 857,
       "drives": {
         "drives": 3.2,
         "drive_fgm": 0.5,
@@ -10870,6 +11199,7 @@
       "team": "MEM",
       "gp": 51,
       "mpg": 21.3,
+      "min_total": 1086,
       "drives": {
         "drives": 4.7,
         "drive_fgm": 0.9,
@@ -10903,6 +11233,7 @@
       "team": "CLE",
       "gp": 72,
       "mpg": 20.5,
+      "min_total": 1476,
       "drives": {
         "drives": 2.5,
         "drive_fgm": 0.5,
@@ -10936,6 +11267,7 @@
       "team": "MIA",
       "gp": 32,
       "mpg": 8.7,
+      "min_total": 278,
       "drives": {
         "drives": 1.7,
         "drive_fgm": 0.4,
@@ -10969,6 +11301,7 @@
       "team": "ATL",
       "gp": 4,
       "mpg": 18.4,
+      "min_total": 74,
       "drives": {
         "drives": 4.8,
         "drive_fgm": 0.8,
@@ -11002,6 +11335,7 @@
       "team": "HOU",
       "gp": 78,
       "mpg": 36.4,
+      "min_total": 2839,
       "drives": {
         "drives": 13.1,
         "drive_fgm": 4.0,
@@ -11035,6 +11369,7 @@
       "team": "DET",
       "gp": 69,
       "mpg": 22.5,
+      "min_total": 1552,
       "drives": {
         "drives": 5.1,
         "drive_fgm": 1.1,
@@ -11068,6 +11403,7 @@
       "team": "UTA",
       "gp": 37,
       "mpg": 16.6,
+      "min_total": 614,
       "drives": {
         "drives": 0.7,
         "drive_fgm": 0.1,
@@ -11101,6 +11437,7 @@
       "team": "NYK",
       "gp": 20,
       "mpg": 7.7,
+      "min_total": 154,
       "drives": {
         "drives": 2.4,
         "drive_fgm": 0.4,
@@ -11134,6 +11471,7 @@
       "team": "MIL",
       "gp": 38,
       "mpg": 33.2,
+      "min_total": 1262,
       "drives": {
         "drives": 21.9,
         "drive_fgm": 3.8,
@@ -11167,6 +11505,7 @@
       "team": "NOP",
       "gp": 21,
       "mpg": 14.6,
+      "min_total": 307,
       "drives": {
         "drives": 0.6,
         "drive_fgm": 0.0,
@@ -11200,6 +11539,7 @@
       "team": "UTA",
       "gp": 54,
       "mpg": 33.1,
+      "min_total": 1787,
       "drives": {
         "drives": 13.5,
         "drive_fgm": 3.1,
@@ -11233,6 +11573,7 @@
       "team": "PHX",
       "gp": 46,
       "mpg": 8.9,
+      "min_total": 409,
       "drives": {
         "drives": 0.2,
         "drive_fgm": 0.0,
@@ -11266,6 +11607,7 @@
       "team": "DAL",
       "gp": 63,
       "mpg": 22.8,
+      "min_total": 1436,
       "drives": {
         "drives": 7.2,
         "drive_fgm": 1.2,
@@ -11299,6 +11641,7 @@
       "team": "SAC",
       "gp": 23,
       "mpg": 17.6,
+      "min_total": 405,
       "drives": {
         "drives": 6.3,
         "drive_fgm": 0.8,
@@ -11332,6 +11675,7 @@
       "team": "DAL",
       "gp": 69,
       "mpg": 21.7,
+      "min_total": 1497,
       "drives": {
         "drives": 3.2,
         "drive_fgm": 0.5,
@@ -11365,6 +11709,7 @@
       "team": "IND",
       "gp": 61,
       "mpg": 15.8,
+      "min_total": 964,
       "drives": {
         "drives": 2.8,
         "drive_fgm": 0.5,
@@ -11398,6 +11743,7 @@
       "team": "LAL",
       "gp": 16,
       "mpg": 7.5,
+      "min_total": 120,
       "drives": {
         "drives": 1.8,
         "drive_fgm": 0.4,
@@ -11431,6 +11777,7 @@
       "team": "LAC",
       "gp": 68,
       "mpg": 19.9,
+      "min_total": 1353,
       "drives": {
         "drives": 4.8,
         "drive_fgm": 0.9,
@@ -11464,6 +11811,7 @@
       "team": "PHX",
       "gp": 12,
       "mpg": 7.0,
+      "min_total": 84,
       "drives": {
         "drives": 1.2,
         "drive_fgm": 0.1,
@@ -11497,6 +11845,7 @@
       "team": "CHA",
       "gp": 81,
       "mpg": 31.5,
+      "min_total": 2552,
       "drives": {
         "drives": 10.8,
         "drive_fgm": 2.1,
@@ -11530,6 +11879,7 @@
       "team": "LAC",
       "gp": 82,
       "mpg": 27.2,
+      "min_total": 2230,
       "drives": {
         "drives": 5.7,
         "drive_fgm": 0.9,
@@ -11563,6 +11913,7 @@
       "team": "POR",
       "gp": 57,
       "mpg": 23.4,
+      "min_total": 1334,
       "drives": {
         "drives": 3.8,
         "drive_fgm": 0.8,
@@ -11596,6 +11947,7 @@
       "team": "GSW",
       "gp": 32,
       "mpg": 24.0,
+      "min_total": 768,
       "drives": {
         "drives": 3.1,
         "drive_fgm": 0.5,
@@ -11629,6 +11981,7 @@
       "team": "MIN",
       "gp": 43,
       "mpg": 19.8,
+      "min_total": 851,
       "drives": {
         "drives": 5.6,
         "drive_fgm": 1.3,
@@ -11662,6 +12015,7 @@
       "team": "UTA",
       "gp": 77,
       "mpg": 23.4,
+      "min_total": 1802,
       "drives": {
         "drives": 5.2,
         "drive_fgm": 1.2,
@@ -11695,6 +12049,7 @@
       "team": "MIL",
       "gp": 69,
       "mpg": 26.2,
+      "min_total": 1808,
       "drives": {
         "drives": 7.4,
         "drive_fgm": 1.7,
@@ -11728,6 +12083,7 @@
       "team": "PHI",
       "gp": 14,
       "mpg": 8.4,
+      "min_total": 118,
       "drives": {
         "drives": 0.4,
         "drive_fgm": 0.0,
@@ -11761,6 +12117,7 @@
       "team": "WAS",
       "gp": 48,
       "mpg": 29.0,
+      "min_total": 1392,
       "drives": {
         "drives": 12.2,
         "drive_fgm": 2.3,
@@ -11794,6 +12151,7 @@
       "team": "GSW",
       "gp": 18,
       "mpg": 16.2,
+      "min_total": 292,
       "drives": {
         "drives": 3.2,
         "drive_fgm": 0.3,
@@ -11827,6 +12185,7 @@
       "team": "CHA",
       "gp": 72,
       "mpg": 28.0,
+      "min_total": 2016,
       "drives": {
         "drives": 13.4,
         "drive_fgm": 2.7,
@@ -11860,6 +12219,7 @@
       "team": "CHI",
       "gp": 37,
       "mpg": 9.3,
+      "min_total": 344,
       "drives": {
         "drives": 1.0,
         "drive_fgm": 0.1,
@@ -11893,6 +12253,7 @@
       "team": "NYK",
       "gp": 51,
       "mpg": 23.0,
+      "min_total": 1173,
       "drives": {
         "drives": 3.4,
         "drive_fgm": 0.5,
@@ -11926,6 +12287,7 @@
       "team": "CLE",
       "gp": 35,
       "mpg": 12.8,
+      "min_total": 448,
       "drives": {
         "drives": 0.7,
         "drive_fgm": 0.1,
@@ -11959,6 +12321,7 @@
       "team": "UTA",
       "gp": 42,
       "mpg": 34.3,
+      "min_total": 1441,
       "drives": {
         "drives": 8.7,
         "drive_fgm": 2.1,
@@ -11992,6 +12355,7 @@
       "team": "MEM",
       "gp": 2,
       "mpg": 24.6,
+      "min_total": 49,
       "drives": {
         "drives": 0.0,
         "drive_fgm": 0.0,
@@ -12025,6 +12389,7 @@
       "team": "LAL",
       "gp": 60,
       "mpg": 33.2,
+      "min_total": 1992,
       "drives": {
         "drives": 11.7,
         "drive_fgm": 2.9,
@@ -12058,6 +12423,7 @@
       "team": "WAS",
       "gp": 15,
       "mpg": 28.9,
+      "min_total": 434,
       "drives": {
         "drives": 3.1,
         "drive_fgm": 0.5,
@@ -12091,6 +12457,7 @@
       "team": "CHI",
       "gp": 46,
       "mpg": 15.6,
+      "min_total": 718,
       "drives": {
         "drives": 3.0,
         "drive_fgm": 0.8,
@@ -12124,6 +12491,7 @@
       "team": "CHA",
       "gp": 31,
       "mpg": 11.9,
+      "min_total": 369,
       "drives": {
         "drives": 2.2,
         "drive_fgm": 0.4,
@@ -12157,6 +12525,7 @@
       "team": "SAS",
       "gp": 40,
       "mpg": 7.1,
+      "min_total": 284,
       "drives": {
         "drives": 0.8,
         "drive_fgm": 0.1,
@@ -12190,6 +12559,7 @@
       "team": "CLE",
       "gp": 35,
       "mpg": 20.8,
+      "min_total": 728,
       "drives": {
         "drives": 2.8,
         "drive_fgm": 0.1,
@@ -12223,6 +12593,7 @@
       "team": "MEM",
       "gp": 7,
       "mpg": 32.0,
+      "min_total": 224,
       "drives": {
         "drives": 4.4,
         "drive_fgm": 0.3,
@@ -12256,6 +12627,7 @@
       "team": "OKC",
       "gp": 69,
       "mpg": 26.8,
+      "min_total": 1849,
       "drives": {
         "drives": 3.7,
         "drive_fgm": 0.6,
@@ -12289,6 +12661,7 @@
       "team": "LAL",
       "gp": 64,
       "mpg": 35.8,
+      "min_total": 2291,
       "drives": {
         "drives": 18.9,
         "drive_fgm": 5.0,
@@ -12322,6 +12695,7 @@
       "team": "BOS",
       "gp": 69,
       "mpg": 16.2,
+      "min_total": 1118,
       "drives": {
         "drives": 0.5,
         "drive_fgm": 0.1,
@@ -12355,6 +12729,7 @@
       "team": "LAL",
       "gp": 78,
       "mpg": 21.5,
+      "min_total": 1677,
       "drives": {
         "drives": 5.8,
         "drive_fgm": 0.9,
@@ -12388,6 +12763,7 @@
       "team": "SAS",
       "gp": 68,
       "mpg": 21.0,
+      "min_total": 1428,
       "drives": {
         "drives": 0.2,
         "drive_fgm": 0.0,
@@ -12421,6 +12797,7 @@
       "team": "CLE",
       "gp": 12,
       "mpg": 8.6,
+      "min_total": 103,
       "drives": {
         "drives": 2.0,
         "drive_fgm": 0.3,
@@ -12454,6 +12831,7 @@
       "team": "CHI",
       "gp": 11,
       "mpg": 12.3,
+      "min_total": 135,
       "drives": {
         "drives": 5.0,
         "drive_fgm": 1.0,
@@ -12487,6 +12865,7 @@
       "team": "BKN",
       "gp": 15,
       "mpg": 23.9,
+      "min_total": 358,
       "drives": {
         "drives": 6.5,
         "drive_fgm": 1.4,
@@ -12520,6 +12899,7 @@
       "team": "WAS",
       "gp": 28,
       "mpg": 9.8,
+      "min_total": 274,
       "drives": {
         "drives": 2.8,
         "drive_fgm": 0.6,
@@ -12553,6 +12933,7 @@
       "team": "GSW",
       "gp": 25,
       "mpg": 11.1,
+      "min_total": 278,
       "drives": {
         "drives": 1.9,
         "drive_fgm": 0.3,
@@ -12586,6 +12967,7 @@
       "team": "SAC",
       "gp": 62,
       "mpg": 22.0,
+      "min_total": 1364,
       "drives": {
         "drives": 9.0,
         "drive_fgm": 1.6,
@@ -12619,6 +13001,7 @@
       "team": "PHI",
       "gp": 14,
       "mpg": 14.0,
+      "min_total": 196,
       "drives": {
         "drives": 2.7,
         "drive_fgm": 0.6,
@@ -12652,6 +13035,7 @@
       "team": "DET",
       "gp": 38,
       "mpg": 12.0,
+      "min_total": 456,
       "drives": {
         "drives": 3.1,
         "drive_fgm": 0.3,
@@ -12685,6 +13069,7 @@
       "team": "LAL",
       "gp": 62,
       "mpg": 28.5,
+      "min_total": 1767,
       "drives": {
         "drives": 5.4,
         "drive_fgm": 1.0,
@@ -12718,6 +13103,7 @@
       "team": "MIL",
       "gp": 7,
       "mpg": 3.7,
+      "min_total": 26,
       "drives": {
         "drives": 2.1,
         "drive_fgm": 0.3,
@@ -12751,6 +13137,7 @@
       "team": "PHX",
       "gp": 60,
       "mpg": 23.6,
+      "min_total": 1416,
       "drives": {
         "drives": 0.5,
         "drive_fgm": 0.1,
@@ -12784,6 +13171,7 @@
       "team": "TOR",
       "gp": 5,
       "mpg": 7.2,
+      "min_total": 36,
       "drives": {
         "drives": 3.2,
         "drive_fgm": 0.2,
@@ -12817,6 +13205,7 @@
       "team": "DAL",
       "gp": 60,
       "mpg": 20.0,
+      "min_total": 1200,
       "drives": {
         "drives": 2.3,
         "drive_fgm": 0.7,
@@ -12850,6 +13239,7 @@
       "team": "SAS",
       "gp": 20,
       "mpg": 8.6,
+      "min_total": 172,
       "drives": {
         "drives": 0.3,
         "drive_fgm": 0.0,
@@ -12883,6 +13273,7 @@
       "team": "CHI",
       "gp": 77,
       "mpg": 29.2,
+      "min_total": 2248,
       "drives": {
         "drives": 8.6,
         "drive_fgm": 1.9,
@@ -12916,6 +13307,7 @@
       "team": "POR",
       "gp": 30,
       "mpg": 16.0,
+      "min_total": 480,
       "drives": {
         "drives": 2.8,
         "drive_fgm": 0.4,
@@ -12949,6 +13341,7 @@
       "team": "DAL",
       "gp": 77,
       "mpg": 29.1,
+      "min_total": 2241,
       "drives": {
         "drives": 6.8,
         "drive_fgm": 1.2,
@@ -12982,6 +13375,7 @@
       "team": "BOS",
       "gp": 11,
       "mpg": 3.3,
+      "min_total": 36,
       "drives": {
         "drives": 0.5,
         "drive_fgm": 0.1,
@@ -13015,6 +13409,7 @@
       "team": "CLE",
       "gp": 12,
       "mpg": 24.0,
+      "min_total": 288,
       "drives": {
         "drives": 3.5,
         "drive_fgm": 0.6,
@@ -13048,6 +13443,7 @@
       "team": "LAL",
       "gp": 43,
       "mpg": 10.7,
+      "min_total": 460,
       "drives": {
         "drives": 0.8,
         "drive_fgm": 0.2,
@@ -13081,6 +13477,7 @@
       "team": "SAC",
       "gp": 74,
       "mpg": 26.5,
+      "min_total": 1961,
       "drives": {
         "drives": 1.5,
         "drive_fgm": 0.5,
@@ -13114,6 +13511,7 @@
       "team": "NOP",
       "gp": 61,
       "mpg": 15.0,
+      "min_total": 915,
       "drives": {
         "drives": 2.9,
         "drive_fgm": 0.4,
@@ -13147,6 +13545,7 @@
       "team": "IND",
       "gp": 47,
       "mpg": 19.3,
+      "min_total": 907,
       "drives": {
         "drives": 1.0,
         "drive_fgm": 0.2,
@@ -13180,6 +13579,7 @@
       "team": "BKN",
       "gp": 52,
       "mpg": 32.5,
+      "min_total": 1690,
       "drives": {
         "drives": 7.4,
         "drive_fgm": 2.0,
@@ -13213,6 +13613,7 @@
       "team": "NYK",
       "gp": 82,
       "mpg": 32.8,
+      "min_total": 2690,
       "drives": {
         "drives": 8.8,
         "drive_fgm": 1.8,
@@ -13246,6 +13647,7 @@
       "team": "MIN",
       "gp": 54,
       "mpg": 18.4,
+      "min_total": 994,
       "drives": {
         "drives": 3.8,
         "drive_fgm": 0.2,
@@ -13279,6 +13681,7 @@
       "team": "CHA",
       "gp": 77,
       "mpg": 31.0,
+      "min_total": 2387,
       "drives": {
         "drives": 9.8,
         "drive_fgm": 2.4,
@@ -13312,6 +13715,7 @@
       "team": "DAL",
       "gp": 14,
       "mpg": 9.6,
+      "min_total": 134,
       "drives": {
         "drives": 0.6,
         "drive_fgm": 0.1,
@@ -13345,6 +13749,7 @@
       "team": "NYK",
       "gp": 41,
       "mpg": 26.3,
+      "min_total": 1078,
       "drives": {
         "drives": 5.8,
         "drive_fgm": 0.9,
@@ -13378,6 +13783,7 @@
       "team": "NYK",
       "gp": 60,
       "mpg": 19.6,
+      "min_total": 1176,
       "drives": {
         "drives": 0.1,
         "drive_fgm": 0.1,
@@ -13411,6 +13817,7 @@
       "team": "UTA",
       "gp": 4,
       "mpg": 11.0,
+      "min_total": 44,
       "drives": {
         "drives": 0.3,
         "drive_fgm": 0.0,
@@ -13444,6 +13851,7 @@
       "team": "NYK",
       "gp": 69,
       "mpg": 9.2,
+      "min_total": 635,
       "drives": {
         "drives": 1.8,
         "drive_fgm": 0.3,
@@ -13477,6 +13885,7 @@
       "team": "IND",
       "gp": 6,
       "mpg": 10.8,
+      "min_total": 65,
       "drives": {
         "drives": 5.0,
         "drive_fgm": 0.5,
@@ -13510,6 +13919,7 @@
       "team": "ORL",
       "gp": 36,
       "mpg": 11.8,
+      "min_total": 425,
       "drives": {
         "drives": 1.9,
         "drive_fgm": 0.4,
@@ -13543,6 +13953,7 @@
       "team": "GSW",
       "gp": 60,
       "mpg": 25.7,
+      "min_total": 1542,
       "drives": {
         "drives": 4.0,
         "drive_fgm": 0.8,
@@ -13576,6 +13987,7 @@
       "team": "CHI",
       "gp": 2,
       "mpg": 22.7,
+      "min_total": 45,
       "drives": {
         "drives": 2.5,
         "drive_fgm": 0.5,
@@ -13609,6 +14021,7 @@
       "team": "ATL",
       "gp": 77,
       "mpg": 15.3,
+      "min_total": 1178,
       "drives": {
         "drives": 1.1,
         "drive_fgm": 0.2,
@@ -13642,6 +14055,7 @@
       "team": "DAL",
       "gp": 38,
       "mpg": 13.9,
+      "min_total": 528,
       "drives": {
         "drives": 0.3,
         "drive_fgm": 0.1,
@@ -13675,6 +14089,7 @@
       "team": "CHA",
       "gp": 73,
       "mpg": 26.0,
+      "min_total": 1898,
       "drives": {
         "drives": 0.9,
         "drive_fgm": 0.2,
@@ -13708,6 +14123,7 @@
       "team": "MIL",
       "gp": 71,
       "mpg": 26.9,
+      "min_total": 1910,
       "drives": {
         "drives": 1.9,
         "drive_fgm": 0.4,
@@ -13741,6 +14157,7 @@
       "team": "MIA",
       "gp": 45,
       "mpg": 9.1,
+      "min_total": 410,
       "drives": {
         "drives": 2.5,
         "drive_fgm": 0.4,
@@ -13774,6 +14191,7 @@
       "team": "ATL",
       "gp": 4,
       "mpg": 3.9,
+      "min_total": 16,
       "drives": {
         "drives": 0.3,
         "drive_fgm": 0.0,
@@ -13807,6 +14225,7 @@
       "team": "CLE",
       "gp": 64,
       "mpg": 15.7,
+      "min_total": 1005,
       "drives": {
         "drives": 1.5,
         "drive_fgm": 0.4,
@@ -13840,6 +14259,7 @@
       "team": "DAL",
       "gp": 74,
       "mpg": 29.5,
+      "min_total": 2183,
       "drives": {
         "drives": 10.7,
         "drive_fgm": 3.1,
@@ -13873,6 +14293,7 @@
       "team": "GSW",
       "gp": 14,
       "mpg": 17.1,
+      "min_total": 239,
       "drives": {
         "drives": 5.4,
         "drive_fgm": 0.8,
@@ -13906,6 +14327,7 @@
       "team": "MIN",
       "gp": 77,
       "mpg": 26.1,
+      "min_total": 2010,
       "drives": {
         "drives": 6.2,
         "drive_fgm": 1.8,
@@ -13939,6 +14361,7 @@
       "team": "BOS",
       "gp": 76,
       "mpg": 25.3,
+      "min_total": 1923,
       "drives": {
         "drives": 1.1,
         "drive_fgm": 0.3,
@@ -13972,6 +14395,7 @@
       "team": "BKN",
       "gp": 69,
       "mpg": 27.8,
+      "min_total": 1918,
       "drives": {
         "drives": 4.6,
         "drive_fgm": 1.3,
@@ -14005,6 +14429,7 @@
       "team": "CHI",
       "gp": 48,
       "mpg": 14.6,
+      "min_total": 701,
       "drives": {
         "drives": 0.3,
         "drive_fgm": 0.0,
@@ -14038,6 +14463,7 @@
       "team": "LAL",
       "gp": 30,
       "mpg": 12.5,
+      "min_total": 375,
       "drives": {
         "drives": 4.0,
         "drive_fgm": 0.9,
@@ -14071,6 +14497,7 @@
       "team": "ATL",
       "gp": 78,
       "mpg": 33.4,
+      "min_total": 2605,
       "drives": {
         "drives": 11.5,
         "drive_fgm": 2.5,
@@ -14104,6 +14531,7 @@
       "team": "LAC",
       "gp": 74,
       "mpg": 17.5,
+      "min_total": 1295,
       "drives": {
         "drives": 0.1,
         "drive_fgm": 0.0,
@@ -14137,6 +14565,7 @@
       "team": "PHX",
       "gp": 27,
       "mpg": 7.2,
+      "min_total": 194,
       "drives": {
         "drives": 0.9,
         "drive_fgm": 0.2,
@@ -14170,6 +14599,7 @@
       "team": "DEN",
       "gp": 65,
       "mpg": 34.8,
+      "min_total": 2262,
       "drives": {
         "drives": 8.8,
         "drive_fgm": 2.2,
@@ -14203,6 +14633,7 @@
       "team": "MIA",
       "gp": 47,
       "mpg": 17.2,
+      "min_total": 808,
       "drives": {
         "drives": 5.8,
         "drive_fgm": 0.9,
@@ -14236,6 +14667,7 @@
       "team": "OKC",
       "gp": 10,
       "mpg": 16.0,
+      "min_total": 160,
       "drives": {
         "drives": 10.0,
         "drive_fgm": 1.0,
@@ -14269,6 +14701,7 @@
       "team": "BOS",
       "gp": 64,
       "mpg": 28.4,
+      "min_total": 1818,
       "drives": {
         "drives": 4.0,
         "drive_fgm": 0.8,
@@ -14302,6 +14735,7 @@
       "team": "SAC",
       "gp": 75,
       "mpg": 25.1,
+      "min_total": 1882,
       "drives": {
         "drives": 7.3,
         "drive_fgm": 1.2,
@@ -14335,6 +14769,7 @@
       "team": "CHI",
       "gp": 2,
       "mpg": 3.0,
+      "min_total": 6,
       "drives": {
         "drives": 0.0,
         "drive_fgm": 0.0,
@@ -14368,6 +14803,7 @@
       "team": "BKN",
       "gp": 66,
       "mpg": 27.0,
+      "min_total": 1782,
       "drives": {
         "drives": 6.2,
         "drive_fgm": 1.3,
@@ -14401,6 +14837,7 @@
       "team": "ORL",
       "gp": 59,
       "mpg": 12.8,
+      "min_total": 755,
       "drives": {
         "drives": 2.9,
         "drive_fgm": 0.4,
@@ -14434,6 +14871,7 @@
       "team": "BKN",
       "gp": 56,
       "mpg": 22.2,
+      "min_total": 1243,
       "drives": {
         "drives": 13.3,
         "drive_fgm": 1.9,
@@ -14467,6 +14905,7 @@
       "team": "LAC",
       "gp": 6,
       "mpg": 3.9,
+      "min_total": 23,
       "drives": {
         "drives": 0.0,
         "drive_fgm": 0.0,
@@ -14500,6 +14939,7 @@
       "team": "MIA",
       "gp": 58,
       "mpg": 29.6,
+      "min_total": 1717,
       "drives": {
         "drives": 12.5,
         "drive_fgm": 3.7,
@@ -14533,6 +14973,7 @@
       "team": "NYK",
       "gp": 67,
       "mpg": 33.2,
+      "min_total": 2224,
       "drives": {
         "drives": 8.7,
         "drive_fgm": 1.6,
@@ -14566,6 +15007,7 @@
       "team": "IND",
       "gp": 24,
       "mpg": 17.7,
+      "min_total": 425,
       "drives": {
         "drives": 4.0,
         "drive_fgm": 0.8,
@@ -14599,6 +15041,7 @@
       "team": "BKN",
       "gp": 62,
       "mpg": 15.7,
+      "min_total": 973,
       "drives": {
         "drives": 2.5,
         "drive_fgm": 0.5,
@@ -14632,6 +15075,7 @@
       "team": "CLE",
       "gp": 4,
       "mpg": 9.8,
+      "min_total": 39,
       "drives": {
         "drives": 0.3,
         "drive_fgm": 0.0,
@@ -14665,6 +15109,7 @@
       "team": "MEM",
       "gp": 53,
       "mpg": 18.6,
+      "min_total": 986,
       "drives": {
         "drives": 3.7,
         "drive_fgm": 0.9,
@@ -14698,6 +15143,7 @@
       "team": "GSW",
       "gp": 9,
       "mpg": 11.6,
+      "min_total": 104,
       "drives": {
         "drives": 0.4,
         "drive_fgm": 0.1,
@@ -14731,6 +15177,7 @@
       "team": "ATL",
       "gp": 74,
       "mpg": 31.0,
+      "min_total": 2294,
       "drives": {
         "drives": 3.8,
         "drive_fgm": 1.0,
@@ -14764,6 +15211,7 @@
       "team": "ORL",
       "gp": 4,
       "mpg": 6.2,
+      "min_total": 25,
       "drives": {
         "drives": 0.5,
         "drive_fgm": 0.0,
@@ -14797,6 +15245,7 @@
       "team": "UTA",
       "gp": 27,
       "mpg": 16.6,
+      "min_total": 448,
       "drives": {
         "drives": 0.7,
         "drive_fgm": 0.1,
@@ -14830,6 +15279,7 @@
       "team": "PHX",
       "gp": 82,
       "mpg": 22.1,
+      "min_total": 1812,
       "drives": {
         "drives": 2.3,
         "drive_fgm": 0.5,
@@ -14863,6 +15313,7 @@
       "team": "MIL",
       "gp": 57,
       "mpg": 19.3,
+      "min_total": 1100,
       "drives": {
         "drives": 6.6,
         "drive_fgm": 1.3,
@@ -14896,6 +15347,7 @@
       "team": "DAL",
       "gp": 56,
       "mpg": 31.0,
+      "min_total": 1736,
       "drives": {
         "drives": 6.7,
         "drive_fgm": 1.6,
@@ -14929,6 +15381,7 @@
       "team": "CHA",
       "gp": 19,
       "mpg": 11.2,
+      "min_total": 213,
       "drives": {
         "drives": 0.3,
         "drive_fgm": 0.1,
@@ -14962,6 +15415,7 @@
       "team": "NYK",
       "gp": 29,
       "mpg": 4.7,
+      "min_total": 136,
       "drives": {
         "drives": 0.9,
         "drive_fgm": 0.1,
@@ -14995,6 +15449,7 @@
       "team": "ORL",
       "gp": 72,
       "mpg": 34.7,
+      "min_total": 2498,
       "drives": {
         "drives": 18.0,
         "drive_fgm": 3.5,
@@ -15028,6 +15483,7 @@
       "team": "IND",
       "gp": 62,
       "mpg": 33.2,
+      "min_total": 2058,
       "drives": {
         "drives": 19.2,
         "drive_fgm": 4.4,
@@ -15061,6 +15517,7 @@
       "team": "CHA",
       "gp": 42,
       "mpg": 7.1,
+      "min_total": 298,
       "drives": {
         "drives": 1.4,
         "drive_fgm": 0.2,
@@ -15094,6 +15551,7 @@
       "team": "GSW",
       "gp": 66,
       "mpg": 18.6,
+      "min_total": 1228,
       "drives": {
         "drives": 8.0,
         "drive_fgm": 1.3,
@@ -15127,6 +15585,7 @@
       "team": "SAC",
       "gp": 9,
       "mpg": 11.4,
+      "min_total": 103,
       "drives": {
         "drives": 1.9,
         "drive_fgm": 0.2,
@@ -15160,6 +15619,7 @@
       "team": "CHI",
       "gp": 72,
       "mpg": 20.5,
+      "min_total": 1476,
       "drives": {
         "drives": 5.3,
         "drive_fgm": 0.7,
@@ -15193,6 +15653,7 @@
       "team": "PHI",
       "gp": 37,
       "mpg": 30.7,
+      "min_total": 1136,
       "drives": {
         "drives": 8.5,
         "drive_fgm": 1.7,
@@ -15226,6 +15687,7 @@
       "team": "DET",
       "gp": 65,
       "mpg": 13.9,
+      "min_total": 904,
       "drives": {
         "drives": 1.6,
         "drive_fgm": 0.6,
@@ -15259,6 +15721,7 @@
       "team": "BOS",
       "gp": 79,
       "mpg": 32.3,
+      "min_total": 2552,
       "drives": {
         "drives": 14.3,
         "drive_fgm": 3.2,
@@ -15292,6 +15755,7 @@
       "team": "OKC",
       "gp": 4,
       "mpg": 15.8,
+      "min_total": 63,
       "drives": {
         "drives": 1.5,
         "drive_fgm": 0.8,
@@ -15325,6 +15789,7 @@
       "team": "MIA",
       "gp": 70,
       "mpg": 26.4,
+      "min_total": 1848,
       "drives": {
         "drives": 8.6,
         "drive_fgm": 1.6,
@@ -15358,6 +15823,7 @@
       "team": "MIL",
       "gp": 47,
       "mpg": 15.7,
+      "min_total": 738,
       "drives": {
         "drives": 0.9,
         "drive_fgm": 0.1,
@@ -15391,6 +15857,7 @@
       "team": "DEN",
       "gp": 54,
       "mpg": 29.6,
+      "min_total": 1598,
       "drives": {
         "drives": 7.6,
         "drive_fgm": 1.6,
@@ -15424,6 +15891,7 @@
       "team": "SAC",
       "gp": 73,
       "mpg": 23.9,
+      "min_total": 1745,
       "drives": {
         "drives": 3.9,
         "drive_fgm": 1.1,
@@ -15457,6 +15925,7 @@
       "team": "PHI",
       "gp": 75,
       "mpg": 29.4,
+      "min_total": 2205,
       "drives": {
         "drives": 10.1,
         "drive_fgm": 1.8,
@@ -15490,6 +15959,7 @@
       "team": "IND",
       "gp": 49,
       "mpg": 18.3,
+      "min_total": 897,
       "drives": {
         "drives": 8.2,
         "drive_fgm": 1.3,
@@ -15523,6 +15993,7 @@
       "team": "GSW",
       "gp": 67,
       "mpg": 17.3,
+      "min_total": 1159,
       "drives": {
         "drives": 1.8,
         "drive_fgm": 0.3,
@@ -15556,6 +16027,7 @@
       "team": "TOR",
       "gp": 57,
       "mpg": 30.3,
+      "min_total": 1727,
       "drives": {
         "drives": 13.0,
         "drive_fgm": 2.7,
@@ -15589,6 +16061,7 @@
       "team": "PHX",
       "gp": 55,
       "mpg": 12.2,
+      "min_total": 671,
       "drives": {
         "drives": 1.5,
         "drive_fgm": 0.2,
@@ -15622,6 +16095,7 @@
       "team": "ATL",
       "gp": 17,
       "mpg": 12.1,
+      "min_total": 206,
       "drives": {
         "drives": 4.9,
         "drive_fgm": 0.5,
@@ -15655,6 +16129,7 @@
       "team": "MEM",
       "gp": 64,
       "mpg": 16.8,
+      "min_total": 1075,
       "drives": {
         "drives": 3.6,
         "drive_fgm": 0.6,
@@ -15688,6 +16163,7 @@
       "team": "HOU",
       "gp": 82,
       "mpg": 26.2,
+      "min_total": 2148,
       "drives": {
         "drives": 6.8,
         "drive_fgm": 1.5,
@@ -15721,6 +16197,7 @@
       "team": "CLE",
       "gp": 9,
       "mpg": 6.5,
+      "min_total": 58,
       "drives": {
         "drives": 1.3,
         "drive_fgm": 0.6,
@@ -15754,6 +16231,7 @@
       "team": "CHI",
       "gp": 65,
       "mpg": 14.9,
+      "min_total": 968,
       "drives": {
         "drives": 8.8,
         "drive_fgm": 1.5,
@@ -15787,6 +16265,7 @@
       "team": "POR",
       "gp": 59,
       "mpg": 17.1,
+      "min_total": 1009,
       "drives": {
         "drives": 0.2,
         "drive_fgm": 0.0,
@@ -15820,6 +16299,7 @@
       "team": "MIN",
       "gp": 5,
       "mpg": 7.3,
+      "min_total": 36,
       "drives": {
         "drives": 0.4,
         "drive_fgm": 0.2,
@@ -15853,6 +16333,7 @@
       "team": "BOS",
       "gp": 29,
       "mpg": 10.9,
+      "min_total": 316,
       "drives": {
         "drives": 1.7,
         "drive_fgm": 0.3,
@@ -15886,6 +16367,7 @@
       "team": "DET",
       "gp": 78,
       "mpg": 19.9,
+      "min_total": 1552,
       "drives": {
         "drives": 4.4,
         "drive_fgm": 1.0,
@@ -15919,6 +16401,7 @@
       "team": "PHX",
       "gp": 78,
       "mpg": 28.4,
+      "min_total": 2215,
       "drives": {
         "drives": 2.8,
         "drive_fgm": 0.3,
@@ -15952,6 +16435,7 @@
       "team": "MIN",
       "gp": 76,
       "mpg": 31.3,
+      "min_total": 2379,
       "drives": {
         "drives": 1.0,
         "drive_fgm": 0.2,
@@ -15985,6 +16469,7 @@
       "team": "LAL",
       "gp": 68,
       "mpg": 28.3,
+      "min_total": 1924,
       "drives": {
         "drives": 3.2,
         "drive_fgm": 1.1,
@@ -16018,6 +16503,7 @@
       "team": "SAC",
       "gp": 64,
       "mpg": 28.9,
+      "min_total": 1850,
       "drives": {
         "drives": 15.0,
         "drive_fgm": 2.4,
@@ -16051,6 +16537,7 @@
       "team": "PHX",
       "gp": 70,
       "mpg": 19.4,
+      "min_total": 1358,
       "drives": {
         "drives": 2.8,
         "drive_fgm": 0.3,
@@ -16084,6 +16571,7 @@
       "team": "CHA",
       "gp": 69,
       "mpg": 21.4,
+      "min_total": 1477,
       "drives": {
         "drives": 0.0,
         "drive_fgm": 0.0,
@@ -16117,6 +16605,7 @@
       "team": "DAL",
       "gp": 60,
       "mpg": 19.5,
+      "min_total": 1170,
       "drives": {
         "drives": 9.8,
         "drive_fgm": 1.5,
@@ -16150,6 +16639,7 @@
       "team": "MIL",
       "gp": 74,
       "mpg": 32.1,
+      "min_total": 2375,
       "drives": {
         "drives": 15.7,
         "drive_fgm": 3.2,
@@ -16183,6 +16673,7 @@
       "team": "NOP",
       "gp": 72,
       "mpg": 31.2,
+      "min_total": 2246,
       "drives": {
         "drives": 8.0,
         "drive_fgm": 2.0,
@@ -16216,6 +16707,7 @@
       "team": "BOS",
       "gp": 78,
       "mpg": 24.8,
+      "min_total": 1934,
       "drives": {
         "drives": 1.5,
         "drive_fgm": 0.3,
@@ -16249,6 +16741,7 @@
       "team": "CLE",
       "gp": 52,
       "mpg": 26.5,
+      "min_total": 1378,
       "drives": {
         "drives": 4.2,
         "drive_fgm": 0.8,
@@ -16282,6 +16775,7 @@
       "team": "TOR",
       "gp": 80,
       "mpg": 21.9,
+      "min_total": 1752,
       "drives": {
         "drives": 3.4,
         "drive_fgm": 0.7,
@@ -16315,6 +16809,7 @@
       "team": "MEM",
       "gp": 43,
       "mpg": 27.9,
+      "min_total": 1200,
       "drives": {
         "drives": 7.3,
         "drive_fgm": 1.6,
@@ -16348,6 +16843,7 @@
       "team": "POR",
       "gp": 30,
       "mpg": 24.9,
+      "min_total": 747,
       "drives": {
         "drives": 14.0,
         "drive_fgm": 2.0,
@@ -16381,6 +16877,7 @@
       "team": "TOR",
       "gp": 80,
       "mpg": 33.5,
+      "min_total": 2680,
       "drives": {
         "drives": 12.0,
         "drive_fgm": 2.7,
@@ -16414,6 +16911,7 @@
       "team": "MEM",
       "gp": 10,
       "mpg": 21.2,
+      "min_total": 212,
       "drives": {
         "drives": 11.7,
         "drive_fgm": 1.9,
@@ -16447,6 +16945,7 @@
       "team": "LAC",
       "gp": 7,
       "mpg": 4.4,
+      "min_total": 31,
       "drives": {
         "drives": 1.7,
         "drive_fgm": 0.3,
@@ -16480,6 +16979,7 @@
       "team": "GSW",
       "gp": 10,
       "mpg": 13.3,
+      "min_total": 133,
       "drives": {
         "drives": 2.2,
         "drive_fgm": 0.4,
@@ -16513,6 +17013,7 @@
       "team": "POR",
       "gp": 50,
       "mpg": 29.4,
+      "min_total": 1470,
       "drives": {
         "drives": 14.9,
         "drive_fgm": 3.6,
@@ -16546,6 +17047,7 @@
       "team": "OKC",
       "gp": 68,
       "mpg": 33.2,
+      "min_total": 2258,
       "drives": {
         "drives": 25.8,
         "drive_fgm": 6.6,
@@ -16579,6 +17081,7 @@
       "team": "WAS",
       "gp": 41,
       "mpg": 17.1,
+      "min_total": 701,
       "drives": {
         "drives": 8.8,
         "drive_fgm": 1.9,
@@ -16612,6 +17115,7 @@
       "team": "POR",
       "gp": 75,
       "mpg": 19.1,
+      "min_total": 1432,
       "drives": {
         "drives": 3.5,
         "drive_fgm": 0.5,
@@ -16645,6 +17149,7 @@
       "team": "MIA",
       "gp": 70,
       "mpg": 16.8,
+      "min_total": 1176,
       "drives": {
         "drives": 3.5,
         "drive_fgm": 0.4,
@@ -16678,6 +17183,7 @@
       "team": "CHA",
       "gp": 82,
       "mpg": 22.5,
+      "min_total": 1845,
       "drives": {
         "drives": 3.8,
         "drive_fgm": 0.4,
@@ -16711,6 +17217,7 @@
       "team": "WAS",
       "gp": 3,
       "mpg": 12.5,
+      "min_total": 38,
       "drives": {
         "drives": 0.0,
         "drive_fgm": 0.0,
@@ -16744,6 +17251,7 @@
       "team": "DEN",
       "gp": 64,
       "mpg": 22.1,
+      "min_total": 1414,
       "drives": {
         "drives": 0.8,
         "drive_fgm": 0.2,
@@ -16777,6 +17285,7 @@
       "team": "SAS",
       "gp": 2,
       "mpg": 3.3,
+      "min_total": 7,
       "drives": {
         "drives": 0.5,
         "drive_fgm": 0.5,
@@ -16810,6 +17319,7 @@
       "team": "GSW",
       "gp": 43,
       "mpg": 30.9,
+      "min_total": 1329,
       "drives": {
         "drives": 11.2,
         "drive_fgm": 2.5,
@@ -16843,6 +17353,7 @@
       "team": "SAS",
       "gp": 68,
       "mpg": 30.0,
+      "min_total": 2040,
       "drives": {
         "drives": 17.6,
         "drive_fgm": 2.8,
@@ -16876,6 +17387,7 @@
       "team": "HOU",
       "gp": 32,
       "mpg": 22.8,
+      "min_total": 730,
       "drives": {
         "drives": 0.5,
         "drive_fgm": 0.1,
@@ -16909,6 +17421,7 @@
       "team": "UTA",
       "gp": 50,
       "mpg": 23.1,
+      "min_total": 1155,
       "drives": {
         "drives": 3.6,
         "drive_fgm": 0.7,
@@ -16942,6 +17455,7 @@
       "team": "IND",
       "gp": 56,
       "mpg": 17.2,
+      "min_total": 963,
       "drives": {
         "drives": 14.5,
         "drive_fgm": 3.2,
@@ -16975,6 +17489,7 @@
       "team": "IND",
       "gp": 38,
       "mpg": 13.0,
+      "min_total": 494,
       "drives": {
         "drives": 1.3,
         "drive_fgm": 0.1,
@@ -17008,6 +17523,7 @@
       "team": "MEM",
       "gp": 10,
       "mpg": 9.7,
+      "min_total": 97,
       "drives": {
         "drives": 0.4,
         "drive_fgm": 0.1,
@@ -17041,6 +17557,7 @@
       "team": "HOU",
       "gp": 60,
       "mpg": 25.8,
+      "min_total": 1548,
       "drives": {
         "drives": 4.8,
         "drive_fgm": 0.8,
@@ -17074,6 +17591,7 @@
       "team": "MIL",
       "gp": 26,
       "mpg": 23.5,
+      "min_total": 611,
       "drives": {
         "drives": 3.4,
         "drive_fgm": 0.8,
@@ -17107,6 +17625,7 @@
       "team": "MEM",
       "gp": 59,
       "mpg": 19.0,
+      "min_total": 1121,
       "drives": {
         "drives": 2.4,
         "drive_fgm": 0.6,
@@ -17140,6 +17659,7 @@
       "team": "BKN",
       "gp": 63,
       "mpg": 24.3,
+      "min_total": 1531,
       "drives": {
         "drives": 6.7,
         "drive_fgm": 1.0,
@@ -17173,6 +17693,7 @@
       "team": "MIN",
       "gp": 43,
       "mpg": 12.5,
+      "min_total": 538,
       "drives": {
         "drives": 4.5,
         "drive_fgm": 0.7,
@@ -17206,6 +17727,7 @@
       "team": "MIL",
       "gp": 34,
       "mpg": 4.4,
+      "min_total": 150,
       "drives": {
         "drives": 1.2,
         "drive_fgm": 0.1,
@@ -17239,6 +17761,7 @@
       "team": "CLE",
       "gp": 60,
       "mpg": 12.2,
+      "min_total": 732,
       "drives": {
         "drives": 0.2,
         "drive_fgm": 0.0,
@@ -17272,6 +17795,7 @@
       "team": "CHA",
       "gp": 37,
       "mpg": 15.6,
+      "min_total": 577,
       "drives": {
         "drives": 2.2,
         "drive_fgm": 0.4,
@@ -17305,6 +17829,7 @@
       "team": "DEN",
       "gp": 80,
       "mpg": 26.6,
+      "min_total": 2128,
       "drives": {
         "drives": 2.7,
         "drive_fgm": 0.7,
@@ -17338,6 +17863,7 @@
       "team": "DET",
       "gp": 63,
       "mpg": 27.7,
+      "min_total": 1745,
       "drives": {
         "drives": 6.7,
         "drive_fgm": 1.5,
@@ -17371,6 +17897,7 @@
       "team": "MEM",
       "gp": 6,
       "mpg": 36.2,
+      "min_total": 217,
       "drives": {
         "drives": 6.0,
         "drive_fgm": 1.5,
@@ -17404,6 +17931,7 @@
       "team": "DET",
       "gp": 15,
       "mpg": 9.2,
+      "min_total": 138,
       "drives": {
         "drives": 1.0,
         "drive_fgm": 0.1,
@@ -17437,6 +17965,7 @@
       "team": "ATL",
       "gp": 40,
       "mpg": 11.3,
+      "min_total": 452,
       "drives": {
         "drives": 0.5,
         "drive_fgm": 0.2,
@@ -17470,6 +17999,7 @@
       "team": "CHA",
       "gp": 5,
       "mpg": 1.5,
+      "min_total": 8,
       "drives": {
         "drives": 0.2,
         "drive_fgm": 0.0,
@@ -17503,6 +18033,7 @@
       "team": "POR",
       "gp": 82,
       "mpg": 33.3,
+      "min_total": 2731,
       "drives": {
         "drives": 6.0,
         "drive_fgm": 0.7,
@@ -17536,6 +18067,7 @@
       "team": "WAS",
       "gp": 15,
       "mpg": 25.6,
+      "min_total": 384,
       "drives": {
         "drives": 14.4,
         "drive_fgm": 3.1,
@@ -17569,6 +18101,7 @@
       "team": "TOR",
       "gp": 53,
       "mpg": 9.4,
+      "min_total": 498,
       "drives": {
         "drives": 0.5,
         "drive_fgm": 0.0,
@@ -17602,6 +18135,7 @@
       "team": "WAS",
       "gp": 60,
       "mpg": 24.0,
+      "min_total": 1440,
       "drives": {
         "drives": 8.1,
         "drive_fgm": 1.9,
@@ -17635,6 +18169,7 @@
       "team": "CHI",
       "gp": 65,
       "mpg": 27.0,
+      "min_total": 1755,
       "drives": {
         "drives": 18.5,
         "drive_fgm": 3.4,
@@ -17668,6 +18203,7 @@
       "team": "CHA",
       "gp": 53,
       "mpg": 12.6,
+      "min_total": 668,
       "drives": {
         "drives": 5.9,
         "drive_fgm": 0.9,
@@ -17701,6 +18237,7 @@
       "team": "PHI",
       "gp": 53,
       "mpg": 16.3,
+      "min_total": 864,
       "drives": {
         "drives": 5.7,
         "drive_fgm": 1.4,
@@ -17734,6 +18271,7 @@
       "team": "CHI",
       "gp": 2,
       "mpg": 2.8,
+      "min_total": 6,
       "drives": {
         "drives": 0.5,
         "drive_fgm": 0.0,
@@ -17767,6 +18305,7 @@
       "team": "BKN",
       "gp": 6,
       "mpg": 30.4,
+      "min_total": 182,
       "drives": {
         "drives": 1.7,
         "drive_fgm": 0.0,
@@ -17800,6 +18339,7 @@
       "team": "MIA",
       "gp": 8,
       "mpg": 1.9,
+      "min_total": 15,
       "drives": {
         "drives": 0.4,
         "drive_fgm": 0.1,
@@ -17833,6 +18373,7 @@
       "team": "NOP",
       "gp": 9,
       "mpg": 12.3,
+      "min_total": 111,
       "drives": {
         "drives": 4.4,
         "drive_fgm": 1.1,
@@ -17866,6 +18407,7 @@
       "team": "NYK",
       "gp": 13,
       "mpg": 6.3,
+      "min_total": 82,
       "drives": {
         "drives": 0.4,
         "drive_fgm": 0.2,
@@ -17899,6 +18441,7 @@
       "team": "NOP",
       "gp": 66,
       "mpg": 35.5,
+      "min_total": 2343,
       "drives": {
         "drives": 9.3,
         "drive_fgm": 1.9,
@@ -17932,6 +18475,7 @@
       "team": "CLE",
       "gp": 9,
       "mpg": 9.5,
+      "min_total": 86,
       "drives": {
         "drives": 1.7,
         "drive_fgm": 0.2,
@@ -17965,6 +18509,7 @@
       "team": "WAS",
       "gp": 49,
       "mpg": 13.7,
+      "min_total": 671,
       "drives": {
         "drives": 2.1,
         "drive_fgm": 0.6,
@@ -17998,6 +18543,7 @@
       "team": "ORL",
       "gp": 77,
       "mpg": 24.7,
+      "min_total": 1902,
       "drives": {
         "drives": 4.2,
         "drive_fgm": 0.9,
@@ -18031,6 +18577,7 @@
       "team": "HOU",
       "gp": 1,
       "mpg": 12.0,
+      "min_total": 12,
       "drives": {
         "drives": 0.0,
         "drive_fgm": 0.0,
@@ -18064,6 +18611,7 @@
       "team": "MEM",
       "gp": 15,
       "mpg": 22.6,
+      "min_total": 339,
       "drives": {
         "drives": 14.2,
         "drive_fgm": 3.3,
@@ -18097,6 +18645,7 @@
       "team": "LAC",
       "gp": 16,
       "mpg": 5.5,
+      "min_total": 88,
       "drives": {
         "drives": 1.6,
         "drive_fgm": 0.3,
@@ -18130,6 +18679,7 @@
       "team": "MEM",
       "gp": 12,
       "mpg": 25.6,
+      "min_total": 307,
       "drives": {
         "drives": 4.8,
         "drive_fgm": 1.0,
@@ -18163,6 +18713,7 @@
       "team": "MIA",
       "gp": 33,
       "mpg": 31.3,
+      "min_total": 1033,
       "drives": {
         "drives": 14.3,
         "drive_fgm": 3.9,
@@ -18196,6 +18747,7 @@
       "team": "NYK",
       "gp": 62,
       "mpg": 11.7,
+      "min_total": 725,
       "drives": {
         "drives": 5.6,
         "drive_fgm": 0.8,
@@ -18229,6 +18781,7 @@
       "team": "DAL",
       "gp": 12,
       "mpg": 13.8,
+      "min_total": 166,
       "drives": {
         "drives": 0.7,
         "drive_fgm": 0.2,
@@ -18262,6 +18815,7 @@
       "team": "PHI",
       "gp": 46,
       "mpg": 16.9,
+      "min_total": 777,
       "drives": {
         "drives": 4.8,
         "drive_fgm": 0.6,
@@ -18295,6 +18849,7 @@
       "team": "PHI",
       "gp": 70,
       "mpg": 38.0,
+      "min_total": 2660,
       "drives": {
         "drives": 18.9,
         "drive_fgm": 4.7,
@@ -18328,6 +18883,7 @@
       "team": "CLE",
       "gp": 50,
       "mpg": 10.9,
+      "min_total": 545,
       "drives": {
         "drives": 3.6,
         "drive_fgm": 0.6,
@@ -18361,6 +18917,7 @@
       "team": "BKN",
       "gp": 24,
       "mpg": 15.8,
+      "min_total": 379,
       "drives": {
         "drives": 4.0,
         "drive_fgm": 0.5,
@@ -18394,6 +18951,7 @@
       "team": "DEN",
       "gp": 67,
       "mpg": 14.6,
+      "min_total": 978,
       "drives": {
         "drives": 2.3,
         "drive_fgm": 0.4,
@@ -18427,6 +18985,7 @@
       "team": "PHI",
       "gp": 75,
       "mpg": 35.0,
+      "min_total": 2625,
       "drives": {
         "drives": 10.8,
         "drive_fgm": 2.5,
@@ -18460,6 +19019,7 @@
       "team": "SAS",
       "gp": 64,
       "mpg": 29.2,
+      "min_total": 1869,
       "drives": {
         "drives": 7.6,
         "drive_fgm": 1.7,
@@ -18493,6 +19053,7 @@
       "team": "UTA",
       "gp": 40,
       "mpg": 20.5,
+      "min_total": 820,
       "drives": {
         "drives": 7.0,
         "drive_fgm": 0.7,
@@ -18526,6 +19087,7 @@
       "team": "MIA",
       "gp": 9,
       "mpg": 2.7,
+      "min_total": 24,
       "drives": {
         "drives": 0.0,
         "drive_fgm": 0.0,
@@ -18559,6 +19121,7 @@
       "team": "POR",
       "gp": 65,
       "mpg": 21.4,
+      "min_total": 1391,
       "drives": {
         "drives": 3.8,
         "drive_fgm": 0.7,
@@ -18592,6 +19155,7 @@
       "team": "UTA",
       "gp": 5,
       "mpg": 30.8,
+      "min_total": 154,
       "drives": {
         "drives": 0.8,
         "drive_fgm": 0.0,
@@ -18625,6 +19189,7 @@
       "team": "MEM",
       "gp": 69,
       "mpg": 20.4,
+      "min_total": 1408,
       "drives": {
         "drives": 9.9,
         "drive_fgm": 1.1,
@@ -18658,6 +19223,7 @@
       "team": "ORL",
       "gp": 78,
       "mpg": 29.3,
+      "min_total": 2285,
       "drives": {
         "drives": 1.8,
         "drive_fgm": 0.5,
@@ -18691,6 +19257,7 @@
       "team": "DET",
       "gp": 6,
       "mpg": 9.9,
+      "min_total": 59,
       "drives": {
         "drives": 1.5,
         "drive_fgm": 0.2,
@@ -18724,6 +19291,7 @@
       "team": "GSW",
       "gp": 69,
       "mpg": 20.0,
+      "min_total": 1380,
       "drives": {
         "drives": 1.4,
         "drive_fgm": 0.1,
@@ -18757,6 +19325,7 @@
       "team": "WAS",
       "gp": 74,
       "mpg": 22.1,
+      "min_total": 1635,
       "drives": {
         "drives": 7.2,
         "drive_fgm": 1.5,
@@ -18790,6 +19359,7 @@
       "team": "CHA",
       "gp": 30,
       "mpg": 6.1,
+      "min_total": 183,
       "drives": {
         "drives": 0.2,
         "drive_fgm": 0.1,
@@ -18823,6 +19393,7 @@
       "team": "POR",
       "gp": 43,
       "mpg": 7.0,
+      "min_total": 301,
       "drives": {
         "drives": 0.4,
         "drive_fgm": 0.0,
@@ -18856,6 +19427,7 @@
       "team": "LAC",
       "gp": 41,
       "mpg": 10.3,
+      "min_total": 422,
       "drives": {
         "drives": 0.5,
         "drive_fgm": 0.2,
@@ -18889,6 +19461,7 @@
       "team": "CHI",
       "gp": 18,
       "mpg": 11.6,
+      "min_total": 209,
       "drives": {
         "drives": 5.3,
         "drive_fgm": 0.3,
@@ -18922,6 +19495,7 @@
       "team": "NOP",
       "gp": 66,
       "mpg": 19.7,
+      "min_total": 1300,
       "drives": {
         "drives": 2.1,
         "drive_fgm": 0.6,
@@ -18955,6 +19529,7 @@
       "team": "ATL",
       "gp": 67,
       "mpg": 22.4,
+      "min_total": 1501,
       "drives": {
         "drives": 3.5,
         "drive_fgm": 0.7,
@@ -18988,6 +19563,7 @@
       "team": "CHI",
       "gp": 10,
       "mpg": 18.4,
+      "min_total": 184,
       "drives": {
         "drives": 1.2,
         "drive_fgm": 0.2,
@@ -19021,6 +19597,7 @@
       "team": "MEM",
       "gp": 11,
       "mpg": 25.8,
+      "min_total": 284,
       "drives": {
         "drives": 0.2,
         "drive_fgm": 0.0,
@@ -19054,6 +19631,7 @@
       "team": "SAC",
       "gp": 39,
       "mpg": 31.4,
+      "min_total": 1225,
       "drives": {
         "drives": 9.9,
         "drive_fgm": 2.3,
@@ -19087,6 +19665,7 @@
       "team": "DEN",
       "gp": 52,
       "mpg": 12.0,
+      "min_total": 624,
       "drives": {
         "drives": 0.4,
         "drive_fgm": 0.2,
@@ -19120,6 +19699,7 @@
       "team": "BKN",
       "gp": 56,
       "mpg": 22.9,
+      "min_total": 1282,
       "drives": {
         "drives": 3.9,
         "drive_fgm": 0.9,
@@ -19153,6 +19733,7 @@
       "team": "NOP",
       "gp": 62,
       "mpg": 29.7,
+      "min_total": 1841,
       "drives": {
         "drives": 16.5,
         "drive_fgm": 4.1,
@@ -19186,6 +19767,7 @@
       "team": "MIN",
       "gp": 5,
       "mpg": 8.5,
+      "min_total": 42,
       "drives": {
         "drives": 4.0,
         "drive_fgm": 1.2,

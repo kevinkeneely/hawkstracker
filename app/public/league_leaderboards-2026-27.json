@@ -1,6 +1,6 @@
 {
   "season": "2026-27",
-  "generated_at": "2026-11-03T02:18:49.650252-05:00",
+  "generated_at": "2026-11-03T08:12:01.341157+00:00",
   "min_gp": 5,
   "min_fga_per_zone": {
     "at_rim": 15,
@@ -94,12 +94,17 @@
         "rpg": 2.1
       },
       "hustle": {
-        "contested_shots": 2.0,
+        "contested_shots": 1.86,
+        "contested_shots_2pt": 0.86,
+        "contested_shots_3pt": 1.0,
         "deflections": 0.0,
-        "box_outs": 0.0,
-        "loose_balls_recovered": 0.33,
+        "box_outs": 0.14,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.0,
+        "loose_balls_recovered": 0.29,
         "charges_drawn": 0.0,
-        "screen_assists": 0.33
+        "screen_assists": 0.29,
+        "screen_ast_pts": 0.57
       }
     },
     {
@@ -166,12 +171,17 @@
         "rpg": 6.0
       },
       "hustle": {
-        "contested_shots": 2.8,
-        "deflections": 0.8,
-        "box_outs": 0.4,
-        "loose_balls_recovered": 0.6,
+        "contested_shots": 3.17,
+        "contested_shots_2pt": 2.33,
+        "contested_shots_3pt": 0.83,
+        "deflections": 0.83,
+        "box_outs": 0.5,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.667,
+        "loose_balls_recovered": 0.5,
         "charges_drawn": 0.0,
-        "screen_assists": 0.6
+        "screen_assists": 0.67,
+        "screen_ast_pts": 1.0
       }
     },
     {
@@ -239,11 +249,16 @@
       },
       "hustle": {
         "contested_shots": 3.33,
+        "contested_shots_2pt": 1.83,
+        "contested_shots_3pt": 1.5,
         "deflections": 1.0,
         "box_outs": 0.5,
+        "pct_box_outs_off": 0.333,
+        "pct_box_outs_def": 0.667,
         "loose_balls_recovered": 0.33,
         "charges_drawn": 0.5,
-        "screen_assists": 0.33
+        "screen_assists": 0.33,
+        "screen_ast_pts": 0.83
       }
     },
     {
@@ -310,12 +325,17 @@
         "rpg": 3.6
       },
       "hustle": {
-        "contested_shots": 3.14,
-        "deflections": 2.0,
-        "box_outs": 0.43,
-        "loose_balls_recovered": 0.71,
+        "contested_shots": 2.88,
+        "contested_shots_2pt": 2.0,
+        "contested_shots_3pt": 0.88,
+        "deflections": 1.63,
+        "box_outs": 0.38,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
+        "loose_balls_recovered": 0.63,
         "charges_drawn": 0.0,
-        "screen_assists": 0.29
+        "screen_assists": 0.25,
+        "screen_ast_pts": 0.63
       }
     },
     {
@@ -382,12 +402,17 @@
         "rpg": 7.6
       },
       "hustle": {
-        "contested_shots": 6.5,
-        "deflections": 1.17,
-        "box_outs": 0.33,
-        "loose_balls_recovered": 0.83,
+        "contested_shots": 6.0,
+        "contested_shots_2pt": 3.71,
+        "contested_shots_3pt": 2.29,
+        "deflections": 1.29,
+        "box_outs": 0.29,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
+        "loose_balls_recovered": 0.71,
         "charges_drawn": 0.0,
-        "screen_assists": 0.0
+        "screen_assists": 0.0,
+        "screen_ast_pts": 0.0
       }
     },
     {
@@ -454,12 +479,17 @@
         "rpg": 5.6
       },
       "hustle": {
-        "contested_shots": 7.83,
-        "deflections": 0.67,
-        "box_outs": 0.5,
+        "contested_shots": 7.71,
+        "contested_shots_2pt": 6.0,
+        "contested_shots_3pt": 1.71,
+        "deflections": 0.57,
+        "box_outs": 0.71,
+        "pct_box_outs_off": 0.4,
+        "pct_box_outs_def": 0.2,
         "loose_balls_recovered": 0.0,
         "charges_drawn": 0.0,
-        "screen_assists": 3.17
+        "screen_assists": 3.0,
+        "screen_ast_pts": 6.14
       }
     },
     {
@@ -526,12 +556,17 @@
         "rpg": 4.1
       },
       "hustle": {
-        "contested_shots": 6.43,
-        "deflections": 1.14,
-        "box_outs": 0.71,
-        "loose_balls_recovered": 0.43,
+        "contested_shots": 6.13,
+        "contested_shots_2pt": 4.0,
+        "contested_shots_3pt": 2.13,
+        "deflections": 1.0,
+        "box_outs": 0.88,
+        "pct_box_outs_off": 0.143,
+        "pct_box_outs_def": 0.571,
+        "loose_balls_recovered": 0.38,
         "charges_drawn": 0.0,
-        "screen_assists": 1.71
+        "screen_assists": 1.63,
+        "screen_ast_pts": 3.63
       }
     },
     {
@@ -598,12 +633,17 @@
         "rpg": 3.6
       },
       "hustle": {
-        "contested_shots": 3.17,
-        "deflections": 3.17,
-        "box_outs": 0.33,
-        "loose_balls_recovered": 0.33,
+        "contested_shots": 3.86,
+        "contested_shots_2pt": 2.43,
+        "contested_shots_3pt": 1.43,
+        "deflections": 2.86,
+        "box_outs": 0.29,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
+        "loose_balls_recovered": 0.29,
         "charges_drawn": 0.0,
-        "screen_assists": 0.17
+        "screen_assists": 0.14,
+        "screen_ast_pts": 0.29
       }
     },
     {
@@ -671,11 +711,16 @@
       },
       "hustle": {
         "contested_shots": 6.17,
+        "contested_shots_2pt": 3.83,
+        "contested_shots_3pt": 2.33,
         "deflections": 1.17,
         "box_outs": 1.5,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
         "loose_balls_recovered": 0.0,
         "charges_drawn": 0.0,
-        "screen_assists": 1.67
+        "screen_assists": 1.67,
+        "screen_ast_pts": 3.67
       }
     },
     {
@@ -742,12 +787,17 @@
         "rpg": 5.5
       },
       "hustle": {
-        "contested_shots": 8.5,
+        "contested_shots": 8.67,
+        "contested_shots_2pt": 5.83,
+        "contested_shots_3pt": 2.83,
         "deflections": 2.5,
-        "box_outs": 1.5,
+        "box_outs": 1.67,
+        "pct_box_outs_off": 0.3,
+        "pct_box_outs_def": 0.6,
         "loose_balls_recovered": 0.17,
         "charges_drawn": 0.0,
-        "screen_assists": 1.33
+        "screen_assists": 1.33,
+        "screen_ast_pts": 2.83
       }
     },
     {
@@ -815,11 +865,16 @@
       },
       "hustle": {
         "contested_shots": 1.0,
+        "contested_shots_2pt": 0.5,
+        "contested_shots_3pt": 0.5,
         "deflections": 1.0,
         "box_outs": 0.0,
-        "loose_balls_recovered": 0.33,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.0,
+        "loose_balls_recovered": 0.25,
         "charges_drawn": 0.0,
-        "screen_assists": 0.0
+        "screen_assists": 0.0,
+        "screen_ast_pts": 0.0
       }
     },
     {
@@ -886,12 +941,17 @@
         "rpg": 2.6
       },
       "hustle": {
-        "contested_shots": 3.8,
-        "deflections": 1.0,
-        "box_outs": 0.6,
-        "loose_balls_recovered": 0.2,
+        "contested_shots": 2.86,
+        "contested_shots_2pt": 2.14,
+        "contested_shots_3pt": 0.71,
+        "deflections": 0.86,
+        "box_outs": 0.43,
+        "pct_box_outs_off": 0.667,
+        "pct_box_outs_def": 0.333,
+        "loose_balls_recovered": 0.14,
         "charges_drawn": 0.0,
-        "screen_assists": 0.2
+        "screen_assists": 0.29,
+        "screen_ast_pts": 0.43
       }
     },
     {
@@ -958,12 +1018,17 @@
         "rpg": 8.7
       },
       "hustle": {
-        "contested_shots": 8.6,
-        "deflections": 1.8,
-        "box_outs": 1.6,
-        "loose_balls_recovered": 0.6,
-        "charges_drawn": 0.2,
-        "screen_assists": 4.0
+        "contested_shots": 8.0,
+        "contested_shots_2pt": 5.83,
+        "contested_shots_3pt": 2.17,
+        "deflections": 1.67,
+        "box_outs": 1.5,
+        "pct_box_outs_off": 0.333,
+        "pct_box_outs_def": 0.556,
+        "loose_balls_recovered": 0.67,
+        "charges_drawn": 0.17,
+        "screen_assists": 4.0,
+        "screen_ast_pts": 7.5
       }
     },
     {
@@ -1030,12 +1095,17 @@
         "rpg": 6.1
       },
       "hustle": {
-        "contested_shots": 2.57,
-        "deflections": 1.57,
-        "box_outs": 0.29,
-        "loose_balls_recovered": 0.71,
-        "charges_drawn": 0.14,
-        "screen_assists": 0.57
+        "contested_shots": 2.5,
+        "contested_shots_2pt": 1.25,
+        "contested_shots_3pt": 1.25,
+        "deflections": 1.5,
+        "box_outs": 0.25,
+        "pct_box_outs_off": 1.0,
+        "pct_box_outs_def": 0.0,
+        "loose_balls_recovered": 0.75,
+        "charges_drawn": 0.13,
+        "screen_assists": 0.5,
+        "screen_ast_pts": 1.38
       }
     },
     {
@@ -1102,12 +1172,17 @@
         "rpg": 7.6
       },
       "hustle": {
-        "contested_shots": 3.83,
-        "deflections": 0.5,
-        "box_outs": 1.67,
-        "loose_balls_recovered": 0.17,
+        "contested_shots": 3.71,
+        "contested_shots_2pt": 2.86,
+        "contested_shots_3pt": 0.86,
+        "deflections": 0.43,
+        "box_outs": 1.43,
+        "pct_box_outs_off": 0.8,
+        "pct_box_outs_def": 0.2,
+        "loose_balls_recovered": 0.29,
         "charges_drawn": 0.0,
-        "screen_assists": 2.0
+        "screen_assists": 1.86,
+        "screen_ast_pts": 3.71
       }
     },
     {
@@ -1175,11 +1250,16 @@
       },
       "hustle": {
         "contested_shots": 3.83,
+        "contested_shots_2pt": 2.17,
+        "contested_shots_3pt": 1.67,
         "deflections": 1.33,
         "box_outs": 0.17,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
         "loose_balls_recovered": 0.0,
         "charges_drawn": 0.0,
-        "screen_assists": 0.5
+        "screen_assists": 0.5,
+        "screen_ast_pts": 1.17
       }
     },
     {
@@ -1246,12 +1326,17 @@
         "rpg": 2.6
       },
       "hustle": {
-        "contested_shots": 6.0,
-        "deflections": 1.83,
-        "box_outs": 1.17,
-        "loose_balls_recovered": 0.67,
+        "contested_shots": 5.71,
+        "contested_shots_2pt": 3.29,
+        "contested_shots_3pt": 2.43,
+        "deflections": 2.0,
+        "box_outs": 1.14,
+        "pct_box_outs_off": 0.125,
+        "pct_box_outs_def": 0.75,
+        "loose_balls_recovered": 0.71,
         "charges_drawn": 0.0,
-        "screen_assists": 0.0
+        "screen_assists": 0.0,
+        "screen_ast_pts": 0.0
       }
     },
     {
@@ -1318,12 +1403,17 @@
         "rpg": 2.0
       },
       "hustle": {
-        "contested_shots": 2.29,
-        "deflections": 1.29,
-        "box_outs": 0.14,
-        "loose_balls_recovered": 0.57,
+        "contested_shots": 2.38,
+        "contested_shots_2pt": 1.75,
+        "contested_shots_3pt": 0.63,
+        "deflections": 1.13,
+        "box_outs": 0.13,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
+        "loose_balls_recovered": 0.5,
         "charges_drawn": 0.0,
-        "screen_assists": 0.0
+        "screen_assists": 0.0,
+        "screen_ast_pts": 0.0
       }
     },
     {
@@ -1390,12 +1480,17 @@
         "rpg": 9.1
       },
       "hustle": {
-        "contested_shots": 8.33,
-        "deflections": 2.67,
-        "box_outs": 1.67,
-        "loose_balls_recovered": 0.83,
+        "contested_shots": 7.57,
+        "contested_shots_2pt": 3.43,
+        "contested_shots_3pt": 4.14,
+        "deflections": 2.71,
+        "box_outs": 1.43,
+        "pct_box_outs_off": 0.2,
+        "pct_box_outs_def": 0.8,
+        "loose_balls_recovered": 0.86,
         "charges_drawn": 0.0,
-        "screen_assists": 1.67
+        "screen_assists": 1.57,
+        "screen_ast_pts": 3.0
       }
     },
     {
@@ -1462,12 +1557,17 @@
         "rpg": 7.2
       },
       "hustle": {
-        "contested_shots": 4.2,
-        "deflections": 3.8,
-        "box_outs": 0.4,
-        "loose_balls_recovered": 1.4,
+        "contested_shots": 4.17,
+        "contested_shots_2pt": 2.17,
+        "contested_shots_3pt": 2.0,
+        "deflections": 3.67,
+        "box_outs": 0.33,
+        "pct_box_outs_off": 0.5,
+        "pct_box_outs_def": 0.5,
+        "loose_balls_recovered": 1.33,
         "charges_drawn": 0.0,
-        "screen_assists": 1.0
+        "screen_assists": 1.0,
+        "screen_ast_pts": 2.33
       }
     },
     {
@@ -1534,12 +1634,17 @@
         "rpg": 3.3
       },
       "hustle": {
-        "contested_shots": 1.71,
-        "deflections": 1.14,
-        "box_outs": 0.14,
-        "loose_balls_recovered": 0.57,
-        "charges_drawn": 0.14,
-        "screen_assists": 0.29
+        "contested_shots": 1.88,
+        "contested_shots_2pt": 1.0,
+        "contested_shots_3pt": 0.88,
+        "deflections": 1.13,
+        "box_outs": 0.25,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.5,
+        "loose_balls_recovered": 0.75,
+        "charges_drawn": 0.25,
+        "screen_assists": 0.38,
+        "screen_ast_pts": 0.5
       }
     },
     {
@@ -1606,12 +1711,17 @@
         "rpg": 5.9
       },
       "hustle": {
-        "contested_shots": 3.14,
-        "deflections": 1.57,
-        "box_outs": 0.43,
-        "loose_balls_recovered": 0.43,
+        "contested_shots": 3.0,
+        "contested_shots_2pt": 1.63,
+        "contested_shots_3pt": 1.38,
+        "deflections": 1.5,
+        "box_outs": 0.38,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
+        "loose_balls_recovered": 0.38,
         "charges_drawn": 0.0,
-        "screen_assists": 0.0
+        "screen_assists": 0.0,
+        "screen_ast_pts": 0.0
       }
     },
     {
@@ -1678,12 +1788,17 @@
         "rpg": 2.3
       },
       "hustle": {
-        "contested_shots": 3.67,
-        "deflections": 1.33,
-        "box_outs": 0.33,
-        "loose_balls_recovered": 0.0,
+        "contested_shots": 3.5,
+        "contested_shots_2pt": 2.0,
+        "contested_shots_3pt": 1.5,
+        "deflections": 1.0,
+        "box_outs": 0.25,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
+        "loose_balls_recovered": 0.25,
         "charges_drawn": 0.0,
-        "screen_assists": 0.67
+        "screen_assists": 0.5,
+        "screen_ast_pts": 1.25
       }
     },
     {
@@ -1750,12 +1865,17 @@
         "rpg": 8.0
       },
       "hustle": {
-        "contested_shots": 7.17,
-        "deflections": 4.67,
-        "box_outs": 1.83,
-        "loose_balls_recovered": 0.33,
+        "contested_shots": 6.57,
+        "contested_shots_2pt": 3.29,
+        "contested_shots_3pt": 3.29,
+        "deflections": 4.43,
+        "box_outs": 1.57,
+        "pct_box_outs_off": 0.364,
+        "pct_box_outs_def": 0.636,
+        "loose_balls_recovered": 0.29,
         "charges_drawn": 0.0,
-        "screen_assists": 2.5
+        "screen_assists": 2.14,
+        "screen_ast_pts": 5.43
       }
     },
     {
@@ -1822,12 +1942,17 @@
         "rpg": 3.3
       },
       "hustle": {
-        "contested_shots": 1.5,
-        "deflections": 2.17,
-        "box_outs": 0.17,
-        "loose_balls_recovered": 0.17,
-        "charges_drawn": 0.0,
-        "screen_assists": 0.33
+        "contested_shots": 1.86,
+        "contested_shots_2pt": 0.86,
+        "contested_shots_3pt": 1.0,
+        "deflections": 2.43,
+        "box_outs": 0.14,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
+        "loose_balls_recovered": 0.29,
+        "charges_drawn": 0.14,
+        "screen_assists": 0.29,
+        "screen_ast_pts": 0.71
       }
     },
     {
@@ -1894,12 +2019,17 @@
         "rpg": 2.0
       },
       "hustle": {
-        "contested_shots": 0.83,
-        "deflections": 0.5,
+        "contested_shots": 0.86,
+        "contested_shots_2pt": 0.43,
+        "contested_shots_3pt": 0.43,
+        "deflections": 0.43,
         "box_outs": 0.0,
-        "loose_balls_recovered": 0.33,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.0,
+        "loose_balls_recovered": 0.43,
         "charges_drawn": 0.0,
-        "screen_assists": 0.17
+        "screen_assists": 0.14,
+        "screen_ast_pts": 0.29
       }
     },
     {
@@ -1966,12 +2096,17 @@
         "rpg": 0.7
       },
       "hustle": {
-        "contested_shots": 1.2,
-        "deflections": 1.8,
+        "contested_shots": 1.17,
+        "contested_shots_2pt": 0.5,
+        "contested_shots_3pt": 0.67,
+        "deflections": 1.5,
         "box_outs": 0.0,
-        "loose_balls_recovered": 0.4,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.0,
+        "loose_balls_recovered": 0.33,
         "charges_drawn": 0.0,
-        "screen_assists": 0.0
+        "screen_assists": 0.0,
+        "screen_ast_pts": 0.0
       }
     },
     {
@@ -2038,12 +2173,17 @@
         "rpg": 3.6
       },
       "hustle": {
-        "contested_shots": 4.17,
-        "deflections": 2.83,
-        "box_outs": 0.0,
-        "loose_balls_recovered": 0.5,
+        "contested_shots": 4.29,
+        "contested_shots_2pt": 3.29,
+        "contested_shots_3pt": 1.0,
+        "deflections": 3.0,
+        "box_outs": 0.43,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.0,
+        "loose_balls_recovered": 0.43,
         "charges_drawn": 0.0,
-        "screen_assists": 0.0
+        "screen_assists": 0.0,
+        "screen_ast_pts": 0.0
       }
     },
     {
@@ -2110,12 +2250,17 @@
         "rpg": 6.7
       },
       "hustle": {
-        "contested_shots": 4.0,
-        "deflections": 2.5,
-        "box_outs": 1.83,
+        "contested_shots": 3.57,
+        "contested_shots_2pt": 2.43,
+        "contested_shots_3pt": 1.14,
+        "deflections": 2.14,
+        "box_outs": 1.57,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
         "loose_balls_recovered": 0.0,
         "charges_drawn": 0.0,
-        "screen_assists": 0.33
+        "screen_assists": 0.29,
+        "screen_ast_pts": 0.57
       }
     },
     {
@@ -2182,12 +2327,17 @@
         "rpg": 1.3
       },
       "hustle": {
-        "contested_shots": 1.4,
-        "deflections": 1.6,
-        "box_outs": 0.2,
+        "contested_shots": 1.33,
+        "contested_shots_2pt": 0.67,
+        "contested_shots_3pt": 0.67,
+        "deflections": 1.33,
+        "box_outs": 0.33,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.5,
         "loose_balls_recovered": 0.0,
         "charges_drawn": 0.0,
-        "screen_assists": 0.0
+        "screen_assists": 0.0,
+        "screen_ast_pts": 0.0
       }
     },
     {
@@ -2254,12 +2404,17 @@
         "rpg": 1.1
       },
       "hustle": {
-        "contested_shots": 2.29,
-        "deflections": 1.43,
+        "contested_shots": 2.13,
+        "contested_shots_2pt": 1.25,
+        "contested_shots_3pt": 0.88,
+        "deflections": 1.5,
         "box_outs": 0.0,
-        "loose_balls_recovered": 0.0,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.0,
+        "loose_balls_recovered": 0.13,
         "charges_drawn": 0.0,
-        "screen_assists": 0.0
+        "screen_assists": 0.0,
+        "screen_ast_pts": 0.0
       }
     },
     {
@@ -2326,12 +2481,17 @@
         "rpg": 0.8
       },
       "hustle": {
-        "contested_shots": 1.5,
-        "deflections": 2.0,
+        "contested_shots": 3.33,
+        "contested_shots_2pt": 1.67,
+        "contested_shots_3pt": 1.67,
+        "deflections": 3.0,
         "box_outs": 0.0,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.0,
         "loose_balls_recovered": 0.0,
-        "charges_drawn": 0.0,
-        "screen_assists": 0.0
+        "charges_drawn": 0.33,
+        "screen_assists": 0.0,
+        "screen_ast_pts": 0.0
       }
     },
     {
@@ -2398,12 +2558,17 @@
         "rpg": 5.0
       },
       "hustle": {
-        "contested_shots": 3.8,
-        "deflections": 2.6,
-        "box_outs": 0.6,
-        "loose_balls_recovered": 0.6,
-        "charges_drawn": 0.4,
-        "screen_assists": 0.4
+        "contested_shots": 3.67,
+        "contested_shots_2pt": 2.33,
+        "contested_shots_3pt": 1.33,
+        "deflections": 2.17,
+        "box_outs": 0.5,
+        "pct_box_outs_off": 0.333,
+        "pct_box_outs_def": 0.667,
+        "loose_balls_recovered": 0.67,
+        "charges_drawn": 0.33,
+        "screen_assists": 0.33,
+        "screen_ast_pts": 0.83
       }
     },
     {
@@ -2470,12 +2635,17 @@
         "rpg": 5.5
       },
       "hustle": {
-        "contested_shots": 3.86,
-        "deflections": 2.86,
-        "box_outs": 0.57,
-        "loose_balls_recovered": 0.14,
+        "contested_shots": 3.88,
+        "contested_shots_2pt": 2.25,
+        "contested_shots_3pt": 1.63,
+        "deflections": 2.5,
+        "box_outs": 0.5,
+        "pct_box_outs_off": 0.25,
+        "pct_box_outs_def": 0.75,
+        "loose_balls_recovered": 0.13,
         "charges_drawn": 0.0,
-        "screen_assists": 0.43
+        "screen_assists": 0.38,
+        "screen_ast_pts": 1.0
       }
     },
     {
@@ -2542,12 +2712,17 @@
         "rpg": 2.9
       },
       "hustle": {
-        "contested_shots": 1.29,
+        "contested_shots": 1.43,
+        "contested_shots_2pt": 1.0,
+        "contested_shots_3pt": 0.43,
         "deflections": 1.71,
         "box_outs": 0.0,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.0,
         "loose_balls_recovered": 0.71,
         "charges_drawn": 0.14,
-        "screen_assists": 0.0
+        "screen_assists": 0.0,
+        "screen_ast_pts": 0.0
       }
     },
     {
@@ -2614,12 +2789,17 @@
         "rpg": 4.4
       },
       "hustle": {
-        "contested_shots": 1.5,
-        "deflections": 1.33,
-        "box_outs": 0.17,
-        "loose_balls_recovered": 0.17,
+        "contested_shots": 1.71,
+        "contested_shots_2pt": 0.86,
+        "contested_shots_3pt": 0.86,
+        "deflections": 1.43,
+        "box_outs": 0.29,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.5,
+        "loose_balls_recovered": 0.14,
         "charges_drawn": 0.0,
-        "screen_assists": 0.0
+        "screen_assists": 0.14,
+        "screen_ast_pts": 0.0
       }
     },
     {
@@ -2686,12 +2866,17 @@
         "rpg": 3.0
       },
       "hustle": {
-        "contested_shots": 2.0,
-        "deflections": 0.5,
-        "box_outs": 0.25,
-        "loose_balls_recovered": 0.0,
-        "charges_drawn": 0.25,
-        "screen_assists": 0.25
+        "contested_shots": 1.8,
+        "contested_shots_2pt": 1.0,
+        "contested_shots_3pt": 0.8,
+        "deflections": 0.8,
+        "box_outs": 0.6,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.333,
+        "loose_balls_recovered": 0.2,
+        "charges_drawn": 0.2,
+        "screen_assists": 0.2,
+        "screen_ast_pts": 0.6
       }
     },
     {
@@ -2758,12 +2943,17 @@
         "rpg": 4.7
       },
       "hustle": {
-        "contested_shots": 6.5,
-        "deflections": 1.0,
-        "box_outs": 1.0,
+        "contested_shots": 6.57,
+        "contested_shots_2pt": 5.57,
+        "contested_shots_3pt": 1.0,
+        "deflections": 1.14,
+        "box_outs": 1.29,
+        "pct_box_outs_off": 0.111,
+        "pct_box_outs_def": 0.556,
         "loose_balls_recovered": 0.0,
         "charges_drawn": 0.0,
-        "screen_assists": 1.83
+        "screen_assists": 1.71,
+        "screen_ast_pts": 4.0
       }
     },
     {
@@ -2831,11 +3021,16 @@
       },
       "hustle": {
         "contested_shots": 2.0,
+        "contested_shots_2pt": 1.0,
+        "contested_shots_3pt": 1.0,
         "deflections": 0.5,
         "box_outs": 0.5,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
         "loose_balls_recovered": 0.0,
         "charges_drawn": 0.0,
-        "screen_assists": 0.0
+        "screen_assists": 0.0,
+        "screen_ast_pts": 0.0
       }
     },
     {
@@ -2902,12 +3097,17 @@
         "rpg": 0.2
       },
       "hustle": {
-        "contested_shots": 0.67,
-        "deflections": 0.33,
-        "box_outs": 0.0,
-        "loose_balls_recovered": 0.33,
+        "contested_shots": 0.5,
+        "contested_shots_2pt": 0.25,
+        "contested_shots_3pt": 0.25,
+        "deflections": 0.25,
+        "box_outs": 0.25,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.0,
+        "loose_balls_recovered": 0.25,
         "charges_drawn": 0.0,
-        "screen_assists": 0.0
+        "screen_assists": 0.0,
+        "screen_ast_pts": 0.0
       }
     },
     {
@@ -2974,12 +3174,17 @@
         "rpg": 1.9
       },
       "hustle": {
-        "contested_shots": 3.33,
+        "contested_shots": 3.14,
+        "contested_shots_2pt": 1.14,
+        "contested_shots_3pt": 2.0,
         "deflections": 1.0,
-        "box_outs": 0.33,
-        "loose_balls_recovered": 0.17,
+        "box_outs": 0.29,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
+        "loose_balls_recovered": 0.14,
         "charges_drawn": 0.0,
-        "screen_assists": 0.0
+        "screen_assists": 0.0,
+        "screen_ast_pts": 0.0
       }
     },
     {
@@ -3046,12 +3251,17 @@
         "rpg": 1.9
       },
       "hustle": {
-        "contested_shots": 1.67,
+        "contested_shots": 1.71,
+        "contested_shots_2pt": 0.86,
+        "contested_shots_3pt": 0.86,
         "deflections": 1.0,
         "box_outs": 0.0,
-        "loose_balls_recovered": 0.17,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.0,
+        "loose_balls_recovered": 0.14,
         "charges_drawn": 0.0,
-        "screen_assists": 0.17
+        "screen_assists": 0.29,
+        "screen_ast_pts": 0.29
       }
     },
     {
@@ -3118,12 +3328,17 @@
         "rpg": 2.8
       },
       "hustle": {
-        "contested_shots": 3.29,
-        "deflections": 1.29,
-        "box_outs": 0.29,
-        "loose_balls_recovered": 0.14,
+        "contested_shots": 3.38,
+        "contested_shots_2pt": 1.38,
+        "contested_shots_3pt": 2.0,
+        "deflections": 1.38,
+        "box_outs": 0.38,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.667,
+        "loose_balls_recovered": 0.13,
         "charges_drawn": 0.0,
-        "screen_assists": 0.14
+        "screen_assists": 0.38,
+        "screen_ast_pts": 0.38
       }
     },
     {
@@ -3190,12 +3405,17 @@
         "rpg": 5.4
       },
       "hustle": {
-        "contested_shots": 6.17,
-        "deflections": 1.67,
-        "box_outs": 1.0,
-        "loose_balls_recovered": 0.5,
+        "contested_shots": 5.71,
+        "contested_shots_2pt": 2.57,
+        "contested_shots_3pt": 3.14,
+        "deflections": 2.0,
+        "box_outs": 0.86,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
+        "loose_balls_recovered": 0.43,
         "charges_drawn": 0.0,
-        "screen_assists": 0.0
+        "screen_assists": 0.0,
+        "screen_ast_pts": 0.0
       }
     },
     {
@@ -3262,12 +3482,17 @@
         "rpg": 6.7
       },
       "hustle": {
-        "contested_shots": 9.5,
-        "deflections": 4.0,
-        "box_outs": 0.33,
-        "loose_balls_recovered": 0.83,
+        "contested_shots": 8.43,
+        "contested_shots_2pt": 4.86,
+        "contested_shots_3pt": 3.57,
+        "deflections": 4.14,
+        "box_outs": 0.29,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
+        "loose_balls_recovered": 0.71,
         "charges_drawn": 0.0,
-        "screen_assists": 0.17
+        "screen_assists": 0.29,
+        "screen_ast_pts": 0.29
       }
     },
     {
@@ -3334,12 +3559,17 @@
         "rpg": 3.4
       },
       "hustle": {
-        "contested_shots": 2.5,
-        "deflections": 1.67,
-        "box_outs": 0.33,
-        "loose_balls_recovered": 0.67,
+        "contested_shots": 2.57,
+        "contested_shots_2pt": 1.43,
+        "contested_shots_3pt": 1.14,
+        "deflections": 1.57,
+        "box_outs": 0.29,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
+        "loose_balls_recovered": 0.71,
         "charges_drawn": 0.0,
-        "screen_assists": 0.0
+        "screen_assists": 0.0,
+        "screen_ast_pts": 0.0
       }
     },
     {
@@ -3406,12 +3636,17 @@
         "rpg": 10.3
       },
       "hustle": {
-        "contested_shots": 4.17,
-        "deflections": 1.83,
+        "contested_shots": 4.71,
+        "contested_shots_2pt": 3.86,
+        "contested_shots_3pt": 0.86,
+        "deflections": 1.57,
         "box_outs": 1.0,
-        "loose_balls_recovered": 0.5,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.857,
+        "loose_balls_recovered": 0.43,
         "charges_drawn": 0.0,
-        "screen_assists": 2.0
+        "screen_assists": 2.0,
+        "screen_ast_pts": 3.86
       }
     },
     {
@@ -3478,12 +3713,17 @@
         "rpg": 0.3
       },
       "hustle": {
-        "contested_shots": 1.8,
-        "deflections": 0.8,
-        "box_outs": 0.4,
+        "contested_shots": 2.0,
+        "contested_shots_2pt": 1.5,
+        "contested_shots_3pt": 0.5,
+        "deflections": 0.67,
+        "box_outs": 0.17,
+        "pct_box_outs_off": 1.0,
+        "pct_box_outs_def": 0.0,
         "loose_balls_recovered": 0.0,
         "charges_drawn": 0.0,
-        "screen_assists": 0.2
+        "screen_assists": 0.17,
+        "screen_ast_pts": 0.5
       }
     },
     {
@@ -3550,12 +3790,17 @@
         "rpg": 8.7
       },
       "hustle": {
-        "contested_shots": 6.0,
-        "deflections": 2.0,
-        "box_outs": 0.4,
-        "loose_balls_recovered": 0.0,
+        "contested_shots": 5.83,
+        "contested_shots_2pt": 2.83,
+        "contested_shots_3pt": 3.0,
+        "deflections": 1.67,
+        "box_outs": 0.5,
+        "pct_box_outs_off": 0.333,
+        "pct_box_outs_def": 0.333,
+        "loose_balls_recovered": 0.17,
         "charges_drawn": 0.0,
-        "screen_assists": 0.2
+        "screen_assists": 0.17,
+        "screen_ast_pts": 0.5
       }
     },
     {
@@ -3622,12 +3867,17 @@
         "rpg": 3.0
       },
       "hustle": {
-        "contested_shots": 2.17,
+        "contested_shots": 2.57,
+        "contested_shots_2pt": 1.29,
+        "contested_shots_3pt": 1.29,
         "deflections": 2.0,
-        "box_outs": 0.83,
-        "loose_balls_recovered": 0.17,
+        "box_outs": 0.71,
+        "pct_box_outs_off": 0.4,
+        "pct_box_outs_def": 0.6,
+        "loose_balls_recovered": 0.14,
         "charges_drawn": 0.0,
-        "screen_assists": 0.33
+        "screen_assists": 0.29,
+        "screen_ast_pts": 0.71
       }
     },
     {
@@ -3694,12 +3944,17 @@
         "rpg": 5.0
       },
       "hustle": {
-        "contested_shots": 2.0,
-        "deflections": 1.0,
-        "box_outs": 0.6,
-        "loose_balls_recovered": 0.4,
+        "contested_shots": 1.67,
+        "contested_shots_2pt": 1.17,
+        "contested_shots_3pt": 0.5,
+        "deflections": 0.83,
+        "box_outs": 0.5,
+        "pct_box_outs_off": 0.667,
+        "pct_box_outs_def": 0.333,
+        "loose_balls_recovered": 0.33,
         "charges_drawn": 0.0,
-        "screen_assists": 0.8
+        "screen_assists": 1.0,
+        "screen_ast_pts": 1.67
       }
     },
     {
@@ -3766,12 +4021,17 @@
         "rpg": 1.5
       },
       "hustle": {
-        "contested_shots": 1.5,
+        "contested_shots": 1.57,
+        "contested_shots_2pt": 1.0,
+        "contested_shots_3pt": 0.57,
         "deflections": 1.0,
         "box_outs": 0.0,
-        "loose_balls_recovered": 0.17,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.0,
+        "loose_balls_recovered": 0.29,
         "charges_drawn": 0.0,
-        "screen_assists": 0.0
+        "screen_assists": 0.0,
+        "screen_ast_pts": 0.0
       }
     },
     {
@@ -3838,12 +4098,17 @@
         "rpg": 4.0
       },
       "hustle": {
-        "contested_shots": 6.4,
-        "deflections": 3.8,
-        "box_outs": 0.2,
-        "loose_balls_recovered": 0.4,
+        "contested_shots": 6.0,
+        "contested_shots_2pt": 2.67,
+        "contested_shots_3pt": 3.33,
+        "deflections": 3.5,
+        "box_outs": 0.17,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
+        "loose_balls_recovered": 0.5,
         "charges_drawn": 0.0,
-        "screen_assists": 1.2
+        "screen_assists": 1.33,
+        "screen_ast_pts": 2.67
       }
     },
     {
@@ -3911,11 +4176,16 @@
       },
       "hustle": {
         "contested_shots": 5.67,
+        "contested_shots_2pt": 3.67,
+        "contested_shots_3pt": 2.0,
         "deflections": 1.67,
         "box_outs": 1.67,
+        "pct_box_outs_off": 0.4,
+        "pct_box_outs_def": 0.6,
         "loose_balls_recovered": 0.5,
         "charges_drawn": 0.17,
-        "screen_assists": 2.83
+        "screen_assists": 2.83,
+        "screen_ast_pts": 6.5
       }
     },
     {
@@ -3983,11 +4253,16 @@
       },
       "hustle": {
         "contested_shots": 1.0,
+        "contested_shots_2pt": 0.5,
+        "contested_shots_3pt": 0.5,
         "deflections": 0.0,
         "box_outs": 0.0,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.0,
         "loose_balls_recovered": 0.0,
         "charges_drawn": 0.0,
-        "screen_assists": 0.0
+        "screen_assists": 0.0,
+        "screen_ast_pts": 0.0
       }
     },
     {
@@ -4054,12 +4329,17 @@
         "rpg": 2.0
       },
       "hustle": {
-        "contested_shots": 2.75,
-        "deflections": 3.25,
-        "box_outs": 0.0,
-        "loose_balls_recovered": 0.5,
-        "charges_drawn": 0.5,
-        "screen_assists": 0.75
+        "contested_shots": 2.6,
+        "contested_shots_2pt": 0.8,
+        "contested_shots_3pt": 1.8,
+        "deflections": 2.8,
+        "box_outs": 0.2,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.0,
+        "loose_balls_recovered": 0.4,
+        "charges_drawn": 0.4,
+        "screen_assists": 0.6,
+        "screen_ast_pts": 1.4
       }
     },
     {
@@ -4126,12 +4406,17 @@
         "rpg": 5.0
       },
       "hustle": {
-        "contested_shots": 3.83,
-        "deflections": 3.5,
-        "box_outs": 0.33,
-        "loose_balls_recovered": 0.33,
+        "contested_shots": 4.29,
+        "contested_shots_2pt": 2.29,
+        "contested_shots_3pt": 2.0,
+        "deflections": 3.71,
+        "box_outs": 0.29,
+        "pct_box_outs_off": 0.5,
+        "pct_box_outs_def": 0.5,
+        "loose_balls_recovered": 0.29,
         "charges_drawn": 0.0,
-        "screen_assists": 0.5
+        "screen_assists": 0.43,
+        "screen_ast_pts": 0.86
       }
     },
     {
@@ -4198,12 +4483,17 @@
         "rpg": 2.0
       },
       "hustle": {
-        "contested_shots": 0.67,
-        "deflections": 1.5,
-        "box_outs": 0.0,
+        "contested_shots": 0.86,
+        "contested_shots_2pt": 0.57,
+        "contested_shots_3pt": 0.29,
+        "deflections": 1.57,
+        "box_outs": 0.14,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.0,
         "loose_balls_recovered": 0.0,
         "charges_drawn": 0.0,
-        "screen_assists": 0.17
+        "screen_assists": 0.14,
+        "screen_ast_pts": 0.29
       }
     },
     {
@@ -4270,12 +4560,17 @@
         "rpg": 5.7
       },
       "hustle": {
-        "contested_shots": 4.6,
-        "deflections": 3.2,
-        "box_outs": 0.6,
-        "loose_balls_recovered": 0.4,
+        "contested_shots": 4.83,
+        "contested_shots_2pt": 2.33,
+        "contested_shots_3pt": 2.5,
+        "deflections": 3.5,
+        "box_outs": 0.5,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
+        "loose_balls_recovered": 0.83,
         "charges_drawn": 0.0,
-        "screen_assists": 0.2
+        "screen_assists": 0.33,
+        "screen_ast_pts": 0.33
       }
     },
     {
@@ -4342,12 +4637,17 @@
         "rpg": 2.2
       },
       "hustle": {
-        "contested_shots": 0.67,
-        "deflections": 2.0,
+        "contested_shots": 0.75,
+        "contested_shots_2pt": 0.75,
+        "contested_shots_3pt": 0.0,
+        "deflections": 1.75,
         "box_outs": 0.0,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.0,
         "loose_balls_recovered": 0.0,
         "charges_drawn": 0.0,
-        "screen_assists": 0.33
+        "screen_assists": 0.25,
+        "screen_ast_pts": 0.75
       }
     },
     {
@@ -4415,11 +4715,16 @@
       },
       "hustle": {
         "contested_shots": 2.0,
-        "deflections": 0.75,
-        "box_outs": 0.25,
-        "loose_balls_recovered": 0.75,
+        "contested_shots_2pt": 1.4,
+        "contested_shots_3pt": 0.6,
+        "deflections": 0.6,
+        "box_outs": 0.2,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
+        "loose_balls_recovered": 0.6,
         "charges_drawn": 0.0,
-        "screen_assists": 0.0
+        "screen_assists": 0.0,
+        "screen_ast_pts": 0.0
       }
     },
     {
@@ -4486,12 +4791,17 @@
         "rpg": 4.3
       },
       "hustle": {
-        "contested_shots": 1.6,
-        "deflections": 2.2,
-        "box_outs": 0.0,
-        "loose_balls_recovered": 0.4,
+        "contested_shots": 1.33,
+        "contested_shots_2pt": 0.67,
+        "contested_shots_3pt": 0.67,
+        "deflections": 2.33,
+        "box_outs": 0.17,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.0,
+        "loose_balls_recovered": 0.33,
         "charges_drawn": 0.0,
-        "screen_assists": 0.2
+        "screen_assists": 0.17,
+        "screen_ast_pts": 0.5
       }
     },
     {
@@ -4558,12 +4868,17 @@
         "rpg": 7.0
       },
       "hustle": {
-        "contested_shots": 7.67,
-        "deflections": 1.17,
-        "box_outs": 2.5,
-        "loose_balls_recovered": 0.0,
+        "contested_shots": 7.0,
+        "contested_shots_2pt": 5.71,
+        "contested_shots_3pt": 1.29,
+        "deflections": 1.14,
+        "box_outs": 2.29,
+        "pct_box_outs_off": 0.313,
+        "pct_box_outs_def": 0.625,
+        "loose_balls_recovered": 0.14,
         "charges_drawn": 0.0,
-        "screen_assists": 3.67
+        "screen_assists": 3.43,
+        "screen_ast_pts": 6.86
       }
     },
     {
@@ -4630,12 +4945,17 @@
         "rpg": 3.4
       },
       "hustle": {
-        "contested_shots": 3.67,
-        "deflections": 0.83,
-        "box_outs": 0.17,
-        "loose_balls_recovered": 0.17,
+        "contested_shots": 3.43,
+        "contested_shots_2pt": 2.14,
+        "contested_shots_3pt": 1.29,
+        "deflections": 1.14,
+        "box_outs": 0.14,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
+        "loose_balls_recovered": 0.29,
         "charges_drawn": 0.0,
-        "screen_assists": 0.33
+        "screen_assists": 0.29,
+        "screen_ast_pts": 0.86
       }
     },
     {
@@ -4702,12 +5022,17 @@
         "rpg": 3.9
       },
       "hustle": {
-        "contested_shots": 1.5,
-        "deflections": 1.83,
-        "box_outs": 0.17,
-        "loose_balls_recovered": 0.17,
+        "contested_shots": 1.29,
+        "contested_shots_2pt": 0.71,
+        "contested_shots_3pt": 0.57,
+        "deflections": 2.43,
+        "box_outs": 0.14,
+        "pct_box_outs_off": 1.0,
+        "pct_box_outs_def": 0.0,
+        "loose_balls_recovered": 0.29,
         "charges_drawn": 0.0,
-        "screen_assists": 0.17
+        "screen_assists": 0.14,
+        "screen_ast_pts": 0.29
       }
     },
     {
@@ -4774,12 +5099,17 @@
         "rpg": 1.7
       },
       "hustle": {
-        "contested_shots": 3.83,
-        "deflections": 1.17,
-        "box_outs": 0.17,
-        "loose_balls_recovered": 0.0,
-        "charges_drawn": 0.17,
-        "screen_assists": 0.0
+        "contested_shots": 4.0,
+        "contested_shots_2pt": 1.57,
+        "contested_shots_3pt": 2.43,
+        "deflections": 1.14,
+        "box_outs": 0.14,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
+        "loose_balls_recovered": 0.29,
+        "charges_drawn": 0.14,
+        "screen_assists": 0.0,
+        "screen_ast_pts": 0.0
       }
     },
     {
@@ -4846,12 +5176,17 @@
         "rpg": 4.3
       },
       "hustle": {
-        "contested_shots": 3.5,
-        "deflections": 3.0,
-        "box_outs": 0.17,
+        "contested_shots": 3.86,
+        "contested_shots_2pt": 2.43,
+        "contested_shots_3pt": 1.43,
+        "deflections": 3.14,
+        "box_outs": 0.14,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
         "loose_balls_recovered": 0.0,
         "charges_drawn": 0.0,
-        "screen_assists": 0.33
+        "screen_assists": 0.29,
+        "screen_ast_pts": 0.57
       }
     },
     {
@@ -4918,12 +5253,17 @@
         "rpg": 1.4
       },
       "hustle": {
-        "contested_shots": 3.83,
-        "deflections": 2.5,
-        "box_outs": 0.17,
-        "loose_balls_recovered": 0.33,
-        "charges_drawn": 0.5,
-        "screen_assists": 0.17
+        "contested_shots": 3.57,
+        "contested_shots_2pt": 1.29,
+        "contested_shots_3pt": 2.29,
+        "deflections": 2.29,
+        "box_outs": 0.14,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
+        "loose_balls_recovered": 0.29,
+        "charges_drawn": 0.43,
+        "screen_assists": 0.29,
+        "screen_ast_pts": 0.29
       }
     },
     {
@@ -4990,12 +5330,17 @@
         "rpg": 7.4
       },
       "hustle": {
-        "contested_shots": 5.5,
-        "deflections": 1.83,
-        "box_outs": 2.5,
-        "loose_balls_recovered": 0.5,
+        "contested_shots": 5.57,
+        "contested_shots_2pt": 3.57,
+        "contested_shots_3pt": 2.0,
+        "deflections": 1.71,
+        "box_outs": 2.43,
+        "pct_box_outs_off": 0.412,
+        "pct_box_outs_def": 0.471,
+        "loose_balls_recovered": 0.57,
         "charges_drawn": 0.0,
-        "screen_assists": 1.17
+        "screen_assists": 1.0,
+        "screen_ast_pts": 2.29
       }
     },
     {
@@ -5062,12 +5407,17 @@
         "rpg": 4.4
       },
       "hustle": {
-        "contested_shots": 3.67,
-        "deflections": 3.67,
-        "box_outs": 0.17,
-        "loose_balls_recovered": 0.5,
+        "contested_shots": 3.71,
+        "contested_shots_2pt": 1.29,
+        "contested_shots_3pt": 2.43,
+        "deflections": 3.29,
+        "box_outs": 0.0,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.0,
+        "loose_balls_recovered": 0.57,
         "charges_drawn": 0.0,
-        "screen_assists": 0.0
+        "screen_assists": 0.0,
+        "screen_ast_pts": 0.0
       }
     },
     {
@@ -5134,12 +5484,17 @@
         "rpg": 5.1
       },
       "hustle": {
-        "contested_shots": 2.67,
-        "deflections": 1.5,
-        "box_outs": 0.83,
-        "loose_balls_recovered": 0.17,
+        "contested_shots": 3.0,
+        "contested_shots_2pt": 1.43,
+        "contested_shots_3pt": 1.57,
+        "deflections": 1.57,
+        "box_outs": 0.71,
+        "pct_box_outs_off": 0.4,
+        "pct_box_outs_def": 0.6,
+        "loose_balls_recovered": 0.29,
         "charges_drawn": 0.0,
-        "screen_assists": 1.0
+        "screen_assists": 0.86,
+        "screen_ast_pts": 2.0
       }
     },
     {
@@ -5206,12 +5561,17 @@
         "rpg": 4.5
       },
       "hustle": {
-        "contested_shots": 1.71,
-        "deflections": 2.29,
-        "box_outs": 0.57,
-        "loose_balls_recovered": 0.43,
+        "contested_shots": 1.75,
+        "contested_shots_2pt": 1.0,
+        "contested_shots_3pt": 0.75,
+        "deflections": 2.63,
+        "box_outs": 0.5,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
+        "loose_balls_recovered": 0.5,
         "charges_drawn": 0.0,
-        "screen_assists": 0.71
+        "screen_assists": 0.63,
+        "screen_ast_pts": 1.38
       }
     },
     {
@@ -5278,12 +5638,17 @@
         "rpg": 2.0
       },
       "hustle": {
-        "contested_shots": 1.5,
-        "deflections": 1.25,
-        "box_outs": 0.0,
-        "loose_balls_recovered": 0.5,
+        "contested_shots": 1.4,
+        "contested_shots_2pt": 0.4,
+        "contested_shots_3pt": 1.0,
+        "deflections": 1.4,
+        "box_outs": 0.4,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.0,
+        "loose_balls_recovered": 0.4,
         "charges_drawn": 0.0,
-        "screen_assists": 0.0
+        "screen_assists": 0.0,
+        "screen_ast_pts": 0.0
       }
     },
     {
@@ -5350,12 +5715,17 @@
         "rpg": 2.8
       },
       "hustle": {
-        "contested_shots": 4.8,
-        "deflections": 2.4,
-        "box_outs": 1.0,
-        "loose_balls_recovered": 1.2,
+        "contested_shots": 5.0,
+        "contested_shots_2pt": 3.33,
+        "contested_shots_3pt": 1.67,
+        "deflections": 2.33,
+        "box_outs": 0.83,
+        "pct_box_outs_off": 0.2,
+        "pct_box_outs_def": 0.8,
+        "loose_balls_recovered": 1.17,
         "charges_drawn": 0.0,
-        "screen_assists": 1.4
+        "screen_assists": 1.5,
+        "screen_ast_pts": 3.0
       }
     },
     {
@@ -5422,12 +5792,17 @@
         "rpg": 4.6
       },
       "hustle": {
-        "contested_shots": 4.33,
-        "deflections": 0.67,
-        "box_outs": 1.0,
-        "loose_balls_recovered": 0.17,
-        "charges_drawn": 0.17,
-        "screen_assists": 1.83
+        "contested_shots": 4.43,
+        "contested_shots_2pt": 2.57,
+        "contested_shots_3pt": 1.86,
+        "deflections": 0.57,
+        "box_outs": 0.86,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
+        "loose_balls_recovered": 0.14,
+        "charges_drawn": 0.14,
+        "screen_assists": 2.14,
+        "screen_ast_pts": 3.86
       }
     },
     {
@@ -5494,12 +5869,17 @@
         "rpg": 6.3
       },
       "hustle": {
-        "contested_shots": 3.2,
-        "deflections": 1.4,
-        "box_outs": 0.8,
-        "loose_balls_recovered": 0.2,
+        "contested_shots": 3.0,
+        "contested_shots_2pt": 1.0,
+        "contested_shots_3pt": 2.0,
+        "deflections": 1.17,
+        "box_outs": 1.0,
+        "pct_box_outs_off": 0.167,
+        "pct_box_outs_def": 0.5,
+        "loose_balls_recovered": 0.33,
         "charges_drawn": 0.0,
-        "screen_assists": 0.0
+        "screen_assists": 0.0,
+        "screen_ast_pts": 0.0
       }
     },
     {
@@ -5566,12 +5946,17 @@
         "rpg": 3.4
       },
       "hustle": {
-        "contested_shots": 2.43,
-        "deflections": 1.86,
-        "box_outs": 0.14,
-        "loose_balls_recovered": 0.71,
+        "contested_shots": 2.38,
+        "contested_shots_2pt": 1.25,
+        "contested_shots_3pt": 1.13,
+        "deflections": 1.88,
+        "box_outs": 0.13,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
+        "loose_balls_recovered": 0.63,
         "charges_drawn": 0.0,
-        "screen_assists": 0.14
+        "screen_assists": 0.13,
+        "screen_ast_pts": 0.25
       }
     },
     {
@@ -5638,12 +6023,17 @@
         "rpg": 7.7
       },
       "hustle": {
-        "contested_shots": 7.0,
-        "deflections": 1.83,
-        "box_outs": 0.83,
-        "loose_balls_recovered": 0.33,
+        "contested_shots": 7.29,
+        "contested_shots_2pt": 4.43,
+        "contested_shots_3pt": 2.86,
+        "deflections": 2.14,
+        "box_outs": 0.86,
+        "pct_box_outs_off": 0.333,
+        "pct_box_outs_def": 0.5,
+        "loose_balls_recovered": 0.43,
         "charges_drawn": 0.0,
-        "screen_assists": 1.17
+        "screen_assists": 1.14,
+        "screen_ast_pts": 2.14
       }
     },
     {
@@ -5711,11 +6101,16 @@
       },
       "hustle": {
         "contested_shots": 4.33,
-        "deflections": 2.17,
-        "box_outs": 0.0,
+        "contested_shots_2pt": 2.0,
+        "contested_shots_3pt": 2.33,
+        "deflections": 1.5,
+        "box_outs": 0.17,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
         "loose_balls_recovered": 0.67,
         "charges_drawn": 0.0,
-        "screen_assists": 0.67
+        "screen_assists": 0.67,
+        "screen_ast_pts": 1.5
       }
     },
     {
@@ -5782,12 +6177,17 @@
         "rpg": 3.1
       },
       "hustle": {
-        "contested_shots": 4.33,
-        "deflections": 2.17,
-        "box_outs": 0.33,
-        "loose_balls_recovered": 0.33,
-        "charges_drawn": 0.0,
-        "screen_assists": 0.5
+        "contested_shots": 4.29,
+        "contested_shots_2pt": 2.0,
+        "contested_shots_3pt": 2.29,
+        "deflections": 2.0,
+        "box_outs": 0.29,
+        "pct_box_outs_off": 0.5,
+        "pct_box_outs_def": 0.5,
+        "loose_balls_recovered": 0.29,
+        "charges_drawn": 0.14,
+        "screen_assists": 0.43,
+        "screen_ast_pts": 1.0
       }
     },
     {
@@ -5854,12 +6254,17 @@
         "rpg": 3.6
       },
       "hustle": {
-        "contested_shots": 5.33,
-        "deflections": 2.33,
-        "box_outs": 0.67,
-        "loose_balls_recovered": 0.5,
-        "charges_drawn": 0.17,
-        "screen_assists": 0.33
+        "contested_shots": 5.14,
+        "contested_shots_2pt": 2.71,
+        "contested_shots_3pt": 2.43,
+        "deflections": 2.0,
+        "box_outs": 0.71,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.8,
+        "loose_balls_recovered": 0.71,
+        "charges_drawn": 0.14,
+        "screen_assists": 0.43,
+        "screen_ast_pts": 0.57
       }
     },
     {
@@ -5926,12 +6331,17 @@
         "rpg": 3.6
       },
       "hustle": {
-        "contested_shots": 2.5,
-        "deflections": 1.0,
-        "box_outs": 0.25,
-        "loose_balls_recovered": 0.25,
-        "charges_drawn": 0.25,
-        "screen_assists": 0.25
+        "contested_shots": 2.6,
+        "contested_shots_2pt": 1.6,
+        "contested_shots_3pt": 1.0,
+        "deflections": 0.8,
+        "box_outs": 0.2,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
+        "loose_balls_recovered": 0.4,
+        "charges_drawn": 0.2,
+        "screen_assists": 0.2,
+        "screen_ast_pts": 0.4
       }
     },
     {
@@ -5998,12 +6408,17 @@
         "rpg": 3.9
       },
       "hustle": {
-        "contested_shots": 4.0,
-        "deflections": 3.5,
-        "box_outs": 0.17,
-        "loose_balls_recovered": 0.83,
+        "contested_shots": 3.86,
+        "contested_shots_2pt": 2.43,
+        "contested_shots_3pt": 1.43,
+        "deflections": 3.43,
+        "box_outs": 0.0,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.0,
+        "loose_balls_recovered": 0.86,
         "charges_drawn": 0.0,
-        "screen_assists": 0.17
+        "screen_assists": 0.29,
+        "screen_ast_pts": 0.29
       }
     },
     {
@@ -6070,12 +6485,17 @@
         "rpg": 4.0
       },
       "hustle": {
-        "contested_shots": 2.0,
-        "deflections": 1.75,
-        "box_outs": 0.5,
+        "contested_shots": 1.6,
+        "contested_shots_2pt": 1.0,
+        "contested_shots_3pt": 0.6,
+        "deflections": 1.4,
+        "box_outs": 0.6,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.667,
         "loose_balls_recovered": 0.0,
         "charges_drawn": 0.0,
-        "screen_assists": 0.0
+        "screen_assists": 0.0,
+        "screen_ast_pts": 0.0
       }
     },
     {
@@ -6142,12 +6562,17 @@
         "rpg": 14.6
       },
       "hustle": {
-        "contested_shots": 7.83,
-        "deflections": 1.5,
-        "box_outs": 2.83,
-        "loose_balls_recovered": 0.5,
+        "contested_shots": 8.14,
+        "contested_shots_2pt": 4.57,
+        "contested_shots_3pt": 3.57,
+        "deflections": 1.43,
+        "box_outs": 2.71,
+        "pct_box_outs_off": 0.316,
+        "pct_box_outs_def": 0.579,
+        "loose_balls_recovered": 0.43,
         "charges_drawn": 0.0,
-        "screen_assists": 6.33
+        "screen_assists": 5.71,
+        "screen_ast_pts": 12.86
       }
     },
     {
@@ -6214,12 +6639,17 @@
         "rpg": 10.5
       },
       "hustle": {
-        "contested_shots": 9.4,
-        "deflections": 1.0,
-        "box_outs": 1.0,
-        "loose_balls_recovered": 0.2,
+        "contested_shots": 11.17,
+        "contested_shots_2pt": 9.5,
+        "contested_shots_3pt": 1.67,
+        "deflections": 0.83,
+        "box_outs": 1.33,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.625,
+        "loose_balls_recovered": 0.33,
         "charges_drawn": 0.0,
-        "screen_assists": 3.0
+        "screen_assists": 2.67,
+        "screen_ast_pts": 5.67
       }
     },
     {
@@ -6286,12 +6716,17 @@
         "rpg": 5.3
       },
       "hustle": {
-        "contested_shots": 4.83,
-        "deflections": 1.33,
-        "box_outs": 0.67,
-        "loose_balls_recovered": 1.0,
+        "contested_shots": 4.57,
+        "contested_shots_2pt": 2.57,
+        "contested_shots_3pt": 2.0,
+        "deflections": 1.43,
+        "box_outs": 0.57,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
+        "loose_balls_recovered": 0.86,
         "charges_drawn": 0.0,
-        "screen_assists": 0.33
+        "screen_assists": 0.29,
+        "screen_ast_pts": 0.57
       }
     },
     {
@@ -6358,12 +6793,17 @@
         "rpg": 5.0
       },
       "hustle": {
-        "contested_shots": 7.0,
-        "deflections": 2.0,
-        "box_outs": 1.6,
-        "loose_balls_recovered": 0.2,
-        "charges_drawn": 0.6,
-        "screen_assists": 2.6
+        "contested_shots": 6.0,
+        "contested_shots_2pt": 4.0,
+        "contested_shots_3pt": 2.0,
+        "deflections": 1.83,
+        "box_outs": 1.33,
+        "pct_box_outs_off": 0.25,
+        "pct_box_outs_def": 0.75,
+        "loose_balls_recovered": 0.17,
+        "charges_drawn": 0.67,
+        "screen_assists": 2.17,
+        "screen_ast_pts": 5.17
       }
     },
     {
@@ -6430,12 +6870,17 @@
         "rpg": 1.2
       },
       "hustle": {
-        "contested_shots": 1.5,
-        "deflections": 1.25,
-        "box_outs": 0.5,
+        "contested_shots": 1.4,
+        "contested_shots_2pt": 0.4,
+        "contested_shots_3pt": 1.0,
+        "deflections": 1.0,
+        "box_outs": 0.4,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
         "loose_balls_recovered": 0.0,
         "charges_drawn": 0.0,
-        "screen_assists": 0.25
+        "screen_assists": 0.2,
+        "screen_ast_pts": 0.6
       }
     },
     {
@@ -6502,12 +6947,17 @@
         "rpg": 2.0
       },
       "hustle": {
-        "contested_shots": 1.67,
-        "deflections": 2.0,
-        "box_outs": 0.5,
-        "loose_balls_recovered": 0.33,
+        "contested_shots": 2.43,
+        "contested_shots_2pt": 0.86,
+        "contested_shots_3pt": 1.57,
+        "deflections": 2.57,
+        "box_outs": 0.57,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.75,
+        "loose_balls_recovered": 0.29,
         "charges_drawn": 0.0,
-        "screen_assists": 0.5
+        "screen_assists": 0.43,
+        "screen_ast_pts": 1.0
       }
     },
     {
@@ -6574,12 +7024,17 @@
         "rpg": 5.7
       },
       "hustle": {
-        "contested_shots": 4.17,
-        "deflections": 2.17,
-        "box_outs": 0.33,
-        "loose_balls_recovered": 0.17,
+        "contested_shots": 3.71,
+        "contested_shots_2pt": 2.43,
+        "contested_shots_3pt": 1.29,
+        "deflections": 2.14,
+        "box_outs": 0.29,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
+        "loose_balls_recovered": 0.43,
         "charges_drawn": 0.0,
-        "screen_assists": 0.5
+        "screen_assists": 0.29,
+        "screen_ast_pts": 0.57
       }
     },
     {
@@ -6646,12 +7101,17 @@
         "rpg": 5.5
       },
       "hustle": {
-        "contested_shots": 4.57,
-        "deflections": 6.0,
-        "box_outs": 0.29,
+        "contested_shots": 4.63,
+        "contested_shots_2pt": 2.38,
+        "contested_shots_3pt": 2.25,
+        "deflections": 5.88,
+        "box_outs": 0.25,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
         "loose_balls_recovered": 1.0,
         "charges_drawn": 0.0,
-        "screen_assists": 2.43
+        "screen_assists": 2.13,
+        "screen_ast_pts": 5.5
       }
     },
     {
@@ -6718,12 +7178,17 @@
         "rpg": 1.0
       },
       "hustle": {
-        "contested_shots": 0.83,
-        "deflections": 1.5,
-        "box_outs": 0.33,
-        "loose_balls_recovered": 0.17,
+        "contested_shots": 1.14,
+        "contested_shots_2pt": 0.71,
+        "contested_shots_3pt": 0.43,
+        "deflections": 1.57,
+        "box_outs": 0.43,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.667,
+        "loose_balls_recovered": 0.29,
         "charges_drawn": 0.0,
-        "screen_assists": 0.0
+        "screen_assists": 0.0,
+        "screen_ast_pts": 0.0
       }
     },
     {
@@ -6790,12 +7255,17 @@
         "rpg": 8.0
       },
       "hustle": {
-        "contested_shots": 9.33,
-        "deflections": 1.33,
-        "box_outs": 1.33,
-        "loose_balls_recovered": 0.17,
+        "contested_shots": 9.14,
+        "contested_shots_2pt": 5.71,
+        "contested_shots_3pt": 3.43,
+        "deflections": 1.71,
+        "box_outs": 1.57,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.727,
+        "loose_balls_recovered": 0.14,
         "charges_drawn": 0.0,
-        "screen_assists": 2.33
+        "screen_assists": 2.0,
+        "screen_ast_pts": 4.57
       }
     },
     {
@@ -6862,12 +7332,17 @@
         "rpg": 6.1
       },
       "hustle": {
-        "contested_shots": 3.83,
-        "deflections": 1.0,
-        "box_outs": 1.67,
-        "loose_balls_recovered": 1.17,
-        "charges_drawn": 0.17,
-        "screen_assists": 0.67
+        "contested_shots": 3.57,
+        "contested_shots_2pt": 1.86,
+        "contested_shots_3pt": 1.71,
+        "deflections": 1.14,
+        "box_outs": 1.43,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
+        "loose_balls_recovered": 1.0,
+        "charges_drawn": 0.29,
+        "screen_assists": 0.57,
+        "screen_ast_pts": 1.29
       }
     },
     {
@@ -6934,12 +7409,17 @@
         "rpg": 3.7
       },
       "hustle": {
-        "contested_shots": 2.4,
-        "deflections": 2.0,
-        "box_outs": 0.2,
-        "loose_balls_recovered": 0.8,
+        "contested_shots": 2.0,
+        "contested_shots_2pt": 0.67,
+        "contested_shots_3pt": 1.33,
+        "deflections": 1.83,
+        "box_outs": 0.17,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
+        "loose_balls_recovered": 0.67,
         "charges_drawn": 0.0,
-        "screen_assists": 0.8
+        "screen_assists": 0.67,
+        "screen_ast_pts": 1.33
       }
     },
     {
@@ -7006,12 +7486,17 @@
         "rpg": 3.7
       },
       "hustle": {
-        "contested_shots": 3.5,
-        "deflections": 0.33,
+        "contested_shots": 3.57,
+        "contested_shots_2pt": 2.0,
+        "contested_shots_3pt": 1.57,
+        "deflections": 0.29,
         "box_outs": 0.0,
-        "loose_balls_recovered": 0.17,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.0,
+        "loose_balls_recovered": 0.29,
         "charges_drawn": 0.0,
-        "screen_assists": 0.0
+        "screen_assists": 0.29,
+        "screen_ast_pts": 0.0
       }
     },
     {
@@ -7079,11 +7564,16 @@
       },
       "hustle": {
         "contested_shots": 1.0,
-        "deflections": 1.29,
-        "box_outs": 0.14,
-        "loose_balls_recovered": 0.29,
+        "contested_shots_2pt": 0.5,
+        "contested_shots_3pt": 0.5,
+        "deflections": 1.25,
+        "box_outs": 0.13,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
+        "loose_balls_recovered": 0.38,
         "charges_drawn": 0.0,
-        "screen_assists": 0.29
+        "screen_assists": 0.25,
+        "screen_ast_pts": 0.63
       }
     },
     {
@@ -7150,12 +7640,17 @@
         "rpg": 3.0
       },
       "hustle": {
-        "contested_shots": 2.43,
-        "deflections": 0.71,
-        "box_outs": 0.71,
-        "loose_balls_recovered": 0.71,
-        "charges_drawn": 0.14,
-        "screen_assists": 0.71
+        "contested_shots": 2.38,
+        "contested_shots_2pt": 1.25,
+        "contested_shots_3pt": 1.13,
+        "deflections": 0.63,
+        "box_outs": 0.88,
+        "pct_box_outs_off": 0.143,
+        "pct_box_outs_def": 0.714,
+        "loose_balls_recovered": 0.63,
+        "charges_drawn": 0.13,
+        "screen_assists": 0.63,
+        "screen_ast_pts": 1.5
       }
     },
     {
@@ -7222,12 +7717,17 @@
         "rpg": 12.3
       },
       "hustle": {
-        "contested_shots": 6.83,
-        "deflections": 0.83,
-        "box_outs": 1.83,
-        "loose_balls_recovered": 0.67,
-        "charges_drawn": 0.17,
-        "screen_assists": 2.0
+        "contested_shots": 6.14,
+        "contested_shots_2pt": 4.57,
+        "contested_shots_3pt": 1.57,
+        "deflections": 0.71,
+        "box_outs": 1.71,
+        "pct_box_outs_off": 0.333,
+        "pct_box_outs_def": 0.583,
+        "loose_balls_recovered": 0.71,
+        "charges_drawn": 0.14,
+        "screen_assists": 1.86,
+        "screen_ast_pts": 4.14
       }
     },
     {
@@ -7295,11 +7795,16 @@
       },
       "hustle": {
         "contested_shots": 3.6,
+        "contested_shots_2pt": 2.6,
+        "contested_shots_3pt": 1.0,
         "deflections": 0.6,
         "box_outs": 0.6,
-        "loose_balls_recovered": 0.2,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
+        "loose_balls_recovered": 0.4,
         "charges_drawn": 0.0,
-        "screen_assists": 0.8
+        "screen_assists": 0.8,
+        "screen_ast_pts": 1.6
       }
     },
     {
@@ -7367,11 +7872,16 @@
       },
       "hustle": {
         "contested_shots": 1.0,
-        "deflections": 1.0,
-        "box_outs": 0.6,
-        "loose_balls_recovered": 0.4,
+        "contested_shots_2pt": 0.83,
+        "contested_shots_3pt": 0.17,
+        "deflections": 1.83,
+        "box_outs": 0.5,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
+        "loose_balls_recovered": 0.67,
         "charges_drawn": 0.0,
-        "screen_assists": 0.0
+        "screen_assists": 0.0,
+        "screen_ast_pts": 0.0
       }
     },
     {
@@ -7439,11 +7949,16 @@
       },
       "hustle": {
         "contested_shots": 3.75,
+        "contested_shots_2pt": 3.5,
+        "contested_shots_3pt": 0.25,
         "deflections": 1.5,
         "box_outs": 0.25,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
         "loose_balls_recovered": 0.0,
         "charges_drawn": 0.0,
-        "screen_assists": 1.75
+        "screen_assists": 1.75,
+        "screen_ast_pts": 4.5
       }
     },
     {
@@ -7510,12 +8025,17 @@
         "rpg": 2.9
       },
       "hustle": {
-        "contested_shots": 2.57,
-        "deflections": 1.71,
+        "contested_shots": 2.13,
+        "contested_shots_2pt": 1.5,
+        "contested_shots_3pt": 0.63,
+        "deflections": 1.63,
         "box_outs": 0.0,
-        "loose_balls_recovered": 0.14,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.0,
+        "loose_balls_recovered": 0.13,
         "charges_drawn": 0.0,
-        "screen_assists": 0.0
+        "screen_assists": 0.0,
+        "screen_ast_pts": 0.0
       }
     },
     {
@@ -7582,12 +8102,17 @@
         "rpg": 4.0
       },
       "hustle": {
-        "contested_shots": 3.0,
+        "contested_shots": 3.17,
+        "contested_shots_2pt": 1.17,
+        "contested_shots_3pt": 2.0,
         "deflections": 1.5,
         "box_outs": 0.33,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
         "loose_balls_recovered": 0.33,
         "charges_drawn": 0.0,
-        "screen_assists": 0.67
+        "screen_assists": 0.67,
+        "screen_ast_pts": 1.5
       }
     },
     {
@@ -7654,12 +8179,17 @@
         "rpg": 0.0
       },
       "hustle": {
-        "contested_shots": 1.33,
+        "contested_shots": 1.25,
+        "contested_shots_2pt": 0.5,
+        "contested_shots_3pt": 0.75,
         "deflections": 0.0,
-        "box_outs": 0.33,
+        "box_outs": 0.25,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
         "loose_balls_recovered": 0.0,
         "charges_drawn": 0.0,
-        "screen_assists": 0.0
+        "screen_assists": 0.25,
+        "screen_ast_pts": 0.0
       }
     },
     {
@@ -7726,12 +8256,17 @@
         "rpg": 2.7
       },
       "hustle": {
-        "contested_shots": 3.33,
-        "deflections": 1.67,
-        "box_outs": 0.33,
-        "loose_balls_recovered": 0.17,
+        "contested_shots": 3.29,
+        "contested_shots_2pt": 1.71,
+        "contested_shots_3pt": 1.57,
+        "deflections": 2.0,
+        "box_outs": 0.43,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.667,
+        "loose_balls_recovered": 0.14,
         "charges_drawn": 0.0,
-        "screen_assists": 0.33
+        "screen_assists": 0.43,
+        "screen_ast_pts": 0.57
       }
     },
     {
@@ -7798,12 +8333,17 @@
         "rpg": 2.3
       },
       "hustle": {
-        "contested_shots": 4.25,
-        "deflections": 1.25,
+        "contested_shots": 3.6,
+        "contested_shots_2pt": 2.2,
+        "contested_shots_3pt": 1.4,
+        "deflections": 1.2,
         "box_outs": 0.0,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.0,
         "loose_balls_recovered": 0.0,
         "charges_drawn": 0.0,
-        "screen_assists": 0.0
+        "screen_assists": 0.0,
+        "screen_ast_pts": 0.0
       }
     },
     {
@@ -7870,12 +8410,17 @@
         "rpg": 3.9
       },
       "hustle": {
-        "contested_shots": 2.83,
-        "deflections": 1.5,
-        "box_outs": 0.33,
-        "loose_balls_recovered": 0.5,
+        "contested_shots": 3.29,
+        "contested_shots_2pt": 1.71,
+        "contested_shots_3pt": 1.57,
+        "deflections": 1.29,
+        "box_outs": 0.29,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
+        "loose_balls_recovered": 0.43,
         "charges_drawn": 0.0,
-        "screen_assists": 0.5
+        "screen_assists": 0.57,
+        "screen_ast_pts": 0.86
       }
     },
     {
@@ -7942,12 +8487,17 @@
         "rpg": 1.3
       },
       "hustle": {
-        "contested_shots": 4.33,
-        "deflections": 0.17,
-        "box_outs": 0.5,
-        "loose_balls_recovered": 0.33,
+        "contested_shots": 4.14,
+        "contested_shots_2pt": 2.43,
+        "contested_shots_3pt": 1.71,
+        "deflections": 0.29,
+        "box_outs": 0.43,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
+        "loose_balls_recovered": 0.29,
         "charges_drawn": 0.0,
-        "screen_assists": 0.33
+        "screen_assists": 0.29,
+        "screen_ast_pts": 0.71
       }
     },
     {
@@ -8014,12 +8564,17 @@
         "rpg": 3.7
       },
       "hustle": {
-        "contested_shots": 1.83,
-        "deflections": 1.33,
-        "box_outs": 0.33,
+        "contested_shots": 1.86,
+        "contested_shots_2pt": 0.57,
+        "contested_shots_3pt": 1.29,
+        "deflections": 1.43,
+        "box_outs": 0.29,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
         "loose_balls_recovered": 0.0,
         "charges_drawn": 0.0,
-        "screen_assists": 0.17
+        "screen_assists": 0.14,
+        "screen_ast_pts": 0.29
       }
     },
     {
@@ -8086,12 +8641,17 @@
         "rpg": 0.2
       },
       "hustle": {
-        "contested_shots": 0.33,
-        "deflections": 0.33,
+        "contested_shots": 0.5,
+        "contested_shots_2pt": 0.25,
+        "contested_shots_3pt": 0.25,
+        "deflections": 0.5,
         "box_outs": 0.0,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.0,
         "loose_balls_recovered": 0.0,
         "charges_drawn": 0.0,
-        "screen_assists": 0.67
+        "screen_assists": 0.5,
+        "screen_ast_pts": 1.0
       }
     },
     {
@@ -8158,12 +8718,17 @@
         "rpg": 9.9
       },
       "hustle": {
-        "contested_shots": 6.0,
-        "deflections": 2.33,
-        "box_outs": 2.17,
-        "loose_balls_recovered": 0.33,
+        "contested_shots": 6.29,
+        "contested_shots_2pt": 4.0,
+        "contested_shots_3pt": 2.29,
+        "deflections": 2.29,
+        "box_outs": 2.0,
+        "pct_box_outs_off": 0.143,
+        "pct_box_outs_def": 0.786,
+        "loose_balls_recovered": 0.43,
         "charges_drawn": 0.0,
-        "screen_assists": 3.17
+        "screen_assists": 3.57,
+        "screen_ast_pts": 6.0
       }
     },
     {
@@ -8230,12 +8795,17 @@
         "rpg": 6.4
       },
       "hustle": {
-        "contested_shots": 3.83,
-        "deflections": 2.67,
-        "box_outs": 0.83,
-        "loose_balls_recovered": 0.5,
+        "contested_shots": 3.71,
+        "contested_shots_2pt": 2.71,
+        "contested_shots_3pt": 1.0,
+        "deflections": 2.29,
+        "box_outs": 0.86,
+        "pct_box_outs_off": 0.5,
+        "pct_box_outs_def": 0.333,
+        "loose_balls_recovered": 0.43,
         "charges_drawn": 0.0,
-        "screen_assists": 2.17
+        "screen_assists": 2.0,
+        "screen_ast_pts": 4.29
       }
     },
     {
@@ -8302,12 +8872,17 @@
         "rpg": 3.8
       },
       "hustle": {
-        "contested_shots": 5.0,
+        "contested_shots": 6.0,
+        "contested_shots_2pt": 5.0,
+        "contested_shots_3pt": 1.0,
         "deflections": 0.0,
-        "box_outs": 0.2,
+        "box_outs": 0.67,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.25,
         "loose_balls_recovered": 0.0,
         "charges_drawn": 0.0,
-        "screen_assists": 2.4
+        "screen_assists": 3.0,
+        "screen_ast_pts": 5.0
       }
     },
     {
@@ -8374,12 +8949,17 @@
         "rpg": 4.1
       },
       "hustle": {
-        "contested_shots": 5.67,
-        "deflections": 3.5,
-        "box_outs": 0.5,
-        "loose_balls_recovered": 0.83,
+        "contested_shots": 5.29,
+        "contested_shots_2pt": 2.71,
+        "contested_shots_3pt": 2.57,
+        "deflections": 3.57,
+        "box_outs": 0.43,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
+        "loose_balls_recovered": 0.71,
         "charges_drawn": 0.0,
-        "screen_assists": 0.17
+        "screen_assists": 0.14,
+        "screen_ast_pts": 0.29
       }
     },
     {
@@ -8446,12 +9026,17 @@
         "rpg": 6.4
       },
       "hustle": {
-        "contested_shots": 4.86,
-        "deflections": 1.71,
-        "box_outs": 0.14,
-        "loose_balls_recovered": 0.57,
+        "contested_shots": 4.5,
+        "contested_shots_2pt": 2.75,
+        "contested_shots_3pt": 1.75,
+        "deflections": 1.88,
+        "box_outs": 0.13,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
+        "loose_balls_recovered": 0.5,
         "charges_drawn": 0.0,
-        "screen_assists": 0.29
+        "screen_assists": 0.25,
+        "screen_ast_pts": 0.5
       }
     },
     {
@@ -8519,11 +9104,16 @@
       },
       "hustle": {
         "contested_shots": 1.0,
+        "contested_shots_2pt": 0.33,
+        "contested_shots_3pt": 0.67,
         "deflections": 0.33,
         "box_outs": 0.33,
+        "pct_box_outs_off": 1.0,
+        "pct_box_outs_def": 0.0,
         "loose_balls_recovered": 0.67,
         "charges_drawn": 0.0,
-        "screen_assists": 1.0
+        "screen_assists": 1.0,
+        "screen_ast_pts": 2.0
       }
     },
     {
@@ -8591,11 +9181,16 @@
       },
       "hustle": {
         "contested_shots": 0.0,
+        "contested_shots_2pt": 0.0,
+        "contested_shots_3pt": 0.0,
         "deflections": 1.0,
         "box_outs": 0.0,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.0,
         "loose_balls_recovered": 0.0,
         "charges_drawn": 0.0,
-        "screen_assists": 0.0
+        "screen_assists": 0.0,
+        "screen_ast_pts": 0.0
       }
     },
     {
@@ -8663,11 +9258,16 @@
       },
       "hustle": {
         "contested_shots": 1.0,
+        "contested_shots_2pt": 0.5,
+        "contested_shots_3pt": 0.5,
         "deflections": 1.0,
         "box_outs": 0.0,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.0,
         "loose_balls_recovered": 0.0,
         "charges_drawn": 0.0,
-        "screen_assists": 0.0
+        "screen_assists": 0.0,
+        "screen_ast_pts": 0.0
       }
     },
     {
@@ -8735,11 +9335,16 @@
       },
       "hustle": {
         "contested_shots": 5.0,
-        "deflections": 1.43,
-        "box_outs": 0.57,
-        "loose_balls_recovered": 0.29,
+        "contested_shots_2pt": 2.75,
+        "contested_shots_3pt": 2.25,
+        "deflections": 1.5,
+        "box_outs": 0.5,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
+        "loose_balls_recovered": 0.38,
         "charges_drawn": 0.0,
-        "screen_assists": 0.29
+        "screen_assists": 0.25,
+        "screen_ast_pts": 0.5
       }
     },
     {
@@ -8807,11 +9412,16 @@
       },
       "hustle": {
         "contested_shots": 0.33,
+        "contested_shots_2pt": 0.33,
+        "contested_shots_3pt": 0.0,
         "deflections": 0.67,
         "box_outs": 0.0,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.0,
         "loose_balls_recovered": 0.0,
         "charges_drawn": 0.0,
-        "screen_assists": 0.0
+        "screen_assists": 0.0,
+        "screen_ast_pts": 0.0
       }
     },
     {
@@ -8878,12 +9488,17 @@
         "rpg": 7.3
       },
       "hustle": {
-        "contested_shots": 4.67,
-        "deflections": 1.67,
-        "box_outs": 0.33,
-        "loose_balls_recovered": 0.5,
+        "contested_shots": 4.0,
+        "contested_shots_2pt": 1.86,
+        "contested_shots_3pt": 2.14,
+        "deflections": 1.57,
+        "box_outs": 0.43,
+        "pct_box_outs_off": 0.333,
+        "pct_box_outs_def": 0.333,
+        "loose_balls_recovered": 0.43,
         "charges_drawn": 0.0,
-        "screen_assists": 0.33
+        "screen_assists": 0.29,
+        "screen_ast_pts": 0.71
       }
     },
     {
@@ -8950,12 +9565,17 @@
         "rpg": 3.6
       },
       "hustle": {
-        "contested_shots": 3.5,
-        "deflections": 2.33,
-        "box_outs": 0.67,
-        "loose_balls_recovered": 0.17,
-        "charges_drawn": 0.0,
-        "screen_assists": 0.5
+        "contested_shots": 3.57,
+        "contested_shots_2pt": 1.86,
+        "contested_shots_3pt": 1.71,
+        "deflections": 2.29,
+        "box_outs": 0.86,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.667,
+        "loose_balls_recovered": 0.43,
+        "charges_drawn": 0.14,
+        "screen_assists": 0.71,
+        "screen_ast_pts": 1.0
       }
     },
     {
@@ -9023,11 +9643,16 @@
       },
       "hustle": {
         "contested_shots": 4.2,
+        "contested_shots_2pt": 2.8,
+        "contested_shots_3pt": 1.4,
         "deflections": 1.6,
         "box_outs": 0.4,
+        "pct_box_outs_off": 0.5,
+        "pct_box_outs_def": 0.5,
         "loose_balls_recovered": 0.8,
         "charges_drawn": 0.0,
-        "screen_assists": 3.0
+        "screen_assists": 3.0,
+        "screen_ast_pts": 7.2
       }
     },
     {
@@ -9094,12 +9719,17 @@
         "rpg": 2.7
       },
       "hustle": {
-        "contested_shots": 4.0,
-        "deflections": 0.83,
-        "box_outs": 0.17,
-        "loose_balls_recovered": 0.67,
-        "charges_drawn": 0.5,
-        "screen_assists": 0.33
+        "contested_shots": 3.71,
+        "contested_shots_2pt": 1.57,
+        "contested_shots_3pt": 2.14,
+        "deflections": 0.71,
+        "box_outs": 0.29,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.5,
+        "loose_balls_recovered": 0.57,
+        "charges_drawn": 0.43,
+        "screen_assists": 0.29,
+        "screen_ast_pts": 0.57
       }
     },
     {
@@ -9166,12 +9796,17 @@
         "rpg": 3.6
       },
       "hustle": {
-        "contested_shots": 2.5,
-        "deflections": 0.75,
+        "contested_shots": 2.6,
+        "contested_shots_2pt": 1.6,
+        "contested_shots_3pt": 1.0,
+        "deflections": 1.0,
         "box_outs": 0.0,
-        "loose_balls_recovered": 0.25,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.0,
+        "loose_balls_recovered": 0.2,
         "charges_drawn": 0.0,
-        "screen_assists": 0.25
+        "screen_assists": 0.2,
+        "screen_ast_pts": 0.4
       }
     },
     {
@@ -9238,12 +9873,17 @@
         "rpg": 9.0
       },
       "hustle": {
-        "contested_shots": 5.29,
+        "contested_shots": 5.0,
+        "contested_shots_2pt": 3.14,
+        "contested_shots_3pt": 1.86,
         "deflections": 2.0,
         "box_outs": 0.71,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
         "loose_balls_recovered": 0.43,
         "charges_drawn": 0.0,
-        "screen_assists": 0.57
+        "screen_assists": 0.57,
+        "screen_ast_pts": 1.29
       }
     },
     {
@@ -9310,12 +9950,17 @@
         "rpg": 3.6
       },
       "hustle": {
-        "contested_shots": 2.17,
-        "deflections": 1.5,
-        "box_outs": 0.33,
-        "loose_balls_recovered": 0.33,
+        "contested_shots": 3.29,
+        "contested_shots_2pt": 2.43,
+        "contested_shots_3pt": 0.86,
+        "deflections": 1.71,
+        "box_outs": 0.86,
+        "pct_box_outs_off": 0.167,
+        "pct_box_outs_def": 0.167,
+        "loose_balls_recovered": 0.43,
         "charges_drawn": 0.0,
-        "screen_assists": 1.0
+        "screen_assists": 1.29,
+        "screen_ast_pts": 2.0
       }
     },
     {
@@ -9382,12 +10027,17 @@
         "rpg": 8.6
       },
       "hustle": {
-        "contested_shots": 6.67,
-        "deflections": 1.33,
-        "box_outs": 1.5,
-        "loose_balls_recovered": 0.17,
-        "charges_drawn": 0.17,
-        "screen_assists": 1.83
+        "contested_shots": 6.43,
+        "contested_shots_2pt": 4.43,
+        "contested_shots_3pt": 2.0,
+        "deflections": 1.43,
+        "box_outs": 1.43,
+        "pct_box_outs_off": 0.1,
+        "pct_box_outs_def": 0.8,
+        "loose_balls_recovered": 0.14,
+        "charges_drawn": 0.14,
+        "screen_assists": 2.14,
+        "screen_ast_pts": 3.71
       }
     },
     {
@@ -9454,12 +10104,17 @@
         "rpg": 1.6
       },
       "hustle": {
-        "contested_shots": 2.6,
-        "deflections": 1.0,
+        "contested_shots": 2.33,
+        "contested_shots_2pt": 1.17,
+        "contested_shots_3pt": 1.17,
+        "deflections": 0.83,
         "box_outs": 0.0,
-        "loose_balls_recovered": 0.2,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.0,
+        "loose_balls_recovered": 0.17,
         "charges_drawn": 0.0,
-        "screen_assists": 0.0
+        "screen_assists": 0.17,
+        "screen_ast_pts": 0.0
       }
     },
     {
@@ -9526,12 +10181,17 @@
         "rpg": 5.5
       },
       "hustle": {
-        "contested_shots": 4.2,
-        "deflections": 1.0,
-        "box_outs": 0.2,
-        "loose_balls_recovered": 0.8,
-        "charges_drawn": 0.4,
-        "screen_assists": 0.8
+        "contested_shots": 4.5,
+        "contested_shots_2pt": 2.83,
+        "contested_shots_3pt": 1.67,
+        "deflections": 1.33,
+        "box_outs": 0.17,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
+        "loose_balls_recovered": 0.67,
+        "charges_drawn": 0.33,
+        "screen_assists": 0.83,
+        "screen_ast_pts": 1.5
       }
     },
     {
@@ -9598,12 +10258,17 @@
         "rpg": 1.9
       },
       "hustle": {
-        "contested_shots": 1.5,
-        "deflections": 2.67,
-        "box_outs": 0.17,
-        "loose_balls_recovered": 0.67,
-        "charges_drawn": 0.17,
-        "screen_assists": 0.0
+        "contested_shots": 1.29,
+        "contested_shots_2pt": 0.43,
+        "contested_shots_3pt": 0.86,
+        "deflections": 2.29,
+        "box_outs": 0.14,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
+        "loose_balls_recovered": 0.57,
+        "charges_drawn": 0.14,
+        "screen_assists": 0.14,
+        "screen_ast_pts": 0.0
       }
     },
     {
@@ -9670,12 +10335,17 @@
         "rpg": 4.7
       },
       "hustle": {
-        "contested_shots": 4.67,
-        "deflections": 2.0,
-        "box_outs": 1.17,
-        "loose_balls_recovered": 0.5,
+        "contested_shots": 5.0,
+        "contested_shots_2pt": 2.57,
+        "contested_shots_3pt": 2.43,
+        "deflections": 2.14,
+        "box_outs": 1.0,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
+        "loose_balls_recovered": 0.57,
         "charges_drawn": 0.0,
-        "screen_assists": 0.0
+        "screen_assists": 0.0,
+        "screen_ast_pts": 0.0
       }
     },
     {
@@ -9742,12 +10412,17 @@
         "rpg": 1.6
       },
       "hustle": {
-        "contested_shots": 1.0,
-        "deflections": 0.75,
+        "contested_shots": 1.4,
+        "contested_shots_2pt": 0.4,
+        "contested_shots_3pt": 1.0,
+        "deflections": 0.6,
         "box_outs": 0.0,
-        "loose_balls_recovered": 0.5,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.0,
+        "loose_balls_recovered": 0.4,
         "charges_drawn": 0.0,
-        "screen_assists": 0.25
+        "screen_assists": 0.4,
+        "screen_ast_pts": 0.4
       }
     },
     {
@@ -9814,12 +10489,17 @@
         "rpg": 6.1
       },
       "hustle": {
-        "contested_shots": 2.0,
-        "deflections": 1.86,
-        "box_outs": 0.57,
-        "loose_balls_recovered": 0.57,
+        "contested_shots": 2.38,
+        "contested_shots_2pt": 1.13,
+        "contested_shots_3pt": 1.25,
+        "deflections": 2.0,
+        "box_outs": 0.5,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
+        "loose_balls_recovered": 0.5,
         "charges_drawn": 0.0,
-        "screen_assists": 0.14
+        "screen_assists": 0.25,
+        "screen_ast_pts": 0.25
       }
     },
     {
@@ -9886,12 +10566,17 @@
         "rpg": 3.3
       },
       "hustle": {
-        "contested_shots": 2.17,
-        "deflections": 1.17,
-        "box_outs": 0.17,
-        "loose_balls_recovered": 0.33,
-        "charges_drawn": 0.17,
-        "screen_assists": 0.5
+        "contested_shots": 2.14,
+        "contested_shots_2pt": 1.14,
+        "contested_shots_3pt": 1.0,
+        "deflections": 1.29,
+        "box_outs": 0.43,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.333,
+        "loose_balls_recovered": 0.29,
+        "charges_drawn": 0.14,
+        "screen_assists": 0.43,
+        "screen_ast_pts": 0.86
       }
     },
     {
@@ -9958,12 +10643,17 @@
         "rpg": 8.7
       },
       "hustle": {
-        "contested_shots": 10.17,
-        "deflections": 2.33,
+        "contested_shots": 10.29,
+        "contested_shots_2pt": 7.43,
+        "contested_shots_3pt": 2.86,
+        "deflections": 2.29,
         "box_outs": 1.0,
-        "loose_balls_recovered": 0.5,
+        "pct_box_outs_off": 0.143,
+        "pct_box_outs_def": 0.714,
+        "loose_balls_recovered": 0.43,
         "charges_drawn": 0.0,
-        "screen_assists": 2.33
+        "screen_assists": 2.57,
+        "screen_ast_pts": 4.71
       }
     },
     {
@@ -10030,12 +10720,17 @@
         "rpg": 1.9
       },
       "hustle": {
-        "contested_shots": 2.17,
-        "deflections": 1.33,
-        "box_outs": 0.17,
-        "loose_balls_recovered": 0.5,
-        "charges_drawn": 0.17,
-        "screen_assists": 0.5
+        "contested_shots": 2.29,
+        "contested_shots_2pt": 1.71,
+        "contested_shots_3pt": 0.57,
+        "deflections": 1.43,
+        "box_outs": 0.14,
+        "pct_box_outs_off": 1.0,
+        "pct_box_outs_def": 0.0,
+        "loose_balls_recovered": 0.86,
+        "charges_drawn": 0.14,
+        "screen_assists": 0.71,
+        "screen_ast_pts": 1.14
       }
     },
     {
@@ -10102,12 +10797,17 @@
         "rpg": 2.6
       },
       "hustle": {
-        "contested_shots": 2.83,
-        "deflections": 1.5,
-        "box_outs": 0.67,
-        "loose_balls_recovered": 0.17,
-        "charges_drawn": 0.17,
-        "screen_assists": 0.0
+        "contested_shots": 2.57,
+        "contested_shots_2pt": 1.0,
+        "contested_shots_3pt": 1.57,
+        "deflections": 2.29,
+        "box_outs": 0.57,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
+        "loose_balls_recovered": 0.14,
+        "charges_drawn": 0.14,
+        "screen_assists": 0.0,
+        "screen_ast_pts": 0.0
       }
     },
     {
@@ -10174,12 +10874,17 @@
         "rpg": 6.3
       },
       "hustle": {
-        "contested_shots": 7.8,
-        "deflections": 1.6,
-        "box_outs": 1.6,
-        "loose_balls_recovered": 0.2,
+        "contested_shots": 8.0,
+        "contested_shots_2pt": 6.0,
+        "contested_shots_3pt": 2.0,
+        "deflections": 1.67,
+        "box_outs": 1.67,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.8,
+        "loose_balls_recovered": 0.17,
         "charges_drawn": 0.0,
-        "screen_assists": 4.0
+        "screen_assists": 3.67,
+        "screen_ast_pts": 8.0
       }
     },
     {
@@ -10246,12 +10951,17 @@
         "rpg": 4.0
       },
       "hustle": {
-        "contested_shots": 6.0,
-        "deflections": 0.83,
-        "box_outs": 1.5,
+        "contested_shots": 6.71,
+        "contested_shots_2pt": 4.43,
+        "contested_shots_3pt": 2.29,
+        "deflections": 0.86,
+        "box_outs": 1.57,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.818,
         "loose_balls_recovered": 0.0,
         "charges_drawn": 0.0,
-        "screen_assists": 0.83
+        "screen_assists": 1.29,
+        "screen_ast_pts": 1.71
       }
     },
     {
@@ -10318,12 +11028,17 @@
         "rpg": 6.9
       },
       "hustle": {
-        "contested_shots": 6.5,
-        "deflections": 3.5,
-        "box_outs": 1.67,
-        "loose_balls_recovered": 0.83,
+        "contested_shots": 6.43,
+        "contested_shots_2pt": 2.43,
+        "contested_shots_3pt": 4.0,
+        "deflections": 3.14,
+        "box_outs": 1.86,
+        "pct_box_outs_off": 0.077,
+        "pct_box_outs_def": 0.692,
+        "loose_balls_recovered": 0.71,
         "charges_drawn": 0.0,
-        "screen_assists": 0.33
+        "screen_assists": 0.29,
+        "screen_ast_pts": 0.86
       }
     },
     {
@@ -10390,12 +11105,17 @@
         "rpg": 1.4
       },
       "hustle": {
-        "contested_shots": 1.2,
+        "contested_shots": 1.33,
+        "contested_shots_2pt": 0.67,
+        "contested_shots_3pt": 0.67,
         "deflections": 2.0,
         "box_outs": 0.0,
-        "loose_balls_recovered": 0.6,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.0,
+        "loose_balls_recovered": 0.83,
         "charges_drawn": 0.0,
-        "screen_assists": 0.4
+        "screen_assists": 0.17,
+        "screen_ast_pts": 0.33
       }
     },
     {
@@ -10462,12 +11182,17 @@
         "rpg": 3.6
       },
       "hustle": {
-        "contested_shots": 2.33,
-        "deflections": 2.0,
-        "box_outs": 0.33,
-        "loose_balls_recovered": 0.5,
-        "charges_drawn": 0.17,
-        "screen_assists": 0.67
+        "contested_shots": 2.29,
+        "contested_shots_2pt": 1.14,
+        "contested_shots_3pt": 1.14,
+        "deflections": 1.71,
+        "box_outs": 0.43,
+        "pct_box_outs_off": 0.333,
+        "pct_box_outs_def": 0.333,
+        "loose_balls_recovered": 0.57,
+        "charges_drawn": 0.14,
+        "screen_assists": 0.57,
+        "screen_ast_pts": 1.29
       }
     },
     {
@@ -10534,12 +11259,17 @@
         "rpg": 4.0
       },
       "hustle": {
-        "contested_shots": 6.17,
-        "deflections": 0.5,
-        "box_outs": 0.83,
-        "loose_balls_recovered": 0.17,
-        "charges_drawn": 0.17,
-        "screen_assists": 1.33
+        "contested_shots": 6.29,
+        "contested_shots_2pt": 2.71,
+        "contested_shots_3pt": 3.57,
+        "deflections": 0.57,
+        "box_outs": 0.71,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
+        "loose_balls_recovered": 0.29,
+        "charges_drawn": 0.14,
+        "screen_assists": 1.14,
+        "screen_ast_pts": 2.57
       }
     },
     {
@@ -10607,11 +11337,16 @@
       },
       "hustle": {
         "contested_shots": 2.8,
+        "contested_shots_2pt": 1.6,
+        "contested_shots_3pt": 1.2,
         "deflections": 1.0,
         "box_outs": 0.8,
+        "pct_box_outs_off": 0.25,
+        "pct_box_outs_def": 0.75,
         "loose_balls_recovered": 0.2,
         "charges_drawn": 0.0,
-        "screen_assists": 0.2
+        "screen_assists": 0.2,
+        "screen_ast_pts": 0.4
       }
     },
     {
@@ -10678,12 +11413,17 @@
         "rpg": 6.0
       },
       "hustle": {
-        "contested_shots": 4.5,
-        "deflections": 2.33,
-        "box_outs": 0.5,
-        "loose_balls_recovered": 0.5,
+        "contested_shots": 3.86,
+        "contested_shots_2pt": 1.14,
+        "contested_shots_3pt": 2.71,
+        "deflections": 2.14,
+        "box_outs": 0.71,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.6,
+        "loose_balls_recovered": 0.57,
         "charges_drawn": 0.0,
-        "screen_assists": 0.33
+        "screen_assists": 0.29,
+        "screen_ast_pts": 0.86
       }
     },
     {
@@ -10750,12 +11490,17 @@
         "rpg": 2.6
       },
       "hustle": {
-        "contested_shots": 3.33,
-        "deflections": 1.17,
-        "box_outs": 0.67,
-        "loose_balls_recovered": 0.17,
-        "charges_drawn": 0.17,
-        "screen_assists": 0.17
+        "contested_shots": 3.43,
+        "contested_shots_2pt": 1.71,
+        "contested_shots_3pt": 1.71,
+        "deflections": 1.14,
+        "box_outs": 0.57,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
+        "loose_balls_recovered": 0.14,
+        "charges_drawn": 0.14,
+        "screen_assists": 0.14,
+        "screen_ast_pts": 0.29
       }
     },
     {
@@ -10822,12 +11567,17 @@
         "rpg": 4.3
       },
       "hustle": {
-        "contested_shots": 2.83,
-        "deflections": 2.5,
+        "contested_shots": 3.0,
+        "contested_shots_2pt": 1.29,
+        "contested_shots_3pt": 1.71,
+        "deflections": 2.14,
         "box_outs": 0.0,
-        "loose_balls_recovered": 0.33,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.0,
+        "loose_balls_recovered": 0.57,
         "charges_drawn": 0.0,
-        "screen_assists": 0.0
+        "screen_assists": 0.0,
+        "screen_ast_pts": 0.0
       }
     },
     {
@@ -10894,12 +11644,17 @@
         "rpg": 6.9
       },
       "hustle": {
-        "contested_shots": 8.43,
-        "deflections": 0.71,
-        "box_outs": 1.86,
-        "loose_balls_recovered": 0.29,
+        "contested_shots": 8.13,
+        "contested_shots_2pt": 6.13,
+        "contested_shots_3pt": 2.0,
+        "deflections": 0.63,
+        "box_outs": 1.75,
+        "pct_box_outs_off": 0.357,
+        "pct_box_outs_def": 0.5,
+        "loose_balls_recovered": 0.25,
         "charges_drawn": 0.0,
-        "screen_assists": 2.43
+        "screen_assists": 2.25,
+        "screen_ast_pts": 4.63
       }
     },
     {
@@ -10967,11 +11722,16 @@
       },
       "hustle": {
         "contested_shots": 5.33,
+        "contested_shots_2pt": 4.0,
+        "contested_shots_3pt": 1.33,
         "deflections": 0.67,
         "box_outs": 1.83,
+        "pct_box_outs_off": 0.273,
+        "pct_box_outs_def": 0.727,
         "loose_balls_recovered": 0.0,
         "charges_drawn": 0.0,
-        "screen_assists": 1.33
+        "screen_assists": 1.33,
+        "screen_ast_pts": 3.17
       }
     },
     {
@@ -11038,12 +11798,17 @@
         "rpg": 9.2
       },
       "hustle": {
-        "contested_shots": 8.0,
-        "deflections": 0.8,
-        "box_outs": 0.8,
-        "loose_balls_recovered": 0.8,
+        "contested_shots": 7.33,
+        "contested_shots_2pt": 6.33,
+        "contested_shots_3pt": 1.0,
+        "deflections": 0.67,
+        "box_outs": 0.83,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.8,
+        "loose_balls_recovered": 0.83,
         "charges_drawn": 0.0,
-        "screen_assists": 2.4
+        "screen_assists": 2.5,
+        "screen_ast_pts": 5.17
       }
     },
     {
@@ -11110,12 +11875,17 @@
         "rpg": 6.6
       },
       "hustle": {
-        "contested_shots": 5.67,
-        "deflections": 1.67,
-        "box_outs": 2.17,
-        "loose_balls_recovered": 0.83,
-        "charges_drawn": 0.17,
-        "screen_assists": 1.83
+        "contested_shots": 5.29,
+        "contested_shots_2pt": 3.71,
+        "contested_shots_3pt": 1.57,
+        "deflections": 1.71,
+        "box_outs": 1.86,
+        "pct_box_outs_off": 0.385,
+        "pct_box_outs_def": 0.615,
+        "loose_balls_recovered": 0.71,
+        "charges_drawn": 0.14,
+        "screen_assists": 1.57,
+        "screen_ast_pts": 3.43
       }
     },
     {
@@ -11182,12 +11952,17 @@
         "rpg": 5.4
       },
       "hustle": {
-        "contested_shots": 3.71,
-        "deflections": 2.57,
-        "box_outs": 0.86,
-        "loose_balls_recovered": 0.43,
+        "contested_shots": 4.38,
+        "contested_shots_2pt": 3.38,
+        "contested_shots_3pt": 1.0,
+        "deflections": 2.63,
+        "box_outs": 0.63,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
+        "loose_balls_recovered": 0.63,
         "charges_drawn": 0.0,
-        "screen_assists": 0.71
+        "screen_assists": 0.75,
+        "screen_ast_pts": 1.63
       }
     },
     {
@@ -11254,12 +12029,17 @@
         "rpg": 1.5
       },
       "hustle": {
-        "contested_shots": 1.75,
-        "deflections": 0.75,
-        "box_outs": 0.25,
-        "loose_balls_recovered": 0.25,
+        "contested_shots": 1.6,
+        "contested_shots_2pt": 0.6,
+        "contested_shots_3pt": 1.0,
+        "deflections": 1.4,
+        "box_outs": 0.4,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.5,
+        "loose_balls_recovered": 0.2,
         "charges_drawn": 0.0,
-        "screen_assists": 0.0
+        "screen_assists": 0.0,
+        "screen_ast_pts": 0.0
       }
     },
     {
@@ -11326,12 +12106,17 @@
         "rpg": 3.4
       },
       "hustle": {
-        "contested_shots": 1.25,
-        "deflections": 2.25,
-        "box_outs": 0.5,
-        "loose_balls_recovered": 1.0,
+        "contested_shots": 1.0,
+        "contested_shots_2pt": 0.2,
+        "contested_shots_3pt": 0.8,
+        "deflections": 2.0,
+        "box_outs": 0.4,
+        "pct_box_outs_off": 1.0,
+        "pct_box_outs_def": 0.0,
+        "loose_balls_recovered": 0.8,
         "charges_drawn": 0.0,
-        "screen_assists": 0.0
+        "screen_assists": 0.0,
+        "screen_ast_pts": 0.0
       }
     },
     {
@@ -11398,12 +12183,17 @@
         "rpg": 3.7
       },
       "hustle": {
-        "contested_shots": 2.5,
-        "deflections": 1.5,
-        "box_outs": 0.5,
-        "loose_balls_recovered": 0.83,
-        "charges_drawn": 0.17,
-        "screen_assists": 0.0
+        "contested_shots": 2.29,
+        "contested_shots_2pt": 1.43,
+        "contested_shots_3pt": 0.86,
+        "deflections": 1.29,
+        "box_outs": 0.43,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
+        "loose_balls_recovered": 0.86,
+        "charges_drawn": 0.14,
+        "screen_assists": 0.0,
+        "screen_ast_pts": 0.0
       }
     },
     {
@@ -11470,12 +12260,17 @@
         "rpg": 5.1
       },
       "hustle": {
-        "contested_shots": 4.33,
-        "deflections": 0.33,
-        "box_outs": 0.17,
-        "loose_balls_recovered": 0.17,
+        "contested_shots": 4.86,
+        "contested_shots_2pt": 2.29,
+        "contested_shots_3pt": 2.57,
+        "deflections": 0.43,
+        "box_outs": 0.14,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
+        "loose_balls_recovered": 0.14,
         "charges_drawn": 0.0,
-        "screen_assists": 0.0
+        "screen_assists": 0.0,
+        "screen_ast_pts": 0.0
       }
     },
     {
@@ -11542,12 +12337,17 @@
         "rpg": 1.4
       },
       "hustle": {
-        "contested_shots": 1.5,
+        "contested_shots": 1.33,
+        "contested_shots_2pt": 0.67,
+        "contested_shots_3pt": 0.67,
         "deflections": 1.0,
         "box_outs": 0.0,
-        "loose_balls_recovered": 0.5,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.0,
+        "loose_balls_recovered": 0.67,
         "charges_drawn": 0.0,
-        "screen_assists": 1.5
+        "screen_assists": 1.0,
+        "screen_ast_pts": 2.0
       }
     },
     {
@@ -11614,12 +12414,17 @@
         "rpg": 7.3
       },
       "hustle": {
-        "contested_shots": 5.5,
+        "contested_shots": 5.43,
+        "contested_shots_2pt": 2.0,
+        "contested_shots_3pt": 3.43,
         "deflections": 4.0,
-        "box_outs": 0.5,
-        "loose_balls_recovered": 0.33,
+        "box_outs": 0.43,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
+        "loose_balls_recovered": 0.29,
         "charges_drawn": 0.0,
-        "screen_assists": 0.67
+        "screen_assists": 0.57,
+        "screen_ast_pts": 1.29
       }
     },
     {
@@ -11687,11 +12492,16 @@
       },
       "hustle": {
         "contested_shots": 0.0,
+        "contested_shots_2pt": 0.0,
+        "contested_shots_3pt": 0.0,
         "deflections": 1.67,
         "box_outs": 0.33,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
         "loose_balls_recovered": 0.0,
         "charges_drawn": 0.0,
-        "screen_assists": 0.0
+        "screen_assists": 0.0,
+        "screen_ast_pts": 0.0
       }
     },
     {
@@ -11758,12 +12568,17 @@
         "rpg": 3.0
       },
       "hustle": {
-        "contested_shots": 2.4,
-        "deflections": 1.6,
-        "box_outs": 0.4,
-        "loose_balls_recovered": 0.6,
-        "charges_drawn": 0.2,
-        "screen_assists": 0.2
+        "contested_shots": 2.33,
+        "contested_shots_2pt": 1.5,
+        "contested_shots_3pt": 0.83,
+        "deflections": 1.5,
+        "box_outs": 0.5,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.667,
+        "loose_balls_recovered": 0.5,
+        "charges_drawn": 0.17,
+        "screen_assists": 0.17,
+        "screen_ast_pts": 0.5
       }
     },
     {
@@ -11830,12 +12645,17 @@
         "rpg": 4.5
       },
       "hustle": {
-        "contested_shots": 1.8,
-        "deflections": 2.8,
-        "box_outs": 0.2,
-        "loose_balls_recovered": 0.8,
+        "contested_shots": 2.33,
+        "contested_shots_2pt": 1.0,
+        "contested_shots_3pt": 1.33,
+        "deflections": 2.83,
+        "box_outs": 0.17,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
+        "loose_balls_recovered": 0.83,
         "charges_drawn": 0.0,
-        "screen_assists": 1.0
+        "screen_assists": 0.83,
+        "screen_ast_pts": 2.17
       }
     },
     {
@@ -11902,12 +12722,17 @@
         "rpg": 3.7
       },
       "hustle": {
-        "contested_shots": 3.67,
-        "deflections": 2.17,
-        "box_outs": 0.17,
-        "loose_balls_recovered": 0.17,
+        "contested_shots": 3.71,
+        "contested_shots_2pt": 2.29,
+        "contested_shots_3pt": 1.43,
+        "deflections": 1.86,
+        "box_outs": 0.14,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
+        "loose_balls_recovered": 0.14,
         "charges_drawn": 0.0,
-        "screen_assists": 0.17
+        "screen_assists": 0.29,
+        "screen_ast_pts": 0.43
       }
     },
     {
@@ -11974,12 +12799,17 @@
         "rpg": 7.7
       },
       "hustle": {
-        "contested_shots": 3.5,
-        "deflections": 1.5,
-        "box_outs": 0.83,
-        "loose_balls_recovered": 0.5,
+        "contested_shots": 3.29,
+        "contested_shots_2pt": 1.43,
+        "contested_shots_3pt": 1.86,
+        "deflections": 2.14,
+        "box_outs": 1.0,
+        "pct_box_outs_off": 0.143,
+        "pct_box_outs_def": 0.571,
+        "loose_balls_recovered": 0.57,
         "charges_drawn": 0.0,
-        "screen_assists": 0.67
+        "screen_assists": 0.57,
+        "screen_ast_pts": 1.43
       }
     },
     {
@@ -12046,12 +12876,17 @@
         "rpg": 13.9
       },
       "hustle": {
-        "contested_shots": 5.83,
-        "deflections": 2.83,
-        "box_outs": 2.67,
-        "loose_balls_recovered": 0.83,
+        "contested_shots": 5.71,
+        "contested_shots_2pt": 4.43,
+        "contested_shots_3pt": 1.29,
+        "deflections": 3.14,
+        "box_outs": 3.0,
+        "pct_box_outs_off": 0.286,
+        "pct_box_outs_def": 0.476,
+        "loose_balls_recovered": 0.71,
         "charges_drawn": 0.0,
-        "screen_assists": 3.17
+        "screen_assists": 3.0,
+        "screen_ast_pts": 6.14
       }
     },
     {
@@ -12118,12 +12953,17 @@
         "rpg": 4.5
       },
       "hustle": {
-        "contested_shots": 3.8,
-        "deflections": 2.4,
-        "box_outs": 1.2,
-        "loose_balls_recovered": 0.2,
+        "contested_shots": 4.17,
+        "contested_shots_2pt": 3.5,
+        "contested_shots_3pt": 0.67,
+        "deflections": 2.5,
+        "box_outs": 1.5,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.667,
+        "loose_balls_recovered": 0.17,
         "charges_drawn": 0.0,
-        "screen_assists": 1.4
+        "screen_assists": 1.83,
+        "screen_ast_pts": 2.67
       }
     },
     {
@@ -12190,12 +13030,17 @@
         "rpg": 3.1
       },
       "hustle": {
-        "contested_shots": 2.5,
-        "deflections": 2.17,
+        "contested_shots": 2.43,
+        "contested_shots_2pt": 0.71,
+        "contested_shots_3pt": 1.71,
+        "deflections": 1.86,
         "box_outs": 0.0,
-        "loose_balls_recovered": 0.33,
-        "charges_drawn": 0.17,
-        "screen_assists": 0.0
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.0,
+        "loose_balls_recovered": 0.43,
+        "charges_drawn": 0.14,
+        "screen_assists": 0.0,
+        "screen_ast_pts": 0.0
       }
     },
     {
@@ -12262,12 +13107,17 @@
         "rpg": 4.4
       },
       "hustle": {
-        "contested_shots": 3.83,
-        "deflections": 1.0,
-        "box_outs": 0.17,
-        "loose_balls_recovered": 0.17,
+        "contested_shots": 3.71,
+        "contested_shots_2pt": 2.57,
+        "contested_shots_3pt": 1.14,
+        "deflections": 1.14,
+        "box_outs": 0.14,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
+        "loose_balls_recovered": 0.57,
         "charges_drawn": 0.0,
-        "screen_assists": 0.17
+        "screen_assists": 0.14,
+        "screen_ast_pts": 0.29
       }
     },
     {
@@ -12334,12 +13184,17 @@
         "rpg": 8.7
       },
       "hustle": {
-        "contested_shots": 5.33,
-        "deflections": 0.5,
-        "box_outs": 1.5,
-        "loose_balls_recovered": 0.5,
+        "contested_shots": 5.29,
+        "contested_shots_2pt": 3.29,
+        "contested_shots_3pt": 2.0,
+        "deflections": 0.57,
+        "box_outs": 1.29,
+        "pct_box_outs_off": 0.222,
+        "pct_box_outs_def": 0.778,
+        "loose_balls_recovered": 0.57,
         "charges_drawn": 0.0,
-        "screen_assists": 1.5
+        "screen_assists": 1.29,
+        "screen_ast_pts": 3.0
       }
     },
     {
@@ -12406,12 +13261,17 @@
         "rpg": 5.6
       },
       "hustle": {
-        "contested_shots": 1.67,
-        "deflections": 1.0,
-        "box_outs": 1.5,
-        "loose_balls_recovered": 0.33,
+        "contested_shots": 1.86,
+        "contested_shots_2pt": 1.29,
+        "contested_shots_3pt": 0.57,
+        "deflections": 1.43,
+        "box_outs": 1.14,
+        "pct_box_outs_off": 0.375,
+        "pct_box_outs_def": 0.625,
+        "loose_balls_recovered": 0.29,
         "charges_drawn": 0.0,
-        "screen_assists": 0.17
+        "screen_assists": 0.14,
+        "screen_ast_pts": 0.29
       }
     },
     {
@@ -12479,11 +13339,16 @@
       },
       "hustle": {
         "contested_shots": 3.71,
+        "contested_shots_2pt": 1.86,
+        "contested_shots_3pt": 1.86,
         "deflections": 1.71,
         "box_outs": 0.0,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.0,
         "loose_balls_recovered": 0.43,
         "charges_drawn": 0.14,
-        "screen_assists": 0.0
+        "screen_assists": 0.0,
+        "screen_ast_pts": 0.0
       }
     },
     {
@@ -12550,12 +13415,17 @@
         "rpg": 3.4
       },
       "hustle": {
-        "contested_shots": 1.75,
-        "deflections": 0.75,
-        "box_outs": 0.5,
-        "loose_balls_recovered": 0.25,
+        "contested_shots": 1.8,
+        "contested_shots_2pt": 1.0,
+        "contested_shots_3pt": 0.8,
+        "deflections": 0.8,
+        "box_outs": 0.4,
+        "pct_box_outs_off": 0.5,
+        "pct_box_outs_def": 0.5,
+        "loose_balls_recovered": 0.2,
         "charges_drawn": 0.0,
-        "screen_assists": 0.5
+        "screen_assists": 0.4,
+        "screen_ast_pts": 0.8
       }
     },
     {
@@ -12622,12 +13492,17 @@
         "rpg": 2.5
       },
       "hustle": {
-        "contested_shots": 1.29,
-        "deflections": 1.57,
-        "box_outs": 0.57,
-        "loose_balls_recovered": 0.29,
+        "contested_shots": 1.13,
+        "contested_shots_2pt": 0.5,
+        "contested_shots_3pt": 0.63,
+        "deflections": 1.5,
+        "box_outs": 0.5,
+        "pct_box_outs_off": 0.25,
+        "pct_box_outs_def": 0.75,
+        "loose_balls_recovered": 0.25,
         "charges_drawn": 0.0,
-        "screen_assists": 0.14
+        "screen_assists": 0.13,
+        "screen_ast_pts": 0.25
       }
     },
     {
@@ -12694,12 +13569,17 @@
         "rpg": 1.7
       },
       "hustle": {
-        "contested_shots": 3.0,
-        "deflections": 3.5,
-        "box_outs": 0.33,
-        "loose_balls_recovered": 0.5,
+        "contested_shots": 3.29,
+        "contested_shots_2pt": 1.43,
+        "contested_shots_3pt": 1.86,
+        "deflections": 3.71,
+        "box_outs": 0.29,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
+        "loose_balls_recovered": 0.43,
         "charges_drawn": 0.0,
-        "screen_assists": 0.17
+        "screen_assists": 0.14,
+        "screen_ast_pts": 0.43
       }
     },
     {
@@ -12766,12 +13646,17 @@
         "rpg": 5.3
       },
       "hustle": {
-        "contested_shots": 5.86,
-        "deflections": 1.0,
-        "box_outs": 0.57,
-        "loose_balls_recovered": 0.14,
-        "charges_drawn": 0.29,
-        "screen_assists": 0.71
+        "contested_shots": 5.75,
+        "contested_shots_2pt": 3.13,
+        "contested_shots_3pt": 2.63,
+        "deflections": 1.25,
+        "box_outs": 0.5,
+        "pct_box_outs_off": 0.25,
+        "pct_box_outs_def": 0.75,
+        "loose_balls_recovered": 0.13,
+        "charges_drawn": 0.25,
+        "screen_assists": 0.63,
+        "screen_ast_pts": 1.5
       }
     },
     {
@@ -12838,12 +13723,17 @@
         "rpg": 2.6
       },
       "hustle": {
-        "contested_shots": 2.67,
-        "deflections": 1.67,
-        "box_outs": 0.17,
-        "loose_balls_recovered": 0.17,
+        "contested_shots": 2.86,
+        "contested_shots_2pt": 1.29,
+        "contested_shots_3pt": 1.57,
+        "deflections": 1.71,
+        "box_outs": 0.14,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
+        "loose_balls_recovered": 0.14,
         "charges_drawn": 0.0,
-        "screen_assists": 0.33
+        "screen_assists": 0.43,
+        "screen_ast_pts": 0.71
       }
     },
     {
@@ -12910,12 +13800,17 @@
         "rpg": 4.3
       },
       "hustle": {
-        "contested_shots": 3.5,
-        "deflections": 1.33,
+        "contested_shots": 3.0,
+        "contested_shots_2pt": 0.86,
+        "contested_shots_3pt": 2.14,
+        "deflections": 1.43,
         "box_outs": 0.0,
-        "loose_balls_recovered": 0.5,
-        "charges_drawn": 0.5,
-        "screen_assists": 0.5
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.0,
+        "loose_balls_recovered": 0.43,
+        "charges_drawn": 0.43,
+        "screen_assists": 0.43,
+        "screen_ast_pts": 0.86
       }
     },
     {
@@ -12982,12 +13877,17 @@
         "rpg": 6.0
       },
       "hustle": {
-        "contested_shots": 7.0,
-        "deflections": 1.0,
-        "box_outs": 0.75,
-        "loose_balls_recovered": 0.25,
+        "contested_shots": 6.2,
+        "contested_shots_2pt": 5.2,
+        "contested_shots_3pt": 1.0,
+        "deflections": 0.8,
+        "box_outs": 0.6,
+        "pct_box_outs_off": 1.0,
+        "pct_box_outs_def": 0.0,
+        "loose_balls_recovered": 0.2,
         "charges_drawn": 0.0,
-        "screen_assists": 4.0
+        "screen_assists": 3.6,
+        "screen_ast_pts": 7.0
       }
     },
     {
@@ -13055,11 +13955,16 @@
       },
       "hustle": {
         "contested_shots": 0.6,
+        "contested_shots_2pt": 0.6,
+        "contested_shots_3pt": 0.0,
         "deflections": 0.6,
         "box_outs": 0.2,
+        "pct_box_outs_off": 1.0,
+        "pct_box_outs_def": 0.0,
         "loose_balls_recovered": 0.4,
         "charges_drawn": 0.0,
-        "screen_assists": 0.0
+        "screen_assists": 0.2,
+        "screen_ast_pts": 0.0
       }
     },
     {
@@ -13126,12 +14031,17 @@
         "rpg": 2.9
       },
       "hustle": {
-        "contested_shots": 1.43,
+        "contested_shots": 1.57,
+        "contested_shots_2pt": 1.0,
+        "contested_shots_3pt": 0.57,
         "deflections": 2.0,
         "box_outs": 0.14,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
         "loose_balls_recovered": 0.14,
         "charges_drawn": 0.0,
-        "screen_assists": 0.14
+        "screen_assists": 0.14,
+        "screen_ast_pts": 0.43
       }
     },
     {
@@ -13198,12 +14108,17 @@
         "rpg": 1.3
       },
       "hustle": {
-        "contested_shots": 2.5,
-        "deflections": 1.0,
+        "contested_shots": 2.14,
+        "contested_shots_2pt": 1.43,
+        "contested_shots_3pt": 0.71,
+        "deflections": 0.86,
         "box_outs": 0.0,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.0,
         "loose_balls_recovered": 0.0,
         "charges_drawn": 0.0,
-        "screen_assists": 0.17
+        "screen_assists": 0.14,
+        "screen_ast_pts": 0.0
       }
     },
     {
@@ -13270,12 +14185,17 @@
         "rpg": 2.6
       },
       "hustle": {
-        "contested_shots": 1.0,
+        "contested_shots": 2.0,
+        "contested_shots_2pt": 0.67,
+        "contested_shots_3pt": 1.33,
         "deflections": 1.0,
-        "box_outs": 0.0,
+        "box_outs": 0.67,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.0,
         "loose_balls_recovered": 0.0,
         "charges_drawn": 0.0,
-        "screen_assists": 1.5
+        "screen_assists": 1.0,
+        "screen_ast_pts": 2.33
       }
     },
     {
@@ -13342,12 +14262,17 @@
         "rpg": 3.1
       },
       "hustle": {
-        "contested_shots": 2.67,
-        "deflections": 1.67,
-        "box_outs": 0.0,
-        "loose_balls_recovered": 0.33,
+        "contested_shots": 3.29,
+        "contested_shots_2pt": 2.57,
+        "contested_shots_3pt": 0.71,
+        "deflections": 1.57,
+        "box_outs": 0.43,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.0,
+        "loose_balls_recovered": 0.43,
         "charges_drawn": 0.0,
-        "screen_assists": 0.33
+        "screen_assists": 0.29,
+        "screen_ast_pts": 0.57
       }
     },
     {
@@ -13414,12 +14339,17 @@
         "rpg": 4.0
       },
       "hustle": {
-        "contested_shots": 2.0,
-        "deflections": 6.0,
-        "box_outs": 0.17,
-        "loose_balls_recovered": 1.0,
+        "contested_shots": 1.71,
+        "contested_shots_2pt": 1.0,
+        "contested_shots_3pt": 0.71,
+        "deflections": 5.71,
+        "box_outs": 0.43,
+        "pct_box_outs_off": 0.333,
+        "pct_box_outs_def": 0.0,
+        "loose_balls_recovered": 0.86,
         "charges_drawn": 0.0,
-        "screen_assists": 0.17
+        "screen_assists": 0.14,
+        "screen_ast_pts": 0.29
       }
     },
     {
@@ -13486,12 +14416,17 @@
         "rpg": 1.2
       },
       "hustle": {
-        "contested_shots": 1.33,
-        "deflections": 1.33,
+        "contested_shots": 1.2,
+        "contested_shots_2pt": 0.8,
+        "contested_shots_3pt": 0.4,
+        "deflections": 1.6,
         "box_outs": 0.0,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.0,
         "loose_balls_recovered": 0.0,
-        "charges_drawn": 0.33,
-        "screen_assists": 0.67
+        "charges_drawn": 0.2,
+        "screen_assists": 0.8,
+        "screen_ast_pts": 0.8
       }
     },
     {
@@ -13558,12 +14493,17 @@
         "rpg": 0.8
       },
       "hustle": {
-        "contested_shots": 1.75,
-        "deflections": 1.25,
-        "box_outs": 0.0,
+        "contested_shots": 1.8,
+        "contested_shots_2pt": 1.2,
+        "contested_shots_3pt": 0.6,
+        "deflections": 1.0,
+        "box_outs": 0.2,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.0,
         "loose_balls_recovered": 0.0,
         "charges_drawn": 0.0,
-        "screen_assists": 0.25
+        "screen_assists": 0.2,
+        "screen_ast_pts": 0.6
       }
     },
     {
@@ -13630,12 +14570,17 @@
         "rpg": 6.4
       },
       "hustle": {
-        "contested_shots": 3.5,
+        "contested_shots": 3.57,
+        "contested_shots_2pt": 1.71,
+        "contested_shots_3pt": 1.86,
         "deflections": 1.0,
-        "box_outs": 0.5,
+        "box_outs": 0.43,
+        "pct_box_outs_off": 0.333,
+        "pct_box_outs_def": 0.667,
         "loose_balls_recovered": 0.0,
         "charges_drawn": 0.0,
-        "screen_assists": 0.33
+        "screen_assists": 0.29,
+        "screen_ast_pts": 0.71
       }
     },
     {
@@ -13703,11 +14648,16 @@
       },
       "hustle": {
         "contested_shots": 3.0,
+        "contested_shots_2pt": 2.2,
+        "contested_shots_3pt": 0.8,
         "deflections": 3.4,
         "box_outs": 0.2,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
         "loose_balls_recovered": 0.2,
         "charges_drawn": 0.0,
-        "screen_assists": 0.0
+        "screen_assists": 0.0,
+        "screen_ast_pts": 0.0
       }
     },
     {
@@ -13774,12 +14724,17 @@
         "rpg": 4.3
       },
       "hustle": {
-        "contested_shots": 6.83,
-        "deflections": 1.33,
-        "box_outs": 0.5,
-        "loose_balls_recovered": 0.17,
-        "charges_drawn": 0.17,
-        "screen_assists": 0.33
+        "contested_shots": 7.14,
+        "contested_shots_2pt": 3.57,
+        "contested_shots_3pt": 3.57,
+        "deflections": 1.29,
+        "box_outs": 0.43,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
+        "loose_balls_recovered": 0.14,
+        "charges_drawn": 0.14,
+        "screen_assists": 0.43,
+        "screen_ast_pts": 0.71
       }
     },
     {
@@ -13847,11 +14802,16 @@
       },
       "hustle": {
         "contested_shots": 0.5,
+        "contested_shots_2pt": 0.0,
+        "contested_shots_3pt": 0.5,
         "deflections": 0.0,
         "box_outs": 0.5,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
         "loose_balls_recovered": 0.5,
         "charges_drawn": 0.0,
-        "screen_assists": 0.0
+        "screen_assists": 0.0,
+        "screen_ast_pts": 0.0
       }
     },
     {
@@ -13918,12 +14878,17 @@
         "rpg": 3.6
       },
       "hustle": {
-        "contested_shots": 1.43,
-        "deflections": 2.86,
-        "box_outs": 0.57,
-        "loose_balls_recovered": 0.71,
+        "contested_shots": 1.25,
+        "contested_shots_2pt": 0.63,
+        "contested_shots_3pt": 0.63,
+        "deflections": 2.5,
+        "box_outs": 0.5,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
+        "loose_balls_recovered": 0.75,
         "charges_drawn": 0.0,
-        "screen_assists": 0.14
+        "screen_assists": 0.13,
+        "screen_ast_pts": 0.38
       }
     },
     {
@@ -13991,11 +14956,16 @@
       },
       "hustle": {
         "contested_shots": 0.75,
+        "contested_shots_2pt": 0.5,
+        "contested_shots_3pt": 0.25,
         "deflections": 0.5,
         "box_outs": 0.0,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.0,
         "loose_balls_recovered": 0.25,
         "charges_drawn": 0.0,
-        "screen_assists": 0.0
+        "screen_assists": 0.0,
+        "screen_ast_pts": 0.0
       }
     },
     {
@@ -14062,12 +15032,17 @@
         "rpg": 1.4
       },
       "hustle": {
-        "contested_shots": 3.5,
-        "deflections": 1.17,
-        "box_outs": 0.5,
-        "loose_balls_recovered": 0.5,
+        "contested_shots": 3.57,
+        "contested_shots_2pt": 2.14,
+        "contested_shots_3pt": 1.43,
+        "deflections": 1.43,
+        "box_outs": 0.57,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.75,
+        "loose_balls_recovered": 0.43,
         "charges_drawn": 0.0,
-        "screen_assists": 0.33
+        "screen_assists": 0.29,
+        "screen_ast_pts": 0.86
       }
     },
     {
@@ -14135,11 +15110,16 @@
       },
       "hustle": {
         "contested_shots": 3.2,
+        "contested_shots_2pt": 2.2,
+        "contested_shots_3pt": 1.0,
         "deflections": 3.2,
         "box_outs": 2.4,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
         "loose_balls_recovered": 0.0,
         "charges_drawn": 0.2,
-        "screen_assists": 1.0
+        "screen_assists": 1.0,
+        "screen_ast_pts": 2.6
       }
     },
     {
@@ -14206,12 +15186,17 @@
         "rpg": 6.0
       },
       "hustle": {
-        "contested_shots": 7.2,
-        "deflections": 1.6,
-        "box_outs": 1.2,
-        "loose_balls_recovered": 0.4,
+        "contested_shots": 6.33,
+        "contested_shots_2pt": 4.0,
+        "contested_shots_3pt": 2.33,
+        "deflections": 1.67,
+        "box_outs": 1.33,
+        "pct_box_outs_off": 0.25,
+        "pct_box_outs_def": 0.5,
+        "loose_balls_recovered": 0.33,
         "charges_drawn": 0.0,
-        "screen_assists": 0.2
+        "screen_assists": 0.33,
+        "screen_ast_pts": 0.33
       }
     },
     {
@@ -14278,12 +15263,17 @@
         "rpg": 7.0
       },
       "hustle": {
-        "contested_shots": 3.8,
-        "deflections": 1.8,
-        "box_outs": 1.6,
-        "loose_balls_recovered": 0.4,
+        "contested_shots": 3.5,
+        "contested_shots_2pt": 2.0,
+        "contested_shots_3pt": 1.5,
+        "deflections": 1.67,
+        "box_outs": 1.67,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.8,
+        "loose_balls_recovered": 0.33,
         "charges_drawn": 0.0,
-        "screen_assists": 0.8
+        "screen_assists": 0.67,
+        "screen_ast_pts": 1.33
       }
     },
     {
@@ -14350,12 +15340,17 @@
         "rpg": 3.9
       },
       "hustle": {
-        "contested_shots": 5.0,
-        "deflections": 1.0,
-        "box_outs": 0.8,
-        "loose_balls_recovered": 0.6,
+        "contested_shots": 4.67,
+        "contested_shots_2pt": 2.5,
+        "contested_shots_3pt": 2.17,
+        "deflections": 0.83,
+        "box_outs": 0.67,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
+        "loose_balls_recovered": 0.5,
         "charges_drawn": 0.0,
-        "screen_assists": 0.6
+        "screen_assists": 0.5,
+        "screen_ast_pts": 1.17
       }
     },
     {
@@ -14422,12 +15417,17 @@
         "rpg": 3.0
       },
       "hustle": {
-        "contested_shots": 3.57,
-        "deflections": 1.57,
-        "box_outs": 1.14,
-        "loose_balls_recovered": 0.43,
-        "charges_drawn": 0.14,
-        "screen_assists": 0.43
+        "contested_shots": 3.38,
+        "contested_shots_2pt": 0.88,
+        "contested_shots_3pt": 2.5,
+        "deflections": 1.38,
+        "box_outs": 1.13,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.889,
+        "loose_balls_recovered": 0.38,
+        "charges_drawn": 0.13,
+        "screen_assists": 0.5,
+        "screen_ast_pts": 0.88
       }
     },
     {
@@ -14494,12 +15494,17 @@
         "rpg": 8.0
       },
       "hustle": {
-        "contested_shots": 3.5,
-        "deflections": 2.33,
-        "box_outs": 0.33,
-        "loose_balls_recovered": 1.17,
-        "charges_drawn": 0.5,
-        "screen_assists": 0.17
+        "contested_shots": 3.43,
+        "contested_shots_2pt": 1.57,
+        "contested_shots_3pt": 1.86,
+        "deflections": 2.14,
+        "box_outs": 0.29,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
+        "loose_balls_recovered": 1.14,
+        "charges_drawn": 0.43,
+        "screen_assists": 0.14,
+        "screen_ast_pts": 0.29
       }
     },
     {
@@ -14566,12 +15571,17 @@
         "rpg": 2.9
       },
       "hustle": {
-        "contested_shots": 2.0,
-        "deflections": 1.5,
-        "box_outs": 0.83,
+        "contested_shots": 2.14,
+        "contested_shots_2pt": 2.14,
+        "contested_shots_3pt": 0.0,
+        "deflections": 1.43,
+        "box_outs": 1.0,
+        "pct_box_outs_off": 0.571,
+        "pct_box_outs_def": 0.143,
         "loose_balls_recovered": 0.0,
-        "charges_drawn": 0.33,
-        "screen_assists": 0.33
+        "charges_drawn": 0.29,
+        "screen_assists": 0.43,
+        "screen_ast_pts": 0.57
       }
     },
     {
@@ -14638,12 +15648,17 @@
         "rpg": 4.4
       },
       "hustle": {
-        "contested_shots": 5.0,
-        "deflections": 0.5,
-        "box_outs": 1.5,
-        "loose_balls_recovered": 0.17,
+        "contested_shots": 5.86,
+        "contested_shots_2pt": 4.57,
+        "contested_shots_3pt": 1.29,
+        "deflections": 0.57,
+        "box_outs": 2.0,
+        "pct_box_outs_off": 0.214,
+        "pct_box_outs_def": 0.429,
+        "loose_balls_recovered": 0.14,
         "charges_drawn": 0.0,
-        "screen_assists": 2.67
+        "screen_assists": 2.57,
+        "screen_ast_pts": 5.14
       }
     },
     {
@@ -14710,12 +15725,17 @@
         "rpg": 1.2
       },
       "hustle": {
-        "contested_shots": 0.67,
+        "contested_shots": 1.25,
+        "contested_shots_2pt": 0.25,
+        "contested_shots_3pt": 1.0,
         "deflections": 1.0,
-        "box_outs": 0.0,
+        "box_outs": 0.25,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.0,
         "loose_balls_recovered": 0.0,
         "charges_drawn": 0.0,
-        "screen_assists": 0.33
+        "screen_assists": 0.25,
+        "screen_ast_pts": 0.5
       }
     },
     {
@@ -14782,12 +15802,17 @@
         "rpg": 1.3
       },
       "hustle": {
-        "contested_shots": 2.6,
-        "deflections": 1.2,
-        "box_outs": 0.4,
-        "loose_balls_recovered": 0.0,
+        "contested_shots": 2.33,
+        "contested_shots_2pt": 1.17,
+        "contested_shots_3pt": 1.17,
+        "deflections": 1.0,
+        "box_outs": 0.33,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
+        "loose_balls_recovered": 0.17,
         "charges_drawn": 0.0,
-        "screen_assists": 0.0
+        "screen_assists": 0.0,
+        "screen_ast_pts": 0.0
       }
     },
     {
@@ -14854,12 +15879,17 @@
         "rpg": 3.2
       },
       "hustle": {
-        "contested_shots": 2.75,
-        "deflections": 1.75,
-        "box_outs": 0.75,
-        "loose_balls_recovered": 0.25,
-        "charges_drawn": 0.0,
-        "screen_assists": 0.0
+        "contested_shots": 2.2,
+        "contested_shots_2pt": 0.8,
+        "contested_shots_3pt": 1.4,
+        "deflections": 2.0,
+        "box_outs": 0.8,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.75,
+        "loose_balls_recovered": 0.6,
+        "charges_drawn": 0.2,
+        "screen_assists": 0.0,
+        "screen_ast_pts": 0.0
       }
     },
     {
@@ -14926,12 +15956,17 @@
         "rpg": 5.6
       },
       "hustle": {
-        "contested_shots": 2.67,
-        "deflections": 1.33,
-        "box_outs": 0.5,
-        "loose_balls_recovered": 0.33,
+        "contested_shots": 3.43,
+        "contested_shots_2pt": 2.0,
+        "contested_shots_3pt": 1.43,
+        "deflections": 1.29,
+        "box_outs": 0.43,
+        "pct_box_outs_off": 0.333,
+        "pct_box_outs_def": 0.667,
+        "loose_balls_recovered": 0.29,
         "charges_drawn": 0.0,
-        "screen_assists": 0.67
+        "screen_assists": 0.57,
+        "screen_ast_pts": 1.43
       }
     },
     {
@@ -14998,12 +16033,17 @@
         "rpg": 3.8
       },
       "hustle": {
-        "contested_shots": 3.8,
-        "deflections": 0.8,
-        "box_outs": 0.4,
-        "loose_balls_recovered": 0.4,
+        "contested_shots": 3.5,
+        "contested_shots_2pt": 2.5,
+        "contested_shots_3pt": 1.0,
+        "deflections": 0.83,
+        "box_outs": 0.33,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
+        "loose_balls_recovered": 0.33,
         "charges_drawn": 0.0,
-        "screen_assists": 0.4
+        "screen_assists": 0.33,
+        "screen_ast_pts": 0.67
       }
     },
     {
@@ -15070,12 +16110,17 @@
         "rpg": 4.3
       },
       "hustle": {
-        "contested_shots": 4.33,
-        "deflections": 1.33,
-        "box_outs": 0.17,
-        "loose_balls_recovered": 0.83,
+        "contested_shots": 4.0,
+        "contested_shots_2pt": 2.43,
+        "contested_shots_3pt": 1.57,
+        "deflections": 1.57,
+        "box_outs": 0.14,
+        "pct_box_outs_off": 1.0,
+        "pct_box_outs_def": 0.0,
+        "loose_balls_recovered": 0.71,
         "charges_drawn": 0.0,
-        "screen_assists": 0.17
+        "screen_assists": 0.14,
+        "screen_ast_pts": 0.29
       }
     },
     {
@@ -15142,12 +16187,17 @@
         "rpg": 1.8
       },
       "hustle": {
-        "contested_shots": 1.86,
-        "deflections": 4.14,
-        "box_outs": 0.14,
-        "loose_balls_recovered": 0.29,
+        "contested_shots": 1.75,
+        "contested_shots_2pt": 0.88,
+        "contested_shots_3pt": 0.88,
+        "deflections": 3.75,
+        "box_outs": 0.13,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
+        "loose_balls_recovered": 0.25,
         "charges_drawn": 0.0,
-        "screen_assists": 0.57
+        "screen_assists": 0.63,
+        "screen_ast_pts": 1.5
       }
     },
     {
@@ -15214,12 +16264,17 @@
         "rpg": 3.6
       },
       "hustle": {
-        "contested_shots": 5.83,
+        "contested_shots": 5.0,
+        "contested_shots_2pt": 3.0,
+        "contested_shots_3pt": 2.0,
         "deflections": 1.0,
         "box_outs": 0.0,
-        "loose_balls_recovered": 0.17,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.0,
+        "loose_balls_recovered": 0.14,
         "charges_drawn": 0.0,
-        "screen_assists": 0.33
+        "screen_assists": 0.29,
+        "screen_ast_pts": 0.57
       }
     },
     {
@@ -15286,12 +16341,17 @@
         "rpg": 7.0
       },
       "hustle": {
-        "contested_shots": 3.33,
-        "deflections": 1.83,
-        "box_outs": 0.33,
-        "loose_balls_recovered": 0.17,
+        "contested_shots": 3.43,
+        "contested_shots_2pt": 2.0,
+        "contested_shots_3pt": 1.43,
+        "deflections": 2.0,
+        "box_outs": 0.29,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
+        "loose_balls_recovered": 0.29,
         "charges_drawn": 0.0,
-        "screen_assists": 0.67
+        "screen_assists": 0.57,
+        "screen_ast_pts": 1.43
       }
     },
     {
@@ -15358,12 +16418,17 @@
         "rpg": 2.7
       },
       "hustle": {
-        "contested_shots": 2.67,
-        "deflections": 3.5,
+        "contested_shots": 3.0,
+        "contested_shots_2pt": 1.57,
+        "contested_shots_3pt": 1.43,
+        "deflections": 3.29,
         "box_outs": 0.0,
-        "loose_balls_recovered": 0.33,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.0,
+        "loose_balls_recovered": 0.29,
         "charges_drawn": 0.0,
-        "screen_assists": 0.33
+        "screen_assists": 0.29,
+        "screen_ast_pts": 0.57
       }
     },
     {
@@ -15431,11 +16496,16 @@
       },
       "hustle": {
         "contested_shots": 1.75,
+        "contested_shots_2pt": 0.0,
+        "contested_shots_3pt": 1.75,
         "deflections": 0.5,
         "box_outs": 0.0,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.0,
         "loose_balls_recovered": 0.5,
         "charges_drawn": 0.0,
-        "screen_assists": 0.25
+        "screen_assists": 0.25,
+        "screen_ast_pts": 0.75
       }
     },
     {
@@ -15502,12 +16572,17 @@
         "rpg": 7.0
       },
       "hustle": {
-        "contested_shots": 8.5,
-        "deflections": 1.0,
-        "box_outs": 2.25,
-        "loose_balls_recovered": 0.25,
+        "contested_shots": 7.8,
+        "contested_shots_2pt": 3.6,
+        "contested_shots_3pt": 4.2,
+        "deflections": 1.2,
+        "box_outs": 1.8,
+        "pct_box_outs_off": 0.222,
+        "pct_box_outs_def": 0.778,
+        "loose_balls_recovered": 0.6,
         "charges_drawn": 0.0,
-        "screen_assists": 0.25
+        "screen_assists": 0.2,
+        "screen_ast_pts": 0.4
       }
     },
     {
@@ -15574,12 +16649,17 @@
         "rpg": 2.0
       },
       "hustle": {
-        "contested_shots": 4.67,
-        "deflections": 2.83,
-        "box_outs": 0.5,
-        "loose_balls_recovered": 0.17,
+        "contested_shots": 4.0,
+        "contested_shots_2pt": 2.43,
+        "contested_shots_3pt": 1.57,
+        "deflections": 2.71,
+        "box_outs": 0.43,
+        "pct_box_outs_off": 0.333,
+        "pct_box_outs_def": 0.667,
+        "loose_balls_recovered": 0.43,
         "charges_drawn": 0.0,
-        "screen_assists": 0.33
+        "screen_assists": 0.29,
+        "screen_ast_pts": 0.71
       }
     },
     {
@@ -15646,12 +16726,17 @@
         "rpg": 4.5
       },
       "hustle": {
-        "contested_shots": 4.8,
-        "deflections": 1.2,
-        "box_outs": 1.4,
-        "loose_balls_recovered": 0.2,
+        "contested_shots": 4.33,
+        "contested_shots_2pt": 2.33,
+        "contested_shots_3pt": 2.0,
+        "deflections": 1.0,
+        "box_outs": 1.33,
+        "pct_box_outs_off": 0.375,
+        "pct_box_outs_def": 0.5,
+        "loose_balls_recovered": 0.17,
         "charges_drawn": 0.0,
-        "screen_assists": 2.0
+        "screen_assists": 1.67,
+        "screen_ast_pts": 3.83
       }
     },
     {
@@ -15718,12 +16803,17 @@
         "rpg": 3.1
       },
       "hustle": {
-        "contested_shots": 3.17,
-        "deflections": 1.67,
-        "box_outs": 1.5,
-        "loose_balls_recovered": 0.17,
+        "contested_shots": 3.0,
+        "contested_shots_2pt": 1.86,
+        "contested_shots_3pt": 1.14,
+        "deflections": 1.57,
+        "box_outs": 1.43,
+        "pct_box_outs_off": 0.4,
+        "pct_box_outs_def": 0.5,
+        "loose_balls_recovered": 0.14,
         "charges_drawn": 0.0,
-        "screen_assists": 3.33
+        "screen_assists": 3.14,
+        "screen_ast_pts": 6.57
       }
     },
     {
@@ -15790,12 +16880,17 @@
         "rpg": 3.7
       },
       "hustle": {
-        "contested_shots": 3.0,
-        "deflections": 1.83,
-        "box_outs": 0.5,
-        "loose_balls_recovered": 0.17,
+        "contested_shots": 2.71,
+        "contested_shots_2pt": 1.86,
+        "contested_shots_3pt": 0.86,
+        "deflections": 2.71,
+        "box_outs": 0.57,
+        "pct_box_outs_off": 0.25,
+        "pct_box_outs_def": 0.5,
+        "loose_balls_recovered": 0.14,
         "charges_drawn": 0.0,
-        "screen_assists": 0.5
+        "screen_assists": 0.71,
+        "screen_ast_pts": 0.86
       }
     },
     {
@@ -15862,12 +16957,17 @@
         "rpg": 1.0
       },
       "hustle": {
-        "contested_shots": 0.25,
+        "contested_shots": 0.2,
+        "contested_shots_2pt": 0.0,
+        "contested_shots_3pt": 0.2,
         "deflections": 0.0,
-        "box_outs": 0.75,
+        "box_outs": 0.6,
+        "pct_box_outs_off": 0.333,
+        "pct_box_outs_def": 0.667,
         "loose_balls_recovered": 0.0,
         "charges_drawn": 0.0,
-        "screen_assists": 0.5
+        "screen_assists": 0.6,
+        "screen_ast_pts": 0.8
       }
     },
     {
@@ -15934,12 +17034,17 @@
         "rpg": 9.5
       },
       "hustle": {
-        "contested_shots": 7.14,
-        "deflections": 1.86,
+        "contested_shots": 7.25,
+        "contested_shots_2pt": 5.0,
+        "contested_shots_3pt": 2.25,
+        "deflections": 2.0,
         "box_outs": 4.0,
-        "loose_balls_recovered": 0.71,
+        "pct_box_outs_off": 0.5,
+        "pct_box_outs_def": 0.375,
+        "loose_balls_recovered": 0.63,
         "charges_drawn": 0.0,
-        "screen_assists": 2.57
+        "screen_assists": 2.25,
+        "screen_ast_pts": 5.5
       }
     },
     {
@@ -16006,12 +17111,17 @@
         "rpg": 5.1
       },
       "hustle": {
-        "contested_shots": 9.17,
-        "deflections": 0.83,
-        "box_outs": 0.83,
-        "loose_balls_recovered": 0.17,
+        "contested_shots": 9.14,
+        "contested_shots_2pt": 6.71,
+        "contested_shots_3pt": 2.43,
+        "deflections": 0.86,
+        "box_outs": 0.71,
+        "pct_box_outs_off": 0.2,
+        "pct_box_outs_def": 0.8,
+        "loose_balls_recovered": 0.14,
         "charges_drawn": 0.0,
-        "screen_assists": 3.0
+        "screen_assists": 3.0,
+        "screen_ast_pts": 6.43
       }
     },
     {
@@ -16078,12 +17188,17 @@
         "rpg": 2.4
       },
       "hustle": {
-        "contested_shots": 5.75,
-        "deflections": 1.25,
-        "box_outs": 0.25,
-        "loose_balls_recovered": 0.0,
+        "contested_shots": 4.8,
+        "contested_shots_2pt": 3.0,
+        "contested_shots_3pt": 1.8,
+        "deflections": 1.0,
+        "box_outs": 0.2,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
+        "loose_balls_recovered": 0.2,
         "charges_drawn": 0.0,
-        "screen_assists": 0.0
+        "screen_assists": 0.0,
+        "screen_ast_pts": 0.0
       }
     },
     {
@@ -16150,12 +17265,17 @@
         "rpg": 8.3
       },
       "hustle": {
-        "contested_shots": 5.43,
-        "deflections": 1.43,
-        "box_outs": 1.86,
-        "loose_balls_recovered": 0.14,
+        "contested_shots": 5.0,
+        "contested_shots_2pt": 3.25,
+        "contested_shots_3pt": 1.75,
+        "deflections": 1.25,
+        "box_outs": 1.75,
+        "pct_box_outs_off": 0.071,
+        "pct_box_outs_def": 0.857,
+        "loose_balls_recovered": 0.25,
         "charges_drawn": 0.0,
-        "screen_assists": 0.86
+        "screen_assists": 1.13,
+        "screen_ast_pts": 1.88
       }
     },
     {
@@ -16222,12 +17342,17 @@
         "rpg": 5.4
       },
       "hustle": {
-        "contested_shots": 7.67,
-        "deflections": 0.5,
-        "box_outs": 1.5,
-        "loose_balls_recovered": 0.67,
+        "contested_shots": 7.57,
+        "contested_shots_2pt": 5.71,
+        "contested_shots_3pt": 1.86,
+        "deflections": 0.86,
+        "box_outs": 1.86,
+        "pct_box_outs_off": 0.154,
+        "pct_box_outs_def": 0.538,
+        "loose_balls_recovered": 0.57,
         "charges_drawn": 0.0,
-        "screen_assists": 2.67
+        "screen_assists": 2.86,
+        "screen_ast_pts": 5.29
       }
     },
     {
@@ -16294,12 +17419,17 @@
         "rpg": 3.3
       },
       "hustle": {
-        "contested_shots": 1.86,
-        "deflections": 1.71,
-        "box_outs": 0.57,
-        "loose_balls_recovered": 1.14,
-        "charges_drawn": 0.14,
-        "screen_assists": 0.43
+        "contested_shots": 2.0,
+        "contested_shots_2pt": 1.38,
+        "contested_shots_3pt": 0.63,
+        "deflections": 2.0,
+        "box_outs": 0.5,
+        "pct_box_outs_off": 0.25,
+        "pct_box_outs_def": 0.75,
+        "loose_balls_recovered": 1.0,
+        "charges_drawn": 0.13,
+        "screen_assists": 0.38,
+        "screen_ast_pts": 0.75
       }
     },
     {
@@ -16366,12 +17496,17 @@
         "rpg": 9.7
       },
       "hustle": {
-        "contested_shots": 6.0,
-        "deflections": 3.0,
-        "box_outs": 0.8,
-        "loose_balls_recovered": 0.8,
+        "contested_shots": 5.5,
+        "contested_shots_2pt": 4.5,
+        "contested_shots_3pt": 1.0,
+        "deflections": 3.5,
+        "box_outs": 1.17,
+        "pct_box_outs_off": 0.143,
+        "pct_box_outs_def": 0.429,
+        "loose_balls_recovered": 0.67,
         "charges_drawn": 0.0,
-        "screen_assists": 4.4
+        "screen_assists": 4.17,
+        "screen_ast_pts": 8.67
       }
     },
     {
@@ -16439,11 +17574,16 @@
       },
       "hustle": {
         "contested_shots": 3.8,
+        "contested_shots_2pt": 3.2,
+        "contested_shots_3pt": 0.6,
         "deflections": 1.4,
         "box_outs": 1.0,
+        "pct_box_outs_off": 0.2,
+        "pct_box_outs_def": 0.8,
         "loose_balls_recovered": 0.2,
         "charges_drawn": 0.2,
-        "screen_assists": 0.0
+        "screen_assists": 0.0,
+        "screen_ast_pts": 0.0
       }
     },
     {
@@ -16510,12 +17650,17 @@
         "rpg": 3.0
       },
       "hustle": {
-        "contested_shots": 4.17,
-        "deflections": 0.17,
-        "box_outs": 0.5,
+        "contested_shots": 4.0,
+        "contested_shots_2pt": 3.43,
+        "contested_shots_3pt": 0.57,
+        "deflections": 0.14,
+        "box_outs": 0.57,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.75,
         "loose_balls_recovered": 0.0,
         "charges_drawn": 0.0,
-        "screen_assists": 0.67
+        "screen_assists": 0.86,
+        "screen_ast_pts": 1.29
       }
     },
     {
@@ -16582,12 +17727,17 @@
         "rpg": 0.5
       },
       "hustle": {
-        "contested_shots": 1.5,
-        "deflections": 2.5,
+        "contested_shots": 1.33,
+        "contested_shots_2pt": 0.0,
+        "contested_shots_3pt": 1.33,
+        "deflections": 2.0,
         "box_outs": 0.0,
-        "loose_balls_recovered": 0.0,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.0,
+        "loose_balls_recovered": 0.33,
         "charges_drawn": 0.0,
-        "screen_assists": 0.0
+        "screen_assists": 0.0,
+        "screen_ast_pts": 0.0
       }
     },
     {
@@ -16654,12 +17804,17 @@
         "rpg": 3.0
       },
       "hustle": {
-        "contested_shots": 2.8,
-        "deflections": 2.0,
-        "box_outs": 0.2,
+        "contested_shots": 3.33,
+        "contested_shots_2pt": 2.17,
+        "contested_shots_3pt": 1.17,
+        "deflections": 1.67,
+        "box_outs": 0.17,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
         "loose_balls_recovered": 0.0,
         "charges_drawn": 0.0,
-        "screen_assists": 0.2
+        "screen_assists": 0.17,
+        "screen_ast_pts": 0.5
       }
     },
     {
@@ -16726,12 +17881,17 @@
         "rpg": 4.9
       },
       "hustle": {
-        "contested_shots": 5.33,
-        "deflections": 1.5,
-        "box_outs": 0.67,
+        "contested_shots": 5.0,
+        "contested_shots_2pt": 2.71,
+        "contested_shots_3pt": 2.29,
+        "deflections": 1.43,
+        "box_outs": 0.86,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.667,
         "loose_balls_recovered": 0.0,
         "charges_drawn": 0.0,
-        "screen_assists": 0.17
+        "screen_assists": 0.14,
+        "screen_ast_pts": 0.43
       }
     },
     {
@@ -16798,12 +17958,17 @@
         "rpg": 2.0
       },
       "hustle": {
-        "contested_shots": 3.6,
-        "deflections": 0.4,
-        "box_outs": 0.6,
+        "contested_shots": 3.67,
+        "contested_shots_2pt": 2.0,
+        "contested_shots_3pt": 1.67,
+        "deflections": 0.67,
+        "box_outs": 0.67,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.75,
         "loose_balls_recovered": 0.0,
         "charges_drawn": 0.0,
-        "screen_assists": 0.0
+        "screen_assists": 0.0,
+        "screen_ast_pts": 0.0
       }
     },
     {
@@ -16870,12 +18035,17 @@
         "rpg": 2.7
       },
       "hustle": {
-        "contested_shots": 1.83,
-        "deflections": 2.5,
-        "box_outs": 0.5,
-        "loose_balls_recovered": 0.5,
+        "contested_shots": 1.71,
+        "contested_shots_2pt": 1.0,
+        "contested_shots_3pt": 0.71,
+        "deflections": 2.29,
+        "box_outs": 0.43,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
+        "loose_balls_recovered": 0.43,
         "charges_drawn": 0.0,
-        "screen_assists": 0.33
+        "screen_assists": 0.43,
+        "screen_ast_pts": 0.57
       }
     },
     {
@@ -16942,12 +18112,17 @@
         "rpg": 5.6
       },
       "hustle": {
-        "contested_shots": 6.5,
-        "deflections": 2.83,
-        "box_outs": 1.17,
-        "loose_balls_recovered": 0.33,
+        "contested_shots": 6.71,
+        "contested_shots_2pt": 4.29,
+        "contested_shots_3pt": 2.43,
+        "deflections": 3.14,
+        "box_outs": 1.14,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.875,
+        "loose_balls_recovered": 0.29,
         "charges_drawn": 0.0,
-        "screen_assists": 0.0
+        "screen_assists": 0.0,
+        "screen_ast_pts": 0.0
       }
     },
     {
@@ -17015,11 +18190,16 @@
       },
       "hustle": {
         "contested_shots": 2.25,
+        "contested_shots_2pt": 1.0,
+        "contested_shots_3pt": 1.25,
         "deflections": 0.75,
         "box_outs": 0.5,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
         "loose_balls_recovered": 0.5,
         "charges_drawn": 0.0,
-        "screen_assists": 0.5
+        "screen_assists": 0.5,
+        "screen_ast_pts": 1.25
       }
     },
     {
@@ -17086,12 +18266,17 @@
         "rpg": 7.5
       },
       "hustle": {
-        "contested_shots": 6.86,
-        "deflections": 2.0,
+        "contested_shots": 6.0,
+        "contested_shots_2pt": 4.88,
+        "contested_shots_3pt": 1.13,
+        "deflections": 1.88,
         "box_outs": 1.0,
-        "loose_balls_recovered": 0.43,
+        "pct_box_outs_off": 0.125,
+        "pct_box_outs_def": 0.75,
+        "loose_balls_recovered": 0.38,
         "charges_drawn": 0.0,
-        "screen_assists": 2.14
+        "screen_assists": 2.0,
+        "screen_ast_pts": 4.75
       }
     },
     {
@@ -17159,11 +18344,16 @@
       },
       "hustle": {
         "contested_shots": 1.6,
+        "contested_shots_2pt": 1.2,
+        "contested_shots_3pt": 0.4,
         "deflections": 1.0,
         "box_outs": 0.0,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.0,
         "loose_balls_recovered": 0.4,
         "charges_drawn": 0.0,
-        "screen_assists": 0.2
+        "screen_assists": 0.2,
+        "screen_ast_pts": 0.4
       }
     },
     {
@@ -17230,12 +18420,17 @@
         "rpg": 7.7
       },
       "hustle": {
-        "contested_shots": 5.67,
-        "deflections": 1.5,
-        "box_outs": 1.17,
-        "loose_balls_recovered": 0.83,
+        "contested_shots": 5.86,
+        "contested_shots_2pt": 3.43,
+        "contested_shots_3pt": 2.43,
+        "deflections": 2.0,
+        "box_outs": 1.0,
+        "pct_box_outs_off": 0.143,
+        "pct_box_outs_def": 0.857,
+        "loose_balls_recovered": 0.86,
         "charges_drawn": 0.0,
-        "screen_assists": 1.0
+        "screen_assists": 0.86,
+        "screen_ast_pts": 2.0
       }
     },
     {
@@ -17303,11 +18498,16 @@
       },
       "hustle": {
         "contested_shots": 4.14,
+        "contested_shots_2pt": 2.0,
+        "contested_shots_3pt": 2.14,
         "deflections": 2.57,
         "box_outs": 1.86,
+        "pct_box_outs_off": 0.231,
+        "pct_box_outs_def": 0.769,
         "loose_balls_recovered": 0.71,
         "charges_drawn": 0.0,
-        "screen_assists": 1.29
+        "screen_assists": 1.29,
+        "screen_ast_pts": 3.29
       }
     },
     {
@@ -17374,12 +18574,17 @@
         "rpg": 6.0
       },
       "hustle": {
-        "contested_shots": 5.5,
+        "contested_shots": 5.33,
+        "contested_shots_2pt": 2.17,
+        "contested_shots_3pt": 3.17,
         "deflections": 5.5,
         "box_outs": 1.17,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
         "loose_balls_recovered": 0.67,
         "charges_drawn": 0.0,
-        "screen_assists": 0.5
+        "screen_assists": 0.5,
+        "screen_ast_pts": 1.33
       }
     },
     {
@@ -17446,12 +18651,17 @@
         "rpg": 6.7
       },
       "hustle": {
-        "contested_shots": 7.0,
-        "deflections": 1.83,
-        "box_outs": 1.5,
-        "loose_balls_recovered": 0.67,
+        "contested_shots": 6.57,
+        "contested_shots_2pt": 5.0,
+        "contested_shots_3pt": 1.57,
+        "deflections": 1.86,
+        "box_outs": 1.57,
+        "pct_box_outs_off": 0.091,
+        "pct_box_outs_def": 0.727,
+        "loose_balls_recovered": 0.57,
         "charges_drawn": 0.0,
-        "screen_assists": 2.0
+        "screen_assists": 2.0,
+        "screen_ast_pts": 4.43
       }
     },
     {
@@ -17518,12 +18728,17 @@
         "rpg": 3.0
       },
       "hustle": {
-        "contested_shots": 2.17,
-        "deflections": 2.17,
-        "box_outs": 0.5,
-        "loose_balls_recovered": 0.33,
+        "contested_shots": 2.14,
+        "contested_shots_2pt": 0.71,
+        "contested_shots_3pt": 1.43,
+        "deflections": 1.86,
+        "box_outs": 0.43,
+        "pct_box_outs_off": 0.333,
+        "pct_box_outs_def": 0.667,
+        "loose_balls_recovered": 0.29,
         "charges_drawn": 0.0,
-        "screen_assists": 0.17
+        "screen_assists": 0.14,
+        "screen_ast_pts": 0.29
       }
     },
     {
@@ -17590,12 +18805,17 @@
         "rpg": 3.4
       },
       "hustle": {
-        "contested_shots": 4.83,
+        "contested_shots": 4.71,
+        "contested_shots_2pt": 2.71,
+        "contested_shots_3pt": 2.0,
         "deflections": 2.0,
-        "box_outs": 0.83,
-        "loose_balls_recovered": 0.67,
-        "charges_drawn": 0.33,
-        "screen_assists": 0.0
+        "box_outs": 0.71,
+        "pct_box_outs_off": 0.2,
+        "pct_box_outs_def": 0.6,
+        "loose_balls_recovered": 0.71,
+        "charges_drawn": 0.29,
+        "screen_assists": 0.0,
+        "screen_ast_pts": 0.0
       }
     },
     {
@@ -17663,11 +18883,16 @@
       },
       "hustle": {
         "contested_shots": 7.33,
+        "contested_shots_2pt": 4.33,
+        "contested_shots_3pt": 3.0,
         "deflections": 2.17,
         "box_outs": 0.33,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
         "loose_balls_recovered": 0.33,
         "charges_drawn": 0.0,
-        "screen_assists": 0.17
+        "screen_assists": 0.17,
+        "screen_ast_pts": 0.33
       }
     },
     {
@@ -17734,12 +18959,17 @@
         "rpg": 6.6
       },
       "hustle": {
-        "contested_shots": 6.83,
-        "deflections": 2.33,
-        "box_outs": 1.33,
-        "loose_balls_recovered": 0.33,
+        "contested_shots": 7.14,
+        "contested_shots_2pt": 4.43,
+        "contested_shots_3pt": 2.71,
+        "deflections": 2.43,
+        "box_outs": 1.14,
+        "pct_box_outs_off": 0.375,
+        "pct_box_outs_def": 0.625,
+        "loose_balls_recovered": 0.43,
         "charges_drawn": 0.0,
-        "screen_assists": 1.17
+        "screen_assists": 1.43,
+        "screen_ast_pts": 2.14
       }
     },
     {
@@ -17806,12 +19036,17 @@
         "rpg": 3.3
       },
       "hustle": {
-        "contested_shots": 2.71,
-        "deflections": 1.29,
-        "box_outs": 0.71,
-        "loose_balls_recovered": 0.14,
+        "contested_shots": 2.38,
+        "contested_shots_2pt": 1.13,
+        "contested_shots_3pt": 1.25,
+        "deflections": 1.38,
+        "box_outs": 0.88,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.714,
+        "loose_balls_recovered": 0.13,
         "charges_drawn": 0.0,
-        "screen_assists": 0.14
+        "screen_assists": 0.13,
+        "screen_ast_pts": 0.38
       }
     },
     {
@@ -17878,12 +19113,17 @@
         "rpg": 3.0
       },
       "hustle": {
-        "contested_shots": 1.86,
-        "deflections": 2.57,
-        "box_outs": 0.29,
-        "loose_balls_recovered": 0.71,
+        "contested_shots": 2.75,
+        "contested_shots_2pt": 0.88,
+        "contested_shots_3pt": 1.88,
+        "deflections": 2.5,
+        "box_outs": 0.38,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.667,
+        "loose_balls_recovered": 0.63,
         "charges_drawn": 0.0,
-        "screen_assists": 0.0
+        "screen_assists": 0.13,
+        "screen_ast_pts": 0.0
       }
     },
     {
@@ -17951,11 +19191,16 @@
       },
       "hustle": {
         "contested_shots": 4.0,
+        "contested_shots_2pt": 3.6,
+        "contested_shots_3pt": 0.4,
         "deflections": 0.4,
         "box_outs": 0.8,
+        "pct_box_outs_off": 0.5,
+        "pct_box_outs_def": 0.5,
         "loose_balls_recovered": 0.2,
         "charges_drawn": 0.0,
-        "screen_assists": 0.6
+        "screen_assists": 0.6,
+        "screen_ast_pts": 1.6
       }
     },
     {
@@ -18022,12 +19267,17 @@
         "rpg": 6.1
       },
       "hustle": {
-        "contested_shots": 3.33,
-        "deflections": 1.33,
-        "box_outs": 0.5,
-        "loose_balls_recovered": 0.17,
-        "charges_drawn": 0.17,
-        "screen_assists": 0.17
+        "contested_shots": 3.57,
+        "contested_shots_2pt": 1.29,
+        "contested_shots_3pt": 2.29,
+        "deflections": 1.43,
+        "box_outs": 0.43,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
+        "loose_balls_recovered": 0.14,
+        "charges_drawn": 0.14,
+        "screen_assists": 0.14,
+        "screen_ast_pts": 0.29
       }
     },
     {
@@ -18094,12 +19344,17 @@
         "rpg": 2.4
       },
       "hustle": {
-        "contested_shots": 3.75,
-        "deflections": 5.0,
-        "box_outs": 0.5,
-        "loose_balls_recovered": 1.25,
+        "contested_shots": 3.4,
+        "contested_shots_2pt": 1.0,
+        "contested_shots_3pt": 2.4,
+        "deflections": 4.4,
+        "box_outs": 0.4,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
+        "loose_balls_recovered": 1.0,
         "charges_drawn": 0.0,
-        "screen_assists": 0.5
+        "screen_assists": 0.4,
+        "screen_ast_pts": 0.8
       }
     },
     {
@@ -18166,12 +19421,17 @@
         "rpg": 7.0
       },
       "hustle": {
-        "contested_shots": 4.25,
-        "deflections": 0.75,
-        "box_outs": 1.25,
+        "contested_shots": 4.0,
+        "contested_shots_2pt": 3.0,
+        "contested_shots_3pt": 1.0,
+        "deflections": 0.6,
+        "box_outs": 1.4,
+        "pct_box_outs_off": 0.143,
+        "pct_box_outs_def": 0.571,
         "loose_balls_recovered": 0.0,
         "charges_drawn": 0.0,
-        "screen_assists": 2.5
+        "screen_assists": 2.2,
+        "screen_ast_pts": 4.6
       }
     },
     {
@@ -18238,12 +19498,17 @@
         "rpg": 3.6
       },
       "hustle": {
-        "contested_shots": 1.83,
-        "deflections": 1.83,
-        "box_outs": 0.33,
-        "loose_balls_recovered": 0.5,
-        "charges_drawn": 0.17,
-        "screen_assists": 0.33
+        "contested_shots": 1.86,
+        "contested_shots_2pt": 1.29,
+        "contested_shots_3pt": 0.57,
+        "deflections": 1.86,
+        "box_outs": 0.43,
+        "pct_box_outs_off": 0.667,
+        "pct_box_outs_def": 0.0,
+        "loose_balls_recovered": 0.43,
+        "charges_drawn": 0.14,
+        "screen_assists": 0.29,
+        "screen_ast_pts": 0.86
       }
     },
     {
@@ -18310,12 +19575,17 @@
         "rpg": 3.0
       },
       "hustle": {
-        "contested_shots": 1.43,
-        "deflections": 0.71,
-        "box_outs": 0.71,
-        "loose_balls_recovered": 0.29,
+        "contested_shots": 1.5,
+        "contested_shots_2pt": 0.5,
+        "contested_shots_3pt": 1.0,
+        "deflections": 1.13,
+        "box_outs": 0.63,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
+        "loose_balls_recovered": 0.38,
         "charges_drawn": 0.0,
-        "screen_assists": 0.57
+        "screen_assists": 0.5,
+        "screen_ast_pts": 1.38
       }
     },
     {
@@ -18382,12 +19652,17 @@
         "rpg": 12.0
       },
       "hustle": {
-        "contested_shots": 7.33,
-        "deflections": 2.33,
-        "box_outs": 1.83,
-        "loose_balls_recovered": 0.5,
+        "contested_shots": 7.57,
+        "contested_shots_2pt": 4.71,
+        "contested_shots_3pt": 2.86,
+        "deflections": 2.29,
+        "box_outs": 2.0,
+        "pct_box_outs_off": 0.214,
+        "pct_box_outs_def": 0.571,
+        "loose_balls_recovered": 0.43,
         "charges_drawn": 0.0,
-        "screen_assists": 4.17
+        "screen_assists": 4.14,
+        "screen_ast_pts": 9.14
       }
     },
     {
@@ -18454,12 +19729,17 @@
         "rpg": 6.0
       },
       "hustle": {
-        "contested_shots": 3.0,
+        "contested_shots": 3.2,
+        "contested_shots_2pt": 2.4,
+        "contested_shots_3pt": 0.8,
         "deflections": 1.6,
         "box_outs": 0.8,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
         "loose_balls_recovered": 0.4,
         "charges_drawn": 0.0,
-        "screen_assists": 0.8
+        "screen_assists": 0.8,
+        "screen_ast_pts": 1.8
       }
     },
     {
@@ -18526,12 +19806,17 @@
         "rpg": 0.4
       },
       "hustle": {
-        "contested_shots": 1.0,
-        "deflections": 1.33,
+        "contested_shots": 0.75,
+        "contested_shots_2pt": 0.5,
+        "contested_shots_3pt": 0.25,
+        "deflections": 1.25,
         "box_outs": 0.0,
-        "loose_balls_recovered": 0.33,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.0,
+        "loose_balls_recovered": 0.25,
         "charges_drawn": 0.0,
-        "screen_assists": 0.0
+        "screen_assists": 0.0,
+        "screen_ast_pts": 0.0
       }
     },
     {
@@ -18599,11 +19884,16 @@
       },
       "hustle": {
         "contested_shots": 3.0,
+        "contested_shots_2pt": 2.25,
+        "contested_shots_3pt": 0.75,
         "deflections": 0.5,
         "box_outs": 0.25,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
         "loose_balls_recovered": 0.0,
         "charges_drawn": 0.0,
-        "screen_assists": 0.5
+        "screen_assists": 0.5,
+        "screen_ast_pts": 1.25
       }
     },
     {
@@ -18670,12 +19960,17 @@
         "rpg": 4.4
       },
       "hustle": {
-        "contested_shots": 7.14,
-        "deflections": 0.71,
-        "box_outs": 1.29,
-        "loose_balls_recovered": 0.14,
+        "contested_shots": 6.75,
+        "contested_shots_2pt": 5.25,
+        "contested_shots_3pt": 1.5,
+        "deflections": 0.63,
+        "box_outs": 1.5,
+        "pct_box_outs_off": 0.333,
+        "pct_box_outs_def": 0.417,
+        "loose_balls_recovered": 0.13,
         "charges_drawn": 0.0,
-        "screen_assists": 1.86
+        "screen_assists": 1.63,
+        "screen_ast_pts": 4.13
       }
     },
     {
@@ -18742,12 +20037,17 @@
         "rpg": 4.1
       },
       "hustle": {
-        "contested_shots": 1.83,
-        "deflections": 3.17,
-        "box_outs": 0.17,
-        "loose_balls_recovered": 1.0,
+        "contested_shots": 1.71,
+        "contested_shots_2pt": 1.0,
+        "contested_shots_3pt": 0.71,
+        "deflections": 3.0,
+        "box_outs": 0.14,
+        "pct_box_outs_off": 1.0,
+        "pct_box_outs_def": 0.0,
+        "loose_balls_recovered": 0.86,
         "charges_drawn": 0.0,
-        "screen_assists": 0.17
+        "screen_assists": 0.14,
+        "screen_ast_pts": 0.29
       }
     },
     {
@@ -18814,12 +20114,17 @@
         "rpg": 3.9
       },
       "hustle": {
-        "contested_shots": 3.0,
-        "deflections": 1.5,
-        "box_outs": 1.5,
-        "loose_balls_recovered": 0.67,
+        "contested_shots": 2.71,
+        "contested_shots_2pt": 1.57,
+        "contested_shots_3pt": 1.14,
+        "deflections": 1.43,
+        "box_outs": 1.57,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.818,
+        "loose_balls_recovered": 0.57,
         "charges_drawn": 0.0,
-        "screen_assists": 0.17
+        "screen_assists": 0.29,
+        "screen_ast_pts": 0.43
       }
     },
     {
@@ -18886,12 +20191,17 @@
         "rpg": 3.0
       },
       "hustle": {
-        "contested_shots": 1.17,
-        "deflections": 0.67,
-        "box_outs": 0.33,
-        "loose_balls_recovered": 0.17,
+        "contested_shots": 1.29,
+        "contested_shots_2pt": 0.29,
+        "contested_shots_3pt": 1.0,
+        "deflections": 0.86,
+        "box_outs": 0.43,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.667,
+        "loose_balls_recovered": 0.14,
         "charges_drawn": 0.0,
-        "screen_assists": 0.17
+        "screen_assists": 0.14,
+        "screen_ast_pts": 0.43
       }
     },
     {
@@ -18959,11 +20269,16 @@
       },
       "hustle": {
         "contested_shots": 3.0,
-        "deflections": 2.6,
-        "box_outs": 0.8,
-        "loose_balls_recovered": 0.6,
-        "charges_drawn": 0.2,
-        "screen_assists": 0.2
+        "contested_shots_2pt": 2.17,
+        "contested_shots_3pt": 0.83,
+        "deflections": 2.5,
+        "box_outs": 0.83,
+        "pct_box_outs_off": 0.2,
+        "pct_box_outs_def": 0.6,
+        "loose_balls_recovered": 0.5,
+        "charges_drawn": 0.17,
+        "screen_assists": 0.33,
+        "screen_ast_pts": 0.5
       }
     },
     {
@@ -19030,12 +20345,17 @@
         "rpg": 4.4
       },
       "hustle": {
-        "contested_shots": 4.14,
-        "deflections": 1.0,
-        "box_outs": 0.57,
-        "loose_balls_recovered": 0.14,
+        "contested_shots": 4.13,
+        "contested_shots_2pt": 3.0,
+        "contested_shots_3pt": 1.13,
+        "deflections": 1.13,
+        "box_outs": 0.63,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.8,
+        "loose_balls_recovered": 0.13,
         "charges_drawn": 0.0,
-        "screen_assists": 0.86
+        "screen_assists": 0.75,
+        "screen_ast_pts": 2.0
       }
     },
     {
@@ -19102,12 +20422,17 @@
         "rpg": 2.3
       },
       "hustle": {
-        "contested_shots": 1.4,
-        "deflections": 1.8,
-        "box_outs": 0.2,
-        "loose_balls_recovered": 0.4,
+        "contested_shots": 1.33,
+        "contested_shots_2pt": 0.5,
+        "contested_shots_3pt": 0.83,
+        "deflections": 1.5,
+        "box_outs": 0.33,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.5,
+        "loose_balls_recovered": 0.33,
         "charges_drawn": 0.0,
-        "screen_assists": 0.4
+        "screen_assists": 0.33,
+        "screen_ast_pts": 0.67
       }
     },
     {
@@ -19174,12 +20499,17 @@
         "rpg": 7.9
       },
       "hustle": {
-        "contested_shots": 4.17,
-        "deflections": 4.5,
-        "box_outs": 0.83,
-        "loose_balls_recovered": 0.33,
+        "contested_shots": 3.86,
+        "contested_shots_2pt": 2.71,
+        "contested_shots_3pt": 1.14,
+        "deflections": 4.43,
+        "box_outs": 0.71,
+        "pct_box_outs_off": 0.2,
+        "pct_box_outs_def": 0.8,
+        "loose_balls_recovered": 0.43,
         "charges_drawn": 0.0,
-        "screen_assists": 0.33
+        "screen_assists": 0.57,
+        "screen_ast_pts": 0.57
       }
     },
     {
@@ -19247,11 +20577,16 @@
       },
       "hustle": {
         "contested_shots": 1.4,
+        "contested_shots_2pt": 0.4,
+        "contested_shots_3pt": 1.0,
         "deflections": 2.0,
         "box_outs": 0.0,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.0,
         "loose_balls_recovered": 0.8,
         "charges_drawn": 0.2,
-        "screen_assists": 0.0
+        "screen_assists": 0.0,
+        "screen_ast_pts": 0.0
       }
     },
     {
@@ -19319,11 +20654,16 @@
       },
       "hustle": {
         "contested_shots": 6.0,
-        "deflections": 1.67,
-        "box_outs": 0.0,
-        "loose_balls_recovered": 0.33,
+        "contested_shots_2pt": 2.86,
+        "contested_shots_3pt": 3.14,
+        "deflections": 1.71,
+        "box_outs": 0.14,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.0,
+        "loose_balls_recovered": 0.43,
         "charges_drawn": 0.0,
-        "screen_assists": 0.0
+        "screen_assists": 0.0,
+        "screen_ast_pts": 0.0
       }
     },
     {
@@ -19390,12 +20730,17 @@
         "rpg": 4.2
       },
       "hustle": {
-        "contested_shots": 1.4,
-        "deflections": 1.4,
-        "box_outs": 0.4,
-        "loose_balls_recovered": 0.4,
-        "charges_drawn": 0.0,
-        "screen_assists": 0.0
+        "contested_shots": 1.83,
+        "contested_shots_2pt": 0.83,
+        "contested_shots_3pt": 1.0,
+        "deflections": 1.33,
+        "box_outs": 0.5,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.667,
+        "loose_balls_recovered": 0.5,
+        "charges_drawn": 0.17,
+        "screen_assists": 0.0,
+        "screen_ast_pts": 0.0
       }
     },
     {
@@ -19462,12 +20807,17 @@
         "rpg": 3.1
       },
       "hustle": {
-        "contested_shots": 3.14,
-        "deflections": 1.57,
-        "box_outs": 0.14,
-        "loose_balls_recovered": 0.29,
+        "contested_shots": 3.25,
+        "contested_shots_2pt": 1.13,
+        "contested_shots_3pt": 2.13,
+        "deflections": 1.5,
+        "box_outs": 0.13,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
+        "loose_balls_recovered": 0.25,
         "charges_drawn": 0.0,
-        "screen_assists": 0.0
+        "screen_assists": 0.13,
+        "screen_ast_pts": 0.0
       }
     },
     {
@@ -19534,12 +20884,17 @@
         "rpg": 4.2
       },
       "hustle": {
-        "contested_shots": 1.8,
+        "contested_shots": 1.67,
+        "contested_shots_2pt": 0.83,
+        "contested_shots_3pt": 0.83,
         "deflections": 2.0,
         "box_outs": 0.0,
-        "loose_balls_recovered": 0.2,
-        "charges_drawn": 0.2,
-        "screen_assists": 0.4
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.0,
+        "loose_balls_recovered": 0.17,
+        "charges_drawn": 0.17,
+        "screen_assists": 0.33,
+        "screen_ast_pts": 0.67
       }
     },
     {
@@ -19606,12 +20961,17 @@
         "rpg": 5.6
       },
       "hustle": {
-        "contested_shots": 4.17,
-        "deflections": 3.0,
-        "box_outs": 0.17,
-        "loose_balls_recovered": 1.17,
+        "contested_shots": 4.0,
+        "contested_shots_2pt": 2.71,
+        "contested_shots_3pt": 1.29,
+        "deflections": 2.57,
+        "box_outs": 0.14,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
+        "loose_balls_recovered": 1.0,
         "charges_drawn": 0.0,
-        "screen_assists": 0.67
+        "screen_assists": 0.57,
+        "screen_ast_pts": 1.57
       }
     },
     {
@@ -19678,12 +21038,17 @@
         "rpg": 2.0
       },
       "hustle": {
-        "contested_shots": 2.8,
-        "deflections": 0.8,
-        "box_outs": 0.2,
+        "contested_shots": 2.67,
+        "contested_shots_2pt": 1.5,
+        "contested_shots_3pt": 1.17,
+        "deflections": 0.67,
+        "box_outs": 0.17,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
         "loose_balls_recovered": 0.0,
         "charges_drawn": 0.0,
-        "screen_assists": 0.0
+        "screen_assists": 0.0,
+        "screen_ast_pts": 0.0
       }
     },
     {
@@ -19751,11 +21116,16 @@
       },
       "hustle": {
         "contested_shots": 5.0,
-        "deflections": 1.57,
-        "box_outs": 0.71,
-        "loose_balls_recovered": 0.57,
+        "contested_shots_2pt": 3.13,
+        "contested_shots_3pt": 1.88,
+        "deflections": 1.38,
+        "box_outs": 0.75,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.833,
+        "loose_balls_recovered": 0.5,
         "charges_drawn": 0.0,
-        "screen_assists": 0.0
+        "screen_assists": 0.0,
+        "screen_ast_pts": 0.0
       }
     },
     {
@@ -19823,11 +21193,16 @@
       },
       "hustle": {
         "contested_shots": 2.17,
+        "contested_shots_2pt": 1.33,
+        "contested_shots_3pt": 0.83,
         "deflections": 0.67,
         "box_outs": 0.5,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
         "loose_balls_recovered": 1.0,
         "charges_drawn": 0.33,
-        "screen_assists": 0.0
+        "screen_assists": 0.0,
+        "screen_ast_pts": 0.0
       }
     },
     {
@@ -19894,12 +21269,17 @@
         "rpg": 3.7
       },
       "hustle": {
-        "contested_shots": 1.5,
-        "deflections": 0.67,
-        "box_outs": 0.17,
-        "loose_balls_recovered": 0.17,
+        "contested_shots": 2.29,
+        "contested_shots_2pt": 1.29,
+        "contested_shots_3pt": 1.0,
+        "deflections": 1.0,
+        "box_outs": 0.14,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
+        "loose_balls_recovered": 0.29,
         "charges_drawn": 0.0,
-        "screen_assists": 0.0
+        "screen_assists": 0.0,
+        "screen_ast_pts": 0.0
       }
     },
     {
@@ -19966,12 +21346,17 @@
         "rpg": 1.9
       },
       "hustle": {
-        "contested_shots": 2.67,
-        "deflections": 1.5,
+        "contested_shots": 2.43,
+        "contested_shots_2pt": 1.14,
+        "contested_shots_3pt": 1.29,
+        "deflections": 1.29,
         "box_outs": 0.0,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.0,
         "loose_balls_recovered": 0.0,
         "charges_drawn": 0.0,
-        "screen_assists": 0.0
+        "screen_assists": 0.0,
+        "screen_ast_pts": 0.0
       }
     },
     {
@@ -20038,12 +21423,17 @@
         "rpg": 1.7
       },
       "hustle": {
-        "contested_shots": 0.75,
-        "deflections": 0.25,
-        "box_outs": 0.75,
+        "contested_shots": 1.2,
+        "contested_shots_2pt": 1.0,
+        "contested_shots_3pt": 0.2,
+        "deflections": 0.4,
+        "box_outs": 0.8,
+        "pct_box_outs_off": 0.5,
+        "pct_box_outs_def": 0.25,
         "loose_balls_recovered": 0.0,
         "charges_drawn": 0.0,
-        "screen_assists": 0.5
+        "screen_assists": 0.4,
+        "screen_ast_pts": 1.0
       }
     },
     {
@@ -20110,12 +21500,17 @@
         "rpg": 2.7
       },
       "hustle": {
-        "contested_shots": 3.6,
-        "deflections": 2.6,
-        "box_outs": 1.0,
-        "loose_balls_recovered": 0.6,
+        "contested_shots": 3.67,
+        "contested_shots_2pt": 1.5,
+        "contested_shots_3pt": 2.17,
+        "deflections": 2.17,
+        "box_outs": 0.83,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
+        "loose_balls_recovered": 0.67,
         "charges_drawn": 0.0,
-        "screen_assists": 0.8
+        "screen_assists": 1.0,
+        "screen_ast_pts": 1.67
       }
     },
     {
@@ -20183,11 +21578,16 @@
       },
       "hustle": {
         "contested_shots": 0.67,
+        "contested_shots_2pt": 0.5,
+        "contested_shots_3pt": 0.17,
         "deflections": 1.33,
         "box_outs": 0.0,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.0,
         "loose_balls_recovered": 0.17,
         "charges_drawn": 0.17,
-        "screen_assists": 0.0
+        "screen_assists": 0.0,
+        "screen_ast_pts": 0.0
       }
     },
     {
@@ -20254,12 +21654,17 @@
         "rpg": 2.6
       },
       "hustle": {
-        "contested_shots": 3.4,
-        "deflections": 0.8,
-        "box_outs": 1.0,
+        "contested_shots": 3.0,
+        "contested_shots_2pt": 2.67,
+        "contested_shots_3pt": 0.33,
+        "deflections": 0.67,
+        "box_outs": 0.83,
+        "pct_box_outs_off": 0.4,
+        "pct_box_outs_def": 0.6,
         "loose_balls_recovered": 0.0,
         "charges_drawn": 0.0,
-        "screen_assists": 0.6
+        "screen_assists": 0.5,
+        "screen_ast_pts": 1.17
       }
     },
     {
@@ -20327,11 +21732,16 @@
       },
       "hustle": {
         "contested_shots": 1.2,
+        "contested_shots_2pt": 1.0,
+        "contested_shots_3pt": 0.2,
         "deflections": 0.8,
         "box_outs": 0.0,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.0,
         "loose_balls_recovered": 0.0,
         "charges_drawn": 0.0,
-        "screen_assists": 0.2
+        "screen_assists": 0.2,
+        "screen_ast_pts": 0.4
       }
     },
     {
@@ -20398,12 +21808,17 @@
         "rpg": 2.9
       },
       "hustle": {
-        "contested_shots": 1.0,
-        "deflections": 2.0,
-        "box_outs": 0.5,
-        "loose_balls_recovered": 0.17,
-        "charges_drawn": 0.17,
-        "screen_assists": 0.17
+        "contested_shots": 0.86,
+        "contested_shots_2pt": 0.71,
+        "contested_shots_3pt": 0.14,
+        "deflections": 1.86,
+        "box_outs": 0.43,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
+        "loose_balls_recovered": 0.14,
+        "charges_drawn": 0.14,
+        "screen_assists": 0.14,
+        "screen_ast_pts": 0.43
       }
     },
     {
@@ -20470,12 +21885,17 @@
         "rpg": 6.3
       },
       "hustle": {
-        "contested_shots": 4.75,
-        "deflections": 1.75,
-        "box_outs": 0.25,
-        "loose_balls_recovered": 0.25,
+        "contested_shots": 4.4,
+        "contested_shots_2pt": 2.2,
+        "contested_shots_3pt": 2.2,
+        "deflections": 1.6,
+        "box_outs": 0.2,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
+        "loose_balls_recovered": 0.2,
         "charges_drawn": 0.0,
-        "screen_assists": 0.25
+        "screen_assists": 0.2,
+        "screen_ast_pts": 0.4
       }
     },
     {
@@ -20542,12 +21962,17 @@
         "rpg": 3.3
       },
       "hustle": {
-        "contested_shots": 4.0,
-        "deflections": 0.57,
-        "box_outs": 0.86,
+        "contested_shots": 3.88,
+        "contested_shots_2pt": 2.13,
+        "contested_shots_3pt": 1.75,
+        "deflections": 0.5,
+        "box_outs": 0.75,
+        "pct_box_outs_off": 0.167,
+        "pct_box_outs_def": 0.833,
         "loose_balls_recovered": 0.0,
-        "charges_drawn": 0.29,
-        "screen_assists": 0.29
+        "charges_drawn": 0.25,
+        "screen_assists": 0.25,
+        "screen_ast_pts": 0.63
       }
     },
     {
@@ -20615,11 +22040,16 @@
       },
       "hustle": {
         "contested_shots": 3.0,
-        "deflections": 2.33,
-        "box_outs": 0.67,
-        "loose_balls_recovered": 0.67,
+        "contested_shots_2pt": 1.57,
+        "contested_shots_3pt": 1.43,
+        "deflections": 2.0,
+        "box_outs": 0.71,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.8,
+        "loose_balls_recovered": 0.57,
         "charges_drawn": 0.0,
-        "screen_assists": 0.83
+        "screen_assists": 1.0,
+        "screen_ast_pts": 1.57
       }
     },
     {
@@ -20686,12 +22116,17 @@
         "rpg": 3.4
       },
       "hustle": {
-        "contested_shots": 3.67,
-        "deflections": 1.5,
-        "box_outs": 0.67,
-        "loose_balls_recovered": 0.17,
+        "contested_shots": 3.57,
+        "contested_shots_2pt": 2.14,
+        "contested_shots_3pt": 1.43,
+        "deflections": 1.29,
+        "box_outs": 0.57,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
+        "loose_balls_recovered": 0.14,
         "charges_drawn": 0.0,
-        "screen_assists": 1.0
+        "screen_assists": 1.14,
+        "screen_ast_pts": 2.0
       }
     },
     {
@@ -20758,12 +22193,17 @@
         "rpg": 3.5
       },
       "hustle": {
-        "contested_shots": 2.8,
-        "deflections": 1.8,
-        "box_outs": 0.4,
+        "contested_shots": 2.33,
+        "contested_shots_2pt": 1.0,
+        "contested_shots_3pt": 1.33,
+        "deflections": 2.17,
+        "box_outs": 0.5,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.667,
         "loose_balls_recovered": 0.0,
         "charges_drawn": 0.0,
-        "screen_assists": 0.0
+        "screen_assists": 0.0,
+        "screen_ast_pts": 0.0
       }
     },
     {
@@ -20830,12 +22270,17 @@
         "rpg": 5.0
       },
       "hustle": {
-        "contested_shots": 2.2,
-        "deflections": 0.6,
+        "contested_shots": 2.0,
+        "contested_shots_2pt": 0.83,
+        "contested_shots_3pt": 1.17,
+        "deflections": 0.67,
         "box_outs": 0.0,
-        "loose_balls_recovered": 0.8,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.0,
+        "loose_balls_recovered": 0.67,
         "charges_drawn": 0.0,
-        "screen_assists": 0.0
+        "screen_assists": 0.17,
+        "screen_ast_pts": 0.0
       }
     },
     {
@@ -20902,12 +22347,17 @@
         "rpg": 1.6
       },
       "hustle": {
-        "contested_shots": 2.0,
-        "deflections": 1.5,
-        "box_outs": 0.25,
-        "loose_balls_recovered": 0.25,
+        "contested_shots": 1.8,
+        "contested_shots_2pt": 0.8,
+        "contested_shots_3pt": 1.0,
+        "deflections": 1.2,
+        "box_outs": 0.2,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
+        "loose_balls_recovered": 0.2,
         "charges_drawn": 0.0,
-        "screen_assists": 0.0
+        "screen_assists": 0.0,
+        "screen_ast_pts": 0.0
       }
     },
     {
@@ -20975,11 +22425,16 @@
       },
       "hustle": {
         "contested_shots": 5.0,
-        "deflections": 3.14,
-        "box_outs": 0.71,
-        "loose_balls_recovered": 0.57,
+        "contested_shots_2pt": 3.13,
+        "contested_shots_3pt": 1.88,
+        "deflections": 2.88,
+        "box_outs": 0.63,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
+        "loose_balls_recovered": 0.63,
         "charges_drawn": 0.0,
-        "screen_assists": 0.14
+        "screen_assists": 0.25,
+        "screen_ast_pts": 0.38
       }
     },
     {
@@ -21046,12 +22501,17 @@
         "rpg": 2.8
       },
       "hustle": {
-        "contested_shots": 3.5,
-        "deflections": 0.5,
+        "contested_shots": 3.0,
+        "contested_shots_2pt": 1.33,
+        "contested_shots_3pt": 1.67,
+        "deflections": 1.0,
         "box_outs": 0.0,
-        "loose_balls_recovered": 1.0,
-        "charges_drawn": 0.5,
-        "screen_assists": 0.0
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.0,
+        "loose_balls_recovered": 0.67,
+        "charges_drawn": 0.33,
+        "screen_assists": 0.33,
+        "screen_ast_pts": 0.0
       }
     },
     {
@@ -21119,11 +22579,16 @@
       },
       "hustle": {
         "contested_shots": 0.67,
+        "contested_shots_2pt": 0.67,
+        "contested_shots_3pt": 0.0,
         "deflections": 0.67,
         "box_outs": 0.0,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.0,
         "loose_balls_recovered": 0.0,
         "charges_drawn": 0.0,
-        "screen_assists": 0.67
+        "screen_assists": 0.67,
+        "screen_ast_pts": 1.33
       }
     },
     {
@@ -21190,12 +22655,17 @@
         "rpg": 7.1
       },
       "hustle": {
-        "contested_shots": 5.17,
-        "deflections": 2.67,
-        "box_outs": 0.83,
-        "loose_balls_recovered": 1.17,
+        "contested_shots": 5.29,
+        "contested_shots_2pt": 3.43,
+        "contested_shots_3pt": 1.86,
+        "deflections": 3.0,
+        "box_outs": 0.71,
+        "pct_box_outs_off": 0.4,
+        "pct_box_outs_def": 0.6,
+        "loose_balls_recovered": 1.29,
         "charges_drawn": 0.0,
-        "screen_assists": 0.0
+        "screen_assists": 0.0,
+        "screen_ast_pts": 0.0
       }
     },
     {
@@ -21262,12 +22732,17 @@
         "rpg": 10.7
       },
       "hustle": {
-        "contested_shots": 12.33,
-        "deflections": 3.0,
-        "box_outs": 1.83,
-        "loose_balls_recovered": 0.67,
-        "charges_drawn": 0.17,
-        "screen_assists": 2.5
+        "contested_shots": 11.71,
+        "contested_shots_2pt": 10.14,
+        "contested_shots_3pt": 1.57,
+        "deflections": 2.71,
+        "box_outs": 1.86,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.846,
+        "loose_balls_recovered": 0.71,
+        "charges_drawn": 0.14,
+        "screen_assists": 2.57,
+        "screen_ast_pts": 4.57
       }
     },
     {
@@ -21335,11 +22810,16 @@
       },
       "hustle": {
         "contested_shots": 1.25,
+        "contested_shots_2pt": 1.0,
+        "contested_shots_3pt": 0.25,
         "deflections": 0.75,
         "box_outs": 0.25,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
         "loose_balls_recovered": 0.0,
         "charges_drawn": 0.0,
-        "screen_assists": 0.0
+        "screen_assists": 0.0,
+        "screen_ast_pts": 0.0
       }
     },
     {
@@ -21406,12 +22886,17 @@
         "rpg": 10.5
       },
       "hustle": {
-        "contested_shots": 11.57,
-        "deflections": 1.86,
-        "box_outs": 1.29,
-        "loose_balls_recovered": 0.57,
+        "contested_shots": 11.75,
+        "contested_shots_2pt": 9.38,
+        "contested_shots_3pt": 2.38,
+        "deflections": 2.0,
+        "box_outs": 1.13,
+        "pct_box_outs_off": 0.333,
+        "pct_box_outs_def": 0.667,
+        "loose_balls_recovered": 0.5,
         "charges_drawn": 0.0,
-        "screen_assists": 2.57
+        "screen_assists": 2.38,
+        "screen_ast_pts": 5.5
       }
     },
     {
@@ -21478,12 +22963,17 @@
         "rpg": 2.0
       },
       "hustle": {
-        "contested_shots": 2.5,
-        "deflections": 0.75,
+        "contested_shots": 2.8,
+        "contested_shots_2pt": 1.4,
+        "contested_shots_3pt": 1.4,
+        "deflections": 0.8,
         "box_outs": 0.0,
-        "loose_balls_recovered": 0.0,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.0,
+        "loose_balls_recovered": 0.2,
         "charges_drawn": 0.0,
-        "screen_assists": 0.25
+        "screen_assists": 0.4,
+        "screen_ast_pts": 0.6
       }
     },
     {
@@ -21550,12 +23040,17 @@
         "rpg": 8.9
       },
       "hustle": {
-        "contested_shots": 9.17,
-        "deflections": 1.33,
+        "contested_shots": 9.0,
+        "contested_shots_2pt": 7.29,
+        "contested_shots_3pt": 1.71,
+        "deflections": 1.57,
         "box_outs": 5.0,
-        "loose_balls_recovered": 0.83,
+        "pct_box_outs_off": 0.086,
+        "pct_box_outs_def": 0.771,
+        "loose_balls_recovered": 0.71,
         "charges_drawn": 0.0,
-        "screen_assists": 2.17
+        "screen_assists": 1.86,
+        "screen_ast_pts": 4.14
       }
     },
     {
@@ -21622,12 +23117,17 @@
         "rpg": 2.0
       },
       "hustle": {
-        "contested_shots": 3.4,
-        "deflections": 1.6,
-        "box_outs": 0.4,
-        "loose_balls_recovered": 0.4,
+        "contested_shots": 2.71,
+        "contested_shots_2pt": 1.86,
+        "contested_shots_3pt": 0.86,
+        "deflections": 1.29,
+        "box_outs": 0.29,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
+        "loose_balls_recovered": 0.43,
         "charges_drawn": 0.0,
-        "screen_assists": 0.2
+        "screen_assists": 0.29,
+        "screen_ast_pts": 0.43
       }
     },
     {
@@ -21693,7 +23193,19 @@
         "bpg": 0.0,
         "rpg": 0.0
       },
-      "hustle": {}
+      "hustle": {
+        "contested_shots": 0.0,
+        "contested_shots_2pt": 0.0,
+        "contested_shots_3pt": 0.0,
+        "deflections": 0.0,
+        "box_outs": 0.0,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.0,
+        "loose_balls_recovered": 1.0,
+        "charges_drawn": 0.0,
+        "screen_assists": 0.0,
+        "screen_ast_pts": 0.0
+      }
     },
     {
       "id": 1642865,
@@ -21759,12 +23271,17 @@
         "rpg": 7.0
       },
       "hustle": {
-        "contested_shots": 5.71,
+        "contested_shots": 5.5,
+        "contested_shots_2pt": 3.38,
+        "contested_shots_3pt": 2.13,
         "deflections": 2.0,
-        "box_outs": 0.57,
-        "loose_balls_recovered": 0.57,
+        "box_outs": 0.63,
+        "pct_box_outs_off": 0.4,
+        "pct_box_outs_def": 0.4,
+        "loose_balls_recovered": 0.63,
         "charges_drawn": 0.0,
-        "screen_assists": 0.14
+        "screen_assists": 0.13,
+        "screen_ast_pts": 0.25
       }
     },
     {
@@ -21831,12 +23348,17 @@
         "rpg": 5.9
       },
       "hustle": {
-        "contested_shots": 5.33,
-        "deflections": 4.17,
-        "box_outs": 0.17,
-        "loose_balls_recovered": 1.17,
+        "contested_shots": 5.29,
+        "contested_shots_2pt": 3.29,
+        "contested_shots_3pt": 2.0,
+        "deflections": 3.86,
+        "box_outs": 0.14,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
+        "loose_balls_recovered": 1.0,
         "charges_drawn": 0.0,
-        "screen_assists": 0.83
+        "screen_assists": 0.71,
+        "screen_ast_pts": 1.71
       }
     },
     {
@@ -21903,12 +23425,17 @@
         "rpg": 2.6
       },
       "hustle": {
-        "contested_shots": 2.75,
-        "deflections": 0.0,
-        "box_outs": 0.5,
+        "contested_shots": 2.6,
+        "contested_shots_2pt": 1.8,
+        "contested_shots_3pt": 0.8,
+        "deflections": 0.2,
+        "box_outs": 0.4,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
         "loose_balls_recovered": 0.0,
         "charges_drawn": 0.0,
-        "screen_assists": 0.5
+        "screen_assists": 1.0,
+        "screen_ast_pts": 0.8
       }
     },
     {
@@ -21975,12 +23502,17 @@
         "rpg": 7.3
       },
       "hustle": {
-        "contested_shots": 7.0,
-        "deflections": 0.4,
-        "box_outs": 2.0,
-        "loose_balls_recovered": 0.8,
+        "contested_shots": 7.33,
+        "contested_shots_2pt": 5.33,
+        "contested_shots_3pt": 2.0,
+        "deflections": 0.33,
+        "box_outs": 2.17,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 0.769,
+        "loose_balls_recovered": 0.67,
         "charges_drawn": 0.0,
-        "screen_assists": 2.6
+        "screen_assists": 2.5,
+        "screen_ast_pts": 5.0
       }
     },
     {
@@ -22047,12 +23579,17 @@
         "rpg": 3.0
       },
       "hustle": {
-        "contested_shots": 3.33,
-        "deflections": 1.83,
-        "box_outs": 0.33,
-        "loose_balls_recovered": 0.33,
+        "contested_shots": 3.0,
+        "contested_shots_2pt": 0.86,
+        "contested_shots_3pt": 2.14,
+        "deflections": 1.71,
+        "box_outs": 0.29,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
+        "loose_balls_recovered": 0.29,
         "charges_drawn": 0.0,
-        "screen_assists": 0.0
+        "screen_assists": 0.0,
+        "screen_ast_pts": 0.0
       }
     },
     {
@@ -22119,12 +23656,17 @@
         "rpg": 2.8
       },
       "hustle": {
-        "contested_shots": 4.0,
-        "deflections": 2.75,
-        "box_outs": 0.5,
-        "loose_balls_recovered": 0.25,
+        "contested_shots": 3.6,
+        "contested_shots_2pt": 1.4,
+        "contested_shots_3pt": 2.2,
+        "deflections": 2.8,
+        "box_outs": 0.4,
+        "pct_box_outs_off": 0.0,
+        "pct_box_outs_def": 1.0,
+        "loose_balls_recovered": 0.2,
         "charges_drawn": 0.0,
-        "screen_assists": 1.0
+        "screen_assists": 0.8,
+        "screen_ast_pts": 2.0
       }
     },
     {
@@ -22191,12 +23733,17 @@
         "rpg": 5.3
       },
       "hustle": {
-        "contested_shots": 5.5,
-        "deflections": 3.0,
-        "box_outs": 0.83,
-        "loose_balls_recovered": 0.67,
+        "contested_shots": 5.29,
+        "contested_shots_2pt": 2.43,
+        "contested_shots_3pt": 2.86,
+        "deflections": 2.71,
+        "box_outs": 1.71,
+        "pct_box_outs_off": 0.167,
+        "pct_box_outs_def": 0.25,
+        "loose_balls_recovered": 0.71,
         "charges_drawn": 0.0,
-        "screen_assists": 0.0
+        "screen_assists": 0.14,
+        "screen_ast_pts": 0.0
       }
     }
   ]

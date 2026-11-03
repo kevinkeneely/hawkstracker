@@ -151,12 +151,18 @@ def run():
     players = []
     for pid in all_pids:
         bio = bios.get(pid, {"name": "?", "team": "?", "gp": 0, "mpg": 0})
+        gp  = bio["gp"] or 0
+        mpg = bio["mpg"] or 0
         players.append({
             "id":           pid,
             "name":         bio["name"],
             "team":         bio["team"],
-            "gp":           bio["gp"],
-            "mpg":          bio["mpg"],
+            "gp":           gp,
+            "mpg":          mpg,
+            # Season total minutes — used by the frontend Advanced page to
+            # apply a minutes-played floor (same pattern as defense tracking
+            # and league leaderboards).
+            "min_total":    round(mpg * gp),
             "drives":       drives.get(pid, {}),
             "passing":      passing.get(pid, {}),
             "possessions":  possessions.get(pid, {}),
