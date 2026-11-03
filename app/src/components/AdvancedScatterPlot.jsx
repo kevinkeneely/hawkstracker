@@ -37,6 +37,7 @@ export default function AdvancedScatterPlot({
   yFormat = (v) => (v == null ? '—' : Number(v).toFixed(2)),
 }) {
   const [hovered, setHovered] = useState(null)
+  const [highlightHawks, setHighlightHawks] = useState(false)
 
   // Prefer qualified players for the main pool; fall back to all if nobody
   // qualifies (early season). Same pattern ChartsPage uses.
@@ -93,8 +94,19 @@ export default function AdvancedScatterPlot({
 
   return (
     <section className="adv-scatter">
-      <header>
-        <h3>{title}</h3>
+      <header className="adv-scatter-header">
+        <div className="adv-scatter-title-row">
+          <h3>{title}</h3>
+          <button
+            type="button"
+            className={`adv-scatter-hawks-toggle ${highlightHawks ? 'active' : ''}`}
+            onClick={() => setHighlightHawks(v => !v)}
+            title={highlightHawks ? 'Show all players normally' : 'Highlight Hawks players'}
+            aria-pressed={highlightHawks}
+          >
+            ATL
+          </button>
+        </div>
         <p className="adv-scatter-desc">{description}</p>
         {isEarlySeason && (
           <p className="adv-scatter-note">Early-season sample — showing all players.</p>
@@ -138,11 +150,25 @@ export default function AdvancedScatterPlot({
           <text x={16} y={PAD.top + PLOT_H / 2}
                 className="adv-scatter-axis-label" textAnchor="middle"
                 transform={`rotate(-90 16 ${PAD.top + PLOT_H / 2})`}>{yLabel}</text>
-          {/* Dots with headshots */}
-          {points.map((p) => {
+          {/* Dots with headshots. When highlightHawks is on, non-Hawks fade to
+              low opacity and Hawks get a red ring. Hawks are rendered LAST (via
+              the sort below) so their rings sit on top. */}
+          {points
+            .slice()
+            .sort((a, b) => {
+              if (!highlightHawks) return 0
+              const ah = a.team === 'ATL' ? 1 : 0
+              const bh = b.team === 'ATL' ? 1 : 0
+              return ah - bh // Hawks last → painted on top
+            })
+            .map((p) => {
             const cx = scale.toX(p.x), cy = scale.toY(p.y)
+            const isHawk = p.team === 'ATL'
+            const groupOpacity = highlightHawks && !isHawk ? 0.25 : 1
+            const ringClass = `adv-scatter-dot-ring${p.qualified ? '' : ' faded'}${highlightHawks && isHawk ? ' hawks-highlight' : ''}`
             return (
               <g key={p.id}
+                 opacity={groupOpacity}
                  onMouseEnter={() => setHovered(p)}
                  onMouseLeave={() => setHovered(null)}>
                 <Link to={`/players/${p.id}`}>
@@ -157,7 +183,7 @@ export default function AdvancedScatterPlot({
                     clipPath={`url(#clip-${title.replace(/\W+/g, '')}-${p.id})`}
                   />
                   <circle cx={cx} cy={cy} r="14" fill="none"
-                          className={`adv-scatter-dot-ring ${p.qualified ? '' : 'faded'}`} />
+                          className={ringClass} />
                 </Link>
               </g>
             )

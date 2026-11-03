@@ -90,6 +90,7 @@ export default function AdvancedPage({
         .map(p => ({
           id: p.id,
           name: p.name,
+          team: p.team,
           qualified: (p.gp ?? 0) >= 5,
           x: cfg.extractX(p),
           y: cfg.extractY(p),

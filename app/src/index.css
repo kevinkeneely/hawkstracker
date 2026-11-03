@@ -2500,6 +2500,46 @@ header {
 .adv-scatter-dot-ring.faded {
   stroke-opacity: 0.4;
 }
+/* Hawks-highlight toggle (per-scatter). When active, non-Hawks dots fade and
+   Hawks dots get a red ring + slight thickness bump so they pop. */
+.adv-scatter-dot-ring.hawks-highlight {
+  stroke: #C8102E;
+  stroke-width: 3;
+  stroke-opacity: 1;
+}
+.adv-scatter-header {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.adv-scatter-title-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.adv-scatter-title-row h3 {
+  margin: 0;
+}
+.adv-scatter-hawks-toggle {
+  background: transparent;
+  color: #C8102E;
+  border: 1px solid #C8102E;
+  border-radius: 999px;
+  padding: 2px 10px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+  transition: background 0.12s, color 0.12s;
+  line-height: 1.2;
+}
+.adv-scatter-hawks-toggle:hover {
+  background: rgba(200, 16, 46, 0.15);
+}
+.adv-scatter-hawks-toggle.active {
+  background: #C8102E;
+  color: #fff;
+}
 .adv-scatter-tooltip {
   position: absolute;
   transform: translate(-50%, calc(-100% - 10px));
