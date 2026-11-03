@@ -36,6 +36,12 @@ export default function AdvancedScatterPlot({
   yFormat = (v) => (v == null ? '—' : Number(v).toFixed(2)),
 }) {
   const [hovered, setHovered] = useState(null)
+  // pinned = the player locked in by a tap/click. On mobile this is how the
+  // tooltip persists after the finger lifts (browsers fire a synthetic
+  // mouseleave on touch, which would otherwise clear hovered). The displayed
+  // tooltip prefers pinned over hovered, so clicking locks it until clicked
+  // again on the same player or on the empty background.
+  const [pinned, setPinned] = useState(null)
   const [highlightHawks, setHighlightHawks] = useState(false)
 
   // Prefer qualified players for the main pool; fall back to all if nobody
@@ -112,7 +118,7 @@ export default function AdvancedScatterPlot({
         )}
       </header>
       <div className="adv-scatter-canvas-wrap">
-        <svg viewBox={`0 0 ${W} ${H}`} className="adv-scatter-svg" onClick={() => setHovered(null)}>
+        <svg viewBox={`0 0 ${W} ${H}`} className="adv-scatter-svg" onClick={() => setPinned(null)}>
           {/* Grid lines */}
           {ticks.x.map((v, i) => (
             <line key={`gx${i}`} x1={scale.toX(v)} x2={scale.toX(v)}
@@ -172,13 +178,12 @@ export default function AdvancedScatterPlot({
                  onMouseEnter={() => setHovered(p)}
                  onMouseLeave={() => setHovered(null)}
                  onClick={(e) => {
-                   // Toggle the tooltip for this player. On desktop this is
-                   // redundant with hover (mouseLeave clears it when the
-                   // mouse moves off); on mobile where hover doesn't exist,
-                   // tap pins/unpins the tooltip. Stop propagation so the
-                   // SVG background's onClick (which clears) doesn't fire.
+                   // Toggle the pin for this player. Pin persists across
+                   // mouseleave (important on mobile where touch fires a
+                   // synthetic leave). Stop propagation so the SVG
+                   // background's onClick (which unpins) doesn't fire.
                    e.stopPropagation()
-                   setHovered((h) => (h?.id === p.id ? null : p))
+                   setPinned((prev) => (prev?.id === p.id ? null : p))
                  }}>
                 <defs>
                   <clipPath id={`clip-${title.replace(/\W+/g, '')}-${p.id}`}>
@@ -196,17 +201,20 @@ export default function AdvancedScatterPlot({
             )
           })}
         </svg>
-        {hovered && (
-          <div className="adv-scatter-tooltip" style={{
-            left: `${(scale.toX(hovered.x) / W) * 100}%`,
-            top: `${(scale.toY(hovered.y) / H) * 100}%`,
-          }}>
-            <div className="adv-scatter-tooltip-name">{hovered.name}</div>
-            <div className="adv-scatter-tooltip-vals">
-              {yLabel}: {yFormat(hovered.y)} · {xLabel}: {xFormat(hovered.x)}
+        {(pinned || hovered) && (() => {
+          const tip = pinned || hovered
+          return (
+            <div className="adv-scatter-tooltip" style={{
+              left: `${(scale.toX(tip.x) / W) * 100}%`,
+              top: `${(scale.toY(tip.y) / H) * 100}%`,
+            }}>
+              <div className="adv-scatter-tooltip-name">{tip.name}</div>
+              <div className="adv-scatter-tooltip-vals">
+                {yLabel}: {yFormat(tip.y)} · {xLabel}: {xFormat(tip.x)}
+              </div>
             </div>
-          </div>
-        )}
+          )
+        })()}
       </div>
     </section>
   )
