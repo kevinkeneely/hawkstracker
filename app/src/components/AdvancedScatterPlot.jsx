@@ -21,7 +21,6 @@
  */
 
 import { useMemo, useState } from 'react'
-import { Link } from 'react-router-dom'
 
 const W = 800, H = 500
 const PAD = { top: 24, right: 30, bottom: 50, left: 60 }
@@ -113,7 +112,7 @@ export default function AdvancedScatterPlot({
         )}
       </header>
       <div className="adv-scatter-canvas-wrap">
-        <svg viewBox={`0 0 ${W} ${H}`} className="adv-scatter-svg">
+        <svg viewBox={`0 0 ${W} ${H}`} className="adv-scatter-svg" onClick={() => setHovered(null)}>
           {/* Grid lines */}
           {ticks.x.map((v, i) => (
             <line key={`gx${i}`} x1={scale.toX(v)} x2={scale.toX(v)}
@@ -169,22 +168,30 @@ export default function AdvancedScatterPlot({
             return (
               <g key={p.id}
                  opacity={groupOpacity}
+                 style={{ cursor: 'pointer' }}
                  onMouseEnter={() => setHovered(p)}
-                 onMouseLeave={() => setHovered(null)}>
-                <Link to={`/players/${p.id}`}>
-                  <defs>
-                    <clipPath id={`clip-${title.replace(/\W+/g, '')}-${p.id}`}>
-                      <circle cx={cx} cy={cy} r="14" />
-                    </clipPath>
-                  </defs>
-                  <image
-                    x={cx - 14} y={cy - 14} width="28" height="28"
-                    href={`/nba-headshots/${p.id}.png`}
-                    clipPath={`url(#clip-${title.replace(/\W+/g, '')}-${p.id})`}
-                  />
-                  <circle cx={cx} cy={cy} r="14" fill="none"
-                          className={ringClass} />
-                </Link>
+                 onMouseLeave={() => setHovered(null)}
+                 onClick={(e) => {
+                   // Toggle the tooltip for this player. On desktop this is
+                   // redundant with hover (mouseLeave clears it when the
+                   // mouse moves off); on mobile where hover doesn't exist,
+                   // tap pins/unpins the tooltip. Stop propagation so the
+                   // SVG background's onClick (which clears) doesn't fire.
+                   e.stopPropagation()
+                   setHovered((h) => (h?.id === p.id ? null : p))
+                 }}>
+                <defs>
+                  <clipPath id={`clip-${title.replace(/\W+/g, '')}-${p.id}`}>
+                    <circle cx={cx} cy={cy} r="14" />
+                  </clipPath>
+                </defs>
+                <image
+                  x={cx - 14} y={cy - 14} width="28" height="28"
+                  href={`/nba-headshots/${p.id}.png`}
+                  clipPath={`url(#clip-${title.replace(/\W+/g, '')}-${p.id})`}
+                />
+                <circle cx={cx} cy={cy} r="14" fill="none"
+                        className={ringClass} />
               </g>
             )
           })}
