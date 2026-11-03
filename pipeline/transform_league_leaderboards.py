@@ -93,10 +93,12 @@ def load_overall_stats() -> dict:
     fga_i = bh.index("FGA")
     fgm_i = bh.index("FGM")
     fg_pct_i = bh.index("FG_PCT")
+    fg3_pct_i = bh.index("FG3_PCT")
     efg_i = bh.index("EFG_PCT") if "EFG_PCT" in bh else None
     ft_pct_i = bh.index("FT_PCT")
     fta_i = bh.index("FTA")
     fg3m_i = bh.index("FG3M")
+    pts_i = bh.index("PTS")
 
     # eFG% is sometimes absent from base stats (depends on which measure variant
     # the fetch asked for). If not present we compute it: (FGM + 0.5*FG3M)/FGA.
@@ -115,12 +117,14 @@ def load_overall_stats() -> dict:
         mpg = row[min_i] or 0
         out[pid] = {
             "fg_pct":  row[fg_pct_i],
+            "fg3_pct": row[fg3_pct_i],
             "efg_pct": efg,
             "ft_pct":  row[ft_pct_i],
             # Per-game values (what leaguedashplayerstats returns by default):
             "fga":     fga,
             "fta":     fta,
             "fgm":     fgm,
+            "ppg":     row[pts_i],
             "mpg":     mpg,
             # Season totals, used for the minimum-attempts floors on the
             # leaderboards (floors like "50 FGA" are totals, not per-game):
@@ -130,18 +134,30 @@ def load_overall_stats() -> dict:
             "min_total":  round(mpg * gp),
         }
 
-    # TS% comes from league_advanced since it needs TS_PCT.
+    # TS%, AST%, TOV% come from league_advanced. TM_TOV_PCT is reported as a
+    # percent number (11.1) — rescale to a 0–1 decimal (0.111) to match the
+    # Hawks pipeline's tov_pct convention (see pipeline/transform.py).
     adv = json.loads(adv_file.read_text())
     rs = next(r for r in adv["resultSets"] if r["name"] == "LeagueDashPlayerStats")
     ah = rs["headers"]
     pid_i = ah.index("PLAYER_ID")
     ts_i  = ah.index("TS_PCT")
+    ast_pct_i = ah.index("AST_PCT")
+    tov_pct_i = ah.index("TM_TOV_PCT")
     for row in rs["rowSet"]:
         pid = row[pid_i]
+        tov_raw = row[tov_pct_i]
+        tov = tov_raw / 100 if tov_raw is not None else None
         if pid in out:
-            out[pid]["ts_pct"] = row[ts_i]
+            out[pid]["ts_pct"]  = row[ts_i]
+            out[pid]["ast_pct"] = row[ast_pct_i]
+            out[pid]["tov_pct"] = tov
         else:
-            out[pid] = {"ts_pct": row[ts_i]}
+            out[pid] = {
+                "ts_pct":  row[ts_i],
+                "ast_pct": row[ast_pct_i],
+                "tov_pct": tov,
+            }
     return out
 
 def load_defense_stats() -> dict:
@@ -318,6 +334,13 @@ def run():
             # digging into the overall block:
             "mpg":        ov.get("mpg"),
             "min_total":  ov.get("min_total"),
+            # Also surface the main stats used by migrated ChartsPage scatters
+            # at top level, matching the Hawks hawksData.player shape:
+            "ppg":        ov.get("ppg"),
+            "ts_pct":     ov.get("ts_pct"),
+            "fg3_pct":    ov.get("fg3_pct"),
+            "ast_pct":    ov.get("ast_pct"),
+            "tov_pct":    ov.get("tov_pct"),
             "zones": zones,
             "overall": ov,
             "defense": defense_by_pid.get(pid, {}),

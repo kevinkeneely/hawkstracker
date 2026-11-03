@@ -50,8 +50,9 @@ const SCATTER_CONFIGS = [
   },
   {
     title: 'Drive TOV × Drive AST',
-    description: 'Upper-left = high-AST, low-TOV driver (ideal). Upper-right = ball-dominant playmaker with both.',
+    description: 'Upper-right = high-AST, low-TOV driver. X-axis inverted so fewer turnovers show on the right.',
     xLabel: 'Drive TOV', yLabel: 'Drive AST',
+    xInvert: true,
     extractX: (p) => extract(p, 'drives', 'drive_tov'),
     extractY: (p) => extract(p, 'drives', 'drive_ast'),
     xFormat: num,
@@ -68,6 +69,21 @@ const SCATTER_CONFIGS = [
     extractY: (p) => extract(p, 'possessions', 'pts_per_touch'),
     xFormat: num,
     yFormat: num,
+    minMinutes: 100,
+  },
+  // ─── Migrated from the former standalone Scatter Plots tab ───────
+  // Uses top-level ast_pct / tov_pct added to league_leaderboards by the
+  // Nov 3 pipeline amendment. X-axis is inverted so lower-TOV stays on the
+  // right (upper-right = clean creator: low TOV, high AST).
+  {
+    title: 'AST% × TOV%',
+    description: 'Upper-right = clean creator (low TOV, high AST). X-axis inverted so lower TOV is to the right.',
+    xLabel: 'TOV%', yLabel: 'AST%',
+    xInvert: true,
+    extractX: (p) => p.tov_pct ?? null,
+    extractY: (p) => p.ast_pct ?? null,
+    xFormat: pct,
+    yFormat: pct,
     minMinutes: 100,
   },
 ]
@@ -112,28 +128,60 @@ export default function PlaymakingPage({ playerData, season }) {
   const [leagueData, setLeagueData] = useState(null)
   const [error, setError] = useState(null)
 
+  const [leaderboardsFile, setLeaderboardsFile] = useState(null)
+
   useEffect(() => {
     if (!season) return
     setLeagueData(null)
+    setLeaderboardsFile(null)
     setError(null)
-    fetch(`/league_playmaking_tracking-${season}.json`)
-      .then((r) => {
-        if (!r.ok) throw new Error(`HTTP ${r.status}`)
+    Promise.all([
+      fetch(`/league_playmaking_tracking-${season}.json`).then((r) => {
+        if (!r.ok) throw new Error(`tracking: HTTP ${r.status}`)
         return r.json()
+      }),
+      fetch(`/league_leaderboards-${season}.json`).then((r) => {
+        if (!r.ok) throw new Error(`leaderboards: HTTP ${r.status}`)
+        return r.json()
+      }),
+    ])
+      .then(([track, lb]) => {
+        setLeagueData(track)
+        setLeaderboardsFile(lb)
       })
-      .then(setLeagueData)
       .catch((e) => setError(e.message))
   }, [season])
 
   if (error) return <div className="advanced-placeholder"><p>Error loading playmaking data: {error}</p></div>
-  if (!leagueData || !playerData) return <div className="advanced-placeholder"><p>Loading…</p></div>
+  if (!leagueData || !leaderboardsFile || !playerData) return <div className="advanced-placeholder"><p>Loading…</p></div>
+
+  // Merge leaderboards top-level fields onto playmaking tracking players
+  // for the migrated AST% × TOV% scatter.
+  const extraById = new Map(
+    leaderboardsFile.players.map((p) => [p.id, p])
+  )
+  const mergedPlayers = leagueData.players.map((p) => {
+    const extra = extraById.get(p.id)
+    if (!extra) return p
+    return {
+      ...p,
+      ppg:       extra.ppg       ?? p.ppg,
+      ts_pct:    extra.ts_pct    ?? p.ts_pct,
+      fg3_pct:   extra.fg3_pct   ?? p.fg3_pct,
+      ast_pct:   extra.ast_pct   ?? p.ast_pct,
+      tov_pct:   extra.tov_pct   ?? p.tov_pct,
+      zones:     extra.zones     ?? p.zones,
+      min_total: extra.min_total ?? p.min_total,
+    }
+  })
+  const mergedLeagueData = { ...leagueData, players: mergedPlayers }
 
   return (
     <AdvancedPage
       title="Playmaking"
       subtitle="Drives, passing, touches and possessions"
       hawksPlayers={playerData.players}
-      leagueData={leagueData}
+      leagueData={mergedLeagueData}
       scatterConfigs={SCATTER_CONFIGS}
       toggleConfigs={TOGGLE_CONFIGS}
       leagueMinMinutes={100}

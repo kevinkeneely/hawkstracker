@@ -61,6 +61,30 @@ const SCATTER_CONFIGS = [
     yFormat: pct,
     minVolume: 10,
   },
+  // ─── Migrated from the former standalone Scatter Plots tab ───────
+  // These use top-level season stats (ppg, ts_pct, fg3_pct, rim_pct)
+  // added to league_leaderboards by the Nov 3 pipeline amendment,
+  // not the shooting-tracking splits used by the four scatters above.
+  {
+    title: 'Rim FG% × 3P%',
+    description: 'Upper-right = efficient at the rim AND from three.',
+    xLabel: '3P%', yLabel: 'Rim FG%',
+    extractX: (p) => p.fg3_pct ?? null,
+    extractY: (p) => p.zones?.at_rim?.pct ?? null,
+    xFormat: pct,
+    yFormat: pct,
+    minMinutes: 100,
+  },
+  {
+    title: 'PPG × TS%',
+    description: 'Upper-right = heavy, efficient scorer (volume + true shooting).',
+    xLabel: 'PPG', yLabel: 'TS%',
+    extractX: (p) => p.ppg ?? null,
+    extractY: (p) => p.ts_pct ?? null,
+    xFormat: num,
+    yFormat: pct,
+    minMinutes: 100,
+  },
 ]
 
 // ─── Toggle configs (4) ───────────────────────────────────────
@@ -88,27 +112,65 @@ export default function ShootingPage({ playerData, season }) {
   const [leagueData, setLeagueData] = useState(null)
   const [error, setError] = useState(null)
 
+  const [leaderboardsFile, setLeaderboardsFile] = useState(null)
+
   useEffect(() => {
     if (!season) return
     setLeagueData(null)
-    fetch(`/league_shooting_tracking-${season}.json`)
-      .then((r) => {
-        if (!r.ok) throw new Error(`HTTP ${r.status}`)
+    setLeaderboardsFile(null)
+    // Fetch both files in parallel. The tracking file has the sport-specific
+    // splits; the leaderboards file carries the top-level season stats
+    // (ppg, ts_pct, fg3_pct, ast_pct, tov_pct, zones) used by scatters
+    // migrated from the former Scatter Plots tab.
+    Promise.all([
+      fetch(`/league_shooting_tracking-${season}.json`).then((r) => {
+        if (!r.ok) throw new Error(`tracking: HTTP ${r.status}`)
         return r.json()
+      }),
+      fetch(`/league_leaderboards-${season}.json`).then((r) => {
+        if (!r.ok) throw new Error(`leaderboards: HTTP ${r.status}`)
+        return r.json()
+      }),
+    ])
+      .then(([track, lb]) => {
+        setLeagueData(track)
+        setLeaderboardsFile(lb)
       })
-      .then(setLeagueData)
       .catch((e) => setError(e.message))
   }, [season])
 
   if (error) return <div className="advanced-placeholder"><p>Error loading shooting data: {error}</p></div>
-  if (!leagueData || !playerData) return <div className="advanced-placeholder"><p>Loading…</p></div>
+  if (!leagueData || !leaderboardsFile || !playerData) return <div className="advanced-placeholder"><p>Loading…</p></div>
+
+  // Merge: attach top-level stats + zones from leaderboards onto each
+  // player in the tracking file by id, for scatters migrated from the
+  // former Scatter Plots tab. Also carry min_total through so the
+  // minMinutes floor passes for migrated scatters.
+  const extraById = new Map(
+    leaderboardsFile.players.map((p) => [p.id, p])
+  )
+  const mergedPlayers = leagueData.players.map((p) => {
+    const extra = extraById.get(p.id)
+    if (!extra) return p
+    return {
+      ...p,
+      ppg:       extra.ppg       ?? p.ppg,
+      ts_pct:    extra.ts_pct    ?? p.ts_pct,
+      fg3_pct:   extra.fg3_pct   ?? p.fg3_pct,
+      ast_pct:   extra.ast_pct   ?? p.ast_pct,
+      tov_pct:   extra.tov_pct   ?? p.tov_pct,
+      zones:     extra.zones     ?? p.zones,
+      min_total: extra.min_total ?? p.min_total,
+    }
+  })
+  const mergedLeagueData = { ...leagueData, players: mergedPlayers }
 
   return (
     <AdvancedPage
       title="Shooting"
       subtitle="Catch & Shoot, Pull-Up, Contested, Uncontested splits"
       hawksPlayers={playerData.players}
-      leagueData={leagueData}
+      leagueData={mergedLeagueData}
       scatterConfigs={SCATTER_CONFIGS}
       toggleConfigs={TOGGLE_CONFIGS}
     />

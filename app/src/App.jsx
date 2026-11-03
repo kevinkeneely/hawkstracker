@@ -7,7 +7,6 @@ import PlayerProfilePage from './pages/PlayerProfilePage'
 import LeadersPage from './pages/LeadersPage'
 import Footer from './components/Footer'
 import BoxScorePage from './pages/BoxScorePage'
-import ChartsPage from './pages/ChartsPage'
 import ShootingPage from './pages/advanced/ShootingPage'
 import DefensePage from './pages/advanced/DefensePage'
 import PlaymakingPage from './pages/advanced/PlaymakingPage'
@@ -190,7 +189,6 @@ function App() {
           <NavLink to="/players" className="tab">Player Stats</NavLink>
           <NavLink to="/standings" className="tab">Standings</NavLink>
           <NavLink to="/leaders" className="tab">Leaders</NavLink>
-          <NavLink to="/charts" className="tab">Scatter Plots</NavLink>
           <AdvancedDropdown />
         </nav>
       </header>
@@ -204,7 +202,6 @@ function App() {
             <Route path="/team" element={<TeamStatsPage hawks={hawks} teamData={teamData} />} />
             <Route path="/standings" element={<StandingsPage standingsData={standingsData} season={season} />} />
             <Route path="/leaders" element={<LeadersPage leaderboards={leaderboards} playerData={playerData} />} />
-            <Route path="/charts" element={<ChartsPage playerData={playerData} leaderboards={leaderboards} />} />
             <Route path="/players/:id" element={<PlayerProfilePage playerData={playerData} season={season} leagueBaseline={leagueBaseline} />} />
             <Route path="/compare/:id1/:id2" element={<ComparePage playerData={playerData} />} />
             <Route path="/games/:id" element={<BoxScorePage season={season} />} />
