@@ -44,18 +44,47 @@ export default function BoxScorePage({ season }) {
   // right now; Defense / Shooting / Playmaking are placeholder stubs for the
   // next session.
   const [category, setCategory] = useState('traditional')
+  // Each category lazy-loads its own JSON (or two in Shooting's case) when
+  // first selected. Loaded data persists across tab switches so the fetch
+  // only runs once per category per visit.
   const [hustle, setHustle] = useState(null)
   const [hustleError, setHustleError] = useState(null)
+  const [defense, setDefense] = useState(null)
+  const [defenseError, setDefenseError] = useState(null)
+  const [playerTrack, setPlayerTrack] = useState(null)
+  const [playerTrackError, setPlayerTrackError] = useState(null)
+  const [scoring, setScoring] = useState(null)
+  const [scoringError, setScoringError] = useState(null)
 
-  // Lazy-fetch the hustle box score only when the user selects the tab,
-  // so the common Traditional view doesn't pay for extra requests.
   useEffect(() => {
-    if (category !== 'hustle' || hustle || hustleError) return
-    fetch(`/boxscores/${id}-hustle.json`)
-      .then((r) => (r.ok ? r.json() : Promise.reject(new Error('not available'))))
-      .then((d) => setHustle(d?.boxScoreHustle || null))
-      .catch((e) => setHustleError(e.message))
-  }, [category, id, hustle, hustleError])
+    if (category === 'hustle' && !hustle && !hustleError) {
+      fetch(`/boxscores/${id}-hustle.json`)
+        .then((r) => (r.ok ? r.json() : Promise.reject(new Error('not available'))))
+        .then((d) => setHustle(d?.boxScoreHustle || null))
+        .catch((e) => setHustleError(e.message))
+    }
+    if (category === 'defense' && !defense && !defenseError) {
+      fetch(`/boxscores/${id}-defensive.json`)
+        .then((r) => (r.ok ? r.json() : Promise.reject(new Error('not available'))))
+        .then((d) => setDefense(d?.boxScoreDefensive || null))
+        .catch((e) => setDefenseError(e.message))
+    }
+    // Playmaking and Shooting both need the player-track file. Shooting also
+    // needs the scoring file. Fire whichever requests are missing.
+    const needsPlayerTrack = category === 'playmaking' || category === 'shooting'
+    if (needsPlayerTrack && !playerTrack && !playerTrackError) {
+      fetch(`/boxscores/${id}-player-track.json`)
+        .then((r) => (r.ok ? r.json() : Promise.reject(new Error('not available'))))
+        .then((d) => setPlayerTrack(d?.boxScorePlayerTrack || null))
+        .catch((e) => setPlayerTrackError(e.message))
+    }
+    if (category === 'shooting' && !scoring && !scoringError) {
+      fetch(`/boxscores/${id}-scoring.json`)
+        .then((r) => (r.ok ? r.json() : Promise.reject(new Error('not available'))))
+        .then((d) => setScoring(d?.boxScoreScoring || null))
+        .catch((e) => setScoringError(e.message))
+    }
+  }, [category, id, hustle, hustleError, defense, defenseError, playerTrack, playerTrackError, scoring, scoringError])
 
   useEffect(() => {
     setLoaded(false)
@@ -187,10 +216,29 @@ export default function BoxScorePage({ season }) {
         />
       )}
 
-      {category !== 'traditional' && category !== 'hustle' && (
-        <div className="boxscore-category-placeholder">
-          <p>{CATEGORY_LABEL[category] || category} coming next session.</p>
-        </div>
+      {category === 'defense' && (
+        <DefenseView
+          defense={defense}
+          error={defenseError}
+          teamsOrder={teams}
+        />
+      )}
+
+      {category === 'shooting' && (
+        <ShootingView
+          playerTrack={playerTrack}
+          scoring={scoring}
+          error={playerTrackError || scoringError}
+          teamsOrder={teams}
+        />
+      )}
+
+      {category === 'playmaking' && (
+        <PlaymakingView
+          playerTrack={playerTrack}
+          error={playerTrackError}
+          teamsOrder={teams}
+        />
       )}
     </div>
   )
@@ -377,6 +425,237 @@ function HustlePlayerRow({ p }) {
       <td>{fmtInt(s.screenAssistPoints)}</td>
       <td>{fmtInt(s.looseBallsRecoveredTotal)}</td>
       <td>{fmtInt(s.boxOuts)}</td>
+    </tr>
+  )
+}
+
+
+// ─── Shared helper: order the two teams Hawks-first based on the Traditional
+// view's team ordering so the per-category tabs match the top layout. ───
+function orderTeams(home, away, teamsOrder) {
+  const teams = [home, away].filter((t) => t && t.teamTricode)
+  return [...teams].sort((a, b) => {
+    const ai = teamsOrder.indexOf(a.teamTricode)
+    const bi = teamsOrder.indexOf(b.teamTricode)
+    return (ai === -1 ? 999 : ai) - (bi === -1 ? 999 : bi)
+  })
+}
+
+function fmtPct1(v) {
+  if (v == null || !Number.isFinite(Number(v))) return '—'
+  return `${(Number(v) * 100).toFixed(1)}%`
+}
+
+function fmtFloat1(v) {
+  if (v == null || !Number.isFinite(Number(v))) return '—'
+  return Number(v).toFixed(1)
+}
+
+// Shared predicate: skip DNPs (statistics.minutes empty / zero).
+function playedMinutes(p) {
+  const m = p.statistics?.minutes
+  return m && m !== '0:00' && m !== '00:00'
+}
+
+// ─── Defense tab (BoxScoreDefensiveV2) ────────────────────────
+function DefenseView({ defense, error, teamsOrder }) {
+  if (error) return <div className="boxscore-category-placeholder"><p>Defense stats not available for this game.</p></div>
+  if (!defense) return <p className="boxscore-category-loading">Loading defense stats…</p>
+  const ordered = orderTeams(defense.homeTeam, defense.awayTeam, teamsOrder)
+  return ordered.map((team) => <DefenseTeamBox key={team.teamTricode} team={team} />)
+}
+
+function DefenseTeamBox({ team }) {
+  const players = (team.players || []).filter((p) => {
+    const m = p.statistics?.matchupMinutes
+    return m && m !== '0:00' && m !== '00:00'
+  })
+  const teamClass = team.teamTricode === 'ATL' ? 'is-hawks' : 'is-opponent'
+  return (
+    <section className={`boxscore-team ${teamClass}`}>
+      <h2>{team.teamTricode}</h2>
+      <div className="boxscore-table-wrap">
+        <table className="boxscore-table">
+          <thead>
+            <tr>
+              <th className="col-player">Player</th>
+              <th>Matchup MIN</th>
+              <th>Part. Poss.</th>
+              <th>Opp FG</th>
+              <th>Opp FG%</th>
+              <th>Opp 3PT</th>
+              <th>Opp 3PT%</th>
+              <th>PTS Allowed</th>
+              <th>DREB</th>
+              <th>Matchup AST</th>
+              <th>Matchup TOV</th>
+              <th>STL</th>
+              <th>BLK</th>
+            </tr>
+          </thead>
+          <tbody>
+            {players.map((p) => <DefensePlayerRow key={p.personId} p={p} />)}
+          </tbody>
+        </table>
+      </div>
+    </section>
+  )
+}
+
+function DefensePlayerRow({ p }) {
+  const s = p.statistics || {}
+  return (
+    <tr>
+      <td className="col-player">{p.nameI || p.familyName}</td>
+      <td>{fmtMinutes(s.matchupMinutes)}</td>
+      <td>{fmtFloat1(s.partialPossessions)}</td>
+      <td>{fmtMA(s.matchupFieldGoalsMade, s.matchupFieldGoalsAttempted)}</td>
+      <td>{fmtPct1(s.matchupFieldGoalPercentage)}</td>
+      <td>{fmtMA(s.matchupThreePointersMade, s.matchupThreePointersAttempted)}</td>
+      <td>{fmtPct1(s.matchupThreePointerPercentage)}</td>
+      <td>{fmtInt(s.playerPoints)}</td>
+      <td>{fmtInt(s.defensiveRebounds)}</td>
+      <td>{fmtInt(s.matchupAssists)}</td>
+      <td>{fmtInt(s.matchupTurnovers)}</td>
+      <td>{fmtInt(s.steals)}</td>
+      <td>{fmtInt(s.blocks)}</td>
+    </tr>
+  )
+}
+
+// ─── Shooting tab (BoxScorePlayerTrackV3 + BoxScoreScoringV3) ─
+function ShootingView({ playerTrack, scoring, error, teamsOrder }) {
+  if (error) return <div className="boxscore-category-placeholder"><p>Shooting stats not available for this game.</p></div>
+  if (!playerTrack || !scoring) return <p className="boxscore-category-loading">Loading shooting stats…</p>
+
+  // Merge the two by personId per team. PlayerTrack supplies the contested /
+  // uncontested / rim-defense splits; Scoring supplies the shot-type %
+  // breakdowns.
+  const scoringByPid = (team) => {
+    const map = new Map()
+    for (const p of (team?.players || [])) map.set(p.personId, p.statistics || {})
+    return map
+  }
+  const buildTeam = (ptTeam, scTeam) => {
+    const scMap = scoringByPid(scTeam)
+    const merged = (ptTeam?.players || []).map((p) => ({
+      ...p,
+      scoringStats: scMap.get(p.personId) || {},
+    }))
+    return { ...ptTeam, players: merged }
+  }
+
+  const home = buildTeam(playerTrack.homeTeam, scoring.homeTeam)
+  const away = buildTeam(playerTrack.awayTeam, scoring.awayTeam)
+  const ordered = orderTeams(home, away, teamsOrder)
+  return ordered.map((team) => <ShootingTeamBox key={team.teamTricode} team={team} />)
+}
+
+function ShootingTeamBox({ team }) {
+  const players = (team.players || []).filter(playedMinutes)
+  const teamClass = team.teamTricode === 'ATL' ? 'is-hawks' : 'is-opponent'
+  return (
+    <section className={`boxscore-team ${teamClass}`}>
+      <h2>{team.teamTricode}</h2>
+      <div className="boxscore-table-wrap">
+        <table className="boxscore-table">
+          <thead>
+            <tr>
+              <th className="col-player">Player</th>
+              <th>MIN</th>
+              <th>Contested FG</th>
+              <th>Contested FG%</th>
+              <th>Uncontested FG</th>
+              <th>Uncontested FG%</th>
+              <th>Rim FG</th>
+              <th>Rim FG%</th>
+              <th>% Pts Paint</th>
+              <th>% Pts Mid</th>
+              <th>% Pts 3PT</th>
+              <th>% Asst FGM</th>
+            </tr>
+          </thead>
+          <tbody>
+            {players.map((p) => <ShootingPlayerRow key={p.personId} p={p} />)}
+          </tbody>
+        </table>
+      </div>
+    </section>
+  )
+}
+
+function ShootingPlayerRow({ p }) {
+  const s = p.statistics || {}
+  const sc = p.scoringStats || {}
+  return (
+    <tr>
+      <td className="col-player">{p.nameI || p.familyName}</td>
+      <td>{fmtMinutes(s.minutes)}</td>
+      <td>{fmtMA(s.contestedFieldGoalsMade, s.contestedFieldGoalsAttempted)}</td>
+      <td>{fmtPct1(s.contestedFieldGoalPercentage)}</td>
+      <td>{fmtMA(s.uncontestedFieldGoalsMade, s.uncontestedFieldGoalsAttempted)}</td>
+      <td>{fmtPct1(s.uncontestedFieldGoalsPercentage)}</td>
+      <td>{fmtMA(s.defendedAtRimFieldGoalsMade, s.defendedAtRimFieldGoalsAttempted)}</td>
+      <td>{fmtPct1(s.defendedAtRimFieldGoalPercentage)}</td>
+      <td>{fmtPct1(sc.percentagePointsPaint)}</td>
+      <td>{fmtPct1(sc.percentagePointsMidrange2pt)}</td>
+      <td>{fmtPct1(sc.percentagePoints3pt)}</td>
+      <td>{fmtPct1(sc.percentageAssistedFGM)}</td>
+    </tr>
+  )
+}
+
+// ─── Playmaking tab (BoxScorePlayerTrackV3) ───────────────────
+function PlaymakingView({ playerTrack, error, teamsOrder }) {
+  if (error) return <div className="boxscore-category-placeholder"><p>Playmaking stats not available for this game.</p></div>
+  if (!playerTrack) return <p className="boxscore-category-loading">Loading playmaking stats…</p>
+  const ordered = orderTeams(playerTrack.homeTeam, playerTrack.awayTeam, teamsOrder)
+  return ordered.map((team) => <PlaymakingTeamBox key={team.teamTricode} team={team} />)
+}
+
+function PlaymakingTeamBox({ team }) {
+  const players = (team.players || []).filter(playedMinutes)
+  const teamClass = team.teamTricode === 'ATL' ? 'is-hawks' : 'is-opponent'
+  return (
+    <section className={`boxscore-team ${teamClass}`}>
+      <h2>{team.teamTricode}</h2>
+      <div className="boxscore-table-wrap">
+        <table className="boxscore-table">
+          <thead>
+            <tr>
+              <th className="col-player">Player</th>
+              <th>MIN</th>
+              <th>Touches</th>
+              <th>Passes</th>
+              <th>AST</th>
+              <th>2nd AST</th>
+              <th>FT AST</th>
+              <th>Speed</th>
+              <th>Distance</th>
+            </tr>
+          </thead>
+          <tbody>
+            {players.map((p) => <PlaymakingPlayerRow key={p.personId} p={p} />)}
+          </tbody>
+        </table>
+      </div>
+    </section>
+  )
+}
+
+function PlaymakingPlayerRow({ p }) {
+  const s = p.statistics || {}
+  return (
+    <tr>
+      <td className="col-player">{p.nameI || p.familyName}</td>
+      <td>{fmtMinutes(s.minutes)}</td>
+      <td>{fmtInt(s.touches)}</td>
+      <td>{fmtInt(s.passes)}</td>
+      <td>{fmtInt(s.assists)}</td>
+      <td>{fmtInt(s.secondaryAssists)}</td>
+      <td>{fmtInt(s.freeThrowAssists)}</td>
+      <td>{fmtFloat1(s.speed)}</td>
+      <td>{fmtFloat1(s.distance)}</td>
     </tr>
   )
 }
