@@ -1781,6 +1781,18 @@ header {
   text-transform: uppercase;
   letter-spacing: 0.03em;
 }
+/* In dark mode give the header row an off-white tint so it reads
+   distinctly as the column-label row and doesn't blend into the data
+   below. Light mode already has strong contrast from the dark text on
+   white background. */
+:root:not([data-theme="light"]) .boxscore-table thead th {
+  background: rgba(243, 244, 246, 0.08);
+  color: #ffffff;
+}
+:root[data-theme="dark"] .boxscore-table thead th {
+  background: rgba(243, 244, 246, 0.08);
+  color: #ffffff;
+}
 
 .boxscore-table .col-player {
   text-align: left;
