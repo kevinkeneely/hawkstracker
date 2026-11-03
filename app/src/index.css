@@ -2551,10 +2551,12 @@ header {
   pointer-events: none;
   box-shadow: var(--shadow);
   z-index: 2;
-  /* On narrow screens let long tooltip text wrap rather than push off-screen. */
-  max-width: calc(100vw - 32px);
-  white-space: normal;
-  word-break: break-word;
+  /* Keep tooltip on a single line (vertical character-wrap looks awful at
+     the right edge where the containing block collapses). The edge-aware
+     transforms below shift the tooltip inward so it still fits. */
+  white-space: nowrap;
+  width: max-content;
+  max-width: min(260px, calc(100vw - 32px));
 }
 /* Default placement: tooltip sits above the dot, centered horizontally. */
 .adv-scatter-tooltip.adv-tip-x-center {
