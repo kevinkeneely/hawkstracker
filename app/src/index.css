@@ -2591,8 +2591,6 @@ header {
 
 /* ─── Player Profile — Tracking tab (Phase 2) ─────────────────── */
 /* Reuses the Advanced-page toggle look & feel for consistency. */
-.profile-tracking { }
-
 .tracking-toggle-row {
   display: flex;
   justify-content: center;
