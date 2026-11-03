@@ -40,6 +40,23 @@ export default function BoxScorePage({ season }) {
   const [schedule, setSchedule] = useState(null)
   const [loaded, setLoaded] = useState(false)
 
+  // Phase 4 — category tabs. Only Traditional + Hustle have data wired up
+  // right now; Defense / Shooting / Playmaking are placeholder stubs for the
+  // next session.
+  const [category, setCategory] = useState('traditional')
+  const [hustle, setHustle] = useState(null)
+  const [hustleError, setHustleError] = useState(null)
+
+  // Lazy-fetch the hustle box score only when the user selects the tab,
+  // so the common Traditional view doesn't pay for extra requests.
+  useEffect(() => {
+    if (category !== 'hustle' || hustle || hustleError) return
+    fetch(`/boxscores/${id}-hustle.json`)
+      .then((r) => (r.ok ? r.json() : Promise.reject(new Error('not available'))))
+      .then((d) => setHustle(d?.boxScoreHustle || null))
+      .catch((e) => setHustleError(e.message))
+  }, [category, id, hustle, hustleError])
+
   useEffect(() => {
     setLoaded(false)
     Promise.all([
@@ -156,9 +173,25 @@ export default function BoxScorePage({ season }) {
         </h1>
       </header>
 
-      {teams.map((team) => (
+      <CategoryTabs active={category} onChange={setCategory} />
+
+      {category === 'traditional' && teams.map((team) => (
         <TeamBox key={team} team={team} players={byTeam[team]} />
       ))}
+
+      {category === 'hustle' && (
+        <HustleView
+          hustle={hustle}
+          error={hustleError}
+          teamsOrder={teams}
+        />
+      )}
+
+      {category !== 'traditional' && category !== 'hustle' && (
+        <div className="boxscore-category-placeholder">
+          <p>{CATEGORY_LABEL[category] || category} coming next session.</p>
+        </div>
+      )}
     </div>
   )
 }
@@ -232,6 +265,118 @@ function PlayerRow({ p }) {
       <td>{fmtMA(p.fg3m, p.fg3a)}</td>
       <td>{fmtMA(p.ftm, p.fta)}</td>
       <td>{fmtPlusMinus(p.plusMinus)}</td>
+    </tr>
+  )
+}
+
+
+const CATEGORY_LABEL = {
+  traditional: 'Traditional',
+  hustle: 'Hustle',
+  defense: 'Defense',
+  shooting: 'Shooting',
+  playmaking: 'Playmaking',
+}
+
+const CATEGORY_ORDER = ['traditional', 'hustle', 'defense', 'shooting', 'playmaking']
+
+function CategoryTabs({ active, onChange }) {
+  return (
+    <div className="boxscore-category-tabs">
+      {CATEGORY_ORDER.map((key) => (
+        <button
+          key={key}
+          type="button"
+          className={`boxscore-category-tab ${active === key ? 'active' : ''}`}
+          onClick={() => onChange(key)}
+        >
+          {CATEGORY_LABEL[key]}
+        </button>
+      ))}
+    </div>
+  )
+}
+
+function HustleView({ hustle, error, teamsOrder }) {
+  if (error) {
+    return (
+      <div className="boxscore-category-placeholder">
+        <p>Hustle stats not available for this game.</p>
+      </div>
+    )
+  }
+  if (!hustle) {
+    return <p className="boxscore-category-loading">Loading hustle stats…</p>
+  }
+  // NBA.com v2 shape — group into home/away, then order teams Hawks-first.
+  const teams = [
+    { ...hustle.homeTeam, _side: 'home' },
+    { ...hustle.awayTeam, _side: 'away' },
+  ].filter((t) => t && t.teamTricode)
+  // Match the Traditional view's team ordering (Hawks first). teamsOrder has
+  // tricodes in display order.
+  const ordered = [...teams].sort((a, b) => {
+    const ai = teamsOrder.indexOf(a.teamTricode)
+    const bi = teamsOrder.indexOf(b.teamTricode)
+    return (ai === -1 ? 999 : ai) - (bi === -1 ? 999 : bi)
+  })
+  return ordered.map((team) => (
+    <HustleTeamBox key={team.teamTricode} team={team} />
+  ))
+}
+
+function HustleTeamBox({ team }) {
+  const players = (team.players || []).filter((p) => {
+    // Skip DNPs — their statistics block is empty/zero. Keep anyone with any
+    // minutes.
+    const mins = p.statistics?.minutes
+    return mins && mins !== '0:00' && mins !== '00:00'
+  })
+  const teamClass = team.teamTricode === 'ATL' ? 'is-hawks' : 'is-opponent'
+  return (
+    <section className={`boxscore-team ${teamClass}`}>
+      <h2>{team.teamTricode}</h2>
+      <div className="boxscore-table-wrap">
+        <table className="boxscore-table">
+          <thead>
+            <tr>
+              <th className="col-player">Player</th>
+              <th>MIN</th>
+              <th>Contested</th>
+              <th>2PT</th>
+              <th>3PT</th>
+              <th>Defl</th>
+              <th>Charges</th>
+              <th>SA</th>
+              <th>SA PTS</th>
+              <th>Loose</th>
+              <th>Box Outs</th>
+            </tr>
+          </thead>
+          <tbody>
+            {players.map((p) => <HustlePlayerRow key={p.personId} p={p} />)}
+          </tbody>
+        </table>
+      </div>
+    </section>
+  )
+}
+
+function HustlePlayerRow({ p }) {
+  const s = p.statistics || {}
+  return (
+    <tr>
+      <td className="col-player">{p.nameI || p.familyName}</td>
+      <td>{fmtMinutes(s.minutes)}</td>
+      <td>{fmtInt(s.contestedShots)}</td>
+      <td>{fmtInt(s.contestedShots2pt)}</td>
+      <td>{fmtInt(s.contestedShots3pt)}</td>
+      <td>{fmtInt(s.deflections)}</td>
+      <td>{fmtInt(s.chargesDrawn)}</td>
+      <td>{fmtInt(s.screenAssists)}</td>
+      <td>{fmtInt(s.screenAssistPoints)}</td>
+      <td>{fmtInt(s.looseBallsRecoveredTotal)}</td>
+      <td>{fmtInt(s.boxOuts)}</td>
     </tr>
   )
 }

@@ -87,6 +87,10 @@ run_step fetch_schedule               python3 -m pipeline.fetch_schedule
 run_step fetch_upcoming               python3 -m pipeline.fetch_upcoming
 run_step transform_schedule           python3 -m pipeline.transform_schedule
 run_step fetch_boxscores              python3 -m pipeline.fetch_boxscores
+run_step fetch_boxscore_hustle        python3 -m pipeline.fetch_boxscore_hustle
+run_step fetch_boxscore_defensive     python3 -m pipeline.fetch_boxscore_defensive
+run_step fetch_boxscore_player_track  python3 -m pipeline.fetch_boxscore_player_track
+run_step fetch_boxscore_scoring       python3 -m pipeline.fetch_boxscore_scoring
 
 # ---- Commit whatever changed ----------------------------------------------
 echo ""

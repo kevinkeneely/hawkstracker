@@ -2684,3 +2684,46 @@ header {
   border-color: var(--text-h);
   background: var(--card, #1a1a1a);
 }
+
+
+/* ─── Box Score — Phase 4 category tabs ──────────────────────── */
+.boxscore-category-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin: 0 0 20px;
+}
+.boxscore-category-tab {
+  padding: 7px 14px;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text);
+  background: var(--card, #1a1a1a);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: inherit;
+  transition: color 0.15s, border-color 0.15s, background 0.15s;
+}
+.boxscore-category-tab:hover {
+  color: var(--text-h);
+  border-color: var(--text);
+}
+.boxscore-category-tab.active {
+  color: #fff;
+  background: #C8102E;
+  border-color: #C8102E;
+}
+.boxscore-category-placeholder {
+  text-align: center;
+  padding: 40px 20px;
+  color: var(--text);
+  font-size: 14px;
+}
+.boxscore-category-loading {
+  text-align: center;
+  padding: 24px 20px;
+  color: var(--text);
+  font-size: 14px;
+}
