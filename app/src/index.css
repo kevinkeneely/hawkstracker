@@ -2562,23 +2562,28 @@ header {
 .adv-scatter-tooltip.adv-tip-x-center {
   transform: translate(-50%, calc(-100% - 10px));
 }
-/* Near the left edge: anchor the tooltip's left side to the dot. */
+/* Near the LEFT edge: tooltip extends to the right from the dot (tooltip's
+   left edge sits roughly at the dot's center, nudged in slightly). */
 .adv-scatter-tooltip.adv-tip-x-left {
-  transform: translate(-8px, calc(-100% - 10px));
+  /* Tooltip's left edge sits roughly at the dot's center, extending rightward
+     — positive translate pushes the tooltip to the RIGHT of its natural
+     position, which is anchored to the dot via the inline `left:` style. */
+  transform: translate(0, calc(-100% - 10px));
 }
-/* Near the right edge: anchor the tooltip's right side to the dot. */
+/* Near the RIGHT edge: tooltip extends to the left from the dot (tooltip's
+   right edge sits roughly at the dot's center). */
 .adv-scatter-tooltip.adv-tip-x-right {
-  transform: translate(calc(-100% + 8px), calc(-100% - 10px));
+  transform: translate(calc(-100% + 14px), calc(-100% - 10px));
 }
 /* Too close to the top → render below the dot instead of above. */
 .adv-scatter-tooltip.adv-tip-below.adv-tip-x-center {
   transform: translate(-50%, 24px);
 }
 .adv-scatter-tooltip.adv-tip-below.adv-tip-x-left {
-  transform: translate(-8px, 24px);
+  transform: translate(0, 24px);
 }
 .adv-scatter-tooltip.adv-tip-below.adv-tip-x-right {
-  transform: translate(calc(-100% + 8px), 24px);
+  transform: translate(calc(-100% + 14px), 24px);
 }
 .adv-scatter-tooltip-name {
   font-weight: 600;
