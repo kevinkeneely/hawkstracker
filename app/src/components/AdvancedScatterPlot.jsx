@@ -203,11 +203,23 @@ export default function AdvancedScatterPlot({
         </svg>
         {(pinned || hovered) && (() => {
           const tip = pinned || hovered
+          const xPct = (scale.toX(tip.x) / W) * 100
+          const yPct = (scale.toY(tip.y) / H) * 100
+          // Pick an edge-aware alignment so the tooltip never clips off:
+          //   - near the left edge → anchor tooltip's left to the dot
+          //   - near the right edge → anchor tooltip's right to the dot
+          //   - otherwise → center it horizontally
+          //   - too close to the top → render below the dot instead of above
+          let xAlign
+          if (xPct < 20) xAlign = 'left'
+          else if (xPct > 80) xAlign = 'right'
+          else xAlign = 'center'
+          const yBelow = yPct < 25
           return (
-            <div className="adv-scatter-tooltip" style={{
-              left: `${(scale.toX(tip.x) / W) * 100}%`,
-              top: `${(scale.toY(tip.y) / H) * 100}%`,
-            }}>
+            <div
+              className={`adv-scatter-tooltip adv-tip-x-${xAlign} ${yBelow ? 'adv-tip-below' : ''}`}
+              style={{ left: `${xPct}%`, top: `${yPct}%` }}
+            >
               <div className="adv-scatter-tooltip-name">{tip.name}</div>
               <div className="adv-scatter-tooltip-vals">
                 {yLabel}: {yFormat(tip.y)} · {xLabel}: {xFormat(tip.x)}

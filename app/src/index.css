@@ -2542,17 +2542,41 @@ header {
 }
 .adv-scatter-tooltip {
   position: absolute;
-  transform: translate(-50%, calc(-100% - 10px));
   background: var(--text-h);
   color: var(--bg);
   padding: 6px 10px;
   border-radius: 6px;
   font-size: 12px;
   line-height: 1.35;
-  white-space: nowrap;
   pointer-events: none;
   box-shadow: var(--shadow);
   z-index: 2;
+  /* On narrow screens let long tooltip text wrap rather than push off-screen. */
+  max-width: calc(100vw - 32px);
+  white-space: normal;
+  word-break: break-word;
+}
+/* Default placement: tooltip sits above the dot, centered horizontally. */
+.adv-scatter-tooltip.adv-tip-x-center {
+  transform: translate(-50%, calc(-100% - 10px));
+}
+/* Near the left edge: anchor the tooltip's left side to the dot. */
+.adv-scatter-tooltip.adv-tip-x-left {
+  transform: translate(-8px, calc(-100% - 10px));
+}
+/* Near the right edge: anchor the tooltip's right side to the dot. */
+.adv-scatter-tooltip.adv-tip-x-right {
+  transform: translate(calc(-100% + 8px), calc(-100% - 10px));
+}
+/* Too close to the top → render below the dot instead of above. */
+.adv-scatter-tooltip.adv-tip-below.adv-tip-x-center {
+  transform: translate(-50%, 24px);
+}
+.adv-scatter-tooltip.adv-tip-below.adv-tip-x-left {
+  transform: translate(-8px, 24px);
+}
+.adv-scatter-tooltip.adv-tip-below.adv-tip-x-right {
+  transform: translate(calc(-100% + 8px), 24px);
 }
 .adv-scatter-tooltip-name {
   font-weight: 600;
