@@ -557,6 +557,49 @@ code {
   border-bottom-color: #C8102E;
 }
 
+/* The "Advanced ▾" nav slot is a native <select> styled to blend with the
+   other .tab items. appearance:none removes the OS chrome; the chevron is
+   baked into the label text so no separate background image is needed. */
+.tab-advanced-dropdown {
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid transparent;
+  font: inherit;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text);
+  cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
+  padding: 10px 20px;
+  margin-bottom: -1px;
+}
+.tab-advanced-dropdown:hover {
+  color: var(--text-h);
+}
+.tab-advanced-dropdown.active {
+  color: var(--text-h);
+  border-bottom-color: #C8102E;
+}
+.tab-advanced-dropdown:focus {
+  outline: 2px solid var(--accent, #e03a3e);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* Placeholder style for the four advanced pages before Step 2 fleshes
+   them out. Removed once the shared AdvancedPage wrapper lands. */
+.advanced-placeholder {
+  padding: 40px 20px;
+  text-align: center;
+  color: var(--text);
+}
+.advanced-placeholder h2 {
+  margin: 0 0 8px;
+  font-size: 24px;
+  color: var(--text-h);
+}
+
 @media (max-width: 640px) {
   .tabs {
     gap: 0;
@@ -2329,4 +2372,178 @@ header {
   justify-content: space-between;
   gap: 12px;
   margin-bottom: 16px;
+}
+
+/* ============================================================
+   Advanced pages (Shooting / Defense / Playmaking / Hustle).
+   Shared styling for the AdvancedPage wrapper, scatter plot, and
+   leaderboards. See claude/advanced-stats-plan.md.
+   ============================================================ */
+
+.advanced-page {
+  text-align: left;
+  margin: 24px 0;
+}
+
+.advanced-page-header {
+  text-align: center;
+  margin-bottom: 24px;
+}
+.advanced-page-header h2 {
+  margin: 0 0 4px;
+}
+.advanced-page-sub {
+  color: var(--text);
+  font-size: 14px;
+  margin: 0;
+}
+
+/* Toggle button row — centered horizontally above the content. */
+.advanced-toggle-row {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin: 20px 0 30px;
+}
+.advanced-toggle-btn {
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text);
+  background: var(--card, #1a1a1a);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: inherit;
+  transition: color 0.15s, border-color 0.15s, background 0.15s;
+}
+.advanced-toggle-btn:hover {
+  color: var(--text-h);
+  border-color: var(--text);
+}
+.advanced-toggle-btn.active {
+  color: #fff;
+  background: #C8102E;
+  border-color: #C8102E;
+}
+
+/* Scatter plot stack — one card per plot, scrolled vertically. */
+.advanced-scatter-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.adv-scatter {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 16px;
+}
+.adv-scatter header h3 {
+  margin: 0 0 4px;
+  font-size: 16px;
+  color: var(--text-h);
+}
+.adv-scatter-desc {
+  margin: 0 0 4px;
+  font-size: 13px;
+  color: var(--text);
+}
+.adv-scatter-note {
+  margin: 4px 0 0;
+  font-size: 12px;
+  color: var(--text);
+  font-style: italic;
+}
+.adv-scatter-nodata {
+  text-align: center;
+  padding: 40px;
+  color: var(--text);
+  font-style: italic;
+}
+.adv-scatter-canvas-wrap {
+  position: relative;
+  margin-top: 12px;
+}
+.adv-scatter-svg {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.adv-scatter-grid {
+  stroke: var(--border);
+  stroke-opacity: 0.4;
+  stroke-width: 1;
+}
+.adv-scatter-median {
+  stroke: var(--accent, #c084fc);
+  stroke-opacity: 0.6;
+  stroke-width: 1;
+  stroke-dasharray: 4 4;
+}
+.adv-scatter-tick-label {
+  fill: var(--text);
+  font-size: 11px;
+  font-family: var(--mono);
+}
+.adv-scatter-axis-label {
+  fill: var(--text-h);
+  font-size: 13px;
+  font-weight: 500;
+}
+.adv-scatter-dot-ring {
+  stroke: #fff;
+  stroke-width: 1.5;
+  pointer-events: none;
+}
+.adv-scatter-dot-ring.faded {
+  stroke-opacity: 0.4;
+}
+.adv-scatter-tooltip {
+  position: absolute;
+  transform: translate(-50%, calc(-100% - 10px));
+  background: var(--text-h);
+  color: var(--bg);
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 12px;
+  line-height: 1.35;
+  white-space: nowrap;
+  pointer-events: none;
+  box-shadow: var(--shadow);
+  z-index: 2;
+}
+.adv-scatter-tooltip-name {
+  font-weight: 600;
+}
+
+/* Leaderboards section (shown when a toggle is active). */
+.advanced-leaderboards-section {
+  margin-top: 20px;
+}
+.advanced-back-link {
+  background: none;
+  border: none;
+  color: var(--text);
+  font-size: 13px;
+  cursor: pointer;
+  padding: 8px 0;
+  font-family: inherit;
+}
+.advanced-back-link:hover {
+  color: var(--text-h);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.adv-leaderboards {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.adv-leaderboards-picker {
+  display: flex;
+  justify-content: center;
 }

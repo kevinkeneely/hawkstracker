@@ -89,6 +89,7 @@ def load_overall_stats() -> dict:
     bh = rs["headers"]
     pid_i = bh.index("PLAYER_ID")
     gp_i  = bh.index("GP")
+    min_i = bh.index("MIN")
     fga_i = bh.index("FGA")
     fgm_i = bh.index("FGM")
     fg_pct_i = bh.index("FG_PCT")
@@ -111,6 +112,7 @@ def load_overall_stats() -> dict:
             efg = row[efg_i]
         else:
             efg = (fgm + 0.5 * fg3m) / fga if fga > 0 else None
+        mpg = row[min_i] or 0
         out[pid] = {
             "fg_pct":  row[fg_pct_i],
             "efg_pct": efg,
@@ -119,11 +121,13 @@ def load_overall_stats() -> dict:
             "fga":     fga,
             "fta":     fta,
             "fgm":     fgm,
+            "mpg":     mpg,
             # Season totals, used for the minimum-attempts floors on the
             # leaderboards (floors like "50 FGA" are totals, not per-game):
-            "fga_total": round(fga * gp),
-            "fta_total": round(fta * gp),
-            "fgm_total": round(fgm * gp),
+            "fga_total":  round(fga * gp),
+            "fta_total":  round(fta * gp),
+            "fgm_total":  round(fgm * gp),
+            "min_total":  round(mpg * gp),
         }
 
     # TS% comes from league_advanced since it needs TS_PCT.
@@ -294,13 +298,18 @@ def run():
             below_gp += 1
             continue
         zones = compute_zones(path)
+        ov = overall_by_pid.get(pid, {})
         players.append({
             "id": pid,
             "name": bio["name"],
             "team": bio["team"],
             "gp": bio["gp"],
+            # Top-level so Advanced-page minutes floors can read it without
+            # digging into the overall block:
+            "mpg":        ov.get("mpg"),
+            "min_total":  ov.get("min_total"),
             "zones": zones,
-            "overall": overall_by_pid.get(pid, {}),
+            "overall": ov,
             "defense": defense_by_pid.get(pid, {}),
             "hustle":  hustle_by_pid.get(pid, {}),
         })

@@ -1,5 +1,5 @@
 import { useEffect, useLayoutEffect, useState } from 'react'
-import { Link, NavLink, Navigate, Route, Routes } from 'react-router-dom'
+import { Link, NavLink, Navigate, Route, Routes, useLocation, useNavigate } from 'react-router-dom'
 import PlayerStatsPage from './pages/PlayerStatsPage'
 import TeamStatsPage from './pages/TeamStatsPage'
 import StandingsPage from './pages/StandingsPage'
@@ -8,6 +8,10 @@ import LeadersPage from './pages/LeadersPage'
 import Footer from './components/Footer'
 import BoxScorePage from './pages/BoxScorePage'
 import ChartsPage from './pages/ChartsPage'
+import ShootingPage from './pages/advanced/ShootingPage'
+import DefensePage from './pages/advanced/DefensePage'
+import PlaymakingPage from './pages/advanced/PlaymakingPage'
+import HustlePage from './pages/advanced/HustlePage'
 import ComparePage from './pages/ComparePage'
 import HomePage from './pages/HomePage'
 import { Analytics } from '@vercel/analytics/react'
@@ -187,6 +191,7 @@ function App() {
           <NavLink to="/standings" className="tab">Standings</NavLink>
           <NavLink to="/leaders" className="tab">Leaders</NavLink>
           <NavLink to="/charts" className="tab">Scatter Plots</NavLink>
+          <AdvancedDropdown />
         </nav>
       </header>
       <section>
@@ -203,6 +208,10 @@ function App() {
             <Route path="/players/:id" element={<PlayerProfilePage playerData={playerData} season={season} leagueBaseline={leagueBaseline} />} />
             <Route path="/compare/:id1/:id2" element={<ComparePage playerData={playerData} />} />
             <Route path="/games/:id" element={<BoxScorePage season={season} />} />
+            <Route path="/shooting"   element={<ShootingPage   playerData={playerData} season={season} />} />
+            <Route path="/defense"    element={<DefensePage    playerData={playerData} season={season} />} />
+            <Route path="/playmaking" element={<PlaymakingPage playerData={playerData} season={season} />} />
+            <Route path="/hustle"     element={<HustlePage     playerData={playerData} season={season} />} />
           </Routes>
         )}
       </section>
@@ -213,3 +222,42 @@ function App() {
 }
 
 export default App
+
+/**
+ * AdvancedDropdown — fifth nav slot, visually styled to match the other tabs
+ * but holds four leaderboard routes behind a native <select>. Picking an
+ * option navigates. Keeps the "active" styling when the current route is
+ * one of the four /shooting /defense /playmaking /hustle pages.
+ */
+function AdvancedDropdown() {
+  const navigate = useNavigate()
+  const location = useLocation()
+  const items = [
+    { value: '',             label: 'Advanced ▾' },
+    { value: '/shooting',    label: 'Shooting'    },
+    { value: '/defense',     label: 'Defense'     },
+    { value: '/playmaking',  label: 'Playmaking'  },
+    { value: '/hustle',      label: 'Hustle'      },
+  ]
+  const isActive = items.slice(1).some((i) => location.pathname === i.value)
+  // Reset the dropdown back to the placeholder label after navigation so it
+  // visually matches the other tabs — the active route is highlighted via
+  // the .active class, not the <select>'s own selected value.
+  const value = ''
+  return (
+    <select
+      className={`tab tab-advanced-dropdown ${isActive ? 'active' : ''}`}
+      value={value}
+      onChange={(e) => {
+        if (e.target.value) navigate(e.target.value)
+      }}
+    >
+      {items.map((item) => (
+        <option key={item.value || 'label'} value={item.value}>
+          {item.label}
+        </option>
+      ))}
+    </select>
+  )
+}
+
