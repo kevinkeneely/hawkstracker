@@ -205,20 +205,26 @@ export default function AdvancedScatterPlot({
           const tip = pinned || hovered
           const xPct = (scale.toX(tip.x) / W) * 100
           const yPct = (scale.toY(tip.y) / H) * 100
-          // Pick an edge-aware alignment so the tooltip never clips off:
-          //   - near the left edge → anchor tooltip's left to the dot
-          //   - near the right edge → anchor tooltip's right to the dot
-          //   - otherwise → center it horizontally
-          //   - too close to the top → render below the dot instead of above
-          let xAlign
-          if (xPct < 20) xAlign = 'left'
-          else if (xPct > 80) xAlign = 'right'
-          else xAlign = 'center'
+          // Edge-aware tooltip positioning that CANNOT clip off the chart:
+          //   - Left-third dot (xPct < 33): anchor tooltip's LEFT edge to the
+          //     chart card's left edge (8px in), extending right. Tooltip
+          //     fits regardless of its own width.
+          //   - Right-third dot (xPct > 67): anchor tooltip's RIGHT edge to
+          //     the chart card's right edge (8px in), extending left.
+          //   - Middle dot: center tooltip over the dot (classic behavior).
+          //   - Too close to top: render below instead of above.
+          let xStyle
+          if (xPct < 33) xStyle = { left: '8px', right: 'auto' }
+          else if (xPct > 67) xStyle = { right: '8px', left: 'auto' }
+          else xStyle = { left: `${xPct}%`, right: 'auto' }
           const yBelow = yPct < 25
+          const xClass = xPct < 33 ? 'adv-tip-x-edgeleft'
+                       : xPct > 67 ? 'adv-tip-x-edgeright'
+                       : 'adv-tip-x-center'
           return (
             <div
-              className={`adv-scatter-tooltip adv-tip-x-${xAlign} ${yBelow ? 'adv-tip-below' : ''}`}
-              style={{ left: `${xPct}%`, top: `${yPct}%` }}
+              className={`adv-scatter-tooltip ${xClass} ${yBelow ? 'adv-tip-below' : ''}`}
+              style={{ ...xStyle, top: `${yPct}%` }}
             >
               <div className="adv-scatter-tooltip-name">{tip.name}</div>
               <div className="adv-scatter-tooltip-vals">
