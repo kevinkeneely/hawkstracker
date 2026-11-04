@@ -31,7 +31,7 @@ function fieldForKey(key, mode) {
 }
 
 export default function PlayerStatsTable({ players }) {
-  const [mode, setMode] = useState('per-game') // 'per-game' | 'per-36' | 'totals'
+  const [mode, setMode] = useState('per-game') // 'per-game' | 'per-36' | 'totals' | 'advanced'
   const [sortKey, setSortKey] = useState('min') // canonical key, see fieldForKey
   const [sortDir, setSortDir] = useState('desc') // 'asc' | 'desc'
   const suf = mode === 'per-36' ? '_p36' : ''
@@ -95,9 +95,24 @@ export default function PlayerStatsTable({ players }) {
         >
           Totals
         </button>
+        <button
+          className={`stats-mode-btn ${mode === 'advanced' ? 'active' : ''}`}
+          onClick={() => setMode('advanced')}
+        >
+          Advanced
+        </button>
       </div>
 
-      {showPctile && (
+      {mode === 'advanced' && (
+        <div className="player-stats-advanced-placeholder">
+          <p>Advanced stats coming soon.</p>
+          <p className="player-stats-advanced-placeholder-sub">
+            We're planning this section — check back for advanced Hawks player stats like usage, true shooting, and on/off splits.
+          </p>
+        </div>
+      )}
+
+      {mode !== 'advanced' && showPctile && (
         <div className="pctile-legend">
           <div className="pctile-legend-gradient">
             <div className="pctile-legend-bar" aria-hidden="true"></div>
@@ -112,6 +127,7 @@ export default function PlayerStatsTable({ players }) {
           </div>
         </div>
       )}
+      {mode !== 'advanced' && (
       <div className="table-wrap">
         <table className="player-stats">
           <thead>
@@ -177,6 +193,7 @@ export default function PlayerStatsTable({ players }) {
           </tbody>
         </table>
       </div>
+      )}
     </div>
   )
 }
