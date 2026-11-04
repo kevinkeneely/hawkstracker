@@ -50,6 +50,28 @@ export default function AdvancedPage({
 
   const leaguePlayers = leagueData?.players || []
 
+  // Team games played — derived from the max `gp` across every player on a
+  // team. Used by the minGpPct floor below so the scatter filters scale
+  // with the season: in November a player must have played ~5 games, in
+  // April ~40. Memoized by leaguePlayers so we only walk the array once
+  // per data load.
+  const teamGpById = useMemo(() => {
+    const m = new Map()
+    for (const p of leaguePlayers) {
+      if (!p.team) continue
+      const prev = m.get(p.team) ?? 0
+      if ((p.gp ?? 0) > prev) m.set(p.team, p.gp ?? 0)
+    }
+    return m
+  }, [leaguePlayers])
+
+  // Global league-player floors applied to every scatter on every Advanced
+  // page. Individual scatter configs can override by setting these keys to
+  // null (disable) or to their own values. This is how NBA.com's own
+  // leaderboards qualify rotation players — mpg + % of team games.
+  const DEFAULT_MIN_MPG = 15
+  const DEFAULT_MIN_GP_PCT = 0.5
+
   // Pre-compute median x,y for every scatter config, used as the crosshair
   // Only computed once per page render (not per hover) so we don't re-sort
   // thousands of values on every interaction.
@@ -67,6 +89,16 @@ export default function AdvancedPage({
       //     game 10 or game 60. Uses extractRate if set, else extractX.
       const volumeFn = cfg.extractVolume || cfg.extractX
       const rateFn   = cfg.extractRate   || cfg.extractX
+      // Resolve the effective mpg / gp% floors: scatter config wins over
+      // the page-level default, and a scatter that explicitly sets either
+      // to null opts out.
+      const minMpg = cfg.minMpg === null
+        ? null
+        : (cfg.minMpg ?? DEFAULT_MIN_MPG)
+      const minGpPct = cfg.minGpPct === null
+        ? null
+        : (cfg.minGpPct ?? DEFAULT_MIN_GP_PCT)
+
       const passesFloor = (p) => {
         if (cfg.minVolume != null) {
           const perGame = volumeFn(p)
@@ -82,6 +114,19 @@ export default function AdvancedPage({
           const perGame = rateFn(p)
           if (perGame == null) return false
           if (perGame < cfg.minRate) return false
+        }
+        // Rotation-player floor (NBA.com-style qualifier): must average at
+        // least minMpg minutes per game AND have played at least minGpPct
+        // (default 50%) of their team's games. Keeps the scatter free of
+        // garbage-time contributors and tiny-sample players all season.
+        if (minMpg != null) {
+          const mpg = p.mpg ?? (p.gp ? (p.min_total ?? 0) / p.gp : 0)
+          if (mpg < minMpg) return false
+        }
+        if (minGpPct != null) {
+          const teamGp = teamGpById.get(p.team) ?? 0
+          if (teamGp === 0) return false
+          if ((p.gp ?? 0) / teamGp < minGpPct) return false
         }
         return true
       }
@@ -106,7 +151,7 @@ export default function AdvancedPage({
         },
       }
     })
-  }, [scatterConfigs, leaguePlayers])
+  }, [scatterConfigs, leaguePlayers, teamGpById])
 
   const activeConfig = toggleConfigs.find(t => t.key === activeToggle)
 

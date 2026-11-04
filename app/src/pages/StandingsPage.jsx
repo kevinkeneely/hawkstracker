@@ -39,17 +39,13 @@ function ConferenceTable({ name, teams }) {
             >
               <td>{t.conf_rank}</td>
               <td>
-                {t.team_id === HAWKS_TEAM_ID ? (
-                  <Link to="/" className="hawks-row-link">
-                    <span className="team-name-full">{t.name}</span>
-                    <span className="team-name-abbr">{t.abbr}</span>
-                  </Link>
-                ) : (
-                  <>
-                    <span className="team-name-full">{t.name}</span>
-                    <span className="team-name-abbr">{t.abbr}</span>
-                  </>
-                )}
+                <Link
+                  to={t.team_id === HAWKS_TEAM_ID ? '/' : `/teams/${t.abbr}`}
+                  className={t.team_id === HAWKS_TEAM_ID ? 'hawks-row-link team-row-link' : 'team-row-link'}
+                >
+                  <span className="team-name-full">{t.name}</span>
+                  <span className="team-name-abbr">{t.abbr}</span>
+                </Link>
               </td>
               <td>{t.w}-{t.l}</td>
               <td>{formatPct(t.pct)}</td>

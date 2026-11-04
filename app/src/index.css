@@ -2962,3 +2962,81 @@ header {
 .boxscore-glossary-formula-label {
   font-weight: 600;
 }
+
+/* Hawks Torch Red for the site title. The Link above sets color: inherit,
+   so .site-title on the <h1> wins and the link still looks like the title. */
+.site-title {
+  color: #C8102E;
+}
+
+/* ─── Team home page (per-team) + standings row links ─────────
+   Clickable team names in the standings table use `.team-row-link`
+   (both Hawks and non-Hawks). Hover gets the Hawks yellow treatment
+   consistent with other links in the app. */
+.team-row-link {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+}
+.team-row-link:hover,
+.team-row-link:focus-visible {
+  color: #FFC72C;
+  text-decoration: underline;
+}
+
+/* Team home page header (non-Hawks views). The Hawks landing page at `/`
+   doesn't render this; only /teams/:tricode does. */
+.team-home-header {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 8px 0 4px;
+}
+.team-home-back {
+  font-size: 13px;
+  color: var(--text-muted, #9aa0ac);
+  text-decoration: none;
+  width: fit-content;
+}
+.team-home-back:hover {
+  color: #FFC72C;
+  text-decoration: underline;
+}
+.team-home-name {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--text-h);
+}
+
+/* Placeholder card that replaces the Point Differential chart on non-Hawks
+   team pages (chart is Hawks-only until per-team schedule data lands). */
+.team-home-chart-placeholder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 300px;
+  padding: 24px;
+  border: 1px dashed rgba(255, 255, 255, 0.12);
+  border-radius: 10px;
+  background: rgba(243, 244, 246, 0.02);
+}
+:root[data-theme="light"] .team-home-chart-placeholder {
+  border-color: rgba(8, 6, 13, 0.14);
+  background: rgba(8, 6, 13, 0.02);
+}
+.team-home-chart-placeholder h3 {
+  margin: 0 0 8px;
+  font-size: 16px;
+  color: var(--text-h);
+}
+.team-home-chart-placeholder p {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--text-muted, #9aa0ac);
+  max-width: 320px;
+}

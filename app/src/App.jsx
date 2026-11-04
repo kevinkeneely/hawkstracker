@@ -4,6 +4,7 @@ import PlayerStatsPage from './pages/PlayerStatsPage'
 import TeamStatsPage from './pages/TeamStatsPage'
 import StandingsPage from './pages/StandingsPage'
 import PlayerProfilePage from './pages/PlayerProfilePage'
+import TeamHomePage from './pages/TeamHomePage'
 import LeadersPage from './pages/LeadersPage'
 import Footer from './components/Footer'
 import BoxScorePage from './pages/BoxScorePage'
@@ -180,7 +181,7 @@ function App() {
             {theme === 'dark' ? 'Light mode' : 'Dark mode'}
           </button>
         </div>
-        <Link to="/" style={{ color: "inherit", textDecoration: "none" }}><h1>Hawks Tracker</h1></Link>
+        <Link to="/" style={{ color: "inherit", textDecoration: "none" }}><h1 className="site-title">Hawks Tracker</h1></Link>
         <p>Atlanta Hawks {playerData?.season ?? season ?? '2025–26'} season dashboard</p>
         {leaderboards?.generated_at && (
           <p className="last-updated">Updated {formatUpdatedAt(leaderboards.generated_at)}</p>
@@ -205,6 +206,7 @@ function App() {
             <Route path="/players/:id" element={<PlayerProfilePage playerData={playerData} season={season} leagueBaseline={leagueBaseline} />} />
             <Route path="/compare/:id1/:id2" element={<ComparePage playerData={playerData} />} />
             <Route path="/games/:id" element={<BoxScorePage season={season} playerData={playerData} />} />
+            <Route path="/teams/:tricode" element={<TeamHomePage teamData={teamData} standingsData={standingsData} season={season} />} />
             <Route path="/shooting"   element={<ShootingPage   playerData={playerData} season={season} />} />
             <Route path="/defense"    element={<DefensePage    playerData={playerData} season={season} />} />
             <Route path="/playmaking" element={<PlaymakingPage playerData={playerData} season={season} />} />

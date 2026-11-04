@@ -21,6 +21,19 @@ const num = (v) => (v == null ? '—' : Number(v).toFixed(1))
 // ─── Scatter plot configs (3) ─────────────────────────────────
 // Each config's extractX/extractY picks the right field from either shape.
 const SCATTER_CONFIGS = [
+  // PPG × TS% leads: it's the headline overall-scoring view people reach
+  // for first. The shot-type splits (C&S, pull-up, contested, uncontested)
+  // follow, then the top-level efficiency pair (Rim × 3P%).
+  {
+    title: 'PPG × TS%',
+    description: 'Upper-right = heavy, efficient scorer (volume + true shooting).',
+    xLabel: 'PPG', yLabel: 'TS%',
+    extractX: (p) => p.ppg ?? null,
+    extractY: (p) => p.ts_pct ?? null,
+    xFormat: num,
+    yFormat: pct,
+    minMinutes: 100,
+  },
   {
     title: 'Catch & Shoot 3P% × Catch & Shoot 3PA',
     description: 'Upper-right = high-volume efficient C&S shooter.',
@@ -72,16 +85,6 @@ const SCATTER_CONFIGS = [
     extractX: (p) => p.fg3_pct ?? null,
     extractY: (p) => p.zones?.at_rim?.pct ?? null,
     xFormat: pct,
-    yFormat: pct,
-    minMinutes: 100,
-  },
-  {
-    title: 'PPG × TS%',
-    description: 'Upper-right = heavy, efficient scorer (volume + true shooting).',
-    xLabel: 'PPG', yLabel: 'TS%',
-    extractX: (p) => p.ppg ?? null,
-    extractY: (p) => p.ts_pct ?? null,
-    xFormat: num,
     yFormat: pct,
     minMinutes: 100,
   },
