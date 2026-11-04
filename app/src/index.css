@@ -3074,3 +3074,30 @@ header {
   max-width: 420px;
   line-height: 1.5;
 }
+
+/* ─── Advanced stats table divider columns ─────────────────────
+   Narrow (6px) solid Hawks-Red vertical column that separates the
+   three sections of the Advanced table (Overall Efficiency | Shooting |
+   Defense). Rendered as empty <th>/<td> cells with a fixed width and
+   the Hawks brand color as background. */
+.player-stats-advanced .adv-section-divider {
+  width: 6px;
+  min-width: 6px;
+  max-width: 6px;
+  padding: 0;
+  background: #C8102E;
+  border: none;
+}
+/* Also override hover + any inherited cell styling */
+.player-stats-advanced tr:hover .adv-section-divider {
+  background: #C8102E;
+}
+
+/* Center the stat value in every Advanced-table cell so the number
+   stacks directly above the centered percentile badge. The default
+   .player-stats cell alignment is right-aligned (standard for numeric
+   tables), which left the badge centered but the value to the right —
+   visually mismatched. */
+.player-stats .pctile-cell-value {
+  text-align: center;
+}

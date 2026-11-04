@@ -70,6 +70,7 @@ FIELDS = {
         "USG_PCT": "usg_pct",
         "AST_PCT": "ast_pct",
         "TM_TOV_PCT": "tov_pct",
+        "REB_PCT": "reb_pct",
         "PACE": "pace",
         "PIE": "per",
     },
@@ -157,6 +158,13 @@ PCTILE_STATS = {
 PCTILE_STATS_ADV = {
     "ast_pct": "AST_PCT",
     "tov_pct": "TM_TOV_PCT",
+    "efg_pct": "EFG_PCT",
+    "ts_pct": "TS_PCT",
+    "reb_pct": "REB_PCT",
+    # fta_rate (FTr) isn't a direct NBA.com advanced column — its league
+    # pool is built on the fly from league_base's FTA / FGA columns.
+    # Sentinel value tells the percentile loop to compute instead of lookup.
+    "fta_rate": "__COMPUTED_FTA_RATE__",
 }
 
 # Minimum total minutes played (mpg * gp) for a player to be "qualified".
@@ -221,7 +229,18 @@ def compute_percentiles(hawks_players):
     # Advanced-measure pools. TM_TOV_PCT comes from the API as a percent number
     # (11.1), so divide by 100 to match our normalized Hawks tov_pct (0.111).
     # AST_PCT already arrives as a decimal (0.325) and needs no rescaling.
+    # fta_rate is special — not in league_advanced, built from league_base
+    # FTA/FGA so we can compute FTr = FTA / FGA per player.
     for hawks_field, league_col in PCTILE_STATS_ADV.items():
+        if league_col == "__COMPUTED_FTA_RATE__":
+            values = []
+            for row in league:
+                fga = row.get("FGA")
+                fta = row.get("FTA")
+                if fga and fga > 0 and fta is not None:
+                    values.append(fta / fga)
+            league_values_pg[hawks_field] = values
+            continue
         values = [
             row[league_col] for row in league_adv if row.get(league_col) is not None
         ]
@@ -314,6 +333,19 @@ def build_players():
     for player in players.values():
         if player.get("tov_pct") is not None:
             player["tov_pct"] = player["tov_pct"] / 100
+
+    # Compute FTr (Free Throw rate) = FTA / FGA per player. NBA.com's
+    # advanced measures endpoint doesn't return this as a single column, so
+    # we derive it from the totals that are already on the player (added
+    # alongside fta_total/fgm_total by the Leaders pipeline work). Stored
+    # as a decimal in the 0-1 range like other _rate fields.
+    for player in players.values():
+        fga = player.get("fga_total")
+        fta = player.get("fta_total")
+        if fga and fga > 0 and fta is not None:
+            player["fta_rate"] = fta / fga
+        else:
+            player["fta_rate"] = None
 
     # Return as a list, sorted by minutes per game (descending) for display order
     return sorted(players.values(), key=lambda p: p.get("mpg", 0), reverse=True)
