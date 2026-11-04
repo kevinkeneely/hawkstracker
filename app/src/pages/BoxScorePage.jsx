@@ -1,5 +1,65 @@
-import { useEffect, useState } from 'react'
+import { createContext, useContext, useEffect, useMemo, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
+import {
+  HUSTLE_GLOSSARY,
+  DEFENSE_GLOSSARY,
+  SHOOTING_GLOSSARY,
+  PLAYMAKING_GLOSSARY,
+} from '../data/boxScoreGlossary'
+
+// Context: Set<number> of Hawks player ids. Any PlayerRow inside this
+// provider can read it with useContext(HawksIdsContext) to decide whether
+// to render the name as a Link to /players/:id. This spares us from
+// plumbing the Set through four TeamBox wrappers for the advanced tabs.
+const HawksIdsContext = createContext(new Set())
+
+// Small helper used by every PlayerRow variant: renders the player's name
+// as a <Link> when their id is in hawksIds, otherwise plain text. Keeps
+// the hover treatment consistent across Traditional/Hustle/Defense/etc.
+function PlayerNameCell({ id, name, pos, suffix }) {
+  const hawksIds = useContext(HawksIdsContext)
+  const content = (
+    <>
+      {name}
+      {pos && <span className="boxscore-pos"> {pos}</span>}
+      {suffix}
+    </>
+  )
+  return (
+    <td className="col-player">
+      {id != null && hawksIds.has(Number(id))
+        ? <Link to={`/players/${id}`} className="boxscore-player-link">{content}</Link>
+        : content}
+    </td>
+  )
+}
+
+/** Collapsible glossary rendered at the bottom of each advanced-stats tab.
+ *  entries: array of { label, def, formula? }. Uses a native <details>
+ *  element so it's accessible and works on mobile without JS wiring. */
+function BoxScoreGlossary({ entries }) {
+  return (
+    <details className="boxscore-glossary">
+      <summary className="boxscore-glossary-summary">
+        Glossary — what do these stats mean?
+      </summary>
+      <dl className="boxscore-glossary-list">
+        {entries.map((e) => (
+          <div key={e.label} className="boxscore-glossary-item">
+            <dt className="boxscore-glossary-term">{e.label}</dt>
+            <dd className="boxscore-glossary-def">{e.def}</dd>
+            {e.formula && (
+              <dd className="boxscore-glossary-formula">
+                <span className="boxscore-glossary-formula-label">Formula:</span>{' '}
+                {e.formula}
+              </dd>
+            )}
+          </div>
+        ))}
+      </dl>
+    </details>
+  )
+}
 
 function formatGameDate(iso) {
   if (!iso) return ''
@@ -34,8 +94,15 @@ function fmtPlusMinus(v) {
   return n > 0 ? `+${n}` : `${n}`
 }
 
-export default function BoxScorePage({ season }) {
+export default function BoxScorePage({ season, playerData }) {
   const { id } = useParams()
+
+  // Build the Hawks id Set once per playerData change — shared with every
+  // PlayerRow below via <HawksIdsContext.Provider>.
+  const hawksIds = useMemo(
+    () => new Set((playerData?.players || []).map((p) => Number(p.id))),
+    [playerData]
+  )
   const [box, setBox] = useState(null)
   const [schedule, setSchedule] = useState(null)
   const [loaded, setLoaded] = useState(false)
@@ -146,6 +213,7 @@ export default function BoxScorePage({ season }) {
   playerRs.headers.forEach((h, i) => (idx[h] = i))
   const rows = playerRs.rowSet.map((r) => ({
     team: r[idx.TEAM_ABBREVIATION],
+    id: r[idx.PLAYER_ID],
     name: r[idx.PLAYER_NAME],
     pos: r[idx.START_POSITION],
     min: r[idx.MIN],
@@ -184,6 +252,7 @@ export default function BoxScorePage({ season }) {
   }
 
   return (
+    <HawksIdsContext.Provider value={hawksIds}>
     <div className="boxscore">
       <Link to="/standings" className="boxscore-back">
         ← Back to Standings
@@ -241,6 +310,7 @@ export default function BoxScorePage({ season }) {
         />
       )}
     </div>
+    </HawksIdsContext.Provider>
   )
 }
 
@@ -298,10 +368,7 @@ function TeamBox({ team, players }) {
 function PlayerRow({ p }) {
   return (
     <tr>
-      <td className="col-player">
-        {p.name}
-        {p.pos && <span className="boxscore-pos"> {p.pos}</span>}
-      </td>
+      <PlayerNameCell id={p.id} name={p.name} pos={p.pos} />
       <td>{fmtMinutes(p.min)}</td>
       <td>{fmtInt(p.pts)}</td>
       <td>{fmtInt(p.reb)}</td>
@@ -368,9 +435,14 @@ function HustleView({ hustle, error, teamsOrder }) {
     const bi = teamsOrder.indexOf(b.teamTricode)
     return (ai === -1 ? 999 : ai) - (bi === -1 ? 999 : bi)
   })
-  return ordered.map((team) => (
-    <HustleTeamBox key={team.teamTricode} team={team} />
-  ))
+  return (
+    <>
+      {ordered.map((team) => (
+        <HustleTeamBox key={team.teamTricode} team={team} />
+      ))}
+      <BoxScoreGlossary entries={HUSTLE_GLOSSARY} />
+    </>
+  )
 }
 
 function HustleTeamBox({ team }) {
@@ -414,7 +486,7 @@ function HustlePlayerRow({ p }) {
   const s = p.statistics || {}
   return (
     <tr>
-      <td className="col-player">{p.nameI || p.familyName}</td>
+      <PlayerNameCell id={p.personId} name={p.nameI || p.familyName} />
       <td>{fmtMinutes(s.minutes)}</td>
       <td>{fmtInt(s.contestedShots)}</td>
       <td>{fmtInt(s.contestedShots2pt)}</td>
@@ -462,7 +534,12 @@ function DefenseView({ defense, error, teamsOrder }) {
   if (error) return <div className="boxscore-category-placeholder"><p>Defense stats not available for this game.</p></div>
   if (!defense) return <p className="boxscore-category-loading">Loading defense stats…</p>
   const ordered = orderTeams(defense.homeTeam, defense.awayTeam, teamsOrder)
-  return ordered.map((team) => <DefenseTeamBox key={team.teamTricode} team={team} />)
+  return (
+    <>
+      {ordered.map((team) => <DefenseTeamBox key={team.teamTricode} team={team} />)}
+      <BoxScoreGlossary entries={DEFENSE_GLOSSARY} />
+    </>
+  )
 }
 
 function DefenseTeamBox({ team }) {
@@ -506,7 +583,7 @@ function DefensePlayerRow({ p }) {
   const s = p.statistics || {}
   return (
     <tr>
-      <td className="col-player">{p.nameI || p.familyName}</td>
+      <PlayerNameCell id={p.personId} name={p.nameI || p.familyName} />
       <td>{fmtMinutes(s.matchupMinutes)}</td>
       <td>{fmtFloat1(s.partialPossessions)}</td>
       <td>{fmtMA(s.matchupFieldGoalsMade, s.matchupFieldGoalsAttempted)}</td>
@@ -548,7 +625,12 @@ function ShootingView({ playerTrack, scoring, error, teamsOrder }) {
   const home = buildTeam(playerTrack.homeTeam, scoring.homeTeam)
   const away = buildTeam(playerTrack.awayTeam, scoring.awayTeam)
   const ordered = orderTeams(home, away, teamsOrder)
-  return ordered.map((team) => <ShootingTeamBox key={team.teamTricode} team={team} />)
+  return (
+    <>
+      {ordered.map((team) => <ShootingTeamBox key={team.teamTricode} team={team} />)}
+      <BoxScoreGlossary entries={SHOOTING_GLOSSARY} />
+    </>
+  )
 }
 
 function ShootingTeamBox({ team }) {
@@ -589,7 +671,7 @@ function ShootingPlayerRow({ p }) {
   const sc = p.scoringStats || {}
   return (
     <tr>
-      <td className="col-player">{p.nameI || p.familyName}</td>
+      <PlayerNameCell id={p.personId} name={p.nameI || p.familyName} />
       <td>{fmtMinutes(s.minutes)}</td>
       <td>{fmtMA(s.contestedFieldGoalsMade, s.contestedFieldGoalsAttempted)}</td>
       <td>{fmtPct1(s.contestedFieldGoalPercentage)}</td>
@@ -610,7 +692,12 @@ function PlaymakingView({ playerTrack, error, teamsOrder }) {
   if (error) return <div className="boxscore-category-placeholder"><p>Playmaking stats not available for this game.</p></div>
   if (!playerTrack) return <p className="boxscore-category-loading">Loading playmaking stats…</p>
   const ordered = orderTeams(playerTrack.homeTeam, playerTrack.awayTeam, teamsOrder)
-  return ordered.map((team) => <PlaymakingTeamBox key={team.teamTricode} team={team} />)
+  return (
+    <>
+      {ordered.map((team) => <PlaymakingTeamBox key={team.teamTricode} team={team} />)}
+      <BoxScoreGlossary entries={PLAYMAKING_GLOSSARY} />
+    </>
+  )
 }
 
 function PlaymakingTeamBox({ team }) {
@@ -647,7 +734,7 @@ function PlaymakingPlayerRow({ p }) {
   const s = p.statistics || {}
   return (
     <tr>
-      <td className="col-player">{p.nameI || p.familyName}</td>
+      <PlayerNameCell id={p.personId} name={p.nameI || p.familyName} />
       <td>{fmtMinutes(s.minutes)}</td>
       <td>{fmtInt(s.touches)}</td>
       <td>{fmtInt(s.passes)}</td>

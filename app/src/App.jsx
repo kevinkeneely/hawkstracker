@@ -204,7 +204,7 @@ function App() {
             <Route path="/leaders" element={<LeadersPage leaderboards={leaderboards} playerData={playerData} />} />
             <Route path="/players/:id" element={<PlayerProfilePage playerData={playerData} season={season} leagueBaseline={leagueBaseline} />} />
             <Route path="/compare/:id1/:id2" element={<ComparePage playerData={playerData} />} />
-            <Route path="/games/:id" element={<BoxScorePage season={season} />} />
+            <Route path="/games/:id" element={<BoxScorePage season={season} playerData={playerData} />} />
             <Route path="/shooting"   element={<ShootingPage   playerData={playerData} season={season} />} />
             <Route path="/defense"    element={<DefensePage    playerData={playerData} season={season} />} />
             <Route path="/playmaking" element={<PlaymakingPage playerData={playerData} season={season} />} />

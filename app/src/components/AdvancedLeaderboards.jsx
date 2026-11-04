@@ -13,6 +13,7 @@
  */
 
 import { useMemo, useState } from 'react'
+import { Link } from 'react-router-dom'
 
 const TOP_N = 10
 
@@ -20,6 +21,14 @@ export default function AdvancedLeaderboards({ stats, hawksPlayers, leaguePlayer
   const [source, setSource] = useState('hawks')
   const [selectedKey, setSelectedKey] = useState(stats[0]?.key)
   const stat = stats.find(s => s.key === selectedKey) || stats[0]
+
+  // IDs of players with a profile in this app — used to decide which
+  // names in the table are clickable links to /players/:id. Set because
+  // we check it per row on every render.
+  const hawksIds = useMemo(
+    () => new Set((hawksPlayers || []).map(p => p.id)),
+    [hawksPlayers]
+  )
 
   // Floor applies to the League tab only. Hawks are rotation players already;
   // the League pool can be noisy with low-minute players unless filtered.
@@ -78,7 +87,11 @@ export default function AdvancedLeaderboards({ stats, hawksPlayers, leaguePlayer
             {rows.map((row, i) => (
               <tr key={row.p.id}>
                 <td className="col-rank">{i + 1}</td>
-                <td className="col-player">{row.p.name}</td>
+                <td className="col-player">
+                  {hawksIds.has(row.p.id)
+                    ? <Link to={`/players/${row.p.id}`} className="leader-player-link">{row.p.name}</Link>
+                    : row.p.name}
+                </td>
                 <td className="col-team">{row.p.team || 'ATL'}</td>
                 <td className="col-pct">{stat.format(row.value)}</td>
               </tr>
