@@ -35,6 +35,11 @@ export default function PlayerStatsTable({ players }) {
   const [sortKey, setSortKey] = useState('min') // canonical key, see fieldForKey
   const [sortDir, setSortDir] = useState('desc') // 'asc' | 'desc'
   const suf = mode === 'per-36' ? '_p36' : ''
+  // Percentile badges only render in Per Game mode. The pipeline computes
+  // percentiles against the league-wide pool for per-game values only; Per 36
+  // and Totals would need parallel pools in the pipeline before we can show
+  // badges there (see post-launch-followups for the eventual expansion).
+  const showPctile = mode === 'per-game'
 
   // Clicking the active column flips direction; a new column resets to desc.
   function handleSort(key) {
@@ -92,6 +97,21 @@ export default function PlayerStatsTable({ players }) {
         </button>
       </div>
 
+      {showPctile && (
+        <div className="pctile-legend">
+          <div className="pctile-legend-gradient">
+            <div className="pctile-legend-bar" aria-hidden="true"></div>
+            <div className="pctile-legend-labels">
+              <span className="pctile-legend-label">Worst</span>
+              <span className="pctile-legend-label">League avg</span>
+              <span className="pctile-legend-label">Best</span>
+            </div>
+          </div>
+          <div className="pctile-legend-note">
+            <span className="pctile-legend-num-highlight">Number</span> under each stat is the player's league-wide percentile rank (0-100). Higher = better.
+          </div>
+        </div>
+      )}
       <div className="table-wrap">
         <table className="player-stats">
           <thead>
@@ -142,15 +162,15 @@ export default function PlayerStatsTable({ players }) {
                   <td>{p.age}</td>
                   <td>{p.gp}</td>
                   <td>{fmt(p.mpg)}</td>
-                  <PctileCell value={fmt(p[`ppg${suf}`])} pctile={p[`ppg${suf}_pctile`]} faded={faded} />
-                  <PctileCell value={fmt(p[`rpg${suf}`])} pctile={p[`rpg${suf}_pctile`]} faded={faded} />
-                  <PctileCell value={fmt(p[`apg${suf}`])} pctile={p[`apg${suf}_pctile`]} faded={faded} />
-                  <PctileCell value={fmt(p[`spg${suf}`])} pctile={p[`spg${suf}_pctile`]} faded={faded} />
-                  <PctileCell value={fmt(p[`bpg${suf}`])} pctile={p[`bpg${suf}_pctile`]} faded={faded} />
-                  <PctileCell value={fmt(p[`tov${suf}`])} pctile={p[`tov${suf}_pctile`]} faded={faded} invert />
-                  <PctileCell value={pct(p.fg_pct)}  pctile={p.fg_pct_pctile}  faded={faded} />
-                  <PctileCell value={pct(p.fg3_pct)} pctile={p.fg3_pct_pctile} faded={faded} />
-                  <PctileCell value={pct(p.ft_pct)}  pctile={p.ft_pct_pctile}  faded={faded} />
+                  <PctileCell value={fmt(p[`ppg${suf}`])} pctile={p[`ppg${suf}_pctile`]} faded={faded} showPctile={showPctile} />
+                  <PctileCell value={fmt(p[`rpg${suf}`])} pctile={p[`rpg${suf}_pctile`]} faded={faded} showPctile={showPctile} />
+                  <PctileCell value={fmt(p[`apg${suf}`])} pctile={p[`apg${suf}_pctile`]} faded={faded} showPctile={showPctile} />
+                  <PctileCell value={fmt(p[`spg${suf}`])} pctile={p[`spg${suf}_pctile`]} faded={faded} showPctile={showPctile} />
+                  <PctileCell value={fmt(p[`bpg${suf}`])} pctile={p[`bpg${suf}_pctile`]} faded={faded} showPctile={showPctile} />
+                  <PctileCell value={fmt(p[`tov${suf}`])} pctile={p[`tov${suf}_pctile`]} faded={faded} invert showPctile={showPctile} />
+                  <PctileCell value={pct(p.fg_pct)}  pctile={p.fg_pct_pctile}  faded={faded} showPctile={showPctile} />
+                  <PctileCell value={pct(p.fg3_pct)} pctile={p.fg3_pct_pctile} faded={faded} showPctile={showPctile} />
+                  <PctileCell value={pct(p.ft_pct)}  pctile={p.ft_pct_pctile}  faded={faded} showPctile={showPctile} />
                 </tr>
               )
             })}
@@ -180,13 +200,20 @@ function SortableTh({ k, label, activeKey, activeDir, onSort }) {
 
 // A single colored cell. `invert` flips the gradient (used for TOV where
 // lower is better: low TOV = Torch Red, high TOV = blue).
-function PctileCell({ value, pctile, faded, invert = false }) {
+function PctileCell({ value, pctile, faded, invert = false, showPctile = false }) {
   const colorPctile = invert && pctile != null ? 1 - pctile : pctile
   const bg = colorForPctile(colorPctile)
   const className = ['pctile-cell', faded].filter(Boolean).join(' ')
+  // Pctile badge: round to int, prefix with "p" (e.g. p93) so the user
+  // can tell the number is a percentile rank, not another stat value.
+  // Hidden if the pctile is missing or if showPctile is false (non-Per-Game).
+  const showBadge = showPctile && pctile != null
   return (
     <td className={className} style={{ backgroundColor: bg }}>
-      {value}
+      <div className="pctile-cell-value">{value}</div>
+      {showBadge && (
+        <div className="pctile-cell-badge">{Math.round(colorPctile * 100)}</div>
+      )}
     </td>
   )
 }

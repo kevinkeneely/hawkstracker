@@ -171,6 +171,22 @@ code {
   font-weight: 600;
   color: var(--text-h);
   border-bottom-width: 2px;
+  /* Header row gets a subtle tint so it reads distinctly as the column-label
+     row (same pattern used on the box score tables). */
+  background: rgba(243, 244, 246, 0.08);
+}
+:root[data-theme="light"] .player-stats th {
+  background: rgba(8, 6, 13, 0.06);
+}
+
+/* Player name column also gets a subtle tint so it stands out as the row-
+   label column, mirroring the header-row treatment above. Apply to both the
+   th (already covered by the rule above) and the td cells. */
+.player-stats td:nth-child(2) {
+  background: rgba(243, 244, 246, 0.05);
+}
+:root[data-theme="light"] .player-stats td:nth-child(2) {
+  background: rgba(8, 6, 13, 0.04);
 }
 
 /* Rank (#) and Player columns are left-aligned; everything else right. */
@@ -202,6 +218,88 @@ code {
   color: #fff;
   font-weight: 500;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  /* position: relative anchors the badge, which is absolutely positioned so
+     it doesn't take vertical space in the flow — the row stays the same
+     height it was before the badges existed. */
+  position: relative;
+}
+.player-stats .pctile-cell-value {
+  line-height: 1.2;
+}
+/* Pctile badge pinned to the bottom-right of the cell, outside the flow so
+   it never pushes the row taller. 9px yellow on the cell's own background. */
+.player-stats .pctile-cell-badge {
+  position: absolute;
+  left: 50%;
+  bottom: 2px;
+  transform: translateX(-50%);
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: #FFC72C;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.45);
+  font-variant-numeric: tabular-nums;
+  line-height: 1;
+}
+:root[data-theme="light"] .player-stats .pctile-cell-badge {
+  color: #FFC72C;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+}
+
+/* ─── Pctile legend (above the table in Per Game mode) ────── */
+.pctile-legend {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin: 8px 0 16px;
+  padding: 10px 14px;
+  background: var(--card, rgba(0, 0, 0, 0.15));
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  font-size: 12px;
+  color: var(--text);
+}
+.pctile-legend-gradient {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  flex-shrink: 0;
+  min-width: 200px;
+}
+/* Full-width continuous gradient — the whole blue → gray → red scale in a
+   single bar, mirroring colorForPctile(). */
+.pctile-legend-bar {
+  width: 100%;
+  height: 10px;
+  border-radius: 999px;
+  background: linear-gradient(
+    to right,
+    rgb(63, 81, 181) 0%,
+    rgb(138, 130, 144) 50%,
+    rgb(200, 16, 46) 100%
+  );
+}
+/* Labels row beneath the bar: Worst at left, League avg centered, Best at
+   right, so each label sits under its matching color on the bar above. */
+.pctile-legend-labels {
+  display: flex;
+  justify-content: space-between;
+  font-size: 11px;
+}
+.pctile-legend-label {
+  font-weight: 500;
+  color: var(--text-h);
+  white-space: nowrap;
+}
+.pctile-legend-note {
+  flex: 1;
+  min-width: 200px;
+  line-height: 1.4;
+}
+.pctile-legend-num-highlight {
+  color: #FFC72C;
+  font-weight: 700;
 }
 
 /* Faded style for unqualified players (< 200 total minutes). */
