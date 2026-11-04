@@ -86,12 +86,18 @@ const ADVANCED_COLS_FLAT = ADVANCED_SECTIONS.flatMap((s) => s.cols)
 // where possible. Reuses the .boxscore-glossary* styles from the box-score
 // advanced tabs so the two glossaries look and feel the same.
 const PLAYER_ADVANCED_GLOSSARY = [
-  { label: 'AST% (Assist Percentage)',
-    def: 'Estimate of the percentage of teammate field goals a player assisted while on the floor.',
-    formula: '100 × AST ÷ (((MP ÷ (Tm MP ÷ 5)) × Tm FGM) − FGM)' },
   { label: 'REB% (Rebound Percentage)',
     def: 'Estimate of the percentage of available rebounds a player grabbed while on the floor.',
     formula: '100 × (REB × (Tm MP ÷ 5)) ÷ (MP × (Tm REB + Opp REB))' },
+  { label: 'AST% (Assist Percentage)',
+    def: 'Estimate of the percentage of teammate field goals a player assisted while on the floor.',
+    formula: '100 × AST ÷ (((MP ÷ (Tm MP ÷ 5)) × Tm FGM) − FGM)' },
+  { label: 'STL% (Steal Percentage)',
+    def: 'Estimate of the percentage of opponent possessions that end with a steal by this player while on the floor.',
+    formula: '100 × (STL × (Tm MP ÷ 5)) ÷ (MP × Opp Poss)' },
+  { label: 'BLK% (Block Percentage)',
+    def: 'Estimate of the percentage of opponent two-point field goal attempts blocked by this player while on the floor.',
+    formula: '100 × (BLK × (Tm MP ÷ 5)) ÷ (MP × (Opp FGA − Opp 3PA))' },
   { label: 'TOV% (Turnover Percentage)',
     def: 'Estimate of turnovers committed per 100 plays. Lower is better.',
     formula: '100 × TOV ÷ (FGA + 0.44 × FTA + TOV)' },
