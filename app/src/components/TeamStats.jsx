@@ -60,7 +60,7 @@ export default function TeamStats({ team, allTeams }) {
     <>
       <section className="ts-legend">
         <span className="ts-legend-swatch" aria-hidden="true">●</span>
-        <span>Each dot shows where a team ranks across the league. The number inside the red dot is the Hawks' rank.</span>
+        <span>Each dot shows where a team ranks across the league. The number inside the red dot is the team's rank.</span>
       </section>
 
       {/* Standalone OVERALL block */}
