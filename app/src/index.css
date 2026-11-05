@@ -3183,3 +3183,19 @@ header {
     white-space: nowrap;
   }
 }
+
+/* Mobile: shrink the per-game box score table so more stat columns fit
+   on phone width (matches the Player Stats mobile treatment in fc49346
+   / e7f6e3a). Also nowrap the player name column so long names stay on
+   one line instead of wrapping to two. */
+@media (max-width: 640px) {
+  .boxscore-table th,
+  .boxscore-table td {
+    font-size: 11px;
+    padding: 5px 5px;
+  }
+  .boxscore-table .col-player {
+    font-size: 11px;
+    white-space: nowrap;
+  }
+}
