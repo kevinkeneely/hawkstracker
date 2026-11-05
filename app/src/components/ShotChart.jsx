@@ -268,39 +268,181 @@ function ZoneLabels({ zones }) {
 
 // ──────────────── Main component ────────────────
 // ──────────────── Shot Density view ────────────────────────────
-// Plots every FGA as a small, semi-transparent dot in Hawks red. Overlapping
-// shots build up visible density naturally without any binning. No make/miss
-// or efficiency encoding — this view is purely about WHERE shots come from.
-// Uses the same viewBox + scale(1,-1) flip as HexView so coord math is
-// consistent across all three shot-chart views.
+// Hex-binned density of every FGA — cells colored on a plasma-style ramp
+// (deep purple = few shots, through magenta/orange, to bright yellow =
+// heaviest concentration). Pure volume view: no make/miss, no league
+// comparison. Reuses the same HEX_SIZE grid as HexView so bin boundaries
+// line up across views.
+//
+// Plasma colormap sampled at 6 stops. Matched roughly to matplotlib's
+// plasma so the result reads as the familiar density palette.
+function densityColor(t) {
+  // t in [0, 1]. Below 0.001 treated as no shots (transparent).
+  if (t == null || t <= 0) return 'transparent'
+  const stops = [
+    { at: 0.00, c: [ 13,   8, 135] },  // deep purple
+    { at: 0.20, c: [ 75,   3, 161] },  // purple
+    { at: 0.40, c: [156,  23, 158] },  // magenta
+    { at: 0.60, c: [218,  65, 121] },  // pink-coral
+    { at: 0.80, c: [247, 148,  58] },  // orange
+    { at: 1.00, c: [240, 249,  33] },  // bright yellow
+  ]
+  const u = Math.max(0, Math.min(1, t))
+  for (let i = 0; i < stops.length - 1; i++) {
+    const a = stops[i]; const b = stops[i + 1]
+    if (u <= b.at) {
+      const k = (u - a.at) / (b.at - a.at)
+      const r = Math.round(a.c[0] + (b.c[0] - a.c[0]) * k)
+      const g = Math.round(a.c[1] + (b.c[1] - a.c[1]) * k)
+      const bl = Math.round(a.c[2] + (b.c[2] - a.c[2]) * k)
+      return `rgb(${r}, ${g}, ${bl})`
+    }
+  }
+  const last = stops[stops.length - 1].c
+  return `rgb(${last[0]}, ${last[1]}, ${last[2]})`
+}
+
+// Finer-grained hex grid for the density view — smaller than the shared
+// HEX_SIZE (22) used by HexView and the league baseline, so density reads
+// as a smoother gradient instead of blocky patches. Local to this view so
+// it doesn't affect HexView or break the pipeline alignment.
+const DENSITY_HEX_SIZE = 12
+
 function DensityView({ shots }) {
+  // Bin every shot into DENSITY_HEX_SIZE cells. No league floor — a single
+  // shot in a cell still counts (deep purple on the ramp).
+  const cellMap = new Map()
+  for (const s of shots) {
+    const [q, r] = pixelToHex(s.x, s.y, DENSITY_HEX_SIZE)
+    const key = `${q},${r}`
+    const cell = cellMap.get(key) || { q, r, shots: 0 }
+    cell.shots += 1
+    cellMap.set(key, cell)
+  }
+  const cells = Array.from(cellMap.values())
+  const maxShots = cells.reduce((m, c) => Math.max(m, c.shots), 1)
+
   return (
     <>
       <svg viewBox="-250 -47.5 500 470" className="shot-chart-svg" preserveAspectRatio="xMidYMid meet">
         <g transform="scale(1, -1) translate(0, -375)">
           <CourtLines />
-          {shots.map((s, i) => (
-            <circle
-              key={i}
-              cx={s.x}
-              cy={s.y}
-              r={3}
-              fill="#C8102E"
-              opacity={0.4}
-            >
-              <title>{s.type} · {s.dist} ft{s.zone ? ' · ' + s.zone : ''}</title>
-            </circle>
-          ))}
+          {cells.map((cell) => {
+            const [cx, cy] = hexToPixel(cell.q, cell.r, DENSITY_HEX_SIZE)
+            // Normalize to max cell — the hottest spot is always bright yellow,
+            // everything else scales down from there. Square-root compresses
+            // the long tail so sparse cells don't all look identically dark.
+            const t = Math.sqrt(cell.shots / maxShots)
+            return (
+              <polygon
+                key={`${cell.q},${cell.r}`}
+                points={hexPolygonPoints(cx, cy, DENSITY_HEX_SIZE)}
+                fill={densityColor(t)}
+                stroke="rgba(0, 0, 0, 0.25)"
+                strokeWidth={0.3}
+              >
+                <title>{cell.shots} FGA</title>
+              </polygon>
+            )
+          })}
         </g>
       </svg>
     </>
   )
 }
 
+// Plasma-ramp legend for the Shot Density view. Mirrors HeatmapLegend's
+// structure so the two legends feel the same visually.
+function DensityLegend() {
+  return (
+    <div className="shot-chart-legend">
+      <div className="legend-row">
+        <span className="legend-label">Shot volume:</span>
+        <div className="legend-gradient density-gradient" />
+      </div>
+      <div className="legend-row">
+        <span className="legend-label-small">Few shots</span>
+        <span className="legend-label-small density-hot">Most shots</span>
+      </div>
+    </div>
+  )
+}
+
+// ──────────────── Shot Chart view (Makes & Misses) ──────────────
+// Every FGA plotted individually — green filled circle for a make, red X
+// for a miss. The simplest, most literal shot chart. No binning, no
+// efficiency math. Uses the same viewBox + flip transform as the other
+// three views so a shot at NBA (x, y) lands at the same court spot.
+const MAKE_COLOR = '#22c55e'   // green (filled circle)
+const MISS_COLOR = '#C8102E'   // Hawks red (X)
+
+function MakesMissesView({ shots }) {
+  return (
+    <>
+      <svg viewBox="-250 -47.5 500 470" className="shot-chart-svg" preserveAspectRatio="xMidYMid meet">
+        <g transform="scale(1, -1) translate(0, -375)">
+          <CourtLines />
+          {shots.map((s, i) => {
+            const title = `${s.made ? 'Make' : 'Miss'} · ${s.type} · ${s.dist} ft${s.zone ? ' · ' + s.zone : ''}`
+            if (s.made) {
+              return (
+                <circle
+                  key={i}
+                  cx={s.x}
+                  cy={s.y}
+                  r={5}
+                  fill={MAKE_COLOR}
+                  stroke="rgba(0, 0, 0, 0.6)"
+                  strokeWidth={0.6}
+                  opacity={0.9}
+                >
+                  <title>{title}</title>
+                </circle>
+              )
+            }
+            // Miss: draw an X as two crossed line segments. r = half the X's
+            // bounding size. Thicker stroke so misses read as weighted as the
+            // filled circles do for makes.
+            const r = 5
+            return (
+              <g key={i} opacity={0.9}>
+                <line x1={s.x - r} y1={s.y - r} x2={s.x + r} y2={s.y + r}
+                      stroke={MISS_COLOR} strokeWidth={1.8} strokeLinecap="round" />
+                <line x1={s.x - r} y1={s.y + r} x2={s.x + r} y2={s.y - r}
+                      stroke={MISS_COLOR} strokeWidth={1.8} strokeLinecap="round" />
+                <title>{title}</title>
+              </g>
+            )
+          })}
+        </g>
+      </svg>
+    </>
+  )
+}
+
+// Legend for the Shot Chart (makes & misses) view.
+function MakesMissesLegend() {
+  return (
+    <div className="shot-chart-legend">
+      <div className="legend-row">
+        <svg width="14" height="14" viewBox="0 0 14 14" style={{ flexShrink: 0 }}>
+          <circle cx={7} cy={7} r={5} fill={MAKE_COLOR} stroke="rgba(0,0,0,0.6)" strokeWidth={0.6} />
+        </svg>
+        <span className="legend-label-small">Make</span>
+        <svg width="14" height="14" viewBox="0 0 14 14" style={{ marginLeft: 12, flexShrink: 0 }}>
+          <line x1={2} y1={2} x2={12} y2={12} stroke={MISS_COLOR} strokeWidth={1.8} strokeLinecap="round" />
+          <line x1={2} y1={12} x2={12} y2={2} stroke={MISS_COLOR} strokeWidth={1.8} strokeLinecap="round" />
+        </svg>
+        <span className="legend-label-small">Miss</span>
+      </div>
+    </div>
+  )
+}
+
 export default function ShotChart({ playerId, season, leagueBaseline, zones }) {
   const [shots, setShots] = useState(null)
   const [error, setError] = useState(null)
-  const [view, setView] = useState('hex') // 'hex' | 'heatmap' | 'density'
+  const [view, setView] = useState('makes') // 'makes' | 'heatmap' | 'hex' | 'density'
 
   useEffect(() => {
     setShots(null)
@@ -325,10 +467,10 @@ export default function ShotChart({ playerId, season, leagueBaseline, zones }) {
       <div className="shot-chart-toggle">
         <button
           type="button"
-          className={`shot-chart-toggle-btn ${view === 'hex' ? 'active' : ''}`}
-          onClick={() => setView('hex')}
+          className={`shot-chart-toggle-btn ${view === 'makes' ? 'active' : ''}`}
+          onClick={() => setView('makes')}
         >
-          Hex Chart
+          Shot Chart
         </button>
         <button
           type="button"
@@ -339,6 +481,13 @@ export default function ShotChart({ playerId, season, leagueBaseline, zones }) {
         </button>
         <button
           type="button"
+          className={`shot-chart-toggle-btn ${view === 'hex' ? 'active' : ''}`}
+          onClick={() => setView('hex')}
+        >
+          Hex Chart
+        </button>
+        <button
+          type="button"
           className={`shot-chart-toggle-btn ${view === 'density' ? 'active' : ''}`}
           onClick={() => setView('density')}
         >
@@ -346,6 +495,12 @@ export default function ShotChart({ playerId, season, leagueBaseline, zones }) {
         </button>
       </div>
 
+      {view === 'makes' && (
+        <>
+          <MakesMissesView shots={shots} />
+          <MakesMissesLegend />
+        </>
+      )}
       {view === 'hex' && (
         <HexView shots={shots} leagueBaseline={leagueBaseline} />
       )}
@@ -356,7 +511,10 @@ export default function ShotChart({ playerId, season, leagueBaseline, zones }) {
         </>
       )}
       {view === 'density' && (
-        <DensityView shots={shots} />
+        <>
+          <DensityView shots={shots} />
+          <DensityLegend />
+        </>
       )}
     </div>
   )
