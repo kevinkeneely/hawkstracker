@@ -3146,11 +3146,13 @@ header {
   z-index: 2;
   background: var(--bg);
 }
-/* Even rows: restore the alternating background on the sticky cells
-   so the zebra striping still works where the sticky cells overlay. */
+/* Even rows: layer the (semi-transparent) alt-row color over a solid
+   var(--bg) so the sticky cell stays opaque AND keeps the zebra stripe.
+   Setting background to var(--row-alt) alone would let scrolled content
+   bleed through because --row-alt has alpha < 1. */
 .player-stats tbody tr:nth-child(even) td:nth-child(1),
 .player-stats tbody tr:nth-child(even) td:nth-child(2) {
-  background: var(--row-alt);
+  background: linear-gradient(var(--row-alt), var(--row-alt)), var(--bg);
 }
 /* Header row: the sticky cells also need higher z-index so they stay
    above other sticky content (e.g. percentile-colored cells on scroll). */
