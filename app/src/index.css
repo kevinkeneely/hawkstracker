@@ -3163,15 +3163,28 @@ header {
 
 /* Mobile: constrain the Player name column so more stat columns stay in
    view on phones. Without this, long names like "Nickeil Alexander-Walker"
-   push the Player column wide enough that only 2 stat columns are visible.
-   Allow name text to wrap to 2 lines so nothing is hidden. Only applies
-   on narrow screens; desktop layout untouched. */
+   push the column wide enough that only 2 stat columns are visible.
+   Long names truncate with an ellipsis (tap the name to open the player
+   profile for the full version). Only applies on narrow screens; desktop
+   layout untouched. */
 @media (max-width: 640px) {
   .player-stats th:nth-child(2),
   .player-stats td:nth-child(2) {
-    max-width: 120px;
-    white-space: normal;
-    word-break: break-word;
-    line-height: 1.25;
+    max-width: 130px;
+    width: 130px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  /* The <Link> inside the Player cell needs its own ellipsis setup so
+     the truncation actually renders — otherwise the inline Link element
+     overflows its parent td without triggering the td's text-overflow. */
+  .player-stats td:nth-child(2) .player-link {
+    display: inline-block;
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: middle;
   }
 }
