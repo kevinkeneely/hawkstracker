@@ -3101,3 +3101,21 @@ header {
 .player-stats .pctile-cell-value {
   text-align: center;
 }
+
+/* Mobile: stack and center the percentile legend so it reads cleanly on
+   phone widths. Default layout puts gradient on the left + note on the
+   right, which looks left-anchored on narrow screens. */
+@media (max-width: 640px) {
+  .pctile-legend {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .pctile-legend-gradient {
+    width: 100%;
+    max-width: 280px;
+  }
+  .pctile-legend-note {
+    text-align: center;
+  }
+}
