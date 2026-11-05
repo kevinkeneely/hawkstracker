@@ -3119,3 +3119,42 @@ header {
     text-align: center;
   }
 }
+
+/* ─── Sticky rank (#) + player name columns on the Player Stats table ───
+   Keeps the player name visible while horizontally scrolling the table.
+   Applies to all four modes (Per Game, Per 36, Totals, Advanced) since
+   they share the .player-stats class.
+
+   Sticky cells need an opaque background so content scrolling underneath
+   doesn't bleed through. We set the base to var(--bg), then restore the
+   alternating-row color on even rows. Note: this replaces the subtle
+   tint that the Player column had on top of the base background —
+   a minor visual trade-off for scroll usability. */
+.player-stats th:nth-child(1),
+.player-stats td:nth-child(1) {
+  position: sticky;
+  left: 0;
+  z-index: 2;
+  background: var(--bg);
+  width: 36px;
+  min-width: 36px;
+}
+.player-stats th:nth-child(2),
+.player-stats td:nth-child(2) {
+  position: sticky;
+  left: 36px;
+  z-index: 2;
+  background: var(--bg);
+}
+/* Even rows: restore the alternating background on the sticky cells
+   so the zebra striping still works where the sticky cells overlay. */
+.player-stats tbody tr:nth-child(even) td:nth-child(1),
+.player-stats tbody tr:nth-child(even) td:nth-child(2) {
+  background: var(--row-alt);
+}
+/* Header row: the sticky cells also need higher z-index so they stay
+   above other sticky content (e.g. percentile-colored cells on scroll). */
+.player-stats thead th:nth-child(1),
+.player-stats thead th:nth-child(2) {
+  z-index: 3;
+}
