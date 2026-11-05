@@ -416,12 +416,35 @@ function HustleView({ hustle, error, teamsOrder }) {
   if (error) {
     return (
       <div className="boxscore-category-placeholder">
-        <p>Hustle stats not available for this game.</p>
+        <p>Hustle stats not published by NBA.com yet.</p>
+        <p className="boxscore-category-placeholder-sub">
+          These usually appear a few hours after the game ends — check back later today.
+        </p>
       </div>
     )
   }
   if (!hustle) {
     return <p className="boxscore-category-loading">Loading hustle stats…</p>
+  }
+  // Also treat "file exists but nothing in it" as not-yet-published. NBA.com
+  // sometimes publishes a stub (1 DNP sentinel per team) immediately after a
+  // game, then backfills the real rows a few hours later. If neither team
+  // has any rotation players with minutes, show the same placeholder as the
+  // hard-fail error path above.
+  const hasRotation = (team) =>
+    (team?.players || []).some((p) => {
+      const mins = p?.statistics?.minutes
+      return mins && mins !== '0:00' && mins !== '00:00'
+    })
+  if (!hasRotation(hustle.homeTeam) && !hasRotation(hustle.awayTeam)) {
+    return (
+      <div className="boxscore-category-placeholder">
+        <p>Hustle stats not published by NBA.com yet.</p>
+        <p className="boxscore-category-placeholder-sub">
+          These usually appear a few hours after the game ends — check back later today.
+        </p>
+      </div>
+    )
   }
   // NBA.com v2 shape — group into home/away, then order teams Hawks-first.
   const teams = [
@@ -531,7 +554,14 @@ function playedMinutes(p) {
 
 // ─── Defense tab (BoxScoreDefensiveV2) ────────────────────────
 function DefenseView({ defense, error, teamsOrder }) {
-  if (error) return <div className="boxscore-category-placeholder"><p>Defense stats not available for this game.</p></div>
+  if (error) return (
+    <div className="boxscore-category-placeholder">
+      <p>Defense stats not published by NBA.com yet.</p>
+      <p className="boxscore-category-placeholder-sub">
+        These usually appear a few hours after the game ends — check back later today.
+      </p>
+    </div>
+  )
   if (!defense) return <p className="boxscore-category-loading">Loading defense stats…</p>
   const ordered = orderTeams(defense.homeTeam, defense.awayTeam, teamsOrder)
   return (
@@ -602,7 +632,14 @@ function DefensePlayerRow({ p }) {
 
 // ─── Shooting tab (BoxScorePlayerTrackV3 + BoxScoreScoringV3) ─
 function ShootingView({ playerTrack, scoring, error, teamsOrder }) {
-  if (error) return <div className="boxscore-category-placeholder"><p>Shooting stats not available for this game.</p></div>
+  if (error) return (
+    <div className="boxscore-category-placeholder">
+      <p>Shooting stats not published by NBA.com yet.</p>
+      <p className="boxscore-category-placeholder-sub">
+        These usually appear a few hours after the game ends — check back later today.
+      </p>
+    </div>
+  )
   if (!playerTrack || !scoring) return <p className="boxscore-category-loading">Loading shooting stats…</p>
 
   // Merge the two by personId per team. PlayerTrack supplies the contested /
@@ -689,7 +726,14 @@ function ShootingPlayerRow({ p }) {
 
 // ─── Playmaking tab (BoxScorePlayerTrackV3) ───────────────────
 function PlaymakingView({ playerTrack, error, teamsOrder }) {
-  if (error) return <div className="boxscore-category-placeholder"><p>Playmaking stats not available for this game.</p></div>
+  if (error) return (
+    <div className="boxscore-category-placeholder">
+      <p>Playmaking stats not published by NBA.com yet.</p>
+      <p className="boxscore-category-placeholder-sub">
+        These usually appear a few hours after the game ends — check back later today.
+      </p>
+    </div>
+  )
   if (!playerTrack) return <p className="boxscore-category-loading">Loading playmaking stats…</p>
   const ordered = orderTeams(playerTrack.homeTeam, playerTrack.awayTeam, teamsOrder)
   return (

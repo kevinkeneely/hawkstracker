@@ -2878,6 +2878,19 @@ header {
   color: var(--text);
   font-size: 14px;
 }
+.boxscore-category-placeholder p {
+  margin: 0 auto;
+  max-width: 420px;
+}
+.boxscore-category-placeholder p + p {
+  margin-top: 8px;
+}
+.boxscore-category-placeholder-sub {
+  color: var(--text-muted, #9aa0ac);
+  font-size: 13px;
+  line-height: 1.5;
+  font-weight: 400;
+}
 .boxscore-category-loading {
   text-align: center;
   padding: 24px 20px;
