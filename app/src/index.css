@@ -847,40 +847,63 @@ code {
 }
 
 .profile-stats h2,
+.profile-zones h2,
 .profile-percentiles h2,
 .profile-shots h2 {
   font-size: 18px;
+  font-weight: 700;
   margin: 0 0 12px;
   color: var(--text-h);
+}
+
+/* Faded Hawks-red highlighter mark behind the Shot Zones + vs. League
+   headings so the two sections stand out as distinct blocks. Inline-block
+   padded background acts like a marker, not a full-width bar. Applied
+   only to those two headings — "2025-26 Season" at the top stays plain. */
+.profile-zones h2,
+.profile-percentiles h2 {
+  display: inline-block;
+  padding: 4px 12px;
+  background: rgba(200, 16, 46, 0.18);
+  border-radius: 6px;
 }
 
 .stat-line {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
+  gap: 10px;
 }
 
+/* GP + MPG rendered as Hawks-red pills on the player profile Traditional
+   tab. Inline label + value (not stacked), fully rounded, white text on
+   Torch Red. Shape sizes to content rather than flex-growing like the old
+   card treatment. */
 .stat-chip {
-  flex: 1 1 90px;
-  padding: 10px 12px;
-  background: var(--code-bg);
-  border: 1px solid var(--border);
-  border-radius: 8px;
+  display: inline-flex;
+  align-items: baseline;
+  gap: 8px;
+  padding: 8px 18px;
+  background: #C8102E;
+  border-radius: 999px;
+  color: #fff;
+  border: none;
 }
 
 .stat-chip-label {
-  font-size: 11px;
+  font-size: 12px;
+  font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.6px;
-  color: var(--text);
-  margin-bottom: 4px;
+  color: rgba(255, 255, 255, 0.85);
+  margin-bottom: 0;
 }
 
 .stat-chip-value {
   font-family: var(--mono);
   font-size: 18px;
+  font-weight: 700;
   font-variant-numeric: tabular-nums;
-  color: var(--text-h);
+  color: #fff;
 }
 
 .pctile-bars {
@@ -891,7 +914,7 @@ code {
 
 .pctile-bar-row {
   display: grid;
-  grid-template-columns: 50px 1fr 60px;
+  grid-template-columns: 95px 1fr 60px;
   align-items: center;
   gap: 12px;
 }
@@ -900,6 +923,9 @@ code {
   font-size: 13px;
   font-weight: 600;
   color: var(--text-h);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .pctile-bar-track {
@@ -1238,10 +1264,7 @@ html, body {
     -webkit-overflow-scrolling: touch;
   }
 
-  /* Stat chips: 2 per row (was 3) */
-  .stat-chip {
-    flex-basis: calc(50% - 4px);
-  }
+  /* Pills stay content-sized on mobile, not stretched to half width. */
   .stat-chip-value {
     font-size: 16px;
   }
@@ -1395,11 +1418,7 @@ html, body {
     overflow-wrap: break-word;
   }
 
-  /* Stat chips: force exactly 2 per row (the earlier flex-basis was being overridden) */
-  .stat-chip {
-    flex: 1 0 calc(50% - 4px) !important;
-    min-width: 0;
-  }
+  /* Pills stay content-sized on mobile; no forced half-width stretch. */
 
   /* Stats mode toggle: center so it never overflows right */
   .stats-mode-toggle {
@@ -3198,4 +3217,14 @@ header {
     font-size: 11px;
     white-space: nowrap;
   }
+}
+
+/* Hawks-red divider between Shot Zones and vs. League on the player
+   profile Traditional tab. Only applied when a profile-zones section
+   directly precedes a profile-percentiles section, so it doesn't fire
+   on tabs where there's no Shot Zones above (Hustle / Clutch / etc.). */
+.profile-zones + .profile-percentiles {
+  border-top: 3px solid #C8102E;
+  padding-top: 16px;
+  margin-top: 8px;
 }

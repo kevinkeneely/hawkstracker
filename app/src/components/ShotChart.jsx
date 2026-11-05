@@ -267,10 +267,40 @@ function ZoneLabels({ zones }) {
 }
 
 // ──────────────── Main component ────────────────
+// ──────────────── Shot Density view ────────────────────────────
+// Plots every FGA as a small, semi-transparent dot in Hawks red. Overlapping
+// shots build up visible density naturally without any binning. No make/miss
+// or efficiency encoding — this view is purely about WHERE shots come from.
+// Uses the same viewBox + scale(1,-1) flip as HexView so coord math is
+// consistent across all three shot-chart views.
+function DensityView({ shots }) {
+  return (
+    <>
+      <svg viewBox="-250 -47.5 500 470" className="shot-chart-svg" preserveAspectRatio="xMidYMid meet">
+        <g transform="scale(1, -1) translate(0, -375)">
+          <CourtLines />
+          {shots.map((s, i) => (
+            <circle
+              key={i}
+              cx={s.x}
+              cy={s.y}
+              r={3}
+              fill="#C8102E"
+              opacity={0.4}
+            >
+              <title>{s.type} · {s.dist} ft{s.zone ? ' · ' + s.zone : ''}</title>
+            </circle>
+          ))}
+        </g>
+      </svg>
+    </>
+  )
+}
+
 export default function ShotChart({ playerId, season, leagueBaseline, zones }) {
   const [shots, setShots] = useState(null)
   const [error, setError] = useState(null)
-  const [view, setView] = useState('hex') // 'hex' | 'heatmap'
+  const [view, setView] = useState('hex') // 'hex' | 'heatmap' | 'density'
 
   useEffect(() => {
     setShots(null)
@@ -307,15 +337,26 @@ export default function ShotChart({ playerId, season, leagueBaseline, zones }) {
         >
           Heat Map
         </button>
+        <button
+          type="button"
+          className={`shot-chart-toggle-btn ${view === 'density' ? 'active' : ''}`}
+          onClick={() => setView('density')}
+        >
+          Shot Density
+        </button>
       </div>
 
-      {view === 'hex' ? (
+      {view === 'hex' && (
         <HexView shots={shots} leagueBaseline={leagueBaseline} />
-      ) : (
+      )}
+      {view === 'heatmap' && (
         <>
           <HeatmapView shots={shots} zones={zones} />
           <HeatmapLegend />
         </>
+      )}
+      {view === 'density' && (
+        <DensityView shots={shots} />
       )}
     </div>
   )

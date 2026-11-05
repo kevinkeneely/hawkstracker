@@ -103,22 +103,26 @@
         "at_rim": {
           "fga": 37,
           "fgm": 26,
-          "pct": 0.7027
+          "pct": 0.7027,
+          "pctile": 0.6387832699619772
         },
         "paint": {
           "fga": 31,
           "fgm": 10,
-          "pct": 0.3226
+          "pct": 0.3226,
+          "pctile": 0.2242152466367713
         },
         "mid": {
           "fga": 8,
           "fgm": 1,
-          "pct": 0.125
+          "pct": 0.125,
+          "pctile": 0.037037037037037035
         },
         "corner_3": {
           "fga": 2,
           "fgm": 1,
-          "pct": 0.5
+          "pct": 0.5,
+          "pctile": 0.7562189054726368
         },
         "l_corner_3": {
           "fga": 1,
@@ -133,7 +137,8 @@
         "above_break_3": {
           "fga": 29,
           "fgm": 7,
-          "pct": 0.2414
+          "pct": 0.2414,
+          "pctile": 0.23166023166023167
         }
       },
       "hustle": {
@@ -656,22 +661,26 @@
         "at_rim": {
           "fga": 32,
           "fgm": 18,
-          "pct": 0.5625
+          "pct": 0.5625,
+          "pctile": 0.19391634980988592
         },
         "paint": {
           "fga": 19,
           "fgm": 7,
-          "pct": 0.3684
+          "pct": 0.3684,
+          "pctile": 0.35874439461883406
         },
         "mid": {
           "fga": 6,
           "fgm": 3,
-          "pct": 0.5
+          "pct": 0.5,
+          "pctile": 0.7111111111111111
         },
         "corner_3": {
           "fga": 33,
           "fgm": 16,
-          "pct": 0.4848
+          "pct": 0.4848,
+          "pctile": 0.7512437810945274
         },
         "l_corner_3": {
           "fga": 25,
@@ -686,7 +695,8 @@
         "above_break_3": {
           "fga": 58,
           "fgm": 21,
-          "pct": 0.3621
+          "pct": 0.3621,
+          "pctile": 0.61003861003861
         }
       },
       "hustle": {
@@ -1209,22 +1219,26 @@
         "at_rim": {
           "fga": 38,
           "fgm": 23,
-          "pct": 0.6053
+          "pct": 0.6053,
+          "pctile": 0.29277566539923955
         },
         "paint": {
           "fga": 33,
           "fgm": 14,
-          "pct": 0.4242
+          "pct": 0.4242,
+          "pctile": 0.4663677130044843
         },
         "mid": {
           "fga": 1,
           "fgm": 0,
-          "pct": 0.0
+          "pct": 0.0,
+          "pctile": 0.0
         },
         "corner_3": {
           "fga": 3,
           "fgm": 0,
-          "pct": 0.0
+          "pct": 0.0,
+          "pctile": 0.0
         },
         "l_corner_3": {
           "fga": 2,
@@ -1239,7 +1253,8 @@
         "above_break_3": {
           "fga": 11,
           "fgm": 1,
-          "pct": 0.0909
+          "pct": 0.0909,
+          "pctile": 0.02702702702702703
         }
       },
       "hustle": {
@@ -1762,22 +1777,26 @@
         "at_rim": {
           "fga": 35,
           "fgm": 20,
-          "pct": 0.5714
+          "pct": 0.5714,
+          "pctile": 0.20532319391634982
         },
         "paint": {
           "fga": 17,
           "fgm": 11,
-          "pct": 0.6471
+          "pct": 0.6471,
+          "pctile": 0.9551569506726457
         },
         "mid": {
           "fga": 0,
           "fgm": 0,
-          "pct": null
+          "pct": null,
+          "pctile": null
         },
         "corner_3": {
           "fga": 7,
           "fgm": 0,
-          "pct": 0.0
+          "pct": 0.0,
+          "pctile": 0.0
         },
         "l_corner_3": {
           "fga": 3,
@@ -1792,7 +1811,8 @@
         "above_break_3": {
           "fga": 34,
           "fgm": 12,
-          "pct": 0.3529
+          "pct": 0.3529,
+          "pctile": 0.5637065637065637
         }
       },
       "hustle": {
@@ -2315,22 +2335,26 @@
         "at_rim": {
           "fga": 18,
           "fgm": 12,
-          "pct": 0.6667
+          "pct": 0.6667,
+          "pctile": 0.4752851711026616
         },
         "paint": {
           "fga": 23,
           "fgm": 13,
-          "pct": 0.5652
+          "pct": 0.5652,
+          "pctile": 0.8116591928251121
         },
         "mid": {
           "fga": 15,
           "fgm": 4,
-          "pct": 0.2667
+          "pct": 0.2667,
+          "pctile": 0.2074074074074074
         },
         "corner_3": {
           "fga": 8,
           "fgm": 5,
-          "pct": 0.625
+          "pct": 0.625,
+          "pctile": 0.9303482587064676
         },
         "l_corner_3": {
           "fga": 7,
@@ -2345,7 +2369,8 @@
         "above_break_3": {
           "fga": 42,
           "fgm": 13,
-          "pct": 0.3095
+          "pct": 0.3095,
+          "pctile": 0.38996138996138996
         }
       },
       "hustle": {
@@ -2868,22 +2893,26 @@
         "at_rim": {
           "fga": 17,
           "fgm": 13,
-          "pct": 0.7647
+          "pct": 0.7647,
+          "pctile": 0.7718631178707225
         },
         "paint": {
           "fga": 18,
           "fgm": 9,
-          "pct": 0.5
+          "pct": 0.5,
+          "pctile": 0.6053811659192825
         },
         "mid": {
           "fga": 11,
           "fgm": 2,
-          "pct": 0.1818
+          "pct": 0.1818,
+          "pctile": 0.0962962962962963
         },
         "corner_3": {
           "fga": 21,
           "fgm": 10,
-          "pct": 0.4762
+          "pct": 0.4762,
+          "pctile": 0.7412935323383084
         },
         "l_corner_3": {
           "fga": 12,
@@ -2898,7 +2927,8 @@
         "above_break_3": {
           "fga": 38,
           "fgm": 14,
-          "pct": 0.3684
+          "pct": 0.3684,
+          "pctile": 0.6216216216216216
         }
       },
       "hustle": {
@@ -3421,22 +3451,26 @@
         "at_rim": {
           "fga": 22,
           "fgm": 11,
-          "pct": 0.5
+          "pct": 0.5,
+          "pctile": 0.07984790874524715
         },
         "paint": {
           "fga": 5,
           "fgm": 0,
-          "pct": 0.0
+          "pct": 0.0,
+          "pctile": 0.0
         },
         "mid": {
           "fga": 3,
           "fgm": 1,
-          "pct": 0.3333
+          "pct": 0.3333,
+          "pctile": 0.28888888888888886
         },
         "corner_3": {
           "fga": 6,
           "fgm": 1,
-          "pct": 0.1667
+          "pct": 0.1667,
+          "pctile": 0.1044776119402985
         },
         "l_corner_3": {
           "fga": 3,
@@ -3451,7 +3485,8 @@
         "above_break_3": {
           "fga": 38,
           "fgm": 13,
-          "pct": 0.3421
+          "pct": 0.3421,
+          "pctile": 0.5405405405405406
         }
       },
       "hustle": {
@@ -3969,22 +4004,26 @@
         "at_rim": {
           "fga": 20,
           "fgm": 16,
-          "pct": 0.8
+          "pct": 0.8,
+          "pctile": 0.8403041825095057
         },
         "paint": {
           "fga": 8,
           "fgm": 0,
-          "pct": 0.0
+          "pct": 0.0,
+          "pctile": 0.0
         },
         "mid": {
           "fga": 8,
           "fgm": 3,
-          "pct": 0.375
+          "pct": 0.375,
+          "pctile": 0.34074074074074073
         },
         "corner_3": {
           "fga": 3,
           "fgm": 2,
-          "pct": 0.6667
+          "pct": 0.6667,
+          "pctile": 0.9502487562189055
         },
         "l_corner_3": {
           "fga": 1,
@@ -3999,7 +4038,8 @@
         "above_break_3": {
           "fga": 12,
           "fgm": 5,
-          "pct": 0.4167
+          "pct": 0.4167,
+          "pctile": 0.7799227799227799
         }
       },
       "hustle": {
@@ -4383,22 +4423,26 @@
         "at_rim": {
           "fga": 16,
           "fgm": 11,
-          "pct": 0.6875
+          "pct": 0.6875,
+          "pctile": 0.5665399239543726
         },
         "paint": {
           "fga": 4,
           "fgm": 2,
-          "pct": 0.5
+          "pct": 0.5,
+          "pctile": 0.6053811659192825
         },
         "mid": {
           "fga": 1,
           "fgm": 1,
-          "pct": 1.0
+          "pct": 1.0,
+          "pctile": 0.9925925925925926
         },
         "corner_3": {
           "fga": 7,
           "fgm": 2,
-          "pct": 0.2857
+          "pct": 0.2857,
+          "pctile": 0.2885572139303483
         },
         "l_corner_3": {
           "fga": 6,
@@ -4413,7 +4457,8 @@
         "above_break_3": {
           "fga": 10,
           "fgm": 1,
-          "pct": 0.1
+          "pct": 0.1,
+          "pctile": 0.03088803088803089
         }
       },
       "hustle": {
@@ -4797,22 +4842,26 @@
         "at_rim": {
           "fga": 6,
           "fgm": 5,
-          "pct": 0.8333
+          "pct": 0.8333,
+          "pctile": 0.8973384030418251
         },
         "paint": {
           "fga": 1,
           "fgm": 0,
-          "pct": 0.0
+          "pct": 0.0,
+          "pctile": 0.0
         },
         "mid": {
           "fga": 0,
           "fgm": 0,
-          "pct": null
+          "pct": null,
+          "pctile": null
         },
         "corner_3": {
           "fga": 5,
           "fgm": 1,
-          "pct": 0.2
+          "pct": 0.2,
+          "pctile": 0.12935323383084577
         },
         "l_corner_3": {
           "fga": 3,
@@ -4827,7 +4876,8 @@
         "above_break_3": {
           "fga": 3,
           "fgm": 1,
-          "pct": 0.3333
+          "pct": 0.3333,
+          "pctile": 0.4594594594594595
         }
       },
       "hustle": {
@@ -5211,22 +5261,26 @@
         "at_rim": {
           "fga": 5,
           "fgm": 3,
-          "pct": 0.6
+          "pct": 0.6,
+          "pctile": 0.26996197718631176
         },
         "paint": {
           "fga": 2,
           "fgm": 0,
-          "pct": 0.0
+          "pct": 0.0,
+          "pctile": 0.0
         },
         "mid": {
           "fga": 0,
           "fgm": 0,
-          "pct": null
+          "pct": null,
+          "pctile": null
         },
         "corner_3": {
           "fga": 4,
           "fgm": 2,
-          "pct": 0.5
+          "pct": 0.5,
+          "pctile": 0.7562189054726368
         },
         "l_corner_3": {
           "fga": 2,
@@ -5241,7 +5295,8 @@
         "above_break_3": {
           "fga": 2,
           "fgm": 1,
-          "pct": 0.5
+          "pct": 0.5,
+          "pctile": 0.8725868725868726
         }
       },
       "hustle": {
@@ -5625,22 +5680,26 @@
         "at_rim": {
           "fga": 3,
           "fgm": 3,
-          "pct": 1.0
+          "pct": 1.0,
+          "pctile": 0.9885931558935361
         },
         "paint": {
           "fga": 4,
           "fgm": 2,
-          "pct": 0.5
+          "pct": 0.5,
+          "pctile": 0.6053811659192825
         },
         "mid": {
           "fga": 0,
           "fgm": 0,
-          "pct": null
+          "pct": null,
+          "pctile": null
         },
         "corner_3": {
           "fga": 3,
           "fgm": 2,
-          "pct": 0.6667
+          "pct": 0.6667,
+          "pctile": 0.9502487562189055
         },
         "l_corner_3": {
           "fga": 1,
@@ -5655,7 +5714,8 @@
         "above_break_3": {
           "fga": 12,
           "fgm": 7,
-          "pct": 0.5833
+          "pct": 0.5833,
+          "pctile": 0.9768339768339769
         }
       },
       "hustle": {
@@ -6039,22 +6099,26 @@
         "at_rim": {
           "fga": 0,
           "fgm": 0,
-          "pct": null
+          "pct": null,
+          "pctile": null
         },
         "paint": {
           "fga": 0,
           "fgm": 0,
-          "pct": null
+          "pct": null,
+          "pctile": null
         },
         "mid": {
           "fga": 2,
           "fgm": 2,
-          "pct": 1.0
+          "pct": 1.0,
+          "pctile": 0.9925925925925926
         },
         "corner_3": {
           "fga": 0,
           "fgm": 0,
-          "pct": null
+          "pct": null,
+          "pctile": null
         },
         "l_corner_3": {
           "fga": 0,
@@ -6069,7 +6133,8 @@
         "above_break_3": {
           "fga": 2,
           "fgm": 0,
-          "pct": 0.0
+          "pct": 0.0,
+          "pctile": 0.0
         }
       },
       "hustle": {
@@ -6453,22 +6518,26 @@
         "at_rim": {
           "fga": 0,
           "fgm": 0,
-          "pct": null
+          "pct": null,
+          "pctile": null
         },
         "paint": {
           "fga": 0,
           "fgm": 0,
-          "pct": null
+          "pct": null,
+          "pctile": null
         },
         "mid": {
           "fga": 0,
           "fgm": 0,
-          "pct": null
+          "pct": null,
+          "pctile": null
         },
         "corner_3": {
           "fga": 1,
           "fgm": 1,
-          "pct": 1.0
+          "pct": 1.0,
+          "pctile": 1.0
         },
         "l_corner_3": {
           "fga": 0,
@@ -6483,7 +6552,8 @@
         "above_break_3": {
           "fga": 2,
           "fgm": 0,
-          "pct": 0.0
+          "pct": 0.0,
+          "pctile": 0.0
         }
       },
       "hustle": {

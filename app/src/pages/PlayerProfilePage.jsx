@@ -489,6 +489,10 @@ function StatLine({ player }) {
 }
 
 function ZoneChips({ zones }) {
+  // Now renders as PctileBar rows (same style as the vs. League section
+  // below) so every zone shows label + gradient-colored bar + dot with
+  // percentile + value. Uses zone.pctile from the pipeline; invert=false
+  // for all zones since higher FG% is always better.
   const rows = [
     ['At Rim',       zones.at_rim],
     ['Paint',        zones.paint],
@@ -497,18 +501,17 @@ function ZoneChips({ zones }) {
     ['Above Break',  zones.above_break_3],
   ]
   return (
-    <div className="stat-line">
+    <div className="pctile-bars">
       {rows.map(([label, z]) => {
-        const displayPct = z.pct == null ? '—' : (z.pct * 100).toFixed(1) + '%'
-        const tooltip =
-          z.pct == null
-            ? `${label}: no attempts`
-            : `${z.fgm}/${z.fga} · ${(z.pct * 100).toFixed(1)}%`
+        const value = z.pct == null ? '—' : (z.pct * 100).toFixed(1) + '%'
         return (
-          <div className="stat-chip" key={label} title={tooltip}>
-            <div className="stat-chip-label">{label}</div>
-            <div className="stat-chip-value">{displayPct}</div>
-          </div>
+          <PctileBar
+            key={label}
+            label={label}
+            pctile={z.pctile ?? null}
+            invert={false}
+            value={value}
+          />
         )
       })}
     </div>
@@ -527,6 +530,8 @@ function PercentileBars({ player }) {
     ['FG%',  player.fg_pct_pctile,  false, pct(player.fg_pct)],
     ['3P%',  player.fg3_pct_pctile, false, pct(player.fg3_pct)],
     ['FT%',  player.ft_pct_pctile,  false, pct(player.ft_pct)],
+    ['eFG%', player.efg_pct_pctile, false, pct(player.efg_pct)],
+    ['TS%',  player.ts_pct_pctile,  false, pct(player.ts_pct)],
   ]
   return (
     <div className="pctile-bars">
