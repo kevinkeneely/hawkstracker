@@ -3167,6 +3167,16 @@ header {
    Walker" would wrap and tall rows). Only applies on narrow screens;
    desktop layout untouched. */
 @media (max-width: 640px) {
+  /* Shrink every cell's font and reduce horizontal padding so more stat
+     columns fit at phone width. The percentile badge inside each cell
+     stays at 9px (defined elsewhere) which still reads cleanly. */
+  .player-stats th,
+  .player-stats td {
+    font-size: 12px;
+    padding: 6px 6px;
+  }
+  /* Player column also gets the smaller font — kept nowrap so long names
+     like "Nickeil Alexander-Walker" stay on one line. */
   .player-stats th:nth-child(2),
   .player-stats td:nth-child(2) {
     font-size: 12px;
