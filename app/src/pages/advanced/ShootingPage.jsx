@@ -42,7 +42,7 @@ const SCATTER_CONFIGS = [
     extractY: (p) => extract(p, 'cs', 'fg3_pct'),
     xFormat: num,
     yFormat: pct,
-    minVolume: 10,
+    minVolume: 25,
   },
   {
     title: 'Pull-Up 3P% × Pull-Up 3PA',
@@ -62,7 +62,7 @@ const SCATTER_CONFIGS = [
     extractY: (p) => extract(p, 'contested', 'fg_pct'),
     xFormat: num,
     yFormat: pct,
-    minVolume: 10,
+    minVolume: 25,
   },
   {
     title: 'Uncontested FG% × Uncontested FGA',
@@ -72,7 +72,7 @@ const SCATTER_CONFIGS = [
     extractY: (p) => extract(p, 'uncontested', 'fg_pct'),
     xFormat: num,
     yFormat: pct,
-    minVolume: 10,
+    minVolume: 25,
   },
   // ─── Migrated from the former standalone Scatter Plots tab ───────
   // These use top-level season stats (ppg, ts_pct, fg3_pct, rim_pct)
