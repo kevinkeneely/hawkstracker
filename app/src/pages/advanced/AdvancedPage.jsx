@@ -106,6 +106,18 @@ export default function AdvancedPage({
           if (perGame == null) return false
           if (perGame * gp < cfg.minVolume) return false
         }
+        // minVolumes: array of {extract, floor} for scatters that need
+        // more than one volume floor (e.g. Rim × 3P%: 20 Rim FGA AND 20
+        // 3PA). Each extractor returns a SEASON TOTAL directly — not a
+        // per-game value like extractVolume. Keeps the two systems
+        // distinct so Rim FGA (already a total from shot zones) and
+        // fga_total-style fields don't need to be re-divided.
+        if (Array.isArray(cfg.minVolumes)) {
+          for (const v of cfg.minVolumes) {
+            const total = v.extract(p)
+            if (total == null || total < v.floor) return false
+          }
+        }
         if (cfg.minMinutes != null) {
           const mins = p.min_total ?? 0
           if (mins < cfg.minMinutes) return false

@@ -101,6 +101,7 @@ FIELDS = {
         "FGM": "fgm_total",
         "FGA": "fga_total",
         "FG3M": "fg3m_total",
+        "FG3A": "fg3a_total",
         "FTM": "ftm_total",
         "FTA": "fta_total",
     },

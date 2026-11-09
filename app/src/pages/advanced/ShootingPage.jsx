@@ -32,7 +32,11 @@ const SCATTER_CONFIGS = [
     extractY: (p) => p.ts_pct ?? null,
     xFormat: num,
     yFormat: pct,
-    minMinutes: 100,
+    // Require 50 total FGA on the season. League players have fga_total
+    // under p.overall; Hawks have it at the top level.
+    minVolumes: [
+      { extract: (p) => p.overall?.fga_total ?? p.fga_total ?? null, floor: 50 },
+    ],
   },
   {
     title: 'Catch & Shoot 3P% × Catch & Shoot 3PA',
@@ -42,7 +46,27 @@ const SCATTER_CONFIGS = [
     extractY: (p) => extract(p, 'cs', 'fg3_pct'),
     xFormat: num,
     yFormat: pct,
-    minVolume: 25,
+    // Require 25 total C&S FGA. Uses the extract() shape adapter above
+    // so Hawks (p.shooting_tracking.cs.fga.value) AND league players
+    // (p.cs.fga, flat number) both resolve. Returns per-game value, so
+    // multiply by gp for the season total.
+    minVolumes: [
+      { extract: (p) => {
+          const cs = p.shooting_tracking?.cs ?? p.cs
+          const raw = cs?.fga
+          const perGame = raw == null ? 0 : (typeof raw === 'object' ? raw.value : raw)
+          return (perGame ?? 0) * (p.gp ?? 0)
+        }, floor: 25 },
+      // Also require 15 total C&S 3PA — makes sure the x-axis value
+      // (which is 3PA) is actually meaningful, not just 2 threes on 25
+      // catch-and-shoot attempts.
+      { extract: (p) => {
+          const cs = p.shooting_tracking?.cs ?? p.cs
+          const raw = cs?.fg3a
+          const perGame = raw == null ? 0 : (typeof raw === 'object' ? raw.value : raw)
+          return (perGame ?? 0) * (p.gp ?? 0)
+        }, floor: 15 },
+    ],
   },
   {
     title: 'Pull-Up 3P% × Pull-Up 3PA',
@@ -86,7 +110,14 @@ const SCATTER_CONFIGS = [
     extractY: (p) => p.zones?.at_rim?.pct ?? null,
     xFormat: pct,
     yFormat: pct,
-    minMinutes: 100,
+    // Two volume floors: 20 Rim FGA AND 20 3PA on the season. Rim FGA
+    // comes from the zones block as a season total already. 3PA total
+    // lives at p.overall.fg3a_total for league players and p.fg3a_total
+    // for Hawks.
+    minVolumes: [
+      { extract: (p) => p.zones?.at_rim?.fga ?? null, floor: 20 },
+      { extract: (p) => p.overall?.fg3a_total ?? p.fg3a_total ?? null, floor: 20 },
+    ],
   },
 ]
 
@@ -164,6 +195,10 @@ export default function ShootingPage({ playerData, season }) {
       tov_pct:   extra.tov_pct   ?? p.tov_pct,
       zones:     extra.zones     ?? p.zones,
       min_total: extra.min_total ?? p.min_total,
+      // Needed by the new minVolumes filters on PPG × TS% and Rim × 3P%.
+      // league_leaderboards stores season totals under the "overall" block;
+      // pass it through so cfg.extract(p) can read p.overall.fga_total etc.
+      overall:   extra.overall   ?? p.overall,
     }
   })
   const mergedLeagueData = { ...leagueData, players: mergedPlayers }

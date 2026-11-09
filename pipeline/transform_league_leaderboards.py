@@ -98,6 +98,7 @@ def load_overall_stats() -> dict:
     ft_pct_i = bh.index("FT_PCT")
     fta_i = bh.index("FTA")
     fg3m_i = bh.index("FG3M")
+    fg3a_i = bh.index("FG3A")
     pts_i = bh.index("PTS")
 
     # eFG% is sometimes absent from base stats (depends on which measure variant
@@ -110,6 +111,7 @@ def load_overall_stats() -> dict:
         fgm = row[fgm_i] or 0
         fta = row[fta_i] or 0
         fg3m = row[fg3m_i] or 0
+        fg3a = row[fg3a_i] or 0
         if efg_i is not None:
             efg = row[efg_i]
         else:
@@ -128,9 +130,10 @@ def load_overall_stats() -> dict:
             "mpg":     mpg,
             # Season totals, used for the minimum-attempts floors on the
             # leaderboards (floors like "50 FGA" are totals, not per-game):
-            "fga_total":  round(fga * gp),
-            "fta_total":  round(fta * gp),
-            "fgm_total":  round(fgm * gp),
+            "fga_total":   round(fga * gp),
+            "fta_total":   round(fta * gp),
+            "fgm_total":   round(fgm * gp),
+            "fg3a_total":  round(fg3a * gp),
             "min_total":  round(mpg * gp),
         }
 
