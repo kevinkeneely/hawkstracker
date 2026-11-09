@@ -1,22 +1,22 @@
 {
   "season": "2026-27",
-  "generated_at": "2026-11-08T02:30:11.058043-05:00",
-  "source_file": "league_defense_tracking_2026-11-08.json",
+  "generated_at": "2026-11-09T02:33:38.896770-05:00",
+  "source_file": "league_defense_tracking_2026-11-09.json",
   "players": [
     {
       "id": 1643407,
       "name": "AJ Dybantsa",
       "team": "WAS",
       "position": "F",
-      "gp": 5,
+      "gp": 6,
       "mpg": 31.5,
       "min_total": 189,
       "defense": {
-        "d_fgm": 4.8,
-        "d_fga": 10.8,
-        "d_fg_pct": 0.444,
-        "normal_fg_pct": 0.422,
-        "pct_plusminus": 0.023
+        "d_fgm": 4.5,
+        "d_fga": 10.83,
+        "d_fg_pct": 0.415,
+        "normal_fg_pct": 0.425,
+        "pct_plusminus": -0.01
       }
     },
     {
@@ -25,14 +25,14 @@
       "team": "MIL",
       "position": "G",
       "gp": 9,
-      "mpg": 20.4,
-      "min_total": 184,
+      "mpg": 20.2,
+      "min_total": 202,
       "defense": {
         "d_fgm": 2.78,
         "d_fga": 6.67,
         "d_fg_pct": 0.417,
-        "normal_fg_pct": 0.465,
-        "pct_plusminus": -0.048
+        "normal_fg_pct": 0.461,
+        "pct_plusminus": -0.045
       }
     },
     {
@@ -41,14 +41,14 @@
       "team": "NOP",
       "position": "G",
       "gp": 1,
-      "mpg": 3.1,
-      "min_total": 3,
+      "mpg": 3.2,
+      "min_total": 6,
       "defense": {
         "d_fgm": 2.0,
         "d_fga": 4.0,
         "d_fg_pct": 0.5,
-        "normal_fg_pct": 0.44,
-        "pct_plusminus": 0.061
+        "normal_fg_pct": 0.432,
+        "pct_plusminus": 0.069
       }
     },
     {
@@ -63,8 +63,8 @@
         "d_fgm": 5.29,
         "d_fga": 11.86,
         "d_fg_pct": 0.446,
-        "normal_fg_pct": 0.484,
-        "pct_plusminus": -0.038
+        "normal_fg_pct": 0.483,
+        "pct_plusminus": -0.037
       }
     },
     {
@@ -79,8 +79,8 @@
         "d_fgm": 4.43,
         "d_fga": 10.43,
         "d_fg_pct": 0.425,
-        "normal_fg_pct": 0.45,
-        "pct_plusminus": -0.025
+        "normal_fg_pct": 0.452,
+        "pct_plusminus": -0.027
       }
     },
     {
@@ -88,15 +88,15 @@
       "name": "Aaron Wiggins",
       "team": "ATL",
       "position": "G",
-      "gp": 10,
+      "gp": 11,
       "mpg": 26.1,
       "min_total": 287,
       "defense": {
-        "d_fgm": 4.7,
-        "d_fga": 9.5,
-        "d_fg_pct": 0.495,
-        "normal_fg_pct": 0.458,
-        "pct_plusminus": 0.037
+        "d_fgm": 4.55,
+        "d_fga": 9.55,
+        "d_fg_pct": 0.476,
+        "normal_fg_pct": 0.447,
+        "pct_plusminus": 0.029
       }
     },
     {
@@ -105,8 +105,8 @@
       "team": "UTA",
       "position": "F",
       "gp": 9,
-      "mpg": 30.5,
-      "min_total": 274,
+      "mpg": 30.6,
+      "min_total": 306,
       "defense": {
         "d_fgm": 6.11,
         "d_fga": 12.33,
@@ -120,15 +120,15 @@
       "name": "Aday Mara",
       "team": "OKC",
       "position": "C",
-      "gp": 8,
+      "gp": 9,
       "mpg": 19.7,
       "min_total": 197,
       "defense": {
-        "d_fgm": 3.63,
-        "d_fga": 10.5,
-        "d_fg_pct": 0.345,
-        "normal_fg_pct": 0.502,
-        "pct_plusminus": -0.157
+        "d_fgm": 3.44,
+        "d_fga": 11.33,
+        "d_fg_pct": 0.304,
+        "normal_fg_pct": 0.487,
+        "pct_plusminus": -0.183
       }
     },
     {
@@ -144,7 +144,7 @@
         "d_fga": 8.56,
         "d_fg_pct": 0.506,
         "normal_fg_pct": 0.47,
-        "pct_plusminus": 0.036
+        "pct_plusminus": 0.037
       }
     },
     {
@@ -153,14 +153,14 @@
       "team": "LAL",
       "position": "G",
       "gp": 1,
-      "mpg": 6.6,
-      "min_total": 7,
+      "mpg": 7.5,
+      "min_total": 15,
       "defense": {
         "d_fgm": 0.0,
         "d_fga": 1.0,
         "d_fg_pct": 0.0,
-        "normal_fg_pct": 0.357,
-        "pct_plusminus": -0.357
+        "normal_fg_pct": 0.364,
+        "pct_plusminus": -0.364
       }
     },
     {
@@ -168,15 +168,15 @@
       "name": "Ajay Mitchell",
       "team": "OKC",
       "position": "G",
-      "gp": 8,
+      "gp": 9,
       "mpg": 27.3,
       "min_total": 273,
       "defense": {
-        "d_fgm": 5.25,
-        "d_fga": 10.75,
-        "d_fg_pct": 0.488,
-        "normal_fg_pct": 0.451,
-        "pct_plusminus": 0.037
+        "d_fgm": 4.78,
+        "d_fga": 9.89,
+        "d_fg_pct": 0.483,
+        "normal_fg_pct": 0.447,
+        "pct_plusminus": 0.036
       }
     },
     {
@@ -184,15 +184,15 @@
       "name": "Al Horford",
       "team": "GSW",
       "position": "C",
-      "gp": 7,
+      "gp": 8,
       "mpg": 17.9,
       "min_total": 143,
       "defense": {
-        "d_fgm": 3.57,
-        "d_fga": 8.0,
-        "d_fg_pct": 0.446,
-        "normal_fg_pct": 0.498,
-        "pct_plusminus": -0.052
+        "d_fgm": 3.63,
+        "d_fga": 7.88,
+        "d_fg_pct": 0.46,
+        "normal_fg_pct": 0.492,
+        "pct_plusminus": -0.032
       }
     },
     {
@@ -200,15 +200,15 @@
       "name": "Alex Caruso",
       "team": "OKC",
       "position": "G",
-      "gp": 5,
+      "gp": 6,
       "mpg": 18.4,
       "min_total": 129,
       "defense": {
-        "d_fgm": 2.0,
-        "d_fga": 6.6,
-        "d_fg_pct": 0.303,
-        "normal_fg_pct": 0.463,
-        "pct_plusminus": -0.159
+        "d_fgm": 1.67,
+        "d_fga": 6.33,
+        "d_fg_pct": 0.263,
+        "normal_fg_pct": 0.454,
+        "pct_plusminus": -0.191
       }
     },
     {
@@ -223,8 +223,8 @@
         "d_fgm": 1.8,
         "d_fga": 3.2,
         "d_fg_pct": 0.563,
-        "normal_fg_pct": 0.477,
-        "pct_plusminus": 0.086
+        "normal_fg_pct": 0.471,
+        "pct_plusminus": 0.092
       }
     },
     {
@@ -232,15 +232,15 @@
       "name": "Alex Morales",
       "team": "ORL",
       "position": "G",
-      "gp": 4,
+      "gp": 5,
       "mpg": 9.0,
       "min_total": 54,
       "defense": {
-        "d_fgm": 0.75,
-        "d_fga": 1.25,
-        "d_fg_pct": 0.6,
-        "normal_fg_pct": 0.428,
-        "pct_plusminus": 0.172
+        "d_fgm": 1.0,
+        "d_fga": 1.8,
+        "d_fg_pct": 0.556,
+        "normal_fg_pct": 0.429,
+        "pct_plusminus": 0.126
       }
     },
     {
@@ -248,15 +248,15 @@
       "name": "Alex Sarr",
       "team": "WAS",
       "position": "C",
-      "gp": 8,
+      "gp": 9,
       "mpg": 25.8,
       "min_total": 232,
       "defense": {
-        "d_fgm": 6.75,
-        "d_fga": 15.25,
-        "d_fg_pct": 0.443,
-        "normal_fg_pct": 0.428,
-        "pct_plusminus": 0.015
+        "d_fgm": 6.44,
+        "d_fga": 14.78,
+        "d_fg_pct": 0.436,
+        "normal_fg_pct": 0.436,
+        "pct_plusminus": 0.0
       }
     },
     {
@@ -287,8 +287,8 @@
         "d_fgm": 1.75,
         "d_fga": 3.88,
         "d_fg_pct": 0.452,
-        "normal_fg_pct": 0.456,
-        "pct_plusminus": -0.004
+        "normal_fg_pct": 0.453,
+        "pct_plusminus": -0.001
       }
     },
     {
@@ -296,15 +296,15 @@
       "name": "Alperen Sengun",
       "team": "HOU",
       "position": "C",
-      "gp": 7,
+      "gp": 8,
       "mpg": 34.7,
       "min_total": 278,
       "defense": {
-        "d_fgm": 8.43,
-        "d_fga": 18.0,
+        "d_fgm": 8.25,
+        "d_fga": 17.63,
         "d_fg_pct": 0.468,
-        "normal_fg_pct": 0.453,
-        "pct_plusminus": 0.015
+        "normal_fg_pct": 0.456,
+        "pct_plusminus": 0.012
       }
     },
     {
@@ -319,8 +319,8 @@
         "d_fgm": 3.0,
         "d_fga": 5.5,
         "d_fg_pct": 0.545,
-        "normal_fg_pct": 0.457,
-        "pct_plusminus": 0.089
+        "normal_fg_pct": 0.452,
+        "pct_plusminus": 0.094
       }
     },
     {
@@ -328,15 +328,15 @@
       "name": "Amen Thompson",
       "team": "HOU",
       "position": "G-F",
-      "gp": 9,
+      "gp": 10,
       "mpg": 33.3,
       "min_total": 333,
       "defense": {
-        "d_fgm": 2.56,
-        "d_fga": 7.22,
-        "d_fg_pct": 0.354,
-        "normal_fg_pct": 0.452,
-        "pct_plusminus": -0.099
+        "d_fgm": 2.8,
+        "d_fga": 7.8,
+        "d_fg_pct": 0.359,
+        "normal_fg_pct": 0.462,
+        "pct_plusminus": -0.103
       }
     },
     {
@@ -344,15 +344,15 @@
       "name": "Andre Drummond",
       "team": "NYK",
       "position": "C",
-      "gp": 8,
+      "gp": 9,
       "mpg": 13.3,
       "min_total": 120,
       "defense": {
-        "d_fgm": 2.38,
-        "d_fga": 5.88,
-        "d_fg_pct": 0.404,
-        "normal_fg_pct": 0.434,
-        "pct_plusminus": -0.029
+        "d_fgm": 2.44,
+        "d_fga": 6.22,
+        "d_fg_pct": 0.393,
+        "normal_fg_pct": 0.44,
+        "pct_plusminus": -0.047
       }
     },
     {
@@ -367,8 +367,8 @@
         "d_fgm": 4.43,
         "d_fga": 10.57,
         "d_fg_pct": 0.419,
-        "normal_fg_pct": 0.446,
-        "pct_plusminus": -0.027
+        "normal_fg_pct": 0.447,
+        "pct_plusminus": -0.028
       }
     },
     {
@@ -377,14 +377,14 @@
       "team": "MIA",
       "position": "F",
       "gp": 9,
-      "mpg": 25.8,
-      "min_total": 232,
+      "mpg": 26.4,
+      "min_total": 264,
       "defense": {
         "d_fgm": 5.67,
         "d_fga": 10.0,
         "d_fg_pct": 0.567,
-        "normal_fg_pct": 0.452,
-        "pct_plusminus": 0.115
+        "normal_fg_pct": 0.453,
+        "pct_plusminus": 0.113
       }
     },
     {
@@ -393,13 +393,13 @@
       "team": "PHI",
       "position": "G",
       "gp": 10,
-      "mpg": 22.5,
-      "min_total": 225,
+      "mpg": 21.9,
+      "min_total": 241,
       "defense": {
         "d_fgm": 3.9,
         "d_fga": 7.7,
         "d_fg_pct": 0.506,
-        "normal_fg_pct": 0.428,
+        "normal_fg_pct": 0.427,
         "pct_plusminus": 0.079
       }
     },
@@ -408,15 +408,15 @@
       "name": "Anthony Black",
       "team": "ORL",
       "position": "G",
-      "gp": 5,
+      "gp": 6,
       "mpg": 30.1,
       "min_total": 181,
       "defense": {
-        "d_fgm": 5.0,
-        "d_fga": 11.8,
-        "d_fg_pct": 0.424,
-        "normal_fg_pct": 0.428,
-        "pct_plusminus": -0.004
+        "d_fgm": 4.83,
+        "d_fga": 11.17,
+        "d_fg_pct": 0.433,
+        "normal_fg_pct": 0.431,
+        "pct_plusminus": 0.002
       }
     },
     {
@@ -431,8 +431,8 @@
         "d_fgm": 4.75,
         "d_fga": 13.75,
         "d_fg_pct": 0.345,
-        "normal_fg_pct": 0.436,
-        "pct_plusminus": -0.09
+        "normal_fg_pct": 0.434,
+        "pct_plusminus": -0.089
       }
     },
     {
@@ -447,8 +447,24 @@
         "d_fgm": 3.0,
         "d_fga": 9.75,
         "d_fg_pct": 0.308,
-        "normal_fg_pct": 0.432,
-        "pct_plusminus": -0.124
+        "normal_fg_pct": 0.43,
+        "pct_plusminus": -0.123
+      }
+    },
+    {
+      "id": 1630264,
+      "name": "Anthony Gill",
+      "team": "WAS",
+      "position": "F",
+      "gp": 1,
+      "mpg": 4.8,
+      "min_total": 10,
+      "defense": {
+        "d_fgm": 0.0,
+        "d_fga": 1.0,
+        "d_fg_pct": 0.0,
+        "normal_fg_pct": 0.48,
+        "pct_plusminus": -0.48
       }
     },
     {
@@ -463,8 +479,8 @@
         "d_fgm": 1.25,
         "d_fga": 4.5,
         "d_fg_pct": 0.278,
-        "normal_fg_pct": 0.419,
-        "pct_plusminus": -0.142
+        "normal_fg_pct": 0.414,
+        "pct_plusminus": -0.137
       }
     },
     {
@@ -473,14 +489,14 @@
       "team": "DET",
       "position": "G-F",
       "gp": 7,
-      "mpg": 27.6,
-      "min_total": 193,
+      "mpg": 27.2,
+      "min_total": 218,
       "defense": {
         "d_fgm": 3.29,
         "d_fga": 8.86,
         "d_fg_pct": 0.371,
-        "normal_fg_pct": 0.425,
-        "pct_plusminus": -0.054
+        "normal_fg_pct": 0.426,
+        "pct_plusminus": -0.055
       }
     },
     {
@@ -490,13 +506,13 @@
       "position": "G",
       "gp": 10,
       "mpg": 36.2,
-      "min_total": 362,
+      "min_total": 398,
       "defense": {
         "d_fgm": 5.3,
         "d_fga": 9.9,
         "d_fg_pct": 0.535,
         "normal_fg_pct": 0.467,
-        "pct_plusminus": 0.069
+        "pct_plusminus": 0.068
       }
     },
     {
@@ -505,14 +521,14 @@
       "team": "MIN",
       "position": "G",
       "gp": 10,
-      "mpg": 31.5,
-      "min_total": 315,
+      "mpg": 31.4,
+      "min_total": 345,
       "defense": {
         "d_fgm": 4.4,
         "d_fga": 8.5,
         "d_fg_pct": 0.518,
-        "normal_fg_pct": 0.454,
-        "pct_plusminus": 0.064
+        "normal_fg_pct": 0.456,
+        "pct_plusminus": 0.062
       }
     },
     {
@@ -521,8 +537,8 @@
       "team": "LAC",
       "position": "F",
       "gp": 6,
-      "mpg": 8.4,
-      "min_total": 59,
+      "mpg": 9.8,
+      "min_total": 78,
       "defense": {
         "d_fgm": 2.67,
         "d_fga": 4.83,
@@ -537,14 +553,14 @@
       "team": "MIA",
       "position": "C-F",
       "gp": 9,
-      "mpg": 32.6,
-      "min_total": 293,
+      "mpg": 32.8,
+      "min_total": 328,
       "defense": {
         "d_fgm": 4.89,
         "d_fga": 11.11,
         "d_fg_pct": 0.44,
-        "normal_fg_pct": 0.469,
-        "pct_plusminus": -0.029
+        "normal_fg_pct": 0.471,
+        "pct_plusminus": -0.031
       }
     },
     {
@@ -553,8 +569,8 @@
       "team": "BOS",
       "position": "G",
       "gp": 9,
-      "mpg": 20.3,
-      "min_total": 183,
+      "mpg": 20.2,
+      "min_total": 202,
       "defense": {
         "d_fgm": 3.0,
         "d_fga": 6.44,
@@ -585,8 +601,8 @@
       "team": "NOP",
       "position": "G-F",
       "gp": 9,
-      "mpg": 15.6,
-      "min_total": 140,
+      "mpg": 15.0,
+      "min_total": 150,
       "defense": {
         "d_fgm": 1.44,
         "d_fga": 3.89,
@@ -600,15 +616,15 @@
       "name": "Bennett Stirtz",
       "team": "OKC",
       "position": "G",
-      "gp": 8,
+      "gp": 9,
       "mpg": 18.0,
       "min_total": 180,
       "defense": {
-        "d_fgm": 1.13,
-        "d_fga": 3.88,
-        "d_fg_pct": 0.29,
-        "normal_fg_pct": 0.463,
-        "pct_plusminus": -0.173
+        "d_fgm": 1.56,
+        "d_fga": 4.67,
+        "d_fg_pct": 0.333,
+        "normal_fg_pct": 0.442,
+        "pct_plusminus": -0.109
       }
     },
     {
@@ -616,15 +632,15 @@
       "name": "Bilal Coulibaly",
       "team": "WAS",
       "position": "G",
-      "gp": 9,
+      "gp": 10,
       "mpg": 25.8,
       "min_total": 258,
       "defense": {
-        "d_fgm": 4.11,
-        "d_fga": 7.89,
-        "d_fg_pct": 0.521,
-        "normal_fg_pct": 0.435,
-        "pct_plusminus": 0.086
+        "d_fgm": 4.2,
+        "d_fga": 8.0,
+        "d_fg_pct": 0.525,
+        "normal_fg_pct": 0.44,
+        "pct_plusminus": 0.085
       }
     },
     {
@@ -639,8 +655,8 @@
         "d_fgm": 0.0,
         "d_fga": 1.0,
         "d_fg_pct": 0.0,
-        "normal_fg_pct": 0.458,
-        "pct_plusminus": -0.458
+        "normal_fg_pct": 0.464,
+        "pct_plusminus": -0.464
       }
     },
     {
@@ -649,14 +665,14 @@
       "team": "MIA",
       "position": "F",
       "gp": 9,
-      "mpg": 20.8,
-      "min_total": 187,
+      "mpg": 20.7,
+      "min_total": 207,
       "defense": {
         "d_fgm": 3.78,
         "d_fga": 7.89,
         "d_fg_pct": 0.479,
-        "normal_fg_pct": 0.45,
-        "pct_plusminus": 0.029
+        "normal_fg_pct": 0.449,
+        "pct_plusminus": 0.03
       }
     },
     {
@@ -664,15 +680,15 @@
       "name": "Bogdan Bogdanovi\u0107",
       "team": "HOU",
       "position": "G",
-      "gp": 9,
+      "gp": 10,
       "mpg": 11.3,
       "min_total": 113,
       "defense": {
-        "d_fgm": 2.33,
-        "d_fga": 3.78,
-        "d_fg_pct": 0.618,
+        "d_fgm": 2.1,
+        "d_fga": 3.5,
+        "d_fg_pct": 0.6,
         "normal_fg_pct": 0.474,
-        "pct_plusminus": 0.143
+        "pct_plusminus": 0.126
       }
     },
     {
@@ -681,14 +697,14 @@
       "team": "MIN",
       "position": "G",
       "gp": 9,
-      "mpg": 12.2,
-      "min_total": 122,
+      "mpg": 12.3,
+      "min_total": 135,
       "defense": {
         "d_fgm": 2.22,
         "d_fga": 4.67,
         "d_fg_pct": 0.476,
-        "normal_fg_pct": 0.436,
-        "pct_plusminus": 0.041
+        "normal_fg_pct": 0.432,
+        "pct_plusminus": 0.044
       }
     },
     {
@@ -703,8 +719,8 @@
         "d_fgm": 4.0,
         "d_fga": 8.75,
         "d_fg_pct": 0.457,
-        "normal_fg_pct": 0.442,
-        "pct_plusminus": 0.016
+        "normal_fg_pct": 0.437,
+        "pct_plusminus": 0.02
       }
     },
     {
@@ -712,15 +728,15 @@
       "name": "Branden Carlson",
       "team": "POR",
       "position": "C",
-      "gp": 3,
+      "gp": 4,
       "mpg": 7.7,
       "min_total": 31,
       "defense": {
-        "d_fgm": 1.67,
-        "d_fga": 4.0,
-        "d_fg_pct": 0.417,
-        "normal_fg_pct": 0.483,
-        "pct_plusminus": -0.066
+        "d_fgm": 1.25,
+        "d_fga": 3.5,
+        "d_fg_pct": 0.357,
+        "normal_fg_pct": 0.467,
+        "pct_plusminus": -0.11
       }
     },
     {
@@ -728,15 +744,15 @@
       "name": "Brandin Podziemski",
       "team": "GSW",
       "position": "G",
-      "gp": 7,
+      "gp": 8,
       "mpg": 33.9,
       "min_total": 271,
       "defense": {
-        "d_fgm": 5.0,
-        "d_fga": 11.71,
-        "d_fg_pct": 0.427,
-        "normal_fg_pct": 0.468,
-        "pct_plusminus": -0.041
+        "d_fgm": 4.38,
+        "d_fga": 11.5,
+        "d_fg_pct": 0.38,
+        "normal_fg_pct": 0.462,
+        "pct_plusminus": -0.081
       }
     },
     {
@@ -751,8 +767,8 @@
         "d_fgm": 3.8,
         "d_fga": 8.8,
         "d_fg_pct": 0.432,
-        "normal_fg_pct": 0.448,
-        "pct_plusminus": -0.016
+        "normal_fg_pct": 0.444,
+        "pct_plusminus": -0.012
       }
     },
     {
@@ -760,15 +776,15 @@
       "name": "Brandon Williams",
       "team": "GSW",
       "position": "G",
-      "gp": 8,
+      "gp": 9,
       "mpg": 17.7,
       "min_total": 159,
       "defense": {
-        "d_fgm": 1.88,
-        "d_fga": 4.38,
-        "d_fg_pct": 0.429,
-        "normal_fg_pct": 0.461,
-        "pct_plusminus": -0.033
+        "d_fgm": 1.89,
+        "d_fga": 4.22,
+        "d_fg_pct": 0.447,
+        "normal_fg_pct": 0.456,
+        "pct_plusminus": -0.008
       }
     },
     {
@@ -777,14 +793,14 @@
       "team": "MIL",
       "position": "G",
       "gp": 9,
-      "mpg": 20.1,
-      "min_total": 181,
+      "mpg": 21.0,
+      "min_total": 210,
       "defense": {
         "d_fgm": 3.89,
         "d_fga": 8.44,
         "d_fg_pct": 0.461,
-        "normal_fg_pct": 0.462,
-        "pct_plusminus": -0.001
+        "normal_fg_pct": 0.457,
+        "pct_plusminus": 0.003
       }
     },
     {
@@ -793,14 +809,14 @@
       "team": "UTA",
       "position": "F",
       "gp": 9,
-      "mpg": 14.3,
-      "min_total": 129,
+      "mpg": 14.2,
+      "min_total": 142,
       "defense": {
         "d_fgm": 1.78,
         "d_fga": 3.78,
         "d_fg_pct": 0.471,
         "normal_fg_pct": 0.462,
-        "pct_plusminus": 0.008
+        "pct_plusminus": 0.009
       }
     },
     {
@@ -815,8 +831,8 @@
         "d_fgm": 1.25,
         "d_fga": 3.0,
         "d_fg_pct": 0.417,
-        "normal_fg_pct": 0.375,
-        "pct_plusminus": 0.042
+        "normal_fg_pct": 0.377,
+        "pct_plusminus": 0.039
       }
     },
     {
@@ -825,14 +841,14 @@
       "team": "LAC",
       "position": "C",
       "gp": 7,
-      "mpg": 23.5,
-      "min_total": 188,
+      "mpg": 23.9,
+      "min_total": 215,
       "defense": {
         "d_fgm": 5.57,
         "d_fga": 11.0,
         "d_fg_pct": 0.506,
-        "normal_fg_pct": 0.49,
-        "pct_plusminus": 0.017
+        "normal_fg_pct": 0.488,
+        "pct_plusminus": 0.018
       }
     },
     {
@@ -840,15 +856,15 @@
       "name": "Brooks Barnhizer",
       "team": "OKC",
       "position": "G",
-      "gp": 4,
+      "gp": 5,
       "mpg": 5.4,
       "min_total": 38,
       "defense": {
-        "d_fgm": 1.75,
-        "d_fga": 3.75,
-        "d_fg_pct": 0.467,
-        "normal_fg_pct": 0.409,
-        "pct_plusminus": 0.058
+        "d_fgm": 1.4,
+        "d_fga": 3.2,
+        "d_fg_pct": 0.438,
+        "normal_fg_pct": 0.408,
+        "pct_plusminus": 0.029
       }
     },
     {
@@ -863,8 +879,8 @@
         "d_fgm": 1.0,
         "d_fga": 1.67,
         "d_fg_pct": 0.6,
-        "normal_fg_pct": 0.53,
-        "pct_plusminus": 0.07
+        "normal_fg_pct": 0.532,
+        "pct_plusminus": 0.068
       }
     },
     {
@@ -879,8 +895,8 @@
         "d_fgm": 4.33,
         "d_fga": 8.67,
         "d_fg_pct": 0.5,
-        "normal_fg_pct": 0.518,
-        "pct_plusminus": -0.018
+        "normal_fg_pct": 0.516,
+        "pct_plusminus": -0.016
       }
     },
     {
@@ -889,14 +905,14 @@
       "team": "NOP",
       "position": "G",
       "gp": 3,
-      "mpg": 7.6,
-      "min_total": 30,
+      "mpg": 6.7,
+      "min_total": 34,
       "defense": {
         "d_fgm": 1.33,
         "d_fga": 2.67,
         "d_fg_pct": 0.5,
-        "normal_fg_pct": 0.449,
-        "pct_plusminus": 0.051
+        "normal_fg_pct": 0.447,
+        "pct_plusminus": 0.053
       }
     },
     {
@@ -904,15 +920,15 @@
       "name": "Bub Carrington",
       "team": "WAS",
       "position": "G",
-      "gp": 9,
+      "gp": 10,
       "mpg": 19.3,
       "min_total": 193,
       "defense": {
-        "d_fgm": 2.89,
-        "d_fga": 6.67,
-        "d_fg_pct": 0.433,
-        "normal_fg_pct": 0.418,
-        "pct_plusminus": 0.015
+        "d_fgm": 3.0,
+        "d_fga": 6.7,
+        "d_fg_pct": 0.448,
+        "normal_fg_pct": 0.422,
+        "pct_plusminus": 0.026
       }
     },
     {
@@ -927,8 +943,8 @@
         "d_fgm": 3.0,
         "d_fga": 4.13,
         "d_fg_pct": 0.727,
-        "normal_fg_pct": 0.435,
-        "pct_plusminus": 0.292
+        "normal_fg_pct": 0.434,
+        "pct_plusminus": 0.293
       }
     },
     {
@@ -936,15 +952,15 @@
       "name": "CJ McCollum",
       "team": "ATL",
       "position": "G",
-      "gp": 10,
+      "gp": 11,
       "mpg": 25.7,
       "min_total": 283,
       "defense": {
-        "d_fgm": 3.8,
-        "d_fga": 8.4,
-        "d_fg_pct": 0.452,
-        "normal_fg_pct": 0.42,
-        "pct_plusminus": 0.033
+        "d_fgm": 3.64,
+        "d_fga": 8.0,
+        "d_fg_pct": 0.455,
+        "normal_fg_pct": 0.411,
+        "pct_plusminus": 0.043
       }
     },
     {
@@ -953,14 +969,14 @@
       "team": "DET",
       "position": "G",
       "gp": 8,
-      "mpg": 33.4,
-      "min_total": 267,
+      "mpg": 33.9,
+      "min_total": 305,
       "defense": {
         "d_fgm": 4.75,
         "d_fga": 12.0,
         "d_fg_pct": 0.396,
-        "normal_fg_pct": 0.428,
-        "pct_plusminus": -0.032
+        "normal_fg_pct": 0.427,
+        "pct_plusminus": -0.031
       }
     },
     {
@@ -969,14 +985,14 @@
       "team": "DAL",
       "position": "F",
       "gp": 5,
-      "mpg": 18.2,
-      "min_total": 91,
+      "mpg": 18.3,
+      "min_total": 110,
       "defense": {
         "d_fgm": 2.4,
         "d_fga": 6.0,
         "d_fg_pct": 0.4,
-        "normal_fg_pct": 0.481,
-        "pct_plusminus": -0.081
+        "normal_fg_pct": 0.476,
+        "pct_plusminus": -0.076
       }
     },
     {
@@ -985,14 +1001,14 @@
       "team": "CHI",
       "position": "F",
       "gp": 8,
-      "mpg": 32.6,
-      "min_total": 261,
+      "mpg": 32.5,
+      "min_total": 292,
       "defense": {
         "d_fgm": 7.75,
         "d_fga": 16.75,
         "d_fg_pct": 0.463,
-        "normal_fg_pct": 0.454,
-        "pct_plusminus": 0.008
+        "normal_fg_pct": 0.452,
+        "pct_plusminus": 0.011
       }
     },
     {
@@ -1001,8 +1017,8 @@
       "team": "LAC",
       "position": "G",
       "gp": 3,
-      "mpg": 6.8,
-      "min_total": 27,
+      "mpg": 5.9,
+      "min_total": 30,
       "defense": {
         "d_fgm": 1.0,
         "d_fga": 2.67,
@@ -1024,7 +1040,7 @@
         "d_fga": 7.13,
         "d_fg_pct": 0.509,
         "normal_fg_pct": 0.44,
-        "pct_plusminus": 0.068
+        "pct_plusminus": 0.069
       }
     },
     {
@@ -1055,7 +1071,7 @@
         "d_fgm": 5.33,
         "d_fga": 10.33,
         "d_fg_pct": 0.516,
-        "normal_fg_pct": 0.475,
+        "normal_fg_pct": 0.476,
         "pct_plusminus": 0.041
       }
     },
@@ -1087,8 +1103,8 @@
         "d_fgm": 5.5,
         "d_fga": 10.25,
         "d_fg_pct": 0.537,
-        "normal_fg_pct": 0.487,
-        "pct_plusminus": 0.049
+        "normal_fg_pct": 0.485,
+        "pct_plusminus": 0.051
       }
     },
     {
@@ -1112,15 +1128,15 @@
       "name": "Carter Bryant",
       "team": "SAS",
       "position": "F",
-      "gp": 8,
+      "gp": 9,
       "mpg": 10.1,
       "min_total": 91,
       "defense": {
-        "d_fgm": 1.5,
-        "d_fga": 3.25,
-        "d_fg_pct": 0.462,
-        "normal_fg_pct": 0.422,
-        "pct_plusminus": 0.039
+        "d_fgm": 1.78,
+        "d_fga": 3.67,
+        "d_fg_pct": 0.485,
+        "normal_fg_pct": 0.423,
+        "pct_plusminus": 0.062
       }
     },
     {
@@ -1135,8 +1151,8 @@
         "d_fgm": 3.0,
         "d_fga": 7.5,
         "d_fg_pct": 0.4,
-        "normal_fg_pct": 0.459,
-        "pct_plusminus": -0.059
+        "normal_fg_pct": 0.46,
+        "pct_plusminus": -0.06
       }
     },
     {
@@ -1160,15 +1176,15 @@
       "name": "Chaney Johnson",
       "team": "BKN",
       "position": "G-F",
-      "gp": 8,
-      "mpg": 19.7,
-      "min_total": 177,
+      "gp": 9,
+      "mpg": 19.2,
+      "min_total": 192,
       "defense": {
-        "d_fgm": 2.38,
-        "d_fga": 5.75,
-        "d_fg_pct": 0.413,
-        "normal_fg_pct": 0.433,
-        "pct_plusminus": -0.02
+        "d_fgm": 2.11,
+        "d_fga": 5.67,
+        "d_fg_pct": 0.373,
+        "normal_fg_pct": 0.432,
+        "pct_plusminus": -0.059
       }
     },
     {
@@ -1176,15 +1192,15 @@
       "name": "Charles Bassey",
       "team": "GSW",
       "position": "F-C",
-      "gp": 6,
+      "gp": 7,
       "mpg": 11.7,
       "min_total": 94,
       "defense": {
-        "d_fgm": 2.83,
-        "d_fga": 5.83,
-        "d_fg_pct": 0.486,
+        "d_fgm": 2.57,
+        "d_fga": 5.86,
+        "d_fg_pct": 0.439,
         "normal_fg_pct": 0.521,
-        "pct_plusminus": -0.035
+        "pct_plusminus": -0.082
       }
     },
     {
@@ -1199,8 +1215,8 @@
         "d_fgm": 0.0,
         "d_fga": 1.0,
         "d_fg_pct": 0.0,
-        "normal_fg_pct": 0.363,
-        "pct_plusminus": -0.363
+        "normal_fg_pct": 0.348,
+        "pct_plusminus": -0.348
       }
     },
     {
@@ -1215,8 +1231,8 @@
         "d_fgm": 2.0,
         "d_fga": 10.0,
         "d_fg_pct": 0.2,
-        "normal_fg_pct": 0.49,
-        "pct_plusminus": -0.29
+        "normal_fg_pct": 0.491,
+        "pct_plusminus": -0.291
       }
     },
     {
@@ -1247,8 +1263,8 @@
         "d_fgm": 1.0,
         "d_fga": 1.0,
         "d_fg_pct": 1.0,
-        "normal_fg_pct": 0.459,
-        "pct_plusminus": 0.541
+        "normal_fg_pct": 0.478,
+        "pct_plusminus": 0.522
       }
     },
     {
@@ -1256,15 +1272,15 @@
       "name": "Chris Youngblood",
       "team": "POR",
       "position": "G",
-      "gp": 4,
+      "gp": 5,
       "mpg": 13.3,
       "min_total": 66,
       "defense": {
-        "d_fgm": 1.75,
-        "d_fga": 3.0,
-        "d_fg_pct": 0.583,
-        "normal_fg_pct": 0.484,
-        "pct_plusminus": 0.099
+        "d_fgm": 2.4,
+        "d_fga": 4.2,
+        "d_fg_pct": 0.571,
+        "normal_fg_pct": 0.435,
+        "pct_plusminus": 0.137
       }
     },
     {
@@ -1279,7 +1295,7 @@
         "d_fgm": 2.0,
         "d_fga": 4.67,
         "d_fg_pct": 0.429,
-        "normal_fg_pct": 0.434,
+        "normal_fg_pct": 0.435,
         "pct_plusminus": -0.006
       }
     },
@@ -1295,8 +1311,8 @@
         "d_fgm": 5.86,
         "d_fga": 13.0,
         "d_fg_pct": 0.451,
-        "normal_fg_pct": 0.452,
-        "pct_plusminus": -0.001
+        "normal_fg_pct": 0.454,
+        "pct_plusminus": -0.003
       }
     },
     {
@@ -1311,8 +1327,8 @@
         "d_fgm": 3.5,
         "d_fga": 7.0,
         "d_fg_pct": 0.5,
-        "normal_fg_pct": 0.462,
-        "pct_plusminus": 0.038
+        "normal_fg_pct": 0.464,
+        "pct_plusminus": 0.036
       }
     },
     {
@@ -1327,8 +1343,8 @@
         "d_fgm": 2.33,
         "d_fga": 4.0,
         "d_fg_pct": 0.583,
-        "normal_fg_pct": 0.436,
-        "pct_plusminus": 0.147
+        "normal_fg_pct": 0.439,
+        "pct_plusminus": 0.144
       }
     },
     {
@@ -1337,8 +1353,8 @@
       "team": "MIN",
       "position": "F",
       "gp": 2,
-      "mpg": 3.8,
-      "min_total": 19,
+      "mpg": 3.5,
+      "min_total": 21,
       "defense": {
         "d_fgm": 0.5,
         "d_fga": 3.0,
@@ -1368,15 +1384,15 @@
       "name": "Collin Gillespie",
       "team": "PHX",
       "position": "G",
-      "gp": 7,
+      "gp": 8,
       "mpg": 24.6,
       "min_total": 197,
       "defense": {
-        "d_fgm": 3.86,
-        "d_fga": 7.71,
-        "d_fg_pct": 0.5,
-        "normal_fg_pct": 0.47,
-        "pct_plusminus": 0.03
+        "d_fgm": 3.5,
+        "d_fga": 7.75,
+        "d_fg_pct": 0.452,
+        "normal_fg_pct": 0.459,
+        "pct_plusminus": -0.008
       }
     },
     {
@@ -1391,8 +1407,8 @@
         "d_fgm": 4.22,
         "d_fga": 9.33,
         "d_fg_pct": 0.452,
-        "normal_fg_pct": 0.474,
-        "pct_plusminus": -0.021
+        "normal_fg_pct": 0.47,
+        "pct_plusminus": -0.018
       }
     },
     {
@@ -1401,8 +1417,8 @@
       "team": "LAL",
       "position": "G",
       "gp": 9,
-      "mpg": 16.6,
-      "min_total": 149,
+      "mpg": 17.3,
+      "min_total": 173,
       "defense": {
         "d_fgm": 3.11,
         "d_fga": 6.33,
@@ -1417,14 +1433,14 @@
       "team": "DAL",
       "position": "F",
       "gp": 8,
-      "mpg": 34.2,
-      "min_total": 274,
+      "mpg": 33.6,
+      "min_total": 302,
       "defense": {
         "d_fgm": 5.13,
         "d_fga": 12.0,
         "d_fg_pct": 0.427,
-        "normal_fg_pct": 0.457,
-        "pct_plusminus": -0.03
+        "normal_fg_pct": 0.454,
+        "pct_plusminus": -0.027
       }
     },
     {
@@ -1439,8 +1455,8 @@
         "d_fgm": 2.5,
         "d_fga": 6.0,
         "d_fg_pct": 0.417,
-        "normal_fg_pct": 0.397,
-        "pct_plusminus": 0.02
+        "normal_fg_pct": 0.396,
+        "pct_plusminus": 0.021
       }
     },
     {
@@ -1448,15 +1464,15 @@
       "name": "Craig Porter Jr.",
       "team": "CLE",
       "position": "G",
-      "gp": 6,
+      "gp": 7,
       "mpg": 9.1,
       "min_total": 73,
       "defense": {
-        "d_fgm": 1.33,
-        "d_fga": 4.67,
-        "d_fg_pct": 0.286,
-        "normal_fg_pct": 0.426,
-        "pct_plusminus": -0.14
+        "d_fgm": 1.43,
+        "d_fga": 5.14,
+        "d_fg_pct": 0.278,
+        "normal_fg_pct": 0.435,
+        "pct_plusminus": -0.158
       }
     },
     {
@@ -1471,8 +1487,8 @@
         "d_fgm": 1.5,
         "d_fga": 3.0,
         "d_fg_pct": 0.5,
-        "normal_fg_pct": 0.444,
-        "pct_plusminus": 0.056
+        "normal_fg_pct": 0.441,
+        "pct_plusminus": 0.059
       }
     },
     {
@@ -1481,13 +1497,13 @@
       "team": "SAC",
       "position": "G-F",
       "gp": 5,
-      "mpg": 12.2,
-      "min_total": 73,
+      "mpg": 12.3,
+      "min_total": 86,
       "defense": {
         "d_fgm": 2.2,
         "d_fga": 5.4,
         "d_fg_pct": 0.407,
-        "normal_fg_pct": 0.475,
+        "normal_fg_pct": 0.476,
         "pct_plusminus": -0.068
       }
     },
@@ -1512,15 +1528,15 @@
       "name": "Dalen Terry",
       "team": "OKC",
       "position": "F",
-      "gp": 1,
+      "gp": 2,
       "mpg": 5.5,
       "min_total": 11,
       "defense": {
         "d_fgm": 0.0,
-        "d_fga": 1.0,
+        "d_fga": 2.5,
         "d_fg_pct": 0.0,
-        "normal_fg_pct": 0.339,
-        "pct_plusminus": -0.339
+        "normal_fg_pct": 0.285,
+        "pct_plusminus": -0.285
       }
     },
     {
@@ -1528,15 +1544,15 @@
       "name": "Dalton Knecht",
       "team": "NYK",
       "position": "F",
-      "gp": 1,
+      "gp": 2,
       "mpg": 10.9,
       "min_total": 22,
       "defense": {
-        "d_fgm": 5.0,
-        "d_fga": 9.0,
-        "d_fg_pct": 0.556,
-        "normal_fg_pct": 0.338,
-        "pct_plusminus": 0.217
+        "d_fgm": 3.0,
+        "d_fga": 5.5,
+        "d_fg_pct": 0.545,
+        "normal_fg_pct": 0.365,
+        "pct_plusminus": 0.18
       }
     },
     {
@@ -1544,15 +1560,15 @@
       "name": "Damian Lillard",
       "team": "POR",
       "position": "G",
-      "gp": 8,
+      "gp": 9,
       "mpg": 29.4,
       "min_total": 265,
       "defense": {
         "d_fgm": 2.0,
-        "d_fga": 5.75,
-        "d_fg_pct": 0.348,
-        "normal_fg_pct": 0.455,
-        "pct_plusminus": -0.107
+        "d_fga": 6.0,
+        "d_fg_pct": 0.333,
+        "normal_fg_pct": 0.453,
+        "pct_plusminus": -0.119
       }
     },
     {
@@ -1561,14 +1577,14 @@
       "team": "DAL",
       "position": "F-C",
       "gp": 9,
-      "mpg": 22.5,
-      "min_total": 202,
+      "mpg": 22.2,
+      "min_total": 222,
       "defense": {
         "d_fgm": 5.56,
         "d_fga": 12.22,
         "d_fg_pct": 0.455,
-        "normal_fg_pct": 0.491,
-        "pct_plusminus": -0.036
+        "normal_fg_pct": 0.488,
+        "pct_plusminus": -0.033
       }
     },
     {
@@ -1577,14 +1593,14 @@
       "team": "DET",
       "position": "G",
       "gp": 8,
-      "mpg": 24.0,
-      "min_total": 192,
+      "mpg": 24.9,
+      "min_total": 224,
       "defense": {
         "d_fgm": 2.88,
         "d_fga": 7.25,
         "d_fg_pct": 0.397,
-        "normal_fg_pct": 0.409,
-        "pct_plusminus": -0.012
+        "normal_fg_pct": 0.41,
+        "pct_plusminus": -0.014
       }
     },
     {
@@ -1592,15 +1608,15 @@
       "name": "Danny Wolf",
       "team": "BKN",
       "position": "F",
-      "gp": 3,
-      "mpg": 19.2,
-      "min_total": 77,
+      "gp": 4,
+      "mpg": 22.6,
+      "min_total": 113,
       "defense": {
-        "d_fgm": 2.33,
-        "d_fga": 5.0,
-        "d_fg_pct": 0.467,
-        "normal_fg_pct": 0.423,
-        "pct_plusminus": 0.044
+        "d_fgm": 3.5,
+        "d_fga": 6.0,
+        "d_fg_pct": 0.583,
+        "normal_fg_pct": 0.434,
+        "pct_plusminus": 0.149
       }
     },
     {
@@ -1609,14 +1625,14 @@
       "team": "SAC",
       "position": "G",
       "gp": 9,
-      "mpg": 36.8,
-      "min_total": 331,
+      "mpg": 37.1,
+      "min_total": 371,
       "defense": {
         "d_fgm": 6.0,
         "d_fga": 11.67,
         "d_fg_pct": 0.514,
         "normal_fg_pct": 0.457,
-        "pct_plusminus": 0.058
+        "pct_plusminus": 0.057
       }
     },
     {
@@ -1625,13 +1641,13 @@
       "team": "LAC",
       "position": "G",
       "gp": 7,
-      "mpg": 33.7,
-      "min_total": 270,
+      "mpg": 33.5,
+      "min_total": 302,
       "defense": {
         "d_fgm": 5.14,
         "d_fga": 10.86,
         "d_fg_pct": 0.474,
-        "normal_fg_pct": 0.46,
+        "normal_fg_pct": 0.461,
         "pct_plusminus": 0.013
       }
     },
@@ -1641,14 +1657,14 @@
       "team": "UTA",
       "position": "G",
       "gp": 9,
-      "mpg": 30.2,
-      "min_total": 272,
+      "mpg": 30.7,
+      "min_total": 307,
       "defense": {
         "d_fgm": 5.22,
         "d_fga": 11.33,
         "d_fg_pct": 0.461,
-        "normal_fg_pct": 0.462,
-        "pct_plusminus": -0.002
+        "normal_fg_pct": 0.461,
+        "pct_plusminus": 0.0
       }
     },
     {
@@ -1673,14 +1689,14 @@
       "team": "MIA",
       "position": "G",
       "gp": 9,
-      "mpg": 35.1,
-      "min_total": 316,
+      "mpg": 35.6,
+      "min_total": 356,
       "defense": {
         "d_fgm": 6.67,
         "d_fga": 13.11,
         "d_fg_pct": 0.508,
-        "normal_fg_pct": 0.462,
-        "pct_plusminus": 0.046
+        "normal_fg_pct": 0.465,
+        "pct_plusminus": 0.044
       }
     },
     {
@@ -1688,15 +1704,15 @@
       "name": "Day'Ron Sharpe",
       "team": "BKN",
       "position": "C",
-      "gp": 8,
-      "mpg": 24.1,
-      "min_total": 217,
+      "gp": 9,
+      "mpg": 23.7,
+      "min_total": 237,
       "defense": {
-        "d_fgm": 4.63,
-        "d_fga": 10.25,
-        "d_fg_pct": 0.451,
-        "normal_fg_pct": 0.464,
-        "pct_plusminus": -0.013
+        "d_fgm": 4.67,
+        "d_fga": 11.0,
+        "d_fg_pct": 0.424,
+        "normal_fg_pct": 0.462,
+        "pct_plusminus": -0.037
       }
     },
     {
@@ -1704,15 +1720,15 @@
       "name": "De'Aaron Fox",
       "team": "SAS",
       "position": "G",
-      "gp": 9,
+      "gp": 10,
       "mpg": 29.4,
       "min_total": 294,
       "defense": {
-        "d_fgm": 4.0,
-        "d_fga": 11.0,
-        "d_fg_pct": 0.364,
-        "normal_fg_pct": 0.451,
-        "pct_plusminus": -0.087
+        "d_fgm": 4.1,
+        "d_fga": 11.2,
+        "d_fg_pct": 0.366,
+        "normal_fg_pct": 0.45,
+        "pct_plusminus": -0.084
       }
     },
     {
@@ -1722,13 +1738,13 @@
       "position": "F-G",
       "gp": 8,
       "mpg": 31.2,
-      "min_total": 250,
+      "min_total": 281,
       "defense": {
         "d_fgm": 6.0,
         "d_fga": 11.25,
         "d_fg_pct": 0.533,
         "normal_fg_pct": 0.46,
-        "pct_plusminus": 0.073
+        "pct_plusminus": 0.074
       }
     },
     {
@@ -1736,15 +1752,15 @@
       "name": "De'Anthony Melton",
       "team": "GSW",
       "position": "G",
-      "gp": 9,
+      "gp": 10,
       "mpg": 21.8,
       "min_total": 218,
       "defense": {
-        "d_fgm": 3.0,
-        "d_fga": 5.44,
-        "d_fg_pct": 0.551,
+        "d_fgm": 2.9,
+        "d_fga": 5.6,
+        "d_fg_pct": 0.518,
         "normal_fg_pct": 0.48,
-        "pct_plusminus": 0.071
+        "pct_plusminus": 0.038
       }
     },
     {
@@ -1776,7 +1792,7 @@
         "d_fga": 6.17,
         "d_fg_pct": 0.622,
         "normal_fg_pct": 0.462,
-        "pct_plusminus": 0.159
+        "pct_plusminus": 0.16
       }
     },
     {
@@ -1785,14 +1801,14 @@
       "team": "PHI",
       "position": "F-C",
       "gp": 8,
-      "mpg": 25.5,
-      "min_total": 204,
+      "mpg": 24.6,
+      "min_total": 221,
       "defense": {
         "d_fgm": 4.75,
         "d_fga": 9.75,
         "d_fg_pct": 0.487,
-        "normal_fg_pct": 0.44,
-        "pct_plusminus": 0.047
+        "normal_fg_pct": 0.439,
+        "pct_plusminus": 0.048
       }
     },
     {
@@ -1800,15 +1816,15 @@
       "name": "Deandre Ayton",
       "team": "WAS",
       "position": "C",
-      "gp": 9,
+      "gp": 10,
       "mpg": 15.2,
       "min_total": 152,
       "defense": {
-        "d_fgm": 4.33,
-        "d_fga": 9.44,
-        "d_fg_pct": 0.459,
-        "normal_fg_pct": 0.464,
-        "pct_plusminus": -0.005
+        "d_fgm": 4.1,
+        "d_fga": 8.8,
+        "d_fg_pct": 0.466,
+        "normal_fg_pct": 0.458,
+        "pct_plusminus": 0.008
       }
     },
     {
@@ -1817,8 +1833,8 @@
       "team": "NOP",
       "position": "G",
       "gp": 6,
-      "mpg": 34.8,
-      "min_total": 209,
+      "mpg": 33.8,
+      "min_total": 237,
       "defense": {
         "d_fgm": 6.83,
         "d_fga": 14.67,
@@ -1832,15 +1848,15 @@
       "name": "Deni Avdija",
       "team": "POR",
       "position": "F",
-      "gp": 8,
+      "gp": 9,
       "mpg": 32.1,
       "min_total": 289,
       "defense": {
-        "d_fgm": 3.88,
-        "d_fga": 9.63,
-        "d_fg_pct": 0.403,
-        "normal_fg_pct": 0.462,
-        "pct_plusminus": -0.06
+        "d_fgm": 3.56,
+        "d_fga": 9.11,
+        "d_fg_pct": 0.39,
+        "normal_fg_pct": 0.464,
+        "pct_plusminus": -0.074
       }
     },
     {
@@ -1855,8 +1871,8 @@
         "d_fgm": 4.44,
         "d_fga": 8.78,
         "d_fg_pct": 0.506,
-        "normal_fg_pct": 0.428,
-        "pct_plusminus": 0.078
+        "normal_fg_pct": 0.423,
+        "pct_plusminus": 0.083
       }
     },
     {
@@ -1865,8 +1881,8 @@
       "team": "NOP",
       "position": "C",
       "gp": 9,
-      "mpg": 22.6,
-      "min_total": 203,
+      "mpg": 22.4,
+      "min_total": 224,
       "defense": {
         "d_fgm": 6.11,
         "d_fga": 12.44,
@@ -1881,14 +1897,14 @@
       "team": "LAC",
       "position": "F",
       "gp": 6,
-      "mpg": 29.8,
-      "min_total": 209,
+      "mpg": 29.7,
+      "min_total": 238,
       "defense": {
         "d_fgm": 3.33,
         "d_fga": 10.17,
         "d_fg_pct": 0.328,
-        "normal_fg_pct": 0.465,
-        "pct_plusminus": -0.137
+        "normal_fg_pct": 0.466,
+        "pct_plusminus": -0.138
       }
     },
     {
@@ -1897,14 +1913,14 @@
       "team": "BOS",
       "position": "G",
       "gp": 9,
-      "mpg": 30.0,
-      "min_total": 270,
+      "mpg": 29.8,
+      "min_total": 298,
       "defense": {
         "d_fgm": 5.11,
         "d_fga": 11.11,
         "d_fg_pct": 0.46,
-        "normal_fg_pct": 0.423,
-        "pct_plusminus": 0.037
+        "normal_fg_pct": 0.42,
+        "pct_plusminus": 0.04
       }
     },
     {
@@ -1919,8 +1935,8 @@
         "d_fgm": 4.25,
         "d_fga": 10.38,
         "d_fg_pct": 0.41,
-        "normal_fg_pct": 0.465,
-        "pct_plusminus": -0.056
+        "normal_fg_pct": 0.464,
+        "pct_plusminus": -0.055
       }
     },
     {
@@ -1928,15 +1944,15 @@
       "name": "Devin Booker",
       "team": "PHX",
       "position": "G",
-      "gp": 7,
+      "gp": 8,
       "mpg": 35.0,
       "min_total": 280,
       "defense": {
-        "d_fgm": 4.43,
-        "d_fga": 9.0,
-        "d_fg_pct": 0.492,
-        "normal_fg_pct": 0.473,
-        "pct_plusminus": 0.019
+        "d_fgm": 4.38,
+        "d_fga": 10.0,
+        "d_fg_pct": 0.438,
+        "normal_fg_pct": 0.471,
+        "pct_plusminus": -0.034
       }
     },
     {
@@ -1944,15 +1960,15 @@
       "name": "Devin Vassell",
       "team": "SAS",
       "position": "G-F",
-      "gp": 9,
+      "gp": 10,
       "mpg": 30.0,
       "min_total": 300,
       "defense": {
-        "d_fgm": 2.78,
-        "d_fga": 7.89,
-        "d_fg_pct": 0.352,
-        "normal_fg_pct": 0.459,
-        "pct_plusminus": -0.107
+        "d_fgm": 2.6,
+        "d_fga": 7.2,
+        "d_fg_pct": 0.361,
+        "normal_fg_pct": 0.461,
+        "pct_plusminus": -0.1
       }
     },
     {
@@ -1960,15 +1976,15 @@
       "name": "Dillon Brooks",
       "team": "PHX",
       "position": "G-F",
-      "gp": 7,
+      "gp": 8,
       "mpg": 31.2,
       "min_total": 250,
       "defense": {
-        "d_fgm": 7.29,
-        "d_fga": 12.71,
-        "d_fg_pct": 0.573,
-        "normal_fg_pct": 0.471,
-        "pct_plusminus": 0.102
+        "d_fgm": 6.88,
+        "d_fga": 12.25,
+        "d_fg_pct": 0.561,
+        "normal_fg_pct": 0.473,
+        "pct_plusminus": 0.088
       }
     },
     {
@@ -1983,8 +1999,8 @@
         "d_fgm": 8.0,
         "d_fga": 16.33,
         "d_fg_pct": 0.49,
-        "normal_fg_pct": 0.51,
-        "pct_plusminus": -0.02
+        "normal_fg_pct": 0.511,
+        "pct_plusminus": -0.021
       }
     },
     {
@@ -1992,15 +2008,15 @@
       "name": "Donovan Clingan",
       "team": "POR",
       "position": "C",
-      "gp": 8,
+      "gp": 9,
       "mpg": 24.7,
       "min_total": 222,
       "defense": {
-        "d_fgm": 6.0,
-        "d_fga": 14.0,
-        "d_fg_pct": 0.429,
-        "normal_fg_pct": 0.515,
-        "pct_plusminus": -0.087
+        "d_fgm": 6.22,
+        "d_fga": 13.89,
+        "d_fg_pct": 0.448,
+        "normal_fg_pct": 0.508,
+        "pct_plusminus": -0.06
       }
     },
     {
@@ -2008,15 +2024,15 @@
       "name": "Donovan Mitchell",
       "team": "CLE",
       "position": "G",
-      "gp": 9,
+      "gp": 10,
       "mpg": 33.8,
       "min_total": 338,
       "defense": {
-        "d_fgm": 4.78,
-        "d_fga": 9.89,
-        "d_fg_pct": 0.483,
-        "normal_fg_pct": 0.449,
-        "pct_plusminus": 0.034
+        "d_fgm": 4.9,
+        "d_fga": 9.9,
+        "d_fg_pct": 0.495,
+        "normal_fg_pct": 0.444,
+        "pct_plusminus": 0.051
       }
     },
     {
@@ -2041,8 +2057,8 @@
       "team": "BKN",
       "position": "G-F",
       "gp": 2,
-      "mpg": 9.1,
-      "min_total": 18,
+      "mpg": 9.2,
+      "min_total": 28,
       "defense": {
         "d_fgm": 1.0,
         "d_fga": 4.5,
@@ -2056,15 +2072,15 @@
       "name": "Draymond Green",
       "team": "GSW",
       "position": "F-C",
-      "gp": 7,
+      "gp": 8,
       "mpg": 27.5,
       "min_total": 220,
       "defense": {
-        "d_fgm": 4.43,
-        "d_fga": 11.14,
-        "d_fg_pct": 0.397,
-        "normal_fg_pct": 0.504,
-        "pct_plusminus": -0.107
+        "d_fgm": 4.88,
+        "d_fga": 11.88,
+        "d_fg_pct": 0.411,
+        "normal_fg_pct": 0.5,
+        "pct_plusminus": -0.089
       }
     },
     {
@@ -2079,8 +2095,8 @@
         "d_fgm": 1.8,
         "d_fga": 4.2,
         "d_fg_pct": 0.429,
-        "normal_fg_pct": 0.476,
-        "pct_plusminus": -0.048
+        "normal_fg_pct": 0.477,
+        "pct_plusminus": -0.049
       }
     },
     {
@@ -2089,14 +2105,14 @@
       "team": "DET",
       "position": "F",
       "gp": 8,
-      "mpg": 31.0,
-      "min_total": 248,
+      "mpg": 30.5,
+      "min_total": 274,
       "defense": {
         "d_fgm": 3.63,
         "d_fga": 7.88,
         "d_fg_pct": 0.46,
-        "normal_fg_pct": 0.404,
-        "pct_plusminus": 0.057
+        "normal_fg_pct": 0.406,
+        "pct_plusminus": 0.055
       }
     },
     {
@@ -2111,8 +2127,8 @@
         "d_fgm": 2.0,
         "d_fga": 5.33,
         "d_fg_pct": 0.375,
-        "normal_fg_pct": 0.463,
-        "pct_plusminus": -0.088
+        "normal_fg_pct": 0.45,
+        "pct_plusminus": -0.075
       }
     },
     {
@@ -2121,14 +2137,14 @@
       "team": "SAC",
       "position": "C",
       "gp": 2,
-      "mpg": 14.1,
-      "min_total": 28,
+      "mpg": 15.5,
+      "min_total": 46,
       "defense": {
         "d_fgm": 2.0,
         "d_fga": 5.0,
         "d_fg_pct": 0.4,
-        "normal_fg_pct": 0.386,
-        "pct_plusminus": 0.014
+        "normal_fg_pct": 0.392,
+        "pct_plusminus": 0.008
       }
     },
     {
@@ -2136,15 +2152,15 @@
       "name": "Dylan Harper",
       "team": "SAS",
       "position": "G",
-      "gp": 9,
+      "gp": 10,
       "mpg": 32.0,
       "min_total": 320,
       "defense": {
-        "d_fgm": 3.33,
-        "d_fga": 8.44,
-        "d_fg_pct": 0.395,
-        "normal_fg_pct": 0.448,
-        "pct_plusminus": -0.053
+        "d_fgm": 3.5,
+        "d_fga": 8.5,
+        "d_fg_pct": 0.412,
+        "normal_fg_pct": 0.45,
+        "pct_plusminus": -0.039
       }
     },
     {
@@ -2152,15 +2168,15 @@
       "name": "Dyson Daniels",
       "team": "ATL",
       "position": "G",
-      "gp": 10,
+      "gp": 11,
       "mpg": 30.2,
       "min_total": 332,
       "defense": {
-        "d_fgm": 4.3,
-        "d_fga": 9.8,
-        "d_fg_pct": 0.439,
-        "normal_fg_pct": 0.467,
-        "pct_plusminus": -0.028
+        "d_fgm": 4.64,
+        "d_fga": 10.45,
+        "d_fg_pct": 0.443,
+        "normal_fg_pct": 0.458,
+        "pct_plusminus": -0.015
       }
     },
     {
@@ -2175,8 +2191,8 @@
         "d_fgm": 0.0,
         "d_fga": 1.0,
         "d_fg_pct": 0.0,
-        "normal_fg_pct": 0.436,
-        "pct_plusminus": -0.436
+        "normal_fg_pct": 0.429,
+        "pct_plusminus": -0.429
       }
     },
     {
@@ -2191,8 +2207,8 @@
         "d_fgm": 4.5,
         "d_fga": 7.5,
         "d_fg_pct": 0.6,
-        "normal_fg_pct": 0.444,
-        "pct_plusminus": 0.156
+        "normal_fg_pct": 0.443,
+        "pct_plusminus": 0.157
       }
     },
     {
@@ -2207,8 +2223,8 @@
         "d_fgm": 0.0,
         "d_fga": 1.0,
         "d_fg_pct": 0.0,
-        "normal_fg_pct": 0.414,
-        "pct_plusminus": -0.414
+        "normal_fg_pct": 0.422,
+        "pct_plusminus": -0.422
       }
     },
     {
@@ -2217,14 +2233,14 @@
       "team": "SAC",
       "position": "G",
       "gp": 9,
-      "mpg": 18.7,
-      "min_total": 168,
+      "mpg": 18.1,
+      "min_total": 181,
       "defense": {
         "d_fgm": 1.89,
         "d_fga": 4.67,
         "d_fg_pct": 0.405,
-        "normal_fg_pct": 0.43,
-        "pct_plusminus": -0.025
+        "normal_fg_pct": 0.424,
+        "pct_plusminus": -0.019
       }
     },
     {
@@ -2232,15 +2248,15 @@
       "name": "Evan Mobley",
       "team": "CLE",
       "position": "C",
-      "gp": 9,
+      "gp": 10,
       "mpg": 32.7,
       "min_total": 327,
       "defense": {
-        "d_fgm": 6.67,
-        "d_fga": 16.67,
+        "d_fgm": 6.8,
+        "d_fga": 17.0,
         "d_fg_pct": 0.4,
-        "normal_fg_pct": 0.452,
-        "pct_plusminus": -0.052
+        "normal_fg_pct": 0.454,
+        "pct_plusminus": -0.054
       }
     },
     {
@@ -2255,8 +2271,8 @@
         "d_fgm": 0.0,
         "d_fga": 1.0,
         "d_fg_pct": 0.0,
-        "normal_fg_pct": 0.405,
-        "pct_plusminus": -0.405
+        "normal_fg_pct": 0.406,
+        "pct_plusminus": -0.406
       }
     },
     {
@@ -2264,15 +2280,15 @@
       "name": "Franz Wagner",
       "team": "ORL",
       "position": "F",
-      "gp": 8,
+      "gp": 9,
       "mpg": 36.5,
       "min_total": 328,
       "defense": {
-        "d_fgm": 6.63,
-        "d_fga": 13.88,
-        "d_fg_pct": 0.477,
+        "d_fgm": 6.56,
+        "d_fga": 13.33,
+        "d_fg_pct": 0.492,
         "normal_fg_pct": 0.463,
-        "pct_plusminus": 0.014
+        "pct_plusminus": 0.028
       }
     },
     {
@@ -2280,15 +2296,15 @@
       "name": "Fred VanVleet",
       "team": "HOU",
       "position": "G",
-      "gp": 7,
+      "gp": 8,
       "mpg": 30.0,
       "min_total": 240,
       "defense": {
-        "d_fgm": 4.43,
-        "d_fga": 8.71,
-        "d_fg_pct": 0.508,
-        "normal_fg_pct": 0.447,
-        "pct_plusminus": 0.062
+        "d_fgm": 4.75,
+        "d_fga": 9.5,
+        "d_fg_pct": 0.5,
+        "normal_fg_pct": 0.45,
+        "pct_plusminus": 0.05
       }
     },
     {
@@ -2303,8 +2319,8 @@
         "d_fgm": 3.43,
         "d_fga": 6.43,
         "d_fg_pct": 0.533,
-        "normal_fg_pct": 0.433,
-        "pct_plusminus": 0.1
+        "normal_fg_pct": 0.434,
+        "pct_plusminus": 0.099
       }
     },
     {
@@ -2312,15 +2328,15 @@
       "name": "Gary Payton II",
       "team": "GSW",
       "position": "G",
-      "gp": 9,
+      "gp": 10,
       "mpg": 13.4,
       "min_total": 134,
       "defense": {
         "d_fgm": 3.0,
-        "d_fga": 5.44,
-        "d_fg_pct": 0.551,
-        "normal_fg_pct": 0.448,
-        "pct_plusminus": 0.103
+        "d_fga": 5.7,
+        "d_fg_pct": 0.526,
+        "normal_fg_pct": 0.445,
+        "pct_plusminus": 0.082
       }
     },
     {
@@ -2335,8 +2351,8 @@
         "d_fgm": 1.5,
         "d_fga": 2.5,
         "d_fg_pct": 0.6,
-        "normal_fg_pct": 0.464,
-        "pct_plusminus": 0.136
+        "normal_fg_pct": 0.553,
+        "pct_plusminus": 0.047
       }
     },
     {
@@ -2344,15 +2360,15 @@
       "name": "Georges Niang",
       "team": "GSW",
       "position": "F",
-      "gp": 9,
+      "gp": 10,
       "mpg": 20.7,
       "min_total": 207,
       "defense": {
-        "d_fgm": 3.22,
-        "d_fga": 7.44,
-        "d_fg_pct": 0.433,
-        "normal_fg_pct": 0.455,
-        "pct_plusminus": -0.022
+        "d_fgm": 3.0,
+        "d_fga": 7.4,
+        "d_fg_pct": 0.405,
+        "normal_fg_pct": 0.45,
+        "pct_plusminus": -0.045
       }
     },
     {
@@ -2361,14 +2377,14 @@
       "team": "MIA",
       "position": "F",
       "gp": 9,
-      "mpg": 32.7,
-      "min_total": 294,
+      "mpg": 32.8,
+      "min_total": 328,
       "defense": {
         "d_fgm": 6.22,
         "d_fga": 12.33,
         "d_fg_pct": 0.505,
         "normal_fg_pct": 0.478,
-        "pct_plusminus": 0.026
+        "pct_plusminus": 0.027
       }
     },
     {
@@ -2376,15 +2392,15 @@
       "name": "Goga Bitadze",
       "team": "ORL",
       "position": "C-F",
-      "gp": 5,
+      "gp": 6,
       "mpg": 8.9,
       "min_total": 62,
       "defense": {
-        "d_fgm": 1.4,
-        "d_fga": 3.8,
-        "d_fg_pct": 0.368,
-        "normal_fg_pct": 0.479,
-        "pct_plusminus": -0.11
+        "d_fgm": 1.5,
+        "d_fga": 3.5,
+        "d_fg_pct": 0.429,
+        "normal_fg_pct": 0.48,
+        "pct_plusminus": -0.052
       }
     },
     {
@@ -2393,8 +2409,8 @@
       "team": "LAC",
       "position": "G-F",
       "gp": 6,
-      "mpg": 14.7,
-      "min_total": 118,
+      "mpg": 15.0,
+      "min_total": 135,
       "defense": {
         "d_fgm": 2.33,
         "d_fga": 5.33,
@@ -2415,8 +2431,8 @@
         "d_fgm": 3.0,
         "d_fga": 5.4,
         "d_fg_pct": 0.556,
-        "normal_fg_pct": 0.484,
-        "pct_plusminus": 0.071
+        "normal_fg_pct": 0.486,
+        "pct_plusminus": 0.07
       }
     },
     {
@@ -2431,8 +2447,8 @@
         "d_fgm": 3.56,
         "d_fga": 8.0,
         "d_fg_pct": 0.444,
-        "normal_fg_pct": 0.431,
-        "pct_plusminus": 0.013
+        "normal_fg_pct": 0.426,
+        "pct_plusminus": 0.019
       }
     },
     {
@@ -2440,15 +2456,15 @@
       "name": "Gui Santos",
       "team": "GSW",
       "position": "F",
-      "gp": 6,
+      "gp": 7,
       "mpg": 18.9,
       "min_total": 132,
       "defense": {
-        "d_fgm": 2.83,
-        "d_fga": 6.0,
-        "d_fg_pct": 0.472,
-        "normal_fg_pct": 0.481,
-        "pct_plusminus": -0.009
+        "d_fgm": 3.29,
+        "d_fga": 6.43,
+        "d_fg_pct": 0.511,
+        "normal_fg_pct": 0.475,
+        "pct_plusminus": 0.036
       }
     },
     {
@@ -2463,8 +2479,8 @@
         "d_fgm": 4.0,
         "d_fga": 8.0,
         "d_fg_pct": 0.5,
-        "normal_fg_pct": 0.486,
-        "pct_plusminus": 0.014
+        "normal_fg_pct": 0.478,
+        "pct_plusminus": 0.022
       }
     },
     {
@@ -2472,15 +2488,15 @@
       "name": "Harrison Barnes",
       "team": "SAS",
       "position": "F",
-      "gp": 7,
+      "gp": 8,
       "mpg": 12.9,
       "min_total": 103,
       "defense": {
-        "d_fgm": 2.0,
-        "d_fga": 3.71,
-        "d_fg_pct": 0.538,
-        "normal_fg_pct": 0.449,
-        "pct_plusminus": 0.089
+        "d_fgm": 1.88,
+        "d_fga": 4.0,
+        "d_fg_pct": 0.469,
+        "normal_fg_pct": 0.451,
+        "pct_plusminus": 0.018
       }
     },
     {
@@ -2489,14 +2505,14 @@
       "team": "NOP",
       "position": "F",
       "gp": 9,
-      "mpg": 22.8,
-      "min_total": 205,
+      "mpg": 22.5,
+      "min_total": 225,
       "defense": {
         "d_fgm": 3.33,
         "d_fga": 6.78,
         "d_fg_pct": 0.492,
         "normal_fg_pct": 0.45,
-        "pct_plusminus": 0.042
+        "pct_plusminus": 0.041
       }
     },
     {
@@ -2505,14 +2521,14 @@
       "team": "BOS",
       "position": "G",
       "gp": 8,
-      "mpg": 13.1,
-      "min_total": 118,
+      "mpg": 12.8,
+      "min_total": 128,
       "defense": {
         "d_fgm": 2.25,
         "d_fga": 6.25,
         "d_fg_pct": 0.36,
-        "normal_fg_pct": 0.407,
-        "pct_plusminus": -0.047
+        "normal_fg_pct": 0.403,
+        "pct_plusminus": -0.043
       }
     },
     {
@@ -2527,8 +2543,8 @@
         "d_fgm": 4.0,
         "d_fga": 10.0,
         "d_fg_pct": 0.4,
-        "normal_fg_pct": 0.468,
-        "pct_plusminus": -0.068
+        "normal_fg_pct": 0.46,
+        "pct_plusminus": -0.06
       }
     },
     {
@@ -2543,8 +2559,8 @@
         "d_fgm": 1.33,
         "d_fga": 2.33,
         "d_fg_pct": 0.571,
-        "normal_fg_pct": 0.426,
-        "pct_plusminus": 0.145
+        "normal_fg_pct": 0.4,
+        "pct_plusminus": 0.171
       }
     },
     {
@@ -2553,14 +2569,14 @@
       "team": "CHI",
       "position": "F-G",
       "gp": 8,
-      "mpg": 17.9,
-      "min_total": 143,
+      "mpg": 18.7,
+      "min_total": 168,
       "defense": {
         "d_fgm": 4.0,
         "d_fga": 6.88,
         "d_fg_pct": 0.582,
-        "normal_fg_pct": 0.441,
-        "pct_plusminus": 0.141
+        "normal_fg_pct": 0.439,
+        "pct_plusminus": 0.143
       }
     },
     {
@@ -2569,14 +2585,14 @@
       "team": "UTA",
       "position": "G",
       "gp": 8,
-      "mpg": 15.5,
-      "min_total": 140,
+      "mpg": 15.6,
+      "min_total": 156,
       "defense": {
         "d_fgm": 2.88,
         "d_fga": 5.5,
         "d_fg_pct": 0.523,
-        "normal_fg_pct": 0.445,
-        "pct_plusminus": 0.077
+        "normal_fg_pct": 0.444,
+        "pct_plusminus": 0.079
       }
     },
     {
@@ -2591,8 +2607,8 @@
         "d_fgm": 0.67,
         "d_fga": 1.5,
         "d_fg_pct": 0.444,
-        "normal_fg_pct": 0.454,
-        "pct_plusminus": -0.01
+        "normal_fg_pct": 0.45,
+        "pct_plusminus": -0.005
       }
     },
     {
@@ -2601,8 +2617,8 @@
       "team": "MIN",
       "position": "F",
       "gp": 1,
-      "mpg": 2.4,
-      "min_total": 10,
+      "mpg": 2.3,
+      "min_total": 12,
       "defense": {
         "d_fgm": 1.0,
         "d_fga": 1.0,
@@ -2616,15 +2632,15 @@
       "name": "Isaiah Hartenstein",
       "team": "OKC",
       "position": "C-F",
-      "gp": 8,
+      "gp": 9,
       "mpg": 24.1,
       "min_total": 241,
       "defense": {
-        "d_fgm": 5.63,
-        "d_fga": 12.38,
-        "d_fg_pct": 0.455,
-        "normal_fg_pct": 0.49,
-        "pct_plusminus": -0.035
+        "d_fgm": 5.44,
+        "d_fga": 12.33,
+        "d_fg_pct": 0.441,
+        "normal_fg_pct": 0.484,
+        "pct_plusminus": -0.043
       }
     },
     {
@@ -2639,8 +2655,8 @@
         "d_fgm": 4.86,
         "d_fga": 8.14,
         "d_fg_pct": 0.596,
-        "normal_fg_pct": 0.507,
-        "pct_plusminus": 0.09
+        "normal_fg_pct": 0.508,
+        "pct_plusminus": 0.089
       }
     },
     {
@@ -2671,8 +2687,8 @@
         "d_fgm": 2.14,
         "d_fga": 5.71,
         "d_fg_pct": 0.375,
-        "normal_fg_pct": 0.501,
-        "pct_plusminus": -0.126
+        "normal_fg_pct": 0.504,
+        "pct_plusminus": -0.129
       }
     },
     {
@@ -2719,8 +2735,8 @@
         "d_fgm": 4.44,
         "d_fga": 10.11,
         "d_fg_pct": 0.44,
-        "normal_fg_pct": 0.471,
-        "pct_plusminus": -0.031
+        "normal_fg_pct": 0.466,
+        "pct_plusminus": -0.026
       }
     },
     {
@@ -2735,8 +2751,8 @@
         "d_fgm": 1.0,
         "d_fga": 1.0,
         "d_fg_pct": 1.0,
-        "normal_fg_pct": 0.53,
-        "pct_plusminus": 0.47
+        "normal_fg_pct": 0.511,
+        "pct_plusminus": 0.489
       }
     },
     {
@@ -2744,15 +2760,15 @@
       "name": "Jabari Smith Jr.",
       "team": "HOU",
       "position": "F",
-      "gp": 9,
+      "gp": 10,
       "mpg": 35.1,
       "min_total": 351,
       "defense": {
-        "d_fgm": 6.67,
-        "d_fga": 14.22,
-        "d_fg_pct": 0.469,
-        "normal_fg_pct": 0.453,
-        "pct_plusminus": 0.016
+        "d_fgm": 6.2,
+        "d_fga": 13.5,
+        "d_fg_pct": 0.459,
+        "normal_fg_pct": 0.452,
+        "pct_plusminus": 0.007
       }
     },
     {
@@ -2761,14 +2777,14 @@
       "team": "PHI",
       "position": "F",
       "gp": 4,
-      "mpg": 9.5,
-      "min_total": 57,
+      "mpg": 10.9,
+      "min_total": 76,
       "defense": {
         "d_fgm": 2.25,
         "d_fga": 5.0,
         "d_fg_pct": 0.45,
-        "normal_fg_pct": 0.447,
-        "pct_plusminus": 0.003
+        "normal_fg_pct": 0.445,
+        "pct_plusminus": 0.005
       }
     },
     {
@@ -2783,8 +2799,8 @@
         "d_fgm": 1.0,
         "d_fga": 1.0,
         "d_fg_pct": 1.0,
-        "normal_fg_pct": 0.324,
-        "pct_plusminus": 0.677
+        "normal_fg_pct": 0.349,
+        "pct_plusminus": 0.651
       }
     },
     {
@@ -2799,8 +2815,8 @@
         "d_fgm": 1.33,
         "d_fga": 2.0,
         "d_fg_pct": 0.667,
-        "normal_fg_pct": 0.438,
-        "pct_plusminus": 0.229
+        "normal_fg_pct": 0.443,
+        "pct_plusminus": 0.224
       }
     },
     {
@@ -2809,14 +2825,14 @@
       "team": "MIN",
       "position": "F",
       "gp": 10,
-      "mpg": 33.9,
-      "min_total": 339,
+      "mpg": 33.8,
+      "min_total": 372,
       "defense": {
         "d_fgm": 5.8,
         "d_fga": 13.8,
         "d_fg_pct": 0.42,
-        "normal_fg_pct": 0.467,
-        "pct_plusminus": -0.047
+        "normal_fg_pct": 0.468,
+        "pct_plusminus": -0.048
       }
     },
     {
@@ -2831,8 +2847,8 @@
         "d_fgm": 0.75,
         "d_fga": 1.0,
         "d_fg_pct": 0.75,
-        "normal_fg_pct": 0.507,
-        "pct_plusminus": 0.243
+        "normal_fg_pct": 0.497,
+        "pct_plusminus": 0.254
       }
     },
     {
@@ -2847,8 +2863,8 @@
         "d_fgm": 0.5,
         "d_fga": 1.5,
         "d_fg_pct": 0.333,
-        "normal_fg_pct": 0.452,
-        "pct_plusminus": -0.119
+        "normal_fg_pct": 0.464,
+        "pct_plusminus": -0.131
       }
     },
     {
@@ -2857,14 +2873,14 @@
       "team": "MIL",
       "position": "G",
       "gp": 9,
-      "mpg": 28.4,
-      "min_total": 256,
+      "mpg": 27.8,
+      "min_total": 278,
       "defense": {
         "d_fgm": 6.78,
         "d_fga": 12.78,
         "d_fg_pct": 0.53,
-        "normal_fg_pct": 0.464,
-        "pct_plusminus": 0.066
+        "normal_fg_pct": 0.462,
+        "pct_plusminus": 0.069
       }
     },
     {
@@ -2873,13 +2889,13 @@
       "team": "LAL",
       "position": "F",
       "gp": 9,
-      "mpg": 23.5,
-      "min_total": 212,
+      "mpg": 24.1,
+      "min_total": 241,
       "defense": {
         "d_fgm": 3.78,
         "d_fga": 8.78,
         "d_fg_pct": 0.43,
-        "normal_fg_pct": 0.445,
+        "normal_fg_pct": 0.446,
         "pct_plusminus": -0.015
       }
     },
@@ -2895,8 +2911,8 @@
         "d_fgm": 4.43,
         "d_fga": 9.43,
         "d_fg_pct": 0.47,
-        "normal_fg_pct": 0.48,
-        "pct_plusminus": -0.01
+        "normal_fg_pct": 0.472,
+        "pct_plusminus": -0.002
       }
     },
     {
@@ -2904,15 +2920,15 @@
       "name": "Jalen Brunson",
       "team": "NYK",
       "position": "G",
-      "gp": 8,
+      "gp": 9,
       "mpg": 34.1,
       "min_total": 307,
       "defense": {
-        "d_fgm": 5.63,
-        "d_fga": 12.13,
-        "d_fg_pct": 0.464,
-        "normal_fg_pct": 0.434,
-        "pct_plusminus": 0.03
+        "d_fgm": 5.67,
+        "d_fga": 12.11,
+        "d_fg_pct": 0.468,
+        "normal_fg_pct": 0.433,
+        "pct_plusminus": 0.034
       }
     },
     {
@@ -2936,15 +2952,15 @@
       "name": "Jalen Green",
       "team": "PHX",
       "position": "G",
-      "gp": 7,
+      "gp": 8,
       "mpg": 29.0,
       "min_total": 232,
       "defense": {
-        "d_fgm": 3.43,
-        "d_fga": 7.14,
-        "d_fg_pct": 0.48,
-        "normal_fg_pct": 0.464,
-        "pct_plusminus": 0.017
+        "d_fgm": 3.38,
+        "d_fga": 7.38,
+        "d_fg_pct": 0.458,
+        "normal_fg_pct": 0.457,
+        "pct_plusminus": 0.0
       }
     },
     {
@@ -2952,15 +2968,15 @@
       "name": "Jalen Johnson",
       "team": "ATL",
       "position": "F",
-      "gp": 7,
+      "gp": 8,
       "mpg": 33.0,
       "min_total": 264,
       "defense": {
-        "d_fgm": 6.43,
-        "d_fga": 11.43,
-        "d_fg_pct": 0.563,
-        "normal_fg_pct": 0.487,
-        "pct_plusminus": 0.076
+        "d_fgm": 6.38,
+        "d_fga": 11.25,
+        "d_fg_pct": 0.567,
+        "normal_fg_pct": 0.475,
+        "pct_plusminus": 0.091
       }
     },
     {
@@ -2969,14 +2985,14 @@
       "team": "LAC",
       "position": "G",
       "gp": 2,
-      "mpg": 5.3,
-      "min_total": 16,
+      "mpg": 4.6,
+      "min_total": 18,
       "defense": {
         "d_fgm": 1.5,
         "d_fga": 3.0,
         "d_fg_pct": 0.5,
-        "normal_fg_pct": 0.484,
-        "pct_plusminus": 0.016
+        "normal_fg_pct": 0.482,
+        "pct_plusminus": 0.019
       }
     },
     {
@@ -2991,8 +3007,8 @@
         "d_fgm": 2.63,
         "d_fga": 6.63,
         "d_fg_pct": 0.396,
-        "normal_fg_pct": 0.461,
-        "pct_plusminus": -0.065
+        "normal_fg_pct": 0.458,
+        "pct_plusminus": -0.062
       }
     },
     {
@@ -3001,14 +3017,14 @@
       "team": "CHI",
       "position": "F-C",
       "gp": 8,
-      "mpg": 22.5,
-      "min_total": 180,
+      "mpg": 23.4,
+      "min_total": 211,
       "defense": {
         "d_fgm": 4.13,
         "d_fga": 9.88,
         "d_fg_pct": 0.418,
-        "normal_fg_pct": 0.45,
-        "pct_plusminus": -0.032
+        "normal_fg_pct": 0.447,
+        "pct_plusminus": -0.029
       }
     },
     {
@@ -3039,8 +3055,8 @@
         "d_fgm": 3.0,
         "d_fga": 5.5,
         "d_fg_pct": 0.545,
-        "normal_fg_pct": 0.459,
-        "pct_plusminus": 0.087
+        "normal_fg_pct": 0.453,
+        "pct_plusminus": 0.092
       }
     },
     {
@@ -3048,15 +3064,15 @@
       "name": "Jamal Cain",
       "team": "ORL",
       "position": "F",
-      "gp": 8,
+      "gp": 9,
       "mpg": 19.5,
       "min_total": 176,
       "defense": {
-        "d_fgm": 2.75,
-        "d_fga": 6.0,
-        "d_fg_pct": 0.458,
-        "normal_fg_pct": 0.472,
-        "pct_plusminus": -0.014
+        "d_fgm": 3.33,
+        "d_fga": 6.78,
+        "d_fg_pct": 0.492,
+        "normal_fg_pct": 0.469,
+        "pct_plusminus": 0.023
       }
     },
     {
@@ -3071,8 +3087,8 @@
         "d_fgm": 4.29,
         "d_fga": 11.57,
         "d_fg_pct": 0.37,
-        "normal_fg_pct": 0.455,
-        "pct_plusminus": -0.085
+        "normal_fg_pct": 0.453,
+        "pct_plusminus": -0.083
       }
     },
     {
@@ -3087,8 +3103,8 @@
         "d_fgm": 2.78,
         "d_fga": 6.0,
         "d_fg_pct": 0.463,
-        "normal_fg_pct": 0.464,
-        "pct_plusminus": -0.001
+        "normal_fg_pct": 0.466,
+        "pct_plusminus": -0.003
       }
     },
     {
@@ -3103,8 +3119,8 @@
         "d_fgm": 0.67,
         "d_fga": 1.33,
         "d_fg_pct": 0.5,
-        "normal_fg_pct": 0.388,
-        "pct_plusminus": 0.112
+        "normal_fg_pct": 0.443,
+        "pct_plusminus": 0.058
       }
     },
     {
@@ -3112,15 +3128,15 @@
       "name": "James Harden",
       "team": "CLE",
       "position": "G",
-      "gp": 9,
+      "gp": 10,
       "mpg": 33.4,
       "min_total": 334,
       "defense": {
-        "d_fgm": 5.44,
-        "d_fga": 12.11,
-        "d_fg_pct": 0.45,
-        "normal_fg_pct": 0.451,
-        "pct_plusminus": -0.002
+        "d_fgm": 5.5,
+        "d_fga": 12.5,
+        "d_fg_pct": 0.44,
+        "normal_fg_pct": 0.444,
+        "pct_plusminus": -0.004
       }
     },
     {
@@ -3135,8 +3151,8 @@
         "d_fgm": 1.33,
         "d_fga": 3.33,
         "d_fg_pct": 0.4,
-        "normal_fg_pct": 0.404,
-        "pct_plusminus": -0.004
+        "normal_fg_pct": 0.401,
+        "pct_plusminus": -0.001
       }
     },
     {
@@ -3151,8 +3167,8 @@
         "d_fgm": 2.78,
         "d_fga": 4.56,
         "d_fg_pct": 0.61,
-        "normal_fg_pct": 0.46,
-        "pct_plusminus": 0.15
+        "normal_fg_pct": 0.453,
+        "pct_plusminus": 0.156
       }
     },
     {
@@ -3167,8 +3183,8 @@
         "d_fgm": 4.22,
         "d_fga": 8.22,
         "d_fg_pct": 0.514,
-        "normal_fg_pct": 0.439,
-        "pct_plusminus": 0.074
+        "normal_fg_pct": 0.438,
+        "pct_plusminus": 0.076
       }
     },
     {
@@ -3176,15 +3192,15 @@
       "name": "Jared McCain",
       "team": "OKC",
       "position": "G",
-      "gp": 8,
+      "gp": 9,
       "mpg": 25.2,
       "min_total": 252,
       "defense": {
-        "d_fgm": 3.38,
-        "d_fga": 8.38,
-        "d_fg_pct": 0.403,
-        "normal_fg_pct": 0.445,
-        "pct_plusminus": -0.042
+        "d_fgm": 3.33,
+        "d_fga": 8.56,
+        "d_fg_pct": 0.39,
+        "normal_fg_pct": 0.444,
+        "pct_plusminus": -0.055
       }
     },
     {
@@ -3209,14 +3225,14 @@
       "team": "LAL",
       "position": "F",
       "gp": 5,
-      "mpg": 11.9,
-      "min_total": 60,
+      "mpg": 12.2,
+      "min_total": 73,
       "defense": {
         "d_fgm": 1.6,
         "d_fga": 4.4,
         "d_fg_pct": 0.364,
-        "normal_fg_pct": 0.46,
-        "pct_plusminus": -0.096
+        "normal_fg_pct": 0.457,
+        "pct_plusminus": -0.094
       }
     },
     {
@@ -3231,8 +3247,8 @@
         "d_fgm": 5.25,
         "d_fga": 11.88,
         "d_fg_pct": 0.442,
-        "normal_fg_pct": 0.461,
-        "pct_plusminus": -0.019
+        "normal_fg_pct": 0.462,
+        "pct_plusminus": -0.02
       }
     },
     {
@@ -3240,15 +3256,15 @@
       "name": "Jase Richardson",
       "team": "ORL",
       "position": "G",
-      "gp": 8,
+      "gp": 9,
       "mpg": 22.7,
       "min_total": 204,
       "defense": {
-        "d_fgm": 3.25,
-        "d_fga": 6.13,
-        "d_fg_pct": 0.531,
-        "normal_fg_pct": 0.456,
-        "pct_plusminus": 0.075
+        "d_fgm": 3.33,
+        "d_fga": 6.0,
+        "d_fg_pct": 0.556,
+        "normal_fg_pct": 0.454,
+        "pct_plusminus": 0.101
       }
     },
     {
@@ -3263,8 +3279,8 @@
         "d_fgm": 3.0,
         "d_fga": 5.5,
         "d_fg_pct": 0.545,
-        "normal_fg_pct": 0.439,
-        "pct_plusminus": 0.106
+        "normal_fg_pct": 0.432,
+        "pct_plusminus": 0.113
       }
     },
     {
@@ -3273,14 +3289,14 @@
       "team": "DET",
       "position": "G",
       "gp": 8,
-      "mpg": 18.4,
-      "min_total": 147,
+      "mpg": 18.3,
+      "min_total": 165,
       "defense": {
         "d_fgm": 2.5,
         "d_fga": 6.13,
         "d_fg_pct": 0.408,
-        "normal_fg_pct": 0.441,
-        "pct_plusminus": -0.033
+        "normal_fg_pct": 0.443,
+        "pct_plusminus": -0.034
       }
     },
     {
@@ -3289,14 +3305,14 @@
       "team": "UTA",
       "position": "C-F",
       "gp": 8,
-      "mpg": 25.0,
-      "min_total": 200,
+      "mpg": 25.5,
+      "min_total": 230,
       "defense": {
         "d_fgm": 4.13,
         "d_fga": 10.38,
         "d_fg_pct": 0.398,
-        "normal_fg_pct": 0.486,
-        "pct_plusminus": -0.089
+        "normal_fg_pct": 0.49,
+        "pct_plusminus": -0.093
       }
     },
     {
@@ -3311,8 +3327,8 @@
         "d_fgm": 4.38,
         "d_fga": 10.0,
         "d_fg_pct": 0.438,
-        "normal_fg_pct": 0.456,
-        "pct_plusminus": -0.019
+        "normal_fg_pct": 0.458,
+        "pct_plusminus": -0.02
       }
     },
     {
@@ -3321,14 +3337,14 @@
       "team": "PHI",
       "position": "G-F",
       "gp": 9,
-      "mpg": 35.9,
-      "min_total": 323,
+      "mpg": 35.8,
+      "min_total": 358,
       "defense": {
         "d_fgm": 4.56,
         "d_fga": 11.89,
         "d_fg_pct": 0.383,
-        "normal_fg_pct": 0.448,
-        "pct_plusminus": -0.065
+        "normal_fg_pct": 0.446,
+        "pct_plusminus": -0.063
       }
     },
     {
@@ -3337,14 +3353,14 @@
       "team": "MIN",
       "position": "G",
       "gp": 8,
-      "mpg": 13.6,
-      "min_total": 122,
+      "mpg": 14.1,
+      "min_total": 141,
       "defense": {
         "d_fgm": 2.0,
         "d_fga": 4.75,
         "d_fg_pct": 0.421,
-        "normal_fg_pct": 0.457,
-        "pct_plusminus": -0.036
+        "normal_fg_pct": 0.458,
+        "pct_plusminus": -0.037
       }
     },
     {
@@ -3359,8 +3375,8 @@
         "d_fgm": 4.0,
         "d_fga": 10.11,
         "d_fg_pct": 0.396,
-        "normal_fg_pct": 0.452,
-        "pct_plusminus": -0.056
+        "normal_fg_pct": 0.454,
+        "pct_plusminus": -0.058
       }
     },
     {
@@ -3375,8 +3391,8 @@
         "d_fgm": 1.25,
         "d_fga": 3.75,
         "d_fg_pct": 0.333,
-        "normal_fg_pct": 0.376,
-        "pct_plusminus": -0.043
+        "normal_fg_pct": 0.377,
+        "pct_plusminus": -0.044
       }
     },
     {
@@ -3391,8 +3407,8 @@
         "d_fgm": 4.17,
         "d_fga": 9.83,
         "d_fg_pct": 0.424,
-        "normal_fg_pct": 0.485,
-        "pct_plusminus": -0.061
+        "normal_fg_pct": 0.481,
+        "pct_plusminus": -0.058
       }
     },
     {
@@ -3407,8 +3423,8 @@
         "d_fgm": 2.4,
         "d_fga": 4.6,
         "d_fg_pct": 0.522,
-        "normal_fg_pct": 0.441,
-        "pct_plusminus": 0.08
+        "normal_fg_pct": 0.446,
+        "pct_plusminus": 0.076
       }
     },
     {
@@ -3416,15 +3432,15 @@
       "name": "Jayson Kent",
       "team": "POR",
       "position": "F",
-      "gp": 1,
+      "gp": 2,
       "mpg": 9.5,
       "min_total": 19,
       "defense": {
-        "d_fgm": 1.0,
-        "d_fga": 1.0,
-        "d_fg_pct": 1.0,
-        "normal_fg_pct": 0.667,
-        "pct_plusminus": 0.333
+        "d_fgm": 0.5,
+        "d_fga": 2.5,
+        "d_fg_pct": 0.2,
+        "normal_fg_pct": 0.459,
+        "pct_plusminus": -0.259
       }
     },
     {
@@ -3433,14 +3449,14 @@
       "team": "BOS",
       "position": "F-G",
       "gp": 8,
-      "mpg": 34.4,
-      "min_total": 275,
+      "mpg": 33.8,
+      "min_total": 304,
       "defense": {
         "d_fgm": 3.5,
         "d_fga": 9.88,
         "d_fg_pct": 0.354,
-        "normal_fg_pct": 0.404,
-        "pct_plusminus": -0.049
+        "normal_fg_pct": 0.401,
+        "pct_plusminus": -0.046
       }
     },
     {
@@ -3455,8 +3471,8 @@
         "d_fgm": 2.56,
         "d_fga": 6.89,
         "d_fg_pct": 0.371,
-        "normal_fg_pct": 0.447,
-        "pct_plusminus": -0.076
+        "normal_fg_pct": 0.449,
+        "pct_plusminus": -0.078
       }
     },
     {
@@ -3466,12 +3482,12 @@
       "position": "G",
       "gp": 9,
       "mpg": 28.9,
-      "min_total": 260,
+      "min_total": 289,
       "defense": {
         "d_fgm": 6.56,
         "d_fga": 12.11,
         "d_fg_pct": 0.541,
-        "normal_fg_pct": 0.464,
+        "normal_fg_pct": 0.463,
         "pct_plusminus": 0.078
       }
     },
@@ -3481,14 +3497,14 @@
       "team": "MIL",
       "position": "C",
       "gp": 4,
-      "mpg": 6.3,
-      "min_total": 32,
+      "mpg": 7.7,
+      "min_total": 46,
       "defense": {
         "d_fgm": 0.75,
         "d_fga": 1.75,
         "d_fg_pct": 0.429,
-        "normal_fg_pct": 0.48,
-        "pct_plusminus": -0.051
+        "normal_fg_pct": 0.478,
+        "pct_plusminus": -0.05
       }
     },
     {
@@ -3497,14 +3513,14 @@
       "team": "DAL",
       "position": "G",
       "gp": 3,
-      "mpg": 2.3,
-      "min_total": 9,
+      "mpg": 2.4,
+      "min_total": 12,
       "defense": {
         "d_fgm": 0.33,
         "d_fga": 1.0,
         "d_fg_pct": 0.333,
-        "normal_fg_pct": 0.428,
-        "pct_plusminus": -0.094
+        "normal_fg_pct": 0.422,
+        "pct_plusminus": -0.089
       }
     },
     {
@@ -3512,15 +3528,15 @@
       "name": "Jevon Carter",
       "team": "ORL",
       "position": "G",
-      "gp": 3,
+      "gp": 4,
       "mpg": 14.2,
       "min_total": 71,
       "defense": {
-        "d_fgm": 1.33,
-        "d_fga": 5.0,
-        "d_fg_pct": 0.267,
-        "normal_fg_pct": 0.472,
-        "pct_plusminus": -0.206
+        "d_fgm": 1.25,
+        "d_fga": 4.5,
+        "d_fg_pct": 0.278,
+        "normal_fg_pct": 0.473,
+        "pct_plusminus": -0.195
       }
     },
     {
@@ -3529,8 +3545,8 @@
       "team": "MIN",
       "position": "F",
       "gp": 10,
-      "mpg": 16.5,
-      "min_total": 165,
+      "mpg": 16.4,
+      "min_total": 180,
       "defense": {
         "d_fgm": 5.3,
         "d_fga": 11.1,
@@ -3551,8 +3567,8 @@
         "d_fgm": 5.17,
         "d_fga": 9.5,
         "d_fg_pct": 0.544,
-        "normal_fg_pct": 0.486,
-        "pct_plusminus": 0.058
+        "normal_fg_pct": 0.478,
+        "pct_plusminus": 0.066
       }
     },
     {
@@ -3561,14 +3577,14 @@
       "team": "PHI",
       "position": "C-F",
       "gp": 8,
-      "mpg": 32.3,
-      "min_total": 258,
+      "mpg": 31.9,
+      "min_total": 287,
       "defense": {
         "d_fgm": 7.13,
         "d_fga": 15.63,
         "d_fg_pct": 0.456,
-        "normal_fg_pct": 0.467,
-        "pct_plusminus": -0.011
+        "normal_fg_pct": 0.464,
+        "pct_plusminus": -0.008
       }
     },
     {
@@ -3577,14 +3593,14 @@
       "team": "DET",
       "position": "F-C",
       "gp": 8,
-      "mpg": 25.6,
-      "min_total": 205,
+      "mpg": 26.3,
+      "min_total": 237,
       "defense": {
         "d_fgm": 4.63,
         "d_fga": 10.13,
         "d_fg_pct": 0.457,
-        "normal_fg_pct": 0.434,
-        "pct_plusminus": 0.022
+        "normal_fg_pct": 0.433,
+        "pct_plusminus": 0.023
       }
     },
     {
@@ -3609,14 +3625,14 @@
       "team": "MIN",
       "position": "F",
       "gp": 10,
-      "mpg": 31.2,
-      "min_total": 312,
+      "mpg": 30.7,
+      "min_total": 338,
       "defense": {
         "d_fgm": 4.0,
         "d_fga": 10.0,
         "d_fg_pct": 0.4,
-        "normal_fg_pct": 0.474,
-        "pct_plusminus": -0.074
+        "normal_fg_pct": 0.473,
+        "pct_plusminus": -0.073
       }
     },
     {
@@ -3625,14 +3641,14 @@
       "team": "SAC",
       "position": "F",
       "gp": 4,
-      "mpg": 17.3,
-      "min_total": 69,
+      "mpg": 14.3,
+      "min_total": 72,
       "defense": {
         "d_fgm": 2.75,
         "d_fga": 5.25,
         "d_fg_pct": 0.524,
-        "normal_fg_pct": 0.414,
-        "pct_plusminus": 0.11
+        "normal_fg_pct": 0.415,
+        "pct_plusminus": 0.109
       }
     },
     {
@@ -3640,15 +3656,15 @@
       "name": "Jordan Clarkson",
       "team": "NYK",
       "position": "G",
-      "gp": 7,
+      "gp": 8,
       "mpg": 10.4,
       "min_total": 83,
       "defense": {
-        "d_fgm": 1.14,
-        "d_fga": 2.86,
-        "d_fg_pct": 0.4,
-        "normal_fg_pct": 0.409,
-        "pct_plusminus": -0.009
+        "d_fgm": 1.13,
+        "d_fga": 3.0,
+        "d_fg_pct": 0.375,
+        "normal_fg_pct": 0.412,
+        "pct_plusminus": -0.037
       }
     },
     {
@@ -3663,8 +3679,8 @@
         "d_fgm": 3.0,
         "d_fga": 4.4,
         "d_fg_pct": 0.682,
-        "normal_fg_pct": 0.47,
-        "pct_plusminus": 0.212
+        "normal_fg_pct": 0.465,
+        "pct_plusminus": 0.217
       }
     },
     {
@@ -3673,8 +3689,8 @@
       "team": "CHI",
       "position": "G",
       "gp": 4,
-      "mpg": 5.5,
-      "min_total": 22,
+      "mpg": 7.8,
+      "min_total": 39,
       "defense": {
         "d_fgm": 0.75,
         "d_fga": 1.75,
@@ -3688,15 +3704,15 @@
       "name": "Jordan McLaughlin",
       "team": "SAS",
       "position": "G",
-      "gp": 4,
+      "gp": 5,
       "mpg": 7.7,
       "min_total": 38,
       "defense": {
-        "d_fgm": 1.5,
-        "d_fga": 2.25,
-        "d_fg_pct": 0.667,
-        "normal_fg_pct": 0.398,
-        "pct_plusminus": 0.269
+        "d_fgm": 1.4,
+        "d_fga": 2.6,
+        "d_fg_pct": 0.538,
+        "normal_fg_pct": 0.387,
+        "pct_plusminus": 0.151
       }
     },
     {
@@ -3721,14 +3737,14 @@
       "team": "BOS",
       "position": "G",
       "gp": 9,
-      "mpg": 16.1,
-      "min_total": 145,
+      "mpg": 15.6,
+      "min_total": 156,
       "defense": {
         "d_fgm": 2.22,
         "d_fga": 5.11,
         "d_fg_pct": 0.435,
-        "normal_fg_pct": 0.433,
-        "pct_plusminus": 0.001
+        "normal_fg_pct": 0.438,
+        "pct_plusminus": -0.003
       }
     },
     {
@@ -3743,8 +3759,8 @@
         "d_fgm": 3.33,
         "d_fga": 5.33,
         "d_fg_pct": 0.625,
-        "normal_fg_pct": 0.416,
-        "pct_plusminus": 0.21
+        "normal_fg_pct": 0.42,
+        "pct_plusminus": 0.205
       }
     },
     {
@@ -3752,15 +3768,15 @@
       "name": "Josh Dix",
       "team": "OKC",
       "position": "G",
-      "gp": 4,
+      "gp": 5,
       "mpg": 14.6,
       "min_total": 102,
       "defense": {
-        "d_fgm": 2.75,
-        "d_fga": 5.75,
-        "d_fg_pct": 0.478,
-        "normal_fg_pct": 0.426,
-        "pct_plusminus": 0.052
+        "d_fgm": 3.0,
+        "d_fga": 6.2,
+        "d_fg_pct": 0.484,
+        "normal_fg_pct": 0.424,
+        "pct_plusminus": 0.06
       }
     },
     {
@@ -3769,14 +3785,14 @@
       "team": "CHI",
       "position": "G",
       "gp": 8,
-      "mpg": 27.1,
-      "min_total": 217,
+      "mpg": 27.8,
+      "min_total": 250,
       "defense": {
         "d_fgm": 5.0,
         "d_fga": 10.63,
         "d_fg_pct": 0.471,
-        "normal_fg_pct": 0.44,
-        "pct_plusminus": 0.03
+        "normal_fg_pct": 0.437,
+        "pct_plusminus": 0.033
       }
     },
     {
@@ -3785,14 +3801,14 @@
       "team": "UTA",
       "position": "G",
       "gp": 5,
-      "mpg": 16.6,
-      "min_total": 116,
+      "mpg": 18.0,
+      "min_total": 144,
       "defense": {
         "d_fgm": 2.6,
         "d_fga": 6.4,
         "d_fg_pct": 0.406,
-        "normal_fg_pct": 0.459,
-        "pct_plusminus": -0.053
+        "normal_fg_pct": 0.454,
+        "pct_plusminus": -0.048
       }
     },
     {
@@ -3817,8 +3833,8 @@
       "team": "BKN",
       "position": "F",
       "gp": 4,
-      "mpg": 6.6,
-      "min_total": 40,
+      "mpg": 7.4,
+      "min_total": 52,
       "defense": {
         "d_fgm": 1.5,
         "d_fga": 3.25,
@@ -3833,14 +3849,14 @@
       "team": "UTA",
       "position": "G",
       "gp": 8,
-      "mpg": 18.6,
-      "min_total": 149,
+      "mpg": 18.4,
+      "min_total": 166,
       "defense": {
         "d_fgm": 3.63,
         "d_fga": 6.75,
         "d_fg_pct": 0.537,
-        "normal_fg_pct": 0.479,
-        "pct_plusminus": 0.058
+        "normal_fg_pct": 0.477,
+        "pct_plusminus": 0.06
       }
     },
     {
@@ -3864,15 +3880,15 @@
       "name": "Jrue Holiday",
       "team": "POR",
       "position": "G",
-      "gp": 8,
+      "gp": 9,
       "mpg": 25.9,
       "min_total": 233,
       "defense": {
-        "d_fgm": 4.63,
-        "d_fga": 9.0,
-        "d_fg_pct": 0.514,
-        "normal_fg_pct": 0.47,
-        "pct_plusminus": 0.044
+        "d_fgm": 4.33,
+        "d_fga": 8.78,
+        "d_fg_pct": 0.494,
+        "normal_fg_pct": 0.465,
+        "pct_plusminus": 0.029
       }
     },
     {
@@ -3880,15 +3896,15 @@
       "name": "Julian Champagnie",
       "team": "SAS",
       "position": "F",
-      "gp": 9,
+      "gp": 10,
       "mpg": 25.7,
       "min_total": 257,
       "defense": {
-        "d_fgm": 5.11,
-        "d_fga": 9.89,
-        "d_fg_pct": 0.517,
-        "normal_fg_pct": 0.448,
-        "pct_plusminus": 0.069
+        "d_fgm": 4.9,
+        "d_fga": 9.3,
+        "d_fg_pct": 0.527,
+        "normal_fg_pct": 0.446,
+        "pct_plusminus": 0.081
       }
     },
     {
@@ -3896,15 +3912,15 @@
       "name": "Julius Randle",
       "team": "BKN",
       "position": "F-C",
-      "gp": 8,
-      "mpg": 33.9,
-      "min_total": 305,
+      "gp": 9,
+      "mpg": 33.5,
+      "min_total": 335,
       "defense": {
         "d_fgm": 6.0,
-        "d_fga": 11.0,
-        "d_fg_pct": 0.545,
-        "normal_fg_pct": 0.456,
-        "pct_plusminus": 0.089
+        "d_fga": 11.22,
+        "d_fg_pct": 0.535,
+        "normal_fg_pct": 0.454,
+        "pct_plusminus": 0.081
       }
     },
     {
@@ -3935,8 +3951,8 @@
         "d_fgm": 1.0,
         "d_fga": 2.0,
         "d_fg_pct": 0.5,
-        "normal_fg_pct": 0.377,
-        "pct_plusminus": 0.124
+        "normal_fg_pct": 0.365,
+        "pct_plusminus": 0.135
       }
     },
     {
@@ -3951,8 +3967,8 @@
         "d_fgm": 0.33,
         "d_fga": 2.0,
         "d_fg_pct": 0.167,
-        "normal_fg_pct": 0.32,
-        "pct_plusminus": -0.154
+        "normal_fg_pct": 0.382,
+        "pct_plusminus": -0.215
       }
     },
     {
@@ -3960,15 +3976,15 @@
       "name": "Karl-Anthony Towns",
       "team": "NYK",
       "position": "C-F",
-      "gp": 8,
+      "gp": 9,
       "mpg": 31.5,
       "min_total": 284,
       "defense": {
-        "d_fgm": 5.13,
-        "d_fga": 11.5,
-        "d_fg_pct": 0.446,
-        "normal_fg_pct": 0.46,
-        "pct_plusminus": -0.014
+        "d_fgm": 5.0,
+        "d_fga": 11.56,
+        "d_fg_pct": 0.433,
+        "normal_fg_pct": 0.462,
+        "pct_plusminus": -0.029
       }
     },
     {
@@ -3977,8 +3993,8 @@
       "team": "NOP",
       "position": "F-C",
       "gp": 8,
-      "mpg": 18.4,
-      "min_total": 147,
+      "mpg": 18.5,
+      "min_total": 166,
       "defense": {
         "d_fgm": 4.0,
         "d_fga": 7.88,
@@ -3993,14 +4009,14 @@
       "team": "MIL",
       "position": "G",
       "gp": 9,
-      "mpg": 19.8,
-      "min_total": 178,
+      "mpg": 18.6,
+      "min_total": 186,
       "defense": {
         "d_fgm": 2.67,
         "d_fga": 5.0,
         "d_fg_pct": 0.533,
-        "normal_fg_pct": 0.464,
-        "pct_plusminus": 0.069
+        "normal_fg_pct": 0.462,
+        "pct_plusminus": 0.071
       }
     },
     {
@@ -4015,8 +4031,8 @@
         "d_fgm": 3.0,
         "d_fga": 7.0,
         "d_fg_pct": 0.429,
-        "normal_fg_pct": 0.453,
-        "pct_plusminus": -0.025
+        "normal_fg_pct": 0.44,
+        "pct_plusminus": -0.011
       }
     },
     {
@@ -4025,13 +4041,13 @@
       "team": "LAC",
       "position": "G",
       "gp": 7,
-      "mpg": 23.8,
-      "min_total": 190,
+      "mpg": 23.2,
+      "min_total": 209,
       "defense": {
         "d_fgm": 4.29,
         "d_fga": 7.71,
         "d_fg_pct": 0.556,
-        "normal_fg_pct": 0.443,
+        "normal_fg_pct": 0.444,
         "pct_plusminus": 0.112
       }
     },
@@ -4041,14 +4057,14 @@
       "team": "SAC",
       "position": "F",
       "gp": 2,
-      "mpg": 27.2,
-      "min_total": 54,
+      "mpg": 25.6,
+      "min_total": 77,
       "defense": {
         "d_fgm": 8.5,
         "d_fga": 15.0,
         "d_fg_pct": 0.567,
-        "normal_fg_pct": 0.505,
-        "pct_plusminus": 0.062
+        "normal_fg_pct": 0.499,
+        "pct_plusminus": 0.068
       }
     },
     {
@@ -4057,14 +4073,14 @@
       "team": "MIL",
       "position": "C",
       "gp": 9,
-      "mpg": 18.2,
-      "min_total": 164,
+      "mpg": 17.3,
+      "min_total": 173,
       "defense": {
         "d_fgm": 3.22,
         "d_fga": 8.0,
         "d_fg_pct": 0.403,
-        "normal_fg_pct": 0.473,
-        "pct_plusminus": -0.07
+        "normal_fg_pct": 0.471,
+        "pct_plusminus": -0.068
       }
     },
     {
@@ -4072,15 +4088,15 @@
       "name": "Keldon Johnson",
       "team": "SAS",
       "position": "F-G",
-      "gp": 9,
+      "gp": 10,
       "mpg": 23.5,
       "min_total": 235,
       "defense": {
-        "d_fgm": 2.67,
-        "d_fga": 5.67,
-        "d_fg_pct": 0.471,
-        "normal_fg_pct": 0.444,
-        "pct_plusminus": 0.027
+        "d_fgm": 2.6,
+        "d_fga": 5.6,
+        "d_fg_pct": 0.464,
+        "normal_fg_pct": 0.443,
+        "pct_plusminus": 0.022
       }
     },
     {
@@ -4095,7 +4111,7 @@
         "d_fgm": 4.29,
         "d_fga": 8.43,
         "d_fg_pct": 0.508,
-        "normal_fg_pct": 0.44,
+        "normal_fg_pct": 0.439,
         "pct_plusminus": 0.069
       }
     },
@@ -4104,15 +4120,15 @@
       "name": "Kenrich Williams",
       "team": "OKC",
       "position": "G-F",
-      "gp": 8,
+      "gp": 9,
       "mpg": 18.4,
       "min_total": 184,
       "defense": {
-        "d_fgm": 2.0,
-        "d_fga": 5.25,
-        "d_fg_pct": 0.381,
-        "normal_fg_pct": 0.437,
-        "pct_plusminus": -0.057
+        "d_fgm": 2.22,
+        "d_fga": 5.33,
+        "d_fg_pct": 0.417,
+        "normal_fg_pct": 0.433,
+        "pct_plusminus": -0.016
       }
     },
     {
@@ -4121,14 +4137,14 @@
       "team": "PHI",
       "position": "G",
       "gp": 10,
-      "mpg": 22.1,
-      "min_total": 221,
+      "mpg": 21.9,
+      "min_total": 241,
       "defense": {
         "d_fgm": 2.3,
         "d_fga": 4.6,
         "d_fg_pct": 0.5,
-        "normal_fg_pct": 0.435,
-        "pct_plusminus": 0.065
+        "normal_fg_pct": 0.436,
+        "pct_plusminus": 0.064
       }
     },
     {
@@ -4138,13 +4154,13 @@
       "position": "G",
       "gp": 8,
       "mpg": 22.6,
-      "min_total": 181,
+      "min_total": 203,
       "defense": {
         "d_fgm": 3.13,
         "d_fga": 7.38,
         "d_fg_pct": 0.424,
-        "normal_fg_pct": 0.442,
-        "pct_plusminus": -0.018
+        "normal_fg_pct": 0.443,
+        "pct_plusminus": -0.019
       }
     },
     {
@@ -4152,15 +4168,15 @@
       "name": "Kevin Durant",
       "team": "HOU",
       "position": "F",
-      "gp": 9,
+      "gp": 10,
       "mpg": 34.1,
       "min_total": 341,
       "defense": {
-        "d_fgm": 4.44,
-        "d_fga": 11.89,
+        "d_fgm": 4.3,
+        "d_fga": 11.5,
         "d_fg_pct": 0.374,
-        "normal_fg_pct": 0.453,
-        "pct_plusminus": -0.079
+        "normal_fg_pct": 0.454,
+        "pct_plusminus": -0.08
       }
     },
     {
@@ -4169,8 +4185,8 @@
       "team": "DET",
       "position": "G-F",
       "gp": 8,
-      "mpg": 20.4,
-      "min_total": 163,
+      "mpg": 22.0,
+      "min_total": 198,
       "defense": {
         "d_fgm": 3.13,
         "d_fga": 7.13,
@@ -4191,8 +4207,8 @@
         "d_fgm": 3.33,
         "d_fga": 5.67,
         "d_fg_pct": 0.588,
-        "normal_fg_pct": 0.468,
-        "pct_plusminus": 0.12
+        "normal_fg_pct": 0.47,
+        "pct_plusminus": 0.119
       }
     },
     {
@@ -4201,14 +4217,14 @@
       "team": "UTA",
       "position": "G",
       "gp": 9,
-      "mpg": 32.3,
-      "min_total": 291,
+      "mpg": 32.1,
+      "min_total": 321,
       "defense": {
         "d_fgm": 4.11,
         "d_fga": 10.67,
         "d_fg_pct": 0.385,
-        "normal_fg_pct": 0.454,
-        "pct_plusminus": -0.069
+        "normal_fg_pct": 0.455,
+        "pct_plusminus": -0.07
       }
     },
     {
@@ -4216,15 +4232,15 @@
       "name": "Khaman Maluach",
       "team": "PHX",
       "position": "C",
-      "gp": 7,
+      "gp": 8,
       "mpg": 19.6,
       "min_total": 157,
       "defense": {
-        "d_fgm": 5.29,
-        "d_fga": 10.57,
-        "d_fg_pct": 0.5,
-        "normal_fg_pct": 0.491,
-        "pct_plusminus": 0.009
+        "d_fgm": 5.0,
+        "d_fga": 10.63,
+        "d_fg_pct": 0.471,
+        "normal_fg_pct": 0.485,
+        "pct_plusminus": -0.014
       }
     },
     {
@@ -4240,7 +4256,7 @@
         "d_fga": 4.0,
         "d_fg_pct": 0.563,
         "normal_fg_pct": 0.421,
-        "pct_plusminus": 0.142
+        "pct_plusminus": 0.141
       }
     },
     {
@@ -4248,15 +4264,15 @@
       "name": "Kingston Flemings",
       "team": "ATL",
       "position": "G",
-      "gp": 9,
+      "gp": 10,
       "mpg": 21.7,
       "min_total": 217,
       "defense": {
-        "d_fgm": 2.11,
-        "d_fga": 5.33,
-        "d_fg_pct": 0.396,
-        "normal_fg_pct": 0.438,
-        "pct_plusminus": -0.042
+        "d_fgm": 2.5,
+        "d_fga": 5.7,
+        "d_fg_pct": 0.439,
+        "normal_fg_pct": 0.435,
+        "pct_plusminus": 0.003
       }
     },
     {
@@ -4265,14 +4281,14 @@
       "team": "MIA",
       "position": "G-F",
       "gp": 9,
-      "mpg": 23.5,
-      "min_total": 212,
+      "mpg": 24.3,
+      "min_total": 243,
       "defense": {
         "d_fgm": 4.0,
         "d_fga": 7.89,
         "d_fg_pct": 0.507,
-        "normal_fg_pct": 0.457,
-        "pct_plusminus": 0.05
+        "normal_fg_pct": 0.459,
+        "pct_plusminus": 0.048
       }
     },
     {
@@ -4287,8 +4303,8 @@
         "d_fgm": 0.0,
         "d_fga": 1.0,
         "d_fg_pct": 0.0,
-        "normal_fg_pct": 0.0,
-        "pct_plusminus": 0.0
+        "normal_fg_pct": 0.2,
+        "pct_plusminus": -0.2
       }
     },
     {
@@ -4303,8 +4319,8 @@
         "d_fgm": 2.2,
         "d_fga": 4.8,
         "d_fg_pct": 0.458,
-        "normal_fg_pct": 0.495,
-        "pct_plusminus": -0.036
+        "normal_fg_pct": 0.491,
+        "pct_plusminus": -0.032
       }
     },
     {
@@ -4313,14 +4329,14 @@
       "team": "LAC",
       "position": "G",
       "gp": 7,
-      "mpg": 24.3,
-      "min_total": 194,
+      "mpg": 24.0,
+      "min_total": 216,
       "defense": {
         "d_fgm": 5.29,
         "d_fga": 9.0,
         "d_fg_pct": 0.587,
-        "normal_fg_pct": 0.462,
-        "pct_plusminus": 0.125
+        "normal_fg_pct": 0.463,
+        "pct_plusminus": 0.124
       }
     },
     {
@@ -4335,8 +4351,8 @@
         "d_fgm": 0.0,
         "d_fga": 1.0,
         "d_fg_pct": 0.0,
-        "normal_fg_pct": 0.5,
-        "pct_plusminus": -0.5
+        "normal_fg_pct": 0.538,
+        "pct_plusminus": -0.538
       }
     },
     {
@@ -4345,8 +4361,8 @@
       "team": "LAC",
       "position": "G",
       "gp": 7,
-      "mpg": 30.4,
-      "min_total": 243,
+      "mpg": 29.6,
+      "min_total": 266,
       "defense": {
         "d_fgm": 2.29,
         "d_fga": 7.29,
@@ -4393,14 +4409,14 @@
       "team": "UTA",
       "position": "C",
       "gp": 6,
-      "mpg": 6.7,
-      "min_total": 40,
+      "mpg": 7.9,
+      "min_total": 55,
       "defense": {
         "d_fgm": 1.83,
         "d_fga": 3.67,
         "d_fg_pct": 0.5,
-        "normal_fg_pct": 0.42,
-        "pct_plusminus": 0.08
+        "normal_fg_pct": 0.421,
+        "pct_plusminus": 0.079
       }
     },
     {
@@ -4409,14 +4425,14 @@
       "team": "MIL",
       "position": "F",
       "gp": 9,
-      "mpg": 27.0,
-      "min_total": 243,
+      "mpg": 27.4,
+      "min_total": 274,
       "defense": {
         "d_fgm": 4.22,
         "d_fga": 9.89,
         "d_fg_pct": 0.427,
-        "normal_fg_pct": 0.478,
-        "pct_plusminus": -0.051
+        "normal_fg_pct": 0.475,
+        "pct_plusminus": -0.048
       }
     },
     {
@@ -4425,14 +4441,14 @@
       "team": "DAL",
       "position": "G",
       "gp": 7,
-      "mpg": 29.6,
-      "min_total": 207,
+      "mpg": 29.5,
+      "min_total": 236,
       "defense": {
         "d_fgm": 2.71,
         "d_fga": 7.43,
         "d_fg_pct": 0.365,
-        "normal_fg_pct": 0.452,
-        "pct_plusminus": -0.087
+        "normal_fg_pct": 0.454,
+        "pct_plusminus": -0.088
       }
     },
     {
@@ -4440,15 +4456,15 @@
       "name": "Kyshawn George",
       "team": "WAS",
       "position": "F",
-      "gp": 9,
+      "gp": 10,
       "mpg": 33.0,
       "min_total": 330,
       "defense": {
-        "d_fgm": 7.67,
-        "d_fga": 16.67,
-        "d_fg_pct": 0.46,
-        "normal_fg_pct": 0.429,
-        "pct_plusminus": 0.031
+        "d_fgm": 7.8,
+        "d_fga": 16.6,
+        "d_fg_pct": 0.47,
+        "normal_fg_pct": 0.431,
+        "pct_plusminus": 0.039
       }
     },
     {
@@ -4463,8 +4479,8 @@
         "d_fgm": 1.0,
         "d_fga": 1.5,
         "d_fg_pct": 0.667,
-        "normal_fg_pct": 0.359,
-        "pct_plusminus": 0.308
+        "normal_fg_pct": 0.351,
+        "pct_plusminus": 0.316
       }
     },
     {
@@ -4473,14 +4489,14 @@
       "team": "MIN",
       "position": "G",
       "gp": 10,
-      "mpg": 27.5,
-      "min_total": 275,
+      "mpg": 27.7,
+      "min_total": 305,
       "defense": {
         "d_fgm": 3.0,
         "d_fga": 6.1,
         "d_fg_pct": 0.492,
-        "normal_fg_pct": 0.446,
-        "pct_plusminus": 0.046
+        "normal_fg_pct": 0.447,
+        "pct_plusminus": 0.045
       }
     },
     {
@@ -4495,8 +4511,8 @@
         "d_fgm": 0.75,
         "d_fga": 1.75,
         "d_fg_pct": 0.429,
-        "normal_fg_pct": 0.39,
-        "pct_plusminus": 0.039
+        "normal_fg_pct": 0.391,
+        "pct_plusminus": 0.038
       }
     },
     {
@@ -4504,15 +4520,15 @@
       "name": "Landry Shamet",
       "team": "NYK",
       "position": "G",
-      "gp": 8,
+      "gp": 9,
       "mpg": 25.4,
       "min_total": 229,
       "defense": {
-        "d_fgm": 2.13,
-        "d_fga": 6.5,
-        "d_fg_pct": 0.327,
-        "normal_fg_pct": 0.432,
-        "pct_plusminus": -0.105
+        "d_fgm": 2.22,
+        "d_fga": 6.44,
+        "d_fg_pct": 0.345,
+        "normal_fg_pct": 0.438,
+        "pct_plusminus": -0.093
       }
     },
     {
@@ -4527,8 +4543,8 @@
         "d_fgm": 3.29,
         "d_fga": 6.86,
         "d_fg_pct": 0.479,
-        "normal_fg_pct": 0.452,
-        "pct_plusminus": 0.027
+        "normal_fg_pct": 0.45,
+        "pct_plusminus": 0.029
       }
     },
     {
@@ -4543,8 +4559,8 @@
         "d_fgm": 5.0,
         "d_fga": 11.0,
         "d_fg_pct": 0.455,
-        "normal_fg_pct": 0.477,
-        "pct_plusminus": -0.022
+        "normal_fg_pct": 0.475,
+        "pct_plusminus": -0.02
       }
     },
     {
@@ -4570,12 +4586,12 @@
       "position": "F",
       "gp": 8,
       "mpg": 32.9,
-      "min_total": 263,
+      "min_total": 296,
       "defense": {
         "d_fgm": 3.13,
         "d_fga": 10.75,
         "d_fg_pct": 0.291,
-        "normal_fg_pct": 0.444,
+        "normal_fg_pct": 0.443,
         "pct_plusminus": -0.153
       }
     },
@@ -4585,14 +4601,14 @@
       "team": "SAC",
       "position": "F",
       "gp": 4,
-      "mpg": 19.0,
-      "min_total": 95,
+      "mpg": 19.2,
+      "min_total": 115,
       "defense": {
         "d_fgm": 3.5,
         "d_fga": 5.25,
         "d_fg_pct": 0.667,
-        "normal_fg_pct": 0.518,
-        "pct_plusminus": 0.149
+        "normal_fg_pct": 0.509,
+        "pct_plusminus": 0.158
       }
     },
     {
@@ -4607,8 +4623,8 @@
         "d_fgm": 3.13,
         "d_fga": 8.0,
         "d_fg_pct": 0.391,
-        "normal_fg_pct": 0.449,
-        "pct_plusminus": -0.059
+        "normal_fg_pct": 0.446,
+        "pct_plusminus": -0.056
       }
     },
     {
@@ -4632,15 +4648,15 @@
       "name": "Luguentz Dort",
       "team": "ATL",
       "position": "G",
-      "gp": 10,
+      "gp": 11,
       "mpg": 25.4,
       "min_total": 279,
       "defense": {
-        "d_fgm": 5.0,
-        "d_fga": 8.9,
-        "d_fg_pct": 0.562,
-        "normal_fg_pct": 0.461,
-        "pct_plusminus": 0.101
+        "d_fgm": 4.82,
+        "d_fga": 8.64,
+        "d_fg_pct": 0.558,
+        "normal_fg_pct": 0.452,
+        "pct_plusminus": 0.106
       }
     },
     {
@@ -4665,14 +4681,14 @@
       "team": "BOS",
       "position": "C",
       "gp": 9,
-      "mpg": 13.3,
-      "min_total": 120,
+      "mpg": 12.8,
+      "min_total": 128,
       "defense": {
         "d_fgm": 1.44,
         "d_fga": 4.67,
         "d_fg_pct": 0.31,
-        "normal_fg_pct": 0.437,
-        "pct_plusminus": -0.128
+        "normal_fg_pct": 0.431,
+        "pct_plusminus": -0.121
       }
     },
     {
@@ -4680,15 +4696,15 @@
       "name": "Luke Kennard",
       "team": "PHX",
       "position": "G",
-      "gp": 6,
+      "gp": 7,
       "mpg": 16.1,
       "min_total": 113,
       "defense": {
-        "d_fgm": 2.5,
-        "d_fga": 5.5,
-        "d_fg_pct": 0.455,
-        "normal_fg_pct": 0.446,
-        "pct_plusminus": 0.008
+        "d_fgm": 2.43,
+        "d_fga": 5.29,
+        "d_fg_pct": 0.459,
+        "normal_fg_pct": 0.451,
+        "pct_plusminus": 0.009
       }
     },
     {
@@ -4696,15 +4712,15 @@
       "name": "Luke Kornet",
       "team": "SAS",
       "position": "C-F",
-      "gp": 9,
+      "gp": 10,
       "mpg": 15.2,
       "min_total": 152,
       "defense": {
-        "d_fgm": 4.89,
-        "d_fga": 9.22,
-        "d_fg_pct": 0.53,
-        "normal_fg_pct": 0.5,
-        "pct_plusminus": 0.03
+        "d_fgm": 4.9,
+        "d_fga": 9.5,
+        "d_fg_pct": 0.516,
+        "normal_fg_pct": 0.495,
+        "pct_plusminus": 0.02
       }
     },
     {
@@ -4719,8 +4735,8 @@
         "d_fgm": 1.33,
         "d_fga": 1.67,
         "d_fg_pct": 0.8,
-        "normal_fg_pct": 0.523,
-        "pct_plusminus": 0.277
+        "normal_fg_pct": 0.522,
+        "pct_plusminus": 0.278
       }
     },
     {
@@ -4729,14 +4745,14 @@
       "team": "SAC",
       "position": "G",
       "gp": 8,
-      "mpg": 16.4,
-      "min_total": 131,
+      "mpg": 16.9,
+      "min_total": 152,
       "defense": {
         "d_fgm": 2.13,
         "d_fga": 4.0,
         "d_fg_pct": 0.531,
         "normal_fg_pct": 0.463,
-        "pct_plusminus": 0.069
+        "pct_plusminus": 0.068
       }
     },
     {
@@ -4745,14 +4761,14 @@
       "team": "DAL",
       "position": "G",
       "gp": 8,
-      "mpg": 17.3,
-      "min_total": 138,
+      "mpg": 16.4,
+      "min_total": 148,
       "defense": {
         "d_fgm": 2.63,
         "d_fga": 5.5,
         "d_fg_pct": 0.477,
-        "normal_fg_pct": 0.471,
-        "pct_plusminus": 0.006
+        "normal_fg_pct": 0.468,
+        "pct_plusminus": 0.009
       }
     },
     {
@@ -4760,15 +4776,15 @@
       "name": "Marcus Smart",
       "team": "HOU",
       "position": "G",
-      "gp": 6,
+      "gp": 7,
       "mpg": 22.6,
       "min_total": 158,
       "defense": {
-        "d_fgm": 3.83,
-        "d_fga": 7.17,
-        "d_fg_pct": 0.535,
-        "normal_fg_pct": 0.441,
-        "pct_plusminus": 0.094
+        "d_fgm": 4.14,
+        "d_fga": 7.14,
+        "d_fg_pct": 0.58,
+        "normal_fg_pct": 0.448,
+        "pct_plusminus": 0.132
       }
     },
     {
@@ -4776,15 +4792,15 @@
       "name": "Mario Hezonja",
       "team": "CLE",
       "position": "F-G",
-      "gp": 9,
+      "gp": 10,
       "mpg": 20.2,
       "min_total": 202,
       "defense": {
-        "d_fgm": 3.78,
-        "d_fga": 7.44,
+        "d_fgm": 3.6,
+        "d_fga": 7.1,
         "d_fg_pct": 0.507,
-        "normal_fg_pct": 0.456,
-        "pct_plusminus": 0.051
+        "normal_fg_pct": 0.453,
+        "pct_plusminus": 0.054
       }
     },
     {
@@ -4799,8 +4815,8 @@
         "d_fgm": 3.0,
         "d_fga": 6.86,
         "d_fg_pct": 0.438,
-        "normal_fg_pct": 0.498,
-        "pct_plusminus": -0.06
+        "normal_fg_pct": 0.5,
+        "pct_plusminus": -0.062
       }
     },
     {
@@ -4809,8 +4825,8 @@
       "team": "CHI",
       "position": "F",
       "gp": 8,
-      "mpg": 25.2,
-      "min_total": 202,
+      "mpg": 25.8,
+      "min_total": 232,
       "defense": {
         "d_fgm": 4.88,
         "d_fga": 9.38,
@@ -4825,14 +4841,14 @@
       "team": "LAL",
       "position": "G-F",
       "gp": 10,
-      "mpg": 24.3,
-      "min_total": 243,
+      "mpg": 24.6,
+      "min_total": 271,
       "defense": {
         "d_fgm": 2.5,
         "d_fga": 5.5,
         "d_fg_pct": 0.455,
-        "normal_fg_pct": 0.455,
-        "pct_plusminus": 0.0
+        "normal_fg_pct": 0.458,
+        "pct_plusminus": -0.003
       }
     },
     {
@@ -4841,14 +4857,14 @@
       "team": "DAL",
       "position": "G",
       "gp": 8,
-      "mpg": 21.8,
-      "min_total": 174,
+      "mpg": 21.2,
+      "min_total": 191,
       "defense": {
         "d_fgm": 4.88,
         "d_fga": 8.5,
         "d_fg_pct": 0.574,
-        "normal_fg_pct": 0.458,
-        "pct_plusminus": 0.115
+        "normal_fg_pct": 0.46,
+        "pct_plusminus": 0.114
       }
     },
     {
@@ -4857,8 +4873,8 @@
       "team": "LAC",
       "position": "G-F",
       "gp": 2,
-      "mpg": 23.2,
-      "min_total": 46,
+      "mpg": 21.9,
+      "min_total": 66,
       "defense": {
         "d_fgm": 3.5,
         "d_fga": 7.0,
@@ -4872,15 +4888,15 @@
       "name": "Meleek Thomas",
       "team": "CLE",
       "position": "G",
-      "gp": 6,
+      "gp": 7,
       "mpg": 22.5,
       "min_total": 158,
       "defense": {
-        "d_fgm": 2.67,
-        "d_fga": 7.5,
-        "d_fg_pct": 0.356,
-        "normal_fg_pct": 0.453,
-        "pct_plusminus": -0.097
+        "d_fgm": 2.57,
+        "d_fga": 7.29,
+        "d_fg_pct": 0.353,
+        "normal_fg_pct": 0.439,
+        "pct_plusminus": -0.086
       }
     },
     {
@@ -4888,15 +4904,15 @@
       "name": "Micah Peavy",
       "team": "OKC",
       "position": "G-F",
-      "gp": 5,
+      "gp": 6,
       "mpg": 16.9,
       "min_total": 101,
       "defense": {
-        "d_fgm": 3.4,
-        "d_fga": 5.6,
-        "d_fg_pct": 0.607,
-        "normal_fg_pct": 0.443,
-        "pct_plusminus": 0.164
+        "d_fgm": 3.17,
+        "d_fga": 5.83,
+        "d_fg_pct": 0.543,
+        "normal_fg_pct": 0.428,
+        "pct_plusminus": 0.115
       }
     },
     {
@@ -4904,15 +4920,15 @@
       "name": "Micah Potter",
       "team": "POR",
       "position": "C",
-      "gp": 3,
+      "gp": 4,
       "mpg": 8.1,
       "min_total": 40,
       "defense": {
-        "d_fgm": 3.33,
-        "d_fga": 5.33,
-        "d_fg_pct": 0.625,
-        "normal_fg_pct": 0.493,
-        "pct_plusminus": 0.132
+        "d_fgm": 2.75,
+        "d_fga": 5.25,
+        "d_fg_pct": 0.524,
+        "normal_fg_pct": 0.481,
+        "pct_plusminus": 0.043
       }
     },
     {
@@ -4920,15 +4936,15 @@
       "name": "Michael Porter Jr.",
       "team": "BKN",
       "position": "F",
-      "gp": 8,
-      "mpg": 33.5,
-      "min_total": 302,
+      "gp": 9,
+      "mpg": 33.1,
+      "min_total": 331,
       "defense": {
-        "d_fgm": 4.13,
-        "d_fga": 9.88,
-        "d_fg_pct": 0.418,
-        "normal_fg_pct": 0.435,
-        "pct_plusminus": -0.017
+        "d_fgm": 4.78,
+        "d_fga": 10.33,
+        "d_fg_pct": 0.462,
+        "normal_fg_pct": 0.441,
+        "pct_plusminus": 0.022
       }
     },
     {
@@ -4936,15 +4952,15 @@
       "name": "Mikal Bridges",
       "team": "NYK",
       "position": "G-F",
-      "gp": 8,
+      "gp": 9,
       "mpg": 26.0,
       "min_total": 234,
       "defense": {
-        "d_fgm": 3.38,
-        "d_fga": 7.63,
-        "d_fg_pct": 0.443,
-        "normal_fg_pct": 0.437,
-        "pct_plusminus": 0.005
+        "d_fgm": 3.56,
+        "d_fga": 8.11,
+        "d_fg_pct": 0.438,
+        "normal_fg_pct": 0.436,
+        "pct_plusminus": 0.002
       }
     },
     {
@@ -4953,14 +4969,14 @@
       "team": "BOS",
       "position": "G",
       "gp": 3,
-      "mpg": 7.1,
-      "min_total": 21,
+      "mpg": 7.9,
+      "min_total": 32,
       "defense": {
         "d_fgm": 0.67,
         "d_fga": 2.0,
         "d_fg_pct": 0.333,
-        "normal_fg_pct": 0.406,
-        "pct_plusminus": -0.073
+        "normal_fg_pct": 0.402,
+        "pct_plusminus": -0.069
       }
     },
     {
@@ -4968,15 +4984,15 @@
       "name": "Mikel Brown Jr.",
       "team": "BKN",
       "position": "G",
-      "gp": 6,
+      "gp": 7,
       "mpg": 23.2,
       "min_total": 162,
       "defense": {
-        "d_fgm": 2.83,
-        "d_fga": 4.83,
-        "d_fg_pct": 0.586,
-        "normal_fg_pct": 0.426,
-        "pct_plusminus": 0.16
+        "d_fgm": 2.71,
+        "d_fga": 4.71,
+        "d_fg_pct": 0.576,
+        "normal_fg_pct": 0.431,
+        "pct_plusminus": 0.145
       }
     },
     {
@@ -4984,15 +5000,15 @@
       "name": "Miles Bridges",
       "team": "PHX",
       "position": "F",
-      "gp": 7,
+      "gp": 8,
       "mpg": 32.3,
       "min_total": 258,
       "defense": {
-        "d_fgm": 5.0,
-        "d_fga": 12.29,
-        "d_fg_pct": 0.407,
+        "d_fgm": 4.75,
+        "d_fga": 11.63,
+        "d_fg_pct": 0.409,
         "normal_fg_pct": 0.482,
-        "pct_plusminus": -0.075
+        "pct_plusminus": -0.074
       }
     },
     {
@@ -5000,15 +5016,15 @@
       "name": "Miles McBride",
       "team": "NYK",
       "position": "G",
-      "gp": 8,
+      "gp": 9,
       "mpg": 17.3,
       "min_total": 156,
       "defense": {
-        "d_fgm": 3.25,
-        "d_fga": 6.75,
-        "d_fg_pct": 0.481,
-        "normal_fg_pct": 0.435,
-        "pct_plusminus": 0.046
+        "d_fgm": 3.0,
+        "d_fga": 6.44,
+        "d_fg_pct": 0.466,
+        "normal_fg_pct": 0.432,
+        "pct_plusminus": 0.033
       }
     },
     {
@@ -5017,14 +5033,14 @@
       "team": "BOS",
       "position": "C-F",
       "gp": 8,
-      "mpg": 18.9,
-      "min_total": 151,
+      "mpg": 18.8,
+      "min_total": 169,
       "defense": {
         "d_fgm": 2.88,
         "d_fga": 6.13,
         "d_fg_pct": 0.469,
-        "normal_fg_pct": 0.461,
-        "pct_plusminus": 0.009
+        "normal_fg_pct": 0.458,
+        "pct_plusminus": 0.011
       }
     },
     {
@@ -5033,14 +5049,14 @@
       "team": "UTA",
       "position": "C",
       "gp": 5,
-      "mpg": 17.5,
-      "min_total": 88,
+      "mpg": 17.4,
+      "min_total": 104,
       "defense": {
         "d_fgm": 1.8,
         "d_fga": 6.2,
         "d_fg_pct": 0.29,
-        "normal_fg_pct": 0.484,
-        "pct_plusminus": -0.194
+        "normal_fg_pct": 0.486,
+        "pct_plusminus": -0.196
       }
     },
     {
@@ -5048,15 +5064,15 @@
       "name": "Mohamed Diawara",
       "team": "NYK",
       "position": "F",
-      "gp": 1,
+      "gp": 2,
       "mpg": 10.7,
       "min_total": 43,
       "defense": {
-        "d_fgm": 3.0,
-        "d_fga": 7.0,
-        "d_fg_pct": 0.429,
-        "normal_fg_pct": 0.428,
-        "pct_plusminus": 0.001
+        "d_fgm": 2.0,
+        "d_fga": 5.5,
+        "d_fg_pct": 0.364,
+        "normal_fg_pct": 0.429,
+        "pct_plusminus": -0.065
       }
     },
     {
@@ -5065,14 +5081,14 @@
       "team": "DAL",
       "position": "F",
       "gp": 9,
-      "mpg": 16.8,
-      "min_total": 151,
+      "mpg": 17.0,
+      "min_total": 170,
       "defense": {
         "d_fgm": 4.11,
         "d_fga": 7.78,
         "d_fg_pct": 0.529,
-        "normal_fg_pct": 0.457,
-        "pct_plusminus": 0.072
+        "normal_fg_pct": 0.455,
+        "pct_plusminus": 0.074
       }
     },
     {
@@ -5080,15 +5096,15 @@
       "name": "Moritz Wagner",
       "team": "BKN",
       "position": "F-C",
-      "gp": 8,
-      "mpg": 18.5,
-      "min_total": 166,
+      "gp": 9,
+      "mpg": 18.2,
+      "min_total": 182,
       "defense": {
-        "d_fgm": 3.13,
-        "d_fga": 7.75,
-        "d_fg_pct": 0.403,
-        "normal_fg_pct": 0.478,
-        "pct_plusminus": -0.074
+        "d_fgm": 3.33,
+        "d_fga": 8.11,
+        "d_fg_pct": 0.411,
+        "normal_fg_pct": 0.474,
+        "pct_plusminus": -0.063
       }
     },
     {
@@ -5097,14 +5113,14 @@
       "team": "DAL",
       "position": "C",
       "gp": 2,
-      "mpg": 2.7,
-      "min_total": 16,
+      "mpg": 3.0,
+      "min_total": 21,
       "defense": {
         "d_fgm": 0.5,
         "d_fga": 1.5,
         "d_fg_pct": 0.333,
-        "normal_fg_pct": 0.341,
-        "pct_plusminus": -0.007
+        "normal_fg_pct": 0.371,
+        "pct_plusminus": -0.038
       }
     },
     {
@@ -5120,7 +5136,7 @@
         "d_fga": 12.33,
         "d_fg_pct": 0.514,
         "normal_fg_pct": 0.467,
-        "pct_plusminus": 0.046
+        "pct_plusminus": 0.047
       }
     },
     {
@@ -5129,14 +5145,14 @@
       "team": "MIL",
       "position": "C-F",
       "gp": 9,
-      "mpg": 27.5,
-      "min_total": 248,
+      "mpg": 27.1,
+      "min_total": 271,
       "defense": {
         "d_fgm": 6.33,
         "d_fga": 15.67,
         "d_fg_pct": 0.404,
-        "normal_fg_pct": 0.489,
-        "pct_plusminus": -0.085
+        "normal_fg_pct": 0.486,
+        "pct_plusminus": -0.082
       }
     },
     {
@@ -5161,13 +5177,13 @@
       "team": "DAL",
       "position": "F",
       "gp": 6,
-      "mpg": 26.4,
-      "min_total": 158,
+      "mpg": 24.8,
+      "min_total": 174,
       "defense": {
         "d_fgm": 2.5,
         "d_fga": 6.0,
         "d_fg_pct": 0.417,
-        "normal_fg_pct": 0.434,
+        "normal_fg_pct": 0.433,
         "pct_plusminus": -0.017
       }
     },
@@ -5177,14 +5193,14 @@
       "team": "MIL",
       "position": "F",
       "gp": 7,
-      "mpg": 14.9,
-      "min_total": 104,
+      "mpg": 16.0,
+      "min_total": 128,
       "defense": {
         "d_fgm": 2.0,
         "d_fga": 6.57,
         "d_fg_pct": 0.304,
-        "normal_fg_pct": 0.477,
-        "pct_plusminus": -0.173
+        "normal_fg_pct": 0.483,
+        "pct_plusminus": -0.178
       }
     },
     {
@@ -5210,13 +5226,13 @@
       "position": "C",
       "gp": 9,
       "mpg": 21.8,
-      "min_total": 196,
+      "min_total": 218,
       "defense": {
         "d_fgm": 4.44,
         "d_fga": 10.44,
         "d_fg_pct": 0.426,
-        "normal_fg_pct": 0.455,
-        "pct_plusminus": -0.029
+        "normal_fg_pct": 0.452,
+        "pct_plusminus": -0.026
       }
     },
     {
@@ -5225,14 +5241,14 @@
       "team": "LAC",
       "position": "F",
       "gp": 2,
-      "mpg": 4.9,
-      "min_total": 20,
+      "mpg": 4.4,
+      "min_total": 22,
       "defense": {
         "d_fgm": 1.0,
         "d_fga": 2.5,
         "d_fg_pct": 0.4,
-        "normal_fg_pct": 0.425,
-        "pct_plusminus": -0.025
+        "normal_fg_pct": 0.42,
+        "pct_plusminus": -0.02
       }
     },
     {
@@ -5256,15 +5272,15 @@
       "name": "Nickeil Alexander-Walker",
       "team": "ATL",
       "position": "G",
-      "gp": 10,
+      "gp": 11,
       "mpg": 30.8,
       "min_total": 339,
       "defense": {
-        "d_fgm": 4.1,
-        "d_fga": 7.9,
-        "d_fg_pct": 0.519,
-        "normal_fg_pct": 0.459,
-        "pct_plusminus": 0.06
+        "d_fgm": 4.27,
+        "d_fga": 8.09,
+        "d_fg_pct": 0.528,
+        "normal_fg_pct": 0.456,
+        "pct_plusminus": 0.072
       }
     },
     {
@@ -5279,8 +5295,8 @@
         "d_fgm": 7.71,
         "d_fga": 14.57,
         "d_fg_pct": 0.529,
-        "normal_fg_pct": 0.484,
-        "pct_plusminus": 0.045
+        "normal_fg_pct": 0.483,
+        "pct_plusminus": 0.047
       }
     },
     {
@@ -5295,8 +5311,8 @@
         "d_fgm": 2.14,
         "d_fga": 5.71,
         "d_fg_pct": 0.375,
-        "normal_fg_pct": 0.466,
-        "pct_plusminus": -0.091
+        "normal_fg_pct": 0.468,
+        "pct_plusminus": -0.093
       }
     },
     {
@@ -5304,21 +5320,21 @@
       "name": "Nikola Vu\u010devi\u0107",
       "team": "ORL",
       "position": "C",
-      "gp": 8,
+      "gp": 9,
       "mpg": 8.5,
       "min_total": 76,
       "defense": {
-        "d_fgm": 2.25,
-        "d_fga": 5.5,
-        "d_fg_pct": 0.409,
-        "normal_fg_pct": 0.482,
-        "pct_plusminus": -0.073
+        "d_fgm": 2.22,
+        "d_fga": 5.33,
+        "d_fg_pct": 0.417,
+        "normal_fg_pct": 0.48,
+        "pct_plusminus": -0.064
       }
     },
     {
       "id": 1642363,
       "name": "Nique Clifford",
-      "team": "SAC",
+      "team": "OKC",
       "position": "G",
       "gp": 8,
       "mpg": 6.2,
@@ -5327,8 +5343,8 @@
         "d_fgm": 1.25,
         "d_fga": 1.88,
         "d_fg_pct": 0.667,
-        "normal_fg_pct": 0.469,
-        "pct_plusminus": 0.198
+        "normal_fg_pct": 0.459,
+        "pct_plusminus": 0.208
       }
     },
     {
@@ -5337,14 +5353,14 @@
       "team": "CHI",
       "position": "F",
       "gp": 7,
-      "mpg": 14.0,
-      "min_total": 98,
+      "mpg": 14.1,
+      "min_total": 113,
       "defense": {
         "d_fgm": 2.0,
         "d_fga": 5.14,
         "d_fg_pct": 0.389,
-        "normal_fg_pct": 0.436,
-        "pct_plusminus": -0.047
+        "normal_fg_pct": 0.438,
+        "pct_plusminus": -0.049
       }
     },
     {
@@ -5352,15 +5368,15 @@
       "name": "Noah Clowney",
       "team": "BKN",
       "position": "F-C",
-      "gp": 8,
-      "mpg": 21.0,
-      "min_total": 189,
+      "gp": 9,
+      "mpg": 19.7,
+      "min_total": 197,
       "defense": {
-        "d_fgm": 4.38,
-        "d_fga": 10.63,
-        "d_fg_pct": 0.412,
-        "normal_fg_pct": 0.429,
-        "pct_plusminus": -0.018
+        "d_fgm": 4.44,
+        "d_fga": 11.22,
+        "d_fg_pct": 0.396,
+        "normal_fg_pct": 0.433,
+        "pct_plusminus": -0.037
       }
     },
     {
@@ -5368,15 +5384,15 @@
       "name": "Nolan Traore",
       "team": "BKN",
       "position": "G",
-      "gp": 8,
-      "mpg": 22.2,
-      "min_total": 200,
+      "gp": 9,
+      "mpg": 22.1,
+      "min_total": 221,
       "defense": {
-        "d_fgm": 2.75,
-        "d_fga": 6.25,
-        "d_fg_pct": 0.44,
-        "normal_fg_pct": 0.42,
-        "pct_plusminus": 0.02
+        "d_fgm": 3.11,
+        "d_fga": 6.56,
+        "d_fg_pct": 0.475,
+        "normal_fg_pct": 0.426,
+        "pct_plusminus": 0.048
       }
     },
     {
@@ -5407,8 +5423,8 @@
         "d_fgm": 4.25,
         "d_fga": 7.75,
         "d_fg_pct": 0.548,
-        "normal_fg_pct": 0.451,
-        "pct_plusminus": 0.098
+        "normal_fg_pct": 0.448,
+        "pct_plusminus": 0.1
       }
     },
     {
@@ -5416,15 +5432,15 @@
       "name": "OG Anunoby",
       "team": "NYK",
       "position": "F-G",
-      "gp": 8,
+      "gp": 9,
       "mpg": 33.0,
       "min_total": 297,
       "defense": {
-        "d_fgm": 5.13,
-        "d_fga": 11.88,
-        "d_fg_pct": 0.432,
-        "normal_fg_pct": 0.443,
-        "pct_plusminus": -0.011
+        "d_fgm": 5.56,
+        "d_fga": 12.22,
+        "d_fg_pct": 0.455,
+        "normal_fg_pct": 0.444,
+        "pct_plusminus": 0.01
       }
     },
     {
@@ -5440,7 +5456,7 @@
         "d_fga": 5.33,
         "d_fg_pct": 0.313,
         "normal_fg_pct": 0.42,
-        "pct_plusminus": -0.107
+        "pct_plusminus": -0.108
       }
     },
     {
@@ -5455,8 +5471,8 @@
         "d_fgm": 1.33,
         "d_fga": 4.0,
         "d_fg_pct": 0.333,
-        "normal_fg_pct": 0.412,
-        "pct_plusminus": -0.079
+        "normal_fg_pct": 0.443,
+        "pct_plusminus": -0.11
       }
     },
     {
@@ -5464,15 +5480,15 @@
       "name": "Onyeka Okongwu",
       "team": "ATL",
       "position": "F-C",
-      "gp": 10,
+      "gp": 11,
       "mpg": 29.5,
       "min_total": 324,
       "defense": {
-        "d_fgm": 6.6,
-        "d_fga": 13.9,
-        "d_fg_pct": 0.475,
-        "normal_fg_pct": 0.5,
-        "pct_plusminus": -0.025
+        "d_fgm": 6.27,
+        "d_fga": 13.82,
+        "d_fg_pct": 0.454,
+        "normal_fg_pct": 0.492,
+        "pct_plusminus": -0.038
       }
     },
     {
@@ -5480,15 +5496,15 @@
       "name": "Oscar Tshiebwe",
       "team": "HOU",
       "position": "F-C",
-      "gp": 4,
+      "gp": 5,
       "mpg": 7.1,
       "min_total": 43,
       "defense": {
-        "d_fgm": 1.5,
-        "d_fga": 3.5,
-        "d_fg_pct": 0.429,
-        "normal_fg_pct": 0.516,
-        "pct_plusminus": -0.088
+        "d_fgm": 1.4,
+        "d_fga": 3.0,
+        "d_fg_pct": 0.467,
+        "normal_fg_pct": 0.519,
+        "pct_plusminus": -0.052
       }
     },
     {
@@ -5496,15 +5512,15 @@
       "name": "Oso Ighodaro",
       "team": "PHX",
       "position": "F",
-      "gp": 5,
+      "gp": 6,
       "mpg": 21.6,
       "min_total": 130,
       "defense": {
-        "d_fgm": 4.4,
-        "d_fga": 9.6,
-        "d_fg_pct": 0.458,
-        "normal_fg_pct": 0.485,
-        "pct_plusminus": -0.027
+        "d_fgm": 4.5,
+        "d_fga": 10.17,
+        "d_fg_pct": 0.443,
+        "normal_fg_pct": 0.479,
+        "pct_plusminus": -0.036
       }
     },
     {
@@ -5513,14 +5529,14 @@
       "team": "MIL",
       "position": "F",
       "gp": 6,
-      "mpg": 10.1,
-      "min_total": 61,
+      "mpg": 10.8,
+      "min_total": 76,
       "defense": {
         "d_fgm": 2.0,
         "d_fga": 3.33,
         "d_fg_pct": 0.6,
-        "normal_fg_pct": 0.456,
-        "pct_plusminus": 0.144
+        "normal_fg_pct": 0.449,
+        "pct_plusminus": 0.151
       }
     },
     {
@@ -5529,14 +5545,14 @@
       "team": "DAL",
       "position": "F",
       "gp": 9,
-      "mpg": 34.5,
-      "min_total": 310,
+      "mpg": 33.5,
+      "min_total": 335,
       "defense": {
         "d_fgm": 6.0,
         "d_fga": 13.67,
         "d_fg_pct": 0.439,
-        "normal_fg_pct": 0.47,
-        "pct_plusminus": -0.031
+        "normal_fg_pct": 0.466,
+        "pct_plusminus": -0.027
       }
     },
     {
@@ -5551,8 +5567,8 @@
         "d_fgm": 1.0,
         "d_fga": 5.0,
         "d_fg_pct": 0.2,
-        "normal_fg_pct": 0.522,
-        "pct_plusminus": -0.322
+        "normal_fg_pct": 0.523,
+        "pct_plusminus": -0.323
       }
     },
     {
@@ -5583,8 +5599,8 @@
         "d_fgm": 5.5,
         "d_fga": 15.0,
         "d_fg_pct": 0.367,
-        "normal_fg_pct": 0.459,
-        "pct_plusminus": -0.092
+        "normal_fg_pct": 0.464,
+        "pct_plusminus": -0.097
       }
     },
     {
@@ -5599,8 +5615,8 @@
         "d_fgm": 5.25,
         "d_fga": 10.0,
         "d_fg_pct": 0.525,
-        "normal_fg_pct": 0.459,
-        "pct_plusminus": 0.066
+        "normal_fg_pct": 0.462,
+        "pct_plusminus": 0.063
       }
     },
     {
@@ -5615,8 +5631,8 @@
         "d_fgm": 1.5,
         "d_fga": 3.0,
         "d_fg_pct": 0.5,
-        "normal_fg_pct": 0.384,
-        "pct_plusminus": 0.116
+        "normal_fg_pct": 0.416,
+        "pct_plusminus": 0.084
       }
     },
     {
@@ -5625,14 +5641,14 @@
       "team": "CHI",
       "position": "F",
       "gp": 1,
-      "mpg": 19.8,
-      "min_total": 20,
+      "mpg": 22.2,
+      "min_total": 44,
       "defense": {
         "d_fgm": 4.0,
         "d_fga": 9.0,
         "d_fg_pct": 0.444,
-        "normal_fg_pct": 0.414,
-        "pct_plusminus": 0.031
+        "normal_fg_pct": 0.413,
+        "pct_plusminus": 0.032
       }
     },
     {
@@ -5641,14 +5657,14 @@
       "team": "BOS",
       "position": "F",
       "gp": 8,
-      "mpg": 30.4,
-      "min_total": 243,
+      "mpg": 30.1,
+      "min_total": 271,
       "defense": {
         "d_fgm": 5.0,
         "d_fga": 11.63,
         "d_fg_pct": 0.43,
-        "normal_fg_pct": 0.431,
-        "pct_plusminus": -0.001
+        "normal_fg_pct": 0.432,
+        "pct_plusminus": -0.002
       }
     },
     {
@@ -5657,8 +5673,8 @@
       "team": "DET",
       "position": "F",
       "gp": 8,
-      "mpg": 27.2,
-      "min_total": 218,
+      "mpg": 26.5,
+      "min_total": 238,
       "defense": {
         "d_fgm": 5.75,
         "d_fga": 14.38,
@@ -5673,14 +5689,14 @@
       "team": "BOS",
       "position": "G",
       "gp": 9,
-      "mpg": 26.4,
-      "min_total": 238,
+      "mpg": 26.7,
+      "min_total": 267,
       "defense": {
         "d_fgm": 3.56,
         "d_fga": 9.0,
         "d_fg_pct": 0.395,
-        "normal_fg_pct": 0.416,
-        "pct_plusminus": -0.021
+        "normal_fg_pct": 0.414,
+        "pct_plusminus": -0.019
       }
     },
     {
@@ -5689,14 +5705,14 @@
       "team": "MIA",
       "position": "G",
       "gp": 9,
-      "mpg": 30.2,
-      "min_total": 272,
+      "mpg": 29.4,
+      "min_total": 294,
       "defense": {
         "d_fgm": 3.78,
         "d_fga": 8.89,
         "d_fg_pct": 0.425,
-        "normal_fg_pct": 0.442,
-        "pct_plusminus": -0.017
+        "normal_fg_pct": 0.443,
+        "pct_plusminus": -0.018
       }
     },
     {
@@ -5704,15 +5720,15 @@
       "name": "Peyton Watson",
       "team": "CLE",
       "position": "G",
-      "gp": 7,
+      "gp": 8,
       "mpg": 28.6,
       "min_total": 229,
       "defense": {
-        "d_fgm": 4.71,
-        "d_fga": 11.43,
-        "d_fg_pct": 0.413,
-        "normal_fg_pct": 0.462,
-        "pct_plusminus": -0.049
+        "d_fgm": 4.63,
+        "d_fga": 11.5,
+        "d_fg_pct": 0.402,
+        "normal_fg_pct": 0.454,
+        "pct_plusminus": -0.052
       }
     },
     {
@@ -5721,13 +5737,13 @@
       "team": "SAC",
       "position": "F",
       "gp": 9,
-      "mpg": 26.6,
-      "min_total": 239,
+      "mpg": 27.5,
+      "min_total": 275,
       "defense": {
         "d_fgm": 5.44,
         "d_fga": 12.11,
         "d_fg_pct": 0.45,
-        "normal_fg_pct": 0.468,
+        "normal_fg_pct": 0.467,
         "pct_plusminus": -0.018
       }
     },
@@ -5737,14 +5753,14 @@
       "team": "LAL",
       "position": "G",
       "gp": 10,
-      "mpg": 25.5,
-      "min_total": 255,
+      "mpg": 26.1,
+      "min_total": 287,
       "defense": {
         "d_fgm": 2.4,
         "d_fga": 6.3,
         "d_fg_pct": 0.381,
-        "normal_fg_pct": 0.438,
-        "pct_plusminus": -0.057
+        "normal_fg_pct": 0.439,
+        "pct_plusminus": -0.058
       }
     },
     {
@@ -5759,8 +5775,8 @@
         "d_fgm": 2.78,
         "d_fga": 8.0,
         "d_fg_pct": 0.347,
-        "normal_fg_pct": 0.433,
-        "pct_plusminus": -0.086
+        "normal_fg_pct": 0.436,
+        "pct_plusminus": -0.089
       }
     },
     {
@@ -5775,8 +5791,8 @@
         "d_fgm": 3.0,
         "d_fga": 5.71,
         "d_fg_pct": 0.525,
-        "normal_fg_pct": 0.497,
-        "pct_plusminus": 0.028
+        "normal_fg_pct": 0.504,
+        "pct_plusminus": 0.021
       }
     },
     {
@@ -5791,8 +5807,8 @@
         "d_fgm": 4.44,
         "d_fga": 9.33,
         "d_fg_pct": 0.476,
-        "normal_fg_pct": 0.46,
-        "pct_plusminus": 0.016
+        "normal_fg_pct": 0.453,
+        "pct_plusminus": 0.024
       }
     },
     {
@@ -5807,8 +5823,8 @@
         "d_fgm": 1.0,
         "d_fga": 3.5,
         "d_fg_pct": 0.286,
-        "normal_fg_pct": 0.367,
-        "pct_plusminus": -0.081
+        "normal_fg_pct": 0.397,
+        "pct_plusminus": -0.111
       }
     },
     {
@@ -5832,15 +5848,31 @@
       "name": "Reed Sheppard",
       "team": "HOU",
       "position": "G",
-      "gp": 6,
+      "gp": 7,
       "mpg": 20.5,
       "min_total": 144,
       "defense": {
-        "d_fgm": 3.17,
-        "d_fga": 7.5,
-        "d_fg_pct": 0.422,
-        "normal_fg_pct": 0.455,
-        "pct_plusminus": -0.033
+        "d_fgm": 3.0,
+        "d_fga": 6.86,
+        "d_fg_pct": 0.438,
+        "normal_fg_pct": 0.452,
+        "pct_plusminus": -0.014
+      }
+    },
+    {
+      "id": 1642434,
+      "name": "Riley Minix",
+      "team": "CLE",
+      "position": "F",
+      "gp": 1,
+      "mpg": 7.9,
+      "min_total": 16,
+      "defense": {
+        "d_fgm": 0.0,
+        "d_fga": 4.0,
+        "d_fg_pct": 0.0,
+        "normal_fg_pct": 0.401,
+        "pct_plusminus": -0.401
       }
     },
     {
@@ -5855,7 +5887,7 @@
         "d_fgm": 4.57,
         "d_fga": 8.29,
         "d_fg_pct": 0.552,
-        "normal_fg_pct": 0.528,
+        "normal_fg_pct": 0.529,
         "pct_plusminus": 0.023
       }
     },
@@ -5865,14 +5897,14 @@
       "team": "BOS",
       "position": "G-F",
       "gp": 3,
-      "mpg": 6.7,
-      "min_total": 27,
+      "mpg": 6.2,
+      "min_total": 31,
       "defense": {
         "d_fgm": 1.33,
         "d_fga": 2.67,
         "d_fg_pct": 0.5,
-        "normal_fg_pct": 0.442,
-        "pct_plusminus": 0.058
+        "normal_fg_pct": 0.438,
+        "pct_plusminus": 0.062
       }
     },
     {
@@ -5881,14 +5913,14 @@
       "team": "DET",
       "position": "F",
       "gp": 8,
-      "mpg": 15.8,
-      "min_total": 126,
+      "mpg": 15.6,
+      "min_total": 140,
       "defense": {
         "d_fgm": 2.75,
         "d_fga": 6.75,
         "d_fg_pct": 0.407,
-        "normal_fg_pct": 0.429,
-        "pct_plusminus": -0.021
+        "normal_fg_pct": 0.425,
+        "pct_plusminus": -0.018
       }
     },
     {
@@ -5903,8 +5935,8 @@
         "d_fgm": 2.8,
         "d_fga": 5.6,
         "d_fg_pct": 0.5,
-        "normal_fg_pct": 0.443,
-        "pct_plusminus": 0.057
+        "normal_fg_pct": 0.441,
+        "pct_plusminus": 0.059
       }
     },
     {
@@ -5913,14 +5945,14 @@
       "team": "MIN",
       "position": "C",
       "gp": 9,
-      "mpg": 29.8,
-      "min_total": 268,
+      "mpg": 29.9,
+      "min_total": 299,
       "defense": {
         "d_fgm": 4.67,
         "d_fga": 12.67,
         "d_fg_pct": 0.368,
-        "normal_fg_pct": 0.484,
-        "pct_plusminus": -0.115
+        "normal_fg_pct": 0.48,
+        "pct_plusminus": -0.111
       }
     },
     {
@@ -5929,14 +5961,14 @@
       "team": "LAC",
       "position": "F",
       "gp": 5,
-      "mpg": 31.2,
-      "min_total": 187,
+      "mpg": 30.5,
+      "min_total": 214,
       "defense": {
         "d_fgm": 7.6,
         "d_fga": 12.0,
         "d_fg_pct": 0.633,
-        "normal_fg_pct": 0.475,
-        "pct_plusminus": 0.158
+        "normal_fg_pct": 0.476,
+        "pct_plusminus": 0.157
       }
     },
     {
@@ -5945,14 +5977,14 @@
       "team": "MIA",
       "position": "G",
       "gp": 7,
-      "mpg": 10.2,
-      "min_total": 71,
+      "mpg": 11.3,
+      "min_total": 90,
       "defense": {
         "d_fgm": 2.43,
         "d_fga": 3.86,
         "d_fg_pct": 0.63,
-        "normal_fg_pct": 0.403,
-        "pct_plusminus": 0.227
+        "normal_fg_pct": 0.405,
+        "pct_plusminus": 0.225
       }
     },
     {
@@ -5960,15 +5992,15 @@
       "name": "Ryan Dunn",
       "team": "PHX",
       "position": "F",
-      "gp": 7,
+      "gp": 8,
       "mpg": 16.0,
       "min_total": 128,
       "defense": {
-        "d_fgm": 1.57,
-        "d_fga": 4.71,
-        "d_fg_pct": 0.333,
-        "normal_fg_pct": 0.456,
-        "pct_plusminus": -0.122
+        "d_fgm": 1.88,
+        "d_fga": 4.88,
+        "d_fg_pct": 0.385,
+        "normal_fg_pct": 0.462,
+        "pct_plusminus": -0.077
       }
     },
     {
@@ -5983,8 +6015,8 @@
         "d_fgm": 4.0,
         "d_fga": 9.5,
         "d_fg_pct": 0.421,
-        "normal_fg_pct": 0.473,
-        "pct_plusminus": -0.051
+        "normal_fg_pct": 0.471,
+        "pct_plusminus": -0.05
       }
     },
     {
@@ -5999,8 +6031,8 @@
         "d_fgm": 0.5,
         "d_fga": 1.0,
         "d_fg_pct": 0.5,
-        "normal_fg_pct": 0.46,
-        "pct_plusminus": 0.04
+        "normal_fg_pct": 0.467,
+        "pct_plusminus": 0.033
       }
     },
     {
@@ -6009,14 +6041,14 @@
       "team": "MIL",
       "position": "G",
       "gp": 9,
-      "mpg": 23.7,
-      "min_total": 213,
+      "mpg": 23.3,
+      "min_total": 233,
       "defense": {
         "d_fgm": 5.0,
         "d_fga": 8.33,
         "d_fg_pct": 0.6,
-        "normal_fg_pct": 0.453,
-        "pct_plusminus": 0.147
+        "normal_fg_pct": 0.457,
+        "pct_plusminus": 0.143
       }
     },
     {
@@ -6025,14 +6057,14 @@
       "team": "NOP",
       "position": "F",
       "gp": 9,
-      "mpg": 27.1,
-      "min_total": 244,
+      "mpg": 27.0,
+      "min_total": 270,
       "defense": {
         "d_fgm": 2.67,
         "d_fga": 6.22,
         "d_fg_pct": 0.429,
         "normal_fg_pct": 0.463,
-        "pct_plusminus": -0.035
+        "pct_plusminus": -0.034
       }
     },
     {
@@ -6041,14 +6073,14 @@
       "team": "BOS",
       "position": "F",
       "gp": 9,
-      "mpg": 20.7,
-      "min_total": 186,
+      "mpg": 21.0,
+      "min_total": 210,
       "defense": {
         "d_fgm": 3.0,
         "d_fga": 6.22,
         "d_fg_pct": 0.482,
-        "normal_fg_pct": 0.428,
-        "pct_plusminus": 0.054
+        "normal_fg_pct": 0.427,
+        "pct_plusminus": 0.056
       }
     },
     {
@@ -6063,7 +6095,7 @@
         "d_fgm": 3.22,
         "d_fga": 7.33,
         "d_fg_pct": 0.439,
-        "normal_fg_pct": 0.458,
+        "normal_fg_pct": 0.457,
         "pct_plusminus": -0.018
       }
     },
@@ -6073,14 +6105,14 @@
       "team": "LAL",
       "position": "F-C",
       "gp": 10,
-      "mpg": 23.1,
-      "min_total": 231,
+      "mpg": 22.6,
+      "min_total": 249,
       "defense": {
         "d_fgm": 4.2,
         "d_fga": 8.3,
         "d_fg_pct": 0.506,
-        "normal_fg_pct": 0.458,
-        "pct_plusminus": 0.048
+        "normal_fg_pct": 0.456,
+        "pct_plusminus": 0.05
       }
     },
     {
@@ -6089,8 +6121,8 @@
       "team": "DAL",
       "position": "F-C",
       "gp": 1,
-      "mpg": 13.1,
-      "min_total": 13,
+      "mpg": 13.9,
+      "min_total": 28,
       "defense": {
         "d_fgm": 1.0,
         "d_fga": 2.0,
@@ -6104,15 +6136,15 @@
       "name": "Scoot Henderson",
       "team": "POR",
       "position": "G",
-      "gp": 8,
+      "gp": 9,
       "mpg": 22.3,
       "min_total": 201,
       "defense": {
-        "d_fgm": 2.88,
-        "d_fga": 8.13,
-        "d_fg_pct": 0.354,
-        "normal_fg_pct": 0.455,
-        "pct_plusminus": -0.102
+        "d_fgm": 3.11,
+        "d_fga": 8.33,
+        "d_fg_pct": 0.373,
+        "normal_fg_pct": 0.456,
+        "pct_plusminus": -0.083
       }
     },
     {
@@ -6127,8 +6159,8 @@
         "d_fgm": 6.13,
         "d_fga": 11.13,
         "d_fg_pct": 0.551,
-        "normal_fg_pct": 0.459,
-        "pct_plusminus": 0.092
+        "normal_fg_pct": 0.456,
+        "pct_plusminus": 0.095
       }
     },
     {
@@ -6143,8 +6175,8 @@
         "d_fgm": 2.6,
         "d_fga": 6.4,
         "d_fg_pct": 0.406,
-        "normal_fg_pct": 0.428,
-        "pct_plusminus": -0.022
+        "normal_fg_pct": 0.427,
+        "pct_plusminus": -0.021
       }
     },
     {
@@ -6159,8 +6191,8 @@
         "d_fgm": 2.0,
         "d_fga": 5.0,
         "d_fg_pct": 0.4,
-        "normal_fg_pct": 0.472,
-        "pct_plusminus": -0.072
+        "normal_fg_pct": 0.466,
+        "pct_plusminus": -0.066
       }
     },
     {
@@ -6168,15 +6200,15 @@
       "name": "Shai Gilgeous-Alexander",
       "team": "OKC",
       "position": "G",
-      "gp": 8,
+      "gp": 9,
       "mpg": 32.8,
       "min_total": 328,
       "defense": {
-        "d_fgm": 5.63,
-        "d_fga": 12.63,
-        "d_fg_pct": 0.446,
-        "normal_fg_pct": 0.467,
-        "pct_plusminus": -0.021
+        "d_fgm": 5.44,
+        "d_fga": 12.67,
+        "d_fg_pct": 0.43,
+        "normal_fg_pct": 0.459,
+        "pct_plusminus": -0.03
       }
     },
     {
@@ -6184,15 +6216,15 @@
       "name": "Sidy Cissoko",
       "team": "POR",
       "position": "G",
-      "gp": 8,
+      "gp": 9,
       "mpg": 21.3,
       "min_total": 192,
       "defense": {
-        "d_fgm": 3.13,
-        "d_fga": 7.0,
-        "d_fg_pct": 0.446,
-        "normal_fg_pct": 0.453,
-        "pct_plusminus": -0.007
+        "d_fgm": 3.11,
+        "d_fga": 6.78,
+        "d_fg_pct": 0.459,
+        "normal_fg_pct": 0.452,
+        "pct_plusminus": 0.007
       }
     },
     {
@@ -6223,8 +6255,8 @@
         "d_fgm": 4.4,
         "d_fga": 8.0,
         "d_fg_pct": 0.55,
-        "normal_fg_pct": 0.456,
-        "pct_plusminus": 0.094
+        "normal_fg_pct": 0.454,
+        "pct_plusminus": 0.096
       }
     },
     {
@@ -6232,15 +6264,15 @@
       "name": "Stephen Curry",
       "team": "GSW",
       "position": "G",
-      "gp": 7,
+      "gp": 8,
       "mpg": 29.6,
       "min_total": 237,
       "defense": {
-        "d_fgm": 2.86,
-        "d_fga": 5.86,
-        "d_fg_pct": 0.488,
-        "normal_fg_pct": 0.476,
-        "pct_plusminus": 0.012
+        "d_fgm": 2.88,
+        "d_fga": 6.5,
+        "d_fg_pct": 0.442,
+        "normal_fg_pct": 0.463,
+        "pct_plusminus": -0.02
       }
     },
     {
@@ -6248,15 +6280,15 @@
       "name": "Stephon Castle",
       "team": "SAS",
       "position": "G",
-      "gp": 9,
+      "gp": 10,
       "mpg": 29.1,
       "min_total": 291,
       "defense": {
-        "d_fgm": 5.22,
-        "d_fga": 10.0,
-        "d_fg_pct": 0.522,
+        "d_fgm": 5.0,
+        "d_fga": 9.8,
+        "d_fg_pct": 0.51,
         "normal_fg_pct": 0.442,
-        "pct_plusminus": 0.08
+        "pct_plusminus": 0.068
       }
     },
     {
@@ -6271,8 +6303,8 @@
         "d_fgm": 1.0,
         "d_fga": 3.0,
         "d_fg_pct": 0.333,
-        "normal_fg_pct": 0.489,
-        "pct_plusminus": -0.155
+        "normal_fg_pct": 0.495,
+        "pct_plusminus": -0.162
       }
     },
     {
@@ -6281,14 +6313,14 @@
       "team": "UTA",
       "position": "G-F",
       "gp": 8,
-      "mpg": 16.2,
-      "min_total": 146,
+      "mpg": 15.2,
+      "min_total": 152,
       "defense": {
         "d_fgm": 3.25,
         "d_fga": 6.63,
         "d_fg_pct": 0.491,
         "normal_fg_pct": 0.427,
-        "pct_plusminus": 0.063
+        "pct_plusminus": 0.064
       }
     },
     {
@@ -6303,8 +6335,8 @@
         "d_fgm": 1.0,
         "d_fga": 2.0,
         "d_fg_pct": 0.5,
-        "normal_fg_pct": 0.476,
-        "pct_plusminus": 0.025
+        "normal_fg_pct": 0.466,
+        "pct_plusminus": 0.035
       }
     },
     {
@@ -6312,15 +6344,15 @@
       "name": "Tari Eason",
       "team": "HOU",
       "position": "F",
-      "gp": 9,
+      "gp": 10,
       "mpg": 24.2,
       "min_total": 242,
       "defense": {
-        "d_fgm": 4.33,
-        "d_fga": 10.11,
-        "d_fg_pct": 0.429,
+        "d_fgm": 4.5,
+        "d_fga": 10.4,
+        "d_fg_pct": 0.433,
         "normal_fg_pct": 0.441,
-        "pct_plusminus": -0.012
+        "pct_plusminus": -0.008
       }
     },
     {
@@ -6328,15 +6360,15 @@
       "name": "Tarris Reed Jr.",
       "team": "SAS",
       "position": "C",
-      "gp": 5,
+      "gp": 6,
       "mpg": 5.3,
       "min_total": 32,
       "defense": {
-        "d_fgm": 1.2,
-        "d_fga": 2.4,
-        "d_fg_pct": 0.5,
-        "normal_fg_pct": 0.463,
-        "pct_plusminus": 0.037
+        "d_fgm": 1.33,
+        "d_fga": 2.83,
+        "d_fg_pct": 0.471,
+        "normal_fg_pct": 0.441,
+        "pct_plusminus": 0.029
       }
     },
     {
@@ -6351,8 +6383,8 @@
         "d_fgm": 1.0,
         "d_fga": 1.0,
         "d_fg_pct": 1.0,
-        "normal_fg_pct": 0.414,
-        "pct_plusminus": 0.586
+        "normal_fg_pct": 0.422,
+        "pct_plusminus": 0.578
       }
     },
     {
@@ -6367,8 +6399,8 @@
         "d_fgm": 1.0,
         "d_fga": 1.67,
         "d_fg_pct": 0.6,
-        "normal_fg_pct": 0.447,
-        "pct_plusminus": 0.153
+        "normal_fg_pct": 0.463,
+        "pct_plusminus": 0.137
       }
     },
     {
@@ -6376,15 +6408,15 @@
       "name": "Terance Mann",
       "team": "BKN",
       "position": "G-F",
-      "gp": 3,
-      "mpg": 14.0,
-      "min_total": 56,
+      "gp": 4,
+      "mpg": 15.5,
+      "min_total": 78,
       "defense": {
-        "d_fgm": 1.33,
-        "d_fga": 3.67,
-        "d_fg_pct": 0.364,
-        "normal_fg_pct": 0.403,
-        "pct_plusminus": -0.04
+        "d_fgm": 1.25,
+        "d_fga": 4.5,
+        "d_fg_pct": 0.278,
+        "normal_fg_pct": 0.42,
+        "pct_plusminus": -0.142
       }
     },
     {
@@ -6393,14 +6425,14 @@
       "team": "MIN",
       "position": "G-F",
       "gp": 7,
-      "mpg": 22.0,
-      "min_total": 154,
+      "mpg": 21.5,
+      "min_total": 172,
       "defense": {
         "d_fgm": 2.14,
         "d_fga": 5.57,
         "d_fg_pct": 0.385,
-        "normal_fg_pct": 0.408,
-        "pct_plusminus": -0.023
+        "normal_fg_pct": 0.405,
+        "pct_plusminus": -0.02
       }
     },
     {
@@ -6408,15 +6440,15 @@
       "name": "Thomas Bryant",
       "team": "CLE",
       "position": "C-F",
-      "gp": 4,
+      "gp": 5,
       "mpg": 11.9,
       "min_total": 60,
       "defense": {
-        "d_fgm": 2.25,
-        "d_fga": 6.0,
-        "d_fg_pct": 0.375,
-        "normal_fg_pct": 0.445,
-        "pct_plusminus": -0.07
+        "d_fgm": 3.2,
+        "d_fga": 6.4,
+        "d_fg_pct": 0.5,
+        "normal_fg_pct": 0.459,
+        "pct_plusminus": 0.041
       }
     },
     {
@@ -6431,7 +6463,7 @@
         "d_fgm": 2.22,
         "d_fga": 5.33,
         "d_fg_pct": 0.417,
-        "normal_fg_pct": 0.465,
+        "normal_fg_pct": 0.464,
         "pct_plusminus": -0.048
       }
     },
@@ -6441,14 +6473,14 @@
       "team": "MIA",
       "position": "G",
       "gp": 9,
-      "mpg": 15.5,
-      "min_total": 140,
+      "mpg": 14.7,
+      "min_total": 147,
       "defense": {
         "d_fgm": 3.33,
         "d_fga": 6.33,
         "d_fg_pct": 0.526,
         "normal_fg_pct": 0.434,
-        "pct_plusminus": 0.092
+        "pct_plusminus": 0.093
       }
     },
     {
@@ -6473,14 +6505,14 @@
       "team": "DAL",
       "position": "F",
       "gp": 2,
-      "mpg": 2.1,
-      "min_total": 10,
+      "mpg": 2.5,
+      "min_total": 15,
       "defense": {
         "d_fgm": 0.5,
         "d_fga": 2.5,
         "d_fg_pct": 0.2,
-        "normal_fg_pct": 0.377,
-        "pct_plusminus": -0.177
+        "normal_fg_pct": 0.379,
+        "pct_plusminus": -0.179
       }
     },
     {
@@ -6495,8 +6527,8 @@
         "d_fgm": 0.6,
         "d_fga": 1.4,
         "d_fg_pct": 0.429,
-        "normal_fg_pct": 0.491,
-        "pct_plusminus": -0.062
+        "normal_fg_pct": 0.489,
+        "pct_plusminus": -0.061
       }
     },
     {
@@ -6505,14 +6537,14 @@
       "team": "UTA",
       "position": "C-F",
       "gp": 2,
-      "mpg": 4.6,
-      "min_total": 14,
+      "mpg": 3.9,
+      "min_total": 16,
       "defense": {
         "d_fgm": 1.0,
         "d_fga": 3.0,
         "d_fg_pct": 0.333,
-        "normal_fg_pct": 0.36,
-        "pct_plusminus": -0.027
+        "normal_fg_pct": 0.369,
+        "pct_plusminus": -0.036
       }
     },
     {
@@ -6520,15 +6552,15 @@
       "name": "Toumani Camara",
       "team": "POR",
       "position": "F",
-      "gp": 8,
+      "gp": 9,
       "mpg": 27.2,
       "min_total": 245,
       "defense": {
-        "d_fgm": 5.13,
-        "d_fga": 11.88,
-        "d_fg_pct": 0.432,
-        "normal_fg_pct": 0.478,
-        "pct_plusminus": -0.046
+        "d_fgm": 5.33,
+        "d_fga": 11.33,
+        "d_fg_pct": 0.471,
+        "normal_fg_pct": 0.48,
+        "pct_plusminus": -0.009
       }
     },
     {
@@ -6536,15 +6568,15 @@
       "name": "Trae Young",
       "team": "WAS",
       "position": "G",
-      "gp": 9,
+      "gp": 10,
       "mpg": 35.2,
       "min_total": 352,
       "defense": {
-        "d_fgm": 4.0,
-        "d_fga": 8.22,
-        "d_fg_pct": 0.486,
+        "d_fgm": 3.9,
+        "d_fga": 7.8,
+        "d_fg_pct": 0.5,
         "normal_fg_pct": 0.434,
-        "pct_plusminus": 0.053
+        "pct_plusminus": 0.066
       }
     },
     {
@@ -6559,8 +6591,8 @@
         "d_fgm": 1.57,
         "d_fga": 3.71,
         "d_fg_pct": 0.423,
-        "normal_fg_pct": 0.416,
-        "pct_plusminus": 0.008
+        "normal_fg_pct": 0.41,
+        "pct_plusminus": 0.013
       }
     },
     {
@@ -6568,15 +6600,15 @@
       "name": "Tre Johnson",
       "team": "WAS",
       "position": "G",
-      "gp": 8,
+      "gp": 9,
       "mpg": 21.6,
       "min_total": 194,
       "defense": {
-        "d_fgm": 2.88,
-        "d_fga": 6.63,
-        "d_fg_pct": 0.434,
-        "normal_fg_pct": 0.426,
-        "pct_plusminus": 0.008
+        "d_fgm": 3.11,
+        "d_fga": 6.67,
+        "d_fg_pct": 0.467,
+        "normal_fg_pct": 0.435,
+        "pct_plusminus": 0.032
       }
     },
     {
@@ -6585,14 +6617,14 @@
       "team": "CHI",
       "position": "G",
       "gp": 8,
-      "mpg": 18.2,
-      "min_total": 146,
+      "mpg": 17.8,
+      "min_total": 160,
       "defense": {
         "d_fgm": 2.5,
         "d_fga": 4.25,
         "d_fg_pct": 0.588,
-        "normal_fg_pct": 0.46,
-        "pct_plusminus": 0.128
+        "normal_fg_pct": 0.462,
+        "pct_plusminus": 0.127
       }
     },
     {
@@ -6600,15 +6632,15 @@
       "name": "Tre Mann",
       "team": "WAS",
       "position": "G",
-      "gp": 1,
+      "gp": 2,
       "mpg": 5.5,
       "min_total": 22,
       "defense": {
-        "d_fgm": 0.0,
-        "d_fga": 1.0,
-        "d_fg_pct": 0.0,
-        "normal_fg_pct": 0.414,
-        "pct_plusminus": -0.414
+        "d_fgm": 1.0,
+        "d_fga": 5.0,
+        "d_fg_pct": 0.2,
+        "normal_fg_pct": 0.411,
+        "pct_plusminus": -0.211
       }
     },
     {
@@ -6617,13 +6649,13 @@
       "team": "NOP",
       "position": "G-F",
       "gp": 5,
-      "mpg": 17.9,
-      "min_total": 90,
+      "mpg": 17.7,
+      "min_total": 106,
       "defense": {
         "d_fgm": 2.4,
         "d_fga": 7.8,
         "d_fg_pct": 0.308,
-        "normal_fg_pct": 0.431,
+        "normal_fg_pct": 0.43,
         "pct_plusminus": -0.123
       }
     },
@@ -6639,8 +6671,8 @@
         "d_fgm": 2.86,
         "d_fga": 8.57,
         "d_fg_pct": 0.333,
-        "normal_fg_pct": 0.447,
-        "pct_plusminus": -0.113
+        "normal_fg_pct": 0.444,
+        "pct_plusminus": -0.111
       }
     },
     {
@@ -6649,14 +6681,14 @@
       "team": "MIN",
       "position": "F",
       "gp": 10,
-      "mpg": 18.2,
-      "min_total": 182,
+      "mpg": 18.5,
+      "min_total": 204,
       "defense": {
         "d_fgm": 4.6,
         "d_fga": 9.2,
         "d_fg_pct": 0.5,
-        "normal_fg_pct": 0.463,
-        "pct_plusminus": 0.037
+        "normal_fg_pct": 0.462,
+        "pct_plusminus": 0.038
       }
     },
     {
@@ -6665,14 +6697,14 @@
       "team": "NOP",
       "position": "F",
       "gp": 8,
-      "mpg": 33.1,
-      "min_total": 265,
+      "mpg": 32.8,
+      "min_total": 295,
       "defense": {
         "d_fgm": 5.13,
         "d_fga": 9.75,
         "d_fg_pct": 0.526,
-        "normal_fg_pct": 0.466,
-        "pct_plusminus": 0.06
+        "normal_fg_pct": 0.467,
+        "pct_plusminus": 0.059
       }
     },
     {
@@ -6687,8 +6719,8 @@
         "d_fgm": 3.0,
         "d_fga": 4.33,
         "d_fg_pct": 0.692,
-        "normal_fg_pct": 0.447,
-        "pct_plusminus": 0.246
+        "normal_fg_pct": 0.453,
+        "pct_plusminus": 0.24
       }
     },
     {
@@ -6696,15 +6728,15 @@
       "name": "Tristan da Silva",
       "team": "ORL",
       "position": "F",
-      "gp": 8,
+      "gp": 9,
       "mpg": 30.5,
       "min_total": 274,
       "defense": {
-        "d_fgm": 5.88,
-        "d_fga": 9.38,
-        "d_fg_pct": 0.627,
-        "normal_fg_pct": 0.457,
-        "pct_plusminus": 0.169
+        "d_fgm": 5.89,
+        "d_fga": 9.56,
+        "d_fg_pct": 0.616,
+        "normal_fg_pct": 0.455,
+        "pct_plusminus": 0.161
       }
     },
     {
@@ -6719,8 +6751,8 @@
         "d_fgm": 4.13,
         "d_fga": 10.25,
         "d_fg_pct": 0.402,
-        "normal_fg_pct": 0.45,
-        "pct_plusminus": -0.047
+        "normal_fg_pct": 0.449,
+        "pct_plusminus": -0.046
       }
     },
     {
@@ -6729,14 +6761,14 @@
       "team": "MIL",
       "position": "G",
       "gp": 9,
-      "mpg": 31.2,
-      "min_total": 281,
+      "mpg": 30.7,
+      "min_total": 307,
       "defense": {
         "d_fgm": 4.0,
         "d_fga": 8.67,
         "d_fg_pct": 0.462,
-        "normal_fg_pct": 0.464,
-        "pct_plusminus": -0.003
+        "normal_fg_pct": 0.461,
+        "pct_plusminus": 0.0
       }
     },
     {
@@ -6744,15 +6776,15 @@
       "name": "Tyler Kolek",
       "team": "NYK",
       "position": "G",
-      "gp": 6,
+      "gp": 7,
       "mpg": 12.4,
       "min_total": 87,
       "defense": {
-        "d_fgm": 2.33,
-        "d_fga": 5.0,
-        "d_fg_pct": 0.467,
-        "normal_fg_pct": 0.439,
-        "pct_plusminus": 0.027
+        "d_fgm": 2.14,
+        "d_fga": 4.57,
+        "d_fg_pct": 0.469,
+        "normal_fg_pct": 0.44,
+        "pct_plusminus": 0.029
       }
     },
     {
@@ -6767,8 +6799,8 @@
         "d_fgm": 4.25,
         "d_fga": 8.75,
         "d_fg_pct": 0.486,
-        "normal_fg_pct": 0.435,
-        "pct_plusminus": 0.051
+        "normal_fg_pct": 0.432,
+        "pct_plusminus": 0.054
       }
     },
     {
@@ -6778,13 +6810,13 @@
       "position": "G",
       "gp": 10,
       "mpg": 36.5,
-      "min_total": 365,
+      "min_total": 402,
       "defense": {
         "d_fgm": 5.3,
         "d_fga": 11.6,
         "d_fg_pct": 0.457,
-        "normal_fg_pct": 0.423,
-        "pct_plusminus": 0.034
+        "normal_fg_pct": 0.422,
+        "pct_plusminus": 0.035
       }
     },
     {
@@ -6792,15 +6824,15 @@
       "name": "Tyrese Proctor",
       "team": "CLE",
       "position": "G",
-      "gp": 7,
+      "gp": 8,
       "mpg": 15.8,
       "min_total": 142,
       "defense": {
-        "d_fgm": 2.57,
-        "d_fga": 6.0,
-        "d_fg_pct": 0.429,
+        "d_fgm": 2.75,
+        "d_fga": 6.25,
+        "d_fg_pct": 0.44,
         "normal_fg_pct": 0.449,
-        "pct_plusminus": -0.02
+        "pct_plusminus": -0.009
       }
     },
     {
@@ -6815,8 +6847,8 @@
         "d_fgm": 1.5,
         "d_fga": 2.5,
         "d_fg_pct": 0.6,
-        "normal_fg_pct": 0.418,
-        "pct_plusminus": 0.182
+        "normal_fg_pct": 0.421,
+        "pct_plusminus": 0.179
       }
     },
     {
@@ -6825,8 +6857,8 @@
       "team": "PHI",
       "position": "G",
       "gp": 9,
-      "mpg": 33.4,
-      "min_total": 301,
+      "mpg": 33.5,
+      "min_total": 335,
       "defense": {
         "d_fgm": 5.0,
         "d_fga": 12.0,
@@ -6840,15 +6872,15 @@
       "name": "Victor Wembanyama",
       "team": "SAS",
       "position": "F-C",
-      "gp": 9,
+      "gp": 10,
       "mpg": 30.3,
       "min_total": 303,
       "defense": {
-        "d_fgm": 6.11,
-        "d_fga": 18.11,
-        "d_fg_pct": 0.337,
-        "normal_fg_pct": 0.506,
-        "pct_plusminus": -0.169
+        "d_fgm": 5.6,
+        "d_fga": 17.1,
+        "d_fg_pct": 0.327,
+        "normal_fg_pct": 0.503,
+        "pct_plusminus": -0.176
       }
     },
     {
@@ -6863,8 +6895,8 @@
         "d_fgm": 0.86,
         "d_fga": 2.0,
         "d_fg_pct": 0.429,
-        "normal_fg_pct": 0.416,
-        "pct_plusminus": 0.012
+        "normal_fg_pct": 0.418,
+        "pct_plusminus": 0.011
       }
     },
     {
@@ -6873,14 +6905,14 @@
       "team": "LAL",
       "position": "C",
       "gp": 10,
-      "mpg": 31.2,
-      "min_total": 312,
+      "mpg": 31.0,
+      "min_total": 341,
       "defense": {
         "d_fgm": 7.5,
         "d_fga": 17.0,
         "d_fg_pct": 0.441,
         "normal_fg_pct": 0.494,
-        "pct_plusminus": -0.053
+        "pct_plusminus": -0.052
       }
     },
     {
@@ -6889,14 +6921,14 @@
       "team": "DAL",
       "position": "G",
       "gp": 6,
-      "mpg": 15.4,
-      "min_total": 123,
+      "mpg": 15.5,
+      "min_total": 140,
       "defense": {
         "d_fgm": 3.5,
         "d_fga": 6.67,
         "d_fg_pct": 0.525,
-        "normal_fg_pct": 0.44,
-        "pct_plusminus": 0.085
+        "normal_fg_pct": 0.438,
+        "pct_plusminus": 0.087
       }
     },
     {
@@ -6904,15 +6936,15 @@
       "name": "Wendell Carter Jr.",
       "team": "ORL",
       "position": "C-F",
-      "gp": 8,
+      "gp": 9,
       "mpg": 33.5,
       "min_total": 302,
       "defense": {
-        "d_fgm": 8.5,
-        "d_fga": 14.88,
-        "d_fg_pct": 0.571,
-        "normal_fg_pct": 0.472,
-        "pct_plusminus": 0.1
+        "d_fgm": 8.44,
+        "d_fga": 15.44,
+        "d_fg_pct": 0.547,
+        "normal_fg_pct": 0.474,
+        "pct_plusminus": 0.072
       }
     },
     {
@@ -6920,15 +6952,15 @@
       "name": "Will Richard",
       "team": "GSW",
       "position": "G",
-      "gp": 8,
+      "gp": 9,
       "mpg": 17.2,
       "min_total": 172,
       "defense": {
-        "d_fgm": 3.13,
-        "d_fga": 7.38,
-        "d_fg_pct": 0.424,
-        "normal_fg_pct": 0.462,
-        "pct_plusminus": -0.038
+        "d_fgm": 3.22,
+        "d_fga": 7.22,
+        "d_fg_pct": 0.446,
+        "normal_fg_pct": 0.461,
+        "pct_plusminus": -0.015
       }
     },
     {
@@ -6936,15 +6968,15 @@
       "name": "Will Riley",
       "team": "WAS",
       "position": "F",
-      "gp": 3,
+      "gp": 4,
       "mpg": 7.1,
       "min_total": 57,
       "defense": {
-        "d_fgm": 0.67,
-        "d_fga": 3.33,
-        "d_fg_pct": 0.2,
-        "normal_fg_pct": 0.493,
-        "pct_plusminus": -0.293
+        "d_fgm": 2.5,
+        "d_fga": 5.5,
+        "d_fg_pct": 0.455,
+        "normal_fg_pct": 0.464,
+        "pct_plusminus": -0.01
       }
     },
     {
@@ -6952,15 +6984,15 @@
       "name": "Yang Hansen",
       "team": "POR",
       "position": "C",
-      "gp": 5,
+      "gp": 6,
       "mpg": 10.1,
       "min_total": 61,
       "defense": {
-        "d_fgm": 1.8,
-        "d_fga": 4.2,
-        "d_fg_pct": 0.429,
-        "normal_fg_pct": 0.431,
-        "pct_plusminus": -0.002
+        "d_fgm": 2.5,
+        "d_fga": 6.0,
+        "d_fg_pct": 0.417,
+        "normal_fg_pct": 0.45,
+        "pct_plusminus": -0.034
       }
     },
     {
@@ -6968,15 +7000,15 @@
       "name": "Yaxel Lendeborg",
       "team": "GSW",
       "position": "F",
-      "gp": 9,
+      "gp": 10,
       "mpg": 32.3,
       "min_total": 323,
       "defense": {
-        "d_fgm": 6.89,
-        "d_fga": 13.33,
-        "d_fg_pct": 0.517,
-        "normal_fg_pct": 0.492,
-        "pct_plusminus": 0.025
+        "d_fgm": 7.1,
+        "d_fga": 14.2,
+        "d_fg_pct": 0.5,
+        "normal_fg_pct": 0.484,
+        "pct_plusminus": 0.016
       }
     },
     {
@@ -7001,14 +7033,14 @@
       "team": "DAL",
       "position": "F",
       "gp": 9,
-      "mpg": 26.1,
-      "min_total": 235,
+      "mpg": 25.1,
+      "min_total": 251,
       "defense": {
         "d_fgm": 4.89,
         "d_fga": 10.89,
         "d_fg_pct": 0.449,
-        "normal_fg_pct": 0.464,
-        "pct_plusminus": -0.015
+        "normal_fg_pct": 0.461,
+        "pct_plusminus": -0.012
       }
     },
     {
@@ -7023,8 +7055,8 @@
         "d_fgm": 1.83,
         "d_fga": 4.5,
         "d_fg_pct": 0.407,
-        "normal_fg_pct": 0.461,
-        "pct_plusminus": -0.054
+        "normal_fg_pct": 0.456,
+        "pct_plusminus": -0.049
       }
     },
     {
@@ -7039,7 +7071,7 @@
         "d_fgm": 4.75,
         "d_fga": 9.75,
         "d_fg_pct": 0.487,
-        "normal_fg_pct": 0.491,
+        "normal_fg_pct": 0.492,
         "pct_plusminus": -0.004
       }
     },
@@ -7049,14 +7081,14 @@
       "team": "SAC",
       "position": "G",
       "gp": 9,
-      "mpg": 33.6,
-      "min_total": 302,
+      "mpg": 32.7,
+      "min_total": 327,
       "defense": {
         "d_fgm": 4.44,
         "d_fga": 9.78,
         "d_fg_pct": 0.455,
-        "normal_fg_pct": 0.46,
-        "pct_plusminus": -0.005
+        "normal_fg_pct": 0.457,
+        "pct_plusminus": -0.002
       }
     },
     {
@@ -7065,14 +7097,14 @@
       "team": "LAL",
       "position": "F",
       "gp": 7,
-      "mpg": 24.5,
-      "min_total": 172,
+      "mpg": 24.1,
+      "min_total": 193,
       "defense": {
         "d_fgm": 4.43,
         "d_fga": 8.0,
         "d_fg_pct": 0.554,
-        "normal_fg_pct": 0.468,
-        "pct_plusminus": 0.085
+        "normal_fg_pct": 0.467,
+        "pct_plusminus": 0.087
       }
     },
     {
@@ -7081,14 +7113,14 @@
       "team": "NOP",
       "position": "F",
       "gp": 9,
-      "mpg": 33.2,
-      "min_total": 299,
+      "mpg": 33.0,
+      "min_total": 330,
       "defense": {
         "d_fgm": 4.33,
         "d_fga": 10.56,
         "d_fg_pct": 0.411,
-        "normal_fg_pct": 0.459,
-        "pct_plusminus": -0.049
+        "normal_fg_pct": 0.46,
+        "pct_plusminus": -0.05
       }
     },
     {
@@ -7096,15 +7128,15 @@
       "name": "Zuby Ejiofor",
       "team": "ATL",
       "position": "F",
-      "gp": 4,
+      "gp": 5,
       "mpg": 12.3,
       "min_total": 74,
       "defense": {
-        "d_fgm": 2.75,
-        "d_fga": 6.0,
-        "d_fg_pct": 0.458,
-        "normal_fg_pct": 0.482,
-        "pct_plusminus": -0.023
+        "d_fgm": 3.4,
+        "d_fga": 6.8,
+        "d_fg_pct": 0.5,
+        "normal_fg_pct": 0.457,
+        "pct_plusminus": 0.043
       }
     },
     {

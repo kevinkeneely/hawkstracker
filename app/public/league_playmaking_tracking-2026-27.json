@@ -1,44 +1,44 @@
 {
   "season": "2026-27",
-  "generated_at": "2026-11-08T02:30:11.169692-05:00",
+  "generated_at": "2026-11-09T02:33:39.032529-05:00",
   "source_files": {
-    "drives": "league_drives_2026-11-08.json",
-    "passing": "league_passing_2026-11-08.json",
-    "possessions": "league_possessions_2026-11-08.json"
+    "drives": "league_drives_2026-11-09.json",
+    "passing": "league_passing_2026-11-09.json",
+    "possessions": "league_possessions_2026-11-09.json"
   },
   "players": [
     {
       "id": 1643407,
       "name": "AJ Dybantsa",
       "team": "WAS",
-      "gp": 5,
-      "mpg": 31.7,
-      "min_total": 158,
+      "gp": 6,
+      "mpg": 31.5,
+      "min_total": 189,
       "drives": {
-        "drives": 11.2,
-        "drive_fgm": 2.4,
+        "drives": 12.3,
+        "drive_fgm": 2.7,
         "drive_fga": 7.0,
-        "drive_fg_pct": 0.343,
-        "drive_pts": 5.6,
-        "drive_ast": 1.0,
-        "drive_tov": 0.0
+        "drive_fg_pct": 0.381,
+        "drive_pts": 6.7,
+        "drive_ast": 1.3,
+        "drive_tov": 0.3
       },
       "passing": {
-        "passes_made": 22.8,
-        "passes_received": 26.0,
-        "potential_ast": 4.0,
-        "ast_points_created": 6.0,
-        "ast_to_pass_pct": 0.096
+        "passes_made": 21.2,
+        "passes_received": 26.5,
+        "potential_ast": 4.3,
+        "ast_points_created": 6.3,
+        "ast_to_pass_pct": 0.11
       },
       "possessions": {
-        "touches": 35.6,
-        "front_ct_touches": 20.6,
-        "time_of_poss": 2.0,
-        "avg_sec_per_touch": 3.38,
-        "pts_per_touch": 0.433,
-        "elbow_touches": 0.4,
-        "post_touches": 0.8,
-        "paint_touches": 3.2
+        "touches": 36.3,
+        "front_ct_touches": 21.5,
+        "time_of_poss": 2.1,
+        "avg_sec_per_touch": 3.54,
+        "pts_per_touch": 0.44,
+        "elbow_touches": 0.3,
+        "post_touches": 1.0,
+        "paint_touches": 3.0
       }
     },
     {
@@ -181,34 +181,34 @@
       "id": 1630598,
       "name": "Aaron Wiggins",
       "team": "ATL",
-      "gp": 10,
+      "gp": 11,
       "mpg": 26.1,
-      "min_total": 261,
+      "min_total": 287,
       "drives": {
-        "drives": 5.7,
+        "drives": 5.8,
         "drive_fgm": 1.5,
-        "drive_fga": 2.9,
-        "drive_fg_pct": 0.517,
-        "drive_pts": 3.0,
+        "drive_fga": 3.0,
+        "drive_fg_pct": 0.485,
+        "drive_pts": 2.9,
         "drive_ast": 0.8,
         "drive_tov": 0.1
       },
       "passing": {
-        "passes_made": 23.8,
-        "passes_received": 27.1,
+        "passes_made": 24.1,
+        "passes_received": 28.3,
         "potential_ast": 4.1,
-        "ast_points_created": 5.0,
-        "ast_to_pass_pct": 0.084
+        "ast_points_created": 5.6,
+        "ast_to_pass_pct": 0.098
       },
       "possessions": {
-        "touches": 34.6,
-        "front_ct_touches": 20.8,
-        "time_of_poss": 2.2,
-        "avg_sec_per_touch": 3.75,
-        "pts_per_touch": 0.416,
+        "touches": 35.6,
+        "front_ct_touches": 21.8,
+        "time_of_poss": 2.4,
+        "avg_sec_per_touch": 4.07,
+        "pts_per_touch": 0.418,
         "elbow_touches": 0.1,
-        "post_touches": 0.4,
-        "paint_touches": 1.8
+        "post_touches": 0.5,
+        "paint_touches": 1.7
       }
     },
     {
@@ -249,34 +249,34 @@
       "id": 1643530,
       "name": "Aday Mara",
       "team": "OKC",
-      "gp": 9,
-      "mpg": 18.9,
-      "min_total": 170,
+      "gp": 10,
+      "mpg": 19.7,
+      "min_total": 197,
       "drives": {
-        "drives": 0.2,
-        "drive_fgm": 0.0,
-        "drive_fga": 0.1,
-        "drive_fg_pct": 0.0,
-        "drive_pts": 0.0,
+        "drives": 0.3,
+        "drive_fgm": 0.1,
+        "drive_fga": 0.2,
+        "drive_fg_pct": 0.5,
+        "drive_pts": 0.2,
         "drive_ast": 0.0,
         "drive_tov": 0.0
       },
       "passing": {
-        "passes_made": 18.3,
-        "passes_received": 14.6,
-        "potential_ast": 1.9,
-        "ast_points_created": 2.6,
-        "ast_to_pass_pct": 0.061
+        "passes_made": 18.5,
+        "passes_received": 14.8,
+        "potential_ast": 2.4,
+        "ast_points_created": 2.9,
+        "ast_to_pass_pct": 0.07
       },
       "possessions": {
-        "touches": 24.6,
-        "front_ct_touches": 16.2,
-        "time_of_poss": 1.5,
-        "avg_sec_per_touch": 3.57,
-        "pts_per_touch": 0.285,
-        "elbow_touches": 2.1,
-        "post_touches": 1.2,
-        "paint_touches": 6.3
+        "touches": 25.1,
+        "front_ct_touches": 16.6,
+        "time_of_poss": 1.4,
+        "avg_sec_per_touch": 3.28,
+        "pts_per_touch": 0.323,
+        "elbow_touches": 2.3,
+        "post_touches": 1.3,
+        "paint_touches": 6.5
       }
     },
     {
@@ -351,102 +351,102 @@
       "id": 1642349,
       "name": "Ajay Mitchell",
       "team": "OKC",
-      "gp": 9,
-      "mpg": 27.9,
-      "min_total": 251,
+      "gp": 10,
+      "mpg": 27.3,
+      "min_total": 273,
       "drives": {
-        "drives": 15.3,
-        "drive_fgm": 4.8,
-        "drive_fga": 7.6,
-        "drive_fg_pct": 0.632,
-        "drive_pts": 11.4,
-        "drive_ast": 1.1,
+        "drives": 15.1,
+        "drive_fgm": 4.5,
+        "drive_fga": 7.7,
+        "drive_fg_pct": 0.584,
+        "drive_pts": 10.8,
+        "drive_ast": 1.0,
         "drive_tov": 0.7
       },
       "passing": {
-        "passes_made": 29.6,
-        "passes_received": 37.1,
-        "potential_ast": 6.3,
-        "ast_points_created": 9.6,
-        "ast_to_pass_pct": 0.124
+        "passes_made": 28.9,
+        "passes_received": 35.6,
+        "potential_ast": 6.0,
+        "ast_points_created": 9.0,
+        "ast_to_pass_pct": 0.114
       },
       "possessions": {
-        "touches": 42.6,
-        "front_ct_touches": 19.9,
-        "time_of_poss": 4.0,
-        "avg_sec_per_touch": 5.61,
-        "pts_per_touch": 0.462,
-        "elbow_touches": 0.4,
-        "post_touches": 0.1,
-        "paint_touches": 0.6
+        "touches": 41.4,
+        "front_ct_touches": 19.7,
+        "time_of_poss": 3.8,
+        "avg_sec_per_touch": 5.51,
+        "pts_per_touch": 0.457,
+        "elbow_touches": 0.6,
+        "post_touches": 0.2,
+        "paint_touches": 0.8
       }
     },
     {
       "id": 201143,
       "name": "Al Horford",
       "team": "GSW",
-      "gp": 7,
-      "mpg": 18.6,
-      "min_total": 130,
+      "gp": 8,
+      "mpg": 17.9,
+      "min_total": 143,
       "drives": {
-        "drives": 0.9,
-        "drive_fgm": 0.0,
-        "drive_fga": 0.1,
-        "drive_fg_pct": 0.0,
-        "drive_pts": 0.0,
-        "drive_ast": 0.0,
-        "drive_tov": 0.1
+        "drives": 1.3,
+        "drive_fgm": 0.1,
+        "drive_fga": 0.4,
+        "drive_fg_pct": 0.333,
+        "drive_pts": 0.3,
+        "drive_ast": 0.1,
+        "drive_tov": 0.3
       },
       "passing": {
-        "passes_made": 19.3,
+        "passes_made": 19.8,
         "passes_received": 18.9,
-        "potential_ast": 2.7,
-        "ast_points_created": 2.4,
-        "ast_to_pass_pct": 0.052
+        "potential_ast": 3.3,
+        "ast_points_created": 3.6,
+        "ast_to_pass_pct": 0.07
       },
       "possessions": {
-        "touches": 24.7,
-        "front_ct_touches": 17.9,
+        "touches": 24.9,
+        "front_ct_touches": 17.8,
         "time_of_poss": 1.3,
-        "avg_sec_per_touch": 3.25,
-        "pts_per_touch": 0.22,
-        "elbow_touches": 0.4,
-        "post_touches": 0.9,
-        "paint_touches": 1.3
+        "avg_sec_per_touch": 3.08,
+        "pts_per_touch": 0.201,
+        "elbow_touches": 0.5,
+        "post_touches": 1.0,
+        "paint_touches": 1.4
       }
     },
     {
       "id": 1627936,
       "name": "Alex Caruso",
       "team": "OKC",
-      "gp": 6,
-      "mpg": 19.3,
-      "min_total": 116,
+      "gp": 7,
+      "mpg": 18.4,
+      "min_total": 129,
       "drives": {
-        "drives": 1.7,
-        "drive_fgm": 0.2,
+        "drives": 1.6,
+        "drive_fgm": 0.1,
         "drive_fga": 0.3,
         "drive_fg_pct": 0.5,
-        "drive_pts": 0.7,
-        "drive_ast": 0.7,
+        "drive_pts": 0.6,
+        "drive_ast": 0.6,
         "drive_tov": 0.0
       },
       "passing": {
-        "passes_made": 21.8,
-        "passes_received": 15.3,
-        "potential_ast": 3.8,
-        "ast_points_created": 7.8,
-        "ast_to_pass_pct": 0.153
+        "passes_made": 21.6,
+        "passes_received": 15.0,
+        "potential_ast": 3.7,
+        "ast_points_created": 7.7,
+        "ast_to_pass_pct": 0.152
       },
       "possessions": {
-        "touches": 21.0,
-        "front_ct_touches": 7.8,
-        "time_of_poss": 1.3,
-        "avg_sec_per_touch": 3.67,
-        "pts_per_touch": 0.389,
-        "elbow_touches": 0.0,
-        "post_touches": 0.2,
-        "paint_touches": 1.0
+        "touches": 20.6,
+        "front_ct_touches": 8.3,
+        "time_of_poss": 1.2,
+        "avg_sec_per_touch": 3.5,
+        "pts_per_touch": 0.34,
+        "elbow_touches": 0.1,
+        "post_touches": 0.1,
+        "paint_touches": 1.1
       }
     },
     {
@@ -487,32 +487,32 @@
       "id": 1631457,
       "name": "Alex Morales",
       "team": "ORL",
-      "gp": 5,
-      "mpg": 7.8,
-      "min_total": 39,
+      "gp": 6,
+      "mpg": 9.0,
+      "min_total": 54,
       "drives": {
-        "drives": 2.4,
-        "drive_fgm": 0.4,
-        "drive_fga": 0.6,
+        "drives": 2.2,
+        "drive_fgm": 0.3,
+        "drive_fga": 0.5,
         "drive_fg_pct": 0.667,
-        "drive_pts": 0.8,
+        "drive_pts": 0.7,
         "drive_ast": 0.0,
-        "drive_tov": 0.6
+        "drive_tov": 0.5
       },
       "passing": {
-        "passes_made": 10.8,
-        "passes_received": 7.0,
+        "passes_made": 11.0,
+        "passes_received": 6.7,
         "potential_ast": 1.2,
-        "ast_points_created": 0.8,
-        "ast_to_pass_pct": 0.019
+        "ast_points_created": 1.2,
+        "ast_to_pass_pct": 0.03
       },
       "possessions": {
-        "touches": 10.8,
-        "front_ct_touches": 5.6,
-        "time_of_poss": 0.6,
-        "avg_sec_per_touch": 3.11,
-        "pts_per_touch": 0.093,
-        "elbow_touches": 0.4,
+        "touches": 10.7,
+        "front_ct_touches": 5.5,
+        "time_of_poss": 0.5,
+        "avg_sec_per_touch": 2.8,
+        "pts_per_touch": 0.078,
+        "elbow_touches": 0.3,
         "post_touches": 0.0,
         "paint_touches": 1.0
       }
@@ -521,34 +521,34 @@
       "id": 1642259,
       "name": "Alex Sarr",
       "team": "WAS",
-      "gp": 8,
-      "mpg": 25.6,
-      "min_total": 205,
+      "gp": 9,
+      "mpg": 25.8,
+      "min_total": 232,
       "drives": {
         "drives": 1.8,
-        "drive_fgm": 0.4,
+        "drive_fgm": 0.3,
         "drive_fga": 0.8,
-        "drive_fg_pct": 0.5,
-        "drive_pts": 1.1,
+        "drive_fg_pct": 0.429,
+        "drive_pts": 1.0,
         "drive_ast": 0.1,
         "drive_tov": 0.1
       },
       "passing": {
-        "passes_made": 23.4,
-        "passes_received": 16.5,
-        "potential_ast": 1.8,
-        "ast_points_created": 5.1,
-        "ast_to_pass_pct": 0.091
+        "passes_made": 26.3,
+        "passes_received": 18.4,
+        "potential_ast": 2.0,
+        "ast_points_created": 4.8,
+        "ast_to_pass_pct": 0.076
       },
       "possessions": {
-        "touches": 30.5,
-        "front_ct_touches": 16.1,
-        "time_of_poss": 0.6,
-        "avg_sec_per_touch": 1.19,
-        "pts_per_touch": 0.328,
-        "elbow_touches": 1.1,
-        "post_touches": 1.9,
-        "paint_touches": 5.9
+        "touches": 33.9,
+        "front_ct_touches": 18.3,
+        "time_of_poss": 0.8,
+        "avg_sec_per_touch": 1.44,
+        "pts_per_touch": 0.311,
+        "elbow_touches": 1.4,
+        "post_touches": 1.8,
+        "paint_touches": 6.2
       }
     },
     {
@@ -623,34 +623,34 @@
       "id": 1630578,
       "name": "Alperen Sengun",
       "team": "HOU",
-      "gp": 7,
-      "mpg": 35.1,
-      "min_total": 246,
+      "gp": 8,
+      "mpg": 34.7,
+      "min_total": 278,
       "drives": {
-        "drives": 13.4,
-        "drive_fgm": 3.1,
-        "drive_fga": 6.1,
-        "drive_fg_pct": 0.512,
-        "drive_pts": 8.1,
+        "drives": 13.6,
+        "drive_fgm": 3.3,
+        "drive_fga": 6.5,
+        "drive_fg_pct": 0.5,
+        "drive_pts": 8.5,
         "drive_ast": 0.4,
-        "drive_tov": 0.6
+        "drive_tov": 0.8
       },
       "passing": {
-        "passes_made": 53.1,
-        "passes_received": 57.4,
-        "potential_ast": 13.7,
-        "ast_points_created": 21.1,
-        "ast_to_pass_pct": 0.153
+        "passes_made": 54.5,
+        "passes_received": 58.1,
+        "potential_ast": 14.0,
+        "ast_points_created": 20.6,
+        "ast_to_pass_pct": 0.142
       },
       "possessions": {
-        "touches": 75.1,
-        "front_ct_touches": 53.9,
+        "touches": 76.0,
+        "front_ct_touches": 54.3,
         "time_of_poss": 4.1,
-        "avg_sec_per_touch": 3.28,
-        "pts_per_touch": 0.298,
-        "elbow_touches": 4.6,
-        "post_touches": 5.0,
-        "paint_touches": 7.7
+        "avg_sec_per_touch": 3.22,
+        "pts_per_touch": 0.283,
+        "elbow_touches": 4.5,
+        "post_touches": 5.1,
+        "paint_touches": 7.4
       }
     },
     {
@@ -691,68 +691,68 @@
       "id": 1641708,
       "name": "Amen Thompson",
       "team": "HOU",
-      "gp": 9,
-      "mpg": 32.6,
-      "min_total": 293,
+      "gp": 10,
+      "mpg": 33.3,
+      "min_total": 333,
       "drives": {
         "drives": 12.4,
-        "drive_fgm": 2.0,
-        "drive_fga": 4.3,
-        "drive_fg_pct": 0.462,
-        "drive_pts": 4.8,
-        "drive_ast": 1.1,
-        "drive_tov": 0.8
+        "drive_fgm": 2.1,
+        "drive_fga": 4.7,
+        "drive_fg_pct": 0.447,
+        "drive_pts": 5.0,
+        "drive_ast": 1.0,
+        "drive_tov": 0.7
       },
       "passing": {
-        "passes_made": 43.8,
-        "passes_received": 44.6,
-        "potential_ast": 6.8,
-        "ast_points_created": 9.3,
-        "ast_to_pass_pct": 0.076
+        "passes_made": 43.6,
+        "passes_received": 44.2,
+        "potential_ast": 6.3,
+        "ast_points_created": 8.4,
+        "ast_to_pass_pct": 0.069
       },
       "possessions": {
-        "touches": 56.7,
-        "front_ct_touches": 25.6,
-        "time_of_poss": 5.4,
-        "avg_sec_per_touch": 5.67,
-        "pts_per_touch": 0.273,
-        "elbow_touches": 1.4,
-        "post_touches": 0.9,
-        "paint_touches": 8.6
+        "touches": 55.9,
+        "front_ct_touches": 25.3,
+        "time_of_poss": 5.1,
+        "avg_sec_per_touch": 5.53,
+        "pts_per_touch": 0.279,
+        "elbow_touches": 1.5,
+        "post_touches": 0.8,
+        "paint_touches": 8.7
       }
     },
     {
       "id": 203083,
       "name": "Andre Drummond",
       "team": "NYK",
-      "gp": 8,
-      "mpg": 13.2,
-      "min_total": 106,
+      "gp": 9,
+      "mpg": 13.3,
+      "min_total": 120,
       "drives": {
-        "drives": 0.8,
-        "drive_fgm": 0.3,
-        "drive_fga": 0.5,
+        "drives": 0.7,
+        "drive_fgm": 0.2,
+        "drive_fga": 0.4,
         "drive_fg_pct": 0.5,
-        "drive_pts": 0.5,
+        "drive_pts": 0.4,
         "drive_ast": 0.0,
         "drive_tov": 0.0
       },
       "passing": {
-        "passes_made": 13.6,
-        "passes_received": 12.6,
-        "potential_ast": 1.5,
-        "ast_points_created": 2.5,
-        "ast_to_pass_pct": 0.083
+        "passes_made": 14.1,
+        "passes_received": 12.2,
+        "potential_ast": 1.4,
+        "ast_points_created": 2.2,
+        "ast_to_pass_pct": 0.071
       },
       "possessions": {
-        "touches": 21.6,
-        "front_ct_touches": 16.4,
-        "time_of_poss": 0.8,
-        "avg_sec_per_touch": 2.17,
-        "pts_per_touch": 0.26,
-        "elbow_touches": 1.5,
+        "touches": 21.3,
+        "front_ct_touches": 15.9,
+        "time_of_poss": 0.7,
+        "avg_sec_per_touch": 2.02,
+        "pts_per_touch": 0.234,
+        "elbow_touches": 1.3,
         "post_touches": 0.6,
-        "paint_touches": 6.9
+        "paint_touches": 6.6
       }
     },
     {
@@ -861,34 +861,34 @@
       "id": 1641710,
       "name": "Anthony Black",
       "team": "ORL",
-      "gp": 5,
-      "mpg": 28.5,
-      "min_total": 142,
+      "gp": 6,
+      "mpg": 30.1,
+      "min_total": 181,
       "drives": {
-        "drives": 12.6,
-        "drive_fgm": 2.4,
-        "drive_fga": 4.0,
-        "drive_fg_pct": 0.6,
+        "drives": 14.0,
+        "drive_fgm": 2.3,
+        "drive_fga": 5.0,
+        "drive_fg_pct": 0.467,
         "drive_pts": 5.8,
-        "drive_ast": 1.0,
-        "drive_tov": 1.0
+        "drive_ast": 1.3,
+        "drive_tov": 0.8
       },
       "passing": {
-        "passes_made": 48.4,
-        "passes_received": 50.0,
-        "potential_ast": 9.4,
-        "ast_points_created": 12.6,
-        "ast_to_pass_pct": 0.103
+        "passes_made": 51.7,
+        "passes_received": 53.3,
+        "potential_ast": 10.7,
+        "ast_points_created": 13.0,
+        "ast_to_pass_pct": 0.1
       },
       "possessions": {
-        "touches": 60.2,
-        "front_ct_touches": 29.6,
-        "time_of_poss": 5.5,
-        "avg_sec_per_touch": 5.5,
-        "pts_per_touch": 0.252,
-        "elbow_touches": 0.4,
-        "post_touches": 0.2,
-        "paint_touches": 1.0
+        "touches": 64.7,
+        "front_ct_touches": 32.0,
+        "time_of_poss": 5.7,
+        "avg_sec_per_touch": 5.26,
+        "pts_per_touch": 0.242,
+        "elbow_touches": 0.7,
+        "post_touches": 0.3,
+        "paint_touches": 1.5
       }
     },
     {
@@ -963,34 +963,34 @@
       "id": 1630264,
       "name": "Anthony Gill",
       "team": "WAS",
-      "gp": 1,
-      "mpg": 0.6,
-      "min_total": 1,
+      "gp": 2,
+      "mpg": 4.8,
+      "min_total": 10,
       "drives": {
-        "drives": 0.0,
+        "drives": 1.0,
         "drive_fgm": 0.0,
-        "drive_fga": 0.0,
+        "drive_fga": 1.0,
         "drive_fg_pct": 0.0,
         "drive_pts": 0.0,
         "drive_ast": 0.0,
         "drive_tov": 0.0
       },
       "passing": {
-        "passes_made": 0.0,
-        "passes_received": 0.0,
-        "potential_ast": 0.0,
+        "passes_made": 2.5,
+        "passes_received": 4.0,
+        "potential_ast": 0.5,
         "ast_points_created": 0.0,
         "ast_to_pass_pct": 0.0
       },
       "possessions": {
-        "touches": 0.0,
-        "front_ct_touches": 0.0,
-        "time_of_poss": 0.0,
-        "avg_sec_per_touch": 0.0,
-        "pts_per_touch": 0.0,
-        "elbow_touches": 0.0,
+        "touches": 5.5,
+        "front_ct_touches": 5.0,
+        "time_of_poss": 0.1,
+        "avg_sec_per_touch": 1.15,
+        "pts_per_touch": 0.091,
+        "elbow_touches": 0.5,
         "post_touches": 0.0,
-        "paint_touches": 0.0
+        "paint_touches": 1.0
       }
     },
     {
@@ -1337,68 +1337,68 @@
       "id": 1642892,
       "name": "Bennett Stirtz",
       "team": "OKC",
-      "gp": 9,
-      "mpg": 16.8,
-      "min_total": 151,
+      "gp": 10,
+      "mpg": 18.0,
+      "min_total": 180,
       "drives": {
-        "drives": 2.6,
+        "drives": 2.9,
         "drive_fgm": 0.3,
-        "drive_fga": 0.9,
-        "drive_fg_pct": 0.375,
-        "drive_pts": 1.0,
-        "drive_ast": 0.2,
+        "drive_fga": 1.0,
+        "drive_fg_pct": 0.3,
+        "drive_pts": 0.9,
+        "drive_ast": 0.3,
         "drive_tov": 0.1
       },
       "passing": {
-        "passes_made": 18.8,
-        "passes_received": 19.3,
-        "potential_ast": 2.7,
-        "ast_points_created": 2.7,
-        "ast_to_pass_pct": 0.059
+        "passes_made": 19.6,
+        "passes_received": 20.9,
+        "potential_ast": 2.8,
+        "ast_points_created": 2.9,
+        "ast_to_pass_pct": 0.061
       },
       "possessions": {
-        "touches": 22.4,
-        "front_ct_touches": 9.6,
-        "time_of_poss": 1.6,
-        "avg_sec_per_touch": 4.35,
-        "pts_per_touch": 0.322,
+        "touches": 24.7,
+        "front_ct_touches": 10.9,
+        "time_of_poss": 2.1,
+        "avg_sec_per_touch": 5.13,
+        "pts_per_touch": 0.308,
         "elbow_touches": 0.2,
         "post_touches": 0.0,
-        "paint_touches": 0.2
+        "paint_touches": 0.3
       }
     },
     {
       "id": 1641731,
       "name": "Bilal Coulibaly",
       "team": "WAS",
-      "gp": 9,
-      "mpg": 26.5,
-      "min_total": 238,
+      "gp": 10,
+      "mpg": 25.8,
+      "min_total": 258,
       "drives": {
-        "drives": 2.2,
-        "drive_fgm": 0.7,
-        "drive_fga": 1.2,
+        "drives": 2.1,
+        "drive_fgm": 0.6,
+        "drive_fga": 1.1,
         "drive_fg_pct": 0.545,
-        "drive_pts": 1.3,
+        "drive_pts": 1.2,
         "drive_ast": 0.1,
         "drive_tov": 0.2
       },
       "passing": {
-        "passes_made": 20.1,
-        "passes_received": 17.0,
+        "passes_made": 20.0,
+        "passes_received": 17.1,
         "potential_ast": 1.9,
-        "ast_points_created": 2.1,
-        "ast_to_pass_pct": 0.039
+        "ast_points_created": 1.9,
+        "ast_to_pass_pct": 0.035
       },
       "possessions": {
-        "touches": 24.8,
-        "front_ct_touches": 12.4,
-        "time_of_poss": 1.0,
-        "avg_sec_per_touch": 2.34,
-        "pts_per_touch": 0.323,
-        "elbow_touches": 0.3,
+        "touches": 25.0,
+        "front_ct_touches": 12.9,
+        "time_of_poss": 0.9,
+        "avg_sec_per_touch": 2.24,
+        "pts_per_touch": 0.288,
+        "elbow_touches": 0.4,
         "post_touches": 0.1,
-        "paint_touches": 2.4
+        "paint_touches": 2.5
       }
     },
     {
@@ -1473,31 +1473,31 @@
       "id": 203992,
       "name": "Bogdan Bogdanovi\u0107",
       "team": "HOU",
-      "gp": 9,
-      "mpg": 12.3,
-      "min_total": 111,
+      "gp": 10,
+      "mpg": 11.3,
+      "min_total": 113,
       "drives": {
-        "drives": 3.0,
-        "drive_fgm": 0.7,
-        "drive_fga": 0.9,
+        "drives": 2.7,
+        "drive_fgm": 0.6,
+        "drive_fga": 0.8,
         "drive_fg_pct": 0.75,
-        "drive_pts": 1.8,
+        "drive_pts": 1.6,
         "drive_ast": 0.3,
         "drive_tov": 0.3
       },
       "passing": {
-        "passes_made": 13.8,
-        "passes_received": 13.1,
-        "potential_ast": 1.7,
-        "ast_points_created": 2.7,
-        "ast_to_pass_pct": 0.081
+        "passes_made": 12.5,
+        "passes_received": 11.9,
+        "potential_ast": 1.5,
+        "ast_points_created": 2.4,
+        "ast_to_pass_pct": 0.08
       },
       "possessions": {
-        "touches": 17.2,
-        "front_ct_touches": 9.8,
-        "time_of_poss": 1.0,
-        "avg_sec_per_touch": 3.53,
-        "pts_per_touch": 0.323,
+        "touches": 15.8,
+        "front_ct_touches": 8.9,
+        "time_of_poss": 0.9,
+        "avg_sec_per_touch": 3.48,
+        "pts_per_touch": 0.316,
         "elbow_touches": 0.1,
         "post_touches": 0.0,
         "paint_touches": 0.4
@@ -1609,67 +1609,67 @@
       "id": 1642382,
       "name": "Branden Carlson",
       "team": "POR",
-      "gp": 3,
-      "mpg": 6.3,
-      "min_total": 19,
+      "gp": 4,
+      "mpg": 7.7,
+      "min_total": 31,
       "drives": {
-        "drives": 0.0,
-        "drive_fgm": 0.0,
-        "drive_fga": 0.0,
-        "drive_fg_pct": 0.0,
-        "drive_pts": 0.0,
+        "drives": 0.3,
+        "drive_fgm": 0.3,
+        "drive_fga": 0.3,
+        "drive_fg_pct": 1.0,
+        "drive_pts": 0.5,
         "drive_ast": 0.0,
         "drive_tov": 0.0
       },
       "passing": {
-        "passes_made": 5.0,
-        "passes_received": 4.0,
+        "passes_made": 6.5,
+        "passes_received": 4.8,
         "potential_ast": 1.0,
-        "ast_points_created": 1.7,
-        "ast_to_pass_pct": 0.133
+        "ast_points_created": 1.3,
+        "ast_to_pass_pct": 0.077
       },
       "possessions": {
-        "touches": 6.7,
-        "front_ct_touches": 5.0,
-        "time_of_poss": 0.1,
-        "avg_sec_per_touch": 1.24,
-        "pts_per_touch": 0.2,
+        "touches": 7.5,
+        "front_ct_touches": 4.8,
+        "time_of_poss": 0.2,
+        "avg_sec_per_touch": 1.5,
+        "pts_per_touch": 0.267,
         "elbow_touches": 1.3,
-        "post_touches": 0.0,
-        "paint_touches": 1.3
+        "post_touches": 0.3,
+        "paint_touches": 1.0
       }
     },
     {
       "id": 1641764,
       "name": "Brandin Podziemski",
       "team": "GSW",
-      "gp": 7,
-      "mpg": 33.2,
-      "min_total": 232,
+      "gp": 8,
+      "mpg": 33.9,
+      "min_total": 271,
       "drives": {
-        "drives": 10.0,
-        "drive_fgm": 1.9,
-        "drive_fga": 3.6,
-        "drive_fg_pct": 0.52,
-        "drive_pts": 4.4,
-        "drive_ast": 1.4,
-        "drive_tov": 0.6
+        "drives": 9.1,
+        "drive_fgm": 1.8,
+        "drive_fga": 3.3,
+        "drive_fg_pct": 0.538,
+        "drive_pts": 4.1,
+        "drive_ast": 1.3,
+        "drive_tov": 0.5
       },
       "passing": {
-        "passes_made": 45.4,
-        "passes_received": 48.7,
-        "potential_ast": 6.6,
-        "ast_points_created": 12.1,
-        "ast_to_pass_pct": 0.104
+        "passes_made": 44.4,
+        "passes_received": 46.8,
+        "potential_ast": 5.9,
+        "ast_points_created": 11.0,
+        "ast_to_pass_pct": 0.096
       },
       "possessions": {
-        "touches": 57.0,
-        "front_ct_touches": 30.1,
-        "time_of_poss": 3.5,
-        "avg_sec_per_touch": 3.66,
-        "pts_per_touch": 0.278,
-        "elbow_touches": 0.7,
-        "post_touches": 0.9,
+        "touches": 55.1,
+        "front_ct_touches": 29.3,
+        "time_of_poss": 3.2,
+        "avg_sec_per_touch": 3.47,
+        "pts_per_touch": 0.286,
+        "elbow_touches": 0.6,
+        "post_touches": 0.8,
         "paint_touches": 2.1
       }
     },
@@ -1711,34 +1711,34 @@
       "id": 1630314,
       "name": "Brandon Williams",
       "team": "GSW",
-      "gp": 8,
-      "mpg": 17.8,
-      "min_total": 142,
+      "gp": 9,
+      "mpg": 17.7,
+      "min_total": 159,
       "drives": {
-        "drives": 11.0,
+        "drives": 10.9,
         "drive_fgm": 2.3,
         "drive_fga": 4.9,
-        "drive_fg_pct": 0.462,
-        "drive_pts": 5.6,
+        "drive_fg_pct": 0.477,
+        "drive_pts": 5.7,
         "drive_ast": 1.1,
-        "drive_tov": 0.5
+        "drive_tov": 0.4
       },
       "passing": {
-        "passes_made": 29.0,
-        "passes_received": 33.8,
-        "potential_ast": 5.0,
-        "ast_points_created": 7.5,
-        "ast_to_pass_pct": 0.091
+        "passes_made": 28.7,
+        "passes_received": 33.4,
+        "potential_ast": 4.8,
+        "ast_points_created": 7.9,
+        "ast_to_pass_pct": 0.089
       },
       "possessions": {
-        "touches": 39.1,
-        "front_ct_touches": 16.1,
-        "time_of_poss": 3.4,
-        "avg_sec_per_touch": 5.19,
-        "pts_per_touch": 0.291,
-        "elbow_touches": 0.3,
+        "touches": 38.7,
+        "front_ct_touches": 15.4,
+        "time_of_poss": 3.3,
+        "avg_sec_per_touch": 5.17,
+        "pts_per_touch": 0.287,
+        "elbow_touches": 0.2,
         "post_touches": 0.1,
-        "paint_touches": 1.4
+        "paint_touches": 1.2
       }
     },
     {
@@ -1881,34 +1881,34 @@
       "id": 1642964,
       "name": "Brooks Barnhizer",
       "team": "OKC",
-      "gp": 6,
-      "mpg": 5.1,
-      "min_total": 31,
+      "gp": 7,
+      "mpg": 5.4,
+      "min_total": 38,
       "drives": {
         "drives": 1.3,
-        "drive_fgm": 0.2,
-        "drive_fga": 0.2,
+        "drive_fgm": 0.1,
+        "drive_fga": 0.1,
         "drive_fg_pct": 1.0,
-        "drive_pts": 0.7,
-        "drive_ast": 0.0,
+        "drive_pts": 0.6,
+        "drive_ast": 0.1,
         "drive_tov": 0.0
       },
       "passing": {
-        "passes_made": 3.3,
-        "passes_received": 3.0,
-        "potential_ast": 1.0,
-        "ast_points_created": 0.5,
-        "ast_to_pass_pct": 0.05
+        "passes_made": 4.7,
+        "passes_received": 3.9,
+        "potential_ast": 1.4,
+        "ast_points_created": 2.0,
+        "ast_to_pass_pct": 0.182
       },
       "possessions": {
-        "touches": 4.2,
-        "front_ct_touches": 2.5,
+        "touches": 5.7,
+        "front_ct_touches": 3.4,
         "time_of_poss": 0.9,
-        "avg_sec_per_touch": 13.58,
-        "pts_per_touch": 0.32,
-        "elbow_touches": 0.0,
-        "post_touches": 0.5,
-        "paint_touches": 0.7
+        "avg_sec_per_touch": 9.4,
+        "pts_per_touch": 0.25,
+        "elbow_touches": 0.1,
+        "post_touches": 0.6,
+        "paint_touches": 1.1
       }
     },
     {
@@ -2017,31 +2017,31 @@
       "id": 1642267,
       "name": "Bub Carrington",
       "team": "WAS",
-      "gp": 9,
-      "mpg": 19.0,
-      "min_total": 171,
+      "gp": 10,
+      "mpg": 19.3,
+      "min_total": 193,
       "drives": {
-        "drives": 2.4,
+        "drives": 2.7,
         "drive_fgm": 0.2,
-        "drive_fga": 0.7,
-        "drive_fg_pct": 0.333,
-        "drive_pts": 0.7,
+        "drive_fga": 0.8,
+        "drive_fg_pct": 0.25,
+        "drive_pts": 0.6,
         "drive_ast": 0.2,
         "drive_tov": 0.1
       },
       "passing": {
-        "passes_made": 23.9,
+        "passes_made": 24.4,
         "passes_received": 22.1,
         "potential_ast": 3.6,
-        "ast_points_created": 5.2,
-        "ast_to_pass_pct": 0.088
+        "ast_points_created": 5.0,
+        "ast_to_pass_pct": 0.082
       },
       "possessions": {
-        "touches": 26.1,
+        "touches": 26.6,
         "front_ct_touches": 10.6,
-        "time_of_poss": 3.0,
-        "avg_sec_per_touch": 6.81,
-        "pts_per_touch": 0.204,
+        "time_of_poss": 2.8,
+        "avg_sec_per_touch": 6.41,
+        "pts_per_touch": 0.214,
         "elbow_touches": 0.0,
         "post_touches": 0.0,
         "paint_touches": 0.7
@@ -2085,34 +2085,34 @@
       "id": 203468,
       "name": "CJ McCollum",
       "team": "ATL",
-      "gp": 10,
-      "mpg": 26.2,
-      "min_total": 262,
+      "gp": 11,
+      "mpg": 25.7,
+      "min_total": 283,
       "drives": {
-        "drives": 10.5,
-        "drive_fgm": 2.1,
-        "drive_fga": 4.7,
-        "drive_fg_pct": 0.447,
-        "drive_pts": 5.0,
+        "drives": 10.7,
+        "drive_fgm": 2.2,
+        "drive_fga": 4.8,
+        "drive_fg_pct": 0.453,
+        "drive_pts": 5.1,
         "drive_ast": 1.2,
-        "drive_tov": 0.4
+        "drive_tov": 0.5
       },
       "passing": {
-        "passes_made": 31.8,
-        "passes_received": 40.4,
-        "potential_ast": 7.3,
-        "ast_points_created": 10.5,
+        "passes_made": 31.1,
+        "passes_received": 39.7,
+        "potential_ast": 7.5,
+        "ast_points_created": 10.4,
         "ast_to_pass_pct": 0.126
       },
       "possessions": {
-        "touches": 45.6,
+        "touches": 44.8,
         "front_ct_touches": 19.8,
-        "time_of_poss": 3.3,
-        "avg_sec_per_touch": 4.32,
-        "pts_per_touch": 0.292,
-        "elbow_touches": 0.6,
+        "time_of_poss": 3.2,
+        "avg_sec_per_touch": 4.28,
+        "pts_per_touch": 0.288,
+        "elbow_touches": 0.5,
         "post_touches": 0.2,
-        "paint_touches": 0.8
+        "paint_touches": 0.7
       }
     },
     {
@@ -2493,34 +2493,34 @@
       "id": 1642868,
       "name": "Carter Bryant",
       "team": "SAS",
-      "gp": 8,
-      "mpg": 9.2,
-      "min_total": 74,
+      "gp": 9,
+      "mpg": 10.1,
+      "min_total": 91,
       "drives": {
-        "drives": 1.4,
+        "drives": 1.7,
         "drive_fgm": 0.1,
-        "drive_fga": 0.4,
+        "drive_fga": 0.3,
         "drive_fg_pct": 0.333,
-        "drive_pts": 0.3,
+        "drive_pts": 0.2,
         "drive_ast": 0.1,
         "drive_tov": 0.1
       },
       "passing": {
-        "passes_made": 9.0,
-        "passes_received": 6.4,
-        "potential_ast": 0.8,
-        "ast_points_created": 0.9,
-        "ast_to_pass_pct": 0.042
+        "passes_made": 11.0,
+        "passes_received": 7.8,
+        "potential_ast": 0.9,
+        "ast_points_created": 1.0,
+        "ast_to_pass_pct": 0.04
       },
       "possessions": {
-        "touches": 10.3,
-        "front_ct_touches": 6.0,
+        "touches": 12.3,
+        "front_ct_touches": 7.1,
         "time_of_poss": 0.7,
-        "avg_sec_per_touch": 3.9,
+        "avg_sec_per_touch": 3.36,
         "pts_per_touch": 0.207,
-        "elbow_touches": 0.0,
+        "elbow_touches": 0.1,
         "post_touches": 0.0,
-        "paint_touches": 0.1
+        "paint_touches": 0.3
       }
     },
     {
@@ -2595,43 +2595,43 @@
       "id": 1643052,
       "name": "Chaney Johnson",
       "team": "BKN",
-      "gp": 8,
-      "mpg": 21.2,
-      "min_total": 170,
+      "gp": 9,
+      "mpg": 19.7,
+      "min_total": 177,
       "drives": {
-        "drives": 2.3,
-        "drive_fgm": 0.3,
-        "drive_fga": 1.0,
+        "drives": 2.0,
+        "drive_fgm": 0.2,
+        "drive_fga": 0.9,
         "drive_fg_pct": 0.25,
-        "drive_pts": 0.9,
+        "drive_pts": 0.8,
         "drive_ast": 0.0,
         "drive_tov": 0.0
       },
       "passing": {
-        "passes_made": 15.9,
-        "passes_received": 15.1,
-        "potential_ast": 2.8,
+        "passes_made": 14.4,
+        "passes_received": 13.7,
+        "potential_ast": 2.6,
         "ast_points_created": 2.8,
-        "ast_to_pass_pct": 0.063
+        "ast_to_pass_pct": 0.069
       },
       "possessions": {
-        "touches": 20.5,
-        "front_ct_touches": 15.6,
+        "touches": 18.8,
+        "front_ct_touches": 14.3,
         "time_of_poss": 0.5,
-        "avg_sec_per_touch": 1.58,
-        "pts_per_touch": 0.25,
-        "elbow_touches": 1.0,
-        "post_touches": 0.3,
-        "paint_touches": 2.5
+        "avg_sec_per_touch": 1.55,
+        "pts_per_touch": 0.272,
+        "elbow_touches": 0.9,
+        "post_touches": 0.2,
+        "paint_touches": 2.6
       }
     },
     {
       "id": 1629646,
       "name": "Charles Bassey",
       "team": "GSW",
-      "gp": 7,
-      "mpg": 11.8,
-      "min_total": 83,
+      "gp": 8,
+      "mpg": 11.7,
+      "min_total": 94,
       "drives": {
         "drives": 0.1,
         "drive_fgm": 0.0,
@@ -2642,21 +2642,21 @@
         "drive_tov": 0.0
       },
       "passing": {
-        "passes_made": 11.9,
-        "passes_received": 9.7,
-        "potential_ast": 1.1,
-        "ast_points_created": 1.4,
-        "ast_to_pass_pct": 0.048
+        "passes_made": 11.1,
+        "passes_received": 9.1,
+        "potential_ast": 1.0,
+        "ast_points_created": 1.3,
+        "ast_to_pass_pct": 0.045
       },
       "possessions": {
-        "touches": 16.7,
-        "front_ct_touches": 11.1,
+        "touches": 15.9,
+        "front_ct_touches": 10.5,
         "time_of_poss": 0.3,
-        "avg_sec_per_touch": 1.08,
-        "pts_per_touch": 0.419,
-        "elbow_touches": 1.3,
-        "post_touches": 1.0,
-        "paint_touches": 5.3
+        "avg_sec_per_touch": 1.05,
+        "pts_per_touch": 0.449,
+        "elbow_touches": 1.4,
+        "post_touches": 0.9,
+        "paint_touches": 5.0
       }
     },
     {
@@ -2799,34 +2799,34 @@
       "id": 1642959,
       "name": "Chris Youngblood",
       "team": "POR",
-      "gp": 4,
-      "mpg": 9.3,
-      "min_total": 37,
+      "gp": 5,
+      "mpg": 13.3,
+      "min_total": 66,
       "drives": {
-        "drives": 0.3,
-        "drive_fgm": 0.0,
-        "drive_fga": 0.0,
-        "drive_fg_pct": 0.0,
-        "drive_pts": 0.5,
+        "drives": 1.2,
+        "drive_fgm": 0.4,
+        "drive_fga": 0.6,
+        "drive_fg_pct": 0.667,
+        "drive_pts": 1.4,
         "drive_ast": 0.0,
-        "drive_tov": 0.0
+        "drive_tov": 0.2
       },
       "passing": {
-        "passes_made": 6.3,
-        "passes_received": 6.5,
-        "potential_ast": 0.5,
-        "ast_points_created": 1.5,
-        "ast_to_pass_pct": 0.08
+        "passes_made": 12.0,
+        "passes_received": 12.6,
+        "potential_ast": 1.4,
+        "ast_points_created": 3.0,
+        "ast_to_pass_pct": 0.1
       },
       "possessions": {
-        "touches": 9.3,
-        "front_ct_touches": 5.8,
-        "time_of_poss": 0.2,
-        "avg_sec_per_touch": 1.47,
-        "pts_per_touch": 0.459,
-        "elbow_touches": 0.0,
+        "touches": 16.4,
+        "front_ct_touches": 7.6,
+        "time_of_poss": 0.9,
+        "avg_sec_per_touch": 3.45,
+        "pts_per_touch": 0.341,
+        "elbow_touches": 0.2,
         "post_touches": 0.0,
-        "paint_touches": 0.5
+        "paint_touches": 0.6
       }
     },
     {
@@ -3037,32 +3037,32 @@
       "id": 1631221,
       "name": "Collin Gillespie",
       "team": "PHX",
-      "gp": 7,
-      "mpg": 25.2,
-      "min_total": 176,
+      "gp": 8,
+      "mpg": 24.6,
+      "min_total": 197,
       "drives": {
         "drives": 5.0,
-        "drive_fgm": 0.4,
-        "drive_fga": 1.3,
-        "drive_fg_pct": 0.333,
-        "drive_pts": 0.9,
+        "drive_fgm": 0.6,
+        "drive_fga": 1.5,
+        "drive_fg_pct": 0.417,
+        "drive_pts": 1.3,
         "drive_ast": 0.6,
         "drive_tov": 0.3
       },
       "passing": {
-        "passes_made": 44.7,
-        "passes_received": 42.6,
+        "passes_made": 44.4,
+        "passes_received": 41.8,
         "potential_ast": 7.3,
-        "ast_points_created": 10.1,
+        "ast_points_created": 10.3,
         "ast_to_pass_pct": 0.093
       },
       "possessions": {
-        "touches": 49.9,
-        "front_ct_touches": 22.7,
-        "time_of_poss": 3.3,
-        "avg_sec_per_touch": 4.0,
-        "pts_per_touch": 0.135,
-        "elbow_touches": 0.3,
+        "touches": 48.8,
+        "front_ct_touches": 22.3,
+        "time_of_poss": 3.2,
+        "avg_sec_per_touch": 3.97,
+        "pts_per_touch": 0.138,
+        "elbow_touches": 0.4,
         "post_touches": 0.1,
         "paint_touches": 0.9
       }
@@ -3207,34 +3207,34 @@
       "id": 1641854,
       "name": "Craig Porter Jr.",
       "team": "CLE",
-      "gp": 7,
-      "mpg": 8.2,
-      "min_total": 57,
+      "gp": 8,
+      "mpg": 9.1,
+      "min_total": 73,
       "drives": {
         "drives": 1.9,
         "drive_fgm": 0.0,
         "drive_fga": 0.1,
         "drive_fg_pct": 0.0,
         "drive_pts": 0.0,
-        "drive_ast": 0.4,
+        "drive_ast": 0.5,
         "drive_tov": 0.0
       },
       "passing": {
-        "passes_made": 12.6,
-        "passes_received": 9.1,
-        "potential_ast": 2.3,
-        "ast_points_created": 2.6,
-        "ast_to_pass_pct": 0.08
+        "passes_made": 13.4,
+        "passes_received": 9.5,
+        "potential_ast": 2.5,
+        "ast_points_created": 2.5,
+        "ast_to_pass_pct": 0.075
       },
       "possessions": {
-        "touches": 12.9,
-        "front_ct_touches": 5.1,
-        "time_of_poss": 0.5,
-        "avg_sec_per_touch": 2.46,
-        "pts_per_touch": 0.056,
+        "touches": 13.4,
+        "front_ct_touches": 5.3,
+        "time_of_poss": 0.6,
+        "avg_sec_per_touch": 2.63,
+        "pts_per_touch": 0.047,
         "elbow_touches": 0.1,
         "post_touches": 0.0,
-        "paint_touches": 0.4
+        "paint_touches": 0.5
       }
     },
     {
@@ -3343,31 +3343,31 @@
       "id": 1631207,
       "name": "Dalen Terry",
       "team": "OKC",
-      "gp": 1,
-      "mpg": 5.1,
-      "min_total": 5,
+      "gp": 2,
+      "mpg": 5.5,
+      "min_total": 11,
       "drives": {
-        "drives": 1.0,
-        "drive_fgm": 0.0,
-        "drive_fga": 0.0,
-        "drive_fg_pct": 0.0,
-        "drive_pts": 0.0,
+        "drives": 2.0,
+        "drive_fgm": 0.5,
+        "drive_fga": 0.5,
+        "drive_fg_pct": 1.0,
+        "drive_pts": 1.0,
         "drive_ast": 0.0,
-        "drive_tov": 0.0
+        "drive_tov": 1.0
       },
       "passing": {
-        "passes_made": 8.0,
-        "passes_received": 5.0,
-        "potential_ast": 2.0,
-        "ast_points_created": 2.0,
-        "ast_to_pass_pct": 0.125
+        "passes_made": 6.0,
+        "passes_received": 4.0,
+        "potential_ast": 1.0,
+        "ast_points_created": 1.0,
+        "ast_to_pass_pct": 0.083
       },
       "possessions": {
-        "touches": 10.0,
-        "front_ct_touches": 2.0,
-        "time_of_poss": 0.6,
-        "avg_sec_per_touch": 3.85,
-        "pts_per_touch": 0.0,
+        "touches": 8.5,
+        "front_ct_touches": 2.5,
+        "time_of_poss": 0.4,
+        "avg_sec_per_touch": 2.88,
+        "pts_per_touch": 0.118,
         "elbow_touches": 0.0,
         "post_touches": 0.0,
         "paint_touches": 0.0
@@ -3377,11 +3377,11 @@
       "id": 1642261,
       "name": "Dalton Knecht",
       "team": "NYK",
-      "gp": 1,
-      "mpg": 16.5,
-      "min_total": 16,
+      "gp": 2,
+      "mpg": 10.9,
+      "min_total": 22,
       "drives": {
-        "drives": 3.0,
+        "drives": 1.5,
         "drive_fgm": 0.0,
         "drive_fga": 0.0,
         "drive_fg_pct": 0.0,
@@ -3390,55 +3390,55 @@
         "drive_tov": 0.0
       },
       "passing": {
-        "passes_made": 25.0,
-        "passes_received": 19.0,
-        "potential_ast": 4.0,
-        "ast_points_created": 2.0,
-        "ast_to_pass_pct": 0.04
+        "passes_made": 13.0,
+        "passes_received": 9.5,
+        "potential_ast": 2.0,
+        "ast_points_created": 1.0,
+        "ast_to_pass_pct": 0.038
       },
       "possessions": {
-        "touches": 29.0,
-        "front_ct_touches": 18.0,
-        "time_of_poss": 0.8,
-        "avg_sec_per_touch": 1.58,
-        "pts_per_touch": 0.345,
+        "touches": 15.0,
+        "front_ct_touches": 9.0,
+        "time_of_poss": 0.4,
+        "avg_sec_per_touch": 1.54,
+        "pts_per_touch": 0.333,
         "elbow_touches": 0.0,
         "post_touches": 0.0,
-        "paint_touches": 1.0
+        "paint_touches": 0.5
       }
     },
     {
       "id": 203081,
       "name": "Damian Lillard",
       "team": "POR",
-      "gp": 8,
-      "mpg": 30.6,
-      "min_total": 245,
+      "gp": 9,
+      "mpg": 29.4,
+      "min_total": 265,
       "drives": {
-        "drives": 13.4,
-        "drive_fgm": 2.4,
-        "drive_fga": 4.5,
-        "drive_fg_pct": 0.528,
-        "drive_pts": 6.9,
+        "drives": 12.9,
+        "drive_fgm": 2.3,
+        "drive_fga": 4.6,
+        "drive_fg_pct": 0.512,
+        "drive_pts": 6.6,
         "drive_ast": 0.9,
         "drive_tov": 1.0
       },
       "passing": {
-        "passes_made": 44.4,
-        "passes_received": 53.8,
-        "potential_ast": 7.9,
-        "ast_points_created": 11.0,
-        "ast_to_pass_pct": 0.093
+        "passes_made": 43.3,
+        "passes_received": 52.6,
+        "potential_ast": 7.8,
+        "ast_points_created": 11.8,
+        "ast_to_pass_pct": 0.103
       },
       "possessions": {
-        "touches": 61.5,
-        "front_ct_touches": 27.9,
+        "touches": 59.4,
+        "front_ct_touches": 27.0,
         "time_of_poss": 6.0,
-        "avg_sec_per_touch": 5.86,
-        "pts_per_touch": 0.331,
-        "elbow_touches": 0.5,
+        "avg_sec_per_touch": 6.08,
+        "pts_per_touch": 0.327,
+        "elbow_touches": 0.4,
         "post_touches": 0.0,
-        "paint_touches": 0.3
+        "paint_touches": 0.2
       }
     },
     {
@@ -3513,34 +3513,34 @@
       "id": 1642874,
       "name": "Danny Wolf",
       "team": "BKN",
-      "gp": 3,
-      "mpg": 15.3,
-      "min_total": 46,
+      "gp": 4,
+      "mpg": 19.2,
+      "min_total": 77,
       "drives": {
         "drives": 3.0,
-        "drive_fgm": 0.7,
-        "drive_fga": 0.7,
-        "drive_fg_pct": 1.0,
-        "drive_pts": 1.3,
-        "drive_ast": 0.7,
+        "drive_fgm": 0.8,
+        "drive_fga": 1.0,
+        "drive_fg_pct": 0.75,
+        "drive_pts": 1.5,
+        "drive_ast": 0.5,
         "drive_tov": 0.3
       },
       "passing": {
-        "passes_made": 22.3,
-        "passes_received": 16.7,
-        "potential_ast": 2.0,
-        "ast_points_created": 5.3,
-        "ast_to_pass_pct": 0.09
+        "passes_made": 25.5,
+        "passes_received": 19.3,
+        "potential_ast": 2.3,
+        "ast_points_created": 5.0,
+        "ast_to_pass_pct": 0.069
       },
       "possessions": {
-        "touches": 25.3,
-        "front_ct_touches": 13.0,
-        "time_of_poss": 0.8,
-        "avg_sec_per_touch": 2.01,
-        "pts_per_touch": 0.368,
+        "touches": 30.8,
+        "front_ct_touches": 15.0,
+        "time_of_poss": 1.2,
+        "avg_sec_per_touch": 2.29,
+        "pts_per_touch": 0.317,
         "elbow_touches": 0.0,
         "post_touches": 0.3,
-        "paint_touches": 0.7
+        "paint_touches": 1.3
       }
     },
     {
@@ -3717,64 +3717,64 @@
       "id": 1630549,
       "name": "Day'Ron Sharpe",
       "team": "BKN",
-      "gp": 8,
-      "mpg": 23.1,
-      "min_total": 185,
+      "gp": 9,
+      "mpg": 24.1,
+      "min_total": 217,
       "drives": {
-        "drives": 1.4,
+        "drives": 1.6,
         "drive_fgm": 0.4,
-        "drive_fga": 0.6,
-        "drive_fg_pct": 0.6,
-        "drive_pts": 0.8,
-        "drive_ast": 0.0,
+        "drive_fga": 0.7,
+        "drive_fg_pct": 0.667,
+        "drive_pts": 0.9,
+        "drive_ast": 0.2,
         "drive_tov": 0.1
       },
       "passing": {
-        "passes_made": 25.1,
-        "passes_received": 20.1,
-        "potential_ast": 4.6,
-        "ast_points_created": 7.0,
-        "ast_to_pass_pct": 0.104
+        "passes_made": 28.4,
+        "passes_received": 23.0,
+        "potential_ast": 5.8,
+        "ast_points_created": 9.8,
+        "ast_to_pass_pct": 0.133
       },
       "possessions": {
-        "touches": 33.1,
-        "front_ct_touches": 22.3,
-        "time_of_poss": 1.0,
-        "avg_sec_per_touch": 1.88,
-        "pts_per_touch": 0.215,
-        "elbow_touches": 2.4,
-        "post_touches": 0.5,
-        "paint_touches": 5.9
+        "touches": 36.8,
+        "front_ct_touches": 25.0,
+        "time_of_poss": 1.5,
+        "avg_sec_per_touch": 2.45,
+        "pts_per_touch": 0.208,
+        "elbow_touches": 2.7,
+        "post_touches": 0.6,
+        "paint_touches": 6.0
       }
     },
     {
       "id": 1628368,
       "name": "De'Aaron Fox",
       "team": "SAS",
-      "gp": 9,
-      "mpg": 30.3,
-      "min_total": 273,
+      "gp": 10,
+      "mpg": 29.4,
+      "min_total": 294,
       "drives": {
-        "drives": 17.4,
-        "drive_fgm": 2.7,
-        "drive_fga": 4.9,
-        "drive_fg_pct": 0.545,
-        "drive_pts": 8.3,
-        "drive_ast": 1.9,
-        "drive_tov": 1.1
+        "drives": 16.8,
+        "drive_fgm": 2.4,
+        "drive_fga": 4.5,
+        "drive_fg_pct": 0.533,
+        "drive_pts": 7.8,
+        "drive_ast": 2.1,
+        "drive_tov": 1.0
       },
       "passing": {
-        "passes_made": 43.7,
-        "passes_received": 48.3,
-        "potential_ast": 12.2,
-        "ast_points_created": 14.8,
-        "ast_to_pass_pct": 0.135
+        "passes_made": 41.6,
+        "passes_received": 46.0,
+        "potential_ast": 12.1,
+        "ast_points_created": 15.1,
+        "ast_to_pass_pct": 0.142
       },
       "possessions": {
-        "touches": 56.0,
-        "front_ct_touches": 25.1,
-        "time_of_poss": 4.6,
-        "avg_sec_per_touch": 4.92,
+        "touches": 53.4,
+        "front_ct_touches": 23.9,
+        "time_of_poss": 4.3,
+        "avg_sec_per_touch": 4.88,
         "pts_per_touch": 0.258,
         "elbow_touches": 0.6,
         "post_touches": 0.1,
@@ -3819,32 +3819,32 @@
       "id": 1629001,
       "name": "De'Anthony Melton",
       "team": "GSW",
-      "gp": 9,
-      "mpg": 22.3,
-      "min_total": 201,
+      "gp": 10,
+      "mpg": 21.8,
+      "min_total": 218,
       "drives": {
-        "drives": 7.0,
-        "drive_fgm": 0.8,
-        "drive_fga": 1.9,
-        "drive_fg_pct": 0.412,
-        "drive_pts": 2.7,
+        "drives": 6.7,
+        "drive_fgm": 0.7,
+        "drive_fga": 1.8,
+        "drive_fg_pct": 0.389,
+        "drive_pts": 2.5,
         "drive_ast": 0.2,
-        "drive_tov": 0.8
+        "drive_tov": 0.7
       },
       "passing": {
-        "passes_made": 33.2,
-        "passes_received": 29.8,
-        "potential_ast": 4.2,
-        "ast_points_created": 5.4,
-        "ast_to_pass_pct": 0.067
+        "passes_made": 32.1,
+        "passes_received": 28.5,
+        "potential_ast": 4.1,
+        "ast_points_created": 5.1,
+        "ast_to_pass_pct": 0.065
       },
       "possessions": {
-        "touches": 38.6,
-        "front_ct_touches": 15.6,
-        "time_of_poss": 3.4,
-        "avg_sec_per_touch": 5.29,
-        "pts_per_touch": 0.259,
-        "elbow_touches": 0.7,
+        "touches": 36.8,
+        "front_ct_touches": 15.3,
+        "time_of_poss": 3.1,
+        "avg_sec_per_touch": 5.12,
+        "pts_per_touch": 0.255,
+        "elbow_touches": 0.6,
         "post_touches": 0.1,
         "paint_touches": 1.2
       }
@@ -3955,9 +3955,9 @@
       "id": 1629028,
       "name": "Deandre Ayton",
       "team": "WAS",
-      "gp": 9,
-      "mpg": 16.1,
-      "min_total": 145,
+      "gp": 10,
+      "mpg": 15.2,
+      "min_total": 152,
       "drives": {
         "drives": 0.1,
         "drive_fgm": 0.0,
@@ -3968,21 +3968,21 @@
         "drive_tov": 0.0
       },
       "passing": {
-        "passes_made": 16.3,
+        "passes_made": 15.8,
         "passes_received": 9.3,
-        "potential_ast": 1.0,
-        "ast_points_created": 3.1,
-        "ast_to_pass_pct": 0.068
+        "potential_ast": 0.9,
+        "ast_points_created": 2.8,
+        "ast_to_pass_pct": 0.063
       },
       "possessions": {
-        "touches": 20.0,
-        "front_ct_touches": 11.9,
+        "touches": 19.5,
+        "front_ct_touches": 11.7,
         "time_of_poss": 0.5,
-        "avg_sec_per_touch": 1.52,
-        "pts_per_touch": 0.283,
+        "avg_sec_per_touch": 1.65,
+        "pts_per_touch": 0.272,
         "elbow_touches": 1.1,
-        "post_touches": 1.0,
-        "paint_touches": 5.7
+        "post_touches": 0.9,
+        "paint_touches": 5.2
       }
     },
     {
@@ -4023,34 +4023,34 @@
       "id": 1630166,
       "name": "Deni Avdija",
       "team": "POR",
-      "gp": 8,
-      "mpg": 33.2,
-      "min_total": 266,
+      "gp": 9,
+      "mpg": 32.1,
+      "min_total": 289,
       "drives": {
-        "drives": 24.9,
-        "drive_fgm": 3.8,
-        "drive_fga": 6.5,
-        "drive_fg_pct": 0.577,
-        "drive_pts": 12.1,
-        "drive_ast": 3.4,
-        "drive_tov": 1.4
+        "drives": 24.8,
+        "drive_fgm": 3.7,
+        "drive_fga": 6.9,
+        "drive_fg_pct": 0.532,
+        "drive_pts": 11.8,
+        "drive_ast": 3.1,
+        "drive_tov": 1.6
       },
       "passing": {
-        "passes_made": 52.6,
-        "passes_received": 56.9,
-        "potential_ast": 12.5,
-        "ast_points_created": 18.5,
-        "ast_to_pass_pct": 0.133
+        "passes_made": 51.3,
+        "passes_received": 55.7,
+        "potential_ast": 11.4,
+        "ast_points_created": 16.7,
+        "ast_to_pass_pct": 0.123
       },
       "possessions": {
-        "touches": 71.0,
-        "front_ct_touches": 37.5,
-        "time_of_poss": 5.0,
-        "avg_sec_per_touch": 4.19,
-        "pts_per_touch": 0.327,
-        "elbow_touches": 1.3,
-        "post_touches": 0.4,
-        "paint_touches": 2.1
+        "touches": 69.7,
+        "front_ct_touches": 36.4,
+        "time_of_poss": 4.9,
+        "avg_sec_per_touch": 4.18,
+        "pts_per_touch": 0.321,
+        "elbow_touches": 1.1,
+        "post_touches": 0.3,
+        "paint_touches": 1.9
       }
     },
     {
@@ -4227,101 +4227,101 @@
       "id": 1626164,
       "name": "Devin Booker",
       "team": "PHX",
-      "gp": 7,
-      "mpg": 34.5,
-      "min_total": 242,
+      "gp": 8,
+      "mpg": 35.0,
+      "min_total": 280,
       "drives": {
-        "drives": 15.4,
+        "drives": 16.3,
         "drive_fgm": 3.6,
-        "drive_fga": 5.9,
-        "drive_fg_pct": 0.61,
-        "drive_pts": 9.4,
+        "drive_fga": 6.3,
+        "drive_fg_pct": 0.58,
+        "drive_pts": 9.3,
         "drive_ast": 2.0,
-        "drive_tov": 1.0
+        "drive_tov": 1.3
       },
       "passing": {
-        "passes_made": 29.6,
-        "passes_received": 48.1,
-        "potential_ast": 8.3,
-        "ast_points_created": 13.0,
-        "ast_to_pass_pct": 0.174
+        "passes_made": 29.1,
+        "passes_received": 48.6,
+        "potential_ast": 7.8,
+        "ast_points_created": 12.4,
+        "ast_to_pass_pct": 0.167
       },
       "possessions": {
-        "touches": 52.6,
-        "front_ct_touches": 33.7,
-        "time_of_poss": 4.4,
-        "avg_sec_per_touch": 5.06,
-        "pts_per_touch": 0.484,
-        "elbow_touches": 1.0,
-        "post_touches": 1.3,
-        "paint_touches": 0.9
+        "touches": 53.5,
+        "front_ct_touches": 34.5,
+        "time_of_poss": 4.5,
+        "avg_sec_per_touch": 5.07,
+        "pts_per_touch": 0.472,
+        "elbow_touches": 1.5,
+        "post_touches": 1.5,
+        "paint_touches": 1.4
       }
     },
     {
       "id": 1630170,
       "name": "Devin Vassell",
       "team": "SAS",
-      "gp": 9,
-      "mpg": 31.0,
-      "min_total": 279,
+      "gp": 10,
+      "mpg": 30.0,
+      "min_total": 300,
       "drives": {
-        "drives": 7.4,
-        "drive_fgm": 1.2,
-        "drive_fga": 2.8,
-        "drive_fg_pct": 0.44,
-        "drive_pts": 3.1,
+        "drives": 7.2,
+        "drive_fgm": 1.1,
+        "drive_fga": 2.6,
+        "drive_fg_pct": 0.423,
+        "drive_pts": 2.8,
         "drive_ast": 1.2,
         "drive_tov": 0.4
       },
       "passing": {
-        "passes_made": 29.9,
-        "passes_received": 30.1,
-        "potential_ast": 6.1,
-        "ast_points_created": 8.9,
-        "ast_to_pass_pct": 0.104
+        "passes_made": 28.3,
+        "passes_received": 28.8,
+        "potential_ast": 5.8,
+        "ast_points_created": 8.8,
+        "ast_to_pass_pct": 0.11
       },
       "possessions": {
-        "touches": 37.8,
-        "front_ct_touches": 27.0,
+        "touches": 36.0,
+        "front_ct_touches": 26.1,
         "time_of_poss": 1.0,
-        "avg_sec_per_touch": 1.62,
-        "pts_per_touch": 0.306,
+        "avg_sec_per_touch": 1.6,
+        "pts_per_touch": 0.331,
         "elbow_touches": 1.4,
         "post_touches": 0.1,
-        "paint_touches": 0.8
+        "paint_touches": 0.7
       }
     },
     {
       "id": 1628415,
       "name": "Dillon Brooks",
       "team": "PHX",
-      "gp": 7,
-      "mpg": 30.3,
-      "min_total": 212,
+      "gp": 8,
+      "mpg": 31.2,
+      "min_total": 250,
       "drives": {
-        "drives": 9.1,
-        "drive_fgm": 2.6,
-        "drive_fga": 5.1,
-        "drive_fg_pct": 0.5,
-        "drive_pts": 6.9,
-        "drive_ast": 0.7,
-        "drive_tov": 0.3
+        "drives": 8.9,
+        "drive_fgm": 2.4,
+        "drive_fga": 4.9,
+        "drive_fg_pct": 0.487,
+        "drive_pts": 6.3,
+        "drive_ast": 0.6,
+        "drive_tov": 0.4
       },
       "passing": {
-        "passes_made": 26.7,
-        "passes_received": 28.7,
+        "passes_made": 28.8,
+        "passes_received": 29.5,
         "potential_ast": 5.3,
-        "ast_points_created": 5.9,
-        "ast_to_pass_pct": 0.102
+        "ast_points_created": 5.5,
+        "ast_to_pass_pct": 0.087
       },
       "possessions": {
-        "touches": 38.1,
-        "front_ct_touches": 23.1,
+        "touches": 39.1,
+        "front_ct_touches": 23.6,
         "time_of_poss": 1.9,
-        "avg_sec_per_touch": 2.92,
-        "pts_per_touch": 0.461,
+        "avg_sec_per_touch": 2.85,
+        "pts_per_touch": 0.428,
         "elbow_touches": 0.4,
-        "post_touches": 2.9,
+        "post_touches": 2.6,
         "paint_touches": 1.4
       }
     },
@@ -4397,65 +4397,65 @@
       "id": 1642270,
       "name": "Donovan Clingan",
       "team": "POR",
-      "gp": 8,
-      "mpg": 25.0,
-      "min_total": 200,
+      "gp": 9,
+      "mpg": 24.7,
+      "min_total": 222,
       "drives": {
-        "drives": 0.8,
+        "drives": 0.7,
         "drive_fgm": 0.0,
         "drive_fga": 0.0,
         "drive_fg_pct": 0.0,
-        "drive_pts": 0.3,
+        "drive_pts": 0.2,
         "drive_ast": 0.0,
-        "drive_tov": 0.3
+        "drive_tov": 0.2
       },
       "passing": {
-        "passes_made": 29.3,
-        "passes_received": 21.0,
-        "potential_ast": 3.5,
-        "ast_points_created": 4.5,
-        "ast_to_pass_pct": 0.051
+        "passes_made": 29.0,
+        "passes_received": 21.4,
+        "potential_ast": 3.6,
+        "ast_points_created": 4.0,
+        "ast_to_pass_pct": 0.046
       },
       "possessions": {
-        "touches": 40.0,
-        "front_ct_touches": 26.0,
-        "time_of_poss": 2.1,
-        "avg_sec_per_touch": 3.21,
-        "pts_per_touch": 0.316,
-        "elbow_touches": 3.9,
-        "post_touches": 0.8,
-        "paint_touches": 10.0
+        "touches": 39.4,
+        "front_ct_touches": 26.1,
+        "time_of_poss": 2.0,
+        "avg_sec_per_touch": 3.11,
+        "pts_per_touch": 0.301,
+        "elbow_touches": 3.6,
+        "post_touches": 0.7,
+        "paint_touches": 9.6
       }
     },
     {
       "id": 1628378,
       "name": "Donovan Mitchell",
       "team": "CLE",
-      "gp": 9,
-      "mpg": 33.4,
-      "min_total": 301,
+      "gp": 10,
+      "mpg": 33.8,
+      "min_total": 338,
       "drives": {
-        "drives": 15.9,
-        "drive_fgm": 3.8,
-        "drive_fga": 6.8,
-        "drive_fg_pct": 0.557,
-        "drive_pts": 8.9,
-        "drive_ast": 2.0,
-        "drive_tov": 1.2
+        "drives": 16.1,
+        "drive_fgm": 4.1,
+        "drive_fga": 6.9,
+        "drive_fg_pct": 0.594,
+        "drive_pts": 9.9,
+        "drive_ast": 1.8,
+        "drive_tov": 1.3
       },
       "passing": {
-        "passes_made": 35.8,
-        "passes_received": 48.0,
+        "passes_made": 35.6,
+        "passes_received": 49.6,
         "potential_ast": 10.7,
-        "ast_points_created": 15.7,
-        "ast_to_pass_pct": 0.161
+        "ast_points_created": 14.9,
+        "ast_to_pass_pct": 0.157
       },
       "possessions": {
-        "touches": 56.0,
-        "front_ct_touches": 24.1,
-        "time_of_poss": 5.1,
-        "avg_sec_per_touch": 5.52,
-        "pts_per_touch": 0.403,
+        "touches": 57.4,
+        "front_ct_touches": 24.9,
+        "time_of_poss": 5.5,
+        "avg_sec_per_touch": 5.76,
+        "pts_per_touch": 0.418,
         "elbow_touches": 0.1,
         "post_touches": 0.6,
         "paint_touches": 0.2
@@ -4533,34 +4533,34 @@
       "id": 203110,
       "name": "Draymond Green",
       "team": "GSW",
-      "gp": 7,
-      "mpg": 26.7,
-      "min_total": 187,
+      "gp": 8,
+      "mpg": 27.6,
+      "min_total": 221,
       "drives": {
-        "drives": 3.9,
-        "drive_fgm": 0.1,
-        "drive_fga": 0.7,
-        "drive_fg_pct": 0.2,
-        "drive_pts": 0.3,
-        "drive_ast": 1.0,
-        "drive_tov": 0.4
+        "drives": 4.1,
+        "drive_fgm": 0.3,
+        "drive_fga": 0.9,
+        "drive_fg_pct": 0.286,
+        "drive_pts": 0.5,
+        "drive_ast": 1.1,
+        "drive_tov": 0.5
       },
       "passing": {
-        "passes_made": 47.1,
-        "passes_received": 41.0,
-        "potential_ast": 12.4,
-        "ast_points_created": 19.7,
-        "ast_to_pass_pct": 0.148
+        "passes_made": 49.8,
+        "passes_received": 43.3,
+        "potential_ast": 12.8,
+        "ast_points_created": 21.3,
+        "ast_to_pass_pct": 0.156
       },
       "possessions": {
-        "touches": 52.6,
-        "front_ct_touches": 35.4,
-        "time_of_poss": 2.6,
-        "avg_sec_per_touch": 2.95,
-        "pts_per_touch": 0.057,
-        "elbow_touches": 2.3,
-        "post_touches": 2.1,
-        "paint_touches": 1.9
+        "touches": 55.6,
+        "front_ct_touches": 38.0,
+        "time_of_poss": 2.8,
+        "avg_sec_per_touch": 3.0,
+        "pts_per_touch": 0.052,
+        "elbow_touches": 2.5,
+        "post_touches": 1.9,
+        "paint_touches": 2.3
       }
     },
     {
@@ -4703,33 +4703,33 @@
       "id": 1642844,
       "name": "Dylan Harper",
       "team": "SAS",
-      "gp": 9,
-      "mpg": 32.4,
-      "min_total": 292,
+      "gp": 10,
+      "mpg": 32.0,
+      "min_total": 320,
       "drives": {
-        "drives": 14.8,
-        "drive_fgm": 2.9,
+        "drives": 14.7,
+        "drive_fgm": 3.0,
         "drive_fga": 6.3,
-        "drive_fg_pct": 0.456,
+        "drive_fg_pct": 0.476,
         "drive_pts": 7.8,
-        "drive_ast": 1.2,
+        "drive_ast": 1.3,
         "drive_tov": 0.4
       },
       "passing": {
-        "passes_made": 47.1,
+        "passes_made": 47.3,
         "passes_received": 50.0,
-        "potential_ast": 8.7,
-        "ast_points_created": 11.1,
-        "ast_to_pass_pct": 0.094
+        "potential_ast": 8.5,
+        "ast_points_created": 10.9,
+        "ast_to_pass_pct": 0.093
       },
       "possessions": {
-        "touches": 59.4,
-        "front_ct_touches": 28.4,
-        "time_of_poss": 4.1,
-        "avg_sec_per_touch": 4.09,
-        "pts_per_touch": 0.314,
+        "touches": 59.7,
+        "front_ct_touches": 27.9,
+        "time_of_poss": 4.3,
+        "avg_sec_per_touch": 4.32,
+        "pts_per_touch": 0.303,
         "elbow_touches": 0.9,
-        "post_touches": 0.4,
+        "post_touches": 0.5,
         "paint_touches": 2.8
       }
     },
@@ -4737,33 +4737,33 @@
       "id": 1630700,
       "name": "Dyson Daniels",
       "team": "ATL",
-      "gp": 10,
-      "mpg": 30.1,
-      "min_total": 301,
+      "gp": 11,
+      "mpg": 30.2,
+      "min_total": 332,
       "drives": {
-        "drives": 8.1,
-        "drive_fgm": 1.6,
-        "drive_fga": 3.5,
-        "drive_fg_pct": 0.457,
-        "drive_pts": 3.6,
-        "drive_ast": 1.0,
-        "drive_tov": 0.7
+        "drives": 8.2,
+        "drive_fgm": 1.7,
+        "drive_fga": 3.6,
+        "drive_fg_pct": 0.475,
+        "drive_pts": 3.8,
+        "drive_ast": 0.9,
+        "drive_tov": 0.6
       },
       "passing": {
-        "passes_made": 42.1,
-        "passes_received": 36.0,
-        "potential_ast": 9.3,
-        "ast_points_created": 14.2,
-        "ast_to_pass_pct": 0.128
+        "passes_made": 42.6,
+        "passes_received": 36.1,
+        "potential_ast": 9.6,
+        "ast_points_created": 14.5,
+        "ast_to_pass_pct": 0.13
       },
       "possessions": {
-        "touches": 47.2,
-        "front_ct_touches": 30.2,
-        "time_of_poss": 2.7,
-        "avg_sec_per_touch": 3.4,
-        "pts_per_touch": 0.21,
-        "elbow_touches": 1.4,
-        "post_touches": 0.6,
+        "touches": 47.3,
+        "front_ct_touches": 29.9,
+        "time_of_poss": 2.5,
+        "avg_sec_per_touch": 3.24,
+        "pts_per_touch": 0.208,
+        "elbow_touches": 1.3,
+        "post_touches": 0.5,
         "paint_touches": 6.8
       }
     },
@@ -4907,34 +4907,34 @@
       "id": 1630596,
       "name": "Evan Mobley",
       "team": "CLE",
-      "gp": 9,
+      "gp": 10,
       "mpg": 32.7,
-      "min_total": 294,
+      "min_total": 327,
       "drives": {
-        "drives": 6.4,
+        "drives": 6.3,
         "drive_fgm": 1.4,
         "drive_fga": 2.9,
-        "drive_fg_pct": 0.5,
-        "drive_pts": 3.4,
-        "drive_ast": 0.4,
+        "drive_fg_pct": 0.483,
+        "drive_pts": 3.3,
+        "drive_ast": 0.6,
         "drive_tov": 0.0
       },
       "passing": {
         "passes_made": 48.7,
-        "passes_received": 41.1,
-        "potential_ast": 6.9,
-        "ast_points_created": 9.9,
-        "ast_to_pass_pct": 0.073
+        "passes_received": 41.4,
+        "potential_ast": 7.1,
+        "ast_points_created": 10.2,
+        "ast_to_pass_pct": 0.076
       },
       "possessions": {
-        "touches": 61.7,
-        "front_ct_touches": 36.0,
-        "time_of_poss": 2.5,
-        "avg_sec_per_touch": 2.45,
-        "pts_per_touch": 0.31,
-        "elbow_touches": 2.7,
-        "post_touches": 2.2,
-        "paint_touches": 7.4
+        "touches": 61.9,
+        "front_ct_touches": 37.0,
+        "time_of_poss": 2.4,
+        "avg_sec_per_touch": 2.35,
+        "pts_per_touch": 0.297,
+        "elbow_touches": 3.3,
+        "post_touches": 2.3,
+        "paint_touches": 7.9
       }
     },
     {
@@ -4975,65 +4975,65 @@
       "id": 1630532,
       "name": "Franz Wagner",
       "team": "ORL",
-      "gp": 8,
-      "mpg": 36.1,
-      "min_total": 289,
+      "gp": 9,
+      "mpg": 36.5,
+      "min_total": 328,
       "drives": {
-        "drives": 25.8,
-        "drive_fgm": 4.8,
-        "drive_fga": 9.1,
-        "drive_fg_pct": 0.521,
-        "drive_pts": 11.5,
-        "drive_ast": 3.3,
+        "drives": 26.3,
+        "drive_fgm": 5.0,
+        "drive_fga": 9.4,
+        "drive_fg_pct": 0.529,
+        "drive_pts": 11.8,
+        "drive_ast": 3.1,
         "drive_tov": 1.3
       },
       "passing": {
-        "passes_made": 63.0,
-        "passes_received": 70.3,
-        "potential_ast": 14.3,
-        "ast_points_created": 22.5,
-        "ast_to_pass_pct": 0.135
+        "passes_made": 64.7,
+        "passes_received": 71.6,
+        "potential_ast": 14.9,
+        "ast_points_created": 23.3,
+        "ast_to_pass_pct": 0.136
       },
       "possessions": {
-        "touches": 82.9,
-        "front_ct_touches": 42.9,
-        "time_of_poss": 8.1,
-        "avg_sec_per_touch": 5.84,
-        "pts_per_touch": 0.237,
+        "touches": 84.4,
+        "front_ct_touches": 43.3,
+        "time_of_poss": 8.0,
+        "avg_sec_per_touch": 5.68,
+        "pts_per_touch": 0.246,
         "elbow_touches": 1.1,
         "post_touches": 1.1,
-        "paint_touches": 2.9
+        "paint_touches": 2.7
       }
     },
     {
       "id": 1627832,
       "name": "Fred VanVleet",
       "team": "HOU",
-      "gp": 7,
-      "mpg": 29.9,
-      "min_total": 209,
+      "gp": 8,
+      "mpg": 30.0,
+      "min_total": 240,
       "drives": {
-        "drives": 11.4,
+        "drives": 10.9,
         "drive_fgm": 0.9,
-        "drive_fga": 2.1,
-        "drive_fg_pct": 0.4,
+        "drive_fga": 2.0,
+        "drive_fg_pct": 0.438,
         "drive_pts": 1.9,
-        "drive_ast": 3.0,
-        "drive_tov": 0.4
+        "drive_ast": 2.9,
+        "drive_tov": 0.5
       },
       "passing": {
-        "passes_made": 57.0,
-        "passes_received": 59.0,
-        "potential_ast": 9.7,
-        "ast_points_created": 15.7,
-        "ast_to_pass_pct": 0.11
+        "passes_made": 56.4,
+        "passes_received": 59.4,
+        "potential_ast": 9.4,
+        "ast_points_created": 15.0,
+        "ast_to_pass_pct": 0.106
       },
       "possessions": {
-        "touches": 65.7,
-        "front_ct_touches": 26.9,
-        "time_of_poss": 6.0,
-        "avg_sec_per_touch": 5.5,
-        "pts_per_touch": 0.198,
+        "touches": 66.0,
+        "front_ct_touches": 27.9,
+        "time_of_poss": 5.8,
+        "avg_sec_per_touch": 5.31,
+        "pts_per_touch": 0.203,
         "elbow_touches": 0.4,
         "post_touches": 0.0,
         "paint_touches": 0.1
@@ -5077,34 +5077,34 @@
       "id": 1627780,
       "name": "Gary Payton II",
       "team": "GSW",
-      "gp": 9,
+      "gp": 10,
       "mpg": 13.4,
-      "min_total": 121,
+      "min_total": 134,
       "drives": {
-        "drives": 1.3,
+        "drives": 1.4,
         "drive_fgm": 0.3,
-        "drive_fga": 0.6,
+        "drive_fga": 0.5,
         "drive_fg_pct": 0.6,
-        "drive_pts": 0.7,
+        "drive_pts": 0.6,
         "drive_ast": 0.1,
         "drive_tov": 0.0
       },
       "passing": {
-        "passes_made": 13.6,
-        "passes_received": 12.4,
-        "potential_ast": 1.0,
-        "ast_points_created": 1.3,
-        "ast_to_pass_pct": 0.033
+        "passes_made": 13.5,
+        "passes_received": 12.5,
+        "potential_ast": 1.3,
+        "ast_points_created": 1.2,
+        "ast_to_pass_pct": 0.03
       },
       "possessions": {
-        "touches": 17.3,
-        "front_ct_touches": 11.2,
-        "time_of_poss": 1.4,
-        "avg_sec_per_touch": 4.98,
-        "pts_per_touch": 0.295,
-        "elbow_touches": 0.9,
+        "touches": 17.2,
+        "front_ct_touches": 11.1,
+        "time_of_poss": 1.3,
+        "avg_sec_per_touch": 4.63,
+        "pts_per_touch": 0.291,
+        "elbow_touches": 0.8,
         "post_touches": 0.3,
-        "paint_touches": 2.7
+        "paint_touches": 2.6
       }
     },
     {
@@ -5145,31 +5145,31 @@
       "id": 1627777,
       "name": "Georges Niang",
       "team": "GSW",
-      "gp": 9,
-      "mpg": 20.1,
-      "min_total": 181,
+      "gp": 10,
+      "mpg": 20.7,
+      "min_total": 207,
       "drives": {
-        "drives": 2.4,
-        "drive_fgm": 0.7,
+        "drives": 2.5,
+        "drive_fgm": 0.6,
         "drive_fga": 1.1,
-        "drive_fg_pct": 0.6,
-        "drive_pts": 1.6,
+        "drive_fg_pct": 0.545,
+        "drive_pts": 1.4,
         "drive_ast": 0.3,
         "drive_tov": 0.3
       },
       "passing": {
-        "passes_made": 26.2,
-        "passes_received": 18.8,
-        "potential_ast": 2.0,
-        "ast_points_created": 4.4,
-        "ast_to_pass_pct": 0.064
+        "passes_made": 26.6,
+        "passes_received": 19.1,
+        "potential_ast": 2.2,
+        "ast_points_created": 4.2,
+        "ast_to_pass_pct": 0.06
       },
       "possessions": {
-        "touches": 27.2,
-        "front_ct_touches": 16.1,
+        "touches": 27.7,
+        "front_ct_touches": 16.5,
         "time_of_poss": 2.6,
-        "avg_sec_per_touch": 5.81,
-        "pts_per_touch": 0.29,
+        "avg_sec_per_touch": 5.73,
+        "pts_per_touch": 0.296,
         "elbow_touches": 0.6,
         "post_touches": 0.8,
         "paint_touches": 2.3
@@ -5213,9 +5213,9 @@
       "id": 1629048,
       "name": "Goga Bitadze",
       "team": "ORL",
-      "gp": 6,
-      "mpg": 9.2,
-      "min_total": 55,
+      "gp": 7,
+      "mpg": 8.9,
+      "min_total": 62,
       "drives": {
         "drives": 0.0,
         "drive_fgm": 0.0,
@@ -5226,21 +5226,21 @@
         "drive_tov": 0.0
       },
       "passing": {
-        "passes_made": 7.7,
-        "passes_received": 5.7,
-        "potential_ast": 0.7,
-        "ast_points_created": 0.8,
-        "ast_to_pass_pct": 0.043
+        "passes_made": 8.7,
+        "passes_received": 6.1,
+        "potential_ast": 0.9,
+        "ast_points_created": 1.4,
+        "ast_to_pass_pct": 0.066
       },
       "possessions": {
-        "touches": 10.0,
-        "front_ct_touches": 6.7,
+        "touches": 10.9,
+        "front_ct_touches": 6.9,
         "time_of_poss": 0.4,
-        "avg_sec_per_touch": 2.32,
-        "pts_per_touch": 0.367,
-        "elbow_touches": 0.8,
+        "avg_sec_per_touch": 1.96,
+        "pts_per_touch": 0.342,
+        "elbow_touches": 1.1,
         "post_touches": 0.0,
-        "paint_touches": 3.2
+        "paint_touches": 3.1
       }
     },
     {
@@ -5349,34 +5349,34 @@
       "id": 1630611,
       "name": "Gui Santos",
       "team": "GSW",
-      "gp": 6,
-      "mpg": 20.1,
-      "min_total": 121,
+      "gp": 7,
+      "mpg": 18.9,
+      "min_total": 132,
       "drives": {
-        "drives": 4.8,
-        "drive_fgm": 0.7,
-        "drive_fga": 1.5,
-        "drive_fg_pct": 0.444,
-        "drive_pts": 1.7,
-        "drive_ast": 0.7,
-        "drive_tov": 0.2
+        "drives": 4.6,
+        "drive_fgm": 0.6,
+        "drive_fga": 1.4,
+        "drive_fg_pct": 0.4,
+        "drive_pts": 1.4,
+        "drive_ast": 0.6,
+        "drive_tov": 0.3
       },
       "passing": {
-        "passes_made": 21.5,
-        "passes_received": 17.8,
-        "potential_ast": 2.5,
-        "ast_points_created": 3.8,
-        "ast_to_pass_pct": 0.062
+        "passes_made": 20.0,
+        "passes_received": 16.9,
+        "potential_ast": 2.1,
+        "ast_points_created": 3.3,
+        "ast_to_pass_pct": 0.057
       },
       "possessions": {
-        "touches": 26.2,
-        "front_ct_touches": 13.7,
-        "time_of_poss": 2.4,
-        "avg_sec_per_touch": 5.4,
-        "pts_per_touch": 0.274,
-        "elbow_touches": 0.5,
+        "touches": 24.6,
+        "front_ct_touches": 12.9,
+        "time_of_poss": 2.1,
+        "avg_sec_per_touch": 5.14,
+        "pts_per_touch": 0.267,
+        "elbow_touches": 0.4,
         "post_touches": 1.3,
-        "paint_touches": 2.8
+        "paint_touches": 2.6
       }
     },
     {
@@ -5417,31 +5417,31 @@
       "id": 203084,
       "name": "Harrison Barnes",
       "team": "SAS",
-      "gp": 7,
-      "mpg": 12.0,
-      "min_total": 84,
+      "gp": 8,
+      "mpg": 12.9,
+      "min_total": 103,
       "drives": {
-        "drives": 1.1,
-        "drive_fgm": 0.4,
-        "drive_fga": 0.4,
-        "drive_fg_pct": 1.0,
+        "drives": 1.5,
+        "drive_fgm": 0.5,
+        "drive_fga": 0.6,
+        "drive_fg_pct": 0.8,
         "drive_pts": 1.6,
         "drive_ast": 0.0,
         "drive_tov": 0.0
       },
       "passing": {
-        "passes_made": 9.0,
-        "passes_received": 9.1,
-        "potential_ast": 0.3,
+        "passes_made": 10.6,
+        "passes_received": 10.3,
+        "potential_ast": 0.4,
         "ast_points_created": 0.0,
         "ast_to_pass_pct": 0.0
       },
       "possessions": {
-        "touches": 10.4,
-        "front_ct_touches": 9.1,
+        "touches": 12.4,
+        "front_ct_touches": 10.1,
         "time_of_poss": 0.5,
-        "avg_sec_per_touch": 3.04,
-        "pts_per_touch": 0.493,
+        "avg_sec_per_touch": 2.63,
+        "pts_per_touch": 0.414,
         "elbow_touches": 0.3,
         "post_touches": 0.1,
         "paint_touches": 0.6
@@ -5723,34 +5723,34 @@
       "id": 1628392,
       "name": "Isaiah Hartenstein",
       "team": "OKC",
-      "gp": 9,
-      "mpg": 24.7,
-      "min_total": 222,
+      "gp": 10,
+      "mpg": 24.1,
+      "min_total": 241,
       "drives": {
-        "drives": 1.4,
+        "drives": 1.5,
         "drive_fgm": 0.4,
         "drive_fga": 0.9,
-        "drive_fg_pct": 0.5,
-        "drive_pts": 0.9,
+        "drive_fg_pct": 0.444,
+        "drive_pts": 0.8,
         "drive_ast": 0.2,
         "drive_tov": 0.0
       },
       "passing": {
-        "passes_made": 33.0,
+        "passes_made": 32.8,
         "passes_received": 21.7,
-        "potential_ast": 4.8,
-        "ast_points_created": 7.6,
-        "ast_to_pass_pct": 0.091
+        "potential_ast": 4.9,
+        "ast_points_created": 8.2,
+        "ast_to_pass_pct": 0.101
       },
       "possessions": {
-        "touches": 37.8,
-        "front_ct_touches": 23.7,
-        "time_of_poss": 1.9,
-        "avg_sec_per_touch": 3.0,
-        "pts_per_touch": 0.197,
-        "elbow_touches": 1.7,
-        "post_touches": 0.4,
-        "paint_touches": 5.9
+        "touches": 37.9,
+        "front_ct_touches": 23.9,
+        "time_of_poss": 2.5,
+        "avg_sec_per_touch": 3.88,
+        "pts_per_touch": 0.182,
+        "elbow_touches": 1.8,
+        "post_touches": 0.5,
+        "paint_touches": 5.8
       }
     },
     {
@@ -5995,34 +5995,34 @@
       "id": 1631095,
       "name": "Jabari Smith Jr.",
       "team": "HOU",
-      "gp": 9,
-      "mpg": 34.6,
-      "min_total": 311,
+      "gp": 10,
+      "mpg": 35.1,
+      "min_total": 351,
       "drives": {
-        "drives": 5.3,
-        "drive_fgm": 1.0,
-        "drive_fga": 2.6,
-        "drive_fg_pct": 0.391,
-        "drive_pts": 2.9,
+        "drives": 5.4,
+        "drive_fgm": 1.1,
+        "drive_fga": 2.7,
+        "drive_fg_pct": 0.407,
+        "drive_pts": 3.0,
         "drive_ast": 0.4,
         "drive_tov": 0.1
       },
       "passing": {
-        "passes_made": 38.0,
-        "passes_received": 31.4,
-        "potential_ast": 3.0,
-        "ast_points_created": 6.8,
-        "ast_to_pass_pct": 0.061
+        "passes_made": 38.7,
+        "passes_received": 31.5,
+        "potential_ast": 3.2,
+        "ast_points_created": 6.6,
+        "ast_to_pass_pct": 0.059
       },
       "possessions": {
-        "touches": 46.3,
-        "front_ct_touches": 27.1,
-        "time_of_poss": 2.5,
-        "avg_sec_per_touch": 3.21,
-        "pts_per_touch": 0.379,
-        "elbow_touches": 1.7,
-        "post_touches": 0.9,
-        "paint_touches": 2.7
+        "touches": 46.7,
+        "front_ct_touches": 26.9,
+        "time_of_poss": 2.4,
+        "avg_sec_per_touch": 3.1,
+        "pts_per_touch": 0.37,
+        "elbow_touches": 1.6,
+        "post_touches": 0.8,
+        "paint_touches": 2.8
       }
     },
     {
@@ -6369,34 +6369,34 @@
       "id": 1628973,
       "name": "Jalen Brunson",
       "team": "NYK",
-      "gp": 8,
+      "gp": 9,
       "mpg": 34.1,
-      "min_total": 273,
+      "min_total": 307,
       "drives": {
-        "drives": 20.3,
-        "drive_fgm": 3.8,
-        "drive_fga": 9.9,
-        "drive_fg_pct": 0.38,
-        "drive_pts": 10.0,
-        "drive_ast": 1.5,
+        "drives": 20.7,
+        "drive_fgm": 4.2,
+        "drive_fga": 10.1,
+        "drive_fg_pct": 0.418,
+        "drive_pts": 11.0,
+        "drive_ast": 1.6,
         "drive_tov": 0.6
       },
       "passing": {
-        "passes_made": 65.6,
-        "passes_received": 78.0,
-        "potential_ast": 11.8,
-        "ast_points_created": 14.0,
-        "ast_to_pass_pct": 0.078
+        "passes_made": 65.7,
+        "passes_received": 78.4,
+        "potential_ast": 12.7,
+        "ast_points_created": 14.9,
+        "ast_to_pass_pct": 0.085
       },
       "possessions": {
-        "touches": 88.3,
-        "front_ct_touches": 32.1,
+        "touches": 88.9,
+        "front_ct_touches": 32.3,
         "time_of_poss": 10.1,
-        "avg_sec_per_touch": 6.89,
-        "pts_per_touch": 0.29,
-        "elbow_touches": 0.3,
+        "avg_sec_per_touch": 6.85,
+        "pts_per_touch": 0.295,
+        "elbow_touches": 0.2,
         "post_touches": 0.6,
-        "paint_touches": 0.9
+        "paint_touches": 1.1
       }
     },
     {
@@ -6437,68 +6437,68 @@
       "id": 1630224,
       "name": "Jalen Green",
       "team": "PHX",
-      "gp": 7,
-      "mpg": 28.3,
-      "min_total": 198,
+      "gp": 8,
+      "mpg": 29.0,
+      "min_total": 232,
       "drives": {
-        "drives": 13.4,
-        "drive_fgm": 2.4,
-        "drive_fga": 5.3,
-        "drive_fg_pct": 0.459,
-        "drive_pts": 6.3,
-        "drive_ast": 1.0,
-        "drive_tov": 1.1
+        "drives": 14.3,
+        "drive_fgm": 2.8,
+        "drive_fga": 5.8,
+        "drive_fg_pct": 0.478,
+        "drive_pts": 7.0,
+        "drive_ast": 1.1,
+        "drive_tov": 1.3
       },
       "passing": {
-        "passes_made": 35.0,
-        "passes_received": 43.0,
-        "potential_ast": 6.1,
-        "ast_points_created": 8.3,
-        "ast_to_pass_pct": 0.094
+        "passes_made": 36.4,
+        "passes_received": 44.8,
+        "potential_ast": 5.9,
+        "ast_points_created": 8.9,
+        "ast_to_pass_pct": 0.1
       },
       "possessions": {
-        "touches": 48.9,
-        "front_ct_touches": 21.3,
-        "time_of_poss": 4.5,
-        "avg_sec_per_touch": 5.56,
-        "pts_per_touch": 0.243,
-        "elbow_touches": 0.7,
+        "touches": 50.6,
+        "front_ct_touches": 21.6,
+        "time_of_poss": 4.6,
+        "avg_sec_per_touch": 5.46,
+        "pts_per_touch": 0.244,
+        "elbow_touches": 0.8,
         "post_touches": 0.0,
-        "paint_touches": 1.1
+        "paint_touches": 1.4
       }
     },
     {
       "id": 1630552,
       "name": "Jalen Johnson",
       "team": "ATL",
-      "gp": 7,
-      "mpg": 32.6,
-      "min_total": 228,
+      "gp": 8,
+      "mpg": 33.0,
+      "min_total": 264,
       "drives": {
-        "drives": 16.1,
-        "drive_fgm": 2.7,
-        "drive_fga": 7.0,
-        "drive_fg_pct": 0.388,
-        "drive_pts": 7.0,
-        "drive_ast": 1.7,
-        "drive_tov": 1.3
+        "drives": 15.9,
+        "drive_fgm": 3.1,
+        "drive_fga": 7.1,
+        "drive_fg_pct": 0.439,
+        "drive_pts": 8.3,
+        "drive_ast": 1.5,
+        "drive_tov": 1.1
       },
       "passing": {
-        "passes_made": 65.1,
-        "passes_received": 54.1,
-        "potential_ast": 12.3,
-        "ast_points_created": 20.4,
-        "ast_to_pass_pct": 0.121
+        "passes_made": 66.3,
+        "passes_received": 55.0,
+        "potential_ast": 12.1,
+        "ast_points_created": 19.6,
+        "ast_to_pass_pct": 0.115
       },
       "possessions": {
-        "touches": 74.3,
-        "front_ct_touches": 37.4,
+        "touches": 75.3,
+        "front_ct_touches": 38.0,
         "time_of_poss": 4.0,
-        "avg_sec_per_touch": 3.27,
-        "pts_per_touch": 0.246,
-        "elbow_touches": 1.1,
-        "post_touches": 2.6,
-        "paint_touches": 3.4
+        "avg_sec_per_touch": 3.15,
+        "pts_per_touch": 0.262,
+        "elbow_touches": 1.0,
+        "post_touches": 2.5,
+        "paint_touches": 3.3
       }
     },
     {
@@ -6675,34 +6675,34 @@
       "id": 1631288,
       "name": "Jamal Cain",
       "team": "ORL",
-      "gp": 8,
-      "mpg": 17.5,
-      "min_total": 140,
+      "gp": 9,
+      "mpg": 19.5,
+      "min_total": 176,
       "drives": {
-        "drives": 2.4,
+        "drives": 2.6,
         "drive_fgm": 0.3,
-        "drive_fga": 0.5,
+        "drive_fga": 0.7,
         "drive_fg_pct": 0.5,
-        "drive_pts": 0.8,
+        "drive_pts": 1.1,
         "drive_ast": 0.1,
-        "drive_tov": 0.8
+        "drive_tov": 0.7
       },
       "passing": {
-        "passes_made": 15.1,
-        "passes_received": 13.4,
-        "potential_ast": 1.5,
-        "ast_points_created": 0.8,
-        "ast_to_pass_pct": 0.017
+        "passes_made": 16.9,
+        "passes_received": 14.7,
+        "potential_ast": 1.7,
+        "ast_points_created": 1.0,
+        "ast_to_pass_pct": 0.02
       },
       "possessions": {
-        "touches": 18.4,
-        "front_ct_touches": 12.3,
+        "touches": 20.8,
+        "front_ct_touches": 13.8,
         "time_of_poss": 1.0,
-        "avg_sec_per_touch": 3.42,
-        "pts_per_touch": 0.32,
-        "elbow_touches": 0.1,
-        "post_touches": 0.4,
-        "paint_touches": 1.1
+        "avg_sec_per_touch": 2.9,
+        "pts_per_touch": 0.348,
+        "elbow_touches": 0.2,
+        "post_touches": 0.3,
+        "paint_touches": 1.4
       }
     },
     {
@@ -6811,33 +6811,33 @@
       "id": 201935,
       "name": "James Harden",
       "team": "CLE",
-      "gp": 9,
-      "mpg": 33.3,
-      "min_total": 300,
+      "gp": 10,
+      "mpg": 33.4,
+      "min_total": 334,
       "drives": {
-        "drives": 13.4,
-        "drive_fgm": 1.9,
-        "drive_fga": 4.9,
-        "drive_fg_pct": 0.386,
-        "drive_pts": 5.0,
+        "drives": 12.9,
+        "drive_fgm": 1.8,
+        "drive_fga": 4.8,
+        "drive_fg_pct": 0.375,
+        "drive_pts": 4.9,
         "drive_ast": 2.0,
-        "drive_tov": 0.9
+        "drive_tov": 0.8
       },
       "passing": {
-        "passes_made": 50.2,
-        "passes_received": 53.0,
-        "potential_ast": 12.2,
-        "ast_points_created": 14.6,
-        "ast_to_pass_pct": 0.117
+        "passes_made": 48.6,
+        "passes_received": 51.9,
+        "potential_ast": 12.3,
+        "ast_points_created": 14.4,
+        "ast_to_pass_pct": 0.119
       },
       "possessions": {
-        "touches": 63.3,
-        "front_ct_touches": 24.2,
-        "time_of_poss": 5.8,
-        "avg_sec_per_touch": 5.48,
-        "pts_per_touch": 0.263,
+        "touches": 61.5,
+        "front_ct_touches": 23.9,
+        "time_of_poss": 5.6,
+        "avg_sec_per_touch": 5.42,
+        "pts_per_touch": 0.255,
         "elbow_touches": 0.0,
-        "post_touches": 0.7,
+        "post_touches": 0.6,
         "paint_touches": 0.3
       }
     },
@@ -6947,34 +6947,34 @@
       "id": 1642272,
       "name": "Jared McCain",
       "team": "OKC",
-      "gp": 9,
-      "mpg": 25.4,
-      "min_total": 229,
+      "gp": 10,
+      "mpg": 25.2,
+      "min_total": 252,
       "drives": {
-        "drives": 7.7,
-        "drive_fgm": 2.1,
-        "drive_fga": 4.2,
-        "drive_fg_pct": 0.5,
-        "drive_pts": 5.0,
+        "drives": 7.5,
+        "drive_fgm": 2.2,
+        "drive_fga": 4.1,
+        "drive_fg_pct": 0.537,
+        "drive_pts": 5.1,
         "drive_ast": 0.9,
-        "drive_tov": 0.4
+        "drive_tov": 0.5
       },
       "passing": {
-        "passes_made": 25.7,
-        "passes_received": 28.7,
+        "passes_made": 25.4,
+        "passes_received": 28.5,
         "potential_ast": 2.7,
         "ast_points_created": 4.2,
-        "ast_to_pass_pct": 0.065
+        "ast_to_pass_pct": 0.067
       },
       "possessions": {
-        "touches": 35.1,
-        "front_ct_touches": 19.2,
-        "time_of_poss": 1.9,
-        "avg_sec_per_touch": 3.21,
-        "pts_per_touch": 0.323,
-        "elbow_touches": 0.4,
+        "touches": 35.0,
+        "front_ct_touches": 19.1,
+        "time_of_poss": 1.8,
+        "avg_sec_per_touch": 3.11,
+        "pts_per_touch": 0.346,
+        "elbow_touches": 0.5,
         "post_touches": 0.1,
-        "paint_touches": 0.6
+        "paint_touches": 0.5
       }
     },
     {
@@ -7083,34 +7083,34 @@
       "id": 1642859,
       "name": "Jase Richardson",
       "team": "ORL",
-      "gp": 8,
-      "mpg": 21.8,
-      "min_total": 174,
+      "gp": 9,
+      "mpg": 22.7,
+      "min_total": 204,
       "drives": {
-        "drives": 6.4,
+        "drives": 7.0,
         "drive_fgm": 1.1,
-        "drive_fga": 3.0,
-        "drive_fg_pct": 0.375,
+        "drive_fga": 3.2,
+        "drive_fg_pct": 0.345,
         "drive_pts": 2.6,
         "drive_ast": 0.8,
         "drive_tov": 0.1
       },
       "passing": {
-        "passes_made": 26.9,
-        "passes_received": 28.6,
-        "potential_ast": 4.1,
-        "ast_points_created": 6.5,
-        "ast_to_pass_pct": 0.093
+        "passes_made": 28.0,
+        "passes_received": 30.3,
+        "potential_ast": 4.7,
+        "ast_points_created": 6.9,
+        "ast_to_pass_pct": 0.095
       },
       "possessions": {
-        "touches": 33.6,
-        "front_ct_touches": 17.0,
-        "time_of_poss": 2.1,
-        "avg_sec_per_touch": 3.7,
-        "pts_per_touch": 0.19,
+        "touches": 35.3,
+        "front_ct_touches": 18.8,
+        "time_of_poss": 2.5,
+        "avg_sec_per_touch": 4.3,
+        "pts_per_touch": 0.167,
         "elbow_touches": 0.3,
         "post_touches": 0.0,
-        "paint_touches": 0.8
+        "paint_touches": 1.0
       }
     },
     {
@@ -7457,32 +7457,32 @@
       "id": 1643257,
       "name": "Jayson Kent",
       "team": "POR",
-      "gp": 1,
-      "mpg": 7.0,
-      "min_total": 7,
+      "gp": 2,
+      "mpg": 9.5,
+      "min_total": 19,
       "drives": {
-        "drives": 0.0,
+        "drives": 1.0,
         "drive_fgm": 0.0,
-        "drive_fga": 0.0,
+        "drive_fga": 0.5,
         "drive_fg_pct": 0.0,
         "drive_pts": 0.0,
         "drive_ast": 0.0,
         "drive_tov": 0.0
       },
       "passing": {
-        "passes_made": 3.0,
-        "passes_received": 5.0,
-        "potential_ast": 1.0,
-        "ast_points_created": 0.0,
-        "ast_to_pass_pct": 0.0
+        "passes_made": 6.5,
+        "passes_received": 9.0,
+        "potential_ast": 1.5,
+        "ast_points_created": 1.5,
+        "ast_to_pass_pct": 0.077
       },
       "possessions": {
-        "touches": 7.0,
-        "front_ct_touches": 6.0,
-        "time_of_poss": 0.1,
-        "avg_sec_per_touch": 1.06,
-        "pts_per_touch": 0.0,
-        "elbow_touches": 0.0,
+        "touches": 10.5,
+        "front_ct_touches": 9.5,
+        "time_of_poss": 0.3,
+        "avg_sec_per_touch": 1.49,
+        "pts_per_touch": 0.19,
+        "elbow_touches": 0.5,
         "post_touches": 0.0,
         "paint_touches": 2.0
       }
@@ -7661,34 +7661,34 @@
       "id": 1628975,
       "name": "Jevon Carter",
       "team": "ORL",
-      "gp": 4,
-      "mpg": 13.9,
-      "min_total": 56,
+      "gp": 5,
+      "mpg": 14.2,
+      "min_total": 71,
       "drives": {
-        "drives": 3.5,
+        "drives": 3.2,
         "drive_fgm": 0.0,
-        "drive_fga": 0.5,
+        "drive_fga": 0.4,
         "drive_fg_pct": 0.0,
         "drive_pts": 0.0,
-        "drive_ast": 0.5,
+        "drive_ast": 0.4,
         "drive_tov": 0.0
       },
       "passing": {
-        "passes_made": 27.5,
-        "passes_received": 25.0,
-        "potential_ast": 4.0,
-        "ast_points_created": 5.8,
-        "ast_to_pass_pct": 0.073
+        "passes_made": 26.8,
+        "passes_received": 24.4,
+        "potential_ast": 3.6,
+        "ast_points_created": 5.0,
+        "ast_to_pass_pct": 0.06
       },
       "possessions": {
-        "touches": 27.8,
-        "front_ct_touches": 13.3,
-        "time_of_poss": 2.1,
-        "avg_sec_per_touch": 4.59,
-        "pts_per_touch": 0.099,
+        "touches": 27.4,
+        "front_ct_touches": 14.4,
+        "time_of_poss": 1.9,
+        "avg_sec_per_touch": 4.16,
+        "pts_per_touch": 0.146,
         "elbow_touches": 0.0,
-        "post_touches": 0.3,
-        "paint_touches": 0.3
+        "post_touches": 0.2,
+        "paint_touches": 0.2
       }
     },
     {
@@ -7933,31 +7933,31 @@
       "id": 203903,
       "name": "Jordan Clarkson",
       "team": "NYK",
-      "gp": 7,
-      "mpg": 9.8,
-      "min_total": 69,
+      "gp": 8,
+      "mpg": 10.4,
+      "min_total": 83,
       "drives": {
-        "drives": 2.0,
-        "drive_fgm": 0.7,
-        "drive_fga": 1.4,
+        "drives": 2.1,
+        "drive_fgm": 0.8,
+        "drive_fga": 1.5,
         "drive_fg_pct": 0.5,
         "drive_pts": 1.6,
         "drive_ast": 0.1,
         "drive_tov": 0.1
       },
       "passing": {
-        "passes_made": 7.7,
-        "passes_received": 9.6,
-        "potential_ast": 1.0,
-        "ast_points_created": 1.1,
-        "ast_to_pass_pct": 0.056
+        "passes_made": 9.0,
+        "passes_received": 10.3,
+        "potential_ast": 1.1,
+        "ast_points_created": 1.0,
+        "ast_to_pass_pct": 0.042
       },
       "possessions": {
-        "touches": 12.3,
-        "front_ct_touches": 9.3,
+        "touches": 13.5,
+        "front_ct_touches": 10.0,
         "time_of_poss": 0.6,
-        "avg_sec_per_touch": 2.82,
-        "pts_per_touch": 0.5,
+        "avg_sec_per_touch": 2.52,
+        "pts_per_touch": 0.481,
         "elbow_touches": 0.3,
         "post_touches": 0.1,
         "paint_touches": 2.0
@@ -8035,34 +8035,34 @@
       "id": 1629162,
       "name": "Jordan McLaughlin",
       "team": "SAS",
-      "gp": 4,
-      "mpg": 6.6,
-      "min_total": 26,
+      "gp": 5,
+      "mpg": 7.7,
+      "min_total": 38,
       "drives": {
-        "drives": 5.3,
+        "drives": 5.4,
         "drive_fgm": 0.0,
-        "drive_fga": 1.3,
+        "drive_fga": 1.0,
         "drive_fg_pct": 0.0,
-        "drive_pts": 0.5,
-        "drive_ast": 0.8,
-        "drive_tov": 0.3
+        "drive_pts": 0.4,
+        "drive_ast": 0.6,
+        "drive_tov": 0.4
       },
       "passing": {
-        "passes_made": 13.8,
-        "passes_received": 15.5,
-        "potential_ast": 2.5,
-        "ast_points_created": 4.3,
-        "ast_to_pass_pct": 0.109
+        "passes_made": 15.6,
+        "passes_received": 17.4,
+        "potential_ast": 3.0,
+        "ast_points_created": 3.4,
+        "ast_to_pass_pct": 0.077
       },
       "possessions": {
-        "touches": 17.3,
-        "front_ct_touches": 8.0,
-        "time_of_poss": 1.9,
-        "avg_sec_per_touch": 6.63,
-        "pts_per_touch": 0.029,
+        "touches": 19.2,
+        "front_ct_touches": 8.6,
+        "time_of_poss": 2.6,
+        "avg_sec_per_touch": 8.11,
+        "pts_per_touch": 0.052,
         "elbow_touches": 0.0,
         "post_touches": 0.0,
-        "paint_touches": 0.8
+        "paint_touches": 0.6
       }
     },
     {
@@ -8171,32 +8171,32 @@
       "id": 1643717,
       "name": "Josh Dix",
       "team": "OKC",
-      "gp": 6,
-      "mpg": 13.6,
-      "min_total": 82,
+      "gp": 7,
+      "mpg": 14.6,
+      "min_total": 102,
       "drives": {
-        "drives": 1.0,
-        "drive_fgm": 0.3,
-        "drive_fga": 0.7,
+        "drives": 1.1,
+        "drive_fgm": 0.4,
+        "drive_fga": 0.9,
         "drive_fg_pct": 0.5,
-        "drive_pts": 0.7,
+        "drive_pts": 0.9,
         "drive_ast": 0.0,
         "drive_tov": 0.0
       },
       "passing": {
-        "passes_made": 9.3,
-        "passes_received": 8.3,
-        "potential_ast": 0.5,
-        "ast_points_created": 0.5,
-        "ast_to_pass_pct": 0.018
+        "passes_made": 10.3,
+        "passes_received": 8.7,
+        "potential_ast": 0.7,
+        "ast_points_created": 0.7,
+        "ast_to_pass_pct": 0.028
       },
       "possessions": {
-        "touches": 10.8,
+        "touches": 11.3,
         "front_ct_touches": 6.3,
         "time_of_poss": 0.6,
-        "avg_sec_per_touch": 3.09,
-        "pts_per_touch": 0.215,
-        "elbow_touches": 0.3,
+        "avg_sec_per_touch": 3.25,
+        "pts_per_touch": 0.203,
+        "elbow_touches": 0.4,
         "post_touches": 0.0,
         "paint_touches": 0.3
       }
@@ -8409,68 +8409,68 @@
       "id": 201950,
       "name": "Jrue Holiday",
       "team": "POR",
-      "gp": 8,
-      "mpg": 26.7,
-      "min_total": 214,
+      "gp": 9,
+      "mpg": 25.9,
+      "min_total": 233,
       "drives": {
-        "drives": 7.3,
+        "drives": 7.4,
         "drive_fgm": 1.4,
-        "drive_fga": 1.9,
-        "drive_fg_pct": 0.733,
-        "drive_pts": 3.6,
-        "drive_ast": 1.4,
-        "drive_tov": 0.3
+        "drive_fga": 2.1,
+        "drive_fg_pct": 0.684,
+        "drive_pts": 4.2,
+        "drive_ast": 1.2,
+        "drive_tov": 0.2
       },
       "passing": {
-        "passes_made": 43.1,
-        "passes_received": 41.0,
-        "potential_ast": 6.5,
-        "ast_points_created": 11.4,
-        "ast_to_pass_pct": 0.104
+        "passes_made": 41.1,
+        "passes_received": 39.8,
+        "potential_ast": 6.1,
+        "ast_points_created": 10.2,
+        "ast_to_pass_pct": 0.097
       },
       "possessions": {
-        "touches": 49.6,
-        "front_ct_touches": 21.6,
-        "time_of_poss": 3.9,
-        "avg_sec_per_touch": 4.71,
-        "pts_per_touch": 0.267,
-        "elbow_touches": 0.8,
-        "post_touches": 0.8,
-        "paint_touches": 2.4
+        "touches": 48.1,
+        "front_ct_touches": 20.7,
+        "time_of_poss": 3.7,
+        "avg_sec_per_touch": 4.6,
+        "pts_per_touch": 0.27,
+        "elbow_touches": 0.7,
+        "post_touches": 0.7,
+        "paint_touches": 2.2
       }
     },
     {
       "id": 1630577,
       "name": "Julian Champagnie",
       "team": "SAS",
-      "gp": 9,
-      "mpg": 26.1,
-      "min_total": 235,
+      "gp": 10,
+      "mpg": 25.7,
+      "min_total": 257,
       "drives": {
-        "drives": 2.9,
+        "drives": 2.8,
         "drive_fgm": 0.2,
         "drive_fga": 0.4,
         "drive_fg_pct": 0.5,
-        "drive_pts": 0.4,
+        "drive_pts": 0.6,
         "drive_ast": 0.4,
         "drive_tov": 0.1
       },
       "passing": {
-        "passes_made": 27.9,
-        "passes_received": 23.9,
-        "potential_ast": 3.1,
-        "ast_points_created": 4.2,
-        "ast_to_pass_pct": 0.052
+        "passes_made": 26.7,
+        "passes_received": 23.0,
+        "potential_ast": 2.8,
+        "ast_points_created": 3.8,
+        "ast_to_pass_pct": 0.049
       },
       "possessions": {
-        "touches": 33.1,
-        "front_ct_touches": 18.9,
-        "time_of_poss": 1.7,
-        "avg_sec_per_touch": 3.06,
-        "pts_per_touch": 0.289,
+        "touches": 32.1,
+        "front_ct_touches": 18.2,
+        "time_of_poss": 1.6,
+        "avg_sec_per_touch": 2.93,
+        "pts_per_touch": 0.312,
         "elbow_touches": 0.2,
         "post_touches": 0.2,
-        "paint_touches": 0.8
+        "paint_touches": 0.7
       }
     },
     {
@@ -8511,34 +8511,34 @@
       "id": 203944,
       "name": "Julius Randle",
       "team": "BKN",
-      "gp": 8,
-      "mpg": 33.8,
-      "min_total": 270,
+      "gp": 9,
+      "mpg": 33.9,
+      "min_total": 305,
       "drives": {
-        "drives": 15.0,
+        "drives": 15.2,
         "drive_fgm": 2.8,
-        "drive_fga": 6.0,
-        "drive_fg_pct": 0.458,
-        "drive_pts": 9.4,
-        "drive_ast": 1.5,
+        "drive_fga": 6.2,
+        "drive_fg_pct": 0.446,
+        "drive_pts": 9.2,
+        "drive_ast": 1.6,
         "drive_tov": 1.1
       },
       "passing": {
-        "passes_made": 42.1,
-        "passes_received": 48.4,
-        "potential_ast": 10.1,
-        "ast_points_created": 12.0,
-        "ast_to_pass_pct": 0.113
+        "passes_made": 41.6,
+        "passes_received": 48.6,
+        "potential_ast": 10.6,
+        "ast_points_created": 13.0,
+        "ast_to_pass_pct": 0.123
       },
       "possessions": {
-        "touches": 60.4,
-        "front_ct_touches": 41.0,
-        "time_of_poss": 6.4,
-        "avg_sec_per_touch": 6.31,
-        "pts_per_touch": 0.348,
+        "touches": 60.1,
+        "front_ct_touches": 40.7,
+        "time_of_poss": 6.0,
+        "avg_sec_per_touch": 6.03,
+        "pts_per_touch": 0.346,
         "elbow_touches": 1.8,
-        "post_touches": 3.4,
-        "paint_touches": 3.3
+        "post_touches": 3.2,
+        "paint_touches": 3.7
       }
     },
     {
@@ -8647,33 +8647,33 @@
       "id": 1626157,
       "name": "Karl-Anthony Towns",
       "team": "NYK",
-      "gp": 8,
-      "mpg": 31.2,
-      "min_total": 250,
+      "gp": 9,
+      "mpg": 31.5,
+      "min_total": 284,
       "drives": {
-        "drives": 5.6,
-        "drive_fgm": 2.4,
-        "drive_fga": 3.5,
-        "drive_fg_pct": 0.679,
+        "drives": 5.9,
+        "drive_fgm": 2.3,
+        "drive_fga": 3.8,
+        "drive_fg_pct": 0.618,
         "drive_pts": 5.3,
-        "drive_ast": 0.5,
-        "drive_tov": 0.3
+        "drive_ast": 0.4,
+        "drive_tov": 0.2
       },
       "passing": {
-        "passes_made": 35.6,
-        "passes_received": 35.9,
-        "potential_ast": 5.1,
+        "passes_made": 34.9,
+        "passes_received": 36.0,
+        "potential_ast": 5.2,
         "ast_points_created": 7.8,
-        "ast_to_pass_pct": 0.088
+        "ast_to_pass_pct": 0.089
       },
       "possessions": {
-        "touches": 53.4,
-        "front_ct_touches": 38.9,
-        "time_of_poss": 3.0,
-        "avg_sec_per_touch": 3.33,
-        "pts_per_touch": 0.372,
+        "touches": 53.1,
+        "front_ct_touches": 39.2,
+        "time_of_poss": 2.8,
+        "avg_sec_per_touch": 3.18,
+        "pts_per_touch": 0.393,
         "elbow_touches": 1.4,
-        "post_touches": 2.0,
+        "post_touches": 2.1,
         "paint_touches": 6.3
       }
     },
@@ -8885,34 +8885,34 @@
       "id": 1629640,
       "name": "Keldon Johnson",
       "team": "SAS",
-      "gp": 9,
-      "mpg": 23.1,
-      "min_total": 208,
+      "gp": 10,
+      "mpg": 23.5,
+      "min_total": 235,
       "drives": {
-        "drives": 6.8,
+        "drives": 7.6,
         "drive_fgm": 1.6,
-        "drive_fga": 3.3,
-        "drive_fg_pct": 0.467,
-        "drive_pts": 3.8,
-        "drive_ast": 0.6,
-        "drive_tov": 0.6
+        "drive_fga": 3.5,
+        "drive_fg_pct": 0.457,
+        "drive_pts": 4.2,
+        "drive_ast": 0.7,
+        "drive_tov": 0.5
       },
       "passing": {
-        "passes_made": 21.6,
-        "passes_received": 17.6,
-        "potential_ast": 3.0,
-        "ast_points_created": 4.7,
-        "ast_to_pass_pct": 0.082
+        "passes_made": 22.6,
+        "passes_received": 18.9,
+        "potential_ast": 3.4,
+        "ast_points_created": 5.1,
+        "ast_to_pass_pct": 0.088
       },
       "possessions": {
-        "touches": 27.7,
-        "front_ct_touches": 17.6,
+        "touches": 28.9,
+        "front_ct_touches": 18.4,
         "time_of_poss": 1.3,
-        "avg_sec_per_touch": 2.89,
-        "pts_per_touch": 0.289,
-        "elbow_touches": 0.7,
+        "avg_sec_per_touch": 2.75,
+        "pts_per_touch": 0.284,
+        "elbow_touches": 0.8,
         "post_touches": 0.0,
-        "paint_touches": 3.2
+        "paint_touches": 3.1
       }
     },
     {
@@ -8953,34 +8953,34 @@
       "id": 1629026,
       "name": "Kenrich Williams",
       "team": "OKC",
-      "gp": 9,
-      "mpg": 17.9,
-      "min_total": 161,
+      "gp": 10,
+      "mpg": 18.4,
+      "min_total": 184,
       "drives": {
-        "drives": 2.2,
-        "drive_fgm": 0.3,
-        "drive_fga": 0.6,
-        "drive_fg_pct": 0.6,
-        "drive_pts": 0.7,
+        "drives": 2.5,
+        "drive_fgm": 0.5,
+        "drive_fga": 0.8,
+        "drive_fg_pct": 0.625,
+        "drive_pts": 1.0,
         "drive_ast": 0.2,
         "drive_tov": 0.1
       },
       "passing": {
-        "passes_made": 13.3,
-        "passes_received": 10.3,
+        "passes_made": 14.4,
+        "passes_received": 11.2,
         "potential_ast": 1.9,
-        "ast_points_created": 2.7,
+        "ast_points_created": 2.8,
         "ast_to_pass_pct": 0.083
       },
       "possessions": {
-        "touches": 16.4,
-        "front_ct_touches": 9.4,
-        "time_of_poss": 0.6,
-        "avg_sec_per_touch": 2.23,
-        "pts_per_touch": 0.399,
+        "touches": 17.8,
+        "front_ct_touches": 10.1,
+        "time_of_poss": 0.7,
+        "avg_sec_per_touch": 2.51,
+        "pts_per_touch": 0.382,
         "elbow_touches": 0.1,
         "post_touches": 0.2,
-        "paint_touches": 2.0
+        "paint_touches": 2.1
       }
     },
     {
@@ -9055,34 +9055,34 @@
       "id": 201142,
       "name": "Kevin Durant",
       "team": "HOU",
-      "gp": 9,
-      "mpg": 33.7,
-      "min_total": 303,
+      "gp": 10,
+      "mpg": 34.1,
+      "min_total": 341,
       "drives": {
         "drives": 12.0,
         "drive_fgm": 2.4,
-        "drive_fga": 5.1,
-        "drive_fg_pct": 0.478,
-        "drive_pts": 7.3,
+        "drive_fga": 5.0,
+        "drive_fg_pct": 0.48,
+        "drive_pts": 7.4,
         "drive_ast": 1.0,
         "drive_tov": 1.0
       },
       "passing": {
-        "passes_made": 26.7,
-        "passes_received": 38.1,
+        "passes_made": 27.3,
+        "passes_received": 38.3,
         "potential_ast": 6.8,
-        "ast_points_created": 7.1,
-        "ast_to_pass_pct": 0.113
+        "ast_points_created": 7.0,
+        "ast_to_pass_pct": 0.11
       },
       "possessions": {
-        "touches": 45.3,
-        "front_ct_touches": 35.6,
-        "time_of_poss": 2.8,
-        "avg_sec_per_touch": 3.76,
-        "pts_per_touch": 0.458,
-        "elbow_touches": 1.9,
-        "post_touches": 1.4,
-        "paint_touches": 1.6
+        "touches": 46.3,
+        "front_ct_touches": 35.8,
+        "time_of_poss": 2.9,
+        "avg_sec_per_touch": 3.73,
+        "pts_per_touch": 0.449,
+        "elbow_touches": 1.8,
+        "post_touches": 1.6,
+        "paint_touches": 1.5
       }
     },
     {
@@ -9191,9 +9191,9 @@
       "id": 1642863,
       "name": "Khaman Maluach",
       "team": "PHX",
-      "gp": 7,
-      "mpg": 19.8,
-      "min_total": 139,
+      "gp": 8,
+      "mpg": 19.6,
+      "min_total": 157,
       "drives": {
         "drives": 0.1,
         "drive_fgm": 0.0,
@@ -9204,21 +9204,21 @@
         "drive_tov": 0.0
       },
       "passing": {
-        "passes_made": 23.6,
-        "passes_received": 13.7,
-        "potential_ast": 2.4,
-        "ast_points_created": 3.3,
-        "ast_to_pass_pct": 0.055
+        "passes_made": 23.3,
+        "passes_received": 13.6,
+        "potential_ast": 2.1,
+        "ast_points_created": 2.9,
+        "ast_to_pass_pct": 0.048
       },
       "possessions": {
-        "touches": 29.9,
-        "front_ct_touches": 15.3,
+        "touches": 30.0,
+        "front_ct_touches": 15.5,
         "time_of_poss": 0.7,
-        "avg_sec_per_touch": 1.41,
-        "pts_per_touch": 0.244,
+        "avg_sec_per_touch": 1.45,
+        "pts_per_touch": 0.246,
         "elbow_touches": 0.9,
-        "post_touches": 1.1,
-        "paint_touches": 5.7
+        "post_touches": 1.0,
+        "paint_touches": 5.8
       }
     },
     {
@@ -9259,34 +9259,34 @@
       "id": 1643412,
       "name": "Kingston Flemings",
       "team": "ATL",
-      "gp": 9,
-      "mpg": 21.1,
-      "min_total": 190,
+      "gp": 10,
+      "mpg": 21.7,
+      "min_total": 217,
       "drives": {
-        "drives": 12.0,
-        "drive_fgm": 1.9,
-        "drive_fga": 3.8,
-        "drive_fg_pct": 0.5,
-        "drive_pts": 4.0,
-        "drive_ast": 1.8,
-        "drive_tov": 0.8
+        "drives": 11.8,
+        "drive_fgm": 2.1,
+        "drive_fga": 3.9,
+        "drive_fg_pct": 0.538,
+        "drive_pts": 4.4,
+        "drive_ast": 1.6,
+        "drive_tov": 0.7
       },
       "passing": {
-        "passes_made": 34.6,
-        "passes_received": 36.9,
-        "potential_ast": 8.0,
-        "ast_points_created": 12.6,
-        "ast_to_pass_pct": 0.138
+        "passes_made": 35.0,
+        "passes_received": 37.6,
+        "potential_ast": 7.7,
+        "ast_points_created": 11.7,
+        "ast_to_pass_pct": 0.126
       },
       "possessions": {
-        "touches": 41.2,
-        "front_ct_touches": 15.3,
+        "touches": 41.8,
+        "front_ct_touches": 15.9,
         "time_of_poss": 3.3,
-        "avg_sec_per_touch": 4.82,
-        "pts_per_touch": 0.202,
+        "avg_sec_per_touch": 4.71,
+        "pts_per_touch": 0.203,
         "elbow_touches": 0.1,
         "post_touches": 0.0,
-        "paint_touches": 1.0
+        "paint_touches": 0.9
       }
     },
     {
@@ -9667,34 +9667,34 @@
       "id": 1642273,
       "name": "Kyshawn George",
       "team": "WAS",
-      "gp": 9,
-      "mpg": 33.4,
-      "min_total": 301,
+      "gp": 10,
+      "mpg": 33.0,
+      "min_total": 330,
       "drives": {
-        "drives": 11.4,
-        "drive_fgm": 2.8,
-        "drive_fga": 5.6,
-        "drive_fg_pct": 0.5,
-        "drive_pts": 6.8,
+        "drives": 11.5,
+        "drive_fgm": 2.6,
+        "drive_fga": 5.5,
+        "drive_fg_pct": 0.473,
+        "drive_pts": 6.3,
         "drive_ast": 1.6,
         "drive_tov": 1.1
       },
       "passing": {
-        "passes_made": 41.4,
-        "passes_received": 40.9,
-        "potential_ast": 9.0,
-        "ast_points_created": 12.2,
-        "ast_to_pass_pct": 0.123
+        "passes_made": 40.5,
+        "passes_received": 40.4,
+        "potential_ast": 9.2,
+        "ast_points_created": 12.4,
+        "ast_to_pass_pct": 0.128
       },
       "possessions": {
-        "touches": 51.2,
-        "front_ct_touches": 27.3,
-        "time_of_poss": 4.2,
-        "avg_sec_per_touch": 4.98,
-        "pts_per_touch": 0.371,
+        "touches": 50.6,
+        "front_ct_touches": 27.0,
+        "time_of_poss": 4.1,
+        "avg_sec_per_touch": 4.84,
+        "pts_per_touch": 0.366,
         "elbow_touches": 0.6,
-        "post_touches": 1.2,
-        "paint_touches": 1.9
+        "post_touches": 1.1,
+        "paint_touches": 2.0
       }
     },
     {
@@ -9803,34 +9803,34 @@
       "id": 1629013,
       "name": "Landry Shamet",
       "team": "NYK",
-      "gp": 8,
-      "mpg": 24.9,
-      "min_total": 199,
+      "gp": 9,
+      "mpg": 25.4,
+      "min_total": 229,
       "drives": {
-        "drives": 3.1,
-        "drive_fgm": 0.5,
-        "drive_fga": 0.9,
+        "drives": 3.0,
+        "drive_fgm": 0.4,
+        "drive_fga": 0.8,
         "drive_fg_pct": 0.571,
-        "drive_pts": 1.0,
+        "drive_pts": 0.9,
         "drive_ast": 0.8,
         "drive_tov": 0.1
       },
       "passing": {
-        "passes_made": 19.0,
-        "passes_received": 22.6,
-        "potential_ast": 3.5,
-        "ast_points_created": 5.3,
-        "ast_to_pass_pct": 0.105
+        "passes_made": 19.7,
+        "passes_received": 22.7,
+        "potential_ast": 3.3,
+        "ast_points_created": 5.0,
+        "ast_to_pass_pct": 0.096
       },
       "possessions": {
-        "touches": 25.5,
-        "front_ct_touches": 18.4,
+        "touches": 25.9,
+        "front_ct_touches": 18.8,
         "time_of_poss": 1.1,
-        "avg_sec_per_touch": 2.59,
-        "pts_per_touch": 0.368,
-        "elbow_touches": 0.4,
-        "post_touches": 0.0,
-        "paint_touches": 1.6
+        "avg_sec_per_touch": 2.56,
+        "pts_per_touch": 0.361,
+        "elbow_touches": 0.3,
+        "post_touches": 0.1,
+        "paint_touches": 1.4
       }
     },
     {
@@ -10075,34 +10075,34 @@
       "id": 1629652,
       "name": "Luguentz Dort",
       "team": "ATL",
-      "gp": 10,
-      "mpg": 26.0,
-      "min_total": 260,
+      "gp": 11,
+      "mpg": 25.4,
+      "min_total": 279,
       "drives": {
         "drives": 5.3,
-        "drive_fgm": 0.6,
-        "drive_fga": 1.8,
-        "drive_fg_pct": 0.333,
-        "drive_pts": 1.8,
-        "drive_ast": 0.6,
-        "drive_tov": 0.2
+        "drive_fgm": 0.5,
+        "drive_fga": 1.9,
+        "drive_fg_pct": 0.286,
+        "drive_pts": 1.6,
+        "drive_ast": 0.5,
+        "drive_tov": 0.3
       },
       "passing": {
-        "passes_made": 18.9,
-        "passes_received": 19.3,
-        "potential_ast": 2.6,
-        "ast_points_created": 4.5,
-        "ast_to_pass_pct": 0.095
+        "passes_made": 18.7,
+        "passes_received": 19.2,
+        "potential_ast": 2.5,
+        "ast_points_created": 4.4,
+        "ast_to_pass_pct": 0.092
       },
       "possessions": {
-        "touches": 26.8,
-        "front_ct_touches": 18.5,
+        "touches": 26.4,
+        "front_ct_touches": 18.3,
         "time_of_poss": 1.1,
-        "avg_sec_per_touch": 2.53,
-        "pts_per_touch": 0.392,
+        "avg_sec_per_touch": 2.51,
+        "pts_per_touch": 0.372,
         "elbow_touches": 0.4,
         "post_touches": 0.0,
-        "paint_touches": 2.5
+        "paint_touches": 2.4
       }
     },
     {
@@ -10177,43 +10177,43 @@
       "id": 1628379,
       "name": "Luke Kennard",
       "team": "PHX",
-      "gp": 6,
-      "mpg": 16.6,
-      "min_total": 100,
+      "gp": 7,
+      "mpg": 16.2,
+      "min_total": 113,
       "drives": {
-        "drives": 1.5,
-        "drive_fgm": 0.2,
-        "drive_fga": 0.2,
+        "drives": 1.9,
+        "drive_fgm": 0.3,
+        "drive_fga": 0.3,
         "drive_fg_pct": 1.0,
-        "drive_pts": 0.3,
-        "drive_ast": 0.3,
+        "drive_pts": 0.6,
+        "drive_ast": 0.4,
         "drive_tov": 0.0
       },
       "passing": {
-        "passes_made": 18.0,
-        "passes_received": 16.8,
-        "potential_ast": 3.2,
-        "ast_points_created": 5.2,
-        "ast_to_pass_pct": 0.111
+        "passes_made": 17.4,
+        "passes_received": 17.1,
+        "potential_ast": 3.0,
+        "ast_points_created": 5.0,
+        "ast_to_pass_pct": 0.115
       },
       "possessions": {
-        "touches": 19.8,
-        "front_ct_touches": 15.2,
-        "time_of_poss": 0.8,
-        "avg_sec_per_touch": 2.46,
-        "pts_per_touch": 0.395,
-        "elbow_touches": 0.8,
+        "touches": 20.1,
+        "front_ct_touches": 15.4,
+        "time_of_poss": 0.9,
+        "avg_sec_per_touch": 2.82,
+        "pts_per_touch": 0.411,
+        "elbow_touches": 0.7,
         "post_touches": 0.0,
-        "paint_touches": 0.5
+        "paint_touches": 0.4
       }
     },
     {
       "id": 1628436,
       "name": "Luke Kornet",
       "team": "SAS",
-      "gp": 9,
+      "gp": 10,
       "mpg": 15.2,
-      "min_total": 137,
+      "min_total": 152,
       "drives": {
         "drives": 0.1,
         "drive_fgm": 0.0,
@@ -10224,21 +10224,21 @@
         "drive_tov": 0.0
       },
       "passing": {
-        "passes_made": 13.2,
-        "passes_received": 8.1,
-        "potential_ast": 1.6,
-        "ast_points_created": 2.0,
-        "ast_to_pass_pct": 0.067
+        "passes_made": 13.6,
+        "passes_received": 9.0,
+        "potential_ast": 1.7,
+        "ast_points_created": 2.3,
+        "ast_to_pass_pct": 0.074
       },
       "possessions": {
-        "touches": 15.9,
-        "front_ct_touches": 10.3,
+        "touches": 16.6,
+        "front_ct_touches": 11.0,
         "time_of_poss": 0.7,
-        "avg_sec_per_touch": 2.63,
-        "pts_per_touch": 0.182,
-        "elbow_touches": 1.8,
+        "avg_sec_per_touch": 2.4,
+        "pts_per_touch": 0.193,
+        "elbow_touches": 2.0,
         "post_touches": 0.7,
-        "paint_touches": 4.1
+        "paint_touches": 4.5
       }
     },
     {
@@ -10381,68 +10381,68 @@
       "id": 203935,
       "name": "Marcus Smart",
       "team": "HOU",
-      "gp": 6,
-      "mpg": 23.0,
-      "min_total": 138,
+      "gp": 7,
+      "mpg": 22.7,
+      "min_total": 159,
       "drives": {
-        "drives": 4.3,
-        "drive_fgm": 0.8,
-        "drive_fga": 1.5,
-        "drive_fg_pct": 0.556,
-        "drive_pts": 1.8,
-        "drive_ast": 0.2,
+        "drives": 4.1,
+        "drive_fgm": 0.9,
+        "drive_fga": 1.7,
+        "drive_fg_pct": 0.5,
+        "drive_pts": 1.9,
+        "drive_ast": 0.1,
         "drive_tov": 0.3
       },
       "passing": {
-        "passes_made": 31.5,
-        "passes_received": 34.0,
-        "potential_ast": 4.5,
-        "ast_points_created": 6.5,
-        "ast_to_pass_pct": 0.079
+        "passes_made": 29.6,
+        "passes_received": 32.0,
+        "potential_ast": 4.0,
+        "ast_points_created": 5.6,
+        "ast_to_pass_pct": 0.072
       },
       "possessions": {
-        "touches": 39.7,
-        "front_ct_touches": 18.0,
-        "time_of_poss": 3.0,
-        "avg_sec_per_touch": 4.49,
-        "pts_per_touch": 0.248,
-        "elbow_touches": 0.2,
-        "post_touches": 0.7,
-        "paint_touches": 0.5
+        "touches": 37.6,
+        "front_ct_touches": 16.9,
+        "time_of_poss": 2.7,
+        "avg_sec_per_touch": 4.26,
+        "pts_per_touch": 0.243,
+        "elbow_touches": 0.3,
+        "post_touches": 0.6,
+        "paint_touches": 0.4
       }
     },
     {
       "id": 1626209,
       "name": "Mario Hezonja",
       "team": "CLE",
-      "gp": 9,
-      "mpg": 20.4,
-      "min_total": 184,
+      "gp": 10,
+      "mpg": 20.2,
+      "min_total": 202,
       "drives": {
         "drives": 2.3,
-        "drive_fgm": 0.7,
+        "drive_fgm": 0.6,
         "drive_fga": 1.1,
-        "drive_fg_pct": 0.6,
-        "drive_pts": 1.6,
+        "drive_fg_pct": 0.545,
+        "drive_pts": 1.4,
         "drive_ast": 0.3,
         "drive_tov": 0.1
       },
       "passing": {
-        "passes_made": 22.4,
-        "passes_received": 16.0,
-        "potential_ast": 3.0,
-        "ast_points_created": 4.4,
-        "ast_to_pass_pct": 0.084
+        "passes_made": 21.7,
+        "passes_received": 15.3,
+        "potential_ast": 2.8,
+        "ast_points_created": 4.3,
+        "ast_to_pass_pct": 0.083
       },
       "possessions": {
-        "touches": 28.2,
-        "front_ct_touches": 15.3,
+        "touches": 27.2,
+        "front_ct_touches": 14.7,
         "time_of_poss": 0.6,
-        "avg_sec_per_touch": 1.36,
-        "pts_per_touch": 0.331,
+        "avg_sec_per_touch": 1.32,
+        "pts_per_touch": 0.309,
         "elbow_touches": 0.0,
-        "post_touches": 1.0,
-        "paint_touches": 2.7
+        "post_touches": 0.9,
+        "paint_touches": 2.4
       }
     },
     {
@@ -10619,32 +10619,32 @@
       "id": 1643509,
       "name": "Meleek Thomas",
       "team": "CLE",
-      "gp": 6,
-      "mpg": 22.3,
-      "min_total": 134,
+      "gp": 7,
+      "mpg": 22.5,
+      "min_total": 158,
       "drives": {
-        "drives": 4.8,
-        "drive_fgm": 1.3,
-        "drive_fga": 2.7,
-        "drive_fg_pct": 0.5,
-        "drive_pts": 3.3,
-        "drive_ast": 0.2,
-        "drive_tov": 0.2
+        "drives": 4.6,
+        "drive_fgm": 1.1,
+        "drive_fga": 2.4,
+        "drive_fg_pct": 0.471,
+        "drive_pts": 2.9,
+        "drive_ast": 0.1,
+        "drive_tov": 0.3
       },
       "passing": {
-        "passes_made": 19.3,
-        "passes_received": 23.5,
+        "passes_made": 19.6,
+        "passes_received": 23.3,
         "potential_ast": 3.0,
-        "ast_points_created": 3.0,
-        "ast_to_pass_pct": 0.06
+        "ast_points_created": 2.6,
+        "ast_to_pass_pct": 0.051
       },
       "possessions": {
-        "touches": 28.7,
-        "front_ct_touches": 13.5,
-        "time_of_poss": 2.1,
-        "avg_sec_per_touch": 4.46,
-        "pts_per_touch": 0.448,
-        "elbow_touches": 0.5,
+        "touches": 29.1,
+        "front_ct_touches": 13.6,
+        "time_of_poss": 1.9,
+        "avg_sec_per_touch": 3.98,
+        "pts_per_touch": 0.422,
+        "elbow_touches": 0.4,
         "post_touches": 0.0,
         "paint_touches": 1.0
       }
@@ -10653,136 +10653,136 @@
       "id": 1642877,
       "name": "Micah Peavy",
       "team": "OKC",
-      "gp": 5,
-      "mpg": 15.8,
-      "min_total": 79,
+      "gp": 6,
+      "mpg": 16.9,
+      "min_total": 101,
       "drives": {
-        "drives": 2.0,
-        "drive_fgm": 0.2,
-        "drive_fga": 1.2,
-        "drive_fg_pct": 0.167,
-        "drive_pts": 0.4,
+        "drives": 2.3,
+        "drive_fgm": 0.5,
+        "drive_fga": 1.5,
+        "drive_fg_pct": 0.333,
+        "drive_pts": 1.0,
         "drive_ast": 0.0,
         "drive_tov": 0.0
       },
       "passing": {
         "passes_made": 7.2,
-        "passes_received": 6.4,
-        "potential_ast": 1.0,
-        "ast_points_created": 0.6,
-        "ast_to_pass_pct": 0.028
+        "passes_received": 7.0,
+        "potential_ast": 0.8,
+        "ast_points_created": 0.5,
+        "ast_to_pass_pct": 0.023
       },
       "possessions": {
-        "touches": 11.2,
-        "front_ct_touches": 7.6,
-        "time_of_poss": 0.3,
-        "avg_sec_per_touch": 1.41,
-        "pts_per_touch": 0.339,
+        "touches": 11.5,
+        "front_ct_touches": 7.7,
+        "time_of_poss": 0.4,
+        "avg_sec_per_touch": 2.19,
+        "pts_per_touch": 0.377,
         "elbow_touches": 0.2,
         "post_touches": 0.0,
-        "paint_touches": 1.4
+        "paint_touches": 1.2
       }
     },
     {
       "id": 1630695,
       "name": "Micah Potter",
       "team": "POR",
-      "gp": 4,
-      "mpg": 6.6,
-      "min_total": 26,
+      "gp": 5,
+      "mpg": 8.1,
+      "min_total": 40,
       "drives": {
-        "drives": 1.0,
-        "drive_fgm": 0.3,
-        "drive_fga": 0.5,
+        "drives": 1.2,
+        "drive_fgm": 0.4,
+        "drive_fga": 0.8,
         "drive_fg_pct": 0.5,
-        "drive_pts": 0.5,
+        "drive_pts": 0.8,
         "drive_ast": 0.0,
-        "drive_tov": 0.3
+        "drive_tov": 0.2
       },
       "passing": {
-        "passes_made": 5.5,
-        "passes_received": 4.0,
-        "potential_ast": 0.0,
-        "ast_points_created": 0.0,
-        "ast_to_pass_pct": 0.0
+        "passes_made": 7.2,
+        "passes_received": 5.2,
+        "potential_ast": 0.2,
+        "ast_points_created": 0.4,
+        "ast_to_pass_pct": 0.028
       },
       "possessions": {
-        "touches": 8.3,
-        "front_ct_touches": 4.0,
+        "touches": 10.2,
+        "front_ct_touches": 4.8,
         "time_of_poss": 0.2,
-        "avg_sec_per_touch": 1.37,
-        "pts_per_touch": 0.333,
+        "avg_sec_per_touch": 1.26,
+        "pts_per_touch": 0.353,
         "elbow_touches": 0.0,
-        "post_touches": 0.5,
-        "paint_touches": 0.5
+        "post_touches": 0.4,
+        "paint_touches": 0.6
       }
     },
     {
       "id": 1629008,
       "name": "Michael Porter Jr.",
       "team": "BKN",
-      "gp": 8,
-      "mpg": 33.2,
-      "min_total": 266,
+      "gp": 9,
+      "mpg": 33.5,
+      "min_total": 302,
       "drives": {
-        "drives": 4.4,
-        "drive_fgm": 0.8,
-        "drive_fga": 1.5,
+        "drives": 4.1,
+        "drive_fgm": 0.7,
+        "drive_fga": 1.3,
         "drive_fg_pct": 0.5,
-        "drive_pts": 2.9,
-        "drive_ast": 0.0,
-        "drive_tov": 0.8
+        "drive_pts": 2.7,
+        "drive_ast": 0.1,
+        "drive_tov": 0.7
       },
       "passing": {
-        "passes_made": 33.3,
-        "passes_received": 33.8,
-        "potential_ast": 3.4,
-        "ast_points_created": 4.3,
-        "ast_to_pass_pct": 0.038
+        "passes_made": 33.6,
+        "passes_received": 33.7,
+        "potential_ast": 3.1,
+        "ast_points_created": 4.1,
+        "ast_to_pass_pct": 0.036
       },
       "possessions": {
-        "touches": 47.3,
+        "touches": 47.4,
         "front_ct_touches": 30.0,
-        "time_of_poss": 1.6,
-        "avg_sec_per_touch": 1.98,
-        "pts_per_touch": 0.452,
+        "time_of_poss": 1.5,
+        "avg_sec_per_touch": 1.88,
+        "pts_per_touch": 0.459,
         "elbow_touches": 0.9,
         "post_touches": 0.1,
-        "paint_touches": 3.3
+        "paint_touches": 3.2
       }
     },
     {
       "id": 1628969,
       "name": "Mikal Bridges",
       "team": "NYK",
-      "gp": 8,
-      "mpg": 25.3,
-      "min_total": 202,
+      "gp": 9,
+      "mpg": 26.0,
+      "min_total": 234,
       "drives": {
         "drives": 4.6,
-        "drive_fgm": 0.5,
-        "drive_fga": 2.3,
-        "drive_fg_pct": 0.222,
-        "drive_pts": 1.5,
-        "drive_ast": 0.1,
+        "drive_fgm": 0.6,
+        "drive_fga": 2.2,
+        "drive_fg_pct": 0.25,
+        "drive_pts": 1.6,
+        "drive_ast": 0.2,
         "drive_tov": 0.0
       },
       "passing": {
-        "passes_made": 31.8,
-        "passes_received": 29.9,
-        "potential_ast": 3.5,
-        "ast_points_created": 5.0,
-        "ast_to_pass_pct": 0.063
+        "passes_made": 32.7,
+        "passes_received": 30.9,
+        "potential_ast": 3.8,
+        "ast_points_created": 5.6,
+        "ast_to_pass_pct": 0.068
       },
       "possessions": {
-        "touches": 37.5,
-        "front_ct_touches": 22.1,
-        "time_of_poss": 2.9,
-        "avg_sec_per_touch": 4.68,
-        "pts_per_touch": 0.167,
-        "elbow_touches": 0.6,
-        "post_touches": 0.4,
-        "paint_touches": 1.3
+        "touches": 39.1,
+        "front_ct_touches": 23.7,
+        "time_of_poss": 2.8,
+        "avg_sec_per_touch": 4.27,
+        "pts_per_touch": 0.168,
+        "elbow_touches": 1.0,
+        "post_touches": 0.3,
+        "paint_touches": 1.6
       }
     },
     {
@@ -10823,67 +10823,67 @@
       "id": 1643414,
       "name": "Mikel Brown Jr.",
       "team": "BKN",
-      "gp": 6,
-      "mpg": 22.9,
-      "min_total": 137,
+      "gp": 7,
+      "mpg": 23.2,
+      "min_total": 162,
       "drives": {
-        "drives": 11.5,
-        "drive_fgm": 1.5,
+        "drives": 11.9,
+        "drive_fgm": 1.4,
         "drive_fga": 4.0,
-        "drive_fg_pct": 0.375,
+        "drive_fg_pct": 0.357,
         "drive_pts": 3.7,
-        "drive_ast": 1.8,
-        "drive_tov": 1.2
+        "drive_ast": 1.7,
+        "drive_tov": 1.0
       },
       "passing": {
-        "passes_made": 34.7,
-        "passes_received": 44.2,
+        "passes_made": 36.4,
+        "passes_received": 46.9,
         "potential_ast": 7.7,
-        "ast_points_created": 11.3,
-        "ast_to_pass_pct": 0.115
+        "ast_points_created": 10.7,
+        "ast_to_pass_pct": 0.106
       },
       "possessions": {
-        "touches": 49.3,
-        "front_ct_touches": 18.7,
-        "time_of_poss": 4.7,
-        "avg_sec_per_touch": 5.76,
-        "pts_per_touch": 0.243,
-        "elbow_touches": 0.2,
+        "touches": 51.9,
+        "front_ct_touches": 19.6,
+        "time_of_poss": 5.4,
+        "avg_sec_per_touch": 6.21,
+        "pts_per_touch": 0.248,
+        "elbow_touches": 0.1,
         "post_touches": 0.0,
-        "paint_touches": 0.7
+        "paint_touches": 0.6
       }
     },
     {
       "id": 1628970,
       "name": "Miles Bridges",
       "team": "PHX",
-      "gp": 7,
-      "mpg": 32.4,
-      "min_total": 227,
+      "gp": 8,
+      "mpg": 32.3,
+      "min_total": 258,
       "drives": {
-        "drives": 5.9,
-        "drive_fgm": 1.6,
-        "drive_fga": 2.9,
-        "drive_fg_pct": 0.55,
-        "drive_pts": 4.3,
-        "drive_ast": 0.4,
+        "drives": 6.1,
+        "drive_fgm": 1.9,
+        "drive_fga": 3.3,
+        "drive_fg_pct": 0.577,
+        "drive_pts": 5.0,
+        "drive_ast": 0.5,
         "drive_tov": 0.4
       },
       "passing": {
         "passes_made": 39.6,
-        "passes_received": 32.7,
-        "potential_ast": 5.1,
-        "ast_points_created": 7.9,
-        "ast_to_pass_pct": 0.079
+        "passes_received": 33.1,
+        "potential_ast": 5.6,
+        "ast_points_created": 8.9,
+        "ast_to_pass_pct": 0.091
       },
       "possessions": {
-        "touches": 47.0,
-        "front_ct_touches": 26.9,
-        "time_of_poss": 2.3,
-        "avg_sec_per_touch": 2.95,
-        "pts_per_touch": 0.371,
-        "elbow_touches": 0.4,
-        "post_touches": 0.9,
+        "touches": 47.8,
+        "front_ct_touches": 27.5,
+        "time_of_poss": 2.4,
+        "avg_sec_per_touch": 2.98,
+        "pts_per_touch": 0.353,
+        "elbow_touches": 0.8,
+        "post_touches": 1.4,
         "paint_touches": 3.3
       }
     },
@@ -10891,34 +10891,34 @@
       "id": 1630540,
       "name": "Miles McBride",
       "team": "NYK",
-      "gp": 8,
-      "mpg": 17.4,
-      "min_total": 139,
+      "gp": 9,
+      "mpg": 17.3,
+      "min_total": 156,
       "drives": {
         "drives": 1.1,
         "drive_fgm": 0.1,
-        "drive_fga": 0.4,
+        "drive_fga": 0.3,
         "drive_fg_pct": 0.333,
-        "drive_pts": 0.3,
+        "drive_pts": 0.2,
         "drive_ast": 0.0,
         "drive_tov": 0.0
       },
       "passing": {
-        "passes_made": 19.1,
-        "passes_received": 16.9,
-        "potential_ast": 2.0,
-        "ast_points_created": 3.0,
-        "ast_to_pass_pct": 0.052
+        "passes_made": 19.0,
+        "passes_received": 16.4,
+        "potential_ast": 1.9,
+        "ast_points_created": 2.7,
+        "ast_to_pass_pct": 0.047
       },
       "possessions": {
-        "touches": 21.8,
-        "front_ct_touches": 12.9,
+        "touches": 21.1,
+        "front_ct_touches": 12.8,
         "time_of_poss": 0.8,
-        "avg_sec_per_touch": 2.32,
+        "avg_sec_per_touch": 2.23,
         "pts_per_touch": 0.316,
         "elbow_touches": 0.0,
         "post_touches": 0.1,
-        "paint_touches": 1.0
+        "paint_touches": 0.9
       }
     },
     {
@@ -10993,34 +10993,34 @@
       "id": 1642885,
       "name": "Mohamed Diawara",
       "team": "NYK",
-      "gp": 3,
-      "mpg": 9.5,
-      "min_total": 28,
+      "gp": 4,
+      "mpg": 10.7,
+      "min_total": 43,
       "drives": {
         "drives": 1.3,
-        "drive_fgm": 0.0,
-        "drive_fga": 0.0,
-        "drive_fg_pct": 0.0,
-        "drive_pts": 0.0,
-        "drive_ast": 0.7,
+        "drive_fgm": 0.3,
+        "drive_fga": 0.3,
+        "drive_fg_pct": 1.0,
+        "drive_pts": 0.5,
+        "drive_ast": 0.5,
         "drive_tov": 0.3
       },
       "passing": {
-        "passes_made": 13.7,
-        "passes_received": 11.0,
-        "potential_ast": 1.3,
-        "ast_points_created": 3.3,
-        "ast_to_pass_pct": 0.098
+        "passes_made": 13.8,
+        "passes_received": 12.0,
+        "potential_ast": 1.5,
+        "ast_points_created": 4.5,
+        "ast_to_pass_pct": 0.127
       },
       "possessions": {
-        "touches": 16.0,
-        "front_ct_touches": 9.7,
-        "time_of_poss": 0.6,
-        "avg_sec_per_touch": 2.11,
-        "pts_per_touch": 0.167,
+        "touches": 17.0,
+        "front_ct_touches": 10.3,
+        "time_of_poss": 0.5,
+        "avg_sec_per_touch": 1.85,
+        "pts_per_touch": 0.147,
         "elbow_touches": 0.0,
         "post_touches": 0.0,
-        "paint_touches": 0.7
+        "paint_touches": 0.5
       }
     },
     {
@@ -11061,34 +11061,34 @@
       "id": 1629021,
       "name": "Moritz Wagner",
       "team": "BKN",
-      "gp": 8,
-      "mpg": 18.8,
-      "min_total": 150,
+      "gp": 9,
+      "mpg": 18.5,
+      "min_total": 166,
       "drives": {
         "drives": 2.1,
-        "drive_fgm": 0.5,
+        "drive_fgm": 0.4,
         "drive_fga": 0.9,
-        "drive_fg_pct": 0.571,
-        "drive_pts": 2.0,
+        "drive_fg_pct": 0.5,
+        "drive_pts": 1.8,
         "drive_ast": 0.1,
         "drive_tov": 0.1
       },
       "passing": {
-        "passes_made": 20.3,
-        "passes_received": 21.6,
+        "passes_made": 19.3,
+        "passes_received": 20.8,
         "potential_ast": 1.9,
         "ast_points_created": 3.1,
-        "ast_to_pass_pct": 0.056
+        "ast_to_pass_pct": 0.052
       },
       "possessions": {
-        "touches": 28.8,
-        "front_ct_touches": 22.4,
-        "time_of_poss": 1.6,
-        "avg_sec_per_touch": 3.28,
-        "pts_per_touch": 0.361,
+        "touches": 27.6,
+        "front_ct_touches": 21.6,
+        "time_of_poss": 1.5,
+        "avg_sec_per_touch": 3.24,
+        "pts_per_touch": 0.371,
         "elbow_touches": 1.9,
-        "post_touches": 0.4,
-        "paint_touches": 4.3
+        "post_touches": 0.6,
+        "paint_touches": 3.9
       }
     },
     {
@@ -11435,34 +11435,34 @@
       "id": 1629638,
       "name": "Nickeil Alexander-Walker",
       "team": "ATL",
-      "gp": 10,
+      "gp": 11,
       "mpg": 30.8,
-      "min_total": 308,
+      "min_total": 339,
       "drives": {
-        "drives": 10.3,
-        "drive_fgm": 1.8,
-        "drive_fga": 4.4,
-        "drive_fg_pct": 0.409,
-        "drive_pts": 5.2,
+        "drives": 10.2,
+        "drive_fgm": 2.0,
+        "drive_fga": 4.6,
+        "drive_fg_pct": 0.431,
+        "drive_pts": 5.3,
         "drive_ast": 0.4,
-        "drive_tov": 1.3
+        "drive_tov": 1.2
       },
       "passing": {
-        "passes_made": 29.1,
-        "passes_received": 40.4,
-        "potential_ast": 4.5,
-        "ast_points_created": 6.1,
-        "ast_to_pass_pct": 0.089
+        "passes_made": 29.3,
+        "passes_received": 39.7,
+        "potential_ast": 4.3,
+        "ast_points_created": 5.7,
+        "ast_to_pass_pct": 0.084
       },
       "possessions": {
         "touches": 47.1,
-        "front_ct_touches": 32.2,
-        "time_of_poss": 2.9,
-        "avg_sec_per_touch": 3.69,
-        "pts_per_touch": 0.473,
-        "elbow_touches": 0.4,
+        "front_ct_touches": 31.7,
+        "time_of_poss": 3.0,
+        "avg_sec_per_touch": 3.84,
+        "pts_per_touch": 0.469,
+        "elbow_touches": 0.5,
         "post_touches": 0.0,
-        "paint_touches": 1.7
+        "paint_touches": 1.6
       }
     },
     {
@@ -11537,34 +11537,34 @@
       "id": 202696,
       "name": "Nikola Vu\u010devi\u0107",
       "team": "ORL",
-      "gp": 8,
-      "mpg": 8.9,
-      "min_total": 71,
+      "gp": 9,
+      "mpg": 8.5,
+      "min_total": 76,
       "drives": {
-        "drives": 0.8,
+        "drives": 0.7,
         "drive_fgm": 0.1,
-        "drive_fga": 0.4,
+        "drive_fga": 0.3,
         "drive_fg_pct": 0.333,
-        "drive_pts": 0.3,
+        "drive_pts": 0.2,
         "drive_ast": 0.1,
         "drive_tov": 0.0
       },
       "passing": {
-        "passes_made": 13.1,
-        "passes_received": 10.4,
-        "potential_ast": 1.4,
-        "ast_points_created": 3.1,
-        "ast_to_pass_pct": 0.086
+        "passes_made": 12.7,
+        "passes_received": 10.2,
+        "potential_ast": 1.6,
+        "ast_points_created": 3.4,
+        "ast_to_pass_pct": 0.096
       },
       "possessions": {
-        "touches": 15.8,
-        "front_ct_touches": 10.5,
+        "touches": 15.3,
+        "front_ct_touches": 10.3,
         "time_of_poss": 0.3,
-        "avg_sec_per_touch": 1.14,
-        "pts_per_touch": 0.175,
+        "avg_sec_per_touch": 1.29,
+        "pts_per_touch": 0.159,
         "elbow_touches": 1.0,
-        "post_touches": 0.3,
-        "paint_touches": 1.1
+        "post_touches": 0.2,
+        "paint_touches": 1.2
       }
     },
     {
@@ -11639,68 +11639,68 @@
       "id": 1641730,
       "name": "Noah Clowney",
       "team": "BKN",
-      "gp": 8,
+      "gp": 9,
       "mpg": 21.0,
-      "min_total": 168,
+      "min_total": 189,
       "drives": {
-        "drives": 3.1,
-        "drive_fgm": 0.3,
-        "drive_fga": 0.5,
-        "drive_fg_pct": 0.5,
-        "drive_pts": 1.1,
+        "drives": 2.9,
+        "drive_fgm": 0.2,
+        "drive_fga": 0.6,
+        "drive_fg_pct": 0.4,
+        "drive_pts": 1.0,
         "drive_ast": 0.1,
-        "drive_tov": 0.5
+        "drive_tov": 0.4
       },
       "passing": {
-        "passes_made": 22.3,
-        "passes_received": 15.0,
-        "potential_ast": 2.9,
-        "ast_points_created": 2.1,
-        "ast_to_pass_pct": 0.039
+        "passes_made": 22.0,
+        "passes_received": 14.2,
+        "potential_ast": 2.8,
+        "ast_points_created": 1.9,
+        "ast_to_pass_pct": 0.035
       },
       "possessions": {
-        "touches": 23.9,
-        "front_ct_touches": 13.3,
-        "time_of_poss": 1.3,
-        "avg_sec_per_touch": 3.27,
-        "pts_per_touch": 0.236,
-        "elbow_touches": 1.0,
-        "post_touches": 0.4,
-        "paint_touches": 2.4
+        "touches": 24.0,
+        "front_ct_touches": 12.8,
+        "time_of_poss": 1.2,
+        "avg_sec_per_touch": 2.98,
+        "pts_per_touch": 0.222,
+        "elbow_touches": 0.9,
+        "post_touches": 0.3,
+        "paint_touches": 2.2
       }
     },
     {
       "id": 1642849,
       "name": "Nolan Traore",
       "team": "BKN",
-      "gp": 8,
-      "mpg": 22.1,
-      "min_total": 177,
+      "gp": 9,
+      "mpg": 22.2,
+      "min_total": 200,
       "drives": {
-        "drives": 12.8,
-        "drive_fgm": 2.3,
-        "drive_fga": 4.3,
-        "drive_fg_pct": 0.529,
-        "drive_pts": 5.3,
-        "drive_ast": 1.0,
+        "drives": 12.0,
+        "drive_fgm": 2.2,
+        "drive_fga": 4.0,
+        "drive_fg_pct": 0.556,
+        "drive_pts": 5.2,
+        "drive_ast": 0.9,
         "drive_tov": 0.6
       },
       "passing": {
-        "passes_made": 38.9,
-        "passes_received": 44.0,
-        "potential_ast": 8.3,
-        "ast_points_created": 7.1,
-        "ast_to_pass_pct": 0.071
+        "passes_made": 39.1,
+        "passes_received": 43.8,
+        "potential_ast": 7.8,
+        "ast_points_created": 6.9,
+        "ast_to_pass_pct": 0.068
       },
       "possessions": {
-        "touches": 48.3,
-        "front_ct_touches": 20.3,
+        "touches": 48.1,
+        "front_ct_touches": 20.0,
         "time_of_poss": 4.2,
-        "avg_sec_per_touch": 5.22,
-        "pts_per_touch": 0.249,
-        "elbow_touches": 0.4,
-        "post_touches": 0.3,
-        "paint_touches": 0.8
+        "avg_sec_per_touch": 5.19,
+        "pts_per_touch": 0.266,
+        "elbow_touches": 0.3,
+        "post_touches": 0.2,
+        "paint_touches": 0.7
       }
     },
     {
@@ -11775,34 +11775,34 @@
       "id": 1628384,
       "name": "OG Anunoby",
       "team": "NYK",
-      "gp": 8,
-      "mpg": 32.9,
-      "min_total": 263,
+      "gp": 9,
+      "mpg": 33.0,
+      "min_total": 297,
       "drives": {
-        "drives": 11.4,
+        "drives": 11.2,
         "drive_fgm": 1.1,
-        "drive_fga": 2.3,
+        "drive_fga": 2.2,
         "drive_fg_pct": 0.5,
-        "drive_pts": 5.1,
-        "drive_ast": 1.0,
-        "drive_tov": 0.9
+        "drive_pts": 5.0,
+        "drive_ast": 0.9,
+        "drive_tov": 1.0
       },
       "passing": {
-        "passes_made": 33.6,
-        "passes_received": 31.5,
-        "potential_ast": 4.4,
-        "ast_points_created": 7.4,
-        "ast_to_pass_pct": 0.074
+        "passes_made": 34.2,
+        "passes_received": 31.6,
+        "potential_ast": 4.6,
+        "ast_points_created": 7.2,
+        "ast_to_pass_pct": 0.071
       },
       "possessions": {
-        "touches": 42.8,
-        "front_ct_touches": 31.4,
+        "touches": 42.9,
+        "front_ct_touches": 31.3,
         "time_of_poss": 1.9,
-        "avg_sec_per_touch": 2.66,
-        "pts_per_touch": 0.389,
-        "elbow_touches": 1.0,
+        "avg_sec_per_touch": 2.6,
+        "pts_per_touch": 0.383,
+        "elbow_touches": 0.9,
         "post_touches": 1.0,
-        "paint_touches": 4.0
+        "paint_touches": 3.8
       }
     },
     {
@@ -11877,43 +11877,43 @@
       "id": 1630168,
       "name": "Onyeka Okongwu",
       "team": "ATL",
-      "gp": 10,
-      "mpg": 29.5,
-      "min_total": 295,
+      "gp": 11,
+      "mpg": 29.6,
+      "min_total": 326,
       "drives": {
-        "drives": 3.2,
-        "drive_fgm": 1.0,
-        "drive_fga": 1.3,
-        "drive_fg_pct": 0.769,
-        "drive_pts": 2.1,
-        "drive_ast": 0.8,
+        "drives": 3.4,
+        "drive_fgm": 1.1,
+        "drive_fga": 1.5,
+        "drive_fg_pct": 0.75,
+        "drive_pts": 2.3,
+        "drive_ast": 0.7,
         "drive_tov": 0.1
       },
       "passing": {
-        "passes_made": 41.0,
-        "passes_received": 32.1,
-        "potential_ast": 5.3,
-        "ast_points_created": 6.9,
-        "ast_to_pass_pct": 0.063
+        "passes_made": 40.5,
+        "passes_received": 32.3,
+        "potential_ast": 5.4,
+        "ast_points_created": 7.4,
+        "ast_to_pass_pct": 0.07
       },
       "possessions": {
-        "touches": 49.4,
-        "front_ct_touches": 32.9,
-        "time_of_poss": 1.8,
-        "avg_sec_per_touch": 2.17,
-        "pts_per_touch": 0.267,
-        "elbow_touches": 1.1,
-        "post_touches": 2.0,
-        "paint_touches": 6.4
+        "touches": 48.7,
+        "front_ct_touches": 32.8,
+        "time_of_poss": 1.7,
+        "avg_sec_per_touch": 2.1,
+        "pts_per_touch": 0.276,
+        "elbow_touches": 1.2,
+        "post_touches": 1.8,
+        "paint_touches": 5.9
       }
     },
     {
       "id": 1631131,
       "name": "Oscar Tshiebwe",
       "team": "HOU",
-      "gp": 5,
-      "mpg": 9.0,
-      "min_total": 45,
+      "gp": 6,
+      "mpg": 8.1,
+      "min_total": 49,
       "drives": {
         "drives": 0.2,
         "drive_fgm": 0.0,
@@ -11924,55 +11924,55 @@
         "drive_tov": 0.0
       },
       "passing": {
-        "passes_made": 5.2,
-        "passes_received": 4.4,
-        "potential_ast": 0.6,
-        "ast_points_created": 2.0,
-        "ast_to_pass_pct": 0.115
+        "passes_made": 4.7,
+        "passes_received": 4.0,
+        "potential_ast": 0.5,
+        "ast_points_created": 1.7,
+        "ast_to_pass_pct": 0.107
       },
       "possessions": {
-        "touches": 7.6,
-        "front_ct_touches": 5.4,
-        "time_of_poss": 0.2,
-        "avg_sec_per_touch": 1.25,
-        "pts_per_touch": 0.395,
-        "elbow_touches": 0.4,
-        "post_touches": 0.4,
-        "paint_touches": 2.6
+        "touches": 6.7,
+        "front_ct_touches": 4.8,
+        "time_of_poss": 0.1,
+        "avg_sec_per_touch": 1.22,
+        "pts_per_touch": 0.425,
+        "elbow_touches": 0.5,
+        "post_touches": 0.3,
+        "paint_touches": 2.3
       }
     },
     {
       "id": 1642345,
       "name": "Oso Ighodaro",
       "team": "PHX",
-      "gp": 5,
-      "mpg": 21.3,
-      "min_total": 106,
+      "gp": 6,
+      "mpg": 21.6,
+      "min_total": 130,
       "drives": {
         "drives": 1.8,
         "drive_fgm": 0.2,
-        "drive_fga": 0.6,
+        "drive_fga": 0.5,
         "drive_fg_pct": 0.333,
-        "drive_pts": 0.4,
+        "drive_pts": 0.3,
         "drive_ast": 0.2,
-        "drive_tov": 0.4
+        "drive_tov": 0.3
       },
       "passing": {
-        "passes_made": 26.6,
-        "passes_received": 25.0,
-        "potential_ast": 5.0,
-        "ast_points_created": 9.2,
-        "ast_to_pass_pct": 0.135
+        "passes_made": 28.0,
+        "passes_received": 24.7,
+        "potential_ast": 4.7,
+        "ast_points_created": 8.8,
+        "ast_to_pass_pct": 0.125
       },
       "possessions": {
-        "touches": 33.8,
-        "front_ct_touches": 23.8,
+        "touches": 34.3,
+        "front_ct_touches": 23.7,
         "time_of_poss": 1.4,
-        "avg_sec_per_touch": 2.55,
-        "pts_per_touch": 0.207,
-        "elbow_touches": 2.2,
-        "post_touches": 0.2,
-        "paint_touches": 5.4
+        "avg_sec_per_touch": 2.39,
+        "pts_per_touch": 0.189,
+        "elbow_touches": 2.3,
+        "post_touches": 0.3,
+        "paint_touches": 5.2
       }
     },
     {
@@ -12387,34 +12387,34 @@
       "id": 1631212,
       "name": "Peyton Watson",
       "team": "CLE",
-      "gp": 7,
-      "mpg": 28.5,
-      "min_total": 200,
+      "gp": 8,
+      "mpg": 28.6,
+      "min_total": 229,
       "drives": {
-        "drives": 7.9,
-        "drive_fgm": 1.7,
-        "drive_fga": 3.3,
-        "drive_fg_pct": 0.522,
-        "drive_pts": 4.6,
+        "drives": 7.4,
+        "drive_fgm": 1.6,
+        "drive_fga": 3.1,
+        "drive_fg_pct": 0.52,
+        "drive_pts": 4.3,
         "drive_ast": 1.4,
         "drive_tov": 0.4
       },
       "passing": {
-        "passes_made": 24.7,
-        "passes_received": 26.3,
-        "potential_ast": 4.1,
-        "ast_points_created": 7.1,
-        "ast_to_pass_pct": 0.116
+        "passes_made": 25.5,
+        "passes_received": 25.6,
+        "potential_ast": 3.9,
+        "ast_points_created": 7.3,
+        "ast_to_pass_pct": 0.113
       },
       "possessions": {
-        "touches": 36.6,
+        "touches": 36.3,
         "front_ct_touches": 17.9,
-        "time_of_poss": 2.3,
-        "avg_sec_per_touch": 3.73,
-        "pts_per_touch": 0.305,
+        "time_of_poss": 2.1,
+        "avg_sec_per_touch": 3.51,
+        "pts_per_touch": 0.31,
         "elbow_touches": 1.3,
         "post_touches": 0.1,
-        "paint_touches": 3.0
+        "paint_touches": 2.8
       }
     },
     {
@@ -12727,43 +12727,43 @@
       "id": 1642263,
       "name": "Reed Sheppard",
       "team": "HOU",
-      "gp": 6,
-      "mpg": 20.7,
-      "min_total": 124,
+      "gp": 7,
+      "mpg": 19.6,
+      "min_total": 137,
       "drives": {
-        "drives": 2.7,
-        "drive_fgm": 0.7,
+        "drives": 2.6,
+        "drive_fgm": 0.6,
         "drive_fga": 1.3,
-        "drive_fg_pct": 0.5,
-        "drive_pts": 1.3,
+        "drive_fg_pct": 0.444,
+        "drive_pts": 1.1,
         "drive_ast": 0.3,
-        "drive_tov": 0.2
+        "drive_tov": 0.1
       },
       "passing": {
-        "passes_made": 27.7,
-        "passes_received": 30.2,
-        "potential_ast": 5.3,
-        "ast_points_created": 8.8,
-        "ast_to_pass_pct": 0.133
+        "passes_made": 26.1,
+        "passes_received": 28.6,
+        "potential_ast": 5.0,
+        "ast_points_created": 7.6,
+        "ast_to_pass_pct": 0.12
       },
       "possessions": {
-        "touches": 35.3,
-        "front_ct_touches": 16.5,
-        "time_of_poss": 2.4,
-        "avg_sec_per_touch": 4.06,
-        "pts_per_touch": 0.302,
-        "elbow_touches": 0.2,
+        "touches": 34.0,
+        "front_ct_touches": 15.9,
+        "time_of_poss": 2.5,
+        "avg_sec_per_touch": 4.46,
+        "pts_per_touch": 0.294,
+        "elbow_touches": 0.1,
         "post_touches": 0.0,
-        "paint_touches": 0.7
+        "paint_touches": 0.6
       }
     },
     {
       "id": 1642434,
       "name": "Riley Minix",
       "team": "CLE",
-      "gp": 1,
-      "mpg": 5.8,
-      "min_total": 6,
+      "gp": 2,
+      "mpg": 7.9,
+      "min_total": 16,
       "drives": {
         "drives": 0.0,
         "drive_fgm": 0.0,
@@ -12774,21 +12774,21 @@
         "drive_tov": 0.0
       },
       "passing": {
-        "passes_made": 5.0,
-        "passes_received": 6.0,
+        "passes_made": 6.5,
+        "passes_received": 5.5,
         "potential_ast": 0.0,
         "ast_points_created": 0.0,
         "ast_to_pass_pct": 0.0
       },
       "possessions": {
-        "touches": 9.0,
-        "front_ct_touches": 7.0,
-        "time_of_poss": 0.6,
-        "avg_sec_per_touch": 4.3,
-        "pts_per_touch": 0.0,
-        "elbow_touches": 0.0,
+        "touches": 10.0,
+        "front_ct_touches": 6.5,
+        "time_of_poss": 0.9,
+        "avg_sec_per_touch": 5.21,
+        "pts_per_touch": 0.4,
+        "elbow_touches": 0.5,
         "post_touches": 0.0,
-        "paint_touches": 3.0
+        "paint_touches": 2.0
       }
     },
     {
@@ -12822,7 +12822,7 @@
         "pts_per_touch": 0.31,
         "elbow_touches": 2.0,
         "post_touches": 0.0,
-        "paint_touches": 7.4
+        "paint_touches": 7.6
       }
     },
     {
@@ -13033,34 +13033,34 @@
       "id": 1642346,
       "name": "Ryan Dunn",
       "team": "PHX",
-      "gp": 7,
-      "mpg": 15.0,
-      "min_total": 105,
+      "gp": 8,
+      "mpg": 16.0,
+      "min_total": 128,
       "drives": {
-        "drives": 2.0,
+        "drives": 2.3,
         "drive_fgm": 0.3,
-        "drive_fga": 0.6,
-        "drive_fg_pct": 0.5,
-        "drive_pts": 0.7,
-        "drive_ast": 0.3,
+        "drive_fga": 0.8,
+        "drive_fg_pct": 0.333,
+        "drive_pts": 0.6,
+        "drive_ast": 0.4,
         "drive_tov": 0.0
       },
       "passing": {
-        "passes_made": 16.0,
-        "passes_received": 12.7,
-        "potential_ast": 1.9,
-        "ast_points_created": 3.1,
-        "ast_to_pass_pct": 0.071
+        "passes_made": 16.5,
+        "passes_received": 13.1,
+        "potential_ast": 2.1,
+        "ast_points_created": 3.8,
+        "ast_to_pass_pct": 0.083
       },
       "possessions": {
-        "touches": 19.1,
-        "front_ct_touches": 12.1,
+        "touches": 19.6,
+        "front_ct_touches": 12.8,
         "time_of_poss": 0.6,
-        "avg_sec_per_touch": 1.82,
-        "pts_per_touch": 0.276,
-        "elbow_touches": 0.1,
+        "avg_sec_per_touch": 1.7,
+        "pts_per_touch": 0.287,
+        "elbow_touches": 0.3,
         "post_touches": 0.3,
-        "paint_touches": 2.9
+        "paint_touches": 2.8
       }
     },
     {
@@ -13291,11 +13291,11 @@
         "ast_to_pass_pct": 0.063
       },
       "possessions": {
-        "touches": 30.6,
+        "touches": 30.7,
         "front_ct_touches": 17.9,
         "time_of_poss": 1.2,
         "avg_sec_per_touch": 2.43,
-        "pts_per_touch": 0.288,
+        "pts_per_touch": 0.287,
         "elbow_touches": 0.9,
         "post_touches": 1.0,
         "paint_touches": 2.3
@@ -13339,34 +13339,34 @@
       "id": 1630703,
       "name": "Scoot Henderson",
       "team": "POR",
-      "gp": 8,
-      "mpg": 22.1,
-      "min_total": 177,
+      "gp": 9,
+      "mpg": 22.3,
+      "min_total": 201,
       "drives": {
-        "drives": 8.5,
-        "drive_fgm": 1.1,
-        "drive_fga": 2.3,
-        "drive_fg_pct": 0.5,
-        "drive_pts": 3.8,
+        "drives": 8.6,
+        "drive_fgm": 1.4,
+        "drive_fga": 2.6,
+        "drive_fg_pct": 0.565,
+        "drive_pts": 4.6,
         "drive_ast": 0.6,
-        "drive_tov": 1.3
+        "drive_tov": 1.1
       },
       "passing": {
         "passes_made": 23.1,
-        "passes_received": 27.1,
+        "passes_received": 27.2,
         "potential_ast": 2.9,
-        "ast_points_created": 3.4,
-        "ast_to_pass_pct": 0.054
+        "ast_points_created": 3.2,
+        "ast_to_pass_pct": 0.053
       },
       "possessions": {
-        "touches": 32.3,
-        "front_ct_touches": 16.6,
-        "time_of_poss": 2.5,
-        "avg_sec_per_touch": 4.58,
-        "pts_per_touch": 0.244,
-        "elbow_touches": 0.8,
+        "touches": 32.1,
+        "front_ct_touches": 16.2,
+        "time_of_poss": 2.4,
+        "avg_sec_per_touch": 4.54,
+        "pts_per_touch": 0.263,
+        "elbow_touches": 0.7,
         "post_touches": 0.0,
-        "paint_touches": 0.8
+        "paint_touches": 0.7
       }
     },
     {
@@ -13475,68 +13475,68 @@
       "id": 1628983,
       "name": "Shai Gilgeous-Alexander",
       "team": "OKC",
-      "gp": 9,
-      "mpg": 33.3,
-      "min_total": 300,
+      "gp": 10,
+      "mpg": 32.8,
+      "min_total": 328,
       "drives": {
-        "drives": 20.8,
+        "drives": 20.2,
         "drive_fgm": 4.9,
-        "drive_fga": 10.0,
-        "drive_fg_pct": 0.489,
+        "drive_fga": 9.7,
+        "drive_fg_pct": 0.505,
         "drive_pts": 11.6,
-        "drive_ast": 2.2,
-        "drive_tov": 0.7
+        "drive_ast": 2.4,
+        "drive_tov": 0.6
       },
       "passing": {
         "passes_made": 28.4,
         "passes_received": 48.2,
-        "potential_ast": 8.6,
-        "ast_points_created": 12.2,
-        "ast_to_pass_pct": 0.156
+        "potential_ast": 8.8,
+        "ast_points_created": 13.1,
+        "ast_to_pass_pct": 0.173
       },
       "possessions": {
-        "touches": 56.6,
-        "front_ct_touches": 25.1,
-        "time_of_poss": 7.4,
-        "avg_sec_per_touch": 7.9,
-        "pts_per_touch": 0.528,
-        "elbow_touches": 1.9,
-        "post_touches": 0.7,
-        "paint_touches": 1.0
+        "touches": 56.4,
+        "front_ct_touches": 25.3,
+        "time_of_poss": 7.2,
+        "avg_sec_per_touch": 7.68,
+        "pts_per_touch": 0.53,
+        "elbow_touches": 2.0,
+        "post_touches": 1.2,
+        "paint_touches": 0.9
       }
     },
     {
       "id": 1631321,
       "name": "Sidy Cissoko",
       "team": "POR",
-      "gp": 8,
-      "mpg": 21.9,
-      "min_total": 175,
+      "gp": 9,
+      "mpg": 21.3,
+      "min_total": 192,
       "drives": {
-        "drives": 2.6,
+        "drives": 2.4,
         "drive_fgm": 0.4,
-        "drive_fga": 0.6,
-        "drive_fg_pct": 0.6,
-        "drive_pts": 0.9,
+        "drive_fga": 0.7,
+        "drive_fg_pct": 0.667,
+        "drive_pts": 1.0,
         "drive_ast": 0.6,
         "drive_tov": 0.1
       },
       "passing": {
-        "passes_made": 18.4,
-        "passes_received": 14.8,
-        "potential_ast": 3.8,
-        "ast_points_created": 5.6,
-        "ast_to_pass_pct": 0.122
+        "passes_made": 18.2,
+        "passes_received": 14.4,
+        "potential_ast": 3.6,
+        "ast_points_created": 5.2,
+        "ast_to_pass_pct": 0.116
       },
       "possessions": {
-        "touches": 20.5,
-        "front_ct_touches": 12.9,
+        "touches": 20.1,
+        "front_ct_touches": 12.4,
         "time_of_poss": 0.5,
-        "avg_sec_per_touch": 1.49,
-        "pts_per_touch": 0.311,
+        "avg_sec_per_touch": 1.43,
+        "pts_per_touch": 0.304,
         "elbow_touches": 0.3,
         "post_touches": 0.0,
-        "paint_touches": 1.0
+        "paint_touches": 0.9
       }
     },
     {
@@ -13611,68 +13611,68 @@
       "id": 201939,
       "name": "Stephen Curry",
       "team": "GSW",
-      "gp": 7,
-      "mpg": 28.7,
-      "min_total": 201,
+      "gp": 8,
+      "mpg": 29.6,
+      "min_total": 237,
       "drives": {
-        "drives": 11.7,
-        "drive_fgm": 2.0,
-        "drive_fga": 4.0,
-        "drive_fg_pct": 0.5,
-        "drive_pts": 6.6,
-        "drive_ast": 1.3,
-        "drive_tov": 0.6
+        "drives": 12.1,
+        "drive_fgm": 2.5,
+        "drive_fga": 4.4,
+        "drive_fg_pct": 0.571,
+        "drive_pts": 7.8,
+        "drive_ast": 1.1,
+        "drive_tov": 0.5
       },
       "passing": {
-        "passes_made": 33.6,
-        "passes_received": 51.9,
-        "potential_ast": 8.1,
-        "ast_points_created": 11.1,
-        "ast_to_pass_pct": 0.132
+        "passes_made": 35.9,
+        "passes_received": 54.5,
+        "potential_ast": 7.9,
+        "ast_points_created": 11.5,
+        "ast_to_pass_pct": 0.129
       },
       "possessions": {
-        "touches": 59.0,
-        "front_ct_touches": 29.7,
-        "time_of_poss": 4.6,
-        "avg_sec_per_touch": 4.66,
+        "touches": 61.8,
+        "front_ct_touches": 30.3,
+        "time_of_poss": 4.8,
+        "avg_sec_per_touch": 4.68,
         "pts_per_touch": 0.506,
-        "elbow_touches": 0.4,
-        "post_touches": 0.4,
-        "paint_touches": 1.7
+        "elbow_touches": 0.6,
+        "post_touches": 0.6,
+        "paint_touches": 1.8
       }
     },
     {
       "id": 1642264,
       "name": "Stephon Castle",
       "team": "SAS",
-      "gp": 9,
-      "mpg": 29.6,
-      "min_total": 266,
+      "gp": 10,
+      "mpg": 29.1,
+      "min_total": 291,
       "drives": {
-        "drives": 13.8,
+        "drives": 13.3,
         "drive_fgm": 2.3,
-        "drive_fga": 5.1,
-        "drive_fg_pct": 0.457,
+        "drive_fga": 4.9,
+        "drive_fg_pct": 0.469,
         "drive_pts": 5.7,
         "drive_ast": 1.3,
         "drive_tov": 0.8
       },
       "passing": {
-        "passes_made": 52.0,
-        "passes_received": 53.8,
-        "potential_ast": 11.0,
-        "ast_points_created": 13.3,
-        "ast_to_pass_pct": 0.096
+        "passes_made": 50.8,
+        "passes_received": 52.4,
+        "potential_ast": 10.9,
+        "ast_points_created": 13.7,
+        "ast_to_pass_pct": 0.098
       },
       "possessions": {
-        "touches": 65.4,
-        "front_ct_touches": 33.3,
-        "time_of_poss": 4.1,
-        "avg_sec_per_touch": 3.75,
-        "pts_per_touch": 0.236,
-        "elbow_touches": 1.6,
+        "touches": 63.9,
+        "front_ct_touches": 32.8,
+        "time_of_poss": 3.9,
+        "avg_sec_per_touch": 3.65,
+        "pts_per_touch": 0.239,
+        "elbow_touches": 1.4,
         "post_touches": 0.3,
-        "paint_touches": 4.0
+        "paint_touches": 4.1
       }
     },
     {
@@ -13781,43 +13781,43 @@
       "id": 1631106,
       "name": "Tari Eason",
       "team": "HOU",
-      "gp": 9,
-      "mpg": 24.4,
-      "min_total": 220,
+      "gp": 10,
+      "mpg": 24.2,
+      "min_total": 242,
       "drives": {
-        "drives": 4.3,
-        "drive_fgm": 0.8,
+        "drives": 4.6,
+        "drive_fgm": 0.7,
         "drive_fga": 1.7,
-        "drive_fg_pct": 0.467,
-        "drive_pts": 2.0,
+        "drive_fg_pct": 0.412,
+        "drive_pts": 1.8,
         "drive_ast": 0.3,
-        "drive_tov": 0.7
+        "drive_tov": 0.6
       },
       "passing": {
-        "passes_made": 25.9,
+        "passes_made": 25.8,
         "passes_received": 18.8,
-        "potential_ast": 2.6,
-        "ast_points_created": 3.1,
-        "ast_to_pass_pct": 0.047
+        "potential_ast": 2.7,
+        "ast_points_created": 3.6,
+        "ast_to_pass_pct": 0.05
       },
       "possessions": {
         "touches": 31.2,
-        "front_ct_touches": 16.6,
-        "time_of_poss": 2.1,
-        "avg_sec_per_touch": 3.95,
-        "pts_per_touch": 0.327,
-        "elbow_touches": 0.7,
+        "front_ct_touches": 16.9,
+        "time_of_poss": 2.0,
+        "avg_sec_per_touch": 3.91,
+        "pts_per_touch": 0.301,
+        "elbow_touches": 0.8,
         "post_touches": 0.0,
-        "paint_touches": 3.7
+        "paint_touches": 4.0
       }
     },
     {
       "id": 1643542,
       "name": "Tarris Reed Jr.",
       "team": "SAS",
-      "gp": 5,
-      "mpg": 4.6,
-      "min_total": 23,
+      "gp": 6,
+      "mpg": 5.3,
+      "min_total": 32,
       "drives": {
         "drives": 0.0,
         "drive_fgm": 0.0,
@@ -13828,21 +13828,21 @@
         "drive_tov": 0.0
       },
       "passing": {
-        "passes_made": 3.8,
-        "passes_received": 1.4,
-        "potential_ast": 0.2,
-        "ast_points_created": 0.0,
-        "ast_to_pass_pct": 0.0
+        "passes_made": 4.2,
+        "passes_received": 2.3,
+        "potential_ast": 0.3,
+        "ast_points_created": 0.5,
+        "ast_to_pass_pct": 0.04
       },
       "possessions": {
-        "touches": 5.6,
-        "front_ct_touches": 2.8,
+        "touches": 6.3,
+        "front_ct_touches": 3.7,
         "time_of_poss": 0.1,
-        "avg_sec_per_touch": 1.36,
-        "pts_per_touch": 0.357,
+        "avg_sec_per_touch": 1.27,
+        "pts_per_touch": 0.316,
         "elbow_touches": 0.2,
-        "post_touches": 0.0,
-        "paint_touches": 1.8
+        "post_touches": 0.2,
+        "paint_touches": 2.2
       }
     },
     {
@@ -13917,11 +13917,11 @@
       "id": 1629611,
       "name": "Terance Mann",
       "team": "BKN",
-      "gp": 3,
-      "mpg": 14.2,
-      "min_total": 43,
+      "gp": 4,
+      "mpg": 14.0,
+      "min_total": 56,
       "drives": {
-        "drives": 0.7,
+        "drives": 0.8,
         "drive_fgm": 0.0,
         "drive_fga": 0.0,
         "drive_fg_pct": 0.0,
@@ -13930,19 +13930,19 @@
         "drive_tov": 0.0
       },
       "passing": {
-        "passes_made": 15.7,
-        "passes_received": 14.7,
-        "potential_ast": 2.0,
-        "ast_points_created": 4.3,
-        "ast_to_pass_pct": 0.106
+        "passes_made": 14.0,
+        "passes_received": 13.5,
+        "potential_ast": 2.3,
+        "ast_points_created": 3.3,
+        "ast_to_pass_pct": 0.089
       },
       "possessions": {
-        "touches": 17.0,
-        "front_ct_touches": 7.3,
-        "time_of_poss": 2.8,
-        "avg_sec_per_touch": 9.93,
-        "pts_per_touch": 0.039,
-        "elbow_touches": 0.3,
+        "touches": 16.0,
+        "front_ct_touches": 7.8,
+        "time_of_poss": 2.2,
+        "avg_sec_per_touch": 8.26,
+        "pts_per_touch": 0.031,
+        "elbow_touches": 0.5,
         "post_touches": 0.0,
         "paint_touches": 0.0
       }
@@ -13985,34 +13985,34 @@
       "id": 1628418,
       "name": "Thomas Bryant",
       "team": "CLE",
-      "gp": 4,
-      "mpg": 11.1,
-      "min_total": 44,
+      "gp": 5,
+      "mpg": 11.9,
+      "min_total": 60,
       "drives": {
-        "drives": 0.3,
+        "drives": 0.4,
         "drive_fgm": 0.0,
         "drive_fga": 0.0,
         "drive_fg_pct": 0.0,
-        "drive_pts": 0.5,
+        "drive_pts": 0.4,
         "drive_ast": 0.0,
         "drive_tov": 0.0
       },
       "passing": {
-        "passes_made": 11.0,
+        "passes_made": 12.2,
         "passes_received": 12.8,
-        "potential_ast": 0.5,
-        "ast_points_created": 0.0,
-        "ast_to_pass_pct": 0.0
+        "potential_ast": 0.8,
+        "ast_points_created": 0.6,
+        "ast_to_pass_pct": 0.016
       },
       "possessions": {
-        "touches": 17.3,
-        "front_ct_touches": 12.5,
-        "time_of_poss": 0.8,
-        "avg_sec_per_touch": 2.61,
-        "pts_per_touch": 0.522,
-        "elbow_touches": 0.3,
+        "touches": 18.4,
+        "front_ct_touches": 13.2,
+        "time_of_poss": 0.7,
+        "avg_sec_per_touch": 2.2,
+        "pts_per_touch": 0.446,
+        "elbow_touches": 0.6,
         "post_touches": 0.0,
-        "paint_touches": 3.0
+        "paint_touches": 3.4
       }
     },
     {
@@ -14223,32 +14223,32 @@
       "id": 1641739,
       "name": "Toumani Camara",
       "team": "POR",
-      "gp": 8,
-      "mpg": 28.0,
-      "min_total": 224,
+      "gp": 9,
+      "mpg": 27.2,
+      "min_total": 245,
       "drives": {
-        "drives": 2.6,
-        "drive_fgm": 0.5,
-        "drive_fga": 0.9,
-        "drive_fg_pct": 0.571,
-        "drive_pts": 1.0,
-        "drive_ast": 0.3,
-        "drive_tov": 0.3
+        "drives": 2.7,
+        "drive_fgm": 0.6,
+        "drive_fga": 1.0,
+        "drive_fg_pct": 0.556,
+        "drive_pts": 1.1,
+        "drive_ast": 0.2,
+        "drive_tov": 0.2
       },
       "passing": {
         "passes_made": 25.3,
-        "passes_received": 24.1,
+        "passes_received": 23.2,
         "potential_ast": 2.8,
-        "ast_points_created": 3.3,
-        "ast_to_pass_pct": 0.05
+        "ast_points_created": 2.9,
+        "ast_to_pass_pct": 0.044
       },
       "possessions": {
-        "touches": 32.1,
-        "front_ct_touches": 20.6,
+        "touches": 31.8,
+        "front_ct_touches": 20.1,
         "time_of_poss": 1.6,
-        "avg_sec_per_touch": 3.03,
-        "pts_per_touch": 0.444,
-        "elbow_touches": 0.4,
+        "avg_sec_per_touch": 3.02,
+        "pts_per_touch": 0.413,
+        "elbow_touches": 0.3,
         "post_touches": 0.3,
         "paint_touches": 1.4
       }
@@ -14257,34 +14257,34 @@
       "id": 1629027,
       "name": "Trae Young",
       "team": "WAS",
-      "gp": 9,
-      "mpg": 35.9,
-      "min_total": 323,
+      "gp": 10,
+      "mpg": 35.2,
+      "min_total": 352,
       "drives": {
-        "drives": 16.2,
-        "drive_fgm": 3.4,
-        "drive_fga": 5.8,
-        "drive_fg_pct": 0.596,
-        "drive_pts": 8.9,
-        "drive_ast": 3.0,
-        "drive_tov": 0.6
+        "drives": 15.5,
+        "drive_fgm": 3.1,
+        "drive_fga": 5.5,
+        "drive_fg_pct": 0.564,
+        "drive_pts": 8.0,
+        "drive_ast": 2.8,
+        "drive_tov": 0.5
       },
       "passing": {
-        "passes_made": 55.9,
-        "passes_received": 70.2,
-        "potential_ast": 18.1,
-        "ast_points_created": 23.2,
-        "ast_to_pass_pct": 0.171
+        "passes_made": 55.5,
+        "passes_received": 68.1,
+        "potential_ast": 17.8,
+        "ast_points_created": 21.7,
+        "ast_to_pass_pct": 0.16
       },
       "possessions": {
-        "touches": 75.1,
-        "front_ct_touches": 25.2,
-        "time_of_poss": 9.5,
-        "avg_sec_per_touch": 7.62,
-        "pts_per_touch": 0.266,
+        "touches": 73.3,
+        "front_ct_touches": 25.3,
+        "time_of_poss": 9.0,
+        "avg_sec_per_touch": 7.34,
+        "pts_per_touch": 0.251,
         "elbow_touches": 0.4,
         "post_touches": 0.0,
-        "paint_touches": 0.3
+        "paint_touches": 0.4
       }
     },
     {
@@ -14325,31 +14325,31 @@
       "id": 1642848,
       "name": "Tre Johnson",
       "team": "WAS",
-      "gp": 8,
-      "mpg": 20.8,
-      "min_total": 166,
+      "gp": 9,
+      "mpg": 21.6,
+      "min_total": 194,
       "drives": {
-        "drives": 5.3,
-        "drive_fgm": 1.5,
-        "drive_fga": 3.3,
-        "drive_fg_pct": 0.462,
-        "drive_pts": 3.3,
-        "drive_ast": 0.4,
+        "drives": 5.6,
+        "drive_fgm": 1.4,
+        "drive_fga": 3.2,
+        "drive_fg_pct": 0.448,
+        "drive_pts": 3.1,
+        "drive_ast": 0.3,
         "drive_tov": 0.3
       },
       "passing": {
-        "passes_made": 10.6,
-        "passes_received": 16.0,
-        "potential_ast": 1.5,
-        "ast_points_created": 2.0,
-        "ast_to_pass_pct": 0.059
+        "passes_made": 11.3,
+        "passes_received": 17.1,
+        "potential_ast": 2.1,
+        "ast_points_created": 2.6,
+        "ast_to_pass_pct": 0.078
       },
       "possessions": {
-        "touches": 20.0,
-        "front_ct_touches": 14.3,
-        "time_of_poss": 1.6,
-        "avg_sec_per_touch": 4.79,
-        "pts_per_touch": 0.513,
+        "touches": 21.3,
+        "front_ct_touches": 15.4,
+        "time_of_poss": 1.7,
+        "avg_sec_per_touch": 4.82,
+        "pts_per_touch": 0.448,
         "elbow_touches": 0.3,
         "post_touches": 0.0,
         "paint_touches": 0.4
@@ -14393,32 +14393,32 @@
       "id": 1630544,
       "name": "Tre Mann",
       "team": "WAS",
-      "gp": 3,
-      "mpg": 1.5,
-      "min_total": 4,
+      "gp": 4,
+      "mpg": 5.6,
+      "min_total": 22,
       "drives": {
-        "drives": 0.7,
+        "drives": 2.8,
         "drive_fgm": 0.0,
-        "drive_fga": 0.0,
+        "drive_fga": 0.5,
         "drive_fg_pct": 0.0,
         "drive_pts": 0.0,
-        "drive_ast": 0.0,
-        "drive_tov": 0.0
+        "drive_ast": 0.3,
+        "drive_tov": 0.3
       },
       "passing": {
-        "passes_made": 1.3,
-        "passes_received": 2.3,
-        "potential_ast": 0.3,
-        "ast_points_created": 0.0,
-        "ast_to_pass_pct": 0.0
+        "passes_made": 7.5,
+        "passes_received": 7.8,
+        "potential_ast": 2.3,
+        "ast_points_created": 1.0,
+        "ast_to_pass_pct": 0.067
       },
       "possessions": {
-        "touches": 2.3,
-        "front_ct_touches": 1.0,
-        "time_of_poss": 0.3,
-        "avg_sec_per_touch": 6.82,
-        "pts_per_touch": 0.286,
-        "elbow_touches": 0.0,
+        "touches": 8.5,
+        "front_ct_touches": 3.5,
+        "time_of_poss": 0.8,
+        "avg_sec_per_touch": 5.77,
+        "pts_per_touch": 0.118,
+        "elbow_touches": 0.3,
         "post_touches": 0.0,
         "paint_touches": 0.0
       }
@@ -14597,34 +14597,34 @@
       "id": 1641783,
       "name": "Tristan da Silva",
       "team": "ORL",
-      "gp": 8,
-      "mpg": 29.5,
-      "min_total": 236,
+      "gp": 9,
+      "mpg": 30.5,
+      "min_total": 274,
       "drives": {
-        "drives": 3.5,
+        "drives": 4.4,
         "drive_fgm": 1.4,
-        "drive_fga": 1.9,
-        "drive_fg_pct": 0.733,
-        "drive_pts": 2.8,
+        "drive_fga": 2.1,
+        "drive_fg_pct": 0.684,
+        "drive_pts": 2.9,
         "drive_ast": 0.0,
         "drive_tov": 0.4
       },
       "passing": {
-        "passes_made": 23.3,
-        "passes_received": 23.8,
-        "potential_ast": 2.8,
-        "ast_points_created": 3.9,
-        "ast_to_pass_pct": 0.07
+        "passes_made": 26.0,
+        "passes_received": 27.1,
+        "potential_ast": 3.1,
+        "ast_points_created": 4.4,
+        "ast_to_pass_pct": 0.064
       },
       "possessions": {
-        "touches": 31.5,
-        "front_ct_touches": 22.5,
-        "time_of_poss": 1.9,
-        "avg_sec_per_touch": 3.68,
-        "pts_per_touch": 0.464,
-        "elbow_touches": 0.6,
+        "touches": 35.8,
+        "front_ct_touches": 25.9,
+        "time_of_poss": 2.3,
+        "avg_sec_per_touch": 3.8,
+        "pts_per_touch": 0.422,
+        "elbow_touches": 0.7,
         "post_touches": 0.0,
-        "paint_touches": 2.0
+        "paint_touches": 2.4
       }
     },
     {
@@ -14699,34 +14699,34 @@
       "id": 1642278,
       "name": "Tyler Kolek",
       "team": "NYK",
-      "gp": 6,
-      "mpg": 12.2,
-      "min_total": 73,
+      "gp": 7,
+      "mpg": 12.4,
+      "min_total": 87,
       "drives": {
-        "drives": 4.5,
-        "drive_fgm": 0.2,
-        "drive_fga": 0.8,
+        "drives": 5.3,
+        "drive_fgm": 0.1,
+        "drive_fga": 0.7,
         "drive_fg_pct": 0.2,
         "drive_pts": 0.3,
-        "drive_ast": 1.8,
-        "drive_tov": 0.0
+        "drive_ast": 1.9,
+        "drive_tov": 0.1
       },
       "passing": {
-        "passes_made": 26.3,
-        "passes_received": 25.0,
-        "potential_ast": 8.0,
-        "ast_points_created": 13.5,
-        "ast_to_pass_pct": 0.196
+        "passes_made": 27.1,
+        "passes_received": 26.4,
+        "potential_ast": 8.6,
+        "ast_points_created": 13.0,
+        "ast_to_pass_pct": 0.189
       },
       "possessions": {
-        "touches": 29.0,
-        "front_ct_touches": 9.3,
-        "time_of_poss": 2.5,
-        "avg_sec_per_touch": 5.2,
-        "pts_per_touch": 0.086,
-        "elbow_touches": 0.2,
-        "post_touches": 0.2,
-        "paint_touches": 0.5
+        "touches": 30.6,
+        "front_ct_touches": 10.3,
+        "time_of_poss": 2.7,
+        "avg_sec_per_touch": 5.3,
+        "pts_per_touch": 0.07,
+        "elbow_touches": 0.3,
+        "post_touches": 0.1,
+        "paint_touches": 0.6
       }
     },
     {
@@ -14801,34 +14801,34 @@
       "id": 1642878,
       "name": "Tyrese Proctor",
       "team": "CLE",
-      "gp": 8,
-      "mpg": 14.9,
-      "min_total": 119,
+      "gp": 9,
+      "mpg": 15.8,
+      "min_total": 142,
       "drives": {
         "drives": 3.8,
-        "drive_fgm": 0.9,
-        "drive_fga": 1.5,
-        "drive_fg_pct": 0.583,
-        "drive_pts": 2.0,
-        "drive_ast": 0.6,
+        "drive_fgm": 0.8,
+        "drive_fga": 1.4,
+        "drive_fg_pct": 0.538,
+        "drive_pts": 1.9,
+        "drive_ast": 0.7,
         "drive_tov": 0.0
       },
       "passing": {
-        "passes_made": 16.0,
-        "passes_received": 14.6,
-        "potential_ast": 4.3,
-        "ast_points_created": 4.8,
-        "ast_to_pass_pct": 0.125
+        "passes_made": 17.2,
+        "passes_received": 15.6,
+        "potential_ast": 4.1,
+        "ast_points_created": 5.1,
+        "ast_to_pass_pct": 0.123
       },
       "possessions": {
-        "touches": 19.3,
-        "front_ct_touches": 9.4,
+        "touches": 20.4,
+        "front_ct_touches": 10.0,
         "time_of_poss": 1.0,
-        "avg_sec_per_touch": 3.0,
-        "pts_per_touch": 0.305,
+        "avg_sec_per_touch": 2.95,
+        "pts_per_touch": 0.293,
         "elbow_touches": 0.0,
         "post_touches": 0.0,
-        "paint_touches": 0.9
+        "paint_touches": 0.8
       }
     },
     {
@@ -14903,34 +14903,34 @@
       "id": 1641705,
       "name": "Victor Wembanyama",
       "team": "SAS",
-      "gp": 9,
-      "mpg": 31.0,
-      "min_total": 279,
+      "gp": 10,
+      "mpg": 30.3,
+      "min_total": 303,
       "drives": {
-        "drives": 5.8,
-        "drive_fgm": 1.1,
-        "drive_fga": 2.4,
-        "drive_fg_pct": 0.455,
+        "drives": 5.7,
+        "drive_fgm": 1.2,
+        "drive_fga": 2.5,
+        "drive_fg_pct": 0.48,
         "drive_pts": 3.8,
         "drive_ast": 0.4,
-        "drive_tov": 0.6
+        "drive_tov": 0.5
       },
       "passing": {
-        "passes_made": 32.2,
-        "passes_received": 38.3,
+        "passes_made": 31.9,
+        "passes_received": 37.9,
         "potential_ast": 5.2,
-        "ast_points_created": 7.1,
-        "ast_to_pass_pct": 0.093
+        "ast_points_created": 7.2,
+        "ast_to_pass_pct": 0.094
       },
       "possessions": {
-        "touches": 58.3,
-        "front_ct_touches": 38.9,
-        "time_of_poss": 1.8,
-        "avg_sec_per_touch": 1.87,
-        "pts_per_touch": 0.499,
-        "elbow_touches": 5.8,
-        "post_touches": 2.4,
-        "paint_touches": 11.3
+        "touches": 57.2,
+        "front_ct_touches": 37.9,
+        "time_of_poss": 1.9,
+        "avg_sec_per_touch": 1.99,
+        "pts_per_touch": 0.509,
+        "elbow_touches": 5.5,
+        "post_touches": 2.3,
+        "paint_touches": 10.6
       }
     },
     {
@@ -15039,45 +15039,45 @@
       "id": 1628976,
       "name": "Wendell Carter Jr.",
       "team": "ORL",
-      "gp": 8,
-      "mpg": 32.7,
-      "min_total": 262,
+      "gp": 9,
+      "mpg": 33.5,
+      "min_total": 302,
       "drives": {
-        "drives": 1.3,
-        "drive_fgm": 0.4,
-        "drive_fga": 0.5,
+        "drives": 1.1,
+        "drive_fgm": 0.3,
+        "drive_fga": 0.4,
         "drive_fg_pct": 0.75,
-        "drive_pts": 0.8,
+        "drive_pts": 0.7,
         "drive_ast": 0.1,
-        "drive_tov": 0.3
+        "drive_tov": 0.2
       },
       "passing": {
-        "passes_made": 29.8,
-        "passes_received": 22.8,
-        "potential_ast": 3.5,
-        "ast_points_created": 3.1,
-        "ast_to_pass_pct": 0.038
+        "passes_made": 30.3,
+        "passes_received": 24.3,
+        "potential_ast": 3.3,
+        "ast_points_created": 2.8,
+        "ast_to_pass_pct": 0.033
       },
       "possessions": {
-        "touches": 37.9,
-        "front_ct_touches": 24.5,
-        "time_of_poss": 0.9,
-        "avg_sec_per_touch": 1.41,
-        "pts_per_touch": 0.376,
-        "elbow_touches": 2.6,
-        "post_touches": 0.4,
-        "paint_touches": 7.0
+        "touches": 39.6,
+        "front_ct_touches": 26.2,
+        "time_of_poss": 1.8,
+        "avg_sec_per_touch": 2.73,
+        "pts_per_touch": 0.374,
+        "elbow_touches": 3.0,
+        "post_touches": 0.6,
+        "paint_touches": 8.0
       }
     },
     {
       "id": 1642954,
       "name": "Will Richard",
       "team": "GSW",
-      "gp": 9,
-      "mpg": 17.8,
-      "min_total": 160,
+      "gp": 10,
+      "mpg": 17.2,
+      "min_total": 172,
       "drives": {
-        "drives": 1.6,
+        "drives": 1.5,
         "drive_fgm": 0.0,
         "drive_fga": 0.2,
         "drive_fg_pct": 0.0,
@@ -15086,123 +15086,123 @@
         "drive_tov": 0.0
       },
       "passing": {
-        "passes_made": 12.2,
-        "passes_received": 12.7,
+        "passes_made": 11.6,
+        "passes_received": 11.9,
         "potential_ast": 1.4,
-        "ast_points_created": 2.7,
-        "ast_to_pass_pct": 0.082
+        "ast_points_created": 2.6,
+        "ast_to_pass_pct": 0.086
       },
       "possessions": {
-        "touches": 16.6,
-        "front_ct_touches": 12.1,
-        "time_of_poss": 1.0,
-        "avg_sec_per_touch": 3.56,
-        "pts_per_touch": 0.315,
+        "touches": 15.7,
+        "front_ct_touches": 11.3,
+        "time_of_poss": 0.9,
+        "avg_sec_per_touch": 3.45,
+        "pts_per_touch": 0.325,
         "elbow_touches": 0.1,
         "post_touches": 0.0,
-        "paint_touches": 1.8
+        "paint_touches": 1.7
       }
     },
     {
       "id": 1642860,
       "name": "Will Riley",
       "team": "WAS",
-      "gp": 7,
-      "mpg": 5.2,
-      "min_total": 36,
+      "gp": 8,
+      "mpg": 7.1,
+      "min_total": 57,
       "drives": {
-        "drives": 1.0,
-        "drive_fgm": 0.1,
-        "drive_fga": 0.4,
-        "drive_fg_pct": 0.333,
-        "drive_pts": 0.6,
+        "drives": 1.1,
+        "drive_fgm": 0.3,
+        "drive_fga": 0.5,
+        "drive_fg_pct": 0.5,
+        "drive_pts": 0.8,
         "drive_ast": 0.0,
         "drive_tov": 0.1
       },
       "passing": {
-        "passes_made": 3.1,
-        "passes_received": 3.3,
-        "potential_ast": 0.3,
-        "ast_points_created": 0.3,
-        "ast_to_pass_pct": 0.045
+        "passes_made": 4.3,
+        "passes_received": 4.3,
+        "potential_ast": 0.5,
+        "ast_points_created": 0.8,
+        "ast_to_pass_pct": 0.059
       },
       "possessions": {
-        "touches": 4.3,
-        "front_ct_touches": 3.0,
+        "touches": 5.8,
+        "front_ct_touches": 4.1,
         "time_of_poss": 0.1,
-        "avg_sec_per_touch": 1.7,
-        "pts_per_touch": 0.367,
+        "avg_sec_per_touch": 1.54,
+        "pts_per_touch": 0.348,
         "elbow_touches": 0.0,
         "post_touches": 0.0,
-        "paint_touches": 0.3
+        "paint_touches": 0.5
       }
     },
     {
       "id": 1642905,
       "name": "Yang Hansen",
       "team": "POR",
-      "gp": 5,
-      "mpg": 6.9,
-      "min_total": 34,
+      "gp": 6,
+      "mpg": 10.1,
+      "min_total": 61,
       "drives": {
-        "drives": 0.4,
-        "drive_fgm": 0.0,
-        "drive_fga": 0.2,
-        "drive_fg_pct": 0.0,
-        "drive_pts": 0.4,
-        "drive_ast": 0.0,
-        "drive_tov": 0.0
+        "drives": 1.0,
+        "drive_fgm": 0.2,
+        "drive_fga": 0.3,
+        "drive_fg_pct": 0.5,
+        "drive_pts": 1.0,
+        "drive_ast": 0.2,
+        "drive_tov": 0.2
       },
       "passing": {
-        "passes_made": 7.8,
-        "passes_received": 7.2,
-        "potential_ast": 0.6,
-        "ast_points_created": 1.4,
-        "ast_to_pass_pct": 0.051
+        "passes_made": 9.7,
+        "passes_received": 8.7,
+        "potential_ast": 0.8,
+        "ast_points_created": 1.7,
+        "ast_to_pass_pct": 0.052
       },
       "possessions": {
-        "touches": 10.8,
-        "front_ct_touches": 7.6,
-        "time_of_poss": 0.3,
-        "avg_sec_per_touch": 1.9,
-        "pts_per_touch": 0.296,
-        "elbow_touches": 1.0,
-        "post_touches": 0.2,
-        "paint_touches": 1.0
+        "touches": 13.7,
+        "front_ct_touches": 9.0,
+        "time_of_poss": 0.4,
+        "avg_sec_per_touch": 1.96,
+        "pts_per_touch": 0.341,
+        "elbow_touches": 0.8,
+        "post_touches": 0.3,
+        "paint_touches": 1.3
       }
     },
     {
       "id": 1642865,
       "name": "Yaxel Lendeborg",
       "team": "GSW",
-      "gp": 9,
-      "mpg": 31.8,
-      "min_total": 286,
+      "gp": 10,
+      "mpg": 32.3,
+      "min_total": 323,
       "drives": {
-        "drives": 14.3,
-        "drive_fgm": 2.0,
-        "drive_fga": 4.1,
-        "drive_fg_pct": 0.486,
-        "drive_pts": 6.2,
-        "drive_ast": 1.9,
-        "drive_tov": 1.6
+        "drives": 14.4,
+        "drive_fgm": 2.2,
+        "drive_fga": 4.5,
+        "drive_fg_pct": 0.489,
+        "drive_pts": 6.4,
+        "drive_ast": 1.8,
+        "drive_tov": 1.5
       },
       "passing": {
-        "passes_made": 46.4,
-        "passes_received": 44.8,
-        "potential_ast": 8.8,
-        "ast_points_created": 11.4,
-        "ast_to_pass_pct": 0.089
+        "passes_made": 46.3,
+        "passes_received": 45.4,
+        "potential_ast": 8.6,
+        "ast_points_created": 11.1,
+        "ast_to_pass_pct": 0.086
       },
       "possessions": {
-        "touches": 61.4,
+        "touches": 61.9,
         "front_ct_touches": 39.2,
-        "time_of_poss": 4.5,
-        "avg_sec_per_touch": 4.36,
+        "time_of_poss": 4.4,
+        "avg_sec_per_touch": 4.26,
         "pts_per_touch": 0.342,
         "elbow_touches": 0.8,
-        "post_touches": 1.4,
-        "paint_touches": 5.2
+        "post_touches": 1.6,
+        "paint_touches": 4.8
       }
     },
     {
@@ -15481,34 +15481,34 @@
       "id": 1643544,
       "name": "Zuby Ejiofor",
       "team": "ATL",
-      "gp": 5,
-      "mpg": 11.2,
-      "min_total": 56,
+      "gp": 6,
+      "mpg": 12.3,
+      "min_total": 74,
       "drives": {
-        "drives": 0.6,
-        "drive_fgm": 0.2,
-        "drive_fga": 0.2,
+        "drives": 0.7,
+        "drive_fgm": 0.3,
+        "drive_fga": 0.3,
         "drive_fg_pct": 1.0,
-        "drive_pts": 0.8,
+        "drive_pts": 1.0,
         "drive_ast": 0.0,
         "drive_tov": 0.0
       },
       "passing": {
-        "passes_made": 10.0,
-        "passes_received": 8.6,
-        "potential_ast": 0.8,
-        "ast_points_created": 4.2,
-        "ast_to_pass_pct": 0.18
+        "passes_made": 13.0,
+        "passes_received": 11.0,
+        "potential_ast": 1.0,
+        "ast_points_created": 3.5,
+        "ast_to_pass_pct": 0.115
       },
       "possessions": {
-        "touches": 13.6,
-        "front_ct_touches": 9.2,
+        "touches": 17.2,
+        "front_ct_touches": 11.8,
         "time_of_poss": 0.3,
-        "avg_sec_per_touch": 1.16,
-        "pts_per_touch": 0.397,
-        "elbow_touches": 0.8,
+        "avg_sec_per_touch": 1.1,
+        "pts_per_touch": 0.33,
+        "elbow_touches": 0.7,
         "post_touches": 0.0,
-        "paint_touches": 2.2
+        "paint_touches": 3.0
       }
     },
     {
