@@ -38,6 +38,7 @@ from pathlib import Path
 from pipeline.config import SEASON, HAWKS_DATA_FILENAME
 
 HAWKS_DATA = Path("app/public") / HAWKS_DATA_FILENAME
+LEADERBOARDS = Path("app/public") / f"league_leaderboards-{SEASON}.json"
 RAW_DIR = Path("data/raw") / SEASON
 
 # Match transform.py's MIN_PLAYED_THRESHOLD. Pool excludes players below this,
@@ -168,6 +169,30 @@ def run():
     def _fmt(v): return f"{v*100:.2f}" if v is not None else "n/a"
     print(f"[def_rates] wrote stl_pct/blk_pct onto {updated} Hawks players "
           f"(league medians: STL%={_fmt(medians['stl_pct'])}, BLK%={_fmt(medians['blk_pct'])})")
+
+    # ─── League leaderboards: attach stl_pct, blk_pct, and reb_pct to each
+    # player's `defense` block so the Leaders tab can rank the whole league
+    # on these three advanced percentages (the Hawks already have them from
+    # the loop above). reb_pct comes straight from NBA.com's league_advanced
+    # REB_PCT column; stl_pct and blk_pct are the values we just computed.
+    if not LEADERBOARDS.exists():
+        print(f"[def_rates] skipped league leaderboards update — {LEADERBOARDS} missing")
+        return
+    advanced = load_rows("league_advanced_*.json")
+    reb_pct_by_pid = {r["PLAYER_ID"]: r.get("REB_PCT") for r in advanced}
+    lb = json.loads(LEADERBOARDS.read_text())
+    lb_updated = 0
+    for lp in lb.get("players", []):
+        pid = lp["id"]
+        stl_pct, blk_pct = rates_by_pid.get(pid, (None, None))
+        defense = lp.setdefault("defense", {})
+        defense["stl_pct"] = stl_pct
+        defense["blk_pct"] = blk_pct
+        defense["reb_pct"] = reb_pct_by_pid.get(pid)
+        lb_updated += 1
+    LEADERBOARDS.write_text(json.dumps(lb, indent=2))
+    print(f"[def_rates] wrote stl_pct/blk_pct/reb_pct onto {lb_updated} "
+          f"league leaderboards players")
 
 
 if __name__ == "__main__":

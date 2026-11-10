@@ -1109,7 +1109,9 @@ code {
 
 .leaders-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(min(100%, 420px), 1fr));
+  /* 3 cards per row on desktop; see mobile media query for the 1-per-row
+     stacked layout on phones. */
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 20px;
 }
 
@@ -1455,6 +1457,10 @@ html, body {
     line-height: 1.4;
   }
 
+  /* Leaders: single column on mobile, stack all leaderboards vertically */
+  .leaders-grid {
+    grid-template-columns: 1fr;
+  }
   /* Leaders tables: let them scroll horizontally inside the card if truly needed */
   .leader-card {
     overflow-x: auto;
@@ -2114,6 +2120,14 @@ header {
 .leaders-toggle-btn.active {
   color: var(--text-h);
   border-bottom-color: #C8102E;
+}
+
+/* Section toggle (Shooting | Defense | Hustle) — sits under the Hawks/League
+   toggle. Same visual style as .leaders-toggle, just tighter spacing above
+   so the two toggle rows read as a stack. */
+.leaders-section-toggle {
+  margin-top: -16px;
+  margin-bottom: 20px;
 }
 
 .leader-empty {
@@ -3259,4 +3273,35 @@ header {
   color: #F0F921;
   margin-left: auto;
   font-weight: 600;
+}
+
+/* Per Game / Per 36 mode toggle on the Leaders > Hustle section.
+   Sits between the section toggle and the leaderboards grid. Smaller and
+   more subtle than the main leaders-toggle to signal it's a sub-control. */
+.leaders-mode-toggle {
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+  margin: -8px 0 16px;
+}
+.leaders-mode-btn {
+  padding: 4px 14px;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--text);
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  cursor: pointer;
+  font-family: inherit;
+  transition: background-color 0.15s, color 0.15s, border-color 0.15s;
+}
+.leaders-mode-btn:hover {
+  color: var(--text-h);
+  border-color: var(--text);
+}
+.leaders-mode-btn.active {
+  color: #fff;
+  background: #C8102E;
+  border-color: #C8102E;
 }

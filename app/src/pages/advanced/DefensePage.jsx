@@ -31,8 +31,21 @@ function extract(player, block, field) {
 const pct = (v) => (v == null ? '—' : `${(v * 100).toFixed(1)}%`)
 const num = (v) => (v == null ? '—' : Number(v).toFixed(1))
 
-// ─── Scatter plot configs (2) ─────────────────────────────────
+// ─── Scatter plot configs (3) ─────────────────────────────────
 const SCATTER_CONFIGS = [
+  {
+    title: 'Contested Shots × DFG% +/- vs Norm',
+    description:
+      'Upper-right = contests many shots AND holds opponents below their season norm. ' +
+      'X-axis is inverted because negative DFG+/- is good (opponent shoots worse than usual).',
+    xLabel: 'DFG% +/- vs Norm', yLabel: 'Contested Shots',
+    xInvert: true,
+    extractX: (p) => extract(p, 'defense', 'pct_plusminus'),
+    extractY: (p) => extract(p, 'hustle', 'contested_shots'),
+    xFormat: (v) => (v == null ? '—' : (v > 0 ? '+' : '') + (v * 100).toFixed(1) + '%'),
+    yFormat: num,
+    minMinutes: 100,
+  },
   {
     title: 'Contested Shots × Defensive FG% Allowed',
     description:

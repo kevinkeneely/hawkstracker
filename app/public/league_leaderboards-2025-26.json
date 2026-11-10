@@ -1,6 +1,6 @@
 {
   "season": "2025-26",
-  "generated_at": "2026-11-09T18:23:27.012858+00:00",
+  "generated_at": "2026-11-10T22:50:51.242457+00:00",
   "min_gp": 5,
   "min_fga_per_zone": {
     "at_rim": 15,
@@ -101,7 +101,10 @@
       "defense": {
         "spg": 0.5,
         "bpg": 0.2,
-        "rpg": 1.8
+        "rpg": 1.8,
+        "stl_pct": 0.025942887038503868,
+        "blk_pct": 0.02051063829787234,
+        "reb_pct": 0.096
       },
       "hustle": {
         "contested_shots": 1.25,
@@ -188,7 +191,10 @@
       "defense": {
         "spg": 0.5,
         "bpg": 0.1,
-        "rpg": 2.7
+        "rpg": 2.7,
+        "stl_pct": 0.008474869963217568,
+        "blk_pct": 0.0034293113629733983,
+        "reb_pct": 0.046
       },
       "hustle": {
         "contested_shots": 3.92,
@@ -275,7 +281,10 @@
       "defense": {
         "spg": 0.2,
         "bpg": 0.1,
-        "rpg": 1.1
+        "rpg": 1.1,
+        "stl_pct": 0.010046526513470346,
+        "blk_pct": 0.008985926998626118,
+        "reb_pct": 0.057
       },
       "hustle": {
         "contested_shots": 2.06,
@@ -362,7 +371,10 @@
       "defense": {
         "spg": 0.6,
         "bpg": 0.3,
-        "rpg": 5.8
+        "rpg": 5.8,
+        "stl_pct": 0.010510713673857135,
+        "blk_pct": 0.010030338678719584,
+        "reb_pct": 0.102
       },
       "hustle": {
         "contested_shots": 2.83,
@@ -449,7 +461,10 @@
       "defense": {
         "spg": 0.5,
         "bpg": 0.1,
-        "rpg": 1.0
+        "rpg": 1.0,
+        "stl_pct": 0.018191012540099603,
+        "blk_pct": 0.0067175445643291466,
+        "reb_pct": 0.035
       },
       "hustle": {
         "contested_shots": 2.08,
@@ -536,7 +551,10 @@
       "defense": {
         "spg": 0.6,
         "bpg": 0.5,
-        "rpg": 4.2
+        "rpg": 4.2,
+        "stl_pct": 0.009597880404507196,
+        "blk_pct": 0.014387372543400914,
+        "reb_pct": 0.067
       },
       "hustle": {
         "contested_shots": 5.56,
@@ -623,7 +641,10 @@
       "defense": {
         "spg": 0.9,
         "bpg": 0.4,
-        "rpg": 3.1
+        "rpg": 3.1,
+        "stl_pct": 0.0199316725999429,
+        "blk_pct": 0.017940876656472985,
+        "reb_pct": 0.066
       },
       "hustle": {
         "contested_shots": 4.21,
@@ -710,7 +731,10 @@
       "defense": {
         "spg": 0.8,
         "bpg": 0.7,
-        "rpg": 4.2
+        "rpg": 4.2,
+        "stl_pct": 0.013612302924059858,
+        "blk_pct": 0.024501721195290573,
+        "reb_pct": 0.072
       },
       "hustle": {
         "contested_shots": 4.81,
@@ -797,7 +821,10 @@
       "defense": {
         "spg": 0.4,
         "bpg": 1.2,
-        "rpg": 4.3
+        "rpg": 4.3,
+        "stl_pct": 0.01108482173428109,
+        "blk_pct": 0.06469685853398253,
+        "reb_pct": 0.119
       },
       "hustle": {
         "contested_shots": 5.36,
@@ -884,7 +911,10 @@
       "defense": {
         "spg": 0.3,
         "bpg": 0.1,
-        "rpg": 1.1
+        "rpg": 1.1,
+        "stl_pct": 0.02438238714215239,
+        "blk_pct": 0.015506125080593168,
+        "reb_pct": 0.104
       },
       "hustle": {
         "contested_shots": 0.95,
@@ -971,7 +1001,10 @@
       "defense": {
         "spg": 1.2,
         "bpg": 0.3,
-        "rpg": 3.3
+        "rpg": 3.3,
+        "stl_pct": 0.02245532106866952,
+        "blk_pct": 0.011369509043927648,
+        "reb_pct": 0.062
       },
       "hustle": {
         "contested_shots": 3.46,
@@ -1058,7 +1091,10 @@
       "defense": {
         "spg": 0.7,
         "bpg": 1.1,
-        "rpg": 4.9
+        "rpg": 4.9,
+        "stl_pct": 0.01578388707420093,
+        "blk_pct": 0.047159595242322036,
+        "reb_pct": 0.111
       },
       "hustle": {
         "contested_shots": 6.62,
@@ -1145,7 +1181,10 @@
       "defense": {
         "spg": 0.0,
         "bpg": 0.2,
-        "rpg": 1.0
+        "rpg": 1.0,
+        "stl_pct": 0.0,
+        "blk_pct": 0.0587017415661917,
+        "reb_pct": 0.113
       },
       "hustle": {
         "contested_shots": 1.0,
@@ -1232,7 +1271,10 @@
       "defense": {
         "spg": 1.3,
         "bpg": 0.3,
-        "rpg": 2.8
+        "rpg": 2.8,
+        "stl_pct": 0.034484957355456765,
+        "blk_pct": 0.016117216117216115,
+        "reb_pct": 0.073
       },
       "hustle": {
         "contested_shots": 2.36,
@@ -1319,7 +1361,10 @@
       "defense": {
         "spg": 0.8,
         "bpg": 2.0,
-        "rpg": 7.4
+        "rpg": 7.4,
+        "stl_pct": 0.013964841977402609,
+        "blk_pct": 0.06467367969085445,
+        "reb_pct": 0.126
       },
       "hustle": {
         "contested_shots": 9.38,
@@ -1406,7 +1451,10 @@
       "defense": {
         "spg": 0.3,
         "bpg": 0.2,
-        "rpg": 0.9
+        "rpg": 0.9,
+        "stl_pct": 0.023225060777327274,
+        "blk_pct": 0.0306031746031746,
+        "reb_pct": 0.068
       },
       "hustle": {
         "contested_shots": 2.07,
@@ -1493,7 +1541,10 @@
       "defense": {
         "spg": 1.2,
         "bpg": 1.1,
-        "rpg": 8.9
+        "rpg": 8.9,
+        "stl_pct": 0.01796157634590015,
+        "blk_pct": 0.030400419394726798,
+        "reb_pct": 0.133
       },
       "hustle": {
         "contested_shots": 8.68,
@@ -1580,7 +1631,10 @@
       "defense": {
         "spg": 0.1,
         "bpg": 0.5,
-        "rpg": 1.8
+        "rpg": 1.8,
+        "stl_pct": 0.00766501317683093,
+        "blk_pct": 0.07639285941172735,
+        "reb_pct": 0.12
       },
       "hustle": {
         "contested_shots": 3.0,
@@ -1667,7 +1721,10 @@
       "defense": {
         "spg": 1.5,
         "bpg": 0.6,
-        "rpg": 7.8
+        "rpg": 7.8,
+        "stl_pct": 0.01999065816572443,
+        "blk_pct": 0.014764228962242132,
+        "reb_pct": 0.101
       },
       "hustle": {
         "contested_shots": 3.8,
@@ -1754,7 +1811,10 @@
       "defense": {
         "spg": 0.2,
         "bpg": 0.1,
-        "rpg": 1.2
+        "rpg": 1.2,
+        "stl_pct": 0.009231884445071333,
+        "blk_pct": 0.008937843049992584,
+        "reb_pct": 0.057
       },
       "hustle": {
         "contested_shots": 1.23,
@@ -1841,7 +1901,10 @@
       "defense": {
         "spg": 0.6,
         "bpg": 0.8,
-        "rpg": 8.4
+        "rpg": 8.4,
+        "stl_pct": 0.014836607552037763,
+        "blk_pct": 0.03848633635867679,
+        "reb_pct": 0.202
       },
       "hustle": {
         "contested_shots": 5.18,
@@ -1928,7 +1991,10 @@
       "defense": {
         "spg": 0.4,
         "bpg": 0.1,
-        "rpg": 1.5
+        "rpg": 1.5,
+        "stl_pct": 0.02321117326396529,
+        "blk_pct": 0.011740348313238341,
+        "reb_pct": 0.09
       },
       "hustle": {
         "contested_shots": 1.14,
@@ -2015,7 +2081,10 @@
       "defense": {
         "spg": 0.9,
         "bpg": 0.1,
-        "rpg": 2.8
+        "rpg": 2.8,
+        "stl_pct": 0.013660880895233084,
+        "blk_pct": 0.0027303831599936558,
+        "reb_pct": 0.044
       },
       "hustle": {
         "contested_shots": 2.47,
@@ -2102,7 +2171,10 @@
       "defense": {
         "spg": 1.1,
         "bpg": 1.0,
-        "rpg": 4.8
+        "rpg": 4.8,
+        "stl_pct": 0.016858717679820105,
+        "blk_pct": 0.02939738418286273,
+        "reb_pct": 0.074
       },
       "hustle": {
         "contested_shots": 7.57,
@@ -2189,7 +2261,10 @@
       "defense": {
         "spg": 0.5,
         "bpg": 0.1,
-        "rpg": 2.5
+        "rpg": 2.5,
+        "stl_pct": 0.00939254821348667,
+        "blk_pct": 0.003487825174572163,
+        "reb_pct": 0.047
       },
       "hustle": {
         "contested_shots": 2.94,
@@ -2276,7 +2351,10 @@
       "defense": {
         "spg": 1.4,
         "bpg": 0.7,
-        "rpg": 3.8
+        "rpg": 3.8,
+        "stl_pct": 0.02261317098983008,
+        "blk_pct": 0.02129050096775004,
+        "reb_pct": 0.062
       },
       "hustle": {
         "contested_shots": 4.16,
@@ -2363,7 +2441,10 @@
       "defense": {
         "spg": 1.4,
         "bpg": 0.8,
-        "rpg": 5.0
+        "rpg": 5.0,
+        "stl_pct": 0.019049953946761036,
+        "blk_pct": 0.01977943062323673,
+        "reb_pct": 0.069
       },
       "hustle": {
         "contested_shots": 4.11,
@@ -2450,7 +2531,10 @@
       "defense": {
         "spg": 0.6,
         "bpg": 0.4,
-        "rpg": 2.9
+        "rpg": 2.9,
+        "stl_pct": 0.01646721250514527,
+        "blk_pct": 0.020336694654234,
+        "reb_pct": 0.084
       },
       "hustle": {
         "contested_shots": 4.8,
@@ -2537,7 +2621,10 @@
       "defense": {
         "spg": 0.1,
         "bpg": 0.0,
-        "rpg": 0.8
+        "rpg": 0.8,
+        "stl_pct": 0.007307990083936841,
+        "blk_pct": 0.0,
+        "reb_pct": 0.062
       },
       "hustle": {
         "contested_shots": 1.8,
@@ -2624,7 +2711,10 @@
       "defense": {
         "spg": 0.2,
         "bpg": 0.5,
-        "rpg": 2.9
+        "rpg": 2.9,
+        "stl_pct": 0.010751684476324677,
+        "blk_pct": 0.055617095910643406,
+        "reb_pct": 0.148
       },
       "hustle": {
         "contested_shots": 3.65,
@@ -2711,7 +2801,10 @@
       "defense": {
         "spg": 0.4,
         "bpg": 0.3,
-        "rpg": 2.2
+        "rpg": 2.2,
+        "stl_pct": 0.01657967422570297,
+        "blk_pct": 0.02388740212112201,
+        "reb_pct": 0.091
       },
       "hustle": {
         "contested_shots": 3.37,
@@ -2798,7 +2891,10 @@
       "defense": {
         "spg": 2.0,
         "bpg": 0.9,
-        "rpg": 5.7
+        "rpg": 5.7,
+        "stl_pct": 0.03719281709329089,
+        "blk_pct": 0.0345438652256834,
+        "reb_pct": 0.108
       },
       "hustle": {
         "contested_shots": 4.23,
@@ -2885,7 +2981,10 @@
       "defense": {
         "spg": 1.1,
         "bpg": 0.4,
-        "rpg": 4.7
+        "rpg": 4.7,
+        "stl_pct": 0.015548188902242103,
+        "blk_pct": 0.010786869621282204,
+        "reb_pct": 0.071
       },
       "hustle": {
         "contested_shots": 3.0,
@@ -2972,7 +3071,10 @@
       "defense": {
         "spg": 0.8,
         "bpg": 0.3,
-        "rpg": 3.4
+        "rpg": 3.4,
+        "stl_pct": 0.013956010217407352,
+        "blk_pct": 0.009509341645786889,
+        "reb_pct": 0.059
       },
       "hustle": {
         "contested_shots": 3.72,
@@ -3059,7 +3161,10 @@
       "defense": {
         "spg": 1.2,
         "bpg": 0.7,
-        "rpg": 10.0
+        "rpg": 10.0,
+        "stl_pct": 0.01719929783496799,
+        "blk_pct": 0.019244398719707363,
+        "reb_pct": 0.146
       },
       "hustle": {
         "contested_shots": 6.84,
@@ -3146,7 +3251,10 @@
       "defense": {
         "spg": 0.5,
         "bpg": 0.1,
-        "rpg": 3.5
+        "rpg": 3.5,
+        "stl_pct": 0.013599216926635517,
+        "blk_pct": 0.005421428732445166,
+        "reb_pct": 0.089
       },
       "hustle": {
         "contested_shots": 2.26,
@@ -3233,7 +3341,10 @@
       "defense": {
         "spg": 0.9,
         "bpg": 0.2,
-        "rpg": 2.1
+        "rpg": 2.1,
+        "stl_pct": 0.02145495917085801,
+        "blk_pct": 0.008947133947133947,
+        "reb_pct": 0.052
       },
       "hustle": {
         "contested_shots": 3.62,
@@ -3320,7 +3431,10 @@
       "defense": {
         "spg": 0.6,
         "bpg": 0.1,
-        "rpg": 3.0
+        "rpg": 3.0,
+        "stl_pct": 0.013320422804386157,
+        "blk_pct": 0.003993504341486049,
+        "reb_pct": 0.065
       },
       "hustle": {
         "contested_shots": 2.6,
@@ -3407,7 +3521,10 @@
       "defense": {
         "spg": 0.8,
         "bpg": 0.2,
-        "rpg": 5.4
+        "rpg": 5.4,
+        "stl_pct": 0.013248553263723456,
+        "blk_pct": 0.006288323548597522,
+        "reb_pct": 0.088
       },
       "hustle": {
         "contested_shots": 2.65,
@@ -3494,7 +3611,10 @@
       "defense": {
         "spg": 2.3,
         "bpg": 0.3,
-        "rpg": 3.8
+        "rpg": 3.8,
+        "stl_pct": 0.03293098283610213,
+        "blk_pct": 0.008835986563458449,
+        "reb_pct": 0.054
       },
       "hustle": {
         "contested_shots": 5.07,
@@ -3581,7 +3701,10 @@
       "defense": {
         "spg": 1.3,
         "bpg": 1.0,
-        "rpg": 4.3
+        "rpg": 4.3,
+        "stl_pct": 0.02355900822141967,
+        "blk_pct": 0.033571070373878645,
+        "reb_pct": 0.077
       },
       "hustle": {
         "contested_shots": 3.38,
@@ -3668,7 +3791,10 @@
       "defense": {
         "spg": 0.2,
         "bpg": 0.1,
-        "rpg": 1.0
+        "rpg": 1.0,
+        "stl_pct": 0.016826686585277827,
+        "blk_pct": 0.015569366219977992,
+        "reb_pct": 0.1
       },
       "hustle": {
         "contested_shots": 1.9,
@@ -3755,7 +3881,10 @@
       "defense": {
         "spg": 0.4,
         "bpg": 0.1,
-        "rpg": 2.4
+        "rpg": 2.4,
+        "stl_pct": 0.009208322566275786,
+        "blk_pct": 0.004735626785644397,
+        "reb_pct": 0.053
       },
       "hustle": {
         "contested_shots": 3.07,
@@ -3842,7 +3971,10 @@
       "defense": {
         "spg": 0.5,
         "bpg": 0.2,
-        "rpg": 1.3
+        "rpg": 1.3,
+        "stl_pct": 0.020613927693015333,
+        "blk_pct": 0.015304502444910143,
+        "reb_pct": 0.052
       },
       "hustle": {
         "contested_shots": 1.0,
@@ -3929,7 +4061,10 @@
       "defense": {
         "spg": 0.6,
         "bpg": 0.2,
-        "rpg": 6.4
+        "rpg": 6.4,
+        "stl_pct": 0.012229027236180062,
+        "blk_pct": 0.008247352120869909,
+        "reb_pct": 0.129
       },
       "hustle": {
         "contested_shots": 5.27,
@@ -4016,7 +4151,10 @@
       "defense": {
         "spg": 0.4,
         "bpg": 0.1,
-        "rpg": 2.6
+        "rpg": 2.6,
+        "stl_pct": 0.010087730911464561,
+        "blk_pct": 0.004788063615683393,
+        "reb_pct": 0.066
       },
       "hustle": {
         "contested_shots": 3.5,
@@ -4103,7 +4241,10 @@
       "defense": {
         "spg": 0.6,
         "bpg": 0.2,
-        "rpg": 1.8
+        "rpg": 1.8,
+        "stl_pct": 0.017213813807314186,
+        "blk_pct": 0.010425904695983213,
+        "reb_pct": 0.051
       },
       "hustle": {
         "contested_shots": 2.26,
@@ -4190,7 +4331,10 @@
       "defense": {
         "spg": 0.5,
         "bpg": 0.0,
-        "rpg": 0.8
+        "rpg": 0.8,
+        "stl_pct": 0.012297543252218554,
+        "blk_pct": 0.0,
+        "reb_pct": 0.022
       },
       "hustle": {
         "contested_shots": 2.33,
@@ -4277,7 +4421,10 @@
       "defense": {
         "spg": 0.2,
         "bpg": 0.6,
-        "rpg": 3.0
+        "rpg": 3.0,
+        "stl_pct": 0.008323955223730943,
+        "blk_pct": 0.05057471264367815,
+        "reb_pct": 0.121
       },
       "hustle": {
         "contested_shots": 5.08,
@@ -4364,7 +4511,10 @@
       "defense": {
         "spg": 1.1,
         "bpg": 0.2,
-        "rpg": 5.1
+        "rpg": 5.1,
+        "stl_pct": 0.01877710911996238,
+        "blk_pct": 0.0064912375013439425,
+        "reb_pct": 0.087
       },
       "hustle": {
         "contested_shots": 2.62,
@@ -4451,7 +4601,10 @@
       "defense": {
         "spg": 0.8,
         "bpg": 0.7,
-        "rpg": 5.6
+        "rpg": 5.6,
+        "stl_pct": 0.01154381719109758,
+        "blk_pct": 0.01996449704142012,
+        "reb_pct": 0.083
       },
       "hustle": {
         "contested_shots": 5.07,
@@ -4538,7 +4691,10 @@
       "defense": {
         "spg": 1.0,
         "bpg": 0.7,
-        "rpg": 4.9
+        "rpg": 4.9,
+        "stl_pct": 0.016400769825336805,
+        "blk_pct": 0.021332018259297193,
+        "reb_pct": 0.078
       },
       "hustle": {
         "contested_shots": 4.29,
@@ -4625,7 +4781,10 @@
       "defense": {
         "spg": 0.9,
         "bpg": 0.3,
-        "rpg": 2.9
+        "rpg": 2.9,
+        "stl_pct": 0.01914270592431512,
+        "blk_pct": 0.011414555917173719,
+        "reb_pct": 0.062
       },
       "hustle": {
         "contested_shots": 2.98,
@@ -4712,7 +4871,10 @@
       "defense": {
         "spg": 0.7,
         "bpg": 0.2,
-        "rpg": 3.1
+        "rpg": 3.1,
+        "stl_pct": 0.013988813430470025,
+        "blk_pct": 0.0082218541640124,
+        "reb_pct": 0.063
       },
       "hustle": {
         "contested_shots": 2.79,
@@ -4799,7 +4961,10 @@
       "defense": {
         "spg": 0.5,
         "bpg": 0.1,
-        "rpg": 0.5
+        "rpg": 0.5,
+        "stl_pct": 0.027395940609159987,
+        "blk_pct": 0.01045356747006281,
+        "reb_pct": 0.032
       },
       "hustle": {
         "contested_shots": 1.4,
@@ -4886,7 +5051,10 @@
       "defense": {
         "spg": 0.6,
         "bpg": 1.2,
-        "rpg": 3.6
+        "rpg": 3.6,
+        "stl_pct": 0.013673965524485219,
+        "blk_pct": 0.051921937557227245,
+        "reb_pct": 0.085
       },
       "hustle": {
         "contested_shots": 8.28,
@@ -4973,7 +5141,10 @@
       "defense": {
         "spg": 0.3,
         "bpg": 0.1,
-        "rpg": 2.0
+        "rpg": 2.0,
+        "stl_pct": 0.01664791044746189,
+        "blk_pct": 0.011238825031928478,
+        "reb_pct": 0.103
       },
       "hustle": {
         "contested_shots": 1.69,
@@ -5060,7 +5231,10 @@
       "defense": {
         "spg": 1.0,
         "bpg": 0.2,
-        "rpg": 3.9
+        "rpg": 3.9,
+        "stl_pct": 0.02003066335386708,
+        "blk_pct": 0.007646077845253453,
+        "reb_pct": 0.077
       },
       "hustle": {
         "contested_shots": 2.57,
@@ -5147,7 +5321,10 @@
       "defense": {
         "spg": 0.6,
         "bpg": 0.2,
-        "rpg": 2.1
+        "rpg": 2.1,
+        "stl_pct": 0.01366610022712375,
+        "blk_pct": 0.008984375,
+        "reb_pct": 0.047
       },
       "hustle": {
         "contested_shots": 3.4,
@@ -5234,7 +5411,10 @@
       "defense": {
         "spg": 0.6,
         "bpg": 0.2,
-        "rpg": 3.4
+        "rpg": 3.4,
+        "stl_pct": 0.010284576763141273,
+        "blk_pct": 0.006350628475058633,
+        "reb_pct": 0.058
       },
       "hustle": {
         "contested_shots": 2.93,
@@ -5321,7 +5501,10 @@
       "defense": {
         "spg": 0.8,
         "bpg": 0.2,
-        "rpg": 2.3
+        "rpg": 2.3,
+        "stl_pct": 0.023479290207827807,
+        "blk_pct": 0.01127604075282778,
+        "reb_pct": 0.069
       },
       "hustle": {
         "contested_shots": 2.91,
@@ -5408,7 +5591,10 @@
       "defense": {
         "spg": 0.8,
         "bpg": 0.5,
-        "rpg": 3.3
+        "rpg": 3.3,
+        "stl_pct": 0.012685119877383478,
+        "blk_pct": 0.015230222828903295,
+        "reb_pct": 0.051
       },
       "hustle": {
         "contested_shots": 4.35,
@@ -5495,7 +5681,10 @@
       "defense": {
         "spg": 1.4,
         "bpg": 0.8,
-        "rpg": 5.5
+        "rpg": 5.5,
+        "stl_pct": 0.01996782510613257,
+        "blk_pct": 0.023550062166313168,
+        "reb_pct": 0.079
       },
       "hustle": {
         "contested_shots": 4.83,
@@ -5582,7 +5771,10 @@
       "defense": {
         "spg": 0.6,
         "bpg": 0.1,
-        "rpg": 2.3
+        "rpg": 2.3,
+        "stl_pct": 0.013862119492114659,
+        "blk_pct": 0.004288218076351634,
+        "reb_pct": 0.053
       },
       "hustle": {
         "contested_shots": 1.95,
@@ -5669,7 +5861,10 @@
       "defense": {
         "spg": 0.7,
         "bpg": 0.3,
-        "rpg": 2.5
+        "rpg": 2.5,
+        "stl_pct": 0.022333156911700968,
+        "blk_pct": 0.017121833875760578,
+        "reb_pct": 0.077
       },
       "hustle": {
         "contested_shots": 1.71,
@@ -5756,7 +5951,10 @@
       "defense": {
         "spg": 0.3,
         "bpg": 0.1,
-        "rpg": 1.4
+        "rpg": 1.4,
+        "stl_pct": 0.017131749909987226,
+        "blk_pct": 0.010841937152754349,
+        "reb_pct": 0.084
       },
       "hustle": {
         "contested_shots": 1.84,
@@ -5843,7 +6041,10 @@
       "defense": {
         "spg": 0.7,
         "bpg": 0.2,
-        "rpg": 2.5
+        "rpg": 2.5,
+        "stl_pct": 0.013946793402177627,
+        "blk_pct": 0.00771377253191353,
+        "reb_pct": 0.051
       },
       "hustle": {
         "contested_shots": 2.03,
@@ -5930,7 +6131,10 @@
       "defense": {
         "spg": 0.7,
         "bpg": 0.4,
-        "rpg": 2.8
+        "rpg": 2.8,
+        "stl_pct": 0.019666463849833265,
+        "blk_pct": 0.020818036539541316,
+        "reb_pct": 0.075
       },
       "hustle": {
         "contested_shots": 1.81,
@@ -6017,7 +6221,10 @@
       "defense": {
         "spg": 0.7,
         "bpg": 0.4,
-        "rpg": 3.8
+        "rpg": 3.8,
+        "stl_pct": 0.011217171478165562,
+        "blk_pct": 0.012233724552405527,
+        "reb_pct": 0.063
       },
       "hustle": {
         "contested_shots": 4.13,
@@ -6104,7 +6311,10 @@
       "defense": {
         "spg": 0.9,
         "bpg": 0.7,
-        "rpg": 2.0
+        "rpg": 2.0,
+        "stl_pct": 0.022664372916224137,
+        "blk_pct": 0.0363830061983471,
+        "reb_pct": 0.047
       },
       "hustle": {
         "contested_shots": 3.19,
@@ -6191,7 +6401,10 @@
       "defense": {
         "spg": 0.2,
         "bpg": 0.3,
-        "rpg": 2.5
+        "rpg": 2.5,
+        "stl_pct": 0.008340183785746401,
+        "blk_pct": 0.023150970640141186,
+        "reb_pct": 0.1
       },
       "hustle": {
         "contested_shots": 2.74,
@@ -6278,7 +6491,10 @@
       "defense": {
         "spg": 1.9,
         "bpg": 0.4,
-        "rpg": 3.1
+        "rpg": 3.1,
+        "stl_pct": 0.03448495735545676,
+        "blk_pct": 0.014703425229741015,
+        "reb_pct": 0.056
       },
       "hustle": {
         "contested_shots": 4.34,
@@ -6365,7 +6581,10 @@
       "defense": {
         "spg": 0.6,
         "bpg": 0.4,
-        "rpg": 5.9
+        "rpg": 5.9,
+        "stl_pct": 0.011027697108698588,
+        "blk_pct": 0.014231611337948992,
+        "reb_pct": 0.106
       },
       "hustle": {
         "contested_shots": 5.27,
@@ -6452,7 +6671,10 @@
       "defense": {
         "spg": 0.9,
         "bpg": 0.5,
-        "rpg": 4.6
+        "rpg": 4.6,
+        "stl_pct": 0.021875644644796407,
+        "blk_pct": 0.022806419865243396,
+        "reb_pct": 0.12
       },
       "hustle": {
         "contested_shots": 3.24,
@@ -6539,7 +6761,10 @@
       "defense": {
         "spg": 0.3,
         "bpg": 0.8,
-        "rpg": 4.4
+        "rpg": 4.4,
+        "stl_pct": 0.012430533776385352,
+        "blk_pct": 0.06302603249168136,
+        "reb_pct": 0.184
       },
       "hustle": {
         "contested_shots": 3.17,
@@ -6626,7 +6851,10 @@
       "defense": {
         "spg": 0.2,
         "bpg": 0.0,
-        "rpg": 0.7
+        "rpg": 0.7,
+        "stl_pct": 0.012558613563968353,
+        "blk_pct": 0.0,
+        "reb_pct": 0.042
       },
       "hustle": {
         "contested_shots": 1.19,
@@ -6713,7 +6941,10 @@
       "defense": {
         "spg": 0.6,
         "bpg": 1.9,
-        "rpg": 8.9
+        "rpg": 8.9,
+        "stl_pct": 0.010023309404354214,
+        "blk_pct": 0.06428296808919645,
+        "reb_pct": 0.149
       },
       "hustle": {
         "contested_shots": 9.96,
@@ -6800,7 +7031,10 @@
       "defense": {
         "spg": 0.6,
         "bpg": 0.2,
-        "rpg": 1.1
+        "rpg": 1.1,
+        "stl_pct": 0.05737032268741739,
+        "blk_pct": 0.03648500018963099,
+        "reb_pct": 0.096
       },
       "hustle": {
         "contested_shots": 1.0,
@@ -6887,7 +7121,10 @@
       "defense": {
         "spg": 0.1,
         "bpg": 0.1,
-        "rpg": 0.8
+        "rpg": 0.8,
+        "stl_pct": 0.008856354119962143,
+        "blk_pct": 0.016438169292681264,
+        "reb_pct": 0.07
       },
       "hustle": {
         "contested_shots": 1.43,
@@ -6974,7 +7211,10 @@
       "defense": {
         "spg": 0.7,
         "bpg": 0.3,
-        "rpg": 4.8
+        "rpg": 4.8,
+        "stl_pct": 0.010758607864278291,
+        "blk_pct": 0.00880020280302756,
+        "reb_pct": 0.075
       },
       "hustle": {
         "contested_shots": 4.23,
@@ -7061,7 +7301,10 @@
       "defense": {
         "spg": 0.5,
         "bpg": 0.9,
-        "rpg": 3.0
+        "rpg": 3.0,
+        "stl_pct": 0.017898511948202068,
+        "blk_pct": 0.06189008731381612,
+        "reb_pct": 0.103
       },
       "hustle": {
         "contested_shots": 5.78,
@@ -7148,7 +7391,10 @@
       "defense": {
         "spg": 0.5,
         "bpg": 0.8,
-        "rpg": 4.6
+        "rpg": 4.6,
+        "stl_pct": 0.020261534292631264,
+        "blk_pct": 0.05985714506101418,
+        "reb_pct": 0.169
       },
       "hustle": {
         "contested_shots": 4.6,
@@ -7235,7 +7481,10 @@
       "defense": {
         "spg": 0.5,
         "bpg": 0.1,
-        "rpg": 3.4
+        "rpg": 3.4,
+        "stl_pct": 0.009938866514154102,
+        "blk_pct": 0.0036934865900383144,
+        "reb_pct": 0.064
       },
       "hustle": {
         "contested_shots": 3.44,
@@ -7322,7 +7571,10 @@
       "defense": {
         "spg": 0.8,
         "bpg": 0.4,
-        "rpg": 3.0
+        "rpg": 3.0,
+        "stl_pct": 0.015460887271771692,
+        "blk_pct": 0.01590235167525032,
+        "reb_pct": 0.059
       },
       "hustle": {
         "contested_shots": 3.76,
@@ -7409,7 +7661,10 @@
       "defense": {
         "spg": 1.2,
         "bpg": 0.2,
-        "rpg": 4.1
+        "rpg": 4.1,
+        "stl_pct": 0.020796034434160685,
+        "blk_pct": 0.006711222500696186,
+        "reb_pct": 0.07
       },
       "hustle": {
         "contested_shots": 2.63,
@@ -7496,7 +7751,10 @@
       "defense": {
         "spg": 0.9,
         "bpg": 0.9,
-        "rpg": 5.0
+        "rpg": 5.0,
+        "stl_pct": 0.020043545602350936,
+        "blk_pct": 0.039616438356164387,
+        "reb_pct": 0.112
       },
       "hustle": {
         "contested_shots": 5.11,
@@ -7583,7 +7841,10 @@
       "defense": {
         "spg": 1.1,
         "bpg": 0.1,
-        "rpg": 2.3
+        "rpg": 2.3,
+        "stl_pct": 0.021709864604843872,
+        "blk_pct": 0.003664423917588475,
+        "reb_pct": 0.045
       },
       "hustle": {
         "contested_shots": 2.37,
@@ -7670,7 +7931,10 @@
       "defense": {
         "spg": 1.2,
         "bpg": 0.9,
-        "rpg": 6.7
+        "rpg": 6.7,
+        "stl_pct": 0.01691415210029037,
+        "blk_pct": 0.02269281862936626,
+        "reb_pct": 0.093
       },
       "hustle": {
         "contested_shots": 6.8,
@@ -7757,7 +8021,10 @@
       "defense": {
         "spg": 0.3,
         "bpg": 0.2,
-        "rpg": 2.3
+        "rpg": 2.3,
+        "stl_pct": 0.007621301861815074,
+        "blk_pct": 0.009760443877447704,
+        "reb_pct": 0.056
       },
       "hustle": {
         "contested_shots": 3.45,
@@ -7844,7 +8111,10 @@
       "defense": {
         "spg": 1.0,
         "bpg": 0.3,
-        "rpg": 2.5
+        "rpg": 2.5,
+        "stl_pct": 0.020050302108100097,
+        "blk_pct": 0.012169873251527547,
+        "reb_pct": 0.055
       },
       "hustle": {
         "contested_shots": 3.55,
@@ -7931,7 +8201,10 @@
       "defense": {
         "spg": 0.9,
         "bpg": 0.6,
-        "rpg": 3.4
+        "rpg": 3.4,
+        "stl_pct": 0.024156183078909696,
+        "blk_pct": 0.03167926388432469,
+        "reb_pct": 0.092
       },
       "hustle": {
         "contested_shots": 2.74,
@@ -8018,7 +8291,10 @@
       "defense": {
         "spg": 0.4,
         "bpg": 0.0,
-        "rpg": 1.1
+        "rpg": 1.1,
+        "stl_pct": 0.022215826628834395,
+        "blk_pct": 0.0,
+        "reb_pct": 0.053
       },
       "hustle": {
         "contested_shots": 1.75,
@@ -8105,7 +8381,10 @@
       "defense": {
         "spg": 0.0,
         "bpg": 0.2,
-        "rpg": 1.4
+        "rpg": 1.4,
+        "stl_pct": 0.0,
+        "blk_pct": 0.02221003564573622,
+        "reb_pct": 0.08
       },
       "hustle": {
         "contested_shots": 4.47,
@@ -8192,7 +8471,10 @@
       "defense": {
         "spg": 0.7,
         "bpg": 0.2,
-        "rpg": 3.0
+        "rpg": 3.0,
+        "stl_pct": 0.012779757069320835,
+        "blk_pct": 0.006955266955266956,
+        "reb_pct": 0.057
       },
       "hustle": {
         "contested_shots": 3.63,
@@ -8279,7 +8561,10 @@
       "defense": {
         "spg": 0.3,
         "bpg": 0.8,
-        "rpg": 0.8
+        "rpg": 0.8,
+        "stl_pct": 0.014734685524393434,
+        "blk_pct": 0.07832122285318842,
+        "reb_pct": 0.039
       },
       "hustle": {
         "contested_shots": 2.25,
@@ -8366,7 +8651,10 @@
       "defense": {
         "spg": 0.6,
         "bpg": 0.3,
-        "rpg": 1.8
+        "rpg": 1.8,
+        "stl_pct": 0.025157725849107512,
+        "blk_pct": 0.024472289967202087,
+        "reb_pct": 0.069
       },
       "hustle": {
         "contested_shots": 3.0,
@@ -8453,7 +8741,10 @@
       "defense": {
         "spg": 0.2,
         "bpg": 0.2,
-        "rpg": 1.4
+        "rpg": 1.4,
+        "stl_pct": 0.0095617204479029,
+        "blk_pct": 0.018242500094815494,
+        "reb_pct": 0.068
       },
       "hustle": {
         "contested_shots": 2.02,
@@ -8540,7 +8831,10 @@
       "defense": {
         "spg": 0.8,
         "bpg": 1.3,
-        "rpg": 6.9
+        "rpg": 6.9,
+        "stl_pct": 0.01740780630905461,
+        "blk_pct": 0.05060277784479778,
+        "reb_pct": 0.145
       },
       "hustle": {
         "contested_shots": 7.05,
@@ -8627,7 +8921,10 @@
       "defense": {
         "spg": 0.9,
         "bpg": 0.2,
-        "rpg": 2.3
+        "rpg": 2.3,
+        "stl_pct": 0.02154237425700512,
+        "blk_pct": 0.009880533507896245,
+        "reb_pct": 0.055
       },
       "hustle": {
         "contested_shots": 2.7,
@@ -8714,7 +9011,10 @@
       "defense": {
         "spg": 0.5,
         "bpg": 0.6,
-        "rpg": 4.9
+        "rpg": 4.9,
+        "stl_pct": 0.011919421761587785,
+        "blk_pct": 0.02684140184140184,
+        "reb_pct": 0.117
       },
       "hustle": {
         "contested_shots": 5.51,
@@ -8801,7 +9101,10 @@
       "defense": {
         "spg": 1.0,
         "bpg": 0.2,
-        "rpg": 2.4
+        "rpg": 2.4,
+        "stl_pct": 0.01661607850801437,
+        "blk_pct": 0.006309354731034303,
+        "reb_pct": 0.039
       },
       "hustle": {
         "contested_shots": 3.51,
@@ -8888,7 +9191,10 @@
       "defense": {
         "spg": 0.5,
         "bpg": 0.1,
-        "rpg": 1.2
+        "rpg": 1.2,
+        "stl_pct": 0.03867423932906597,
+        "blk_pct": 0.014313772169979767,
+        "reb_pct": 0.1
       },
       "hustle": {
         "contested_shots": 0.78,
@@ -8975,7 +9281,10 @@
       "defense": {
         "spg": 0.8,
         "bpg": 0.2,
-        "rpg": 4.0
+        "rpg": 4.0,
+        "stl_pct": 0.0267807225114716,
+        "blk_pct": 0.012778376672889334,
+        "reb_pct": 0.117
       },
       "hustle": {
         "contested_shots": 3.5,
@@ -9062,7 +9371,10 @@
       "defense": {
         "spg": 1.0,
         "bpg": 0.2,
-        "rpg": 2.7
+        "rpg": 2.7,
+        "stl_pct": 0.016237099354690056,
+        "blk_pct": 0.006228956228956229,
+        "reb_pct": 0.044
       },
       "hustle": {
         "contested_shots": 2.91,
@@ -9149,7 +9461,10 @@
       "defense": {
         "spg": 1.1,
         "bpg": 0.4,
-        "rpg": 6.7
+        "rpg": 6.7,
+        "stl_pct": 0.029167526193061878,
+        "blk_pct": 0.019903784609666964,
+        "reb_pct": 0.18
       },
       "hustle": {
         "contested_shots": 4.03,
@@ -9236,7 +9551,10 @@
       "defense": {
         "spg": 1.2,
         "bpg": 0.3,
-        "rpg": 3.8
+        "rpg": 3.8,
+        "stl_pct": 0.018563634877951665,
+        "blk_pct": 0.008588263301987859,
+        "reb_pct": 0.056
       },
       "hustle": {
         "contested_shots": 3.49,
@@ -9323,7 +9641,10 @@
       "defense": {
         "spg": 0.7,
         "bpg": 0.1,
-        "rpg": 4.1
+        "rpg": 4.1,
+        "stl_pct": 0.012926650828738314,
+        "blk_pct": 0.003517606276226966,
+        "reb_pct": 0.074
       },
       "hustle": {
         "contested_shots": 3.0,
@@ -9410,7 +9731,10 @@
       "defense": {
         "spg": 1.6,
         "bpg": 0.4,
-        "rpg": 3.2
+        "rpg": 3.2,
+        "stl_pct": 0.03372457859332374,
+        "blk_pct": 0.01603053435114504,
+        "reb_pct": 0.07
       },
       "hustle": {
         "contested_shots": 2.47,
@@ -9497,7 +9821,10 @@
       "defense": {
         "spg": 0.3,
         "bpg": 0.8,
-        "rpg": 6.3
+        "rpg": 6.3,
+        "stl_pct": 0.008644220023180686,
+        "blk_pct": 0.04546310240963855,
+        "reb_pct": 0.18
       },
       "hustle": {
         "contested_shots": 3.5,
@@ -9584,7 +9911,10 @@
       "defense": {
         "spg": 1.0,
         "bpg": 0.3,
-        "rpg": 2.9
+        "rpg": 2.9,
+        "stl_pct": 0.015448057995882326,
+        "blk_pct": 0.008827838827838828,
+        "reb_pct": 0.047
       },
       "hustle": {
         "contested_shots": 2.81,
@@ -9671,7 +10001,10 @@
       "defense": {
         "spg": 0.7,
         "bpg": 0.4,
-        "rpg": 4.2
+        "rpg": 4.2,
+        "stl_pct": 0.015081064971536544,
+        "blk_pct": 0.016952431196693925,
+        "reb_pct": 0.09
       },
       "hustle": {
         "contested_shots": 4.85,
@@ -9758,7 +10091,10 @@
       "defense": {
         "spg": 0.6,
         "bpg": 1.0,
-        "rpg": 8.0
+        "rpg": 8.0,
+        "stl_pct": 0.01075693550389076,
+        "blk_pct": 0.034204687677779046,
+        "reb_pct": 0.154
       },
       "hustle": {
         "contested_shots": 7.92,
@@ -9845,7 +10181,10 @@
       "defense": {
         "spg": 1.6,
         "bpg": 0.2,
-        "rpg": 5.4
+        "rpg": 5.4,
+        "stl_pct": 0.02752883498988957,
+        "blk_pct": 0.006786758093525179,
+        "reb_pct": 0.101
       },
       "hustle": {
         "contested_shots": 2.71,
@@ -9932,7 +10271,10 @@
       "defense": {
         "spg": 0.8,
         "bpg": 0.6,
-        "rpg": 6.9
+        "rpg": 6.9,
+        "stl_pct": 0.011489324263734673,
+        "blk_pct": 0.015993894446933124,
+        "reb_pct": 0.098
       },
       "hustle": {
         "contested_shots": 4.26,
@@ -10019,7 +10361,10 @@
       "defense": {
         "spg": 0.8,
         "bpg": 0.2,
-        "rpg": 2.7
+        "rpg": 2.7,
+        "stl_pct": 0.015882302189622905,
+        "blk_pct": 0.007810727596823855,
+        "reb_pct": 0.054
       },
       "hustle": {
         "contested_shots": 2.26,
@@ -10106,7 +10451,10 @@
       "defense": {
         "spg": 0.6,
         "bpg": 1.6,
-        "rpg": 5.3
+        "rpg": 5.3,
+        "stl_pct": 0.017170427132112955,
+        "blk_pct": 0.08190808609656777,
+        "reb_pct": 0.15
       },
       "hustle": {
         "contested_shots": 8.14,
@@ -10193,7 +10541,10 @@
       "defense": {
         "spg": 1.0,
         "bpg": 0.9,
-        "rpg": 7.1
+        "rpg": 7.1,
+        "stl_pct": 0.019132540317973255,
+        "blk_pct": 0.033960937499999996,
+        "reb_pct": 0.136
       },
       "hustle": {
         "contested_shots": 6.79,
@@ -10280,7 +10631,10 @@
       "defense": {
         "spg": 0.9,
         "bpg": 1.0,
-        "rpg": 3.5
+        "rpg": 3.5,
+        "stl_pct": 0.016560691579654317,
+        "blk_pct": 0.03493513082554178,
+        "reb_pct": 0.065
       },
       "hustle": {
         "contested_shots": 3.92,
@@ -10367,7 +10721,10 @@
       "defense": {
         "spg": 1.1,
         "bpg": 1.3,
-        "rpg": 4.4
+        "rpg": 4.4,
+        "stl_pct": 0.016319060311962622,
+        "blk_pct": 0.03844285828461118,
+        "reb_pct": 0.061
       },
       "hustle": {
         "contested_shots": 7.21,
@@ -10454,7 +10811,10 @@
       "defense": {
         "spg": 1.0,
         "bpg": 0.5,
-        "rpg": 4.1
+        "rpg": 4.1,
+        "stl_pct": 0.014325520737604942,
+        "blk_pct": 0.013487604779739608,
+        "reb_pct": 0.059
       },
       "hustle": {
         "contested_shots": 4.74,
@@ -10541,7 +10901,10 @@
       "defense": {
         "spg": 0.8,
         "bpg": 0.3,
-        "rpg": 3.9
+        "rpg": 3.9,
+        "stl_pct": 0.011794765798479196,
+        "blk_pct": 0.008564321250888416,
+        "reb_pct": 0.055
       },
       "hustle": {
         "contested_shots": 2.69,
@@ -10628,7 +10991,10 @@
       "defense": {
         "spg": 0.9,
         "bpg": 0.2,
-        "rpg": 3.3
+        "rpg": 3.3,
+        "stl_pct": 0.023575079811107378,
+        "blk_pct": 0.00997929606625259,
+        "reb_pct": 0.088
       },
       "hustle": {
         "contested_shots": 2.54,
@@ -10715,7 +11081,10 @@
       "defense": {
         "spg": 0.9,
         "bpg": 0.4,
-        "rpg": 4.0
+        "rpg": 4.0,
+        "stl_pct": 0.014150967570897581,
+        "blk_pct": 0.011638739338213057,
+        "reb_pct": 0.063
       },
       "hustle": {
         "contested_shots": 3.18,
@@ -10802,7 +11171,10 @@
       "defense": {
         "spg": 1.0,
         "bpg": 0.2,
-        "rpg": 3.6
+        "rpg": 3.6,
+        "stl_pct": 0.016246901901688038,
+        "blk_pct": 0.006291771094402675,
+        "reb_pct": 0.058
       },
       "hustle": {
         "contested_shots": 3.21,
@@ -10889,7 +11261,10 @@
       "defense": {
         "spg": 0.4,
         "bpg": 0.0,
-        "rpg": 1.0
+        "rpg": 1.0,
+        "stl_pct": 0.0353269632793525,
+        "blk_pct": 0.0,
+        "reb_pct": 0.091
       },
       "hustle": {
         "contested_shots": 1.0,
@@ -10976,7 +11351,10 @@
       "defense": {
         "spg": 0.9,
         "bpg": 0.2,
-        "rpg": 11.4
+        "rpg": 11.4,
+        "stl_pct": 0.01460543665065238,
+        "blk_pct": 0.00618245951579285,
+        "reb_pct": 0.191
       },
       "hustle": {
         "contested_shots": 5.47,
@@ -11063,7 +11441,10 @@
       "defense": {
         "spg": 0.9,
         "bpg": 0.7,
-        "rpg": 4.8
+        "rpg": 4.8,
+        "stl_pct": 0.018234066004080025,
+        "blk_pct": 0.027591307315963133,
+        "reb_pct": 0.096
       },
       "hustle": {
         "contested_shots": 6.93,
@@ -11150,7 +11531,10 @@
       "defense": {
         "spg": 0.6,
         "bpg": 1.7,
-        "rpg": 11.6
+        "rpg": 11.6,
+        "stl_pct": 0.010549480642896082,
+        "blk_pct": 0.05547882136279927,
+        "reb_pct": 0.199
       },
       "hustle": {
         "contested_shots": 13.48,
@@ -11237,7 +11621,10 @@
       "defense": {
         "spg": 1.5,
         "bpg": 0.3,
-        "rpg": 4.5
+        "rpg": 4.5,
+        "stl_pct": 0.021512222741914607,
+        "blk_pct": 0.008463564530289729,
+        "reb_pct": 0.065
       },
       "hustle": {
         "contested_shots": 3.04,
@@ -11324,7 +11711,10 @@
       "defense": {
         "spg": 1.3,
         "bpg": 0.4,
-        "rpg": 4.1
+        "rpg": 4.1,
+        "stl_pct": 0.02036590471282019,
+        "blk_pct": 0.01138618539166588,
+        "reb_pct": 0.064
       },
       "hustle": {
         "contested_shots": 3.26,
@@ -11411,7 +11801,10 @@
       "defense": {
         "spg": 0.4,
         "bpg": 0.2,
-        "rpg": 2.5
+        "rpg": 2.5,
+        "stl_pct": 0.011867470085684027,
+        "blk_pct": 0.010955995301346345,
+        "reb_pct": 0.071
       },
       "hustle": {
         "contested_shots": 2.03,
@@ -11498,7 +11891,10 @@
       "defense": {
         "spg": 0.2,
         "bpg": 0.1,
-        "rpg": 1.3
+        "rpg": 1.3,
+        "stl_pct": 0.006383833238033491,
+        "blk_pct": 0.006080100914538001,
+        "reb_pct": 0.04
       },
       "hustle": {
         "contested_shots": 2.29,
@@ -11585,7 +11981,10 @@
       "defense": {
         "spg": 0.6,
         "bpg": 0.2,
-        "rpg": 1.8
+        "rpg": 1.8,
+        "stl_pct": 0.014234869242546943,
+        "blk_pct": 0.008904324693798378,
+        "reb_pct": 0.042
       },
       "hustle": {
         "contested_shots": 2.82,
@@ -11672,7 +12071,10 @@
       "defense": {
         "spg": 0.9,
         "bpg": 0.6,
-        "rpg": 5.5
+        "rpg": 5.5,
+        "stl_pct": 0.015865881292768214,
+        "blk_pct": 0.020111034004163773,
+        "reb_pct": 0.098
       },
       "hustle": {
         "contested_shots": 7.47,
@@ -11759,7 +12161,10 @@
       "defense": {
         "spg": 0.4,
         "bpg": 0.6,
-        "rpg": 3.0
+        "rpg": 3.0,
+        "stl_pct": 0.014716928533481789,
+        "blk_pct": 0.042050163576881135,
+        "reb_pct": 0.112
       },
       "hustle": {
         "contested_shots": 3.43,
@@ -11846,7 +12251,10 @@
       "defense": {
         "spg": 0.2,
         "bpg": 0.0,
-        "rpg": 1.2
+        "rpg": 1.2,
+        "stl_pct": 0.01121029293892064,
+        "blk_pct": 0.0,
+        "reb_pct": 0.072
       },
       "hustle": {
         "contested_shots": 2.5,
@@ -11933,7 +12341,10 @@
       "defense": {
         "spg": 1.4,
         "bpg": 0.3,
-        "rpg": 2.5
+        "rpg": 2.5,
+        "stl_pct": 0.03988548823078466,
+        "blk_pct": 0.016394001363326517,
+        "reb_pct": 0.066
       },
       "hustle": {
         "contested_shots": 2.54,
@@ -12020,7 +12431,10 @@
       "defense": {
         "spg": 0.6,
         "bpg": 0.3,
-        "rpg": 2.7
+        "rpg": 2.7,
+        "stl_pct": 0.010587736252834634,
+        "blk_pct": 0.010926283404717378,
+        "reb_pct": 0.047
       },
       "hustle": {
         "contested_shots": 3.34,
@@ -12107,7 +12521,10 @@
       "defense": {
         "spg": 0.5,
         "bpg": 0.3,
-        "rpg": 4.1
+        "rpg": 4.1,
+        "stl_pct": 0.016395373129621745,
+        "blk_pct": 0.01759744037230948,
+        "reb_pct": 0.136
       },
       "hustle": {
         "contested_shots": 4.12,
@@ -12194,7 +12611,10 @@
       "defense": {
         "spg": 0.7,
         "bpg": 1.5,
-        "rpg": 7.5
+        "rpg": 7.5,
+        "stl_pct": 0.016377941098547087,
+        "blk_pct": 0.06685159500693483,
+        "reb_pct": 0.174
       },
       "hustle": {
         "contested_shots": 6.77,
@@ -12281,7 +12701,10 @@
       "defense": {
         "spg": 0.8,
         "bpg": 0.3,
-        "rpg": 3.4
+        "rpg": 3.4,
+        "stl_pct": 0.016975595316120994,
+        "blk_pct": 0.011780361166443522,
+        "reb_pct": 0.07
       },
       "hustle": {
         "contested_shots": 2.88,
@@ -12368,7 +12791,10 @@
       "defense": {
         "spg": 2.0,
         "bpg": 0.4,
-        "rpg": 6.8
+        "rpg": 6.8,
+        "stl_pct": 0.02846510333930931,
+        "blk_pct": 0.0109364009711161,
+        "reb_pct": 0.1
       },
       "hustle": {
         "contested_shots": 5.49,
@@ -12455,7 +12881,10 @@
       "defense": {
         "spg": 0.2,
         "bpg": 0.4,
-        "rpg": 2.7
+        "rpg": 2.7,
+        "stl_pct": 0.007400715601224654,
+        "blk_pct": 0.02777617702990837,
+        "reb_pct": 0.102
       },
       "hustle": {
         "contested_shots": 3.41,
@@ -12542,7 +12971,10 @@
       "defense": {
         "spg": 0.8,
         "bpg": 0.3,
-        "rpg": 3.2
+        "rpg": 3.2,
+        "stl_pct": 0.01574120461212863,
+        "blk_pct": 0.011077403934546792,
+        "reb_pct": 0.063
       },
       "hustle": {
         "contested_shots": 4.15,
@@ -12629,7 +13061,10 @@
       "defense": {
         "spg": 1.2,
         "bpg": 0.2,
-        "rpg": 2.0
+        "rpg": 2.0,
+        "stl_pct": 0.026835682907432296,
+        "blk_pct": 0.009200646326394828,
+        "reb_pct": 0.047
       },
       "hustle": {
         "contested_shots": 2.8,
@@ -12716,7 +13151,10 @@
       "defense": {
         "spg": 0.6,
         "bpg": 0.3,
-        "rpg": 2.2
+        "rpg": 2.2,
+        "stl_pct": 0.013973384706561946,
+        "blk_pct": 0.01256779307467668,
+        "reb_pct": 0.051
       },
       "hustle": {
         "contested_shots": 4.31,
@@ -12803,7 +13241,10 @@
       "defense": {
         "spg": 0.7,
         "bpg": 1.7,
-        "rpg": 9.0
+        "rpg": 9.0,
+        "stl_pct": 0.010542562660353135,
+        "blk_pct": 0.050365726227795206,
+        "reb_pct": 0.135
       },
       "hustle": {
         "contested_shots": 10.31,
@@ -12890,7 +13331,10 @@
       "defense": {
         "spg": 0.9,
         "bpg": 0.3,
-        "rpg": 5.2
+        "rpg": 5.2,
+        "stl_pct": 0.014440124903505784,
+        "blk_pct": 0.009063670411985017,
+        "reb_pct": 0.084
       },
       "hustle": {
         "contested_shots": 4.32,
@@ -12977,7 +13421,10 @@
       "defense": {
         "spg": 0.6,
         "bpg": 0.8,
-        "rpg": 4.3
+        "rpg": 4.3,
+        "stl_pct": 0.01329507408431886,
+        "blk_pct": 0.034315474067204116,
+        "reb_pct": 0.097
       },
       "hustle": {
         "contested_shots": 5.02,
@@ -13064,7 +13511,10 @@
       "defense": {
         "spg": 0.5,
         "bpg": 0.1,
-        "rpg": 1.0
+        "rpg": 1.0,
+        "stl_pct": 0.014232551669654654,
+        "blk_pct": 0.00546820048555805,
+        "reb_pct": 0.03
       },
       "hustle": {
         "contested_shots": 2.37,
@@ -13151,7 +13601,10 @@
       "defense": {
         "spg": 0.2,
         "bpg": 0.1,
-        "rpg": 0.4
+        "rpg": 0.4,
+        "stl_pct": 0.029559168262052894,
+        "blk_pct": 0.02921212121212121,
+        "reb_pct": 0.065
       },
       "hustle": {
         "contested_shots": 0.92,
@@ -13238,7 +13691,10 @@
       "defense": {
         "spg": 0.6,
         "bpg": 0.2,
-        "rpg": 1.3
+        "rpg": 1.3,
+        "stl_pct": 0.021445105733011408,
+        "blk_pct": 0.014462747922105201,
+        "reb_pct": 0.048
       },
       "hustle": {
         "contested_shots": 1.64,
@@ -13325,7 +13781,10 @@
       "defense": {
         "spg": 0.9,
         "bpg": 0.3,
-        "rpg": 3.6
+        "rpg": 3.6,
+        "stl_pct": 0.02796870099686704,
+        "blk_pct": 0.01772607163828538,
+        "reb_pct": 0.113
       },
       "hustle": {
         "contested_shots": 1.92,
@@ -13412,7 +13871,10 @@
       "defense": {
         "spg": 0.5,
         "bpg": 0.0,
-        "rpg": 1.0
+        "rpg": 1.0,
+        "stl_pct": 0.011632958298567512,
+        "blk_pct": 0.0,
+        "reb_pct": 0.024
       },
       "hustle": {
         "contested_shots": 0.96,
@@ -13499,7 +13961,10 @@
       "defense": {
         "spg": 0.9,
         "bpg": 0.7,
-        "rpg": 9.8
+        "rpg": 9.8,
+        "stl_pct": 0.015360335248212325,
+        "blk_pct": 0.02417130535078482,
+        "reb_pct": 0.168
       },
       "hustle": {
         "contested_shots": 4.08,
@@ -13586,7 +14051,10 @@
       "defense": {
         "spg": 0.6,
         "bpg": 1.0,
-        "rpg": 5.0
+        "rpg": 5.0,
+        "stl_pct": 0.019000164346718137,
+        "blk_pct": 0.05962941060516459,
+        "reb_pct": 0.157
       },
       "hustle": {
         "contested_shots": 4.59,
@@ -13673,7 +14141,10 @@
       "defense": {
         "spg": 0.6,
         "bpg": 0.1,
-        "rpg": 1.9
+        "rpg": 1.9,
+        "stl_pct": 0.020902554699594546,
+        "blk_pct": 0.006885714285714285,
+        "reb_pct": 0.066
       },
       "hustle": {
         "contested_shots": 0.95,
@@ -13760,7 +14231,10 @@
       "defense": {
         "spg": 0.5,
         "bpg": 0.5,
-        "rpg": 3.9
+        "rpg": 3.9,
+        "stl_pct": 0.012549073881507706,
+        "blk_pct": 0.023317465846201476,
+        "reb_pct": 0.094
       },
       "hustle": {
         "contested_shots": 4.56,
@@ -13847,7 +14321,10 @@
       "defense": {
         "spg": 1.4,
         "bpg": 0.3,
-        "rpg": 3.0
+        "rpg": 3.0,
+        "stl_pct": 0.024009310588050097,
+        "blk_pct": 0.0099619708994709,
+        "reb_pct": 0.051
       },
       "hustle": {
         "contested_shots": 3.16,
@@ -13934,7 +14411,10 @@
       "defense": {
         "spg": 0.4,
         "bpg": 0.2,
-        "rpg": 3.5
+        "rpg": 3.5,
+        "stl_pct": 0.012473304027510295,
+        "blk_pct": 0.01157957957957958,
+        "reb_pct": 0.11
       },
       "hustle": {
         "contested_shots": 2.49,
@@ -14021,7 +14501,10 @@
       "defense": {
         "spg": 0.9,
         "bpg": 0.3,
-        "rpg": 3.9
+        "rpg": 3.9,
+        "stl_pct": 0.02128349929517687,
+        "blk_pct": 0.013489108173524481,
+        "reb_pct": 0.094
       },
       "hustle": {
         "contested_shots": 4.7,
@@ -14108,7 +14591,10 @@
       "defense": {
         "spg": 0.6,
         "bpg": 0.2,
-        "rpg": 2.8
+        "rpg": 2.8,
+        "stl_pct": 0.01115257134140507,
+        "blk_pct": 0.00687948739952516,
+        "reb_pct": 0.051
       },
       "hustle": {
         "contested_shots": 3.39,
@@ -14195,7 +14681,10 @@
       "defense": {
         "spg": 0.0,
         "bpg": 0.0,
-        "rpg": 0.4
+        "rpg": 0.4,
+        "stl_pct": 0.0,
+        "blk_pct": 0.0,
+        "reb_pct": 0.075
       },
       "hustle": {
         "contested_shots": 0.5,
@@ -14282,7 +14771,10 @@
       "defense": {
         "spg": 0.6,
         "bpg": 0.0,
-        "rpg": 1.9
+        "rpg": 1.9,
+        "stl_pct": 0.022795653129753058,
+        "blk_pct": 0.0,
+        "reb_pct": 0.072
       },
       "hustle": {
         "contested_shots": 3.5,
@@ -14369,7 +14861,10 @@
       "defense": {
         "spg": 1.6,
         "bpg": 0.5,
-        "rpg": 3.4
+        "rpg": 3.4,
+        "stl_pct": 0.02694723988446937,
+        "blk_pct": 0.016608439700704226,
+        "reb_pct": 0.059
       },
       "hustle": {
         "contested_shots": 3.73,
@@ -14456,7 +14951,10 @@
       "defense": {
         "spg": 0.6,
         "bpg": 0.3,
-        "rpg": 3.3
+        "rpg": 3.3,
+        "stl_pct": 0.020790035739897586,
+        "blk_pct": 0.020720255018523304,
+        "reb_pct": 0.107
       },
       "hustle": {
         "contested_shots": 2.65,
@@ -14543,7 +15041,10 @@
       "defense": {
         "spg": 0.2,
         "bpg": 0.4,
-        "rpg": 1.0
+        "rpg": 1.0,
+        "stl_pct": 0.011254435481160738,
+        "blk_pct": 0.04439338235294117,
+        "reb_pct": 0.049
       },
       "hustle": {
         "contested_shots": 3.0,
@@ -14630,7 +15131,10 @@
       "defense": {
         "spg": 1.3,
         "bpg": 0.1,
-        "rpg": 4.0
+        "rpg": 4.0,
+        "stl_pct": 0.01987599245207005,
+        "blk_pct": 0.0030219435736677114,
+        "reb_pct": 0.062
       },
       "hustle": {
         "contested_shots": 3.44,
@@ -14717,7 +15221,10 @@
       "defense": {
         "spg": 0.0,
         "bpg": 0.1,
-        "rpg": 0.7
+        "rpg": 0.7,
+        "stl_pct": 0.0,
+        "blk_pct": 0.01956733106465727,
+        "reb_pct": 0.069
       },
       "hustle": {
         "contested_shots": 1.5,
@@ -14804,7 +15311,10 @@
       "defense": {
         "spg": 0.7,
         "bpg": 0.5,
-        "rpg": 2.7
+        "rpg": 2.7,
+        "stl_pct": 0.012171904487812092,
+        "blk_pct": 0.016142536588633245,
+        "reb_pct": 0.049
       },
       "hustle": {
         "contested_shots": 5.44,
@@ -14891,7 +15401,10 @@
       "defense": {
         "spg": 1.1,
         "bpg": 0.3,
-        "rpg": 2.5
+        "rpg": 2.5,
+        "stl_pct": 0.02010065743066427,
+        "blk_pct": 0.011277056781378877,
+        "reb_pct": 0.048
       },
       "hustle": {
         "contested_shots": 2.7,
@@ -14978,7 +15491,10 @@
       "defense": {
         "spg": 0.1,
         "bpg": 0.2,
-        "rpg": 1.1
+        "rpg": 1.1,
+        "stl_pct": 0.007552026418162563,
+        "blk_pct": 0.0278879880397907,
+        "reb_pct": 0.077
       },
       "hustle": {
         "contested_shots": 1.29,
@@ -15065,7 +15581,10 @@
       "defense": {
         "spg": 1.0,
         "bpg": 0.8,
-        "rpg": 9.4
+        "rpg": 9.4,
+        "stl_pct": 0.019949975329603086,
+        "blk_pct": 0.03232323232323232,
+        "reb_pct": 0.188
       },
       "hustle": {
         "contested_shots": 6.77,
@@ -15152,7 +15671,10 @@
       "defense": {
         "spg": 0.7,
         "bpg": 0.9,
-        "rpg": 5.3
+        "rpg": 5.3,
+        "stl_pct": 0.021077243828650952,
+        "blk_pct": 0.05144991994307063,
+        "reb_pct": 0.155
       },
       "hustle": {
         "contested_shots": 5.19,
@@ -15239,7 +15761,10 @@
       "defense": {
         "spg": 0.7,
         "bpg": 0.2,
-        "rpg": 2.5
+        "rpg": 2.5,
+        "stl_pct": 0.015941159532239447,
+        "blk_pct": 0.009224318658280922,
+        "reb_pct": 0.057
       },
       "hustle": {
         "contested_shots": 2.32,
@@ -15326,7 +15851,10 @@
       "defense": {
         "spg": 0.4,
         "bpg": 0.2,
-        "rpg": 1.7
+        "rpg": 1.7,
+        "stl_pct": 0.020579409075471514,
+        "blk_pct": 0.019923941798941802,
+        "reb_pct": 0.083
       },
       "hustle": {
         "contested_shots": 2.13,
@@ -15413,7 +15941,10 @@
       "defense": {
         "spg": 0.3,
         "bpg": 1.6,
-        "rpg": 5.0
+        "rpg": 5.0,
+        "stl_pct": 0.006389955359640285,
+        "blk_pct": 0.07033895219718207,
+        "reb_pct": 0.103
       },
       "hustle": {
         "contested_shots": 9.03,
@@ -15500,7 +16031,10 @@
       "defense": {
         "spg": 0.4,
         "bpg": 0.8,
-        "rpg": 10.6
+        "rpg": 10.6,
+        "stl_pct": 0.00631355588070573,
+        "blk_pct": 0.022713885158219645,
+        "reb_pct": 0.178
       },
       "hustle": {
         "contested_shots": 9.15,
@@ -15587,7 +16121,10 @@
       "defense": {
         "spg": 0.2,
         "bpg": 0.2,
-        "rpg": 1.2
+        "rpg": 1.2,
+        "stl_pct": 0.012780352399967415,
+        "blk_pct": 0.023597528341361362,
+        "reb_pct": 0.074
       },
       "hustle": {
         "contested_shots": 1.94,
@@ -15674,7 +16211,10 @@
       "defense": {
         "spg": 1.0,
         "bpg": 0.3,
-        "rpg": 3.3
+        "rpg": 3.3,
+        "stl_pct": 0.01669686534063519,
+        "blk_pct": 0.00969653800666595,
+        "reb_pct": 0.053
       },
       "hustle": {
         "contested_shots": 1.7,
@@ -15761,7 +16301,10 @@
       "defense": {
         "spg": 1.0,
         "bpg": 0.2,
-        "rpg": 2.6
+        "rpg": 2.6,
+        "stl_pct": 0.023791525674335255,
+        "blk_pct": 0.009404878048780487,
+        "reb_pct": 0.062
       },
       "hustle": {
         "contested_shots": 2.58,
@@ -15848,7 +16391,10 @@
       "defense": {
         "spg": 0.7,
         "bpg": 0.9,
-        "rpg": 6.9
+        "rpg": 6.9,
+        "stl_pct": 0.00994027408886354,
+        "blk_pct": 0.023597528341361355,
+        "reb_pct": 0.096
       },
       "hustle": {
         "contested_shots": 6.14,
@@ -15935,7 +16481,10 @@
       "defense": {
         "spg": 0.4,
         "bpg": 0.2,
-        "rpg": 3.0
+        "rpg": 3.0,
+        "stl_pct": 0.016208058670293356,
+        "blk_pct": 0.015766461323407508,
+        "reb_pct": 0.12
       },
       "hustle": {
         "contested_shots": 1.8,
@@ -16022,7 +16571,10 @@
       "defense": {
         "spg": 0.3,
         "bpg": 0.1,
-        "rpg": 1.5
+        "rpg": 1.5,
+        "stl_pct": 0.009015277732247255,
+        "blk_pct": 0.005566848378453294,
+        "reb_pct": 0.047
       },
       "hustle": {
         "contested_shots": 1.5,
@@ -16109,7 +16661,10 @@
       "defense": {
         "spg": 1.1,
         "bpg": 1.0,
-        "rpg": 4.2
+        "rpg": 4.2,
+        "stl_pct": 0.016525985285045067,
+        "blk_pct": 0.027298110087274664,
+        "reb_pct": 0.065
       },
       "hustle": {
         "contested_shots": 6.12,
@@ -16196,7 +16751,10 @@
       "defense": {
         "spg": 0.2,
         "bpg": 0.1,
-        "rpg": 1.6
+        "rpg": 1.6,
+        "stl_pct": 0.011328039627243843,
+        "blk_pct": 0.010457995514921511,
+        "reb_pct": 0.085
       },
       "hustle": {
         "contested_shots": 1.7,
@@ -16283,7 +16841,10 @@
       "defense": {
         "spg": 1.2,
         "bpg": 0.5,
-        "rpg": 2.6
+        "rpg": 2.6,
+        "stl_pct": 0.026222542433587424,
+        "blk_pct": 0.021150666619762903,
+        "reb_pct": 0.057
       },
       "hustle": {
         "contested_shots": 4.03,
@@ -16370,7 +16931,10 @@
       "defense": {
         "spg": 0.1,
         "bpg": 0.0,
-        "rpg": 0.3
+        "rpg": 0.3,
+        "stl_pct": 0.011056691465336563,
+        "blk_pct": 0.0,
+        "reb_pct": 0.029
       },
       "hustle": {
         "contested_shots": 1.25,
@@ -16457,7 +17021,10 @@
       "defense": {
         "spg": 0.7,
         "bpg": 0.3,
-        "rpg": 5.0
+        "rpg": 5.0,
+        "stl_pct": 0.011486456857982153,
+        "blk_pct": 0.009442481350608559,
+        "reb_pct": 0.08
       },
       "hustle": {
         "contested_shots": 5.11,
@@ -16544,7 +17111,10 @@
       "defense": {
         "spg": 1.3,
         "bpg": 0.5,
-        "rpg": 4.0
+        "rpg": 4.0,
+        "stl_pct": 0.025256656003823187,
+        "blk_pct": 0.018533217227800595,
+        "reb_pct": 0.081
       },
       "hustle": {
         "contested_shots": 3.9,
@@ -16631,7 +17201,10 @@
       "defense": {
         "spg": 0.9,
         "bpg": 0.7,
-        "rpg": 7.0
+        "rpg": 7.0,
+        "stl_pct": 0.017558145947659417,
+        "blk_pct": 0.026991999999999995,
+        "reb_pct": 0.145
       },
       "hustle": {
         "contested_shots": 6.59,
@@ -16718,7 +17291,10 @@
       "defense": {
         "spg": 0.8,
         "bpg": 0.1,
-        "rpg": 3.3
+        "rpg": 3.3,
+        "stl_pct": 0.0113046282493928,
+        "blk_pct": 0.002923870185016682,
+        "reb_pct": 0.047
       },
       "hustle": {
         "contested_shots": 3.03,
@@ -16805,7 +17381,10 @@
       "defense": {
         "spg": 0.8,
         "bpg": 0.8,
-        "rpg": 10.5
+        "rpg": 10.5,
+        "stl_pct": 0.013716499920929975,
+        "blk_pct": 0.02831018111482328,
+        "reb_pct": 0.182
       },
       "hustle": {
         "contested_shots": 8.61,
@@ -16892,7 +17471,10 @@
       "defense": {
         "spg": 1.1,
         "bpg": 0.3,
-        "rpg": 3.6
+        "rpg": 3.6,
+        "stl_pct": 0.02097669496495938,
+        "blk_pct": 0.011077403934546794,
+        "reb_pct": 0.067
       },
       "hustle": {
         "contested_shots": 3.21,
@@ -16979,7 +17561,10 @@
       "defense": {
         "spg": 1.2,
         "bpg": 0.4,
-        "rpg": 10.3
+        "rpg": 10.3,
+        "stl_pct": 0.01610866075338186,
+        "blk_pct": 0.010315014552302687,
+        "reb_pct": 0.14
       },
       "hustle": {
         "contested_shots": 4.76,
@@ -17066,7 +17651,10 @@
       "defense": {
         "spg": 0.3,
         "bpg": 0.1,
-        "rpg": 2.3
+        "rpg": 2.3,
+        "stl_pct": 0.009107109052814099,
+        "blk_pct": 0.005793922342365971,
+        "reb_pct": 0.067
       },
       "hustle": {
         "contested_shots": 2.49,
@@ -17153,7 +17741,10 @@
       "defense": {
         "spg": 1.5,
         "bpg": 1.1,
-        "rpg": 4.4
+        "rpg": 4.4,
+        "stl_pct": 0.029817682846638473,
+        "blk_pct": 0.03933351138015966,
+        "reb_pct": 0.086
       },
       "hustle": {
         "contested_shots": 6.08,
@@ -17240,7 +17831,10 @@
       "defense": {
         "spg": 0.5,
         "bpg": 0.8,
-        "rpg": 6.7
+        "rpg": 6.7,
+        "stl_pct": 0.0112982826336144,
+        "blk_pct": 0.03356399878139009,
+        "reb_pct": 0.152
       },
       "hustle": {
         "contested_shots": 5.96,
@@ -17327,7 +17921,10 @@
       "defense": {
         "spg": 1.8,
         "bpg": 0.7,
-        "rpg": 3.9
+        "rpg": 3.9,
+        "stl_pct": 0.03139157587718648,
+        "blk_pct": 0.022987569885469246,
+        "reb_pct": 0.068
       },
       "hustle": {
         "contested_shots": 3.16,
@@ -17414,7 +18011,10 @@
       "defense": {
         "spg": 1.2,
         "bpg": 0.3,
-        "rpg": 4.6
+        "rpg": 4.6,
+        "stl_pct": 0.02039955223843921,
+        "blk_pct": 0.01032863849765258,
+        "reb_pct": 0.079
       },
       "hustle": {
         "contested_shots": 3.18,
@@ -17501,7 +18101,10 @@
       "defense": {
         "spg": 0.4,
         "bpg": 0.0,
-        "rpg": 2.1
+        "rpg": 2.1,
+        "stl_pct": 0.012474162145460425,
+        "blk_pct": 0.0,
+        "reb_pct": 0.067
       },
       "hustle": {
         "contested_shots": 2.08,
@@ -17588,7 +18191,10 @@
       "defense": {
         "spg": 0.3,
         "bpg": 0.1,
-        "rpg": 2.0
+        "rpg": 2.0,
+        "stl_pct": 0.011933987523558499,
+        "blk_pct": 0.0074906367041198485,
+        "reb_pct": 0.08
       },
       "hustle": {
         "contested_shots": 2.71,
@@ -17675,7 +18281,10 @@
       "defense": {
         "spg": 0.9,
         "bpg": 0.4,
-        "rpg": 4.4
+        "rpg": 4.4,
+        "stl_pct": 0.012425801334771782,
+        "blk_pct": 0.010540355899671429,
+        "reb_pct": 0.063
       },
       "hustle": {
         "contested_shots": 4.25,
@@ -17762,7 +18371,10 @@
       "defense": {
         "spg": 0.9,
         "bpg": 0.2,
-        "rpg": 1.7
+        "rpg": 1.7,
+        "stl_pct": 0.019422727818207322,
+        "blk_pct": 0.008530973451327433,
+        "reb_pct": 0.038
       },
       "hustle": {
         "contested_shots": 2.16,
@@ -17849,7 +18461,10 @@
       "defense": {
         "spg": 0.6,
         "bpg": 0.3,
-        "rpg": 1.8
+        "rpg": 1.8,
+        "stl_pct": 0.021167392191913555,
+        "blk_pct": 0.020493197278911565,
+        "reb_pct": 0.062
       },
       "hustle": {
         "contested_shots": 2.11,
@@ -17936,7 +18551,10 @@
       "defense": {
         "spg": 1.1,
         "bpg": 0.4,
-        "rpg": 4.8
+        "rpg": 4.8,
+        "stl_pct": 0.015186310498842018,
+        "blk_pct": 0.01086319585305387,
+        "reb_pct": 0.07
       },
       "hustle": {
         "contested_shots": 3.16,
@@ -18023,7 +18641,10 @@
       "defense": {
         "spg": 1.1,
         "bpg": 0.5,
-        "rpg": 3.9
+        "rpg": 3.9,
+        "stl_pct": 0.02535364514343969,
+        "blk_pct": 0.021348593296010205,
+        "reb_pct": 0.092
       },
       "hustle": {
         "contested_shots": 3.88,
@@ -18110,7 +18731,10 @@
       "defense": {
         "spg": 0.1,
         "bpg": 0.0,
-        "rpg": 1.5
+        "rpg": 1.5,
+        "stl_pct": 0.0057379561920455615,
+        "blk_pct": 0.0,
+        "reb_pct": 0.084
       },
       "hustle": {
         "contested_shots": 1.4,
@@ -18197,7 +18821,10 @@
       "defense": {
         "spg": 0.8,
         "bpg": 0.3,
-        "rpg": 5.1
+        "rpg": 5.1,
+        "stl_pct": 0.014788951907334046,
+        "blk_pct": 0.00997599139001573,
+        "reb_pct": 0.095
       },
       "hustle": {
         "contested_shots": 2.89,
@@ -18284,7 +18911,10 @@
       "defense": {
         "spg": 0.5,
         "bpg": 0.1,
-        "rpg": 2.0
+        "rpg": 2.0,
+        "stl_pct": 0.01395345095307499,
+        "blk_pct": 0.005651894669235709,
+        "reb_pct": 0.056
       },
       "hustle": {
         "contested_shots": 2.31,
@@ -18371,7 +19001,10 @@
       "defense": {
         "spg": 1.1,
         "bpg": 1.4,
-        "rpg": 5.7
+        "rpg": 5.7,
+        "stl_pct": 0.017049072474193787,
+        "blk_pct": 0.04463679900924224,
+        "reb_pct": 0.085
       },
       "hustle": {
         "contested_shots": 9.08,
@@ -18458,7 +19091,10 @@
       "defense": {
         "spg": 0.8,
         "bpg": 0.3,
-        "rpg": 4.5
+        "rpg": 4.5,
+        "stl_pct": 0.022550184640140938,
+        "blk_pct": 0.016133540546281907,
+        "reb_pct": 0.133
       },
       "hustle": {
         "contested_shots": 2.17,
@@ -18545,7 +19181,10 @@
       "defense": {
         "spg": 1.0,
         "bpg": 0.8,
-        "rpg": 8.5
+        "rpg": 8.5,
+        "stl_pct": 0.01772840004561228,
+        "blk_pct": 0.027899573113378196,
+        "reb_pct": 0.152
       },
       "hustle": {
         "contested_shots": 8.0,
@@ -18632,7 +19271,10 @@
       "defense": {
         "spg": 0.4,
         "bpg": 0.0,
-        "rpg": 1.2
+        "rpg": 1.2,
+        "stl_pct": 0.017663761349854167,
+        "blk_pct": 0.0,
+        "reb_pct": 0.053
       },
       "hustle": {
         "contested_shots": 1.83,
@@ -18719,7 +19361,10 @@
       "defense": {
         "spg": 0.8,
         "bpg": 0.2,
-        "rpg": 3.1
+        "rpg": 3.1,
+        "stl_pct": 0.018779840620754034,
+        "blk_pct": 0.009088504270274356,
+        "reb_pct": 0.074
       },
       "hustle": {
         "contested_shots": 2.84,
@@ -18806,7 +19451,10 @@
       "defense": {
         "spg": 1.2,
         "bpg": 0.3,
-        "rpg": 2.8
+        "rpg": 2.8,
+        "stl_pct": 0.03296636060541692,
+        "blk_pct": 0.01701023666416228,
+        "reb_pct": 0.077
       },
       "hustle": {
         "contested_shots": 1.78,
@@ -18893,7 +19541,10 @@
       "defense": {
         "spg": 0.4,
         "bpg": 0.8,
-        "rpg": 4.1
+        "rpg": 4.1,
+        "stl_pct": 0.010658967056678641,
+        "blk_pct": 0.04067180349008044,
+        "reb_pct": 0.111
       },
       "hustle": {
         "contested_shots": 5.7,
@@ -18980,7 +19631,10 @@
       "defense": {
         "spg": 0.5,
         "bpg": 1.9,
-        "rpg": 4.0
+        "rpg": 4.0,
+        "stl_pct": 0.011311787619597767,
+        "blk_pct": 0.07732185072610605,
+        "reb_pct": 0.089
       },
       "hustle": {
         "contested_shots": 8.64,
@@ -19067,7 +19721,10 @@
       "defense": {
         "spg": 1.0,
         "bpg": 0.4,
-        "rpg": 6.9
+        "rpg": 6.9,
+        "stl_pct": 0.014706129932291898,
+        "blk_pct": 0.01172541563063722,
+        "reb_pct": 0.095
       },
       "hustle": {
         "contested_shots": 4.65,
@@ -19154,7 +19811,10 @@
       "defense": {
         "spg": 0.7,
         "bpg": 0.1,
-        "rpg": 1.8
+        "rpg": 1.8,
+        "stl_pct": 0.02544841176094032,
+        "blk_pct": 0.006605725876080968,
+        "reb_pct": 0.062
       },
       "hustle": {
         "contested_shots": 2.36,
@@ -19241,7 +19901,10 @@
       "defense": {
         "spg": 0.9,
         "bpg": 0.1,
-        "rpg": 3.2
+        "rpg": 3.2,
+        "stl_pct": 0.01616560144343316,
+        "blk_pct": 0.00347704140643072,
+        "reb_pct": 0.058
       },
       "hustle": {
         "contested_shots": 3.51,
@@ -19328,7 +19991,10 @@
       "defense": {
         "spg": 0.5,
         "bpg": 0.6,
-        "rpg": 5.5
+        "rpg": 5.5,
+        "stl_pct": 0.012253538146609002,
+        "blk_pct": 0.02978003384094754,
+        "reb_pct": 0.131
       },
       "hustle": {
         "contested_shots": 7.28,
@@ -19415,7 +20081,10 @@
       "defense": {
         "spg": 0.8,
         "bpg": 0.4,
-        "rpg": 5.1
+        "rpg": 5.1,
+        "stl_pct": 0.014288167769103135,
+        "blk_pct": 0.014053502441868945,
+        "reb_pct": 0.091
       },
       "hustle": {
         "contested_shots": 4.59,
@@ -19502,7 +20171,10 @@
       "defense": {
         "spg": 0.2,
         "bpg": 0.2,
-        "rpg": 1.0
+        "rpg": 1.0,
+        "stl_pct": 0.021255249887909142,
+        "blk_pct": 0.039451606302435036,
+        "reb_pct": 0.128
       },
       "hustle": {
         "contested_shots": 1.0,
@@ -19589,7 +20261,10 @@
       "defense": {
         "spg": 1.4,
         "bpg": 0.2,
-        "rpg": 10.0
+        "rpg": 10.0,
+        "stl_pct": 0.021725374771140425,
+        "blk_pct": 0.00618641560880246,
+        "reb_pct": 0.148
       },
       "hustle": {
         "contested_shots": 2.88,
@@ -19676,7 +20351,10 @@
       "defense": {
         "spg": 0.1,
         "bpg": 0.1,
-        "rpg": 0.8
+        "rpg": 0.8,
+        "stl_pct": 0.008593685234460849,
+        "blk_pct": 0.015867303539880914,
+        "reb_pct": 0.066
       },
       "hustle": {
         "contested_shots": 2.26,
@@ -19763,7 +20441,10 @@
       "defense": {
         "spg": 0.7,
         "bpg": 0.6,
-        "rpg": 3.5
+        "rpg": 3.5,
+        "stl_pct": 0.011271723425406362,
+        "blk_pct": 0.017932548319288654,
+        "reb_pct": 0.055
       },
       "hustle": {
         "contested_shots": 3.16,
@@ -19850,7 +20531,10 @@
       "defense": {
         "spg": 1.2,
         "bpg": 0.4,
-        "rpg": 3.7
+        "rpg": 3.7,
+        "stl_pct": 0.022247139904620062,
+        "blk_pct": 0.014625726744186046,
+        "reb_pct": 0.067
       },
       "hustle": {
         "contested_shots": 3.26,
@@ -19937,7 +20621,10 @@
       "defense": {
         "spg": 0.4,
         "bpg": 0.2,
-        "rpg": 2.4
+        "rpg": 2.4,
+        "stl_pct": 0.018663301355129624,
+        "blk_pct": 0.019308576693506392,
+        "reb_pct": 0.111
       },
       "hustle": {
         "contested_shots": 2.37,
@@ -20024,7 +20711,10 @@
       "defense": {
         "spg": 0.3,
         "bpg": 0.3,
-        "rpg": 5.5
+        "rpg": 5.5,
+        "stl_pct": 0.007511229926790799,
+        "blk_pct": 0.015196897562821202,
+        "reb_pct": 0.143
       },
       "hustle": {
         "contested_shots": 4.11,
@@ -20111,7 +20801,10 @@
       "defense": {
         "spg": 0.2,
         "bpg": 0.2,
-        "rpg": 1.6
+        "rpg": 1.6,
+        "stl_pct": 0.007640277726722635,
+        "blk_pct": 0.014386778431722251,
+        "reb_pct": 0.06
       },
       "hustle": {
         "contested_shots": 2.06,
@@ -20198,7 +20891,10 @@
       "defense": {
         "spg": 0.8,
         "bpg": 0.2,
-        "rpg": 1.7
+        "rpg": 1.7,
+        "stl_pct": 0.02347987789187932,
+        "blk_pct": 0.01105325659998173,
+        "reb_pct": 0.048
       },
       "hustle": {
         "contested_shots": 2.15,
@@ -20285,7 +20981,10 @@
       "defense": {
         "spg": 1.4,
         "bpg": 0.2,
-        "rpg": 5.6
+        "rpg": 5.6,
+        "stl_pct": 0.02182338084214277,
+        "blk_pct": 0.005927689551066493,
+        "reb_pct": 0.087
       },
       "hustle": {
         "contested_shots": 2.37,
@@ -20372,7 +21071,10 @@
       "defense": {
         "spg": 0.2,
         "bpg": 0.7,
-        "rpg": 2.3
+        "rpg": 2.3,
+        "stl_pct": 0.012056932877696857,
+        "blk_pct": 0.07667659023248415,
+        "reb_pct": 0.138
       },
       "hustle": {
         "contested_shots": 3.62,
@@ -20459,7 +21161,10 @@
       "defense": {
         "spg": 0.5,
         "bpg": 0.5,
-        "rpg": 5.7
+        "rpg": 5.7,
+        "stl_pct": 0.010690513923812999,
+        "blk_pct": 0.020536680556620734,
+        "reb_pct": 0.123
       },
       "hustle": {
         "contested_shots": 5.16,
@@ -20546,7 +21251,10 @@
       "defense": {
         "spg": 0.3,
         "bpg": 0.1,
-        "rpg": 0.7
+        "rpg": 0.7,
+        "stl_pct": 0.025065728877317152,
+        "blk_pct": 0.015181580522221173,
+        "reb_pct": 0.06
       },
       "hustle": {
         "contested_shots": 0.92,
@@ -20633,7 +21341,10 @@
       "defense": {
         "spg": 0.6,
         "bpg": 1.2,
-        "rpg": 7.7
+        "rpg": 7.7,
+        "stl_pct": 0.009155501495719505,
+        "blk_pct": 0.035624219572509365,
+        "reb_pct": 0.118
       },
       "hustle": {
         "contested_shots": 8.08,
@@ -20720,7 +21431,10 @@
       "defense": {
         "spg": 0.9,
         "bpg": 0.7,
-        "rpg": 5.3
+        "rpg": 5.3,
+        "stl_pct": 0.016499582016629762,
+        "blk_pct": 0.02436435323257342,
+        "reb_pct": 0.099
       },
       "hustle": {
         "contested_shots": 5.51,
@@ -20807,7 +21521,10 @@
       "defense": {
         "spg": 1.5,
         "bpg": 0.7,
-        "rpg": 4.3
+        "rpg": 4.3,
+        "stl_pct": 0.03539882795578381,
+        "blk_pct": 0.03398228668291557,
+        "reb_pct": 0.098
       },
       "hustle": {
         "contested_shots": 3.28,
@@ -20894,7 +21611,10 @@
       "defense": {
         "spg": 0.5,
         "bpg": 0.3,
-        "rpg": 2.3
+        "rpg": 2.3,
+        "stl_pct": 0.012107352464951444,
+        "blk_pct": 0.012995032890320848,
+        "reb_pct": 0.053
       },
       "hustle": {
         "contested_shots": 3.08,
@@ -20981,7 +21701,10 @@
       "defense": {
         "spg": 0.3,
         "bpg": 0.0,
-        "rpg": 1.0
+        "rpg": 1.0,
+        "stl_pct": 0.02168103727160748,
+        "blk_pct": 0.0,
+        "reb_pct": 0.067
       },
       "hustle": {
         "contested_shots": 1.67,
@@ -21068,7 +21791,10 @@
       "defense": {
         "spg": 0.3,
         "bpg": 0.2,
-        "rpg": 1.5
+        "rpg": 1.5,
+        "stl_pct": 0.02893138472647364,
+        "blk_pct": 0.03752417794970987,
+        "reb_pct": 0.137
       },
       "hustle": {
         "contested_shots": 2.63,
@@ -21155,7 +21881,10 @@
       "defense": {
         "spg": 0.6,
         "bpg": 0.2,
-        "rpg": 4.4
+        "rpg": 4.4,
+        "stl_pct": 0.015492230870318683,
+        "blk_pct": 0.009289238359543633,
+        "reb_pct": 0.119
       },
       "hustle": {
         "contested_shots": 3.64,
@@ -21242,7 +21971,10 @@
       "defense": {
         "spg": 0.2,
         "bpg": 0.6,
-        "rpg": 5.1
+        "rpg": 5.1,
+        "stl_pct": 0.007294749042303831,
+        "blk_pct": 0.04176812673675767,
+        "reb_pct": 0.187
       },
       "hustle": {
         "contested_shots": 4.14,
@@ -21329,7 +22061,10 @@
       "defense": {
         "spg": 0.4,
         "bpg": 0.6,
-        "rpg": 2.5
+        "rpg": 2.5,
+        "stl_pct": 0.01925349987134104,
+        "blk_pct": 0.05438202247191011,
+        "reb_pct": 0.115
       },
       "hustle": {
         "contested_shots": 2.73,
@@ -21416,7 +22151,10 @@
       "defense": {
         "spg": 0.6,
         "bpg": 0.3,
-        "rpg": 5.6
+        "rpg": 5.6,
+        "stl_pct": 0.01227326533590999,
+        "blk_pct": 0.011788588059774497,
+        "reb_pct": 0.118
       },
       "hustle": {
         "contested_shots": 3.69,
@@ -21503,7 +22241,10 @@
       "defense": {
         "spg": 0.3,
         "bpg": 0.2,
-        "rpg": 1.7
+        "rpg": 1.7,
+        "stl_pct": 0.023599658531800294,
+        "blk_pct": 0.031096774193548383,
+        "reb_pct": 0.13
       },
       "hustle": {
         "contested_shots": 1.7,
@@ -21590,7 +22331,10 @@
       "defense": {
         "spg": 0.4,
         "bpg": 0.1,
-        "rpg": 1.8
+        "rpg": 1.8,
+        "stl_pct": 0.011114100806987303,
+        "blk_pct": 0.005749182948066509,
+        "reb_pct": 0.048
       },
       "hustle": {
         "contested_shots": 2.04,
@@ -21677,7 +22421,10 @@
       "defense": {
         "spg": 1.5,
         "bpg": 0.2,
-        "rpg": 4.9
+        "rpg": 4.9,
+        "stl_pct": 0.03292705452075442,
+        "blk_pct": 0.008500881834215167,
+        "reb_pct": 0.105
       },
       "hustle": {
         "contested_shots": 2.2,
@@ -21764,7 +22511,10 @@
       "defense": {
         "spg": 0.3,
         "bpg": 0.2,
-        "rpg": 1.7
+        "rpg": 1.7,
+        "stl_pct": 0.01055103326358819,
+        "blk_pct": 0.013872931985294117,
+        "reb_pct": 0.058
       },
       "hustle": {
         "contested_shots": 2.4,
@@ -21851,7 +22601,10 @@
       "defense": {
         "spg": 0.5,
         "bpg": 0.0,
-        "rpg": 0.7
+        "rpg": 0.7,
+        "stl_pct": 0.037465669350032656,
+        "blk_pct": 0.0,
+        "reb_pct": 0.057
       },
       "hustle": {
         "contested_shots": 1.0,
@@ -21938,7 +22691,10 @@
       "defense": {
         "spg": 0.8,
         "bpg": 0.2,
-        "rpg": 3.0
+        "rpg": 3.0,
+        "stl_pct": 0.01798446144396849,
+        "blk_pct": 0.008536185812575819,
+        "reb_pct": 0.071
       },
       "hustle": {
         "contested_shots": 3.64,
@@ -22025,7 +22781,10 @@
       "defense": {
         "spg": 0.6,
         "bpg": 0.4,
-        "rpg": 2.0
+        "rpg": 2.0,
+        "stl_pct": 0.012007870492451831,
+        "blk_pct": 0.01578844142259414,
+        "reb_pct": 0.037
       },
       "hustle": {
         "contested_shots": 2.95,
@@ -22112,7 +22871,10 @@
       "defense": {
         "spg": 0.7,
         "bpg": 0.5,
-        "rpg": 4.0
+        "rpg": 4.0,
+        "stl_pct": 0.019894584762336454,
+        "blk_pct": 0.028325442253786543,
+        "reb_pct": 0.108
       },
       "hustle": {
         "contested_shots": 2.94,
@@ -22199,7 +22961,10 @@
       "defense": {
         "spg": 1.0,
         "bpg": 0.1,
-        "rpg": 2.5
+        "rpg": 2.5,
+        "stl_pct": 0.024853139995524375,
+        "blk_pct": 0.005142485250029341,
+        "reb_pct": 0.06
       },
       "hustle": {
         "contested_shots": 1.21,
@@ -22286,7 +23051,10 @@
       "defense": {
         "spg": 1.0,
         "bpg": 0.5,
-        "rpg": 8.3
+        "rpg": 8.3,
+        "stl_pct": 0.014571616854568103,
+        "blk_pct": 0.01352754623782661,
+        "reb_pct": 0.121
       },
       "hustle": {
         "contested_shots": 5.0,
@@ -22373,7 +23141,10 @@
       "defense": {
         "spg": 0.6,
         "bpg": 0.1,
-        "rpg": 1.8
+        "rpg": 1.8,
+        "stl_pct": 0.018991464676727587,
+        "blk_pct": 0.005881348073309418,
+        "reb_pct": 0.054
       },
       "hustle": {
         "contested_shots": 2.0,
@@ -22460,7 +23231,10 @@
       "defense": {
         "spg": 1.1,
         "bpg": 0.3,
-        "rpg": 7.4
+        "rpg": 7.4,
+        "stl_pct": 0.01801441173847777,
+        "blk_pct": 0.010165773822077867,
+        "reb_pct": 0.123
       },
       "hustle": {
         "contested_shots": 5.27,
@@ -22547,7 +23321,10 @@
       "defense": {
         "spg": 0.9,
         "bpg": 0.5,
-        "rpg": 3.2
+        "rpg": 3.2,
+        "stl_pct": 0.026250773573755687,
+        "blk_pct": 0.027367703838292075,
+        "reb_pct": 0.091
       },
       "hustle": {
         "contested_shots": 3.31,
@@ -22634,7 +23411,10 @@
       "defense": {
         "spg": 0.8,
         "bpg": 0.2,
-        "rpg": 2.6
+        "rpg": 2.6,
+        "stl_pct": 0.02291649395856226,
+        "blk_pct": 0.01057820235992061,
+        "reb_pct": 0.072
       },
       "hustle": {
         "contested_shots": 2.04,
@@ -22721,7 +23501,10 @@
       "defense": {
         "spg": 1.0,
         "bpg": 0.1,
-        "rpg": 4.6
+        "rpg": 4.6,
+        "stl_pct": 0.016266772873399855,
+        "blk_pct": 0.0030192555843700283,
+        "reb_pct": 0.074
       },
       "hustle": {
         "contested_shots": 2.48,
@@ -22808,7 +23591,10 @@
       "defense": {
         "spg": 0.8,
         "bpg": 0.5,
-        "rpg": 5.8
+        "rpg": 5.8,
+        "stl_pct": 0.013900306309577335,
+        "blk_pct": 0.01607706294454249,
+        "reb_pct": 0.099
       },
       "hustle": {
         "contested_shots": 3.94,
@@ -22895,7 +23681,10 @@
       "defense": {
         "spg": 0.5,
         "bpg": 0.1,
-        "rpg": 1.0
+        "rpg": 1.0,
+        "stl_pct": 0.026755553296012688,
+        "blk_pct": 0.009723034716478729,
+        "reb_pct": 0.053
       },
       "hustle": {
         "contested_shots": 1.69,
@@ -22982,7 +23771,10 @@
       "defense": {
         "spg": 1.4,
         "bpg": 0.6,
-        "rpg": 10.5
+        "rpg": 10.5,
+        "stl_pct": 0.02151218375807004,
+        "blk_pct": 0.017078874636808166,
+        "reb_pct": 0.174
       },
       "hustle": {
         "contested_shots": 5.23,
@@ -23069,7 +23861,10 @@
       "defense": {
         "spg": 0.4,
         "bpg": 0.1,
-        "rpg": 2.0
+        "rpg": 2.0,
+        "stl_pct": 0.012946971810181635,
+        "blk_pct": 0.006177625808747823,
+        "reb_pct": 0.065
       },
       "hustle": {
         "contested_shots": 1.74,
@@ -23156,7 +23951,10 @@
       "defense": {
         "spg": 1.1,
         "bpg": 0.2,
-        "rpg": 6.7
+        "rpg": 6.7,
+        "stl_pct": 0.015874961622300867,
+        "blk_pct": 0.005244545998585496,
+        "reb_pct": 0.099
       },
       "hustle": {
         "contested_shots": 4.68,
@@ -23243,7 +24041,10 @@
       "defense": {
         "spg": 0.9,
         "bpg": 0.6,
-        "rpg": 5.6
+        "rpg": 5.6,
+        "stl_pct": 0.02136620822542599,
+        "blk_pct": 0.026386861313868616,
+        "reb_pct": 0.133
       },
       "hustle": {
         "contested_shots": 3.53,
@@ -23330,7 +24131,10 @@
       "defense": {
         "spg": 0.8,
         "bpg": 0.2,
-        "rpg": 1.5
+        "rpg": 1.5,
+        "stl_pct": 0.025212535709345223,
+        "blk_pct": 0.012262803251539172,
+        "reb_pct": 0.047
       },
       "hustle": {
         "contested_shots": 1.52,
@@ -23417,7 +24221,10 @@
       "defense": {
         "spg": 1.3,
         "bpg": 0.5,
-        "rpg": 10.4
+        "rpg": 10.4,
+        "stl_pct": 0.023125446444851695,
+        "blk_pct": 0.018296739853626082,
+        "reb_pct": 0.182
       },
       "hustle": {
         "contested_shots": 6.71,
@@ -23504,7 +24311,10 @@
       "defense": {
         "spg": 0.8,
         "bpg": 0.0,
-        "rpg": 1.9
+        "rpg": 1.9,
+        "stl_pct": 0.030309965012983362,
+        "blk_pct": 0.0,
+        "reb_pct": 0.072
       },
       "hustle": {
         "contested_shots": 1.56,
@@ -23591,7 +24401,10 @@
       "defense": {
         "spg": 0.5,
         "bpg": 0.0,
-        "rpg": 1.6
+        "rpg": 1.6,
+        "stl_pct": 0.014224403593506175,
+        "blk_pct": 0.0,
+        "reb_pct": 0.048
       },
       "hustle": {
         "contested_shots": 2.4,
@@ -23678,7 +24491,10 @@
       "defense": {
         "spg": 0.9,
         "bpg": 0.5,
-        "rpg": 11.9
+        "rpg": 11.9,
+        "stl_pct": 0.014358701203865856,
+        "blk_pct": 0.016505718786384495,
+        "reb_pct": 0.192
       },
       "hustle": {
         "contested_shots": 6.01,
@@ -23765,7 +24581,10 @@
       "defense": {
         "spg": 0.4,
         "bpg": 0.9,
-        "rpg": 3.7
+        "rpg": 3.7,
+        "stl_pct": 0.013015333549641671,
+        "blk_pct": 0.05775669642857143,
+        "reb_pct": 0.115
       },
       "hustle": {
         "contested_shots": 4.73,
@@ -23852,7 +24671,10 @@
       "defense": {
         "spg": 0.6,
         "bpg": 0.1,
-        "rpg": 2.6
+        "rpg": 2.6,
+        "stl_pct": 0.015653293535195584,
+        "blk_pct": 0.005004161464835622,
+        "reb_pct": 0.067
       },
       "hustle": {
         "contested_shots": 3.14,
@@ -23939,7 +24761,10 @@
       "defense": {
         "spg": 1.9,
         "bpg": 0.4,
-        "rpg": 6.4
+        "rpg": 6.4,
+        "stl_pct": 0.029406835515274024,
+        "blk_pct": 0.011753875791771068,
+        "reb_pct": 0.102
       },
       "hustle": {
         "contested_shots": 3.77,
@@ -24026,7 +24851,10 @@
       "defense": {
         "spg": 0.5,
         "bpg": 0.1,
-        "rpg": 1.1
+        "rpg": 1.1,
+        "stl_pct": 0.023392114625373002,
+        "blk_pct": 0.008987339411907292,
+        "reb_pct": 0.05
       },
       "hustle": {
         "contested_shots": 2.15,
@@ -24113,7 +24941,10 @@
       "defense": {
         "spg": 1.0,
         "bpg": 1.6,
-        "rpg": 5.7
+        "rpg": 5.7,
+        "stl_pct": 0.013970417665841407,
+        "blk_pct": 0.042578329882677714,
+        "reb_pct": 0.079
       },
       "hustle": {
         "contested_shots": 7.78,
@@ -24200,7 +25031,10 @@
       "defense": {
         "spg": 0.8,
         "bpg": 1.1,
-        "rpg": 9.0
+        "rpg": 9.0,
+        "stl_pct": 0.016810173449561473,
+        "blk_pct": 0.044335511982570804,
+        "reb_pct": 0.18
       },
       "hustle": {
         "contested_shots": 6.32,
@@ -24287,7 +25121,10 @@
       "defense": {
         "spg": 0.6,
         "bpg": 0.1,
-        "rpg": 5.4
+        "rpg": 5.4,
+        "stl_pct": 0.012349199167736085,
+        "blk_pct": 0.0038088149121834575,
+        "reb_pct": 0.106
       },
       "hustle": {
         "contested_shots": 2.91,
@@ -24374,7 +25211,10 @@
       "defense": {
         "spg": 0.4,
         "bpg": 0.1,
-        "rpg": 1.8
+        "rpg": 1.8,
+        "stl_pct": 0.022305142682810145,
+        "blk_pct": 0.01031923109928774,
+        "reb_pct": 0.101
       },
       "hustle": {
         "contested_shots": 2.28,
@@ -24461,7 +25301,10 @@
       "defense": {
         "spg": 1.4,
         "bpg": 0.5,
-        "rpg": 5.0
+        "rpg": 5.0,
+        "stl_pct": 0.021430655352943435,
+        "blk_pct": 0.014890546805440424,
+        "reb_pct": 0.077
       },
       "hustle": {
         "contested_shots": 3.52,
@@ -24548,7 +25391,10 @@
       "defense": {
         "spg": 0.6,
         "bpg": 0.1,
-        "rpg": 3.3
+        "rpg": 3.3,
+        "stl_pct": 0.018932917763780182,
+        "blk_pct": 0.006390704429920115,
+        "reb_pct": 0.106
       },
       "hustle": {
         "contested_shots": 2.08,
@@ -24635,7 +25481,10 @@
       "defense": {
         "spg": 0.8,
         "bpg": 0.2,
-        "rpg": 2.5
+        "rpg": 2.5,
+        "stl_pct": 0.017809989696677533,
+        "blk_pct": 0.008619144894814178,
+        "reb_pct": 0.054
       },
       "hustle": {
         "contested_shots": 1.18,
@@ -24722,7 +25571,10 @@
       "defense": {
         "spg": 1.2,
         "bpg": 0.6,
-        "rpg": 1.9
+        "rpg": 1.9,
+        "stl_pct": 0.02812329607235665,
+        "blk_pct": 0.02766140602582497,
+        "reb_pct": 0.045
       },
       "hustle": {
         "contested_shots": 2.94,
@@ -24809,7 +25661,10 @@
       "defense": {
         "spg": 0.5,
         "bpg": 0.3,
-        "rpg": 1.9
+        "rpg": 1.9,
+        "stl_pct": 0.026688565605984812,
+        "blk_pct": 0.03071519795657727,
+        "reb_pct": 0.1
       },
       "hustle": {
         "contested_shots": 2.25,
@@ -24896,7 +25751,10 @@
       "defense": {
         "spg": 0.8,
         "bpg": 0.9,
-        "rpg": 5.5
+        "rpg": 5.5,
+        "stl_pct": 0.010954587771400641,
+        "blk_pct": 0.022754759472027025,
+        "reb_pct": 0.073
       },
       "hustle": {
         "contested_shots": 5.78,
@@ -24983,7 +25841,10 @@
       "defense": {
         "spg": 0.9,
         "bpg": 0.5,
-        "rpg": 3.5
+        "rpg": 3.5,
+        "stl_pct": 0.019340264888511264,
+        "blk_pct": 0.022176308539944897,
+        "reb_pct": 0.074
       },
       "hustle": {
         "contested_shots": 3.74,
@@ -25070,7 +25931,10 @@
       "defense": {
         "spg": 0.4,
         "bpg": 0.2,
-        "rpg": 5.8
+        "rpg": 5.8,
+        "stl_pct": 0.011316251828435304,
+        "blk_pct": 0.011639371858692252,
+        "reb_pct": 0.167
       },
       "hustle": {
         "contested_shots": 2.06,
@@ -25157,7 +26021,10 @@
       "defense": {
         "spg": 0.4,
         "bpg": 0.0,
-        "rpg": 1.3
+        "rpg": 1.3,
+        "stl_pct": 0.026733918157347842,
+        "blk_pct": 0.0,
+        "reb_pct": 0.082
       },
       "hustle": {
         "contested_shots": 1.85,
@@ -25244,7 +26111,10 @@
       "defense": {
         "spg": 2.2,
         "bpg": 0.5,
-        "rpg": 5.2
+        "rpg": 5.2,
+        "stl_pct": 0.032684408135252335,
+        "blk_pct": 0.01502906034074185,
+        "reb_pct": 0.077
       },
       "hustle": {
         "contested_shots": 5.0,
@@ -25331,7 +26201,10 @@
       "defense": {
         "spg": 0.4,
         "bpg": 0.5,
-        "rpg": 5.6
+        "rpg": 5.6,
+        "stl_pct": 0.013104479669844694,
+        "blk_pct": 0.0323068279109589,
+        "reb_pct": 0.171
       },
       "hustle": {
         "contested_shots": 5.0,
@@ -25418,7 +26291,10 @@
       "defense": {
         "spg": 1.1,
         "bpg": 0.3,
-        "rpg": 3.7
+        "rpg": 3.7,
+        "stl_pct": 0.015606854863083736,
+        "blk_pct": 0.008755902093094776,
+        "reb_pct": 0.054
       },
       "hustle": {
         "contested_shots": 3.25,
@@ -25505,7 +26381,10 @@
       "defense": {
         "spg": 0.1,
         "bpg": 0.7,
-        "rpg": 2.9
+        "rpg": 2.9,
+        "stl_pct": 0.005549503570913666,
+        "blk_pct": 0.07521847690387017,
+        "reb_pct": 0.151
       },
       "hustle": {
         "contested_shots": 3.81,
@@ -25592,7 +26471,10 @@
       "defense": {
         "spg": 0.7,
         "bpg": 0.1,
-        "rpg": 3.7
+        "rpg": 3.7,
+        "stl_pct": 0.014496961504086595,
+        "blk_pct": 0.003704724288907259,
+        "reb_pct": 0.075
       },
       "hustle": {
         "contested_shots": 2.47,
@@ -25679,7 +26561,10 @@
       "defense": {
         "spg": 0.9,
         "bpg": 0.2,
-        "rpg": 2.3
+        "rpg": 2.3,
+        "stl_pct": 0.024646674347975888,
+        "blk_pct": 0.010432900432900433,
+        "reb_pct": 0.061
       },
       "hustle": {
         "contested_shots": 2.41,
@@ -25766,7 +26651,10 @@
       "defense": {
         "spg": 0.5,
         "bpg": 0.3,
-        "rpg": 2.1
+        "rpg": 2.1,
+        "stl_pct": 0.01087987894315913,
+        "blk_pct": 0.011677564118030257,
+        "reb_pct": 0.043
       },
       "hustle": {
         "contested_shots": 2.27,
@@ -25853,7 +26741,10 @@
       "defense": {
         "spg": 0.4,
         "bpg": 0.2,
-        "rpg": 3.0
+        "rpg": 3.0,
+        "stl_pct": 0.012027723544888765,
+        "blk_pct": 0.010817847203519167,
+        "reb_pct": 0.096
       },
       "hustle": {
         "contested_shots": 2.4,
@@ -25940,7 +26831,10 @@
       "defense": {
         "spg": 0.7,
         "bpg": 0.1,
-        "rpg": 2.3
+        "rpg": 2.3,
+        "stl_pct": 0.017476106692097523,
+        "blk_pct": 0.004739942373314715,
+        "reb_pct": 0.056
       },
       "hustle": {
         "contested_shots": 3.14,
@@ -26027,7 +26921,10 @@
       "defense": {
         "spg": 0.1,
         "bpg": 0.0,
-        "rpg": 0.7
+        "rpg": 0.7,
+        "stl_pct": 0.007055797397304519,
+        "blk_pct": 0.0,
+        "reb_pct": 0.048
       },
       "hustle": {
         "contested_shots": 1.13,
@@ -26114,7 +27011,10 @@
       "defense": {
         "spg": 0.7,
         "bpg": 0.2,
-        "rpg": 5.3
+        "rpg": 5.3,
+        "stl_pct": 0.011043185015726781,
+        "blk_pct": 0.0058626771270449424,
+        "reb_pct": 0.082
       },
       "hustle": {
         "contested_shots": 5.38,
@@ -26201,7 +27101,10 @@
       "defense": {
         "spg": 1.6,
         "bpg": 0.2,
-        "rpg": 3.3
+        "rpg": 3.3,
+        "stl_pct": 0.0292247498464488,
+        "blk_pct": 0.006935650972717854,
+        "reb_pct": 0.063
       },
       "hustle": {
         "contested_shots": 3.21,
@@ -26288,7 +27191,10 @@
       "defense": {
         "spg": 0.9,
         "bpg": 0.4,
-        "rpg": 3.6
+        "rpg": 3.6,
+        "stl_pct": 0.01839396624915214,
+        "blk_pct": 0.015173694731705784,
+        "reb_pct": 0.073
       },
       "hustle": {
         "contested_shots": 3.43,
@@ -26375,7 +27281,10 @@
       "defense": {
         "spg": 0.6,
         "bpg": 1.2,
-        "rpg": 5.2
+        "rpg": 5.2,
+        "stl_pct": 0.012119770431975718,
+        "blk_pct": 0.046087786259541984,
+        "reb_pct": 0.104
       },
       "hustle": {
         "contested_shots": 9.44,
@@ -26462,7 +27371,10 @@
       "defense": {
         "spg": 1.0,
         "bpg": 0.6,
-        "rpg": 3.5
+        "rpg": 3.5,
+        "stl_pct": 0.024052972155001306,
+        "blk_pct": 0.026222729992927477,
+        "reb_pct": 0.084
       },
       "hustle": {
         "contested_shots": 3.53,
@@ -26549,7 +27461,10 @@
       "defense": {
         "spg": 0.9,
         "bpg": 0.5,
-        "rpg": 7.2
+        "rpg": 7.2,
+        "stl_pct": 0.018062478880002508,
+        "blk_pct": 0.020642475732296092,
+        "reb_pct": 0.149
       },
       "hustle": {
         "contested_shots": 5.84,
@@ -26636,7 +27551,10 @@
       "defense": {
         "spg": 0.7,
         "bpg": 0.4,
-        "rpg": 4.5
+        "rpg": 4.5,
+        "stl_pct": 0.013178099324484112,
+        "blk_pct": 0.015235566513362733,
+        "reb_pct": 0.084
       },
       "hustle": {
         "contested_shots": 3.68,
@@ -26723,7 +27641,10 @@
       "defense": {
         "spg": 0.1,
         "bpg": 0.1,
-        "rpg": 0.6
+        "rpg": 0.6,
+        "stl_pct": 0.005740354112395564,
+        "blk_pct": 0.011167910104080319,
+        "reb_pct": 0.032
       },
       "hustle": {
         "contested_shots": 0.78,
@@ -26810,7 +27731,10 @@
       "defense": {
         "spg": 1.0,
         "bpg": 0.9,
-        "rpg": 5.1
+        "rpg": 5.1,
+        "stl_pct": 0.016372573352816853,
+        "blk_pct": 0.027296753083312364,
+        "reb_pct": 0.081
       },
       "hustle": {
         "contested_shots": 6.73,
@@ -26897,7 +27821,10 @@
       "defense": {
         "spg": 0.2,
         "bpg": 0.0,
-        "rpg": 1.6
+        "rpg": 1.6,
+        "stl_pct": 0.005985071818259614,
+        "blk_pct": 0.0,
+        "reb_pct": 0.049
       },
       "hustle": {
         "contested_shots": 1.0,
@@ -26984,7 +27911,10 @@
       "defense": {
         "spg": 1.2,
         "bpg": 0.3,
-        "rpg": 4.8
+        "rpg": 4.8,
+        "stl_pct": 0.021297571101758794,
+        "blk_pct": 0.009893267651888341,
+        "reb_pct": 0.084
       },
       "hustle": {
         "contested_shots": 1.97,
@@ -27071,7 +28001,10 @@
       "defense": {
         "spg": 0.3,
         "bpg": 0.2,
-        "rpg": 3.0
+        "rpg": 3.0,
+        "stl_pct": 0.015088674226826969,
+        "blk_pct": 0.018676741257386418,
+        "reb_pct": 0.142
       },
       "hustle": {
         "contested_shots": 2.94,
@@ -27158,7 +28091,10 @@
       "defense": {
         "spg": 0.6,
         "bpg": 0.2,
-        "rpg": 1.8
+        "rpg": 1.8,
+        "stl_pct": 0.01290202137158961,
+        "blk_pct": 0.008898735345702945,
+        "reb_pct": 0.038
       },
       "hustle": {
         "contested_shots": 3.78,
@@ -27245,7 +28181,10 @@
       "defense": {
         "spg": 0.6,
         "bpg": 0.2,
-        "rpg": 2.7
+        "rpg": 2.7,
+        "stl_pct": 0.022520608182941847,
+        "blk_pct": 0.0147671568627451,
+        "reb_pct": 0.098
       },
       "hustle": {
         "contested_shots": 1.61,
@@ -27332,7 +28271,10 @@
       "defense": {
         "spg": 1.0,
         "bpg": 0.5,
-        "rpg": 6.9
+        "rpg": 6.9,
+        "stl_pct": 0.01369167495277158,
+        "blk_pct": 0.014082621928155351,
+        "reb_pct": 0.094
       },
       "hustle": {
         "contested_shots": 6.02,
@@ -27419,7 +28361,10 @@
       "defense": {
         "spg": 1.2,
         "bpg": 0.6,
-        "rpg": 6.1
+        "rpg": 6.1,
+        "stl_pct": 0.017625822030471604,
+        "blk_pct": 0.01681387056931789,
+        "reb_pct": 0.093
       },
       "hustle": {
         "contested_shots": 2.48,
@@ -27506,7 +28451,10 @@
       "defense": {
         "spg": 1.2,
         "bpg": 0.5,
-        "rpg": 5.0
+        "rpg": 5.0,
+        "stl_pct": 0.019715071026921334,
+        "blk_pct": 0.015217336397848107,
+        "reb_pct": 0.084
       },
       "hustle": {
         "contested_shots": 2.6,
@@ -27593,7 +28541,10 @@
       "defense": {
         "spg": 0.4,
         "bpg": 0.3,
-        "rpg": 3.9
+        "rpg": 3.9,
+        "stl_pct": 0.011993561564913748,
+        "blk_pct": 0.016701316701316703,
+        "reb_pct": 0.118
       },
       "hustle": {
         "contested_shots": 4.89,
@@ -27680,7 +28631,10 @@
       "defense": {
         "spg": 0.2,
         "bpg": 0.1,
-        "rpg": 2.4
+        "rpg": 2.4,
+        "stl_pct": 0.008351988667356388,
+        "blk_pct": 0.007759425609324189,
+        "reb_pct": 0.098
       },
       "hustle": {
         "contested_shots": 2.63,
@@ -27767,7 +28721,10 @@
       "defense": {
         "spg": 0.2,
         "bpg": 0.0,
-        "rpg": 0.7
+        "rpg": 0.7,
+        "stl_pct": 0.013508748385363891,
+        "blk_pct": 0.0,
+        "reb_pct": 0.05
       },
       "hustle": {
         "contested_shots": 1.04,
@@ -27854,7 +28811,10 @@
       "defense": {
         "spg": 0.9,
         "bpg": 0.4,
-        "rpg": 3.6
+        "rpg": 3.6,
+        "stl_pct": 0.016213076965625194,
+        "blk_pct": 0.014593698175787727,
+        "reb_pct": 0.063
       },
       "hustle": {
         "contested_shots": 3.68,
@@ -27941,7 +28901,10 @@
       "defense": {
         "spg": 1.6,
         "bpg": 0.5,
-        "rpg": 7.7
+        "rpg": 7.7,
+        "stl_pct": 0.02179431252929823,
+        "blk_pct": 0.012993959564742879,
+        "reb_pct": 0.11
       },
       "hustle": {
         "contested_shots": 4.97,
@@ -28028,7 +28991,10 @@
       "defense": {
         "spg": 0.4,
         "bpg": 0.4,
-        "rpg": 4.1
+        "rpg": 4.1,
+        "stl_pct": 0.01249113258446522,
+        "blk_pct": 0.024898413437896325,
+        "reb_pct": 0.12
       },
       "hustle": {
         "contested_shots": 4.38,
@@ -28115,7 +29081,10 @@
       "defense": {
         "spg": 0.7,
         "bpg": 0.1,
-        "rpg": 2.3
+        "rpg": 2.3,
+        "stl_pct": 0.015876903255355044,
+        "blk_pct": 0.004327290720165535,
+        "reb_pct": 0.053
       },
       "hustle": {
         "contested_shots": 2.21,
@@ -28202,7 +29171,10 @@
       "defense": {
         "spg": 0.5,
         "bpg": 1.0,
-        "rpg": 6.1
+        "rpg": 6.1,
+        "stl_pct": 0.011418108754295667,
+        "blk_pct": 0.042259708311368833,
+        "reb_pct": 0.132
       },
       "hustle": {
         "contested_shots": 9.57,
@@ -28289,7 +29261,10 @@
       "defense": {
         "spg": 1.0,
         "bpg": 0.3,
-        "rpg": 0.9
+        "rpg": 0.9,
+        "stl_pct": 0.03802836593753139,
+        "blk_pct": 0.02118215776752362,
+        "reb_pct": 0.034
       },
       "hustle": {
         "contested_shots": 2.0,
@@ -28376,7 +29351,10 @@
       "defense": {
         "spg": 0.8,
         "bpg": 0.3,
-        "rpg": 3.4
+        "rpg": 3.4,
+        "stl_pct": 0.016597420762579144,
+        "blk_pct": 0.011679940550233438,
+        "reb_pct": 0.073
       },
       "hustle": {
         "contested_shots": 2.8,
@@ -28463,7 +29441,10 @@
       "defense": {
         "spg": 0.6,
         "bpg": 0.4,
-        "rpg": 2.1
+        "rpg": 2.1,
+        "stl_pct": 0.026204909042109658,
+        "blk_pct": 0.03321642252939963,
+        "reb_pct": 0.098
       },
       "hustle": {
         "contested_shots": 2.77,
@@ -28550,7 +29531,10 @@
       "defense": {
         "spg": 0.6,
         "bpg": 0.4,
-        "rpg": 1.9
+        "rpg": 1.9,
+        "stl_pct": 0.013144892985587141,
+        "blk_pct": 0.016692640692640693,
+        "reb_pct": 0.041
       },
       "hustle": {
         "contested_shots": 2.65,
@@ -28637,7 +29621,10 @@
       "defense": {
         "spg": 0.6,
         "bpg": 0.3,
-        "rpg": 2.3
+        "rpg": 2.3,
+        "stl_pct": 0.020665274804624028,
+        "blk_pct": 0.02010223818734457,
+        "reb_pct": 0.075
       },
       "hustle": {
         "contested_shots": 2.18,
@@ -28724,7 +29711,10 @@
       "defense": {
         "spg": 0.5,
         "bpg": 0.1,
-        "rpg": 1.0
+        "rpg": 1.0,
+        "stl_pct": 0.0201461092588659,
+        "blk_pct": 0.008316115702479338,
+        "reb_pct": 0.044
       },
       "hustle": {
         "contested_shots": 1.3,
@@ -28811,7 +29801,10 @@
       "defense": {
         "spg": 1.4,
         "bpg": 0.4,
-        "rpg": 2.8
+        "rpg": 2.8,
+        "stl_pct": 0.02395462596421989,
+        "blk_pct": 0.013057789541552142,
+        "reb_pct": 0.05
       },
       "hustle": {
         "contested_shots": 3.11,
@@ -28898,7 +29891,10 @@
       "defense": {
         "spg": 0.9,
         "bpg": 0.9,
-        "rpg": 8.0
+        "rpg": 8.0,
+        "stl_pct": 0.018835391357211215,
+        "blk_pct": 0.03647094430992736,
+        "reb_pct": 0.162
       },
       "hustle": {
         "contested_shots": 8.38,
@@ -28985,7 +29981,10 @@
       "defense": {
         "spg": 0.5,
         "bpg": 0.7,
-        "rpg": 6.1
+        "rpg": 6.1,
+        "stl_pct": 0.011804668653327657,
+        "blk_pct": 0.029563699825479926,
+        "reb_pct": 0.143
       },
       "hustle": {
         "contested_shots": 6.02,
@@ -29072,7 +30071,10 @@
       "defense": {
         "spg": 0.5,
         "bpg": 0.0,
-        "rpg": 2.7
+        "rpg": 2.7,
+        "stl_pct": 0.027881428353512677,
+        "blk_pct": 0.0,
+        "reb_pct": 0.159
       },
       "hustle": {
         "contested_shots": 2.22,
@@ -29159,7 +30161,10 @@
       "defense": {
         "spg": 0.7,
         "bpg": 1.5,
-        "rpg": 5.8
+        "rpg": 5.8,
+        "stl_pct": 0.011213158586374838,
+        "blk_pct": 0.044613106256941884,
+        "reb_pct": 0.094
       },
       "hustle": {
         "contested_shots": 7.92,
@@ -29246,7 +30251,10 @@
       "defense": {
         "spg": 2.0,
         "bpg": 0.5,
-        "rpg": 2.0
+        "rpg": 2.0,
+        "stl_pct": 0.05978039030974446,
+        "blk_pct": 0.027739410681399634,
+        "reb_pct": 0.059
       },
       "hustle": {
         "contested_shots": 1.4,
@@ -29333,7 +30341,10 @@
       "defense": {
         "spg": 0.6,
         "bpg": 0.4,
-        "rpg": 3.2
+        "rpg": 3.2,
+        "stl_pct": 0.009735809198620748,
+        "blk_pct": 0.011610682307503162,
+        "reb_pct": 0.052
       },
       "hustle": {
         "contested_shots": 4.86,
@@ -29420,7 +30431,10 @@
       "defense": {
         "spg": 0.1,
         "bpg": 0.0,
-        "rpg": 0.5
+        "rpg": 0.5,
+        "stl_pct": 0.01533002635366186,
+        "blk_pct": 0.0,
+        "reb_pct": 0.076
       },
       "hustle": {
         "contested_shots": 1.0,
@@ -29507,7 +30521,10 @@
       "defense": {
         "spg": 0.3,
         "bpg": 0.0,
-        "rpg": 5.4
+        "rpg": 5.4,
+        "stl_pct": 0.0060054955154511605,
+        "blk_pct": 0.0,
+        "reb_pct": 0.108
       },
       "hustle": {
         "contested_shots": 3.08,
@@ -29594,7 +30611,10 @@
       "defense": {
         "spg": 0.4,
         "bpg": 0.3,
-        "rpg": 2.0
+        "rpg": 2.0,
+        "stl_pct": 0.01822982216235693,
+        "blk_pct": 0.026085070229035234,
+        "reb_pct": 0.095
       },
       "hustle": {
         "contested_shots": 3.48,
@@ -29681,7 +30701,10 @@
       "defense": {
         "spg": 0.5,
         "bpg": 0.5,
-        "rpg": 7.5
+        "rpg": 7.5,
+        "stl_pct": 0.009093951122104312,
+        "blk_pct": 0.017322551662174304,
+        "reb_pct": 0.14
       },
       "hustle": {
         "contested_shots": 7.51,
@@ -29768,7 +30791,10 @@
       "defense": {
         "spg": 0.7,
         "bpg": 0.1,
-        "rpg": 1.9
+        "rpg": 1.9,
+        "stl_pct": 0.022321297037635458,
+        "blk_pct": 0.0062890625,
+        "reb_pct": 0.059
       },
       "hustle": {
         "contested_shots": 2.06,
@@ -29855,7 +30881,10 @@
       "defense": {
         "spg": 0.5,
         "bpg": 0.3,
-        "rpg": 5.0
+        "rpg": 5.0,
+        "stl_pct": 0.012308162694899124,
+        "blk_pct": 0.013284092161834418,
+        "reb_pct": 0.125
       },
       "hustle": {
         "contested_shots": 6.5,
@@ -29942,7 +30971,10 @@
       "defense": {
         "spg": 1.1,
         "bpg": 0.3,
-        "rpg": 7.1
+        "rpg": 7.1,
+        "stl_pct": 0.016782545840315605,
+        "blk_pct": 0.008589248589248588,
+        "reb_pct": 0.11
       },
       "hustle": {
         "contested_shots": 3.12,
@@ -30029,7 +31061,10 @@
       "defense": {
         "spg": 1.3,
         "bpg": 0.8,
-        "rpg": 3.8
+        "rpg": 3.8,
+        "stl_pct": 0.019602156453787063,
+        "blk_pct": 0.024959867433069237,
+        "reb_pct": 0.057
       },
       "hustle": {
         "contested_shots": 5.3,
@@ -30116,7 +31151,10 @@
       "defense": {
         "spg": 0.6,
         "bpg": 0.3,
-        "rpg": 1.7
+        "rpg": 1.7,
+        "stl_pct": 0.015529853760946498,
+        "blk_pct": 0.014108968854890332,
+        "reb_pct": 0.045
       },
       "hustle": {
         "contested_shots": 2.15,
@@ -30203,7 +31241,10 @@
       "defense": {
         "spg": 0.6,
         "bpg": 0.4,
-        "rpg": 5.8
+        "rpg": 5.8,
+        "stl_pct": 0.009618257916923325,
+        "blk_pct": 0.011914472871091337,
+        "reb_pct": 0.092
       },
       "hustle": {
         "contested_shots": 5.92,
@@ -30290,7 +31331,10 @@
       "defense": {
         "spg": 0.9,
         "bpg": 0.2,
-        "rpg": 2.4
+        "rpg": 2.4,
+        "stl_pct": 0.016924704841058614,
+        "blk_pct": 0.007782163990538697,
+        "reb_pct": 0.044
       },
       "hustle": {
         "contested_shots": 4.24,
@@ -30377,7 +31421,10 @@
       "defense": {
         "spg": 0.9,
         "bpg": 1.2,
-        "rpg": 8.8
+        "rpg": 8.8,
+        "stl_pct": 0.022710190679583752,
+        "blk_pct": 0.06265436110750032,
+        "reb_pct": 0.214
       },
       "hustle": {
         "contested_shots": 4.32,
@@ -30464,7 +31511,10 @@
       "defense": {
         "spg": 0.2,
         "bpg": 0.1,
-        "rpg": 1.4
+        "rpg": 1.4,
+        "stl_pct": 0.010751684476324677,
+        "blk_pct": 0.011123419182128681,
+        "reb_pct": 0.075
       },
       "hustle": {
         "contested_shots": 1.59,
@@ -30551,7 +31601,10 @@
       "defense": {
         "spg": 0.4,
         "bpg": 0.1,
-        "rpg": 3.2
+        "rpg": 3.2,
+        "stl_pct": 0.0163165253146958,
+        "blk_pct": 0.007681076620326285,
+        "reb_pct": 0.127
       },
       "hustle": {
         "contested_shots": 1.94,
@@ -30638,7 +31691,10 @@
       "defense": {
         "spg": 1.0,
         "bpg": 0.6,
-        "rpg": 3.3
+        "rpg": 3.3,
+        "stl_pct": 0.018863455925254034,
+        "blk_pct": 0.021519588914961238,
+        "reb_pct": 0.061
       },
       "hustle": {
         "contested_shots": 3.66,
@@ -30725,7 +31781,10 @@
       "defense": {
         "spg": 0.8,
         "bpg": 0.5,
-        "rpg": 3.6
+        "rpg": 3.6,
+        "stl_pct": 0.024706965512812262,
+        "blk_pct": 0.029664094137341057,
+        "reb_pct": 0.111
       },
       "hustle": {
         "contested_shots": 3.61,
@@ -30812,7 +31871,10 @@
       "defense": {
         "spg": 0.5,
         "bpg": 1.2,
-        "rpg": 5.7
+        "rpg": 5.7,
+        "stl_pct": 0.016985134752989434,
+        "blk_pct": 0.07292176729820332,
+        "reb_pct": 0.182
       },
       "hustle": {
         "contested_shots": 5.24,
@@ -30899,7 +31961,10 @@
       "defense": {
         "spg": 0.8,
         "bpg": 1.0,
-        "rpg": 8.7
+        "rpg": 8.7,
+        "stl_pct": 0.01529056386792939,
+        "blk_pct": 0.03551429413498379,
+        "reb_pct": 0.164
       },
       "hustle": {
         "contested_shots": 7.67,
@@ -30986,7 +32051,10 @@
       "defense": {
         "spg": 0.7,
         "bpg": 1.6,
-        "rpg": 5.3
+        "rpg": 5.3,
+        "stl_pct": 0.012835174806746607,
+        "blk_pct": 0.05935640782901169,
+        "reb_pct": 0.096
       },
       "hustle": {
         "contested_shots": 8.08,
@@ -31073,7 +32141,10 @@
       "defense": {
         "spg": 0.4,
         "bpg": 0.2,
-        "rpg": 2.7
+        "rpg": 2.7,
+        "stl_pct": 0.020412353474467505,
+        "blk_pct": 0.01957671957671958,
+        "reb_pct": 0.132
       },
       "hustle": {
         "contested_shots": 1.69,
@@ -31160,7 +32231,10 @@
       "defense": {
         "spg": 0.6,
         "bpg": 0.5,
-        "rpg": 2.9
+        "rpg": 2.9,
+        "stl_pct": 0.018360750620487625,
+        "blk_pct": 0.030098663669289382,
+        "reb_pct": 0.088
       },
       "hustle": {
         "contested_shots": 2.83,
@@ -31247,7 +32321,10 @@
       "defense": {
         "spg": 1.1,
         "bpg": 0.1,
-        "rpg": 4.7
+        "rpg": 4.7,
+        "stl_pct": 0.017606963415132775,
+        "blk_pct": 0.002863312331765611,
+        "reb_pct": 0.075
       },
       "hustle": {
         "contested_shots": 3.95,
@@ -31334,7 +32411,10 @@
       "defense": {
         "spg": 0.4,
         "bpg": 0.0,
-        "rpg": 2.1
+        "rpg": 2.1,
+        "stl_pct": 0.011340136076702425,
+        "blk_pct": 0.0,
+        "reb_pct": 0.064
       },
       "hustle": {
         "contested_shots": 2.0,
@@ -31421,7 +32501,10 @@
       "defense": {
         "spg": 1.0,
         "bpg": 1.0,
-        "rpg": 6.2
+        "rpg": 6.2,
+        "stl_pct": 0.01824708232448375,
+        "blk_pct": 0.033155175853126696,
+        "reb_pct": 0.113
       },
       "hustle": {
         "contested_shots": 5.79,
@@ -31508,7 +32591,10 @@
       "defense": {
         "spg": 0.8,
         "bpg": 1.3,
-        "rpg": 8.4
+        "rpg": 8.4,
+        "stl_pct": 0.015996549238603677,
+        "blk_pct": 0.05181428725317159,
+        "reb_pct": 0.157
       },
       "hustle": {
         "contested_shots": 7.78,
@@ -31595,7 +32681,10 @@
       "defense": {
         "spg": 0.7,
         "bpg": 1.1,
-        "rpg": 6.9
+        "rpg": 6.9,
+        "stl_pct": 0.012485379917173967,
+        "blk_pct": 0.036818421710508045,
+        "reb_pct": 0.124
       },
       "hustle": {
         "contested_shots": 7.25,
@@ -31682,7 +32771,10 @@
       "defense": {
         "spg": 0.2,
         "bpg": 0.7,
-        "rpg": 5.1
+        "rpg": 5.1,
+        "stl_pct": 0.006407519192214194,
+        "blk_pct": 0.041638899173145755,
+        "reb_pct": 0.163
       },
       "hustle": {
         "contested_shots": 4.13,
@@ -31769,7 +32861,10 @@
       "defense": {
         "spg": 0.3,
         "bpg": 0.1,
-        "rpg": 0.8
+        "rpg": 0.8,
+        "stl_pct": 0.011703545828233146,
+        "blk_pct": 0.007442940038684721,
+        "reb_pct": 0.032
       },
       "hustle": {
         "contested_shots": 1.56,
@@ -31856,7 +32951,10 @@
       "defense": {
         "spg": 1.3,
         "bpg": 0.5,
-        "rpg": 3.4
+        "rpg": 3.4,
+        "stl_pct": 0.018391524852164522,
+        "blk_pct": 0.013588641925189169,
+        "reb_pct": 0.049
       },
       "hustle": {
         "contested_shots": 3.31,
@@ -31943,7 +33041,10 @@
       "defense": {
         "spg": 0.6,
         "bpg": 0.3,
-        "rpg": 2.5
+        "rpg": 2.5,
+        "stl_pct": 0.01703385419621587,
+        "blk_pct": 0.01616997483925077,
+        "reb_pct": 0.071
       },
       "hustle": {
         "contested_shots": 3.15,
@@ -32030,7 +33131,10 @@
       "defense": {
         "spg": 1.4,
         "bpg": 0.8,
-        "rpg": 12.9
+        "rpg": 12.9,
+        "stl_pct": 0.019662283338163774,
+        "blk_pct": 0.021444172347607388,
+        "reb_pct": 0.185
       },
       "hustle": {
         "contested_shots": 5.98,
@@ -32117,7 +33221,10 @@
       "defense": {
         "spg": 0.6,
         "bpg": 0.4,
-        "rpg": 3.3
+        "rpg": 3.3,
+        "stl_pct": 0.01619933865851636,
+        "blk_pct": 0.02071490094745909,
+        "reb_pct": 0.084
       },
       "hustle": {
         "contested_shots": 4.57,
@@ -32204,7 +33311,10 @@
       "defense": {
         "spg": 0.5,
         "bpg": 0.0,
-        "rpg": 1.9
+        "rpg": 1.9,
+        "stl_pct": 0.015087168843012333,
+        "blk_pct": 0.0,
+        "reb_pct": 0.058
       },
       "hustle": {
         "contested_shots": 2.0,
@@ -32291,7 +33401,10 @@
       "defense": {
         "spg": 0.6,
         "bpg": 0.6,
-        "rpg": 8.4
+        "rpg": 8.4,
+        "stl_pct": 0.010687835274736083,
+        "blk_pct": 0.021303924173974666,
+        "reb_pct": 0.141
       },
       "hustle": {
         "contested_shots": 7.84,
@@ -32378,7 +33491,10 @@
       "defense": {
         "spg": 0.9,
         "bpg": 0.3,
-        "rpg": 3.8
+        "rpg": 3.8,
+        "stl_pct": 0.017282130220094647,
+        "blk_pct": 0.01097324985771201,
+        "reb_pct": 0.074
       },
       "hustle": {
         "contested_shots": 4.31,
@@ -32465,7 +33581,10 @@
       "defense": {
         "spg": 0.8,
         "bpg": 0.7,
-        "rpg": 4.1
+        "rpg": 4.1,
+        "stl_pct": 0.014691790971320055,
+        "blk_pct": 0.024124124124124124,
+        "reb_pct": 0.077
       },
       "hustle": {
         "contested_shots": 6.29,
@@ -32552,7 +33671,10 @@
       "defense": {
         "spg": 0.5,
         "bpg": 0.3,
-        "rpg": 3.2
+        "rpg": 3.2,
+        "stl_pct": 0.018802245968106486,
+        "blk_pct": 0.021242977528089884,
+        "reb_pct": 0.118
       },
       "hustle": {
         "contested_shots": 2.63,
@@ -32639,7 +33761,10 @@
       "defense": {
         "spg": 0.8,
         "bpg": 0.4,
-        "rpg": 1.8
+        "rpg": 1.8,
+        "stl_pct": 0.017868394424578448,
+        "blk_pct": 0.016765800549584334,
+        "reb_pct": 0.04
       },
       "hustle": {
         "contested_shots": 3.67,
@@ -32726,7 +33851,10 @@
       "defense": {
         "spg": 0.2,
         "bpg": 0.0,
-        "rpg": 1.2
+        "rpg": 1.2,
+        "stl_pct": 0.02547798704562203,
+        "blk_pct": 0.0,
+        "reb_pct": 0.152
       },
       "hustle": {
         "contested_shots": 0.8,
@@ -32813,7 +33941,10 @@
       "defense": {
         "spg": 1.1,
         "bpg": 0.2,
-        "rpg": 3.5
+        "rpg": 3.5,
+        "stl_pct": 0.01725740357089693,
+        "blk_pct": 0.0060185185185185185,
+        "reb_pct": 0.054
       },
       "hustle": {
         "contested_shots": 2.35,
@@ -32900,7 +34031,10 @@
       "defense": {
         "spg": 1.6,
         "bpg": 0.7,
-        "rpg": 5.2
+        "rpg": 5.2,
+        "stl_pct": 0.023835059561972773,
+        "blk_pct": 0.021576752871358042,
+        "reb_pct": 0.078
       },
       "hustle": {
         "contested_shots": 6.94,
@@ -32987,7 +34121,10 @@
       "defense": {
         "spg": 0.5,
         "bpg": 0.0,
-        "rpg": 4.4
+        "rpg": 4.4,
+        "stl_pct": 0.01342076497240413,
+        "blk_pct": 0.0,
+        "reb_pct": 0.12
       },
       "hustle": {
         "contested_shots": 2.41,
@@ -33074,7 +34211,10 @@
       "defense": {
         "spg": 0.4,
         "bpg": 0.3,
-        "rpg": 2.3
+        "rpg": 2.3,
+        "stl_pct": 0.012633068669606418,
+        "blk_pct": 0.017780291665641986,
+        "reb_pct": 0.071
       },
       "hustle": {
         "contested_shots": 3.42,
@@ -33161,7 +34301,10 @@
       "defense": {
         "spg": 0.8,
         "bpg": 0.2,
-        "rpg": 3.5
+        "rpg": 3.5,
+        "stl_pct": 0.02039531078167911,
+        "blk_pct": 0.009870311089222688,
+        "reb_pct": 0.091
       },
       "hustle": {
         "contested_shots": 4.08,
@@ -33248,7 +34391,10 @@
       "defense": {
         "spg": 1.1,
         "bpg": 1.1,
-        "rpg": 7.6
+        "rpg": 7.6,
+        "stl_pct": 0.016766864095993164,
+        "blk_pct": 0.032209464795577424,
+        "reb_pct": 0.117
       },
       "hustle": {
         "contested_shots": 7.64,
@@ -33335,7 +34481,10 @@
       "defense": {
         "spg": 0.6,
         "bpg": 0.2,
-        "rpg": 6.6
+        "rpg": 6.6,
+        "stl_pct": 0.016974377742652955,
+        "blk_pct": 0.011639371858692252,
+        "reb_pct": 0.185
       },
       "hustle": {
         "contested_shots": 3.11,
@@ -33422,7 +34571,10 @@
       "defense": {
         "spg": 0.9,
         "bpg": 0.7,
-        "rpg": 5.1
+        "rpg": 5.1,
+        "stl_pct": 0.020113811585076226,
+        "blk_pct": 0.030291603821015582,
+        "reb_pct": 0.113
       },
       "hustle": {
         "contested_shots": 5.29,
@@ -33509,7 +34661,10 @@
       "defense": {
         "spg": 0.4,
         "bpg": 0.3,
-        "rpg": 3.2
+        "rpg": 3.2,
+        "stl_pct": 0.01022253744786036,
+        "blk_pct": 0.015511859170340812,
+        "reb_pct": 0.081
       },
       "hustle": {
         "contested_shots": 4.36,
@@ -33596,7 +34751,10 @@
       "defense": {
         "spg": 1.0,
         "bpg": 1.1,
-        "rpg": 7.0
+        "rpg": 7.0,
+        "stl_pct": 0.015231830520422783,
+        "blk_pct": 0.02997241456961099,
+        "reb_pct": 0.105
       },
       "hustle": {
         "contested_shots": 6.66,
@@ -33683,7 +34841,10 @@
       "defense": {
         "spg": 0.2,
         "bpg": 0.5,
-        "rpg": 3.9
+        "rpg": 3.9,
+        "stl_pct": 0.008873987959066163,
+        "blk_pct": 0.04122194854953476,
+        "reb_pct": 0.163
       },
       "hustle": {
         "contested_shots": 4.71,
@@ -33770,7 +34931,10 @@
       "defense": {
         "spg": 0.1,
         "bpg": 0.0,
-        "rpg": 0.9
+        "rpg": 0.9,
+        "stl_pct": 0.010522925232147554,
+        "blk_pct": 0.0,
+        "reb_pct": 0.092
       },
       "hustle": {
         "contested_shots": 1.0,
@@ -33857,7 +35021,10 @@
       "defense": {
         "spg": 0.7,
         "bpg": 0.6,
-        "rpg": 8.4
+        "rpg": 8.4,
+        "stl_pct": 0.009709978321281504,
+        "blk_pct": 0.01567205258556487,
+        "reb_pct": 0.119
       },
       "hustle": {
         "contested_shots": 6.26,
@@ -33944,7 +35111,10 @@
       "defense": {
         "spg": 1.1,
         "bpg": 0.4,
-        "rpg": 6.6
+        "rpg": 6.6,
+        "stl_pct": 0.015741102048958337,
+        "blk_pct": 0.010296505169614629,
+        "reb_pct": 0.095
       },
       "hustle": {
         "contested_shots": 5.81,
@@ -34031,7 +35201,10 @@
       "defense": {
         "spg": 0.3,
         "bpg": 0.0,
-        "rpg": 1.5
+        "rpg": 1.5,
+        "stl_pct": 0.020997605311593177,
+        "blk_pct": 0.0,
+        "reb_pct": 0.099
       },
       "hustle": {
         "contested_shots": 1.59,
@@ -34118,7 +35291,10 @@
       "defense": {
         "spg": 0.7,
         "bpg": 0.1,
-        "rpg": 2.4
+        "rpg": 2.4,
+        "stl_pct": 0.018244815704049466,
+        "blk_pct": 0.0049556759418862345,
+        "reb_pct": 0.065
       },
       "hustle": {
         "contested_shots": 2.24,
@@ -34205,7 +35381,10 @@
       "defense": {
         "spg": 0.3,
         "bpg": 0.6,
-        "rpg": 2.6
+        "rpg": 2.6,
+        "stl_pct": 0.012683668670303383,
+        "blk_pct": 0.048320802005012535,
+        "reb_pct": 0.106
       },
       "hustle": {
         "contested_shots": 2.83,
@@ -34292,7 +35471,10 @@
       "defense": {
         "spg": 0.7,
         "bpg": 0.4,
-        "rpg": 3.0
+        "rpg": 3.0,
+        "stl_pct": 0.015971913693763187,
+        "blk_pct": 0.016945726214018898,
+        "reb_pct": 0.067
       },
       "hustle": {
         "contested_shots": 3.61,
@@ -34379,7 +35561,10 @@
       "defense": {
         "spg": 1.7,
         "bpg": 0.4,
-        "rpg": 5.3
+        "rpg": 5.3,
+        "stl_pct": 0.02670106082247839,
+        "blk_pct": 0.012222859267006473,
+        "reb_pct": 0.081
       },
       "hustle": {
         "contested_shots": 5.14,
@@ -34466,7 +35651,10 @@
       "defense": {
         "spg": 0.9,
         "bpg": 0.9,
-        "rpg": 4.5
+        "rpg": 4.5,
+        "stl_pct": 0.03130618417205061,
+        "blk_pct": 0.0646144241631488,
+        "reb_pct": 0.159
       },
       "hustle": {
         "contested_shots": 4.87,
@@ -34553,7 +35741,10 @@
       "defense": {
         "spg": 0.7,
         "bpg": 0.1,
-        "rpg": 3.9
+        "rpg": 3.9,
+        "stl_pct": 0.010963579218872723,
+        "blk_pct": 0.0031219372886526348,
+        "reb_pct": 0.059
       },
       "hustle": {
         "contested_shots": 1.76,
@@ -34640,7 +35831,10 @@
       "defense": {
         "spg": 0.7,
         "bpg": 0.2,
-        "rpg": 3.5
+        "rpg": 3.5,
+        "stl_pct": 0.012313133677306628,
+        "blk_pct": 0.006748035914702582,
+        "reb_pct": 0.062
       },
       "hustle": {
         "contested_shots": 4.71,
@@ -34727,7 +35921,10 @@
       "defense": {
         "spg": 0.3,
         "bpg": 0.3,
-        "rpg": 2.7
+        "rpg": 2.7,
+        "stl_pct": 0.009424919080113295,
+        "blk_pct": 0.019068718597934884,
+        "reb_pct": 0.086
       },
       "hustle": {
         "contested_shots": 3.34,
@@ -34814,7 +36011,10 @@
       "defense": {
         "spg": 0.9,
         "bpg": 1.1,
-        "rpg": 4.9
+        "rpg": 4.9,
+        "stl_pct": 0.014860586731450035,
+        "blk_pct": 0.03466566374435857,
+        "reb_pct": 0.083
       },
       "hustle": {
         "contested_shots": 6.13,
@@ -34901,7 +36101,10 @@
       "defense": {
         "spg": 0.9,
         "bpg": 0.7,
-        "rpg": 6.7
+        "rpg": 6.7,
+        "stl_pct": 0.01814985223951363,
+        "blk_pct": 0.02688981868898187,
+        "reb_pct": 0.139
       },
       "hustle": {
         "contested_shots": 5.58,
@@ -34988,7 +36191,10 @@
       "defense": {
         "spg": 0.9,
         "bpg": 0.4,
-        "rpg": 3.6
+        "rpg": 3.6,
+        "stl_pct": 0.014760910574731449,
+        "blk_pct": 0.01276332583323465,
+        "reb_pct": 0.058
       },
       "hustle": {
         "contested_shots": 3.62,
@@ -35075,7 +36281,10 @@
       "defense": {
         "spg": 0.6,
         "bpg": 0.1,
-        "rpg": 2.3
+        "rpg": 2.3,
+        "stl_pct": 0.015576887869610038,
+        "blk_pct": 0.004669999612448164,
+        "reb_pct": 0.061
       },
       "hustle": {
         "contested_shots": 2.19,
@@ -35162,7 +36371,10 @@
       "defense": {
         "spg": 0.4,
         "bpg": 0.5,
-        "rpg": 4.0
+        "rpg": 4.0,
+        "stl_pct": 0.011209036237665403,
+        "blk_pct": 0.026640338878347967,
+        "reb_pct": 0.111
       },
       "hustle": {
         "contested_shots": 6.27,
@@ -35249,7 +36461,10 @@
       "defense": {
         "spg": 0.7,
         "bpg": 0.3,
-        "rpg": 5.3
+        "rpg": 5.3,
+        "stl_pct": 0.011267603743455805,
+        "blk_pct": 0.009544554455445544,
+        "reb_pct": 0.088
       },
       "hustle": {
         "contested_shots": 4.72,
@@ -35336,7 +36551,10 @@
       "defense": {
         "spg": 0.4,
         "bpg": 0.4,
-        "rpg": 2.3
+        "rpg": 2.3,
+        "stl_pct": 0.016193633370862832,
+        "blk_pct": 0.03135571168358054,
+        "reb_pct": 0.089
       },
       "hustle": {
         "contested_shots": 2.13,
@@ -35423,7 +36641,10 @@
       "defense": {
         "spg": 0.2,
         "bpg": 0.2,
-        "rpg": 1.5
+        "rpg": 1.5,
+        "stl_pct": 0.007810259759215447,
+        "blk_pct": 0.01500365753062209,
+        "reb_pct": 0.053
       },
       "hustle": {
         "contested_shots": 1.46,
@@ -35510,7 +36731,10 @@
       "defense": {
         "spg": 0.9,
         "bpg": 0.1,
-        "rpg": 2.9
+        "rpg": 2.9,
+        "stl_pct": 0.025403087982537816,
+        "blk_pct": 0.005463922210105416,
+        "reb_pct": 0.082
       },
       "hustle": {
         "contested_shots": 2.76,
@@ -35597,7 +36821,10 @@
       "defense": {
         "spg": 1.5,
         "bpg": 0.7,
-        "rpg": 2.9
+        "rpg": 2.9,
+        "stl_pct": 0.028536283030461587,
+        "blk_pct": 0.024588264264090266,
+        "reb_pct": 0.053
       },
       "hustle": {
         "contested_shots": 3.8,
@@ -35684,7 +36911,10 @@
       "defense": {
         "spg": 0.2,
         "bpg": 0.1,
-        "rpg": 0.7
+        "rpg": 0.7,
+        "stl_pct": 0.01478275819187978,
+        "blk_pct": 0.014539969834087485,
+        "reb_pct": 0.055
       },
       "hustle": {
         "contested_shots": 2.13,
@@ -35771,7 +37001,10 @@
       "defense": {
         "spg": 0.7,
         "bpg": 0.1,
-        "rpg": 2.0
+        "rpg": 2.0,
+        "stl_pct": 0.021974780585378877,
+        "blk_pct": 0.005828647439385695,
+        "reb_pct": 0.062
       },
       "hustle": {
         "contested_shots": 2.1,
@@ -35858,7 +37091,10 @@
       "defense": {
         "spg": 0.6,
         "bpg": 1.5,
-        "rpg": 7.0
+        "rpg": 7.0,
+        "stl_pct": 0.016780460437823004,
+        "blk_pct": 0.07786501243901653,
+        "reb_pct": 0.192
       },
       "hustle": {
         "contested_shots": 5.27,
@@ -35945,7 +37181,10 @@
       "defense": {
         "spg": 0.0,
         "bpg": 1.0,
-        "rpg": 2.8
+        "rpg": 2.8,
+        "stl_pct": 0.0,
+        "blk_pct": 0.11854110818720642,
+        "reb_pct": 0.177
       },
       "hustle": {
         "contested_shots": 4.5,
@@ -36032,7 +37271,10 @@
       "defense": {
         "spg": 0.3,
         "bpg": 0.3,
-        "rpg": 1.7
+        "rpg": 1.7,
+        "stl_pct": 0.01392360191754609,
+        "blk_pct": 0.027753736079856907,
+        "reb_pct": 0.072
       },
       "hustle": {
         "contested_shots": 1.95,
@@ -36119,7 +37361,10 @@
       "defense": {
         "spg": 1.2,
         "bpg": 0.3,
-        "rpg": 4.0
+        "rpg": 4.0,
+        "stl_pct": 0.029156178223886327,
+        "blk_pct": 0.015044229411520409,
+        "reb_pct": 0.097
       },
       "hustle": {
         "contested_shots": 2.09,
@@ -36206,7 +37451,10 @@
       "defense": {
         "spg": 1.1,
         "bpg": 0.4,
-        "rpg": 4.8
+        "rpg": 4.8,
+        "stl_pct": 0.019130154915227043,
+        "blk_pct": 0.013469707131678964,
+        "reb_pct": 0.081
       },
       "hustle": {
         "contested_shots": 2.35,
@@ -36293,7 +37541,10 @@
       "defense": {
         "spg": 0.8,
         "bpg": 1.6,
-        "rpg": 11.5
+        "rpg": 11.5,
+        "stl_pct": 0.012172494534671587,
+        "blk_pct": 0.04423514835867639,
+        "reb_pct": 0.173
       },
       "hustle": {
         "contested_shots": 10.62,
@@ -36380,7 +37631,10 @@
       "defense": {
         "spg": 0.6,
         "bpg": 0.3,
-        "rpg": 3.3
+        "rpg": 3.3,
+        "stl_pct": 0.010338821403032813,
+        "blk_pct": 0.00986255305479424,
+        "reb_pct": 0.06
       },
       "hustle": {
         "contested_shots": 3.51,
@@ -36467,7 +37721,10 @@
       "defense": {
         "spg": 1.3,
         "bpg": 0.2,
-        "rpg": 5.4
+        "rpg": 5.4,
+        "stl_pct": 0.02168073468211028,
+        "blk_pct": 0.006353600263634866,
+        "reb_pct": 0.093
       },
       "hustle": {
         "contested_shots": 1.83,
@@ -36554,7 +37811,10 @@
       "defense": {
         "spg": 0.9,
         "bpg": 0.4,
-        "rpg": 4.2
+        "rpg": 4.2,
+        "stl_pct": 0.02291315649640127,
+        "blk_pct": 0.01971854033709704,
+        "reb_pct": 0.105
       },
       "hustle": {
         "contested_shots": 3.66,
@@ -36641,7 +37901,10 @@
       "defense": {
         "spg": 0.5,
         "bpg": 1.5,
-        "rpg": 5.5
+        "rpg": 5.5,
+        "stl_pct": 0.011610825367002458,
+        "blk_pct": 0.06472231174132562,
+        "reb_pct": 0.121
       },
       "hustle": {
         "contested_shots": 9.38,
@@ -36728,7 +37991,10 @@
       "defense": {
         "spg": 0.4,
         "bpg": 0.0,
-        "rpg": 2.2
+        "rpg": 2.2,
+        "stl_pct": 0.009685881971961154,
+        "blk_pct": 0.0,
+        "reb_pct": 0.054
       },
       "hustle": {
         "contested_shots": 1.86,
@@ -36815,7 +38081,10 @@
       "defense": {
         "spg": 1.5,
         "bpg": 0.4,
-        "rpg": 4.6
+        "rpg": 4.6,
+        "stl_pct": 0.0230484781242646,
+        "blk_pct": 0.012435259895641855,
+        "reb_pct": 0.07
       },
       "hustle": {
         "contested_shots": 3.89,
@@ -36902,7 +38171,10 @@
       "defense": {
         "spg": 0.9,
         "bpg": 0.1,
-        "rpg": 5.6
+        "rpg": 5.6,
+        "stl_pct": 0.013797505036999943,
+        "blk_pct": 0.0030235877403846155,
+        "reb_pct": 0.085
       },
       "hustle": {
         "contested_shots": 2.58,
@@ -36989,7 +38261,10 @@
       "defense": {
         "spg": 0.5,
         "bpg": 0.3,
-        "rpg": 3.8
+        "rpg": 3.8,
+        "stl_pct": 0.01019941269497664,
+        "blk_pct": 0.012198214648001622,
+        "reb_pct": 0.073
       },
       "hustle": {
         "contested_shots": 3.97,
@@ -37076,7 +38351,10 @@
       "defense": {
         "spg": 0.6,
         "bpg": 0.1,
-        "rpg": 2.6
+        "rpg": 2.6,
+        "stl_pct": 0.010877878669496441,
+        "blk_pct": 0.003566407695153534,
+        "reb_pct": 0.047
       },
       "hustle": {
         "contested_shots": 2.88,
@@ -37163,7 +38441,10 @@
       "defense": {
         "spg": 0.8,
         "bpg": 0.5,
-        "rpg": 4.9
+        "rpg": 4.9,
+        "stl_pct": 0.0178164849798675,
+        "blk_pct": 0.022009132420091327,
+        "reb_pct": 0.111
       },
       "hustle": {
         "contested_shots": 5.73,
@@ -37250,7 +38531,10 @@
       "defense": {
         "spg": 0.9,
         "bpg": 0.7,
-        "rpg": 6.7
+        "rpg": 6.7,
+        "stl_pct": 0.015296483086259333,
+        "blk_pct": 0.023030725874852942,
+        "reb_pct": 0.112
       },
       "hustle": {
         "contested_shots": 6.67,
@@ -37337,7 +38621,10 @@
       "defense": {
         "spg": 0.9,
         "bpg": 0.3,
-        "rpg": 2.7
+        "rpg": 2.7,
+        "stl_pct": 0.017285895993179125,
+        "blk_pct": 0.010694712551864919,
+        "reb_pct": 0.05
       },
       "hustle": {
         "contested_shots": 2.1,
@@ -37424,7 +38711,10 @@
       "defense": {
         "spg": 1.4,
         "bpg": 1.5,
-        "rpg": 7.5
+        "rpg": 7.5,
+        "stl_pct": 0.02038259065234095,
+        "blk_pct": 0.04316417910447761,
+        "reb_pct": 0.11
       },
       "hustle": {
         "contested_shots": 5.9,
@@ -37511,7 +38801,10 @@
       "defense": {
         "spg": 1.9,
         "bpg": 0.4,
-        "rpg": 2.2
+        "rpg": 2.2,
+        "stl_pct": 0.04249824781984315,
+        "blk_pct": 0.017319602477315284,
+        "reb_pct": 0.05
       },
       "hustle": {
         "contested_shots": 2.9,
@@ -37598,7 +38891,10 @@
       "defense": {
         "spg": 0.0,
         "bpg": 0.0,
-        "rpg": 0.4
+        "rpg": 0.4,
+        "stl_pct": 0.0,
+        "blk_pct": 0.0,
+        "reb_pct": 0.048
       },
       "hustle": {
         "contested_shots": 0.5,
@@ -37685,7 +38981,10 @@
       "defense": {
         "spg": 0.3,
         "bpg": 0.0,
-        "rpg": 1.2
+        "rpg": 1.2,
+        "stl_pct": 0.010935131216820196,
+        "blk_pct": 0.0,
+        "reb_pct": 0.049
       },
       "hustle": {
         "contested_shots": 1.38,
@@ -37772,7 +39071,10 @@
       "defense": {
         "spg": 1.4,
         "bpg": 0.1,
-        "rpg": 4.3
+        "rpg": 4.3,
+        "stl_pct": 0.0227734820227598,
+        "blk_pct": 0.0030192555843700283,
+        "reb_pct": 0.068
       },
       "hustle": {
         "contested_shots": 2.5,
@@ -37859,7 +39161,10 @@
       "defense": {
         "spg": 1.4,
         "bpg": 0.8,
-        "rpg": 4.3
+        "rpg": 4.3,
+        "stl_pct": 0.020358589282137123,
+        "blk_pct": 0.023560910307898253,
+        "reb_pct": 0.062
       },
       "hustle": {
         "contested_shots": 4.32,
@@ -37946,7 +39251,10 @@
       "defense": {
         "spg": 0.4,
         "bpg": 0.1,
-        "rpg": 2.1
+        "rpg": 2.1,
+        "stl_pct": 0.011106540987875758,
+        "blk_pct": 0.005143637683015324,
+        "reb_pct": 0.061
       },
       "hustle": {
         "contested_shots": 1.5,
@@ -38033,7 +39341,10 @@
       "defense": {
         "spg": 0.7,
         "bpg": 0.3,
-        "rpg": 2.2
+        "rpg": 2.2,
+        "stl_pct": 0.017527234855213035,
+        "blk_pct": 0.013942321599028086,
+        "reb_pct": 0.056
       },
       "hustle": {
         "contested_shots": 2.46,
@@ -38120,7 +39431,10 @@
       "defense": {
         "spg": 0.5,
         "bpg": 0.1,
-        "rpg": 3.0
+        "rpg": 3.0,
+        "stl_pct": 0.013903623998327414,
+        "blk_pct": 0.005333776890663119,
+        "reb_pct": 0.08
       },
       "hustle": {
         "contested_shots": 2.32,
@@ -38207,7 +39521,10 @@
       "defense": {
         "spg": 0.6,
         "bpg": 0.2,
-        "rpg": 3.5
+        "rpg": 3.5,
+        "stl_pct": 0.013251822018872138,
+        "blk_pct": 0.00820774797786292,
+        "reb_pct": 0.075
       },
       "hustle": {
         "contested_shots": 3.43,
@@ -38294,7 +39611,10 @@
       "defense": {
         "spg": 0.8,
         "bpg": 0.5,
-        "rpg": 3.3
+        "rpg": 3.3,
+        "stl_pct": 0.017692242021153184,
+        "blk_pct": 0.021104558758391883,
+        "reb_pct": 0.073
       },
       "hustle": {
         "contested_shots": 4.46,
@@ -38381,7 +39701,10 @@
       "defense": {
         "spg": 1.1,
         "bpg": 0.4,
-        "rpg": 3.6
+        "rpg": 3.6,
+        "stl_pct": 0.017257925534204906,
+        "blk_pct": 0.011932112947454237,
+        "reb_pct": 0.057
       },
       "hustle": {
         "contested_shots": 2.77,
@@ -38468,7 +39791,10 @@
       "defense": {
         "spg": 1.1,
         "bpg": 0.3,
-        "rpg": 5.3
+        "rpg": 5.3,
+        "stl_pct": 0.01758388748161533,
+        "blk_pct": 0.008874538745387454,
+        "reb_pct": 0.084
       },
       "hustle": {
         "contested_shots": 4.28,
@@ -38555,7 +39881,10 @@
       "defense": {
         "spg": 0.7,
         "bpg": 0.6,
-        "rpg": 8.6
+        "rpg": 8.6,
+        "stl_pct": 0.01530279037364519,
+        "blk_pct": 0.024218515929291914,
+        "reb_pct": 0.177
       },
       "hustle": {
         "contested_shots": 5.56,
@@ -38642,7 +39971,10 @@
       "defense": {
         "spg": 0.5,
         "bpg": 0.1,
-        "rpg": 2.5
+        "rpg": 2.5,
+        "stl_pct": 0.010165031404330414,
+        "blk_pct": 0.004182111966543104,
+        "reb_pct": 0.051
       },
       "hustle": {
         "contested_shots": 2.59,
@@ -38729,7 +40061,10 @@
       "defense": {
         "spg": 1.0,
         "bpg": 0.2,
-        "rpg": 2.2
+        "rpg": 2.2,
+        "stl_pct": 0.02762180697808757,
+        "blk_pct": 0.009937324756721096,
+        "reb_pct": 0.063
       },
       "hustle": {
         "contested_shots": 1.43,
@@ -38816,7 +40151,10 @@
       "defense": {
         "spg": 0.7,
         "bpg": 0.1,
-        "rpg": 1.6
+        "rpg": 1.6,
+        "stl_pct": 0.025582042770474947,
+        "blk_pct": 0.006573922531369341,
+        "reb_pct": 0.057
       },
       "hustle": {
         "contested_shots": 2.84,
@@ -38903,7 +40241,10 @@
       "defense": {
         "spg": 0.2,
         "bpg": 0.1,
-        "rpg": 2.7
+        "rpg": 2.7,
+        "stl_pct": 0.009777133519052359,
+        "blk_pct": 0.009463287951522785,
+        "reb_pct": 0.121
       },
       "hustle": {
         "contested_shots": 2.4,
@@ -38990,7 +40331,10 @@
       "defense": {
         "spg": 1.2,
         "bpg": 0.5,
-        "rpg": 6.3
+        "rpg": 6.3,
+        "stl_pct": 0.023182964818545537,
+        "blk_pct": 0.017835341188238235,
+        "reb_pct": 0.116
       },
       "hustle": {
         "contested_shots": 4.63,
@@ -39077,7 +40421,10 @@
       "defense": {
         "spg": 0.6,
         "bpg": 0.2,
-        "rpg": 3.1
+        "rpg": 3.1,
+        "stl_pct": 0.012593296132576913,
+        "blk_pct": 0.008493017928725607,
+        "reb_pct": 0.067
       },
       "hustle": {
         "contested_shots": 2.15,
@@ -39164,7 +40511,10 @@
       "defense": {
         "spg": 0.8,
         "bpg": 0.5,
-        "rpg": 3.7
+        "rpg": 3.7,
+        "stl_pct": 0.01996593581785429,
+        "blk_pct": 0.02415628766572921,
+        "reb_pct": 0.096
       },
       "hustle": {
         "contested_shots": 3.83,
@@ -39251,7 +40601,10 @@
       "defense": {
         "spg": 0.7,
         "bpg": 0.2,
-        "rpg": 3.2
+        "rpg": 3.2,
+        "stl_pct": 0.014283685666561165,
+        "blk_pct": 0.007658452102896546,
+        "reb_pct": 0.066
       },
       "hustle": {
         "contested_shots": 2.71,
@@ -39338,7 +40691,10 @@
       "defense": {
         "spg": 0.3,
         "bpg": 0.0,
-        "rpg": 1.1
+        "rpg": 1.1,
+        "stl_pct": 0.011429972368056622,
+        "blk_pct": 0.0,
+        "reb_pct": 0.045
       },
       "hustle": {
         "contested_shots": 1.87,
@@ -39425,7 +40781,10 @@
       "defense": {
         "spg": 0.4,
         "bpg": 0.2,
-        "rpg": 0.9
+        "rpg": 0.9,
+        "stl_pct": 0.04483976653266022,
+        "blk_pct": 0.04536043666478449,
+        "reb_pct": 0.096
       },
       "hustle": {
         "contested_shots": 0.76,
@@ -39512,7 +40871,10 @@
       "defense": {
         "spg": 0.3,
         "bpg": 0.4,
-        "rpg": 3.4
+        "rpg": 3.4,
+        "stl_pct": 0.011814089538592448,
+        "blk_pct": 0.030986820957891358,
+        "reb_pct": 0.129
       },
       "hustle": {
         "contested_shots": 3.33,
@@ -39599,7 +40961,10 @@
       "defense": {
         "spg": 0.4,
         "bpg": 0.2,
-        "rpg": 4.0
+        "rpg": 4.0,
+        "stl_pct": 0.012742136556607825,
+        "blk_pct": 0.011838098044994597,
+        "reb_pct": 0.125
       },
       "hustle": {
         "contested_shots": 2.88,
@@ -39686,7 +41051,10 @@
       "defense": {
         "spg": 0.5,
         "bpg": 0.1,
-        "rpg": 2.6
+        "rpg": 2.6,
+        "stl_pct": 0.009186995974330012,
+        "blk_pct": 0.003506847733537298,
+        "reb_pct": 0.047
       },
       "hustle": {
         "contested_shots": 2.96,
@@ -39773,7 +41141,10 @@
       "defense": {
         "spg": 0.9,
         "bpg": 0.4,
-        "rpg": 5.1
+        "rpg": 5.1,
+        "stl_pct": 0.015709601443736586,
+        "blk_pct": 0.014410597607184413,
+        "reb_pct": 0.088
       },
       "hustle": {
         "contested_shots": 3.94,
@@ -39860,7 +41231,10 @@
       "defense": {
         "spg": 0.1,
         "bpg": 0.4,
-        "rpg": 3.3
+        "rpg": 3.3,
+        "stl_pct": 0.00525550676318241,
+        "blk_pct": 0.04338842975206612,
+        "reb_pct": 0.185
       },
       "hustle": {
         "contested_shots": 2.45,
@@ -39947,7 +41321,10 @@
       "defense": {
         "spg": 0.1,
         "bpg": 0.2,
-        "rpg": 2.8
+        "rpg": 2.8,
+        "stl_pct": 0.004295642867568496,
+        "blk_pct": 0.016504023283684298,
+        "reb_pct": 0.121
       },
       "hustle": {
         "contested_shots": 2.95,
@@ -40034,7 +41411,10 @@
       "defense": {
         "spg": 1.1,
         "bpg": 0.4,
-        "rpg": 5.1
+        "rpg": 5.1,
+        "stl_pct": 0.01579782086263518,
+        "blk_pct": 0.010662596297955415,
+        "reb_pct": 0.072
       },
       "hustle": {
         "contested_shots": 5.18,
@@ -40121,7 +41501,10 @@
       "defense": {
         "spg": 0.9,
         "bpg": 0.1,
-        "rpg": 2.0
+        "rpg": 2.0,
+        "stl_pct": 0.016692350176114056,
+        "blk_pct": 0.0034357892335766423,
+        "reb_pct": 0.037
       },
       "hustle": {
         "contested_shots": 1.0,
@@ -40208,7 +41591,10 @@
       "defense": {
         "spg": 0.3,
         "bpg": 0.5,
-        "rpg": 2.7
+        "rpg": 2.7,
+        "stl_pct": 0.01556573222310232,
+        "blk_pct": 0.051276595744680846,
+        "reb_pct": 0.14
       },
       "hustle": {
         "contested_shots": 3.59,
@@ -40295,7 +41681,10 @@
       "defense": {
         "spg": 0.6,
         "bpg": 0.3,
-        "rpg": 2.8
+        "rpg": 2.8,
+        "stl_pct": 0.011870115680792218,
+        "blk_pct": 0.010994525547445257,
+        "reb_pct": 0.055
       },
       "hustle": {
         "contested_shots": 2.59,
@@ -40382,7 +41771,10 @@
       "defense": {
         "spg": 1.2,
         "bpg": 0.2,
-        "rpg": 3.1
+        "rpg": 3.1,
+        "stl_pct": 0.020788840045850496,
+        "blk_pct": 0.0064330997664331,
+        "reb_pct": 0.054
       },
       "hustle": {
         "contested_shots": 2.46,
@@ -40469,7 +41861,10 @@
       "defense": {
         "spg": 0.5,
         "bpg": 0.1,
-        "rpg": 1.7
+        "rpg": 1.7,
+        "stl_pct": 0.01971997324236925,
+        "blk_pct": 0.007328346408806179,
+        "reb_pct": 0.068
       },
       "hustle": {
         "contested_shots": 1.84,
@@ -40556,7 +41951,10 @@
       "defense": {
         "spg": 0.3,
         "bpg": 0.4,
-        "rpg": 3.3
+        "rpg": 3.3,
+        "stl_pct": 0.00887465789155633,
+        "blk_pct": 0.02302096806730667,
+        "reb_pct": 0.094
       },
       "hustle": {
         "contested_shots": 3.61,
@@ -40643,7 +42041,10 @@
       "defense": {
         "spg": 0.1,
         "bpg": 0.0,
-        "rpg": 0.3
+        "rpg": 0.3,
+        "stl_pct": 0.024441107449691354,
+        "blk_pct": 0.0,
+        "reb_pct": 0.047
       },
       "hustle": {
         "contested_shots": 0.5,
@@ -40730,7 +42131,10 @@
       "defense": {
         "spg": 0.7,
         "bpg": 0.2,
-        "rpg": 1.2
+        "rpg": 1.2,
+        "stl_pct": 0.027221093948335925,
+        "blk_pct": 0.01533917682926829,
+        "reb_pct": 0.045
       },
       "hustle": {
         "contested_shots": 3.0,
@@ -40817,7 +42221,10 @@
       "defense": {
         "spg": 0.1,
         "bpg": 0.2,
-        "rpg": 1.4
+        "rpg": 1.4,
+        "stl_pct": 0.007850436284300556,
+        "blk_pct": 0.032487446500185355,
+        "reb_pct": 0.101
       },
       "hustle": {
         "contested_shots": 1.36,
@@ -40904,7 +42311,10 @@
       "defense": {
         "spg": 1.5,
         "bpg": 0.4,
-        "rpg": 5.7
+        "rpg": 5.7,
+        "stl_pct": 0.020210429913352028,
+        "blk_pct": 0.010629401408450704,
+        "reb_pct": 0.078
       },
       "hustle": {
         "contested_shots": 4.8,
@@ -40991,7 +42401,10 @@
       "defense": {
         "spg": 0.6,
         "bpg": 0.0,
-        "rpg": 1.6
+        "rpg": 1.6,
+        "stl_pct": 0.030343556288595336,
+        "blk_pct": 0.0,
+        "reb_pct": 0.09
       },
       "hustle": {
         "contested_shots": 2.0,
@@ -41078,7 +42491,10 @@
       "defense": {
         "spg": 0.5,
         "bpg": 0.7,
-        "rpg": 3.0
+        "rpg": 3.0,
+        "stl_pct": 0.017328636030353603,
+        "blk_pct": 0.04494112632532368,
+        "reb_pct": 0.104
       },
       "hustle": {
         "contested_shots": 4.36,
@@ -41165,7 +42581,10 @@
       "defense": {
         "spg": 0.9,
         "bpg": 0.3,
-        "rpg": 3.7
+        "rpg": 3.7,
+        "stl_pct": 0.017538613243124432,
+        "blk_pct": 0.011008506573261155,
+        "reb_pct": 0.073
       },
       "hustle": {
         "contested_shots": 3.91,
@@ -41252,7 +42671,10 @@
       "defense": {
         "spg": 1.1,
         "bpg": 0.3,
-        "rpg": 2.8
+        "rpg": 2.8,
+        "stl_pct": 0.023080091736347046,
+        "blk_pct": 0.012185030061474025,
+        "reb_pct": 0.065
       },
       "hustle": {
         "contested_shots": 2.2,
@@ -41339,7 +42761,10 @@
       "defense": {
         "spg": 0.4,
         "bpg": 0.2,
-        "rpg": 0.4
+        "rpg": 0.4,
+        "stl_pct": 0.03613241799197306,
+        "blk_pct": 0.03429994662871375,
+        "reb_pct": 0.04
       },
       "hustle": {
         "contested_shots": 1.14,
@@ -41426,7 +42851,10 @@
       "defense": {
         "spg": 0.7,
         "bpg": 0.4,
-        "rpg": 4.8
+        "rpg": 4.8,
+        "stl_pct": 0.010385518500987059,
+        "blk_pct": 0.011383268252277838,
+        "reb_pct": 0.071
       },
       "hustle": {
         "contested_shots": 3.33,
@@ -41513,7 +42941,10 @@
       "defense": {
         "spg": 0.4,
         "bpg": 0.1,
-        "rpg": 1.6
+        "rpg": 1.6,
+        "stl_pct": 0.016908631996955047,
+        "blk_pct": 0.008746620211588367,
+        "reb_pct": 0.064
       },
       "hustle": {
         "contested_shots": 1.5,
@@ -41600,7 +43031,10 @@
       "defense": {
         "spg": 0.5,
         "bpg": 0.0,
-        "rpg": 2.8
+        "rpg": 2.8,
+        "stl_pct": 0.0171082154396053,
+        "blk_pct": 0.0,
+        "reb_pct": 0.086
       },
       "hustle": {
         "contested_shots": 2.58,
@@ -41687,7 +43121,10 @@
       "defense": {
         "spg": 0.5,
         "bpg": 0.1,
-        "rpg": 2.5
+        "rpg": 2.5,
+        "stl_pct": 0.014265968800036312,
+        "blk_pct": 0.005550913897886076,
+        "reb_pct": 0.074
       },
       "hustle": {
         "contested_shots": 2.43,
@@ -41774,7 +43211,10 @@
       "defense": {
         "spg": 1.9,
         "bpg": 0.8,
-        "rpg": 4.1
+        "rpg": 4.1,
+        "stl_pct": 0.024109487272061365,
+        "blk_pct": 0.019749567341952563,
+        "reb_pct": 0.052
       },
       "hustle": {
         "contested_shots": 3.87,
@@ -41861,7 +43301,10 @@
       "defense": {
         "spg": 0.5,
         "bpg": 0.0,
-        "rpg": 1.3
+        "rpg": 1.3,
+        "stl_pct": 0.02203851565303178,
+        "blk_pct": 0.0,
+        "reb_pct": 0.055
       },
       "hustle": {
         "contested_shots": 1.05,
@@ -41948,7 +43391,10 @@
       "defense": {
         "spg": 0.5,
         "bpg": 0.0,
-        "rpg": 1.1
+        "rpg": 1.1,
+        "stl_pct": 0.01569139067348265,
+        "blk_pct": 0.0,
+        "reb_pct": 0.036
       },
       "hustle": {
         "contested_shots": 1.61,
@@ -42035,7 +43481,10 @@
       "defense": {
         "spg": 0.6,
         "bpg": 0.0,
-        "rpg": 1.1
+        "rpg": 1.1,
+        "stl_pct": 0.0200855418836037,
+        "blk_pct": 0.0,
+        "reb_pct": 0.036
       },
       "hustle": {
         "contested_shots": 0.9,
@@ -42122,7 +43571,10 @@
       "defense": {
         "spg": 1.4,
         "bpg": 0.5,
-        "rpg": 5.6
+        "rpg": 5.6,
+        "stl_pct": 0.01928758981764909,
+        "blk_pct": 0.013401492124896382,
+        "reb_pct": 0.077
       },
       "hustle": {
         "contested_shots": 4.45,
@@ -42209,7 +43661,10 @@
       "defense": {
         "spg": 1.0,
         "bpg": 3.1,
-        "rpg": 11.5
+        "rpg": 11.5,
+        "stl_pct": 0.016423307112343084,
+        "blk_pct": 0.09421599352979833,
+        "reb_pct": 0.186
       },
       "hustle": {
         "contested_shots": 9.39,
@@ -42296,7 +43751,10 @@
       "defense": {
         "spg": 0.0,
         "bpg": 0.3,
-        "rpg": 1.0
+        "rpg": 1.0,
+        "stl_pct": 0.0,
+        "blk_pct": 0.09897119341563786,
+        "reb_pct": 0.164
       },
       "hustle": {
         "contested_shots": 1.83,
@@ -42383,7 +43841,10 @@
       "defense": {
         "spg": 0.7,
         "bpg": 0.3,
-        "rpg": 2.3
+        "rpg": 2.3,
+        "stl_pct": 0.015643466623110704,
+        "blk_pct": 0.012443847782310119,
+        "reb_pct": 0.05
       },
       "hustle": {
         "contested_shots": 4.23,
@@ -42470,7 +43931,10 @@
       "defense": {
         "spg": 1.4,
         "bpg": 1.8,
-        "rpg": 10.8
+        "rpg": 10.8,
+        "stl_pct": 0.021346565949093867,
+        "blk_pct": 0.056458511548331904,
+        "reb_pct": 0.167
       },
       "hustle": {
         "contested_shots": 8.6,
@@ -42557,7 +44021,10 @@
       "defense": {
         "spg": 0.6,
         "bpg": 0.3,
-        "rpg": 2.0
+        "rpg": 2.0,
+        "stl_pct": 0.013946793402177625,
+        "blk_pct": 0.013499101930848677,
+        "reb_pct": 0.048
       },
       "hustle": {
         "contested_shots": 4.35,
@@ -42644,7 +44111,10 @@
       "defense": {
         "spg": 0.8,
         "bpg": 0.6,
-        "rpg": 7.4
+        "rpg": 7.4,
+        "stl_pct": 0.013142320731290813,
+        "blk_pct": 0.018560417225907885,
+        "reb_pct": 0.124
       },
       "hustle": {
         "contested_shots": 7.63,
@@ -42731,7 +44201,10 @@
       "defense": {
         "spg": 0.3,
         "bpg": 0.3,
-        "rpg": 1.0
+        "rpg": 1.0,
+        "stl_pct": 0.014651715824629742,
+        "blk_pct": 0.030240420736288496,
+        "reb_pct": 0.056
       },
       "hustle": {
         "contested_shots": 1.8,
@@ -42818,7 +44291,10 @@
       "defense": {
         "spg": 1.2,
         "bpg": 0.1,
-        "rpg": 2.5
+        "rpg": 2.5,
+        "stl_pct": 0.02908744903674172,
+        "blk_pct": 0.004608778625954198,
+        "reb_pct": 0.061
       },
       "hustle": {
         "contested_shots": 2.18,
@@ -42905,7 +44381,10 @@
       "defense": {
         "spg": 0.7,
         "bpg": 0.1,
-        "rpg": 2.9
+        "rpg": 2.9,
+        "stl_pct": 0.015039060591048961,
+        "blk_pct": 0.003979918750206428,
+        "reb_pct": 0.064
       },
       "hustle": {
         "contested_shots": 3.47,
@@ -42992,7 +44471,10 @@
       "defense": {
         "spg": 0.3,
         "bpg": 0.2,
-        "rpg": 1.4
+        "rpg": 1.4,
+        "stl_pct": 0.02443983569054288,
+        "blk_pct": 0.03027448024621569,
+        "reb_pct": 0.116
       },
       "hustle": {
         "contested_shots": 2.7,
@@ -43079,7 +44561,10 @@
       "defense": {
         "spg": 0.1,
         "bpg": 0.2,
-        "rpg": 1.5
+        "rpg": 1.5,
+        "stl_pct": 0.006832044606827939,
+        "blk_pct": 0.025361746908708238,
+        "reb_pct": 0.102
       },
       "hustle": {
         "contested_shots": 3.03,
@@ -43166,7 +44651,10 @@
       "defense": {
         "spg": 0.1,
         "bpg": 0.7,
-        "rpg": 2.9
+        "rpg": 2.9,
+        "stl_pct": 0.004823502401841064,
+        "blk_pct": 0.06410426918473201,
+        "reb_pct": 0.14
       },
       "hustle": {
         "contested_shots": 4.15,
@@ -43253,7 +44741,10 @@
       "defense": {
         "spg": 0.5,
         "bpg": 0.0,
-        "rpg": 1.8
+        "rpg": 1.8,
+        "stl_pct": 0.02016159056170845,
+        "blk_pct": 0.0,
+        "reb_pct": 0.074
       },
       "hustle": {
         "contested_shots": 1.62,
@@ -43340,7 +44831,10 @@
       "defense": {
         "spg": 0.3,
         "bpg": 1.5,
-        "rpg": 5.8
+        "rpg": 5.8,
+        "stl_pct": 0.007283962049989817,
+        "blk_pct": 0.07182939403553298,
+        "reb_pct": 0.137
       },
       "hustle": {
         "contested_shots": 6.79,
@@ -43427,7 +44921,10 @@
       "defense": {
         "spg": 0.9,
         "bpg": 0.5,
-        "rpg": 3.8
+        "rpg": 3.8,
+        "stl_pct": 0.018985207316485765,
+        "blk_pct": 0.020261635727737422,
+        "reb_pct": 0.081
       },
       "hustle": {
         "contested_shots": 4.42,
@@ -43514,7 +45011,10 @@
       "defense": {
         "spg": 0.2,
         "bpg": 0.4,
-        "rpg": 5.6
+        "rpg": 5.6,
+        "stl_pct": 0.0050842271851264794,
+        "blk_pct": 0.018879749314531926,
+        "reb_pct": 0.143
       },
       "hustle": {
         "contested_shots": 5.7,
@@ -43601,7 +45101,10 @@
       "defense": {
         "spg": 0.6,
         "bpg": 1.9,
-        "rpg": 11.1
+        "rpg": 11.1,
+        "stl_pct": 0.011027697108698588,
+        "blk_pct": 0.06760015385525771,
+        "reb_pct": 0.198
       },
       "hustle": {
         "contested_shots": 8.0,
@@ -43688,7 +45191,10 @@
       "defense": {
         "spg": 0.7,
         "bpg": 0.3,
-        "rpg": 2.8
+        "rpg": 2.8,
+        "stl_pct": 0.010744763905416243,
+        "blk_pct": 0.008771610555050047,
+        "reb_pct": 0.044
       },
       "hustle": {
         "contested_shots": 4.23,
@@ -43775,7 +45281,10 @@
       "defense": {
         "spg": 0.3,
         "bpg": 0.5,
-        "rpg": 2.6
+        "rpg": 2.6,
+        "stl_pct": 0.012218704645858917,
+        "blk_pct": 0.038867562380038384,
+        "reb_pct": 0.103
       },
       "hustle": {
         "contested_shots": 3.63,
@@ -43862,7 +45371,10 @@
       "defense": {
         "spg": 1.4,
         "bpg": 0.4,
-        "rpg": 2.4
+        "rpg": 2.4,
+        "stl_pct": 0.030313848183182213,
+        "blk_pct": 0.016253308829728044,
+        "reb_pct": 0.052
       },
       "hustle": {
         "contested_shots": 3.69,
@@ -43949,7 +45461,10 @@
       "defense": {
         "spg": 1.0,
         "bpg": 0.5,
-        "rpg": 5.7
+        "rpg": 5.7,
+        "stl_pct": 0.016104831917485903,
+        "blk_pct": 0.015881470959595956,
+        "reb_pct": 0.09
       },
       "hustle": {
         "contested_shots": 4.11,
@@ -44036,7 +45551,10 @@
       "defense": {
         "spg": 0.2,
         "bpg": 0.0,
-        "rpg": 0.6
+        "rpg": 0.6,
+        "stl_pct": 0.01120585526280061,
+        "blk_pct": 0.0,
+        "reb_pct": 0.033
       },
       "hustle": {
         "contested_shots": 3.5,
