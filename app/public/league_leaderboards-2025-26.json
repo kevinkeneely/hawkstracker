@@ -1,6 +1,6 @@
 {
   "season": "2025-26",
-  "generated_at": "2026-11-10T22:50:51.242457+00:00",
+  "generated_at": "2026-11-10T23:11:46.719645+00:00",
   "min_gp": 5,
   "min_fga_per_zone": {
     "at_rim": 15,
@@ -16,6 +16,10 @@
       "attempts_field": "fga",
       "min": 50
     },
+    "fg3_pct": {
+      "attempts_field": "fg3a",
+      "min": 20
+    },
     "efg_pct": {
       "attempts_field": "fga",
       "min": 50
@@ -26,7 +30,7 @@
     },
     "ft_pct": {
       "attempts_field": "fta",
-      "min": 25
+      "min": 20
     }
   },
   "players": [

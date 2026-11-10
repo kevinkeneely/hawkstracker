@@ -62,11 +62,16 @@ MIN_FGA = {
 # FT% uses 25 FTA. For TS% specifically, FGA is a close proxy for TSA since
 # TSA = FGA + 0.44*FTA; the 50 floor on FGA still catches no-free-throw jumper
 # specialists who otherwise might slip through on a tiny TSA sample.
+# NOTE: fg3_pct (20 3PA) and ft_pct (20 FTA) are set lower than the
+# 50-FGA floors above because the season is still young (~10 games in).
+# When the FG/eFG/TS floors are bumped later in the season, bump these
+# proportionally too (e.g. 50 -> 100 FGA implies ~25 -> ~40 for 3PA/FTA).
 MIN_OVERALL = {
-    "fg_pct":  {"attempts_field": "fga", "min": 50},
-    "efg_pct": {"attempts_field": "fga", "min": 50},
-    "ts_pct":  {"attempts_field": "fga", "min": 50},
-    "ft_pct":  {"attempts_field": "fta", "min": 25},
+    "fg_pct":  {"attempts_field": "fga",  "min": 50},
+    "fg3_pct": {"attempts_field": "fg3a", "min": 20},
+    "efg_pct": {"attempts_field": "fga",  "min": 50},
+    "ts_pct":  {"attempts_field": "fga",  "min": 50},
+    "ft_pct":  {"attempts_field": "fta",  "min": 20},
 }
 
 

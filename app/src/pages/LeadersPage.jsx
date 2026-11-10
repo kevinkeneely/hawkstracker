@@ -12,16 +12,19 @@ const SECTION_CONFIG = {
   shooting: {
     title: 'Shooting',
     stats: [
-      // Overall shooting (4) ────
-      { key: 'ts_pct',  label: 'TS%',  source: 'overall', attempts: 'fga', attemptsLabel: 'FGA' },
-      { key: 'fg_pct',  label: 'FG%',  source: 'overall', attempts: 'fga', attemptsLabel: 'FGA' },
-      { key: 'efg_pct', label: 'eFG%', source: 'overall', attempts: 'fga', attemptsLabel: 'FGA' },
-      { key: 'ft_pct',  label: 'FT%',  source: 'overall', attempts: 'fta', attemptsLabel: 'FTA' },
-      // By shot zone (5) ────────
-      { key: 'at_rim',        label: 'At the Rim',        source: 'zones' },
-      { key: 'paint',         label: 'In the Paint',      source: 'zones' },
-      { key: 'mid',           label: 'Mid-Range',         source: 'zones' },
-      { key: 'corner_3',      label: 'Corner 3',          source: 'zones' },
+      // Row 1 — headline %s
+      { key: 'fg_pct',  label: 'FG%',  source: 'overall', attempts: 'fga',  attemptsLabel: 'FGA' },
+      { key: 'fg3_pct', label: '3P%',  source: 'overall', attempts: 'fg3a', attemptsLabel: '3PA' },
+      { key: 'ft_pct',  label: 'FT%',  source: 'overall', attempts: 'fta',  attemptsLabel: 'FTA' },
+      // Row 2 — advanced shooting + rim
+      { key: 'ts_pct',  label: 'TS%',  source: 'overall', attempts: 'fga',  attemptsLabel: 'FGA' },
+      { key: 'efg_pct', label: 'eFG%', source: 'overall', attempts: 'fga',  attemptsLabel: 'FGA' },
+      { key: 'at_rim',  label: 'At the Rim', source: 'zones' },
+      // Row 3 — mid-paint zones
+      { key: 'paint',    label: 'In the Paint', source: 'zones' },
+      { key: 'mid',      label: 'Mid-Range',    source: 'zones' },
+      { key: 'corner_3', label: 'Corner 3',     source: 'zones' },
+      // Row 4 — deep 3s
       { key: 'above_break_3', label: 'Above the Break 3', source: 'zones' },
     ],
   },
