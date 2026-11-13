@@ -22,7 +22,7 @@ Shape:
 
 Per-game entry fields (all nullable):
   game_id, date, opp_tricode, home_away, won,
-  min, pts, fgm, fga, fg_pct, fg3m, fg3a, fg3_pct, ftm, fta, ft_pct,
+  min, pts, reb, ast, fgm, fga, fg_pct, fg3m, fg3a, fg3_pct, ftm, fta, ft_pct,
   efg_pct, ts_pct, net_rating, off_rating, def_rating
 
 Players who did not play in a given game (DNP) are skipped for that
@@ -162,6 +162,8 @@ def _game_entry(game, trad_row, adv_row, opp_poss, opp_fga_2pt, team_min):
         "won":         (game.get("hawks_score") or 0) > (game.get("opp_score") or 0),
         "min":         mp,
         "pts":         trad_row.get("PTS"),
+        "reb":         trad_row.get("REB"),
+        "ast":         trad_row.get("AST"),
         "fgm":         trad_row.get("FGM"),
         "fga":         trad_row.get("FGA"),
         "fg_pct":      trad_row.get("FG_PCT"),

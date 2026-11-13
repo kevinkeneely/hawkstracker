@@ -1,6 +1,7 @@
 import HeaderStats from '../components/HeaderStats'
 import TeamStats from '../components/TeamStats'
 import PointDifferentialChart from '../components/PointDifferentialChart'
+import FormWatchRow from '../components/FormWatchRow'
 
 // HomePage — default landing page at `/`.
 //
@@ -12,7 +13,7 @@ import PointDifferentialChart from '../components/PointDifferentialChart'
 // Phase 2 (Oct 27, 2026): Team Stats moved onto this page, full-size for
 // now. Phase 5 adds a point-differential chart next to it. Phase 6 compacts
 // the Team Stats cards so both fit cleanly side-by-side without scroll.
-export default function HomePage({ hawks, teamData, season }) {
+export default function HomePage({ hawks, teamData, season, gameLogs }) {
   // Early-season / empty-data fallback: before the Hawks have played a game,
   // the stats endpoints return no rows. Mirror TeamStatsPage's empty state so
   // the home page doesn't look broken on the first visit of the season.
@@ -47,6 +48,7 @@ export default function HomePage({ hawks, teamData, season }) {
     <section className="home-team-stats-full">
       <TeamStats team={hawks} allTeams={teamData.teams} />
     </section>
+    <FormWatchRow gameLogs={gameLogs} />
     </>
   )
 }

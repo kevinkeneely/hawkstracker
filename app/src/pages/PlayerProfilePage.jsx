@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { useParams, Link, useNavigate } from 'react-router-dom'
+import { useParams, Link, useNavigate, useSearchParams } from 'react-router-dom'
 import ShotChart from '../components/ShotChart'
 import Tabs from '../components/Tabs'
 import {
@@ -11,6 +11,8 @@ import {
 
 export default function PlayerProfilePage({ playerData, season, leagueBaseline, gameLogs, onoff }) {
   const { id } = useParams()
+  const [searchParams] = useSearchParams()
+  const initialTab = searchParams.get('tab') || undefined
   const playerId = Number(id)
   const player = playerData?.players.find((p) => p.id === playerId)
 
@@ -78,6 +80,7 @@ export default function PlayerProfilePage({ playerData, season, leagueBaseline, 
             content: <TrendTab player={player} gameLogs={gameLogs} onoff={onoff} />,
           },
         ]}
+        initialTab={initialTab}
       />
     </div>
   )
