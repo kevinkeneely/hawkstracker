@@ -3505,22 +3505,43 @@ header {
 
 .trends-player-cell-top {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 4px;
-  font-size: 11px;
+  justify-content: flex-start;
+  align-items: flex-end;
+  gap: 8px;
+  min-width: 0;
+  margin-bottom: 2px;
+}
+
+/* Stacked "Season" / "Last N" label-above-value pair.
+   Same visual as .trends-team-card-values but smaller for the inline cell. */
+.trends-value-pair {
+  display: flex;
+  flex-direction: column;
   min-width: 0;
 }
 
-.trends-cell-season {
+.trends-pair-label {
+  color: var(--text-dim);
+  font-size: 9px;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  line-height: 1.1;
+  white-space: nowrap;
+}
+
+.trends-pair-value {
   font-family: var(--mono);
   font-variant-numeric: tabular-nums;
   color: var(--text-h);
-  font-weight: 500;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.2;
   white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
 }
+
+/* Keep the old .trends-cell-season class as a no-op alias in case anything
+   else on the site still references it. */
+.trends-cell-season { display: none; }
 
 /* Delta pill — compact, color-coded */
 .trend-delta {
@@ -3611,6 +3632,11 @@ header {
     font-size: 10px;
     padding: 1px 4px;
   }
+
+  /* Mobile cells have 130px of width and show two value pairs + a delta,
+     so sizing matters here. Labels stay small, values get a bit bigger. */
+  .trends-pair-label { font-size: 9px; }
+  .trends-pair-value { font-size: 12px; }
 }
 
 /* ---------- Lineups page ---------- */

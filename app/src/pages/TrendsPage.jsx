@@ -174,7 +174,18 @@ function PlayerTrendRow({ player, windowSize }) {
         return (
           <div key={stat.key} className="trends-player-cell">
             <div className="trends-player-cell-top">
-              <span className="trends-cell-season">{formatValue(seasonAvg, stat.format)}</span>
+              <div className="trends-value-pair">
+                <span className="trends-pair-label">Season</span>
+                <strong className="trends-pair-value">
+                  {formatValue(seasonAvg, stat.format)}
+                </strong>
+              </div>
+              <div className="trends-value-pair">
+                <span className="trends-pair-label">Last {windowSize}</span>
+                <strong className="trends-pair-value">
+                  {formatValue(windowAvg, stat.format)}
+                </strong>
+              </div>
               <DeltaBadge delta={delta} format={stat.format} inversePositive={false} />
             </div>
             <TrendSparkline

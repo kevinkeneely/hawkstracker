@@ -180,7 +180,17 @@ def run():
     if not SCHEDULE_PATH.exists():
         raise FileNotFoundError(f"{SCHEDULE_PATH} missing")
     sched = json.loads(SCHEDULE_PATH.read_text())
-    played = [g for g in sched.get("games", []) if g.get("status_code") == 3]
+    # Only include played REGULAR-SEASON games. Preseason (game_id prefix
+    # "001") is excluded so sparklines show real on-court data — otherwise
+    # 5 preseason games sit in front of the regular-season spike, players
+    # who only appeared in preseason show up with inflated samples, and
+    # the "Last 10" window includes garbage. Play-in and playoffs ("004",
+    # "005") are included if they ever appear.
+    played = [
+        g for g in sched.get("games", [])
+        if g.get("status_code") == 3
+        and not str(g.get("game_id", "")).startswith("001")
+    ]
     # Order chronologically — essential for sparkline x-axis
     played.sort(key=lambda g: g.get("date", ""))
 
