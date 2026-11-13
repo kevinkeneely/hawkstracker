@@ -3579,28 +3579,37 @@ header {
     grid-template-columns: 1fr;
   }
 
+  /* On mobile, fit-to-screen made each sparkline ~40px wide — unreadable.
+     Switch to fixed-width columns + horizontal scroll so each sparkline
+     has room to breathe. User swipes to see all 7 stats. */
+  .trends-players-scroll {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
   .trends-players-head,
   .trends-player-row {
-    grid-template-columns: 80px repeat(7, 1fr);
-    gap: 4px;
+    grid-template-columns: 130px repeat(7, 130px);
+    gap: 8px;
+    min-width: max-content;  /* forces the row to its natural width so overflow kicks in */
   }
 
   .trends-player-name-head,
   .trends-player-name {
-    font-size: 11px;
+    font-size: 12px;
   }
 
   .trends-stat-head {
-    font-size: 9px;
-  }
-
-  .trends-cell-season {
     font-size: 10px;
   }
 
+  .trends-cell-season {
+    font-size: 11px;
+  }
+
   .trend-delta {
-    font-size: 9px;
-    padding: 1px 3px;
+    font-size: 10px;
+    padding: 1px 4px;
   }
 }
 

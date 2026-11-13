@@ -107,15 +107,19 @@ export default function TrendsPage({ gameLogs }) {
       {/* Player section */}
       <section className="trends-players">
         <h3>Players</h3>
-        <div className="trends-players-head">
-          <div className="trends-player-name-head">Player</div>
-          {PLAYER_STATS.map((s) => (
-            <div key={s.key} className="trends-stat-head">{s.label}</div>
+        {/* Wrapper so head + rows scroll together horizontally on mobile.
+            On desktop the fr-based grid fits without scrolling. */}
+        <div className="trends-players-scroll">
+          <div className="trends-players-head">
+            <div className="trends-player-name-head">Player</div>
+            {PLAYER_STATS.map((s) => (
+              <div key={s.key} className="trends-stat-head">{s.label}</div>
+            ))}
+          </div>
+          {players.map((p) => (
+            <PlayerTrendRow key={p.id} player={p} windowSize={effectiveWindow} />
           ))}
         </div>
-        {players.map((p) => (
-          <PlayerTrendRow key={p.id} player={p} windowSize={effectiveWindow} />
-        ))}
       </section>
     </div>
   )
