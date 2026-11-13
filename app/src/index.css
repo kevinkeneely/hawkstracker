@@ -3320,3 +3320,286 @@ header {
   background: #C8102E;
   border-color: #C8102E;
 }
+
+/* ---------- Trends page ---------- */
+
+.trends-page {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.trends-empty {
+  padding: 40px 20px;
+  text-align: center;
+  color: var(--text-dim);
+}
+
+.trends-header {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.trends-header h2 {
+  margin: 0;
+  color: var(--text-h);
+}
+
+.trends-sub {
+  color: var(--text-dim);
+  font-size: 13px;
+  margin: 0;
+}
+
+/* Rolling-window picker — pill buttons for discrete options (5/10/15/20).
+   Same visual idiom as .leaders-mode-btn for consistency across the site. */
+.trends-window-group {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 8px;
+  flex-wrap: wrap;
+}
+
+.trends-window-label {
+  font-size: 13px;
+  color: var(--text);
+  margin-right: 4px;
+}
+
+.trends-window-btn {
+  padding: 4px 14px;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--text);
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  cursor: pointer;
+  font-family: inherit;
+  transition: background-color 0.15s, color 0.15s, border-color 0.15s;
+}
+
+.trends-window-btn:hover {
+  color: var(--text-h);
+  border-color: var(--text);
+}
+
+.trends-window-btn.active {
+  color: #fff;
+  background: #C8102E;
+  border-color: #C8102E;
+}
+
+/* Team-level section: three big-ish cards side by side on desktop */
+.trends-team h3,
+.trends-players h3 {
+  margin: 0 0 12px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: var(--text-dim);
+  text-transform: uppercase;
+}
+
+.trends-team-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+.trends-team-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 14px;
+}
+
+.trends-team-card-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 6px;
+}
+
+.trends-team-card-label {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-h);
+}
+
+.trends-team-card-values {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 8px;
+  font-size: 12px;
+}
+
+.trends-team-card-values > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.trends-team-card-values span {
+  color: var(--text-dim);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.trends-team-card-values strong {
+  color: var(--text-h);
+  font-family: var(--mono);
+  font-size: 15px;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Player grid — table-ish layout with name on left and 7 cells after */
+.trends-players-head,
+.trends-player-row {
+  display: grid;
+  grid-template-columns: 140px repeat(7, 1fr);
+  gap: 8px;
+  align-items: center;
+  padding: 6px 0;
+}
+
+.trends-players-head {
+  border-bottom: 1px solid var(--border);
+  font-size: 11px;
+  color: var(--text-dim);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding-bottom: 8px;
+  margin-bottom: 4px;
+}
+
+.trends-player-name-head,
+.trends-player-name {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-h);
+}
+
+.trends-stat-head {
+  text-align: center;
+}
+
+.trends-player-row {
+  border-bottom: 1px solid var(--border);
+  padding: 8px 0;
+}
+
+.trends-player-row:last-child {
+  border-bottom: none;
+}
+
+.trends-player-cell {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+
+.trends-player-cell-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4px;
+  font-size: 11px;
+  min-width: 0;
+}
+
+.trends-cell-season {
+  font-family: var(--mono);
+  font-variant-numeric: tabular-nums;
+  color: var(--text-h);
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Delta pill — compact, color-coded */
+.trend-delta {
+  display: inline-block;
+  padding: 1px 5px;
+  border-radius: 8px;
+  font-size: 10px;
+  font-family: var(--mono);
+  font-variant-numeric: tabular-nums;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.trend-delta-good {
+  color: var(--rank-good-text);
+  background: var(--rank-good-bg);
+}
+
+.trend-delta-bad {
+  color: var(--rank-bad-text);
+  background: var(--rank-bad-bg);
+}
+
+.trend-delta-neutral {
+  color: var(--text-dim);
+  background: var(--code-bg);
+}
+
+/* Sparkline tooltip — recharts wraps our content in its default container,
+   so style ours to override */
+.spark-tooltip {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 6px 8px;
+  font-size: 11px;
+  color: var(--text-h);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.spark-tt-date {
+  color: var(--text-dim);
+  margin-bottom: 2px;
+  font-size: 10px;
+}
+
+.spark-tt-value {
+  font-family: var(--mono);
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+}
+
+/* ---- Mobile: stack team grid, shrink player cells ---- */
+@media (max-width: 720px) {
+  .trends-team-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .trends-players-head,
+  .trends-player-row {
+    grid-template-columns: 80px repeat(7, 1fr);
+    gap: 4px;
+  }
+
+  .trends-player-name-head,
+  .trends-player-name {
+    font-size: 11px;
+  }
+
+  .trends-stat-head {
+    font-size: 9px;
+  }
+
+  .trends-cell-season {
+    font-size: 10px;
+  }
+
+  .trend-delta {
+    font-size: 9px;
+    padding: 1px 3px;
+  }
+}

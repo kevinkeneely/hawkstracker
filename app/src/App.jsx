@@ -6,6 +6,7 @@ import StandingsPage from './pages/StandingsPage'
 import PlayerProfilePage from './pages/PlayerProfilePage'
 import TeamHomePage from './pages/TeamHomePage'
 import LeadersPage from './pages/LeadersPage'
+import TrendsPage from './pages/TrendsPage'
 import Footer from './components/Footer'
 import BoxScorePage from './pages/BoxScorePage'
 import ShootingPage from './pages/advanced/ShootingPage'
@@ -49,6 +50,7 @@ function App() {
   const [standingsData, setStandingsData] = useState(null)
   const [leagueBaseline, setLeagueBaseline] = useState(null)
   const [leaderboards, setLeaderboards] = useState(null)
+  const [gameLogs, setGameLogs] = useState(null)
   const [error, setError] = useState(null)
 
   const [theme, setTheme] = useState(() => {
@@ -107,6 +109,7 @@ function App() {
     setStandingsData(null)
     setLeagueBaseline(null)
     setLeaderboards(null)
+    setGameLogs(null)
     setError(null)
 
     Promise.all([
@@ -130,13 +133,18 @@ function App() {
       fetch(`/league_leaderboards-${season}.json`)
         .then((r) => (r.ok ? r.json() : null))
         .catch(() => null),
+      // Game logs file is optional — Trends page handles null gracefully
+      fetch(`/game_logs-${season}.json`)
+        .then((r) => (r.ok ? r.json() : null))
+        .catch(() => null),
     ])
-      .then(([players, teams, standings, baseline, lboards]) => {
+      .then(([players, teams, standings, baseline, lboards, logs]) => {
         setPlayerData(players)
         setTeamData(teams)
         setStandingsData(standings)
         setLeagueBaseline(baseline)
         setLeaderboards(lboards)
+        setGameLogs(logs)
       })
       .catch((err) => setError(err.message))
   }, [season])
@@ -188,9 +196,10 @@ function App() {
         )}
         <nav className="tabs">
           <NavLink to="/players" className="tab">Player Stats</NavLink>
-          <NavLink to="/standings" className="tab">Standings</NavLink>
+          <NavLink to="/trends" className="tab">Trends</NavLink>
           <NavLink to="/leaders" className="tab">Leaders</NavLink>
           <AdvancedDropdown />
+          <NavLink to="/standings" className="tab">Standings</NavLink>
         </nav>
       </header>
       <section>
@@ -203,6 +212,7 @@ function App() {
             <Route path="/team" element={<TeamStatsPage hawks={hawks} teamData={teamData} />} />
             <Route path="/standings" element={<StandingsPage standingsData={standingsData} season={season} />} />
             <Route path="/leaders" element={<LeadersPage leaderboards={leaderboards} playerData={playerData} />} />
+            <Route path="/trends" element={<TrendsPage gameLogs={gameLogs} />} />
             <Route path="/players/:id" element={<PlayerProfilePage playerData={playerData} season={season} leagueBaseline={leagueBaseline} />} />
             <Route path="/compare/:id1/:id2" element={<ComparePage playerData={playerData} />} />
             <Route path="/games/:id" element={<BoxScorePage season={season} playerData={playerData} />} />
