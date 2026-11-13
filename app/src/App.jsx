@@ -7,6 +7,7 @@ import PlayerProfilePage from './pages/PlayerProfilePage'
 import TeamHomePage from './pages/TeamHomePage'
 import LeadersPage from './pages/LeadersPage'
 import TrendsPage from './pages/TrendsPage'
+import LineupsPage from './pages/LineupsPage'
 import Footer from './components/Footer'
 import BoxScorePage from './pages/BoxScorePage'
 import ShootingPage from './pages/advanced/ShootingPage'
@@ -51,6 +52,11 @@ function App() {
   const [leagueBaseline, setLeagueBaseline] = useState(null)
   const [leaderboards, setLeaderboards] = useState(null)
   const [gameLogs, setGameLogs] = useState(null)
+  const [lineups5, setLineups5] = useState(null)
+  const [lineups4, setLineups4] = useState(null)
+  const [lineups3, setLineups3] = useState(null)
+  const [lineups2, setLineups2] = useState(null)
+  const [onoff, setOnoff] = useState(null)
   const [error, setError] = useState(null)
 
   const [theme, setTheme] = useState(() => {
@@ -110,6 +116,11 @@ function App() {
     setLeagueBaseline(null)
     setLeaderboards(null)
     setGameLogs(null)
+    setLineups5(null)
+    setLineups4(null)
+    setLineups3(null)
+    setLineups2(null)
+    setOnoff(null)
     setError(null)
 
     Promise.all([
@@ -137,14 +148,29 @@ function App() {
       fetch(`/game_logs-${season}.json`)
         .then((r) => (r.ok ? r.json() : null))
         .catch(() => null),
+      // Lineups files — optional, one per group size (2/3/4/5-man).
+      // Lineups page handles null gracefully per section.
+      fetch(`/lineups/${season}/latest-5man.json`).then((r) => (r.ok ? r.json() : null)).catch(() => null),
+      fetch(`/lineups/${season}/latest-4man.json`).then((r) => (r.ok ? r.json() : null)).catch(() => null),
+      fetch(`/lineups/${season}/latest-3man.json`).then((r) => (r.ok ? r.json() : null)).catch(() => null),
+      fetch(`/lineups/${season}/latest-2man.json`).then((r) => (r.ok ? r.json() : null)).catch(() => null),
+      // On/off splits — optional
+      fetch(`/lineups/${season}/latest-onoff.json`)
+        .then((r) => (r.ok ? r.json() : null))
+        .catch(() => null),
     ])
-      .then(([players, teams, standings, baseline, lboards, logs]) => {
+      .then(([players, teams, standings, baseline, lboards, logs, l5, l4, l3, l2, oo]) => {
         setPlayerData(players)
         setTeamData(teams)
         setStandingsData(standings)
         setLeagueBaseline(baseline)
         setLeaderboards(lboards)
         setGameLogs(logs)
+        setLineups5(l5)
+        setLineups4(l4)
+        setLineups3(l3)
+        setLineups2(l2)
+        setOnoff(oo)
       })
       .catch((err) => setError(err.message))
   }, [season])
@@ -197,6 +223,7 @@ function App() {
         <nav className="tabs">
           <NavLink to="/players" className="tab">Player Stats</NavLink>
           <NavLink to="/trends" className="tab">Trends</NavLink>
+          <NavLink to="/lineups" className="tab">Lineups</NavLink>
           <NavLink to="/leaders" className="tab">Leaders</NavLink>
           <AdvancedDropdown />
           <NavLink to="/standings" className="tab">Standings</NavLink>
@@ -213,6 +240,7 @@ function App() {
             <Route path="/standings" element={<StandingsPage standingsData={standingsData} season={season} />} />
             <Route path="/leaders" element={<LeadersPage leaderboards={leaderboards} playerData={playerData} />} />
             <Route path="/trends" element={<TrendsPage gameLogs={gameLogs} />} />
+            <Route path="/lineups" element={<LineupsPage lineups5={lineups5} lineups4={lineups4} lineups3={lineups3} lineups2={lineups2} onoff={onoff} />} />
             <Route path="/players/:id" element={<PlayerProfilePage playerData={playerData} season={season} leagueBaseline={leagueBaseline} />} />
             <Route path="/compare/:id1/:id2" element={<ComparePage playerData={playerData} />} />
             <Route path="/games/:id" element={<BoxScorePage season={season} playerData={playerData} />} />

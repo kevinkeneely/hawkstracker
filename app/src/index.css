@@ -3603,3 +3603,214 @@ header {
     padding: 1px 3px;
   }
 }
+
+/* ---------- Lineups page ---------- */
+
+.lineups-page {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.lineups-empty {
+  padding: 40px 20px;
+  text-align: center;
+  color: var(--text-dim);
+}
+
+.lineups-header h2 {
+  margin: 0 0 8px;
+  color: var(--text-h);
+}
+
+.lineups-sub {
+  color: var(--text-dim);
+  font-size: 13px;
+  margin: 0 0 12px;
+}
+
+.lineups-filter {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.lineups-filter-label {
+  font-size: 13px;
+  color: var(--text);
+  margin-right: 4px;
+}
+
+.lineups-min-btn {
+  padding: 4px 12px;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--text);
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  cursor: pointer;
+  font-family: inherit;
+  transition: background-color 0.15s, color 0.15s, border-color 0.15s;
+}
+
+.lineups-min-btn:hover {
+  color: var(--text-h);
+  border-color: var(--text);
+}
+
+.lineups-min-btn.active {
+  color: #fff;
+  background: #C8102E;
+  border-color: #C8102E;
+}
+
+.lineups-count {
+  margin-left: auto;
+  font-size: 12px;
+  color: var(--text-dim);
+}
+
+.lineups-table-wrap {
+  overflow-x: auto;
+}
+
+.lineups-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+.lineups-th {
+  padding: 8px 10px;
+  border-bottom: 2px solid var(--border);
+  font-size: 11px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: var(--text-dim);
+  background: var(--code-bg);
+  cursor: pointer;
+  user-select: none;
+  white-space: nowrap;
+}
+
+.lineups-th:hover {
+  color: var(--text-h);
+}
+
+.lineups-th.sorted {
+  color: var(--text-h);
+}
+
+.lineups-th-left   { text-align: left; }
+.lineups-th-right  { text-align: right; }
+.lineups-th-center { text-align: center; }
+
+.lineups-sort-arrow {
+  font-size: 9px;
+}
+
+.lineups-td {
+  padding: 8px 10px;
+  border-bottom: 1px solid var(--border);
+  font-family: var(--mono);
+  font-variant-numeric: tabular-nums;
+  color: var(--text-h);
+}
+
+.lineups-td-left {
+  text-align: left;
+  font-family: inherit;
+  /* Dark mode: pure white; light mode: pure black. Just this one column —
+     makes the player names pop vs. the mono numeric cells. */
+  color: #000;
+  font-weight: 500;
+  /* Secondary surface — same shade as the header row, visually ties the
+     "identity" cells (name + header labels) together. */
+  background: var(--code-bg);
+}
+.lineups-td-right  { text-align: right; }
+.lineups-td-center { text-align: center; }
+
+:root[data-theme="dark"] .lineups-td-left,
+.lineups-td-left:where(:root[data-theme="dark"] *) {
+  color: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .lineups-td-left {
+    color: #fff;
+  }
+}
+
+/* Column dividers — vertical lines between columns for visual separation.
+   Applied to both header and body cells, except the last column of each row. */
+.lineups-th:not(:last-child),
+.lineups-td:not(:last-child) {
+  border-right: 1px solid var(--border);
+}
+
+/* NET column color-coding — green for positive, red for negative.
+   Same text colors as the Four-Factors pills on Team Stats. */
+.lineups-td.net-good { color: var(--rank-good-text); font-weight: 600; }
+.lineups-td.net-bad  { color: var(--rank-bad-text);  font-weight: 600; }
+
+.lineups-empty-row {
+  padding: 24px;
+  text-align: center;
+  color: var(--text-dim);
+}
+
+/* Mobile: shrink everything down, let the lineup-name column keep taking
+   whatever width it needs, let the table scroll horizontally if needed. */
+@media (max-width: 720px) {
+  .lineups-table {
+    font-size: 11px;
+  }
+  .lineups-td,
+  .lineups-th {
+    padding: 6px 6px;
+  }
+  .lineups-td-left {
+    /* Lineup name column can be long — keep it readable, let others shrink */
+    min-width: 180px;
+    font-size: 11px;
+  }
+}
+
+/* Lineups — section toggle (On/Off | 5-Man | later 4/3/2-Man).
+   Larger, more prominent than the min-minutes filter; this is the primary
+   view switcher for the tab. Matches the .leaders-toggle visual weight. */
+.lineups-section-toggle {
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+  margin: 0 0 20px;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 12px;
+}
+
+.lineups-section-btn {
+  padding: 8px 20px;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text);
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+  font-family: inherit;
+  transition: color 0.15s, border-color 0.15s;
+  margin-bottom: -13px;  /* overlap the container bottom-border to nest the underline */
+}
+
+.lineups-section-btn:hover {
+  color: var(--text-h);
+}
+
+.lineups-section-btn.active {
+  color: var(--text-h);
+  border-bottom-color: #C8102E;
+}
