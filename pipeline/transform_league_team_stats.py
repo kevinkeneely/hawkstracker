@@ -18,7 +18,7 @@ Output shape:
         "gp": 12, "w": 7, "l": 5,
         "off_rating": 118.3, "def_rating": 112.4, "net_rating": 5.9,
         "pace": 101.2,
-        "efg_pct": 0.541, "tov_pct": 0.128, "oreb_pct": 0.283, "ts_pct": 0.577
+        "efg_pct": 0.541, "tov_pct": 0.128, "oreb_pct": 0.283, "ts_pct": 0.577, "fta_rate": 0.251
       },
       ...30 teams
     ]
@@ -66,13 +66,27 @@ def _latest(pattern: str) -> Path:
 
 
 def transform() -> None:
-    src = _latest("league_team_stats_*.json")
-    print(f"[league-team-stats] reading {src}")
-    raw = json.loads(src.read_text())
+    # The Advanced measure type has everything EXCEPT FTA_RATE; the Four
+    # Factors measure gives us FTA_RATE (and the opponent's, which we don't
+    # keep yet). Join by TEAM_ID to produce one merged row per team.
+    src_adv = _latest("league_team_stats_*.json")
+    src_ff  = _latest("league_team_four_factors_*.json")
+    print(f"[league-team-stats] reading {src_adv}")
+    print(f"[league-team-stats] reading {src_ff}")
+    raw = json.loads(src_adv.read_text())
+    raw_ff = json.loads(src_ff.read_text())
 
     rs = raw["resultSets"][0]
     headers = rs["headers"]
     col = {h: i for i, h in enumerate(headers)}
+
+    # Build TEAM_ID -> FTA_RATE lookup from the Four Factors file
+    ff_rs = raw_ff["resultSets"][0]
+    ff_col = {h: i for i, h in enumerate(ff_rs["headers"])}
+    fta_rate_by_team = {
+        row[ff_col["TEAM_ID"]]: row[ff_col["FTA_RATE"]]
+        for row in ff_rs["rowSet"]
+    }
 
     teams = []
     for row in rs["rowSet"]:
@@ -93,14 +107,14 @@ def transform() -> None:
             "def_rating":  row[col["DEF_RATING"]],
             "net_rating":  row[col["NET_RATING"]],
             "pace":        row[col["PACE"]],
-            # Four Factors (minus FTA rate — that's in the "Four Factors"
-            # measure type rather than Advanced; adding another fetch would be
-            # the fix if D1 or C1 needs it). All percentages stored as 0-1
-            # decimals to match other _pct fields on the site.
+            # Four Factors — all percentages stored as 0-1 decimals to match
+            # other _pct fields on the site. FTA_RATE is joined in from the
+            # Four Factors measure type (fetched alongside Advanced).
             "efg_pct":     row[col["EFG_PCT"]],
             "tov_pct":     row[col["TM_TOV_PCT"]],
             "oreb_pct":    row[col["OREB_PCT"]],
             "ts_pct":      row[col["TS_PCT"]],
+            "fta_rate":    fta_rate_by_team.get(row[col["TEAM_ID"]]),
         })
 
     out = {

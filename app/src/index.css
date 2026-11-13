@@ -4281,3 +4281,153 @@ header {
   border: 1px dashed var(--border);
   border-radius: 8px;
 }
+
+
+/* ======================================================================
+   Matchup Preview — Home page card for the Hawks' next game.
+   Only renders on current season. Always shows the next upcoming game
+   even on non-game days (per build decision — updates daily as the
+   opponent plays other games).
+   ====================================================================== */
+
+.mp-section {
+  margin: 0 0 1.5rem 0;
+  padding: 16px 18px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--social-bg);
+}
+
+.mp-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.mp-head-left {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.mp-eyebrow {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--text-dim);
+  font-weight: 600;
+}
+
+.mp-title {
+  margin: 0;
+  font-size: 20px;
+  color: var(--text-h);
+  line-height: 1.2;
+}
+
+.mp-when {
+  font-size: 12px;
+  color: var(--text-dim);
+}
+
+.mp-h2h {
+  margin-bottom: 12px;
+}
+
+.mp-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+.mp-table th {
+  padding: 4px 8px;
+  color: var(--text-dim);
+  text-transform: uppercase;
+  font-size: 10px;
+  letter-spacing: 0.4px;
+  font-weight: 600;
+  border-bottom: 1px solid var(--border);
+}
+
+.mp-col-team { width: 40%; }
+.mp-col-stat {
+  width: 20%;
+  text-align: center;
+  color: var(--text-dim);
+}
+
+.mp-table td {
+  padding: 5px 8px;
+}
+
+.mp-val {
+  font-family: var(--mono);
+  font-variant-numeric: tabular-nums;
+  color: var(--text-h);
+  font-weight: 600;
+  width: 40%;
+}
+
+.mp-label {
+  text-align: center;
+  color: var(--text-dim);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+}
+
+.mp-better { color: var(--rank-good-text); }
+.mp-worse  { color: var(--rank-bad-text); }
+
+.mp-form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  padding-top: 10px;
+  border-top: 1px solid var(--border);
+}
+
+.mp-form-block {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 8px 10px;
+  background: var(--code-bg);
+  border-radius: 8px;
+}
+
+.mp-form-label {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  color: var(--text-dim);
+  font-weight: 600;
+}
+
+.mp-form-row-inner {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.mp-form-record {
+  font-family: var(--mono);
+  font-variant-numeric: tabular-nums;
+  font-size: 15px;
+  color: var(--text-h);
+  font-weight: 600;
+}
+
+.mp-form-diff {
+  font-family: var(--mono);
+  font-variant-numeric: tabular-nums;
+  font-size: 12px;
+}
+
+.mp-form-empty .mp-form-sub {
+  font-size: 11px;
+  color: var(--text-dim);
+}
