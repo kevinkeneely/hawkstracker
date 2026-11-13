@@ -239,7 +239,7 @@ function App() {
             <Route path="/team" element={<TeamStatsPage hawks={hawks} teamData={teamData} />} />
             <Route path="/standings" element={<StandingsPage standingsData={standingsData} season={season} />} />
             <Route path="/leaders" element={<LeadersPage leaderboards={leaderboards} playerData={playerData} />} />
-            <Route path="/trends" element={<TrendsPage gameLogs={gameLogs} />} />
+            <Route path="/trends" element={<TrendsPage gameLogs={gameLogs} teamData={teamData} />} />
             <Route path="/lineups" element={<LineupsPage lineups5={lineups5} lineups4={lineups4} lineups3={lineups3} lineups2={lineups2} onoff={onoff} />} />
             <Route path="/players/:id" element={<PlayerProfilePage playerData={playerData} season={season} leagueBaseline={leagueBaseline} />} />
             <Route path="/compare/:id1/:id2" element={<ComparePage playerData={playerData} />} />

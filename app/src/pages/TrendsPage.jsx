@@ -23,14 +23,24 @@ import TrendSparkline, { formatValue } from '../components/TrendSparkline'
 // the mean down). `skipKey` names the attempts field we use to decide which
 // games have no sample for this stat; those get null'd on the sparkline so
 // the line skips them instead of plotting a misleading 0%.
+// Kevin's spec: Name, PPG, OReb%, AST%, STL%, BLK%, TOV%, FG%, 3P%, FT%, eFG%, TS%, NET
+// For OReb%/AST%/TOV%: V3 gives per-game pct directly. Use possession-weighted
+// mean as aggregator — exact BR aggregation would need raw numerators and
+// denominators (TmFGM, team FGA, etc.) that aren't in the per-game data today.
+// Within ~0.5% for most players; fine for display.
 const PLAYER_STATS = [
-  { key: 'pts',        label: 'PPG',  format: 'num',    color: '#e03a3e', aggregate: meanOf('pts'),             skipKey: null   },
-  { key: 'fg_pct',     label: 'FG%',  format: 'pct',    color: '#2980b9', aggregate: ratioOf('fgm', 'fga'),     skipKey: 'fga'  },
-  { key: 'fg3_pct',    label: '3P%',  format: 'pct',    color: '#16a085', aggregate: ratioOf('fg3m', 'fg3a'),   skipKey: 'fg3a' },
-  { key: 'ft_pct',     label: 'FT%',  format: 'pct',    color: '#d35400', aggregate: ratioOf('ftm', 'fta'),     skipKey: 'fta'  },
-  { key: 'efg_pct',    label: 'eFG%', format: 'pct',    color: '#8e44ad', aggregate: efgAggregate,              skipKey: 'fga'  },
-  { key: 'ts_pct',     label: 'TS%',  format: 'pct',    color: '#c2185b', aggregate: tsAggregate,               skipKey: 'fga'  },
-  { key: 'net_rating', label: 'Net',  format: 'rating', color: '#27ae60', aggregate: possessionWeightedMean('net_rating'), skipKey: null },
+  { key: 'pts',        label: 'PPG',   format: 'num',    color: '#e03a3e', aggregate: meanOf('pts'),             skipKey: null   },
+  { key: 'oreb_pct',   label: 'OReb%', format: 'pct',    color: '#16a085', aggregate: possessionWeightedMean('oreb_pct'), skipKey: null },
+  { key: 'ast_pct',    label: 'AST%',  format: 'pct',    color: '#2980b9', aggregate: possessionWeightedMean('ast_pct'),  skipKey: null },
+  { key: 'stl_pct',    label: 'STL%',  format: 'pct',    color: '#c2185b', aggregate: brStlPct,                  skipKey: null   },
+  { key: 'blk_pct',    label: 'BLK%',  format: 'pct',    color: '#8e44ad', aggregate: brBlkPct,                  skipKey: null   },
+  { key: 'tov_pct',    label: 'TOV%',  format: 'pct',    color: '#d35400', aggregate: possessionWeightedMean('tov_pct'),  skipKey: null },
+  { key: 'fg_pct',     label: 'FG%',   format: 'pct',    color: '#2980b9', aggregate: ratioOf('fgm', 'fga'),     skipKey: 'fga'  },
+  { key: 'fg3_pct',    label: '3P%',   format: 'pct',    color: '#16a085', aggregate: ratioOf('fg3m', 'fg3a'),   skipKey: 'fg3a' },
+  { key: 'ft_pct',     label: 'FT%',   format: 'pct',    color: '#d35400', aggregate: ratioOf('ftm', 'fta'),     skipKey: 'fta'  },
+  { key: 'efg_pct',    label: 'eFG%',  format: 'pct',    color: '#8e44ad', aggregate: efgAggregate,              skipKey: 'fga'  },
+  { key: 'ts_pct',     label: 'TS%',   format: 'pct',    color: '#c2185b', aggregate: tsAggregate,               skipKey: 'fga'  },
+  { key: 'net_rating', label: 'NET',   format: 'rating', color: '#27ae60', aggregate: possessionWeightedMean('net_rating'), skipKey: null },
 ]
 
 function meanOf(key) {
@@ -61,6 +71,35 @@ function possessionWeightedMean(key) {
   }
 }
 
+/**
+ * Basketball Reference formula aggregators — sum num and denom across
+ * games, then divide. Critically this includes games where count=0: a
+ * player who plays 30 min and gets 0 steals still contributes 30*opp_poss
+ * to the denominator. Simple mean of per-game stl_pct silently skipped
+ * those games and inflated the result (verified against BR).
+ *
+ *   STL%  = sum(stl * team_min/5) / sum(mp * opp_poss)
+ *   BLK%  = sum(blk * team_min/5) / sum(mp * opp_fga_2pt)
+ */
+function brStlPct(games) {
+  let num = 0, den = 0
+  for (const g of games) {
+    if (g.min == null || g.opp_poss == null || !g.opp_poss) continue
+    num += ((g.stl || 0) * (g.team_min || 240)) / 5
+    den += g.min * g.opp_poss
+  }
+  return den > 0 ? num / den : null
+}
+function brBlkPct(games) {
+  let num = 0, den = 0
+  for (const g of games) {
+    if (g.min == null || g.opp_fga_2pt == null || !g.opp_fga_2pt) continue
+    num += ((g.blk || 0) * (g.team_min || 240)) / 5
+    den += g.min * g.opp_fga_2pt
+  }
+  return den > 0 ? num / den : null
+}
+
 function ratioOf(makeKey, attemptKey) {
   return (games) => {
     const makes = games.reduce((a, g) => a + (g[makeKey] || 0), 0)
@@ -89,20 +128,33 @@ function tsAggregate(games) {
   return pts / denom
 }
 
+// `seasonKey` points to the field on teamData.hawks that carries NBA.com's
+// authoritative season aggregate. When present, the team card uses that
+// value for the SEASON number (so it matches the Team Stats page exactly)
+// while Last-N + sparkline still come from per-game game_logs. This
+// handles stats like OReb% where NBA.com's season formula diverges from
+// averaging per-game percentages.
 const TEAM_STATS = [
-  { key: 'net_rating', label: 'Net Rating', format: 'rating', color: '#e03a3e', aggregate: possessionWeightedMean('net_rating') },
-  { key: 'pace',       label: 'Pace',       format: 'num',    color: '#2980b9' },
-  { key: 'ts_pct',     label: 'TS%',        format: 'pct',    color: '#16a085' },
-  { key: 'efg_pct',    label: 'eFG%',       format: 'pct',    color: '#8e44ad' },
+  { key: 'net_rating', label: 'Net Rating', format: 'rating', color: '#e03a3e', aggregate: possessionWeightedMean('net_rating'), seasonKey: 'net_rating' },
+  { key: 'pace',       label: 'Pace',       format: 'num',    color: '#2980b9',                                                   seasonKey: 'pace' },
+  { key: 'ts_pct',     label: 'TS%',        format: 'pct',    color: '#16a085',                                                   seasonKey: 'ts_pct' },
+  { key: 'efg_pct',    label: 'eFG%',       format: 'pct',    color: '#8e44ad',                                                   seasonKey: 'efg_pct' },
   // Lower TOV% is better, so inversePositive flips the green/red on the delta
-  { key: 'tov_pct',    label: 'TOV%',       format: 'pct',    color: '#d35400', inversePositive: true },
-  { key: 'oreb_pct',   label: 'OReb%',      format: 'pct',    color: '#c2185b' },
+  { key: 'tov_pct',    label: 'TOV%',       format: 'pct',    color: '#d35400', inversePositive: true,                            seasonKey: 'tov_pct' },
+  { key: 'oreb_pct',   label: 'OReb%',      format: 'pct',    color: '#c2185b',                                                   seasonKey: 'oreb_pct' },
+  { key: 'ast_pct',    label: 'AST%',       format: 'pct',    color: '#2980b9',                                                   seasonKey: 'ast_pct' },
+  // STL% / BLK% have _def (team's defensive steals/blocks %) and _off
+  // variants on teamData; team card shows the defensive side.
+  { key: 'stl_pct',    label: 'STL%',       format: 'pct',    color: '#c2185b',                                                   seasonKey: 'stl_pct_def' },
+  { key: 'blk_pct',    label: 'BLK%',       format: 'pct',    color: '#8e44ad',                                                   seasonKey: 'blk_pct_def' },
 ]
 
 const WINDOW_OPTIONS = [5, 10, 15, 20]
 const DEFAULT_WINDOW = 10
 
-export default function TrendsPage({ gameLogs }) {
+const HAWKS_TEAM_ID = 1610612737
+
+export default function TrendsPage({ gameLogs, teamData }) {
   const [windowSize, setWindowSize] = useState(DEFAULT_WINDOW)
 
   if (!gameLogs) {
@@ -118,6 +170,10 @@ export default function TrendsPage({ gameLogs }) {
     () => gameLogs.players.filter((p) => p.games && p.games.length >= 3),
     [gameLogs]
   )
+  // Hawks season row from teamData (authoritative NBA.com season aggregates
+  // for team-level stats). Null if teamData hasn't loaded yet; team card
+  // falls back to aggregating game_logs in that case.
+  const teamHawks = teamData?.teams?.find?.((t) => t.id === HAWKS_TEAM_ID) ?? null
   const teamGames = gameLogs.team?.games || []
   // Hide options that would exceed the available game count. Always show at
   // least one option (the smallest) so the UI isn't empty early in the season.
@@ -161,6 +217,7 @@ export default function TrendsPage({ gameLogs }) {
                 stat={stat}
                 games={teamGames}
                 windowSize={effectiveWindow}
+                teamHawks={teamHawks}
               />
             ))}
           </div>
@@ -188,7 +245,7 @@ export default function TrendsPage({ gameLogs }) {
   )
 }
 
-function TeamTrendCard({ stat, games, windowSize }) {
+function TeamTrendCard({ stat, games, windowSize, teamHawks }) {
   const seriesData = useMemo(
     () =>
       games.map((g) => ({
@@ -199,18 +256,33 @@ function TeamTrendCard({ stat, games, windowSize }) {
       })),
     [games, stat.key]
   )
-  // If the stat carries an aggregate fn, use it against the raw team games
-  // (which have poss + any other base fields). Otherwise fall back to the
-  // simple-mean computeAverages path for stats we haven't upgraded yet.
-  let seasonAvg, windowAvg, delta
-  if (stat.aggregate) {
+  // Season: prefer NBA.com's own season aggregate from teamData (matches
+  // the Team Stats page). Fall back to game_logs aggregation when the
+  // stat has no seasonKey or teamData isn't loaded.
+  let seasonAvg = null
+  if (stat.seasonKey && teamHawks && teamHawks[stat.seasonKey] != null) {
+    seasonAvg = teamHawks[stat.seasonKey]
+  } else if (stat.aggregate) {
     seasonAvg = stat.aggregate(games)
+  } else {
+    const nonNull = seriesData.filter((d) => d.value != null)
+    seasonAvg = nonNull.length
+      ? nonNull.reduce((a, b) => a + b.value, 0) / nonNull.length
+      : null
+  }
+  // Last-N: always from game_logs aggregation.
+  let windowAvg = null
+  if (stat.aggregate) {
     const windowStart = Math.max(0, games.length - windowSize)
     windowAvg = stat.aggregate(games.slice(windowStart))
-    delta = seasonAvg != null && windowAvg != null ? windowAvg - seasonAvg : null
   } else {
-    ({ seasonAvg, windowAvg, delta } = computeAverages(seriesData, windowSize))
+    const windowStart = Math.max(0, seriesData.length - windowSize)
+    const nonNull = seriesData.slice(windowStart).filter((d) => d.value != null)
+    windowAvg = nonNull.length
+      ? nonNull.reduce((a, b) => a + b.value, 0) / nonNull.length
+      : null
   }
+  const delta = seasonAvg != null && windowAvg != null ? windowAvg - seasonAvg : null
 
   return (
     <div className="trends-team-card">

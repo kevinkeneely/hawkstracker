@@ -3460,10 +3460,21 @@ header {
 .trends-players-head,
 .trends-player-row {
   display: grid;
-  grid-template-columns: 140px repeat(7, 1fr);
+  /* Fixed-width columns across all viewports. Cell content needs real room
+     (SEASON + LAST N labels + delta pill + sparkline) and with 12 stat
+     columns, forcing 1fr makes everything crush. Horizontal scroll on the
+     wrapper lets the user swipe through the full set. */
+  grid-template-columns: 140px repeat(12, 160px);
   gap: 8px;
   align-items: center;
   padding: 6px 0;
+  min-width: max-content;
+}
+
+/* Enable horizontal scroll at all viewports (previously only mobile). */
+.trends-players-scroll {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 .trends-players-head {
@@ -3491,6 +3502,19 @@ header {
   align-self: stretch;
   display: flex;
   align-items: center;
+  /* Sticky — stays pinned when the user scrolls horizontally through
+     the 12 stat columns. --code-bg background (above) keeps content
+     from bleeding through. */
+  position: sticky;
+  left: 0;
+  z-index: 2;
+}
+
+/* Top-left intersection (header first cell) sits at the overlap of a
+   sticky row-header and sticky body-column — needs a higher z-index so
+   it covers both during scroll. */
+.trends-player-name-head {
+  z-index: 3;
 }
 
 .trends-stat-head {
@@ -3625,19 +3649,12 @@ header {
     grid-template-columns: 1fr;
   }
 
-  /* On mobile, fit-to-screen made each sparkline ~40px wide — unreadable.
-     Switch to fixed-width columns + horizontal scroll so each sparkline
-     has room to breathe. User swipes to see all 7 stats. */
-  .trends-players-scroll {
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-  }
-
+  /* Mobile: narrower name column + narrower cells (desktop defaults otherwise).
+     Scroll + min-width already set at the default level for all viewports. */
   .trends-players-head,
   .trends-player-row {
-    grid-template-columns: 130px repeat(7, 130px);
-    gap: 8px;
-    min-width: max-content;  /* forces the row to its natural width so overflow kicks in */
+    grid-template-columns: 110px repeat(12, 130px);
+    gap: 6px;
   }
 
   .trends-player-name-head,
