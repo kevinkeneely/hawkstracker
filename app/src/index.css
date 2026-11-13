@@ -520,10 +520,23 @@ code {
   text-align: right;
 }
 
-/* Color-only variants of .ts-value — same green/red the Home KPI tile ranks
-   use, but no background pill (would look cramped next to a dot plot). */
-.ts-value-good { color: var(--rank-good-text); }
-.ts-value-bad  { color: var(--rank-bad-text);  }
+/* Pill variants of .ts-value — same green/neutral/red as the Home KPI tile
+   rank badges, so Four-Factors values read like the "10th"/"30th" chips up top.
+   `.ts-value` is the right-hand `auto` column in .ts-row, so the pill sizes
+   to the content rather than filling the row. */
+.ts-value-good,
+.ts-value-mid,
+.ts-value-bad {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 10px;
+  font-weight: 500;
+  width: fit-content;
+  justify-self: end;
+}
+.ts-value-good { color: var(--rank-good-text); background: var(--rank-good-bg); }
+.ts-value-mid  { color: var(--text);           background: var(--code-bg);     }
+.ts-value-bad  { color: var(--rank-bad-text);  background: var(--rank-bad-bg); }
 
 .ts-legend {
   display: flex;
@@ -1311,9 +1324,11 @@ html, body {
     flex: 0 0 100%;
   }
 
-  /* Team stats: slim down the row columns so dot plots fit */
+  /* Team stats: slim down the row columns so dot plots fit.
+     Right column bumped 48→60 so the colored pill (padding + value) has
+     breathing room at 11px font-size without clipping. */
   .ts-row {
-    grid-template-columns: 50px 1fr 48px;
+    grid-template-columns: 50px 1fr 60px;
     gap: 6px;
   }
   .ts-label { font-size: 11px; }

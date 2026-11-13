@@ -126,7 +126,7 @@ function rankTextClass(rank) {
   if (rank == null) return ''
   if (rank <= 10) return 'ts-value-good'
   if (rank >= 21) return 'ts-value-bad'
-  return ''
+  return 'ts-value-mid'
 }
 
 function StatLine({ stat, field, rankField, team, allTeams }) {
