@@ -1,5 +1,19 @@
 import { Link } from 'react-router-dom'
 import TrendSparkline from './TrendSparkline'
+import { PLAYER_STATS } from '../pages/TrendsPage'
+
+// Look up the Trends tab's attempt-weighted aggregator for a given stat key,
+// so Form Watch's season + last-5 numbers match the Trends tab and the
+// rest of the site exactly. Percentages like TS% / eFG% / 3P% must sum
+// makes and attempts across games, NOT average per-game percentages —
+// the simple-mean approach reads 0/0 shooting nights as 0% and drags the
+// season number down (previously surfaced Kingston Flemings TS% as 52.6%
+// when the real season value is 59.7%). For raw per-game counts (pts,
+// reb, ast, stl, blk) a simple mean is correct, which is what the
+// fallback below does.
+const AGG_BY_KEY = Object.fromEntries(
+  PLAYER_STATS.map((s) => [s.key, s.aggregate]),
+)
 
 /**
  * Form Watch — a short row of "who's trending up/down right now" cards.
@@ -50,20 +64,28 @@ function computeCandidates(players) {
     const window = games.slice(-WINDOW)
     if (window.length < MIN_GAMES) continue
     for (const stat of WATCH_STATS) {
-      // Season values: drop nulls; for % stats, drop zero-attempt games too.
-      const seasonVals = games
-        .filter((g) => g[stat.key] != null && (!stat.skipKey || g[stat.skipKey] > 0))
-        .map((g) => g[stat.key])
-      const windowVals = window
-        .filter((g) => g[stat.key] != null && (!stat.skipKey || g[stat.skipKey] > 0))
-        .map((g) => g[stat.key])
-      if (seasonVals.length < MIN_GAMES || windowVals.length < MIN_GAMES) continue
-      const seasonAvg = mean(seasonVals)
-      const windowAvg = mean(windowVals)
+      // Use the Trends tab's attempt-weighted aggregator when one exists
+      // for this stat; otherwise fall back to a simple mean (correct for
+      // raw per-game counts like pts/reb/ast/stl/blk).
+      const agg = AGG_BY_KEY[stat.key]
+      // For min-sample checks, count games that contributed to the stat:
+      // percentages drop zero-attempt games; raw counts drop nulls only.
+      const eligibleSeason = games.filter(
+        (g) => g[stat.key] != null && (!stat.skipKey || g[stat.skipKey] > 0),
+      )
+      const eligibleWindow = window.filter(
+        (g) => g[stat.key] != null && (!stat.skipKey || g[stat.skipKey] > 0),
+      )
+      if (eligibleSeason.length < MIN_GAMES || eligibleWindow.length < MIN_GAMES) continue
+      const seasonAvg = agg
+        ? agg(games)
+        : mean(eligibleSeason.map((g) => g[stat.key]))
+      const windowAvg = agg
+        ? agg(window)
+        : mean(eligibleWindow.map((g) => g[stat.key]))
       if (seasonAvg == null || windowAvg == null) continue
       const delta = windowAvg - seasonAvg
       const exceedance = delta / stat.threshold
-      // Must at least clear 1.0× threshold in magnitude to be a callout
       if (Math.abs(exceedance) < 1) continue
       out.push({ player: p, stat, seasonAvg, windowAvg, delta, exceedance })
     }
