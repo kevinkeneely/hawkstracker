@@ -73,6 +73,12 @@ export default function TrendSparkline({
               )
             }}
             cursor={{ stroke: 'var(--border)', strokeWidth: 1 }}
+            /* Position the tooltip above the sparkline so it doesn't cover
+               the point being hovered. allowEscapeViewBox lets it render
+               outside the chart's clip area. */
+            position={{ y: -70 }}
+            allowEscapeViewBox={{ x: true, y: true }}
+            wrapperStyle={{ pointerEvents: 'none', zIndex: 100 }}
           />
         </LineChart>
       </ResponsiveContainer>

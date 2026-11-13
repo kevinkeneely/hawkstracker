@@ -148,6 +148,9 @@ def _game_entry(game, trad_row, adv_row):
         "net_rating":  (adv_row or {}).get("netRating"),
         "off_rating":  (adv_row or {}).get("offensiveRating"),
         "def_rating":  (adv_row or {}).get("defensiveRating"),
+        # Possessions let us compute true season/window averages of rate stats
+        # (possession-weighted) instead of a simple mean of per-game rates.
+        "poss":        (adv_row or {}).get("possessions"),
     }
 
 
@@ -173,6 +176,8 @@ def _team_game_entry(game, trad_team, adv_team):
         # (14.1 = 14.1%) so divide by 100 to match the rest.
         "oreb_pct":    (adv_team or {}).get("offensiveReboundPercentage"),
         "tov_pct":     _pct_from_ratio((adv_team or {}).get("turnoverRatio")),
+        # Possessions for team-level possession-weighted aggregation.
+        "poss":        (adv_team or {}).get("possessions"),
     }
 
 

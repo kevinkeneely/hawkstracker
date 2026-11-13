@@ -16,18 +16,81 @@ import TrendSparkline, { formatValue } from '../components/TrendSparkline'
 
 // Each stat gets a label, its path on the per-game entry, a format hint,
 // and a color for the sparkline line.
+// Each stat carries an `aggregate` fn that properly computes a season-or-window
+// average from the raw per-game entries. For percentages this means sum(makes)
+// / sum(attempts), NOT a mean of per-game percentages — the simple-mean
+// approach produced badly wrong numbers (a 0/0 game read as 0% and dragged
+// the mean down). `skipKey` names the attempts field we use to decide which
+// games have no sample for this stat; those get null'd on the sparkline so
+// the line skips them instead of plotting a misleading 0%.
 const PLAYER_STATS = [
-  { key: 'pts',        label: 'PPG',    format: 'num',    color: '#e03a3e' },
-  { key: 'fg_pct',     label: 'FG%',    format: 'pct',    color: '#2980b9' },
-  { key: 'fg3_pct',    label: '3P%',    format: 'pct',    color: '#16a085' },
-  { key: 'ft_pct',     label: 'FT%',    format: 'pct',    color: '#d35400' },
-  { key: 'efg_pct',    label: 'eFG%',   format: 'pct',    color: '#8e44ad' },
-  { key: 'ts_pct',     label: 'TS%',    format: 'pct',    color: '#c2185b' },
-  { key: 'net_rating', label: 'Net',    format: 'rating', color: '#27ae60' },
+  { key: 'pts',        label: 'PPG',  format: 'num',    color: '#e03a3e', aggregate: meanOf('pts'),             skipKey: null   },
+  { key: 'fg_pct',     label: 'FG%',  format: 'pct',    color: '#2980b9', aggregate: ratioOf('fgm', 'fga'),     skipKey: 'fga'  },
+  { key: 'fg3_pct',    label: '3P%',  format: 'pct',    color: '#16a085', aggregate: ratioOf('fg3m', 'fg3a'),   skipKey: 'fg3a' },
+  { key: 'ft_pct',     label: 'FT%',  format: 'pct',    color: '#d35400', aggregate: ratioOf('ftm', 'fta'),     skipKey: 'fta'  },
+  { key: 'efg_pct',    label: 'eFG%', format: 'pct',    color: '#8e44ad', aggregate: efgAggregate,              skipKey: 'fga'  },
+  { key: 'ts_pct',     label: 'TS%',  format: 'pct',    color: '#c2185b', aggregate: tsAggregate,               skipKey: 'fga'  },
+  { key: 'net_rating', label: 'Net',  format: 'rating', color: '#27ae60', aggregate: possessionWeightedMean('net_rating'), skipKey: null },
 ]
 
+function meanOf(key) {
+  return (games) => {
+    const vals = games.map((g) => g[key]).filter((v) => v != null)
+    if (!vals.length) return null
+    return vals.reduce((a, b) => a + b, 0) / vals.length
+  }
+}
+
+/**
+ * Possession-weighted mean for rate stats (Net Rating, Off/Def Rating).
+ * The per-game rate = (points_diff / possessions_in_game) * 100. So
+ * sum(rate * poss) / sum(poss) recovers the exact season rate as if
+ * everything were computed on total points_diff / total possessions.
+ * Matches what NBA.com shows on the player's season page.
+ */
+function possessionWeightedMean(key) {
+  return (games) => {
+    let num = 0
+    let den = 0
+    for (const g of games) {
+      if (g[key] == null || g.poss == null || g.poss <= 0) continue
+      num += g[key] * g.poss
+      den += g.poss
+    }
+    return den > 0 ? num / den : null
+  }
+}
+
+function ratioOf(makeKey, attemptKey) {
+  return (games) => {
+    const makes = games.reduce((a, g) => a + (g[makeKey] || 0), 0)
+    const atts = games.reduce((a, g) => a + (g[attemptKey] || 0), 0)
+    if (!atts) return null
+    return makes / atts
+  }
+}
+
+// eFG% = (FGM + 0.5 * FG3M) / FGA
+function efgAggregate(games) {
+  const fgm = games.reduce((a, g) => a + (g.fgm || 0), 0)
+  const fg3m = games.reduce((a, g) => a + (g.fg3m || 0), 0)
+  const fga = games.reduce((a, g) => a + (g.fga || 0), 0)
+  if (!fga) return null
+  return (fgm + 0.5 * fg3m) / fga
+}
+
+// TS% = PTS / (2 * (FGA + 0.44 * FTA))
+function tsAggregate(games) {
+  const pts = games.reduce((a, g) => a + (g.pts || 0), 0)
+  const fga = games.reduce((a, g) => a + (g.fga || 0), 0)
+  const fta = games.reduce((a, g) => a + (g.fta || 0), 0)
+  const denom = 2 * (fga + 0.44 * fta)
+  if (!denom) return null
+  return pts / denom
+}
+
 const TEAM_STATS = [
-  { key: 'net_rating', label: 'Net Rating', format: 'rating', color: '#e03a3e' },
+  { key: 'net_rating', label: 'Net Rating', format: 'rating', color: '#e03a3e', aggregate: possessionWeightedMean('net_rating') },
   { key: 'pace',       label: 'Pace',       format: 'num',    color: '#2980b9' },
   { key: 'ts_pct',     label: 'TS%',        format: 'pct',    color: '#16a085' },
   { key: 'efg_pct',    label: 'eFG%',       format: 'pct',    color: '#8e44ad' },
@@ -136,7 +199,18 @@ function TeamTrendCard({ stat, games, windowSize }) {
       })),
     [games, stat.key]
   )
-  const { seasonAvg, windowAvg, delta } = computeAverages(seriesData, windowSize)
+  // If the stat carries an aggregate fn, use it against the raw team games
+  // (which have poss + any other base fields). Otherwise fall back to the
+  // simple-mean computeAverages path for stats we haven't upgraded yet.
+  let seasonAvg, windowAvg, delta
+  if (stat.aggregate) {
+    seasonAvg = stat.aggregate(games)
+    const windowStart = Math.max(0, games.length - windowSize)
+    windowAvg = stat.aggregate(games.slice(windowStart))
+    delta = seasonAvg != null && windowAvg != null ? windowAvg - seasonAvg : null
+  } else {
+    ({ seasonAvg, windowAvg, delta } = computeAverages(seriesData, windowSize))
+  }
 
   return (
     <div className="trends-team-card">
@@ -164,13 +238,24 @@ function PlayerTrendRow({ player, windowSize }) {
     <div className="trends-player-row">
       <div className="trends-player-name">{player.name}</div>
       {PLAYER_STATS.map((stat) => {
+        // Sparkline series: for percentage stats, null out games where the
+        // player had zero attempts so the line doesn't dip to 0% (it would
+        // misread as a bad shooting night when the player just didn't shoot).
         const seriesData = player.games.map((g) => ({
-          value: g[stat.key],
+          value:
+            stat.skipKey && !(g[stat.skipKey] > 0)
+              ? null
+              : g[stat.key],
           date: g.date,
           opp_tricode: g.opp_tricode,
           home_away: g.home_away,
         }))
-        const { seasonAvg, windowAvg, delta } = computeAverages(seriesData, windowSize)
+        // Season / Last-N averages use the stat's aggregate fn so percentages
+        // are weighted by attempts (not a simple mean of per-game %s).
+        const seasonAvg = stat.aggregate(player.games)
+        const windowStart = Math.max(0, player.games.length - windowSize)
+        const windowAvg = stat.aggregate(player.games.slice(windowStart))
+        const delta = seasonAvg != null && windowAvg != null ? windowAvg - seasonAvg : null
         return (
           <div key={stat.key} className="trends-player-cell">
             <div className="trends-player-cell-top">

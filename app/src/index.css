@@ -3472,8 +3472,11 @@ header {
   color: var(--text-dim);
   text-transform: uppercase;
   letter-spacing: 0.5px;
+  padding-top: 8px;
   padding-bottom: 8px;
   margin-bottom: 4px;
+  background: var(--code-bg);
+  border-radius: 6px 6px 0 0;
 }
 
 .trends-player-name-head,
@@ -3481,6 +3484,13 @@ header {
   font-size: 13px;
   font-weight: 600;
   color: var(--text-h);
+  background: var(--code-bg);
+  /* Small horizontal padding so the background pill doesn't read as
+     flush-left against the cell edge. */
+  padding: 4px 8px;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
 }
 
 .trends-stat-head {
@@ -3494,6 +3504,14 @@ header {
 
 .trends-player-row:last-child {
   border-bottom: none;
+}
+
+/* Column dividers across the Trends player grid — matches the Lineups
+   table pattern. :last-child skip means last column has no right border. */
+.trends-players-head > *:not(:last-child),
+.trends-player-row > *:not(:last-child) {
+  border-right: 1px solid var(--border);
+  padding-right: 8px;
 }
 
 .trends-player-cell {
@@ -3522,9 +3540,9 @@ header {
 
 .trends-pair-label {
   color: var(--text-dim);
-  font-size: 9px;
+  font-size: 7px;
   text-transform: uppercase;
-  letter-spacing: 0.4px;
+  letter-spacing: 0.3px;
   line-height: 1.1;
   white-space: nowrap;
 }
@@ -3534,7 +3552,7 @@ header {
   font-variant-numeric: tabular-nums;
   color: var(--text-h);
   font-weight: 600;
-  font-size: 12px;
+  font-size: 10px;
   line-height: 1.2;
   white-space: nowrap;
 }
@@ -3546,9 +3564,9 @@ header {
 /* Delta pill — compact, color-coded */
 .trend-delta {
   display: inline-block;
-  padding: 1px 5px;
+  padding: 1px 4px;
   border-radius: 8px;
-  font-size: 10px;
+  font-size: 9px;
   font-family: var(--mono);
   font-variant-numeric: tabular-nums;
   font-weight: 500;
@@ -3573,25 +3591,32 @@ header {
 /* Sparkline tooltip — recharts wraps our content in its default container,
    so style ours to override */
 .spark-tooltip {
-  background: var(--card-bg);
-  border: 1px solid var(--border);
+  /* --bg (page background) is the safe opaque color in both themes.
+     The earlier --card-bg wasn't defined, so this box was see-through. */
+  background: var(--bg);
+  border: 1px solid var(--text-h);
   border-radius: 6px;
-  padding: 6px 8px;
-  font-size: 11px;
+  padding: 8px 10px;
+  font-size: 12px;
   color: var(--text-h);
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  /* Stronger shadow so the box reads as clearly lifted off the sparkline
+     behind it, not just floating transparently. */
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+  min-width: 120px;
 }
 
 .spark-tt-date {
   color: var(--text-dim);
-  margin-bottom: 2px;
-  font-size: 10px;
+  margin-bottom: 3px;
+  font-size: 11px;
+  white-space: nowrap;
 }
 
 .spark-tt-value {
   font-family: var(--mono);
   font-variant-numeric: tabular-nums;
   font-weight: 600;
+  font-size: 13px;
 }
 
 /* ---- Mobile: stack team grid, shrink player cells ---- */
@@ -3634,9 +3659,9 @@ header {
   }
 
   /* Mobile cells have 130px of width and show two value pairs + a delta,
-     so sizing matters here. Labels stay small, values get a bit bigger. */
-  .trends-pair-label { font-size: 9px; }
-  .trends-pair-value { font-size: 12px; }
+     so sizing matches the tighter desktop sizes. */
+  .trends-pair-label { font-size: 7px; }
+  .trends-pair-value { font-size: 10px; }
 }
 
 /* ---------- Lineups page ---------- */
@@ -3785,6 +3810,25 @@ header {
 .lineups-th:not(:last-child),
 .lineups-td:not(:last-child) {
   border-right: 1px solid var(--border);
+}
+
+/* Sticky first column — lineup/player names stay visible while the user
+   scrolls horizontally through the stat columns. Only matters when the
+   table overflows its container (narrow viewports / wide filter sets).
+   Background is already set on .lineups-td-left (--code-bg) so content
+   doesn't bleed through during scroll. */
+.lineups-th-left,
+.lineups-td-left {
+  position: sticky;
+  left: 0;
+  z-index: 2;
+}
+
+/* Header cell in the first column sits at the intersection of two sticky
+   positions — needs a higher z-index so it covers both the scrolling header
+   row and the scrolling body column during horizontal scroll. */
+.lineups-th.lineups-th-left {
+  z-index: 3;
 }
 
 /* NET column color-coding — green for positive, red for negative.
