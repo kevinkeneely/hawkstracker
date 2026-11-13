@@ -7,6 +7,7 @@
   --accent: #aa3bff;
   --accent-bg: rgba(170, 59, 255, 0.1);
   --accent-border: rgba(170, 59, 255, 0.5);
+  --trend-window: #b8763d;
   --social-bg: rgba(244, 243, 236, 0.5);
   --row-alt: rgba(224, 58, 62, 0.05);
   --rank-good-text: #16a34a;
@@ -45,6 +46,7 @@
     --accent: #c084fc;
     --accent-bg: rgba(192, 132, 252, 0.15);
     --accent-border: rgba(192, 132, 252, 0.5);
+    --trend-window: #d4a574;
     --social-bg: rgba(47, 48, 58, 0.5);
     --row-alt: rgba(224, 58, 62, 0.12);
     --rank-good-text: #4ade80;
@@ -65,6 +67,7 @@
   --accent: #c084fc;
   --accent-bg: rgba(192, 132, 252, 0.15);
   --accent-border: rgba(192, 132, 252, 0.5);
+  --trend-window: #d4a574;
   --social-bg: rgba(47, 48, 58, 0.5);
   --row-alt: rgba(224, 58, 62, 0.12);
   --rank-good-text: #4ade80;
@@ -3581,6 +3584,18 @@ header {
   white-space: nowrap;
 }
 
+/* Amber highlight for the Last-N label + value, matching the amber dotted
+   reference line drawn on the sparkline. (See TrendSparkline.) */
+.trends-pair-label.is-window,
+.trends-team-card-values .is-window span {
+  color: var(--trend-window);
+}
+.trends-pair-value.is-window,
+.trends-team-card-values .is-window strong {
+  color: var(--trend-window);
+}
+
+
 /* Keep the old .trends-cell-season class as a no-op alias in case anything
    else on the site still references it. */
 .trends-cell-season { display: none; }
@@ -3611,6 +3626,20 @@ header {
   color: var(--text-dim);
   background: var(--code-bg);
 }
+
+/* Muted good/bad — direction is shown, but with reduced saturation so
+   small deltas don't visually overpower genuinely large ones. */
+.trend-delta-good-muted {
+  color: var(--rank-good-text);
+  background: var(--rank-good-bg);
+  opacity: 0.55;
+}
+.trend-delta-bad-muted {
+  color: var(--rank-bad-text);
+  background: var(--rank-bad-bg);
+  opacity: 0.55;
+}
+
 
 /* Sparkline tooltip — recharts wraps our content in its default container,
    so style ours to override */

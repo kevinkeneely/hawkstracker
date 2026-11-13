@@ -307,7 +307,7 @@ function TeamTrendCard({ stat, games, windowSize, teamHawks }) {
       </div>
       <div className="trends-team-card-values">
         <div><span>Season</span><strong>{formatValue(seasonAvg, stat.format)}</strong></div>
-        <div><span>Last {windowSize}</span><strong>{formatValue(windowAvg, stat.format)}</strong></div>
+        <div className="is-window"><span>Last {windowSize}</span><strong>{formatValue(windowAvg, stat.format)}</strong></div>
       </div>
       <TrendSparkline
         games={seriesData}
@@ -359,8 +359,8 @@ export function PlayerTrendRow({ player, windowSize, onoffEntry }) {
                 </strong>
               </div>
               <div className="trends-value-pair">
-                <span className="trends-pair-label">Last {windowSize}</span>
-                <strong className="trends-pair-value">
+                <span className="trends-pair-label is-window">Last {windowSize}</span>
+                <strong className="trends-pair-value is-window">
                   {formatValue(windowAvg, stat.format)}
                 </strong>
               </div>
@@ -407,21 +407,39 @@ function DeltaBadge({ delta, format, inversePositive = false }) {
   if (delta == null) return <span className="trend-delta trend-delta-neutral">—</span>
   const isUp = delta > 0
   const good = inversePositive ? !isUp : isUp
-  const cls =
-    Math.abs(delta) < epsilonFor(format)
-      ? 'trend-delta-neutral'
-      : good
-      ? 'trend-delta-good'
-      : 'trend-delta-bad'
+  const abs = Math.abs(delta)
+  // Three tiers:
+  //   abs < zeroEpsilon      → neutral (displays as "0.0")
+  //   abs < significantEpsilon → muted good/bad (direction clear, but small)
+  //   else                   → full good/bad
+  let cls
+  if (abs < zeroEpsilonFor(format)) {
+    cls = 'trend-delta-neutral'
+  } else if (abs < significantEpsilonFor(format)) {
+    cls = good ? 'trend-delta-good-muted' : 'trend-delta-bad-muted'
+  } else {
+    cls = good ? 'trend-delta-good' : 'trend-delta-bad'
+  }
   const sign = isUp ? '▲' : '▼'
   return (
     <span className={`trend-delta ${cls}`}>
-      {sign} {formatValue(Math.abs(delta), format).replace('+', '')}
+      {sign} {formatValue(abs, format).replace('+', '')}
     </span>
   )
 }
 
-function epsilonFor(format) {
+// Below this, the delta rounds to "0.0" / "0.0%" in display, so showing a
+// green/red badge would contradict what the viewer sees — use neutral.
+function zeroEpsilonFor(format) {
+  if (format === 'pct') return 0.0005
+  if (format === 'rating') return 0.05
+  return 0.05
+}
+
+// At or above this, the delta is "meaningful" and gets a full-saturation
+// badge. Between zero and this, direction is still shown but muted.
+// Thresholds mirror the pre-Nov-13 noise floor.
+function significantEpsilonFor(format) {
   if (format === 'pct') return 0.005 // 0.5pp
   if (format === 'rating') return 0.5
   return 0.3

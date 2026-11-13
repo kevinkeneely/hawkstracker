@@ -36,6 +36,17 @@ export default function TrendSparkline({
     ? validValues.reduce((a, b) => a + b, 0) / validValues.length
     : null
 
+  // Last-N (rolling window) average across non-null values. Drawn as a
+  // second, amber reference line so you can read recent form against both
+  // the full-season baseline and the rolling baseline at a glance.
+  const windowValues = data
+    .slice(windowStart)
+    .filter((d) => d.value != null)
+    .map((d) => d.value)
+  const windowAvg = windowValues.length
+    ? windowValues.reduce((a, b) => a + b, 0) / windowValues.length
+    : null
+
   return (
     <div style={{ width: '100%', height }}>
       <ResponsiveContainer width="100%" height="100%">
@@ -45,6 +56,15 @@ export default function TrendSparkline({
             <ReferenceLine
               y={seasonAvg}
               stroke="var(--border)"
+              strokeDasharray="2 3"
+              strokeWidth={1}
+            />
+          )}
+          {windowAvg != null && (
+            <ReferenceLine
+              y={windowAvg}
+              stroke="var(--trend-window)"
+              strokeOpacity={0.55}
               strokeDasharray="2 3"
               strokeWidth={1}
             />
