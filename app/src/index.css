@@ -3910,3 +3910,40 @@ header {
   color: var(--text-h);
   border-bottom-color: #C8102E;
 }
+
+/* Advanced section nav — Shooting / Defense / Playmaking / Hustle tabs that
+   appear at the top of every Advanced sub-page. Replaces the per-page
+   shot-type toggles. Same underline-style tab idiom as lineups-section. */
+.advanced-section-nav {
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+  margin: 0 auto 20px;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 12px;
+  max-width: 1200px;
+}
+
+.advanced-section-btn {
+  padding: 8px 20px;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text);
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+  font-family: inherit;
+  text-decoration: none;
+  transition: color 0.15s, border-color 0.15s;
+  margin-bottom: -13px;  /* overlap container bottom-border to nest underline */
+}
+
+.advanced-section-btn:hover {
+  color: var(--text-h);
+}
+
+.advanced-section-btn.active {
+  color: var(--text-h);
+  border-bottom-color: #C8102E;
+}

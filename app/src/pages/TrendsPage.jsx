@@ -28,7 +28,7 @@ import TrendSparkline, { formatValue } from '../components/TrendSparkline'
 // mean as aggregator — exact BR aggregation would need raw numerators and
 // denominators (TmFGM, team FGA, etc.) that aren't in the per-game data today.
 // Within ~0.5% for most players; fine for display.
-const PLAYER_STATS = [
+export const PLAYER_STATS = [
   { key: 'pts',        label: 'PPG',   format: 'num',    color: '#e03a3e', aggregate: meanOf('pts'),             skipKey: null   },
   { key: 'oreb_pct',   label: 'OReb%', format: 'pct',    color: '#16a085', aggregate: possessionWeightedMean('oreb_pct'), skipKey: null },
   { key: 'ast_pct',    label: 'AST%',  format: 'pct',    color: '#2980b9', aggregate: possessionWeightedMean('ast_pct'),  skipKey: null },
@@ -149,13 +149,28 @@ const TEAM_STATS = [
   { key: 'blk_pct',    label: 'BLK%',       format: 'pct',    color: '#8e44ad',                                                   seasonKey: 'blk_pct_def' },
 ]
 
-const WINDOW_OPTIONS = [5, 10, 15, 20]
-const DEFAULT_WINDOW = 10
+export const WINDOW_OPTIONS = [5, 10, 15, 20]
+export const DEFAULT_WINDOW = 10
 
 const HAWKS_TEAM_ID = 1610612737
 
-export default function TrendsPage({ gameLogs, teamData }) {
+export default function TrendsPage({ gameLogs, teamData, onoff }) {
   const [windowSize, setWindowSize] = useState(DEFAULT_WINDOW)
+
+  // All hooks must be called unconditionally before any early return.
+  // Filter players who have at least played some games.
+  const players = useMemo(
+    () => gameLogs?.players?.filter((p) => p.games && p.games.length >= 3) ?? [],
+    [gameLogs]
+  )
+  // On/off per-player map for the NET column season override — matches the
+  // Lineups tab's "On NET" exactly, since both come from the same NBA.com
+  // teamplayeronoffsummary endpoint.
+  const onoffByPid = useMemo(() => {
+    const m = new Map()
+    for (const pl of onoff?.players || []) m.set(pl.player_id, pl)
+    return m
+  }, [onoff])
 
   if (!gameLogs) {
     return (
@@ -165,11 +180,6 @@ export default function TrendsPage({ gameLogs, teamData }) {
     )
   }
 
-  // Filter players who have at least played some games
-  const players = useMemo(
-    () => gameLogs.players.filter((p) => p.games && p.games.length >= 3),
-    [gameLogs]
-  )
   // Hawks season row from teamData (authoritative NBA.com season aggregates
   // for team-level stats). Null if teamData hasn't loaded yet; team card
   // falls back to aggregating game_logs in that case.
@@ -237,7 +247,12 @@ export default function TrendsPage({ gameLogs, teamData }) {
             ))}
           </div>
           {players.map((p) => (
-            <PlayerTrendRow key={p.id} player={p} windowSize={effectiveWindow} />
+            <PlayerTrendRow
+              key={p.id}
+              player={p}
+              windowSize={effectiveWindow}
+              onoffEntry={onoffByPid.get(p.id)}
+            />
           ))}
         </div>
       </section>
@@ -305,7 +320,7 @@ function TeamTrendCard({ stat, games, windowSize, teamHawks }) {
   )
 }
 
-function PlayerTrendRow({ player, windowSize }) {
+export function PlayerTrendRow({ player, windowSize, onoffEntry }) {
   return (
     <div className="trends-player-row">
       <div className="trends-player-name">{player.name}</div>
@@ -324,7 +339,13 @@ function PlayerTrendRow({ player, windowSize }) {
         }))
         // Season / Last-N averages use the stat's aggregate fn so percentages
         // are weighted by attempts (not a simple mean of per-game %s).
-        const seasonAvg = stat.aggregate(player.games)
+        // For NET, override Season with NBA.com's on/off "On NET" value so
+        // the Trends row matches the Lineups tab exactly (both come from
+        // teamplayeronoffsummary).
+        let seasonAvg = stat.aggregate(player.games)
+        if (stat.key === 'net_rating' && onoffEntry && onoffEntry.net_rating_on != null) {
+          seasonAvg = onoffEntry.net_rating_on
+        }
         const windowStart = Math.max(0, player.games.length - windowSize)
         const windowAvg = stat.aggregate(player.games.slice(windowStart))
         const delta = seasonAvg != null && windowAvg != null ? windowAvg - seasonAvg : null

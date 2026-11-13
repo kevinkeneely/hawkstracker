@@ -2,8 +2,14 @@ import { useEffect, useState } from 'react'
 import { useParams, Link, useNavigate } from 'react-router-dom'
 import ShotChart from '../components/ShotChart'
 import Tabs from '../components/Tabs'
+import {
+  PlayerTrendRow,
+  PLAYER_STATS,
+  WINDOW_OPTIONS,
+  DEFAULT_WINDOW,
+} from './TrendsPage'
 
-export default function PlayerProfilePage({ playerData, season, leagueBaseline }) {
+export default function PlayerProfilePage({ playerData, season, leagueBaseline, gameLogs, onoff }) {
   const { id } = useParams()
   const playerId = Number(id)
   const player = playerData?.players.find((p) => p.id === playerId)
@@ -65,6 +71,11 @@ export default function PlayerProfilePage({ playerData, season, leagueBaseline }
             key: 'tracking',
             label: 'Tracking',
             content: <TrackingTab player={player} />,
+          },
+          {
+            key: 'trend',
+            label: 'Trends',
+            content: <TrendTab player={player} gameLogs={gameLogs} onoff={onoff} />,
           },
         ]}
       />
@@ -617,5 +628,70 @@ function CompareSelector({ currentPlayerId, playerData }) {
         <option key={p.id} value={p.id}>{p.name}</option>
       ))}
     </select>
+  )
+}
+
+
+/**
+ * Trend tab — shows this player's row from the Trends page (their 12 stat
+ * sparklines + Season/Last-N pairs + delta pills). Adds a rolling-window
+ * picker so the user can switch between Last 5/10/15/20 for just this
+ * player without leaving the profile. Reuses PlayerTrendRow/PLAYER_STATS
+ * from the main Trends page so the two views can't drift.
+ */
+function TrendTab({ player, gameLogs, onoff }) {
+  const [windowSize, setWindowSize] = useState(DEFAULT_WINDOW)
+  const onoffEntry = onoff?.players?.find?.((p) => p.player_id === player.id)
+
+  // Find the player's game-log entry (by NBA personId → playerData.id).
+  const playerLog = gameLogs?.players?.find((p) => p.id === player.id)
+  if (!gameLogs) {
+    return <div className="tab-placeholder">Trend data isn't loaded yet.</div>
+  }
+  if (!playerLog || playerLog.games.length < 3) {
+    return (
+      <div className="tab-placeholder">
+        Not enough regular-season games yet to show trends for {player.name}.
+        Comes back in after 3 games.
+      </div>
+    )
+  }
+  // Hide window options that exceed the player's game count — same behavior
+  // as the Trends page team-wide picker.
+  const availableOptions = WINDOW_OPTIONS.filter(
+    (n) => n <= playerLog.games.length || n === WINDOW_OPTIONS[0]
+  )
+  const effectiveWindow = availableOptions.includes(windowSize)
+    ? windowSize
+    : availableOptions[availableOptions.length - 1] || WINDOW_OPTIONS[0]
+
+  return (
+    <section className="profile-trend">
+      <div className="trends-window-group" role="group" aria-label="Rolling window size">
+        <span className="trends-window-label">Rolling window:</span>
+        {availableOptions.map((n) => (
+          <button
+            key={n}
+            type="button"
+            className={`trends-window-btn ${n === effectiveWindow ? 'active' : ''}`}
+            onClick={() => setWindowSize(n)}
+          >
+            Last {n}
+          </button>
+        ))}
+      </div>
+
+      {/* Column header + the player row itself, wrapped in the same
+          horizontal-scroll container so they scroll together. */}
+      <div className="trends-players-scroll profile-trend-scroll">
+        <div className="trends-players-head">
+          <div className="trends-player-name-head">Player</div>
+          {PLAYER_STATS.map((s) => (
+            <div key={s.key} className="trends-stat-head">{s.label}</div>
+          ))}
+        </div>
+        <PlayerTrendRow player={playerLog} windowSize={effectiveWindow} onoffEntry={onoffEntry} />
+      </div>
+    </section>
   )
 }

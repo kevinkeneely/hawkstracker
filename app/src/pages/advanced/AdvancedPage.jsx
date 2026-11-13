@@ -36,18 +36,25 @@
  *   }
  */
 
-import { useMemo, useState } from 'react'
+import { useMemo } from 'react'
+import { NavLink } from 'react-router-dom'
 import AdvancedScatterPlot from '../../components/AdvancedScatterPlot'
-import AdvancedLeaderboards from '../../components/AdvancedLeaderboards'
+
+// Section nav — lets the user move between the 4 Advanced sub-pages
+// without going back to the main nav. Shown at the top of every Advanced
+// page. Routes stay the same; only the visual tab is new.
+const ADVANCED_SECTIONS = [
+  { to: '/shooting',   label: 'Shooting'   },
+  { to: '/defense',    label: 'Defense'    },
+  { to: '/playmaking', label: 'Playmaking' },
+  { to: '/hustle',     label: 'Hustle'     },
+]
 
 export default function AdvancedPage({
   title, subtitle,
   hawksPlayers, leagueData,
-  scatterConfigs, toggleConfigs,
-  leagueMinMinutes,
+  scatterConfigs,
 }) {
-  const [activeToggle, setActiveToggle] = useState(null)
-
   const leaguePlayers = leagueData?.players || []
 
   // Team games played — derived from the max `gp` across every player on a
@@ -165,66 +172,47 @@ export default function AdvancedPage({
     })
   }, [scatterConfigs, leaguePlayers, teamGpById])
 
-  const activeConfig = toggleConfigs.find(t => t.key === activeToggle)
-
   return (
     <div className="advanced-page">
+      {/* Section nav — Shooting / Defense / Playmaking / Hustle. Replaces
+          the per-page shot-type toggles and lets the user walk the 4
+          Advanced sub-pages without going back to the main nav. */}
+      <nav className="advanced-section-nav" aria-label="Advanced sections">
+        {ADVANCED_SECTIONS.map((sec) => (
+          <NavLink
+            key={sec.to}
+            to={sec.to}
+            className={({ isActive }) =>
+              `advanced-section-btn ${isActive ? 'active' : ''}`
+            }
+          >
+            {sec.label}
+          </NavLink>
+        ))}
+      </nav>
+
       <header className="advanced-page-header">
         <h2>{title}</h2>
         {subtitle && <p className="advanced-page-sub">{subtitle}</p>}
       </header>
 
-      {/* Toggle buttons centered at top */}
-      <div className="advanced-toggle-row">
-        {toggleConfigs.map(t => (
-          <button
-            key={t.key}
-            type="button"
-            className={`advanced-toggle-btn ${activeToggle === t.key ? 'active' : ''}`}
-            onClick={() => setActiveToggle(t.key)}
-          >
-            {t.label}
-          </button>
+      <div className="advanced-scatter-stack">
+        {scatterData.map((item, i) => (
+          <AdvancedScatterPlot
+            key={i}
+            title={item.config.title}
+            description={item.config.description}
+            players={item.points}
+            leagueMedians={item.leagueMedians}
+            xLabel={item.config.xLabel}
+            yLabel={item.config.yLabel}
+            xInvert={item.config.xInvert}
+            yInvert={item.config.yInvert}
+            xFormat={item.config.xFormat}
+            yFormat={item.config.yFormat}
+          />
         ))}
       </div>
-
-      {activeToggle === null ? (
-        /* Default view: scatter plot stack */
-        <div className="advanced-scatter-stack">
-          {scatterData.map((item, i) => (
-            <AdvancedScatterPlot
-              key={i}
-              title={item.config.title}
-              description={item.config.description}
-              players={item.points}
-              leagueMedians={item.leagueMedians}
-              xLabel={item.config.xLabel}
-              yLabel={item.config.yLabel}
-              xInvert={item.config.xInvert}
-              yInvert={item.config.yInvert}
-              xFormat={item.config.xFormat}
-              yFormat={item.config.yFormat}
-            />
-          ))}
-        </div>
-      ) : (
-        /* Toggle active: Hawks + League leaderboards */
-        <div className="advanced-leaderboards-section">
-          <button
-            type="button"
-            className="advanced-back-link"
-            onClick={() => setActiveToggle(null)}
-          >
-            ← Back to charts
-          </button>
-          <AdvancedLeaderboards
-            stats={activeConfig.hawksStats}
-            hawksPlayers={hawksPlayers}
-            leaguePlayers={leaguePlayers}
-            leagueMinMinutes={leagueMinMinutes}
-          />
-        </div>
-      )}
     </div>
   )
 }

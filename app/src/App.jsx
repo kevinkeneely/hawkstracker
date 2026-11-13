@@ -225,7 +225,7 @@ function App() {
           <NavLink to="/trends" className="tab">Trends</NavLink>
           <NavLink to="/lineups" className="tab">Lineups</NavLink>
           <NavLink to="/leaders" className="tab">Leaders</NavLink>
-          <AdvancedDropdown />
+          <AdvancedTabLink />
           <NavLink to="/standings" className="tab">Standings</NavLink>
         </nav>
       </header>
@@ -239,9 +239,9 @@ function App() {
             <Route path="/team" element={<TeamStatsPage hawks={hawks} teamData={teamData} />} />
             <Route path="/standings" element={<StandingsPage standingsData={standingsData} season={season} />} />
             <Route path="/leaders" element={<LeadersPage leaderboards={leaderboards} playerData={playerData} />} />
-            <Route path="/trends" element={<TrendsPage gameLogs={gameLogs} teamData={teamData} />} />
+            <Route path="/trends" element={<TrendsPage gameLogs={gameLogs} teamData={teamData} onoff={onoff} />} />
             <Route path="/lineups" element={<LineupsPage lineups5={lineups5} lineups4={lineups4} lineups3={lineups3} lineups2={lineups2} onoff={onoff} />} />
-            <Route path="/players/:id" element={<PlayerProfilePage playerData={playerData} season={season} leagueBaseline={leagueBaseline} />} />
+            <Route path="/players/:id" element={<PlayerProfilePage playerData={playerData} season={season} leagueBaseline={leagueBaseline} gameLogs={gameLogs} onoff={onoff} />} />
             <Route path="/compare/:id1/:id2" element={<ComparePage playerData={playerData} />} />
             <Route path="/games/:id" element={<BoxScorePage season={season} playerData={playerData} />} />
             <Route path="/teams/:tricode" element={<TeamHomePage teamData={teamData} standingsData={standingsData} season={season} />} />
@@ -261,12 +261,27 @@ function App() {
 export default App
 
 /**
- * AdvancedDropdown — fifth nav slot, visually styled to match the other tabs
- * but holds four leaderboard routes behind a native <select>. Picking an
- * option navigates. Keeps the "active" styling when the current route is
- * one of the four /shooting /defense /playmaking /hustle pages.
+ * AdvancedTabLink — nav tab that routes to the Shooting page by default but
+ * stays visually active on any of the 4 Advanced routes (shooting, defense,
+ * playmaking, hustle). The in-page section nav on those pages handles
+ * switching between them.
  */
-function AdvancedDropdown() {
+function AdvancedTabLink() {
+  const location = useLocation()
+  const advancedRoutes = ['/shooting', '/defense', '/playmaking', '/hustle']
+  const isActive = advancedRoutes.includes(location.pathname)
+  return (
+    <NavLink
+      to="/shooting"
+      className={`tab ${isActive ? 'active' : ''}`}
+      end={false}
+    >
+      Advanced
+    </NavLink>
+  )
+}
+
+function _AdvancedDropdown_OLD() {
   const navigate = useNavigate()
   const location = useLocation()
   const items = [
