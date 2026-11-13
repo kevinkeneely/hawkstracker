@@ -54,6 +54,7 @@ export default function AdvancedPage({
   title, subtitle,
   hawksPlayers, leagueData,
   scatterConfigs,
+  extraSection,
 }) {
   const leaguePlayers = leagueData?.players || []
 
@@ -213,6 +214,7 @@ export default function AdvancedPage({
           />
         ))}
       </div>
+      {extraSection}
     </div>
   )
 }

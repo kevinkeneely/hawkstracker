@@ -5,6 +5,7 @@
 
 import { useEffect, useState } from 'react'
 import AdvancedPage from './AdvancedPage'
+import RegressionCandidates from '../../components/RegressionCandidates'
 
 // Shape adapter: Hawks data nests under player.shooting_tracking.<sub>.<field>.value;
 // League data has player.<sub>.<field> directly. This handles both.
@@ -211,6 +212,12 @@ export default function ShootingPage({ playerData, season }) {
       leagueData={mergedLeagueData}
       scatterConfigs={SCATTER_CONFIGS}
       toggleConfigs={TOGGLE_CONFIGS}
+      extraSection={
+        <RegressionCandidates
+          hawksPlayers={playerData.players}
+          leaguePlayers={leaderboardsFile.players}
+        />
+      }
     />
   )
 }
