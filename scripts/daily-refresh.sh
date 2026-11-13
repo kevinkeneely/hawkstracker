@@ -52,6 +52,10 @@ run_step fetch_standings              python3 -m pipeline.fetch_standings
 run_step transform                    python3 -m pipeline.transform
 run_step transform_team               python3 -m pipeline.transform_team
 run_step transform_standings          python3 -m pipeline.transform_standings
+run_step fetch_league_team_stats      python3 -m pipeline.fetch_league_team_stats
+run_step fetch_league_team_games      python3 -m pipeline.fetch_league_team_games
+run_step transform_league_team_stats  python3 -m pipeline.transform_league_team_stats
+run_step transform_league_team_games  python3 -m pipeline.transform_league_team_games
 run_step fetch_shots                  python3 -m pipeline.fetch_shots
 run_step transform_shots              python3 -m pipeline.transform_shots
 run_step transform_shot_zones         python3 -m pipeline.transform_shot_zones
