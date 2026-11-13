@@ -133,7 +133,7 @@ export default function MatchupPreview() {
   const vsAt = nextGame.home_away === 'home' ? 'vs' : '@'
 
   return (
-    <section className="mp-section">
+    <Link to={`/games/${nextGame.game_id}`} className="mp-section mp-link">
       <header className="mp-head">
         <div className="mp-head-left">
           <span className="mp-eyebrow">Next Game</span>
@@ -182,7 +182,7 @@ export default function MatchupPreview() {
         <RecentFormBlock label="ATL last 5" form={hawksForm} />
         <RecentFormBlock label={`${nextGame.opp_tricode} last 5`} form={oppForm} />
       </div>
-    </section>
+    </Link>
   )
 }
 

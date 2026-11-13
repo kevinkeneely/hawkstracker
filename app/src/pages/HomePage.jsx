@@ -32,7 +32,6 @@ export default function HomePage({ hawks, teamData, season, gameLogs }) {
 
   return (
     <>
-    {season === CURRENT_SEASON && <MatchupPreview />}
     <div
       className="home-grid"
       style={{
@@ -55,6 +54,7 @@ export default function HomePage({ hawks, teamData, season, gameLogs }) {
       <TeamStats team={hawks} allTeams={teamData.teams} />
     </section>
     <FormWatchRow gameLogs={gameLogs} />
+    {season === CURRENT_SEASON && <MatchupPreview />}
     </>
   )
 }

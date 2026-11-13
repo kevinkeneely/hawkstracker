@@ -4291,11 +4291,24 @@ header {
    ====================================================================== */
 
 .mp-section {
-  margin: 0 0 1.5rem 0;
+  display: block;
+  margin: 1.5rem 0 0 0;
   padding: 16px 18px;
   border: 1px solid var(--border);
   border-radius: 12px;
   background: var(--social-bg);
+}
+
+/* Entire card is a <Link> to the game's box score — reset <a> defaults and
+   add a subtle hover affordance so it reads as clickable. */
+.mp-link {
+  text-decoration: none;
+  color: inherit;
+  transition: border-color 0.12s ease, transform 0.12s ease;
+}
+.mp-link:hover {
+  border-color: var(--accent-border);
+  transform: translateY(-1px);
 }
 
 .mp-head {
