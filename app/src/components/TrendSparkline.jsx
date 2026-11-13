@@ -55,7 +55,8 @@ export default function TrendSparkline({
           {seasonAvg != null && (
             <ReferenceLine
               y={seasonAvg}
-              stroke="var(--border)"
+              stroke="var(--text)"
+              strokeOpacity={0.65}
               strokeDasharray="2 3"
               strokeWidth={1}
             />
