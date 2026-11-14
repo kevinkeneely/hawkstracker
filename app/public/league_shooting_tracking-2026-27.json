@@ -1,16 +1,16 @@
 {
   "season": "2026-27",
-  "generated_at": "2026-11-13T02:38:08.746893-05:00",
+  "generated_at": "2026-11-14T02:12:47.617729-05:00",
   "source_files": {
-    "cs": "league_shots_cs_2026-11-13.json",
-    "pullup": "league_shots_pullup_2026-11-13.json",
+    "cs": "league_shots_cs_2026-11-14.json",
+    "pullup": "league_shots_pullup_2026-11-14.json",
     "contested": [
-      "league_shots_tight_2026-11-13.json",
-      "league_shots_close_2026-11-13.json"
+      "league_shots_tight_2026-11-14.json",
+      "league_shots_close_2026-11-14.json"
     ],
     "uncontested": [
-      "league_shots_open_2026-11-13.json",
-      "league_shots_wide_2026-11-13.json"
+      "league_shots_open_2026-11-14.json",
+      "league_shots_wide_2026-11-14.json"
     ]
   },
   "players": [
@@ -18,42 +18,42 @@
       "id": 1643407,
       "name": "AJ Dybantsa",
       "team": "WAS",
-      "gp": 8,
+      "gp": 9,
       "cs": {
-        "fgm": 1.88,
-        "fga": 4.5,
-        "fg_pct": 0.417,
-        "efg_pct": 0.486,
-        "fg3m": 0.63,
-        "fg3a": 2.38,
-        "fg3_pct": 0.263
+        "fgm": 1.78,
+        "fga": 4.22,
+        "fg_pct": 0.421,
+        "efg_pct": 0.5,
+        "fg3m": 0.67,
+        "fg3a": 2.33,
+        "fg3_pct": 0.286
       },
       "pullup": {
-        "fgm": 3.13,
-        "fga": 6.63,
-        "fg_pct": 0.472,
-        "efg_pct": 0.481,
-        "fg3m": 0.13,
-        "fg3a": 0.75,
-        "fg3_pct": 0.167
+        "fgm": 2.89,
+        "fga": 6.78,
+        "fg_pct": 0.426,
+        "efg_pct": 0.434,
+        "fg3m": 0.11,
+        "fg3a": 0.89,
+        "fg3_pct": 0.125
       },
       "contested": {
-        "fgm": 3.76,
-        "fga": 8.25,
-        "fg_pct": 0.4558,
-        "efg_pct": 0.4715,
-        "fg3m": 0.26,
-        "fg3a": 1.01,
-        "fg3_pct": 0.2574
+        "fgm": 3.34,
+        "fga": 7.78,
+        "fg_pct": 0.4293,
+        "efg_pct": 0.4434,
+        "fg3m": 0.22,
+        "fg3a": 0.89,
+        "fg3_pct": 0.2472
       },
       "uncontested": {
-        "fgm": 2.13,
-        "fga": 5.63,
-        "fg_pct": 0.3783,
-        "efg_pct": 0.4236,
-        "fg3m": 0.51,
-        "fg3a": 2.25,
-        "fg3_pct": 0.2267
+        "fgm": 2.11,
+        "fga": 5.67,
+        "fg_pct": 0.3721,
+        "efg_pct": 0.4206,
+        "fg3m": 0.55,
+        "fg3a": 2.45,
+        "fg3_pct": 0.2245
       }
     },
     {
@@ -648,103 +648,103 @@
       "id": 1642259,
       "name": "Alex Sarr",
       "team": "WAS",
-      "gp": 11,
+      "gp": 12,
       "cs": {
-        "fgm": 3.45,
-        "fga": 6.91,
-        "fg_pct": 0.5,
-        "efg_pct": 0.546,
-        "fg3m": 0.64,
-        "fg3a": 3.0,
-        "fg3_pct": 0.212
+        "fgm": 4.0,
+        "fga": 7.33,
+        "fg_pct": 0.545,
+        "efg_pct": 0.608,
+        "fg3m": 0.92,
+        "fg3a": 3.25,
+        "fg3_pct": 0.282
       },
       "pullup": {
-        "fgm": 0.27,
-        "fga": 0.91,
-        "fg_pct": 0.3,
-        "efg_pct": 0.3,
+        "fgm": 0.33,
+        "fga": 0.92,
+        "fg_pct": 0.364,
+        "efg_pct": 0.364,
         "fg3m": 0.0,
-        "fg3a": 0.09,
+        "fg3a": 0.08,
         "fg3_pct": 0.0
       },
       "contested": {
-        "fgm": 1.82,
-        "fga": 3.18,
-        "fg_pct": 0.5723,
-        "efg_pct": 0.5723,
-        "fg3m": 0.0,
-        "fg3a": 0.09,
-        "fg3_pct": 0.0
+        "fgm": 2.33,
+        "fga": 3.59,
+        "fg_pct": 0.649,
+        "efg_pct": 0.6602,
+        "fg3m": 0.08,
+        "fg3a": 0.17,
+        "fg3_pct": 0.4706
       },
       "uncontested": {
-        "fgm": 1.73,
-        "fga": 4.46,
-        "fg_pct": 0.3879,
-        "efg_pct": 0.4585,
-        "fg3m": 0.63,
-        "fg3a": 3.0,
-        "fg3_pct": 0.21
+        "fgm": 1.92,
+        "fga": 4.59,
+        "fg_pct": 0.4183,
+        "efg_pct": 0.5098,
+        "fg3m": 0.84,
+        "fg3a": 3.16,
+        "fg3_pct": 0.2658
       }
     },
     {
       "id": 1642918,
       "name": "Alijah Martin",
       "team": "TOR",
-      "gp": 10,
+      "gp": 11,
       "cs": {
-        "fgm": 2.0,
-        "fga": 2.9,
-        "fg_pct": 0.69,
-        "efg_pct": 0.897,
-        "fg3m": 1.2,
-        "fg3a": 2.0,
-        "fg3_pct": 0.6
+        "fgm": 1.91,
+        "fga": 3.0,
+        "fg_pct": 0.636,
+        "efg_pct": 0.833,
+        "fg3m": 1.18,
+        "fg3a": 2.09,
+        "fg3_pct": 0.565
       },
       "pullup": {
-        "fgm": 0.3,
-        "fga": 0.5,
-        "fg_pct": 0.6,
-        "efg_pct": 0.6,
+        "fgm": 0.36,
+        "fga": 0.55,
+        "fg_pct": 0.667,
+        "efg_pct": 0.667,
         "fg3m": 0.0,
         "fg3a": 0.0,
         "fg3_pct": null
       },
       "contested": {
-        "fgm": 0.6,
-        "fga": 0.8,
-        "fg_pct": 0.75,
-        "efg_pct": 0.8125,
-        "fg3m": 0.1,
-        "fg3a": 0.1,
+        "fgm": 0.73,
+        "fga": 0.91,
+        "fg_pct": 0.8022,
+        "efg_pct": 0.8516,
+        "fg3m": 0.09,
+        "fg3a": 0.09,
         "fg3_pct": 1.0
       },
       "uncontested": {
-        "fgm": 1.7,
-        "fga": 2.6,
-        "fg_pct": 0.6538,
-        "efg_pct": 0.8654,
-        "fg3m": 1.1,
-        "fg3a": 1.9,
-        "fg3_pct": 0.5789
+        "fgm": 1.63,
+        "fga": 2.64,
+        "fg_pct": 0.6174,
+        "efg_pct": 0.8239,
+        "fg3m": 1.09,
+        "fg3a": 2.0,
+        "fg3_pct": 0.545
       }
     },
     {
       "id": 1643512,
       "name": "Allen Graves",
       "team": "TOR",
-      "gp": 11,
+      "gp": 12,
       "cs": {
-        "fgm": 1.73,
-        "fga": 3.64,
-        "fg_pct": 0.475,
-        "efg_pct": 0.563,
-        "fg3m": 0.64,
+        "fgm": 1.58,
+        "fga": 3.5,
+        "fg_pct": 0.452,
+        "efg_pct": 0.536,
+        "fg3m": 0.58,
         "fg3a": 2.0,
-        "fg3_pct": 0.318
+        "fg3_pct": 0.292
       },
       "pullup": {
-        "fgm": 0.09,
-        "fga": 0.45,
+        "fgm": 0.08,
+        "fga": 0.42,
         "fg_pct": 0.2,
         "efg_pct": 0.2,
         "fg3m": 0.0,
@@ -752,22 +752,22 @@
         "fg3_pct": null
       },
       "contested": {
-        "fgm": 0.82,
-        "fga": 1.82,
-        "fg_pct": 0.4505,
-        "efg_pct": 0.4505,
+        "fgm": 0.75,
+        "fga": 1.67,
+        "fg_pct": 0.4491,
+        "efg_pct": 0.4491,
         "fg3m": 0.0,
-        "fg3a": 0.27,
+        "fg3a": 0.25,
         "fg3_pct": 0.0
       },
       "uncontested": {
-        "fgm": 1.0,
-        "fga": 2.09,
-        "fg_pct": 0.4785,
-        "efg_pct": 0.6316,
-        "fg3m": 0.64,
-        "fg3a": 1.63,
-        "fg3_pct": 0.3926
+        "fgm": 0.92,
+        "fga": 2.08,
+        "fg_pct": 0.4423,
+        "efg_pct": 0.5817,
+        "fg3m": 0.58,
+        "fg3a": 1.67,
+        "fg3_pct": 0.3473
       }
     },
     {
@@ -1026,42 +1026,42 @@
       "id": 1629014,
       "name": "Anfernee Simons",
       "team": "PHI",
-      "gp": 12,
+      "gp": 13,
       "cs": {
-        "fgm": 2.33,
-        "fga": 5.33,
-        "fg_pct": 0.438,
-        "efg_pct": 0.625,
-        "fg3m": 2.0,
-        "fg3a": 4.75,
-        "fg3_pct": 0.421
+        "fgm": 2.46,
+        "fga": 5.31,
+        "fg_pct": 0.464,
+        "efg_pct": 0.667,
+        "fg3m": 2.15,
+        "fg3a": 4.77,
+        "fg3_pct": 0.452
       },
       "pullup": {
-        "fgm": 0.75,
-        "fga": 2.17,
-        "fg_pct": 0.346,
-        "efg_pct": 0.404,
-        "fg3m": 0.25,
+        "fgm": 0.85,
+        "fga": 2.31,
+        "fg_pct": 0.367,
+        "efg_pct": 0.433,
+        "fg3m": 0.31,
         "fg3a": 0.92,
-        "fg3_pct": 0.273
+        "fg3_pct": 0.333
       },
       "contested": {
-        "fgm": 1.08,
-        "fga": 2.67,
-        "fg_pct": 0.4045,
-        "efg_pct": 0.4363,
-        "fg3m": 0.17,
-        "fg3a": 0.58,
-        "fg3_pct": 0.2931
+        "fgm": 1.23,
+        "fga": 2.77,
+        "fg_pct": 0.444,
+        "efg_pct": 0.5,
+        "fg3m": 0.31,
+        "fg3a": 0.69,
+        "fg3_pct": 0.4493
       },
       "uncontested": {
-        "fgm": 2.16,
-        "fga": 5.5,
-        "fg_pct": 0.3927,
-        "efg_pct": 0.5818,
-        "fg3m": 2.08,
-        "fg3a": 5.17,
-        "fg3_pct": 0.4023
+        "fgm": 2.24,
+        "fga": 5.46,
+        "fg_pct": 0.4103,
+        "efg_pct": 0.6081,
+        "fg3m": 2.16,
+        "fg3a": 5.08,
+        "fg3_pct": 0.4252
       }
     },
     {
@@ -1110,42 +1110,42 @@
       "id": 203076,
       "name": "Anthony Davis",
       "team": "WAS",
-      "gp": 10,
+      "gp": 11,
       "cs": {
-        "fgm": 6.1,
-        "fga": 11.0,
-        "fg_pct": 0.555,
-        "efg_pct": 0.591,
-        "fg3m": 0.8,
-        "fg3a": 2.4,
-        "fg3_pct": 0.333
+        "fgm": 6.64,
+        "fga": 11.55,
+        "fg_pct": 0.575,
+        "efg_pct": 0.606,
+        "fg3m": 0.73,
+        "fg3a": 2.27,
+        "fg3_pct": 0.32
       },
       "pullup": {
-        "fgm": 2.3,
-        "fga": 5.3,
-        "fg_pct": 0.434,
-        "efg_pct": 0.434,
+        "fgm": 2.18,
+        "fga": 5.09,
+        "fg_pct": 0.429,
+        "efg_pct": 0.429,
         "fg3m": 0.0,
-        "fg3a": 0.1,
+        "fg3a": 0.09,
         "fg3_pct": 0.0
       },
       "contested": {
-        "fgm": 6.2,
-        "fga": 12.4,
-        "fg_pct": 0.5,
-        "efg_pct": 0.5,
+        "fgm": 6.54,
+        "fga": 12.55,
+        "fg_pct": 0.5211,
+        "efg_pct": 0.5211,
         "fg3m": 0.0,
-        "fg3a": 0.4,
+        "fg3a": 0.36,
         "fg3_pct": 0.0
       },
       "uncontested": {
-        "fgm": 3.4,
-        "fga": 6.3,
-        "fg_pct": 0.5397,
-        "efg_pct": 0.6111,
-        "fg3m": 0.9,
-        "fg3a": 2.3,
-        "fg3_pct": 0.3913
+        "fgm": 3.36,
+        "fga": 6.37,
+        "fg_pct": 0.5275,
+        "efg_pct": 0.5918,
+        "fg3m": 0.82,
+        "fg3a": 2.18,
+        "fg3_pct": 0.3761
       }
     },
     {
@@ -1278,41 +1278,41 @@
       "id": 1641709,
       "name": "Ausar Thompson",
       "team": "DET",
-      "gp": 9,
+      "gp": 10,
       "cs": {
-        "fgm": 2.0,
-        "fga": 3.89,
-        "fg_pct": 0.514,
-        "efg_pct": 0.514,
+        "fgm": 2.3,
+        "fga": 4.5,
+        "fg_pct": 0.511,
+        "efg_pct": 0.511,
         "fg3m": 0.0,
-        "fg3a": 0.33,
+        "fg3a": 0.4,
         "fg3_pct": 0.0
       },
       "pullup": {
-        "fgm": 1.44,
-        "fga": 2.78,
-        "fg_pct": 0.52,
-        "efg_pct": 0.52,
+        "fgm": 1.5,
+        "fga": 2.9,
+        "fg_pct": 0.517,
+        "efg_pct": 0.517,
         "fg3m": 0.0,
         "fg3a": 0.0,
         "fg3_pct": null
       },
       "contested": {
-        "fgm": 2.66,
-        "fga": 5.67,
-        "fg_pct": 0.4691,
-        "efg_pct": 0.4691,
+        "fgm": 2.9,
+        "fga": 6.0,
+        "fg_pct": 0.4833,
+        "efg_pct": 0.4833,
         "fg3m": 0.0,
         "fg3a": 0.0,
         "fg3_pct": null
       },
       "uncontested": {
-        "fgm": 1.11,
-        "fga": 2.11,
-        "fg_pct": 0.5261,
-        "efg_pct": 0.5261,
+        "fgm": 1.3,
+        "fga": 2.5,
+        "fg_pct": 0.52,
+        "efg_pct": 0.52,
         "fg3m": 0.0,
-        "fg3a": 0.33,
+        "fg3a": 0.4,
         "fg3_pct": 0.0
       }
     },
@@ -1362,42 +1362,42 @@
       "id": 1630245,
       "name": "Ayo Dosunmu",
       "team": "MIN",
-      "gp": 11,
+      "gp": 12,
       "cs": {
-        "fgm": 2.82,
-        "fga": 5.27,
-        "fg_pct": 0.534,
-        "efg_pct": 0.69,
-        "fg3m": 1.64,
-        "fg3a": 2.82,
-        "fg3_pct": 0.581
+        "fgm": 2.92,
+        "fga": 5.42,
+        "fg_pct": 0.538,
+        "efg_pct": 0.692,
+        "fg3m": 1.67,
+        "fg3a": 2.92,
+        "fg3_pct": 0.571
       },
       "pullup": {
-        "fgm": 3.45,
-        "fga": 6.27,
-        "fg_pct": 0.551,
+        "fgm": 3.5,
+        "fga": 6.33,
+        "fg_pct": 0.553,
         "efg_pct": 0.572,
-        "fg3m": 0.27,
-        "fg3a": 1.18,
+        "fg3m": 0.25,
+        "fg3a": 1.08,
         "fg3_pct": 0.231
       },
       "contested": {
-        "fgm": 4.09,
-        "fga": 7.63,
-        "fg_pct": 0.536,
-        "efg_pct": 0.5419,
-        "fg3m": 0.09,
-        "fg3a": 0.18,
-        "fg3_pct": 0.5
+        "fgm": 3.92,
+        "fga": 7.58,
+        "fg_pct": 0.5172,
+        "efg_pct": 0.5224,
+        "fg3m": 0.08,
+        "fg3a": 0.17,
+        "fg3_pct": 0.4706
       },
       "uncontested": {
-        "fgm": 2.82,
-        "fga": 5.46,
-        "fg_pct": 0.5165,
-        "efg_pct": 0.6822,
-        "fg3m": 1.81,
-        "fg3a": 3.9,
-        "fg3_pct": 0.4641
+        "fgm": 3.08,
+        "fga": 5.66,
+        "fg_pct": 0.5442,
+        "efg_pct": 0.7058,
+        "fg3m": 1.83,
+        "fg3a": 3.92,
+        "fg3_pct": 0.4668
       }
     },
     {
@@ -1666,19 +1666,19 @@
       "id": 1641731,
       "name": "Bilal Coulibaly",
       "team": "WAS",
-      "gp": 11,
+      "gp": 12,
       "cs": {
         "fgm": 2.0,
-        "fga": 4.55,
-        "fg_pct": 0.44,
-        "efg_pct": 0.48,
-        "fg3m": 0.36,
-        "fg3a": 2.45,
-        "fg3_pct": 0.148
+        "fga": 4.58,
+        "fg_pct": 0.436,
+        "efg_pct": 0.473,
+        "fg3m": 0.33,
+        "fg3a": 2.42,
+        "fg3_pct": 0.138
       },
       "pullup": {
-        "fgm": 0.55,
-        "fga": 0.91,
+        "fgm": 0.5,
+        "fga": 0.83,
         "fg_pct": 0.6,
         "efg_pct": 0.6,
         "fg3m": 0.0,
@@ -1686,22 +1686,22 @@
         "fg3_pct": null
       },
       "contested": {
-        "fgm": 1.9,
-        "fga": 2.73,
-        "fg_pct": 0.696,
-        "efg_pct": 0.696,
+        "fgm": 1.92,
+        "fga": 2.66,
+        "fg_pct": 0.7218,
+        "efg_pct": 0.7218,
         "fg3m": 0.0,
-        "fg3a": 0.09,
+        "fg3a": 0.08,
         "fg3_pct": 0.0
       },
       "uncontested": {
-        "fgm": 0.82,
-        "fga": 3.0,
-        "fg_pct": 0.2733,
-        "efg_pct": 0.3333,
-        "fg3m": 0.36,
-        "fg3a": 2.37,
-        "fg3_pct": 0.1519
+        "fgm": 0.75,
+        "fga": 2.92,
+        "fg_pct": 0.2568,
+        "efg_pct": 0.3134,
+        "fg3m": 0.33,
+        "fg3a": 2.34,
+        "fg3_pct": 0.141
       }
     },
     {
@@ -1860,42 +1860,42 @@
       "id": 1630538,
       "name": "Bones Hyland",
       "team": "MIN",
-      "gp": 11,
+      "gp": 12,
       "cs": {
-        "fgm": 1.09,
-        "fga": 2.82,
-        "fg_pct": 0.387,
-        "efg_pct": 0.516,
-        "fg3m": 0.73,
-        "fg3a": 2.18,
-        "fg3_pct": 0.333
+        "fgm": 1.33,
+        "fga": 2.92,
+        "fg_pct": 0.457,
+        "efg_pct": 0.614,
+        "fg3m": 0.92,
+        "fg3a": 2.25,
+        "fg3_pct": 0.407
       },
       "pullup": {
-        "fgm": 0.91,
-        "fga": 2.27,
-        "fg_pct": 0.4,
-        "efg_pct": 0.48,
-        "fg3m": 0.36,
-        "fg3a": 1.36,
-        "fg3_pct": 0.267
+        "fgm": 1.0,
+        "fga": 2.33,
+        "fg_pct": 0.429,
+        "efg_pct": 0.518,
+        "fg3m": 0.42,
+        "fg3a": 1.33,
+        "fg3_pct": 0.313
       },
       "contested": {
-        "fgm": 1.09,
-        "fga": 1.63,
-        "fg_pct": 0.6687,
-        "efg_pct": 0.6963,
-        "fg3m": 0.09,
-        "fg3a": 0.18,
-        "fg3_pct": 0.5
+        "fgm": 1.17,
+        "fga": 1.67,
+        "fg_pct": 0.7006,
+        "efg_pct": 0.7246,
+        "fg3m": 0.08,
+        "fg3a": 0.17,
+        "fg3_pct": 0.4706
       },
       "uncontested": {
-        "fgm": 1.91,
-        "fga": 5.09,
-        "fg_pct": 0.3752,
-        "efg_pct": 0.5088,
-        "fg3m": 1.36,
-        "fg3a": 4.09,
-        "fg3_pct": 0.3325
+        "fgm": 2.16,
+        "fga": 5.34,
+        "fg_pct": 0.4045,
+        "efg_pct": 0.5599,
+        "fg3m": 1.66,
+        "fg3a": 4.25,
+        "fg3_pct": 0.3906
       }
     },
     {
@@ -2440,42 +2440,42 @@
       "id": 1642267,
       "name": "Bub Carrington",
       "team": "WAS",
-      "gp": 12,
+      "gp": 13,
       "cs": {
-        "fgm": 1.0,
-        "fga": 2.67,
-        "fg_pct": 0.375,
-        "efg_pct": 0.563,
-        "fg3m": 1.0,
-        "fg3a": 2.42,
-        "fg3_pct": 0.414
+        "fgm": 0.92,
+        "fga": 2.62,
+        "fg_pct": 0.353,
+        "efg_pct": 0.529,
+        "fg3m": 0.92,
+        "fg3a": 2.38,
+        "fg3_pct": 0.387
       },
       "pullup": {
-        "fgm": 0.42,
-        "fga": 1.33,
-        "fg_pct": 0.313,
-        "efg_pct": 0.438,
-        "fg3m": 0.33,
-        "fg3a": 0.58,
-        "fg3_pct": 0.571
+        "fgm": 0.38,
+        "fga": 1.46,
+        "fg_pct": 0.263,
+        "efg_pct": 0.368,
+        "fg3m": 0.31,
+        "fg3a": 0.62,
+        "fg3_pct": 0.5
       },
       "contested": {
-        "fgm": 0.25,
-        "fga": 0.67,
-        "fg_pct": 0.3731,
-        "efg_pct": 0.5597,
-        "fg3m": 0.25,
-        "fg3a": 0.42,
-        "fg3_pct": 0.5952
+        "fgm": 0.23,
+        "fga": 0.69,
+        "fg_pct": 0.3333,
+        "efg_pct": 0.5,
+        "fg3m": 0.23,
+        "fg3a": 0.38,
+        "fg3_pct": 0.6053
       },
       "uncontested": {
-        "fgm": 1.34,
-        "fga": 3.5,
-        "fg_pct": 0.3829,
-        "efg_pct": 0.5486,
-        "fg3m": 1.16,
-        "fg3a": 2.66,
-        "fg3_pct": 0.4361
+        "fgm": 1.31,
+        "fga": 3.62,
+        "fg_pct": 0.3619,
+        "efg_pct": 0.511,
+        "fg3m": 1.08,
+        "fg3a": 2.69,
+        "fg3_pct": 0.4015
       }
     },
     {
@@ -2566,84 +2566,84 @@
       "id": 1630595,
       "name": "Cade Cunningham",
       "team": "DET",
-      "gp": 10,
+      "gp": 11,
       "cs": {
-        "fgm": 2.1,
-        "fga": 4.6,
-        "fg_pct": 0.457,
-        "efg_pct": 0.543,
-        "fg3m": 0.8,
-        "fg3a": 2.9,
-        "fg3_pct": 0.276
+        "fgm": 2.18,
+        "fga": 4.64,
+        "fg_pct": 0.471,
+        "efg_pct": 0.569,
+        "fg3m": 0.91,
+        "fg3a": 2.91,
+        "fg3_pct": 0.313
       },
       "pullup": {
-        "fgm": 3.0,
-        "fga": 6.2,
-        "fg_pct": 0.484,
-        "efg_pct": 0.524,
-        "fg3m": 0.5,
+        "fgm": 3.27,
+        "fga": 6.45,
+        "fg_pct": 0.507,
+        "efg_pct": 0.549,
+        "fg3m": 0.55,
         "fg3a": 2.0,
-        "fg3_pct": 0.25
+        "fg3_pct": 0.273
       },
       "contested": {
         "fgm": 4.0,
-        "fga": 8.2,
-        "fg_pct": 0.4878,
-        "efg_pct": 0.5183,
-        "fg3m": 0.5,
-        "fg3a": 1.8,
-        "fg3_pct": 0.2778
+        "fga": 8.37,
+        "fg_pct": 0.4779,
+        "efg_pct": 0.5048,
+        "fg3m": 0.45,
+        "fg3a": 1.73,
+        "fg3_pct": 0.2601
       },
       "uncontested": {
-        "fgm": 3.8,
-        "fga": 8.9,
-        "fg_pct": 0.427,
-        "efg_pct": 0.5056,
-        "fg3m": 1.4,
-        "fg3a": 4.7,
-        "fg3_pct": 0.2979
+        "fgm": 4.55,
+        "fga": 9.45,
+        "fg_pct": 0.4815,
+        "efg_pct": 0.5635,
+        "fg3m": 1.55,
+        "fg3a": 4.63,
+        "fg3_pct": 0.3348
       }
     },
     {
       "id": 1628997,
       "name": "Caleb Martin",
       "team": "DAL",
-      "gp": 7,
+      "gp": 8,
       "cs": {
-        "fgm": 1.14,
-        "fga": 2.29,
-        "fg_pct": 0.5,
-        "efg_pct": 0.625,
-        "fg3m": 0.57,
-        "fg3a": 1.14,
-        "fg3_pct": 0.5
+        "fgm": 1.13,
+        "fga": 2.13,
+        "fg_pct": 0.529,
+        "efg_pct": 0.676,
+        "fg3m": 0.63,
+        "fg3a": 1.13,
+        "fg3_pct": 0.556
       },
       "pullup": {
-        "fgm": 0.14,
-        "fga": 0.57,
-        "fg_pct": 0.25,
-        "efg_pct": 0.375,
-        "fg3m": 0.14,
-        "fg3a": 0.29,
-        "fg3_pct": 0.5
+        "fgm": 0.38,
+        "fga": 1.0,
+        "fg_pct": 0.375,
+        "efg_pct": 0.438,
+        "fg3m": 0.13,
+        "fg3a": 0.38,
+        "fg3_pct": 0.333
       },
       "contested": {
-        "fgm": 0.29,
-        "fga": 0.85,
-        "fg_pct": 0.3412,
-        "efg_pct": 0.3412,
-        "fg3m": 0.0,
-        "fg3a": 0.28,
-        "fg3_pct": 0.0
+        "fgm": 0.63,
+        "fga": 1.5,
+        "fg_pct": 0.42,
+        "efg_pct": 0.4633,
+        "fg3m": 0.13,
+        "fg3a": 0.63,
+        "fg3_pct": 0.2063
       },
       "uncontested": {
-        "fgm": 1.0,
-        "fga": 2.0,
+        "fgm": 0.88,
+        "fga": 1.76,
         "fg_pct": 0.5,
-        "efg_pct": 0.68,
-        "fg3m": 0.72,
-        "fg3a": 1.14,
-        "fg3_pct": 0.6316
+        "efg_pct": 0.679,
+        "fg3m": 0.63,
+        "fg3a": 1.01,
+        "fg3_pct": 0.6238
       }
     },
     {
@@ -3340,42 +3340,42 @@
       "id": 1643515,
       "name": "Christian Anderson",
       "team": "CHA",
-      "gp": 10,
+      "gp": 11,
       "cs": {
-        "fgm": 0.8,
-        "fga": 2.5,
-        "fg_pct": 0.32,
-        "efg_pct": 0.42,
-        "fg3m": 0.5,
-        "fg3a": 2.0,
-        "fg3_pct": 0.25
+        "fgm": 1.0,
+        "fga": 2.73,
+        "fg_pct": 0.367,
+        "efg_pct": 0.5,
+        "fg3m": 0.73,
+        "fg3a": 2.27,
+        "fg3_pct": 0.32
       },
       "pullup": {
-        "fgm": 0.3,
-        "fga": 1.1,
-        "fg_pct": 0.273,
-        "efg_pct": 0.273,
+        "fgm": 0.36,
+        "fga": 1.27,
+        "fg_pct": 0.286,
+        "efg_pct": 0.286,
         "fg3m": 0.0,
-        "fg3a": 0.4,
+        "fg3a": 0.45,
         "fg3_pct": 0.0
       },
       "contested": {
-        "fgm": 0.5,
+        "fgm": 0.45,
         "fga": 1.0,
-        "fg_pct": 0.5,
-        "efg_pct": 0.5,
+        "fg_pct": 0.45,
+        "efg_pct": 0.45,
         "fg3m": 0.0,
-        "fg3a": 0.1,
+        "fg3a": 0.09,
         "fg3_pct": 0.0
       },
       "uncontested": {
-        "fgm": 0.9,
-        "fga": 3.4,
-        "fg_pct": 0.2647,
-        "efg_pct": 0.3382,
-        "fg3m": 0.5,
-        "fg3a": 2.5,
-        "fg3_pct": 0.2
+        "fgm": 1.18,
+        "fga": 3.82,
+        "fg_pct": 0.3089,
+        "efg_pct": 0.4031,
+        "fg3m": 0.72,
+        "fg3a": 2.82,
+        "fg3_pct": 0.2553
       }
     },
     {
@@ -3384,19 +3384,19 @@
       "team": "DEN",
       "gp": 9,
       "cs": {
-        "fgm": 3.78,
-        "fga": 8.0,
-        "fg_pct": 0.472,
-        "efg_pct": 0.576,
+        "fgm": 3.89,
+        "fga": 8.11,
+        "fg_pct": 0.479,
+        "efg_pct": 0.582,
         "fg3m": 1.67,
         "fg3a": 4.56,
         "fg3_pct": 0.366
       },
       "pullup": {
-        "fgm": 1.22,
-        "fga": 1.89,
-        "fg_pct": 0.647,
-        "efg_pct": 0.676,
+        "fgm": 1.11,
+        "fga": 1.78,
+        "fg_pct": 0.625,
+        "efg_pct": 0.656,
         "fg3m": 0.11,
         "fg3a": 0.22,
         "fg3_pct": 0.5
@@ -3466,62 +3466,62 @@
       "id": 1629632,
       "name": "Coby White",
       "team": "CHA",
-      "gp": 4,
+      "gp": 5,
       "cs": {
-        "fgm": 0.5,
-        "fga": 2.75,
-        "fg_pct": 0.182,
-        "efg_pct": 0.227,
-        "fg3m": 0.25,
-        "fg3a": 2.5,
-        "fg3_pct": 0.1
+        "fgm": 1.0,
+        "fga": 3.6,
+        "fg_pct": 0.278,
+        "efg_pct": 0.333,
+        "fg3m": 0.4,
+        "fg3a": 3.0,
+        "fg3_pct": 0.133
       },
       "pullup": {
-        "fgm": 1.0,
-        "fga": 4.25,
-        "fg_pct": 0.235,
-        "efg_pct": 0.235,
-        "fg3m": 0.0,
-        "fg3a": 1.5,
-        "fg3_pct": 0.0
+        "fgm": 1.8,
+        "fga": 4.6,
+        "fg_pct": 0.391,
+        "efg_pct": 0.413,
+        "fg3m": 0.2,
+        "fg3a": 1.4,
+        "fg3_pct": 0.143
       },
       "contested": {
-        "fgm": 1.0,
-        "fga": 3.5,
-        "fg_pct": 0.2857,
-        "efg_pct": 0.2857,
+        "fgm": 1.4,
+        "fga": 3.8,
+        "fg_pct": 0.3684,
+        "efg_pct": 0.3684,
         "fg3m": 0.0,
-        "fg3a": 0.75,
+        "fg3a": 0.6,
         "fg3_pct": 0.0
       },
       "uncontested": {
-        "fgm": 1.25,
-        "fga": 6.0,
-        "fg_pct": 0.2083,
-        "efg_pct": 0.25,
-        "fg3m": 0.5,
-        "fg3a": 4.25,
-        "fg3_pct": 0.1176
+        "fgm": 2.0,
+        "fga": 7.0,
+        "fg_pct": 0.2857,
+        "efg_pct": 0.3429,
+        "fg3m": 0.8,
+        "fg3a": 4.8,
+        "fg3_pct": 0.1667
       }
     },
     {
       "id": 1642262,
       "name": "Cody Williams",
       "team": "MIN",
-      "gp": 6,
+      "gp": 7,
       "cs": {
         "fgm": 0.0,
-        "fga": 0.33,
+        "fga": 0.29,
         "fg_pct": 0.0,
         "efg_pct": 0.0,
         "fg3m": 0.0,
-        "fg3a": 0.17,
+        "fg3a": 0.14,
         "fg3_pct": 0.0
       },
       "pullup": {},
       "contested": {
         "fgm": 0.0,
-        "fga": 0.17,
+        "fga": 0.14,
         "fg_pct": 0.0,
         "efg_pct": 0.0,
         "fg3m": 0.0,
@@ -3530,11 +3530,11 @@
       },
       "uncontested": {
         "fgm": 0.0,
-        "fga": 0.17,
+        "fga": 0.14,
         "fg_pct": 0.0,
         "efg_pct": 0.0,
         "fg3m": 0.0,
-        "fg3a": 0.17,
+        "fg3a": 0.14,
         "fg3_pct": 0.0
       }
     },
@@ -3584,84 +3584,84 @@
       "id": 1631221,
       "name": "Collin Gillespie",
       "team": "PHX",
-      "gp": 10,
+      "gp": 11,
       "cs": {
-        "fgm": 1.6,
-        "fga": 4.5,
-        "fg_pct": 0.356,
-        "efg_pct": 0.522,
-        "fg3m": 1.5,
-        "fg3a": 4.1,
-        "fg3_pct": 0.366
+        "fgm": 1.64,
+        "fga": 4.73,
+        "fg_pct": 0.346,
+        "efg_pct": 0.51,
+        "fg3m": 1.55,
+        "fg3a": 4.36,
+        "fg3_pct": 0.354
       },
       "pullup": {
-        "fgm": 0.9,
-        "fga": 2.3,
-        "fg_pct": 0.391,
-        "efg_pct": 0.478,
-        "fg3m": 0.4,
-        "fg3a": 1.2,
-        "fg3_pct": 0.333
+        "fgm": 1.09,
+        "fga": 2.45,
+        "fg_pct": 0.444,
+        "efg_pct": 0.537,
+        "fg3m": 0.45,
+        "fg3a": 1.18,
+        "fg3_pct": 0.385
       },
       "contested": {
-        "fgm": 0.9,
-        "fga": 1.7,
-        "fg_pct": 0.5294,
-        "efg_pct": 0.6471,
-        "fg3m": 0.4,
-        "fg3a": 0.8,
-        "fg3_pct": 0.5
+        "fgm": 0.82,
+        "fga": 1.72,
+        "fg_pct": 0.4767,
+        "efg_pct": 0.5814,
+        "fg3m": 0.36,
+        "fg3a": 0.91,
+        "fg3_pct": 0.3956
       },
       "uncontested": {
-        "fgm": 1.7,
-        "fga": 5.9,
-        "fg_pct": 0.2881,
-        "efg_pct": 0.4153,
-        "fg3m": 1.5,
-        "fg3a": 5.1,
-        "fg3_pct": 0.2941
+        "fgm": 2.0,
+        "fga": 6.36,
+        "fg_pct": 0.3145,
+        "efg_pct": 0.4434,
+        "fg3m": 1.64,
+        "fg3a": 5.27,
+        "fg3_pct": 0.3112
       }
     },
     {
       "id": 1642867,
       "name": "Collin Murray-Boyles",
       "team": "TOR",
-      "gp": 10,
+      "gp": 11,
       "cs": {
-        "fgm": 3.5,
-        "fga": 7.5,
-        "fg_pct": 0.467,
-        "efg_pct": 0.507,
-        "fg3m": 0.6,
-        "fg3a": 2.0,
-        "fg3_pct": 0.3
+        "fgm": 3.55,
+        "fga": 7.36,
+        "fg_pct": 0.481,
+        "efg_pct": 0.525,
+        "fg3m": 0.64,
+        "fg3a": 1.91,
+        "fg3_pct": 0.333
       },
       "pullup": {
-        "fgm": 0.3,
-        "fga": 0.7,
-        "fg_pct": 0.429,
-        "efg_pct": 0.429,
+        "fgm": 0.36,
+        "fga": 0.91,
+        "fg_pct": 0.4,
+        "efg_pct": 0.4,
         "fg3m": 0.0,
-        "fg3a": 0.1,
+        "fg3a": 0.09,
         "fg3_pct": 0.0
       },
       "contested": {
-        "fgm": 2.3,
-        "fga": 4.4,
-        "fg_pct": 0.5227,
-        "efg_pct": 0.5227,
+        "fgm": 2.37,
+        "fga": 4.54,
+        "fg_pct": 0.522,
+        "efg_pct": 0.522,
         "fg3m": 0.0,
-        "fg3a": 0.1,
+        "fg3a": 0.09,
         "fg3_pct": 0.0
       },
       "uncontested": {
-        "fgm": 1.5,
-        "fga": 3.8,
-        "fg_pct": 0.3947,
-        "efg_pct": 0.4737,
-        "fg3m": 0.6,
-        "fg3a": 2.0,
-        "fg3_pct": 0.3
+        "fgm": 1.55,
+        "fga": 3.73,
+        "fg_pct": 0.4155,
+        "efg_pct": 0.5013,
+        "fg3m": 0.64,
+        "fg3a": 1.91,
+        "fg3_pct": 0.3351
       }
     },
     {
@@ -3710,42 +3710,42 @@
       "id": 1642843,
       "name": "Cooper Flagg",
       "team": "DAL",
-      "gp": 10,
+      "gp": 11,
       "cs": {
-        "fgm": 2.8,
-        "fga": 5.7,
-        "fg_pct": 0.491,
-        "efg_pct": 0.57,
-        "fg3m": 0.9,
-        "fg3a": 2.7,
-        "fg3_pct": 0.333
+        "fgm": 2.82,
+        "fga": 5.64,
+        "fg_pct": 0.5,
+        "efg_pct": 0.581,
+        "fg3m": 0.91,
+        "fg3a": 2.64,
+        "fg3_pct": 0.345
       },
       "pullup": {
-        "fgm": 4.0,
-        "fga": 8.9,
-        "fg_pct": 0.449,
-        "efg_pct": 0.472,
-        "fg3m": 0.4,
-        "fg3a": 1.7,
+        "fgm": 3.82,
+        "fga": 8.55,
+        "fg_pct": 0.447,
+        "efg_pct": 0.468,
+        "fg3m": 0.36,
+        "fg3a": 1.55,
         "fg3_pct": 0.235
       },
       "contested": {
-        "fgm": 5.8,
-        "fga": 10.6,
-        "fg_pct": 0.5472,
-        "efg_pct": 0.5472,
+        "fgm": 5.55,
+        "fga": 10.28,
+        "fg_pct": 0.5399,
+        "efg_pct": 0.5399,
         "fg3m": 0.0,
-        "fg3a": 0.5,
+        "fg3a": 0.45,
         "fg3_pct": 0.0
       },
       "uncontested": {
-        "fgm": 3.2,
-        "fga": 7.4,
-        "fg_pct": 0.4324,
-        "efg_pct": 0.527,
-        "fg3m": 1.4,
-        "fg3a": 4.3,
-        "fg3_pct": 0.3256
+        "fgm": 3.09,
+        "fga": 7.18,
+        "fg_pct": 0.4304,
+        "efg_pct": 0.5258,
+        "fg3m": 1.37,
+        "fg3a": 4.09,
+        "fg3_pct": 0.335
       }
     },
     {
@@ -4072,19 +4072,19 @@
       "id": 1629655,
       "name": "Daniel Gafford",
       "team": "DAL",
-      "gp": 11,
+      "gp": 12,
       "cs": {
-        "fgm": 3.09,
-        "fga": 4.27,
-        "fg_pct": 0.723,
-        "efg_pct": 0.734,
-        "fg3m": 0.09,
-        "fg3a": 0.09,
+        "fgm": 2.92,
+        "fga": 4.08,
+        "fg_pct": 0.714,
+        "efg_pct": 0.724,
+        "fg3m": 0.08,
+        "fg3a": 0.08,
         "fg3_pct": 1.0
       },
       "pullup": {
-        "fgm": 0.55,
-        "fga": 0.91,
+        "fgm": 0.5,
+        "fga": 0.83,
         "fg_pct": 0.6,
         "efg_pct": 0.6,
         "fg3m": 0.0,
@@ -4092,21 +4092,21 @@
         "fg3_pct": null
       },
       "contested": {
-        "fgm": 3.0,
-        "fga": 4.1,
-        "fg_pct": 0.7317,
-        "efg_pct": 0.7317,
+        "fgm": 2.83,
+        "fga": 3.92,
+        "fg_pct": 0.7219,
+        "efg_pct": 0.7219,
         "fg3m": 0.0,
         "fg3a": 0.0,
         "fg3_pct": null
       },
       "uncontested": {
-        "fgm": 0.72,
-        "fga": 1.1,
-        "fg_pct": 0.6545,
-        "efg_pct": 0.6955,
-        "fg3m": 0.09,
-        "fg3a": 0.09,
+        "fgm": 0.66,
+        "fga": 1.0,
+        "fg_pct": 0.66,
+        "efg_pct": 0.7,
+        "fg3m": 0.08,
+        "fg3a": 0.08,
         "fg3_pct": 1.0
       }
     },
@@ -4114,42 +4114,42 @@
       "id": 1642450,
       "name": "Daniss Jenkins",
       "team": "DET",
-      "gp": 10,
+      "gp": 11,
       "cs": {
-        "fgm": 2.1,
-        "fga": 4.7,
-        "fg_pct": 0.447,
-        "efg_pct": 0.628,
-        "fg3m": 1.7,
-        "fg3a": 3.7,
-        "fg3_pct": 0.459
+        "fgm": 2.18,
+        "fga": 4.73,
+        "fg_pct": 0.462,
+        "efg_pct": 0.654,
+        "fg3m": 1.82,
+        "fg3a": 3.73,
+        "fg3_pct": 0.488
       },
       "pullup": {
-        "fgm": 1.4,
-        "fga": 2.7,
-        "fg_pct": 0.519,
-        "efg_pct": 0.593,
-        "fg3m": 0.4,
-        "fg3a": 0.8,
-        "fg3_pct": 0.5
+        "fgm": 1.45,
+        "fga": 2.82,
+        "fg_pct": 0.516,
+        "efg_pct": 0.581,
+        "fg3m": 0.36,
+        "fg3a": 0.82,
+        "fg3_pct": 0.444
       },
       "contested": {
-        "fgm": 1.2,
-        "fga": 3.1,
-        "fg_pct": 0.3871,
-        "efg_pct": 0.4194,
-        "fg3m": 0.2,
-        "fg3a": 0.9,
-        "fg3_pct": 0.2222
+        "fgm": 1.27,
+        "fga": 3.19,
+        "fg_pct": 0.3981,
+        "efg_pct": 0.4263,
+        "fg3m": 0.18,
+        "fg3a": 0.91,
+        "fg3_pct": 0.1978
       },
       "uncontested": {
-        "fgm": 2.9,
-        "fga": 5.8,
-        "fg_pct": 0.5,
-        "efg_pct": 0.6552,
-        "fg3m": 1.8,
+        "fgm": 3.0,
+        "fga": 5.91,
+        "fg_pct": 0.5076,
+        "efg_pct": 0.6692,
+        "fg3m": 1.91,
         "fg3a": 3.9,
-        "fg3_pct": 0.4615
+        "fg3_pct": 0.4897
       }
     },
     {
@@ -4652,19 +4652,19 @@
       "id": 1629731,
       "name": "Dean Wade",
       "team": "PHI",
-      "gp": 10,
+      "gp": 11,
       "cs": {
-        "fgm": 1.1,
-        "fga": 2.5,
-        "fg_pct": 0.44,
-        "efg_pct": 0.58,
-        "fg3m": 0.7,
-        "fg3a": 2.0,
-        "fg3_pct": 0.35
+        "fgm": 1.18,
+        "fga": 2.82,
+        "fg_pct": 0.419,
+        "efg_pct": 0.565,
+        "fg3m": 0.82,
+        "fg3a": 2.27,
+        "fg3_pct": 0.36
       },
       "pullup": {
-        "fgm": 0.1,
-        "fga": 0.3,
+        "fgm": 0.09,
+        "fga": 0.27,
         "fg_pct": 0.333,
         "efg_pct": 0.333,
         "fg3m": 0.0,
@@ -4672,41 +4672,41 @@
         "fg3_pct": null
       },
       "contested": {
-        "fgm": 0.6,
+        "fgm": 0.54,
         "fga": 1.0,
-        "fg_pct": 0.6,
-        "efg_pct": 0.65,
-        "fg3m": 0.1,
-        "fg3a": 0.1,
+        "fg_pct": 0.54,
+        "efg_pct": 0.585,
+        "fg3m": 0.09,
+        "fg3a": 0.09,
         "fg3_pct": 1.0
       },
       "uncontested": {
-        "fgm": 0.5,
-        "fga": 1.7,
-        "fg_pct": 0.2941,
-        "efg_pct": 0.4412,
-        "fg3m": 0.5,
-        "fg3a": 1.7,
-        "fg3_pct": 0.2941
+        "fgm": 0.63,
+        "fga": 2.0,
+        "fg_pct": 0.315,
+        "efg_pct": 0.4725,
+        "fg3m": 0.63,
+        "fg3a": 2.0,
+        "fg3_pct": 0.315
       }
     },
     {
       "id": 1629028,
       "name": "Deandre Ayton",
       "team": "WAS",
-      "gp": 12,
+      "gp": 13,
       "cs": {
-        "fgm": 2.08,
-        "fga": 3.17,
-        "fg_pct": 0.658,
-        "efg_pct": 0.658,
+        "fgm": 2.0,
+        "fga": 3.0,
+        "fg_pct": 0.667,
+        "efg_pct": 0.667,
         "fg3m": 0.0,
         "fg3a": 0.0,
         "fg3_pct": null
       },
       "pullup": {
-        "fgm": 0.17,
-        "fga": 0.25,
+        "fgm": 0.15,
+        "fga": 0.23,
         "fg_pct": 0.667,
         "efg_pct": 0.667,
         "fg3m": 0.0,
@@ -4714,19 +4714,19 @@
         "fg3_pct": null
       },
       "contested": {
-        "fgm": 1.75,
-        "fga": 2.75,
-        "fg_pct": 0.6364,
-        "efg_pct": 0.6364,
+        "fgm": 1.62,
+        "fga": 2.54,
+        "fg_pct": 0.6378,
+        "efg_pct": 0.6378,
         "fg3m": 0.0,
         "fg3a": 0.0,
         "fg3_pct": null
       },
       "uncontested": {
-        "fgm": 0.41,
-        "fga": 0.59,
-        "fg_pct": 0.6949,
-        "efg_pct": 0.6949,
+        "fgm": 0.46,
+        "fga": 0.61,
+        "fg_pct": 0.7541,
+        "efg_pct": 0.7541,
         "fg3m": 0.0,
         "fg3a": 0.0,
         "fg3_pct": null
@@ -5030,42 +5030,42 @@
       "id": 1626164,
       "name": "Devin Booker",
       "team": "PHX",
-      "gp": 10,
+      "gp": 11,
       "cs": {
-        "fgm": 3.1,
-        "fga": 6.9,
-        "fg_pct": 0.449,
-        "efg_pct": 0.514,
-        "fg3m": 0.9,
-        "fg3a": 2.7,
-        "fg3_pct": 0.333
+        "fgm": 2.82,
+        "fga": 6.55,
+        "fg_pct": 0.431,
+        "efg_pct": 0.493,
+        "fg3m": 0.82,
+        "fg3a": 2.64,
+        "fg3_pct": 0.31
       },
       "pullup": {
-        "fgm": 3.8,
-        "fga": 7.3,
-        "fg_pct": 0.521,
-        "efg_pct": 0.555,
-        "fg3m": 0.5,
-        "fg3a": 1.7,
-        "fg3_pct": 0.294
+        "fgm": 4.09,
+        "fga": 7.45,
+        "fg_pct": 0.549,
+        "efg_pct": 0.591,
+        "fg3m": 0.64,
+        "fg3a": 1.91,
+        "fg3_pct": 0.333
       },
       "contested": {
-        "fgm": 5.4,
-        "fga": 11.0,
-        "fg_pct": 0.4909,
-        "efg_pct": 0.5182,
-        "fg3m": 0.6,
-        "fg3a": 1.7,
-        "fg3_pct": 0.3529
+        "fgm": 5.64,
+        "fga": 11.27,
+        "fg_pct": 0.5004,
+        "efg_pct": 0.5288,
+        "fg3m": 0.64,
+        "fg3a": 1.91,
+        "fg3_pct": 0.3351
       },
       "uncontested": {
-        "fgm": 3.2,
-        "fga": 6.8,
-        "fg_pct": 0.4706,
-        "efg_pct": 0.5735,
-        "fg3m": 1.4,
-        "fg3a": 3.9,
-        "fg3_pct": 0.359
+        "fgm": 3.27,
+        "fga": 6.72,
+        "fg_pct": 0.4866,
+        "efg_pct": 0.6012,
+        "fg3m": 1.54,
+        "fg3a": 3.91,
+        "fg3_pct": 0.3939
       }
     },
     {
@@ -5114,42 +5114,42 @@
       "id": 1628415,
       "name": "Dillon Brooks",
       "team": "PHX",
-      "gp": 10,
+      "gp": 11,
       "cs": {
-        "fgm": 2.9,
-        "fga": 5.7,
-        "fg_pct": 0.509,
-        "efg_pct": 0.658,
-        "fg3m": 1.7,
-        "fg3a": 3.9,
-        "fg3_pct": 0.436
+        "fgm": 3.09,
+        "fga": 5.91,
+        "fg_pct": 0.523,
+        "efg_pct": 0.669,
+        "fg3m": 1.73,
+        "fg3a": 3.91,
+        "fg3_pct": 0.442
       },
       "pullup": {
-        "fgm": 1.7,
-        "fga": 5.1,
-        "fg_pct": 0.333,
-        "efg_pct": 0.343,
-        "fg3m": 0.1,
-        "fg3a": 0.5,
-        "fg3_pct": 0.2
+        "fgm": 1.64,
+        "fga": 5.09,
+        "fg_pct": 0.321,
+        "efg_pct": 0.339,
+        "fg3m": 0.18,
+        "fg3a": 0.64,
+        "fg3_pct": 0.286
       },
       "contested": {
-        "fgm": 1.4,
-        "fga": 4.3,
-        "fg_pct": 0.3256,
-        "efg_pct": 0.3372,
-        "fg3m": 0.1,
-        "fg3a": 0.2,
+        "fgm": 1.36,
+        "fga": 4.09,
+        "fg_pct": 0.3325,
+        "efg_pct": 0.3435,
+        "fg3m": 0.09,
+        "fg3a": 0.18,
         "fg3_pct": 0.5
       },
       "uncontested": {
-        "fgm": 4.1,
-        "fga": 8.0,
-        "fg_pct": 0.5125,
-        "efg_pct": 0.625,
-        "fg3m": 1.8,
-        "fg3a": 4.3,
-        "fg3_pct": 0.4186
+        "fgm": 4.18,
+        "fga": 8.27,
+        "fg_pct": 0.5054,
+        "efg_pct": 0.6203,
+        "fg3m": 1.9,
+        "fg3a": 4.46,
+        "fg3_pct": 0.426
       }
     },
     {
@@ -5442,42 +5442,42 @@
       "id": 1629130,
       "name": "Duncan Robinson",
       "team": "DET",
-      "gp": 10,
+      "gp": 11,
       "cs": {
-        "fgm": 4.9,
-        "fga": 10.0,
-        "fg_pct": 0.49,
-        "efg_pct": 0.685,
-        "fg3m": 3.9,
-        "fg3a": 8.5,
-        "fg3_pct": 0.459
+        "fgm": 4.91,
+        "fga": 10.18,
+        "fg_pct": 0.482,
+        "efg_pct": 0.67,
+        "fg3m": 3.82,
+        "fg3a": 8.64,
+        "fg3_pct": 0.442
       },
       "pullup": {
-        "fgm": 0.6,
-        "fga": 1.8,
-        "fg_pct": 0.333,
-        "efg_pct": 0.417,
-        "fg3m": 0.3,
-        "fg3a": 0.7,
-        "fg3_pct": 0.429
+        "fgm": 0.55,
+        "fga": 1.82,
+        "fg_pct": 0.3,
+        "efg_pct": 0.375,
+        "fg3m": 0.27,
+        "fg3a": 0.73,
+        "fg3_pct": 0.375
       },
       "contested": {
-        "fgm": 2.8,
-        "fga": 6.7,
-        "fg_pct": 0.4179,
-        "efg_pct": 0.5746,
-        "fg3m": 2.1,
-        "fg3a": 4.9,
-        "fg3_pct": 0.4286
+        "fgm": 2.63,
+        "fga": 6.27,
+        "fg_pct": 0.4195,
+        "efg_pct": 0.5789,
+        "fg3m": 2.0,
+        "fg3a": 4.54,
+        "fg3_pct": 0.4405
       },
       "uncontested": {
-        "fgm": 2.7,
-        "fga": 5.1,
-        "fg_pct": 0.5294,
-        "efg_pct": 0.7353,
-        "fg3m": 2.1,
-        "fg3a": 4.3,
-        "fg3_pct": 0.4884
+        "fgm": 2.82,
+        "fga": 5.73,
+        "fg_pct": 0.4921,
+        "efg_pct": 0.6745,
+        "fg3m": 2.09,
+        "fg3a": 4.82,
+        "fg3_pct": 0.4336
       }
     },
     {
@@ -6271,45 +6271,79 @@
       }
     },
     {
+      "id": 1629684,
+      "name": "Grant Williams",
+      "team": "CHA",
+      "gp": 1,
+      "cs": {
+        "fgm": 3.0,
+        "fga": 5.0,
+        "fg_pct": 0.6,
+        "efg_pct": 0.8,
+        "fg3m": 2.0,
+        "fg3a": 4.0,
+        "fg3_pct": 0.5
+      },
+      "pullup": {},
+      "contested": {
+        "fgm": 1.0,
+        "fga": 1.0,
+        "fg_pct": 1.0,
+        "efg_pct": 1.0,
+        "fg3m": 0.0,
+        "fg3a": 0.0,
+        "fg3_pct": null
+      },
+      "uncontested": {
+        "fgm": 1.0,
+        "fga": 3.0,
+        "fg_pct": 0.3333,
+        "efg_pct": 0.5,
+        "fg3m": 1.0,
+        "fg3a": 3.0,
+        "fg3_pct": 0.3333
+      }
+    },
+    {
       "id": 1628960,
       "name": "Grayson Allen",
       "team": "CHA",
-      "gp": 11,
+      "gp": 12,
       "cs": {
-        "fgm": 2.91,
-        "fga": 5.91,
-        "fg_pct": 0.492,
-        "efg_pct": 0.723,
-        "fg3m": 2.73,
-        "fg3a": 5.64,
-        "fg3_pct": 0.484
+        "fgm": 2.83,
+        "fga": 5.83,
+        "fg_pct": 0.486,
+        "efg_pct": 0.714,
+        "fg3m": 2.67,
+        "fg3a": 5.58,
+        "fg3_pct": 0.478
       },
       "pullup": {
-        "fgm": 1.27,
-        "fga": 2.82,
-        "fg_pct": 0.452,
-        "efg_pct": 0.581,
-        "fg3m": 0.73,
-        "fg3a": 1.55,
-        "fg3_pct": 0.471
+        "fgm": 1.33,
+        "fga": 2.83,
+        "fg_pct": 0.471,
+        "efg_pct": 0.618,
+        "fg3m": 0.83,
+        "fg3a": 1.58,
+        "fg3_pct": 0.526
       },
       "contested": {
-        "fgm": 1.09,
-        "fga": 2.09,
-        "fg_pct": 0.5215,
-        "efg_pct": 0.6077,
-        "fg3m": 0.36,
-        "fg3a": 0.73,
-        "fg3_pct": 0.4932
+        "fgm": 1.0,
+        "fga": 2.0,
+        "fg_pct": 0.5,
+        "efg_pct": 0.5825,
+        "fg3m": 0.33,
+        "fg3a": 0.66,
+        "fg3_pct": 0.5
       },
       "uncontested": {
-        "fgm": 3.27,
-        "fga": 7.36,
-        "fg_pct": 0.4443,
-        "efg_pct": 0.6542,
-        "fg3m": 3.09,
-        "fg3a": 6.64,
-        "fg3_pct": 0.4654
+        "fgm": 3.41,
+        "fga": 7.58,
+        "fg_pct": 0.4499,
+        "efg_pct": 0.6583,
+        "fg3m": 3.16,
+        "fg3a": 6.75,
+        "fg3_pct": 0.4681
       }
     },
     {
@@ -6526,42 +6560,42 @@
       "id": 1630193,
       "name": "Immanuel Quickley",
       "team": "TOR",
-      "gp": 9,
+      "gp": 10,
       "cs": {
-        "fgm": 2.56,
-        "fga": 6.44,
-        "fg_pct": 0.397,
-        "efg_pct": 0.543,
-        "fg3m": 1.89,
-        "fg3a": 5.0,
-        "fg3_pct": 0.378
+        "fgm": 2.6,
+        "fga": 6.3,
+        "fg_pct": 0.413,
+        "efg_pct": 0.563,
+        "fg3m": 1.9,
+        "fg3a": 4.9,
+        "fg3_pct": 0.388
       },
       "pullup": {
-        "fgm": 1.67,
-        "fga": 3.89,
-        "fg_pct": 0.429,
-        "efg_pct": 0.5,
-        "fg3m": 0.56,
-        "fg3a": 1.56,
-        "fg3_pct": 0.357
+        "fgm": 1.9,
+        "fga": 4.2,
+        "fg_pct": 0.452,
+        "efg_pct": 0.524,
+        "fg3m": 0.6,
+        "fg3a": 1.6,
+        "fg3_pct": 0.375
       },
       "contested": {
-        "fgm": 1.55,
-        "fga": 4.11,
-        "fg_pct": 0.3771,
-        "efg_pct": 0.4039,
-        "fg3m": 0.22,
-        "fg3a": 0.78,
-        "fg3_pct": 0.2821
+        "fgm": 1.8,
+        "fga": 4.5,
+        "fg_pct": 0.4,
+        "efg_pct": 0.4333,
+        "fg3m": 0.3,
+        "fg3a": 0.8,
+        "fg3_pct": 0.375
       },
       "uncontested": {
-        "fgm": 3.78,
-        "fga": 9.66,
-        "fg_pct": 0.3913,
-        "efg_pct": 0.5062,
-        "fg3m": 2.22,
-        "fg3a": 7.11,
-        "fg3_pct": 0.3122
+        "fgm": 3.8,
+        "fga": 9.5,
+        "fg_pct": 0.4,
+        "efg_pct": 0.5158,
+        "fg3m": 2.2,
+        "fg3a": 7.0,
+        "fg3_pct": 0.3143
       }
     },
     {
@@ -6720,25 +6754,41 @@
       "id": 1642912,
       "name": "Isaiah Evans",
       "team": "MIN",
-      "gp": 5,
+      "gp": 6,
       "cs": {
         "fgm": 0.0,
-        "fga": 0.6,
+        "fga": 0.83,
         "fg_pct": 0.0,
         "efg_pct": 0.0,
         "fg3m": 0.0,
-        "fg3a": 0.6,
+        "fg3a": 0.83,
         "fg3_pct": 0.0
       },
-      "pullup": {},
-      "contested": {},
+      "pullup": {
+        "fgm": 0.17,
+        "fga": 0.17,
+        "fg_pct": 1.0,
+        "efg_pct": 1.0,
+        "fg3m": 0.0,
+        "fg3a": 0.0,
+        "fg3_pct": null
+      },
+      "contested": {
+        "fgm": 0.17,
+        "fga": 0.33,
+        "fg_pct": 0.5152,
+        "efg_pct": 0.5152,
+        "fg3m": 0.0,
+        "fg3a": 0.17,
+        "fg3_pct": 0.0
+      },
       "uncontested": {
         "fgm": 0.0,
-        "fga": 0.6,
+        "fga": 0.67,
         "fg_pct": 0.0,
         "efg_pct": 0.0,
         "fg3m": 0.0,
-        "fg3a": 0.6,
+        "fg3a": 0.67,
         "fg3_pct": 0.0
       }
     },
@@ -6998,42 +7048,42 @@
       "id": 1642266,
       "name": "Ja'Kobe Walter",
       "team": "TOR",
-      "gp": 11,
+      "gp": 12,
       "cs": {
-        "fgm": 2.82,
-        "fga": 7.36,
-        "fg_pct": 0.383,
-        "efg_pct": 0.519,
-        "fg3m": 2.0,
+        "fgm": 2.75,
+        "fga": 7.33,
+        "fg_pct": 0.375,
+        "efg_pct": 0.506,
+        "fg3m": 1.92,
         "fg3a": 6.0,
-        "fg3_pct": 0.333
+        "fg3_pct": 0.319
       },
       "pullup": {
-        "fgm": 0.82,
-        "fga": 1.82,
-        "fg_pct": 0.45,
-        "efg_pct": 0.525,
-        "fg3m": 0.27,
-        "fg3a": 0.55,
+        "fgm": 0.75,
+        "fga": 1.75,
+        "fg_pct": 0.429,
+        "efg_pct": 0.5,
+        "fg3m": 0.25,
+        "fg3a": 0.5,
         "fg3_pct": 0.5
       },
       "contested": {
-        "fgm": 0.91,
-        "fga": 2.28,
-        "fg_pct": 0.3991,
-        "efg_pct": 0.4386,
-        "fg3m": 0.18,
-        "fg3a": 0.73,
-        "fg3_pct": 0.2466
+        "fgm": 0.92,
+        "fga": 2.17,
+        "fg_pct": 0.424,
+        "efg_pct": 0.4631,
+        "fg3m": 0.17,
+        "fg3a": 0.67,
+        "fg3_pct": 0.2537
       },
       "uncontested": {
-        "fgm": 2.82,
+        "fgm": 2.66,
         "fga": 7.09,
-        "fg_pct": 0.3977,
-        "efg_pct": 0.5515,
-        "fg3m": 2.18,
+        "fg_pct": 0.3752,
+        "efg_pct": 0.5226,
+        "fg3m": 2.09,
         "fg3a": 6.0,
-        "fg3_pct": 0.3633
+        "fg3_pct": 0.3483
       }
     },
     {
@@ -7124,52 +7174,52 @@
       "id": 1631133,
       "name": "Jabari Walker",
       "team": "PHI",
-      "gp": 8,
+      "gp": 9,
       "cs": {
-        "fgm": 1.63,
-        "fga": 3.0,
-        "fg_pct": 0.542,
-        "efg_pct": 0.583,
-        "fg3m": 0.25,
-        "fg3a": 1.0,
-        "fg3_pct": 0.25
+        "fgm": 1.89,
+        "fga": 3.44,
+        "fg_pct": 0.548,
+        "efg_pct": 0.597,
+        "fg3m": 0.33,
+        "fg3a": 1.11,
+        "fg3_pct": 0.3
       },
       "pullup": {
-        "fgm": 0.25,
-        "fga": 0.5,
-        "fg_pct": 0.5,
-        "efg_pct": 0.5,
+        "fgm": 0.22,
+        "fga": 0.56,
+        "fg_pct": 0.4,
+        "efg_pct": 0.4,
         "fg3m": 0.0,
         "fg3a": 0.0,
         "fg3_pct": null
       },
       "contested": {
-        "fgm": 1.0,
-        "fga": 1.63,
-        "fg_pct": 0.6135,
-        "efg_pct": 0.6135,
+        "fgm": 1.12,
+        "fga": 1.89,
+        "fg_pct": 0.5926,
+        "efg_pct": 0.5926,
         "fg3m": 0.0,
         "fg3a": 0.0,
         "fg3_pct": null
       },
       "uncontested": {
-        "fgm": 0.88,
-        "fga": 1.75,
-        "fg_pct": 0.5029,
-        "efg_pct": 0.5771,
-        "fg3m": 0.26,
-        "fg3a": 1.01,
-        "fg3_pct": 0.2574
+        "fgm": 1.0,
+        "fga": 2.0,
+        "fg_pct": 0.5,
+        "efg_pct": 0.5825,
+        "fg3m": 0.33,
+        "fg3a": 1.11,
+        "fg3_pct": 0.2973
       }
     },
     {
       "id": 1643558,
       "name": "Jaden Bradley",
       "team": "TOR",
-      "gp": 8,
+      "gp": 9,
       "cs": {
-        "fgm": 0.25,
-        "fga": 0.25,
+        "fgm": 0.22,
+        "fga": 0.22,
         "fg_pct": 1.0,
         "efg_pct": 1.0,
         "fg3m": 0.0,
@@ -7177,8 +7227,8 @@
         "fg3_pct": null
       },
       "pullup": {
-        "fgm": 0.13,
-        "fga": 0.38,
+        "fgm": 0.11,
+        "fga": 0.33,
         "fg_pct": 0.333,
         "efg_pct": 0.333,
         "fg3m": 0.0,
@@ -7186,17 +7236,17 @@
         "fg3_pct": null
       },
       "contested": {
-        "fgm": 0.25,
-        "fga": 0.38,
-        "fg_pct": 0.6579,
-        "efg_pct": 0.6579,
+        "fgm": 0.22,
+        "fga": 0.33,
+        "fg_pct": 0.6667,
+        "efg_pct": 0.6667,
         "fg3m": 0.0,
         "fg3a": 0.0,
         "fg3_pct": null
       },
       "uncontested": {
         "fgm": 0.0,
-        "fga": 0.38,
+        "fga": 0.33,
         "fg_pct": 0.0,
         "efg_pct": 0.0,
         "fg3m": 0.0,
@@ -7250,42 +7300,42 @@
       "id": 1630183,
       "name": "Jaden McDaniels",
       "team": "MIN",
-      "gp": 11,
+      "gp": 12,
       "cs": {
-        "fgm": 3.73,
-        "fga": 6.64,
-        "fg_pct": 0.562,
-        "efg_pct": 0.651,
-        "fg3m": 1.18,
-        "fg3a": 3.27,
-        "fg3_pct": 0.361
+        "fgm": 3.75,
+        "fga": 6.67,
+        "fg_pct": 0.563,
+        "efg_pct": 0.644,
+        "fg3m": 1.08,
+        "fg3a": 3.17,
+        "fg3_pct": 0.342
       },
       "pullup": {
         "fgm": 3.0,
-        "fga": 6.27,
-        "fg_pct": 0.478,
-        "efg_pct": 0.5,
-        "fg3m": 0.27,
-        "fg3a": 1.09,
-        "fg3_pct": 0.25
+        "fga": 6.17,
+        "fg_pct": 0.486,
+        "efg_pct": 0.507,
+        "fg3m": 0.25,
+        "fg3a": 1.08,
+        "fg3_pct": 0.231
       },
       "contested": {
-        "fgm": 3.82,
-        "fga": 7.36,
-        "fg_pct": 0.519,
-        "efg_pct": 0.5251,
-        "fg3m": 0.09,
-        "fg3a": 0.73,
-        "fg3_pct": 0.1233
+        "fgm": 3.75,
+        "fga": 7.16,
+        "fg_pct": 0.5237,
+        "efg_pct": 0.5293,
+        "fg3m": 0.08,
+        "fg3a": 0.67,
+        "fg3_pct": 0.1194
       },
       "uncontested": {
-        "fgm": 3.18,
-        "fga": 6.18,
-        "fg_pct": 0.5146,
-        "efg_pct": 0.6254,
-        "fg3m": 1.37,
-        "fg3a": 3.64,
-        "fg3_pct": 0.3764
+        "fgm": 3.25,
+        "fga": 6.25,
+        "fg_pct": 0.52,
+        "efg_pct": 0.62,
+        "fg3m": 1.25,
+        "fg3a": 3.59,
+        "fg3_pct": 0.3482
       }
     },
     {
@@ -7436,39 +7486,39 @@
       "id": 1627751,
       "name": "Jakob Poeltl",
       "team": "TOR",
-      "gp": 9,
+      "gp": 10,
       "cs": {
-        "fgm": 3.56,
-        "fga": 5.44,
-        "fg_pct": 0.653,
-        "efg_pct": 0.653,
+        "fgm": 3.4,
+        "fga": 5.5,
+        "fg_pct": 0.618,
+        "efg_pct": 0.618,
         "fg3m": 0.0,
         "fg3a": 0.0,
         "fg3_pct": null
       },
       "pullup": {
-        "fgm": 0.11,
-        "fga": 0.33,
-        "fg_pct": 0.333,
-        "efg_pct": 0.333,
+        "fgm": 0.2,
+        "fga": 0.4,
+        "fg_pct": 0.5,
+        "efg_pct": 0.5,
         "fg3m": 0.0,
         "fg3a": 0.0,
         "fg3_pct": null
       },
       "contested": {
-        "fgm": 2.34,
-        "fga": 3.55,
-        "fg_pct": 0.6592,
-        "efg_pct": 0.6592,
+        "fgm": 2.4,
+        "fga": 3.6,
+        "fg_pct": 0.6667,
+        "efg_pct": 0.6667,
         "fg3m": 0.0,
         "fg3a": 0.0,
         "fg3_pct": null
       },
       "uncontested": {
-        "fgm": 1.44,
-        "fga": 2.22,
-        "fg_pct": 0.6486,
-        "efg_pct": 0.6486,
+        "fgm": 1.3,
+        "fga": 2.3,
+        "fg_pct": 0.5652,
+        "efg_pct": 0.5652,
         "fg3m": 0.0,
         "fg3a": 0.0,
         "fg3_pct": null
@@ -7562,42 +7612,42 @@
       "id": 1630224,
       "name": "Jalen Green",
       "team": "PHX",
-      "gp": 10,
+      "gp": 11,
       "cs": {
-        "fgm": 1.3,
-        "fga": 3.3,
-        "fg_pct": 0.394,
-        "efg_pct": 0.47,
-        "fg3m": 0.5,
-        "fg3a": 2.1,
-        "fg3_pct": 0.238
+        "fgm": 1.27,
+        "fga": 3.36,
+        "fg_pct": 0.378,
+        "efg_pct": 0.459,
+        "fg3m": 0.55,
+        "fg3a": 2.27,
+        "fg3_pct": 0.24
       },
       "pullup": {
-        "fgm": 2.0,
-        "fga": 4.1,
-        "fg_pct": 0.488,
-        "efg_pct": 0.524,
-        "fg3m": 0.3,
-        "fg3a": 0.7,
+        "fgm": 1.82,
+        "fga": 3.82,
+        "fg_pct": 0.476,
+        "efg_pct": 0.512,
+        "fg3m": 0.27,
+        "fg3a": 0.64,
         "fg3_pct": 0.429
       },
       "contested": {
-        "fgm": 2.4,
-        "fga": 5.1,
-        "fg_pct": 0.4706,
-        "efg_pct": 0.4804,
-        "fg3m": 0.1,
-        "fg3a": 0.6,
-        "fg3_pct": 0.1667
+        "fgm": 2.37,
+        "fga": 5.0,
+        "fg_pct": 0.474,
+        "efg_pct": 0.483,
+        "fg3m": 0.09,
+        "fg3a": 0.55,
+        "fg3_pct": 0.1636
       },
       "uncontested": {
-        "fgm": 2.1,
-        "fga": 5.4,
-        "fg_pct": 0.3889,
-        "efg_pct": 0.463,
-        "fg3m": 0.8,
-        "fg3a": 2.6,
-        "fg3_pct": 0.3077
+        "fgm": 2.0,
+        "fga": 5.36,
+        "fg_pct": 0.3731,
+        "efg_pct": 0.4496,
+        "fg3m": 0.82,
+        "fg3a": 2.73,
+        "fg3_pct": 0.3004
       }
     },
     {
@@ -7940,42 +7990,42 @@
       "id": 1642347,
       "name": "Jamal Shead",
       "team": "TOR",
-      "gp": 11,
+      "gp": 12,
       "cs": {
-        "fgm": 0.91,
-        "fga": 3.18,
-        "fg_pct": 0.286,
-        "efg_pct": 0.4,
-        "fg3m": 0.73,
-        "fg3a": 2.64,
-        "fg3_pct": 0.276
+        "fgm": 0.83,
+        "fga": 3.25,
+        "fg_pct": 0.256,
+        "efg_pct": 0.359,
+        "fg3m": 0.67,
+        "fg3a": 2.67,
+        "fg3_pct": 0.25
       },
       "pullup": {
         "fgm": 1.0,
-        "fga": 1.55,
-        "fg_pct": 0.647,
-        "efg_pct": 0.676,
-        "fg3m": 0.09,
-        "fg3a": 0.36,
-        "fg3_pct": 0.25
+        "fga": 1.58,
+        "fg_pct": 0.632,
+        "efg_pct": 0.684,
+        "fg3m": 0.17,
+        "fg3a": 0.42,
+        "fg3_pct": 0.4
       },
       "contested": {
-        "fgm": 0.82,
+        "fgm": 0.75,
         "fga": 2.09,
-        "fg_pct": 0.3923,
-        "efg_pct": 0.3923,
+        "fg_pct": 0.3589,
+        "efg_pct": 0.3589,
         "fg3m": 0.0,
         "fg3a": 0.0,
         "fg3_pct": null
       },
       "uncontested": {
-        "fgm": 1.46,
-        "fga": 4.46,
-        "fg_pct": 0.3274,
-        "efg_pct": 0.4193,
-        "fg3m": 0.82,
-        "fg3a": 3.37,
-        "fg3_pct": 0.2433
+        "fgm": 1.42,
+        "fga": 4.42,
+        "fg_pct": 0.3213,
+        "efg_pct": 0.4152,
+        "fg3m": 0.83,
+        "fg3a": 3.42,
+        "fg3_pct": 0.2427
       }
     },
     {
@@ -8100,42 +8150,42 @@
       "id": 1642419,
       "name": "Jamison Battle",
       "team": "TOR",
-      "gp": 11,
+      "gp": 12,
       "cs": {
-        "fgm": 2.73,
-        "fga": 5.82,
-        "fg_pct": 0.469,
-        "efg_pct": 0.648,
-        "fg3m": 2.09,
-        "fg3a": 4.82,
-        "fg3_pct": 0.434
+        "fgm": 2.92,
+        "fga": 6.08,
+        "fg_pct": 0.479,
+        "efg_pct": 0.658,
+        "fg3m": 2.17,
+        "fg3a": 4.92,
+        "fg3_pct": 0.441
       },
       "pullup": {
-        "fgm": 0.36,
-        "fga": 0.64,
+        "fgm": 0.33,
+        "fga": 0.58,
         "fg_pct": 0.571,
         "efg_pct": 0.571,
         "fg3m": 0.0,
-        "fg3a": 0.09,
+        "fg3a": 0.08,
         "fg3_pct": 0.0
       },
       "contested": {
-        "fgm": 0.72,
-        "fga": 1.27,
-        "fg_pct": 0.5669,
-        "efg_pct": 0.6024,
-        "fg3m": 0.09,
-        "fg3a": 0.18,
-        "fg3_pct": 0.5
+        "fgm": 0.83,
+        "fga": 1.41,
+        "fg_pct": 0.5887,
+        "efg_pct": 0.617,
+        "fg3m": 0.08,
+        "fg3a": 0.17,
+        "fg3_pct": 0.4706
       },
       "uncontested": {
-        "fgm": 2.18,
-        "fga": 4.91,
-        "fg_pct": 0.444,
-        "efg_pct": 0.6385,
-        "fg3m": 1.91,
-        "fg3a": 4.55,
-        "fg3_pct": 0.4198
+        "fgm": 2.25,
+        "fga": 5.0,
+        "fg_pct": 0.45,
+        "efg_pct": 0.65,
+        "fg3m": 2.0,
+        "fg3a": 4.66,
+        "fg3_pct": 0.4292
       }
     },
     {
@@ -8478,19 +8528,19 @@
       "id": 1629750,
       "name": "Javonte Green",
       "team": "DET",
-      "gp": 10,
+      "gp": 11,
       "cs": {
-        "fgm": 1.8,
-        "fga": 4.7,
-        "fg_pct": 0.383,
-        "efg_pct": 0.5,
-        "fg3m": 1.1,
-        "fg3a": 3.7,
-        "fg3_pct": 0.297
+        "fgm": 1.82,
+        "fga": 4.64,
+        "fg_pct": 0.392,
+        "efg_pct": 0.51,
+        "fg3m": 1.09,
+        "fg3a": 3.64,
+        "fg3_pct": 0.3
       },
       "pullup": {
-        "fgm": 0.1,
-        "fga": 0.2,
+        "fgm": 0.09,
+        "fga": 0.18,
         "fg_pct": 0.5,
         "efg_pct": 0.5,
         "fg3m": 0.0,
@@ -8498,22 +8548,22 @@
         "fg3_pct": null
       },
       "contested": {
-        "fgm": 0.4,
+        "fgm": 0.45,
         "fga": 1.0,
-        "fg_pct": 0.4,
-        "efg_pct": 0.4,
+        "fg_pct": 0.45,
+        "efg_pct": 0.45,
         "fg3m": 0.0,
-        "fg3a": 0.3,
+        "fg3a": 0.27,
         "fg3_pct": 0.0
       },
       "uncontested": {
-        "fgm": 1.5,
-        "fga": 3.9,
-        "fg_pct": 0.3846,
-        "efg_pct": 0.5256,
-        "fg3m": 1.1,
-        "fg3a": 3.4,
-        "fg3_pct": 0.3235
+        "fgm": 1.46,
+        "fga": 3.82,
+        "fg_pct": 0.3822,
+        "efg_pct": 0.5249,
+        "fg3m": 1.09,
+        "fg3a": 3.36,
+        "fg3_pct": 0.3244
       }
     },
     {
@@ -8604,84 +8654,84 @@
       "id": 1627759,
       "name": "Jaylen Brown",
       "team": "PHI",
-      "gp": 11,
+      "gp": 12,
       "cs": {
-        "fgm": 3.0,
-        "fga": 6.64,
-        "fg_pct": 0.452,
-        "efg_pct": 0.562,
-        "fg3m": 1.45,
-        "fg3a": 3.73,
+        "fgm": 2.92,
+        "fga": 6.25,
+        "fg_pct": 0.467,
+        "efg_pct": 0.573,
+        "fg3m": 1.33,
+        "fg3a": 3.42,
         "fg3_pct": 0.39
       },
       "pullup": {
-        "fgm": 3.45,
-        "fga": 6.45,
-        "fg_pct": 0.535,
-        "efg_pct": 0.57,
-        "fg3m": 0.45,
-        "fg3a": 0.82,
+        "fgm": 3.67,
+        "fga": 6.92,
+        "fg_pct": 0.53,
+        "efg_pct": 0.56,
+        "fg3m": 0.42,
+        "fg3a": 0.75,
         "fg3_pct": 0.556
       },
       "contested": {
         "fgm": 4.0,
-        "fga": 8.46,
-        "fg_pct": 0.4728,
-        "efg_pct": 0.4941,
-        "fg3m": 0.36,
-        "fg3a": 1.09,
-        "fg3_pct": 0.3303
+        "fga": 8.25,
+        "fg_pct": 0.4848,
+        "efg_pct": 0.5048,
+        "fg3m": 0.33,
+        "fg3a": 1.0,
+        "fg3_pct": 0.33
       },
       "uncontested": {
-        "fgm": 3.91,
-        "fga": 7.91,
-        "fg_pct": 0.4943,
-        "efg_pct": 0.5917,
-        "fg3m": 1.54,
-        "fg3a": 3.91,
-        "fg3_pct": 0.3939
+        "fgm": 3.92,
+        "fga": 8.0,
+        "fg_pct": 0.49,
+        "efg_pct": 0.5781,
+        "fg3m": 1.41,
+        "fg3a": 3.67,
+        "fg3_pct": 0.3842
       }
     },
     {
       "id": 1641740,
       "name": "Jaylen Clark",
       "team": "MIN",
-      "gp": 10,
+      "gp": 11,
       "cs": {
-        "fgm": 1.1,
-        "fga": 2.9,
-        "fg_pct": 0.379,
+        "fgm": 1.09,
+        "fga": 2.91,
+        "fg_pct": 0.375,
         "efg_pct": 0.5,
-        "fg3m": 0.7,
-        "fg3a": 1.9,
-        "fg3_pct": 0.368
+        "fg3m": 0.73,
+        "fg3a": 2.0,
+        "fg3_pct": 0.364
       },
       "pullup": {
-        "fgm": 0.4,
-        "fga": 0.7,
-        "fg_pct": 0.571,
-        "efg_pct": 0.643,
-        "fg3m": 0.1,
-        "fg3a": 0.2,
+        "fgm": 0.55,
+        "fga": 0.82,
+        "fg_pct": 0.667,
+        "efg_pct": 0.722,
+        "fg3m": 0.09,
+        "fg3a": 0.18,
         "fg3_pct": 0.5
       },
       "contested": {
-        "fgm": 0.4,
-        "fga": 1.1,
-        "fg_pct": 0.3636,
-        "efg_pct": 0.3636,
+        "fgm": 0.45,
+        "fga": 1.09,
+        "fg_pct": 0.4128,
+        "efg_pct": 0.4128,
         "fg3m": 0.0,
         "fg3a": 0.0,
         "fg3_pct": null
       },
       "uncontested": {
-        "fgm": 1.1,
-        "fga": 2.6,
-        "fg_pct": 0.4231,
-        "efg_pct": 0.5769,
-        "fg3m": 0.8,
-        "fg3a": 2.1,
-        "fg3_pct": 0.381
+        "fgm": 1.18,
+        "fga": 2.73,
+        "fg_pct": 0.4322,
+        "efg_pct": 0.5824,
+        "fg3m": 0.82,
+        "fg3a": 2.18,
+        "fg3_pct": 0.3761
       }
     },
     {
@@ -9066,19 +9116,19 @@
       "id": 1641724,
       "name": "Jett Howard",
       "team": "DAL",
-      "gp": 5,
+      "gp": 6,
       "cs": {
-        "fgm": 0.8,
-        "fga": 1.2,
-        "fg_pct": 0.667,
-        "efg_pct": 0.833,
-        "fg3m": 0.4,
-        "fg3a": 0.8,
-        "fg3_pct": 0.5
+        "fgm": 0.83,
+        "fga": 1.67,
+        "fg_pct": 0.5,
+        "efg_pct": 0.65,
+        "fg3m": 0.5,
+        "fg3a": 1.33,
+        "fg3_pct": 0.375
       },
       "pullup": {
         "fgm": 0.0,
-        "fga": 0.2,
+        "fga": 0.17,
         "fg_pct": 0.0,
         "efg_pct": 0.0,
         "fg3m": 0.0,
@@ -9086,22 +9136,22 @@
         "fg3_pct": null
       },
       "contested": {
-        "fgm": 0.4,
-        "fga": 0.6,
-        "fg_pct": 0.6667,
-        "efg_pct": 0.6667,
+        "fgm": 0.33,
+        "fga": 0.5,
+        "fg_pct": 0.66,
+        "efg_pct": 0.66,
         "fg3m": 0.0,
         "fg3a": 0.0,
         "fg3_pct": null
       },
       "uncontested": {
-        "fgm": 0.4,
-        "fga": 0.8,
-        "fg_pct": 0.5,
-        "efg_pct": 0.75,
-        "fg3m": 0.4,
-        "fg3a": 0.8,
-        "fg3_pct": 0.5
+        "fgm": 0.5,
+        "fga": 1.34,
+        "fg_pct": 0.3731,
+        "efg_pct": 0.5597,
+        "fg3m": 0.5,
+        "fg3a": 1.34,
+        "fg3_pct": 0.3731
       }
     },
     {
@@ -9150,39 +9200,39 @@
       "id": 1642866,
       "name": "Joan Beringer",
       "team": "MIN",
-      "gp": 11,
+      "gp": 12,
       "cs": {
-        "fgm": 1.91,
-        "fga": 3.18,
+        "fgm": 1.92,
+        "fga": 3.17,
+        "fg_pct": 0.605,
+        "efg_pct": 0.605,
+        "fg3m": 0.0,
+        "fg3a": 0.0,
+        "fg3_pct": null
+      },
+      "pullup": {
+        "fgm": 0.5,
+        "fga": 0.83,
         "fg_pct": 0.6,
         "efg_pct": 0.6,
         "fg3m": 0.0,
         "fg3a": 0.0,
         "fg3_pct": null
       },
-      "pullup": {
-        "fgm": 0.36,
-        "fga": 0.73,
-        "fg_pct": 0.5,
-        "efg_pct": 0.5,
-        "fg3m": 0.0,
-        "fg3a": 0.0,
-        "fg3_pct": null
-      },
       "contested": {
-        "fgm": 2.09,
-        "fga": 3.45,
-        "fg_pct": 0.6058,
-        "efg_pct": 0.6058,
+        "fgm": 2.17,
+        "fga": 3.5,
+        "fg_pct": 0.62,
+        "efg_pct": 0.62,
         "fg3m": 0.0,
         "fg3a": 0.0,
         "fg3_pct": null
       },
       "uncontested": {
-        "fgm": 0.09,
-        "fga": 0.18,
-        "fg_pct": 0.5,
-        "efg_pct": 0.5,
+        "fgm": 0.17,
+        "fga": 0.25,
+        "fg_pct": 0.68,
+        "efg_pct": 0.68,
         "fg3m": 0.0,
         "fg3a": 0.0,
         "fg3_pct": null
@@ -9234,84 +9284,84 @@
       "id": 203954,
       "name": "Joel Embiid",
       "team": "PHI",
-      "gp": 10,
+      "gp": 11,
       "cs": {
-        "fgm": 3.1,
-        "fga": 8.3,
-        "fg_pct": 0.373,
-        "efg_pct": 0.398,
-        "fg3m": 0.4,
+        "fgm": 3.27,
+        "fga": 8.55,
+        "fg_pct": 0.383,
+        "efg_pct": 0.404,
+        "fg3m": 0.36,
         "fg3a": 3.0,
-        "fg3_pct": 0.133
+        "fg3_pct": 0.121
       },
       "pullup": {
-        "fgm": 2.0,
-        "fga": 5.4,
-        "fg_pct": 0.37,
-        "efg_pct": 0.37,
+        "fgm": 1.91,
+        "fga": 5.27,
+        "fg_pct": 0.362,
+        "efg_pct": 0.362,
         "fg3m": 0.0,
-        "fg3a": 0.3,
+        "fg3a": 0.27,
         "fg3_pct": 0.0
       },
       "contested": {
-        "fgm": 2.6,
-        "fga": 6.2,
-        "fg_pct": 0.4194,
-        "efg_pct": 0.4194,
+        "fgm": 2.64,
+        "fga": 6.36,
+        "fg_pct": 0.4151,
+        "efg_pct": 0.4151,
         "fg3m": 0.0,
         "fg3a": 0.0,
         "fg3_pct": null
       },
       "uncontested": {
-        "fgm": 2.7,
-        "fga": 8.3,
-        "fg_pct": 0.3253,
-        "efg_pct": 0.3494,
-        "fg3m": 0.4,
-        "fg3a": 3.3,
-        "fg3_pct": 0.1212
+        "fgm": 2.82,
+        "fga": 8.36,
+        "fg_pct": 0.3373,
+        "efg_pct": 0.3589,
+        "fg3m": 0.36,
+        "fg3a": 3.27,
+        "fg3_pct": 0.1101
       }
     },
     {
       "id": 1628381,
       "name": "John Collins",
       "team": "DET",
-      "gp": 10,
+      "gp": 11,
       "cs": {
-        "fgm": 3.9,
-        "fga": 6.6,
-        "fg_pct": 0.591,
-        "efg_pct": 0.667,
-        "fg3m": 1.0,
-        "fg3a": 2.6,
-        "fg3_pct": 0.385
+        "fgm": 3.82,
+        "fga": 6.64,
+        "fg_pct": 0.575,
+        "efg_pct": 0.658,
+        "fg3m": 1.09,
+        "fg3a": 2.64,
+        "fg3_pct": 0.414
       },
       "pullup": {
-        "fgm": 0.5,
-        "fga": 2.2,
-        "fg_pct": 0.227,
-        "efg_pct": 0.227,
+        "fgm": 0.45,
+        "fga": 2.09,
+        "fg_pct": 0.217,
+        "efg_pct": 0.217,
         "fg3m": 0.0,
         "fg3a": 0.0,
         "fg3_pct": null
       },
       "contested": {
-        "fgm": 2.6,
-        "fga": 5.4,
-        "fg_pct": 0.4815,
-        "efg_pct": 0.4907,
-        "fg3m": 0.1,
-        "fg3a": 0.5,
+        "fgm": 2.46,
+        "fga": 5.27,
+        "fg_pct": 0.4668,
+        "efg_pct": 0.4753,
+        "fg3m": 0.09,
+        "fg3a": 0.45,
         "fg3_pct": 0.2
       },
       "uncontested": {
-        "fgm": 1.8,
-        "fga": 3.4,
-        "fg_pct": 0.5294,
-        "efg_pct": 0.6618,
-        "fg3m": 0.9,
-        "fg3a": 2.1,
-        "fg3_pct": 0.4286
+        "fgm": 1.82,
+        "fga": 3.46,
+        "fg_pct": 0.526,
+        "efg_pct": 0.6705,
+        "fg3m": 1.0,
+        "fg3a": 2.18,
+        "fg3_pct": 0.4587
       }
     },
     {
@@ -9352,42 +9402,42 @@
       "id": 1630228,
       "name": "Jonathan Kuminga",
       "team": "MIN",
-      "gp": 11,
+      "gp": 12,
       "cs": {
-        "fgm": 3.09,
-        "fga": 6.18,
-        "fg_pct": 0.5,
-        "efg_pct": 0.632,
-        "fg3m": 1.64,
-        "fg3a": 4.0,
-        "fg3_pct": 0.409
+        "fgm": 3.25,
+        "fga": 6.33,
+        "fg_pct": 0.513,
+        "efg_pct": 0.638,
+        "fg3m": 1.58,
+        "fg3a": 3.92,
+        "fg3_pct": 0.404
       },
       "pullup": {
-        "fgm": 1.09,
-        "fga": 3.27,
-        "fg_pct": 0.333,
-        "efg_pct": 0.347,
-        "fg3m": 0.09,
-        "fg3a": 0.36,
+        "fgm": 1.0,
+        "fga": 3.17,
+        "fg_pct": 0.316,
+        "efg_pct": 0.329,
+        "fg3m": 0.08,
+        "fg3a": 0.33,
         "fg3_pct": 0.25
       },
       "contested": {
-        "fgm": 1.73,
-        "fga": 4.54,
-        "fg_pct": 0.3811,
-        "efg_pct": 0.4207,
-        "fg3m": 0.36,
-        "fg3a": 0.45,
-        "fg3_pct": 0.8
+        "fgm": 2.0,
+        "fga": 4.83,
+        "fg_pct": 0.4141,
+        "efg_pct": 0.4482,
+        "fg3m": 0.33,
+        "fg3a": 0.41,
+        "fg3_pct": 0.8049
       },
       "uncontested": {
-        "fgm": 2.36,
-        "fga": 5.09,
-        "fg_pct": 0.4637,
-        "efg_pct": 0.5894,
-        "fg3m": 1.28,
-        "fg3a": 3.72,
-        "fg3_pct": 0.3441
+        "fgm": 2.25,
+        "fga": 4.91,
+        "fg_pct": 0.4582,
+        "efg_pct": 0.5855,
+        "fg3m": 1.25,
+        "fg3a": 3.66,
+        "fg3_pct": 0.3415
       }
     },
     {
@@ -9478,42 +9528,42 @@
       "id": 1630692,
       "name": "Jordan Goodwin",
       "team": "PHX",
-      "gp": 6,
+      "gp": 7,
       "cs": {
-        "fgm": 2.67,
-        "fga": 4.67,
-        "fg_pct": 0.571,
-        "efg_pct": 0.821,
-        "fg3m": 2.33,
-        "fg3a": 4.0,
-        "fg3_pct": 0.583
+        "fgm": 2.57,
+        "fga": 5.14,
+        "fg_pct": 0.5,
+        "efg_pct": 0.722,
+        "fg3m": 2.29,
+        "fg3a": 4.14,
+        "fg3_pct": 0.552
       },
       "pullup": {
-        "fgm": 0.83,
-        "fga": 2.0,
-        "fg_pct": 0.417,
-        "efg_pct": 0.458,
-        "fg3m": 0.17,
-        "fg3a": 1.17,
-        "fg3_pct": 0.143
+        "fgm": 0.71,
+        "fga": 2.14,
+        "fg_pct": 0.333,
+        "efg_pct": 0.367,
+        "fg3m": 0.14,
+        "fg3a": 1.14,
+        "fg3_pct": 0.125
       },
       "contested": {
-        "fgm": 0.67,
-        "fga": 1.17,
-        "fg_pct": 0.5726,
-        "efg_pct": 0.6453,
-        "fg3m": 0.17,
-        "fg3a": 0.5,
-        "fg3_pct": 0.34
+        "fgm": 0.57,
+        "fga": 1.58,
+        "fg_pct": 0.3608,
+        "efg_pct": 0.4051,
+        "fg3m": 0.14,
+        "fg3a": 0.57,
+        "fg3_pct": 0.2456
       },
       "uncontested": {
-        "fgm": 2.5,
-        "fga": 5.0,
-        "fg_pct": 0.5,
-        "efg_pct": 0.733,
-        "fg3m": 2.33,
-        "fg3a": 4.5,
-        "fg3_pct": 0.5178
+        "fgm": 2.43,
+        "fga": 5.14,
+        "fg_pct": 0.4728,
+        "efg_pct": 0.6955,
+        "fg3m": 2.29,
+        "fg3a": 4.57,
+        "fg3_pct": 0.5011
       }
     },
     {
@@ -10218,20 +10268,20 @@
       "id": 1642348,
       "name": "Justin Edwards",
       "team": "PHI",
-      "gp": 5,
+      "gp": 6,
       "cs": {
-        "fgm": 0.4,
-        "fga": 0.8,
+        "fgm": 0.33,
+        "fga": 0.67,
         "fg_pct": 0.5,
         "efg_pct": 0.625,
-        "fg3m": 0.2,
-        "fg3a": 0.4,
+        "fg3m": 0.17,
+        "fg3a": 0.33,
         "fg3_pct": 0.5
       },
       "pullup": {},
       "contested": {
         "fgm": 0.0,
-        "fga": 0.2,
+        "fga": 0.17,
         "fg_pct": 0.0,
         "efg_pct": 0.0,
         "fg3m": 0.0,
@@ -10239,13 +10289,13 @@
         "fg3_pct": null
       },
       "uncontested": {
-        "fgm": 0.4,
-        "fga": 0.6,
-        "fg_pct": 0.6667,
-        "efg_pct": 0.8333,
-        "fg3m": 0.2,
-        "fg3a": 0.4,
-        "fg3_pct": 0.5
+        "fgm": 0.33,
+        "fga": 0.5,
+        "fg_pct": 0.66,
+        "efg_pct": 0.83,
+        "fg3m": 0.17,
+        "fg3a": 0.33,
+        "fg3_pct": 0.5152
       }
     },
     {
@@ -10714,42 +10764,42 @@
       "id": 203484,
       "name": "Kentavious Caldwell-Pope",
       "team": "PHI",
-      "gp": 12,
+      "gp": 13,
       "cs": {
-        "fgm": 1.58,
-        "fga": 3.08,
-        "fg_pct": 0.514,
-        "efg_pct": 0.716,
-        "fg3m": 1.25,
-        "fg3a": 2.58,
-        "fg3_pct": 0.484
+        "fgm": 1.77,
+        "fga": 3.23,
+        "fg_pct": 0.548,
+        "efg_pct": 0.762,
+        "fg3m": 1.38,
+        "fg3a": 2.69,
+        "fg3_pct": 0.514
       },
       "pullup": {
-        "fgm": 0.17,
-        "fga": 0.83,
-        "fg_pct": 0.2,
-        "efg_pct": 0.2,
+        "fgm": 0.15,
+        "fga": 0.92,
+        "fg_pct": 0.167,
+        "efg_pct": 0.167,
         "fg3m": 0.0,
-        "fg3a": 0.17,
+        "fg3a": 0.23,
         "fg3_pct": 0.0
       },
       "contested": {
-        "fgm": 0.25,
-        "fga": 0.83,
-        "fg_pct": 0.3012,
-        "efg_pct": 0.4036,
-        "fg3m": 0.17,
-        "fg3a": 0.25,
-        "fg3_pct": 0.68
+        "fgm": 0.46,
+        "fga": 1.08,
+        "fg_pct": 0.4259,
+        "efg_pct": 0.5694,
+        "fg3m": 0.31,
+        "fg3a": 0.46,
+        "fg3_pct": 0.6739
       },
       "uncontested": {
-        "fgm": 1.5,
-        "fga": 3.08,
-        "fg_pct": 0.487,
-        "efg_pct": 0.6623,
+        "fgm": 1.47,
+        "fga": 3.07,
+        "fg_pct": 0.4788,
+        "efg_pct": 0.6547,
         "fg3m": 1.08,
-        "fg3a": 2.5,
-        "fg3_pct": 0.432
+        "fg3a": 2.46,
+        "fg3_pct": 0.439
       }
     },
     {
@@ -10840,42 +10890,42 @@
       "id": 1628989,
       "name": "Kevin Huerter",
       "team": "DET",
-      "gp": 10,
+      "gp": 11,
       "cs": {
-        "fgm": 2.2,
-        "fga": 5.1,
-        "fg_pct": 0.431,
-        "efg_pct": 0.569,
-        "fg3m": 1.4,
-        "fg3a": 4.1,
+        "fgm": 2.27,
+        "fga": 5.09,
+        "fg_pct": 0.446,
+        "efg_pct": 0.58,
+        "fg3m": 1.36,
+        "fg3a": 4.0,
         "fg3_pct": 0.341
       },
       "pullup": {
-        "fgm": 1.0,
+        "fgm": 0.91,
         "fga": 2.0,
-        "fg_pct": 0.5,
-        "efg_pct": 0.55,
-        "fg3m": 0.2,
-        "fg3a": 0.4,
-        "fg3_pct": 0.5
+        "fg_pct": 0.455,
+        "efg_pct": 0.5,
+        "fg3m": 0.18,
+        "fg3a": 0.45,
+        "fg3_pct": 0.4
       },
       "contested": {
-        "fgm": 1.1,
-        "fga": 2.6,
-        "fg_pct": 0.4231,
-        "efg_pct": 0.4231,
+        "fgm": 1.0,
+        "fga": 2.45,
+        "fg_pct": 0.4082,
+        "efg_pct": 0.4082,
         "fg3m": 0.0,
-        "fg3a": 0.4,
+        "fg3a": 0.36,
         "fg3_pct": 0.0
       },
       "uncontested": {
-        "fgm": 2.2,
-        "fga": 4.8,
-        "fg_pct": 0.4583,
-        "efg_pct": 0.625,
-        "fg3m": 1.6,
+        "fgm": 2.27,
+        "fga": 4.91,
+        "fg_pct": 0.4623,
+        "efg_pct": 0.6202,
+        "fg3m": 1.55,
         "fg3a": 4.0,
-        "fg3_pct": 0.4
+        "fg3_pct": 0.3875
       }
     },
     {
@@ -10966,19 +11016,19 @@
       "id": 1642863,
       "name": "Khaman Maluach",
       "team": "PHX",
-      "gp": 10,
+      "gp": 11,
       "cs": {
-        "fgm": 3.1,
-        "fga": 4.9,
-        "fg_pct": 0.633,
-        "efg_pct": 0.653,
-        "fg3m": 0.2,
-        "fg3a": 0.7,
+        "fgm": 3.0,
+        "fga": 4.82,
+        "fg_pct": 0.623,
+        "efg_pct": 0.642,
+        "fg3m": 0.18,
+        "fg3a": 0.64,
         "fg3_pct": 0.286
       },
       "pullup": {
-        "fgm": 0.1,
-        "fga": 0.3,
+        "fgm": 0.09,
+        "fga": 0.27,
         "fg_pct": 0.333,
         "efg_pct": 0.333,
         "fg3m": 0.0,
@@ -10986,22 +11036,22 @@
         "fg3_pct": null
       },
       "contested": {
-        "fgm": 2.3,
-        "fga": 3.6,
-        "fg_pct": 0.6389,
-        "efg_pct": 0.6389,
+        "fgm": 2.27,
+        "fga": 3.64,
+        "fg_pct": 0.6236,
+        "efg_pct": 0.6236,
         "fg3m": 0.0,
-        "fg3a": 0.1,
+        "fg3a": 0.09,
         "fg3_pct": 0.0
       },
       "uncontested": {
-        "fgm": 0.7,
-        "fga": 1.3,
-        "fg_pct": 0.5385,
-        "efg_pct": 0.6154,
-        "fg3m": 0.2,
-        "fg3a": 0.6,
-        "fg3_pct": 0.3333
+        "fgm": 0.63,
+        "fga": 1.18,
+        "fg_pct": 0.5339,
+        "efg_pct": 0.6102,
+        "fg3m": 0.18,
+        "fg3a": 0.55,
+        "fg3_pct": 0.3273
       }
     },
     {
@@ -11370,10 +11420,10 @@
       "id": 203937,
       "name": "Kyle Anderson",
       "team": "TOR",
-      "gp": 8,
+      "gp": 9,
       "cs": {
-        "fgm": 0.5,
-        "fga": 1.0,
+        "fgm": 0.44,
+        "fga": 0.89,
         "fg_pct": 0.5,
         "efg_pct": 0.5,
         "fg3m": 0.0,
@@ -11381,8 +11431,8 @@
         "fg3_pct": null
       },
       "pullup": {
-        "fgm": 0.25,
-        "fga": 0.75,
+        "fgm": 0.22,
+        "fga": 0.67,
         "fg_pct": 0.333,
         "efg_pct": 0.333,
         "fg3m": 0.0,
@@ -11390,17 +11440,17 @@
         "fg3_pct": null
       },
       "contested": {
-        "fgm": 0.63,
-        "fga": 1.38,
-        "fg_pct": 0.4565,
-        "efg_pct": 0.4565,
+        "fgm": 0.55,
+        "fga": 1.22,
+        "fg_pct": 0.4508,
+        "efg_pct": 0.4508,
         "fg3m": 0.0,
         "fg3a": 0.0,
         "fg3_pct": null
       },
       "uncontested": {
-        "fgm": 0.25,
-        "fga": 0.5,
+        "fgm": 0.22,
+        "fga": 0.44,
         "fg_pct": 0.5,
         "efg_pct": 0.5,
         "fg3m": 0.0,
@@ -11496,84 +11546,84 @@
       "id": 202681,
       "name": "Kyrie Irving",
       "team": "DAL",
-      "gp": 9,
+      "gp": 10,
       "cs": {
-        "fgm": 3.11,
-        "fga": 6.56,
-        "fg_pct": 0.475,
-        "efg_pct": 0.636,
-        "fg3m": 2.11,
-        "fg3a": 5.11,
-        "fg3_pct": 0.413
+        "fgm": 3.0,
+        "fga": 6.4,
+        "fg_pct": 0.469,
+        "efg_pct": 0.625,
+        "fg3m": 2.0,
+        "fg3a": 5.0,
+        "fg3_pct": 0.4
       },
       "pullup": {
-        "fgm": 3.56,
-        "fga": 6.56,
-        "fg_pct": 0.542,
-        "efg_pct": 0.61,
-        "fg3m": 0.89,
-        "fg3a": 1.78,
+        "fgm": 3.4,
+        "fga": 6.3,
+        "fg_pct": 0.54,
+        "efg_pct": 0.611,
+        "fg3m": 0.9,
+        "fg3a": 1.8,
         "fg3_pct": 0.5
       },
       "contested": {
-        "fgm": 4.34,
-        "fga": 8.22,
-        "fg_pct": 0.528,
-        "efg_pct": 0.5754,
-        "fg3m": 0.78,
+        "fgm": 4.0,
+        "fga": 8.0,
+        "fg_pct": 0.5,
+        "efg_pct": 0.5437,
+        "fg3m": 0.7,
         "fg3a": 2.0,
-        "fg3_pct": 0.39
+        "fg3_pct": 0.35
       },
       "uncontested": {
-        "fgm": 3.89,
-        "fga": 8.67,
-        "fg_pct": 0.4487,
-        "efg_pct": 0.5957,
-        "fg3m": 2.55,
-        "fg3a": 6.44,
-        "fg3_pct": 0.396
+        "fgm": 3.8,
+        "fga": 8.3,
+        "fg_pct": 0.4578,
+        "efg_pct": 0.6084,
+        "fg3m": 2.5,
+        "fg3a": 6.2,
+        "fg3_pct": 0.4032
       }
     },
     {
       "id": 1642273,
       "name": "Kyshawn George",
       "team": "WAS",
-      "gp": 12,
+      "gp": 13,
       "cs": {
         "fgm": 3.0,
-        "fga": 6.75,
-        "fg_pct": 0.444,
-        "efg_pct": 0.556,
-        "fg3m": 1.5,
-        "fg3a": 4.58,
-        "fg3_pct": 0.327
+        "fga": 6.46,
+        "fg_pct": 0.464,
+        "efg_pct": 0.589,
+        "fg3m": 1.62,
+        "fg3a": 4.46,
+        "fg3_pct": 0.362
       },
       "pullup": {
         "fgm": 2.08,
-        "fga": 4.17,
-        "fg_pct": 0.5,
-        "efg_pct": 0.59,
-        "fg3m": 0.75,
-        "fg3a": 0.92,
+        "fga": 4.08,
+        "fg_pct": 0.509,
+        "efg_pct": 0.594,
+        "fg3m": 0.69,
+        "fg3a": 0.85,
         "fg3_pct": 0.818
       },
       "contested": {
-        "fgm": 3.0,
-        "fga": 6.09,
-        "fg_pct": 0.4926,
-        "efg_pct": 0.5197,
-        "fg3m": 0.33,
-        "fg3a": 0.83,
-        "fg3_pct": 0.3976
+        "fgm": 2.92,
+        "fga": 5.92,
+        "fg_pct": 0.4932,
+        "efg_pct": 0.5194,
+        "fg3m": 0.31,
+        "fg3a": 0.77,
+        "fg3_pct": 0.4026
       },
       "uncontested": {
-        "fgm": 3.75,
-        "fga": 8.0,
-        "fg_pct": 0.4688,
-        "efg_pct": 0.5988,
-        "fg3m": 2.08,
-        "fg3a": 5.25,
-        "fg3_pct": 0.3962
+        "fgm": 3.69,
+        "fga": 7.61,
+        "fg_pct": 0.4849,
+        "efg_pct": 0.6268,
+        "fg3m": 2.16,
+        "fg3a": 5.08,
+        "fg3_pct": 0.4252
       }
     },
     {
@@ -11622,61 +11672,61 @@
       "id": 1630163,
       "name": "LaMelo Ball",
       "team": "MIN",
-      "gp": 11,
+      "gp": 12,
       "cs": {
-        "fgm": 2.09,
-        "fga": 4.73,
-        "fg_pct": 0.442,
-        "efg_pct": 0.615,
-        "fg3m": 1.64,
+        "fgm": 2.08,
+        "fga": 4.75,
+        "fg_pct": 0.439,
+        "efg_pct": 0.614,
+        "fg3m": 1.67,
         "fg3a": 4.0,
-        "fg3_pct": 0.409
+        "fg3_pct": 0.417
       },
       "pullup": {
-        "fgm": 2.45,
-        "fga": 4.91,
+        "fgm": 2.5,
+        "fga": 5.0,
         "fg_pct": 0.5,
-        "efg_pct": 0.611,
-        "fg3m": 1.09,
-        "fg3a": 2.64,
-        "fg3_pct": 0.414
+        "efg_pct": 0.625,
+        "fg3m": 1.25,
+        "fg3a": 2.83,
+        "fg3_pct": 0.441
       },
       "contested": {
-        "fgm": 2.63,
-        "fga": 4.91,
-        "fg_pct": 0.5356,
-        "efg_pct": 0.5448,
-        "fg3m": 0.09,
-        "fg3a": 0.36,
-        "fg3_pct": 0.25
+        "fgm": 2.58,
+        "fga": 4.75,
+        "fg_pct": 0.5432,
+        "efg_pct": 0.5611,
+        "fg3m": 0.17,
+        "fg3a": 0.5,
+        "fg3_pct": 0.34
       },
       "uncontested": {
-        "fgm": 3.73,
-        "fga": 9.09,
-        "fg_pct": 0.4103,
-        "efg_pct": 0.5902,
-        "fg3m": 3.27,
-        "fg3a": 8.18,
-        "fg3_pct": 0.3998
+        "fgm": 3.92,
+        "fga": 9.25,
+        "fg_pct": 0.4238,
+        "efg_pct": 0.6086,
+        "fg3m": 3.42,
+        "fg3a": 8.17,
+        "fg3_pct": 0.4186
       }
     },
     {
       "id": 1642889,
       "name": "Labaron Philon Jr.",
       "team": "PHI",
-      "gp": 7,
+      "gp": 8,
       "cs": {
-        "fgm": 0.57,
-        "fga": 1.29,
-        "fg_pct": 0.444,
-        "efg_pct": 0.556,
-        "fg3m": 0.29,
-        "fg3a": 1.0,
+        "fgm": 0.5,
+        "fga": 1.25,
+        "fg_pct": 0.4,
+        "efg_pct": 0.5,
+        "fg3m": 0.25,
+        "fg3a": 0.88,
         "fg3_pct": 0.286
       },
       "pullup": {
-        "fgm": 0.14,
-        "fga": 0.57,
+        "fgm": 0.13,
+        "fga": 0.5,
         "fg_pct": 0.25,
         "efg_pct": 0.25,
         "fg3m": 0.0,
@@ -11684,22 +11734,22 @@
         "fg3_pct": null
       },
       "contested": {
-        "fgm": 0.43,
-        "fga": 1.28,
-        "fg_pct": 0.3359,
-        "efg_pct": 0.3359,
+        "fgm": 0.38,
+        "fga": 1.26,
+        "fg_pct": 0.3016,
+        "efg_pct": 0.3016,
         "fg3m": 0.0,
-        "fg3a": 0.14,
+        "fg3a": 0.13,
         "fg3_pct": 0.0
       },
       "uncontested": {
-        "fgm": 0.43,
-        "fga": 1.15,
-        "fg_pct": 0.3739,
-        "efg_pct": 0.4957,
-        "fg3m": 0.28,
-        "fg3a": 1.0,
-        "fg3_pct": 0.28
+        "fgm": 0.38,
+        "fga": 1.0,
+        "fg_pct": 0.38,
+        "efg_pct": 0.51,
+        "fg3m": 0.26,
+        "fg3a": 0.88,
+        "fg3_pct": 0.2955
       }
     },
     {
@@ -12126,42 +12176,42 @@
       "id": 1628379,
       "name": "Luke Kennard",
       "team": "PHX",
-      "gp": 9,
+      "gp": 10,
       "cs": {
-        "fgm": 2.0,
+        "fgm": 1.8,
         "fga": 4.0,
-        "fg_pct": 0.5,
-        "efg_pct": 0.722,
-        "fg3m": 1.78,
-        "fg3a": 3.67,
-        "fg3_pct": 0.485
+        "fg_pct": 0.45,
+        "efg_pct": 0.65,
+        "fg3m": 1.6,
+        "fg3a": 3.7,
+        "fg3_pct": 0.432
       },
       "pullup": {
-        "fgm": 0.78,
-        "fga": 1.22,
-        "fg_pct": 0.636,
-        "efg_pct": 0.773,
-        "fg3m": 0.33,
-        "fg3a": 0.67,
-        "fg3_pct": 0.5
+        "fgm": 1.1,
+        "fga": 1.6,
+        "fg_pct": 0.688,
+        "efg_pct": 0.781,
+        "fg3m": 0.3,
+        "fg3a": 0.7,
+        "fg3_pct": 0.429
       },
       "contested": {
-        "fgm": 0.33,
-        "fga": 0.67,
-        "fg_pct": 0.4925,
-        "efg_pct": 0.5746,
-        "fg3m": 0.11,
-        "fg3a": 0.33,
-        "fg3_pct": 0.3333
+        "fgm": 0.3,
+        "fga": 0.7,
+        "fg_pct": 0.4286,
+        "efg_pct": 0.5,
+        "fg3m": 0.1,
+        "fg3a": 0.4,
+        "fg3_pct": 0.25
       },
       "uncontested": {
-        "fgm": 2.44,
-        "fga": 4.56,
-        "fg_pct": 0.5351,
-        "efg_pct": 0.7544,
-        "fg3m": 2.0,
+        "fgm": 2.6,
+        "fga": 4.9,
+        "fg_pct": 0.5306,
+        "efg_pct": 0.7143,
+        "fg3m": 1.8,
         "fg3a": 4.0,
-        "fg3_pct": 0.5
+        "fg3_pct": 0.45
       }
     },
     {
@@ -12204,6 +12254,32 @@
         "fg3m": 0.0,
         "fg3a": 0.0,
         "fg3_pct": null
+      }
+    },
+    {
+      "id": 1641869,
+      "name": "Malachi Smith",
+      "team": "TOR",
+      "gp": 2,
+      "cs": {
+        "fgm": 0.0,
+        "fga": 0.5,
+        "fg_pct": 0.0,
+        "efg_pct": 0.0,
+        "fg3m": 0.0,
+        "fg3a": 0.5,
+        "fg3_pct": 0.0
+      },
+      "pullup": {},
+      "contested": {},
+      "uncontested": {
+        "fgm": 0.0,
+        "fga": 0.5,
+        "fg_pct": 0.0,
+        "efg_pct": 0.0,
+        "fg3m": 0.0,
+        "fg3a": 0.5,
+        "fg3_pct": 0.0
       }
     },
     {
@@ -12294,42 +12370,42 @@
       "id": 1631204,
       "name": "Marcus Sasser",
       "team": "DAL",
-      "gp": 9,
+      "gp": 10,
       "cs": {
-        "fgm": 1.11,
-        "fga": 2.89,
-        "fg_pct": 0.385,
-        "efg_pct": 0.5,
-        "fg3m": 0.67,
-        "fg3a": 2.0,
-        "fg3_pct": 0.333
+        "fgm": 1.1,
+        "fga": 3.0,
+        "fg_pct": 0.367,
+        "efg_pct": 0.467,
+        "fg3m": 0.6,
+        "fg3a": 2.1,
+        "fg3_pct": 0.286
       },
       "pullup": {
-        "fgm": 1.11,
-        "fga": 1.67,
-        "fg_pct": 0.667,
-        "efg_pct": 0.767,
-        "fg3m": 0.33,
-        "fg3a": 0.56,
-        "fg3_pct": 0.6
+        "fgm": 1.0,
+        "fga": 1.6,
+        "fg_pct": 0.625,
+        "efg_pct": 0.719,
+        "fg3m": 0.3,
+        "fg3a": 0.6,
+        "fg3_pct": 0.5
       },
       "contested": {
-        "fgm": 0.77,
-        "fga": 1.56,
-        "fg_pct": 0.4936,
-        "efg_pct": 0.4936,
+        "fgm": 0.7,
+        "fga": 1.4,
+        "fg_pct": 0.5,
+        "efg_pct": 0.5,
         "fg3m": 0.0,
-        "fg3a": 0.11,
+        "fg3a": 0.1,
         "fg3_pct": 0.0
       },
       "uncontested": {
-        "fgm": 1.33,
-        "fga": 2.77,
-        "fg_pct": 0.4801,
-        "efg_pct": 0.6606,
-        "fg3m": 1.0,
-        "fg3a": 2.22,
-        "fg3_pct": 0.4505
+        "fgm": 1.2,
+        "fga": 2.9,
+        "fg_pct": 0.4138,
+        "efg_pct": 0.569,
+        "fg3m": 0.9,
+        "fg3a": 2.4,
+        "fg3_pct": 0.375
       }
     },
     {
@@ -12546,42 +12622,42 @@
       "id": 1631108,
       "name": "Max Christie",
       "team": "DAL",
-      "gp": 10,
+      "gp": 11,
       "cs": {
-        "fgm": 1.4,
-        "fga": 4.0,
-        "fg_pct": 0.35,
-        "efg_pct": 0.45,
-        "fg3m": 0.8,
-        "fg3a": 3.2,
-        "fg3_pct": 0.25
+        "fgm": 1.36,
+        "fga": 3.82,
+        "fg_pct": 0.357,
+        "efg_pct": 0.464,
+        "fg3m": 0.82,
+        "fg3a": 3.09,
+        "fg3_pct": 0.265
       },
       "pullup": {
-        "fgm": 0.4,
-        "fga": 1.8,
+        "fgm": 0.36,
+        "fga": 1.64,
         "fg_pct": 0.222,
         "efg_pct": 0.25,
-        "fg3m": 0.1,
-        "fg3a": 0.8,
+        "fg3m": 0.09,
+        "fg3a": 0.73,
         "fg3_pct": 0.125
       },
       "contested": {
-        "fgm": 0.7,
-        "fga": 1.6,
-        "fg_pct": 0.4375,
-        "efg_pct": 0.5,
-        "fg3m": 0.2,
-        "fg3a": 0.3,
+        "fgm": 0.63,
+        "fga": 1.45,
+        "fg_pct": 0.4345,
+        "efg_pct": 0.4966,
+        "fg3m": 0.18,
+        "fg3a": 0.27,
         "fg3_pct": 0.6667
       },
       "uncontested": {
-        "fgm": 1.3,
-        "fga": 4.5,
-        "fg_pct": 0.2889,
-        "efg_pct": 0.3889,
-        "fg3m": 0.9,
-        "fg3a": 3.9,
-        "fg3_pct": 0.2308
+        "fgm": 1.27,
+        "fga": 4.28,
+        "fg_pct": 0.2967,
+        "efg_pct": 0.403,
+        "fg3m": 0.91,
+        "fg3a": 3.72,
+        "fg3_pct": 0.2446
       }
     },
     {
@@ -12908,42 +12984,42 @@
       "id": 1628970,
       "name": "Miles Bridges",
       "team": "PHX",
-      "gp": 10,
+      "gp": 11,
       "cs": {
-        "fgm": 2.8,
-        "fga": 6.9,
-        "fg_pct": 0.406,
-        "efg_pct": 0.486,
-        "fg3m": 1.1,
-        "fg3a": 4.3,
-        "fg3_pct": 0.256
+        "fgm": 2.82,
+        "fga": 6.91,
+        "fg_pct": 0.408,
+        "efg_pct": 0.48,
+        "fg3m": 1.0,
+        "fg3a": 4.27,
+        "fg3_pct": 0.234
       },
       "pullup": {
-        "fgm": 2.6,
-        "fga": 4.8,
-        "fg_pct": 0.542,
-        "efg_pct": 0.615,
-        "fg3m": 0.7,
-        "fg3a": 1.4,
+        "fgm": 2.36,
+        "fga": 4.55,
+        "fg_pct": 0.52,
+        "efg_pct": 0.59,
+        "fg3m": 0.64,
+        "fg3a": 1.27,
         "fg3_pct": 0.5
       },
       "contested": {
-        "fgm": 3.1,
-        "fga": 5.3,
-        "fg_pct": 0.5849,
-        "efg_pct": 0.6132,
-        "fg3m": 0.3,
-        "fg3a": 0.7,
+        "fgm": 2.82,
+        "fga": 4.9,
+        "fg_pct": 0.5755,
+        "efg_pct": 0.6031,
+        "fg3m": 0.27,
+        "fg3a": 0.63,
         "fg3_pct": 0.4286
       },
       "uncontested": {
-        "fgm": 2.5,
-        "fga": 6.7,
-        "fg_pct": 0.3731,
-        "efg_pct": 0.4925,
-        "fg3m": 1.6,
-        "fg3a": 5.0,
-        "fg3_pct": 0.32
+        "fgm": 2.54,
+        "fga": 6.82,
+        "fg_pct": 0.3724,
+        "efg_pct": 0.4795,
+        "fg3m": 1.46,
+        "fg3a": 4.91,
+        "fg3_pct": 0.2974
       }
     },
     {
@@ -13110,42 +13186,42 @@
       "id": 1643516,
       "name": "Morez Johnson Jr.",
       "team": "DAL",
-      "gp": 10,
+      "gp": 11,
       "cs": {
-        "fgm": 2.1,
-        "fga": 3.7,
-        "fg_pct": 0.568,
-        "efg_pct": 0.595,
-        "fg3m": 0.2,
-        "fg3a": 0.9,
-        "fg3_pct": 0.222
+        "fgm": 1.91,
+        "fga": 3.55,
+        "fg_pct": 0.538,
+        "efg_pct": 0.564,
+        "fg3m": 0.18,
+        "fg3a": 0.91,
+        "fg3_pct": 0.2
       },
       "pullup": {
-        "fgm": 0.6,
-        "fga": 1.5,
-        "fg_pct": 0.4,
-        "efg_pct": 0.4,
+        "fgm": 0.55,
+        "fga": 1.55,
+        "fg_pct": 0.353,
+        "efg_pct": 0.353,
         "fg3m": 0.0,
         "fg3a": 0.0,
         "fg3_pct": null
       },
       "contested": {
-        "fgm": 1.4,
-        "fga": 3.1,
-        "fg_pct": 0.4516,
-        "efg_pct": 0.4516,
+        "fgm": 1.27,
+        "fga": 3.0,
+        "fg_pct": 0.4233,
+        "efg_pct": 0.4233,
         "fg3m": 0.0,
-        "fg3a": 0.1,
+        "fg3a": 0.09,
         "fg3_pct": 0.0
       },
       "uncontested": {
-        "fgm": 1.4,
-        "fga": 2.2,
-        "fg_pct": 0.6364,
-        "efg_pct": 0.6818,
-        "fg3m": 0.2,
-        "fg3a": 0.7,
-        "fg3_pct": 0.2857
+        "fgm": 1.27,
+        "fga": 2.18,
+        "fg_pct": 0.5826,
+        "efg_pct": 0.6239,
+        "fg3m": 0.18,
+        "fg3a": 0.73,
+        "fg3_pct": 0.2466
       }
     },
     {
@@ -13194,19 +13270,19 @@
       "id": 1630619,
       "name": "Moussa Ciss\u00e9",
       "team": "DAL",
-      "gp": 7,
+      "gp": 8,
       "cs": {
-        "fgm": 0.57,
-        "fga": 0.57,
-        "fg_pct": 1.0,
-        "efg_pct": 1.0,
+        "fgm": 0.5,
+        "fga": 0.63,
+        "fg_pct": 0.8,
+        "efg_pct": 0.8,
         "fg3m": 0.0,
         "fg3a": 0.0,
         "fg3_pct": null
       },
       "pullup": {
         "fgm": 0.0,
-        "fga": 0.14,
+        "fga": 0.13,
         "fg_pct": 0.0,
         "efg_pct": 0.0,
         "fg3m": 0.0,
@@ -13214,10 +13290,10 @@
         "fg3_pct": null
       },
       "contested": {
-        "fgm": 0.58,
-        "fga": 0.72,
-        "fg_pct": 0.8056,
-        "efg_pct": 0.8056,
+        "fgm": 0.5,
+        "fga": 0.76,
+        "fg_pct": 0.6579,
+        "efg_pct": 0.6579,
         "fg3m": 0.0,
         "fg3a": 0.0,
         "fg3_pct": null
@@ -13228,39 +13304,39 @@
       "id": 1631217,
       "name": "Moussa Diabat\u00e9",
       "team": "CHA",
-      "gp": 9,
+      "gp": 10,
       "cs": {
-        "fgm": 3.33,
-        "fga": 5.0,
-        "fg_pct": 0.667,
-        "efg_pct": 0.667,
+        "fgm": 3.3,
+        "fga": 5.1,
+        "fg_pct": 0.647,
+        "efg_pct": 0.647,
         "fg3m": 0.0,
         "fg3a": 0.0,
         "fg3_pct": null
       },
       "pullup": {
-        "fgm": 0.33,
-        "fga": 0.78,
-        "fg_pct": 0.429,
-        "efg_pct": 0.429,
+        "fgm": 0.3,
+        "fga": 0.8,
+        "fg_pct": 0.375,
+        "efg_pct": 0.375,
         "fg3m": 0.0,
         "fg3a": 0.0,
         "fg3_pct": null
       },
       "contested": {
-        "fgm": 2.78,
-        "fga": 4.56,
-        "fg_pct": 0.6096,
-        "efg_pct": 0.6096,
+        "fgm": 2.5,
+        "fga": 4.4,
+        "fg_pct": 0.5682,
+        "efg_pct": 0.5682,
         "fg3m": 0.0,
         "fg3a": 0.0,
         "fg3_pct": null
       },
       "uncontested": {
-        "fgm": 0.78,
-        "fga": 1.11,
-        "fg_pct": 0.7027,
-        "efg_pct": 0.7027,
+        "fgm": 1.0,
+        "fga": 1.4,
+        "fg_pct": 0.7143,
+        "efg_pct": 0.7143,
         "fg3m": 0.0,
         "fg3a": 0.0,
         "fg3_pct": null
@@ -13346,42 +13422,42 @@
       "id": 1630230,
       "name": "Naji Marshall",
       "team": "DAL",
-      "gp": 8,
+      "gp": 9,
       "cs": {
-        "fgm": 1.75,
-        "fga": 3.88,
-        "fg_pct": 0.452,
-        "efg_pct": 0.548,
-        "fg3m": 0.75,
-        "fg3a": 2.38,
-        "fg3_pct": 0.316
+        "fgm": 1.67,
+        "fga": 3.89,
+        "fg_pct": 0.429,
+        "efg_pct": 0.529,
+        "fg3m": 0.78,
+        "fg3a": 2.44,
+        "fg3_pct": 0.318
       },
       "pullup": {
-        "fgm": 2.0,
-        "fga": 3.88,
-        "fg_pct": 0.516,
-        "efg_pct": 0.532,
-        "fg3m": 0.13,
-        "fg3a": 0.5,
-        "fg3_pct": 0.25
+        "fgm": 2.11,
+        "fga": 4.11,
+        "fg_pct": 0.514,
+        "efg_pct": 0.527,
+        "fg3m": 0.11,
+        "fg3a": 0.56,
+        "fg3_pct": 0.2
       },
       "contested": {
-        "fgm": 3.13,
-        "fga": 5.25,
-        "fg_pct": 0.5962,
-        "efg_pct": 0.5962,
-        "fg3m": 0.0,
-        "fg3a": 0.25,
-        "fg3_pct": 0.0
+        "fgm": 3.12,
+        "fga": 5.22,
+        "fg_pct": 0.5977,
+        "efg_pct": 0.6082,
+        "fg3m": 0.11,
+        "fg3a": 0.33,
+        "fg3_pct": 0.3333
       },
       "uncontested": {
-        "fgm": 1.5,
-        "fga": 4.25,
-        "fg_pct": 0.3529,
-        "efg_pct": 0.4565,
-        "fg3m": 0.88,
-        "fg3a": 2.75,
-        "fg3_pct": 0.32
+        "fgm": 1.44,
+        "fga": 4.34,
+        "fg_pct": 0.3318,
+        "efg_pct": 0.4205,
+        "fg3m": 0.77,
+        "fg3a": 2.78,
+        "fg3_pct": 0.277
       }
     },
     {
@@ -13430,42 +13506,42 @@
       "id": 1629675,
       "name": "Naz Reid",
       "team": "CHA",
-      "gp": 11,
+      "gp": 12,
       "cs": {
-        "fgm": 3.0,
-        "fga": 7.64,
-        "fg_pct": 0.393,
-        "efg_pct": 0.524,
-        "fg3m": 2.0,
-        "fg3a": 5.45,
-        "fg3_pct": 0.367
+        "fgm": 2.83,
+        "fga": 7.42,
+        "fg_pct": 0.382,
+        "efg_pct": 0.511,
+        "fg3m": 1.92,
+        "fg3a": 5.33,
+        "fg3_pct": 0.359
       },
       "pullup": {
-        "fgm": 3.0,
-        "fga": 7.55,
-        "fg_pct": 0.398,
-        "efg_pct": 0.428,
-        "fg3m": 0.45,
-        "fg3a": 1.27,
-        "fg3_pct": 0.357
+        "fgm": 3.17,
+        "fga": 7.83,
+        "fg_pct": 0.404,
+        "efg_pct": 0.431,
+        "fg3m": 0.42,
+        "fg3a": 1.25,
+        "fg3_pct": 0.333
       },
       "contested": {
-        "fgm": 3.18,
-        "fga": 8.0,
-        "fg_pct": 0.3975,
-        "efg_pct": 0.4087,
-        "fg3m": 0.18,
-        "fg3a": 0.55,
-        "fg3_pct": 0.3273
+        "fgm": 3.34,
+        "fga": 8.42,
+        "fg_pct": 0.3967,
+        "efg_pct": 0.4068,
+        "fg3m": 0.17,
+        "fg3a": 0.58,
+        "fg3_pct": 0.2931
       },
       "uncontested": {
-        "fgm": 3.54,
-        "fga": 8.18,
-        "fg_pct": 0.4328,
-        "efg_pct": 0.5715,
-        "fg3m": 2.27,
-        "fg3a": 6.18,
-        "fg3_pct": 0.3673
+        "fgm": 3.33,
+        "fga": 7.92,
+        "fg_pct": 0.4205,
+        "efg_pct": 0.5574,
+        "fg3m": 2.17,
+        "fg3a": 6.0,
+        "fg3_pct": 0.3617
       }
     },
     {
@@ -14238,19 +14314,19 @@
       "id": 1642345,
       "name": "Oso Ighodaro",
       "team": "PHX",
-      "gp": 8,
+      "gp": 9,
       "cs": {
-        "fgm": 2.5,
-        "fga": 4.13,
-        "fg_pct": 0.606,
-        "efg_pct": 0.606,
+        "fgm": 2.33,
+        "fga": 3.89,
+        "fg_pct": 0.6,
+        "efg_pct": 0.6,
         "fg3m": 0.0,
         "fg3a": 0.0,
         "fg3_pct": null
       },
       "pullup": {
-        "fgm": 0.38,
-        "fga": 0.88,
+        "fgm": 0.33,
+        "fga": 0.78,
         "fg_pct": 0.429,
         "efg_pct": 0.429,
         "fg3m": 0.0,
@@ -14258,19 +14334,19 @@
         "fg3_pct": null
       },
       "contested": {
-        "fgm": 1.5,
-        "fga": 3.0,
-        "fg_pct": 0.5,
-        "efg_pct": 0.5,
+        "fgm": 1.34,
+        "fga": 2.78,
+        "fg_pct": 0.482,
+        "efg_pct": 0.482,
         "fg3m": 0.0,
         "fg3a": 0.0,
         "fg3_pct": null
       },
       "uncontested": {
-        "fgm": 1.25,
-        "fga": 1.88,
-        "fg_pct": 0.6649,
-        "efg_pct": 0.6649,
+        "fgm": 1.22,
+        "fga": 1.78,
+        "fg_pct": 0.6854,
+        "efg_pct": 0.6854,
         "fg3m": 0.0,
         "fg3a": 0.0,
         "fg3_pct": null
@@ -14322,42 +14398,42 @@
       "id": 1629023,
       "name": "P.J. Washington",
       "team": "DAL",
-      "gp": 11,
+      "gp": 12,
       "cs": {
-        "fgm": 3.55,
-        "fga": 8.18,
-        "fg_pct": 0.433,
-        "efg_pct": 0.572,
-        "fg3m": 2.27,
-        "fg3a": 6.09,
-        "fg3_pct": 0.373
+        "fgm": 3.42,
+        "fga": 7.92,
+        "fg_pct": 0.432,
+        "efg_pct": 0.568,
+        "fg3m": 2.17,
+        "fg3a": 5.92,
+        "fg3_pct": 0.366
       },
       "pullup": {
-        "fgm": 1.0,
-        "fga": 3.09,
-        "fg_pct": 0.324,
-        "efg_pct": 0.338,
-        "fg3m": 0.09,
-        "fg3a": 0.45,
+        "fgm": 1.08,
+        "fga": 3.0,
+        "fg_pct": 0.361,
+        "efg_pct": 0.375,
+        "fg3m": 0.08,
+        "fg3a": 0.42,
         "fg3_pct": 0.2
       },
       "contested": {
-        "fgm": 1.72,
-        "fga": 4.36,
-        "fg_pct": 0.3945,
-        "efg_pct": 0.4151,
-        "fg3m": 0.18,
-        "fg3a": 0.82,
-        "fg3_pct": 0.2195
+        "fgm": 1.83,
+        "fga": 4.25,
+        "fg_pct": 0.4306,
+        "efg_pct": 0.4506,
+        "fg3m": 0.17,
+        "fg3a": 0.75,
+        "fg3_pct": 0.2267
       },
       "uncontested": {
-        "fgm": 2.91,
-        "fga": 7.0,
-        "fg_pct": 0.4157,
-        "efg_pct": 0.5714,
-        "fg3m": 2.18,
-        "fg3a": 5.82,
-        "fg3_pct": 0.3746
+        "fgm": 2.75,
+        "fga": 6.75,
+        "fg_pct": 0.4074,
+        "efg_pct": 0.5622,
+        "fg3m": 2.09,
+        "fg3a": 5.66,
+        "fg3_pct": 0.3693
       }
     },
     {
@@ -14650,42 +14726,42 @@
       "id": 1630194,
       "name": "Paul Reed",
       "team": "DET",
-      "gp": 10,
+      "gp": 11,
       "cs": {
-        "fgm": 3.5,
-        "fga": 5.7,
-        "fg_pct": 0.614,
-        "efg_pct": 0.658,
-        "fg3m": 0.5,
-        "fg3a": 0.8,
-        "fg3_pct": 0.625
+        "fgm": 3.64,
+        "fga": 5.82,
+        "fg_pct": 0.625,
+        "efg_pct": 0.664,
+        "fg3m": 0.45,
+        "fg3a": 0.82,
+        "fg3_pct": 0.556
       },
       "pullup": {
-        "fgm": 1.1,
-        "fga": 2.6,
-        "fg_pct": 0.423,
-        "efg_pct": 0.423,
+        "fgm": 1.0,
+        "fga": 2.55,
+        "fg_pct": 0.393,
+        "efg_pct": 0.393,
         "fg3m": 0.0,
         "fg3a": 0.0,
         "fg3_pct": null
       },
       "contested": {
-        "fgm": 2.6,
-        "fga": 5.0,
-        "fg_pct": 0.52,
-        "efg_pct": 0.52,
+        "fgm": 2.73,
+        "fga": 5.1,
+        "fg_pct": 0.5353,
+        "efg_pct": 0.5353,
         "fg3m": 0.0,
         "fg3a": 0.0,
         "fg3_pct": null
       },
       "uncontested": {
-        "fgm": 2.2,
-        "fga": 3.5,
-        "fg_pct": 0.6286,
-        "efg_pct": 0.7,
-        "fg3m": 0.5,
-        "fg3a": 0.8,
-        "fg3_pct": 0.625
+        "fgm": 2.09,
+        "fga": 3.45,
+        "fg_pct": 0.6058,
+        "efg_pct": 0.671,
+        "fg3m": 0.45,
+        "fg3a": 0.82,
+        "fg3_pct": 0.5488
       }
     },
     {
@@ -15012,42 +15088,42 @@
       "id": 1629628,
       "name": "RJ Barrett",
       "team": "TOR",
-      "gp": 11,
+      "gp": 12,
       "cs": {
-        "fgm": 3.55,
-        "fga": 8.09,
-        "fg_pct": 0.438,
-        "efg_pct": 0.517,
-        "fg3m": 1.27,
-        "fg3a": 4.36,
-        "fg3_pct": 0.292
+        "fgm": 3.75,
+        "fga": 8.25,
+        "fg_pct": 0.455,
+        "efg_pct": 0.545,
+        "fg3m": 1.5,
+        "fg3a": 4.58,
+        "fg3_pct": 0.327
       },
       "pullup": {
-        "fgm": 2.82,
-        "fga": 6.64,
-        "fg_pct": 0.425,
-        "efg_pct": 0.432,
-        "fg3m": 0.09,
-        "fg3a": 0.55,
+        "fgm": 2.75,
+        "fga": 6.42,
+        "fg_pct": 0.429,
+        "efg_pct": 0.435,
+        "fg3m": 0.08,
+        "fg3a": 0.5,
         "fg3_pct": 0.167
       },
       "contested": {
-        "fgm": 4.73,
-        "fga": 9.36,
-        "fg_pct": 0.5053,
-        "efg_pct": 0.5101,
-        "fg3m": 0.09,
-        "fg3a": 0.27,
-        "fg3_pct": 0.3333
+        "fgm": 4.83,
+        "fga": 9.17,
+        "fg_pct": 0.5267,
+        "efg_pct": 0.5311,
+        "fg3m": 0.08,
+        "fg3a": 0.25,
+        "fg3_pct": 0.32
       },
       "uncontested": {
-        "fgm": 2.82,
-        "fga": 7.36,
-        "fg_pct": 0.3832,
-        "efg_pct": 0.4694,
-        "fg3m": 1.27,
-        "fg3a": 4.73,
-        "fg3_pct": 0.2685
+        "fgm": 3.17,
+        "fga": 7.75,
+        "fg_pct": 0.409,
+        "efg_pct": 0.5058,
+        "fg3m": 1.5,
+        "fg3a": 4.91,
+        "fg3_pct": 0.3055
       }
     },
     {
@@ -15324,125 +15400,125 @@
       "id": 1641842,
       "name": "Ronald Holland II",
       "team": "DET",
-      "gp": 10,
+      "gp": 11,
       "cs": {
-        "fgm": 1.5,
-        "fga": 3.6,
-        "fg_pct": 0.417,
-        "efg_pct": 0.514,
-        "fg3m": 0.7,
-        "fg3a": 2.3,
-        "fg3_pct": 0.304
+        "fgm": 1.45,
+        "fga": 3.64,
+        "fg_pct": 0.4,
+        "efg_pct": 0.488,
+        "fg3m": 0.64,
+        "fg3a": 2.27,
+        "fg3_pct": 0.28
       },
       "pullup": {
-        "fgm": 0.3,
-        "fga": 1.2,
-        "fg_pct": 0.25,
-        "efg_pct": 0.25,
+        "fgm": 0.27,
+        "fga": 1.27,
+        "fg_pct": 0.214,
+        "efg_pct": 0.214,
         "fg3m": 0.0,
         "fg3a": 0.0,
         "fg3_pct": null
       },
       "contested": {
-        "fgm": 0.9,
-        "fga": 2.2,
-        "fg_pct": 0.4091,
-        "efg_pct": 0.4091,
+        "fgm": 0.82,
+        "fga": 2.36,
+        "fg_pct": 0.3475,
+        "efg_pct": 0.3475,
         "fg3m": 0.0,
-        "fg3a": 0.2,
+        "fg3a": 0.27,
         "fg3_pct": 0.0
       },
       "uncontested": {
-        "fgm": 0.9,
-        "fga": 2.6,
-        "fg_pct": 0.3462,
-        "efg_pct": 0.4808,
-        "fg3m": 0.7,
-        "fg3a": 2.1,
-        "fg3_pct": 0.3333
+        "fgm": 0.91,
+        "fga": 2.55,
+        "fg_pct": 0.3569,
+        "efg_pct": 0.4824,
+        "fg3m": 0.64,
+        "fg3a": 2.0,
+        "fg3_pct": 0.32
       }
     },
     {
       "id": 1626220,
       "name": "Royce O'Neale",
       "team": "CHA",
-      "gp": 11,
+      "gp": 12,
       "cs": {
-        "fgm": 1.45,
-        "fga": 4.18,
-        "fg_pct": 0.348,
-        "efg_pct": 0.489,
-        "fg3m": 1.18,
-        "fg3a": 3.91,
-        "fg3_pct": 0.302
+        "fgm": 1.42,
+        "fga": 4.17,
+        "fg_pct": 0.34,
+        "efg_pct": 0.48,
+        "fg3m": 1.17,
+        "fg3a": 3.92,
+        "fg3_pct": 0.298
       },
       "pullup": {
-        "fgm": 0.18,
-        "fga": 0.64,
+        "fgm": 0.17,
+        "fga": 0.58,
         "fg_pct": 0.286,
         "efg_pct": 0.286,
         "fg3m": 0.0,
-        "fg3a": 0.36,
+        "fg3a": 0.33,
         "fg3_pct": 0.0
       },
       "contested": {
-        "fgm": 0.27,
-        "fga": 0.82,
-        "fg_pct": 0.3293,
-        "efg_pct": 0.3293,
+        "fgm": 0.25,
+        "fga": 0.83,
+        "fg_pct": 0.3012,
+        "efg_pct": 0.3012,
         "fg3m": 0.0,
-        "fg3a": 0.45,
+        "fg3a": 0.5,
         "fg3_pct": 0.0
       },
       "uncontested": {
-        "fgm": 1.36,
-        "fga": 4.0,
-        "fg_pct": 0.34,
-        "efg_pct": 0.4987,
-        "fg3m": 1.27,
-        "fg3a": 3.91,
-        "fg3_pct": 0.3248
+        "fgm": 1.33,
+        "fga": 3.91,
+        "fg_pct": 0.3402,
+        "efg_pct": 0.5,
+        "fg3m": 1.25,
+        "fg3a": 3.83,
+        "fg3_pct": 0.3264
       }
     },
     {
       "id": 203497,
       "name": "Rudy Gobert",
       "team": "MIN",
-      "gp": 10,
+      "gp": 11,
       "cs": {
-        "fgm": 2.6,
-        "fga": 5.3,
-        "fg_pct": 0.491,
-        "efg_pct": 0.491,
+        "fgm": 2.73,
+        "fga": 5.18,
+        "fg_pct": 0.526,
+        "efg_pct": 0.526,
         "fg3m": 0.0,
-        "fg3a": 0.3,
+        "fg3a": 0.27,
         "fg3_pct": 0.0
       },
       "pullup": {
-        "fgm": 0.1,
-        "fga": 0.2,
-        "fg_pct": 0.5,
-        "efg_pct": 0.5,
+        "fgm": 0.09,
+        "fga": 0.27,
+        "fg_pct": 0.333,
+        "efg_pct": 0.333,
         "fg3m": 0.0,
         "fg3a": 0.0,
         "fg3_pct": null
       },
       "contested": {
-        "fgm": 2.2,
-        "fga": 4.0,
-        "fg_pct": 0.55,
-        "efg_pct": 0.55,
+        "fgm": 2.37,
+        "fga": 4.18,
+        "fg_pct": 0.567,
+        "efg_pct": 0.567,
         "fg3m": 0.0,
         "fg3a": 0.0,
         "fg3_pct": null
       },
       "uncontested": {
-        "fgm": 0.5,
-        "fga": 1.3,
-        "fg_pct": 0.3846,
-        "efg_pct": 0.3846,
+        "fgm": 0.45,
+        "fga": 1.19,
+        "fg_pct": 0.3782,
+        "efg_pct": 0.3782,
         "fg3m": 0.0,
-        "fg3a": 0.3,
+        "fg3a": 0.27,
         "fg3_pct": 0.0
       }
     },
@@ -15534,19 +15610,19 @@
       "id": 1642346,
       "name": "Ryan Dunn",
       "team": "PHX",
-      "gp": 10,
+      "gp": 11,
       "cs": {
-        "fgm": 1.9,
-        "fga": 3.9,
-        "fg_pct": 0.487,
-        "efg_pct": 0.603,
-        "fg3m": 0.9,
-        "fg3a": 1.8,
-        "fg3_pct": 0.5
+        "fgm": 1.73,
+        "fga": 3.73,
+        "fg_pct": 0.463,
+        "efg_pct": 0.573,
+        "fg3m": 0.82,
+        "fg3a": 1.73,
+        "fg3_pct": 0.474
       },
       "pullup": {
-        "fgm": 0.3,
-        "fga": 0.5,
+        "fgm": 0.27,
+        "fga": 0.45,
         "fg_pct": 0.6,
         "efg_pct": 0.6,
         "fg3m": 0.0,
@@ -15554,41 +15630,41 @@
         "fg3_pct": null
       },
       "contested": {
-        "fgm": 0.8,
-        "fga": 1.9,
-        "fg_pct": 0.4211,
-        "efg_pct": 0.4474,
-        "fg3m": 0.1,
-        "fg3a": 0.1,
+        "fgm": 0.73,
+        "fga": 1.82,
+        "fg_pct": 0.4011,
+        "efg_pct": 0.4258,
+        "fg3m": 0.09,
+        "fg3a": 0.09,
         "fg3_pct": 1.0
       },
       "uncontested": {
-        "fgm": 1.4,
-        "fga": 2.4,
-        "fg_pct": 0.5833,
-        "efg_pct": 0.75,
-        "fg3m": 0.8,
-        "fg3a": 1.7,
-        "fg3_pct": 0.4706
+        "fgm": 1.27,
+        "fga": 2.28,
+        "fg_pct": 0.557,
+        "efg_pct": 0.7171,
+        "fg3m": 0.73,
+        "fg3a": 1.63,
+        "fg3_pct": 0.4479
       }
     },
     {
       "id": 1641750,
       "name": "Ryan Kalkbrenner",
       "team": "CHA",
-      "gp": 11,
+      "gp": 12,
       "cs": {
-        "fgm": 1.82,
-        "fga": 2.45,
-        "fg_pct": 0.741,
-        "efg_pct": 0.741,
+        "fgm": 1.67,
+        "fga": 2.33,
+        "fg_pct": 0.714,
+        "efg_pct": 0.714,
         "fg3m": 0.0,
         "fg3a": 0.0,
         "fg3_pct": null
       },
       "pullup": {
-        "fgm": 0.09,
-        "fga": 0.18,
+        "fgm": 0.08,
+        "fga": 0.17,
         "fg_pct": 0.5,
         "efg_pct": 0.5,
         "fg3m": 0.0,
@@ -15596,17 +15672,17 @@
         "fg3_pct": null
       },
       "contested": {
-        "fgm": 1.28,
-        "fga": 2.0,
-        "fg_pct": 0.64,
-        "efg_pct": 0.64,
+        "fgm": 1.16,
+        "fga": 1.92,
+        "fg_pct": 0.6042,
+        "efg_pct": 0.6042,
         "fg3m": 0.0,
         "fg3a": 0.0,
         "fg3_pct": null
       },
       "uncontested": {
-        "fgm": 0.55,
-        "fga": 0.55,
+        "fgm": 0.5,
+        "fga": 0.5,
         "fg_pct": 1.0,
         "efg_pct": 1.0,
         "fg3m": 0.0,
@@ -15870,42 +15946,42 @@
       "id": 1630583,
       "name": "Santi Aldama",
       "team": "DAL",
-      "gp": 3,
+      "gp": 4,
       "cs": {
-        "fgm": 3.33,
-        "fga": 5.33,
-        "fg_pct": 0.625,
-        "efg_pct": 0.719,
+        "fgm": 2.75,
+        "fga": 5.0,
+        "fg_pct": 0.55,
+        "efg_pct": 0.65,
         "fg3m": 1.0,
-        "fg3a": 2.67,
-        "fg3_pct": 0.375
+        "fg3a": 2.75,
+        "fg3_pct": 0.364
       },
       "pullup": {
-        "fgm": 0.33,
-        "fga": 1.0,
-        "fg_pct": 0.333,
-        "efg_pct": 0.333,
+        "fgm": 0.25,
+        "fga": 1.25,
+        "fg_pct": 0.2,
+        "efg_pct": 0.2,
         "fg3m": 0.0,
-        "fg3a": 0.0,
-        "fg3_pct": null
+        "fg3a": 0.25,
+        "fg3_pct": 0.0
       },
       "contested": {
-        "fgm": 2.0,
-        "fga": 3.0,
-        "fg_pct": 0.6667,
-        "efg_pct": 0.6667,
+        "fgm": 1.5,
+        "fga": 2.75,
+        "fg_pct": 0.5455,
+        "efg_pct": 0.5455,
         "fg3m": 0.0,
-        "fg3a": 0.33,
+        "fg3a": 0.25,
         "fg3_pct": 0.0
       },
       "uncontested": {
-        "fgm": 1.66,
-        "fga": 3.67,
-        "fg_pct": 0.4523,
-        "efg_pct": 0.5886,
+        "fgm": 1.5,
+        "fga": 3.75,
+        "fg_pct": 0.4,
+        "efg_pct": 0.5333,
         "fg3m": 1.0,
-        "fg3a": 2.66,
-        "fg3_pct": 0.3759
+        "fg3a": 3.0,
+        "fg3_pct": 0.3333
       }
     },
     {
@@ -16206,42 +16282,42 @@
       "id": 1642883,
       "name": "Sion James",
       "team": "CHA",
-      "gp": 11,
+      "gp": 12,
       "cs": {
-        "fgm": 1.55,
-        "fga": 5.27,
-        "fg_pct": 0.293,
-        "efg_pct": 0.414,
-        "fg3m": 1.27,
-        "fg3a": 4.64,
-        "fg3_pct": 0.275
+        "fgm": 1.5,
+        "fga": 5.0,
+        "fg_pct": 0.3,
+        "efg_pct": 0.417,
+        "fg3m": 1.17,
+        "fg3a": 4.33,
+        "fg3_pct": 0.269
       },
       "pullup": {
-        "fgm": 0.45,
-        "fga": 1.0,
-        "fg_pct": 0.455,
-        "efg_pct": 0.455,
+        "fgm": 0.42,
+        "fga": 1.17,
+        "fg_pct": 0.357,
+        "efg_pct": 0.357,
         "fg3m": 0.0,
-        "fg3a": 0.09,
+        "fg3a": 0.17,
         "fg3_pct": 0.0
       },
       "contested": {
-        "fgm": 0.63,
-        "fga": 1.1,
-        "fg_pct": 0.5727,
-        "efg_pct": 0.5727,
+        "fgm": 0.67,
+        "fga": 1.25,
+        "fg_pct": 0.536,
+        "efg_pct": 0.536,
         "fg3m": 0.0,
-        "fg3a": 0.09,
+        "fg3a": 0.08,
         "fg3_pct": 0.0
       },
       "uncontested": {
-        "fgm": 1.55,
-        "fga": 5.27,
-        "fg_pct": 0.2941,
-        "efg_pct": 0.4146,
-        "fg3m": 1.27,
-        "fg3a": 4.63,
-        "fg3_pct": 0.2743
+        "fgm": 1.41,
+        "fga": 4.92,
+        "fg_pct": 0.2866,
+        "efg_pct": 0.4045,
+        "fg3m": 1.16,
+        "fg3a": 4.33,
+        "fg3_pct": 0.2679
       }
     },
     {
@@ -16702,42 +16778,42 @@
       "id": 1630545,
       "name": "Terrence Shannon Jr",
       "team": "MIN",
-      "gp": 8,
+      "gp": 9,
       "cs": {
-        "fgm": 1.75,
-        "fga": 3.63,
-        "fg_pct": 0.483,
-        "efg_pct": 0.672,
-        "fg3m": 1.38,
-        "fg3a": 3.0,
-        "fg3_pct": 0.458
+        "fgm": 1.56,
+        "fga": 3.44,
+        "fg_pct": 0.452,
+        "efg_pct": 0.629,
+        "fg3m": 1.22,
+        "fg3a": 2.78,
+        "fg3_pct": 0.44
       },
       "pullup": {
-        "fgm": 0.63,
-        "fga": 2.63,
-        "fg_pct": 0.238,
-        "efg_pct": 0.262,
-        "fg3m": 0.13,
-        "fg3a": 0.63,
+        "fgm": 0.89,
+        "fga": 3.0,
+        "fg_pct": 0.296,
+        "efg_pct": 0.315,
+        "fg3m": 0.11,
+        "fg3a": 0.56,
         "fg3_pct": 0.2
       },
       "contested": {
-        "fgm": 1.13,
-        "fga": 2.88,
-        "fg_pct": 0.3924,
-        "efg_pct": 0.3924,
+        "fgm": 1.11,
+        "fga": 2.89,
+        "fg_pct": 0.3841,
+        "efg_pct": 0.3841,
         "fg3m": 0.0,
-        "fg3a": 0.13,
+        "fg3a": 0.11,
         "fg3_pct": 0.0
       },
       "uncontested": {
-        "fgm": 2.13,
-        "fga": 5.38,
-        "fg_pct": 0.3959,
-        "efg_pct": 0.5474,
-        "fg3m": 1.63,
-        "fg3a": 4.38,
-        "fg3_pct": 0.3721
+        "fgm": 2.12,
+        "fga": 5.34,
+        "fg_pct": 0.397,
+        "efg_pct": 0.5318,
+        "fg3m": 1.44,
+        "fg3a": 4.0,
+        "fg3_pct": 0.36
       }
     },
     {
@@ -16786,42 +16862,42 @@
       "id": 1642275,
       "name": "Tidjane Sala\u00fcn",
       "team": "CHA",
-      "gp": 10,
+      "gp": 11,
       "cs": {
-        "fgm": 1.7,
-        "fga": 3.9,
-        "fg_pct": 0.436,
-        "efg_pct": 0.603,
-        "fg3m": 1.3,
-        "fg3a": 3.1,
-        "fg3_pct": 0.419
+        "fgm": 1.64,
+        "fga": 3.73,
+        "fg_pct": 0.439,
+        "efg_pct": 0.598,
+        "fg3m": 1.18,
+        "fg3a": 2.91,
+        "fg3_pct": 0.406
       },
       "pullup": {
-        "fgm": 0.6,
-        "fga": 1.1,
-        "fg_pct": 0.545,
-        "efg_pct": 0.591,
-        "fg3m": 0.1,
-        "fg3a": 0.4,
-        "fg3_pct": 0.25
+        "fgm": 0.55,
+        "fga": 1.09,
+        "fg_pct": 0.5,
+        "efg_pct": 0.542,
+        "fg3m": 0.09,
+        "fg3a": 0.45,
+        "fg3_pct": 0.2
       },
       "contested": {
-        "fgm": 0.6,
-        "fga": 1.2,
-        "fg_pct": 0.5,
-        "efg_pct": 0.5417,
-        "fg3m": 0.1,
-        "fg3a": 0.3,
-        "fg3_pct": 0.3333
+        "fgm": 0.63,
+        "fga": 1.28,
+        "fg_pct": 0.4922,
+        "efg_pct": 0.5273,
+        "fg3m": 0.09,
+        "fg3a": 0.36,
+        "fg3_pct": 0.25
       },
       "uncontested": {
-        "fgm": 1.7,
-        "fga": 3.8,
-        "fg_pct": 0.4474,
-        "efg_pct": 0.6184,
-        "fg3m": 1.3,
-        "fg3a": 3.2,
-        "fg3_pct": 0.4062
+        "fgm": 1.55,
+        "fga": 3.55,
+        "fg_pct": 0.4366,
+        "efg_pct": 0.6042,
+        "fg3m": 1.19,
+        "fg3a": 3.0,
+        "fg3_pct": 0.3967
       }
     },
     {
@@ -16904,42 +16980,42 @@
       "id": 1643588,
       "name": "Tobi Lawal",
       "team": "DAL",
-      "gp": 6,
+      "gp": 7,
       "cs": {
-        "fgm": 0.33,
-        "fga": 0.83,
-        "fg_pct": 0.4,
-        "efg_pct": 0.4,
+        "fgm": 0.29,
+        "fga": 1.0,
+        "fg_pct": 0.286,
+        "efg_pct": 0.286,
         "fg3m": 0.0,
-        "fg3a": 0.33,
+        "fg3a": 0.43,
         "fg3_pct": 0.0
       },
       "pullup": {
-        "fgm": 0.17,
-        "fga": 0.17,
+        "fgm": 0.14,
+        "fga": 0.14,
         "fg_pct": 1.0,
         "efg_pct": 1.5,
-        "fg3m": 0.17,
-        "fg3a": 0.17,
+        "fg3m": 0.14,
+        "fg3a": 0.14,
         "fg3_pct": 1.0
       },
       "contested": {
-        "fgm": 0.17,
-        "fga": 0.5,
-        "fg_pct": 0.34,
-        "efg_pct": 0.34,
+        "fgm": 0.14,
+        "fga": 0.57,
+        "fg_pct": 0.2456,
+        "efg_pct": 0.2456,
         "fg3m": 0.0,
-        "fg3a": 0.17,
+        "fg3a": 0.14,
         "fg3_pct": 0.0
       },
       "uncontested": {
-        "fgm": 0.5,
-        "fga": 0.66,
-        "fg_pct": 0.7576,
-        "efg_pct": 0.8864,
-        "fg3m": 0.17,
-        "fg3a": 0.33,
-        "fg3_pct": 0.5152
+        "fgm": 0.43,
+        "fga": 0.72,
+        "fg_pct": 0.5972,
+        "efg_pct": 0.6944,
+        "fg3m": 0.14,
+        "fg3a": 0.43,
+        "fg3_pct": 0.3256
       }
     },
     {
@@ -17056,42 +17132,42 @@
       "id": 1629027,
       "name": "Trae Young",
       "team": "WAS",
-      "gp": 12,
+      "gp": 13,
       "cs": {
-        "fgm": 1.08,
-        "fga": 2.5,
-        "fg_pct": 0.433,
-        "efg_pct": 0.55,
-        "fg3m": 0.58,
-        "fg3a": 1.92,
-        "fg3_pct": 0.304
+        "fgm": 1.23,
+        "fga": 3.0,
+        "fg_pct": 0.41,
+        "efg_pct": 0.526,
+        "fg3m": 0.69,
+        "fg3a": 2.15,
+        "fg3_pct": 0.321
       },
       "pullup": {
-        "fgm": 1.67,
-        "fga": 4.58,
-        "fg_pct": 0.364,
-        "efg_pct": 0.464,
+        "fgm": 1.69,
+        "fga": 4.69,
+        "fg_pct": 0.361,
+        "efg_pct": 0.459,
         "fg3m": 0.92,
-        "fg3a": 2.33,
-        "fg3_pct": 0.393
+        "fg3a": 2.31,
+        "fg3_pct": 0.4
       },
       "contested": {
-        "fgm": 1.58,
-        "fga": 3.59,
-        "fg_pct": 0.4401,
-        "efg_pct": 0.4749,
-        "fg3m": 0.25,
-        "fg3a": 0.75,
-        "fg3_pct": 0.3333
+        "fgm": 1.85,
+        "fga": 4.31,
+        "fg_pct": 0.4292,
+        "efg_pct": 0.4652,
+        "fg3m": 0.31,
+        "fg3a": 0.77,
+        "fg3_pct": 0.4026
       },
       "uncontested": {
-        "fgm": 3.5,
-        "fga": 9.25,
-        "fg_pct": 0.3784,
-        "efg_pct": 0.473,
-        "fg3m": 1.75,
-        "fg3a": 6.0,
-        "fg3_pct": 0.2917
+        "fgm": 3.47,
+        "fga": 9.31,
+        "fg_pct": 0.3727,
+        "efg_pct": 0.4715,
+        "fg3m": 1.84,
+        "fg3a": 6.08,
+        "fg3_pct": 0.3026
       }
     },
     {
@@ -17140,42 +17216,42 @@
       "id": 1642848,
       "name": "Tre Johnson",
       "team": "WAS",
-      "gp": 11,
+      "gp": 12,
       "cs": {
-        "fgm": 1.64,
-        "fga": 5.36,
-        "fg_pct": 0.305,
-        "efg_pct": 0.415,
-        "fg3m": 1.18,
-        "fg3a": 4.09,
-        "fg3_pct": 0.289
+        "fgm": 1.58,
+        "fga": 5.5,
+        "fg_pct": 0.288,
+        "efg_pct": 0.394,
+        "fg3m": 1.17,
+        "fg3a": 4.33,
+        "fg3_pct": 0.269
       },
       "pullup": {
-        "fgm": 1.64,
-        "fga": 3.64,
-        "fg_pct": 0.45,
-        "efg_pct": 0.475,
-        "fg3m": 0.18,
-        "fg3a": 1.0,
-        "fg3_pct": 0.182
+        "fgm": 1.83,
+        "fga": 3.92,
+        "fg_pct": 0.468,
+        "efg_pct": 0.489,
+        "fg3m": 0.17,
+        "fg3a": 1.08,
+        "fg3_pct": 0.154
       },
       "contested": {
-        "fgm": 1.18,
-        "fga": 3.64,
-        "fg_pct": 0.3242,
-        "efg_pct": 0.3365,
-        "fg3m": 0.09,
-        "fg3a": 1.0,
-        "fg3_pct": 0.09
+        "fgm": 1.25,
+        "fga": 3.75,
+        "fg_pct": 0.3333,
+        "efg_pct": 0.344,
+        "fg3m": 0.08,
+        "fg3a": 1.09,
+        "fg3_pct": 0.0734
       },
       "uncontested": {
-        "fgm": 2.19,
-        "fga": 5.91,
-        "fg_pct": 0.3706,
-        "efg_pct": 0.4704,
-        "fg3m": 1.18,
-        "fg3a": 4.09,
-        "fg3_pct": 0.2885
+        "fgm": 2.25,
+        "fga": 6.16,
+        "fg_pct": 0.3653,
+        "efg_pct": 0.4602,
+        "fg3m": 1.17,
+        "fg3a": 4.34,
+        "fg3_pct": 0.2696
       }
     },
     {
@@ -17350,42 +17426,42 @@
       "id": 1626168,
       "name": "Trey Lyles",
       "team": "MIN",
-      "gp": 11,
+      "gp": 12,
       "cs": {
-        "fgm": 1.73,
-        "fga": 4.09,
+        "fgm": 1.58,
+        "fga": 3.75,
         "fg_pct": 0.422,
         "efg_pct": 0.533,
-        "fg3m": 0.91,
-        "fg3a": 3.0,
+        "fg3m": 0.83,
+        "fg3a": 2.75,
         "fg3_pct": 0.303
       },
       "pullup": {
-        "fgm": 0.45,
-        "fga": 0.55,
-        "fg_pct": 0.833,
-        "efg_pct": 0.917,
-        "fg3m": 0.09,
-        "fg3a": 0.09,
+        "fgm": 0.5,
+        "fga": 0.58,
+        "fg_pct": 0.857,
+        "efg_pct": 0.929,
+        "fg3m": 0.08,
+        "fg3a": 0.08,
         "fg3_pct": 1.0
       },
       "contested": {
-        "fgm": 0.91,
-        "fga": 1.54,
-        "fg_pct": 0.5909,
-        "efg_pct": 0.6201,
-        "fg3m": 0.09,
-        "fg3a": 0.54,
-        "fg3_pct": 0.1667
+        "fgm": 0.92,
+        "fga": 1.5,
+        "fg_pct": 0.6133,
+        "efg_pct": 0.64,
+        "fg3m": 0.08,
+        "fg3a": 0.5,
+        "fg3_pct": 0.16
       },
       "uncontested": {
-        "fgm": 1.28,
-        "fga": 2.91,
-        "fg_pct": 0.4399,
-        "efg_pct": 0.5962,
-        "fg3m": 0.91,
-        "fg3a": 2.36,
-        "fg3_pct": 0.3856
+        "fgm": 1.17,
+        "fga": 2.67,
+        "fg_pct": 0.4382,
+        "efg_pct": 0.5936,
+        "fg3m": 0.83,
+        "fg3a": 2.16,
+        "fg3_pct": 0.3843
       }
     },
     {
@@ -17686,42 +17762,42 @@
       "id": 1630178,
       "name": "Tyrese Maxey",
       "team": "PHI",
-      "gp": 12,
+      "gp": 13,
       "cs": {
-        "fgm": 4.17,
-        "fga": 7.42,
-        "fg_pct": 0.562,
-        "efg_pct": 0.669,
-        "fg3m": 1.58,
-        "fg3a": 4.0,
-        "fg3_pct": 0.396
+        "fgm": 3.92,
+        "fga": 7.0,
+        "fg_pct": 0.56,
+        "efg_pct": 0.67,
+        "fg3m": 1.54,
+        "fg3a": 3.85,
+        "fg3_pct": 0.4
       },
       "pullup": {
-        "fgm": 3.42,
-        "fga": 6.75,
-        "fg_pct": 0.506,
-        "efg_pct": 0.556,
-        "fg3m": 0.67,
-        "fg3a": 2.25,
-        "fg3_pct": 0.296
+        "fgm": 3.62,
+        "fga": 6.92,
+        "fg_pct": 0.522,
+        "efg_pct": 0.567,
+        "fg3m": 0.62,
+        "fg3a": 2.23,
+        "fg3_pct": 0.276
       },
       "contested": {
-        "fgm": 3.67,
-        "fga": 7.25,
-        "fg_pct": 0.5062,
-        "efg_pct": 0.5234,
-        "fg3m": 0.25,
-        "fg3a": 0.91,
-        "fg3_pct": 0.2747
+        "fgm": 3.69,
+        "fga": 7.08,
+        "fg_pct": 0.5212,
+        "efg_pct": 0.5374,
+        "fg3m": 0.23,
+        "fg3a": 0.85,
+        "fg3_pct": 0.2706
       },
       "uncontested": {
-        "fgm": 5.16,
-        "fga": 10.83,
-        "fg_pct": 0.4765,
-        "efg_pct": 0.5803,
-        "fg3m": 2.25,
-        "fg3a": 6.16,
-        "fg3_pct": 0.3653
+        "fgm": 5.08,
+        "fga": 10.61,
+        "fg_pct": 0.4788,
+        "efg_pct": 0.5801,
+        "fg3m": 2.15,
+        "fg3a": 6.0,
+        "fg3_pct": 0.3583
       }
     },
     {
@@ -17812,42 +17888,42 @@
       "id": 1642845,
       "name": "VJ Edgecombe",
       "team": "PHI",
-      "gp": 11,
+      "gp": 12,
       "cs": {
-        "fgm": 3.91,
-        "fga": 7.45,
-        "fg_pct": 0.524,
-        "efg_pct": 0.634,
-        "fg3m": 1.64,
-        "fg3a": 4.36,
-        "fg3_pct": 0.375
+        "fgm": 3.67,
+        "fga": 7.08,
+        "fg_pct": 0.518,
+        "efg_pct": 0.629,
+        "fg3m": 1.58,
+        "fg3a": 4.25,
+        "fg3_pct": 0.373
       },
       "pullup": {
-        "fgm": 0.91,
-        "fga": 2.64,
-        "fg_pct": 0.345,
-        "efg_pct": 0.362,
-        "fg3m": 0.09,
-        "fg3a": 0.36,
+        "fgm": 1.25,
+        "fga": 2.92,
+        "fg_pct": 0.429,
+        "efg_pct": 0.443,
+        "fg3m": 0.08,
+        "fg3a": 0.33,
         "fg3_pct": 0.25
       },
       "contested": {
-        "fgm": 2.09,
-        "fga": 5.27,
-        "fg_pct": 0.3966,
-        "efg_pct": 0.4051,
-        "fg3m": 0.09,
-        "fg3a": 0.64,
-        "fg3_pct": 0.1406
+        "fgm": 2.25,
+        "fga": 5.42,
+        "fg_pct": 0.4151,
+        "efg_pct": 0.4225,
+        "fg3m": 0.08,
+        "fg3a": 0.67,
+        "fg3_pct": 0.1194
       },
       "uncontested": {
-        "fgm": 2.91,
-        "fga": 5.91,
-        "fg_pct": 0.4924,
-        "efg_pct": 0.6235,
-        "fg3m": 1.55,
-        "fg3a": 4.09,
-        "fg3_pct": 0.379
+        "fgm": 2.92,
+        "fga": 5.83,
+        "fg_pct": 0.5009,
+        "efg_pct": 0.6295,
+        "fg3m": 1.5,
+        "fg3a": 4.0,
+        "fg3_pct": 0.375
       }
     },
     {
@@ -17980,42 +18056,42 @@
       "id": 1642383,
       "name": "Walter Clayton Jr.",
       "team": "DAL",
-      "gp": 10,
+      "gp": 11,
       "cs": {
-        "fgm": 0.9,
-        "fga": 2.0,
-        "fg_pct": 0.45,
-        "efg_pct": 0.625,
-        "fg3m": 0.7,
-        "fg3a": 1.5,
-        "fg3_pct": 0.467
+        "fgm": 0.82,
+        "fga": 2.09,
+        "fg_pct": 0.391,
+        "efg_pct": 0.543,
+        "fg3m": 0.64,
+        "fg3a": 1.64,
+        "fg3_pct": 0.389
       },
       "pullup": {
-        "fgm": 1.0,
-        "fga": 1.6,
-        "fg_pct": 0.625,
-        "efg_pct": 0.75,
-        "fg3m": 0.4,
-        "fg3a": 0.9,
+        "fgm": 0.91,
+        "fga": 1.64,
+        "fg_pct": 0.556,
+        "efg_pct": 0.667,
+        "fg3m": 0.36,
+        "fg3a": 0.82,
         "fg3_pct": 0.444
       },
       "contested": {
-        "fgm": 0.7,
-        "fga": 1.1,
-        "fg_pct": 0.6364,
-        "efg_pct": 0.6364,
+        "fgm": 0.73,
+        "fga": 1.27,
+        "fg_pct": 0.5748,
+        "efg_pct": 0.5748,
         "fg3m": 0.0,
         "fg3a": 0.0,
         "fg3_pct": null
       },
       "uncontested": {
-        "fgm": 1.8,
-        "fga": 4.1,
-        "fg_pct": 0.439,
-        "efg_pct": 0.5976,
-        "fg3m": 1.3,
-        "fg3a": 3.0,
-        "fg3_pct": 0.4333
+        "fgm": 1.63,
+        "fga": 4.18,
+        "fg_pct": 0.39,
+        "efg_pct": 0.5311,
+        "fg3m": 1.18,
+        "fg3a": 3.18,
+        "fg3_pct": 0.3711
       }
     },
     {
@@ -18106,19 +18182,19 @@
       "id": 1642860,
       "name": "Will Riley",
       "team": "WAS",
-      "gp": 9,
+      "gp": 10,
       "cs": {
-        "fgm": 0.44,
-        "fga": 1.22,
-        "fg_pct": 0.364,
-        "efg_pct": 0.409,
-        "fg3m": 0.11,
-        "fg3a": 0.89,
-        "fg3_pct": 0.125
+        "fgm": 0.5,
+        "fga": 1.2,
+        "fg_pct": 0.417,
+        "efg_pct": 0.5,
+        "fg3m": 0.2,
+        "fg3a": 0.9,
+        "fg3_pct": 0.222
       },
       "pullup": {
-        "fgm": 0.22,
-        "fga": 0.44,
+        "fgm": 0.2,
+        "fga": 0.4,
         "fg_pct": 0.5,
         "efg_pct": 0.5,
         "fg3m": 0.0,
@@ -18127,7 +18203,7 @@
       },
       "contested": {
         "fgm": 0.0,
-        "fga": 0.11,
+        "fga": 0.1,
         "fg_pct": 0.0,
         "efg_pct": 0.0,
         "fg3m": 0.0,
@@ -18135,13 +18211,13 @@
         "fg3_pct": null
       },
       "uncontested": {
-        "fgm": 0.55,
-        "fga": 1.45,
-        "fg_pct": 0.3793,
-        "efg_pct": 0.4172,
-        "fg3m": 0.11,
-        "fg3a": 0.89,
-        "fg3_pct": 0.1236
+        "fgm": 0.6,
+        "fga": 1.4,
+        "fg_pct": 0.4286,
+        "efg_pct": 0.5,
+        "fg3m": 0.2,
+        "fg3a": 0.9,
+        "fg3_pct": 0.2222
       }
     },
     {
@@ -18274,42 +18350,42 @@
       "id": 1642258,
       "name": "Zaccharie Risacher",
       "team": "DAL",
-      "gp": 11,
+      "gp": 12,
       "cs": {
-        "fgm": 1.91,
-        "fga": 5.18,
-        "fg_pct": 0.368,
-        "efg_pct": 0.421,
-        "fg3m": 0.55,
-        "fg3a": 2.91,
-        "fg3_pct": 0.188
+        "fgm": 2.42,
+        "fga": 5.75,
+        "fg_pct": 0.42,
+        "efg_pct": 0.486,
+        "fg3m": 0.75,
+        "fg3a": 3.25,
+        "fg3_pct": 0.231
       },
       "pullup": {
-        "fgm": 0.82,
-        "fga": 1.91,
-        "fg_pct": 0.429,
-        "efg_pct": 0.5,
-        "fg3m": 0.27,
-        "fg3a": 0.36,
-        "fg3_pct": 0.75
+        "fgm": 0.83,
+        "fga": 1.92,
+        "fg_pct": 0.435,
+        "efg_pct": 0.522,
+        "fg3m": 0.33,
+        "fg3a": 0.42,
+        "fg3_pct": 0.8
       },
       "contested": {
-        "fgm": 0.91,
-        "fga": 2.55,
-        "fg_pct": 0.3569,
-        "efg_pct": 0.3569,
+        "fgm": 1.25,
+        "fga": 2.91,
+        "fg_pct": 0.4296,
+        "efg_pct": 0.4296,
         "fg3m": 0.0,
-        "fg3a": 0.36,
+        "fg3a": 0.42,
         "fg3_pct": 0.0
       },
       "uncontested": {
-        "fgm": 1.91,
-        "fga": 4.63,
-        "fg_pct": 0.4125,
-        "efg_pct": 0.5,
-        "fg3m": 0.81,
-        "fg3a": 2.91,
-        "fg3_pct": 0.2784
+        "fgm": 2.08,
+        "fga": 4.83,
+        "fg_pct": 0.4306,
+        "efg_pct": 0.5435,
+        "fg3m": 1.09,
+        "fg3a": 3.25,
+        "fg3_pct": 0.3354
       }
     },
     {
