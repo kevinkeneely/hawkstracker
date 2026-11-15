@@ -224,10 +224,10 @@ function App() {
         <nav className="tabs">
           <NavLink to="/players" className="tab">Player Stats</NavLink>
           <NavLink to="/trends" className="tab">Trends</NavLink>
-          <NavLink to="/lineups" className="tab">Lineups</NavLink>
-          <NavLink to="/leaders" className="tab">Leaders</NavLink>
-          <AdvancedTabLink />
           <NavLink to="/insights" className="tab">Insights</NavLink>
+          <NavLink to="/lineups" className="tab">Lineups</NavLink>
+          <AdvancedTabLink />
+          <NavLink to="/leaders" className="tab">Leaders</NavLink>
           <NavLink to="/standings" className="tab">Standings</NavLink>
         </nav>
       </header>
