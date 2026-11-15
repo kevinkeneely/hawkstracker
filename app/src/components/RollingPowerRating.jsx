@@ -139,8 +139,25 @@ export default function RollingPowerRating() {
     }
   })
 
-  const seasonHigh = Math.max(...chartData.map((d) => d.hawks))
-  const seasonLow = Math.min(...chartData.map((d) => d.hawks))
+  // Only use rows where Hawks have an ELO (defensive: drop any pre-game
+  // snapshots missing the team) — otherwise undefined values can poison
+  // the YAxis domain auto-computation.
+  const hawksOnly = chartData.filter((d) => d.hawks != null && d.median != null)
+  const seasonHigh = Math.max(...hawksOnly.map((d) => d.hawks))
+  const seasonLow = Math.min(...hawksOnly.map((d) => d.hawks))
+
+  // Explicit Y-axis domain + ticks. Round outward to the nearest 25 ELO so
+  // the gridlines sit on readable values (1500, 1525, 1550, ...). Without
+  // explicit ticks, recharts was auto-generating 8-digit garbage labels on
+  // this dataset — this guarantees clean integer output.
+  const allValues = hawksOnly.flatMap((d) => [d.hawks, d.median])
+  const yMinRaw = Math.min(...allValues, BASE_RATING)
+  const yMaxRaw = Math.max(...allValues, BASE_RATING)
+  const yMin = Math.floor((yMinRaw - 20) / 25) * 25
+  const yMax = Math.ceil((yMaxRaw + 20) / 25) * 25
+  const yTickStep = (yMax - yMin) > 150 ? 50 : 25
+  const yTicks = []
+  for (let v = yMin; v <= yMax; v += yTickStep) yTicks.push(v)
 
   // Current top-5 by ELO for context (used in tooltip / league strip V2)
   const topFive = Object.entries(finalRatings)
@@ -193,21 +210,29 @@ export default function RollingPowerRating() {
 
       <div className="rpr-chart" style={{ height: 240 }}>
         <ResponsiveContainer width="100%" height="100%">
-          <LineChart data={chartData} margin={{ top: 8, right: 16, bottom: 8, left: 16 }}>
+          <LineChart data={hawksOnly} margin={{ top: 8, right: 16, bottom: 8, left: 8 }}>
             <CartesianGrid stroke="var(--border)" strokeDasharray="2 3" vertical={false} />
             <XAxis
               dataKey="date"
               tick={{ fontSize: 11, fill: 'var(--text-dim)' }}
               tickFormatter={(d) => {
+                // 2026-11-13 → "Nov 13". More scannable than "11/13"
+                // because month letters anchor the eye.
                 const [, m, day] = d.split('-')
-                return `${+m}/${+day}`
+                const MONTHS = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']
+                return `${MONTHS[+m - 1]} ${+day}`
               }}
-              minTickGap={32}
+              minTickGap={48}
+              tickMargin={6}
             />
             <YAxis
               tick={{ fontSize: 11, fill: 'var(--text-dim)' }}
-              domain={['dataMin - 20', 'dataMax + 20']}
-              width={44}
+              domain={[yMin, yMax]}
+              ticks={yTicks}
+              tickFormatter={(v) => Math.round(v).toLocaleString()}
+              width={56}
+              tickMargin={4}
+              allowDecimals={false}
             />
             <ReferenceLine y={BASE_RATING} stroke="var(--text)" strokeOpacity={0.35} strokeDasharray="3 4"
                            label={{ value: 'Avg', position: 'right', fill: 'var(--text-dim)', fontSize: 10 }} />
