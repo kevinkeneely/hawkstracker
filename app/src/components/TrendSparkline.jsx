@@ -95,10 +95,15 @@ export default function TrendSparkline({
             }}
             cursor={{ stroke: 'var(--border)', strokeWidth: 1 }}
             /* Position the tooltip above the sparkline so it doesn't cover
-               the point being hovered. allowEscapeViewBox lets it render
-               outside the chart's clip area. */
+               the point being hovered. allowEscapeViewBox on the Y axis
+               lets it float up above the chart's own clip area. On the X
+               axis we keep it CONSTRAINED — when it was allowed to escape
+               X, tapping a sparkline point near the right edge of the
+               screen on mobile made the tooltip extend past the viewport,
+               pushing the whole page to scroll horizontally. Users on
+               phones read that as the page being "cropped" / broken. */
             position={{ y: -70 }}
-            allowEscapeViewBox={{ x: true, y: true }}
+            allowEscapeViewBox={{ x: false, y: true }}
             wrapperStyle={{ pointerEvents: 'none', zIndex: 100 }}
           />
         </LineChart>

@@ -3715,11 +3715,10 @@ header {
      Scroll + min-width already set at the default level for all viewports. */
   .trends-players-head,
   .trends-player-row {
-    /* Narrower stat columns + tighter gap on mobile so the viewport reveals
-       more columns at once before the user has to swipe. Full set still
-       scrolls — this just reduces how much scrolling is needed. */
-    grid-template-columns: 96px repeat(12, 108px);
-    gap: 4px;
+    /* Mobile: narrower name column + narrower cells (desktop defaults otherwise).
+       Scroll + min-width already set at the default level for all viewports. */
+    grid-template-columns: 110px repeat(12, 130px);
+    gap: 6px;
   }
 
   .trends-player-name-head,
