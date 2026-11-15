@@ -1,6 +1,6 @@
 import { useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { ScatterChart, Scatter, XAxis, YAxis, CartesianGrid, Tooltip, ReferenceLine, ResponsiveContainer, Cell, LabelList } from 'recharts'
+import { ScatterChart, Scatter, XAxis, YAxis, CartesianGrid, Tooltip, ReferenceLine, ReferenceDot, ResponsiveContainer, Cell, LabelList } from 'recharts'
 
 /**
  * Regression Candidates — flags players whose actual shooting is far from
@@ -361,6 +361,37 @@ function HawksScatter({ hawksRows, leagueAverages }) {
               segment={[{ x: lo, y: lo }, { x: hi, y: hi }]}
               stroke="var(--text)" strokeOpacity={0.3}
               strokeDasharray="4 4"
+            />
+            {/* Zero-radius ReferenceDots act as label anchors inside the two
+                triangles the diagonal creates. Above the line = actual higher
+                than expected = due to regress down. Below the line = actual
+                lower than expected = due to improve up. Labels use a muted
+                color so they read as guidance, not data. */}
+            <ReferenceDot
+              x={lo + 0.30 * (hi - lo)}
+              y={lo + 0.78 * (hi - lo)}
+              r={0}
+              ifOverflow="extendDomain"
+              label={{
+                value: 'Due to regress ↓',
+                fill: 'var(--rank-bad-text)',
+                fontSize: 11,
+                fontWeight: 600,
+                opacity: 0.85,
+              }}
+            />
+            <ReferenceDot
+              x={lo + 0.78 * (hi - lo)}
+              y={lo + 0.22 * (hi - lo)}
+              r={0}
+              ifOverflow="extendDomain"
+              label={{
+                value: 'Due to improve ↑',
+                fill: 'var(--rank-good-text)',
+                fontSize: 11,
+                fontWeight: 600,
+                opacity: 0.85,
+              }}
             />
             <Tooltip
               cursor={{ strokeDasharray: '2 3', stroke: 'var(--border)' }}
