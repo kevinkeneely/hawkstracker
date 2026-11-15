@@ -194,11 +194,16 @@ code {
 /* Player name column also gets a subtle tint so it stands out as the row-
    label column, mirroring the header-row treatment above. Apply to both the
    th (already covered by the rule above) and the td cells. */
+/* Subtle tint behind the Player column. Must layer OVER a solid var(--bg)
+   so the sticky cell stays fully opaque — otherwise the colored stat cells
+   scrolled behind it bleed through. (Dark mode mostly hid this because the
+   5% white tint over dark-bg looks ~identical to just dark bg; light mode
+   made it obvious because red/blue stat cells showed through plainly.) */
 .player-stats td:nth-child(2) {
-  background: rgba(243, 244, 246, 0.05);
+  background: linear-gradient(rgba(243, 244, 246, 0.05), rgba(243, 244, 246, 0.05)), var(--bg);
 }
 :root[data-theme="light"] .player-stats td:nth-child(2) {
-  background: rgba(8, 6, 13, 0.04);
+  background: linear-gradient(rgba(8, 6, 13, 0.04), rgba(8, 6, 13, 0.04)), var(--bg);
 }
 
 /* Rank (#) and Player columns are left-aligned; everything else right. */
