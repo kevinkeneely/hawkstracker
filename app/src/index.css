@@ -652,62 +652,75 @@ code {
 
 /* ---------- Tabs nav ---------- */
 
+/* Tabs bar — darker shade than the page so it reads as its own band.
+   Each tab is a bordered pill rather than an underlined text link. */
 .tabs {
   display: flex;
   justify-content: center;
-  gap: 4px;
-  margin: 24px 0 8px;
-  border-bottom: 1px solid var(--border);
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 24px auto 16px;
+  padding: 6px;
+  background: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  width: fit-content;
+  max-width: 100%;
 }
 
 .tab {
-  padding: 10px 20px;
+  padding: 8px 16px;
   font-size: 14px;
   font-weight: 500;
   color: var(--text);
   text-decoration: none;
-  border-bottom: 2px solid transparent;
-  margin-bottom: -1px;
-  transition: color 0.15s, border-color 0.15s;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 7px;
+  transition: color 0.15s, border-color 0.15s, background 0.15s;
+  white-space: nowrap;
 }
 
 .tab:hover {
   color: var(--text-h);
+  border-color: var(--text);
 }
 
 .tab.active {
   color: var(--text-h);
-  border-bottom-color: #C8102E;
+  background: rgba(200, 16, 46, 0.12);
+  border-color: #C8102E;
 }
 
 /* The "Advanced ▾" nav slot is a native <select> styled to blend with the
-   other .tab items. appearance:none removes the OS chrome; the chevron is
-   baked into the label text so no separate background image is needed. */
+   bordered .tab pills. appearance:none strips the OS chrome; the chevron
+   is baked into the label text so no separate background image is needed. */
 .tab-advanced-dropdown {
-  background: transparent;
-  border: none;
-  border-bottom: 2px solid transparent;
   font: inherit;
   font-size: 14px;
   font-weight: 500;
   color: var(--text);
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 7px;
+  padding: 8px 16px;
   cursor: pointer;
   appearance: none;
   -webkit-appearance: none;
-  padding: 10px 20px;
-  margin-bottom: -1px;
+  transition: color 0.15s, border-color 0.15s, background 0.15s;
 }
 .tab-advanced-dropdown:hover {
   color: var(--text-h);
+  border-color: var(--text);
 }
 .tab-advanced-dropdown.active {
   color: var(--text-h);
-  border-bottom-color: #C8102E;
+  background: rgba(200, 16, 46, 0.12);
+  border-color: #C8102E;
 }
 .tab-advanced-dropdown:focus {
   outline: 2px solid var(--accent, #e03a3e);
   outline-offset: 2px;
-  border-radius: 4px;
 }
 
 /* Placeholder style for the four advanced pages before Step 2 fleshes
@@ -725,10 +738,15 @@ code {
 
 @media (max-width: 640px) {
   .tabs {
-    gap: 0;
+    gap: 4px;
+    padding: 4px;
   }
   .tab {
-    padding: 10px 12px;
+    padding: 7px 12px;
+    font-size: 13px;
+  }
+  .tab-advanced-dropdown {
+    padding: 7px 12px;
     font-size: 13px;
   }
 }
