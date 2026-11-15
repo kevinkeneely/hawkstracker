@@ -4510,6 +4510,34 @@ header {
   max-width: 100%;
 }
 
+/* Top-row pairing on desktop: ELO (70%) + Matchup Preview (30%) side-by-side.
+   Below 900px (tablets, phones) they stack full-width in their natural order.
+   align-items: start so Matchup doesn't stretch to the taller ELO section's
+   height — each card keeps its natural height. */
+.insights-top-row {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  min-width: 0;
+}
+
+@media (min-width: 900px) {
+  .insights-top-row {
+    display: grid;
+    grid-template-columns: 70fr 30fr;
+    align-items: start;
+    gap: 24px;
+  }
+  /* Ensure nested cards shrink properly inside the grid cells — recharts'
+     ResponsiveContainer needs min-width: 0 on an ancestor to compute width
+     correctly when the grid cell is narrower than the chart's intrinsic
+     content. */
+  .insights-top-row > * {
+    min-width: 0;
+  }
+}
+
+
 /* ======================================================================
    Rolling Power Rating (ELO). Header + KPI strip + line chart + footer.
    ====================================================================== */
