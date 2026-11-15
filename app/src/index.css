@@ -3332,6 +3332,21 @@ header {
   gap: 24px;
   max-width: 1200px;
   margin: 0 auto;
+  /* Crucial on mobile: without this, the player table's intrinsic 1670px
+     width (110px + 12 × 130px) propagates up and makes the WHOLE page
+     scroll horizontally, which clips the team card deltas, the page
+     header and everything else off the right edge of the viewport. */
+  min-width: 0;
+  width: 100%;
+}
+
+/* Flex-column default is min-width: auto for children, which equals their
+   intrinsic content width — so a 1670px grid inside .trends-players-scroll
+   overrides its own overflow-x: auto. Setting min-width: 0 on each child
+   lets them shrink below their content width and the scroll contains itself. */
+.trends-page > * {
+  min-width: 0;
+  max-width: 100%;
 }
 
 .trends-empty {
