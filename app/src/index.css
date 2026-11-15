@@ -3984,30 +3984,35 @@ header {
   }
 }
 
-/* Lineups — section toggle (On/Off | 5-Man | later 4/3/2-Man).
-   Larger, more prominent than the min-minutes filter; this is the primary
-   view switcher for the tab. Matches the .leaders-toggle visual weight. */
+/* Lineups — section toggle (On/Off | 5-Man | 4-Man | 3-Man | 2-Man).
+   Matches the Player Stats mode toggle (Per Game / Per 36 / Totals /
+   Advanced) — connected-pill group, active is red-filled. */
 .lineups-section-toggle {
   display: flex;
+  gap: 2px;
   justify-content: center;
-  gap: 4px;
   margin: 0 0 20px;
-  border-bottom: 1px solid var(--border);
-  padding-bottom: 12px;
 }
 
 .lineups-section-btn {
-  padding: 8px 20px;
-  font-size: 14px;
+  padding: 6px 14px;
+  font-size: 13px;
   font-weight: 500;
   color: var(--text);
   background: transparent;
-  border: none;
-  border-bottom: 2px solid transparent;
+  border: 1px solid var(--border);
   cursor: pointer;
   font-family: inherit;
-  transition: color 0.15s, border-color 0.15s;
-  margin-bottom: -13px;  /* overlap the container bottom-border to nest the underline */
+  transition: color 0.15s, border-color 0.15s, background 0.15s;
+}
+
+.lineups-section-btn:first-child {
+  border-radius: 6px 0 0 6px;
+}
+
+.lineups-section-btn:last-child {
+  border-radius: 0 6px 6px 0;
+  border-left: none;
 }
 
 .lineups-section-btn:hover {
@@ -4015,8 +4020,9 @@ header {
 }
 
 .lineups-section-btn.active {
-  color: var(--text-h);
-  border-bottom-color: #C8102E;
+  color: #fff;
+  background: #C8102E;
+  border-color: #C8102E;
 }
 
 /* Advanced section nav — Shooting / Defense / Playmaking / Hustle tabs that
