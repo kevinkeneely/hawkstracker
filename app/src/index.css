@@ -737,15 +737,32 @@ code {
 }
 
 @media (max-width: 640px) {
+  /* On narrow screens the 7 pills don't fit in one row at a readable
+     size, so switch the bar from wrap to horizontal scroll — single
+     row that the user can swipe through. Matches the pattern Standings
+     already used for its own copy of .tabs. */
   .tabs {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    justify-content: flex-start;
     gap: 4px;
     padding: 4px;
+    width: 100%;
+    max-width: 100%;
+    /* Scroll indicator — left edge of a tab beyond the viewport still
+       gets a hint via the rounded container bg peeking through. */
   }
+  .tabs::-webkit-scrollbar { display: none; }
   .tab {
+    flex-shrink: 0;
     padding: 7px 12px;
     font-size: 13px;
   }
   .tab-advanced-dropdown {
+    flex-shrink: 0;
     padding: 7px 12px;
     font-size: 13px;
   }
