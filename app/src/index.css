@@ -2152,27 +2152,34 @@ header {
   margin-top: 4px;
 }
 
-/* Leaders toggle (League | Hawks) */
+/* Leaders toggle (League | Hawks) — connected-pill style matching
+   .stats-mode-toggle for consistency across the site's sub-navs. */
 .leaders-toggle {
   display: flex;
+  gap: 2px;
   justify-content: center;
-  gap: 4px;
   margin-bottom: 24px;
-  border-bottom: 1px solid var(--border);
 }
 
 .leaders-toggle-btn {
-  padding: 8px 20px;
-  font-size: 14px;
+  padding: 6px 14px;
+  font-size: 13px;
   font-weight: 500;
   color: var(--text);
   background: transparent;
-  border: none;
-  border-bottom: 2px solid transparent;
-  margin-bottom: -1px;
+  border: 1px solid var(--border);
   cursor: pointer;
   font-family: inherit;
-  transition: color 0.15s, border-color 0.15s;
+  transition: color 0.15s, border-color 0.15s, background 0.15s;
+}
+
+.leaders-toggle-btn:first-child {
+  border-radius: 6px 0 0 6px;
+}
+
+.leaders-toggle-btn:last-child {
+  border-radius: 0 6px 6px 0;
+  border-left: none;
 }
 
 .leaders-toggle-btn:hover {
@@ -2180,8 +2187,9 @@ header {
 }
 
 .leaders-toggle-btn.active {
-  color: var(--text-h);
-  border-bottom-color: #C8102E;
+  color: #fff;
+  background: #C8102E;
+  border-color: #C8102E;
 }
 
 /* Section toggle (Shooting | Defense | Hustle) — sits under the Hawks/League
@@ -3342,8 +3350,8 @@ header {
    more subtle than the main leaders-toggle to signal it's a sub-control. */
 .leaders-mode-toggle {
   display: flex;
+  gap: 2px;
   justify-content: center;
-  gap: 4px;
   margin: -8px 0 16px;
 }
 .leaders-mode-btn {
@@ -3353,14 +3361,14 @@ header {
   color: var(--text);
   background: transparent;
   border: 1px solid var(--border);
-  border-radius: 999px;
   cursor: pointer;
   font-family: inherit;
   transition: background-color 0.15s, color 0.15s, border-color 0.15s;
 }
+.leaders-mode-btn:first-child { border-radius: 6px 0 0 6px; }
+.leaders-mode-btn:last-child  { border-radius: 0 6px 6px 0; border-left: none; }
 .leaders-mode-btn:hover {
   color: var(--text-h);
-  border-color: var(--text);
 }
 .leaders-mode-btn.active {
   color: #fff;
@@ -4030,36 +4038,36 @@ header {
    shot-type toggles. Same underline-style tab idiom as lineups-section. */
 .advanced-section-nav {
   display: flex;
+  gap: 2px;
   justify-content: center;
-  gap: 4px;
   margin: 0 auto 20px;
-  border-bottom: 1px solid var(--border);
-  padding-bottom: 12px;
   max-width: 1200px;
 }
 
 .advanced-section-btn {
-  padding: 8px 20px;
-  font-size: 14px;
+  padding: 6px 14px;
+  font-size: 13px;
   font-weight: 500;
   color: var(--text);
   background: transparent;
-  border: none;
-  border-bottom: 2px solid transparent;
+  border: 1px solid var(--border);
   cursor: pointer;
   font-family: inherit;
   text-decoration: none;
-  transition: color 0.15s, border-color 0.15s;
-  margin-bottom: -13px;  /* overlap container bottom-border to nest underline */
+  transition: color 0.15s, border-color 0.15s, background 0.15s;
 }
+
+.advanced-section-btn:first-child { border-radius: 6px 0 0 6px; }
+.advanced-section-btn:last-child  { border-radius: 0 6px 6px 0; border-left: none; }
 
 .advanced-section-btn:hover {
   color: var(--text-h);
 }
 
 .advanced-section-btn.active {
-  color: var(--text-h);
-  border-bottom-color: #C8102E;
+  color: #fff;
+  background: #C8102E;
+  border-color: #C8102E;
 }
 
 
