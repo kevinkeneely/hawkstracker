@@ -285,6 +285,7 @@ function HawksScatter({ hawksRows, leagueAverages }) {
     x: r.expected * 100,   // xeFG as percentage points, easier to axis-format
     y: r.actual * 100,
     delta: (r.delta || 0) * 100,
+    id: r.id,
     name: r.name,
     fga: r.fga,
     initials: r.name.split(/\s+/).map((w) => w[0]).join('').slice(0, 3),
@@ -403,7 +404,15 @@ function HawksScatter({ hawksRows, leagueAverages }) {
                 const sign = d.delta >= 0 ? '+' : ''
                 return (
                   <div className="rc-scatter-tooltip">
-                    <div className="rc-tt-name">{d.name}</div>
+                    <div className="rc-tt-name-row">
+                      <img
+                        src={`/nba-headshots/${d.id}.png`}
+                        alt=""
+                        className="rc-tt-headshot"
+                        onError={(e) => { e.currentTarget.style.visibility = 'hidden' }}
+                      />
+                      <div className="rc-tt-name">{d.name}</div>
+                    </div>
                     <div className="rc-tt-row">
                       <span>Actual eFG</span><strong>{d.y.toFixed(1)}%</strong>
                     </div>
