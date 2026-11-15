@@ -3254,6 +3254,8 @@ header {
   background: var(--bg);
   width: 36px;
   min-width: 36px;
+  max-width: 36px;
+  box-sizing: border-box;
 }
 .player-stats th:nth-child(2),
 .player-stats td:nth-child(2) {
@@ -3261,6 +3263,14 @@ header {
   left: 36px;
   z-index: 2;
   background: var(--bg);
+  box-sizing: border-box;
+  /* Don't let long names stretch into (and over) the first stat column.
+     white-space: nowrap keeps names on one line; the max-width + overflow
+     hidden + text-overflow ellipsis clip long names cleanly. */
+  max-width: 180px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 /* Even rows: layer the (semi-transparent) alt-row color over a solid
    var(--bg) so the sticky cell stays opaque AND keeps the zebra stripe.
@@ -3291,12 +3301,27 @@ header {
     font-size: 12px;
     padding: 6px 6px;
   }
-  /* Player column also gets the smaller font — kept nowrap so long names
-     like "Nickeil Alexander-Walker" stay on one line. */
+  /* Mobile: narrower # column (28px fits 1-2 digit ranks with 6px padding
+     either side), and the Player column's sticky left offset shifts to
+     match so the two don't overlap. Max-width cap + ellipsis means
+     "Nickeil Alexander-Walker" and friends clip cleanly rather than
+     spilling over the PPG/RPG columns. */
+  .player-stats th:nth-child(1),
+  .player-stats td:nth-child(1) {
+    width: 28px;
+    min-width: 28px;
+    max-width: 28px;
+    padding-left: 4px;
+    padding-right: 4px;
+  }
   .player-stats th:nth-child(2),
   .player-stats td:nth-child(2) {
+    left: 28px;
     font-size: 12px;
     white-space: nowrap;
+    max-width: 120px;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 }
 
