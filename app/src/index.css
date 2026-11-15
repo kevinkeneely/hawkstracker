@@ -3493,6 +3493,24 @@ header {
 .trends-players-scroll {
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
+  /* Right-edge fade so users on narrow viewports can tell the table extends
+     off-screen and is swipeable horizontally. Without it, the clipped cells
+     at the right edge read as broken/cropped content rather than a scroll
+     cue. mask-image fades the rightmost ~24px of the scroll container. */
+  -webkit-mask-image: linear-gradient(to right, black calc(100% - 24px), transparent);
+          mask-image: linear-gradient(to right, black calc(100% - 24px), transparent);
+}
+
+/* When the user has fully scrolled to the right end of the table, there's
+   nothing more to reveal — the fade becomes misleading. Hard to detect
+   scroll-end in pure CSS without JS, so we simply only apply the fade at
+   narrow viewports where overflow is guaranteed; desktops fit most of the
+   table already and don't need the hint. */
+@media (min-width: 1200px) {
+  .trends-players-scroll {
+    -webkit-mask-image: none;
+            mask-image: none;
+  }
 }
 
 .trends-players-head {
@@ -3697,8 +3715,11 @@ header {
      Scroll + min-width already set at the default level for all viewports. */
   .trends-players-head,
   .trends-player-row {
-    grid-template-columns: 110px repeat(12, 130px);
-    gap: 6px;
+    /* Narrower stat columns + tighter gap on mobile so the viewport reveals
+       more columns at once before the user has to swipe. Full set still
+       scrolls — this just reduces how much scrolling is needed. */
+    grid-template-columns: 96px repeat(12, 108px);
+    gap: 4px;
   }
 
   .trends-player-name-head,
