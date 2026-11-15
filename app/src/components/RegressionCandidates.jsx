@@ -313,7 +313,7 @@ function HawksScatter({ hawksRows, leagueAverages }) {
       </div>
       <div className="rc-scatter" style={{ height: 360 }}>
         <ResponsiveContainer width="100%" height="100%">
-          <ScatterChart margin={{ top: 16, right: 24, bottom: 36, left: 36 }}>
+          <ScatterChart margin={{ top: 24, right: 100, bottom: 36, left: 36 }}>
             <CartesianGrid stroke="var(--border)" strokeDasharray="2 3" />
             <XAxis
               type="number"
