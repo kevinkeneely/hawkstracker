@@ -236,8 +236,8 @@ function App() {
         {!error && !loaded && <p>Loading…</p>}
         {loaded && (
           <Routes>
-            <Route path="/" element={<HomePage hawks={hawks} teamData={teamData} season={season} gameLogs={gameLogs} />} />
-            <Route path="/players" element={<PlayerStatsPage playerData={playerData} />} />
+            <Route path="/" element={<HomePage hawks={hawks} teamData={teamData} season={season} />} />
+            <Route path="/players" element={<PlayerStatsPage playerData={playerData} gameLogs={gameLogs} />} />
             <Route path="/team" element={<TeamStatsPage hawks={hawks} teamData={teamData} />} />
             <Route path="/insights" element={<InsightsPage playerData={playerData} leagueLeaderboards={leaderboards} />} />
             <Route path="/standings" element={<StandingsPage standingsData={standingsData} season={season} />} />
