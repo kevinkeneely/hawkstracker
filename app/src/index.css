@@ -4479,3 +4479,192 @@ header {
   font-size: 11px;
   color: var(--text-dim);
 }
+
+
+/* ======================================================================
+   Insights page — container for Rolling Power Rating, Matchup Preview,
+   and Regression Candidates. Stacks vertically with generous gaps.
+   ====================================================================== */
+
+.insights-page {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+  min-width: 0;
+  width: 100%;
+}
+
+.insights-page > * {
+  min-width: 0;
+  max-width: 100%;
+}
+
+/* ======================================================================
+   Rolling Power Rating (ELO). Header + KPI strip + line chart + footer.
+   ====================================================================== */
+
+.rpr-section {
+  padding: 16px 18px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--social-bg);
+}
+
+.rpr-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.rpr-title {
+  margin: 0 0 4px 0;
+  font-size: 18px;
+  color: var(--text-h);
+}
+
+.rpr-sub {
+  margin: 0;
+  color: var(--text-dim);
+  font-size: 12px;
+  max-width: 60ch;
+  line-height: 1.5;
+}
+
+.rpr-kpis {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 10px;
+  margin-bottom: 14px;
+}
+
+.rpr-kpi {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 10px 12px;
+  background: var(--code-bg);
+  border-radius: 8px;
+}
+
+.rpr-kpi-label {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--text-dim);
+  font-weight: 600;
+}
+
+.rpr-kpi-value {
+  font-family: var(--mono);
+  font-variant-numeric: tabular-nums;
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--text-h);
+  line-height: 1.2;
+}
+
+.rpr-kpi-sub {
+  font-family: var(--mono);
+  font-size: 12px;
+  color: var(--text-dim);
+  font-weight: 500;
+}
+
+.rpr-kpi-sub-text {
+  font-size: 10px;
+  color: var(--text-dim);
+}
+
+.rpr-kpi-delta {
+  font-family: var(--mono);
+  font-size: 11px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.rpr-kpi-delta.is-up   { color: var(--rank-good-text); }
+.rpr-kpi-delta.is-down { color: var(--rank-bad-text); }
+
+.rpr-chart {
+  width: 100%;
+}
+
+.rpr-tooltip {
+  background: var(--bg);
+  border: 1px solid var(--text-h);
+  border-radius: 6px;
+  padding: 8px 10px;
+  font-size: 12px;
+  color: var(--text-h);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+  min-width: 160px;
+}
+.rpr-tt-date {
+  font-size: 11px;
+  color: var(--text-dim);
+  margin-bottom: 4px;
+}
+.rpr-tt-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--mono);
+  font-variant-numeric: tabular-nums;
+  font-size: 12px;
+}
+.rpr-tt-row strong {
+  margin-left: auto;
+  color: var(--text-h);
+}
+.rpr-tt-dim { color: var(--text-dim); }
+.rpr-tt-sw {
+  display: inline-block;
+  width: 10px; height: 10px;
+  border-radius: 2px;
+}
+.rpr-tt-sw-median {
+  background: transparent;
+  border: 1px dashed var(--text);
+}
+
+.rpr-footer {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid var(--border);
+  font-size: 12px;
+}
+.rpr-footer-label {
+  color: var(--text-dim);
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  font-size: 10px;
+  font-weight: 600;
+  margin-right: 4px;
+}
+.rpr-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 3px 8px;
+  background: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  font-family: var(--mono);
+  font-variant-numeric: tabular-nums;
+  font-size: 11px;
+  color: var(--text-h);
+}
+.rpr-pill.is-hawks {
+  background: var(--accent-bg);
+  border-color: var(--accent-border);
+}
+.rpr-pill-elo {
+  color: var(--text-dim);
+}

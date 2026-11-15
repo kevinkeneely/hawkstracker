@@ -16,6 +16,7 @@ import PlaymakingPage from './pages/advanced/PlaymakingPage'
 import HustlePage from './pages/advanced/HustlePage'
 import ComparePage from './pages/ComparePage'
 import HomePage from './pages/HomePage'
+import InsightsPage from './pages/InsightsPage'
 import { Analytics } from '@vercel/analytics/react'
 
 const HAWKS_TEAM_ID = 1610612737
@@ -226,6 +227,7 @@ function App() {
           <NavLink to="/lineups" className="tab">Lineups</NavLink>
           <NavLink to="/leaders" className="tab">Leaders</NavLink>
           <AdvancedTabLink />
+          <NavLink to="/insights" className="tab">Insights</NavLink>
           <NavLink to="/standings" className="tab">Standings</NavLink>
         </nav>
       </header>
@@ -237,6 +239,7 @@ function App() {
             <Route path="/" element={<HomePage hawks={hawks} teamData={teamData} season={season} gameLogs={gameLogs} />} />
             <Route path="/players" element={<PlayerStatsPage playerData={playerData} />} />
             <Route path="/team" element={<TeamStatsPage hawks={hawks} teamData={teamData} />} />
+            <Route path="/insights" element={<InsightsPage playerData={playerData} leagueLeaderboards={leaderboards} />} />
             <Route path="/standings" element={<StandingsPage standingsData={standingsData} season={season} />} />
             <Route path="/leaders" element={<LeadersPage leaderboards={leaderboards} playerData={playerData} />} />
             <Route path="/trends" element={<TrendsPage gameLogs={gameLogs} teamData={teamData} onoff={onoff} />} />

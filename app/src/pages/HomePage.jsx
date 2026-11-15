@@ -2,11 +2,6 @@ import HeaderStats from '../components/HeaderStats'
 import TeamStats from '../components/TeamStats'
 import PointDifferentialChart from '../components/PointDifferentialChart'
 import FormWatchRow from '../components/FormWatchRow'
-import MatchupPreview from '../components/MatchupPreview'
-
-// Only render the matchup preview on the current-season view — it's a
-// pre-game feature and doesn't belong on archived seasons.
-const CURRENT_SEASON = '2026-27'
 
 // HomePage — default landing page at `/`.
 //
@@ -54,7 +49,6 @@ export default function HomePage({ hawks, teamData, season, gameLogs }) {
       <TeamStats team={hawks} allTeams={teamData.teams} />
     </section>
     <FormWatchRow gameLogs={gameLogs} />
-    {season === CURRENT_SEASON && <MatchupPreview />}
     </>
   )
 }
