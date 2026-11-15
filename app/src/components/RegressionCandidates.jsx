@@ -313,7 +313,7 @@ function HawksScatter({ hawksRows, leagueAverages }) {
       </div>
       <div className="rc-scatter" style={{ height: 360 }}>
         <ResponsiveContainer width="100%" height="100%">
-          <ScatterChart margin={{ top: 16, right: 70, bottom: 36, left: 16 }}>
+          <ScatterChart margin={{ top: 16, right: 24, bottom: 36, left: 28 }}>
             <CartesianGrid stroke="var(--border)" strokeDasharray="2 3" />
             <XAxis
               type="number"
@@ -337,7 +337,7 @@ function HawksScatter({ hawksRows, leagueAverages }) {
               tickFormatter={(v) => `${Math.round(v)}%`}
               width={44}
               label={{ value: 'Actual eFG%', angle: -90,
-                       position: 'left', offset: -6,
+                       position: 'left', offset: 6,
                        fill: 'var(--text-dim)', fontSize: 11 }}
             />
             {leagueAverages && (
@@ -353,7 +353,8 @@ function HawksScatter({ hawksRows, leagueAverages }) {
                   y={leagueAverages.actual * 100}
                   stroke="var(--text)" strokeOpacity={0.5} strokeDasharray="3 4"
                   label={{ value: `Lg avg eFG ${(leagueAverages.actual * 100).toFixed(1)}%`,
-                           position: 'right', fill: 'var(--text-dim)', fontSize: 10 }}
+                           position: 'insideTopRight', fill: 'var(--text-dim)', fontSize: 10,
+                           offset: 6 }}
                 />
               </>
             )}
