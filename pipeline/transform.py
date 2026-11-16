@@ -53,6 +53,8 @@ FIELDS = {
         "MIN": "mpg",
         "PTS": "ppg",
         "REB": "rpg",
+        "OREB": "orpg",
+        "DREB": "drpg",
         "AST": "apg",
         "STL": "spg",
         "BLK": "bpg",
@@ -94,6 +96,8 @@ FIELDS = {
         "MIN": "min_total",
         "PTS": "pts_total",
         "REB": "reb_total",
+        "OREB": "oreb_total",
+        "DREB": "dreb_total",
         "AST": "ast_total",
         "STL": "stl_total",
         "BLK": "blk_total",
@@ -143,6 +147,8 @@ FIELDS = {
 PCTILE_STATS = {
     "ppg": "PTS",
     "rpg": "REB",
+    "orpg": "OREB",
+    "drpg": "DREB",
     "apg": "AST",
     "spg": "STL",
     "bpg": "BLK",
@@ -173,7 +179,7 @@ PCTILE_STATS_ADV = {
 MIN_PLAYED_THRESHOLD = 150
 
 # Counting stats that convert meaningfully to Per 36. Percentages don't change.
-PER_36_STATS = ["ppg", "rpg", "apg", "spg", "bpg", "tov"]
+PER_36_STATS = ["ppg", "rpg", "orpg", "drpg", "apg", "spg", "bpg", "tov"]
 
 def load_raw(endpoint_name, season=SEASON, as_of=None):
     """Load a raw JSON file for one endpoint. Returns the parsed dict.

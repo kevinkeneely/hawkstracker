@@ -1,30 +1,38 @@
 import { useMemo, useState } from 'react'
 
 // ─── Section config ─────────────────────────────────────────
-// Three top-level sections (Shooting, Defense, Hustle) chosen by the
+// Three top-level sections (Offense, Defense, Hustle) chosen by the
 // section toggle. Each stat carries `source` — one of `overall`, `zones`,
 // `defense`, `hustle` — which tells the data-shape adapters below which
 // path to read from. This decouples the VISUAL section from the DATA
-// SHAPE, so "Shooting" can mix overall-shooting stats and zone stats
-// without special-casing either one.
+// SHAPE, so "Offense" can mix counting stats, overall-shooting stats, and
+// zone stats without special-casing any of them.
+
+// Minimum-minutes floor applied to the counting-stat leaderboards (PPG,
+// APG, OReb/Game). Plan: 250 → 500 → 750 as the season matures.
+const MIN_MINUTES = 250
 
 const SECTION_CONFIG = {
-  shooting: {
-    title: 'Shooting',
+  offense: {
+    title: 'Offense',
     stats: [
-      // Row 1 — headline %s
+      // Row 1 — headline counting stats
+      { key: 'ppg',  label: 'PPG',       source: 'overall', format: 'per-game', minutesFloor: MIN_MINUTES },
+      { key: 'orpg', label: 'OReb', source: 'defense', format: 'per-game', minutesFloor: MIN_MINUTES },
+      { key: 'apg',  label: 'APG',       source: 'overall', format: 'per-game', minutesFloor: MIN_MINUTES },
+      // Row 2 — headline shooting %s
       { key: 'fg_pct',  label: 'FG%',  source: 'overall', attempts: 'fga',  attemptsLabel: 'FGA' },
       { key: 'fg3_pct', label: '3P%',  source: 'overall', attempts: 'fg3a', attemptsLabel: '3PA' },
       { key: 'ft_pct',  label: 'FT%',  source: 'overall', attempts: 'fta',  attemptsLabel: 'FTA' },
-      // Row 2 — advanced shooting + rim
+      // Row 3 — advanced shooting + rim
       { key: 'ts_pct',  label: 'TS%',  source: 'overall', attempts: 'fga',  attemptsLabel: 'FGA' },
       { key: 'efg_pct', label: 'eFG%', source: 'overall', attempts: 'fga',  attemptsLabel: 'FGA' },
       { key: 'at_rim',  label: 'At the Rim', source: 'zones' },
-      // Row 3 — mid-paint zones
+      // Row 4 — mid-paint zones
       { key: 'paint',    label: 'In the Paint', source: 'zones' },
       { key: 'mid',      label: 'Mid-Range',    source: 'zones' },
       { key: 'corner_3', label: 'Corner 3',     source: 'zones' },
-      // Row 4 — deep 3s
+      // Row 5 — deep 3s
       { key: 'above_break_3', label: 'Above the Break 3', source: 'zones' },
     ],
   },
@@ -33,7 +41,7 @@ const SECTION_CONFIG = {
     stats: [
       { key: 'spg',     label: 'Steals Per Game',   source: 'defense' },
       { key: 'bpg',     label: 'Blocks Per Game',   source: 'defense' },
-      { key: 'rpg',     label: 'Rebounds Per Game', source: 'defense' },
+      { key: 'drpg',    label: 'DReb Per Game',     source: 'defense' },
       // Advanced defense %s. Hawks carry these at the top level
       // (stl_pct, blk_pct, reb_pct); league players carry them under
       // player.defense.<key>. The getValue adapter handles both.
@@ -93,6 +101,12 @@ function getValue(player, source, statKey, mode = 'per-game') {
 }
 
 function getAttempts(player, source, stat) {
+  // Counting-stat leaderboards (PPG/APG/OReb/Game) gate on minutes played,
+  // not shot attempts. min_total is surfaced at the top level of each
+  // player record by the pipeline.
+  if (stat?.minutesFloor != null) {
+    return player.min_total ?? player.overall?.min_total ?? null
+  }
   if (source === 'zones') return player.zones?.[stat.key]?.fga ?? null
   if (source === 'overall') {
     const d = player.overall ?? player
@@ -118,13 +132,17 @@ function getVolumeCell(player, source, stat) {
 
 function formatValue(v, source, stat) {
   if (v == null) return '—'
-  // Explicit per-stat format wins (e.g. Defense's STL%/BLK%/REB%).
+  // Explicit per-stat format wins. 'per-game' = raw per-game number with
+  // one decimal (PPG/APG/OReb/Game); 'pct' = ×100 with % suffix
+  // (Defense's STL%/BLK%/REB%).
+  if (stat?.format === 'per-game') return v.toFixed(1)
   if (stat?.format === 'pct') return `${(v * 100).toFixed(1)}%`
   if (source === 'zones' || source === 'overall') return `${(v * 100).toFixed(1)}%`
   return v.toFixed(1)
 }
 
 function getFloor(source, stat, leaderboards) {
+  if (stat?.minutesFloor != null) return stat.minutesFloor
   if (source === 'zones') return leaderboards?.min_fga_per_zone?.[stat.key] ?? null
   if (source === 'overall') return leaderboards?.min_overall?.[stat.key]?.min ?? 50
   return null
@@ -132,6 +150,7 @@ function getFloor(source, stat, leaderboards) {
 
 function floorLabel(source, stat, floor) {
   if (floor == null) return null
+  if (stat?.minutesFloor != null) return `min ${floor} MIN`
   if (source === 'zones') return `min ${floor} FGA`
   if (source === 'overall') return `min ${floor} ${stat.attemptsLabel}`
   return null
@@ -139,6 +158,8 @@ function floorLabel(source, stat, floor) {
 
 function valueHeader(source, stat, mode = 'per-game') {
   if (source === 'zones') return 'FG%'
+  // Counting-stat columns use the stat's own label (PPG, APG, OReb/Game).
+  if (stat?.format === 'per-game') return stat.label
   if (source === 'overall') return stat.label
   // Defense's %-based rates (STL%/BLK%/REB%) use '%' instead of '/G'.
   if (source === 'defense' && stat?.format === 'pct') return '%'
@@ -159,7 +180,7 @@ function volumeHeader(source, stat) {
 
 export default function LeadersPage({ leaderboards, playerData }) {
   const [source, setSource] = useState('hawks')
-  const [activeSection, setActiveSection] = useState('shooting')
+  const [activeSection, setActiveSection] = useState('offense')
   // Hustle-only Per Game / Per 36 toggle. Keeping it per-section (not
   // global) so the Shooting + Defense sections stay single-mode and don't
   // get a confusing toggle that doesn't apply to %-based stats.

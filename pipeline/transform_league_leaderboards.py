@@ -105,6 +105,7 @@ def load_overall_stats() -> dict:
     fg3m_i = bh.index("FG3M")
     fg3a_i = bh.index("FG3A")
     pts_i = bh.index("PTS")
+    ast_i = bh.index("AST")
 
     # eFG% is sometimes absent from base stats (depends on which measure variant
     # the fetch asked for). If not present we compute it: (FGM + 0.5*FG3M)/FGA.
@@ -132,6 +133,7 @@ def load_overall_stats() -> dict:
             "fta":     fta,
             "fgm":     fgm,
             "ppg":     row[pts_i],
+            "apg":     row[ast_i],
             "mpg":     mpg,
             # Season totals, used for the minimum-attempts floors on the
             # leaderboards (floors like "50 FGA" are totals, not per-game):
@@ -169,7 +171,7 @@ def load_overall_stats() -> dict:
     return out
 
 def load_defense_stats() -> dict:
-    """Return {pid: {spg, bpg, rpg}} for every player with a league_base row.
+    """Return {pid: {spg, bpg, rpg, orpg, drpg}} for every player with a league_base row.
     All values are per-game — leaguedashplayerstats uses PerMode=PerGame by default."""
     base_file = latest_file("league_base_*.json")
     if base_file is None:
@@ -181,12 +183,16 @@ def load_defense_stats() -> dict:
     stl_i = h.index("STL")
     blk_i = h.index("BLK")
     reb_i = h.index("REB")
+    oreb_i = h.index("OREB")
+    dreb_i = h.index("DREB")
     out = {}
     for row in rs["rowSet"]:
         out[row[pid_i]] = {
             "spg": row[stl_i],
             "bpg": row[blk_i],
             "rpg": row[reb_i],
+            "orpg": row[oreb_i],
+            "drpg": row[dreb_i],
         }
     return out
 
@@ -345,6 +351,7 @@ def run():
             # Also surface the main stats used by migrated ChartsPage scatters
             # at top level, matching the Hawks hawksData.player shape:
             "ppg":        ov.get("ppg"),
+            "apg":        ov.get("apg"),
             "ts_pct":     ov.get("ts_pct"),
             "fg3_pct":    ov.get("fg3_pct"),
             "ast_pct":    ov.get("ast_pct"),
