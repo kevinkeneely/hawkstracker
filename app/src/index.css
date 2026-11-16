@@ -4358,6 +4358,14 @@ header {
   color: var(--text-h);
 }
 
+/* Vertical column dividers — right border on every cell except the last.
+   Matches the existing row-divider weight (1px var(--border)) so the
+   table reads as a proper grid in both themes. */
+.rc-table th:not(:last-child),
+.rc-table td:not(:last-child) {
+  border-right: 1px solid var(--border);
+}
+
 .rc-rank {
   text-align: right;
   color: var(--text-dim);
