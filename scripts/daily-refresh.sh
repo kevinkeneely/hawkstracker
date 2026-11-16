@@ -95,6 +95,12 @@ run_step fetch_boxscore_hustle        python3 -m pipeline.fetch_boxscore_hustle
 run_step fetch_boxscore_defensive     python3 -m pipeline.fetch_boxscore_defensive
 run_step fetch_boxscore_player_track  python3 -m pipeline.fetch_boxscore_player_track
 run_step fetch_boxscore_scoring       python3 -m pipeline.fetch_boxscore_scoring
+run_step fetch_boxscore_advanced      python3 -m pipeline.fetch_boxscore_advanced
+
+# Transform per-game box scores into the game_logs JSON the Trends tab and
+# Form Watch read. Runs after all fetch_boxscore_* steps so every column
+# (traditional + advanced) is available for the newest games.
+run_step transform_game_logs          python3 -m pipeline.transform_game_logs
 
 # ---- Commit whatever changed ----------------------------------------------
 echo ""
