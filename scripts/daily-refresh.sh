@@ -102,6 +102,15 @@ run_step fetch_boxscore_advanced      python3 -m pipeline.fetch_boxscore_advance
 # (traditional + advanced) is available for the newest games.
 run_step transform_game_logs          python3 -m pipeline.transform_game_logs
 
+# Lineups tab feeds — four lineup sizes + on/off. Each call hits NBA.com
+# directly (no separate fetch step) and writes both a dated snapshot and
+# a stable latest-<N>man.json / latest-onoff.json the frontend reads.
+run_step transform_lineups_5          python3 -c "from pipeline.transform_lineups import run; run(5)"
+run_step transform_lineups_4          python3 -c "from pipeline.transform_lineups import run; run(4)"
+run_step transform_lineups_3          python3 -c "from pipeline.transform_lineups import run; run(3)"
+run_step transform_lineups_2          python3 -c "from pipeline.transform_lineups import run; run(2)"
+run_step transform_onoff              python3 -m pipeline.transform_onoff
+
 # ---- Commit whatever changed ----------------------------------------------
 echo ""
 echo "=========================================="
