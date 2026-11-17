@@ -4679,8 +4679,11 @@ header {
 
 .rpr-kpis {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-  gap: 10px;
+  /* 115px min lets all four tiles fit on one row inside the home-page
+     left column (≈ half of main content width) on laptop. Falls back to
+     auto-wrap below that — e.g. phones go to 2-across naturally. */
+  grid-template-columns: repeat(auto-fit, minmax(115px, 1fr));
+  gap: 8px;
   margin-bottom: 14px;
 }
 
@@ -4688,7 +4691,7 @@ header {
   display: flex;
   flex-direction: column;
   gap: 2px;
-  padding: 10px 12px;
+  padding: 8px 10px;
   background: var(--code-bg);
   border-radius: 8px;
 }
@@ -4704,7 +4707,7 @@ header {
 .rpr-kpi-value {
   font-family: var(--mono);
   font-variant-numeric: tabular-nums;
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 700;
   color: var(--text-h);
   line-height: 1.2;
