@@ -1941,7 +1941,15 @@ header {
 }
 
 .boxscore-table {
-  width: 100%;
+  /* width: max-content lets each column auto-size to its widest content
+     (header or body value), so stat cells like "7-15" never wrap to
+     two lines just because the column is too narrow. min-width: 100%
+     still fills the wrapper on wide desktops where total content is
+     narrower than the viewport. Combined with .boxscore-table-wrap's
+     overflow-x: auto, the table scrolls horizontally on phones when
+     all 12 columns don't fit at once. */
+  width: max-content;
+  min-width: 100%;
   border-collapse: collapse;
   font-size: 13px;
   font-variant-numeric: tabular-nums;
@@ -1956,6 +1964,10 @@ header {
   text-align: right;
   border-bottom: 1px solid var(--border);
   border-right: 1px solid var(--border);
+  /* No wrapping — every cell's content stays on one line. Column widths
+     grow to fit the longest value instead of a short column forcing
+     "4-9" to break into "4-" / "9". */
+  white-space: nowrap;
 }
 .boxscore-table th:last-child,
 .boxscore-table td:last-child {
