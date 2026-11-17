@@ -1,17 +1,21 @@
 import HeaderStats from '../components/HeaderStats'
 import TeamStats from '../components/TeamStats'
 import PointDifferentialChart from '../components/PointDifferentialChart'
+import RollingPowerRating from '../components/RollingPowerRating'
 
 // HomePage — default landing page at `/`.
 //
-// Layout uses CSS grid with `auto-fit` + `minmax`: as many columns as fit
-// at ≥420px wide, each flexing up to 1fr. One child fills the row; two
-// children sit side-by-side on wide screens and stack on narrow. Adding
-// a third block later just drops in — no layout rewrite needed.
+// Layout (top to bottom):
+//   1. Top row (50/50 on ≥420px wide, stacks below): ELO Power Rating +
+//      Cumulative point differential. Both answer "how good is the team
+//      right now" with a one-line chart, so they read as peers.
+//   2. KPI tile strip: 4 columns × 2 rows on desktop, wraps to 2 × 4 on
+//      mobile. See `.header-stats` in index.css for the breakpoints.
+//   3. Team Stats, full width.
 //
-// Phase 2 (Oct 27, 2026): Team Stats moved onto this page, full-size for
-// now. Phase 5 adds a point-differential chart next to it. Phase 6 compacts
-// the Team Stats cards so both fit cleanly side-by-side without scroll.
+// Nov 17, 2026: ELO moved here from the Insights tab so the home page is
+// the single "how is the team doing" snapshot. Insights now pairs the
+// regression scatter with Matchup Preview above the regression table.
 export default function HomePage({ hawks, teamData, season }) {
   // Early-season / empty-data fallback: before the Hawks have played a game,
   // the stats endpoints return no rows. Mirror TeamStatsPage's empty state so
@@ -26,27 +30,30 @@ export default function HomePage({ hawks, teamData, season }) {
 
   return (
     <>
-    <div
-      className="home-grid"
-      style={{
-        display: 'grid',
-        gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 420px), 1fr))',
-        gap: '1.5rem',
-        padding: '1rem 0',
-        maxWidth: '100%',
-        overflowX: 'hidden',
-      }}
-    >
+      <div
+        className="home-grid"
+        style={{
+          display: 'grid',
+          gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 420px), 1fr))',
+          gap: '1.5rem',
+          padding: '1rem 0',
+          maxWidth: '100%',
+          overflowX: 'hidden',
+        }}
+      >
+        <section className="home-elo" style={{ minWidth: 0, maxWidth: '100%', overflowX: 'hidden' }}>
+          <RollingPowerRating />
+        </section>
+        <section className="home-point-diff" style={{ minWidth: 0, maxWidth: '100%', overflowX: 'hidden' }}>
+          <PointDifferentialChart season={season} />
+        </section>
+      </div>
       <section className="home-kpi" style={{ minWidth: 0, maxWidth: '100%', overflowX: 'hidden' }}>
         <HeaderStats team={hawks} />
       </section>
-      <section className="home-point-diff" style={{ minWidth: 0, maxWidth: '100%', overflowX: 'hidden' }}>
-        <PointDifferentialChart season={season} />
+      <section className="home-team-stats-full">
+        <TeamStats team={hawks} allTeams={teamData.teams} />
       </section>
-    </div>
-    <section className="home-team-stats-full">
-      <TeamStats team={hawks} allTeams={teamData.teams} />
-    </section>
     </>
   )
 }

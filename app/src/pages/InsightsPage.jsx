@@ -1,34 +1,49 @@
-import RollingPowerRating from '../components/RollingPowerRating'
 import MatchupPreview from '../components/MatchupPreview'
 import RegressionCandidates from '../components/RegressionCandidates'
 
 /**
- * Insights — forward-looking and analytical stats that don't fit neatly
- * under the player-centric Advanced tabs or the team-centric Standings.
- * Stacks three current features (see claude/advanced-metrics-plan.md):
+ * Insights — forward-looking, analytical stats that don't fit under
+ * the player-centric Advanced tabs or the team-centric Standings.
  *
- *   1. Rolling Power Rating (ELO)   — team strength over time
- *   2. Matchup Preview              — next game's head-to-head
- *   3. Regression Candidates        — actual vs expected shooting
+ * Current layout (see claude/advanced-metrics-plan.md for history):
  *
- * Layout: on desktop (≥900px) the top row pairs RPR (70%) and Matchup
- * Preview (30%) side-by-side. On narrower screens they stack. Regression
- * Candidates always spans the full width below.
+ *   Top row (≥900px, 70/30):
+ *     - Regression Candidates scatter — Hawks players actual vs expected eFG%
+ *     - Matchup Preview               — next game head-to-head
  *
- * Props: playerData + leagueLeaderboards are passed through for the
- * Regression Candidates section (Hawks + league tabs).
+ *   Full width below:
+ *     - Regression Candidates table   — ranked Hawks + League tabs
+ *
+ * Note: ELO (Rolling Power Rating) now lives on the home page next to
+ * the point-differential chart, since both answer "how is the team
+ * doing right now" at a glance.
+ *
+ * Two <RegressionCandidates /> instances share the same inputs; each
+ * memoizes its own derivation, so the double-compute cost is small
+ * (~500 player rows, no network).
  */
 export default function InsightsPage({ playerData, leagueLeaderboards }) {
+  const hasRegression = playerData && leagueLeaderboards
+
   return (
     <div className="insights-page">
       <div className="insights-top-row">
-        <RollingPowerRating />
+        {hasRegression ? (
+          <RegressionCandidates
+            hawksPlayers={playerData.players}
+            leaguePlayers={leagueLeaderboards.players}
+            view="scatter"
+          />
+        ) : (
+          <div />
+        )}
         <MatchupPreview />
       </div>
-      {playerData && leagueLeaderboards && (
+      {hasRegression && (
         <RegressionCandidates
           hawksPlayers={playerData.players}
           leaguePlayers={leagueLeaderboards.players}
+          view="table"
         />
       )}
     </div>

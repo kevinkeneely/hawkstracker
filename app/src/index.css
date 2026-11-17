@@ -372,20 +372,18 @@ code {
 /* ---------- Header stat tiles ---------- */
 
 .header-stats {
+  /* 4 columns × 2 rows on desktop. Wraps to 2 × 4 on mobile — the tiles
+     are small enough that 2-wide stays readable at phone widths and
+     avoids the awkward middle breakpoint where one row has 3 and the
+     other has 5. */
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(min(100%, 180px), 1fr));
+  grid-template-columns: repeat(4, 1fr);
   gap: 12px;
   margin: 24px 0;
   text-align: left;
 }
 
 @media (max-width: 768px) {
-  .header-stats {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-
-@media (max-width: 480px) {
   .header-stats {
     grid-template-columns: repeat(2, 1fr);
   }

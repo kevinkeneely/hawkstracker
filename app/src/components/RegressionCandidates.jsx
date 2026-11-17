@@ -176,7 +176,17 @@ function RegressionTable({ rows, scope }) {
   )
 }
 
-export default function RegressionCandidates({ hawksPlayers, leaguePlayers }) {
+/**
+ * `view` controls which chunks render:
+ *   - 'full'    (default) — header + tabs + table + scatter (original layout)
+ *   - 'table'   — header + tabs + table only (scope tabs still work)
+ *   - 'scatter' — just the scatter chart, no header (meant to be embedded
+ *                 beside another card like MatchupPreview)
+ * Each view instance memoizes its own derivations; the parent page can
+ * mount this component twice (once per view) without blowing up — the
+ * computations are small (≤500 player rows).
+ */
+export default function RegressionCandidates({ hawksPlayers, leaguePlayers, view = 'full' }) {
   const [scope, setScope] = useState('league')
 
   // Compute league zone averages once (same pool powers both tabs — it's
@@ -227,6 +237,14 @@ export default function RegressionCandidates({ hawksPlayers, leaguePlayers }) {
 
   const rows = scope === 'hawks' ? hawksRows : leagueRows
 
+  if (view === 'scatter') {
+    return (
+      <section className="rc-section rc-section--scatter-only">
+        <HawksScatter hawksRows={hawksRows} leagueAverages={leagueAverages} />
+      </section>
+    )
+  }
+
   return (
     <section className="rc-section">
       <header className="rc-head">
@@ -261,7 +279,9 @@ export default function RegressionCandidates({ hawksPlayers, leaguePlayers }) {
         </div>
       </header>
       <RegressionTable rows={rows} scope={scope} />
-      <HawksScatter hawksRows={hawksRows} leagueAverages={leagueAverages} />
+      {view !== 'table' && (
+        <HawksScatter hawksRows={hawksRows} leagueAverages={leagueAverages} />
+      )}
     </section>
   )
 }
