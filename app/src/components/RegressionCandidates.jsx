@@ -29,7 +29,7 @@ const ZONES = [
   { key: 'above_break_3', weight: 1.5 },
 ]
 
-const MIN_FGA = 50
+const MIN_FGA = 100
 
 /**
  * Compute league-average FG% per zone from the pool, attempt-weighted.
