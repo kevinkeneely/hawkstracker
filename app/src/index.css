@@ -4697,9 +4697,9 @@ header {
 }
 
 .rpr-kpi-label {
-  font-size: 9px;
+  font-size: 10px;
   text-transform: uppercase;
-  letter-spacing: 0.3px;
+  letter-spacing: 0.5px;
   color: var(--text-dim);
   font-weight: 600;
   white-space: nowrap;
@@ -4708,7 +4708,7 @@ header {
 .rpr-kpi-value {
   font-family: var(--mono);
   font-variant-numeric: tabular-nums;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 700;
   color: var(--text-h);
   line-height: 1.2;
@@ -4717,24 +4717,38 @@ header {
 
 .rpr-kpi-sub {
   font-family: var(--mono);
-  font-size: 10px;
+  font-size: 12px;
   color: var(--text-dim);
   font-weight: 500;
 }
 
 .rpr-kpi-sub-text {
-  font-size: 9px;
+  font-size: 10px;
   color: var(--text-dim);
 }
 
 .rpr-kpi-delta {
   font-family: var(--mono);
-  font-size: 9px;
+  font-size: 11px;
   font-weight: 600;
   white-space: nowrap;
 }
 .rpr-kpi-delta.is-up   { color: var(--rank-good-text); }
 .rpr-kpi-delta.is-down { color: var(--rank-bad-text); }
+
+/* Laptop/desktop: the home-page grid splits the ELO card into a narrow
+   left column at this breakpoint. Shrink the KPI tile fonts here so
+   long values ("1,524-1,676"), long labels ("WIN% VS AVG TEAM") and
+   long delta phrases ("24 since last week") all fit on a single line
+   without clipping. Mobile keeps the larger sizes above — phones get
+   the full-width card so nothing was cramped there. */
+@media (min-width: 900px) {
+  .rpr-kpi-value    { font-size: 15px; }
+  .rpr-kpi-label    { font-size: 9px; letter-spacing: 0.3px; }
+  .rpr-kpi-sub      { font-size: 10px; }
+  .rpr-kpi-sub-text { font-size: 9px; }
+  .rpr-kpi-delta    { font-size: 9px; }
+}
 
 .rpr-chart {
   width: 100%;
