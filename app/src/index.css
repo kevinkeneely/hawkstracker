@@ -3320,11 +3320,15 @@ header {
   .player-stats th:nth-child(2),
   .player-stats td:nth-child(2) {
     left: 28px;
-    font-size: 12px;
+    /* Match Lineups' name column on mobile: 11px font + 180px min-width
+       so full names like "Nickeil Alexander-Walker" render on a single
+       line instead of truncating. Stat columns unchanged. Trade-off:
+       table scrolls a bit further to the right before every stat column
+       is reachable — user preferred readable names over one extra stat
+       column per scroll step. */
+    font-size: 11px;
     white-space: nowrap;
-    max-width: 120px;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    min-width: 180px;
   }
 }
 
@@ -3797,7 +3801,12 @@ header {
   .trends-player-row {
     /* Mobile: narrower name column + narrower cells (desktop defaults otherwise).
        Scroll + min-width already set at the default level for all viewports. */
-    grid-template-columns: 110px repeat(12, 130px);
+    /* Widened from 110px to 130px so "Alexander-Walker" fits on a single
+       line in the second row of a name wrap, breaking long names as
+       "Nickeil" / "Alexander-Walker" (2 rows) instead of
+       "Nickeil Alexander-" / "Walker" (3 rows). Stat column widths
+       unchanged — the extra width only extends the sticky name column. */
+    grid-template-columns: 130px repeat(12, 130px);
     gap: 6px;
   }
 
