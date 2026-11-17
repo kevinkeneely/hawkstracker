@@ -4697,37 +4697,39 @@ header {
 }
 
 .rpr-kpi-label {
-  font-size: 10px;
+  font-size: 9px;
   text-transform: uppercase;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.3px;
   color: var(--text-dim);
   font-weight: 600;
+  white-space: nowrap;
 }
 
 .rpr-kpi-value {
   font-family: var(--mono);
   font-variant-numeric: tabular-nums;
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 700;
   color: var(--text-h);
   line-height: 1.2;
+  white-space: nowrap;
 }
 
 .rpr-kpi-sub {
   font-family: var(--mono);
-  font-size: 12px;
+  font-size: 10px;
   color: var(--text-dim);
   font-weight: 500;
 }
 
 .rpr-kpi-sub-text {
-  font-size: 10px;
+  font-size: 9px;
   color: var(--text-dim);
 }
 
 .rpr-kpi-delta {
   font-family: var(--mono);
-  font-size: 11px;
+  font-size: 9px;
   font-weight: 600;
   white-space: nowrap;
 }
