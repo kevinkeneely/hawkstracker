@@ -4545,6 +4545,19 @@ header {
 .mp-better { color: var(--rank-good-text); }
 .mp-worse  { color: var(--rank-bad-text); }
 
+/* Laptop/desktop: force every stat-label cell onto a single line.
+   Matchup Preview sits in the Insights top row's 30% column at this
+   breakpoint; the default 20% width on .mp-col-stat was forcing
+   "Off Rtg" / "Def Rtg" to wrap. nowrap lets the center column grow
+   to fit the longest label instead of wrapping. Mobile keeps the
+   wrap so narrow phone widths don't get an overflow-scrolled table. */
+@media (min-width: 900px) {
+  .mp-label,
+  .mp-col-stat {
+    white-space: nowrap;
+  }
+}
+
 .mp-form-row {
   display: grid;
   grid-template-columns: 1fr 1fr;
