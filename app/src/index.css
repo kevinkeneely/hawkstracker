@@ -4911,3 +4911,78 @@ header {
 .rc-tt-hot strong  { color: var(--rank-good-text); }
 .rc-tt-cold strong { color: var(--rank-bad-text); }
 .rc-tt-dim strong  { color: var(--text-dim); }
+
+/* ======================================================================
+   Upcoming Game Prediction block (BoxScorePage when game.status_code != 3)
+   ====================================================================== */
+
+.ugp-section {
+  margin: 20px auto 24px;
+  max-width: 720px;
+  padding: 16px 20px;
+  background: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+}
+
+.ugp-title {
+  margin: 0 0 12px;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  color: var(--text-dim);
+  font-weight: 600;
+  text-align: center;
+}
+
+.ugp-tiles {
+  display: grid;
+  /* 4 tiles across on anything wider than ~520px; wraps to 2 x 2 on
+     phones. minmax(130px, 1fr) gives each tile a readable floor. */
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.ugp-tile {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 10px 12px;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  text-align: center;
+}
+
+.ugp-tile-label {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  color: var(--text-dim);
+  font-weight: 600;
+}
+
+.ugp-tile-value {
+  font-family: var(--mono);
+  font-variant-numeric: tabular-nums;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--text-h);
+  line-height: 1.2;
+  white-space: nowrap;
+}
+
+.ugp-note {
+  margin: 4px 0 0;
+  text-align: center;
+  font-size: 10px;
+  color: var(--text-dim);
+  font-style: italic;
+}
+
+/* Mobile: slightly smaller values so "ATL 112 — OKC 108" fits one line
+   even in a narrow projected-score tile at phone width. */
+@media (max-width: 480px) {
+  .ugp-tile-value { font-size: 15px; }
+}
