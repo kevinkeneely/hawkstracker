@@ -8,7 +8,7 @@ const HAWKS_TEAM_ID = 1610612737
  * Per-Hawks-player projection table for an upcoming game. Renders below
  * the team prediction block (UpcomingGamePrediction).
  *
- * 7 stats: MIN / PTS / REB / AST / 3PM / STL / BLK. (TOV pending — raw turnover count not in game_logs yet; only tov_pct rate.)
+ * 8 stats: MIN / PTS / REB / AST / 3PM / STL / BLK / TOV.
  * - Single-number decimals (e.g. 31.3 MIN, 21.6 PTS).
  * - Sticky Player column, header row + player column visually tinted.
  * - Players flagged Out in the NBA injury report show with "DNP" + 🏥.
@@ -93,6 +93,7 @@ export default function UpcomingGamePlayerProjections({ oppTricode, season = CUR
               <th>3PM</th>
               <th>STL</th>
               <th>BLK</th>
+              <th>TOV</th>
             </tr>
           </thead>
           <tbody>
@@ -111,7 +112,7 @@ export default function UpcomingGamePlayerProjections({ oppTricode, season = CUR
                   )}
                 </td>
                 {r.dnp ? (
-                  <td colSpan={7} className="ugpp-dnp-cell">
+                  <td colSpan={8} className="ugpp-dnp-cell">
                     DNP {r.dnpReason ? `— ${r.dnpReason}` : ''}
                   </td>
                 ) : (
@@ -123,6 +124,7 @@ export default function UpcomingGamePlayerProjections({ oppTricode, season = CUR
                     <td>{fmt(r.fg3m)}</td>
                     <td>{fmt(r.stl)}</td>
                     <td>{fmt(r.blk)}</td>
+                    <td>{fmt(r.tov)}</td>
                   </>
                 )}
               </tr>

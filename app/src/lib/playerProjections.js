@@ -45,9 +45,11 @@ const STAT_ADJUSTMENTS = {
   reb:   { field: 'opp_reb',      side: 'offense' },  // opp lets up more reb opportunities
   ast:   { field: 'opp_ast',      side: 'offense' },  // opp lets up more assists
   fg3m:  { field: 'opp_fg3_pct',  side: 'offense' },  // opp lets 3s go in at a higher rate
-  // tov intentionally omitted — raw turnover count isn't in the current
-  // game_logs file (only tov_pct rate). Re-enable once transform_game_logs
-  // publishes raw tov per game.
+  // Scaling by opp OPP_TOV: teams that force more TOVs on their
+  // opponents also force more TOVs out of our player. (Semantic flip
+  // from the other offensive stats — same direction of multiplier
+  // though: higher opp value = higher projected TOV for the player.)
+  tov:   { field: 'opp_tov',      side: 'offense' },
   // Defensive stats: scale by opponent's offensive sloppiness.
   stl:   { field: 'opp_tov',      side: 'defense' },  // opp loses the ball more → more STL for us
   blk:   { field: 'opp_fg_pct',   side: 'defense', invert: true },
@@ -108,7 +110,7 @@ export function projectPlayer({
   // Hard DNP for Out — zero projection, flag in the row.
   if (injuryStatus === 'Out') {
     return {
-      min: 0, pts: 0, reb: 0, ast: 0, fg3m: 0, stl: 0, blk: 0,
+      min: 0, pts: 0, reb: 0, ast: 0, fg3m: 0, stl: 0, blk: 0, tov: 0,
       dnp: true,
       dnpReason: injuryReason || 'Out',
       injuryStatus, injuryReason,
@@ -120,7 +122,7 @@ export function projectPlayer({
   // semantic from "projected to not play" (an Out player gets 0 explicitly).
   if (!playerGames || playerGames.length === 0) {
     return {
-      min: null, pts: null, reb: null, ast: null, fg3m: null, stl: null, blk: null,
+      min: null, pts: null, reb: null, ast: null, fg3m: null, stl: null, blk: null, tov: null,
       dnp: true, dnpReason: 'No game data yet',
       injuryStatus, injuryReason,
     }
@@ -157,7 +159,7 @@ export function projectPlayer({
   const paceAdj = projectedPace / hawksTeam.pace
 
   // Compute each stat's projection
-  const stats = ['pts', 'reb', 'ast', 'fg3m', 'stl', 'blk']
+  const stats = ['pts', 'reb', 'ast', 'fg3m', 'stl', 'blk', 'tov']
   const projection = { min: projectedMin }
 
   for (const stat of stats) {

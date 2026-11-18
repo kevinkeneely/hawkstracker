@@ -22,7 +22,7 @@ Shape:
 
 Per-game entry fields (all nullable):
   game_id, date, opp_tricode, home_away, won,
-  min, pts, reb, ast, fgm, fga, fg_pct, fg3m, fg3a, fg3_pct, ftm, fta, ft_pct,
+  min, pts, reb, ast, tov, fgm, fga, fg_pct, fg3m, fg3a, fg3_pct, ftm, fta, ft_pct,
   efg_pct, ts_pct, net_rating, off_rating, def_rating
 
 Players who did not play in a given game (DNP) are skipped for that
@@ -175,6 +175,11 @@ def _game_entry(game, trad_row, adv_row, opp_poss, opp_fga_2pt, team_min):
         "ft_pct":      trad_row.get("FT_PCT"),
         "stl":         stl,
         "blk":         blk,
+        # Raw turnover count per game. V3 traditional box score field is "TO"
+        # (not "TOV"). Added Nov 18 so the player-projection table can
+        # project TOV like the other counting stats; the pre-existing
+        # tov_pct field below stays, it's the rate used by Trends.
+        "tov":         trad_row.get("TO"),
         "efg_pct":     (adv_row or {}).get("effectiveFieldGoalPercentage"),
         "ts_pct":      (adv_row or {}).get("trueShootingPercentage"),
         "net_rating":  (adv_row or {}).get("netRating"),
