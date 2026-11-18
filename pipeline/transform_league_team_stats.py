@@ -88,6 +88,25 @@ def transform() -> None:
         for row in ff_rs["rowSet"]
     }
 
+    # Build TEAM_ID -> opp per-100-poss lookup from the Opponent measure.
+    # These are "what the team allows per 100 possessions": high OPP_PTS =
+    # bad defense = projections boost our player's scoring against them.
+    # Used by lib/playerProjections.js for per-stat opponent adjustments.
+    src_opp = _latest("league_team_opponent_*.json")
+    print(f"[league-team-stats] reading {src_opp}")
+    opp_rs = json.loads(src_opp.read_text())["resultSets"][0]
+    opp_col = {h: i for i, h in enumerate(opp_rs["headers"])}
+    opp_cols_to_keep = [
+        "OPP_PTS", "OPP_REB", "OPP_AST", "OPP_STL", "OPP_BLK", "OPP_TOV",
+        "OPP_FG3_PCT", "OPP_FG_PCT",
+    ]
+    opp_by_team = {
+        row[opp_col["TEAM_ID"]]: {
+            c.lower(): row[opp_col[c]] for c in opp_cols_to_keep
+        }
+        for row in opp_rs["rowSet"]
+    }
+
     teams = []
     for row in rs["rowSet"]:
         name = row[col["TEAM_NAME"]]
@@ -115,6 +134,10 @@ def transform() -> None:
             "oreb_pct":    row[col["OREB_PCT"]],
             "ts_pct":      row[col["TS_PCT"]],
             "fta_rate":    fta_rate_by_team.get(row[col["TEAM_ID"]]),
+            # Opponent per-100-poss splits — see opp_by_team above.
+            # Keys: opp_pts, opp_reb, opp_ast, opp_stl, opp_blk, opp_tov,
+            # opp_fg3_pct, opp_fg_pct.
+            **opp_by_team.get(row[col["TEAM_ID"]], {}),
         })
 
     out = {

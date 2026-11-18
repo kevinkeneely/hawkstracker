@@ -7,6 +7,7 @@ import {
   PLAYMAKING_GLOSSARY,
 } from '../data/boxScoreGlossary'
 import UpcomingGamePrediction from '../components/UpcomingGamePrediction'
+import UpcomingGamePlayerProjections from '../components/UpcomingGamePlayerProjections'
 
 // Context: Set<number> of Hawks player ids. Any PlayerRow inside this
 // provider can read it with useContext(HawksIdsContext) to decide whether
@@ -200,6 +201,7 @@ export default function BoxScorePage({ season, playerData }) {
           oppTricode={game.opp_tricode}
           hawksAreHome={game.home_away === 'home'}
         />
+        <UpcomingGamePlayerProjections oppTricode={game.opp_tricode} />
       </div>
     )
   }

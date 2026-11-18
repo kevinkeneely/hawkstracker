@@ -5004,3 +5004,125 @@ header {
   position: relative;
   top: -2px;
 }
+
+/* ======================================================================
+   Upcoming Game Player Projections (BoxScorePage upcoming-game branch,
+   under the team-level UpcomingGamePrediction block).
+   ====================================================================== */
+
+.ugpp-section {
+  margin: 20px auto 24px;
+  max-width: 860px;
+  padding: 16px 20px;
+  background: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+}
+
+.ugpp-title {
+  margin: 0 0 12px;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  color: var(--text-dim);
+  font-weight: 600;
+  text-align: center;
+}
+
+/* Horizontal scroll container for narrow phones; sticky player column
+   will pin left during that scroll. Matches the Lineups + Player Stats
+   table pattern. */
+.ugpp-table-wrap {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.ugpp-table {
+  width: max-content;
+  min-width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+  font-variant-numeric: tabular-nums;
+}
+
+.ugpp-table th,
+.ugpp-table td {
+  padding: 8px 10px;
+  border-bottom: 1px solid var(--border);
+  white-space: nowrap;
+  text-align: right;
+}
+
+/* Column dividers on all but the last column */
+.ugpp-table th:not(:last-child),
+.ugpp-table td:not(:last-child) {
+  border-right: 1px solid var(--border);
+}
+
+/* Header row: tinted so it reads as the label row */
+.ugpp-table thead th {
+  font-weight: 600;
+  color: var(--text-h);
+  background: var(--bg);
+  border-bottom-width: 2px;
+}
+
+/* Sticky Player column — tinted so it reads as the row-label column.
+   Left-aligned (header + body cells). */
+.ugpp-col-player {
+  text-align: left !important;
+  position: sticky;
+  left: 0;
+  background: var(--bg);
+  z-index: 1;
+  font-weight: 500;
+  color: var(--text-h);
+}
+.ugpp-table thead th.ugpp-col-player {
+  z-index: 2;
+}
+
+/* DNP row: dim the name, show the "DNP — reason" cell spanning the stat
+   columns. */
+.ugpp-row-dnp .ugpp-col-player {
+  color: var(--text-dim);
+  font-style: italic;
+}
+.ugpp-dnp-cell {
+  text-align: left !important;
+  color: var(--text-dim);
+  font-style: italic;
+  font-size: 12px;
+}
+
+/* Inline 🏥 next to the player's name — tiny, nudged up to center against
+   the row text. */
+.ugpp-injury-icon {
+  margin-left: 6px;
+  font-size: 0.85em;
+  vertical-align: middle;
+  cursor: help;
+  position: relative;
+  top: -1px;
+}
+
+.ugpp-note {
+  margin: 10px 0 0;
+  text-align: center;
+  font-size: 10px;
+  color: var(--text-dim);
+  font-style: italic;
+  line-height: 1.5;
+}
+
+/* Mobile: tighter padding + shrink font so more stat columns fit per
+   scroll step */
+@media (max-width: 640px) {
+  .ugpp-table {
+    font-size: 11px;
+  }
+  .ugpp-table th,
+  .ugpp-table td {
+    padding: 6px 6px;
+  }
+}
