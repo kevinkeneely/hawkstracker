@@ -90,8 +90,8 @@ export default function UpcomingGamePrediction({ oppTricode, hawksAreHome }) {
           <div className="ugp-tile-label">Projected score</div>
           <div className="ugp-tile-value">
             {hawksAreHome
-              ? `ATL ${hawksPts} — ${oppTricode} ${oppPts}`
-              : `${oppTricode} ${oppPts} — ATL ${hawksPts}`}
+              ? `ATL ${hawksPts} - ${oppTricode} ${oppPts}`
+              : `${oppTricode} ${oppPts} - ATL ${hawksPts}`}
           </div>
         </div>
         <div className="ugp-tile">

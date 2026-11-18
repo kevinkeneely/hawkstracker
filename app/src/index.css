@@ -4966,7 +4966,10 @@ header {
 .ugp-tile-value {
   font-family: var(--mono);
   font-variant-numeric: tabular-nums;
-  font-size: 18px;
+  /* 14px is the widest we can go without "OKC 114 - ATL 108" (the
+     longest value, projected score) overflowing a ~140px tile at the
+     720px .ugp-section cap. Nowrap keeps it on one line. */
+  font-size: 14px;
   font-weight: 700;
   color: var(--text-h);
   line-height: 1.2;
@@ -4981,8 +4984,9 @@ header {
   font-style: italic;
 }
 
-/* Mobile: slightly smaller values so "ATL 112 — OKC 108" fits one line
-   even in a narrow projected-score tile at phone width. */
+/* Very narrow phones: one more size down so the projected-score tile
+   always fits its full "OKC 114 - ATL 108" value on one line, even in
+   the 2 x 2 wrap layout where each tile takes ~half the viewport. */
 @media (max-width: 480px) {
-  .ugp-tile-value { font-size: 15px; }
+  .ugp-tile-value { font-size: 13px; }
 }
