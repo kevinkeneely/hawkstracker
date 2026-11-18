@@ -1,6 +1,6 @@
 {
   "season": "2026-27",
-  "updated": "2026-11-17",
+  "updated": "2026-11-18",
   "players": [
     {
       "id": 1630552,
@@ -65,10 +65,10 @@
       "screen_assists": 0.55,
       "screen_ast_pts": 1.18,
       "loose_balls": 0.45,
-      "off_boxouts": 0.0,
+      "off_boxouts": 0.09,
       "def_boxouts": 0.73,
       "box_outs": 0.82,
-      "box_out_team_rebs": 0.73,
+      "box_out_team_rebs": 0.82,
       "clutch_gp": 7,
       "clutch_min": 3.6,
       "clutch_fg_pct": 0.385,
@@ -79,61 +79,61 @@
       "qualified": true,
       "ppg_pctile": 0.9023354564755839,
       "rpg_pctile": 0.9660297239915074,
-      "orpg_pctile": 0.772823779193206,
+      "orpg_pctile": 0.7707006369426752,
       "drpg_pctile": 0.9830148619957537,
       "apg_pctile": 0.9766454352441614,
-      "spg_pctile": 0.6900212314225053,
-      "bpg_pctile": 0.6518046709129511,
-      "tov_pctile": 0.9766454352441614,
-      "fg_pct_pctile": 0.4692144373673036,
+      "spg_pctile": 0.6836518046709129,
+      "bpg_pctile": 0.6560509554140127,
+      "tov_pctile": 0.9787685774946921,
+      "fg_pct_pctile": 0.46496815286624205,
       "fg3_pct_pctile": 0.23354564755838642,
-      "ft_pct_pctile": 0.5520169851380042,
-      "ast_pct_pctile": 0.921443736730361,
-      "tov_pct_pctile": 0.6305732484076433,
-      "efg_pct_pctile": 0.27388535031847133,
-      "ts_pct_pctile": 0.31422505307855625,
-      "reb_pct_pctile": 0.7919320594479831,
-      "fta_rate_pctile": 0.7304347826086957,
+      "ft_pct_pctile": 0.554140127388535,
+      "ast_pct_pctile": 0.9193205944798302,
+      "tov_pct_pctile": 0.6284501061571125,
+      "efg_pct_pctile": 0.267515923566879,
+      "ts_pct_pctile": 0.3205944798301486,
+      "reb_pct_pctile": 0.7940552016985138,
+      "fta_rate_pctile": 0.7347826086956522,
       "ppg_p36": 20.466472303207,
-      "ppg_p36_pctile": 0.8067940552016986,
+      "ppg_p36_pctile": 0.8089171974522293,
       "rpg_p36": 9.446064139941692,
       "rpg_p36_pctile": 0.7876857749469215,
       "orpg_p36": 1.469387755102041,
-      "orpg_p36_pctile": 0.5116772823779193,
+      "orpg_p36_pctile": 0.5095541401273885,
       "drpg_p36": 7.97667638483965,
       "drpg_p36_pctile": 0.9087048832271762,
       "apg_p36": 7.661807580174928,
       "apg_p36_pctile": 0.9363057324840764,
       "spg_p36": 0.9446064139941691,
-      "spg_p36_pctile": 0.386411889596603,
+      "spg_p36_pctile": 0.3842887473460722,
       "bpg_p36": 0.5247813411078718,
-      "bpg_p36_pctile": 0.5010615711252654,
+      "bpg_p36_pctile": 0.5074309978768577,
       "tov_p36": 3.6734693877551026,
-      "tov_p36_pctile": 0.8980891719745223,
+      "tov_p36_pctile": 0.9002123142250531,
       "zones": {
         "at_rim": {
           "fga": 71,
           "fgm": 48,
           "pct": 0.6761,
-          "pctile": 0.5975609756097561
+          "pctile": 0.6035502958579881
         },
         "paint": {
           "fga": 50,
           "fgm": 20,
           "pct": 0.4,
-          "pctile": 0.38461538461538464
+          "pctile": 0.39285714285714285
         },
         "mid": {
           "fga": 12,
           "fgm": 2,
           "pct": 0.1667,
-          "pctile": 0.07142857142857142
+          "pctile": 0.07027027027027027
         },
         "corner_3": {
           "fga": 4,
           "fgm": 1,
           "pct": 0.25,
-          "pctile": 0.1969111969111969
+          "pctile": 0.21348314606741572
         },
         "l_corner_3": {
           "fga": 2,
@@ -149,25 +149,25 @@
           "fga": 40,
           "fgm": 7,
           "pct": 0.175,
-          "pctile": 0.07166123778501629
+          "pctile": 0.0744336569579288
         }
       },
       "hustle": {
         "contested_shots": {
           "value": 5.45,
-          "pctile": 0.841
+          "pctile": 0.84
         },
         "contested_shots_2pt": {
           "value": 2.91,
-          "pctile": 0.7844
+          "pctile": 0.7893
         },
         "contested_shots_3pt": {
           "value": 2.55,
-          "pctile": 0.9326
+          "pctile": 0.9333
         },
         "deflections": {
           "value": 2.09,
-          "pctile": 0.7628
+          "pctile": 0.7707
         },
         "charges_drawn": {
           "value": 0.0,
@@ -175,27 +175,27 @@
         },
         "screen_assists": {
           "value": 0.55,
-          "pctile": 0.6307
+          "pctile": 0.6267
         },
         "screen_ast_pts": {
           "value": 1.18,
-          "pctile": 0.6038
+          "pctile": 0.6133
         },
         "loose_balls_recovered": {
           "value": 0.45,
-          "pctile": 0.7251
+          "pctile": 0.7147
         },
         "box_outs": {
           "value": 0.82,
-          "pctile": 0.7628
+          "pctile": 0.7707
         },
         "pct_box_outs_off": {
           "value": 0.111,
-          "pctile": 0.5606
+          "pctile": 0.5707
         },
         "pct_box_outs_def": {
           "value": 0.889,
-          "pctile": 0.4879
+          "pctile": 0.52
         }
       },
       "stl_p75": 0.9057497497307212,
@@ -203,15 +203,15 @@
       "clutch": {
         "gp": {
           "value": 7,
-          "pctile": 0.872
+          "pctile": 0.8611
         },
         "min": {
           "value": 3.6,
-          "pctile": 0.6825
+          "pctile": 0.6991
         },
         "pts": {
           "value": 2.6,
-          "pctile": 0.8341
+          "pctile": 0.8287
         },
         "oreb": {
           "value": 0.0,
@@ -219,19 +219,19 @@
         },
         "dreb": {
           "value": 0.9,
-          "pctile": 0.9289
+          "pctile": 0.9259
         },
         "reb": {
           "value": 0.9,
-          "pctile": 0.7867
+          "pctile": 0.7917
         },
         "ast": {
           "value": 0.7,
-          "pctile": 0.8768
+          "pctile": 0.8796
         },
         "stl": {
           "value": 0.1,
-          "pctile": 0.7014
+          "pctile": 0.6806
         },
         "blk": {
           "value": 0.0,
@@ -239,19 +239,19 @@
         },
         "tov": {
           "value": 0.3,
-          "pctile": 0.7156
+          "pctile": 0.7315
         },
         "fgm": {
           "value": 0.7,
-          "pctile": 0.7678
+          "pctile": 0.7685
         },
         "fga": {
           "value": 1.9,
-          "pctile": 0.8531
+          "pctile": 0.8519
         },
         "fg_pct": {
           "value": 0.385,
-          "pctile": 0.545
+          "pctile": 0.5509
         },
         "fg3m": {
           "value": 0.0,
@@ -267,15 +267,15 @@
         },
         "ftm": {
           "value": 1.1,
-          "pctile": 0.9052
+          "pctile": 0.912
         },
         "fta": {
           "value": 1.4,
-          "pctile": 0.9147
+          "pctile": 0.9167
         },
         "ft_pct": {
           "value": 0.8,
-          "pctile": 0.6398
+          "pctile": 0.6296
         },
         "pf": {
           "value": 0.0,
@@ -283,31 +283,31 @@
         },
         "plus_minus": {
           "value": 1.4,
-          "pctile": 0.7488
+          "pctile": 0.75
         },
         "off_rating": {
           "value": 110.7,
-          "pctile": 0.5782
+          "pctile": 0.5463
         },
         "def_rating": {
           "value": 91.2,
-          "pctile": 0.2275
+          "pctile": 0.2269
         },
         "net_rating": {
           "value": 19.5,
-          "pctile": 0.7346
+          "pctile": 0.7407
         },
         "efg_pct": {
           "value": 0.385,
-          "pctile": 0.5118
+          "pctile": 0.5231
         },
         "ts_pct": {
           "value": 0.517,
-          "pctile": 0.5545
+          "pctile": 0.5417
         },
         "ast_pct": {
           "value": 0.333,
-          "pctile": 0.8578
+          "pctile": 0.8565
         },
         "oreb_pct": {
           "value": 0.0,
@@ -315,136 +315,136 @@
         },
         "dreb_pct": {
           "value": 0.188,
-          "pctile": 0.782
+          "pctile": 0.7824
         },
         "reb_pct": {
           "value": 0.098,
-          "pctile": 0.6398
+          "pctile": 0.6296
         },
         "tm_tov_pct": {
           "value": 8.3,
-          "pctile": 0.6161
+          "pctile": 0.6019
         },
         "usg_pct": {
           "value": 0.306,
-          "pctile": 0.8626
+          "pctile": 0.8704
         },
         "pie": {
           "value": 0.231,
-          "pctile": 0.872
+          "pctile": 0.875
         }
       },
       "stl_pct": 0.01234406801323539,
       "blk_pct": 0.014026627407566264,
-      "stl_pct_pctile": 0.26422764227642276,
-      "blk_pct_pctile": 0.483739837398374,
+      "stl_pct_pctile": 0.26104417670682734,
+      "blk_pct_pctile": 0.4899598393574297,
       "defense_tracking": {
         "d_fgm": {
           "value": 6.09,
-          "pctile": 0.9372
+          "pctile": 0.9464
         },
         "d_fga": {
           "value": 11.27,
-          "pctile": 0.8388
+          "pctile": 0.8472
         },
         "d_fg_pct": {
           "value": 0.54,
-          "pctile": 0.8989
+          "pctile": 0.8981
         },
         "normal_fg_pct": {
           "value": 0.472,
-          "pctile": 0.8033
+          "pctile": 0.807
         },
         "pct_plusminus": {
-          "value": 0.068,
-          "pctile": 0.8415
+          "value": 0.069,
+          "pctile": 0.8445
         }
       },
       "playmaking_tracking": {
         "drives": {
           "drives": {
             "value": 15.3,
-            "pctile": 0.9256
+            "pctile": 0.9342
           },
           "drive_fgm": {
             "value": 3.0,
-            "pctile": 0.9205
+            "pctile": 0.9215
           },
           "drive_fga": {
             "value": 6.5,
-            "pctile": 0.9282
+            "pctile": 0.9367
           },
           "drive_fg_pct": {
             "value": 0.458,
-            "pctile": 0.4667
+            "pctile": 0.4532
           },
           "drive_pts": {
             "value": 7.9,
-            "pctile": 0.9256
+            "pctile": 0.9266
           },
           "drive_ast": {
             "value": 1.6,
-            "pctile": 0.9231
+            "pctile": 0.9266
           },
           "drive_tov": {
             "value": 1.5,
-            "pctile": 0.9897
+            "pctile": 0.9873
           }
         },
         "passing": {
           "passes_made": {
             "value": 62.5,
-            "pctile": 0.9821
+            "pctile": 0.9823
           },
           "passes_received": {
             "value": 54.0,
-            "pctile": 0.9282
+            "pctile": 0.9291
           },
           "potential_ast": {
             "value": 11.6,
-            "pctile": 0.9487
+            "pctile": 0.9519
           },
           "ast_points_created": {
             "value": 18.4,
-            "pctile": 0.9641
+            "pctile": 0.9646
           },
           "ast_to_pass_pct": {
             "value": 0.116,
-            "pctile": 0.8462
+            "pctile": 0.8506
           }
         },
         "possessions": {
           "touches": {
             "value": 73.9,
-            "pctile": 0.9667
+            "pctile": 0.9671
           },
           "front_ct_touches": {
             "value": 38.4,
-            "pctile": 0.9667
+            "pctile": 0.9671
           },
           "time_of_poss": {
             "value": 4.0,
-            "pctile": 0.8436
+            "pctile": 0.843
           },
           "avg_sec_per_touch": {
             "value": 3.23,
-            "pctile": 0.4949
+            "pctile": 0.4987
           },
           "pts_per_touch": {
             "value": 0.263,
-            "pctile": 0.359
+            "pctile": 0.357
           },
           "elbow_touches": {
             "value": 1.6,
-            "pctile": 0.8692
+            "pctile": 0.8658
           },
           "post_touches": {
             "value": 2.5,
-            "pctile": 0.9564
+            "pctile": 0.957
           },
           "paint_touches": {
             "value": 4.5,
-            "pctile": 0.8538
+            "pctile": 0.8557
           }
         }
       },
@@ -452,87 +452,87 @@
         "cs": {
           "fgm": {
             "value": 3.55,
-            "pctile": 0.8846
+            "pctile": 0.8864
           },
           "fga": {
             "value": 7.18,
-            "pctile": 0.9077
+            "pctile": 0.9091
           },
           "fg_pct": {
             "value": 0.494,
-            "pctile": 0.6538
+            "pctile": 0.6515
           },
           "efg_pct": {
             "value": 0.532,
-            "pctile": 0.3769
+            "pctile": 0.3788
           },
           "fg3m": {
             "value": 0.55,
-            "pctile": 0.3564
+            "pctile": 0.3611
           },
           "fg3a": {
             "value": 3.0,
-            "pctile": 0.6026
+            "pctile": 0.6187
           },
           "fg3_pct": {
             "value": 0.182,
-            "pctile": 0.108
+            "pctile": 0.1117
           }
         },
         "pullup": {
           "fgm": {
             "value": 2.36,
-            "pctile": 0.874
+            "pctile": 0.8744
           },
           "fga": {
             "value": 6.09,
-            "pctile": 0.9108
+            "pctile": 0.9128
           },
           "fg_pct": {
             "value": 0.388,
-            "pctile": 0.3438
+            "pctile": 0.3564
           },
           "efg_pct": {
             "value": 0.403,
-            "pctile": 0.3333
+            "pctile": 0.341
           },
           "fg3m": {
             "value": 0.18,
-            "pctile": 0.7008
+            "pctile": 0.7051
           },
           "fg3a": {
             "value": 1.0,
-            "pctile": 0.8189
+            "pctile": 0.8308
           },
           "fg3_pct": {
             "value": 0.182,
-            "pctile": 0.3453
+            "pctile": 0.3404
           }
         },
         "contested": {
           "fgm": {
-            "value": 4.36,
-            "pctile": 0.9434
+            "value": 4.18,
+            "pctile": 0.9394
           },
           "fga": {
-            "value": 8.82,
-            "pctile": 0.9486
+            "value": 8.66,
+            "pctile": 0.9444
           },
           "fg_pct": {
-            "value": 0.4943,
-            "pctile": 0.509
+            "value": 0.4827,
+            "pctile": 0.4646
           },
           "efg_pct": {
-            "value": 0.4943,
-            "pctile": 0.4113
+            "value": 0.4827,
+            "pctile": 0.3763
           },
           "fg3m": {
             "value": 0.0,
             "pctile": 0.0
           },
           "fg3a": {
-            "value": 0.45,
-            "pctile": 0.6812
+            "value": 0.47,
+            "pctile": 0.7045
           },
           "fg3_pct": {
             "value": 0.0,
@@ -542,31 +542,31 @@
         "uncontested": {
           "fgm": {
             "value": 2.45,
-            "pctile": 0.739
+            "pctile": 0.7411
           },
           "fga": {
             "value": 6.91,
-            "pctile": 0.845
+            "pctile": 0.8477
           },
           "fg_pct": {
             "value": 0.3546,
-            "pctile": 0.2222
+            "pctile": 0.2234
           },
           "efg_pct": {
             "value": 0.4074,
-            "pctile": 0.1602
+            "pctile": 0.1599
           },
           "fg3m": {
             "value": 0.73,
-            "pctile": 0.4186
+            "pctile": 0.4264
           },
           "fg3a": {
             "value": 3.55,
-            "pctile": 0.6589
+            "pctile": 0.6701
           },
           "fg3_pct": {
             "value": 0.2056,
-            "pctile": 0.1409
+            "pctile": 0.1495
           }
         }
       }
@@ -646,63 +646,63 @@
       "pos": "G",
       "fta_rate": 0.2605042016806723,
       "qualified": true,
-      "ppg_pctile": 0.9278131634819533,
-      "rpg_pctile": 0.6029723991507431,
-      "orpg_pctile": 0.772823779193206,
-      "drpg_pctile": 0.46496815286624205,
+      "ppg_pctile": 0.9299363057324841,
+      "rpg_pctile": 0.5966029723991507,
+      "orpg_pctile": 0.7707006369426752,
+      "drpg_pctile": 0.46709129511677283,
       "apg_pctile": 0.7346072186836518,
       "spg_pctile": 0.940552016985138,
       "bpg_pctile": 0.5881104033970276,
-      "tov_pctile": 0.8386411889596603,
+      "tov_pctile": 0.8407643312101911,
       "fg_pct_pctile": 0.3524416135881104,
-      "fg3_pct_pctile": 0.6072186836518046,
+      "fg3_pct_pctile": 0.6050955414012739,
       "ft_pct_pctile": 0.7154989384288747,
-      "ast_pct_pctile": 0.49044585987261147,
-      "tov_pct_pctile": 0.3609341825902335,
-      "efg_pct_pctile": 0.4713375796178344,
-      "ts_pct_pctile": 0.49469214437367304,
-      "reb_pct_pctile": 0.2356687898089172,
-      "fta_rate_pctile": 0.55,
+      "ast_pct_pctile": 0.4840764331210191,
+      "tov_pct_pctile": 0.35668789808917195,
+      "efg_pct_pctile": 0.46496815286624205,
+      "ts_pct_pctile": 0.49044585987261147,
+      "reb_pct_pctile": 0.23142250530785563,
+      "fta_rate_pctile": 0.5521739130434783,
       "ppg_p36": 24.150470219435736,
-      "ppg_p36_pctile": 0.9129511677282378,
+      "ppg_p36_pctile": 0.9171974522292994,
       "rpg_p36": 4.06269592476489,
-      "rpg_p36_pctile": 0.24628450106157113,
+      "rpg_p36_pctile": 0.24416135881104034,
       "orpg_p36": 1.5799373040752351,
-      "orpg_p36_pctile": 0.5520169851380042,
+      "orpg_p36_pctile": 0.5562632696390658,
       "drpg_p36": 2.369905956112853,
-      "drpg_p36_pctile": 0.16772823779193205,
+      "drpg_p36_pctile": 0.16348195329087048,
       "apg_p36": 3.047021943573668,
       "apg_p36_pctile": 0.5201698513800425,
       "spg_p36": 1.6927899686520378,
-      "spg_p36_pctile": 0.7961783439490446,
+      "spg_p36_pctile": 0.7983014861995754,
       "bpg_p36": 0.45141065830721006,
-      "bpg_p36_pctile": 0.4607218683651805,
+      "bpg_p36_pctile": 0.4692144373673036,
       "tov_p36": 2.369905956112853,
-      "tov_p36_pctile": 0.6284501061571125,
+      "tov_p36_pctile": 0.6326963906581741,
       "zones": {
         "at_rim": {
           "fga": 56,
           "fgm": 31,
           "pct": 0.5536,
-          "pctile": 0.18292682926829268
+          "pctile": 0.19822485207100593
         },
         "paint": {
           "fga": 27,
           "fgm": 12,
           "pct": 0.4444,
-          "pctile": 0.5421245421245421
+          "pctile": 0.5357142857142857
         },
         "mid": {
           "fga": 10,
           "fgm": 5,
           "pct": 0.5,
-          "pctile": 0.7307692307692307
+          "pctile": 0.7351351351351352
         },
         "corner_3": {
           "fga": 48,
           "fgm": 18,
           "pct": 0.375,
-          "pctile": 0.5135135135135135
+          "pctile": 0.5168539325842697
         },
         "l_corner_3": {
           "fga": 33,
@@ -718,53 +718,53 @@
           "fga": 97,
           "fgm": 32,
           "pct": 0.3299,
-          "pctile": 0.4527687296416938
+          "pctile": 0.45307443365695793
         }
       },
       "hustle": {
         "contested_shots": {
           "value": 1.93,
-          "pctile": 0.2345
+          "pctile": 0.2453
         },
         "contested_shots_2pt": {
           "value": 1.43,
-          "pctile": 0.3962
+          "pctile": 0.4053
         },
         "contested_shots_3pt": {
           "value": 0.5,
-          "pctile": 0.0997
+          "pctile": 0.1067
         },
         "deflections": {
           "value": 2.5,
-          "pctile": 0.8625
+          "pctile": 0.856
         },
         "charges_drawn": {
           "value": 0.07,
-          "pctile": 0.7628
+          "pctile": 0.76
         },
         "screen_assists": {
           "value": 0.29,
-          "pctile": 0.434
+          "pctile": 0.4347
         },
         "screen_ast_pts": {
           "value": 0.57,
-          "pctile": 0.3989
+          "pctile": 0.408
         },
         "loose_balls_recovered": {
           "value": 1.07,
-          "pctile": 0.9919
+          "pctile": 0.992
         },
         "box_outs": {
           "value": 0.43,
-          "pctile": 0.4987
+          "pctile": 0.5067
         },
         "pct_box_outs_off": {
           "value": 0.167,
-          "pctile": 0.6334
+          "pctile": 0.64
         },
         "pct_box_outs_def": {
           "value": 0.833,
-          "pctile": 0.407
+          "pctile": 0.432
         }
       },
       "stl_p75": 1.6001417607070967,
@@ -772,27 +772,27 @@
       "clutch": {
         "gp": {
           "value": 9,
-          "pctile": 0.9763
+          "pctile": 0.963
         },
         "min": {
           "value": 3.4,
-          "pctile": 0.6209
+          "pctile": 0.6296
         },
         "pts": {
           "value": 2.9,
-          "pctile": 0.872
+          "pctile": 0.8704
         },
         "oreb": {
           "value": 0.1,
-          "pctile": 0.5592
+          "pctile": 0.5463
         },
         "dreb": {
           "value": 0.4,
-          "pctile": 0.5403
+          "pctile": 0.537
         },
         "reb": {
           "value": 0.6,
-          "pctile": 0.5687
+          "pctile": 0.5509
         },
         "ast": {
           "value": 0.0,
@@ -808,71 +808,71 @@
         },
         "tov": {
           "value": 0.1,
-          "pctile": 0.5308
+          "pctile": 0.5185
         },
         "fgm": {
           "value": 0.8,
-          "pctile": 0.7962
+          "pctile": 0.8009
         },
         "fga": {
           "value": 2.7,
-          "pctile": 0.9289
+          "pctile": 0.9352
         },
         "fg_pct": {
           "value": 0.292,
-          "pctile": 0.4692
+          "pctile": 0.4722
         },
         "fg3m": {
           "value": 0.2,
-          "pctile": 0.7014
+          "pctile": 0.6944
         },
         "fg3a": {
           "value": 1.9,
-          "pctile": 0.9905
+          "pctile": 0.9907
         },
         "fg3_pct": {
           "value": 0.118,
-          "pctile": 0.6777
+          "pctile": 0.6667
         },
         "ftm": {
           "value": 1.1,
-          "pctile": 0.9052
+          "pctile": 0.912
         },
         "fta": {
           "value": 1.1,
-          "pctile": 0.8389
+          "pctile": 0.8519
         },
         "ft_pct": {
           "value": 1.0,
-          "pctile": 0.7014
+          "pctile": 0.6898
         },
         "pf": {
           "value": 0.6,
-          "pctile": 0.7536
+          "pctile": 0.7593
         },
         "plus_minus": {
           "value": 2.6,
-          "pctile": 0.8483
+          "pctile": 0.8657
         },
         "off_rating": {
           "value": 111.1,
-          "pctile": 0.5972
+          "pctile": 0.5602
         },
         "def_rating": {
           "value": 81.4,
-          "pctile": 0.109
+          "pctile": 0.1157
         },
         "net_rating": {
           "value": 29.7,
-          "pctile": 0.8104
+          "pctile": 0.8194
         },
         "efg_pct": {
           "value": 0.333,
-          "pctile": 0.4502
+          "pctile": 0.4537
         },
         "ts_pct": {
           "value": 0.458,
-          "pctile": 0.4692
+          "pctile": 0.463
         },
         "ast_pct": {
           "value": 0.0,
@@ -880,90 +880,90 @@
         },
         "oreb_pct": {
           "value": 0.026,
-          "pctile": 0.5592
+          "pctile": 0.5463
         },
         "dreb_pct": {
           "value": 0.105,
-          "pctile": 0.4976
+          "pctile": 0.4861
         },
         "reb_pct": {
           "value": 0.065,
-          "pctile": 0.4408
+          "pctile": 0.4259
         },
         "tm_tov_pct": {
           "value": 3.3,
-          "pctile": 0.5308
+          "pctile": 0.5185
         },
         "usg_pct": {
           "value": 0.357,
-          "pctile": 0.9194
+          "pctile": 0.9259
         },
         "pie": {
           "value": 0.082,
-          "pctile": 0.4692
+          "pctile": 0.4769
         }
       },
       "stl_pct": 0.022121292207626635,
       "blk_pct": 0.012065537807636936,
-      "stl_pct_pctile": 0.8170731707317073,
-      "blk_pct_pctile": 0.44715447154471544,
+      "stl_pct_pctile": 0.8192771084337349,
+      "blk_pct_pctile": 0.4497991967871486,
       "defense_tracking": {
         "d_fgm": {
           "value": 4.5,
-          "pctile": 0.7158
+          "pctile": 0.7105
         },
         "d_fga": {
           "value": 8.57,
-          "pctile": 0.6011
+          "pctile": 0.6032
         },
         "d_fg_pct": {
           "value": 0.525,
-          "pctile": 0.8443
+          "pctile": 0.8525
         },
         "normal_fg_pct": {
           "value": 0.462,
-          "pctile": 0.653
+          "pctile": 0.6542
         },
         "pct_plusminus": {
           "value": 0.063,
-          "pctile": 0.8142
+          "pctile": 0.8123
         }
       },
       "playmaking_tracking": {
         "drives": {
           "drives": {
             "value": 9.4,
-            "pctile": 0.7872
+            "pctile": 0.7924
           },
           "drive_fgm": {
             "value": 1.8,
-            "pctile": 0.8026
+            "pctile": 0.8076
           },
           "drive_fga": {
             "value": 4.4,
-            "pctile": 0.841
+            "pctile": 0.8481
           },
           "drive_fg_pct": {
             "value": 0.41,
-            "pctile": 0.3462
+            "pctile": 0.3367
           },
           "drive_pts": {
             "value": 4.7,
-            "pctile": 0.8103
+            "pctile": 0.8228
           },
           "drive_ast": {
             "value": 0.4,
-            "pctile": 0.5256
+            "pctile": 0.5342
           },
           "drive_tov": {
             "value": 1.1,
-            "pctile": 0.9333
+            "pctile": 0.9418
           }
         },
         "passing": {
           "passes_made": {
             "value": 29.4,
-            "pctile": 0.6744
+            "pctile": 0.6759
           },
           "passes_received": {
             "value": 39.1,
@@ -971,49 +971,49 @@
           },
           "potential_ast": {
             "value": 4.4,
-            "pctile": 0.6667
+            "pctile": 0.6684
           },
           "ast_points_created": {
             "value": 6.3,
-            "pctile": 0.6538
+            "pctile": 0.6608
           },
           "ast_to_pass_pct": {
             "value": 0.092,
-            "pctile": 0.6179
+            "pctile": 0.6253
           }
         },
         "possessions": {
           "touches": {
             "value": 47.6,
-            "pctile": 0.7846
+            "pctile": 0.7848
           },
           "front_ct_touches": {
             "value": 31.7,
-            "pctile": 0.8974
+            "pctile": 0.9013
           },
           "time_of_poss": {
             "value": 2.8,
-            "pctile": 0.7205
+            "pctile": 0.7241
           },
           "avg_sec_per_touch": {
             "value": 3.51,
-            "pctile": 0.559
+            "pctile": 0.5671
           },
           "pts_per_touch": {
             "value": 0.449,
-            "pctile": 0.9308
+            "pctile": 0.9367
           },
           "elbow_touches": {
             "value": 0.6,
-            "pctile": 0.5846
+            "pctile": 0.5949
           },
           "post_touches": {
             "value": 0.1,
-            "pctile": 0.2692
+            "pctile": 0.2785
           },
           "paint_touches": {
             "value": 1.9,
-            "pctile": 0.6051
+            "pctile": 0.6076
           }
         }
       },
@@ -1021,121 +1021,121 @@
         "cs": {
           "fgm": {
             "value": 4.29,
-            "pctile": 0.959
+            "pctile": 0.9545
           },
           "fga": {
             "value": 10.64,
-            "pctile": 0.9846
+            "pctile": 0.9899
           },
           "fg_pct": {
             "value": 0.403,
-            "pctile": 0.2949
+            "pctile": 0.303
           },
           "efg_pct": {
             "value": 0.53,
-            "pctile": 0.3692
+            "pctile": 0.3712
           },
           "fg3m": {
             "value": 2.71,
-            "pctile": 0.9795
+            "pctile": 0.9798
           },
           "fg3a": {
             "value": 8.07,
-            "pctile": 0.9897
+            "pctile": 0.9899
           },
           "fg3_pct": {
             "value": 0.336,
-            "pctile": 0.4626
+            "pctile": 0.4714
           }
         },
         "pullup": {
           "fgm": {
             "value": 2.64,
-            "pctile": 0.8976
+            "pctile": 0.9026
           },
           "fga": {
             "value": 5.71,
-            "pctile": 0.9003
+            "pctile": 0.9051
           },
           "fg_pct": {
             "value": 0.463,
-            "pctile": 0.5328
+            "pctile": 0.5282
           },
           "efg_pct": {
             "value": 0.538,
-            "pctile": 0.6509
+            "pctile": 0.6615
           },
           "fg3m": {
             "value": 0.86,
-            "pctile": 0.9633
+            "pctile": 0.9667
           },
           "fg3a": {
             "value": 2.0,
-            "pctile": 0.9475
+            "pctile": 0.9513
           },
           "fg3_pct": {
             "value": 0.429,
-            "pctile": 0.7158
+            "pctile": 0.734
           }
         },
         "contested": {
           "fgm": {
-            "value": 2.36,
-            "pctile": 0.7506
+            "value": 2.35,
+            "pctile": 0.7525
           },
           "fga": {
-            "value": 6.28,
-            "pctile": 0.8586
+            "value": 6.22,
+            "pctile": 0.8535
           },
           "fg_pct": {
-            "value": 0.3758,
-            "pctile": 0.1568
+            "value": 0.3778,
+            "pctile": 0.1742
           },
           "efg_pct": {
-            "value": 0.3925,
-            "pctile": 0.1517
+            "value": 0.3955,
+            "pctile": 0.1768
           },
           "fg3m": {
-            "value": 0.21,
-            "pctile": 0.7969
+            "value": 0.22,
+            "pctile": 0.8081
           },
           "fg3a": {
-            "value": 2.0,
-            "pctile": 0.9589
+            "value": 2.03,
+            "pctile": 0.9596
           },
           "fg3_pct": {
-            "value": 0.105,
-            "pctile": 0.3357
+            "value": 0.1084,
+            "pctile": 0.3298
           }
         },
         "uncontested": {
           "fgm": {
             "value": 4.57,
-            "pctile": 0.9819
+            "pctile": 0.9822
           },
           "fga": {
             "value": 10.57,
-            "pctile": 0.9845
+            "pctile": 0.9873
           },
           "fg_pct": {
             "value": 0.4324,
-            "pctile": 0.5323
+            "pctile": 0.5635
           },
           "efg_pct": {
             "value": 0.5908,
-            "pctile": 0.6279
+            "pctile": 0.6218
           },
           "fg3m": {
             "value": 3.35,
-            "pctile": 0.9922
+            "pctile": 0.9949
           },
           "fg3a": {
             "value": 8.36,
-            "pctile": 0.9948
+            "pctile": 0.9949
           },
           "fg3_pct": {
             "value": 0.4007,
-            "pctile": 0.6961
+            "pctile": 0.7011
           }
         }
       }
@@ -1215,37 +1215,37 @@
       "pos": "G",
       "fta_rate": 0.1885245901639344,
       "qualified": true,
-      "ppg_pctile": 0.6284501061571125,
+      "ppg_pctile": 0.6242038216560509,
       "rpg_pctile": 0.9235668789808917,
       "orpg_pctile": 0.9723991507430998,
-      "drpg_pctile": 0.8110403397027601,
-      "apg_pctile": 0.9341825902335457,
+      "drpg_pctile": 0.8174097664543525,
+      "apg_pctile": 0.9363057324840764,
       "spg_pctile": 0.9957537154989384,
-      "bpg_pctile": 0.47558386411889597,
+      "bpg_pctile": 0.4713375796178344,
       "tov_pctile": 0.6305732484076433,
-      "fg_pct_pctile": 0.6666666666666666,
+      "fg_pct_pctile": 0.6687898089171974,
       "fg3_pct_pctile": 0.19957537154989385,
       "ft_pct_pctile": 0.21656050955414013,
-      "ast_pct_pctile": 0.8237791932059448,
-      "tov_pct_pctile": 0.2951167728237792,
-      "efg_pct_pctile": 0.3503184713375796,
-      "ts_pct_pctile": 0.27388535031847133,
-      "reb_pct_pctile": 0.7303609341825902,
-      "fta_rate_pctile": 0.3565217391304348,
+      "ast_pct_pctile": 0.8259023354564756,
+      "tov_pct_pctile": 0.2929936305732484,
+      "efg_pct_pctile": 0.346072186836518,
+      "ts_pct_pctile": 0.267515923566879,
+      "reb_pct_pctile": 0.7346072186836518,
+      "fta_rate_pctile": 0.35,
       "ppg_p36": 11.21311475409836,
-      "ppg_p36_pctile": 0.2611464968152866,
+      "ppg_p36_pctile": 0.267515923566879,
       "rpg_p36": 8.734426229508198,
       "rpg_p36_pctile": 0.7600849256900213,
       "orpg_p36": 3.8950819672131147,
-      "orpg_p36_pctile": 0.861995753715499,
+      "orpg_p36_pctile": 0.8598726114649682,
       "drpg_p36": 4.839344262295082,
-      "drpg_p36_pctile": 0.5477707006369427,
+      "drpg_p36_pctile": 0.5562632696390658,
       "apg_p36": 6.60983606557377,
-      "apg_p36_pctile": 0.8895966029723992,
+      "apg_p36_pctile": 0.8853503184713376,
       "spg_p36": 3.4229508196721308,
       "spg_p36_pctile": 0.9787685774946921,
       "bpg_p36": 0.3540983606557377,
-      "bpg_p36_pctile": 0.386411889596603,
+      "bpg_p36_pctile": 0.3821656050955414,
       "tov_p36": 1.534426229508197,
       "tov_p36_pctile": 0.346072186836518,
       "zones": {
@@ -1253,19 +1253,19 @@
           "fga": 54,
           "fgm": 32,
           "pct": 0.5926,
-          "pctile": 0.2804878048780488
+          "pctile": 0.2988165680473373
         },
         "paint": {
           "fga": 48,
           "fgm": 24,
           "pct": 0.5,
-          "pctile": 0.673992673992674
+          "pctile": 0.6857142857142857
         },
         "mid": {
           "fga": 3,
           "fgm": 1,
           "pct": 0.3333,
-          "pctile": 0.25274725274725274
+          "pctile": 0.25405405405405407
         },
         "corner_3": {
           "fga": 4,
@@ -1287,21 +1287,21 @@
           "fga": 13,
           "fgm": 2,
           "pct": 0.1538,
-          "pctile": 0.05863192182410423
+          "pctile": 0.05177993527508091
         }
       },
       "hustle": {
         "contested_shots": {
           "value": 4.5,
-          "pctile": 0.7412
+          "pctile": 0.7467
         },
         "contested_shots_2pt": {
           "value": 2.43,
-          "pctile": 0.6712
+          "pctile": 0.6747
         },
         "contested_shots_3pt": {
           "value": 2.07,
-          "pctile": 0.8113
+          "pctile": 0.8133
         },
         "deflections": {
           "value": 6.0,
@@ -1313,19 +1313,19 @@
         },
         "screen_assists": {
           "value": 2.07,
-          "pctile": 0.9084
+          "pctile": 0.9093
         },
         "screen_ast_pts": {
           "value": 5.21,
-          "pctile": 0.9218
+          "pctile": 0.928
         },
         "loose_balls_recovered": {
           "value": 1.0,
-          "pctile": 0.9811
+          "pctile": 0.9813
         },
         "box_outs": {
           "value": 0.36,
-          "pctile": 0.4178
+          "pctile": 0.4267
         },
         "pct_box_outs_off": {
           "value": 0.0,
@@ -1333,7 +1333,7 @@
         },
         "pct_box_outs_def": {
           "value": 1.0,
-          "pctile": 0.5202
+          "pctile": 0.552
         }
       },
       "stl_p75": 3.2702310305456495,
@@ -1341,35 +1341,35 @@
       "clutch": {
         "gp": {
           "value": 9,
-          "pctile": 0.9763
+          "pctile": 0.963
         },
         "min": {
           "value": 3.3,
-          "pctile": 0.6114
+          "pctile": 0.6204
         },
         "pts": {
           "value": 0.1,
-          "pctile": 0.2607
+          "pctile": 0.2546
         },
         "oreb": {
           "value": 0.3,
-          "pctile": 0.6919
+          "pctile": 0.6898
         },
         "dreb": {
           "value": 0.6,
-          "pctile": 0.7109
+          "pctile": 0.7037
         },
         "reb": {
           "value": 0.9,
-          "pctile": 0.7867
+          "pctile": 0.7917
         },
         "ast": {
           "value": 0.3,
-          "pctile": 0.5735
+          "pctile": 0.588
         },
         "stl": {
           "value": 0.2,
-          "pctile": 0.7488
+          "pctile": 0.7454
         },
         "blk": {
           "value": 0.0,
@@ -1377,7 +1377,7 @@
         },
         "tov": {
           "value": 0.1,
-          "pctile": 0.5308
+          "pctile": 0.5185
         },
         "fgm": {
           "value": 0.0,
@@ -1385,7 +1385,7 @@
         },
         "fga": {
           "value": 0.1,
-          "pctile": 0.1137
+          "pctile": 0.1204
         },
         "fg_pct": {
           "value": 0.0,
@@ -1405,23 +1405,23 @@
         },
         "ftm": {
           "value": 0.1,
-          "pctile": 0.4502
+          "pctile": 0.4398
         },
         "fta": {
           "value": 0.2,
-          "pctile": 0.4265
+          "pctile": 0.4167
         },
         "ft_pct": {
           "value": 0.5,
-          "pctile": 0.4787
+          "pctile": 0.463
         },
         "pf": {
           "value": 0.2,
-          "pctile": 0.2796
+          "pctile": 0.287
         },
         "plus_minus": {
           "value": 1.0,
-          "pctile": 0.6682
+          "pctile": 0.6759
         },
         "off_rating": {
           "value": 103.0,
@@ -1429,11 +1429,11 @@
         },
         "def_rating": {
           "value": 85.7,
-          "pctile": 0.1469
+          "pctile": 0.1481
         },
         "net_rating": {
           "value": 17.3,
-          "pctile": 0.7062
+          "pctile": 0.7176
         },
         "efg_pct": {
           "value": 0.0,
@@ -1441,148 +1441,148 @@
         },
         "ts_pct": {
           "value": 0.266,
-          "pctile": 0.3223
+          "pctile": 0.3287
         },
         "ast_pct": {
           "value": 0.136,
-          "pctile": 0.6209
+          "pctile": 0.6296
         },
         "oreb_pct": {
           "value": 0.079,
-          "pctile": 0.7441
+          "pctile": 0.7315
         },
         "dreb_pct": {
           "value": 0.135,
-          "pctile": 0.6303
+          "pctile": 0.6204
         },
         "reb_pct": {
           "value": 0.107,
-          "pctile": 0.6872
+          "pctile": 0.6806
         },
         "tm_tov_pct": {
           "value": 16.7,
-          "pctile": 0.7773
+          "pctile": 0.7778
         },
         "usg_pct": {
           "value": 0.038,
-          "pctile": 0.1043
+          "pctile": 0.1065
         },
         "pie": {
           "value": 0.079,
-          "pctile": 0.4597
+          "pctile": 0.4676
         }
       },
       "stl_pct": 0.04473094518311563,
       "blk_pct": 0.009464524329433236,
-      "stl_pct_pctile": 0.9959349593495935,
-      "blk_pct_pctile": 0.32113821138211385,
+      "stl_pct_pctile": 0.9959839357429718,
+      "blk_pct_pctile": 0.30522088353413657,
       "defense_tracking": {
         "d_fgm": {
           "value": 4.86,
-          "pctile": 0.7869
+          "pctile": 0.7909
         },
         "d_fga": {
           "value": 10.64,
-          "pctile": 0.7787
+          "pctile": 0.7802
         },
         "d_fg_pct": {
           "value": 0.456,
-          "pctile": 0.4645
+          "pctile": 0.4611
         },
         "normal_fg_pct": {
           "value": 0.462,
-          "pctile": 0.653
+          "pctile": 0.6542
         },
         "pct_plusminus": {
-          "value": -0.006,
-          "pctile": 0.4344
+          "value": -0.005,
+          "pctile": 0.4316
         }
       },
       "playmaking_tracking": {
         "drives": {
           "drives": {
             "value": 7.6,
-            "pctile": 0.7462
+            "pctile": 0.7443
           },
           "drive_fgm": {
             "value": 1.5,
-            "pctile": 0.7436
+            "pctile": 0.7468
           },
           "drive_fga": {
             "value": 3.1,
-            "pctile": 0.7513
+            "pctile": 0.7544
           },
           "drive_fg_pct": {
             "value": 0.477,
-            "pctile": 0.5154
+            "pctile": 0.5013
           },
           "drive_pts": {
             "value": 3.3,
-            "pctile": 0.7026
+            "pctile": 0.7063
           },
           "drive_ast": {
             "value": 0.9,
-            "pctile": 0.7744
+            "pctile": 0.7797
           },
           "drive_tov": {
             "value": 0.5,
-            "pctile": 0.7077
+            "pctile": 0.7165
           }
         },
         "passing": {
           "passes_made": {
             "value": 43.1,
-            "pctile": 0.8795
+            "pctile": 0.8785
           },
           "passes_received": {
             "value": 35.2,
-            "pctile": 0.7641
+            "pctile": 0.7595
           },
           "potential_ast": {
             "value": 9.6,
-            "pctile": 0.9077
+            "pctile": 0.9114
           },
           "ast_points_created": {
             "value": 14.7,
-            "pctile": 0.9333
+            "pctile": 0.9291
           },
           "ast_to_pass_pct": {
             "value": 0.129,
-            "pctile": 0.9103
+            "pctile": 0.9089
           }
         },
         "possessions": {
           "touches": {
             "value": 47.0,
-            "pctile": 0.7769
+            "pctile": 0.7747
           },
           "front_ct_touches": {
             "value": 29.2,
-            "pctile": 0.859
+            "pctile": 0.8582
           },
           "time_of_poss": {
             "value": 2.6,
-            "pctile": 0.6923
+            "pctile": 0.6937
           },
           "avg_sec_per_touch": {
             "value": 3.28,
-            "pctile": 0.5154
+            "pctile": 0.5089
           },
           "pts_per_touch": {
             "value": 0.202,
-            "pctile": 0.159
+            "pctile": 0.1595
           },
           "elbow_touches": {
             "value": 1.2,
-            "pctile": 0.8077
+            "pctile": 0.8152
           },
           "post_touches": {
             "value": 0.5,
-            "pctile": 0.7077
+            "pctile": 0.7114
           },
           "paint_touches": {
             "value": 6.4,
-            "pctile": 0.9256
+            "pctile": 0.9291
           }
         }
       },
@@ -1590,49 +1590,49 @@
         "cs": {
           "fgm": {
             "value": 2.71,
-            "pctile": 0.7282
+            "pctile": 0.7374
           },
           "fga": {
             "value": 5.86,
-            "pctile": 0.741
+            "pctile": 0.75
           },
           "fg_pct": {
             "value": 0.463,
-            "pctile": 0.541
+            "pctile": 0.5404
           },
           "efg_pct": {
             "value": 0.476,
-            "pctile": 0.1974
+            "pctile": 0.1995
           },
           "fg3m": {
             "value": 0.14,
-            "pctile": 0.1436
+            "pctile": 0.1465
           },
           "fg3a": {
             "value": 1.14,
-            "pctile": 0.259
+            "pctile": 0.2601
           },
           "fg3_pct": {
             "value": 0.125,
-            "pctile": 0.0665
+            "pctile": 0.0708
           }
         },
         "pullup": {
           "fgm": {
             "value": 1.43,
-            "pctile": 0.7349
+            "pctile": 0.7333
           },
           "fga": {
             "value": 2.71,
-            "pctile": 0.6824
+            "pctile": 0.6897
           },
           "fg_pct": {
             "value": 0.526,
-            "pctile": 0.7454
+            "pctile": 0.7564
           },
           "efg_pct": {
             "value": 0.526,
-            "pctile": 0.6299
+            "pctile": 0.6308
           },
           "fg3m": {
             "value": 0.0,
@@ -1649,62 +1649,62 @@
         },
         "contested": {
           "fgm": {
-            "value": 2.5,
-            "pctile": 0.7738
+            "value": 2.53,
+            "pctile": 0.7854
           },
           "fga": {
-            "value": 5.14,
-            "pctile": 0.7763
+            "value": 5.33,
+            "pctile": 0.8005
           },
           "fg_pct": {
-            "value": 0.4864,
-            "pctile": 0.4807
+            "value": 0.4747,
+            "pctile": 0.4444
           },
           "efg_pct": {
-            "value": 0.4932,
-            "pctile": 0.4036
+            "value": 0.4822,
+            "pctile": 0.3712
           },
           "fg3m": {
-            "value": 0.07,
-            "pctile": 0.5116
+            "value": 0.08,
+            "pctile": 0.5556
           },
           "fg3a": {
-            "value": 0.07,
-            "pctile": 0.2802
+            "value": 0.08,
+            "pctile": 0.3157
           },
           "fg3_pct": {
             "value": 1.0,
-            "pctile": 0.9357
+            "pctile": 0.9326
           }
         },
         "uncontested": {
           "fgm": {
             "value": 1.71,
-            "pctile": 0.5556
+            "pctile": 0.5812
           },
           "fga": {
             "value": 3.58,
-            "pctile": 0.491
+            "pctile": 0.4975
           },
           "fg_pct": {
             "value": 0.4777,
-            "pctile": 0.6873
+            "pctile": 0.698
           },
           "efg_pct": {
             "value": 0.4874,
-            "pctile": 0.3152
+            "pctile": 0.3147
           },
           "fg3m": {
             "value": 0.07,
-            "pctile": 0.1189
+            "pctile": 0.1269
           },
           "fg3a": {
             "value": 1.14,
-            "pctile": 0.2506
+            "pctile": 0.2538
           },
           "fg3_pct": {
             "value": 0.0614,
-            "pctile": 0.058
+            "pctile": 0.0652
           }
         }
       }
@@ -1770,12 +1770,12 @@
       "deflections": 2.36,
       "charges_drawn": 0.0,
       "screen_assists": 2.21,
-      "screen_ast_pts": 5.14,
+      "screen_ast_pts": 5.29,
       "loose_balls": 0.21,
-      "off_boxouts": 0.29,
+      "off_boxouts": 0.36,
       "def_boxouts": 1.14,
       "box_outs": 1.5,
-      "box_out_team_rebs": 1.43,
+      "box_out_team_rebs": 1.5,
       "clutch_gp": 9,
       "clutch_min": 3.4,
       "clutch_fg_pct": 0.571,
@@ -1784,51 +1784,51 @@
       "pos": "F-C",
       "fta_rate": 0.2251655629139073,
       "qualified": true,
-      "ppg_pctile": 0.802547770700637,
+      "ppg_pctile": 0.8004246284501062,
       "rpg_pctile": 0.9469214437367304,
-      "orpg_pctile": 0.9150743099787686,
+      "orpg_pctile": 0.921443736730361,
       "drpg_pctile": 0.9447983014861996,
-      "apg_pctile": 0.7091295116772823,
-      "spg_pctile": 0.8046709129511678,
+      "apg_pctile": 0.7112526539278131,
+      "spg_pctile": 0.802547770700637,
       "bpg_pctile": 0.8641188959660298,
-      "tov_pctile": 0.5520169851380042,
+      "tov_pctile": 0.5562632696390658,
       "fg_pct_pctile": 0.6985138004246284,
-      "fg3_pct_pctile": 0.5222929936305732,
-      "ft_pct_pctile": 0.386411889596603,
-      "ast_pct_pctile": 0.4437367303609342,
-      "tov_pct_pctile": 0.2526539278131635,
+      "fg3_pct_pctile": 0.5180467091295117,
+      "ft_pct_pctile": 0.3842887473460722,
+      "ast_pct_pctile": 0.43736730360934184,
+      "tov_pct_pctile": 0.24628450106157113,
       "efg_pct_pctile": 0.6687898089171974,
-      "ts_pct_pctile": 0.6157112526539278,
-      "reb_pct_pctile": 0.8110403397027601,
-      "fta_rate_pctile": 0.44782608695652176,
+      "ts_pct_pctile": 0.6199575371549894,
+      "reb_pct_pctile": 0.8131634819532909,
+      "fta_rate_pctile": 0.44565217391304346,
       "ppg_p36": 16.69736842105263,
-      "ppg_p36_pctile": 0.6369426751592356,
+      "ppg_p36_pctile": 0.643312101910828,
       "rpg_p36": 9.592105263157894,
       "rpg_p36_pctile": 0.7940552016985138,
       "orpg_p36": 2.8421052631578947,
-      "orpg_p36_pctile": 0.7600849256900213,
+      "orpg_p36_pctile": 0.7579617834394905,
       "drpg_p36": 6.868421052631579,
-      "drpg_p36_pctile": 0.8386411889596603,
+      "drpg_p36_pctile": 0.8407643312101911,
       "apg_p36": 2.960526315789474,
       "apg_p36_pctile": 0.4968152866242038,
       "spg_p36": 1.3026315789473686,
-      "spg_p36_pctile": 0.6242038216560509,
+      "spg_p36_pctile": 0.6284501061571125,
       "bpg_p36": 1.0657894736842106,
-      "bpg_p36_pctile": 0.7409766454352441,
+      "bpg_p36_pctile": 0.7430997876857749,
       "tov_p36": 1.3026315789473686,
-      "tov_p36_pctile": 0.25902335456475584,
+      "tov_p36_pctile": 0.2611464968152866,
       "zones": {
         "at_rim": {
           "fga": 51,
           "fgm": 34,
           "pct": 0.6667,
-          "pctile": 0.5
+          "pctile": 0.5029585798816568
         },
         "paint": {
           "fga": 30,
           "fgm": 18,
           "pct": 0.6,
-          "pctile": 0.8901098901098901
+          "pctile": 0.8821428571428571
         },
         "mid": {
           "fga": 0,
@@ -1840,7 +1840,7 @@
           "fga": 11,
           "fgm": 1,
           "pct": 0.0909,
-          "pctile": 0.019305019305019305
+          "pctile": 0.02247191011235955
         },
         "l_corner_3": {
           "fga": 4,
@@ -1856,25 +1856,25 @@
           "fga": 59,
           "fgm": 22,
           "pct": 0.3729,
-          "pctile": 0.6254071661237784
+          "pctile": 0.6310679611650486
         }
       },
       "hustle": {
         "contested_shots": {
           "value": 6.79,
-          "pctile": 0.9272
+          "pctile": 0.9253
         },
         "contested_shots_2pt": {
           "value": 5.57,
-          "pctile": 0.9542
+          "pctile": 0.9547
         },
         "contested_shots_3pt": {
           "value": 1.21,
-          "pctile": 0.4798
+          "pctile": 0.488
         },
         "deflections": {
           "value": 2.36,
-          "pctile": 0.8275
+          "pctile": 0.8293
         },
         "charges_drawn": {
           "value": 0.0,
@@ -1882,27 +1882,27 @@
         },
         "screen_assists": {
           "value": 2.21,
-          "pctile": 0.9272
+          "pctile": 0.928
         },
         "screen_ast_pts": {
           "value": 5.29,
-          "pctile": 0.9272
+          "pctile": 0.9307
         },
         "loose_balls_recovered": {
           "value": 0.21,
-          "pctile": 0.3612
+          "pctile": 0.352
         },
         "box_outs": {
           "value": 1.5,
-          "pctile": 0.9057
+          "pctile": 0.8987
         },
         "pct_box_outs_off": {
           "value": 0.238,
-          "pctile": 0.7358
+          "pctile": 0.744
         },
         "pct_box_outs_def": {
           "value": 0.762,
-          "pctile": 0.3235
+          "pctile": 0.3547
         }
       },
       "stl_p75": 1.2466566934131196,
@@ -1910,248 +1910,248 @@
       "clutch": {
         "gp": {
           "value": 9,
-          "pctile": 0.9763
+          "pctile": 0.963
         },
         "min": {
           "value": 3.4,
-          "pctile": 0.6209
+          "pctile": 0.6296
         },
         "pts": {
           "value": 1.4,
-          "pctile": 0.6351
+          "pctile": 0.6343
         },
         "oreb": {
           "value": 0.2,
-          "pctile": 0.5829
+          "pctile": 0.5694
         },
         "dreb": {
           "value": 0.7,
-          "pctile": 0.7725
+          "pctile": 0.7685
         },
         "reb": {
           "value": 0.9,
-          "pctile": 0.7867
+          "pctile": 0.7917
         },
         "ast": {
           "value": 0.1,
-          "pctile": 0.4502
+          "pctile": 0.4444
         },
         "stl": {
           "value": 0.1,
-          "pctile": 0.7014
+          "pctile": 0.6806
         },
         "blk": {
           "value": 0.3,
-          "pctile": 0.8673
+          "pctile": 0.875
         },
         "tov": {
           "value": 0.1,
-          "pctile": 0.5308
+          "pctile": 0.5185
         },
         "fgm": {
           "value": 0.4,
-          "pctile": 0.564
+          "pctile": 0.5741
         },
         "fga": {
           "value": 0.8,
-          "pctile": 0.5071
+          "pctile": 0.4907
         },
         "fg_pct": {
           "value": 0.571,
-          "pctile": 0.7441
+          "pctile": 0.7639
         },
         "fg3m": {
           "value": 0.1,
-          "pctile": 0.6777
+          "pctile": 0.6667
         },
         "fg3a": {
           "value": 0.4,
-          "pctile": 0.5498
+          "pctile": 0.5602
         },
         "fg3_pct": {
           "value": 0.25,
-          "pctile": 0.7014
+          "pctile": 0.6944
         },
         "ftm": {
           "value": 0.4,
-          "pctile": 0.6066
+          "pctile": 0.6019
         },
         "fta": {
           "value": 0.6,
-          "pctile": 0.6635
+          "pctile": 0.6713
         },
         "ft_pct": {
           "value": 0.8,
-          "pctile": 0.6398
+          "pctile": 0.6296
         },
         "pf": {
           "value": 0.2,
-          "pctile": 0.2796
+          "pctile": 0.287
         },
         "plus_minus": {
           "value": 1.9,
-          "pctile": 0.782
+          "pctile": 0.7963
         },
         "off_rating": {
           "value": 111.1,
-          "pctile": 0.5972
+          "pctile": 0.5602
         },
         "def_rating": {
           "value": 88.7,
-          "pctile": 0.1896
+          "pctile": 0.1898
         },
         "net_rating": {
           "value": 22.4,
-          "pctile": 0.7678
+          "pctile": 0.7731
         },
         "efg_pct": {
           "value": 0.643,
-          "pctile": 0.7109
+          "pctile": 0.7361
         },
         "ts_pct": {
           "value": 0.707,
-          "pctile": 0.7299
+          "pctile": 0.75
         },
         "ast_pct": {
           "value": 0.053,
-          "pctile": 0.4502
+          "pctile": 0.4491
         },
         "oreb_pct": {
           "value": 0.051,
-          "pctile": 0.6303
+          "pctile": 0.625
         },
         "dreb_pct": {
           "value": 0.158,
-          "pctile": 0.7014
+          "pctile": 0.6944
         },
         "reb_pct": {
           "value": 0.104,
-          "pctile": 0.6777
+          "pctile": 0.6713
         },
         "tm_tov_pct": {
           "value": 7.7,
-          "pctile": 0.6019
+          "pctile": 0.5833
         },
         "usg_pct": {
           "value": 0.143,
-          "pctile": 0.4218
+          "pctile": 0.4306
         },
         "pie": {
           "value": 0.165,
-          "pctile": 0.7299
+          "pctile": 0.7269
         }
       },
       "stl_pct": 0.017022722446614444,
       "blk_pct": 0.02848697289944543,
-      "stl_pct_pctile": 0.5853658536585366,
-      "blk_pct_pctile": 0.7520325203252033,
+      "stl_pct_pctile": 0.5823293172690763,
+      "blk_pct_pctile": 0.7550200803212851,
       "defense_tracking": {
         "d_fgm": {
           "value": 5.79,
-          "pctile": 0.9071
+          "pctile": 0.9035
         },
         "d_fga": {
           "value": 13.07,
-          "pctile": 0.9454
+          "pctile": 0.9464
         },
         "d_fg_pct": {
           "value": 0.443,
-          "pctile": 0.3743
+          "pctile": 0.3753
         },
         "normal_fg_pct": {
-          "value": 0.493,
-          "pctile": 0.9481
+          "value": 0.491,
+          "pctile": 0.9437
         },
         "pct_plusminus": {
-          "value": -0.05,
-          "pctile": 0.1858
+          "value": -0.048,
+          "pctile": 0.2064
         }
       },
       "playmaking_tracking": {
         "drives": {
           "drives": {
             "value": 3.2,
-            "pctile": 0.4846
+            "pctile": 0.5038
           },
           "drive_fgm": {
             "value": 1.1,
-            "pctile": 0.659
+            "pctile": 0.6658
           },
           "drive_fga": {
             "value": 1.4,
-            "pctile": 0.5436
+            "pctile": 0.5519
           },
           "drive_fg_pct": {
             "value": 0.75,
-            "pctile": 0.9179
+            "pctile": 0.9241
           },
           "drive_pts": {
             "value": 2.3,
-            "pctile": 0.5974
+            "pctile": 0.6152
           },
           "drive_ast": {
             "value": 0.6,
-            "pctile": 0.6436
+            "pctile": 0.6532
           },
           "drive_tov": {
             "value": 0.1,
-            "pctile": 0.2333
+            "pctile": 0.2354
           }
         },
         "passing": {
           "passes_made": {
             "value": 40.3,
-            "pctile": 0.8385
+            "pctile": 0.843
           },
           "passes_received": {
             "value": 32.6,
-            "pctile": 0.7256
+            "pctile": 0.7241
           },
           "potential_ast": {
             "value": 5.1,
-            "pctile": 0.7103
+            "pctile": 0.7114
           },
           "ast_points_created": {
             "value": 6.4,
-            "pctile": 0.6641
+            "pctile": 0.6658
           },
           "ast_to_pass_pct": {
             "value": 0.062,
-            "pctile": 0.2795
+            "pctile": 0.2759
           }
         },
         "possessions": {
           "touches": {
             "value": 49.3,
-            "pctile": 0.8103
+            "pctile": 0.8101
           },
           "front_ct_touches": {
             "value": 32.8,
-            "pctile": 0.9026
+            "pctile": 0.9063
           },
           "time_of_poss": {
             "value": 1.6,
-            "pctile": 0.5308
+            "pctile": 0.5392
           },
           "avg_sec_per_touch": {
             "value": 1.92,
-            "pctile": 0.1538
+            "pctile": 0.157
           },
           "pts_per_touch": {
             "value": 0.286,
-            "pctile": 0.4538
+            "pctile": 0.4608
           },
           "elbow_touches": {
             "value": 1.1,
-            "pctile": 0.7846
+            "pctile": 0.7924
           },
           "post_touches": {
             "value": 1.8,
-            "pctile": 0.9282
+            "pctile": 0.9241
           },
           "paint_touches": {
             "value": 5.6,
-            "pctile": 0.8897
+            "pctile": 0.8962
           }
         }
       },
@@ -2159,49 +2159,49 @@
         "cs": {
           "fgm": {
             "value": 4.21,
-            "pctile": 0.9487
+            "pctile": 0.952
           },
           "fga": {
             "value": 8.86,
-            "pctile": 0.9641
+            "pctile": 0.9697
           },
           "fg_pct": {
             "value": 0.476,
-            "pctile": 0.5923
+            "pctile": 0.5985
           },
           "efg_pct": {
             "value": 0.569,
-            "pctile": 0.4974
+            "pctile": 0.5
           },
           "fg3m": {
             "value": 1.64,
-            "pctile": 0.8282
+            "pctile": 0.8283
           },
           "fg3a": {
             "value": 4.93,
-            "pctile": 0.9205
+            "pctile": 0.9217
           },
           "fg3_pct": {
             "value": 0.333,
-            "pctile": 0.4127
+            "pctile": 0.4223
           }
         },
         "pullup": {
           "fgm": {
             "value": 1.14,
-            "pctile": 0.643
+            "pctile": 0.6538
           },
           "fga": {
             "value": 1.79,
-            "pctile": 0.5407
+            "pctile": 0.5513
           },
           "fg_pct": {
             "value": 0.64,
-            "pctile": 0.9003
+            "pctile": 0.8974
           },
           "efg_pct": {
             "value": 0.64,
-            "pctile": 0.8583
+            "pctile": 0.8692
           },
           "fg3m": {
             "value": 0.0,
@@ -2218,62 +2218,62 @@
         },
         "contested": {
           "fgm": {
-            "value": 3.15,
-            "pctile": 0.8612
+            "value": 3.12,
+            "pctile": 0.8611
           },
           "fga": {
-            "value": 5.14,
-            "pctile": 0.7763
+            "value": 5.21,
+            "pctile": 0.7879
           },
           "fg_pct": {
-            "value": 0.6128,
-            "pctile": 0.8046
+            "value": 0.5988,
+            "pctile": 0.798
           },
           "efg_pct": {
-            "value": 0.6196,
-            "pctile": 0.8098
+            "value": 0.6056,
+            "pctile": 0.7854
           },
           "fg3m": {
             "value": 0.07,
-            "pctile": 0.5116
+            "pctile": 0.5152
           },
           "fg3a": {
             "value": 0.29,
-            "pctile": 0.599
+            "pctile": 0.6035
           },
           "fg3_pct": {
             "value": 0.2414,
-            "pctile": 0.4536
+            "pctile": 0.461
           }
         },
         "uncontested": {
           "fgm": {
             "value": 2.07,
-            "pctile": 0.6615
+            "pctile": 0.6675
           },
           "fga": {
             "value": 5.5,
-            "pctile": 0.7158
+            "pctile": 0.7284
           },
           "fg_pct": {
             "value": 0.3764,
-            "pctile": 0.2997
+            "pctile": 0.3046
           },
           "efg_pct": {
             "value": 0.5127,
-            "pctile": 0.3902
+            "pctile": 0.3858
           },
           "fg3m": {
             "value": 1.5,
-            "pctile": 0.7364
+            "pctile": 0.7538
           },
           "fg3a": {
             "value": 4.64,
-            "pctile": 0.8114
+            "pctile": 0.8147
           },
           "fg3_pct": {
             "value": 0.3233,
-            "pctile": 0.3812
+            "pctile": 0.3886
           }
         }
       }
@@ -2342,9 +2342,9 @@
       "screen_ast_pts": 0.71,
       "loose_balls": 0.21,
       "off_boxouts": 0.0,
-      "def_boxouts": 0.36,
+      "def_boxouts": 0.43,
       "box_outs": 0.43,
-      "box_out_team_rebs": 0.36,
+      "box_out_team_rebs": 0.43,
       "clutch_gp": 7,
       "clutch_min": 3.1,
       "clutch_fg_pct": 0.5,
@@ -2353,63 +2353,63 @@
       "pos": "G",
       "fta_rate": 0.19883040935672514,
       "qualified": true,
-      "ppg_pctile": 0.8152866242038217,
-      "rpg_pctile": 0.5031847133757962,
-      "orpg_pctile": 0.43312101910828027,
-      "drpg_pctile": 0.5435244161358811,
-      "apg_pctile": 0.8428874734607219,
-      "spg_pctile": 0.8046709129511678,
-      "bpg_pctile": 0.6518046709129511,
-      "tov_pctile": 0.7940552016985138,
-      "fg_pct_pctile": 0.4309978768577495,
-      "fg3_pct_pctile": 0.6220806794055201,
-      "ft_pct_pctile": 0.7983014861995754,
-      "ast_pct_pctile": 0.7579617834394905,
+      "ppg_pctile": 0.8131634819532909,
+      "rpg_pctile": 0.5010615711252654,
+      "orpg_pctile": 0.4394904458598726,
+      "drpg_pctile": 0.5371549893842887,
+      "apg_pctile": 0.8407643312101911,
+      "spg_pctile": 0.802547770700637,
+      "bpg_pctile": 0.6560509554140127,
+      "tov_pctile": 0.7919320594479831,
+      "fg_pct_pctile": 0.42462845010615713,
+      "fg3_pct_pctile": 0.6157112526539278,
+      "ft_pct_pctile": 0.8046709129511678,
+      "ast_pct_pctile": 0.7643312101910829,
       "tov_pct_pctile": 0.445859872611465,
-      "efg_pct_pctile": 0.4288747346072187,
-      "ts_pct_pctile": 0.42038216560509556,
-      "reb_pct_pctile": 0.25477707006369427,
-      "fta_rate_pctile": 0.391304347826087,
+      "efg_pct_pctile": 0.42250530785562634,
+      "ts_pct_pctile": 0.416135881104034,
+      "reb_pct_pctile": 0.2505307855626327,
+      "fta_rate_pctile": 0.3869565217391304,
       "ppg_p36": 19.772727272727273,
       "ppg_p36_pctile": 0.7813163481953291,
       "rpg_p36": 4.2272727272727275,
-      "rpg_p36_pctile": 0.2653927813163482,
+      "rpg_p36_pctile": 0.267515923566879,
       "orpg_p36": 0.9545454545454546,
-      "orpg_p36_pctile": 0.3036093418259023,
+      "orpg_p36_pctile": 0.3099787685774947,
       "drpg_p36": 3.2727272727272725,
-      "drpg_p36_pctile": 0.31422505307855625,
+      "drpg_p36_pctile": 0.31634819532908703,
       "apg_p36": 5.318181818181818,
-      "apg_p36_pctile": 0.7898089171974523,
+      "apg_p36_pctile": 0.7940552016985138,
       "spg_p36": 1.5000000000000002,
-      "spg_p36_pctile": 0.7261146496815286,
+      "spg_p36_pctile": 0.732484076433121,
       "bpg_p36": 0.6818181818181819,
       "bpg_p36_pctile": 0.5859872611464968,
       "tov_p36": 2.590909090909091,
-      "tov_p36_pctile": 0.6836518046709129,
+      "tov_p36_pctile": 0.6900212314225053,
       "zones": {
         "at_rim": {
           "fga": 31,
           "fgm": 19,
           "pct": 0.6129,
-          "pctile": 0.32621951219512196
+          "pctile": 0.34023668639053256
         },
         "paint": {
           "fga": 38,
           "fgm": 18,
           "pct": 0.4737,
-          "pctile": 0.6410256410256411
+          "pctile": 0.6428571428571429
         },
         "mid": {
           "fga": 31,
           "fgm": 12,
           "pct": 0.3871,
-          "pctile": 0.4230769230769231
+          "pctile": 0.42162162162162165
         },
         "corner_3": {
           "fga": 15,
           "fgm": 7,
           "pct": 0.4667,
-          "pctile": 0.7644787644787645
+          "pctile": 0.7640449438202247
         },
         "l_corner_3": {
           "fga": 8,
@@ -2425,25 +2425,25 @@
           "fga": 56,
           "fgm": 18,
           "pct": 0.3214,
-          "pctile": 0.4364820846905538
+          "pctile": 0.4336569579288026
         }
       },
       "hustle": {
         "contested_shots": {
           "value": 3.93,
-          "pctile": 0.6631
+          "pctile": 0.664
         },
         "contested_shots_2pt": {
           "value": 1.5,
-          "pctile": 0.4232
+          "pctile": 0.432
         },
         "contested_shots_3pt": {
           "value": 2.43,
-          "pctile": 0.9057
+          "pctile": 0.9013
         },
         "deflections": {
           "value": 1.64,
-          "pctile": 0.5876
+          "pctile": 0.5867
         },
         "charges_drawn": {
           "value": 0.0,
@@ -2451,19 +2451,19 @@
         },
         "screen_assists": {
           "value": 0.29,
-          "pctile": 0.434
+          "pctile": 0.4347
         },
         "screen_ast_pts": {
           "value": 0.71,
-          "pctile": 0.4636
+          "pctile": 0.4773
         },
         "loose_balls_recovered": {
           "value": 0.21,
-          "pctile": 0.3612
+          "pctile": 0.352
         },
         "box_outs": {
           "value": 0.43,
-          "pctile": 0.4987
+          "pctile": 0.5067
         },
         "pct_box_outs_off": {
           "value": 0.0,
@@ -2471,7 +2471,7 @@
         },
         "pct_box_outs_def": {
           "value": 1.0,
-          "pctile": 0.5202
+          "pctile": 0.552
         }
       },
       "stl_p75": 1.4430014430014433,
@@ -2479,15 +2479,15 @@
       "clutch": {
         "gp": {
           "value": 7,
-          "pctile": 0.872
+          "pctile": 0.8611
         },
         "min": {
           "value": 3.1,
-          "pctile": 0.564
+          "pctile": 0.5509
         },
         "pts": {
           "value": 2.4,
-          "pctile": 0.8104
+          "pctile": 0.8056
         },
         "oreb": {
           "value": 0.0,
@@ -2495,15 +2495,15 @@
         },
         "dreb": {
           "value": 0.7,
-          "pctile": 0.7725
+          "pctile": 0.7685
         },
         "reb": {
           "value": 0.7,
-          "pctile": 0.6019
+          "pctile": 0.5972
         },
         "ast": {
           "value": 0.3,
-          "pctile": 0.5735
+          "pctile": 0.588
         },
         "stl": {
           "value": 0.0,
@@ -2511,7 +2511,7 @@
         },
         "blk": {
           "value": 0.1,
-          "pctile": 0.7536
+          "pctile": 0.7361
         },
         "tov": {
           "value": 0.0,
@@ -2519,71 +2519,71 @@
         },
         "fgm": {
           "value": 0.7,
-          "pctile": 0.7678
+          "pctile": 0.7685
         },
         "fga": {
           "value": 1.4,
-          "pctile": 0.7583
+          "pctile": 0.7407
         },
         "fg_pct": {
           "value": 0.5,
-          "pctile": 0.5877
+          "pctile": 0.6111
         },
         "fg3m": {
           "value": 0.3,
-          "pctile": 0.7441
+          "pctile": 0.7361
         },
         "fg3a": {
           "value": 0.6,
-          "pctile": 0.7251
+          "pctile": 0.6991
         },
         "fg3_pct": {
           "value": 0.5,
-          "pctile": 0.7725
+          "pctile": 0.7731
         },
         "ftm": {
           "value": 0.7,
-          "pctile": 0.7678
+          "pctile": 0.7685
         },
         "fta": {
           "value": 0.7,
-          "pctile": 0.6919
+          "pctile": 0.6991
         },
         "ft_pct": {
           "value": 1.0,
-          "pctile": 0.7014
+          "pctile": 0.6898
         },
         "pf": {
           "value": 0.3,
-          "pctile": 0.3602
+          "pctile": 0.375
         },
         "plus_minus": {
           "value": -0.1,
-          "pctile": 0.5166
+          "pctile": 0.5185
         },
         "off_rating": {
           "value": 93.6,
-          "pctile": 0.2749
+          "pctile": 0.287
         },
         "def_rating": {
           "value": 95.7,
-          "pctile": 0.3033
+          "pctile": 0.3056
         },
         "net_rating": {
           "value": -2.1,
-          "pctile": 0.4645
+          "pctile": 0.4676
         },
         "efg_pct": {
           "value": 0.6,
-          "pctile": 0.6777
+          "pctile": 0.6852
         },
         "ts_pct": {
           "value": 0.697,
-          "pctile": 0.7204
+          "pctile": 0.7407
         },
         "ast_pct": {
           "value": 0.25,
-          "pctile": 0.7678
+          "pctile": 0.7593
         },
         "oreb_pct": {
           "value": 0.0,
@@ -2591,11 +2591,11 @@
         },
         "dreb_pct": {
           "value": 0.238,
-          "pctile": 0.8768
+          "pctile": 0.875
         },
         "reb_pct": {
           "value": 0.102,
-          "pctile": 0.654
+          "pctile": 0.6481
         },
         "tm_tov_pct": {
           "value": 0.0,
@@ -2603,124 +2603,124 @@
         },
         "usg_pct": {
           "value": 0.228,
-          "pctile": 0.7251
+          "pctile": 0.7222
         },
         "pie": {
           "value": 0.261,
-          "pctile": 0.891
+          "pctile": 0.8981
         }
       },
       "stl_pct": 0.019601922817313603,
       "blk_pct": 0.01822398939695162,
-      "stl_pct_pctile": 0.7195121951219512,
-      "blk_pct_pctile": 0.5894308943089431,
+      "stl_pct_pctile": 0.7188755020080321,
+      "blk_pct_pctile": 0.5823293172690763,
       "defense_tracking": {
         "d_fgm": {
           "value": 3.93,
-          "pctile": 0.5902
+          "pctile": 0.5952
         },
         "d_fga": {
           "value": 9.0,
-          "pctile": 0.6311
+          "pctile": 0.6327
         },
         "d_fg_pct": {
           "value": 0.437,
-          "pctile": 0.3415
+          "pctile": 0.3324
         },
         "normal_fg_pct": {
           "value": 0.428,
-          "pctile": 0.0519
+          "pctile": 0.0509
         },
         "pct_plusminus": {
-          "value": 0.008,
-          "pctile": 0.5164
+          "value": 0.009,
+          "pctile": 0.5362
         }
       },
       "playmaking_tracking": {
         "drives": {
           "drives": {
             "value": 11.3,
-            "pctile": 0.8333
+            "pctile": 0.838
           },
           "drive_fgm": {
             "value": 2.7,
-            "pctile": 0.9
+            "pctile": 0.9013
           },
           "drive_fga": {
             "value": 5.3,
-            "pctile": 0.8821
+            "pctile": 0.8937
           },
           "drive_fg_pct": {
             "value": 0.514,
-            "pctile": 0.6513
+            "pctile": 0.6532
           },
           "drive_pts": {
             "value": 6.4,
-            "pctile": 0.8692
+            "pctile": 0.8785
           },
           "drive_ast": {
             "value": 1.1,
-            "pctile": 0.8308
+            "pctile": 0.838
           },
           "drive_tov": {
             "value": 0.5,
-            "pctile": 0.7077
+            "pctile": 0.7165
           }
         },
         "passing": {
           "passes_made": {
             "value": 31.9,
-            "pctile": 0.7179
+            "pctile": 0.7139
           },
           "passes_received": {
             "value": 40.5,
-            "pctile": 0.8103
+            "pctile": 0.8127
           },
           "potential_ast": {
             "value": 7.9,
-            "pctile": 0.8564
+            "pctile": 0.8582
           },
           "ast_points_created": {
             "value": 10.1,
-            "pctile": 0.8308
+            "pctile": 0.8278
           },
           "ast_to_pass_pct": {
             "value": 0.121,
-            "pctile": 0.8718
+            "pctile": 0.881
           }
         },
         "possessions": {
           "touches": {
             "value": 46.3,
-            "pctile": 0.7667
+            "pctile": 0.7671
           },
           "front_ct_touches": {
             "value": 20.1,
-            "pctile": 0.6205
+            "pctile": 0.6228
           },
           "time_of_poss": {
             "value": 3.3,
-            "pctile": 0.7897
+            "pctile": 0.7873
           },
           "avg_sec_per_touch": {
             "value": 4.33,
-            "pctile": 0.6872
+            "pctile": 0.6886
           },
           "pts_per_touch": {
             "value": 0.313,
-            "pctile": 0.5897
+            "pctile": 0.6051
           },
           "elbow_touches": {
             "value": 0.4,
-            "pctile": 0.4308
+            "pctile": 0.4329
           },
           "post_touches": {
             "value": 0.1,
-            "pctile": 0.2692
+            "pctile": 0.2785
           },
           "paint_touches": {
             "value": 0.6,
-            "pctile": 0.1974
+            "pctile": 0.1873
           }
         }
       },
@@ -2728,121 +2728,121 @@
         "cs": {
           "fgm": {
             "value": 1.86,
-            "pctile": 0.5077
+            "pctile": 0.5177
           },
           "fga": {
             "value": 4.36,
-            "pctile": 0.5308
+            "pctile": 0.5505
           },
           "fg_pct": {
             "value": 0.426,
-            "pctile": 0.3641
+            "pctile": 0.3662
           },
           "efg_pct": {
             "value": 0.574,
-            "pctile": 0.5179
+            "pctile": 0.5202
           },
           "fg3m": {
             "value": 1.29,
-            "pctile": 0.7128
+            "pctile": 0.7222
           },
           "fg3a": {
             "value": 3.43,
-            "pctile": 0.7103
+            "pctile": 0.7172
           },
           "fg3_pct": {
             "value": 0.375,
-            "pctile": 0.5679
+            "pctile": 0.5804
           }
         },
         "pullup": {
           "fgm": {
             "value": 2.5,
-            "pctile": 0.8845
+            "pctile": 0.8897
           },
           "fga": {
             "value": 5.0,
-            "pctile": 0.8688
+            "pctile": 0.8692
           },
           "fg_pct": {
             "value": 0.5,
-            "pctile": 0.6325
+            "pctile": 0.6256
           },
           "efg_pct": {
             "value": 0.536,
-            "pctile": 0.643
+            "pctile": 0.6564
           },
           "fg3m": {
             "value": 0.36,
-            "pctile": 0.8294
+            "pctile": 0.8436
           },
           "fg3a": {
             "value": 0.93,
-            "pctile": 0.8058
+            "pctile": 0.8205
           },
           "fg3_pct": {
             "value": 0.385,
-            "pctile": 0.6439
+            "pctile": 0.6596
           }
         },
         "contested": {
           "fgm": {
-            "value": 2.93,
-            "pctile": 0.8432
+            "value": 2.89,
+            "pctile": 0.8333
           },
           "fga": {
-            "value": 6.35,
-            "pctile": 0.8612
+            "value": 6.38,
+            "pctile": 0.8662
           },
           "fg_pct": {
-            "value": 0.4614,
-            "pctile": 0.4062
+            "value": 0.453,
+            "pctile": 0.3889
           },
           "efg_pct": {
-            "value": 0.4953,
-            "pctile": 0.4165
+            "value": 0.4867,
+            "pctile": 0.3939
           },
           "fg3m": {
             "value": 0.43,
-            "pctile": 0.9152
+            "pctile": 0.9167
           },
           "fg3a": {
-            "value": 1.15,
-            "pctile": 0.8972
+            "value": 1.11,
+            "pctile": 0.8914
           },
           "fg3_pct": {
-            "value": 0.3739,
-            "pctile": 0.7107
+            "value": 0.3874,
+            "pctile": 0.7021
           }
         },
         "uncontested": {
           "fgm": {
             "value": 2.29,
-            "pctile": 0.7132
+            "pctile": 0.7208
           },
           "fga": {
             "value": 5.79,
-            "pctile": 0.7519
+            "pctile": 0.764
           },
           "fg_pct": {
             "value": 0.3955,
-            "pctile": 0.3824
+            "pctile": 0.3909
           },
           "efg_pct": {
             "value": 0.5121,
-            "pctile": 0.3876
+            "pctile": 0.3832
           },
           "fg3m": {
             "value": 1.35,
-            "pctile": 0.6899
+            "pctile": 0.6929
           },
           "fg3a": {
             "value": 3.93,
-            "pctile": 0.7339
+            "pctile": 0.7335
           },
           "fg3_pct": {
             "value": 0.3435,
-            "pctile": 0.4613
+            "pctile": 0.4701
           }
         }
       }
@@ -2922,63 +2922,63 @@
       "pos": "G",
       "fta_rate": 0.06707317073170732,
       "qualified": true,
-      "ppg_pctile": 0.8004246284501062,
-      "rpg_pctile": 0.6029723991507431,
-      "orpg_pctile": 0.38004246284501064,
-      "drpg_pctile": 0.6751592356687898,
-      "apg_pctile": 0.7091295116772823,
-      "spg_pctile": 0.6900212314225053,
-      "bpg_pctile": 0.47558386411889597,
-      "tov_pctile": 0.6963906581740976,
-      "fg_pct_pctile": 0.5371549893842887,
-      "fg3_pct_pctile": 0.7346072186836518,
-      "ft_pct_pctile": 0.2781316348195329,
+      "ppg_pctile": 0.7983014861995754,
+      "rpg_pctile": 0.5966029723991507,
+      "orpg_pctile": 0.37154989384288745,
+      "drpg_pctile": 0.6794055201698513,
+      "apg_pctile": 0.7112526539278131,
+      "spg_pctile": 0.6836518046709129,
+      "bpg_pctile": 0.4713375796178344,
+      "tov_pctile": 0.692144373673036,
+      "fg_pct_pctile": 0.5414012738853503,
+      "fg3_pct_pctile": 0.7367303609341825,
+      "ft_pct_pctile": 0.28450106157112526,
       "ast_pct_pctile": 0.5732484076433121,
-      "tov_pct_pctile": 0.40764331210191085,
+      "tov_pct_pctile": 0.40552016985138006,
       "efg_pct_pctile": 0.6687898089171974,
-      "ts_pct_pctile": 0.524416135881104,
+      "ts_pct_pctile": 0.5286624203821656,
       "reb_pct_pctile": 0.35456475583864117,
       "fta_rate_pctile": 0.12391304347826088,
       "ppg_p36": 19.546875,
       "ppg_p36_pctile": 0.772823779193206,
       "rpg_p36": 5.062499999999999,
-      "rpg_p36_pctile": 0.37579617834394907,
+      "rpg_p36_pctile": 0.37367303609341823,
       "orpg_p36": 0.8437499999999999,
-      "orpg_p36_pctile": 0.25902335456475584,
+      "orpg_p36_pctile": 0.267515923566879,
       "drpg_p36": 4.359375,
       "drpg_p36_pctile": 0.49044585987261147,
       "apg_p36": 3.515625,
-      "apg_p36_pctile": 0.5944798301486199,
+      "apg_p36_pctile": 0.5987261146496815,
       "spg_p36": 1.2656249999999998,
-      "spg_p36_pctile": 0.6029723991507431,
+      "spg_p36_pctile": 0.6050955414012739,
       "bpg_p36": 0.42187499999999994,
-      "bpg_p36_pctile": 0.43736730360934184,
+      "bpg_p36_pctile": 0.4394904458598726,
       "tov_p36": 2.109375,
-      "tov_p36_pctile": 0.5456475583864119,
+      "tov_p36_pctile": 0.5477707006369427,
       "zones": {
         "at_rim": {
           "fga": 23,
           "fgm": 18,
           "pct": 0.7826,
-          "pctile": 0.8567073170731707
+          "pctile": 0.8520710059171598
         },
         "paint": {
           "fga": 27,
           "fgm": 14,
           "pct": 0.5185,
-          "pctile": 0.7875457875457875
+          "pctile": 0.7714285714285715
         },
         "mid": {
           "fga": 17,
           "fgm": 5,
           "pct": 0.2941,
-          "pctile": 0.21978021978021978
+          "pctile": 0.22162162162162163
         },
         "corner_3": {
           "fga": 28,
           "fgm": 13,
           "pct": 0.4643,
-          "pctile": 0.7606177606177607
+          "pctile": 0.7602996254681648
         },
         "l_corner_3": {
           "fga": 18,
@@ -2994,25 +2994,25 @@
           "fga": 69,
           "fgm": 25,
           "pct": 0.3623,
-          "pctile": 0.5765472312703583
+          "pctile": 0.5857605177993528
         }
       },
       "hustle": {
         "contested_shots": {
           "value": 3.57,
-          "pctile": 0.5822
+          "pctile": 0.5867
         },
         "contested_shots_2pt": {
           "value": 1.79,
-          "pctile": 0.504
+          "pctile": 0.5093
         },
         "contested_shots_3pt": {
           "value": 1.79,
-          "pctile": 0.717
+          "pctile": 0.7173
         },
         "deflections": {
           "value": 2.21,
-          "pctile": 0.7925
+          "pctile": 0.8
         },
         "charges_drawn": {
           "value": 0.0,
@@ -3020,19 +3020,19 @@
         },
         "screen_assists": {
           "value": 0.29,
-          "pctile": 0.434
+          "pctile": 0.4347
         },
         "screen_ast_pts": {
           "value": 0.64,
-          "pctile": 0.434
+          "pctile": 0.4453
         },
         "loose_balls_recovered": {
           "value": 0.57,
-          "pctile": 0.8544
+          "pctile": 0.8347
         },
         "box_outs": {
           "value": 0.29,
-          "pctile": 0.3342
+          "pctile": 0.336
         },
         "pct_box_outs_off": {
           "value": 0.0,
@@ -3040,7 +3040,7 @@
         },
         "pct_box_outs_def": {
           "value": 1.0,
-          "pctile": 0.5202
+          "pctile": 0.552
         }
       },
       "stl_p75": 1.1917372881355932,
@@ -3048,11 +3048,11 @@
       "clutch": {
         "gp": {
           "value": 8,
-          "pctile": 0.9336
+          "pctile": 0.9306
         },
         "min": {
           "value": 0.8,
-          "pctile": 0.0569
+          "pctile": 0.0556
         },
         "pts": {
           "value": 0.0,
@@ -3084,7 +3084,7 @@
         },
         "tov": {
           "value": 0.1,
-          "pctile": 0.5308
+          "pctile": 0.5185
         },
         "fgm": {
           "value": 0.0,
@@ -3124,23 +3124,23 @@
         },
         "pf": {
           "value": 0.1,
-          "pctile": 0.2322
+          "pctile": 0.2361
         },
         "plus_minus": {
           "value": 1.8,
-          "pctile": 0.7773
+          "pctile": 0.7824
         },
         "off_rating": {
           "value": 122.7,
-          "pctile": 0.782
+          "pctile": 0.7593
         },
         "def_rating": {
           "value": 81.3,
-          "pctile": 0.1043
+          "pctile": 0.1111
         },
         "net_rating": {
           "value": 41.5,
-          "pctile": 0.872
+          "pctile": 0.8843
         },
         "efg_pct": {
           "value": 0.0,
@@ -3168,128 +3168,128 @@
         },
         "tm_tov_pct": {
           "value": 100.0,
-          "pctile": 0.981
+          "pctile": 0.9815
         },
         "usg_pct": {
           "value": 0.043,
-          "pctile": 0.109
+          "pctile": 0.1111
         },
         "pie": {
           "value": -0.082,
-          "pctile": 0.0995
+          "pctile": 0.0972
         }
       },
       "stl_pct": 0.01653912237710835,
       "blk_pct": 0.011276093439363814,
-      "stl_pct_pctile": 0.532520325203252,
-      "blk_pct_pctile": 0.4024390243902439,
+      "stl_pct_pctile": 0.5421686746987951,
+      "blk_pct_pctile": 0.3895582329317269,
       "defense_tracking": {
         "d_fgm": {
           "value": 4.43,
-          "pctile": 0.6913
+          "pctile": 0.6971
         },
         "d_fga": {
           "value": 9.43,
-          "pctile": 0.6694
+          "pctile": 0.6676
         },
         "d_fg_pct": {
           "value": 0.47,
-          "pctile": 0.5656
+          "pctile": 0.563
         },
         "normal_fg_pct": {
-          "value": 0.451,
-          "pctile": 0.3552
+          "value": 0.45,
+          "pctile": 0.3485
         },
         "pct_plusminus": {
-          "value": 0.019,
-          "pctile": 0.5902
+          "value": 0.02,
+          "pctile": 0.6059
         }
       },
       "playmaking_tracking": {
         "drives": {
           "drives": {
             "value": 5.5,
-            "pctile": 0.6436
+            "pctile": 0.6506
           },
           "drive_fgm": {
             "value": 1.4,
-            "pctile": 0.7256
+            "pctile": 0.7342
           },
           "drive_fga": {
             "value": 2.8,
-            "pctile": 0.7256
+            "pctile": 0.7291
           },
           "drive_fg_pct": {
             "value": 0.487,
-            "pctile": 0.5385
+            "pctile": 0.5241
           },
           "drive_pts": {
             "value": 2.7,
-            "pctile": 0.6513
+            "pctile": 0.6557
           },
           "drive_ast": {
             "value": 0.7,
-            "pctile": 0.6949
+            "pctile": 0.6962
           },
           "drive_tov": {
             "value": 0.1,
-            "pctile": 0.2333
+            "pctile": 0.2354
           }
         },
         "passing": {
           "passes_made": {
             "value": 24.1,
-            "pctile": 0.5256
+            "pctile": 0.5316
           },
           "passes_received": {
             "value": 28.2,
-            "pctile": 0.6564
+            "pctile": 0.6506
           },
           "potential_ast": {
             "value": 4.7,
-            "pctile": 0.6897
+            "pctile": 0.6886
           },
           "ast_points_created": {
             "value": 5.9,
-            "pctile": 0.6282
+            "pctile": 0.6304
           },
           "ast_to_pass_pct": {
             "value": 0.104,
-            "pctile": 0.7538
+            "pctile": 0.7494
           }
         },
         "possessions": {
           "touches": {
             "value": 35.4,
-            "pctile": 0.6308
+            "pctile": 0.6354
           },
           "front_ct_touches": {
             "value": 21.1,
-            "pctile": 0.6487
+            "pctile": 0.6557
           },
           "time_of_poss": {
             "value": 2.2,
-            "pctile": 0.6282
+            "pctile": 0.6329
           },
           "avg_sec_per_touch": {
             "value": 3.77,
-            "pctile": 0.6154
+            "pctile": 0.6152
           },
           "pts_per_touch": {
             "value": 0.393,
-            "pctile": 0.8462
+            "pctile": 0.8456
           },
           "elbow_touches": {
             "value": 0.1,
-            "pctile": 0.1154
+            "pctile": 0.1089
           },
           "post_touches": {
             "value": 0.4,
-            "pctile": 0.6538
+            "pctile": 0.6633
           },
           "paint_touches": {
             "value": 1.7,
-            "pctile": 0.5667
+            "pctile": 0.5671
           }
         }
       },
@@ -3297,121 +3297,121 @@
         "cs": {
           "fgm": {
             "value": 3.21,
-            "pctile": 0.8282
+            "pctile": 0.8409
           },
           "fga": {
             "value": 6.86,
-            "pctile": 0.8692
+            "pctile": 0.8838
           },
           "fg_pct": {
             "value": 0.469,
-            "pctile": 0.5692
+            "pctile": 0.5783
           },
           "efg_pct": {
             "value": 0.63,
-            "pctile": 0.7128
+            "pctile": 0.6995
           },
           "fg3m": {
             "value": 2.21,
-            "pctile": 0.9615
+            "pctile": 0.9621
           },
           "fg3a": {
             "value": 5.43,
-            "pctile": 0.9462
+            "pctile": 0.9495
           },
           "fg3_pct": {
             "value": 0.408,
-            "pctile": 0.7285
+            "pctile": 0.7411
           }
         },
         "pullup": {
           "fgm": {
             "value": 1.93,
-            "pctile": 0.8268
+            "pctile": 0.8308
           },
           "fga": {
             "value": 4.14,
-            "pctile": 0.8136
+            "pctile": 0.8205
           },
           "fg_pct": {
             "value": 0.466,
-            "pctile": 0.5381
+            "pctile": 0.5308
           },
           "efg_pct": {
             "value": 0.526,
-            "pctile": 0.6299
+            "pctile": 0.6308
           },
           "fg3m": {
             "value": 0.5,
-            "pctile": 0.8898
+            "pctile": 0.8949
           },
           "fg3a": {
             "value": 1.29,
-            "pctile": 0.8688
+            "pctile": 0.8744
           },
           "fg3_pct": {
             "value": 0.389,
-            "pctile": 0.6547
+            "pctile": 0.6702
           }
         },
         "contested": {
           "fgm": {
-            "value": 1.72,
-            "pctile": 0.617
+            "value": 1.68,
+            "pctile": 0.6288
           },
           "fga": {
-            "value": 3.21,
-            "pctile": 0.581
+            "value": 3.15,
+            "pctile": 0.5833
           },
           "fg_pct": {
-            "value": 0.5358,
-            "pctile": 0.6684
+            "value": 0.5333,
+            "pctile": 0.6591
           },
           "efg_pct": {
-            "value": 0.5467,
-            "pctile": 0.6427
+            "value": 0.5444,
+            "pctile": 0.6212
           },
           "fg3m": {
             "value": 0.07,
-            "pctile": 0.5116
+            "pctile": 0.5152
           },
           "fg3a": {
-            "value": 0.36,
-            "pctile": 0.635
+            "value": 0.37,
+            "pctile": 0.6465
           },
           "fg3_pct": {
-            "value": 0.1944,
-            "pctile": 0.4071
+            "value": 0.1892,
+            "pctile": 0.4007
           }
         },
         "uncontested": {
           "fgm": {
             "value": 3.5,
-            "pctile": 0.9096
+            "pctile": 0.9086
           },
           "fga": {
             "value": 8.36,
-            "pctile": 0.9354
+            "pctile": 0.9391
           },
           "fg_pct": {
             "value": 0.4187,
-            "pctile": 0.478
+            "pctile": 0.4848
           },
           "efg_pct": {
             "value": 0.5724,
-            "pctile": 0.5556
+            "pctile": 0.566
           },
           "fg3m": {
             "value": 2.57,
-            "pctile": 0.9612
+            "pctile": 0.9619
           },
           "fg3a": {
             "value": 6.5,
-            "pctile": 0.9561
+            "pctile": 0.9594
           },
           "fg3_pct": {
             "value": 0.3954,
-            "pctile": 0.6768
+            "pctile": 0.6821
           }
         }
       }
@@ -3491,35 +3491,35 @@
       "pos": "G",
       "fta_rate": 0.22608695652173913,
       "qualified": true,
-      "ppg_pctile": 0.5902335456475584,
-      "rpg_pctile": 0.5031847133757962,
-      "orpg_pctile": 0.7091295116772823,
+      "ppg_pctile": 0.5944798301486199,
+      "rpg_pctile": 0.5010615711252654,
+      "orpg_pctile": 0.7112526539278131,
       "drpg_pctile": 0.42038216560509556,
-      "apg_pctile": 0.5180467091295117,
-      "spg_pctile": 0.8046709129511678,
-      "bpg_pctile": 0.34394904458598724,
-      "tov_pctile": 0.4012738853503185,
+      "apg_pctile": 0.5138004246284501,
+      "spg_pctile": 0.802547770700637,
+      "bpg_pctile": 0.346072186836518,
+      "tov_pctile": 0.4033970276008493,
       "fg_pct_pctile": 0.2059447983014862,
-      "fg3_pct_pctile": 0.5286624203821656,
-      "ft_pct_pctile": 0.42038216560509556,
-      "ast_pct_pctile": 0.3375796178343949,
-      "tov_pct_pctile": 0.21656050955414013,
-      "efg_pct_pctile": 0.267515923566879,
-      "ts_pct_pctile": 0.24628450106157113,
-      "reb_pct_pctile": 0.2929936305732484,
-      "fta_rate_pctile": 0.44782608695652176,
+      "fg3_pct_pctile": 0.524416135881104,
+      "ft_pct_pctile": 0.4182590233545648,
+      "ast_pct_pctile": 0.33121019108280253,
+      "tov_pct_pctile": 0.21868365180467092,
+      "efg_pct_pctile": 0.2611464968152866,
+      "ts_pct_pctile": 0.24203821656050956,
+      "reb_pct_pctile": 0.2908704883227176,
+      "fta_rate_pctile": 0.44565217391304346,
       "ppg_p36": 13.350000000000001,
-      "ppg_p36_pctile": 0.386411889596603,
+      "ppg_p36_pctile": 0.3885350318471338,
       "rpg_p36": 4.65,
       "rpg_p36_pctile": 0.3205944798301486,
       "orpg_p36": 1.7999999999999998,
-      "orpg_p36_pctile": 0.6114649681528662,
+      "orpg_p36_pctile": 0.613588110403397,
       "drpg_p36": 2.8499999999999996,
-      "drpg_p36_pctile": 0.24416135881104034,
+      "drpg_p36_pctile": 0.23991507430997877,
       "apg_p36": 2.4,
-      "apg_p36_pctile": 0.3673036093418259,
+      "apg_p36_pctile": 0.35881104033970274,
       "spg_p36": 1.6500000000000001,
-      "spg_p36_pctile": 0.7898089171974523,
+      "spg_p36_pctile": 0.7876857749469215,
       "bpg_p36": 0.3,
       "bpg_p36_pctile": 0.35456475583864117,
       "tov_p36": 1.2,
@@ -3529,7 +3529,7 @@
           "fga": 37,
           "fgm": 18,
           "pct": 0.4865,
-          "pctile": 0.08841463414634146
+          "pctile": 0.09171597633136094
         },
         "paint": {
           "fga": 6,
@@ -3541,13 +3541,13 @@
           "fga": 6,
           "fgm": 2,
           "pct": 0.3333,
-          "pctile": 0.25274725274725274
+          "pctile": 0.25405405405405407
         },
         "corner_3": {
           "fga": 11,
           "fgm": 2,
           "pct": 0.1818,
-          "pctile": 0.10038610038610038
+          "pctile": 0.0898876404494382
         },
         "l_corner_3": {
           "fga": 4,
@@ -3563,53 +3563,53 @@
           "fga": 55,
           "fgm": 20,
           "pct": 0.3636,
-          "pctile": 0.5798045602605864
+          "pctile": 0.5889967637540453
         }
       },
       "hustle": {
         "contested_shots": {
           "value": 3.36,
-          "pctile": 0.5391
+          "pctile": 0.544
         },
         "contested_shots_2pt": {
           "value": 0.93,
-          "pctile": 0.1995
+          "pctile": 0.2027
         },
         "contested_shots_3pt": {
           "value": 2.43,
-          "pctile": 0.9057
+          "pctile": 0.9013
         },
         "deflections": {
           "value": 1.93,
-          "pctile": 0.7116
+          "pctile": 0.7067
         },
         "charges_drawn": {
           "value": 0.07,
-          "pctile": 0.7628
+          "pctile": 0.76
         },
         "screen_assists": {
           "value": 0.57,
-          "pctile": 0.6442
+          "pctile": 0.64
         },
         "screen_ast_pts": {
           "value": 1.29,
-          "pctile": 0.628
+          "pctile": 0.6373
         },
         "loose_balls_recovered": {
           "value": 0.36,
-          "pctile": 0.5984
+          "pctile": 0.5947
         },
         "box_outs": {
           "value": 0.93,
-          "pctile": 0.7898
+          "pctile": 0.792
         },
         "pct_box_outs_off": {
           "value": 0.154,
-          "pctile": 0.6226
+          "pctile": 0.632
         },
         "pct_box_outs_def": {
           "value": 0.846,
-          "pctile": 0.4313
+          "pctile": 0.4693
         }
       },
       "stl_p75": 1.5626479780282225,
@@ -3617,15 +3617,15 @@
       "clutch": {
         "gp": {
           "value": 5,
-          "pctile": 0.5403
+          "pctile": 0.4769
         },
         "min": {
           "value": 1.3,
-          "pctile": 0.128
+          "pctile": 0.1157
         },
         "pts": {
           "value": 1.0,
-          "pctile": 0.4882
+          "pctile": 0.4861
         },
         "oreb": {
           "value": 0.0,
@@ -3657,27 +3657,27 @@
         },
         "fgm": {
           "value": 0.4,
-          "pctile": 0.564
+          "pctile": 0.5741
         },
         "fga": {
           "value": 0.8,
-          "pctile": 0.5071
+          "pctile": 0.4907
         },
         "fg_pct": {
           "value": 0.5,
-          "pctile": 0.5877
+          "pctile": 0.6111
         },
         "fg3m": {
           "value": 0.2,
-          "pctile": 0.7014
+          "pctile": 0.6944
         },
         "fg3a": {
           "value": 0.2,
-          "pctile": 0.3033
+          "pctile": 0.3056
         },
         "fg3_pct": {
           "value": 1.0,
-          "pctile": 0.9289
+          "pctile": 0.9398
         },
         "ftm": {
           "value": 0.0,
@@ -3693,31 +3693,31 @@
         },
         "pf": {
           "value": 0.2,
-          "pctile": 0.2796
+          "pctile": 0.287
         },
         "plus_minus": {
           "value": 0.8,
-          "pctile": 0.6493
+          "pctile": 0.6528
         },
         "off_rating": {
           "value": 105.9,
-          "pctile": 0.4597
+          "pctile": 0.4491
         },
         "def_rating": {
           "value": 82.4,
-          "pctile": 0.1185
+          "pctile": 0.1204
         },
         "net_rating": {
           "value": 23.5,
-          "pctile": 0.7773
+          "pctile": 0.7824
         },
         "efg_pct": {
           "value": 0.625,
-          "pctile": 0.6872
+          "pctile": 0.7083
         },
         "ts_pct": {
           "value": 0.625,
-          "pctile": 0.6161
+          "pctile": 0.6296
         },
         "ast_pct": {
           "value": 0.0,
@@ -3741,124 +3741,124 @@
         },
         "usg_pct": {
           "value": 0.174,
-          "pctile": 0.5545
+          "pctile": 0.5602
         },
         "pie": {
           "value": 0.083,
-          "pctile": 0.4787
+          "pctile": 0.4861
         }
       },
       "stl_pct": 0.021562115099044966,
       "blk_pct": 0.008018555334658714,
-      "stl_pct_pctile": 0.7886178861788617,
-      "blk_pct_pctile": 0.27235772357723576,
+      "stl_pct_pctile": 0.7911646586345381,
+      "blk_pct_pctile": 0.26104417670682734,
       "defense_tracking": {
         "d_fgm": {
           "value": 4.57,
-          "pctile": 0.7322
+          "pctile": 0.7292
         },
         "d_fga": {
           "value": 8.57,
-          "pctile": 0.6011
+          "pctile": 0.6032
         },
         "d_fg_pct": {
           "value": 0.533,
-          "pctile": 0.8634
+          "pctile": 0.8686
         },
         "normal_fg_pct": {
-          "value": 0.452,
-          "pctile": 0.3907
+          "value": 0.451,
+          "pctile": 0.3727
         },
         "pct_plusminus": {
-          "value": 0.081,
-          "pctile": 0.8852
+          "value": 0.082,
+          "pctile": 0.8928
         }
       },
       "playmaking_tracking": {
         "drives": {
           "drives": {
             "value": 5.0,
-            "pctile": 0.6103
+            "pctile": 0.6152
           },
           "drive_fgm": {
             "value": 0.5,
-            "pctile": 0.4385
+            "pctile": 0.438
           },
           "drive_fga": {
             "value": 1.9,
-            "pctile": 0.6128
+            "pctile": 0.6152
           },
           "drive_fg_pct": {
             "value": 0.269,
-            "pctile": 0.1667
+            "pctile": 0.1595
           },
           "drive_pts": {
             "value": 1.4,
-            "pctile": 0.4795
+            "pctile": 0.4911
           },
           "drive_ast": {
             "value": 0.6,
-            "pctile": 0.6436
+            "pctile": 0.6532
           },
           "drive_tov": {
             "value": 0.3,
-            "pctile": 0.5385
+            "pctile": 0.5418
           }
         },
         "passing": {
           "passes_made": {
             "value": 17.7,
-            "pctile": 0.359
+            "pctile": 0.362
           },
           "passes_received": {
             "value": 18.4,
-            "pctile": 0.4256
+            "pctile": 0.4253
           },
           "potential_ast": {
             "value": 2.5,
-            "pctile": 0.4026
+            "pctile": 0.4
           },
           "ast_points_created": {
             "value": 4.0,
-            "pctile": 0.4487
+            "pctile": 0.4481
           },
           "ast_to_pass_pct": {
             "value": 0.093,
-            "pctile": 0.6282
+            "pctile": 0.6354
           }
         },
         "possessions": {
           "touches": {
             "value": 24.8,
-            "pctile": 0.4231
+            "pctile": 0.4253
           },
           "front_ct_touches": {
             "value": 17.3,
-            "pctile": 0.5103
+            "pctile": 0.5063
           },
           "time_of_poss": {
             "value": 1.0,
-            "pctile": 0.3385
+            "pctile": 0.3519
           },
           "avg_sec_per_touch": {
             "value": 2.45,
-            "pctile": 0.2923
+            "pctile": 0.2911
           },
           "pts_per_touch": {
             "value": 0.36,
-            "pctile": 0.759
+            "pctile": 0.7646
           },
           "elbow_touches": {
             "value": 0.3,
-            "pctile": 0.3077
+            "pctile": 0.3089
           },
           "post_touches": {
             "value": 0.1,
-            "pctile": 0.2692
+            "pctile": 0.2785
           },
           "paint_touches": {
             "value": 2.0,
-            "pctile": 0.6333
+            "pctile": 0.6304
           }
         }
       },
@@ -3866,79 +3866,79 @@
         "cs": {
           "fgm": {
             "value": 2.36,
-            "pctile": 0.6282
+            "pctile": 0.6465
           },
           "fga": {
             "value": 5.71,
-            "pctile": 0.7179
+            "pctile": 0.7298
           },
           "fg_pct": {
             "value": 0.413,
-            "pctile": 0.3256
+            "pctile": 0.3283
           },
           "efg_pct": {
             "value": 0.538,
-            "pctile": 0.3897
+            "pctile": 0.3914
           },
           "fg3m": {
             "value": 1.43,
-            "pctile": 0.7744
+            "pctile": 0.7803
           },
           "fg3a": {
             "value": 4.21,
-            "pctile": 0.8231
+            "pctile": 0.8333
           },
           "fg3_pct": {
             "value": 0.339,
-            "pctile": 0.4681
+            "pctile": 0.4768
           }
         },
         "pullup": {
           "fgm": {
             "value": 0.64,
-            "pctile": 0.4961
+            "pctile": 0.5077
           },
           "fga": {
             "value": 2.5,
-            "pctile": 0.6483
+            "pctile": 0.6538
           },
           "fg_pct": {
             "value": 0.257,
-            "pctile": 0.1444
+            "pctile": 0.1513
           },
           "efg_pct": {
             "value": 0.286,
-            "pctile": 0.1365
+            "pctile": 0.1436
           },
           "fg3m": {
             "value": 0.14,
-            "pctile": 0.6247
+            "pctile": 0.6333
           },
           "fg3a": {
             "value": 0.5,
-            "pctile": 0.6378
+            "pctile": 0.641
           },
           "fg3_pct": {
             "value": 0.286,
-            "pctile": 0.518
+            "pctile": 0.5142
           }
         },
         "contested": {
           "fgm": {
-            "value": 1.07,
-            "pctile": 0.4344
+            "value": 1.01,
+            "pctile": 0.4167
           },
           "fga": {
-            "value": 2.65,
-            "pctile": 0.509
+            "value": 2.54,
+            "pctile": 0.4975
           },
           "fg_pct": {
-            "value": 0.4038,
-            "pctile": 0.2391
+            "value": 0.3976,
+            "pctile": 0.2172
           },
           "efg_pct": {
-            "value": 0.4038,
-            "pctile": 0.1851
+            "value": 0.3976,
+            "pctile": 0.1793
           },
           "fg3m": {
             "value": 0.0,
@@ -3946,7 +3946,7 @@
           },
           "fg3a": {
             "value": 0.29,
-            "pctile": 0.599
+            "pctile": 0.6035
           },
           "fg3_pct": {
             "value": 0.0,
@@ -3956,31 +3956,31 @@
         "uncontested": {
           "fgm": {
             "value": 1.93,
-            "pctile": 0.6279
+            "pctile": 0.6396
           },
           "fga": {
             "value": 5.5,
-            "pctile": 0.7158
+            "pctile": 0.7284
           },
           "fg_pct": {
             "value": 0.3509,
-            "pctile": 0.2093
+            "pctile": 0.2107
           },
           "efg_pct": {
             "value": 0.4936,
-            "pctile": 0.3204
+            "pctile": 0.3299
           },
           "fg3m": {
             "value": 1.57,
-            "pctile": 0.7623
+            "pctile": 0.7766
           },
           "fg3a": {
             "value": 4.43,
-            "pctile": 0.7907
+            "pctile": 0.797
           },
           "fg3_pct": {
             "value": 0.3544,
-            "pctile": 0.4972
+            "pctile": 0.5054
           }
         }
       }
@@ -4060,63 +4060,63 @@
       "pos": "G",
       "fta_rate": 0.14864864864864866,
       "qualified": true,
-      "ppg_pctile": 0.535031847133758,
-      "rpg_pctile": 0.4012738853503185,
-      "orpg_pctile": 0.49256900212314225,
-      "drpg_pctile": 0.37367303609341823,
-      "apg_pctile": 0.861995753715499,
-      "spg_pctile": 0.5371549893842887,
-      "bpg_pctile": 0.47558386411889597,
-      "tov_pctile": 0.8641188959660298,
-      "fg_pct_pctile": 0.7685774946921444,
-      "fg3_pct_pctile": 0.8365180467091295,
-      "ft_pct_pctile": 0.4118895966029724,
-      "ast_pct_pctile": 0.8343949044585988,
-      "tov_pct_pctile": 0.8874734607218684,
+      "ppg_pctile": 0.5435244161358811,
+      "rpg_pctile": 0.3991507430997877,
+      "orpg_pctile": 0.49044585987261147,
+      "drpg_pctile": 0.37579617834394907,
+      "apg_pctile": 0.8598726114649682,
+      "spg_pctile": 0.535031847133758,
+      "bpg_pctile": 0.4713375796178344,
+      "tov_pctile": 0.861995753715499,
+      "fg_pct_pctile": 0.7707006369426752,
+      "fg3_pct_pctile": 0.8386411889596603,
+      "ft_pct_pctile": 0.40976645435244163,
+      "ast_pct_pctile": 0.8365180467091295,
+      "tov_pct_pctile": 0.8853503184713376,
       "efg_pct_pctile": 0.6794055201698513,
-      "ts_pct_pctile": 0.5902335456475584,
-      "reb_pct_pctile": 0.25477707006369427,
-      "fta_rate_pctile": 0.26304347826086955,
+      "ts_pct_pctile": 0.5923566878980892,
+      "reb_pct_pctile": 0.2505307855626327,
+      "fta_rate_pctile": 0.2717391304347826,
       "ppg_p36": 13.06046511627907,
-      "ppg_p36_pctile": 0.3609341825902335,
+      "ppg_p36_pctile": 0.3673036093418259,
       "rpg_p36": 4.186046511627907,
       "rpg_p36_pctile": 0.25690021231422505,
       "orpg_p36": 1.3395348837209302,
-      "orpg_p36_pctile": 0.46284501061571126,
+      "orpg_p36_pctile": 0.4607218683651805,
       "drpg_p36": 2.8465116279069766,
-      "drpg_p36_pctile": 0.24203821656050956,
+      "drpg_p36_pctile": 0.2356687898089172,
       "apg_p36": 6.865116279069767,
-      "apg_p36_pctile": 0.9023354564755839,
+      "apg_p36_pctile": 0.9002123142250531,
       "spg_p36": 1.172093023255814,
-      "spg_p36_pctile": 0.524416135881104,
+      "spg_p36_pctile": 0.5329087048832272,
       "bpg_p36": 0.5023255813953488,
-      "bpg_p36_pctile": 0.4861995753715499,
+      "bpg_p36_pctile": 0.49044585987261147,
       "tov_p36": 3.683720930232558,
-      "tov_p36_pctile": 0.9023354564755839,
+      "tov_p36_pctile": 0.9044585987261147,
       "zones": {
         "at_rim": {
           "fga": 27,
           "fgm": 22,
           "pct": 0.8148,
-          "pctile": 0.9237804878048781
+          "pctile": 0.9230769230769231
         },
         "paint": {
           "fga": 13,
           "fgm": 1,
           "pct": 0.0769,
-          "pctile": 0.007326007326007326
+          "pctile": 0.007142857142857143
         },
         "mid": {
           "fga": 13,
           "fgm": 6,
           "pct": 0.4615,
-          "pctile": 0.6703296703296703
+          "pctile": 0.6756756756756757
         },
         "corner_3": {
           "fga": 4,
           "fgm": 2,
           "pct": 0.5,
-          "pctile": 0.7876447876447876
+          "pctile": 0.7902621722846442
         },
         "l_corner_3": {
           "fga": 1,
@@ -4132,25 +4132,25 @@
           "fga": 17,
           "fgm": 7,
           "pct": 0.4118,
-          "pctile": 0.739413680781759
+          "pctile": 0.7572815533980582
         }
       },
       "hustle": {
         "contested_shots": {
           "value": 1.82,
-          "pctile": 0.1995
+          "pctile": 0.2133
         },
         "contested_shots_2pt": {
           "value": 1.36,
-          "pctile": 0.372
+          "pctile": 0.3813
         },
         "contested_shots_3pt": {
           "value": 0.45,
-          "pctile": 0.0943
+          "pctile": 0.0987
         },
         "deflections": {
           "value": 1.73,
-          "pctile": 0.6253
+          "pctile": 0.624
         },
         "charges_drawn": {
           "value": 0.0,
@@ -4158,19 +4158,19 @@
         },
         "screen_assists": {
           "value": 0.09,
-          "pctile": 0.1779
+          "pctile": 0.1707
         },
         "screen_ast_pts": {
           "value": 0.27,
-          "pctile": 0.2183
+          "pctile": 0.2213
         },
         "loose_balls_recovered": {
           "value": 0.18,
-          "pctile": 0.3019
+          "pctile": 0.2853
         },
         "box_outs": {
           "value": 0.27,
-          "pctile": 0.3154
+          "pctile": 0.3147
         },
         "pct_box_outs_off": {
           "value": 0.0,
@@ -4178,7 +4178,7 @@
         },
         "pct_box_outs_def": {
           "value": 1.0,
-          "pctile": 0.5202
+          "pctile": 0.552
         }
       },
       "stl_p75": 1.1016947300082844,
@@ -4190,7 +4190,7 @@
         },
         "min": {
           "value": 2.1,
-          "pctile": 0.2891
+          "pctile": 0.2546
         },
         "pts": {
           "value": 0.0,
@@ -4218,7 +4218,7 @@
         },
         "blk": {
           "value": 1.0,
-          "pctile": 0.9953
+          "pctile": 0.9954
         },
         "tov": {
           "value": 0.0,
@@ -4266,19 +4266,19 @@
         },
         "plus_minus": {
           "value": 6.0,
-          "pctile": 0.9905
+          "pctile": 0.9861
         },
         "off_rating": {
           "value": 153.8,
-          "pctile": 0.9336
+          "pctile": 0.9537
         },
         "def_rating": {
           "value": 80.0,
-          "pctile": 0.09
+          "pctile": 0.0972
         },
         "net_rating": {
           "value": 73.8,
-          "pctile": 0.9668
+          "pctile": 0.9722
         },
         "efg_pct": {
           "value": 0.0,
@@ -4314,112 +4314,112 @@
         },
         "pie": {
           "value": 0.063,
-          "pctile": 0.4171
+          "pctile": 0.412
         }
       },
       "stl_pct": 0.01531685131771481,
       "blk_pct": 0.01342641823477738,
-      "stl_pct_pctile": 0.44308943089430897,
-      "blk_pct_pctile": 0.46747967479674796,
+      "stl_pct_pctile": 0.4578313253012048,
+      "blk_pct_pctile": 0.4779116465863454,
       "defense_tracking": {
         "d_fgm": {
           "value": 2.83,
-          "pctile": 0.3279
+          "pctile": 0.3378
         },
         "d_fga": {
           "value": 5.92,
-          "pctile": 0.306
+          "pctile": 0.3056
         },
         "d_fg_pct": {
           "value": 0.479,
-          "pctile": 0.6175
+          "pctile": 0.6113
         },
         "normal_fg_pct": {
-          "value": 0.444,
-          "pctile": 0.224
+          "value": 0.442,
+          "pctile": 0.185
         },
         "pct_plusminus": {
-          "value": 0.035,
-          "pctile": 0.6885
+          "value": 0.036,
+          "pctile": 0.7024
         }
       },
       "playmaking_tracking": {
         "drives": {
           "drives": {
             "value": 11.7,
-            "pctile": 0.8487
+            "pctile": 0.8481
           },
           "drive_fgm": {
             "value": 1.8,
-            "pctile": 0.8026
+            "pctile": 0.8076
           },
           "drive_fga": {
             "value": 3.6,
-            "pctile": 0.7949
+            "pctile": 0.8025
           },
           "drive_fg_pct": {
             "value": 0.512,
-            "pctile": 0.6462
+            "pctile": 0.6506
           },
           "drive_pts": {
             "value": 4.0,
-            "pctile": 0.7513
+            "pctile": 0.7494
           },
           "drive_ast": {
             "value": 1.6,
-            "pctile": 0.9231
+            "pctile": 0.9266
           },
           "drive_tov": {
             "value": 0.8,
-            "pctile": 0.8436
+            "pctile": 0.8633
           }
         },
         "passing": {
           "passes_made": {
             "value": 33.8,
-            "pctile": 0.7641
+            "pctile": 0.7595
           },
           "passes_received": {
             "value": 36.8,
-            "pctile": 0.7744
+            "pctile": 0.7797
           },
           "potential_ast": {
             "value": 7.4,
-            "pctile": 0.8333
+            "pctile": 0.838
           },
           "ast_points_created": {
             "value": 10.8,
-            "pctile": 0.8436
+            "pctile": 0.843
           },
           "ast_to_pass_pct": {
             "value": 0.121,
-            "pctile": 0.8718
+            "pctile": 0.881
           }
         },
         "possessions": {
           "touches": {
             "value": 40.8,
-            "pctile": 0.7
+            "pctile": 0.6987
           },
           "front_ct_touches": {
             "value": 15.5,
-            "pctile": 0.4436
+            "pctile": 0.4405
           },
           "time_of_poss": {
             "value": 3.1,
-            "pctile": 0.7692
+            "pctile": 0.7646
           },
           "avg_sec_per_touch": {
             "value": 4.62,
-            "pctile": 0.7615
+            "pctile": 0.7595
           },
           "pts_per_touch": {
             "value": 0.19,
-            "pctile": 0.141
+            "pctile": 0.1392
           },
           "elbow_touches": {
             "value": 0.1,
-            "pctile": 0.1154
+            "pctile": 0.1089
           },
           "post_touches": {
             "value": 0.0,
@@ -4427,7 +4427,7 @@
           },
           "paint_touches": {
             "value": 0.9,
-            "pctile": 0.3205
+            "pctile": 0.319
           }
         }
       },
@@ -4435,79 +4435,79 @@
         "cs": {
           "fgm": {
             "value": 0.83,
-            "pctile": 0.1744
+            "pctile": 0.1818
           },
           "fga": {
             "value": 1.92,
-            "pctile": 0.1769
+            "pctile": 0.1768
           },
           "fg_pct": {
             "value": 0.435,
-            "pctile": 0.4231
+            "pctile": 0.4268
           },
           "efg_pct": {
             "value": 0.543,
-            "pctile": 0.4103
+            "pctile": 0.4167
           },
           "fg3m": {
             "value": 0.42,
-            "pctile": 0.3
+            "pctile": 0.2955
           },
           "fg3a": {
             "value": 1.0,
-            "pctile": 0.2231
+            "pctile": 0.2273
           },
           "fg3_pct": {
             "value": 0.417,
-            "pctile": 0.7562
+            "pctile": 0.7684
           }
         },
         "pullup": {
           "fgm": {
             "value": 1.83,
-            "pctile": 0.8136
+            "pctile": 0.8103
           },
           "fga": {
             "value": 3.5,
-            "pctile": 0.7585
+            "pctile": 0.7692
           },
           "fg_pct": {
             "value": 0.524,
-            "pctile": 0.7349
+            "pctile": 0.7487
           },
           "efg_pct": {
             "value": 0.571,
-            "pctile": 0.727
+            "pctile": 0.7359
           },
           "fg3m": {
             "value": 0.33,
-            "pctile": 0.8136
+            "pctile": 0.8231
           },
           "fg3a": {
             "value": 0.75,
-            "pctile": 0.748
+            "pctile": 0.759
           },
           "fg3_pct": {
             "value": 0.444,
-            "pctile": 0.741
+            "pctile": 0.7482
           }
         },
         "contested": {
           "fgm": {
-            "value": 1.5,
-            "pctile": 0.5758
+            "value": 1.55,
+            "pctile": 0.601
           },
           "fga": {
-            "value": 2.75,
-            "pctile": 0.5244
+            "value": 2.74,
+            "pctile": 0.5278
           },
           "fg_pct": {
-            "value": 0.5455,
-            "pctile": 0.7069
+            "value": 0.5657,
+            "pctile": 0.7298
           },
           "efg_pct": {
-            "value": 0.5455,
-            "pctile": 0.6401
+            "value": 0.5657,
+            "pctile": 0.6818
           },
           "fg3m": {
             "value": 0.0,
@@ -4515,7 +4515,7 @@
           },
           "fg3a": {
             "value": 0.08,
-            "pctile": 0.2956
+            "pctile": 0.3157
           },
           "fg3_pct": {
             "value": 0.0,
@@ -4525,31 +4525,31 @@
         "uncontested": {
           "fgm": {
             "value": 1.59,
-            "pctile": 0.5297
+            "pctile": 0.5431
           },
           "fga": {
             "value": 3.34,
-            "pctile": 0.4599
+            "pctile": 0.4695
           },
           "fg_pct": {
             "value": 0.476,
-            "pctile": 0.677
+            "pctile": 0.6853
           },
           "efg_pct": {
             "value": 0.5883,
-            "pctile": 0.6227
+            "pctile": 0.6168
           },
           "fg3m": {
             "value": 0.75,
-            "pctile": 0.4238
+            "pctile": 0.4315
           },
           "fg3a": {
             "value": 1.66,
-            "pctile": 0.3204
+            "pctile": 0.3299
           },
           "fg3_pct": {
             "value": 0.4518,
-            "pctile": 0.8508
+            "pctile": 0.856
           }
         }
       }
@@ -4625,50 +4625,50 @@
       "fta_rate": 0.375,
       "qualified": false,
       "ppg_pctile": 0.4692144373673036,
-      "rpg_pctile": 0.7558386411889597,
-      "orpg_pctile": 0.9087048832271762,
-      "drpg_pctile": 0.583864118895966,
-      "apg_pctile": 0.5414012738853503,
+      "rpg_pctile": 0.7579617834394905,
+      "orpg_pctile": 0.9065817409766455,
+      "drpg_pctile": 0.5817409766454352,
+      "apg_pctile": 0.5371549893842887,
       "spg_pctile": 0.1932059447983015,
       "bpg_pctile": 0.7303609341825902,
       "tov_pctile": 0.721868365180467,
-      "fg_pct_pctile": 0.5435244161358811,
-      "fg3_pct_pctile": 0.28662420382165604,
-      "ft_pct_pctile": 0.30148619957537154,
+      "fg_pct_pctile": 0.5477707006369427,
+      "fg3_pct_pctile": 0.2908704883227176,
+      "ft_pct_pctile": 0.3036093418259023,
       "ast_pct_pctile": 0.6093418259023354,
       "tov_pct_pctile": 0.8683651804670913,
-      "efg_pct_pctile": 0.44798301486199577,
-      "ts_pct_pctile": 0.416135881104034,
-      "reb_pct_pctile": 0.89171974522293,
-      "fta_rate_pctile": 0.75,
+      "efg_pct_pctile": 0.4416135881104034,
+      "ts_pct_pctile": 0.4118895966029724,
+      "reb_pct_pctile": 0.8895966029723992,
+      "fta_rate_pctile": 0.7521739130434782,
       "ppg_p36": 15.793548387096774,
       "ppg_p36_pctile": 0.583864118895966,
       "rpg_p36": 11.380645161290323,
-      "rpg_p36_pctile": 0.89171974522293,
+      "rpg_p36_pctile": 0.8959660297239915,
       "orpg_p36": 5.341935483870968,
       "orpg_p36_pctile": 0.9426751592356688,
       "drpg_p36": 6.038709677419355,
-      "drpg_p36_pctile": 0.7685774946921444,
+      "drpg_p36_pctile": 0.7643312101910829,
       "apg_p36": 3.9483870967741934,
-      "apg_p36_pctile": 0.6518046709129511,
+      "apg_p36_pctile": 0.6496815286624203,
       "spg_p36": 0.4645161290322581,
-      "spg_p36_pctile": 0.1910828025477707,
+      "spg_p36_pctile": 0.19532908704883228,
       "bpg_p36": 1.393548387096774,
       "bpg_p36_pctile": 0.8365180467091295,
       "tov_p36": 3.7161290322580647,
-      "tov_p36_pctile": 0.9065817409766455,
+      "tov_p36_pctile": 0.9087048832271762,
       "zones": {
         "at_rim": {
           "fga": 19,
           "fgm": 13,
           "pct": 0.6842,
-          "pctile": 0.6280487804878049
+          "pctile": 0.636094674556213
         },
         "paint": {
           "fga": 5,
           "fgm": 2,
           "pct": 0.4,
-          "pctile": 0.38461538461538464
+          "pctile": 0.39285714285714285
         },
         "mid": {
           "fga": 2,
@@ -4680,7 +4680,7 @@
           "fga": 9,
           "fgm": 3,
           "pct": 0.3333,
-          "pctile": 0.3474903474903475
+          "pctile": 0.3595505617977528
         },
         "l_corner_3": {
           "fga": 6,
@@ -4696,25 +4696,25 @@
           "fga": 13,
           "fgm": 2,
           "pct": 0.1538,
-          "pctile": 0.05863192182410423
+          "pctile": 0.05177993527508091
         }
       },
       "hustle": {
         "contested_shots": {
           "value": 5.25,
-          "pctile": 0.8275
+          "pctile": 0.8267
         },
         "contested_shots_2pt": {
           "value": 3.88,
-          "pctile": 0.8733
+          "pctile": 0.8773
         },
         "contested_shots_3pt": {
           "value": 1.38,
-          "pctile": 0.558
+          "pctile": 0.5627
         },
         "deflections": {
           "value": 0.88,
-          "pctile": 0.1806
+          "pctile": 0.1867
         },
         "charges_drawn": {
           "value": 0.0,
@@ -4722,126 +4722,126 @@
         },
         "screen_assists": {
           "value": 1.5,
-          "pctile": 0.8437
+          "pctile": 0.848
         },
         "screen_ast_pts": {
           "value": 3.5,
-          "pctile": 0.8356
+          "pctile": 0.8427
         },
         "loose_balls_recovered": {
           "value": 0.13,
-          "pctile": 0.1806
+          "pctile": 0.168
         },
         "box_outs": {
           "value": 1.88,
-          "pctile": 0.9542
+          "pctile": 0.9573
         },
         "pct_box_outs_off": {
           "value": 0.4,
-          "pctile": 0.8571
+          "pctile": 0.8613
         },
         "pct_box_outs_def": {
           "value": 0.6,
-          "pctile": 0.1806
+          "pctile": 0.2027
         }
       },
       "stl_p75": 0.43158610892154425,
       "deflections_p75": 1.8989788792547948,
       "stl_pct": 0.006070272872458406,
       "blk_pct": 0.03724748284486628,
-      "stl_pct_pctile": 0.052845528455284556,
-      "blk_pct_pctile": 0.8861788617886179,
+      "stl_pct_pctile": 0.05622489959839357,
+      "blk_pct_pctile": 0.8795180722891566,
       "defense_tracking": {
         "d_fgm": {
           "value": 5.13,
-          "pctile": 0.8251
+          "pctile": 0.8284
         },
         "d_fga": {
           "value": 9.13,
-          "pctile": 0.6366
+          "pctile": 0.6408
         },
         "d_fg_pct": {
           "value": 0.562,
-          "pctile": 0.9372
+          "pctile": 0.9383
         },
         "normal_fg_pct": {
-          "value": 0.485,
-          "pctile": 0.9016
+          "value": 0.487,
+          "pctile": 0.9223
         },
         "pct_plusminus": {
-          "value": 0.076,
-          "pctile": 0.8689
+          "value": 0.075,
+          "pctile": 0.8579
         }
       },
       "playmaking_tracking": {
         "drives": {
           "drives": {
             "value": 0.6,
-            "pctile": 0.1103
+            "pctile": 0.1139
           },
           "drive_fgm": {
             "value": 0.2,
-            "pctile": 0.1718
+            "pctile": 0.1772
           },
           "drive_fga": {
             "value": 0.2,
-            "pctile": 0.0897
+            "pctile": 0.0937
           },
           "drive_fg_pct": {
             "value": 1.0,
-            "pctile": 0.9615
+            "pctile": 0.9595
           },
           "drive_pts": {
             "value": 0.4,
-            "pctile": 0.1564
+            "pctile": 0.157
           },
           "drive_ast": {
             "value": 0.1,
-            "pctile": 0.2
+            "pctile": 0.2076
           },
           "drive_tov": {
             "value": 0.1,
-            "pctile": 0.2333
+            "pctile": 0.2354
           }
         },
         "passing": {
           "passes_made": {
             "value": 25.1,
-            "pctile": 0.5615
+            "pctile": 0.5646
           },
           "passes_received": {
             "value": 20.8,
-            "pctile": 0.4974
+            "pctile": 0.5013
           },
           "potential_ast": {
             "value": 2.6,
-            "pctile": 0.4256
+            "pctile": 0.4253
           },
           "ast_points_created": {
             "value": 3.7,
-            "pctile": 0.4103
+            "pctile": 0.4101
           },
           "ast_to_pass_pct": {
             "value": 0.066,
-            "pctile": 0.3333
+            "pctile": 0.3266
           }
         },
         "possessions": {
           "touches": {
             "value": 31.1,
-            "pctile": 0.5333
+            "pctile": 0.5342
           },
           "front_ct_touches": {
             "value": 23.1,
-            "pctile": 0.6949
+            "pctile": 0.6937
           },
           "time_of_poss": {
             "value": 0.8,
-            "pctile": 0.2744
+            "pctile": 0.281
           },
           "avg_sec_per_touch": {
             "value": 1.47,
-            "pctile": 0.0436
+            "pctile": 0.0557
           },
           "pts_per_touch": {
             "value": 0.218,
@@ -4849,15 +4849,15 @@
           },
           "elbow_touches": {
             "value": 1.0,
-            "pctile": 0.7641
+            "pctile": 0.7722
           },
           "post_touches": {
             "value": 0.8,
-            "pctile": 0.7949
+            "pctile": 0.8025
           },
           "paint_touches": {
             "value": 4.9,
-            "pctile": 0.8667
+            "pctile": 0.8709
           }
         }
       },
@@ -4865,49 +4865,49 @@
         "cs": {
           "fgm": {
             "value": 2.22,
-            "pctile": 0.6051
+            "pctile": 0.6136
           },
           "fga": {
             "value": 4.56,
-            "pctile": 0.5615
+            "pctile": 0.5732
           },
           "fg_pct": {
             "value": 0.488,
-            "pctile": 0.6333
+            "pctile": 0.6364
           },
           "efg_pct": {
             "value": 0.549,
-            "pctile": 0.4359
+            "pctile": 0.4419
           },
           "fg3m": {
             "value": 0.56,
-            "pctile": 0.3692
+            "pctile": 0.3737
           },
           "fg3a": {
             "value": 2.11,
-            "pctile": 0.4103
+            "pctile": 0.4116
           },
           "fg3_pct": {
             "value": 0.263,
-            "pctile": 0.205
+            "pctile": 0.2207
           }
         },
         "pullup": {
           "fgm": {
             "value": 0.22,
-            "pctile": 0.2152
+            "pctile": 0.2256
           },
           "fga": {
             "value": 0.67,
-            "pctile": 0.2493
+            "pctile": 0.2487
           },
           "fg_pct": {
             "value": 0.333,
-            "pctile": 0.2073
+            "pctile": 0.2179
           },
           "efg_pct": {
             "value": 0.333,
-            "pctile": 0.1811
+            "pctile": 0.1923
           },
           "fg3m": {
             "value": 0.0,
@@ -4915,7 +4915,7 @@
           },
           "fg3a": {
             "value": 0.22,
-            "pctile": 0.4751
+            "pctile": 0.4846
           },
           "fg3_pct": {
             "value": 0.0,
@@ -4924,62 +4924,62 @@
         },
         "contested": {
           "fgm": {
-            "value": 1.11,
-            "pctile": 0.4524
+            "value": 1.14,
+            "pctile": 0.4697
           },
           "fga": {
-            "value": 2.12,
-            "pctile": 0.4344
+            "value": 2.06,
+            "pctile": 0.4369
           },
           "fg_pct": {
-            "value": 0.5236,
-            "pctile": 0.635
+            "value": 0.5534,
+            "pctile": 0.7045
           },
           "efg_pct": {
-            "value": 0.5495,
-            "pctile": 0.6504
+            "value": 0.5801,
+            "pctile": 0.7323
           },
           "fg3m": {
             "value": 0.11,
-            "pctile": 0.6761
+            "pctile": 0.6818
           },
           "fg3a": {
             "value": 0.22,
-            "pctile": 0.5244
+            "pctile": 0.5354
           },
           "fg3_pct": {
             "value": 0.5,
-            "pctile": 0.8179
+            "pctile": 0.8227
           }
         },
         "uncontested": {
           "fgm": {
             "value": 1.33,
-            "pctile": 0.4315
+            "pctile": 0.4365
           },
           "fga": {
             "value": 3.22,
-            "pctile": 0.4419
+            "pctile": 0.4492
           },
           "fg_pct": {
             "value": 0.413,
-            "pctile": 0.4574
+            "pctile": 0.4594
           },
           "efg_pct": {
             "value": 0.4814,
-            "pctile": 0.2894
+            "pctile": 0.2919
           },
           "fg3m": {
             "value": 0.44,
-            "pctile": 0.3127
+            "pctile": 0.3122
           },
           "fg3a": {
             "value": 2.22,
-            "pctile": 0.4186
+            "pctile": 0.4188
           },
           "fg3_pct": {
             "value": 0.1982,
-            "pctile": 0.1243
+            "pctile": 0.1277
           }
         }
       }
@@ -5059,45 +5059,45 @@
       "pos": "F",
       "fta_rate": 0.2222222222222222,
       "qualified": false,
-      "ppg_pctile": 0.34182590233545646,
-      "rpg_pctile": 0.4840764331210191,
+      "ppg_pctile": 0.33970276008492567,
+      "rpg_pctile": 0.4819532908704883,
       "orpg_pctile": 0.7473460721868365,
       "drpg_pctile": 0.39490445859872614,
-      "apg_pctile": 0.37579617834394907,
-      "spg_pctile": 0.3821656050955414,
-      "bpg_pctile": 0.47558386411889597,
-      "tov_pctile": 0.3099787685774947,
-      "fg_pct_pctile": 0.8471337579617835,
-      "fg3_pct_pctile": 0.921443736730361,
+      "apg_pctile": 0.3673036093418259,
+      "spg_pctile": 0.3885350318471338,
+      "bpg_pctile": 0.4713375796178344,
+      "tov_pctile": 0.31210191082802546,
+      "fg_pct_pctile": 0.8450106157112527,
+      "fg3_pct_pctile": 0.9235668789808917,
       "ft_pct_pctile": 0.14437367303609341,
       "ast_pct_pctile": 0.5817409766454352,
-      "tov_pct_pctile": 0.5944798301486199,
+      "tov_pct_pctile": 0.5966029723991507,
       "efg_pct_pctile": 0.8895966029723992,
-      "ts_pct_pctile": 0.8089171974522293,
-      "reb_pct_pctile": 0.7558386411889597,
-      "fta_rate_pctile": 0.4434782608695652,
+      "ts_pct_pctile": 0.8131634819532909,
+      "reb_pct_pctile": 0.7579617834394905,
+      "fta_rate_pctile": 0.4391304347826087,
       "ppg_p36": 15.292035398230086,
-      "ppg_p36_pctile": 0.5371549893842887,
+      "ppg_p36_pctile": 0.5477707006369427,
       "rpg_p36": 9.557522123893804,
       "rpg_p36_pctile": 0.7919320594479831,
       "orpg_p36": 4.1415929203539825,
-      "orpg_p36_pctile": 0.8768577494692145,
+      "orpg_p36_pctile": 0.8789808917197452,
       "drpg_p36": 5.734513274336282,
-      "drpg_p36_pctile": 0.7176220806794055,
+      "drpg_p36_pctile": 0.7154989384288747,
       "apg_p36": 3.504424778761062,
-      "apg_p36_pctile": 0.5923566878980892,
+      "apg_p36_pctile": 0.5966029723991507,
       "spg_p36": 1.5929203539823007,
-      "spg_p36_pctile": 0.7685774946921444,
+      "spg_p36_pctile": 0.7707006369426752,
       "bpg_p36": 0.9557522123893804,
       "bpg_p36_pctile": 0.70276008492569,
       "tov_p36": 1.9115044247787607,
-      "tov_p36_pctile": 0.4819532908704883,
+      "tov_p36_pctile": 0.4734607218683652,
       "zones": {
         "at_rim": {
           "fga": 15,
           "fgm": 10,
           "pct": 0.6667,
-          "pctile": 0.5
+          "pctile": 0.5029585798816568
         },
         "paint": {
           "fga": 2,
@@ -5115,7 +5115,7 @@
           "fga": 6,
           "fgm": 3,
           "pct": 0.5,
-          "pctile": 0.7876447876447876
+          "pctile": 0.7902621722846442
         },
         "l_corner_3": {
           "fga": 3,
@@ -5131,25 +5131,25 @@
           "fga": 4,
           "fgm": 2,
           "pct": 0.5,
-          "pctile": 0.9511400651465798
+          "pctile": 0.948220064724919
         }
       },
       "hustle": {
         "contested_shots": {
           "value": 4.13,
-          "pctile": 0.6846
+          "pctile": 0.6827
         },
         "contested_shots_2pt": {
           "value": 2.88,
-          "pctile": 0.779
+          "pctile": 0.7813
         },
         "contested_shots_3pt": {
           "value": 1.25,
-          "pctile": 0.4879
+          "pctile": 0.496
         },
         "deflections": {
           "value": 0.5,
-          "pctile": 0.0836
+          "pctile": 0.0853
         },
         "charges_drawn": {
           "value": 0.0,
@@ -5157,19 +5157,19 @@
         },
         "screen_assists": {
           "value": 1.88,
-          "pctile": 0.8868
+          "pctile": 0.8827
         },
         "screen_ast_pts": {
           "value": 4.25,
-          "pctile": 0.8814
+          "pctile": 0.8907
         },
         "loose_balls_recovered": {
           "value": 0.13,
-          "pctile": 0.1806
+          "pctile": 0.168
         },
         "box_outs": {
           "value": 1.13,
-          "pctile": 0.8248
+          "pctile": 0.8267
         },
         "pct_box_outs_off": {
           "value": 0.0,
@@ -5177,7 +5177,7 @@
         },
         "pct_box_outs_def": {
           "value": 1.0,
-          "pctile": 0.5202
+          "pctile": 0.552
         }
       },
       "stl_p75": 1.5417347599518978,
@@ -5189,7 +5189,7 @@
         },
         "min": {
           "value": 0.1,
-          "pctile": 0.0047
+          "pctile": 0.0046
         },
         "pts": {
           "value": 0.0,
@@ -5265,7 +5265,7 @@
         },
         "plus_minus": {
           "value": -3.0,
-          "pctile": 0.0948
+          "pctile": 0.0926
         },
         "off_rating": {
           "value": 0.0,
@@ -5313,56 +5313,56 @@
         },
         "pie": {
           "value": 0.0,
-          "pctile": 0.2085
+          "pctile": 0.2037
         }
       },
       "stl_pct": 0.020816201221925946,
       "blk_pct": 0.02554584000422245,
-      "stl_pct_pctile": 0.7642276422764228,
-      "blk_pct_pctile": 0.7317073170731707,
+      "stl_pct_pctile": 0.7710843373493976,
+      "blk_pct_pctile": 0.7269076305220884,
       "defense_tracking": {
         "d_fgm": {
           "value": 3.0,
-          "pctile": 0.3607
+          "pctile": 0.3646
         },
         "d_fga": {
           "value": 6.29,
-          "pctile": 0.3579
+          "pctile": 0.3619
         },
         "d_fg_pct": {
           "value": 0.477,
-          "pctile": 0.6093
+          "pctile": 0.5979
         },
         "normal_fg_pct": {
-          "value": 0.452,
-          "pctile": 0.3907
+          "value": 0.449,
+          "pctile": 0.3244
         },
         "pct_plusminus": {
-          "value": 0.025,
-          "pctile": 0.6257
+          "value": 0.028,
+          "pctile": 0.6702
         }
       },
       "playmaking_tracking": {
         "drives": {
           "drives": {
             "value": 0.6,
-            "pctile": 0.1103
+            "pctile": 0.1139
           },
           "drive_fgm": {
             "value": 0.3,
-            "pctile": 0.2538
+            "pctile": 0.2684
           },
           "drive_fga": {
             "value": 0.4,
-            "pctile": 0.1769
+            "pctile": 0.1848
           },
           "drive_fg_pct": {
             "value": 0.667,
-            "pctile": 0.8692
+            "pctile": 0.8633
           },
           "drive_pts": {
             "value": 0.8,
-            "pctile": 0.2923
+            "pctile": 0.3038
           },
           "drive_ast": {
             "value": 0.0,
@@ -5376,57 +5376,57 @@
         "passing": {
           "passes_made": {
             "value": 12.6,
-            "pctile": 0.2333
+            "pctile": 0.2405
           },
           "passes_received": {
             "value": 10.0,
-            "pctile": 0.2154
+            "pctile": 0.2228
           },
           "potential_ast": {
             "value": 1.1,
-            "pctile": 0.1538
+            "pctile": 0.157
           },
           "ast_points_created": {
             "value": 2.6,
-            "pctile": 0.2795
+            "pctile": 0.2861
           },
           "ast_to_pass_pct": {
             "value": 0.089,
-            "pctile": 0.5769
+            "pctile": 0.5747
           }
         },
         "possessions": {
           "touches": {
             "value": 16.0,
-            "pctile": 0.2333
+            "pctile": 0.243
           },
           "front_ct_touches": {
             "value": 10.8,
-            "pctile": 0.2564
+            "pctile": 0.2684
           },
           "time_of_poss": {
             "value": 0.3,
-            "pctile": 0.0718
+            "pctile": 0.0734
           },
           "avg_sec_per_touch": {
             "value": 1.12,
-            "pctile": 0.0103
+            "pctile": 0.0076
           },
           "pts_per_touch": {
             "value": 0.297,
-            "pctile": 0.5026
+            "pctile": 0.5089
           },
           "elbow_touches": {
             "value": 0.5,
-            "pctile": 0.5154
+            "pctile": 0.5139
           },
           "post_touches": {
             "value": 0.1,
-            "pctile": 0.2692
+            "pctile": 0.2785
           },
           "paint_touches": {
             "value": 2.9,
-            "pctile": 0.759
+            "pctile": 0.7595
           }
         }
       },
@@ -5434,49 +5434,49 @@
         "cs": {
           "fgm": {
             "value": 1.5,
-            "pctile": 0.3718
+            "pctile": 0.3788
           },
           "fga": {
             "value": 2.75,
-            "pctile": 0.2615
+            "pctile": 0.2702
           },
           "fg_pct": {
             "value": 0.545,
-            "pctile": 0.7769
+            "pctile": 0.7778
           },
           "efg_pct": {
             "value": 0.636,
-            "pctile": 0.7282
+            "pctile": 0.7222
           },
           "fg3m": {
             "value": 0.5,
-            "pctile": 0.3282
+            "pctile": 0.3359
           },
           "fg3a": {
             "value": 1.0,
-            "pctile": 0.2231
+            "pctile": 0.2273
           },
           "fg3_pct": {
             "value": 0.5,
-            "pctile": 0.9003
+            "pctile": 0.9019
           }
         },
         "pullup": {
           "fgm": {
             "value": 0.25,
-            "pctile": 0.2336
+            "pctile": 0.2462
           },
           "fga": {
             "value": 0.5,
-            "pctile": 0.1654
+            "pctile": 0.1744
           },
           "fg_pct": {
             "value": 0.5,
-            "pctile": 0.6325
+            "pctile": 0.6256
           },
           "efg_pct": {
             "value": 0.5,
-            "pctile": 0.5171
+            "pctile": 0.5077
           },
           "fg3m": {
             "value": 0.0,
@@ -5484,7 +5484,7 @@
           },
           "fg3a": {
             "value": 0.13,
-            "pctile": 0.3596
+            "pctile": 0.3692
           },
           "fg3_pct": {
             "value": 0.0,
@@ -5493,20 +5493,20 @@
         },
         "contested": {
           "fgm": {
-            "value": 0.63,
-            "pctile": 0.2519
+            "value": 0.68,
+            "pctile": 0.2854
           },
           "fga": {
-            "value": 1.26,
-            "pctile": 0.2314
+            "value": 1.2,
+            "pctile": 0.2222
           },
           "fg_pct": {
-            "value": 0.5,
-            "pctile": 0.5296
+            "value": 0.5667,
+            "pctile": 0.7348
           },
           "efg_pct": {
-            "value": 0.5,
-            "pctile": 0.4447
+            "value": 0.5667,
+            "pctile": 0.6894
           },
           "fg3m": {
             "value": 0.0,
@@ -5524,31 +5524,31 @@
         "uncontested": {
           "fgm": {
             "value": 1.26,
-            "pctile": 0.3928
+            "pctile": 0.4036
           },
           "fga": {
             "value": 2.13,
-            "pctile": 0.2739
+            "pctile": 0.2843
           },
           "fg_pct": {
             "value": 0.5915,
-            "pctile": 0.8941
+            "pctile": 0.901
           },
           "efg_pct": {
             "value": 0.7394,
-            "pctile": 0.8992
+            "pctile": 0.9061
           },
           "fg3m": {
             "value": 0.63,
-            "pctile": 0.3773
+            "pctile": 0.3832
           },
           "fg3a": {
             "value": 1.26,
-            "pctile": 0.2661
+            "pctile": 0.2741
           },
           "fg3_pct": {
             "value": 0.5,
-            "pctile": 0.9116
+            "pctile": 0.913
           }
         }
       }
@@ -5624,44 +5624,44 @@
       "fta_rate": 0.26666666666666666,
       "qualified": false,
       "ppg_pctile": 0.27176220806794055,
-      "rpg_pctile": 0.42038216560509556,
-      "orpg_pctile": 0.49256900212314225,
+      "rpg_pctile": 0.4182590233545648,
+      "orpg_pctile": 0.49044585987261147,
       "drpg_pctile": 0.39490445859872614,
       "apg_pctile": 0.3184713375796178,
       "spg_pctile": 0.1932059447983015,
-      "bpg_pctile": 0.34394904458598724,
-      "tov_pctile": 0.4012738853503185,
-      "fg_pct_pctile": 0.5796178343949044,
+      "bpg_pctile": 0.346072186836518,
+      "tov_pctile": 0.4033970276008493,
+      "fg_pct_pctile": 0.5902335456475584,
       "fg3_pct_pctile": 0.3078556263269639,
       "ft_pct_pctile": 0.14437367303609341,
-      "ast_pct_pctile": 0.5392781316348195,
+      "ast_pct_pctile": 0.5414012738853503,
       "tov_pct_pctile": 0.8259023354564756,
-      "efg_pct_pctile": 0.5222929936305732,
-      "ts_pct_pctile": 0.3842887473460722,
-      "reb_pct_pctile": 0.7133757961783439,
-      "fta_rate_pctile": 0.5630434782608695,
+      "efg_pct_pctile": 0.5286624203821656,
+      "ts_pct_pctile": 0.3821656050955414,
+      "reb_pct_pctile": 0.7176220806794055,
+      "fta_rate_pctile": 0.5652173913043478,
       "ppg_p36": 11.781818181818181,
-      "ppg_p36_pctile": 0.2951167728237792,
+      "ppg_p36_pctile": 0.29936305732484075,
       "rpg_p36": 8.50909090909091,
-      "rpg_p36_pctile": 0.7452229299363057,
+      "rpg_p36_pctile": 0.7494692144373672,
       "orpg_p36": 2.618181818181818,
       "orpg_p36_pctile": 0.7430997876857749,
       "drpg_p36": 5.890909090909091,
-      "drpg_p36_pctile": 0.732484076433121,
+      "drpg_p36_pctile": 0.7261146496815286,
       "apg_p36": 3.272727272727273,
       "apg_p36_pctile": 0.564755838641189,
       "spg_p36": 0.6545454545454545,
       "spg_p36_pctile": 0.2526539278131635,
       "bpg_p36": 0.6545454545454545,
-      "bpg_p36_pctile": 0.5711252653927813,
+      "bpg_p36_pctile": 0.5690021231422505,
       "tov_p36": 2.618181818181818,
-      "tov_p36_pctile": 0.6942675159235668,
+      "tov_p36_pctile": 0.7006369426751592,
       "zones": {
         "at_rim": {
           "fga": 6,
           "fgm": 5,
           "pct": 0.8333,
-          "pctile": 0.9298780487804879
+          "pctile": 0.9289940828402367
         },
         "paint": {
           "fga": 1,
@@ -5679,7 +5679,7 @@
           "fga": 5,
           "fgm": 1,
           "pct": 0.2,
-          "pctile": 0.12355212355212356
+          "pctile": 0.12734082397003746
         },
         "l_corner_3": {
           "fga": 3,
@@ -5695,25 +5695,25 @@
           "fga": 3,
           "fgm": 1,
           "pct": 0.3333,
-          "pctile": 0.4560260586319218
+          "pctile": 0.4563106796116505
         }
       },
       "hustle": {
         "contested_shots": {
           "value": 2.5,
-          "pctile": 0.3801
+          "pctile": 0.376
         },
         "contested_shots_2pt": {
           "value": 1.75,
-          "pctile": 0.4906
+          "pctile": 0.4987
         },
         "contested_shots_3pt": {
           "value": 0.75,
-          "pctile": 0.2129
+          "pctile": 0.216
         },
         "deflections": {
           "value": 2.0,
-          "pctile": 0.717
+          "pctile": 0.7173
         },
         "charges_drawn": {
           "value": 0.0,
@@ -5748,35 +5748,35 @@
       "deflections_p75": 6.427825341701411,
       "stl_pct": 0.0085535663202823,
       "blk_pct": 0.017495029821073555,
-      "stl_pct_pctile": 0.0975609756097561,
-      "blk_pct_pctile": 0.5691056910569106,
+      "stl_pct_pctile": 0.10441767068273092,
+      "blk_pct_pctile": 0.5622489959839357,
       "defense_tracking": {
         "d_fgm": {
           "value": 1.25,
-          "pctile": 0.0437
+          "pctile": 0.0429
         },
         "d_fga": {
           "value": 4.5,
-          "pctile": 0.1366
+          "pctile": 0.134
         },
         "d_fg_pct": {
           "value": 0.278,
-          "pctile": 0.0027
+          "pctile": 0.0054
         },
         "normal_fg_pct": {
-          "value": 0.408,
-          "pctile": 0.0109
+          "value": 0.409,
+          "pctile": 0.0161
         },
         "pct_plusminus": {
-          "value": -0.13,
-          "pctile": 0.0191
+          "value": -0.131,
+          "pctile": 0.0188
         }
       },
       "playmaking_tracking": {
         "drives": {
           "drives": {
             "value": 1.4,
-            "pctile": 0.2564
+            "pctile": 0.2734
           },
           "drive_fgm": {
             "value": 0.0,
@@ -5784,7 +5784,7 @@
           },
           "drive_fga": {
             "value": 0.2,
-            "pctile": 0.0897
+            "pctile": 0.0937
           },
           "drive_fg_pct": {
             "value": 0.0,
@@ -5792,63 +5792,63 @@
           },
           "drive_pts": {
             "value": 0.4,
-            "pctile": 0.1564
+            "pctile": 0.157
           },
           "drive_ast": {
             "value": 0.2,
-            "pctile": 0.3308
+            "pctile": 0.3468
           },
           "drive_tov": {
             "value": 0.2,
-            "pctile": 0.3923
+            "pctile": 0.4101
           }
         },
         "passing": {
           "passes_made": {
             "value": 7.8,
-            "pctile": 0.1077
+            "pctile": 0.1165
           },
           "passes_received": {
             "value": 7.8,
-            "pctile": 0.1282
+            "pctile": 0.1291
           },
           "potential_ast": {
             "value": 1.0,
-            "pctile": 0.1282
+            "pctile": 0.1316
           },
           "ast_points_created": {
             "value": 2.4,
-            "pctile": 0.2513
+            "pctile": 0.2506
           },
           "ast_to_pass_pct": {
             "value": 0.128,
-            "pctile": 0.9077
+            "pctile": 0.9063
           }
         },
         "possessions": {
           "touches": {
             "value": 11.2,
-            "pctile": 0.1256
+            "pctile": 0.1316
           },
           "front_ct_touches": {
             "value": 8.4,
-            "pctile": 0.1769
+            "pctile": 0.1848
           },
           "time_of_poss": {
             "value": 0.2,
-            "pctile": 0.0333
+            "pctile": 0.0329
           },
           "avg_sec_per_touch": {
             "value": 1.19,
-            "pctile": 0.0179
+            "pctile": 0.0177
           },
           "pts_per_touch": {
             "value": 0.321,
-            "pctile": 0.6256
+            "pctile": 0.6304
           },
           "elbow_touches": {
             "value": 0.2,
-            "pctile": 0.1949
+            "pctile": 0.1975
           },
           "post_touches": {
             "value": 0.0,
@@ -5856,7 +5856,7 @@
           },
           "paint_touches": {
             "value": 1.2,
-            "pctile": 0.4179
+            "pctile": 0.4304
           }
         }
       },
@@ -5864,27 +5864,27 @@
         "cs": {
           "fgm": {
             "value": 1.4,
-            "pctile": 0.3333
+            "pctile": 0.3434
           },
           "fga": {
             "value": 2.6,
-            "pctile": 0.2359
+            "pctile": 0.25
           },
           "fg_pct": {
             "value": 0.538,
-            "pctile": 0.759
+            "pctile": 0.7652
           },
           "efg_pct": {
             "value": 0.615,
-            "pctile": 0.6385
+            "pctile": 0.6465
           },
           "fg3m": {
             "value": 0.4,
-            "pctile": 0.2846
+            "pctile": 0.2828
           },
           "fg3a": {
             "value": 1.6,
-            "pctile": 0.3179
+            "pctile": 0.3308
           },
           "fg3_pct": {
             "value": 0.25,
@@ -5898,7 +5898,7 @@
           },
           "fga": {
             "value": 0.4,
-            "pctile": 0.1286
+            "pctile": 0.1436
           },
           "fg_pct": {
             "value": 0.0,
@@ -5924,19 +5924,19 @@
         "contested": {
           "fgm": {
             "value": 1.0,
-            "pctile": 0.3985
+            "pctile": 0.404
           },
           "fga": {
             "value": 1.4,
-            "pctile": 0.2674
+            "pctile": 0.2803
           },
           "fg_pct": {
             "value": 0.7143,
-            "pctile": 0.946
+            "pctile": 0.9369
           },
           "efg_pct": {
             "value": 0.7143,
-            "pctile": 0.9357
+            "pctile": 0.9318
           },
           "fg3m": {
             "value": 0.0,
@@ -5954,19 +5954,19 @@
         "uncontested": {
           "fgm": {
             "value": 0.4,
-            "pctile": 0.1266
+            "pctile": 0.1269
           },
           "fga": {
             "value": 1.6,
-            "pctile": 0.2145
+            "pctile": 0.2208
           },
           "fg_pct": {
             "value": 0.25,
-            "pctile": 0.0749
+            "pctile": 0.0711
           },
           "efg_pct": {
             "value": 0.375,
-            "pctile": 0.1137
+            "pctile": 0.1142
           },
           "fg3m": {
             "value": 0.4,
@@ -5974,11 +5974,11 @@
           },
           "fg3a": {
             "value": 1.6,
-            "pctile": 0.3049
+            "pctile": 0.3198
           },
           "fg3_pct": {
             "value": 0.25,
-            "pctile": 0.2127
+            "pctile": 0.2174
           }
         }
       }
@@ -6053,35 +6053,35 @@
       "pos": "F",
       "fta_rate": 0.14285714285714285,
       "qualified": false,
-      "ppg_pctile": 0.5690021231422505,
-      "rpg_pctile": 0.1316348195329087,
-      "orpg_pctile": 0.09554140127388536,
+      "ppg_pctile": 0.5732484076433121,
+      "rpg_pctile": 0.12951167728237792,
+      "orpg_pctile": 0.09341825902335456,
       "drpg_pctile": 0.19532908704883228,
-      "apg_pctile": 0.23991507430997877,
+      "apg_pctile": 0.24416135881104034,
       "spg_pctile": 0.2526539278131635,
       "bpg_pctile": 0.0,
-      "tov_pctile": 0.19745222929936307,
-      "fg_pct_pctile": 0.89171974522293,
-      "fg3_pct_pctile": 0.9511677282377919,
+      "tov_pctile": 0.19957537154989385,
+      "fg_pct_pctile": 0.8959660297239915,
+      "fg3_pct_pctile": 0.9575371549893843,
       "ft_pct_pctile": 0.8832271762208068,
-      "ast_pct_pctile": 0.44798301486199577,
-      "tov_pct_pctile": 0.2059447983014862,
-      "efg_pct_pctile": 0.9681528662420382,
-      "ts_pct_pctile": 0.9745222929936306,
+      "ast_pct_pctile": 0.4416135881104034,
+      "tov_pct_pctile": 0.20382165605095542,
+      "efg_pct_pctile": 0.970276008492569,
+      "ts_pct_pctile": 0.9766454352441614,
       "reb_pct_pctile": 0.12951167728237792,
-      "fta_rate_pctile": 0.24782608695652175,
+      "fta_rate_pctile": 0.25,
       "ppg_p36": 29.769230769230766,
-      "ppg_p36_pctile": 0.9723991507430998,
+      "ppg_p36_pctile": 0.9745222929936306,
       "rpg_p36": 3.4615384615384612,
       "rpg_p36_pctile": 0.16772823779193205,
       "orpg_p36": 0.34615384615384615,
-      "orpg_p36_pctile": 0.12951167728237792,
+      "orpg_p36_pctile": 0.12738853503184713,
       "drpg_p36": 3.115384615384615,
-      "drpg_p36_pctile": 0.28874734607218683,
+      "drpg_p36_pctile": 0.2908704883227176,
       "apg_p36": 2.423076923076923,
-      "apg_p36_pctile": 0.38004246284501064,
+      "apg_p36_pctile": 0.37154989384288745,
       "spg_p36": 1.0384615384615383,
-      "spg_p36_pctile": 0.4437367303609342,
+      "spg_p36_pctile": 0.4416135881104034,
       "bpg_p36": 0.0,
       "bpg_p36_pctile": 0.0,
       "tov_p36": 1.3846153846153846,
@@ -6091,13 +6091,13 @@
           "fga": 5,
           "fgm": 4,
           "pct": 0.8,
-          "pctile": 0.8810975609756098
+          "pctile": 0.8816568047337278
         },
         "paint": {
           "fga": 6,
           "fgm": 4,
           "pct": 0.6667,
-          "pctile": 0.945054945054945
+          "pctile": 0.9571428571428572
         },
         "mid": {
           "fga": 0,
@@ -6109,7 +6109,7 @@
           "fga": 5,
           "fgm": 4,
           "pct": 0.8,
-          "pctile": 0.9845559845559846
+          "pctile": 0.9850187265917603
         },
         "l_corner_3": {
           "fga": 2,
@@ -6125,25 +6125,25 @@
           "fga": 19,
           "fgm": 9,
           "pct": 0.4737,
-          "pctile": 0.9153094462540716
+          "pctile": 0.9255663430420712
         }
       },
       "hustle": {
         "contested_shots": {
           "value": 2.2,
-          "pctile": 0.3046
+          "pctile": 0.312
         },
         "contested_shots_2pt": {
           "value": 1.4,
-          "pctile": 0.3908
+          "pctile": 0.4
         },
         "contested_shots_3pt": {
           "value": 0.8,
-          "pctile": 0.2345
+          "pctile": 0.2373
         },
         "deflections": {
           "value": 0.6,
-          "pctile": 0.1159
+          "pctile": 0.1253
         },
         "charges_drawn": {
           "value": 0.0,
@@ -6151,11 +6151,11 @@
         },
         "screen_assists": {
           "value": 0.2,
-          "pctile": 0.3181
+          "pctile": 0.3147
         },
         "screen_ast_pts": {
           "value": 0.6,
-          "pctile": 0.4151
+          "pctile": 0.4293
         },
         "loose_balls_recovered": {
           "value": 0.0,
@@ -6163,7 +6163,7 @@
         },
         "box_outs": {
           "value": 0.4,
-          "pctile": 0.4663
+          "pctile": 0.4667
         },
         "pct_box_outs_off": {
           "value": 0.0,
@@ -6171,110 +6171,110 @@
         },
         "pct_box_outs_def": {
           "value": 1.0,
-          "pctile": 0.5202
+          "pctile": 0.552
         }
       },
       "stl_p75": 1.0304242294716595,
       "deflections_p75": 2.060848458943319,
       "stl_pct": 0.013570561950447878,
       "blk_pct": 0.0,
-      "stl_pct_pctile": 0.34959349593495936,
+      "stl_pct_pctile": 0.3413654618473896,
       "blk_pct_pctile": 0.0,
       "defense_tracking": {
         "d_fgm": {
           "value": 2.4,
-          "pctile": 0.2077
+          "pctile": 0.2172
         },
         "d_fga": {
           "value": 5.6,
-          "pctile": 0.2568
+          "pctile": 0.2654
         },
         "d_fg_pct": {
           "value": 0.429,
-          "pctile": 0.2623
+          "pctile": 0.2574
         },
         "normal_fg_pct": {
-          "value": 0.413,
-          "pctile": 0.0137
+          "value": 0.411,
+          "pctile": 0.0188
         },
         "pct_plusminus": {
-          "value": 0.015,
-          "pctile": 0.5628
+          "value": 0.018,
+          "pctile": 0.5845
         }
       },
       "playmaking_tracking": {
         "drives": {
           "drives": {
             "value": 1.7,
-            "pctile": 0.3026
+            "pctile": 0.3114
           },
           "drive_fgm": {
             "value": 0.9,
-            "pctile": 0.6128
+            "pctile": 0.6152
           },
           "drive_fga": {
             "value": 1.1,
-            "pctile": 0.4538
+            "pctile": 0.4582
           },
           "drive_fg_pct": {
             "value": 0.75,
-            "pctile": 0.9179
+            "pctile": 0.9241
           },
           "drive_pts": {
             "value": 1.7,
-            "pctile": 0.5462
+            "pctile": 0.5494
           },
           "drive_ast": {
             "value": 0.3,
-            "pctile": 0.441
+            "pctile": 0.4456
           },
           "drive_tov": {
             "value": 0.1,
-            "pctile": 0.2333
+            "pctile": 0.2354
           }
         },
         "passing": {
           "passes_made": {
             "value": 7.3,
-            "pctile": 0.0974
+            "pctile": 0.1013
           },
           "passes_received": {
             "value": 8.0,
-            "pctile": 0.1308
+            "pctile": 0.1418
           },
           "potential_ast": {
             "value": 1.0,
-            "pctile": 0.1282
+            "pctile": 0.1316
           },
           "ast_points_created": {
             "value": 1.9,
-            "pctile": 0.1949
+            "pctile": 0.1975
           },
           "ast_to_pass_pct": {
             "value": 0.098,
-            "pctile": 0.6846
+            "pctile": 0.6911
           }
         },
         "possessions": {
           "touches": {
             "value": 10.6,
-            "pctile": 0.1154
+            "pctile": 0.1241
           },
           "front_ct_touches": {
             "value": 6.6,
-            "pctile": 0.1256
+            "pctile": 0.1316
           },
           "time_of_poss": {
             "value": 0.5,
-            "pctile": 0.1333
+            "pctile": 0.1443
           },
           "avg_sec_per_touch": {
             "value": 2.8,
-            "pctile": 0.3795
+            "pctile": 0.3772
           },
           "pts_per_touch": {
             "value": 0.811,
-            "pctile": 0.9974
+            "pctile": 0.9975
           },
           "elbow_touches": {
             "value": 0.0,
@@ -6286,7 +6286,7 @@
           },
           "paint_touches": {
             "value": 0.1,
-            "pctile": 0.0256
+            "pctile": 0.0278
           }
         }
       },
@@ -6294,121 +6294,121 @@
         "cs": {
           "fgm": {
             "value": 1.43,
-            "pctile": 0.3436
+            "pctile": 0.351
           },
           "fga": {
             "value": 2.57,
-            "pctile": 0.2308
+            "pctile": 0.2424
           },
           "fg_pct": {
             "value": 0.556,
-            "pctile": 0.8051
+            "pctile": 0.8056
           },
           "efg_pct": {
             "value": 0.778,
-            "pctile": 0.9641
+            "pctile": 0.9596
           },
           "fg3m": {
             "value": 1.14,
-            "pctile": 0.6462
+            "pctile": 0.6641
           },
           "fg3a": {
             "value": 2.14,
-            "pctile": 0.4179
+            "pctile": 0.4192
           },
           "fg3_pct": {
             "value": 0.533,
-            "pctile": 0.9391
+            "pctile": 0.9373
           }
         },
         "pullup": {
           "fgm": {
             "value": 1.29,
-            "pctile": 0.6955
+            "pctile": 0.7051
           },
           "fga": {
             "value": 1.57,
-            "pctile": 0.5066
+            "pctile": 0.5154
           },
           "fg_pct": {
             "value": 0.818,
-            "pctile": 0.958
+            "pctile": 0.959
           },
           "efg_pct": {
             "value": 1.0,
-            "pctile": 0.9633
+            "pctile": 0.9615
           },
           "fg3m": {
             "value": 0.57,
-            "pctile": 0.9055
+            "pctile": 0.9154
           },
           "fg3a": {
             "value": 0.71,
-            "pctile": 0.7297
+            "pctile": 0.7385
           },
           "fg3_pct": {
             "value": 0.8,
-            "pctile": 0.9353
+            "pctile": 0.9326
           }
         },
         "contested": {
           "fgm": {
-            "value": 1.15,
-            "pctile": 0.455
+            "value": 1.19,
+            "pctile": 0.4874
           },
           "fga": {
-            "value": 1.72,
-            "pctile": 0.3496
+            "value": 1.76,
+            "pctile": 0.3813
           },
           "fg_pct": {
-            "value": 0.6686,
-            "pctile": 0.9049
+            "value": 0.6761,
+            "pctile": 0.9015
           },
           "efg_pct": {
-            "value": 0.7529,
-            "pctile": 0.9537
+            "value": 0.7585,
+            "pctile": 0.9444
           },
           "fg3m": {
             "value": 0.29,
-            "pctile": 0.8406
+            "pctile": 0.8485
           },
           "fg3a": {
             "value": 0.57,
-            "pctile": 0.7506
+            "pctile": 0.7601
           },
           "fg3_pct": {
             "value": 0.5088,
-            "pctile": 0.8643
+            "pctile": 0.8652
           }
         },
         "uncontested": {
           "fgm": {
             "value": 1.85,
-            "pctile": 0.5943
+            "pctile": 0.6142
           },
           "fga": {
             "value": 3.14,
-            "pctile": 0.4289
+            "pctile": 0.4365
           },
           "fg_pct": {
             "value": 0.5892,
-            "pctile": 0.8915
+            "pctile": 0.8985
           },
           "efg_pct": {
             "value": 0.8392,
-            "pctile": 0.9664
+            "pctile": 0.9695
           },
           "fg3m": {
             "value": 1.57,
-            "pctile": 0.7623
+            "pctile": 0.7766
           },
           "fg3a": {
             "value": 2.85,
-            "pctile": 0.5349
+            "pctile": 0.5431
           },
           "fg3_pct": {
             "value": 0.5509,
-            "pctile": 0.9586
+            "pctile": 0.962
           }
         }
       }
@@ -6483,37 +6483,37 @@
       "pos": "G",
       "fta_rate": 0.1,
       "qualified": false,
-      "ppg_pctile": 0.3609341825902335,
-      "rpg_pctile": 0.22505307855626328,
+      "ppg_pctile": 0.3630573248407643,
+      "rpg_pctile": 0.22717622080679406,
       "orpg_pctile": 0.0,
-      "drpg_pctile": 0.3481953290870488,
-      "apg_pctile": 0.7091295116772823,
+      "drpg_pctile": 0.346072186836518,
+      "apg_pctile": 0.7112526539278131,
       "spg_pctile": 0.0,
-      "bpg_pctile": 0.6518046709129511,
+      "bpg_pctile": 0.6560509554140127,
       "tov_pctile": 0.0,
-      "fg_pct_pctile": 0.29723991507430997,
+      "fg_pct_pctile": 0.28662420382165604,
       "fg3_pct_pctile": 0.24203821656050956,
       "ft_pct_pctile": 0.8832271762208068,
       "ast_pct_pctile": 0.9893842887473461,
       "tov_pct_pctile": 0.0,
-      "efg_pct_pctile": 0.23991507430997877,
-      "ts_pct_pctile": 0.21443736730360935,
-      "reb_pct_pctile": 0.416135881104034,
+      "efg_pct_pctile": 0.23354564755838642,
+      "ts_pct_pctile": 0.21019108280254778,
+      "reb_pct_pctile": 0.4182590233545648,
       "fta_rate_pctile": 0.17608695652173914,
       "ppg_p36": 20.930232558139537,
-      "ppg_p36_pctile": 0.821656050955414,
+      "ppg_p36_pctile": 0.8174097664543525,
       "rpg_p36": 6.279069767441861,
-      "rpg_p36_pctile": 0.5222929936305732,
+      "rpg_p36_pctile": 0.5286624203821656,
       "orpg_p36": 0.0,
       "orpg_p36_pctile": 0.0,
       "drpg_p36": 6.279069767441861,
-      "drpg_p36_pctile": 0.7983014861995754,
+      "drpg_p36_pctile": 0.7961783439490446,
       "apg_p36": 10.465116279069768,
       "apg_p36_pctile": 0.9851380042462845,
       "spg_p36": 0.0,
       "spg_p36_pctile": 0.0,
       "bpg_p36": 2.0930232558139537,
-      "bpg_p36_pctile": 0.9299363057324841,
+      "bpg_p36_pctile": 0.9278131634819533,
       "tov_p36": 0.0,
       "tov_p36_pctile": 0.0,
       "zones": {
@@ -6521,7 +6521,7 @@
           "fga": 2,
           "fgm": 1,
           "pct": 0.5,
-          "pctile": 0.09146341463414634
+          "pctile": 0.09467455621301775
         },
         "paint": {
           "fga": 0,
@@ -6533,7 +6533,7 @@
           "fga": 3,
           "fgm": 2,
           "pct": 0.6667,
-          "pctile": 0.9505494505494505
+          "pctile": 0.9567567567567568
         },
         "corner_3": {
           "fga": 0,
@@ -6555,25 +6555,25 @@
           "fga": 5,
           "fgm": 1,
           "pct": 0.2,
-          "pctile": 0.10749185667752444
+          "pctile": 0.11003236245954692
         }
       },
       "hustle": {
         "contested_shots": {
           "value": 1.0,
-          "pctile": 0.0404
+          "pctile": 0.0453
         },
         "contested_shots_2pt": {
           "value": 0.5,
-          "pctile": 0.0782
+          "pctile": 0.0853
         },
         "contested_shots_3pt": {
           "value": 0.5,
-          "pctile": 0.0997
+          "pctile": 0.1067
         },
         "deflections": {
           "value": 1.5,
-          "pctile": 0.4879
+          "pctile": 0.4907
         },
         "charges_drawn": {
           "value": 0.0,
@@ -6609,7 +6609,7 @@
       "stl_pct": 0.0,
       "blk_pct": 0.05594340931157242,
       "stl_pct_pctile": 0.0,
-      "blk_pct_pctile": 0.959349593495935,
+      "blk_pct_pctile": 0.9518072289156626,
       "defense_tracking": {
         "d_fgm": {
           "value": 0.5,
@@ -6617,18 +6617,18 @@
         },
         "d_fga": {
           "value": 2.5,
-          "pctile": 0.0355
+          "pctile": 0.0349
         },
         "d_fg_pct": {
           "value": 0.2,
           "pctile": 0.0027
         },
         "normal_fg_pct": {
-          "value": 0.438,
-          "pctile": 0.1202
+          "value": 0.445,
+          "pctile": 0.2252
         },
         "pct_plusminus": {
-          "value": -0.238,
+          "value": -0.245,
           "pctile": 0.0027
         }
       },
@@ -6636,27 +6636,27 @@
         "drives": {
           "drives": {
             "value": 1.5,
-            "pctile": 0.2872
+            "pctile": 0.2911
           },
           "drive_fgm": {
             "value": 0.5,
-            "pctile": 0.4385
+            "pctile": 0.438
           },
           "drive_fga": {
             "value": 0.5,
-            "pctile": 0.2231
+            "pctile": 0.2354
           },
           "drive_fg_pct": {
             "value": 1.0,
-            "pctile": 0.9615
+            "pctile": 0.9595
           },
           "drive_pts": {
             "value": 1.5,
-            "pctile": 0.5
+            "pctile": 0.5139
           },
           "drive_ast": {
             "value": 0.5,
-            "pctile": 0.5923
+            "pctile": 0.5975
           },
           "drive_tov": {
             "value": 0.0,
@@ -6666,19 +6666,19 @@
         "passing": {
           "passes_made": {
             "value": 7.5,
-            "pctile": 0.1026
+            "pctile": 0.1089
           },
           "passes_received": {
             "value": 11.0,
-            "pctile": 0.2359
+            "pctile": 0.2456
           },
           "potential_ast": {
             "value": 1.5,
-            "pctile": 0.2308
+            "pctile": 0.2405
           },
           "ast_points_created": {
             "value": 7.0,
-            "pctile": 0.7026
+            "pctile": 0.7089
           },
           "ast_to_pass_pct": {
             "value": 0.333,
@@ -6688,15 +6688,15 @@
         "possessions": {
           "touches": {
             "value": 13.5,
-            "pctile": 0.1795
+            "pctile": 0.1873
           },
           "front_ct_touches": {
             "value": 6.0,
-            "pctile": 0.1205
+            "pctile": 0.1215
           },
           "time_of_poss": {
             "value": 2.3,
-            "pctile": 0.641
+            "pctile": 0.6456
           },
           "avg_sec_per_touch": {
             "value": 10.06,
@@ -6704,7 +6704,7 @@
           },
           "pts_per_touch": {
             "value": 0.37,
-            "pctile": 0.7846
+            "pctile": 0.7873
           },
           "elbow_touches": {
             "value": 0.0,
@@ -6724,19 +6724,19 @@
         "cs": {
           "fgm": {
             "value": 1.0,
-            "pctile": 0.2154
+            "pctile": 0.2222
           },
           "fga": {
             "value": 2.5,
-            "pctile": 0.2205
+            "pctile": 0.2298
           },
           "fg_pct": {
             "value": 0.4,
-            "pctile": 0.2769
+            "pctile": 0.2854
           },
           "efg_pct": {
             "value": 0.4,
-            "pctile": 0.0897
+            "pctile": 0.0934
           },
           "fg3m": {
             "value": 0.0,
@@ -6744,7 +6744,7 @@
           },
           "fg3a": {
             "value": 1.5,
-            "pctile": 0.3077
+            "pctile": 0.3157
           },
           "fg3_pct": {
             "value": 0.0,
@@ -6754,79 +6754,79 @@
         "pullup": {
           "fgm": {
             "value": 0.5,
-            "pctile": 0.4173
+            "pctile": 0.4205
           },
           "fga": {
             "value": 1.0,
-            "pctile": 0.3543
+            "pctile": 0.3641
           },
           "fg_pct": {
             "value": 0.5,
-            "pctile": 0.6325
+            "pctile": 0.6256
           },
           "efg_pct": {
             "value": 0.75,
-            "pctile": 0.9396
+            "pctile": 0.9436
           },
           "fg3m": {
             "value": 0.5,
-            "pctile": 0.8898
+            "pctile": 0.8949
           },
           "fg3a": {
             "value": 0.5,
-            "pctile": 0.6378
+            "pctile": 0.641
           },
           "fg3_pct": {
             "value": 1.0,
-            "pctile": 0.9424
+            "pctile": 0.9397
           }
         },
         "contested": {
           "fgm": {
-            "value": 1.0,
-            "pctile": 0.3985
+            "value": 0.5,
+            "pctile": 0.1944
           },
           "fga": {
-            "value": 1.5,
-            "pctile": 0.3033
+            "value": 1.0,
+            "pctile": 0.1717
           },
           "fg_pct": {
-            "value": 0.6667,
-            "pctile": 0.8869
+            "value": 0.5,
+            "pctile": 0.5278
           },
           "efg_pct": {
-            "value": 0.8333,
-            "pctile": 0.9743
+            "value": 0.5,
+            "pctile": 0.4394
           },
           "fg3m": {
-            "value": 0.5,
-            "pctile": 0.928
+            "value": 0.0,
+            "pctile": 0.0
           },
           "fg3a": {
-            "value": 0.5,
-            "pctile": 0.6992
+            "value": 0.0,
+            "pctile": 0.0
           },
           "fg3_pct": {
-            "value": 1.0,
-            "pctile": 0.9357
+            "value": null,
+            "pctile": null
           }
         },
         "uncontested": {
           "fgm": {
             "value": 0.5,
-            "pctile": 0.1602
+            "pctile": 0.165
           },
           "fga": {
             "value": 2.5,
-            "pctile": 0.3152
+            "pctile": 0.3325
           },
           "fg_pct": {
             "value": 0.2,
-            "pctile": 0.0465
+            "pctile": 0.0558
           },
           "efg_pct": {
             "value": 0.2,
-            "pctile": 0.031
+            "pctile": 0.0381
           },
           "fg3m": {
             "value": 0.0,
@@ -6834,7 +6834,7 @@
           },
           "fg3a": {
             "value": 1.5,
-            "pctile": 0.2946
+            "pctile": 0.302
           },
           "fg3_pct": {
             "value": 0.0,
@@ -6913,39 +6913,39 @@
       "pos": "F",
       "fta_rate": 0.0,
       "qualified": false,
-      "ppg_pctile": 0.05307855626326964,
+      "ppg_pctile": 0.055201698513800426,
       "rpg_pctile": 0.08280254777070063,
       "orpg_pctile": 0.0,
       "drpg_pctile": 0.14225053078556263,
-      "apg_pctile": 0.11040339702760085,
+      "apg_pctile": 0.10828025477707007,
       "spg_pctile": 0.0,
       "bpg_pctile": 0.0,
-      "tov_pctile": 0.1316348195329087,
-      "fg_pct_pctile": 0.10828025477707007,
-      "fg3_pct_pctile": 0.5286624203821656,
+      "tov_pctile": 0.1337579617834395,
+      "fg_pct_pctile": 0.10615711252653928,
+      "fg3_pct_pctile": 0.524416135881104,
       "ft_pct_pctile": 0.0,
-      "ast_pct_pctile": 0.3333333333333333,
-      "tov_pct_pctile": 0.9235668789808917,
-      "efg_pct_pctile": 0.37154989384288745,
-      "ts_pct_pctile": 0.25902335456475584,
-      "reb_pct_pctile": 0.416135881104034,
+      "ast_pct_pctile": 0.3248407643312102,
+      "tov_pct_pctile": 0.9278131634819533,
+      "efg_pct_pctile": 0.36942675159235666,
+      "ts_pct_pctile": 0.25477707006369427,
+      "reb_pct_pctile": 0.4182590233545648,
       "fta_rate_pctile": 0.0,
       "ppg_p36": 8.571428571428571,
-      "ppg_p36_pctile": 0.1337579617834395,
+      "ppg_p36_pctile": 0.1316348195329087,
       "rpg_p36": 6.0,
-      "rpg_p36_pctile": 0.4968152866242038,
+      "rpg_p36_pctile": 0.4989384288747346,
       "orpg_p36": 0.0,
       "orpg_p36_pctile": 0.0,
       "drpg_p36": 6.0,
-      "drpg_p36_pctile": 0.7494692144373672,
+      "drpg_p36_pctile": 0.7452229299363057,
       "apg_p36": 2.571428571428571,
-      "apg_p36_pctile": 0.40976645435244163,
+      "apg_p36_pctile": 0.40764331210191085,
       "spg_p36": 0.0,
       "spg_p36_pctile": 0.0,
       "bpg_p36": 0.0,
       "bpg_p36_pctile": 0.0,
       "tov_p36": 2.571428571428571,
-      "tov_p36_pctile": 0.6794055201698513,
+      "tov_p36_pctile": 0.6815286624203821,
       "zones": {
         "at_rim": {
           "fga": 0,
@@ -6991,7 +6991,7 @@
       "hustle": {
         "contested_shots": {
           "value": 1.0,
-          "pctile": 0.0404
+          "pctile": 0.0453
         },
         "contested_shots_2pt": {
           "value": 0.0,
@@ -6999,11 +6999,11 @@
         },
         "contested_shots_3pt": {
           "value": 1.0,
-          "pctile": 0.3073
+          "pctile": 0.3067
         },
         "deflections": {
           "value": 2.0,
-          "pctile": 0.717
+          "pctile": 0.7173
         },
         "charges_drawn": {
           "value": 0.0,
@@ -7047,15 +7047,15 @@
         },
         "d_fga": {
           "value": 2.33,
-          "pctile": 0.0246
+          "pctile": 0.0188
         },
         "d_fg_pct": {
           "value": 0.143,
           "pctile": 0.0
         },
         "normal_fg_pct": {
-          "value": 0.401,
-          "pctile": 0.0055
+          "value": 0.402,
+          "pctile": 0.0107
         },
         "pct_plusminus": {
           "value": -0.259,
@@ -7066,7 +7066,7 @@
         "drives": {
           "drives": {
             "value": 0.3,
-            "pctile": 0.0667
+            "pctile": 0.0658
           },
           "drive_fgm": {
             "value": 0.0,
@@ -7096,45 +7096,45 @@
         "passing": {
           "passes_made": {
             "value": 3.0,
-            "pctile": 0.0179
+            "pctile": 0.0203
           },
           "passes_received": {
             "value": 3.3,
-            "pctile": 0.0359
+            "pctile": 0.0329
           },
           "potential_ast": {
             "value": 0.7,
-            "pctile": 0.0718
+            "pctile": 0.0734
           },
           "ast_points_created": {
             "value": 1.0,
-            "pctile": 0.0872
+            "pctile": 0.0962
           },
           "ast_to_pass_pct": {
             "value": 0.111,
-            "pctile": 0.8077
+            "pctile": 0.8101
           }
         },
         "possessions": {
           "touches": {
             "value": 4.0,
-            "pctile": 0.0179
+            "pctile": 0.0177
           },
           "front_ct_touches": {
             "value": 2.7,
-            "pctile": 0.0256
+            "pctile": 0.0228
           },
           "time_of_poss": {
             "value": 0.1,
-            "pctile": 0.0026
+            "pctile": 0.0025
           },
           "avg_sec_per_touch": {
             "value": 0.88,
-            "pctile": 0.0026
+            "pctile": 0.0025
           },
           "pts_per_touch": {
             "value": 0.25,
-            "pctile": 0.3051
+            "pctile": 0.3038
           },
           "elbow_touches": {
             "value": 0.0,
@@ -7154,31 +7154,31 @@
         "cs": {
           "fgm": {
             "value": 0.33,
-            "pctile": 0.0436
+            "pctile": 0.053
           },
           "fga": {
             "value": 1.0,
-            "pctile": 0.0641
+            "pctile": 0.0682
           },
           "fg_pct": {
             "value": 0.333,
-            "pctile": 0.1026
+            "pctile": 0.1035
           },
           "efg_pct": {
             "value": 0.5,
-            "pctile": 0.2487
+            "pctile": 0.2475
           },
           "fg3m": {
             "value": 0.33,
-            "pctile": 0.2359
+            "pctile": 0.2449
           },
           "fg3a": {
             "value": 1.0,
-            "pctile": 0.2231
+            "pctile": 0.2273
           },
           "fg3_pct": {
             "value": 0.333,
-            "pctile": 0.4127
+            "pctile": 0.4223
           }
         },
         "pullup": {
@@ -7218,7 +7218,7 @@
           },
           "fga": {
             "value": 0.33,
-            "pctile": 0.0257
+            "pctile": 0.0253
           },
           "fg_pct": {
             "value": 0.0,
@@ -7234,7 +7234,7 @@
           },
           "fg3a": {
             "value": 0.33,
-            "pctile": 0.617
+            "pctile": 0.6263
           },
           "fg3_pct": {
             "value": 0.0,
@@ -7244,31 +7244,31 @@
         "uncontested": {
           "fgm": {
             "value": 0.33,
-            "pctile": 0.0982
+            "pctile": 0.1041
           },
           "fga": {
             "value": 0.66,
-            "pctile": 0.0904
+            "pctile": 0.0914
           },
           "fg_pct": {
             "value": 0.5,
-            "pctile": 0.7571
+            "pctile": 0.769
           },
           "efg_pct": {
             "value": 0.75,
-            "pctile": 0.9096
+            "pctile": 0.9162
           },
           "fg3m": {
             "value": 0.33,
-            "pctile": 0.2351
+            "pctile": 0.2437
           },
           "fg3a": {
             "value": 0.66,
-            "pctile": 0.1602
+            "pctile": 0.1701
           },
           "fg3_pct": {
             "value": 0.5,
-            "pctile": 0.9116
+            "pctile": 0.913
           }
         }
       }
@@ -7284,15 +7284,15 @@
     "bpg": 0.3,
     "tov": 1.0,
     "fg_pct": 0.446,
-    "fg3_pct": 0.324,
+    "fg3_pct": 0.322,
     "ft_pct": 0.761,
     "ast_pct": 0.123,
     "tov_pct": 0.10400000000000001,
     "efg_pct": 0.527,
     "ts_pct": 0.567,
-    "reb_pct": 0.08,
-    "fta_rate": 0.2452221545952526,
-    "stl_pct": 0.016256787149859918,
-    "blk_pct": 0.015231865238213863
+    "reb_pct": 0.079,
+    "fta_rate": 0.24544852697782193,
+    "stl_pct": 0.015972101862833033,
+    "blk_pct": 0.014285714285714284
   }
 }
