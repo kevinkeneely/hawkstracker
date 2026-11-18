@@ -4990,3 +4990,17 @@ header {
 @media (max-width: 480px) {
   .ugp-tile-value { font-size: 13px; }
 }
+
+/* Injury badge — small 🏥 next to the player name on PlayerProfilePage
+   when the NBA official injury report lists them as Out / Questionable /
+   Doubtful / etc. Status + reason surface via native title tooltip. */
+.injury-badge {
+  margin-left: 10px;
+  font-size: 0.7em;
+  vertical-align: middle;
+  cursor: help;
+  /* Lift slightly so the emoji sits centered against the h1 baseline
+     instead of hanging below it. */
+  position: relative;
+  top: -2px;
+}

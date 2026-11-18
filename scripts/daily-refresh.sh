@@ -111,6 +111,12 @@ run_step transform_lineups_3          python3 -c "from pipeline.transform_lineup
 run_step transform_lineups_2          python3 -c "from pipeline.transform_lineups import run; run(2)"
 run_step transform_onoff              python3 -m pipeline.transform_onoff
 
+# NBA official injury report PDF — parsed into injuries-<season>.json so
+# the frontend can show a 🏥 next to inactive players' names on their
+# profile. Runs after transform.py (which writes hawksData — our source
+# of player-id-by-name) so the lookup is against today's roster.
+run_step fetch_injury_report          python3 -m pipeline.fetch_injury_report
+
 # ---- Commit whatever changed ----------------------------------------------
 echo ""
 echo "=========================================="

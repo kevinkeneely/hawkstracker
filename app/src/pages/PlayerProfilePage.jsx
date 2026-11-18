@@ -16,6 +16,24 @@ export default function PlayerProfilePage({ playerData, season, leagueBaseline, 
   const playerId = Number(id)
   const player = playerData?.players.find((p) => p.id === playerId)
 
+  // Current-player injury status, if any. Fetched from the daily-cron-
+  // maintained injuries-<season>.json (NBA official injury report PDF
+  // parsed in pipeline/fetch_injury_report.py).
+  const [injury, setInjury] = useState(null)
+  useEffect(() => {
+    if (!player) return
+    let cancelled = false
+    fetch(`/injuries-${season}.json`)
+      .then((r) => (r.ok ? r.json() : null))
+      .then((d) => {
+        if (cancelled || !d) return
+        const entry = d.players?.[String(player.id)]
+        if (entry) setInjury(entry)
+      })
+      .catch(() => {}) // Injury file is optional context — never break the page
+    return () => { cancelled = true }
+  }, [player?.id, season])
+
   if (!player) {
     return (
       <div className="profile-missing">
@@ -39,7 +57,10 @@ export default function PlayerProfilePage({ playerData, season, leagueBaseline, 
           onError={(e) => (e.target.style.visibility = 'hidden')}
         />
         <div className="profile-identity">
-          <h1>{player.name}</h1>
+          <h1>
+            {player.name}
+            {injury && <InjuryBadge status={injury.status} reason={injury.reason} />}
+          </h1>
           <p className="profile-meta">
             {player.pos ?? '—'} · Age {player.age} · Atlanta Hawks
           </p>
@@ -696,5 +717,20 @@ function TrendTab({ player, gameLogs, onoff }) {
         <PlayerTrendRow player={playerLog} windowSize={effectiveWindow} onoffEntry={onoffEntry} />
       </div>
     </section>
+  )
+}
+
+
+/**
+ * Tiny inline badge shown next to a player's name on their profile page
+ * when the NBA official injury report lists them as Out / Questionable /
+ * Doubtful / etc. Title attribute surfaces status + reason on hover.
+ */
+function InjuryBadge({ status, reason }) {
+  const label = reason ? `${status} — ${reason}` : status
+  return (
+    <span className="injury-badge" title={label} aria-label={`Injury status: ${label}`}>
+      🏥
+    </span>
   )
 }
