@@ -1623,6 +1623,17 @@ html, body {
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
   scrollbar-width: none;
+  /* Nov 19 (later): stick to the top of the viewport once the page
+     header scrolls past, so the tab row stays anchored when scrolling
+     through long tabs (Trends with many sparklines, Advanced with
+     many bars). Needs an opaque background so content scrolled
+     underneath doesn't bleed through. z-index above sticky table
+     cells (which top out at z:3 on Player Stats) and above the
+     site's non-sticky header (no z conflict there). */
+  position: sticky;
+  top: 0;
+  background: var(--bg);
+  z-index: 10;
 }
 .profile-tabs-nav::-webkit-scrollbar {
   display: none;
