@@ -194,7 +194,7 @@ export default function FormWatchRow({ gameLogs }) {
     return (
       <section className="form-watch-section">
         <div className="form-watch-head">
-          <h2>Form Watch</h2>
+          <h2>Hot &amp; Cold</h2>
           <span className="form-watch-sub">Last {WINDOW} games vs season</span>
         </div>
         <p className="form-watch-empty">
@@ -206,7 +206,7 @@ export default function FormWatchRow({ gameLogs }) {
   return (
     <section className="form-watch-section">
       <div className="form-watch-head">
-        <h2>Form Watch</h2>
+        <h2>Hot &amp; Cold</h2>
         <span className="form-watch-sub">Last {WINDOW} games vs season</span>
       </div>
       <div className="form-watch-row">
