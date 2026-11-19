@@ -74,7 +74,10 @@ const DEFAULT_ONOFF_MIN = 50   // filter out noise from tiny-sample players
 
 function OnOffView({ data }) {
   const [minMin, setMinMin] = useState(DEFAULT_ONOFF_MIN)
-  const [sortKey, setSortKey] = useState('net_swing')
+  // Nov 19: initial sort by Min On (total on-court minutes) so the
+  // table lands on rotation players first. Users can click any
+  // column header to re-sort.
+  const [sortKey, setSortKey] = useState('min_on')
   const [sortDir, setSortDir] = useState('desc')
 
   if (!data) {
@@ -146,7 +149,10 @@ const DEFAULT_MIN_BY_GROUP = { 5: 20, 4: 30, 3: 50, 2: 100 }
 function GroupManView({ data, groupSize }) {
   const defaultMin = DEFAULT_MIN_BY_GROUP[groupSize] ?? 20
   const [minMin, setMinMin] = useState(defaultMin)
-  const [sortKey, setSortKey] = useState('net_rating')
+  // Nov 19: initial sort by MIN (total minutes the lineup has played)
+  // so the table lands on the most-used groups first. Users can click
+  // any column header to re-sort.
+  const [sortKey, setSortKey] = useState('min')
   const [sortDir, setSortDir] = useState('desc')
 
   if (!data) {
@@ -164,8 +170,8 @@ function GroupManView({ data, groupSize }) {
         <h2>{groupSize}-Man Lineups</h2>
         <p className="lineups-sub">
           Every Hawks {groupSize}-man group that's played together this season,
-          sorted by Net Rating. Click any column header to re-sort. Change the
-          minimum minutes to see more or fewer lineups.
+          sorted by total minutes played. Click any column header to re-sort.
+          Change the minimum minutes to see more or fewer lineups.
         </p>
         <FilterBar
           options={filterOptionsFor(groupSize)}
