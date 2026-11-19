@@ -141,10 +141,18 @@ git add data app/public
 if git diff --staged --quiet; then
     echo "No data changes today — nothing to commit."
 else
+    # AM/PM tag so AM vs PM runs are distinguishable in git log. Based on
+    # local time (not UTC) so the label matches the slot the cron fires in.
+    # Added Nov 19: pipeline now runs twice daily — 2 AM ET to catch the
+    # overnight picture, 12:30 PM ET to catch late-arriving NBA.com stat
+    # corrections + box-score advanced/tracking data that often isn't fully
+    # cooked at 2 AM (especially after late West Coast games).
+    if [ $(date +%H) -lt 12 ]; then SLOT=AM; else SLOT=PM; fi
+
     if [ -n "$commit_tag" ]; then
-        git commit -m "Daily data refresh — $(date -u +%Y-%m-%d) [$commit_tag]"
+        git commit -m "Daily data refresh — $(date -u +%Y-%m-%d) ${SLOT} [$commit_tag]"
     else
-        git commit -m "Daily data refresh — $(date -u +%Y-%m-%d)"
+        git commit -m "Daily data refresh — $(date -u +%Y-%m-%d) ${SLOT}"
     fi
     git push
     echo "Pushed to main."
