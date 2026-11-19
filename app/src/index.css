@@ -999,6 +999,15 @@ code {
   text-overflow: ellipsis;
 }
 
+/* Nov 19: Short/full label swap for the Shot Zones bars on the Player
+   Profile page. PctileBar can be given both a `label` (full, desktop)
+   and a `shortLabel` (abbreviated, mobile). When both are present it
+   renders both spans and these rules show one or the other. Default
+   (desktop): full visible, short hidden. The mobile override lives in
+   the max-width: 640px block further down this file. */
+.pctile-bar-label-full { display: inline; }
+.pctile-bar-label-short { display: none; }
+
 .pctile-bar-track {
   position: relative;
   height: 10px;
@@ -1353,6 +1362,10 @@ html, body {
   }
   .pctile-bar-label { font-size: 11px; }
   .pctile-bar-value { font-size: 11px; }
+  /* Nov 19: on mobile, swap Shot Zones labels to their short form.
+     See the base .pctile-bar-label-full / -short rules above. */
+  .pctile-bar-label-full { display: none; }
+  .pctile-bar-label-short { display: inline; }
   .pctile-bar-dot {
     width: 22px;
     height: 22px;

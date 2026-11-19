@@ -528,21 +528,26 @@ function ZoneChips({ zones }) {
   // below) so every zone shows label + gradient-colored bar + dot with
   // percentile + value. Uses zone.pctile from the pipeline; invert=false
   // for all zones since higher FG% is always better.
+  // Nov 19: added shortLabel per row — PctileBar shows the full label on
+  // desktop and the short label on mobile (≤640px). The Shot Zones column
+  // was previously too narrow on phones, cutting "Mid-Range" to "Mid-..."
+  // and "Above Break" to "Abov...".
   const rows = [
-    ['At Rim',       zones.at_rim],
-    ['Paint',        zones.paint],
-    ['Mid-Range',    zones.mid],
-    ['Corner 3',     zones.corner_3],
-    ['Above Break',  zones.above_break_3],
+    ['At Rim',       'Rim',   zones.at_rim],
+    ['Paint',        'Paint', zones.paint],
+    ['Mid-Range',    'Mid',   zones.mid],
+    ['Corner 3',     'C3',    zones.corner_3],
+    ['Above Break',  'ATB 3', zones.above_break_3],
   ]
   return (
     <div className="pctile-bars">
-      {rows.map(([label, z]) => {
+      {rows.map(([label, shortLabel, z]) => {
         const value = z.pct == null ? '—' : (z.pct * 100).toFixed(1) + '%'
         return (
           <PctileBar
             key={label}
             label={label}
+            shortLabel={shortLabel}
             pctile={z.pctile ?? null}
             invert={false}
             value={value}
@@ -577,7 +582,7 @@ function PercentileBars({ player }) {
   )
 }
 
-function PctileBar({ label, pctile, invert, value }) {
+function PctileBar({ label, shortLabel, pctile, invert, value }) {
   const colorPctile = invert && pctile != null ? 1 - pctile : pctile
   const bg = colorForPctile(colorPctile)
   const widthPct = pctile == null ? 0 : (colorPctile ?? 0) * 100
@@ -585,7 +590,19 @@ function PctileBar({ label, pctile, invert, value }) {
 
   return (
     <div className="pctile-bar-row">
-      <div className="pctile-bar-label">{label}</div>
+      <div className="pctile-bar-label">
+        {shortLabel ? (
+          <>
+            {/* Nov 19: two spans + CSS toggle (see .pctile-bar-label-full /
+                -short in index.css). Full label shows on desktop, short on
+                mobile ≤640px. No JS media query — pure CSS swap. */}
+            <span className="pctile-bar-label-full">{label}</span>
+            <span className="pctile-bar-label-short">{shortLabel}</span>
+          </>
+        ) : (
+          label
+        )}
+      </div>
       <div className="pctile-bar-track">
         <div
           className="pctile-bar-fill"
