@@ -183,12 +183,16 @@ code {
   font-weight: 600;
   color: var(--text-h);
   border-bottom-width: 2px;
-  /* Header row gets a subtle tint so it reads distinctly as the column-label
-     row (same pattern used on the box score tables). */
-  background: rgba(243, 244, 246, 0.08);
+  /* Nov 19: switched from rgba(…, 0.08)/rgba(…, 0.06) to opaque --code-bg
+     for the same reason as box scores — 8%/6% alpha wasn't opaque enough
+     to cover body cells sliding behind the sticky # + Player columns on
+     horizontal scroll, which would cause "PLAYER" and the first stat
+     column's header to visually overlap on mobile ("PLAYERPPG" etc.).
+     Also unifies the header look with Box Score / Lineups / Regression. */
+  background: var(--code-bg);
 }
 :root[data-theme="light"] .player-stats th {
-  background: rgba(8, 6, 13, 0.06);
+  background: var(--code-bg);
 }
 
 /* Player name column also gets a subtle tint so it stands out as the row-
@@ -820,6 +824,10 @@ code {
   font-size: 12px;
   text-transform: uppercase;
   letter-spacing: 0.4px;
+  /* Nov 19: tinted header for visual consistency with the rest of the
+     tables. Standings doesn't scroll horizontally so there's no bleed
+     to fix; this is purely for a unified look across the app. */
+  background: var(--code-bg);
 }
 
 /* # and Team columns left-aligned. */
@@ -1223,6 +1231,10 @@ code {
   text-align: right;
   padding: 6px 4px;
   border-bottom: 1px solid var(--border);
+  /* Nov 19: tinted header for visual consistency with Box Score /
+     Lineups / Player Stats / Regression tables. No bleed to fix here
+     (leader tables don't scroll horizontally), purely cosmetic. */
+  background: var(--code-bg);
 }
 
 .leader-table td {
@@ -4544,6 +4556,9 @@ header {
   letter-spacing: 0.4px;
   font-weight: 600;
   border-bottom: 1px solid var(--border);
+  /* Nov 19: tinted header for visual consistency with the rest of the
+     tables (Box Score / Lineups / Player Stats / Regression / Leaders). */
+  background: var(--code-bg);
 }
 
 .mp-col-team { width: 40%; }
