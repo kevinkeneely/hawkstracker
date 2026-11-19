@@ -1634,6 +1634,25 @@ html, body {
   top: 0;
   background: var(--bg);
   z-index: 10;
+  /* Nov 19 (yet later): the sticky row jittered between two vertical
+     positions on iOS Safari during fast momentum scroll. Cause: Safari
+     uses the layout viewport (not the visual viewport) for sticky
+     positioning, and when the dynamic bottom URL bar collapses /
+     expands during scroll the layout viewport changes height — Safari
+     re-lays out the sticky element on every frame, which looks like
+     up-and-down bouncing. Pushing the element onto its own GPU
+     compositor layer stops Safari from re-painting it in-layout and
+     keeps it rock-solid.
+       transform: translate3d(0,0,0)  — forces a new stacking context
+                                        and a dedicated compositor layer
+       will-change: transform         — hints to the browser ahead of
+                                        time (so there's no first-scroll
+                                        promotion lag)
+       backface-visibility: hidden    — belt and suspenders on older
+                                        iOS Safari versions */
+  transform: translate3d(0, 0, 0);
+  will-change: transform;
+  backface-visibility: hidden;
 }
 .profile-tabs-nav::-webkit-scrollbar {
   display: none;
