@@ -1306,9 +1306,14 @@ code {
 
 /* ─────────────── Mobile responsive pass ─────────────── */
 
-/* Safety: never let a rogue child force page-level horizontal scroll */
+/* Safety: never let a rogue child force page-level horizontal scroll.
+   Nov 19: switched from `hidden` to `clip` for the same reason as
+   #root above — `hidden` on one axis auto-promotes the other to
+   `auto`, creating an unwanted scroll context that confuses iOS
+   Safari's sticky calculations. `clip` achieves the same visual
+   containment without creating a scroll context. */
 html, body {
-  overflow-x: hidden;
+  overflow-x: clip;
 }
 
 @media (max-width: 640px) {
@@ -1499,7 +1504,21 @@ html, body {
   /* Force #root to viewport width, no wider */
   #root {
     max-width: 100vw;
-    overflow-x: hidden;
+    /* Nov 19: overflow-x: clip instead of hidden. Per CSS spec, when one
+       overflow axis is `hidden` and the other is unset, browsers auto-
+       promote the unset one to `auto` — so `overflow-x: hidden` here
+       was silently making #root a vertical scroll container nested
+       inside the window.
+       On iOS Safari that nested scroll context, combined with the
+       dynamic bottom URL bar collapsing/expanding, caused
+       `position: sticky` children (the player profile tabs row,
+       added earlier today) to jitter between two vertical positions
+       during fast momentum scroll.
+       `overflow-x: clip` prevents horizontal overflow identically but
+       does NOT create a scroll context — so sticky children fall back
+       to the window as their scroll ancestor, where their position is
+       stable. Supported on iOS Safari 16+ (we don't target older). */
+    overflow-x: clip;
   }
 
   /* Subtitle paragraphs: wrap properly + horizontal padding */
