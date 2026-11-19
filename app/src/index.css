@@ -1986,17 +1986,25 @@ header {
    below. Light mode already has strong contrast from the dark text on
    white background. */
 :root:not([data-theme="light"]) .boxscore-table thead th {
-  background: rgba(243, 244, 246, 0.08);
+  /* Nov 19: opaque — previously rgba(243,244,246,0.08); the 8% alpha
+     let body stat cells bleed through the sticky player-column header
+     during horizontal scroll on mobile. */
+  background: var(--code-bg);
   color: #ffffff;
 }
 :root[data-theme="dark"] .boxscore-table thead th {
-  background: rgba(243, 244, 246, 0.08);
+  /* Nov 19: see note above — opaque to stop the horizontal-scroll
+     bleed through behind the sticky player-column header. */
+  background: var(--code-bg);
   color: #ffffff;
 }
-/* Light mode: the inverse — add a subtle dark background behind the thead
-   so the header row reads clearly on a white page. */
+/* Light mode: the inverse — add a dark tint behind the thead so the
+   header row reads clearly on a white page. Nov 19: switched from
+   rgba(8,6,13,0.06) to --code-bg for the same reason as dark mode —
+   opaque fill prevents horizontal-scroll bleed behind the sticky
+   player-column header. */
 :root[data-theme="light"] .boxscore-table thead th {
-  background: rgba(8, 6, 13, 0.06);
+  background: var(--code-bg);
 }
 
 .boxscore-table .col-player {
