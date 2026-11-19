@@ -40,7 +40,7 @@ function ConferenceTable({ name, teams }) {
               <td>{t.conf_rank}</td>
               <td>
                 <Link
-                  to={t.team_id === HAWKS_TEAM_ID ? '/' : `/teams/${t.abbr}`}
+                  to={`/teams/${t.abbr}`}
                   className={t.team_id === HAWKS_TEAM_ID ? 'hawks-row-link team-row-link' : 'team-row-link'}
                 >
                   <span className="team-name-full">{t.name}</span>
