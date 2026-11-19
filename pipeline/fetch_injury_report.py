@@ -286,6 +286,16 @@ def run():
     OUT_PATH.write_text(json.dumps(payload, indent=2))
     print(f'[injuries] wrote {OUT_PATH}')
 
+    # Dated snapshot — starts the historical collection the player-
+    # projection backtest needs to measure Phase 3 (teammate-out usage
+    # redistribution) against real injury state per game. Same pattern
+    # as league_team_stats_history/. One file per daily cron run.
+    today_iso = datetime.date.today().isoformat()
+    snap_path = Path(f'app/public/injuries_history/{SEASON}/{today_iso}.json')
+    snap_path.parent.mkdir(parents=True, exist_ok=True)
+    snap_path.write_text(json.dumps(payload, indent=2))
+    print(f'[injuries] wrote snapshot {snap_path}')
+
 
 if __name__ == '__main__':
     run()
