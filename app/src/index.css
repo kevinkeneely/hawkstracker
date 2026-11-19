@@ -5126,3 +5126,15 @@ header {
     padding: 6px 6px;
   }
 }
+
+/* Model-accuracy (MAE) line under the player projection table. Same
+   font/colour family as the existing .ugpp-note disclosure. Wrapped
+   italic single line — the full 8-stat accuracy summary. */
+.ugpp-mae {
+  margin: 4px 0 0;
+  text-align: center;
+  font-size: 10px;
+  color: var(--text-dim);
+  font-style: italic;
+  line-height: 1.5;
+}

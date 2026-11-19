@@ -30,7 +30,7 @@ Downstream consumers:
 """
 
 import json
-from datetime import datetime
+from datetime import datetime, date
 from glob import glob
 from pathlib import Path
 
@@ -148,6 +148,18 @@ def transform() -> None:
     OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     OUT_PATH.write_text(json.dumps(out, separators=(",", ":")))
     print(f"[league-team-stats] wrote {OUT_PATH} — {len(teams)} teams")
+
+    # Point-in-time history snapshot. One dated file per daily cron run so
+    # the backtest can reconstruct opponent defensive context for games
+    # played after the snapshot series begins. See
+    # pipeline/backtest_player_projections.mjs. Older snapshots are
+    # kept forever — each is ~10 KB and the season has ~180 game days,
+    # so the folder stays under ~2 MB per season.
+    today_iso = date.today().isoformat()
+    history_path = Path("app/public") / f"league_team_stats_history/{SEASON}/{today_iso}.json"
+    history_path.parent.mkdir(parents=True, exist_ok=True)
+    history_path.write_text(json.dumps(out, separators=(",", ":")))
+    print(f"[league-team-stats] wrote snapshot {history_path}")
 
 
 if __name__ == "__main__":

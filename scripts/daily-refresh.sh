@@ -117,6 +117,13 @@ run_step transform_onoff              python3 -m pipeline.transform_onoff
 # of player-id-by-name) so the lookup is against today's roster.
 run_step fetch_injury_report          python3 -m pipeline.fetch_injury_report
 
+# Replays the player-projection model across every completed Hawks game
+# this season and writes projection_backtest-<season>.json with per-stat
+# mean absolute errors. Runs in Node, imports the frontend's projection
+# lib directly so the MAE is for THE model the user sees. See the script
+# for scope + methodology.
+run_step backtest_projections         node pipeline/backtest_player_projections.mjs
+
 # ---- Commit whatever changed ----------------------------------------------
 echo ""
 echo "=========================================="

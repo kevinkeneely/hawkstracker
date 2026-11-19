@@ -26,6 +26,7 @@ export default function UpcomingGamePlayerProjections({ oppTricode, season = CUR
   const [gameLogs,  setGameLogs]  = useState(null)
   const [teamStats, setTeamStats] = useState(null)
   const [injuries,  setInjuries]  = useState({})
+  const [backtest,  setBacktest]  = useState(null)
 
   useEffect(() => {
     let cancelled = false
@@ -34,13 +35,15 @@ export default function UpcomingGamePlayerProjections({ oppTricode, season = CUR
       fetch(`/game_logs-${season}.json`).then((r) => (r.ok ? r.json() : null)),
       fetch(`/league_team_stats-${season}.json`).then((r) => (r.ok ? r.json() : null)),
       fetch(`/injuries-${season}.json`).then((r) => (r.ok ? r.json() : null)),
+      fetch(`/projection_backtest-${season}.json`).then((r) => (r.ok ? r.json() : null)),
     ])
-      .then(([h, g, t, i]) => {
+      .then(([h, g, t, i, b]) => {
         if (cancelled) return
         setHawksData(h)
         setGameLogs(g)
         setTeamStats(t)
         setInjuries(i?.players || {})
+        setBacktest(b)
       })
       .catch(() => {}) // Optional block — never break the page
     return () => { cancelled = true }
@@ -137,6 +140,13 @@ export default function UpcomingGamePlayerProjections({ oppTricode, season = CUR
         last-10 average, pace &amp; opponent-defense adjusted. Out players
         show as DNP. Early-season samples are noisy.
       </p>
+      {backtest && backtest.n_player_games > 0 && (
+        <p className="ugpp-mae">
+          Model accuracy over {backtest.n_games} games
+          ({backtest.n_player_games} player-games):
+          MAE {formatMae(backtest.mae)}.
+        </p>
+      )}
     </section>
   )
 }
@@ -144,4 +154,18 @@ export default function UpcomingGamePlayerProjections({ oppTricode, season = CUR
 function fmt(v) {
   if (v == null) return '—'
   return v.toFixed(1)
+}
+
+// MAE line: wrap the 8-stat line in the same visual order as the table
+// columns. "±X.X PTS" etc. Nulls drop out so a sparse stat doesn't
+// render "±null".
+const MAE_ORDER = [
+  ['pts', 'PTS'], ['reb', 'REB'], ['ast', 'AST'], ['fg3m', '3PM'],
+  ['stl', 'STL'], ['blk', 'BLK'], ['tov', 'TOV'], ['min', 'MIN'],
+]
+function formatMae(mae) {
+  return MAE_ORDER
+    .filter(([k]) => mae[k] != null)
+    .map(([k, label]) => `±${mae[k].toFixed(1)} ${label}`)
+    .join(', ')
 }
