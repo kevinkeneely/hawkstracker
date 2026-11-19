@@ -1642,36 +1642,14 @@ html, body {
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
   scrollbar-width: none;
-  /* Nov 19 (later): stick to the top of the viewport once the page
-     header scrolls past, so the tab row stays anchored when scrolling
-     through long tabs (Trends with many sparklines, Advanced with
-     many bars). Needs an opaque background so content scrolled
-     underneath doesn't bleed through. z-index above sticky table
-     cells (which top out at z:3 on Player Stats) and above the
-     site's non-sticky header (no z conflict there). */
-  position: sticky;
-  top: 0;
-  background: var(--bg);
-  z-index: 10;
-  /* Nov 19 (yet later): the sticky row jittered between two vertical
-     positions on iOS Safari during fast momentum scroll. Cause: Safari
-     uses the layout viewport (not the visual viewport) for sticky
-     positioning, and when the dynamic bottom URL bar collapses /
-     expands during scroll the layout viewport changes height — Safari
-     re-lays out the sticky element on every frame, which looks like
-     up-and-down bouncing. Pushing the element onto its own GPU
-     compositor layer stops Safari from re-painting it in-layout and
-     keeps it rock-solid.
-       transform: translate3d(0,0,0)  — forces a new stacking context
-                                        and a dedicated compositor layer
-       will-change: transform         — hints to the browser ahead of
-                                        time (so there's no first-scroll
-                                        promotion lag)
-       backface-visibility: hidden    — belt and suspenders on older
-                                        iOS Safari versions */
-  transform: translate3d(0, 0, 0);
-  will-change: transform;
-  backface-visibility: hidden;
+  /* Nov 19: profile tabs are deliberately NOT sticky — we tried sticky
+     (commits 3e5536a, bb99c8f, 3b80e0f) and iOS Safari kept jittering
+     the row vertically during momentum scroll even with GPU-layer and
+     overflow-clip workarounds. The site-level tabs (Player Stats /
+     Trends / Insights / ...) scroll off normally and feel stable, so
+     the profile tabs now behave the same way: scroll with the page,
+     no sticky, no jitter. If you want sticky back in the future, the
+     clean path is position:fixed + a scroll listener (not sticky). */
 }
 .profile-tabs-nav::-webkit-scrollbar {
   display: none;
