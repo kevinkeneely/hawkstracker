@@ -4387,6 +4387,23 @@ header {
   color: var(--text-h);
 }
 
+/* Nov 19: thead cells for the sticky rank + player name body columns
+   need to stick horizontally too (not just vertically from the
+   `position: sticky; top: 0` on the base .rc-table thead th rule above),
+   and need a higher z-index so they sit above the body sticky cells at
+   the top-left intersection during combined vertical + horizontal
+   scroll. Uses nth-child because SortableTh renders <th class="rc-th">
+   — the rc-rank / rc-name classes only live on body cells. Column
+   order is fixed (1: #, 2: Player, 3: Team on league scope). */
+.rc-table thead th:nth-child(1) {
+  left: 0;
+  z-index: 3;
+}
+.rc-table thead th:nth-child(2) {
+  left: 36px;
+  z-index: 3;
+}
+
 .rc-table tbody tr {
   border-bottom: 1px solid var(--border);
 }
@@ -4413,6 +4430,15 @@ header {
   color: var(--text-dim);
   font-family: var(--mono);
   width: 36px;
+  /* Nov 19: sticky rank column so it stays visible during horizontal
+     scroll on narrow viewports. Needs an opaque background since body
+     stat cells scroll behind it; --code-bg matches the player name
+     column's tint, so rank + name read as one "identity" area the way
+     Lineups and Player Stats do. */
+  background: var(--code-bg);
+  position: sticky;
+  left: 0;
+  z-index: 1;
 }
 
 /* Nov 19: tint the player-name column so it visually matches the
@@ -4423,6 +4449,13 @@ header {
   background: var(--code-bg);
   color: #000;
   font-weight: 500;
+  /* Nov 19: sticky player name column (sits immediately right of the
+     sticky rank column at left:36px, which is .rc-rank's width).
+     Keeps the row label visible when the table scrolls horizontally
+     on narrow viewports. Same pattern as Lineups / Player Stats. */
+  position: sticky;
+  left: 36px;
+  z-index: 1;
 }
 
 :root[data-theme="dark"] .rc-name,
