@@ -4735,6 +4735,44 @@ header {
   }
 }
 
+/* Nov 19: bottom row on Insights — Regression table (left) + Form Watch
+   (right) side-by-side at 50/50 on desktop (≥900px), stacking to full-
+   width columns below that breakpoint. Matches the existing top-row
+   pattern on the same page. Form Watch's own margin-top is zeroed inside
+   this grid because the grid gap already handles vertical spacing. */
+.insights-bottom-row {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  min-width: 0;
+}
+
+.insights-bottom-row > * {
+  min-width: 0;
+  max-width: 100%;
+}
+
+/* Form Watch defines its own section margin-top so it has breathing room
+   when it's a standalone block. Inside the insights-bottom-row grid, the
+   grid gap handles that spacing instead — zero the margin so Form Watch
+   lines up flush with the top of its column. */
+.insights-bottom-row .form-watch-section {
+  margin-top: 0;
+}
+
+@media (min-width: 900px) {
+  .insights-bottom-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+    gap: 24px;
+  }
+  .insights-bottom-row > * {
+    min-width: 0;
+  }
+}
+
+
 
 /* ======================================================================
    Rolling Power Rating (ELO). Header + KPI strip + line chart + footer.

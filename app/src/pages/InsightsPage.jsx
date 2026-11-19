@@ -1,5 +1,6 @@
 import MatchupPreview from '../components/MatchupPreview'
 import RegressionCandidates from '../components/RegressionCandidates'
+import FormWatchRow from '../components/FormWatchRow'
 
 /**
  * Insights — forward-looking, analytical stats that don't fit under
@@ -11,8 +12,13 @@ import RegressionCandidates from '../components/RegressionCandidates'
  *     - Regression Candidates scatter — Hawks players actual vs expected eFG%
  *     - Matchup Preview               — next game head-to-head
  *
- *   Full width below:
- *     - Regression Candidates table   — ranked Hawks + League tabs
+ *   Second row (≥900px, 50/50):
+ *     - Regression Candidates table   — ranked Hawks + League tabs (left)
+ *     - Form Watch                    — who's hot / cold vs season (right)
+ *     Both stack to full-width columns below 900px for phones / narrow
+ *     tablets, in source order (Regression first, Form Watch second).
+ *
+ * Nov 19: moved Form Watch here from the Player Stats tab.
  *
  * Note: ELO (Rolling Power Rating) now lives on the home page next to
  * the point-differential chart, since both answer "how is the team
@@ -22,7 +28,7 @@ import RegressionCandidates from '../components/RegressionCandidates'
  * memoizes its own derivation, so the double-compute cost is small
  * (~500 player rows, no network).
  */
-export default function InsightsPage({ playerData, leagueLeaderboards }) {
+export default function InsightsPage({ playerData, leagueLeaderboards, gameLogs }) {
   const hasRegression = playerData && leagueLeaderboards
 
   return (
@@ -39,13 +45,16 @@ export default function InsightsPage({ playerData, leagueLeaderboards }) {
         )}
         <MatchupPreview />
       </div>
-      {hasRegression && (
-        <RegressionCandidates
-          hawksPlayers={playerData.players}
-          leaguePlayers={leagueLeaderboards.players}
-          view="table"
-        />
-      )}
+      <div className="insights-bottom-row">
+        {hasRegression && (
+          <RegressionCandidates
+            hawksPlayers={playerData.players}
+            leaguePlayers={leagueLeaderboards.players}
+            view="table"
+          />
+        )}
+        <FormWatchRow gameLogs={gameLogs} />
+      </div>
     </div>
   )
 }

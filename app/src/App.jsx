@@ -237,9 +237,9 @@ function App() {
         {loaded && (
           <Routes>
             <Route path="/" element={<HomePage hawks={hawks} teamData={teamData} season={season} />} />
-            <Route path="/players" element={<PlayerStatsPage playerData={playerData} gameLogs={gameLogs} />} />
+            <Route path="/players" element={<PlayerStatsPage playerData={playerData} />} />
             <Route path="/team" element={<TeamStatsPage hawks={hawks} teamData={teamData} />} />
-            <Route path="/insights" element={<InsightsPage playerData={playerData} leagueLeaderboards={leaderboards} />} />
+            <Route path="/insights" element={<InsightsPage playerData={playerData} leagueLeaderboards={leaderboards} gameLogs={gameLogs} />} />
             <Route path="/standings" element={<StandingsPage standingsData={standingsData} season={season} />} />
             <Route path="/leaders" element={<LeadersPage leaderboards={leaderboards} playerData={playerData} />} />
             <Route path="/trends" element={<TrendsPage gameLogs={gameLogs} teamData={teamData} onoff={onoff} />} />
