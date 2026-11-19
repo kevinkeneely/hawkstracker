@@ -6,7 +6,7 @@ import { useEffect, useRef, useState } from 'react'
 //   hoop center at (0, 0)
 
 const HEX_SIZE = 22          // MUST match pipeline/transform_league_baseline.py
-const MIN_SHOTS_PER_HEX = 3  // Normal full-season floor. Lowered to 1 Oct 2026 for early-season sample sizes; restored Nov 18 after each team passed 15 GP.
+const MIN_SHOTS_PER_HEX = 2  // Nov 19: user feedback that too few hexes were rendering for Okongwu even in mid-season. Loosened from 3 to show more of a player's shot distribution. Paired with MIN_SAMPLE=5 on the league baseline side for broader coverage.
 
 // ──────────────── Diverging color: blue (below avg) → gray (avg) → red (above) ────────────────
 const COLOR_LOW = { r: 63, g: 81, b: 181 }    // #3F51B5

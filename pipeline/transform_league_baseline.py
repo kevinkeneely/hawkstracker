@@ -19,7 +19,7 @@ OUT_PATH = Path("app/public") / SHOT_BASELINE_FILENAME
 
 # Hex grid spec — MUST match the ShotChart component on the frontend
 HEX_SIZE = 22        # NBA coord units (1 unit = 0.1 ft), ~2.2 ft radius
-MIN_SAMPLE = 10      # Normal full-season floor. Lowered to 3 Oct 2026 for early-season sample sizes; restored Nov 18 after league baseline filled in.
+MIN_SAMPLE = 5       # Nov 19: paired with the frontend MIN_SHOTS_PER_HEX drop to 2, broadens league baseline coverage so more player hexes have something to compare against. Previously 10 — restored briefly Nov 18, then lowered the next day after user feedback that too many player hexes were being suppressed for lack of a league baseline cell.
 
 
 # ──────────────── hex binning math ────────────────
