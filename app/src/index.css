@@ -5138,3 +5138,19 @@ header {
   font-style: italic;
   line-height: 1.5;
 }
+
+/* Phase 3 warning subline — shown when at least one Out Hawks player
+   had a baseline projected MIN >= 20 (rotation threshold). Tells the
+   viewer the stat lines below reflect redistributed minutes + usage,
+   not naive single-player projections. */
+.ugpp-missing-warning {
+  margin: 0 0 12px;
+  padding: 8px 12px;
+  text-align: center;
+  font-size: 11px;
+  color: var(--text-h);
+  background: rgba(255, 183, 77, 0.10);  /* soft amber */
+  border: 1px solid rgba(255, 183, 77, 0.30);
+  border-radius: 6px;
+  line-height: 1.5;
+}

@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react'
-import { projectPlayer, computeLeagueAverages } from '../lib/playerProjections'
+import { projectRoster, computeLeagueAverages } from '../lib/playerProjections'
 
 const CURRENT_SEASON = '2026-27'
 const HAWKS_TEAM_ID = 1610612737
@@ -49,7 +49,11 @@ export default function UpcomingGamePlayerProjections({ oppTricode, season = CUR
     return () => { cancelled = true }
   }, [season])
 
-  const rows = useMemo(() => {
+  // Roster projection (Phase 1+2+3). projectRoster returns both the
+  // per-player projections AND Phase-3 context (which key players are
+  // Out, whether any redistribution was applied) so the warning
+  // subline can render.
+  const roster = useMemo(() => {
     if (!hawksData || !gameLogs || !teamStats) return null
     const hawksTeam = teamStats.teams.find((t) => t.id === HAWKS_TEAM_ID)
     const oppTeam   = teamStats.teams.find((t) => t.tricode === oppTricode)
@@ -59,31 +63,38 @@ export default function UpcomingGamePlayerProjections({ oppTricode, season = CUR
       (gameLogs.players || []).map((p) => [p.id, p.games])
     )
 
-    const projected = hawksData.players.map((player) => ({
-      player,
-      ...projectPlayer({
-        player,
-        playerGames: gamesByPid[player.id] || [],
-        hawksTeam,
-        oppTeam,
-        leagueAverages,
-        injury: injuries[String(player.id)] || null,
-      }),
-    }))
+    const { projections, missingKeyPlayers, redistributionApplied } = projectRoster({
+      players: hawksData.players,
+      gamesByPid,
+      hawksTeam,
+      oppTeam,
+      leagueAverages,
+      injuries,
+    })
 
-    // Sort: non-DNP rotation (by MIN desc) first, then DNP rows last.
-    return projected.sort((a, b) => {
+    // Sort: non-DNP rotation first by projected MIN desc, DNP rows last.
+    const sorted = projections.slice().sort((a, b) => {
       if (a.dnp && !b.dnp) return 1
       if (!a.dnp && b.dnp) return -1
       return (b.min ?? -1) - (a.min ?? -1)
     })
+
+    return { rows: sorted, missingKeyPlayers, redistributionApplied }
   }, [hawksData, gameLogs, teamStats, injuries, oppTricode])
+
+  const rows = roster?.rows
 
   if (!rows) return null
 
   return (
     <section className="ugpp-section" aria-label="Player projections">
       <h3 className="ugpp-title">Player projections</h3>
+      {roster?.missingKeyPlayers?.length > 0 && (
+        <p className="ugpp-missing-warning">
+          ⚠ Projections adjusted for missing teammates:{' '}
+          {roster.missingKeyPlayers.map((p) => p.name).join(', ')}
+        </p>
+      )}
       <div className="ugpp-table-wrap">
         <table className="ugpp-table">
           <thead>

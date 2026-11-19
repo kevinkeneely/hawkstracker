@@ -39,7 +39,7 @@ import { readFileSync, writeFileSync, readdirSync, existsSync } from 'node:fs'
 import { join, dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import {
-  projectPlayer, computeLeagueAverages,
+  projectRoster, computeLeagueAverages,
 } from '../app/src/lib/playerProjections.js'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
@@ -124,10 +124,52 @@ for (const game of teamGames) {
   if (!hawksTeam || !oppTeam) continue
   const leagueAverages = computeLeagueAverages(teamStats.teams)
 
+  // Phase 3: infer which Hawks players were "Out" for this specific game
+  // by checking who DIDN'T appear in its box score. Imperfect — a healthy
+  // DNP-CD looks the same as Out on a box score — but good enough to
+  // feed projectRoster's teammate-out redistribution for the backtest.
+  // Each Hawks player not listed in the night's box score becomes an
+  // Out injury entry so projectRoster redistributes their baseline MIN.
+  const playersInBox = new Set()
   for (const player of hawksData.players) {
     const allGames = gamesByPid[player.id] || []
-    const priorGames = allGames.filter((g) => g.date < gameDate)
-    if (priorGames.length === 0) {
+    const g = allGames.find((x) => x.date === gameDate)
+    if (g && g.min > 0) playersInBox.add(player.id)
+  }
+  const syntheticInjuries = {}
+  for (const player of hawksData.players) {
+    if (!playersInBox.has(player.id)) {
+      // Only mark as Out if the player had meaningful history by that
+      // game date — otherwise a rookie whose first game is still ahead
+      // gets incorrectly treated as "Out" rather than "not yet on team".
+      const prior = (gamesByPid[player.id] || []).filter((g) => g.date < gameDate)
+      if (prior.length >= 2) {
+        syntheticInjuries[String(player.id)] = {
+          status: 'Out', reason: 'Backtest-inferred (absent from box score)',
+        }
+      }
+    }
+  }
+
+  // Build per-player prior-game lists for THIS backtest date. projectRoster
+  // expects `gamesByPid` of games BEFORE the projection point.
+  const priorGamesByPid = {}
+  for (const player of hawksData.players) {
+    priorGamesByPid[player.id] = (gamesByPid[player.id] || []).filter((g) => g.date < gameDate)
+  }
+
+  const { projections } = projectRoster({
+    players: hawksData.players,
+    gamesByPid: priorGamesByPid,
+    hawksTeam, oppTeam, leagueAverages,
+    injuries: syntheticInjuries,
+  })
+
+  for (const proj of projections) {
+    const player = proj.player
+    const allGames = gamesByPid[player.id] || []
+    const prior = allGames.filter((g) => g.date < gameDate)
+    if (prior.length === 0) {
       nNoPrior++
       continue
     }
@@ -139,23 +181,14 @@ for (const game of teamGames) {
       continue
     }
 
-    const projection = projectPlayer({
-      player,
-      playerGames: priorGames,
-      hawksTeam,
-      oppTeam,
-      leagueAverages,
-      injury: null,  // No historical injury data available for backtest
-    })
-
-    if (projection.dnp) continue  // Model projected 0 min; skip
+    if (proj.dnp) continue  // Model projected 0 min (Out); skip
 
     nPlayerGames++
     for (const stat of STATS) {
-      const proj = projection[stat]
+      const p = proj[stat]
       const act = actual[stat]
-      if (proj == null || act == null) continue
-      absErrors[stat].push(Math.abs(proj - act))
+      if (p == null || act == null) continue
+      absErrors[stat].push(Math.abs(p - act))
     }
   }
 }

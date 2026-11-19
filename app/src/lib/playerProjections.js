@@ -1,6 +1,12 @@
 /**
  * Per-player next-game projections.
  *
+ * Two entry points:
+ *   - projectPlayer({...}) — single player, Phase 1 + 2 math.
+ *   - projectRoster({...}) — whole roster, adds Phase 3 (teammate-out
+ *     usage redistribution) on top of the per-player baselines.
+ *
+ *
  * Projected stat = per-36 rate × projected MIN / 36, where:
  *   per-36 rate = 70% season + 30% last-10 blend (recent form)
  *   projected MIN = last-10 average MIN
@@ -103,6 +109,9 @@ export function computeLeagueAverages(teams) {
  */
 export function projectPlayer({
   player, playerGames, hawksTeam, oppTeam, leagueAverages, injury,
+  // Phase 3 inputs — defaults are pass-through (no redistribution):
+  extraMinutes = 0,         // Minutes absorbed from Out teammates
+  usageBoostFactor = 1,     // Multiplier on PTS/3PM/AST/TOV per-36 rates
 }) {
   const injuryStatus = injury?.status || null
   const injuryReason = injury?.reason || null
@@ -139,6 +148,10 @@ export function projectPlayer({
     projectedMin *= QUESTIONABLE_MIN_MULTIPLIER
   }
 
+  // Phase 3: absorb minutes left by Out teammates. Cap at 40 — NBA
+  // rotation players rarely exceed that even in a blowout.
+  projectedMin = Math.min(40, projectedMin + extraMinutes)
+
   // Per-36 blend for each stat. Players with zero MIN in some games
   // (DNP) are excluded from per-36 computation so one DNP doesn't crush
   // their rate.
@@ -162,9 +175,15 @@ export function projectPlayer({
   const stats = ['pts', 'reb', 'ast', 'fg3m', 'stl', 'blk', 'tov']
   const projection = { min: projectedMin }
 
+  // Stats whose per-36 rates scale with usage share (i.e. with how many
+  // shots + playmaking touches the player gets). REB/STL/BLK depend more
+  // on minutes + opponent than on usage, so they don't get the boost.
+  const USAGE_DRIVEN = new Set(['pts', 'fg3m', 'ast', 'tov'])
+
   for (const stat of stats) {
     const rate36 = per36(stat)
-    const base = rate36 * projectedMin / 36 * paceAdj
+    const usageMult = USAGE_DRIVEN.has(stat) ? usageBoostFactor : 1
+    const base = rate36 * usageMult * projectedMin / 36 * paceAdj
 
     // Opponent adjustment
     const adj = STAT_ADJUSTMENTS[stat]
@@ -183,5 +202,162 @@ export function projectPlayer({
     dnp: false,
     dnpReason: null,
     injuryStatus, injuryReason,
+  }
+}
+
+
+// Phase 3 — Teammate-Out usage redistribution. See the roadmap in
+// claude/advanced-metrics-plan.md for the full spec.
+// -------------------------------------------------------------------
+
+// Rotation-player threshold: a player with baseline projected MIN at or
+// above this count as a "key" player, worth flagging in the UI warning
+// when they're Out. Below this is deep-bench DNP territory — their
+// absence doesn't materially change how the game is played.
+const KEY_PLAYER_MIN_THRESHOLD = 20
+
+// Fraction of the minutes/usage vacated by Out teammates that actually
+// transfers to remaining players. Not 100% because: some of a star's
+// usage is good-shot creation that just disappears when they're not
+// there; some lost rebounds go to the opponent instead of teammates;
+// some assists just don't happen. Roughly tuned against backtest MAE:
+// 0.4 beats 0.5 and 0.3 on PTS/AST. Split minutes and usage separately
+// because in practice coaches tighten rotations when several players
+// are out — they don't pile all 240 team-minutes onto the healthy guys;
+// they play an 8-man rotation at normal minutes instead of a 10-man.
+const MINUTE_TRANSFER_COEFFICIENT = 0.75
+const USAGE_TRANSFER_COEFFICIENT  = 0.40
+
+// Max minutes a single player will absorb before the cap kicks in.
+// NBA rotation players top out around here even in blowouts.
+const MINUTE_CAP = 40
+
+// Coarse position bucket. Player positions in hawksData come in forms
+// like 'G', 'F', 'C', 'G-F', 'F-C'. We bucket to G/F/C for
+// redistribution — a Guard out → Guards absorb minutes first. Dual-
+// position players bucket by their primary (first) letter.
+function positionBucket(pos) {
+  if (!pos) return 'F'  // reasonable default for unknown
+  const first = pos.trim().charAt(0).toUpperCase()
+  if (first === 'G' || first === 'F' || first === 'C') return first
+  return 'F'
+}
+
+/**
+ * Compute projections for the full Hawks roster in one call, applying
+ * Phase 3 teammate-out usage redistribution.
+ *
+ * @param {object} args
+ * @param {Array}  args.players         Hawks players (hawksData.players)
+ * @param {object} args.gamesByPid      { player_id: game array } from game_logs
+ * @param {object} args.hawksTeam       Hawks entry in league_team_stats
+ * @param {object} args.oppTeam         Opponent entry (same shape)
+ * @param {object} args.leagueAverages  From computeLeagueAverages()
+ * @param {object} args.injuries        { player_id (string): {status, reason} }
+ *
+ * @returns {object} {
+ *   projections: Array of per-player projections (same shape as
+ *     projectPlayer returns, one per input player, in input order)
+ *   missingKeyPlayers: Array of {name, status, reason} for Out players
+ *     whose baseline projected MIN is >= KEY_PLAYER_MIN_THRESHOLD —
+ *     used to drive the "projections adjusted for missing teammates"
+ *     UI warning.
+ *   redistributionApplied: boolean — true iff at least one Out player
+ *     contributed minutes or usage to the roster.
+ * }
+ */
+export function projectRoster({
+  players, gamesByPid, hawksTeam, oppTeam, leagueAverages, injuries,
+}) {
+  // Step 1: compute each player's HEALTHY baseline (no injury). This
+  // is the "what would they project at if nothing was wrong" number,
+  // needed for both the redistribution math (how many minutes does the
+  // Out player vacate?) and the key-player classification.
+  const items = players.map((player) => {
+    const playerGames = gamesByPid[player.id] || []
+    const injury = injuries[String(player.id)] || null
+    const healthyBase = projectPlayer({
+      player, playerGames, hawksTeam, oppTeam, leagueAverages,
+      injury: null,  // IGNORE injury for baseline; we handle it below
+    })
+    return { player, playerGames, injury, healthyBase }
+  })
+
+  // Step 2: partition into Out vs active. "Active" here means "will play
+  // tonight" — includes Questionable/Doubtful (they get reduced MIN but
+  // still play). "Out" means we project them at 0 MIN and their minutes/
+  // usage get redistributed.
+  const outItems    = items.filter((it) => it.injury?.status === 'Out')
+  const activeItems = items.filter((it) => it.injury?.status !== 'Out')
+
+  // Step 3: minute redistribution. For each Out player, find same-
+  // position active players and give them a share of the Out player's
+  // baseline minutes, weighted by their own baseline minutes (coach
+  // trusts players already getting rotation minutes).
+  const extraMinutesByPid = Object.fromEntries(items.map((it) => [it.player.id, 0]))
+
+  for (const out of outItems) {
+    const outMin = out.healthyBase.min
+    if (!outMin || outMin <= 0) continue
+    const targetBucket = positionBucket(out.player.pos)
+    // First try same-position active players with non-zero baseline MIN
+    let targets = activeItems.filter((a) =>
+      positionBucket(a.player.pos) === targetBucket && a.healthyBase.min > 0
+    )
+    // Fallback: if no same-position players (small/odd roster), spread
+    // across ALL active players with non-zero baseline MIN.
+    if (targets.length === 0) {
+      targets = activeItems.filter((a) => a.healthyBase.min > 0)
+    }
+    if (targets.length === 0) continue
+    const totalWeight = targets.reduce((s, t) => s + t.healthyBase.min, 0)
+    for (const t of targets) {
+      const share = t.healthyBase.min / totalWeight
+      extraMinutesByPid[t.player.id] += outMin * share * MINUTE_TRANSFER_COEFFICIENT
+    }
+  }
+
+  // Step 4: usage boost factor. Compute the fraction of team minutes
+  // leaving the floor via Out players; that times the transfer
+  // coefficient is how much remaining per-36 usage-driven rates get
+  // scaled up. This is applied TEAM-WIDE (not per-position), because
+  // when a star is out there's more ball-handling freedom everywhere,
+  // not just at that star's position.
+  const totalOutMin    = outItems.reduce((s, it) => s + (it.healthyBase.min || 0), 0)
+  const totalActiveMin = activeItems.reduce((s, it) => s + (it.healthyBase.min || 0), 0)
+  const usageBoostFactor = totalActiveMin > 0
+    ? 1 + (totalOutMin / totalActiveMin) * USAGE_TRANSFER_COEFFICIENT
+    : 1
+
+  // Step 5: re-run projectPlayer for each with the computed extras.
+  // Out players still come through projectPlayer so the DNP row +
+  // injury metadata is populated uniformly.
+  const projections = items.map((it) => {
+    const extra = extraMinutesByPid[it.player.id] || 0
+    const proj = projectPlayer({
+      player: it.player,
+      playerGames: it.playerGames,
+      hawksTeam, oppTeam, leagueAverages,
+      injury: it.injury,
+      extraMinutes: it.injury?.status === 'Out' ? 0 : extra,
+      usageBoostFactor: it.injury?.status === 'Out' ? 1 : usageBoostFactor,
+    })
+    return { ...proj, player: it.player }
+  })
+
+  // Step 6: missing key players — Out players whose healthy baseline
+  // MIN crossed the rotation threshold. Drives the UI warning.
+  const missingKeyPlayers = outItems
+    .filter((it) => (it.healthyBase.min || 0) >= KEY_PLAYER_MIN_THRESHOLD)
+    .map((it) => ({
+      name: it.player.name,
+      status: it.injury?.status || 'Out',
+      reason: it.injury?.reason || null,
+    }))
+
+  return {
+    projections,
+    missingKeyPlayers,
+    redistributionApplied: totalOutMin > 0,
   }
 }
