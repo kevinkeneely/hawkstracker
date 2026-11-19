@@ -39,8 +39,12 @@ function pickXStep(n) {
   return 10
 }
 
-export default function PointDifferentialChart({ season }) {
-  const [schedule, setSchedule] = useState(null)
+// Hawks team_id is the default — HomePage.jsx calls this with no teamId
+// and gets Hawks behavior unchanged.
+const HAWKS_ID = 1610612737
+
+export default function PointDifferentialChart({ season, teamId = HAWKS_ID }) {
+  const [leagueGames, setLeagueGames] = useState(null)
   const [error, setError] = useState(null)
   // Which dot's tooltip is open. Driven by mouseenter/mouseleave on the
   // invisible hit circles; mobile browsers synthesize mouseenter from a tap,
@@ -48,45 +52,37 @@ export default function PointDifferentialChart({ season }) {
   const [hovered, setHovered] = useState(null)
 
   useEffect(() => {
-    setSchedule(null)
+    setLeagueGames(null)
     setError(null)
-    fetch(`/schedule-${season}.json`)
+    // Nov 19: switched from schedule-{season}.json (Hawks-only) to
+    // league_team_games-{season}.json so every team's /teams/<TRI> page can
+    // render a real point-diff chart. Same file RollingPowerRating already
+    // reads from — one league-wide file, one fetch per chart.
+    fetch(`/league_team_games-${season}.json`)
       .then((r) => {
-        if (!r.ok) throw new Error(`Failed to load schedule-${season}.json (${r.status})`)
+        if (!r.ok) throw new Error(`Failed to load league_team_games-${season}.json (${r.status})`)
         return r.json()
       })
-      .then((d) => setSchedule(d))
+      .then((d) => setLeagueGames(d))
       .catch((e) => setError(e.message))
   }, [season])
 
   if (error) {
     return <div className="pdiff-chart-error">Point differential unavailable: {error}</div>
   }
-  if (!schedule) {
+  if (!leagueGames) {
     return <div className="pdiff-chart-loading">Loading…</div>
   }
 
-  // Keep only final games with real scores, ordered by date.
-  //
-  // NBA game_id position 2 encodes the game type:
-  //   '1' = preseason  (excluded — doesn't count toward the season)
-  //   '2' = regular season
-  //   '3' = All-Star
-  //   '4' = playoffs
-  //   '5' = play-in
-  //   '6' = NBA Cup (counts toward regular season except semifinal/final in Vegas)
-  // Anything that counts toward the Hawks' season narrative is kept.
-  const EXCLUDED_TYPES = new Set(['1', '3'])
-  const completed = (schedule.games ?? [])
-    .filter(
-      (g) =>
-        g.status === 'Final' &&
-        typeof g.hawks_score === 'number' &&
-        typeof g.opp_score === 'number' &&
-        typeof g.game_id === 'string' &&
-        !EXCLUDED_TYPES.has(g.game_id[2])
-    )
-    .sort((a, b) => a.date.localeCompare(b.date))
+  // league_team_games-{season}.json shape:
+  //   { games_by_team: { "1610612737": [ {game_id, date, opp_tricode,
+  //     home_away, won, pts, opp_pts, diff}, ... ] } }
+  // Keys are stringified team_ids. Only regular-season games are included
+  // (pipeline/transform_league_team_games.py filters by game_id[2]=='2'),
+  // so the preseason / All-Star filter from the old schedule path is no
+  // longer needed here.
+  const teamGames = leagueGames.games_by_team?.[String(teamId)] ?? []
+  const completed = [...teamGames].sort((a, b) => a.date.localeCompare(b.date))
 
   if (completed.length === 0) {
     return (
@@ -101,7 +97,10 @@ export default function PointDifferentialChart({ season }) {
   // margin alongside so the tooltip can show both.
   let running = 0
   const points = completed.map((g, i) => {
-    const gameDiff = g.hawks_score - g.opp_score
+    // league_team_games pre-computes `diff` (pts - opp_pts). Trust it
+    // rather than recompute, so the chart is consistent with other
+    // features that read the same file.
+    const gameDiff = g.diff
     running += gameDiff
     return {
       gameNum: i + 1,
@@ -109,8 +108,12 @@ export default function PointDifferentialChart({ season }) {
       gameDiff,
       date: g.date,
       opp: g.opp_tricode,
-      hawksScore: g.hawks_score,
-      oppScore: g.opp_score,
+      // Kept the hawksScore / oppScore field names in the point object so the
+      // tooltip code below doesn't need to change — they now hold THIS team's
+      // scores, not necessarily the Hawks'. A future refactor could rename to
+      // teamScore / oppScore.
+      hawksScore: g.pts,
+      oppScore: g.opp_pts,
     }
   })
 
@@ -170,7 +173,7 @@ export default function PointDifferentialChart({ season }) {
         viewBox={`0 0 ${W} ${H}`}
         preserveAspectRatio="xMidYMid meet"
         role="img"
-        aria-label={`Hawks cumulative point differential through ${nGames} games`}
+        aria-label={`Cumulative point differential through ${nGames} games`}
         style={{ width: '100%', height: 'auto', display: 'block' }}
         onClick={() => setHovered(null)}
       >

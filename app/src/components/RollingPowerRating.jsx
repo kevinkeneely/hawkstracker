@@ -43,7 +43,7 @@ function snapshotNear(history, fromDate, daysAgo) {
   return best
 }
 
-export default function RollingPowerRating() {
+export default function RollingPowerRating({ teamId = HAWKS_ID, teamName = 'Hawks' } = {}) {
   const [games25, setGames25] = useState(null)
   const [games26, setGames26] = useState(null)
   const [stats, setStats] = useState(null)  // for tricode lookup
@@ -104,17 +104,17 @@ export default function RollingPowerRating() {
   const idToTri = Object.fromEntries(stats.teams.map((t) => [t.id, t.tricode]))
 
   // Header values
-  const currentElo = finalRatings[HAWKS_ID]
-  const startingElo = startRatings[HAWKS_ID]
+  const currentElo = finalRatings[teamId]
+  const startingElo = startRatings[teamId]
   const ranks = ranksOf(finalRatings)
-  const currentRank = ranks[HAWKS_ID]
+  const currentRank = ranks[teamId]
   const totalTeams = Object.keys(finalRatings).length
 
   const latestDate = history[history.length - 1]?.date
   const weekAgoSnap = latestDate ? snapshotNear(history, latestDate, 7) : null
   const weekAgoRanks = weekAgoSnap ? ranksOf(weekAgoSnap.ratings) : null
-  const weekAgoElo = weekAgoSnap?.ratings[HAWKS_ID]
-  const weekAgoRank = weekAgoRanks?.[HAWKS_ID]
+  const weekAgoElo = weekAgoSnap?.ratings[teamId]
+  const weekAgoRank = weekAgoRanks?.[teamId]
   const rankChange = weekAgoRank != null ? weekAgoRank - currentRank : null  // positive = climbed
   const eloChange = weekAgoElo != null ? currentElo - weekAgoElo : null
 
@@ -134,7 +134,7 @@ export default function RollingPowerRating() {
       : sorted[(sorted.length - 1) / 2]
     return {
       date: snap.date,
-      hawks: snap.ratings[HAWKS_ID],
+      teamRating: snap.ratings[teamId],
       median: mid,
     }
   })
@@ -142,15 +142,15 @@ export default function RollingPowerRating() {
   // Only use rows where Hawks have an ELO (defensive: drop any pre-game
   // snapshots missing the team) — otherwise undefined values can poison
   // the YAxis domain auto-computation.
-  const hawksOnly = chartData.filter((d) => d.hawks != null && d.median != null)
-  const seasonHigh = Math.max(...hawksOnly.map((d) => d.hawks))
-  const seasonLow = Math.min(...hawksOnly.map((d) => d.hawks))
+  const seriesRows = chartData.filter((d) => d.teamRating != null && d.median != null)
+  const seasonHigh = Math.max(...seriesRows.map((d) => d.teamRating))
+  const seasonLow = Math.min(...seriesRows.map((d) => d.teamRating))
 
   // Explicit Y-axis domain + ticks. Round outward to the nearest 25 ELO so
   // the gridlines sit on readable values (1500, 1525, 1550, ...). Without
   // explicit ticks, recharts was auto-generating 8-digit garbage labels on
   // this dataset — this guarantees clean integer output.
-  const allValues = hawksOnly.flatMap((d) => [d.hawks, d.median])
+  const allValues = seriesRows.flatMap((d) => [d.teamRating, d.median])
   const yMinRaw = Math.min(...allValues, BASE_RATING)
   const yMaxRaw = Math.max(...allValues, BASE_RATING)
   const yMin = Math.floor((yMinRaw - 20) / 25) * 25
@@ -163,7 +163,8 @@ export default function RollingPowerRating() {
   const topFive = Object.entries(finalRatings)
     .sort((a, b) => b[1] - a[1])
     .slice(0, 5)
-    .map(([id, elo]) => ({ tri: idToTri[id] || '?', elo: Math.round(elo) }))
+    // id kept so the current-team highlight below can compare it to teamId.
+    .map(([id, elo]) => ({ id, tri: idToTri[id] || '?', elo: Math.round(elo) }))
 
   return (
     <section className="rpr-section">
@@ -210,7 +211,7 @@ export default function RollingPowerRating() {
 
       <div className="rpr-chart" style={{ height: 240 }}>
         <ResponsiveContainer width="100%" height="100%">
-          <LineChart data={hawksOnly} margin={{ top: 8, right: 16, bottom: 8, left: 8 }}>
+          <LineChart data={seriesRows} margin={{ top: 8, right: 16, bottom: 8, left: 8 }}>
             <CartesianGrid stroke="var(--border)" strokeDasharray="2 3" vertical={false} />
             <XAxis
               dataKey="date"
@@ -238,13 +239,13 @@ export default function RollingPowerRating() {
                            label={{ value: 'Avg', position: 'right', fill: 'var(--text-dim)', fontSize: 10 }} />
             <Line type="monotone" dataKey="median" stroke="var(--text)" strokeOpacity={0.35}
                   strokeWidth={1.5} dot={false} isAnimationActive={false} name="League median" />
-            <Line type="monotone" dataKey="hawks" stroke="#e03a3e" strokeWidth={2.25}
+            <Line type="monotone" dataKey="teamRating" stroke="#e03a3e" strokeWidth={2.25}
                   dot={false} activeDot={{ r: 3, fill: '#e03a3e' }} isAnimationActive={false}
-                  name="Hawks" />
+                  name={teamName} />
             <Tooltip
               content={({ active, payload, label }) => {
                 if (!active || !payload?.length) return null
-                const hawks = payload.find((p) => p.dataKey === 'hawks')?.value
+                const teamElo = payload.find((p) => p.dataKey === 'teamRating')?.value
                 const median = payload.find((p) => p.dataKey === 'median')?.value
                 const [y, m, day] = label.split('-')
                 return (
@@ -252,7 +253,7 @@ export default function RollingPowerRating() {
                     <div className="rpr-tt-date">{+m}/{+day}/{y.slice(2)}</div>
                     <div className="rpr-tt-row">
                       <span className="rpr-tt-sw" style={{ background: '#e03a3e' }} />
-                      Hawks <strong>{Math.round(hawks)}</strong>
+                      {teamName} <strong>{Math.round(teamElo)}</strong>
                     </div>
                     <div className="rpr-tt-row rpr-tt-dim">
                       <span className="rpr-tt-sw rpr-tt-sw-median" />
@@ -270,7 +271,7 @@ export default function RollingPowerRating() {
       <div className="rpr-footer">
         <span className="rpr-footer-label">Top 5 right now:</span>
         {topFive.map((t, i) => (
-          <span key={t.tri} className={`rpr-pill ${t.tri === 'ATL' ? 'is-hawks' : ''}`}>
+          <span key={t.tri} className={`rpr-pill ${t.id === String(teamId) ? 'is-hawks' : ''}`}>
             #{i + 1} {t.tri} <span className="rpr-pill-elo">{t.elo}</span>
           </span>
         ))}

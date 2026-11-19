@@ -2,6 +2,7 @@ import { useParams, Link } from 'react-router-dom'
 import HeaderStats from '../components/HeaderStats'
 import TeamStats from '../components/TeamStats'
 import PointDifferentialChart from '../components/PointDifferentialChart'
+import RollingPowerRating from '../components/RollingPowerRating'
 
 /**
  * TeamHomePage — identical layout to the Hawks `/` home page, but for any
@@ -12,10 +13,11 @@ import PointDifferentialChart from '../components/PointDifferentialChart'
  * walking standingsData (which has `abbr` + `team_id`), then look the team
  * up in TeamStatsData by id.
  *
- * Point Differential chart: Hawks-only right now because schedule-{season}.json
- * only has Hawks games. Non-Hawks teams render a placeholder card. A future
- * enhancement (see claude/post-launch-followups.md) could add per-team
- * schedule data so every team's chart renders live.
+ * Nov 19, 2026: Rolling Power Rating (ELO) is now shown on every team page
+ * next to a real cumulative point-differential chart for that team — same
+ * top-row layout as the Hawks home page. The point-diff chart now reads
+ * league_team_games-{season}.json (every team) rather than the
+ * schedule-{season}.json file (Hawks-only).
  *
  * NOTE: the top-level tabs (Player Stats, Standings, Leaders, Advanced)
  * remain Hawks-focused everywhere by design. If we later want them to
@@ -52,8 +54,6 @@ export default function TeamHomePage({ teamData, standingsData, season }) {
     )
   }
 
-  const isHawks = upper === 'ATL'
-
   return (
     <>
       <div className="team-home-header">
@@ -72,23 +72,17 @@ export default function TeamHomePage({ teamData, standingsData, season }) {
           overflowX: 'hidden',
         }}
       >
-        <section className="home-kpi" style={{ minWidth: 0, maxWidth: '100%', overflowX: 'hidden' }}>
-          <HeaderStats team={team} />
+        <section className="home-elo" style={{ minWidth: 0, maxWidth: '100%', overflowX: 'hidden' }}>
+          <RollingPowerRating teamId={team.id} teamName={standingsRow.name} />
         </section>
         <section className="home-point-diff" style={{ minWidth: 0, maxWidth: '100%', overflowX: 'hidden' }}>
-          {isHawks ? (
-            <PointDifferentialChart season={season} />
-          ) : (
-            <div className="team-home-chart-placeholder">
-              <h3>Point Differential</h3>
-              <p>
-                Cumulative point differential chart is only available for the Hawks right now.
-                Coming soon for all teams.
-              </p>
-            </div>
-          )}
+          <PointDifferentialChart season={season} teamId={team.id} />
         </section>
       </div>
+
+      <section className="home-kpi" style={{ minWidth: 0, maxWidth: '100%', overflowX: 'hidden' }}>
+        <HeaderStats team={team} />
+      </section>
 
       <section className="home-team-stats-full">
         <TeamStats team={team} allTeams={teamData.teams} />
