@@ -76,6 +76,11 @@ export default function PlayerProfilePage({ playerData, season, leagueBaseline, 
             content: <TraditionalTab player={player} leagueBaseline={leagueBaseline} />,
           },
           {
+            key: 'advanced',
+            label: 'Advanced',
+            content: <AdvancedTab player={player} />,
+          },
+          {
             key: 'hustle',
             label: 'Hustle',
             content: <HustleTab player={player} />,
@@ -131,6 +136,94 @@ function TraditionalTab({ player, leagueBaseline }) {
 }
 
 // ─────────────── Hustle + Clutch config ───────────────
+
+// Nov 19: Advanced tab for the player profile. Same 3-section split
+// (Overall Efficiency / Shooting / Defense) as the Advanced toggle on
+// the Player Stats tab, rendered here as percentile bars so it matches
+// the visual style of every other profile tab (Hustle, Clutch, etc.).
+// GroupedPctileBars shows a horizontal divider between each sub-array,
+// which mirrors the Hawks-red section dividers in the Player Stats table.
+const ADVANCED_GROUPS = [
+  // Overall Efficiency — 8 stats (4 rows in the 2-column grid)
+  [
+    { key: 'reb_pct',  label: 'REB%', format: 'pct' },
+    { key: 'ast_pct',  label: 'AST%', format: 'pct' },
+    { key: 'stl_pct',  label: 'STL%', format: 'pct' },
+    { key: 'blk_pct',  label: 'BLK%', format: 'pct' },
+    { key: 'tov_pct',  label: 'TOV%', format: 'pct', invert: true },
+    { key: 'efg_pct',  label: 'eFG%', format: 'pct' },
+    { key: 'ts_pct',   label: 'TS%',  format: 'pct' },
+    { key: 'fta_rate', label: 'FTr',  format: 'num3' },
+  ],
+  // Shooting — 2 stats (1 row)
+  [
+    { key: 'cs_fg3_pct', label: 'C&S 3P%',     format: 'pct' },
+    { key: 'pu_fg3_pct', label: 'Pull-Up 3P%', format: 'pct' },
+  ],
+  // Defense — 2 stats (1 row). Both inverted: lower DFG% Allowed is
+  // better, and more-negative DFG+/- vs Norm (shooters doing worse
+  // against this player than their season average) is better.
+  [
+    { key: 'd_fg_pct',    label: 'DFG% Allowed',    format: 'pct',        invert: true },
+    { key: 'd_plusminus', label: 'DFG+/- vs Norm',  format: 'pct_signed', invert: true },
+  ],
+]
+
+function AdvancedTab({ player }) {
+  // Advanced stats live in three different shapes on the player object:
+  //   - flat on root with a sibling _pctile key (reb_pct, ast_pct, ...)
+  //   - nested under shooting_tracking.<split>.<stat>.{value, pctile}
+  //   - nested under defense_tracking.<stat>.{value, pctile}
+  // Normalize all of them to the {value, pctile} shape that
+  // GroupedPctileBars reads via data[key].
+  const advData = {
+    reb_pct:   { value: player.reb_pct,   pctile: player.reb_pct_pctile },
+    ast_pct:   { value: player.ast_pct,   pctile: player.ast_pct_pctile },
+    stl_pct:   { value: player.stl_pct,   pctile: player.stl_pct_pctile },
+    blk_pct:   { value: player.blk_pct,   pctile: player.blk_pct_pctile },
+    tov_pct:   { value: player.tov_pct,   pctile: player.tov_pct_pctile },
+    efg_pct:   { value: player.efg_pct,   pctile: player.efg_pct_pctile },
+    ts_pct:    { value: player.ts_pct,    pctile: player.ts_pct_pctile },
+    fta_rate:  { value: player.fta_rate,  pctile: player.fta_rate_pctile },
+    cs_fg3_pct: {
+      value:  player.shooting_tracking?.cs?.fg3_pct?.value,
+      pctile: player.shooting_tracking?.cs?.fg3_pct?.pctile,
+    },
+    pu_fg3_pct: {
+      value:  player.shooting_tracking?.pullup?.fg3_pct?.value,
+      pctile: player.shooting_tracking?.pullup?.fg3_pct?.pctile,
+    },
+    d_fg_pct: {
+      value:  player.defense_tracking?.d_fg_pct?.value,
+      pctile: player.defense_tracking?.d_fg_pct?.pctile,
+    },
+    d_plusminus: {
+      value:  player.defense_tracking?.pct_plusminus?.value,
+      pctile: player.defense_tracking?.pct_plusminus?.pctile,
+    },
+  }
+
+  // Early-season or bench-end player with no advanced data at all — the
+  // nested tracking blocks are absent AND the flat ratios haven't been
+  // computed. Show a placeholder matching the HustleTab empty state.
+  const hasAny =
+    player.ts_pct != null ||
+    player.shooting_tracking != null ||
+    player.defense_tracking != null
+  if (!hasAny) {
+    return (
+      <div className="tab-placeholder">
+        <p>No advanced stats available yet.</p>
+      </div>
+    )
+  }
+
+  return (
+    <section className="profile-percentiles">
+      <GroupedPctileBars groups={ADVANCED_GROUPS} data={advData} />
+    </section>
+  )
+}
 
 const HUSTLE_GROUPS = [
   [
@@ -221,6 +314,14 @@ function formatStatValue(value, format) {
   if (value == null || Number.isNaN(value)) return '—'
   if (format === 'pct') return `${(value * 100).toFixed(1)}%`
   if (format === 'pct_raw') return `${Number(value).toFixed(1)}%`
+  // Nov 19: added for the Advanced tab — DFG+/- vs Norm is a signed
+  // percentage that reads better with an explicit "+" on positives,
+  // and FTr (free-throw rate) is customarily shown to 3 decimals.
+  if (format === 'pct_signed') {
+    const n = value * 100
+    return `${n > 0 ? '+' : ''}${n.toFixed(1)}%`
+  }
+  if (format === 'num3') return Number(value).toFixed(3)
   if (format === 'int') return `${Math.round(value)}`
   return Number(value).toFixed(1)
 }
