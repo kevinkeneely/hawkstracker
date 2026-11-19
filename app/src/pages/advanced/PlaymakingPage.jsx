@@ -34,7 +34,7 @@ const SCATTER_CONFIGS = [
     yFormat: num,
     extractRate: (p) => extract(p, 'drives', 'drives'),
     minRate: 2.5,
-    minMinutes: 100,
+    minMinutes: 250,
   },
   {
     title: 'Drive PTS × Drive FG%',
@@ -46,7 +46,7 @@ const SCATTER_CONFIGS = [
     yFormat: pct,
     extractRate: (p) => extract(p, 'drives', 'drives'),
     minRate: 2.5,
-    minMinutes: 100,
+    minMinutes: 250,
   },
   {
     title: 'Drive TOV × Drive AST',
@@ -59,7 +59,7 @@ const SCATTER_CONFIGS = [
     yFormat: num,
     extractRate: (p) => extract(p, 'drives', 'drives'),
     minRate: 2.5,
-    minMinutes: 100,
+    minMinutes: 250,
   },
   {
     title: 'Touches × Points per Touch',
@@ -69,7 +69,7 @@ const SCATTER_CONFIGS = [
     extractY: (p) => extract(p, 'possessions', 'pts_per_touch'),
     xFormat: num,
     yFormat: num,
-    minMinutes: 100,
+    minMinutes: 250,
   },
   // ─── Migrated from the former standalone Scatter Plots tab ───────
   // Uses top-level ast_pct / tov_pct added to league_leaderboards by the
@@ -84,7 +84,7 @@ const SCATTER_CONFIGS = [
     extractY: (p) => p.ast_pct ?? null,
     xFormat: pct,
     yFormat: pct,
-    minMinutes: 100,
+    minMinutes: 250,
   },
 ]
 

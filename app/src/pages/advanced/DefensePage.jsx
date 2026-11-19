@@ -44,7 +44,7 @@ const SCATTER_CONFIGS = [
     extractY: (p) => extract(p, 'hustle', 'contested_shots'),
     xFormat: (v) => (v == null ? '—' : (v > 0 ? '+' : '') + (v * 100).toFixed(1) + '%'),
     yFormat: num,
-    minMinutes: 100,
+    minMinutes: 250,
   },
   {
     title: 'Contested Shots × Defensive FG% Allowed',
@@ -57,7 +57,7 @@ const SCATTER_CONFIGS = [
     extractY: (p) => extract(p, 'hustle', 'contested_shots'),
     xFormat: pct,
     yFormat: num,
-    minMinutes: 100,
+    minMinutes: 250,
   },
   {
     title: 'Deflections × Loose Balls Recovered',
@@ -67,7 +67,7 @@ const SCATTER_CONFIGS = [
     extractY: (p) => extract(p, 'hustle', 'loose_balls_recovered'),
     xFormat: num,
     yFormat: num,
-    minMinutes: 100,
+    minMinutes: 250,
   },
 ]
 

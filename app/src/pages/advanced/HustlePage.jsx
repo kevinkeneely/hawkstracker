@@ -30,7 +30,7 @@ const SCATTER_CONFIGS = [
     extractY: (p) => extract(p, 'contested_shots_2pt'),
     xFormat: num,
     yFormat: num,
-    minMinutes: 100,
+    minMinutes: 250,
   },
   {
     title: 'Loose Balls Recovered × Deflections',
@@ -40,7 +40,7 @@ const SCATTER_CONFIGS = [
     extractY: (p) => extract(p, 'deflections'),
     xFormat: num,
     yFormat: num,
-    minMinutes: 100,
+    minMinutes: 250,
   },
   {
     title: 'Deflections × Contested Shots',
@@ -50,7 +50,7 @@ const SCATTER_CONFIGS = [
     extractY: (p) => extract(p, 'contested_shots'),
     xFormat: num,
     yFormat: num,
-    minMinutes: 100,
+    minMinutes: 250,
   },
 ]
 

@@ -26,6 +26,7 @@ const SCATTER_CONFIGS = [
   // follow, then the top-level efficiency pair (Rim × 3P%).
   {
     title: 'PPG × TS%',
+    minMinutes: 250,
     description: 'Upper-right = heavy, efficient scorer (volume + true shooting).',
     xLabel: 'PPG', yLabel: 'TS%',
     extractX: (p) => p.ppg ?? null,
@@ -40,6 +41,7 @@ const SCATTER_CONFIGS = [
   },
   {
     title: 'Catch & Shoot 3P% × Catch & Shoot 3PA',
+    minMinutes: 250,
     description: 'Upper-right = high-volume efficient C&S shooter.',
     xLabel: 'C&S 3PA', yLabel: 'C&S 3P%',
     extractX: (p) => extract(p, 'cs', 'fg3a'),
@@ -70,6 +72,7 @@ const SCATTER_CONFIGS = [
   },
   {
     title: 'Pull-Up 3P% × Pull-Up 3PA',
+    minMinutes: 250,
     description: 'Upper-right = high-volume efficient pull-up shooter.',
     xLabel: 'Pull-Up 3PA', yLabel: 'Pull-Up 3P%',
     extractX: (p) => extract(p, 'pullup', 'fg3a'),
@@ -80,6 +83,7 @@ const SCATTER_CONFIGS = [
   },
   {
     title: 'Contested FG% × Contested FGA',
+    minMinutes: 250,
     description: 'Upper-right = high-volume efficient contested shooter.',
     xLabel: 'Contested FGA', yLabel: 'Contested FG%',
     extractX: (p) => extract(p, 'contested', 'fga'),
@@ -90,6 +94,7 @@ const SCATTER_CONFIGS = [
   },
   {
     title: 'Uncontested FG% × Uncontested FGA',
+    minMinutes: 250,
     description: 'Upper-right = high-volume efficient uncontested shooter.',
     xLabel: 'Uncontested FGA', yLabel: 'Uncontested FG%',
     extractX: (p) => extract(p, 'uncontested', 'fga'),
@@ -104,6 +109,7 @@ const SCATTER_CONFIGS = [
   // not the shooting-tracking splits used by the four scatters above.
   {
     title: 'Rim FG% × 3P%',
+    minMinutes: 250,
     description: 'Upper-right = efficient at the rim AND from three.',
     xLabel: '3P%', yLabel: 'Rim FG%',
     extractX: (p) => p.fg3_pct ?? null,

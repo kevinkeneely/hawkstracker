@@ -77,7 +77,13 @@ export default function AdvancedPage({
   // page. Individual scatter configs can override by setting these keys to
   // null (disable) or to their own values. This is how NBA.com's own
   // leaderboards qualify rotation players — mpg + % of team games.
-  const DEFAULT_MIN_MPG = 15
+  // Nov 19: dropped the 15 MPG default in favor of a season-total-minutes
+  // floor (250 min, set per-scatter below). Total minutes measures sample
+  // size, which is what we actually need to trust a rate. MPG filters
+  // rotation status, which overlaps with the 50% GP floor already here.
+  // Leaving MPG at null means scatters only drop out via minMinutes +
+  // minGpPct + any per-scatter volume floor (e.g. 50 FGA on PPG × TS%).
+  const DEFAULT_MIN_MPG = null
   const DEFAULT_MIN_GP_PCT = 0.5
 
   // Pre-compute median x,y for every scatter config, used as the crosshair

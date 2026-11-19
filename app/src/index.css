@@ -4350,13 +4350,16 @@ header {
 .rc-table thead th {
   position: sticky;
   top: 0;
-  background: var(--bg);
+  /* Nov 19: match the Lineups / Player Stats pattern — tinted header row +
+     tinted first-column (name) cells so the row and column labels are
+     easier to track as the eye moves across the table. */
+  background: var(--code-bg);
   color: var(--text-dim);
   text-transform: uppercase;
   font-size: 10px;
   letter-spacing: 0.4px;
   padding: 8px 10px;
-  border-bottom: 1px solid var(--border);
+  border-bottom: 2px solid var(--border);
   font-weight: 600;
 }
 
@@ -4392,8 +4395,28 @@ header {
   width: 36px;
 }
 
+/* Nov 19: tint the player-name column so it visually matches the
+   Lineups / Player Stats first-column treatment. Pure black in light
+   mode, pure white in dark mode (override just below), weight 500 — the
+   name reads as an identity cell, not a data cell. */
+.rc-name {
+  background: var(--code-bg);
+  color: #000;
+  font-weight: 500;
+}
+
+:root[data-theme="dark"] .rc-name,
+.rc-name:where(:root[data-theme="dark"] *) {
+  color: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .rc-name {
+    color: #fff;
+  }
+}
+
 .rc-name a {
-  color: var(--text-h);
+  color: inherit;
   text-decoration: none;
 }
 
