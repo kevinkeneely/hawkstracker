@@ -75,7 +75,14 @@ export default function TrendSparkline({
             dataKey="value"
             stroke={color}
             strokeWidth={1.75}
-            dot={false}
+            /* Nov 19: one dot per game, same visual pattern as the
+               cumulative point-differential chart (small filled circle,
+               background-colored 1px stroke for a crisp outline against
+               the line and the dashed reference lines). r:2 instead of
+               r:3 since the sparkline is ~48px tall, not 420px like the
+               point-diff chart — scaled down proportionally. recharts
+               skips dots at null values automatically. */
+            dot={{ r: 2, fill: color, stroke: 'var(--bg)', strokeWidth: 1 }}
             activeDot={{ r: 3, fill: color }}
             isAnimationActive={false}
             connectNulls
