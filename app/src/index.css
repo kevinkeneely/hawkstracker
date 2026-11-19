@@ -1600,6 +1600,19 @@ html, body {
   justify-content: center;
   margin-bottom: 24px;
   border-bottom: 1px solid var(--border);
+  /* Nov 19: on narrow viewports (mobile) the 6 tabs on the player profile
+     don't fit in one row. Previously they got cut off at both ends
+     because flex was centering an overflowing track. Now the container
+     allows horizontal scroll and the mobile breakpoint below switches
+     to flex-start so the scroll reaches both leftmost and rightmost
+     tabs. Scrollbars hidden for a clean look (the finger / trackpad
+     scroll gesture still works). */
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+.profile-tabs-nav::-webkit-scrollbar {
+  display: none;
 }
 
 .profile-tab {
@@ -1614,6 +1627,12 @@ html, body {
   cursor: pointer;
   transition: color 0.15s, border-color 0.15s;
   font-family: inherit;
+  /* Nov 19: nowrap so "Shot Charts" stays on one line even when flex tries
+     to compress it. flex-shrink:0 pairs with the scroll-track on
+     .profile-tabs-nav — tabs keep their intrinsic width and the track
+     scrolls horizontally. */
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 
 .profile-tab:hover {
@@ -1643,6 +1662,12 @@ html, body {
   }
   .profile-tabs-nav {
     gap: 0;
+    /* Nov 19: left-align on mobile so the horizontal-scroll track starts
+       at the first tab and reaches the last tab cleanly. With centering,
+       an overflowing flex container positions its first items BEFORE
+       scrollLeft:0, so users can't scroll back to see the leftmost tabs
+       — they stay permanently cut off. flex-start fixes that. */
+    justify-content: flex-start;
   }
 }
 
