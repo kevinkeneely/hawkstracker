@@ -3,4 +3,9 @@ __pycache__/
 data/raw/
 # League-wide raw shot files (~50MB/day, grows unbounded)
 # The league_shot_baseline.json derived from these IS committed (small, ships to frontend)
-data/raw/*/league_shots/data/third-party/
+data/raw/*/league_shots/
+
+# Third-party datasets — kept local only, too big for git
+# (e.g. Jeremias Engelmann's 30-season NBA possession data, ~700MB)
+data/third-party/
+
