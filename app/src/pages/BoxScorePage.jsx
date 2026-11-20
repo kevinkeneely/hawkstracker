@@ -200,8 +200,13 @@ export default function BoxScorePage({ season, playerData }) {
         <UpcomingGamePrediction
           oppTricode={game.opp_tricode}
           hawksAreHome={game.home_away === 'home'}
+          gameDate={game.date}
         />
-        <UpcomingGamePlayerProjections oppTricode={game.opp_tricode} />
+        <UpcomingGamePlayerProjections
+          oppTricode={game.opp_tricode}
+          gameDate={game.date}
+          hawksAreHome={game.home_away === 'home'}
+        />
       </div>
     )
   }

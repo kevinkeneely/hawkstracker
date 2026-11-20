@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from 'react'
 import { projectRoster, computeLeagueAverages } from '../lib/playerProjections'
+import { isOnB2B } from '../lib/schedule'
 
 const CURRENT_SEASON = '2026-27'
 const HAWKS_TEAM_ID = 1610612737
@@ -17,16 +18,22 @@ const HAWKS_TEAM_ID = 1610612737
  *
  * See lib/playerProjections.js for projection math and the plan doc
  * (claude/advanced-metrics-plan.md "Upcoming Game Prediction" section) for
- * the roadmap — this is Phase 1 + 2 of a 5-phase build; Phases 3–5 add
- * teammate-out usage redistribution, rest/B2B adjustments, and backtest
- * calibration.
+ * the roadmap. As of Nov 20 this ships Phases 1 + 2 + 3 + 4 + 5:
+ *   Phase 1 — baseline per-36 blend + pace adjustment
+ *   Phase 2 — per-stat opponent-defense adjustments
+ *   Phase 3 — teammate-out usage redistribution
+ *   Phase 4 — rest/B2B dock on starters + HCA on scoring  (new)
+ *   Phase 5 — backtest + MAE line below the table
  */
-export default function UpcomingGamePlayerProjections({ oppTricode, season = CURRENT_SEASON }) {
-  const [hawksData, setHawksData] = useState(null)
-  const [gameLogs,  setGameLogs]  = useState(null)
-  const [teamStats, setTeamStats] = useState(null)
-  const [injuries,  setInjuries]  = useState({})
-  const [backtest,  setBacktest]  = useState(null)
+export default function UpcomingGamePlayerProjections({ oppTricode, gameDate, hawksAreHome = true, season = CURRENT_SEASON }) {
+  const [hawksData,   setHawksData]   = useState(null)
+  const [gameLogs,    setGameLogs]    = useState(null)
+  const [teamStats,   setTeamStats]   = useState(null)
+  const [injuries,    setInjuries]    = useState({})
+  const [backtest,    setBacktest]    = useState(null)
+  // Phase 4 — league team games, keyed by team_id → array of games.
+  // Used to detect whether Hawks or opp played the day before this game.
+  const [leagueGames, setLeagueGames] = useState(null)
 
   useEffect(() => {
     let cancelled = false
@@ -36,14 +43,16 @@ export default function UpcomingGamePlayerProjections({ oppTricode, season = CUR
       fetch(`/league_team_stats-${season}.json`).then((r) => (r.ok ? r.json() : null)),
       fetch(`/injuries-${season}.json`).then((r) => (r.ok ? r.json() : null)),
       fetch(`/projection_backtest-${season}.json`).then((r) => (r.ok ? r.json() : null)),
+      fetch(`/league_team_games-${season}.json`).then((r) => (r.ok ? r.json() : null)),
     ])
-      .then(([h, g, t, i, b]) => {
+      .then(([h, g, t, i, b, lg]) => {
         if (cancelled) return
         setHawksData(h)
         setGameLogs(g)
         setTeamStats(t)
         setInjuries(i?.players || {})
         setBacktest(b)
+        setLeagueGames(lg?.games_by_team || null)
       })
       .catch(() => {}) // Optional block — never break the page
     return () => { cancelled = true }
@@ -63,6 +72,14 @@ export default function UpcomingGamePlayerProjections({ oppTricode, season = CUR
       (gameLogs.players || []).map((p) => [p.id, p.games])
     )
 
+    // Phase 4 — detect back-to-back for both teams from league_team_games.
+    // Falls back to false if league_team_games hasn't loaded yet or
+    // gameDate wasn't passed in — projectRoster defaults keep the old
+    // behavior in that case.
+    const hawksOnB2B = (leagueGames && gameDate)
+      ? isOnB2B(leagueGames[HAWKS_TEAM_ID], gameDate)
+      : false
+
     const { projections, missingKeyPlayers, redistributionApplied } = projectRoster({
       players: hawksData.players,
       gamesByPid,
@@ -70,6 +87,8 @@ export default function UpcomingGamePlayerProjections({ oppTricode, season = CUR
       oppTeam,
       leagueAverages,
       injuries,
+      hawksAreHome,
+      hawksOnB2B,
     })
 
     // Sort: non-DNP rotation first by projected MIN desc, DNP rows last.
@@ -80,7 +99,7 @@ export default function UpcomingGamePlayerProjections({ oppTricode, season = CUR
     })
 
     return { rows: sorted, missingKeyPlayers, redistributionApplied }
-  }, [hawksData, gameLogs, teamStats, injuries, oppTricode])
+  }, [hawksData, gameLogs, teamStats, injuries, oppTricode, leagueGames, gameDate, hawksAreHome])
 
   const rows = roster?.rows
 

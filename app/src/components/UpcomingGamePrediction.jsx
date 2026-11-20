@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from 'react'
 import { uniqueGames, runSeason, carryOver, ratingHistoryByDate } from '../lib/elo'
 import { predictGame } from '../lib/predictions'
+import { isOnB2B } from '../lib/schedule'
 
 const CURRENT_SEASON = '2026-27'
 const PRIOR_SEASON   = '2025-26'
@@ -20,7 +21,7 @@ const HAWKS_TEAM_ID  = 1610612737
  * Future enhancement (Option B in claude/advanced-metrics-plan.md):
  * per-player projections (MIN/PTS/REB/AST) below this block.
  */
-export default function UpcomingGamePrediction({ oppTricode, hawksAreHome }) {
+export default function UpcomingGamePrediction({ oppTricode, hawksAreHome, gameDate }) {
   const [games25, setGames25] = useState(null)
   const [games26, setGames26] = useState(null)
   const [stats,   setStats]   = useState(null)
@@ -58,14 +59,23 @@ export default function UpcomingGamePrediction({ oppTricode, hawksAreHome }) {
     const hawksStats = stats.teams.find((t) => t.id === HAWKS_TEAM_ID)
     if (oppElo == null || !hawksStats) return null
 
+    // Phase 4 (Nov 20): check B2B for both teams. games26 is keyed by
+    // team_id; each entry is the team's season game list which already
+    // has the right shape for isOnB2B(). Missing gameDate falls back to
+    // false (no B2B adjustment) so the prediction gracefully degrades.
+    const hawksOnB2B = gameDate ? isOnB2B(games26[HAWKS_TEAM_ID], gameDate) : false
+    const oppOnB2B   = gameDate ? isOnB2B(games26[oppTeam.id],   gameDate) : false
+
     return predictGame({
       hawksElo,
       oppElo,
       hawksStats,
       oppStats: oppTeam,
       hawksAreHome,
+      hawksOnB2B,
+      oppOnB2B,
     })
-  }, [games25, games26, stats, oppTricode, hawksAreHome])
+  }, [games25, games26, stats, oppTricode, hawksAreHome, gameDate])
 
   // Silent on error / missing data — prediction block is optional context,
   // never a reason the whole upcoming-game page breaks.

@@ -41,6 +41,7 @@ import { fileURLToPath } from 'node:url'
 import {
   projectRoster, computeLeagueAverages,
 } from '../app/src/lib/playerProjections.js'
+import { isOnB2B } from '../app/src/lib/schedule.js'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const ROOT = join(__dirname, '..')
@@ -158,11 +159,19 @@ for (const game of teamGames) {
     priorGamesByPid[player.id] = (gamesByPid[player.id] || []).filter((g) => g.date < gameDate)
   }
 
+  // Phase 4 (Nov 20): dock Hawks starters on B2B + apply HCA on scoring.
+  // hawksAreHome is already computed above from game.home_away.
+  // teamGames is the Hawks' full season game list — isOnB2B just needs
+  // to find a game the day before gameDate.
+  const hawksOnB2B = isOnB2B(teamGames, gameDate)
+
   const { projections } = projectRoster({
     players: hawksData.players,
     gamesByPid: priorGamesByPid,
     hawksTeam, oppTeam, leagueAverages,
     injuries: syntheticInjuries,
+    hawksAreHome,
+    hawksOnB2B,
   })
 
   for (const proj of projections) {

@@ -9,3 +9,6 @@ data/raw/*/league_shots/
 # (e.g. Jeremias Engelmann's 30-season NBA possession data, ~700MB)
 data/third-party/
 
+
+# Local cron / launchd output — written by scripts/daily-refresh.sh
+logs/

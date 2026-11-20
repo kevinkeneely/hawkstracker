@@ -21,13 +21,19 @@
  *     per-stat mapping.
  *   - Injuries: Out → projected 0 MIN + DNP flag; Questionable → MIN × 0.6.
  *
- * Future (Phase 3+, see claude/advanced-metrics-plan.md):
- *   - Teammate-out usage redistribution (if a high-usage Hawks player is
- *     Out, remaining players' per-36 rates & MIN scale up proportionally)
- *   - Rest / back-to-back adjustment (dock starters when Hawks played
- *     last night)
- *   - Backtest & calibrate against historical game results
- *   - Multi-season per-matchup splits
+ * Nov 20 — Phase 4 shipped:
+ *   - Rest/B2B adjustment: starters (projected MIN > 28) get docked by 5%
+ *     when the Hawks are on the second night of a back-to-back.
+ *   - Home-court adjustment: PTS and 3PM get scaled by ±1.4% (roughly
+ *     matches the team-level ±1.5-pt HCA split in predictions.js; at a
+ *     ~110 team ppg that's ~1.36%).
+ *
+ * Future (Phase 6+, see claude/advanced-metrics-plan.md):
+ *   - Per-position opponent DRtg (vs guards / wings / bigs separately)
+ *   - Multi-year player-vs-opponent historical splits
+ *   - Bayesian smoothing on small samples
+ *   - Lineup-aware projections
+ *   - Load-management prediction
  *
  * Realistic bar for this model: materially better than season averages
  * because recent form + opponent + known injuries are all baked in; well
@@ -38,6 +44,27 @@
 const PER_36_BLEND = { season: 0.7, lastN: 0.3 }
 const LAST_N_WINDOW = 10
 const QUESTIONABLE_MIN_MULTIPLIER = 0.6
+
+// Nov 20 (Phase 4): rest & home-court adjustments.
+//
+// B2B_STARTER_MIN_THRESHOLD — minimum projected MIN for a player to count as
+// a "starter" for the purpose of B2B rest-day docking. 28 picks up the
+// starting 5 + usually the top sixth man; bench players don't get docked
+// because in reality coaches often INCREASE bench minutes on B2Bs to spare
+// the stars. See the Nov 20 decision in advanced-metrics-plan.md.
+const B2B_STARTER_MIN_THRESHOLD = 28
+
+// How much of a projected-MIN cut a starter takes on the second night of
+// a B2B. 5% picks the low end of the plan's 5-8% range — matches the
+// real-world ~1-2 MIN starter reduction observed on B2Bs. Tune later if
+// backtest MAE improves with a higher dock.
+const B2B_STARTER_MIN_DOCK = 0.05
+
+// Per-stat HCA multiplier for scoring (PTS and 3PM). 1.4% matches the
+// team-level ±1.5-pt HCA split in predictions.js (at a ~110 team ppg,
+// 1.5/110 ≈ 1.36%). Only applied to scoring stats; REB / AST / STL / BLK
+// are HCA-agnostic in the real world.
+const HCA_SCORING_MULTIPLIER = 0.014
 
 // Per-stat opponent adjustment. Each entry names the opponent-stats field
 // to look up on the opp team and the direction of the scaling:
@@ -112,6 +139,9 @@ export function projectPlayer({
   // Phase 3 inputs — defaults are pass-through (no redistribution):
   extraMinutes = 0,         // Minutes absorbed from Out teammates
   usageBoostFactor = 1,     // Multiplier on PTS/3PM/AST/TOV per-36 rates
+  // Phase 4 inputs — defaults are pass-through (no rest / HCA adjustment):
+  hawksAreHome = true,      // true = home, false = away. HCA on PTS/3PM.
+  hawksOnB2B = false,       // true iff Hawks played last night. Docks starter MIN.
 }) {
   const injuryStatus = injury?.status || null
   const injuryReason = injury?.reason || null
@@ -151,6 +181,16 @@ export function projectPlayer({
   // Phase 3: absorb minutes left by Out teammates. Cap at 40 — NBA
   // rotation players rarely exceed that even in a blowout.
   projectedMin = Math.min(40, projectedMin + extraMinutes)
+
+  // Phase 4 — Rest/B2B dock. Starters (>28 projected MIN) lose 5% of their
+  // minutes when the Hawks are on the second night of a back-to-back.
+  // Bench players are untouched since coaches actually LENGTHEN benches on
+  // B2Bs to spare the stars. Threshold check uses projected MIN AFTER
+  // Phase 3 redistribution, so a bench player who absorbed a star's
+  // minutes is correctly treated as a starter for that game.
+  if (hawksOnB2B && projectedMin > B2B_STARTER_MIN_THRESHOLD) {
+    projectedMin = projectedMin * (1 - B2B_STARTER_MIN_DOCK)
+  }
 
   // Per-36 blend for each stat. Players with zero MIN in some games
   // (DNP) are excluded from per-36 computation so one DNP doesn't crush
@@ -196,6 +236,12 @@ export function projectPlayer({
 
     projection[stat] = base * oppMult
   }
+
+  // Phase 4 — Home-court adjustment on scoring stats. Mirrors the team-
+  // level ±1.5-pt HCA in predictions.js at the player scale.
+  const hcaMult = hawksAreHome ? 1 + HCA_SCORING_MULTIPLIER : 1 - HCA_SCORING_MULTIPLIER
+  projection.pts  = projection.pts  * hcaMult
+  projection.fg3m = projection.fg3m * hcaMult
 
   return {
     ...projection,
@@ -268,6 +314,9 @@ function positionBucket(pos) {
  */
 export function projectRoster({
   players, gamesByPid, hawksTeam, oppTeam, leagueAverages, injuries,
+  // Phase 4: defaults pass through (no rest/HCA adjustment) so pre-Phase-4
+  // callers keep their old behavior until they explicitly opt in.
+  hawksAreHome = true, hawksOnB2B = false,
 }) {
   // Step 1: compute each player's HEALTHY baseline (no injury). This
   // is the "what would they project at if nothing was wrong" number,
@@ -279,6 +328,7 @@ export function projectRoster({
     const healthyBase = projectPlayer({
       player, playerGames, hawksTeam, oppTeam, leagueAverages,
       injury: null,  // IGNORE injury for baseline; we handle it below
+      hawksAreHome, hawksOnB2B,
     })
     return { player, playerGames, injury, healthyBase }
   })
@@ -341,6 +391,7 @@ export function projectRoster({
       injury: it.injury,
       extraMinutes: it.injury?.status === 'Out' ? 0 : extra,
       usageBoostFactor: it.injury?.status === 'Out' ? 1 : usageBoostFactor,
+      hawksAreHome, hawksOnB2B,
     })
     return { ...proj, player: it.player }
   })
