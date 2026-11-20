@@ -50,10 +50,20 @@ export default function PlayerProfilePage({ playerData, season, leagueBaseline, 
       <Link to="/players" className="profile-back">← All players</Link>
 
       <header className="profile-header">
+        {/* Nov 20: width/height attrs below are the image's INTRINSIC
+            dimensions (NBA.com's 1040x760 headshot source), not its
+            rendered size. Browsers use them to compute the <img>'s
+            aspect ratio before the image loads, so the layout below
+            the headshot doesn't shift when the image arrives. The
+            rendered size is set by the CSS `width` + `aspect-ratio`
+            rules on .profile-headshot. This fix pairs with those CSS
+            rules — removing either half brings the reflow back. */}
         <img
           src={headshotUrl}
           alt={player.name}
           className="profile-headshot"
+          width="1040"
+          height="760"
           onError={(e) => (e.target.style.visibility = 'hidden')}
         />
         <div className="profile-identity">
