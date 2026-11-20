@@ -2,6 +2,7 @@ import MatchupPreview from '../components/MatchupPreview'
 import RegressionCandidates from '../components/RegressionCandidates'
 import FormWatchRow from '../components/FormWatchRow'
 import PaceProjections from '../components/PaceProjections'
+import MilestonesToWatch from '../components/MilestonesToWatch'
 
 /**
  * Insights — forward-looking, analytical stats that don't fit under
@@ -24,6 +25,8 @@ import PaceProjections from '../components/PaceProjections'
  *
  * Nov 19: moved Form Watch here from the Player Stats tab.
  * Nov 20: added Pace Projections as a third row.
+ * Nov 20: added Milestones to Watch as a fourth row (career round numbers
+ *         and personal bests on pace to be reached this season).
  *
  * Note: ELO (Rolling Power Rating) now lives on the home page next to
  * the point-differential chart, since both answer "how is the team
@@ -61,6 +64,7 @@ export default function InsightsPage({ playerData, leagueLeaderboards, gameLogs 
         <FormWatchRow gameLogs={gameLogs} />
       </div>
       <PaceProjections />
+      <MilestonesToWatch />
     </div>
   )
 }

@@ -68,6 +68,14 @@ run_step transform_hustle             python3 -m pipeline.transform_hustle
 run_step transform_clutch             python3 -m pipeline.transform_clutch
 run_step transform_defensive_rates    python3 -m pipeline.transform_defensive_rates
 
+# Player career stats (B3 — milestone tracker on the Insights tab). Fetches
+# PlayerCareerStats per Hawks player (~14 calls, ~15s). Transform merges
+# lifetime totals + per-stat best-season rows into each player's object in
+# hawksData under `career`. Must run AFTER transform.py (which writes the
+# player list and would otherwise overwrite the enrichment).
+run_step fetch_player_career          python3 -m pipeline.fetch_player_career
+run_step transform_player_career      python3 -m pipeline.transform_player_career
+
 # Advanced tracking data (Phase 1 of the Advanced Stats plan — see
 # claude/advanced-stats-plan.md). Five fetches hit NBA.com tracking
 # endpoints, three "transform_tracking_X" transforms publish per-season
