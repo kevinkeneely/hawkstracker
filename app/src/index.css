@@ -893,16 +893,13 @@ code {
 
 .profile-headshot {
   width: 160px;
-  /* Nov 20: switched from height: auto to a fixed aspect-ratio so the
-     image box reserves its correct height from paint-one instead of
-     resizing when the image loads. Prevents a reflow cascade that
-     shifted every element below the headshot (including the profile
-     tabs row and the stats content). On iOS Safari this reflow could
-     re-fire during momentum scroll — the source of the vertical
-     "jitter" Kevin saw in testing.
-     1040/760 is the native aspect of NBA.com's standard headshot
-     source (cdn.nba.com/headshots/nba/latest/1040x760/<id>.png).
-     At 160px wide, the box is 160 * 760 / 1040 = ~117px tall. */
+  /* Nov 20 (corrected): keep height: auto so the HTML `height="760"`
+     attribute on the <img> tag doesn't force the rendered height to
+     760px (which stretched the image to 160x760, a tall strip).
+     aspect-ratio + width + height:auto together → the box is
+     160 x (160 * 760/1040) = ~117px, computed before image load.
+     NBA.com's native headshot source is 1040x760. */
+  height: auto;
   aspect-ratio: 1040 / 760;
   object-fit: cover;
   border-radius: 8px;
