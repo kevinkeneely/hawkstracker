@@ -5347,3 +5347,100 @@ header {
   border-radius: 6px;
   line-height: 1.5;
 }
+
+
+/* ─────────────── Pace Projections (Insights tab) ─────────────── */
+
+.pace-section {
+  margin-top: 24px;
+  min-width: 0;
+  max-width: 100%;
+}
+
+.pace-head {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  margin-bottom: 12px;
+  flex-wrap: wrap;
+}
+
+.pace-head h2 {
+  margin: 0;
+  font-size: 18px;
+  color: var(--text-h);
+}
+
+.pace-sub {
+  font-size: 12px;
+  color: var(--text-dim);
+}
+
+/* Responsive grid: fit as many cards per row as will cleanly hold a
+   ~180px card. 7 cards means 3-4 per row at desktop width, 2 on tablet,
+   1 on mobile. */
+.pace-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 180px), 1fr));
+  gap: 12px;
+}
+
+.pace-card {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 12px 14px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--social-bg);
+  min-width: 0;
+  transition: border-color 0.12s ease;
+}
+
+.pace-card:hover {
+  border-color: var(--accent-border);
+}
+
+.pace-card-stat {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text-dim);
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+}
+
+.pace-card-player {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text-h);
+  text-decoration: none;
+  margin-top: 4px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.pace-card-player:hover {
+  color: var(--accent);
+  text-decoration: underline;
+}
+
+.pace-card-value {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--text-h);
+  font-variant-numeric: tabular-nums;
+  line-height: 1.1;
+  margin-top: 2px;
+}
+
+.pace-card-perGame {
+  font-size: 11px;
+  color: var(--text-dim);
+  font-variant-numeric: tabular-nums;
+}
+
+.pace-card-empty {
+  font-size: 14px;
+  color: var(--text-dim);
+}

@@ -1,6 +1,7 @@
 import MatchupPreview from '../components/MatchupPreview'
 import RegressionCandidates from '../components/RegressionCandidates'
 import FormWatchRow from '../components/FormWatchRow'
+import PaceProjections from '../components/PaceProjections'
 
 /**
  * Insights — forward-looking, analytical stats that don't fit under
@@ -18,7 +19,11 @@ import FormWatchRow from '../components/FormWatchRow'
  *     Both stack to full-width columns below 900px for phones / narrow
  *     tablets, in source order (Regression first, Form Watch second).
  *
+ *   Third row (full width):
+ *     - Pace Projections — "on pace for X" cards per counting stat.
+ *
  * Nov 19: moved Form Watch here from the Player Stats tab.
+ * Nov 20: added Pace Projections as a third row.
  *
  * Note: ELO (Rolling Power Rating) now lives on the home page next to
  * the point-differential chart, since both answer "how is the team
@@ -55,6 +60,7 @@ export default function InsightsPage({ playerData, leagueLeaderboards, gameLogs 
         )}
         <FormWatchRow gameLogs={gameLogs} />
       </div>
+      <PaceProjections />
     </div>
   )
 }
