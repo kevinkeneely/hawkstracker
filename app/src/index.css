@@ -1320,17 +1320,11 @@ code {
    `auto`, creating an unwanted scroll context that confuses iOS
    Safari's sticky calculations. `clip` achieves the same visual
    containment without creating a scroll context.
-   Nov 20: added `overscroll-behavior-y: none` to disable iOS Safari's
-   rubber-band bounce at the top and bottom of vertical scroll. That
-   bounce animation (page briefly stretches past its content boundary
-   when momentum scroll hits an edge, then snaps back) can look like
-   vertical jitter mid-scroll, especially when momentum scroll ends
-   near a fast-moving edge. `none` kills the bounce without changing
-   normal scroll behavior. No effect on desktop browsers (they don't
-   rubber-band). */
+   Nov 20: tried `overscroll-behavior-y: none` to kill iOS rubber-band
+   as a jitter candidate — reverted immediately. It didn't help the
+   jitter AND it broke pull-to-refresh on mobile, which Kevin uses. */
 html, body {
   overflow-x: clip;
-  overscroll-behavior-y: none;
 }
 
 @media (max-width: 640px) {
