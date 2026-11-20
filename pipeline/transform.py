@@ -31,7 +31,7 @@ import json
 import os
 from datetime import date
 
-from pipeline.config import SEASON, RAW_DATA_DIR, HAWKS_DATA_FILENAME
+from pipeline.config import SEASON, RAW_DATA_DIR, HAWKS_DATA_FILENAME, assert_raw_season_matches
 
 # Where the final merged file lands (read by the React app)
 OUT_PATH = f"data/{HAWKS_DATA_FILENAME}"
@@ -202,7 +202,11 @@ def load_raw(endpoint_name, season=SEASON, as_of=None):
             )
         path = str(files[-1])
     with open(path, "r") as f:
-        return json.load(f)
+        raw = json.load(f)
+    # Nov 20 (#12 hardening): refuse to continue if the raw file is from
+    # the wrong season. See pipeline/config.py:assert_raw_season_matches.
+    assert_raw_season_matches(raw, path)
+    return raw
 
 
 def rows_as_dicts(raw):

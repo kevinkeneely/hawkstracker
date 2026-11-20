@@ -18,7 +18,7 @@ from collections import defaultdict
 from datetime import date, datetime
 from pathlib import Path
 
-from pipeline.config import SEASON
+from pipeline.config import SEASON, assert_raw_season_matches
 
 RAW_DIR = Path("data/raw") / SEASON
 SHOTS_DIR = RAW_DIR / "league_shots"
@@ -90,6 +90,7 @@ def load_overall_stats() -> dict:
         return {}
 
     base = json.loads(base_file.read_text())
+    assert_raw_season_matches(base, str(base_file))  # Nov 20 (#12 hardening)
     rs = next(r for r in base["resultSets"] if r["name"] == "LeagueDashPlayerStats")
     bh = rs["headers"]
     pid_i = bh.index("PLAYER_ID")
@@ -148,6 +149,7 @@ def load_overall_stats() -> dict:
     # percent number (11.1) — rescale to a 0–1 decimal (0.111) to match the
     # Hawks pipeline's tov_pct convention (see pipeline/transform.py).
     adv = json.loads(adv_file.read_text())
+    assert_raw_season_matches(adv, str(adv_file))  # Nov 20 (#12 hardening)
     rs = next(r for r in adv["resultSets"] if r["name"] == "LeagueDashPlayerStats")
     ah = rs["headers"]
     pid_i = ah.index("PLAYER_ID")
@@ -177,6 +179,7 @@ def load_defense_stats() -> dict:
     if base_file is None:
         return {}
     data = json.loads(base_file.read_text())
+    assert_raw_season_matches(data, str(base_file))  # Nov 20 (#12 hardening)
     rs = next(r for r in data["resultSets"] if r["name"] == "LeagueDashPlayerStats")
     h = rs["headers"]
     pid_i = h.index("PLAYER_ID")
@@ -206,6 +209,7 @@ def load_hustle_stats() -> dict:
     if hustle_file is None:
         return {}
     data = json.loads(hustle_file.read_text())
+    assert_raw_season_matches(data, str(hustle_file))  # Nov 20 (#12 hardening)
     rs = data["resultSets"][0]
     h = rs["headers"]
     pid_i = h.index("PLAYER_ID")
@@ -262,6 +266,7 @@ def load_player_bios() -> dict[int, dict]:
          raise FileNotFoundError("No league_base_*.json in data/raw — run fetch.py first")
 
     data = json.loads(base_file.read_text())
+    assert_raw_season_matches(data, str(base_file))  # Nov 20 (#12 hardening)
     # Raw NBA.com shape: resultSets is a list; each has name, headers, rowSet (list of lists)
     rs = next(r for r in data["resultSets"] if r["name"] == "LeagueDashPlayerStats")
     headers = rs["headers"]
@@ -286,6 +291,7 @@ def load_player_bios() -> dict[int, dict]:
 def compute_zones(shot_file: Path) -> dict:
     """Aggregate one player's shots into zone totals (reads raw NBA.com field names)."""
     data = json.loads(shot_file.read_text())
+    assert_raw_season_matches(data, str(shot_file))  # Nov 20 (#12 hardening)
     shots = data.get("Shot_Chart_Detail", [])
 
     totals = defaultdict(lambda: {"fga": 0, "fgm": 0})

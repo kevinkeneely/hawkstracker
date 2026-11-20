@@ -19,7 +19,7 @@ fetch_league_clutch.py.
 import json
 from pathlib import Path
 
-from pipeline.config import SEASON, HAWKS_DATA_FILENAME
+from pipeline.config import SEASON, HAWKS_DATA_FILENAME, assert_raw_season_matches
 
 HAWKS_DATA = Path("app/public") / HAWKS_DATA_FILENAME
 RAW_DIR = Path("data/raw") / SEASON
@@ -81,6 +81,8 @@ def load_rows(pattern: str) -> list[dict]:
             f"No {pattern} in data/raw — run fetch_league_clutch.py first"
         )
     data = json.loads(f.read_text())
+    # Nov 20 (#12 hardening): catch stale raw file before enriching hawksData.
+    assert_raw_season_matches(data, str(f))
     rs = data["resultSets"][0]
     headers = rs["headers"]
     return [dict(zip(headers, row)) for row in rs["rowSet"]]
@@ -107,6 +109,7 @@ def run():
         if "_adv_" not in f.name
     )[-1]
     base_data = json.loads(base_file.read_text())
+    assert_raw_season_matches(base_data, str(base_file))  # Nov 20 (#12 hardening)
     base_rs = base_data["resultSets"][0]
     base_rows = [dict(zip(base_rs["headers"], row)) for row in base_rs["rowSet"]]
 

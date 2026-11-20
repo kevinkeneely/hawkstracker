@@ -8,7 +8,7 @@ from pathlib import Path
 from nba_api.stats.static import teams
 
 RAW_DIR = Path("data/raw")
-from pipeline.config import STANDINGS_FILENAME
+from pipeline.config import STANDINGS_FILENAME, assert_raw_season_matches
 OUT_DATA = Path("data") / STANDINGS_FILENAME
 OUT_PUBLIC = Path("app/public") / STANDINGS_FILENAME
 
@@ -43,6 +43,9 @@ def transform_standings():
 
     with open(raw_path) as f:
         raw = json.load(f)
+    # Nov 20 (#12 hardening): refuse to continue if the raw file is from
+    # the wrong season. See pipeline/config.py:assert_raw_season_matches.
+    assert_raw_season_matches(raw, str(raw_path))
 
     result_set = raw["resultSets"][0]
     headers = result_set["headers"]

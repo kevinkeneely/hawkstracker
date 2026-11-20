@@ -10,7 +10,7 @@ Must run AFTER transform.py (writes hawksData.json) and fetch_hustle.py.
 import json
 from pathlib import Path
 
-from pipeline.config import SEASON, HAWKS_DATA_FILENAME
+from pipeline.config import SEASON, HAWKS_DATA_FILENAME, assert_raw_season_matches
 
 HAWKS_DATA = Path("app/public") / HAWKS_DATA_FILENAME
 RAW_DIR = Path("data/raw") / SEASON
@@ -44,6 +44,9 @@ def load_rows() -> tuple[list[dict], list[str]]:
     if hustle_file is None:
         raise FileNotFoundError("No league_hustle_*.json in data/raw — run fetch_hustle.py first")
     data = json.loads(hustle_file.read_text())
+    # Nov 20 (#12 hardening): catch a stale raw file before we overwrite
+    # hawksData enrichment with wrong-season numbers.
+    assert_raw_season_matches(data, str(hustle_file))
     rs = data["resultSets"][0]
     headers = rs["headers"]
     # Convert each row (a flat list) into a dict for easy field access

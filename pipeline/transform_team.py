@@ -15,7 +15,7 @@ from datetime import date
 
 from nba_api.stats.static import teams as nba_teams
 
-from pipeline.config import SEASON, RAW_DATA_DIR
+from pipeline.config import SEASON, RAW_DATA_DIR, assert_raw_season_matches
 
 # Where the final merged file lands
 from pipeline.config import TEAM_STATS_FILENAME
@@ -134,7 +134,11 @@ def load_raw(endpoint_name, season=SEASON, as_of=None):
     filename = f"{endpoint_name}_{as_of}.json"
     path = os.path.join(RAW_DATA_DIR, season, filename)
     with open(path, "r") as f:
-        return json.load(f)
+        raw = json.load(f)
+    # Nov 20 (#12 hardening): refuse to continue if the raw file is from
+    # the wrong season. See pipeline/config.py:assert_raw_season_matches.
+    assert_raw_season_matches(raw, path)
+    return raw
 
 
 def rows_as_dicts(raw):

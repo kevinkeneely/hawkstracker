@@ -80,3 +80,60 @@ TEAM_ENDPOINTS = [
     ("team_shot_locations", "Base"),
     ("team_shot_locations_opp", "Opponent"),
 ]
+
+
+# ---------------------------------------------------------------------------
+# Season-guard helper — added Nov 20 for post-launch-followups #12.
+#
+# Many pipeline transforms take a raw NBA.com API response and merge its
+# rows into a season-specific output file (hawksData-<SEASON>.json,
+# league_team_stats-<SEASON>.json, etc). The failure mode we're guarding
+# against: a stale raw file from LAST season (e.g. 2025-26 left in
+# data/raw/2025-26/) silently feeds into this season's transforms during a
+# manual re-run, producing a file that LOOKS like 2026-27 data but actually
+# holds 2025-26 numbers. Nothing errors; the dashboard just shows the wrong
+# season and nobody notices until a human eyeballs it.
+#
+# This helper reads the NBA.com `parameters.Season` (or `.SeasonYear` for
+# some endpoints like hustle) out of a raw response and refuses to continue
+# if it doesn't match the current SEASON. Call it at the top of each
+# transform's main() AFTER loading the raw JSON and BEFORE writing any
+# output.
+#
+# Returns nothing on match (the caller keeps going). Raises ValueError on
+# mismatch so the daily-refresh.sh run_step wrapper logs it as FAILED
+# instead of silently committing wrong data.
+# ---------------------------------------------------------------------------
+def assert_raw_season_matches(raw, source_description, expected_season=None):
+    """
+    raw                 — a dict parsed from an NBA.com API JSON response.
+    source_description  — human-readable name of the file / endpoint for
+                          the error message (e.g. "base_2026-10-20.json"
+                          or "LeagueStandings endpoint").
+    expected_season     — defaults to config.SEASON. Only override if
+                          you're processing historical seasons on purpose.
+    """
+    if expected_season is None:
+        expected_season = SEASON
+
+    # Not every endpoint echoes a season param (shot charts, some tracking
+    # endpoints). If we can't find one, DON'T fail — just return. Failing
+    # closed here would break the handful of endpoints that are safely
+    # season-agnostic.
+    params = raw.get("parameters") if isinstance(raw, dict) else None
+    if not isinstance(params, dict):
+        return
+
+    # Most endpoints use "Season". Hustle uses "SeasonYear". Try both.
+    season_in_file = params.get("Season") or params.get("SeasonYear")
+    if season_in_file is None:
+        return
+
+    if season_in_file != expected_season:
+        raise ValueError(
+            f"Season mismatch in {source_description}: "
+            f"raw file says Season={season_in_file!r}, "
+            f"but pipeline config SEASON={expected_season!r}. "
+            f"Refusing to transform — fix the stale raw file or "
+            f"delete it and re-fetch before retrying."
+        )

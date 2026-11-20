@@ -34,7 +34,7 @@ from datetime import datetime, date
 from glob import glob
 from pathlib import Path
 
-from pipeline.config import SEASON
+from pipeline.config import SEASON, assert_raw_season_matches
 
 RAW_DIR = Path("data/raw") / SEASON
 OUT_PATH = Path("app/public") / f"league_team_stats-{SEASON}.json"
@@ -75,6 +75,9 @@ def transform() -> None:
     print(f"[league-team-stats] reading {src_ff}")
     raw = json.loads(src_adv.read_text())
     raw_ff = json.loads(src_ff.read_text())
+    # Nov 20 (#12 hardening): confirm both raw files are from the current season.
+    assert_raw_season_matches(raw,    str(src_adv))
+    assert_raw_season_matches(raw_ff, str(src_ff))
 
     rs = raw["resultSets"][0]
     headers = rs["headers"]
@@ -94,7 +97,9 @@ def transform() -> None:
     # Used by lib/playerProjections.js for per-stat opponent adjustments.
     src_opp = _latest("league_team_opponent_*.json")
     print(f"[league-team-stats] reading {src_opp}")
-    opp_rs = json.loads(src_opp.read_text())["resultSets"][0]
+    opp_raw = json.loads(src_opp.read_text())
+    assert_raw_season_matches(opp_raw, str(src_opp))  # Nov 20 (#12 hardening)
+    opp_rs = opp_raw["resultSets"][0]
     opp_col = {h: i for i, h in enumerate(opp_rs["headers"])}
     opp_cols_to_keep = [
         "OPP_PTS", "OPP_REB", "OPP_AST", "OPP_STL", "OPP_BLK", "OPP_TOV",
