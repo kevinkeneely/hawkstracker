@@ -1,31 +1,31 @@
 {
   "season": "2026-27",
-  "generated_at": "2026-11-20T20:38:19.364Z",
-  "n_games": 15,
-  "n_player_games": 137,
+  "generated_at": "2026-11-21T23:06:06.269Z",
+  "n_games": 16,
+  "n_player_games": 147,
   "n_excluded_dnp": 0,
   "n_excluded_no_prior_games": 25,
   "mae": {
-    "min": 4.11,
-    "pts": 5.03,
+    "min": 4.08,
+    "pts": 4.99,
     "reb": 1.76,
     "ast": 1.82,
-    "fg3m": 1.02,
-    "stl": 0.89,
+    "fg3m": 1.05,
+    "stl": 0.9,
     "blk": 0.5,
-    "tov": 0.97
+    "tov": 0.96
   },
   "sample_count_per_stat": {
-    "min": 137,
-    "pts": 137,
-    "reb": 137,
-    "ast": 137,
-    "fg3m": 137,
-    "stl": 137,
-    "blk": 137,
-    "tov": 137
+    "min": 147,
+    "pts": 147,
+    "reb": 147,
+    "ast": 147,
+    "fg3m": 147,
+    "stl": 147,
+    "blk": 147,
+    "tov": 147
   },
   "notes": [
-    "15 of 15 games used current league_team_stats (no point-in-time snapshot available; snapshotting started 2026-11-19)"
+    "15 of 16 games used current league_team_stats (no point-in-time snapshot available; snapshotting started 2026-11-19)"
   ]
 }
