@@ -3375,12 +3375,13 @@ header {
   z-index: 2;
   background: var(--bg);
   box-sizing: border-box;
-  /* Don't let long names stretch into (and over) the first stat column.
-     white-space: nowrap keeps names on one line; the max-width + overflow
-     hidden + text-overflow ellipsis clip long names cleanly. */
-  max-width: 180px;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  /* Nov 21: dropped the max-width:180px cap + overflow/text-overflow
+     ellipsis that was clipping "Nickeil Alexander-Walker" and other
+     long names to "Nickeil Alexander-..." on desktop. Letting the
+     column auto-size to its widest name keeps every name readable —
+     the trade-off is the table extends ~40px wider before the
+     stat columns start. Mobile (@media 640px) already handles this
+     case with 11px font + min-width:180px — unchanged. */
   white-space: nowrap;
 }
 /* Even rows: layer the (semi-transparent) alt-row color over a solid
