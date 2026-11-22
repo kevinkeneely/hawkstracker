@@ -76,6 +76,12 @@ run_step transform_defensive_rates    python3 -m pipeline.transform_defensive_ra
 run_step fetch_player_career          python3 -m pipeline.fetch_player_career
 run_step transform_player_career      python3 -m pipeline.transform_player_career
 
+# Triple-double counts (B3 phase 3 — Milestones to Watch widget). Pulls
+# TD3 per player from the newest league_base file (already fetched by
+# `fetch`) — no new API call. Must run AFTER transform.py (writes the
+# player list) so there's a player object to attach td3_total to.
+run_step transform_triple_doubles     python3 -m pipeline.transform_triple_doubles
+
 # Advanced tracking data (Phase 1 of the Advanced Stats plan — see
 # claude/advanced-stats-plan.md). Five fetches hit NBA.com tracking
 # endpoints, three "transform_tracking_X" transforms publish per-season

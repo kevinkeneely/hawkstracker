@@ -22,6 +22,10 @@ import { Link } from 'react-router-dom'
 
 const CURRENT_SEASON = '2026-27'
 const MIN_GP = 5
+// Triple-doubles are low-denominator; projecting from 2 TDs in 10 games
+// at `td/gp * remaining` is noisy. Require a bigger sample than other
+// stats (10 games vs the normal 5) before we surface a TD milestone.
+const MIN_GP_FOR_TD = 10
 const FULL_SEASON_GP = 82
 const COLLAPSED_ROWS = 10
 
@@ -49,6 +53,14 @@ const COUNTING_STATS = [
   { key: 'fgm',  label: 'field goals',  total: 'fgm_total',  perGame: null,  franchiseKey: 'fgm',  careerHawksKey: 'fgm'  },
   { key: 'ftm',  label: 'free throws',  total: 'ftm_total',  perGame: null,  franchiseKey: 'ftm',  careerHawksKey: 'ftm'  },
   { key: 'tov',  label: 'turnovers',    total: 'tov_total',  perGame: 'tov', franchiseKey: 'tov',  careerHawksKey: 'tov'  },
+  // Triple-doubles: only the franchise-season rank milestone applies here.
+  // We have current-season TD3 (from leaguedashplayerstats) but no career
+  // per-season TD breakdown, so career-tier, personal-best, and
+  // franchise-career-rank are all skipped for this stat via the `only` key.
+  // `perGame` is null (TDs aren't an accumulating per-game rate); projection
+  // falls back to curTotal/gp which gives the right shape for a rare-event
+  // stat. Minimum-GP floor is MIN_GP_FOR_TD, not MIN_GP (handled below).
+  { key: 'triple_doubles', label: 'triple-doubles', total: 'td3_total', perGame: null, franchiseKey: 'triple_doubles', careerHawksKey: null, only: ['franchise-season'], minGp: 10 },
 ]
 
 // Rate-stat definitions.
@@ -118,7 +130,8 @@ const RATE_STATS = [
 
 /** Smart per-game projection for the rest of the season. */
 function projectedRemaining(player, stat) {
-  if ((player.gp ?? 0) < MIN_GP) return null
+  const minGp = stat.minGp ?? MIN_GP
+  if ((player.gp ?? 0) < minGp) return null
   const curTotal = player[stat.total]
   if (curTotal == null) return null
   const perGame = stat.perGame != null ? player[stat.perGame] : curTotal / player.gp
@@ -165,6 +178,9 @@ function buildMilestones(players, franchise) {
       }
 
       // (1) career-tier — lifetime round numbers
+      if (stat.only && !stat.only.includes('career-tier')) {
+        /* stat opted out of this milestone type */
+      } else {
       const careerSoFar = totals[stat.key]
       const tier = nextTier(stat, careerSoFar)
       if (tier != null && careerSoFar != null) {
@@ -181,7 +197,12 @@ function buildMilestones(players, franchise) {
         }
       }
 
+      }
+
       // (2) personal-best — lifetime best single-season (any team)
+      if (stat.only && !stat.only.includes('personal-best')) {
+        /* stat opted out */
+      } else {
       const best = bestBy[stat.key]
       if (best && best.value != null && formatSeason(best.season) !== CURRENT_SEASON) {
         const needed = best.value - proj.curSeasonTotal + 1
@@ -198,7 +219,12 @@ function buildMilestones(players, franchise) {
         }
       }
 
+      }
+
       // (3) franchise-career-rank — projected Hawks-career crosses a franchise top-10 slot
+      if (stat.only && !stat.only.includes('franchise-career')) {
+        /* stat opted out */
+      } else {
       const franchiseCareer = franchise?.career?.[stat.franchiseKey]
       const hawksCareerSoFar = hawks[stat.careerHawksKey]
       if (Array.isArray(franchiseCareer) && hawksCareerSoFar != null) {
@@ -230,7 +256,12 @@ function buildMilestones(players, franchise) {
         }
       }
 
+      }
+
       // (4) franchise-season-rank — projection crosses into franchise top-10 season list
+      if (stat.only && !stat.only.includes('franchise-season')) {
+        /* stat opted out */
+      } else {
       const franchiseSeason = franchise?.season?.[stat.franchiseKey]
       if (Array.isArray(franchiseSeason)) {
         // Which position would projSeasonTotal slot into?
@@ -246,6 +277,18 @@ function buildMilestones(players, franchise) {
           const isOwnRecord = passedName === p.name
           const beatsOwn = projSeasonTotal > targetValue + 0.0001
           if (isOwnRecord && !beatsOwn) continue
+
+          // Extended own-record check: if this player already holds a HIGHER
+          // slot in the leaderboard (e.g. Jalen Johnson at #1 with 13 TDs
+          // in 2025-26), their current-year projection slotting in below
+          // that prior season isn't a milestone — it would misleadingly
+          // read as "passes <someone> for #2" while they're already #1.
+          // Skip when projSeasonTotal is <= any of this player's own
+          // earlier (higher-ranked) entries in the leaderboard.
+          const hasHigherOwnEntry = franchiseSeason
+            .slice(0, projectedSeasonRank)
+            .some((e) => e[0] === p.name && e[1] >= projSeasonTotal)
+          if (hasHigherOwnEntry) continue
 
           const needed = targetValue != null ? Math.max(0, targetValue + 1 - proj.curSeasonTotal) : null
           if (needed != null && needed > 0 && needed <= proj.remaining) {
@@ -263,6 +306,7 @@ function buildMilestones(players, franchise) {
             })
           }
         }
+      }
       }
     }
 
