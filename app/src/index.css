@@ -5544,3 +5544,36 @@ header {
     gap: 2px;
   }
 }
+
+/* ---- Milestones expand button + franchise row accent ---------------- */
+
+.milestones-expand {
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+  padding: 8px 14px;
+  background: transparent;
+  color: var(--accent);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.12s ease, border-color 0.12s ease;
+}
+
+.milestones-expand:hover {
+  background: color-mix(in srgb, var(--accent) 6%, transparent);
+  border-color: var(--accent-border);
+}
+
+.milestone-row--franchise-season,
+.milestone-row--franchise-career {
+  background: color-mix(in srgb, var(--accent) 10%, transparent);
+}
+
+.milestone-row--franchise-season-rate,
+.milestone-row--franchise-career-rate {
+  background: color-mix(in srgb, var(--accent) 4%, transparent);
+  font-style: italic;
+}
