@@ -82,6 +82,14 @@ run_step transform_player_career      python3 -m pipeline.transform_player_caree
 # player list) so there's a player object to attach td3_total to.
 run_step transform_triple_doubles     python3 -m pipeline.transform_triple_doubles
 
+# PER (Player Efficiency Rating — Hollinger's). Computed from existing
+# raw league_base + team_base + team_advanced files — no new NBA.com
+# fetch. Writes .per onto Hawks players and league leaderboards (league
+# average = 15.00 by construction). Also renames the existing .per field
+# (which was actually NBA.com's PIE value) to .pie so both metrics are
+# available side-by-side in the data.
+run_step transform_per                python3 -m pipeline.transform_per
+
 # Advanced tracking data (Phase 1 of the Advanced Stats plan — see
 # claude/advanced-stats-plan.md). Five fetches hit NBA.com tracking
 # endpoints, three "transform_tracking_X" transforms publish per-season

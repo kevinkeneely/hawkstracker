@@ -279,7 +279,7 @@ const CLUTCH_GROUPS = [
     { key: 'reb_pct', label: 'REB%', format: 'pct' },
     { key: 'tm_tov_pct', label: 'Team TOV%', format: 'pct_raw', invert: true },
     { key: 'usg_pct', label: 'USG%', format: 'pct' },
-    { key: 'pie', label: 'PIE', format: 'pct' },
+    { key: 'per', label: 'PER', format: 'num1' },
   ],
 ]
 
@@ -316,7 +316,7 @@ const CLUTCH_GROUPS_MOBILE = [
     { key: 'reb_pct',    label: 'REB%',       format: 'pct'  },
     { key: 'tm_tov_pct', label: 'Team TOV%',  format: 'pct_raw', invert: true },
     { key: 'usg_pct',    label: 'USG%',       format: 'pct'  },
-    { key: 'pie',        label: 'PIE',        format: 'pct'  },
+    { key: 'per',        label: 'PER',        format: 'num1' },
   ],
 ]
 

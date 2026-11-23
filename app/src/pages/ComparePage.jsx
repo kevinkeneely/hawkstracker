@@ -39,7 +39,7 @@ const CLUTCH_ROWS = [
   { key: 'def_rating',  label: 'Def Rating', format: 'num1', invert: true },
   { key: 'net_rating',  label: 'Net Rating', format: 'num1' },
   { key: 'plus_minus',  label: '+/−',        format: 'num1' },
-  { key: 'pie',         label: 'PIE',        format: 'pct'  },
+  { key: 'per',         label: 'PER',        format: 'num1' },
 ]
 
 const TRADITIONAL_ROWS = [
@@ -62,7 +62,7 @@ const TRADITIONAL_ROWS = [
   { key: 'off_rating',  label: 'ORtg',       format: 'num1' },
   { key: 'def_rating',  label: 'DRtg',       format: 'num1', invert: true },
   { key: 'net_rating',  label: 'NetRtg',     format: 'num1' },
-  { key: 'per',         label: 'PIE',        format: 'pct'  },
+  { key: 'per',         label: 'PER',        format: 'num1' },
 ]
 
 function formatStatValue(value, format) {
