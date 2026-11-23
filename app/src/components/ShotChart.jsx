@@ -224,8 +224,8 @@ function HeatmapLegend() {
         <div className="legend-gradient heatmap-gradient" />
       </div>
       <div className="legend-row">
-        <span className="legend-label-small">20%</span>
-        <span className="legend-label-small heatmap-hot">70%</span>
+        <span className="legend-label-small">bad</span>
+        <span className="legend-label-small heatmap-hot">elite</span>
       </div>
     </div>
   )
