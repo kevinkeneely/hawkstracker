@@ -65,10 +65,10 @@
       "screen_assists": 0.64,
       "screen_ast_pts": 1.5,
       "loose_balls": 0.43,
-      "off_boxouts": 0.07,
-      "def_boxouts": 0.71,
+      "off_boxouts": 0.14,
+      "def_boxouts": 0.79,
       "box_outs": 0.93,
-      "box_out_team_rebs": 0.79,
+      "box_out_team_rebs": 0.93,
       "clutch_gp": 9,
       "clutch_min": 3.0,
       "clutch_fg_pct": 0.385,
@@ -159,11 +159,11 @@
         },
         "contested_shots_2pt": {
           "value": 2.86,
-          "pctile": 0.7769
+          "pctile": 0.7744
         },
         "contested_shots_3pt": {
           "value": 2.43,
-          "pctile": 0.9103
+          "pctile": 0.9077
         },
         "deflections": {
           "value": 2.0,
@@ -179,7 +179,7 @@
         },
         "screen_ast_pts": {
           "value": 1.5,
-          "pctile": 0.7179
+          "pctile": 0.7026
         },
         "loose_balls_recovered": {
           "value": 0.43,
@@ -190,12 +190,12 @@
           "pctile": 0.7897
         },
         "pct_box_outs_off": {
-          "value": 0.077,
-          "pctile": 0.5538
+          "value": 0.154,
+          "pctile": 0.6333
         },
         "pct_box_outs_def": {
-          "value": 0.769,
-          "pctile": 0.3897
+          "value": 0.846,
+          "pctile": 0.4282
         }
       },
       "stl_p75": 1.1198208286674132,
@@ -338,238 +338,6 @@
       "blk_pct": 0.013791803728070175,
       "stl_pct_pctile": 0.41911764705882354,
       "blk_pct_pctile": 0.4522058823529412,
-      "defense_tracking": {
-        "d_fgm": {
-          "value": 6.15,
-          "pctile": 0.9641
-        },
-        "d_fga": {
-          "value": 11.69,
-          "pctile": 0.8923
-        },
-        "d_fg_pct": {
-          "value": 0.526,
-          "pctile": 0.8795
-        },
-        "normal_fg_pct": {
-          "value": 0.472,
-          "pctile": 0.8179
-        },
-        "pct_plusminus": {
-          "value": 0.054,
-          "pctile": 0.8179
-        }
-      },
-      "playmaking_tracking": {
-        "drives": {
-          "drives": {
-            "value": 12.7,
-            "pctile": 0.9221
-          },
-          "drive_fgm": {
-            "value": 2.5,
-            "pctile": 0.9124
-          },
-          "drive_fga": {
-            "value": 5.1,
-            "pctile": 0.9148
-          },
-          "drive_fg_pct": {
-            "value": 0.5,
-            "pctile": 0.5182
-          },
-          "drive_pts": {
-            "value": 6.8,
-            "pctile": 0.9197
-          },
-          "drive_ast": {
-            "value": 1.2,
-            "pctile": 0.8978
-          },
-          "drive_tov": {
-            "value": 1.5,
-            "pctile": 0.9976
-          }
-        },
-        "passing": {
-          "passes_made": {
-            "value": 62.9,
-            "pctile": 0.9854
-          },
-          "passes_received": {
-            "value": 54.3,
-            "pctile": 0.9294
-          },
-          "potential_ast": {
-            "value": 12.2,
-            "pctile": 0.9684
-          },
-          "ast_points_created": {
-            "value": 18.7,
-            "pctile": 0.9805
-          },
-          "ast_to_pass_pct": {
-            "value": 0.119,
-            "pctile": 0.871
-          }
-        },
-        "possessions": {
-          "touches": {
-            "value": 74.0,
-            "pctile": 0.9757
-          },
-          "front_ct_touches": {
-            "value": 38.5,
-            "pctile": 0.9732
-          },
-          "time_of_poss": {
-            "value": 3.1,
-            "pctile": 0.8662
-          },
-          "avg_sec_per_touch": {
-            "value": 2.52,
-            "pctile": 0.6642
-          },
-          "pts_per_touch": {
-            "value": 0.266,
-            "pctile": 0.3625
-          },
-          "elbow_touches": {
-            "value": 1.5,
-            "pctile": 0.8637
-          },
-          "post_touches": {
-            "value": 2.6,
-            "pctile": 0.9562
-          },
-          "paint_touches": {
-            "value": 4.5,
-            "pctile": 0.8564
-          }
-        }
-      },
-      "shooting_tracking": {
-        "cs": {
-          "fgm": {
-            "value": 3.54,
-            "pctile": 0.8956
-          },
-          "fga": {
-            "value": 7.23,
-            "pctile": 0.9053
-          },
-          "fg_pct": {
-            "value": 0.489,
-            "pctile": 0.6311
-          },
-          "efg_pct": {
-            "value": 0.537,
-            "pctile": 0.3932
-          },
-          "fg3m": {
-            "value": 0.69,
-            "pctile": 0.432
-          },
-          "fg3a": {
-            "value": 3.15,
-            "pctile": 0.6796
-          },
-          "fg3_pct": {
-            "value": 0.22,
-            "pctile": 0.1312
-          }
-        },
-        "pullup": {
-          "fgm": {
-            "value": 2.62,
-            "pctile": 0.8955
-          },
-          "fga": {
-            "value": 5.92,
-            "pctile": 0.9129
-          },
-          "fg_pct": {
-            "value": 0.442,
-            "pctile": 0.4602
-          },
-          "efg_pct": {
-            "value": 0.461,
-            "pctile": 0.4502
-          },
-          "fg3m": {
-            "value": 0.23,
-            "pctile": 0.7438
-          },
-          "fg3a": {
-            "value": 0.92,
-            "pctile": 0.806
-          },
-          "fg3_pct": {
-            "value": 0.25,
-            "pctile": 0.413
-          }
-        },
-        "contested": {
-          "fgm": {
-            "value": 4.23,
-            "pctile": 0.9442
-          },
-          "fga": {
-            "value": 8.62,
-            "pctile": 0.9466
-          },
-          "fg_pct": {
-            "value": 0.4907,
-            "pctile": 0.4684
-          },
-          "efg_pct": {
-            "value": 0.4907,
-            "pctile": 0.3859
-          },
-          "fg3m": {
-            "value": 0.0,
-            "pctile": 0.0
-          },
-          "fg3a": {
-            "value": 0.46,
-            "pctile": 0.7039
-          },
-          "fg3_pct": {
-            "value": 0.0,
-            "pctile": 0.0
-          }
-        },
-        "uncontested": {
-          "fgm": {
-            "value": 2.69,
-            "pctile": 0.802
-          },
-          "fga": {
-            "value": 7.0,
-            "pctile": 0.8606
-          },
-          "fg_pct": {
-            "value": 0.3843,
-            "pctile": 0.3276
-          },
-          "efg_pct": {
-            "value": 0.4507,
-            "pctile": 0.2054
-          },
-          "fg3m": {
-            "value": 0.93,
-            "pctile": 0.5257
-          },
-          "fg3a": {
-            "value": 3.69,
-            "pctile": 0.7066
-          },
-          "fg3_pct": {
-            "value": 0.252,
-            "pctile": 0.1963
-          }
-        }
-      },
       "career": {
         "totals": {
           "pts": 3912,
@@ -639,7 +407,239 @@
         },
         "seasons_played": 6
       },
-      "td3_total": 2
+      "td3_total": 2,
+      "defense_tracking": {
+        "d_fgm": {
+          "value": 6.07,
+          "pctile": 0.9592
+        },
+        "d_fga": {
+          "value": 11.57,
+          "pctile": 0.8878
+        },
+        "d_fg_pct": {
+          "value": 0.525,
+          "pctile": 0.8827
+        },
+        "normal_fg_pct": {
+          "value": 0.474,
+          "pctile": 0.8214
+        },
+        "pct_plusminus": {
+          "value": 0.05,
+          "pctile": 0.7908
+        }
+      },
+      "playmaking_tracking": {
+        "drives": {
+          "drives": {
+            "value": 12.1,
+            "pctile": 0.9027
+          },
+          "drive_fgm": {
+            "value": 2.4,
+            "pctile": 0.9075
+          },
+          "drive_fga": {
+            "value": 4.9,
+            "pctile": 0.9051
+          },
+          "drive_fg_pct": {
+            "value": 0.485,
+            "pctile": 0.5085
+          },
+          "drive_pts": {
+            "value": 6.3,
+            "pctile": 0.9124
+          },
+          "drive_ast": {
+            "value": 1.1,
+            "pctile": 0.8613
+          },
+          "drive_tov": {
+            "value": 1.4,
+            "pctile": 0.9903
+          }
+        },
+        "passing": {
+          "passes_made": {
+            "value": 62.3,
+            "pctile": 0.9805
+          },
+          "passes_received": {
+            "value": 52.9,
+            "pctile": 0.9246
+          },
+          "potential_ast": {
+            "value": 11.6,
+            "pctile": 0.9513
+          },
+          "ast_points_created": {
+            "value": 17.4,
+            "pctile": 0.9635
+          },
+          "ast_to_pass_pct": {
+            "value": 0.111,
+            "pctile": 0.8224
+          }
+        },
+        "possessions": {
+          "touches": {
+            "value": 73.1,
+            "pctile": 0.9684
+          },
+          "front_ct_touches": {
+            "value": 38.0,
+            "pctile": 0.9684
+          },
+          "time_of_poss": {
+            "value": 3.0,
+            "pctile": 0.8491
+          },
+          "avg_sec_per_touch": {
+            "value": 2.47,
+            "pctile": 0.6594
+          },
+          "pts_per_touch": {
+            "value": 0.262,
+            "pctile": 0.3528
+          },
+          "elbow_touches": {
+            "value": 1.5,
+            "pctile": 0.8662
+          },
+          "post_touches": {
+            "value": 2.5,
+            "pctile": 0.9538
+          },
+          "paint_touches": {
+            "value": 4.7,
+            "pctile": 0.8637
+          }
+        }
+      },
+      "shooting_tracking": {
+        "cs": {
+          "fgm": {
+            "value": 3.57,
+            "pctile": 0.8932
+          },
+          "fga": {
+            "value": 7.14,
+            "pctile": 0.9005
+          },
+          "fg_pct": {
+            "value": 0.5,
+            "pctile": 0.6505
+          },
+          "efg_pct": {
+            "value": 0.545,
+            "pctile": 0.4417
+          },
+          "fg3m": {
+            "value": 0.64,
+            "pctile": 0.4029
+          },
+          "fg3a": {
+            "value": 3.07,
+            "pctile": 0.6432
+          },
+          "fg3_pct": {
+            "value": 0.209,
+            "pctile": 0.1102
+          }
+        },
+        "pullup": {
+          "fgm": {
+            "value": 2.43,
+            "pctile": 0.8905
+          },
+          "fga": {
+            "value": 5.79,
+            "pctile": 0.9055
+          },
+          "fg_pct": {
+            "value": 0.42,
+            "pctile": 0.4204
+          },
+          "efg_pct": {
+            "value": 0.438,
+            "pctile": 0.3856
+          },
+          "fg3m": {
+            "value": 0.21,
+            "pctile": 0.7338
+          },
+          "fg3a": {
+            "value": 0.93,
+            "pctile": 0.806
+          },
+          "fg3_pct": {
+            "value": 0.231,
+            "pctile": 0.4082
+          }
+        },
+        "contested": {
+          "fgm": {
+            "value": 4.14,
+            "pctile": 0.9442
+          },
+          "fga": {
+            "value": 8.43,
+            "pctile": 0.9417
+          },
+          "fg_pct": {
+            "value": 0.4911,
+            "pctile": 0.4563
+          },
+          "efg_pct": {
+            "value": 0.4911,
+            "pctile": 0.3835
+          },
+          "fg3m": {
+            "value": 0.0,
+            "pctile": 0.0
+          },
+          "fg3a": {
+            "value": 0.43,
+            "pctile": 0.6699
+          },
+          "fg3_pct": {
+            "value": 0.0,
+            "pctile": 0.0
+          }
+        },
+        "uncontested": {
+          "fgm": {
+            "value": 2.57,
+            "pctile": 0.7873
+          },
+          "fga": {
+            "value": 6.78,
+            "pctile": 0.8509
+          },
+          "fg_pct": {
+            "value": 0.3791,
+            "pctile": 0.2983
+          },
+          "efg_pct": {
+            "value": 0.4425,
+            "pctile": 0.1809
+          },
+          "fg3m": {
+            "value": 0.86,
+            "pctile": 0.4914
+          },
+          "fg3a": {
+            "value": 3.64,
+            "pctile": 0.6993
+          },
+          "fg3_pct": {
+            "value": 0.2363,
+            "pctile": 0.1597
+          }
+        }
+      }
     },
     {
       "id": 1629638,
@@ -705,9 +705,9 @@
       "screen_ast_pts": 0.65,
       "loose_balls": 0.94,
       "off_boxouts": 0.06,
-      "def_boxouts": 0.41,
+      "def_boxouts": 0.47,
       "box_outs": 0.53,
-      "box_out_team_rebs": 0.47,
+      "box_out_team_rebs": 0.53,
       "clutch_gp": 11,
       "clutch_min": 2.9,
       "clutch_fg_pct": 0.32,
@@ -794,7 +794,7 @@
       "hustle": {
         "contested_shots": {
           "value": 2.0,
-          "pctile": 0.2282
+          "pctile": 0.2256
         },
         "contested_shots_2pt": {
           "value": 1.47,
@@ -818,7 +818,7 @@
         },
         "screen_ast_pts": {
           "value": 0.65,
-          "pctile": 0.459
+          "pctile": 0.4436
         },
         "loose_balls_recovered": {
           "value": 0.94,
@@ -830,11 +830,11 @@
         },
         "pct_box_outs_off": {
           "value": 0.111,
-          "pctile": 0.5846
+          "pctile": 0.5692
         },
         "pct_box_outs_def": {
-          "value": 0.778,
-          "pctile": 0.4026
+          "value": 0.889,
+          "pctile": 0.4846
         }
       },
       "stl_p75": 1.406172677403857,
@@ -977,238 +977,6 @@
       "blk_pct": 0.011903588328075712,
       "stl_pct_pctile": 0.7132352941176471,
       "blk_pct_pctile": 0.4007352941176471,
-      "defense_tracking": {
-        "d_fgm": {
-          "value": 4.56,
-          "pctile": 0.7256
-        },
-        "d_fga": {
-          "value": 8.69,
-          "pctile": 0.6205
-        },
-        "d_fg_pct": {
-          "value": 0.525,
-          "pctile": 0.8769
-        },
-        "normal_fg_pct": {
-          "value": 0.456,
-          "pctile": 0.5
-        },
-        "pct_plusminus": {
-          "value": 0.069,
-          "pctile": 0.8692
-        }
-      },
-      "playmaking_tracking": {
-        "drives": {
-          "drives": {
-            "value": 8.6,
-            "pctile": 0.8127
-          },
-          "drive_fgm": {
-            "value": 1.8,
-            "pctile": 0.8297
-          },
-          "drive_fga": {
-            "value": 4.1,
-            "pctile": 0.8564
-          },
-          "drive_fg_pct": {
-            "value": 0.424,
-            "pctile": 0.3747
-          },
-          "drive_pts": {
-            "value": 4.5,
-            "pctile": 0.8394
-          },
-          "drive_ast": {
-            "value": 0.6,
-            "pctile": 0.708
-          },
-          "drive_tov": {
-            "value": 0.9,
-            "pctile": 0.9392
-          }
-        },
-        "passing": {
-          "passes_made": {
-            "value": 28.9,
-            "pctile": 0.6788
-          },
-          "passes_received": {
-            "value": 38.9,
-            "pctile": 0.8054
-          },
-          "potential_ast": {
-            "value": 4.6,
-            "pctile": 0.6788
-          },
-          "ast_points_created": {
-            "value": 7.1,
-            "pctile": 0.7105
-          },
-          "ast_to_pass_pct": {
-            "value": 0.104,
-            "pctile": 0.7567
-          }
-        },
-        "possessions": {
-          "touches": {
-            "value": 46.9,
-            "pctile": 0.7835
-          },
-          "front_ct_touches": {
-            "value": 31.7,
-            "pctile": 0.9002
-          },
-          "time_of_poss": {
-            "value": 1.7,
-            "pctile": 0.708
-          },
-          "avg_sec_per_touch": {
-            "value": 2.16,
-            "pctile": 0.5985
-          },
-          "pts_per_touch": {
-            "value": 0.446,
-            "pctile": 0.9416
-          },
-          "elbow_touches": {
-            "value": 0.7,
-            "pctile": 0.6472
-          },
-          "post_touches": {
-            "value": 0.1,
-            "pctile": 0.253
-          },
-          "paint_touches": {
-            "value": 1.9,
-            "pctile": 0.6034
-          }
-        }
-      },
-      "shooting_tracking": {
-        "cs": {
-          "fgm": {
-            "value": 4.13,
-            "pctile": 0.9466
-          },
-          "fga": {
-            "value": 10.25,
-            "pctile": 0.9879
-          },
-          "fg_pct": {
-            "value": 0.402,
-            "pctile": 0.2937
-          },
-          "efg_pct": {
-            "value": 0.53,
-            "pctile": 0.3641
-          },
-          "fg3m": {
-            "value": 2.63,
-            "pctile": 0.9806
-          },
-          "fg3a": {
-            "value": 7.75,
-            "pctile": 0.9879
-          },
-          "fg3_pct": {
-            "value": 0.339,
-            "pctile": 0.4724
-          }
-        },
-        "pullup": {
-          "fgm": {
-            "value": 2.69,
-            "pctile": 0.898
-          },
-          "fga": {
-            "value": 6.06,
-            "pctile": 0.9179
-          },
-          "fg_pct": {
-            "value": 0.443,
-            "pctile": 0.4677
-          },
-          "efg_pct": {
-            "value": 0.51,
-            "pctile": 0.6119
-          },
-          "fg3m": {
-            "value": 0.81,
-            "pctile": 0.9677
-          },
-          "fg3a": {
-            "value": 2.0,
-            "pctile": 0.9552
-          },
-          "fg3_pct": {
-            "value": 0.406,
-            "pctile": 0.7099
-          }
-        },
-        "contested": {
-          "fgm": {
-            "value": 2.5,
-            "pctile": 0.7888
-          },
-          "fga": {
-            "value": 6.38,
-            "pctile": 0.8786
-          },
-          "fg_pct": {
-            "value": 0.3918,
-            "pctile": 0.1942
-          },
-          "efg_pct": {
-            "value": 0.4067,
-            "pctile": 0.2015
-          },
-          "fg3m": {
-            "value": 0.19,
-            "pctile": 0.7743
-          },
-          "fg3a": {
-            "value": 1.94,
-            "pctile": 0.9612
-          },
-          "fg3_pct": {
-            "value": 0.0979,
-            "pctile": 0.3188
-          }
-        },
-        "uncontested": {
-          "fgm": {
-            "value": 4.31,
-            "pctile": 0.9804
-          },
-          "fga": {
-            "value": 10.13,
-            "pctile": 0.9927
-          },
-          "fg_pct": {
-            "value": 0.4255,
-            "pctile": 0.5208
-          },
-          "efg_pct": {
-            "value": 0.5829,
-            "pctile": 0.6161
-          },
-          "fg3m": {
-            "value": 3.19,
-            "pctile": 0.9927
-          },
-          "fg3a": {
-            "value": 7.82,
-            "pctile": 0.9927
-          },
-          "fg3_pct": {
-            "value": 0.4079,
-            "pctile": 0.7435
-          }
-        }
-      },
       "career": {
         "totals": {
           "pts": 5244,
@@ -1278,7 +1046,239 @@
         },
         "seasons_played": 8
       },
-      "td3_total": 0
+      "td3_total": 0,
+      "defense_tracking": {
+        "d_fgm": {
+          "value": 4.53,
+          "pctile": 0.7219
+        },
+        "d_fga": {
+          "value": 8.71,
+          "pctile": 0.6301
+        },
+        "d_fg_pct": {
+          "value": 0.52,
+          "pctile": 0.875
+        },
+        "normal_fg_pct": {
+          "value": 0.457,
+          "pctile": 0.5332
+        },
+        "pct_plusminus": {
+          "value": 0.064,
+          "pctile": 0.852
+        }
+      },
+      "playmaking_tracking": {
+        "drives": {
+          "drives": {
+            "value": 8.6,
+            "pctile": 0.8078
+          },
+          "drive_fgm": {
+            "value": 1.7,
+            "pctile": 0.8175
+          },
+          "drive_fga": {
+            "value": 4.2,
+            "pctile": 0.8662
+          },
+          "drive_fg_pct": {
+            "value": 0.408,
+            "pctile": 0.3479
+          },
+          "drive_pts": {
+            "value": 4.4,
+            "pctile": 0.8321
+          },
+          "drive_ast": {
+            "value": 0.6,
+            "pctile": 0.6983
+          },
+          "drive_tov": {
+            "value": 0.9,
+            "pctile": 0.9367
+          }
+        },
+        "passing": {
+          "passes_made": {
+            "value": 28.6,
+            "pctile": 0.6691
+          },
+          "passes_received": {
+            "value": 38.9,
+            "pctile": 0.8029
+          },
+          "potential_ast": {
+            "value": 4.6,
+            "pctile": 0.6813
+          },
+          "ast_points_created": {
+            "value": 6.8,
+            "pctile": 0.691
+          },
+          "ast_to_pass_pct": {
+            "value": 0.101,
+            "pctile": 0.7348
+          }
+        },
+        "possessions": {
+          "touches": {
+            "value": 46.8,
+            "pctile": 0.781
+          },
+          "front_ct_touches": {
+            "value": 31.8,
+            "pctile": 0.9002
+          },
+          "time_of_poss": {
+            "value": 1.7,
+            "pctile": 0.7032
+          },
+          "avg_sec_per_touch": {
+            "value": 2.17,
+            "pctile": 0.601
+          },
+          "pts_per_touch": {
+            "value": 0.455,
+            "pctile": 0.9489
+          },
+          "elbow_touches": {
+            "value": 0.6,
+            "pctile": 0.5864
+          },
+          "post_touches": {
+            "value": 0.1,
+            "pctile": 0.2506
+          },
+          "paint_touches": {
+            "value": 1.9,
+            "pctile": 0.6034
+          }
+        }
+      },
+      "shooting_tracking": {
+        "cs": {
+          "fgm": {
+            "value": 4.18,
+            "pctile": 0.9466
+          },
+          "fga": {
+            "value": 10.24,
+            "pctile": 0.9879
+          },
+          "fg_pct": {
+            "value": 0.408,
+            "pctile": 0.3155
+          },
+          "efg_pct": {
+            "value": 0.54,
+            "pctile": 0.4053
+          },
+          "fg3m": {
+            "value": 2.71,
+            "pctile": 0.9806
+          },
+          "fg3a": {
+            "value": 7.76,
+            "pctile": 0.9879
+          },
+          "fg3_pct": {
+            "value": 0.348,
+            "pctile": 0.5066
+          }
+        },
+        "pullup": {
+          "fgm": {
+            "value": 2.65,
+            "pctile": 0.898
+          },
+          "fga": {
+            "value": 6.12,
+            "pctile": 0.9229
+          },
+          "fg_pct": {
+            "value": 0.433,
+            "pctile": 0.4502
+          },
+          "efg_pct": {
+            "value": 0.5,
+            "pctile": 0.5149
+          },
+          "fg3m": {
+            "value": 0.82,
+            "pctile": 0.9652
+          },
+          "fg3a": {
+            "value": 1.94,
+            "pctile": 0.9527
+          },
+          "fg3_pct": {
+            "value": 0.424,
+            "pctile": 0.7381
+          }
+        },
+        "contested": {
+          "fgm": {
+            "value": 2.53,
+            "pctile": 0.8034
+          },
+          "fga": {
+            "value": 6.47,
+            "pctile": 0.8762
+          },
+          "fg_pct": {
+            "value": 0.391,
+            "pctile": 0.1869
+          },
+          "efg_pct": {
+            "value": 0.4096,
+            "pctile": 0.1869
+          },
+          "fg3m": {
+            "value": 0.24,
+            "pctile": 0.8277
+          },
+          "fg3a": {
+            "value": 1.94,
+            "pctile": 0.9612
+          },
+          "fg3_pct": {
+            "value": 0.1237,
+            "pctile": 0.3289
+          }
+        },
+        "uncontested": {
+          "fgm": {
+            "value": 4.35,
+            "pctile": 0.9829
+          },
+          "fga": {
+            "value": 10.05,
+            "pctile": 0.9927
+          },
+          "fg_pct": {
+            "value": 0.4328,
+            "pctile": 0.5575
+          },
+          "efg_pct": {
+            "value": 0.597,
+            "pctile": 0.6553
+          },
+          "fg3m": {
+            "value": 3.3,
+            "pctile": 0.9951
+          },
+          "fg3a": {
+            "value": 7.82,
+            "pctile": 0.9951
+          },
+          "fg3_pct": {
+            "value": 0.422,
+            "pctile": 0.7906
+          }
+        }
+      }
     },
     {
       "id": 1630700,
@@ -1341,12 +1341,12 @@
       "deflections": 6.12,
       "charges_drawn": 0.0,
       "screen_assists": 2.24,
-      "screen_ast_pts": 5.29,
+      "screen_ast_pts": 5.59,
       "loose_balls": 1.06,
       "off_boxouts": 0.0,
-      "def_boxouts": 0.35,
+      "def_boxouts": 0.41,
       "box_outs": 0.41,
-      "box_out_team_rebs": 0.35,
+      "box_out_team_rebs": 0.41,
       "clutch_gp": 11,
       "clutch_min": 2.9,
       "clutch_fg_pct": 0.0,
@@ -1437,7 +1437,7 @@
         },
         "contested_shots_2pt": {
           "value": 2.82,
-          "pctile": 0.7744
+          "pctile": 0.7718
         },
         "contested_shots_3pt": {
           "value": 1.88,
@@ -1456,7 +1456,7 @@
           "pctile": 0.9333
         },
         "screen_ast_pts": {
-          "value": 5.29,
+          "value": 5.59,
           "pctile": 0.9359
         },
         "loose_balls_recovered": {
@@ -1472,8 +1472,8 @@
           "pctile": 0.0
         },
         "pct_box_outs_def": {
-          "value": 0.857,
-          "pctile": 0.4974
+          "value": 1.0,
+          "pctile": 0.5308
         }
       },
       "stl_p75": 3.2840602661548397,
@@ -1616,238 +1616,6 @@
       "blk_pct": 0.011941257911392406,
       "stl_pct_pctile": 0.9963235294117647,
       "blk_pct_pctile": 0.40441176470588236,
-      "defense_tracking": {
-        "d_fgm": {
-          "value": 4.94,
-          "pctile": 0.8128
-        },
-        "d_fga": {
-          "value": 10.81,
-          "pctile": 0.8179
-        },
-        "d_fg_pct": {
-          "value": 0.457,
-          "pctile": 0.4487
-        },
-        "normal_fg_pct": {
-          "value": 0.463,
-          "pctile": 0.6615
-        },
-        "pct_plusminus": {
-          "value": -0.007,
-          "pctile": 0.4231
-        }
-      },
-      "playmaking_tracking": {
-        "drives": {
-          "drives": {
-            "value": 7.1,
-            "pctile": 0.7518
-          },
-          "drive_fgm": {
-            "value": 1.3,
-            "pctile": 0.7494
-          },
-          "drive_fga": {
-            "value": 2.9,
-            "pctile": 0.7786
-          },
-          "drive_fg_pct": {
-            "value": 0.435,
-            "pctile": 0.3942
-          },
-          "drive_pts": {
-            "value": 2.8,
-            "pctile": 0.708
-          },
-          "drive_ast": {
-            "value": 0.9,
-            "pctile": 0.82
-          },
-          "drive_tov": {
-            "value": 0.4,
-            "pctile": 0.6886
-          }
-        },
-        "passing": {
-          "passes_made": {
-            "value": 45.1,
-            "pctile": 0.9002
-          },
-          "passes_received": {
-            "value": 37.4,
-            "pctile": 0.7835
-          },
-          "potential_ast": {
-            "value": 9.8,
-            "pctile": 0.9173
-          },
-          "ast_points_created": {
-            "value": 15.3,
-            "pctile": 0.9416
-          },
-          "ast_to_pass_pct": {
-            "value": 0.127,
-            "pctile": 0.91
-          }
-        },
-        "possessions": {
-          "touches": {
-            "value": 49.3,
-            "pctile": 0.8078
-          },
-          "front_ct_touches": {
-            "value": 28.9,
-            "pctile": 0.8662
-          },
-          "time_of_poss": {
-            "value": 1.5,
-            "pctile": 0.6764
-          },
-          "avg_sec_per_touch": {
-            "value": 1.84,
-            "pctile": 0.5207
-          },
-          "pts_per_touch": {
-            "value": 0.195,
-            "pctile": 0.1411
-          },
-          "elbow_touches": {
-            "value": 1.3,
-            "pctile": 0.8297
-          },
-          "post_touches": {
-            "value": 0.6,
-            "pctile": 0.7543
-          },
-          "paint_touches": {
-            "value": 6.3,
-            "pctile": 0.9367
-          }
-        }
-      },
-      "shooting_tracking": {
-        "cs": {
-          "fgm": {
-            "value": 2.69,
-            "pctile": 0.7306
-          },
-          "fga": {
-            "value": 5.75,
-            "pctile": 0.7476
-          },
-          "fg_pct": {
-            "value": 0.467,
-            "pctile": 0.5364
-          },
-          "efg_pct": {
-            "value": 0.484,
-            "pctile": 0.2063
-          },
-          "fg3m": {
-            "value": 0.19,
-            "pctile": 0.1772
-          },
-          "fg3a": {
-            "value": 1.31,
-            "pctile": 0.2985
-          },
-          "fg3_pct": {
-            "value": 0.143,
-            "pctile": 0.0761
-          }
-        },
-        "pullup": {
-          "fgm": {
-            "value": 1.5,
-            "pctile": 0.7488
-          },
-          "fga": {
-            "value": 2.88,
-            "pctile": 0.7139
-          },
-          "fg_pct": {
-            "value": 0.522,
-            "pctile": 0.7488
-          },
-          "efg_pct": {
-            "value": 0.522,
-            "pctile": 0.6393
-          },
-          "fg3m": {
-            "value": 0.0,
-            "pctile": 0.0
-          },
-          "fg3a": {
-            "value": 0.0,
-            "pctile": 0.0
-          },
-          "fg3_pct": {
-            "value": null,
-            "pctile": null
-          }
-        },
-        "contested": {
-          "fgm": {
-            "value": 2.69,
-            "pctile": 0.818
-          },
-          "fga": {
-            "value": 5.19,
-            "pctile": 0.7985
-          },
-          "fg_pct": {
-            "value": 0.5183,
-            "pctile": 0.5922
-          },
-          "efg_pct": {
-            "value": 0.5241,
-            "pctile": 0.5437
-          },
-          "fg3m": {
-            "value": 0.06,
-            "pctile": 0.5024
-          },
-          "fg3a": {
-            "value": 0.06,
-            "pctile": 0.2767
-          },
-          "fg3_pct": {
-            "value": 1.0,
-            "pctile": 0.9362
-          }
-        },
-        "uncontested": {
-          "fgm": {
-            "value": 1.63,
-            "pctile": 0.5575
-          },
-          "fga": {
-            "value": 3.63,
-            "pctile": 0.5232
-          },
-          "fg_pct": {
-            "value": 0.449,
-            "pctile": 0.6088
-          },
-          "efg_pct": {
-            "value": 0.4669,
-            "pctile": 0.2347
-          },
-          "fg3m": {
-            "value": 0.13,
-            "pctile": 0.1394
-          },
-          "fg3a": {
-            "value": 1.31,
-            "pctile": 0.2934
-          },
-          "fg3_pct": {
-            "value": 0.0992,
-            "pctile": 0.0602
-          }
-        }
-      },
       "career": {
         "totals": {
           "pts": 2714,
@@ -1917,7 +1685,239 @@
         },
         "seasons_played": 5
       },
-      "td3_total": 0
+      "td3_total": 0,
+      "defense_tracking": {
+        "d_fgm": {
+          "value": 5.0,
+          "pctile": 0.8138
+        },
+        "d_fga": {
+          "value": 11.24,
+          "pctile": 0.852
+        },
+        "d_fg_pct": {
+          "value": 0.445,
+          "pctile": 0.3827
+        },
+        "normal_fg_pct": {
+          "value": 0.463,
+          "pctile": 0.6709
+        },
+        "pct_plusminus": {
+          "value": -0.018,
+          "pctile": 0.3622
+        }
+      },
+      "playmaking_tracking": {
+        "drives": {
+          "drives": {
+            "value": 7.4,
+            "pctile": 0.7591
+          },
+          "drive_fgm": {
+            "value": 1.2,
+            "pctile": 0.7275
+          },
+          "drive_fga": {
+            "value": 2.9,
+            "pctile": 0.7737
+          },
+          "drive_fg_pct": {
+            "value": 0.42,
+            "pctile": 0.3601
+          },
+          "drive_pts": {
+            "value": 2.7,
+            "pctile": 0.7007
+          },
+          "drive_ast": {
+            "value": 0.9,
+            "pctile": 0.82
+          },
+          "drive_tov": {
+            "value": 0.5,
+            "pctile": 0.764
+          }
+        },
+        "passing": {
+          "passes_made": {
+            "value": 46.8,
+            "pctile": 0.9124
+          },
+          "passes_received": {
+            "value": 39.1,
+            "pctile": 0.8054
+          },
+          "potential_ast": {
+            "value": 10.3,
+            "pctile": 0.9294
+          },
+          "ast_points_created": {
+            "value": 15.6,
+            "pctile": 0.9489
+          },
+          "ast_to_pass_pct": {
+            "value": 0.126,
+            "pctile": 0.9075
+          }
+        },
+        "possessions": {
+          "touches": {
+            "value": 51.2,
+            "pctile": 0.8224
+          },
+          "front_ct_touches": {
+            "value": 29.5,
+            "pctile": 0.8686
+          },
+          "time_of_poss": {
+            "value": 1.7,
+            "pctile": 0.7032
+          },
+          "avg_sec_per_touch": {
+            "value": 1.94,
+            "pctile": 0.5547
+          },
+          "pts_per_touch": {
+            "value": 0.183,
+            "pctile": 0.1168
+          },
+          "elbow_touches": {
+            "value": 1.4,
+            "pctile": 0.8443
+          },
+          "post_touches": {
+            "value": 0.5,
+            "pctile": 0.708
+          },
+          "paint_touches": {
+            "value": 6.2,
+            "pctile": 0.9319
+          }
+        }
+      },
+      "shooting_tracking": {
+        "cs": {
+          "fgm": {
+            "value": 2.53,
+            "pctile": 0.6917
+          },
+          "fga": {
+            "value": 5.65,
+            "pctile": 0.7257
+          },
+          "fg_pct": {
+            "value": 0.448,
+            "pctile": 0.4709
+          },
+          "efg_pct": {
+            "value": 0.464,
+            "pctile": 0.1578
+          },
+          "fg3m": {
+            "value": 0.18,
+            "pctile": 0.1699
+          },
+          "fg3a": {
+            "value": 1.41,
+            "pctile": 0.3083
+          },
+          "fg3_pct": {
+            "value": 0.125,
+            "pctile": 0.0604
+          }
+        },
+        "pullup": {
+          "fgm": {
+            "value": 1.53,
+            "pctile": 0.7587
+          },
+          "fga": {
+            "value": 2.94,
+            "pctile": 0.7214
+          },
+          "fg_pct": {
+            "value": 0.52,
+            "pctile": 0.7562
+          },
+          "efg_pct": {
+            "value": 0.52,
+            "pctile": 0.6294
+          },
+          "fg3m": {
+            "value": 0.0,
+            "pctile": 0.0
+          },
+          "fg3a": {
+            "value": 0.0,
+            "pctile": 0.0
+          },
+          "fg3_pct": {
+            "value": null,
+            "pctile": null
+          }
+        },
+        "contested": {
+          "fgm": {
+            "value": 2.65,
+            "pctile": 0.8107
+          },
+          "fga": {
+            "value": 5.18,
+            "pctile": 0.7937
+          },
+          "fg_pct": {
+            "value": 0.5116,
+            "pctile": 0.5728
+          },
+          "efg_pct": {
+            "value": 0.5174,
+            "pctile": 0.5121
+          },
+          "fg3m": {
+            "value": 0.06,
+            "pctile": 0.4927
+          },
+          "fg3a": {
+            "value": 0.06,
+            "pctile": 0.2694
+          },
+          "fg3_pct": {
+            "value": 1.0,
+            "pctile": 0.9369
+          }
+        },
+        "uncontested": {
+          "fgm": {
+            "value": 1.53,
+            "pctile": 0.5257
+          },
+          "fga": {
+            "value": 3.65,
+            "pctile": 0.5183
+          },
+          "fg_pct": {
+            "value": 0.4192,
+            "pctile": 0.4988
+          },
+          "efg_pct": {
+            "value": 0.4356,
+            "pctile": 0.1614
+          },
+          "fg3m": {
+            "value": 0.12,
+            "pctile": 0.1369
+          },
+          "fg3a": {
+            "value": 1.41,
+            "pctile": 0.2934
+          },
+          "fg3_pct": {
+            "value": 0.0851,
+            "pctile": 0.0576
+          }
+        }
+      }
     },
     {
       "id": 1630168,
@@ -1980,12 +1980,12 @@
       "deflections": 2.29,
       "charges_drawn": 0.0,
       "screen_assists": 2.18,
-      "screen_ast_pts": 4.94,
+      "screen_ast_pts": 5.12,
       "loose_balls": 0.24,
       "off_boxouts": 0.29,
-      "def_boxouts": 1.24,
+      "def_boxouts": 1.29,
       "box_outs": 1.59,
-      "box_out_team_rebs": 1.53,
+      "box_out_team_rebs": 1.59,
       "clutch_gp": 11,
       "clutch_min": 3.0,
       "clutch_fg_pct": 0.571,
@@ -2095,8 +2095,8 @@
           "pctile": 0.9282
         },
         "screen_ast_pts": {
-          "value": 4.94,
-          "pctile": 0.9154
+          "value": 5.12,
+          "pctile": 0.9256
         },
         "loose_balls_recovered": {
           "value": 0.24,
@@ -2104,15 +2104,15 @@
         },
         "box_outs": {
           "value": 1.59,
-          "pctile": 0.9308
+          "pctile": 0.9282
         },
         "pct_box_outs_off": {
           "value": 0.185,
-          "pctile": 0.6846
+          "pctile": 0.6769
         },
         "pct_box_outs_def": {
-          "value": 0.778,
-          "pctile": 0.4026
+          "value": 0.815,
+          "pctile": 0.3872
         }
       },
       "stl_p75": 1.0096713426291655,
@@ -2255,238 +2255,6 @@
       "blk_pct": 0.024423543689320395,
       "stl_pct_pctile": 0.3161764705882353,
       "blk_pct_pctile": 0.6838235294117647,
-      "defense_tracking": {
-        "d_fgm": {
-          "value": 5.88,
-          "pctile": 0.9282
-        },
-        "d_fga": {
-          "value": 13.38,
-          "pctile": 0.9538
-        },
-        "d_fg_pct": {
-          "value": 0.439,
-          "pctile": 0.3462
-        },
-        "normal_fg_pct": {
-          "value": 0.485,
-          "pctile": 0.9179
-        },
-        "pct_plusminus": {
-          "value": -0.046,
-          "pctile": 0.2
-        }
-      },
-      "playmaking_tracking": {
-        "drives": {
-          "drives": {
-            "value": 3.0,
-            "pctile": 0.5328
-          },
-          "drive_fgm": {
-            "value": 1.0,
-            "pctile": 0.6886
-          },
-          "drive_fga": {
-            "value": 1.4,
-            "pctile": 0.5864
-          },
-          "drive_fg_pct": {
-            "value": 0.727,
-            "pctile": 0.9051
-          },
-          "drive_pts": {
-            "value": 2.1,
-            "pctile": 0.6375
-          },
-          "drive_ast": {
-            "value": 0.4,
-            "pctile": 0.5815
-          },
-          "drive_tov": {
-            "value": 0.1,
-            "pctile": 0.253
-          }
-        },
-        "passing": {
-          "passes_made": {
-            "value": 40.5,
-            "pctile": 0.8443
-          },
-          "passes_received": {
-            "value": 33.9,
-            "pctile": 0.7494
-          },
-          "potential_ast": {
-            "value": 4.9,
-            "pctile": 0.7032
-          },
-          "ast_points_created": {
-            "value": 6.1,
-            "pctile": 0.6496
-          },
-          "ast_to_pass_pct": {
-            "value": 0.059,
-            "pctile": 0.2384
-          }
-        },
-        "possessions": {
-          "touches": {
-            "value": 51.1,
-            "pctile": 0.8248
-          },
-          "front_ct_touches": {
-            "value": 34.3,
-            "pctile": 0.9246
-          },
-          "time_of_poss": {
-            "value": 0.9,
-            "pctile": 0.5572
-          },
-          "avg_sec_per_touch": {
-            "value": 1.07,
-            "pctile": 0.1436
-          },
-          "pts_per_touch": {
-            "value": 0.295,
-            "pctile": 0.5158
-          },
-          "elbow_touches": {
-            "value": 1.1,
-            "pctile": 0.8005
-          },
-          "post_touches": {
-            "value": 1.8,
-            "pctile": 0.927
-          },
-          "paint_touches": {
-            "value": 5.6,
-            "pctile": 0.9027
-          }
-        }
-      },
-      "shooting_tracking": {
-        "cs": {
-          "fgm": {
-            "value": 4.63,
-            "pctile": 0.9709
-          },
-          "fga": {
-            "value": 9.56,
-            "pctile": 0.9782
-          },
-          "fg_pct": {
-            "value": 0.484,
-            "pctile": 0.6214
-          },
-          "efg_pct": {
-            "value": 0.582,
-            "pctile": 0.5364
-          },
-          "fg3m": {
-            "value": 1.88,
-            "pctile": 0.9126
-          },
-          "fg3a": {
-            "value": 5.5,
-            "pctile": 0.9539
-          },
-          "fg3_pct": {
-            "value": 0.341,
-            "pctile": 0.4882
-          }
-        },
-        "pullup": {
-          "fgm": {
-            "value": 1.13,
-            "pctile": 0.6517
-          },
-          "fga": {
-            "value": 1.69,
-            "pctile": 0.5448
-          },
-          "fg_pct": {
-            "value": 0.667,
-            "pctile": 0.9179
-          },
-          "efg_pct": {
-            "value": 0.667,
-            "pctile": 0.9005
-          },
-          "fg3m": {
-            "value": 0.0,
-            "pctile": 0.0
-          },
-          "fg3a": {
-            "value": 0.0,
-            "pctile": 0.0
-          },
-          "fg3_pct": {
-            "value": null,
-            "pctile": null
-          }
-        },
-        "contested": {
-          "fgm": {
-            "value": 3.25,
-            "pctile": 0.8665
-          },
-          "fga": {
-            "value": 5.13,
-            "pctile": 0.7937
-          },
-          "fg_pct": {
-            "value": 0.6335,
-            "pctile": 0.8471
-          },
-          "efg_pct": {
-            "value": 0.6394,
-            "pctile": 0.8398
-          },
-          "fg3m": {
-            "value": 0.06,
-            "pctile": 0.5024
-          },
-          "fg3a": {
-            "value": 0.25,
-            "pctile": 0.5558
-          },
-          "fg3_pct": {
-            "value": 0.24,
-            "pctile": 0.4597
-          }
-        },
-        "uncontested": {
-          "fgm": {
-            "value": 2.38,
-            "pctile": 0.7506
-          },
-          "fga": {
-            "value": 6.13,
-            "pctile": 0.8093
-          },
-          "fg_pct": {
-            "value": 0.3883,
-            "pctile": 0.3447
-          },
-          "efg_pct": {
-            "value": 0.531,
-            "pctile": 0.4328
-          },
-          "fg3m": {
-            "value": 1.75,
-            "pctile": 0.8533
-          },
-          "fg3a": {
-            "value": 5.25,
-            "pctile": 0.9022
-          },
-          "fg3_pct": {
-            "value": 0.3333,
-            "pctile": 0.4162
-          }
-        }
-      },
       "career": {
         "totals": {
           "pts": 4330,
@@ -2556,7 +2324,239 @@
         },
         "seasons_played": 7
       },
-      "td3_total": 0
+      "td3_total": 0,
+      "defense_tracking": {
+        "d_fgm": {
+          "value": 6.0,
+          "pctile": 0.9413
+        },
+        "d_fga": {
+          "value": 13.24,
+          "pctile": 0.9541
+        },
+        "d_fg_pct": {
+          "value": 0.453,
+          "pctile": 0.4362
+        },
+        "normal_fg_pct": {
+          "value": 0.488,
+          "pctile": 0.9388
+        },
+        "pct_plusminus": {
+          "value": -0.035,
+          "pctile": 0.2628
+        }
+      },
+      "playmaking_tracking": {
+        "drives": {
+          "drives": {
+            "value": 2.9,
+            "pctile": 0.5207
+          },
+          "drive_fgm": {
+            "value": 0.9,
+            "pctile": 0.6496
+          },
+          "drive_fga": {
+            "value": 1.4,
+            "pctile": 0.5791
+          },
+          "drive_fg_pct": {
+            "value": 0.696,
+            "pctile": 0.9027
+          },
+          "drive_pts": {
+            "value": 2.0,
+            "pctile": 0.6302
+          },
+          "drive_ast": {
+            "value": 0.4,
+            "pctile": 0.5766
+          },
+          "drive_tov": {
+            "value": 0.1,
+            "pctile": 0.2433
+          }
+        },
+        "passing": {
+          "passes_made": {
+            "value": 40.7,
+            "pctile": 0.8467
+          },
+          "passes_received": {
+            "value": 34.5,
+            "pctile": 0.7567
+          },
+          "potential_ast": {
+            "value": 5.2,
+            "pctile": 0.7251
+          },
+          "ast_points_created": {
+            "value": 6.1,
+            "pctile": 0.6496
+          },
+          "ast_to_pass_pct": {
+            "value": 0.058,
+            "pctile": 0.2263
+          }
+        },
+        "possessions": {
+          "touches": {
+            "value": 51.6,
+            "pctile": 0.8273
+          },
+          "front_ct_touches": {
+            "value": 34.6,
+            "pctile": 0.9343
+          },
+          "time_of_poss": {
+            "value": 0.9,
+            "pctile": 0.5547
+          },
+          "avg_sec_per_touch": {
+            "value": 1.08,
+            "pctile": 0.1484
+          },
+          "pts_per_touch": {
+            "value": 0.282,
+            "pctile": 0.4428
+          },
+          "elbow_touches": {
+            "value": 1.1,
+            "pctile": 0.8029
+          },
+          "post_touches": {
+            "value": 1.8,
+            "pctile": 0.9294
+          },
+          "paint_touches": {
+            "value": 5.6,
+            "pctile": 0.9051
+          }
+        }
+      },
+      "shooting_tracking": {
+        "cs": {
+          "fgm": {
+            "value": 4.47,
+            "pctile": 0.9684
+          },
+          "fga": {
+            "value": 9.47,
+            "pctile": 0.9782
+          },
+          "fg_pct": {
+            "value": 0.472,
+            "pctile": 0.5801
+          },
+          "efg_pct": {
+            "value": 0.568,
+            "pctile": 0.5
+          },
+          "fg3m": {
+            "value": 1.82,
+            "pctile": 0.9005
+          },
+          "fg3a": {
+            "value": 5.41,
+            "pctile": 0.9515
+          },
+          "fg3_pct": {
+            "value": 0.337,
+            "pctile": 0.4803
+          }
+        },
+        "pullup": {
+          "fgm": {
+            "value": 1.06,
+            "pctile": 0.6343
+          },
+          "fga": {
+            "value": 1.65,
+            "pctile": 0.5348
+          },
+          "fg_pct": {
+            "value": 0.643,
+            "pctile": 0.9179
+          },
+          "efg_pct": {
+            "value": 0.643,
+            "pctile": 0.9005
+          },
+          "fg3m": {
+            "value": 0.0,
+            "pctile": 0.0
+          },
+          "fg3a": {
+            "value": 0.0,
+            "pctile": 0.0
+          },
+          "fg3_pct": {
+            "value": null,
+            "pctile": null
+          }
+        },
+        "contested": {
+          "fgm": {
+            "value": 3.06,
+            "pctile": 0.8519
+          },
+          "fga": {
+            "value": 5.18,
+            "pctile": 0.7937
+          },
+          "fg_pct": {
+            "value": 0.5907,
+            "pctile": 0.7888
+          },
+          "efg_pct": {
+            "value": 0.5965,
+            "pctile": 0.7646
+          },
+          "fg3m": {
+            "value": 0.06,
+            "pctile": 0.4927
+          },
+          "fg3a": {
+            "value": 0.35,
+            "pctile": 0.6335
+          },
+          "fg3_pct": {
+            "value": 0.1714,
+            "pctile": 0.3821
+          }
+        },
+        "uncontested": {
+          "fgm": {
+            "value": 2.35,
+            "pctile": 0.7482
+          },
+          "fga": {
+            "value": 5.94,
+            "pctile": 0.7873
+          },
+          "fg_pct": {
+            "value": 0.3956,
+            "pctile": 0.3692
+          },
+          "efg_pct": {
+            "value": 0.5396,
+            "pctile": 0.467
+          },
+          "fg3m": {
+            "value": 1.71,
+            "pctile": 0.8435
+          },
+          "fg3a": {
+            "value": 5.06,
+            "pctile": 0.89
+          },
+          "fg3_pct": {
+            "value": 0.3379,
+            "pctile": 0.4398
+          }
+        }
+      }
     },
     {
       "id": 203468,
@@ -2711,7 +2711,7 @@
       "hustle": {
         "contested_shots": {
           "value": 3.93,
-          "pctile": 0.6538
+          "pctile": 0.6513
         },
         "contested_shots_2pt": {
           "value": 1.5,
@@ -2719,7 +2719,7 @@
         },
         "contested_shots_3pt": {
           "value": 2.43,
-          "pctile": 0.9103
+          "pctile": 0.9077
         },
         "deflections": {
           "value": 1.64,
@@ -2735,7 +2735,7 @@
         },
         "screen_ast_pts": {
           "value": 0.71,
-          "pctile": 0.4795
+          "pctile": 0.4615
         },
         "loose_balls_recovered": {
           "value": 0.21,
@@ -2751,7 +2751,7 @@
         },
         "pct_box_outs_def": {
           "value": 1.0,
-          "pctile": 0.5949
+          "pctile": 0.5308
         }
       },
       "stl_p75": 1.4430014430014433,
@@ -2894,238 +2894,6 @@
       "blk_pct": 0.017866654829545456,
       "stl_pct_pctile": 0.7279411764705882,
       "blk_pct_pctile": 0.5588235294117647,
-      "defense_tracking": {
-        "d_fgm": {
-          "value": 3.93,
-          "pctile": 0.6026
-        },
-        "d_fga": {
-          "value": 9.0,
-          "pctile": 0.641
-        },
-        "d_fg_pct": {
-          "value": 0.437,
-          "pctile": 0.3282
-        },
-        "normal_fg_pct": {
-          "value": 0.428,
-          "pctile": 0.0615
-        },
-        "pct_plusminus": {
-          "value": 0.008,
-          "pctile": 0.5385
-        }
-      },
-      "playmaking_tracking": {
-        "drives": {
-          "drives": {
-            "value": 10.0,
-            "pctile": 0.8443
-          },
-          "drive_fgm": {
-            "value": 2.3,
-            "pctile": 0.8978
-          },
-          "drive_fga": {
-            "value": 4.7,
-            "pctile": 0.8978
-          },
-          "drive_fg_pct": {
-            "value": 0.485,
-            "pctile": 0.5036
-          },
-          "drive_pts": {
-            "value": 5.5,
-            "pctile": 0.871
-          },
-          "drive_ast": {
-            "value": 1.0,
-            "pctile": 0.837
-          },
-          "drive_tov": {
-            "value": 0.4,
-            "pctile": 0.6886
-          }
-        },
-        "passing": {
-          "passes_made": {
-            "value": 31.9,
-            "pctile": 0.7251
-          },
-          "passes_received": {
-            "value": 40.5,
-            "pctile": 0.8224
-          },
-          "potential_ast": {
-            "value": 7.9,
-            "pctile": 0.854
-          },
-          "ast_points_created": {
-            "value": 10.1,
-            "pctile": 0.8321
-          },
-          "ast_to_pass_pct": {
-            "value": 0.121,
-            "pctile": 0.8832
-          }
-        },
-        "possessions": {
-          "touches": {
-            "value": 46.3,
-            "pctile": 0.7762
-          },
-          "front_ct_touches": {
-            "value": 20.1,
-            "pctile": 0.6399
-          },
-          "time_of_poss": {
-            "value": 3.0,
-            "pctile": 0.8491
-          },
-          "avg_sec_per_touch": {
-            "value": 3.9,
-            "pctile": 0.8613
-          },
-          "pts_per_touch": {
-            "value": 0.313,
-            "pctile": 0.5937
-          },
-          "elbow_touches": {
-            "value": 0.4,
-            "pctile": 0.4355
-          },
-          "post_touches": {
-            "value": 0.1,
-            "pctile": 0.253
-          },
-          "paint_touches": {
-            "value": 0.6,
-            "pctile": 0.1971
-          }
-        }
-      },
-      "shooting_tracking": {
-        "cs": {
-          "fgm": {
-            "value": 1.86,
-            "pctile": 0.5218
-          },
-          "fga": {
-            "value": 4.36,
-            "pctile": 0.5558
-          },
-          "fg_pct": {
-            "value": 0.426,
-            "pctile": 0.3544
-          },
-          "efg_pct": {
-            "value": 0.574,
-            "pctile": 0.5146
-          },
-          "fg3m": {
-            "value": 1.29,
-            "pctile": 0.7379
-          },
-          "fg3a": {
-            "value": 3.43,
-            "pctile": 0.7039
-          },
-          "fg3_pct": {
-            "value": 0.375,
-            "pctile": 0.622
-          }
-        },
-        "pullup": {
-          "fgm": {
-            "value": 2.5,
-            "pctile": 0.8905
-          },
-          "fga": {
-            "value": 5.0,
-            "pctile": 0.8657
-          },
-          "fg_pct": {
-            "value": 0.5,
-            "pctile": 0.6418
-          },
-          "efg_pct": {
-            "value": 0.536,
-            "pctile": 0.6592
-          },
-          "fg3m": {
-            "value": 0.36,
-            "pctile": 0.8433
-          },
-          "fg3a": {
-            "value": 0.93,
-            "pctile": 0.8134
-          },
-          "fg3_pct": {
-            "value": 0.385,
-            "pctile": 0.6724
-          }
-        },
-        "contested": {
-          "fgm": {
-            "value": 2.93,
-            "pctile": 0.8374
-          },
-          "fga": {
-            "value": 6.35,
-            "pctile": 0.8738
-          },
-          "fg_pct": {
-            "value": 0.4614,
-            "pctile": 0.3883
-          },
-          "efg_pct": {
-            "value": 0.4953,
-            "pctile": 0.4078
-          },
-          "fg3m": {
-            "value": 0.43,
-            "pctile": 0.9248
-          },
-          "fg3a": {
-            "value": 1.15,
-            "pctile": 0.9078
-          },
-          "fg3_pct": {
-            "value": 0.3739,
-            "pctile": 0.7114
-          }
-        },
-        "uncontested": {
-          "fgm": {
-            "value": 2.29,
-            "pctile": 0.7213
-          },
-          "fga": {
-            "value": 5.79,
-            "pctile": 0.7726
-          },
-          "fg_pct": {
-            "value": 0.3955,
-            "pctile": 0.3716
-          },
-          "efg_pct": {
-            "value": 0.5121,
-            "pctile": 0.3692
-          },
-          "fg3m": {
-            "value": 1.35,
-            "pctile": 0.7042
-          },
-          "fg3a": {
-            "value": 3.93,
-            "pctile": 0.7482
-          },
-          "fg3_pct": {
-            "value": 0.3435,
-            "pctile": 0.4686
-          }
-        }
-      },
       "career": {
         "totals": {
           "pts": 17041,
@@ -3195,7 +2963,239 @@
         },
         "seasons_played": 14
       },
-      "td3_total": 0
+      "td3_total": 0,
+      "defense_tracking": {
+        "d_fgm": {
+          "value": 3.93,
+          "pctile": 0.6046
+        },
+        "d_fga": {
+          "value": 9.0,
+          "pctile": 0.6454
+        },
+        "d_fg_pct": {
+          "value": 0.437,
+          "pctile": 0.3342
+        },
+        "normal_fg_pct": {
+          "value": 0.431,
+          "pctile": 0.0587
+        },
+        "pct_plusminus": {
+          "value": 0.006,
+          "pctile": 0.5281
+        }
+      },
+      "playmaking_tracking": {
+        "drives": {
+          "drives": {
+            "value": 10.0,
+            "pctile": 0.8443
+          },
+          "drive_fgm": {
+            "value": 2.3,
+            "pctile": 0.8978
+          },
+          "drive_fga": {
+            "value": 4.7,
+            "pctile": 0.8978
+          },
+          "drive_fg_pct": {
+            "value": 0.485,
+            "pctile": 0.5085
+          },
+          "drive_pts": {
+            "value": 5.5,
+            "pctile": 0.8783
+          },
+          "drive_ast": {
+            "value": 1.0,
+            "pctile": 0.8443
+          },
+          "drive_tov": {
+            "value": 0.4,
+            "pctile": 0.691
+          }
+        },
+        "passing": {
+          "passes_made": {
+            "value": 31.9,
+            "pctile": 0.7178
+          },
+          "passes_received": {
+            "value": 40.5,
+            "pctile": 0.8224
+          },
+          "potential_ast": {
+            "value": 7.9,
+            "pctile": 0.8564
+          },
+          "ast_points_created": {
+            "value": 10.1,
+            "pctile": 0.8297
+          },
+          "ast_to_pass_pct": {
+            "value": 0.121,
+            "pctile": 0.8783
+          }
+        },
+        "possessions": {
+          "touches": {
+            "value": 46.3,
+            "pctile": 0.7762
+          },
+          "front_ct_touches": {
+            "value": 20.1,
+            "pctile": 0.6302
+          },
+          "time_of_poss": {
+            "value": 3.0,
+            "pctile": 0.8491
+          },
+          "avg_sec_per_touch": {
+            "value": 3.9,
+            "pctile": 0.8613
+          },
+          "pts_per_touch": {
+            "value": 0.313,
+            "pctile": 0.5864
+          },
+          "elbow_touches": {
+            "value": 0.4,
+            "pctile": 0.4355
+          },
+          "post_touches": {
+            "value": 0.1,
+            "pctile": 0.2506
+          },
+          "paint_touches": {
+            "value": 0.6,
+            "pctile": 0.1971
+          }
+        }
+      },
+      "shooting_tracking": {
+        "cs": {
+          "fgm": {
+            "value": 1.86,
+            "pctile": 0.5218
+          },
+          "fga": {
+            "value": 4.36,
+            "pctile": 0.5583
+          },
+          "fg_pct": {
+            "value": 0.426,
+            "pctile": 0.3665
+          },
+          "efg_pct": {
+            "value": 0.574,
+            "pctile": 0.5218
+          },
+          "fg3m": {
+            "value": 1.29,
+            "pctile": 0.7306
+          },
+          "fg3a": {
+            "value": 3.43,
+            "pctile": 0.699
+          },
+          "fg3_pct": {
+            "value": 0.375,
+            "pctile": 0.622
+          }
+        },
+        "pullup": {
+          "fgm": {
+            "value": 2.5,
+            "pctile": 0.893
+          },
+          "fga": {
+            "value": 5.0,
+            "pctile": 0.8657
+          },
+          "fg_pct": {
+            "value": 0.5,
+            "pctile": 0.6468
+          },
+          "efg_pct": {
+            "value": 0.536,
+            "pctile": 0.6692
+          },
+          "fg3m": {
+            "value": 0.36,
+            "pctile": 0.8458
+          },
+          "fg3a": {
+            "value": 0.93,
+            "pctile": 0.806
+          },
+          "fg3_pct": {
+            "value": 0.385,
+            "pctile": 0.6769
+          }
+        },
+        "contested": {
+          "fgm": {
+            "value": 2.93,
+            "pctile": 0.8374
+          },
+          "fga": {
+            "value": 6.35,
+            "pctile": 0.8738
+          },
+          "fg_pct": {
+            "value": 0.4614,
+            "pctile": 0.3883
+          },
+          "efg_pct": {
+            "value": 0.4953,
+            "pctile": 0.4053
+          },
+          "fg3m": {
+            "value": 0.43,
+            "pctile": 0.9223
+          },
+          "fg3a": {
+            "value": 1.15,
+            "pctile": 0.9078
+          },
+          "fg3_pct": {
+            "value": 0.3739,
+            "pctile": 0.7243
+          }
+        },
+        "uncontested": {
+          "fgm": {
+            "value": 2.29,
+            "pctile": 0.7213
+          },
+          "fga": {
+            "value": 5.79,
+            "pctile": 0.7702
+          },
+          "fg_pct": {
+            "value": 0.3955,
+            "pctile": 0.3643
+          },
+          "efg_pct": {
+            "value": 0.5121,
+            "pctile": 0.3667
+          },
+          "fg3m": {
+            "value": 1.35,
+            "pctile": 0.6993
+          },
+          "fg3a": {
+            "value": 3.93,
+            "pctile": 0.7457
+          },
+          "fg3_pct": {
+            "value": 0.3435,
+            "pctile": 0.4607
+          }
+        }
+      }
     },
     {
       "id": 1630598,
@@ -3350,7 +3350,7 @@
       "hustle": {
         "contested_shots": {
           "value": 3.88,
-          "pctile": 0.6436
+          "pctile": 0.641
         },
         "contested_shots_2pt": {
           "value": 2.12,
@@ -3358,7 +3358,7 @@
         },
         "contested_shots_3pt": {
           "value": 1.76,
-          "pctile": 0.7282
+          "pctile": 0.7256
         },
         "deflections": {
           "value": 2.0,
@@ -3374,15 +3374,15 @@
         },
         "screen_ast_pts": {
           "value": 0.65,
-          "pctile": 0.459
+          "pctile": 0.4436
         },
         "loose_balls_recovered": {
           "value": 0.53,
-          "pctile": 0.8282
+          "pctile": 0.8256
         },
         "box_outs": {
           "value": 0.24,
-          "pctile": 0.2872
+          "pctile": 0.2846
         },
         "pct_box_outs_off": {
           "value": 0.0,
@@ -3390,7 +3390,7 @@
         },
         "pct_box_outs_def": {
           "value": 1.0,
-          "pctile": 0.5949
+          "pctile": 0.5308
         }
       },
       "stl_p75": 1.1936260369626195,
@@ -3533,238 +3533,6 @@
       "blk_pct": 0.007312863372093023,
       "stl_pct_pctile": 0.5514705882352942,
       "blk_pct_pctile": 0.2647058823529412,
-      "defense_tracking": {
-        "d_fgm": {
-          "value": 4.38,
-          "pctile": 0.6897
-        },
-        "d_fga": {
-          "value": 9.5,
-          "pctile": 0.6872
-        },
-        "d_fg_pct": {
-          "value": 0.461,
-          "pctile": 0.4974
-        },
-        "normal_fg_pct": {
-          "value": 0.445,
-          "pctile": 0.2205
-        },
-        "pct_plusminus": {
-          "value": 0.015,
-          "pctile": 0.5795
-        }
-      },
-      "playmaking_tracking": {
-        "drives": {
-          "drives": {
-            "value": 5.6,
-            "pctile": 0.6959
-          },
-          "drive_fgm": {
-            "value": 1.4,
-            "pctile": 0.7737
-          },
-          "drive_fga": {
-            "value": 2.8,
-            "pctile": 0.7689
-          },
-          "drive_fg_pct": {
-            "value": 0.5,
-            "pctile": 0.5182
-          },
-          "drive_pts": {
-            "value": 2.8,
-            "pctile": 0.708
-          },
-          "drive_ast": {
-            "value": 0.7,
-            "pctile": 0.7421
-          },
-          "drive_tov": {
-            "value": 0.2,
-            "pctile": 0.4647
-          }
-        },
-        "passing": {
-          "passes_made": {
-            "value": 25.1,
-            "pctile": 0.5693
-          },
-          "passes_received": {
-            "value": 29.5,
-            "pctile": 0.6837
-          },
-          "potential_ast": {
-            "value": 4.7,
-            "pctile": 0.6886
-          },
-          "ast_points_created": {
-            "value": 5.8,
-            "pctile": 0.635
-          },
-          "ast_to_pass_pct": {
-            "value": 0.097,
-            "pctile": 0.6715
-          }
-        },
-        "possessions": {
-          "touches": {
-            "value": 36.7,
-            "pctile": 0.6618
-          },
-          "front_ct_touches": {
-            "value": 21.7,
-            "pctile": 0.6788
-          },
-          "time_of_poss": {
-            "value": 1.4,
-            "pctile": 0.6496
-          },
-          "avg_sec_per_touch": {
-            "value": 2.23,
-            "pctile": 0.6083
-          },
-          "pts_per_touch": {
-            "value": 0.388,
-            "pctile": 0.8491
-          },
-          "elbow_touches": {
-            "value": 0.2,
-            "pctile": 0.2141
-          },
-          "post_touches": {
-            "value": 0.4,
-            "pctile": 0.6618
-          },
-          "paint_touches": {
-            "value": 1.7,
-            "pctile": 0.562
-          }
-        }
-      },
-      "shooting_tracking": {
-        "cs": {
-          "fgm": {
-            "value": 3.31,
-            "pctile": 0.8519
-          },
-          "fga": {
-            "value": 6.75,
-            "pctile": 0.8592
-          },
-          "fg_pct": {
-            "value": 0.491,
-            "pctile": 0.6383
-          },
-          "efg_pct": {
-            "value": 0.667,
-            "pctile": 0.835
-          },
-          "fg3m": {
-            "value": 2.38,
-            "pctile": 0.9636
-          },
-          "fg3a": {
-            "value": 5.38,
-            "pctile": 0.9466
-          },
-          "fg3_pct": {
-            "value": 0.442,
-            "pctile": 0.832
-          }
-        },
-        "pullup": {
-          "fgm": {
-            "value": 1.88,
-            "pctile": 0.8159
-          },
-          "fga": {
-            "value": 4.25,
-            "pctile": 0.8259
-          },
-          "fg_pct": {
-            "value": 0.441,
-            "pctile": 0.4552
-          },
-          "efg_pct": {
-            "value": 0.5,
-            "pctile": 0.5075
-          },
-          "fg3m": {
-            "value": 0.5,
-            "pctile": 0.8905
-          },
-          "fg3a": {
-            "value": 1.31,
-            "pctile": 0.8856
-          },
-          "fg3_pct": {
-            "value": 0.381,
-            "pctile": 0.6655
-          }
-        },
-        "contested": {
-          "fgm": {
-            "value": 1.56,
-            "pctile": 0.6141
-          },
-          "fga": {
-            "value": 3.51,
-            "pctile": 0.6505
-          },
-          "fg_pct": {
-            "value": 0.4444,
-            "pctile": 0.3301
-          },
-          "efg_pct": {
-            "value": 0.453,
-            "pctile": 0.2743
-          },
-          "fg3m": {
-            "value": 0.06,
-            "pctile": 0.5024
-          },
-          "fg3a": {
-            "value": 0.5,
-            "pctile": 0.7184
-          },
-          "fg3_pct": {
-            "value": 0.12,
-            "pctile": 0.3356
-          }
-        },
-        "uncontested": {
-          "fgm": {
-            "value": 3.75,
-            "pctile": 0.9535
-          },
-          "fga": {
-            "value": 8.19,
-            "pctile": 0.934
-          },
-          "fg_pct": {
-            "value": 0.4579,
-            "pctile": 0.643
-          },
-          "efg_pct": {
-            "value": 0.6258,
-            "pctile": 0.7482
-          },
-          "fg3m": {
-            "value": 2.75,
-            "pctile": 0.9804
-          },
-          "fg3a": {
-            "value": 6.38,
-            "pctile": 0.9584
-          },
-          "fg3_pct": {
-            "value": 0.431,
-            "pctile": 0.8298
-          }
-        }
-      },
       "career": {
         "totals": {
           "pts": 3199,
@@ -3834,7 +3602,239 @@
         },
         "seasons_played": 6
       },
-      "td3_total": 0
+      "td3_total": 0,
+      "defense_tracking": {
+        "d_fgm": {
+          "value": 4.29,
+          "pctile": 0.676
+        },
+        "d_fga": {
+          "value": 9.35,
+          "pctile": 0.676
+        },
+        "d_fg_pct": {
+          "value": 0.459,
+          "pctile": 0.4821
+        },
+        "normal_fg_pct": {
+          "value": 0.447,
+          "pctile": 0.2704
+        },
+        "pct_plusminus": {
+          "value": 0.012,
+          "pctile": 0.5663
+        }
+      },
+      "playmaking_tracking": {
+        "drives": {
+          "drives": {
+            "value": 5.8,
+            "pctile": 0.7056
+          },
+          "drive_fgm": {
+            "value": 1.4,
+            "pctile": 0.7737
+          },
+          "drive_fga": {
+            "value": 2.9,
+            "pctile": 0.7737
+          },
+          "drive_fg_pct": {
+            "value": 0.49,
+            "pctile": 0.5207
+          },
+          "drive_pts": {
+            "value": 2.9,
+            "pctile": 0.7129
+          },
+          "drive_ast": {
+            "value": 0.6,
+            "pctile": 0.6983
+          },
+          "drive_tov": {
+            "value": 0.2,
+            "pctile": 0.4647
+          }
+        },
+        "passing": {
+          "passes_made": {
+            "value": 25.1,
+            "pctile": 0.5693
+          },
+          "passes_received": {
+            "value": 29.5,
+            "pctile": 0.6788
+          },
+          "potential_ast": {
+            "value": 4.6,
+            "pctile": 0.6813
+          },
+          "ast_points_created": {
+            "value": 5.5,
+            "pctile": 0.618
+          },
+          "ast_to_pass_pct": {
+            "value": 0.094,
+            "pctile": 0.6399
+          }
+        },
+        "possessions": {
+          "touches": {
+            "value": 36.8,
+            "pctile": 0.6594
+          },
+          "front_ct_touches": {
+            "value": 22.1,
+            "pctile": 0.6788
+          },
+          "time_of_poss": {
+            "value": 1.4,
+            "pctile": 0.6496
+          },
+          "avg_sec_per_touch": {
+            "value": 2.21,
+            "pctile": 0.6083
+          },
+          "pts_per_touch": {
+            "value": 0.379,
+            "pctile": 0.8248
+          },
+          "elbow_touches": {
+            "value": 0.2,
+            "pctile": 0.2092
+          },
+          "post_touches": {
+            "value": 0.4,
+            "pctile": 0.6569
+          },
+          "paint_touches": {
+            "value": 1.6,
+            "pctile": 0.5426
+          }
+        }
+      },
+      "shooting_tracking": {
+        "cs": {
+          "fgm": {
+            "value": 3.18,
+            "pctile": 0.8252
+          },
+          "fga": {
+            "value": 6.65,
+            "pctile": 0.8447
+          },
+          "fg_pct": {
+            "value": 0.478,
+            "pctile": 0.6068
+          },
+          "efg_pct": {
+            "value": 0.65,
+            "pctile": 0.7937
+          },
+          "fg3m": {
+            "value": 2.29,
+            "pctile": 0.9636
+          },
+          "fg3a": {
+            "value": 5.35,
+            "pctile": 0.9466
+          },
+          "fg3_pct": {
+            "value": 0.429,
+            "pctile": 0.7979
+          }
+        },
+        "pullup": {
+          "fgm": {
+            "value": 1.94,
+            "pctile": 0.8259
+          },
+          "fga": {
+            "value": 4.24,
+            "pctile": 0.8284
+          },
+          "fg_pct": {
+            "value": 0.458,
+            "pctile": 0.5174
+          },
+          "efg_pct": {
+            "value": 0.514,
+            "pctile": 0.6194
+          },
+          "fg3m": {
+            "value": 0.47,
+            "pctile": 0.8781
+          },
+          "fg3a": {
+            "value": 1.24,
+            "pctile": 0.8781
+          },
+          "fg3_pct": {
+            "value": 0.381,
+            "pctile": 0.6701
+          }
+        },
+        "contested": {
+          "fgm": {
+            "value": 1.59,
+            "pctile": 0.6165
+          },
+          "fga": {
+            "value": 3.65,
+            "pctile": 0.665
+          },
+          "fg_pct": {
+            "value": 0.4356,
+            "pctile": 0.3058
+          },
+          "efg_pct": {
+            "value": 0.4438,
+            "pctile": 0.2621
+          },
+          "fg3m": {
+            "value": 0.06,
+            "pctile": 0.4927
+          },
+          "fg3a": {
+            "value": 0.53,
+            "pctile": 0.7379
+          },
+          "fg3_pct": {
+            "value": 0.1132,
+            "pctile": 0.3189
+          }
+        },
+        "uncontested": {
+          "fgm": {
+            "value": 3.64,
+            "pctile": 0.9487
+          },
+          "fga": {
+            "value": 8.0,
+            "pctile": 0.9267
+          },
+          "fg_pct": {
+            "value": 0.455,
+            "pctile": 0.643
+          },
+          "efg_pct": {
+            "value": 0.6206,
+            "pctile": 0.7213
+          },
+          "fg3m": {
+            "value": 2.65,
+            "pctile": 0.9707
+          },
+          "fg3a": {
+            "value": 6.23,
+            "pctile": 0.9535
+          },
+          "fg3_pct": {
+            "value": 0.4254,
+            "pctile": 0.8037
+          }
+        }
+      }
     },
     {
       "id": 1629652,
@@ -3897,12 +3897,12 @@
       "deflections": 1.88,
       "charges_drawn": 0.06,
       "screen_assists": 0.65,
-      "screen_ast_pts": 1.06,
+      "screen_ast_pts": 1.53,
       "loose_balls": 0.35,
       "off_boxouts": 0.12,
-      "def_boxouts": 0.65,
+      "def_boxouts": 0.76,
       "box_outs": 0.88,
-      "box_out_team_rebs": 0.71,
+      "box_out_team_rebs": 0.82,
       "clutch_gp": 7,
       "clutch_min": 1.2,
       "clutch_fg_pct": 0.5,
@@ -3993,7 +3993,7 @@
         },
         "contested_shots_2pt": {
           "value": 0.88,
-          "pctile": 0.1795
+          "pctile": 0.1769
         },
         "contested_shots_3pt": {
           "value": 2.65,
@@ -4012,8 +4012,8 @@
           "pctile": 0.7128
         },
         "screen_ast_pts": {
-          "value": 1.06,
-          "pctile": 0.5692
+          "value": 1.53,
+          "pctile": 0.7077
         },
         "loose_balls_recovered": {
           "value": 0.35,
@@ -4025,11 +4025,11 @@
         },
         "pct_box_outs_off": {
           "value": 0.133,
-          "pctile": 0.6308
+          "pctile": 0.6103
         },
         "pct_box_outs_def": {
-          "value": 0.733,
-          "pctile": 0.3436
+          "value": 0.867,
+          "pctile": 0.4538
         }
       },
       "stl_p75": 1.6760784420230113,
@@ -4172,238 +4172,6 @@
       "blk_pct": 0.007638537449392713,
       "stl_pct_pctile": 0.8198529411764706,
       "blk_pct_pctile": 0.27941176470588236,
-      "defense_tracking": {
-        "d_fgm": {
-          "value": 4.5,
-          "pctile": 0.7128
-        },
-        "d_fga": {
-          "value": 8.69,
-          "pctile": 0.6205
-        },
-        "d_fg_pct": {
-          "value": 0.518,
-          "pctile": 0.8667
-        },
-        "normal_fg_pct": {
-          "value": 0.447,
-          "pctile": 0.2692
-        },
-        "pct_plusminus": {
-          "value": 0.071,
-          "pctile": 0.8718
-        }
-      },
-      "playmaking_tracking": {
-        "drives": {
-          "drives": {
-            "value": 4.6,
-            "pctile": 0.635
-          },
-          "drive_fgm": {
-            "value": 0.4,
-            "pctile": 0.4063
-          },
-          "drive_fga": {
-            "value": 1.8,
-            "pctile": 0.6399
-          },
-          "drive_fg_pct": {
-            "value": 0.241,
-            "pctile": 0.1387
-          },
-          "drive_pts": {
-            "value": 1.3,
-            "pctile": 0.5182
-          },
-          "drive_ast": {
-            "value": 0.5,
-            "pctile": 0.6423
-          },
-          "drive_tov": {
-            "value": 0.3,
-            "pctile": 0.5766
-          }
-        },
-        "passing": {
-          "passes_made": {
-            "value": 17.4,
-            "pctile": 0.3747
-          },
-          "passes_received": {
-            "value": 18.1,
-            "pctile": 0.4428
-          },
-          "potential_ast": {
-            "value": 2.3,
-            "pctile": 0.3893
-          },
-          "ast_points_created": {
-            "value": 3.5,
-            "pctile": 0.4063
-          },
-          "ast_to_pass_pct": {
-            "value": 0.082,
-            "pctile": 0.4891
-          }
-        },
-        "possessions": {
-          "touches": {
-            "value": 24.6,
-            "pctile": 0.4428
-          },
-          "front_ct_touches": {
-            "value": 16.9,
-            "pctile": 0.5085
-          },
-          "time_of_poss": {
-            "value": 0.6,
-            "pctile": 0.3796
-          },
-          "avg_sec_per_touch": {
-            "value": 1.58,
-            "pctile": 0.4209
-          },
-          "pts_per_touch": {
-            "value": 0.363,
-            "pctile": 0.781
-          },
-          "elbow_touches": {
-            "value": 0.3,
-            "pctile": 0.2993
-          },
-          "post_touches": {
-            "value": 0.1,
-            "pctile": 0.253
-          },
-          "paint_touches": {
-            "value": 2.1,
-            "pctile": 0.6545
-          }
-        }
-      },
-      "shooting_tracking": {
-        "cs": {
-          "fgm": {
-            "value": 2.25,
-            "pctile": 0.6383
-          },
-          "fga": {
-            "value": 5.38,
-            "pctile": 0.6917
-          },
-          "fg_pct": {
-            "value": 0.419,
-            "pctile": 0.335
-          },
-          "efg_pct": {
-            "value": 0.541,
-            "pctile": 0.4078
-          },
-          "fg3m": {
-            "value": 1.31,
-            "pctile": 0.7451
-          },
-          "fg3a": {
-            "value": 3.94,
-            "pctile": 0.8083
-          },
-          "fg3_pct": {
-            "value": 0.333,
-            "pctile": 0.4278
-          }
-        },
-        "pullup": {
-          "fgm": {
-            "value": 0.81,
-            "pctile": 0.5697
-          },
-          "fga": {
-            "value": 2.81,
-            "pctile": 0.699
-          },
-          "fg_pct": {
-            "value": 0.289,
-            "pctile": 0.1642
-          },
-          "efg_pct": {
-            "value": 0.333,
-            "pctile": 0.1766
-          },
-          "fg3m": {
-            "value": 0.25,
-            "pctile": 0.7587
-          },
-          "fg3a": {
-            "value": 0.69,
-            "pctile": 0.7239
-          },
-          "fg3_pct": {
-            "value": 0.364,
-            "pctile": 0.6314
-          }
-        },
-        "contested": {
-          "fgm": {
-            "value": 1.07,
-            "pctile": 0.4587
-          },
-          "fga": {
-            "value": 2.56,
-            "pctile": 0.5073
-          },
-          "fg_pct": {
-            "value": 0.418,
-            "pctile": 0.2646
-          },
-          "efg_pct": {
-            "value": 0.418,
-            "pctile": 0.2209
-          },
-          "fg3m": {
-            "value": 0.0,
-            "pctile": 0.0
-          },
-          "fg3a": {
-            "value": 0.25,
-            "pctile": 0.5558
-          },
-          "fg3_pct": {
-            "value": 0.0,
-            "pctile": 0.0
-          }
-        },
-        "uncontested": {
-          "fgm": {
-            "value": 1.94,
-            "pctile": 0.6553
-          },
-          "fga": {
-            "value": 5.5,
-            "pctile": 0.7384
-          },
-          "fg_pct": {
-            "value": 0.3527,
-            "pctile": 0.2176
-          },
-          "efg_pct": {
-            "value": 0.4955,
-            "pctile": 0.2958
-          },
-          "fg3m": {
-            "value": 1.57,
-            "pctile": 0.7995
-          },
-          "fg3a": {
-            "value": 4.38,
-            "pctile": 0.8117
-          },
-          "fg3_pct": {
-            "value": 0.3584,
-            "pctile": 0.5262
-          }
-        }
-      },
       "career": {
         "totals": {
           "pts": 5177,
@@ -4473,7 +4241,239 @@
         },
         "seasons_played": 8
       },
-      "td3_total": 0
+      "td3_total": 0,
+      "defense_tracking": {
+        "d_fgm": {
+          "value": 4.41,
+          "pctile": 0.7015
+        },
+        "d_fga": {
+          "value": 8.65,
+          "pctile": 0.625
+        },
+        "d_fg_pct": {
+          "value": 0.51,
+          "pctile": 0.8291
+        },
+        "normal_fg_pct": {
+          "value": 0.449,
+          "pctile": 0.3061
+        },
+        "pct_plusminus": {
+          "value": 0.061,
+          "pctile": 0.8418
+        }
+      },
+      "playmaking_tracking": {
+        "drives": {
+          "drives": {
+            "value": 4.9,
+            "pctile": 0.6521
+          },
+          "drive_fgm": {
+            "value": 0.5,
+            "pctile": 0.4988
+          },
+          "drive_fga": {
+            "value": 1.8,
+            "pctile": 0.6423
+          },
+          "drive_fg_pct": {
+            "value": 0.258,
+            "pctile": 0.1776
+          },
+          "drive_pts": {
+            "value": 1.5,
+            "pctile": 0.5547
+          },
+          "drive_ast": {
+            "value": 0.5,
+            "pctile": 0.6448
+          },
+          "drive_tov": {
+            "value": 0.2,
+            "pctile": 0.4647
+          }
+        },
+        "passing": {
+          "passes_made": {
+            "value": 17.8,
+            "pctile": 0.382
+          },
+          "passes_received": {
+            "value": 18.4,
+            "pctile": 0.4453
+          },
+          "potential_ast": {
+            "value": 2.5,
+            "pctile": 0.4161
+          },
+          "ast_points_created": {
+            "value": 3.5,
+            "pctile": 0.399
+          },
+          "ast_to_pass_pct": {
+            "value": 0.079,
+            "pctile": 0.4696
+          }
+        },
+        "possessions": {
+          "touches": {
+            "value": 25.2,
+            "pctile": 0.4404
+          },
+          "front_ct_touches": {
+            "value": 17.4,
+            "pctile": 0.5231
+          },
+          "time_of_poss": {
+            "value": 0.7,
+            "pctile": 0.4404
+          },
+          "avg_sec_per_touch": {
+            "value": 1.59,
+            "pctile": 0.4234
+          },
+          "pts_per_touch": {
+            "value": 0.371,
+            "pctile": 0.8005
+          },
+          "elbow_touches": {
+            "value": 0.2,
+            "pctile": 0.2092
+          },
+          "post_touches": {
+            "value": 0.1,
+            "pctile": 0.2506
+          },
+          "paint_touches": {
+            "value": 2.2,
+            "pctile": 0.6764
+          }
+        }
+      },
+      "shooting_tracking": {
+        "cs": {
+          "fgm": {
+            "value": 2.29,
+            "pctile": 0.6359
+          },
+          "fga": {
+            "value": 5.47,
+            "pctile": 0.7015
+          },
+          "fg_pct": {
+            "value": 0.419,
+            "pctile": 0.3519
+          },
+          "efg_pct": {
+            "value": 0.543,
+            "pctile": 0.4223
+          },
+          "fg3m": {
+            "value": 1.35,
+            "pctile": 0.7476
+          },
+          "fg3a": {
+            "value": 4.06,
+            "pctile": 0.8228
+          },
+          "fg3_pct": {
+            "value": 0.333,
+            "pctile": 0.4252
+          }
+        },
+        "pullup": {
+          "fgm": {
+            "value": 0.82,
+            "pctile": 0.5697
+          },
+          "fga": {
+            "value": 2.82,
+            "pctile": 0.7065
+          },
+          "fg_pct": {
+            "value": 0.292,
+            "pctile": 0.1567
+          },
+          "efg_pct": {
+            "value": 0.333,
+            "pctile": 0.1642
+          },
+          "fg3m": {
+            "value": 0.24,
+            "pctile": 0.7612
+          },
+          "fg3a": {
+            "value": 0.71,
+            "pctile": 0.7338
+          },
+          "fg3_pct": {
+            "value": 0.333,
+            "pctile": 0.5646
+          }
+        },
+        "contested": {
+          "fgm": {
+            "value": 1.12,
+            "pctile": 0.4879
+          },
+          "fga": {
+            "value": 2.59,
+            "pctile": 0.517
+          },
+          "fg_pct": {
+            "value": 0.4324,
+            "pctile": 0.2937
+          },
+          "efg_pct": {
+            "value": 0.4324,
+            "pctile": 0.2403
+          },
+          "fg3m": {
+            "value": 0.0,
+            "pctile": 0.0
+          },
+          "fg3a": {
+            "value": 0.24,
+            "pctile": 0.5461
+          },
+          "fg3_pct": {
+            "value": 0.0,
+            "pctile": 0.0
+          }
+        },
+        "uncontested": {
+          "fgm": {
+            "value": 1.94,
+            "pctile": 0.643
+          },
+          "fga": {
+            "value": 5.59,
+            "pctile": 0.7433
+          },
+          "fg_pct": {
+            "value": 0.347,
+            "pctile": 0.1907
+          },
+          "efg_pct": {
+            "value": 0.4893,
+            "pctile": 0.2787
+          },
+          "fg3m": {
+            "value": 1.59,
+            "pctile": 0.7873
+          },
+          "fg3a": {
+            "value": 4.53,
+            "pctile": 0.8191
+          },
+          "fg3_pct": {
+            "value": 0.351,
+            "pctile": 0.4895
+          }
+        }
+      }
     },
     {
       "id": 1643412,
@@ -4628,7 +4628,7 @@
       "hustle": {
         "contested_shots": {
           "value": 1.92,
-          "pctile": 0.2205
+          "pctile": 0.2179
         },
         "contested_shots_2pt": {
           "value": 1.42,
@@ -4640,7 +4640,7 @@
         },
         "deflections": {
           "value": 1.75,
-          "pctile": 0.6385
+          "pctile": 0.6359
         },
         "charges_drawn": {
           "value": 0.0,
@@ -4648,11 +4648,11 @@
         },
         "screen_assists": {
           "value": 0.08,
-          "pctile": 0.1462
+          "pctile": 0.1436
         },
         "screen_ast_pts": {
           "value": 0.25,
-          "pctile": 0.2051
+          "pctile": 0.1795
         },
         "loose_balls_recovered": {
           "value": 0.17,
@@ -4660,7 +4660,7 @@
         },
         "box_outs": {
           "value": 0.25,
-          "pctile": 0.3051
+          "pctile": 0.3026
         },
         "pct_box_outs_off": {
           "value": 0.0,
@@ -4668,7 +4668,7 @@
         },
         "pct_box_outs_def": {
           "value": 1.0,
-          "pctile": 0.5949
+          "pctile": 0.5308
         }
       },
       "stl_p75": 1.0862691697411964,
@@ -4811,238 +4811,6 @@
       "blk_pct": 0.012922731164383564,
       "stl_pct_pctile": 0.41544117647058826,
       "blk_pct_pctile": 0.43014705882352944,
-      "defense_tracking": {
-        "d_fgm": {
-          "value": 2.83,
-          "pctile": 0.3615
-        },
-        "d_fga": {
-          "value": 5.92,
-          "pctile": 0.3154
-        },
-        "d_fg_pct": {
-          "value": 0.479,
-          "pctile": 0.6385
-        },
-        "normal_fg_pct": {
-          "value": 0.444,
-          "pctile": 0.2
-        },
-        "pct_plusminus": {
-          "value": 0.035,
-          "pctile": 0.7179
-        }
-      },
-      "playmaking_tracking": {
-        "drives": {
-          "drives": {
-            "value": 10.3,
-            "pctile": 0.8491
-          },
-          "drive_fgm": {
-            "value": 1.8,
-            "pctile": 0.8297
-          },
-          "drive_fga": {
-            "value": 3.3,
-            "pctile": 0.8224
-          },
-          "drive_fg_pct": {
-            "value": 0.564,
-            "pctile": 0.7567
-          },
-          "drive_pts": {
-            "value": 4.0,
-            "pctile": 0.7956
-          },
-          "drive_ast": {
-            "value": 1.3,
-            "pctile": 0.9124
-          },
-          "drive_tov": {
-            "value": 0.7,
-            "pctile": 0.8613
-          }
-        },
-        "passing": {
-          "passes_made": {
-            "value": 33.8,
-            "pctile": 0.764
-          },
-          "passes_received": {
-            "value": 36.6,
-            "pctile": 0.7786
-          },
-          "potential_ast": {
-            "value": 7.5,
-            "pctile": 0.8443
-          },
-          "ast_points_created": {
-            "value": 10.8,
-            "pctile": 0.8491
-          },
-          "ast_to_pass_pct": {
-            "value": 0.121,
-            "pctile": 0.8832
-          }
-        },
-        "possessions": {
-          "touches": {
-            "value": 40.8,
-            "pctile": 0.7007
-          },
-          "front_ct_touches": {
-            "value": 15.5,
-            "pctile": 0.4696
-          },
-          "time_of_poss": {
-            "value": 2.4,
-            "pctile": 0.8005
-          },
-          "avg_sec_per_touch": {
-            "value": 3.57,
-            "pctile": 0.8248
-          },
-          "pts_per_touch": {
-            "value": 0.19,
-            "pctile": 0.1314
-          },
-          "elbow_touches": {
-            "value": 0.1,
-            "pctile": 0.1095
-          },
-          "post_touches": {
-            "value": 0.0,
-            "pctile": 0.0
-          },
-          "paint_touches": {
-            "value": 0.9,
-            "pctile": 0.3236
-          }
-        }
-      },
-      "shooting_tracking": {
-        "cs": {
-          "fgm": {
-            "value": 0.83,
-            "pctile": 0.1796
-          },
-          "fga": {
-            "value": 1.92,
-            "pctile": 0.1772
-          },
-          "fg_pct": {
-            "value": 0.435,
-            "pctile": 0.4053
-          },
-          "efg_pct": {
-            "value": 0.543,
-            "pctile": 0.4199
-          },
-          "fg3m": {
-            "value": 0.42,
-            "pctile": 0.3155
-          },
-          "fg3a": {
-            "value": 1.0,
-            "pctile": 0.2306
-          },
-          "fg3_pct": {
-            "value": 0.417,
-            "pctile": 0.7664
-          }
-        },
-        "pullup": {
-          "fgm": {
-            "value": 1.83,
-            "pctile": 0.8109
-          },
-          "fga": {
-            "value": 3.5,
-            "pctile": 0.7687
-          },
-          "fg_pct": {
-            "value": 0.524,
-            "pctile": 0.7562
-          },
-          "efg_pct": {
-            "value": 0.571,
-            "pctile": 0.7662
-          },
-          "fg3m": {
-            "value": 0.33,
-            "pctile": 0.8333
-          },
-          "fg3a": {
-            "value": 0.75,
-            "pctile": 0.7687
-          },
-          "fg3_pct": {
-            "value": 0.444,
-            "pctile": 0.7509
-          }
-        },
-        "contested": {
-          "fgm": {
-            "value": 1.5,
-            "pctile": 0.5922
-          },
-          "fga": {
-            "value": 2.75,
-            "pctile": 0.5461
-          },
-          "fg_pct": {
-            "value": 0.5455,
-            "pctile": 0.6723
-          },
-          "efg_pct": {
-            "value": 0.5455,
-            "pctile": 0.5995
-          },
-          "fg3m": {
-            "value": 0.0,
-            "pctile": 0.0
-          },
-          "fg3a": {
-            "value": 0.08,
-            "pctile": 0.3568
-          },
-          "fg3_pct": {
-            "value": 0.0,
-            "pctile": 0.0
-          }
-        },
-        "uncontested": {
-          "fgm": {
-            "value": 1.59,
-            "pctile": 0.5501
-          },
-          "fga": {
-            "value": 3.34,
-            "pctile": 0.4988
-          },
-          "fg_pct": {
-            "value": 0.476,
-            "pctile": 0.709
-          },
-          "efg_pct": {
-            "value": 0.5883,
-            "pctile": 0.6284
-          },
-          "fg3m": {
-            "value": 0.75,
-            "pctile": 0.4401
-          },
-          "fg3a": {
-            "value": 1.66,
-            "pctile": 0.3472
-          },
-          "fg3_pct": {
-            "value": 0.4518,
-            "pctile": 0.8639
-          }
-        }
-      },
       "career": {
         "totals": {
           "pts": 103,
@@ -5112,7 +4880,239 @@
         },
         "seasons_played": 1
       },
-      "td3_total": 0
+      "td3_total": 0,
+      "defense_tracking": {
+        "d_fgm": {
+          "value": 3.0,
+          "pctile": 0.3801
+        },
+        "d_fga": {
+          "value": 6.15,
+          "pctile": 0.3597
+        },
+        "d_fg_pct": {
+          "value": 0.488,
+          "pctile": 0.6888
+        },
+        "normal_fg_pct": {
+          "value": 0.444,
+          "pctile": 0.2041
+        },
+        "pct_plusminus": {
+          "value": 0.043,
+          "pctile": 0.7526
+        }
+      },
+      "playmaking_tracking": {
+        "drives": {
+          "drives": {
+            "value": 10.7,
+            "pctile": 0.8564
+          },
+          "drive_fgm": {
+            "value": 1.8,
+            "pctile": 0.8321
+          },
+          "drive_fga": {
+            "value": 3.4,
+            "pctile": 0.8224
+          },
+          "drive_fg_pct": {
+            "value": 0.545,
+            "pctile": 0.7251
+          },
+          "drive_pts": {
+            "value": 4.2,
+            "pctile": 0.8151
+          },
+          "drive_ast": {
+            "value": 1.4,
+            "pctile": 0.9367
+          },
+          "drive_tov": {
+            "value": 0.7,
+            "pctile": 0.8662
+          }
+        },
+        "passing": {
+          "passes_made": {
+            "value": 34.7,
+            "pctile": 0.7835
+          },
+          "passes_received": {
+            "value": 37.6,
+            "pctile": 0.7859
+          },
+          "potential_ast": {
+            "value": 7.8,
+            "pctile": 0.854
+          },
+          "ast_points_created": {
+            "value": 11.5,
+            "pctile": 0.8735
+          },
+          "ast_to_pass_pct": {
+            "value": 0.122,
+            "pctile": 0.8808
+          }
+        },
+        "possessions": {
+          "touches": {
+            "value": 42.0,
+            "pctile": 0.7178
+          },
+          "front_ct_touches": {
+            "value": 16.3,
+            "pctile": 0.4866
+          },
+          "time_of_poss": {
+            "value": 2.5,
+            "pctile": 0.8054
+          },
+          "avg_sec_per_touch": {
+            "value": 3.55,
+            "pctile": 0.8248
+          },
+          "pts_per_touch": {
+            "value": 0.189,
+            "pctile": 0.129
+          },
+          "elbow_touches": {
+            "value": 0.1,
+            "pctile": 0.1022
+          },
+          "post_touches": {
+            "value": 0.1,
+            "pctile": 0.2506
+          },
+          "paint_touches": {
+            "value": 0.8,
+            "pctile": 0.2871
+          }
+        }
+      },
+      "shooting_tracking": {
+        "cs": {
+          "fgm": {
+            "value": 0.85,
+            "pctile": 0.1845
+          },
+          "fga": {
+            "value": 2.15,
+            "pctile": 0.1942
+          },
+          "fg_pct": {
+            "value": 0.393,
+            "pctile": 0.2646
+          },
+          "efg_pct": {
+            "value": 0.5,
+            "pctile": 0.233
+          },
+          "fg3m": {
+            "value": 0.46,
+            "pctile": 0.3252
+          },
+          "fg3a": {
+            "value": 1.23,
+            "pctile": 0.2816
+          },
+          "fg3_pct": {
+            "value": 0.375,
+            "pctile": 0.622
+          }
+        },
+        "pullup": {
+          "fgm": {
+            "value": 1.85,
+            "pctile": 0.8109
+          },
+          "fga": {
+            "value": 3.62,
+            "pctile": 0.7811
+          },
+          "fg_pct": {
+            "value": 0.511,
+            "pctile": 0.7363
+          },
+          "efg_pct": {
+            "value": 0.553,
+            "pctile": 0.7214
+          },
+          "fg3m": {
+            "value": 0.31,
+            "pctile": 0.8184
+          },
+          "fg3a": {
+            "value": 0.69,
+            "pctile": 0.7289
+          },
+          "fg3_pct": {
+            "value": 0.444,
+            "pctile": 0.7585
+          }
+        },
+        "contested": {
+          "fgm": {
+            "value": 1.46,
+            "pctile": 0.5874
+          },
+          "fga": {
+            "value": 2.77,
+            "pctile": 0.5437
+          },
+          "fg_pct": {
+            "value": 0.5271,
+            "pctile": 0.6408
+          },
+          "efg_pct": {
+            "value": 0.5271,
+            "pctile": 0.5607
+          },
+          "fg3m": {
+            "value": 0.0,
+            "pctile": 0.0
+          },
+          "fg3a": {
+            "value": 0.08,
+            "pctile": 0.3471
+          },
+          "fg3_pct": {
+            "value": 0.0,
+            "pctile": 0.0
+          }
+        },
+        "uncontested": {
+          "fgm": {
+            "value": 1.62,
+            "pctile": 0.5526
+          },
+          "fga": {
+            "value": 3.61,
+            "pctile": 0.5134
+          },
+          "fg_pct": {
+            "value": 0.4488,
+            "pctile": 0.6235
+          },
+          "efg_pct": {
+            "value": 0.5554,
+            "pctile": 0.5403
+          },
+          "fg3m": {
+            "value": 0.77,
+            "pctile": 0.4548
+          },
+          "fg3a": {
+            "value": 1.85,
+            "pctile": 0.3716
+          },
+          "fg3_pct": {
+            "value": 0.4162,
+            "pctile": 0.7644
+          }
+        }
+      }
     },
     {
       "id": 1629111,
@@ -5262,7 +5262,7 @@
       "hustle": {
         "contested_shots": {
           "value": 5.25,
-          "pctile": 0.8359
+          "pctile": 0.8333
         },
         "contested_shots_2pt": {
           "value": 3.88,
@@ -5270,7 +5270,7 @@
         },
         "contested_shots_3pt": {
           "value": 1.38,
-          "pctile": 0.5615
+          "pctile": 0.559
         },
         "deflections": {
           "value": 0.88,
@@ -5282,7 +5282,7 @@
         },
         "screen_assists": {
           "value": 1.5,
-          "pctile": 0.8538
+          "pctile": 0.8513
         },
         "screen_ast_pts": {
           "value": 3.5,
@@ -5302,7 +5302,7 @@
         },
         "pct_box_outs_def": {
           "value": 0.6,
-          "pctile": 0.1974
+          "pctile": 0.1667
         }
       },
       "stl_p75": 0.43158610892154425,
@@ -5311,238 +5311,6 @@
       "blk_pct": 0.03651713709677419,
       "stl_pct_pctile": 0.04411764705882353,
       "blk_pct_pctile": 0.8639705882352942,
-      "defense_tracking": {
-        "d_fgm": {
-          "value": 5.13,
-          "pctile": 0.841
-        },
-        "d_fga": {
-          "value": 9.13,
-          "pctile": 0.659
-        },
-        "d_fg_pct": {
-          "value": 0.562,
-          "pctile": 0.9436
-        },
-        "normal_fg_pct": {
-          "value": 0.481,
-          "pctile": 0.8821
-        },
-        "pct_plusminus": {
-          "value": 0.081,
-          "pctile": 0.8974
-        }
-      },
-      "playmaking_tracking": {
-        "drives": {
-          "drives": {
-            "value": 0.6,
-            "pctile": 0.1363
-          },
-          "drive_fgm": {
-            "value": 0.2,
-            "pctile": 0.2117
-          },
-          "drive_fga": {
-            "value": 0.2,
-            "pctile": 0.1119
-          },
-          "drive_fg_pct": {
-            "value": 1.0,
-            "pctile": 0.9392
-          },
-          "drive_pts": {
-            "value": 0.4,
-            "pctile": 0.1776
-          },
-          "drive_ast": {
-            "value": 0.1,
-            "pctile": 0.2214
-          },
-          "drive_tov": {
-            "value": 0.1,
-            "pctile": 0.253
-          }
-        },
-        "passing": {
-          "passes_made": {
-            "value": 25.0,
-            "pctile": 0.5669
-          },
-          "passes_received": {
-            "value": 20.6,
-            "pctile": 0.5158
-          },
-          "potential_ast": {
-            "value": 2.6,
-            "pctile": 0.4355
-          },
-          "ast_points_created": {
-            "value": 3.7,
-            "pctile": 0.4282
-          },
-          "ast_to_pass_pct": {
-            "value": 0.067,
-            "pctile": 0.3358
-          }
-        },
-        "possessions": {
-          "touches": {
-            "value": 31.1,
-            "pctile": 0.5499
-          },
-          "front_ct_touches": {
-            "value": 23.1,
-            "pctile": 0.7032
-          },
-          "time_of_poss": {
-            "value": 0.6,
-            "pctile": 0.3796
-          },
-          "avg_sec_per_touch": {
-            "value": 1.18,
-            "pctile": 0.2141
-          },
-          "pts_per_touch": {
-            "value": 0.218,
-            "pctile": 0.1971
-          },
-          "elbow_touches": {
-            "value": 1.0,
-            "pctile": 0.7786
-          },
-          "post_touches": {
-            "value": 0.8,
-            "pctile": 0.7981
-          },
-          "paint_touches": {
-            "value": 4.9,
-            "pctile": 0.871
-          }
-        }
-      },
-      "shooting_tracking": {
-        "cs": {
-          "fgm": {
-            "value": 2.22,
-            "pctile": 0.6335
-          },
-          "fga": {
-            "value": 4.56,
-            "pctile": 0.6019
-          },
-          "fg_pct": {
-            "value": 0.488,
-            "pctile": 0.6286
-          },
-          "efg_pct": {
-            "value": 0.549,
-            "pctile": 0.4466
-          },
-          "fg3m": {
-            "value": 0.56,
-            "pctile": 0.3762
-          },
-          "fg3a": {
-            "value": 2.11,
-            "pctile": 0.4223
-          },
-          "fg3_pct": {
-            "value": 0.263,
-            "pctile": 0.2152
-          }
-        },
-        "pullup": {
-          "fgm": {
-            "value": 0.22,
-            "pctile": 0.2363
-          },
-          "fga": {
-            "value": 0.67,
-            "pctile": 0.2711
-          },
-          "fg_pct": {
-            "value": 0.333,
-            "pctile": 0.2065
-          },
-          "efg_pct": {
-            "value": 0.333,
-            "pctile": 0.1766
-          },
-          "fg3m": {
-            "value": 0.0,
-            "pctile": 0.0
-          },
-          "fg3a": {
-            "value": 0.22,
-            "pctile": 0.4876
-          },
-          "fg3_pct": {
-            "value": 0.0,
-            "pctile": 0.0
-          }
-        },
-        "contested": {
-          "fgm": {
-            "value": 1.11,
-            "pctile": 0.4854
-          },
-          "fga": {
-            "value": 2.12,
-            "pctile": 0.449
-          },
-          "fg_pct": {
-            "value": 0.5236,
-            "pctile": 0.6189
-          },
-          "efg_pct": {
-            "value": 0.5495,
-            "pctile": 0.6117
-          },
-          "fg3m": {
-            "value": 0.11,
-            "pctile": 0.665
-          },
-          "fg3a": {
-            "value": 0.22,
-            "pctile": 0.534
-          },
-          "fg3_pct": {
-            "value": 0.5,
-            "pctile": 0.8423
-          }
-        },
-        "uncontested": {
-          "fgm": {
-            "value": 1.33,
-            "pctile": 0.4621
-          },
-          "fga": {
-            "value": 3.22,
-            "pctile": 0.4866
-          },
-          "fg_pct": {
-            "value": 0.413,
-            "pctile": 0.4645
-          },
-          "efg_pct": {
-            "value": 0.4814,
-            "pctile": 0.2641
-          },
-          "fg3m": {
-            "value": 0.44,
-            "pctile": 0.3252
-          },
-          "fg3a": {
-            "value": 2.22,
-            "pctile": 0.445
-          },
-          "fg3_pct": {
-            "value": 0.1982,
-            "pctile": 0.1178
-          }
-        }
-      },
       "career": {
         "totals": {
           "pts": 1974,
@@ -5612,7 +5380,239 @@
         },
         "seasons_played": 6
       },
-      "td3_total": 0
+      "td3_total": 0,
+      "defense_tracking": {
+        "d_fgm": {
+          "value": 5.13,
+          "pctile": 0.8393
+        },
+        "d_fga": {
+          "value": 9.13,
+          "pctile": 0.6582
+        },
+        "d_fg_pct": {
+          "value": 0.562,
+          "pctile": 0.9464
+        },
+        "normal_fg_pct": {
+          "value": 0.481,
+          "pctile": 0.8852
+        },
+        "pct_plusminus": {
+          "value": 0.08,
+          "pctile": 0.9005
+        }
+      },
+      "playmaking_tracking": {
+        "drives": {
+          "drives": {
+            "value": 0.6,
+            "pctile": 0.1387
+          },
+          "drive_fgm": {
+            "value": 0.2,
+            "pctile": 0.2141
+          },
+          "drive_fga": {
+            "value": 0.2,
+            "pctile": 0.1144
+          },
+          "drive_fg_pct": {
+            "value": 1.0,
+            "pctile": 0.9416
+          },
+          "drive_pts": {
+            "value": 0.4,
+            "pctile": 0.1825
+          },
+          "drive_ast": {
+            "value": 0.1,
+            "pctile": 0.2117
+          },
+          "drive_tov": {
+            "value": 0.1,
+            "pctile": 0.2433
+          }
+        },
+        "passing": {
+          "passes_made": {
+            "value": 25.0,
+            "pctile": 0.5669
+          },
+          "passes_received": {
+            "value": 20.6,
+            "pctile": 0.5109
+          },
+          "potential_ast": {
+            "value": 2.6,
+            "pctile": 0.438
+          },
+          "ast_points_created": {
+            "value": 3.7,
+            "pctile": 0.4258
+          },
+          "ast_to_pass_pct": {
+            "value": 0.067,
+            "pctile": 0.3333
+          }
+        },
+        "possessions": {
+          "touches": {
+            "value": 31.1,
+            "pctile": 0.5474
+          },
+          "front_ct_touches": {
+            "value": 23.1,
+            "pctile": 0.7032
+          },
+          "time_of_poss": {
+            "value": 0.6,
+            "pctile": 0.3747
+          },
+          "avg_sec_per_touch": {
+            "value": 1.18,
+            "pctile": 0.2141
+          },
+          "pts_per_touch": {
+            "value": 0.218,
+            "pctile": 0.2019
+          },
+          "elbow_touches": {
+            "value": 1.0,
+            "pctile": 0.781
+          },
+          "post_touches": {
+            "value": 0.8,
+            "pctile": 0.7932
+          },
+          "paint_touches": {
+            "value": 4.9,
+            "pctile": 0.871
+          }
+        }
+      },
+      "shooting_tracking": {
+        "cs": {
+          "fgm": {
+            "value": 2.22,
+            "pctile": 0.6214
+          },
+          "fga": {
+            "value": 4.56,
+            "pctile": 0.5947
+          },
+          "fg_pct": {
+            "value": 0.488,
+            "pctile": 0.6311
+          },
+          "efg_pct": {
+            "value": 0.549,
+            "pctile": 0.4563
+          },
+          "fg3m": {
+            "value": 0.56,
+            "pctile": 0.3689
+          },
+          "fg3a": {
+            "value": 2.11,
+            "pctile": 0.4272
+          },
+          "fg3_pct": {
+            "value": 0.263,
+            "pctile": 0.2178
+          }
+        },
+        "pullup": {
+          "fgm": {
+            "value": 0.22,
+            "pctile": 0.2338
+          },
+          "fga": {
+            "value": 0.67,
+            "pctile": 0.2662
+          },
+          "fg_pct": {
+            "value": 0.333,
+            "pctile": 0.199
+          },
+          "efg_pct": {
+            "value": 0.333,
+            "pctile": 0.1642
+          },
+          "fg3m": {
+            "value": 0.0,
+            "pctile": 0.0
+          },
+          "fg3a": {
+            "value": 0.22,
+            "pctile": 0.49
+          },
+          "fg3_pct": {
+            "value": 0.0,
+            "pctile": 0.0
+          }
+        },
+        "contested": {
+          "fgm": {
+            "value": 1.11,
+            "pctile": 0.483
+          },
+          "fga": {
+            "value": 2.12,
+            "pctile": 0.4515
+          },
+          "fg_pct": {
+            "value": 0.5236,
+            "pctile": 0.6262
+          },
+          "efg_pct": {
+            "value": 0.5495,
+            "pctile": 0.6238
+          },
+          "fg3m": {
+            "value": 0.11,
+            "pctile": 0.6553
+          },
+          "fg3a": {
+            "value": 0.22,
+            "pctile": 0.534
+          },
+          "fg3_pct": {
+            "value": 0.5,
+            "pctile": 0.8439
+          }
+        },
+        "uncontested": {
+          "fgm": {
+            "value": 1.33,
+            "pctile": 0.4621
+          },
+          "fga": {
+            "value": 3.22,
+            "pctile": 0.489
+          },
+          "fg_pct": {
+            "value": 0.413,
+            "pctile": 0.4694
+          },
+          "efg_pct": {
+            "value": 0.4814,
+            "pctile": 0.2543
+          },
+          "fg3m": {
+            "value": 0.44,
+            "pctile": 0.3081
+          },
+          "fg3a": {
+            "value": 2.22,
+            "pctile": 0.4474
+          },
+          "fg3_pct": {
+            "value": 0.1982,
+            "pctile": 0.0969
+          }
+        }
+      }
     },
     {
       "id": 1630557,
@@ -5678,9 +5678,9 @@
       "screen_ast_pts": 0.63,
       "loose_balls": 0.25,
       "off_boxouts": 0.0,
-      "def_boxouts": 0.25,
+      "def_boxouts": 0.38,
       "box_outs": 0.38,
-      "box_out_team_rebs": 0.25,
+      "box_out_team_rebs": 0.38,
       "clutch_gp": 1,
       "clutch_min": 0.0,
       "clutch_fg_pct": 0.0,
@@ -5767,7 +5767,7 @@
       "hustle": {
         "contested_shots": {
           "value": 2.75,
-          "pctile": 0.4282
+          "pctile": 0.4308
         },
         "contested_shots_2pt": {
           "value": 1.75,
@@ -5779,7 +5779,7 @@
         },
         "deflections": {
           "value": 0.38,
-          "pctile": 0.059
+          "pctile": 0.0615
         },
         "charges_drawn": {
           "value": 0.0,
@@ -5787,27 +5787,27 @@
         },
         "screen_assists": {
           "value": 0.25,
-          "pctile": 0.3949
+          "pctile": 0.3923
         },
         "screen_ast_pts": {
           "value": 0.63,
-          "pctile": 0.4538
+          "pctile": 0.4359
         },
         "loose_balls_recovered": {
           "value": 0.25,
-          "pctile": 0.4205
+          "pctile": 0.4179
         },
         "box_outs": {
           "value": 0.38,
-          "pctile": 0.459
+          "pctile": 0.4564
         },
         "pct_box_outs_off": {
           "value": 0.0,
           "pctile": 0.0
         },
         "pct_box_outs_def": {
-          "value": 0.667,
-          "pctile": 0.2513
+          "value": 1.0,
+          "pctile": 0.5308
         }
       },
       "stl_p75": 0.8646557549245347,
@@ -5950,238 +5950,6 @@
       "blk_pct": 0.01521547379032258,
       "stl_pct_pctile": 0.21691176470588236,
       "blk_pct_pctile": 0.5036764705882353,
-      "defense_tracking": {
-        "d_fgm": {
-          "value": 2.71,
-          "pctile": 0.341
-        },
-        "d_fga": {
-          "value": 6.29,
-          "pctile": 0.3897
-        },
-        "d_fg_pct": {
-          "value": 0.432,
-          "pctile": 0.2949
-        },
-        "normal_fg_pct": {
-          "value": 0.404,
-          "pctile": 0.0179
-        },
-        "pct_plusminus": {
-          "value": 0.028,
-          "pctile": 0.6692
-        }
-      },
-      "playmaking_tracking": {
-        "drives": {
-          "drives": {
-            "value": 1.7,
-            "pctile": 0.3577
-          },
-          "drive_fgm": {
-            "value": 0.6,
-            "pctile": 0.5523
-          },
-          "drive_fga": {
-            "value": 0.9,
-            "pctile": 0.4453
-          },
-          "drive_fg_pct": {
-            "value": 0.625,
-            "pctile": 0.8443
-          },
-          "drive_pts": {
-            "value": 1.1,
-            "pctile": 0.4696
-          },
-          "drive_ast": {
-            "value": 0.2,
-            "pctile": 0.382
-          },
-          "drive_tov": {
-            "value": 0.1,
-            "pctile": 0.253
-          }
-        },
-        "passing": {
-          "passes_made": {
-            "value": 8.6,
-            "pctile": 0.1338
-          },
-          "passes_received": {
-            "value": 9.7,
-            "pctile": 0.2165
-          },
-          "potential_ast": {
-            "value": 1.1,
-            "pctile": 0.1557
-          },
-          "ast_points_created": {
-            "value": 2.3,
-            "pctile": 0.2555
-          },
-          "ast_to_pass_pct": {
-            "value": 0.091,
-            "pctile": 0.6058
-          }
-        },
-        "possessions": {
-          "touches": {
-            "value": 12.2,
-            "pctile": 0.1606
-          },
-          "front_ct_touches": {
-            "value": 7.8,
-            "pctile": 0.1606
-          },
-          "time_of_poss": {
-            "value": 0.4,
-            "pctile": 0.2287
-          },
-          "avg_sec_per_touch": {
-            "value": 1.96,
-            "pctile": 0.5523
-          },
-          "pts_per_touch": {
-            "value": 0.682,
-            "pctile": 0.9976
-          },
-          "elbow_touches": {
-            "value": 0.0,
-            "pctile": 0.0
-          },
-          "post_touches": {
-            "value": 0.0,
-            "pctile": 0.0
-          },
-          "paint_touches": {
-            "value": 0.2,
-            "pctile": 0.0462
-          }
-        }
-      },
-      "shooting_tracking": {
-        "cs": {
-          "fgm": {
-            "value": 1.56,
-            "pctile": 0.4029
-          },
-          "fga": {
-            "value": 2.89,
-            "pctile": 0.3131
-          },
-          "fg_pct": {
-            "value": 0.538,
-            "pctile": 0.7694
-          },
-          "efg_pct": {
-            "value": 0.75,
-            "pctile": 0.949
-          },
-          "fg3m": {
-            "value": 1.22,
-            "pctile": 0.7112
-          },
-          "fg3a": {
-            "value": 2.33,
-            "pctile": 0.4782
-          },
-          "fg3_pct": {
-            "value": 0.524,
-            "pctile": 0.9501
-          }
-        },
-        "pullup": {
-          "fgm": {
-            "value": 1.11,
-            "pctile": 0.6443
-          },
-          "fga": {
-            "value": 1.56,
-            "pctile": 0.5174
-          },
-          "fg_pct": {
-            "value": 0.714,
-            "pctile": 0.9502
-          },
-          "efg_pct": {
-            "value": 0.857,
-            "pctile": 0.9627
-          },
-          "fg3m": {
-            "value": 0.44,
-            "pctile": 0.8781
-          },
-          "fg3a": {
-            "value": 0.67,
-            "pctile": 0.7139
-          },
-          "fg3_pct": {
-            "value": 0.667,
-            "pctile": 0.9181
-          }
-        },
-        "contested": {
-          "fgm": {
-            "value": 1.22,
-            "pctile": 0.5291
-          },
-          "fga": {
-            "value": 2.0,
-            "pctile": 0.4296
-          },
-          "fg_pct": {
-            "value": 0.61,
-            "pctile": 0.8083
-          },
-          "efg_pct": {
-            "value": 0.6925,
-            "pctile": 0.9272
-          },
-          "fg3m": {
-            "value": 0.33,
-            "pctile": 0.8883
-          },
-          "fg3a": {
-            "value": 0.67,
-            "pctile": 0.8107
-          },
-          "fg3_pct": {
-            "value": 0.4925,
-            "pctile": 0.8389
-          }
-        },
-        "uncontested": {
-          "fgm": {
-            "value": 1.67,
-            "pctile": 0.5697
-          },
-          "fga": {
-            "value": 3.0,
-            "pctile": 0.4303
-          },
-          "fg_pct": {
-            "value": 0.5567,
-            "pctile": 0.8704
-          },
-          "efg_pct": {
-            "value": 0.7983,
-            "pctile": 0.9389
-          },
-          "fg3m": {
-            "value": 1.45,
-            "pctile": 0.7384
-          },
-          "fg3a": {
-            "value": 2.77,
-            "pctile": 0.5306
-          },
-          "fg3_pct": {
-            "value": 0.5235,
-            "pctile": 0.9529
-          }
-        }
-      },
       "career": {
         "totals": {
           "pts": 3854,
@@ -6251,7 +6019,239 @@
         },
         "seasons_played": 6
       },
-      "td3_total": 0
+      "td3_total": 0,
+      "defense_tracking": {
+        "d_fgm": {
+          "value": 2.38,
+          "pctile": 0.2577
+        },
+        "d_fga": {
+          "value": 6.5,
+          "pctile": 0.4031
+        },
+        "d_fg_pct": {
+          "value": 0.365,
+          "pctile": 0.0536
+        },
+        "normal_fg_pct": {
+          "value": 0.412,
+          "pctile": 0.0204
+        },
+        "pct_plusminus": {
+          "value": -0.047,
+          "pctile": 0.1939
+        }
+      },
+      "playmaking_tracking": {
+        "drives": {
+          "drives": {
+            "value": 1.7,
+            "pctile": 0.3504
+          },
+          "drive_fgm": {
+            "value": 0.6,
+            "pctile": 0.5547
+          },
+          "drive_fga": {
+            "value": 0.9,
+            "pctile": 0.438
+          },
+          "drive_fg_pct": {
+            "value": 0.667,
+            "pctile": 0.8686
+          },
+          "drive_pts": {
+            "value": 1.2,
+            "pctile": 0.5036
+          },
+          "drive_ast": {
+            "value": 0.2,
+            "pctile": 0.3796
+          },
+          "drive_tov": {
+            "value": 0.1,
+            "pctile": 0.2433
+          }
+        },
+        "passing": {
+          "passes_made": {
+            "value": 10.1,
+            "pctile": 0.1679
+          },
+          "passes_received": {
+            "value": 11.3,
+            "pctile": 0.2676
+          },
+          "potential_ast": {
+            "value": 1.3,
+            "pctile": 0.1995
+          },
+          "ast_points_created": {
+            "value": 2.8,
+            "pctile": 0.3139
+          },
+          "ast_to_pass_pct": {
+            "value": 0.099,
+            "pctile": 0.7056
+          }
+        },
+        "possessions": {
+          "touches": {
+            "value": 14.5,
+            "pctile": 0.2238
+          },
+          "front_ct_touches": {
+            "value": 9.9,
+            "pctile": 0.2628
+          },
+          "time_of_poss": {
+            "value": 0.4,
+            "pctile": 0.2311
+          },
+          "avg_sec_per_touch": {
+            "value": 1.79,
+            "pctile": 0.5012
+          },
+          "pts_per_touch": {
+            "value": 0.641,
+            "pctile": 0.9976
+          },
+          "elbow_touches": {
+            "value": 0.3,
+            "pctile": 0.2993
+          },
+          "post_touches": {
+            "value": 0.0,
+            "pctile": 0.0
+          },
+          "paint_touches": {
+            "value": 0.3,
+            "pctile": 0.0706
+          }
+        }
+      },
+      "shooting_tracking": {
+        "cs": {
+          "fgm": {
+            "value": 2.0,
+            "pctile": 0.551
+          },
+          "fga": {
+            "value": 3.8,
+            "pctile": 0.4563
+          },
+          "fg_pct": {
+            "value": 0.526,
+            "pctile": 0.7476
+          },
+          "efg_pct": {
+            "value": 0.724,
+            "pctile": 0.9345
+          },
+          "fg3m": {
+            "value": 1.5,
+            "pctile": 0.7985
+          },
+          "fg3a": {
+            "value": 3.1,
+            "pctile": 0.6553
+          },
+          "fg3_pct": {
+            "value": 0.484,
+            "pctile": 0.9029
+          }
+        },
+        "pullup": {
+          "fgm": {
+            "value": 1.1,
+            "pctile": 0.6468
+          },
+          "fga": {
+            "value": 1.5,
+            "pctile": 0.5025
+          },
+          "fg_pct": {
+            "value": 0.733,
+            "pctile": 0.9602
+          },
+          "efg_pct": {
+            "value": 0.867,
+            "pctile": 0.9652
+          },
+          "fg3m": {
+            "value": 0.4,
+            "pctile": 0.8607
+          },
+          "fg3a": {
+            "value": 0.6,
+            "pctile": 0.699
+          },
+          "fg3_pct": {
+            "value": 0.667,
+            "pctile": 0.9218
+          }
+        },
+        "contested": {
+          "fgm": {
+            "value": 1.3,
+            "pctile": 0.5316
+          },
+          "fga": {
+            "value": 2.1,
+            "pctile": 0.4466
+          },
+          "fg_pct": {
+            "value": 0.619,
+            "pctile": 0.8277
+          },
+          "efg_pct": {
+            "value": 0.6905,
+            "pctile": 0.9223
+          },
+          "fg3m": {
+            "value": 0.3,
+            "pctile": 0.8738
+          },
+          "fg3a": {
+            "value": 0.7,
+            "pctile": 0.818
+          },
+          "fg3_pct": {
+            "value": 0.4286,
+            "pctile": 0.7841
+          }
+        },
+        "uncontested": {
+          "fgm": {
+            "value": 2.0,
+            "pctile": 0.6504
+          },
+          "fga": {
+            "value": 3.7,
+            "pctile": 0.5257
+          },
+          "fg_pct": {
+            "value": 0.5405,
+            "pctile": 0.8606
+          },
+          "efg_pct": {
+            "value": 0.7703,
+            "pctile": 0.9267
+          },
+          "fg3m": {
+            "value": 1.7,
+            "pctile": 0.8386
+          },
+          "fg3a": {
+            "value": 3.4,
+            "pctile": 0.6675
+          },
+          "fg3_pct": {
+            "value": 0.5,
+            "pctile": 0.9293
+          }
+        }
+      }
     },
     {
       "id": 1643544,
@@ -6314,12 +6314,12 @@
       "deflections": 0.73,
       "charges_drawn": 0.0,
       "screen_assists": 1.91,
-      "screen_ast_pts": 4.27,
+      "screen_ast_pts": 4.55,
       "loose_balls": 0.09,
       "off_boxouts": 0.0,
-      "def_boxouts": 0.91,
+      "def_boxouts": 1.0,
       "box_outs": 1.0,
-      "box_out_team_rebs": 0.91,
+      "box_out_team_rebs": 1.0,
       "clutch_gp": 2,
       "clutch_min": 0.0,
       "clutch_fg_pct": 0.0,
@@ -6429,8 +6429,8 @@
           "pctile": 0.8923
         },
         "screen_ast_pts": {
-          "value": 4.27,
-          "pctile": 0.8897
+          "value": 4.55,
+          "pctile": 0.9026
         },
         "loose_balls_recovered": {
           "value": 0.09,
@@ -6438,15 +6438,15 @@
         },
         "box_outs": {
           "value": 1.0,
-          "pctile": 0.8
+          "pctile": 0.7974
         },
         "pct_box_outs_off": {
           "value": 0.0,
           "pctile": 0.0
         },
         "pct_box_outs_def": {
-          "value": 0.909,
-          "pctile": 0.5718
+          "value": 1.0,
+          "pctile": 0.5308
         }
       },
       "stl_p75": 1.1445221500802356,
@@ -6589,238 +6589,6 @@
       "blk_pct": 0.023008765243902437,
       "stl_pct_pctile": 0.4375,
       "blk_pct_pctile": 0.6507352941176471,
-      "defense_tracking": {
-        "d_fgm": {
-          "value": 3.22,
-          "pctile": 0.4667
-        },
-        "d_fga": {
-          "value": 6.56,
-          "pctile": 0.4205
-        },
-        "d_fg_pct": {
-          "value": 0.492,
-          "pctile": 0.7051
-        },
-        "normal_fg_pct": {
-          "value": 0.453,
-          "pctile": 0.3923
-        },
-        "pct_plusminus": {
-          "value": 0.038,
-          "pctile": 0.7385
-        }
-      },
-      "playmaking_tracking": {
-        "drives": {
-          "drives": {
-            "value": 0.7,
-            "pctile": 0.1582
-          },
-          "drive_fgm": {
-            "value": 0.2,
-            "pctile": 0.2117
-          },
-          "drive_fga": {
-            "value": 0.3,
-            "pctile": 0.1655
-          },
-          "drive_fg_pct": {
-            "value": 0.667,
-            "pctile": 0.8589
-          },
-          "drive_pts": {
-            "value": 0.7,
-            "pctile": 0.3236
-          },
-          "drive_ast": {
-            "value": 0.0,
-            "pctile": 0.0
-          },
-          "drive_tov": {
-            "value": 0.0,
-            "pctile": 0.0
-          }
-        },
-        "passing": {
-          "passes_made": {
-            "value": 13.0,
-            "pctile": 0.2628
-          },
-          "passes_received": {
-            "value": 10.7,
-            "pctile": 0.2506
-          },
-          "potential_ast": {
-            "value": 1.5,
-            "pctile": 0.253
-          },
-          "ast_points_created": {
-            "value": 2.7,
-            "pctile": 0.2993
-          },
-          "ast_to_pass_pct": {
-            "value": 0.085,
-            "pctile": 0.5255
-          }
-        },
-        "possessions": {
-          "touches": {
-            "value": 16.5,
-            "pctile": 0.2652
-          },
-          "front_ct_touches": {
-            "value": 11.3,
-            "pctile": 0.3041
-          },
-          "time_of_poss": {
-            "value": 0.3,
-            "pctile": 0.1509
-          },
-          "avg_sec_per_touch": {
-            "value": 1.12,
-            "pctile": 0.1825
-          },
-          "pts_per_touch": {
-            "value": 0.279,
-            "pctile": 0.4234
-          },
-          "elbow_touches": {
-            "value": 0.7,
-            "pctile": 0.6472
-          },
-          "post_touches": {
-            "value": 0.1,
-            "pctile": 0.253
-          },
-          "paint_touches": {
-            "value": 2.7,
-            "pctile": 0.7445
-          }
-        }
-      },
-      "shooting_tracking": {
-        "cs": {
-          "fgm": {
-            "value": 1.5,
-            "pctile": 0.3786
-          },
-          "fga": {
-            "value": 2.7,
-            "pctile": 0.2864
-          },
-          "fg_pct": {
-            "value": 0.556,
-            "pctile": 0.8155
-          },
-          "efg_pct": {
-            "value": 0.648,
-            "pctile": 0.7888
-          },
-          "fg3m": {
-            "value": 0.5,
-            "pctile": 0.3471
-          },
-          "fg3a": {
-            "value": 1.0,
-            "pctile": 0.2306
-          },
-          "fg3_pct": {
-            "value": 0.5,
-            "pctile": 0.9055
-          }
-        },
-        "pullup": {
-          "fgm": {
-            "value": 0.2,
-            "pctile": 0.2065
-          },
-          "fga": {
-            "value": 0.4,
-            "pctile": 0.1468
-          },
-          "fg_pct": {
-            "value": 0.5,
-            "pctile": 0.6418
-          },
-          "efg_pct": {
-            "value": 0.5,
-            "pctile": 0.5075
-          },
-          "fg3m": {
-            "value": 0.0,
-            "pctile": 0.0
-          },
-          "fg3a": {
-            "value": 0.1,
-            "pctile": 0.3483
-          },
-          "fg3_pct": {
-            "value": 0.0,
-            "pctile": 0.0
-          }
-        },
-        "contested": {
-          "fgm": {
-            "value": 0.6,
-            "pctile": 0.2476
-          },
-          "fga": {
-            "value": 1.2,
-            "pctile": 0.2379
-          },
-          "fg_pct": {
-            "value": 0.5,
-            "pctile": 0.5073
-          },
-          "efg_pct": {
-            "value": 0.5,
-            "pctile": 0.4175
-          },
-          "fg3m": {
-            "value": 0.0,
-            "pctile": 0.0
-          },
-          "fg3a": {
-            "value": 0.0,
-            "pctile": 0.0
-          },
-          "fg3_pct": {
-            "value": null,
-            "pctile": null
-          }
-        },
-        "uncontested": {
-          "fgm": {
-            "value": 1.2,
-            "pctile": 0.4083
-          },
-          "fga": {
-            "value": 2.0,
-            "pctile": 0.2714
-          },
-          "fg_pct": {
-            "value": 0.6,
-            "pctile": 0.9022
-          },
-          "efg_pct": {
-            "value": 0.75,
-            "pctile": 0.9022
-          },
-          "fg3m": {
-            "value": 0.6,
-            "pctile": 0.3839
-          },
-          "fg3a": {
-            "value": 1.2,
-            "pctile": 0.2738
-          },
-          "fg3_pct": {
-            "value": 0.5,
-            "pctile": 0.9215
-          }
-        }
-      },
       "career": {
         "totals": {
           "pts": 50,
@@ -6890,7 +6658,239 @@
         },
         "seasons_played": 1
       },
-      "td3_total": 0
+      "td3_total": 0,
+      "defense_tracking": {
+        "d_fgm": {
+          "value": 3.1,
+          "pctile": 0.4286
+        },
+        "d_fga": {
+          "value": 6.4,
+          "pctile": 0.3903
+        },
+        "d_fg_pct": {
+          "value": 0.484,
+          "pctile": 0.648
+        },
+        "normal_fg_pct": {
+          "value": 0.452,
+          "pctile": 0.375
+        },
+        "pct_plusminus": {
+          "value": 0.033,
+          "pctile": 0.6964
+        }
+      },
+      "playmaking_tracking": {
+        "drives": {
+          "drives": {
+            "value": 0.7,
+            "pctile": 0.163
+          },
+          "drive_fgm": {
+            "value": 0.2,
+            "pctile": 0.2141
+          },
+          "drive_fga": {
+            "value": 0.4,
+            "pctile": 0.219
+          },
+          "drive_fg_pct": {
+            "value": 0.5,
+            "pctile": 0.5255
+          },
+          "drive_pts": {
+            "value": 0.6,
+            "pctile": 0.2895
+          },
+          "drive_ast": {
+            "value": 0.0,
+            "pctile": 0.0
+          },
+          "drive_tov": {
+            "value": 0.0,
+            "pctile": 0.0
+          }
+        },
+        "passing": {
+          "passes_made": {
+            "value": 13.6,
+            "pctile": 0.2895
+          },
+          "passes_received": {
+            "value": 11.7,
+            "pctile": 0.2798
+          },
+          "potential_ast": {
+            "value": 1.5,
+            "pctile": 0.2482
+          },
+          "ast_points_created": {
+            "value": 2.6,
+            "pctile": 0.292
+          },
+          "ast_to_pass_pct": {
+            "value": 0.08,
+            "pctile": 0.4769
+          }
+        },
+        "possessions": {
+          "touches": {
+            "value": 17.5,
+            "pctile": 0.292
+          },
+          "front_ct_touches": {
+            "value": 12.5,
+            "pctile": 0.3455
+          },
+          "time_of_poss": {
+            "value": 0.3,
+            "pctile": 0.1533
+          },
+          "avg_sec_per_touch": {
+            "value": 1.1,
+            "pctile": 0.1606
+          },
+          "pts_per_touch": {
+            "value": 0.259,
+            "pctile": 0.3406
+          },
+          "elbow_touches": {
+            "value": 0.7,
+            "pctile": 0.6496
+          },
+          "post_touches": {
+            "value": 0.3,
+            "pctile": 0.6034
+          },
+          "paint_touches": {
+            "value": 2.9,
+            "pctile": 0.7591
+          }
+        }
+      },
+      "shooting_tracking": {
+        "cs": {
+          "fgm": {
+            "value": 1.55,
+            "pctile": 0.4078
+          },
+          "fga": {
+            "value": 3.18,
+            "pctile": 0.3398
+          },
+          "fg_pct": {
+            "value": 0.486,
+            "pctile": 0.6262
+          },
+          "efg_pct": {
+            "value": 0.557,
+            "pctile": 0.4684
+          },
+          "fg3m": {
+            "value": 0.45,
+            "pctile": 0.3155
+          },
+          "fg3a": {
+            "value": 1.27,
+            "pctile": 0.2864
+          },
+          "fg3_pct": {
+            "value": 0.357,
+            "pctile": 0.5459
+          }
+        },
+        "pullup": {
+          "fgm": {
+            "value": 0.18,
+            "pctile": 0.1816
+          },
+          "fga": {
+            "value": 0.45,
+            "pctile": 0.1816
+          },
+          "fg_pct": {
+            "value": 0.4,
+            "pctile": 0.3706
+          },
+          "efg_pct": {
+            "value": 0.4,
+            "pctile": 0.306
+          },
+          "fg3m": {
+            "value": 0.0,
+            "pctile": 0.0
+          },
+          "fg3a": {
+            "value": 0.09,
+            "pctile": 0.3408
+          },
+          "fg3_pct": {
+            "value": 0.0,
+            "pctile": 0.0
+          }
+        },
+        "contested": {
+          "fgm": {
+            "value": 0.63,
+            "pctile": 0.25
+          },
+          "fga": {
+            "value": 1.46,
+            "pctile": 0.3083
+          },
+          "fg_pct": {
+            "value": 0.4315,
+            "pctile": 0.2913
+          },
+          "efg_pct": {
+            "value": 0.4315,
+            "pctile": 0.2379
+          },
+          "fg3m": {
+            "value": 0.0,
+            "pctile": 0.0
+          },
+          "fg3a": {
+            "value": 0.0,
+            "pctile": 0.0
+          },
+          "fg3_pct": {
+            "value": null,
+            "pctile": null
+          }
+        },
+        "uncontested": {
+          "fgm": {
+            "value": 1.18,
+            "pctile": 0.4034
+          },
+          "fga": {
+            "value": 2.28,
+            "pctile": 0.3056
+          },
+          "fg_pct": {
+            "value": 0.5175,
+            "pctile": 0.8337
+          },
+          "efg_pct": {
+            "value": 0.6382,
+            "pctile": 0.7848
+          },
+          "fg3m": {
+            "value": 0.55,
+            "pctile": 0.3619
+          },
+          "fg3a": {
+            "value": 1.45,
+            "pctile": 0.3007
+          },
+          "fg3_pct": {
+            "value": 0.3793,
+            "pctile": 0.6283
+          }
+        }
+      }
     },
     {
       "id": 1642854,
@@ -7089,238 +7089,6 @@
       "blk_pct": 0.01715198863636364,
       "stl_pct_pctile": 0.08823529411764706,
       "blk_pct_pctile": 0.5404411764705882,
-      "defense_tracking": {
-        "d_fgm": {
-          "value": 1.25,
-          "pctile": 0.0615
-        },
-        "d_fga": {
-          "value": 4.5,
-          "pctile": 0.1692
-        },
-        "d_fg_pct": {
-          "value": 0.278,
-          "pctile": 0.0077
-        },
-        "normal_fg_pct": {
-          "value": 0.405,
-          "pctile": 0.0205
-        },
-        "pct_plusminus": {
-          "value": -0.128,
-          "pctile": 0.0205
-        }
-      },
-      "playmaking_tracking": {
-        "drives": {
-          "drives": {
-            "value": 1.0,
-            "pctile": 0.2263
-          },
-          "drive_fgm": {
-            "value": 0.0,
-            "pctile": 0.0
-          },
-          "drive_fga": {
-            "value": 0.2,
-            "pctile": 0.1119
-          },
-          "drive_fg_pct": {
-            "value": 0.0,
-            "pctile": 0.0
-          },
-          "drive_pts": {
-            "value": 0.4,
-            "pctile": 0.1776
-          },
-          "drive_ast": {
-            "value": 0.2,
-            "pctile": 0.382
-          },
-          "drive_tov": {
-            "value": 0.2,
-            "pctile": 0.4647
-          }
-        },
-        "passing": {
-          "passes_made": {
-            "value": 7.8,
-            "pctile": 0.1144
-          },
-          "passes_received": {
-            "value": 7.8,
-            "pctile": 0.1338
-          },
-          "potential_ast": {
-            "value": 1.0,
-            "pctile": 0.1387
-          },
-          "ast_points_created": {
-            "value": 2.4,
-            "pctile": 0.2725
-          },
-          "ast_to_pass_pct": {
-            "value": 0.128,
-            "pctile": 0.9124
-          }
-        },
-        "possessions": {
-          "touches": {
-            "value": 11.2,
-            "pctile": 0.1387
-          },
-          "front_ct_touches": {
-            "value": 8.4,
-            "pctile": 0.1946
-          },
-          "time_of_poss": {
-            "value": 0.2,
-            "pctile": 0.0633
-          },
-          "avg_sec_per_touch": {
-            "value": 0.94,
-            "pctile": 0.056
-          },
-          "pts_per_touch": {
-            "value": 0.321,
-            "pctile": 0.6399
-          },
-          "elbow_touches": {
-            "value": 0.2,
-            "pctile": 0.2141
-          },
-          "post_touches": {
-            "value": 0.0,
-            "pctile": 0.0
-          },
-          "paint_touches": {
-            "value": 1.2,
-            "pctile": 0.4307
-          }
-        }
-      },
-      "shooting_tracking": {
-        "cs": {
-          "fgm": {
-            "value": 1.4,
-            "pctile": 0.3495
-          },
-          "fga": {
-            "value": 2.6,
-            "pctile": 0.2427
-          },
-          "fg_pct": {
-            "value": 0.538,
-            "pctile": 0.7694
-          },
-          "efg_pct": {
-            "value": 0.615,
-            "pctile": 0.6553
-          },
-          "fg3m": {
-            "value": 0.4,
-            "pctile": 0.3034
-          },
-          "fg3a": {
-            "value": 1.6,
-            "pctile": 0.3422
-          },
-          "fg3_pct": {
-            "value": 0.25,
-            "pctile": 0.168
-          }
-        },
-        "pullup": {
-          "fgm": {
-            "value": 0.0,
-            "pctile": 0.0
-          },
-          "fga": {
-            "value": 0.4,
-            "pctile": 0.1468
-          },
-          "fg_pct": {
-            "value": 0.0,
-            "pctile": 0.0
-          },
-          "efg_pct": {
-            "value": 0.0,
-            "pctile": 0.0
-          },
-          "fg3m": {
-            "value": 0.0,
-            "pctile": 0.0
-          },
-          "fg3a": {
-            "value": 0.0,
-            "pctile": 0.0
-          },
-          "fg3_pct": {
-            "value": null,
-            "pctile": null
-          }
-        },
-        "contested": {
-          "fgm": {
-            "value": 1.0,
-            "pctile": 0.4296
-          },
-          "fga": {
-            "value": 1.4,
-            "pctile": 0.2888
-          },
-          "fg_pct": {
-            "value": 0.7143,
-            "pctile": 0.9515
-          },
-          "efg_pct": {
-            "value": 0.7143,
-            "pctile": 0.9442
-          },
-          "fg3m": {
-            "value": 0.0,
-            "pctile": 0.0
-          },
-          "fg3a": {
-            "value": 0.0,
-            "pctile": 0.0
-          },
-          "fg3_pct": {
-            "value": null,
-            "pctile": null
-          }
-        },
-        "uncontested": {
-          "fgm": {
-            "value": 0.4,
-            "pctile": 0.1418
-          },
-          "fga": {
-            "value": 1.6,
-            "pctile": 0.2396
-          },
-          "fg_pct": {
-            "value": 0.25,
-            "pctile": 0.0758
-          },
-          "efg_pct": {
-            "value": 0.375,
-            "pctile": 0.1051
-          },
-          "fg3m": {
-            "value": 0.4,
-            "pctile": 0.2983
-          },
-          "fg3a": {
-            "value": 1.6,
-            "pctile": 0.3374
-          },
-          "fg3_pct": {
-            "value": 0.25,
-            "pctile": 0.1859
-          }
-        }
-      },
       "career": {
         "totals": {
           "pts": 245,
@@ -7390,7 +7158,239 @@
         },
         "seasons_played": 2
       },
-      "td3_total": 0
+      "td3_total": 0,
+      "defense_tracking": {
+        "d_fgm": {
+          "value": 1.25,
+          "pctile": 0.0587
+        },
+        "d_fga": {
+          "value": 4.5,
+          "pctile": 0.1709
+        },
+        "d_fg_pct": {
+          "value": 0.278,
+          "pctile": 0.0077
+        },
+        "normal_fg_pct": {
+          "value": 0.406,
+          "pctile": 0.0179
+        },
+        "pct_plusminus": {
+          "value": -0.128,
+          "pctile": 0.023
+        }
+      },
+      "playmaking_tracking": {
+        "drives": {
+          "drives": {
+            "value": 1.0,
+            "pctile": 0.2238
+          },
+          "drive_fgm": {
+            "value": 0.0,
+            "pctile": 0.0
+          },
+          "drive_fga": {
+            "value": 0.2,
+            "pctile": 0.1144
+          },
+          "drive_fg_pct": {
+            "value": 0.0,
+            "pctile": 0.0
+          },
+          "drive_pts": {
+            "value": 0.4,
+            "pctile": 0.1825
+          },
+          "drive_ast": {
+            "value": 0.2,
+            "pctile": 0.3796
+          },
+          "drive_tov": {
+            "value": 0.2,
+            "pctile": 0.4647
+          }
+        },
+        "passing": {
+          "passes_made": {
+            "value": 7.8,
+            "pctile": 0.1119
+          },
+          "passes_received": {
+            "value": 7.8,
+            "pctile": 0.1387
+          },
+          "potential_ast": {
+            "value": 1.0,
+            "pctile": 0.1338
+          },
+          "ast_points_created": {
+            "value": 2.4,
+            "pctile": 0.2725
+          },
+          "ast_to_pass_pct": {
+            "value": 0.128,
+            "pctile": 0.91
+          }
+        },
+        "possessions": {
+          "touches": {
+            "value": 11.2,
+            "pctile": 0.1314
+          },
+          "front_ct_touches": {
+            "value": 8.4,
+            "pctile": 0.1898
+          },
+          "time_of_poss": {
+            "value": 0.2,
+            "pctile": 0.0608
+          },
+          "avg_sec_per_touch": {
+            "value": 0.94,
+            "pctile": 0.056
+          },
+          "pts_per_touch": {
+            "value": 0.321,
+            "pctile": 0.6253
+          },
+          "elbow_touches": {
+            "value": 0.2,
+            "pctile": 0.2092
+          },
+          "post_touches": {
+            "value": 0.0,
+            "pctile": 0.0
+          },
+          "paint_touches": {
+            "value": 1.2,
+            "pctile": 0.4307
+          }
+        }
+      },
+      "shooting_tracking": {
+        "cs": {
+          "fgm": {
+            "value": 1.4,
+            "pctile": 0.3519
+          },
+          "fga": {
+            "value": 2.6,
+            "pctile": 0.25
+          },
+          "fg_pct": {
+            "value": 0.538,
+            "pctile": 0.7646
+          },
+          "efg_pct": {
+            "value": 0.615,
+            "pctile": 0.6602
+          },
+          "fg3m": {
+            "value": 0.4,
+            "pctile": 0.2888
+          },
+          "fg3a": {
+            "value": 1.6,
+            "pctile": 0.335
+          },
+          "fg3_pct": {
+            "value": 0.25,
+            "pctile": 0.1601
+          }
+        },
+        "pullup": {
+          "fgm": {
+            "value": 0.0,
+            "pctile": 0.0
+          },
+          "fga": {
+            "value": 0.4,
+            "pctile": 0.1343
+          },
+          "fg_pct": {
+            "value": 0.0,
+            "pctile": 0.0
+          },
+          "efg_pct": {
+            "value": 0.0,
+            "pctile": 0.0
+          },
+          "fg3m": {
+            "value": 0.0,
+            "pctile": 0.0
+          },
+          "fg3a": {
+            "value": 0.0,
+            "pctile": 0.0
+          },
+          "fg3_pct": {
+            "value": null,
+            "pctile": null
+          }
+        },
+        "contested": {
+          "fgm": {
+            "value": 1.0,
+            "pctile": 0.4199
+          },
+          "fga": {
+            "value": 1.4,
+            "pctile": 0.284
+          },
+          "fg_pct": {
+            "value": 0.7143,
+            "pctile": 0.9515
+          },
+          "efg_pct": {
+            "value": 0.7143,
+            "pctile": 0.9442
+          },
+          "fg3m": {
+            "value": 0.0,
+            "pctile": 0.0
+          },
+          "fg3a": {
+            "value": 0.0,
+            "pctile": 0.0
+          },
+          "fg3_pct": {
+            "value": null,
+            "pctile": null
+          }
+        },
+        "uncontested": {
+          "fgm": {
+            "value": 0.4,
+            "pctile": 0.1369
+          },
+          "fga": {
+            "value": 1.6,
+            "pctile": 0.2274
+          },
+          "fg_pct": {
+            "value": 0.25,
+            "pctile": 0.0733
+          },
+          "efg_pct": {
+            "value": 0.375,
+            "pctile": 0.0978
+          },
+          "fg3m": {
+            "value": 0.4,
+            "pctile": 0.2861
+          },
+          "fg3a": {
+            "value": 1.6,
+            "pctile": 0.3325
+          },
+          "fg3_pct": {
+            "value": 0.25,
+            "pctile": 0.1832
+          }
+        }
+      }
     },
     {
       "id": 1642484,
@@ -7456,9 +7456,9 @@
       "screen_ast_pts": 0.0,
       "loose_balls": 0.0,
       "off_boxouts": 0.0,
-      "def_boxouts": 0.0,
+      "def_boxouts": 0.25,
       "box_outs": 0.25,
-      "box_out_team_rebs": 0.0,
+      "box_out_team_rebs": 0.25,
       "pos": "G",
       "fta_rate": 0.2631578947368421,
       "qualified": false,
@@ -7552,7 +7552,7 @@
         },
         "deflections": {
           "value": 1.5,
-          "pctile": 0.4846
+          "pctile": 0.4821
         },
         "charges_drawn": {
           "value": 0.0,
@@ -7572,15 +7572,15 @@
         },
         "box_outs": {
           "value": 0.25,
-          "pctile": 0.3051
+          "pctile": 0.3026
         },
         "pct_box_outs_off": {
           "value": 0.0,
           "pctile": 0.0
         },
         "pct_box_outs_def": {
-          "value": 0.0,
-          "pctile": 0.0
+          "value": 1.0,
+          "pctile": 0.5308
         }
       },
       "stl_p75": 2.9487048223610115,
@@ -7589,238 +7589,6 @@
       "blk_pct": 0.02830078125,
       "stl_pct_pctile": 0.9889705882352942,
       "blk_pct_pctile": 0.75,
-      "defense_tracking": {
-        "d_fgm": {
-          "value": 0.75,
-          "pctile": 0.0128
-        },
-        "d_fga": {
-          "value": 2.25,
-          "pctile": 0.0333
-        },
-        "d_fg_pct": {
-          "value": 0.333,
-          "pctile": 0.0179
-        },
-        "normal_fg_pct": {
-          "value": 0.426,
-          "pctile": 0.0538
-        },
-        "pct_plusminus": {
-          "value": -0.092,
-          "pctile": 0.0538
-        }
-      },
-      "playmaking_tracking": {
-        "drives": {
-          "drives": {
-            "value": 3.5,
-            "pctile": 0.5742
-          },
-          "drive_fgm": {
-            "value": 0.8,
-            "pctile": 0.635
-          },
-          "drive_fga": {
-            "value": 1.8,
-            "pctile": 0.6399
-          },
-          "drive_fg_pct": {
-            "value": 0.429,
-            "pctile": 0.3796
-          },
-          "drive_pts": {
-            "value": 1.8,
-            "pctile": 0.601
-          },
-          "drive_ast": {
-            "value": 0.5,
-            "pctile": 0.6423
-          },
-          "drive_tov": {
-            "value": 0.3,
-            "pctile": 0.5766
-          }
-        },
-        "passing": {
-          "passes_made": {
-            "value": 14.0,
-            "pctile": 0.3017
-          },
-          "passes_received": {
-            "value": 14.3,
-            "pctile": 0.3577
-          },
-          "potential_ast": {
-            "value": 3.0,
-            "pctile": 0.5012
-          },
-          "ast_points_created": {
-            "value": 7.8,
-            "pctile": 0.7421
-          },
-          "ast_to_pass_pct": {
-            "value": 0.214,
-            "pctile": 1.0
-          }
-        },
-        "possessions": {
-          "touches": {
-            "value": 17.8,
-            "pctile": 0.2993
-          },
-          "front_ct_touches": {
-            "value": 7.5,
-            "pctile": 0.1533
-          },
-          "time_of_poss": {
-            "value": 1.1,
-            "pctile": 0.5985
-          },
-          "avg_sec_per_touch": {
-            "value": 3.83,
-            "pctile": 0.8589
-          },
-          "pts_per_touch": {
-            "value": 0.296,
-            "pctile": 0.5231
-          },
-          "elbow_touches": {
-            "value": 0.0,
-            "pctile": 0.0
-          },
-          "post_touches": {
-            "value": 0.0,
-            "pctile": 0.0
-          },
-          "paint_touches": {
-            "value": 0.5,
-            "pctile": 0.1557
-          }
-        }
-      },
-      "shooting_tracking": {
-        "cs": {
-          "fgm": {
-            "value": 0.75,
-            "pctile": 0.1602
-          },
-          "fga": {
-            "value": 1.75,
-            "pctile": 0.1529
-          },
-          "fg_pct": {
-            "value": 0.429,
-            "pctile": 0.3665
-          },
-          "efg_pct": {
-            "value": 0.5,
-            "pctile": 0.2379
-          },
-          "fg3m": {
-            "value": 0.25,
-            "pctile": 0.2087
-          },
-          "fg3a": {
-            "value": 1.0,
-            "pctile": 0.2306
-          },
-          "fg3_pct": {
-            "value": 0.25,
-            "pctile": 0.168
-          }
-        },
-        "pullup": {
-          "fgm": {
-            "value": 0.5,
-            "pctile": 0.4378
-          },
-          "fga": {
-            "value": 1.5,
-            "pctile": 0.5
-          },
-          "fg_pct": {
-            "value": 0.333,
-            "pctile": 0.2065
-          },
-          "efg_pct": {
-            "value": 0.417,
-            "pctile": 0.3383
-          },
-          "fg3m": {
-            "value": 0.25,
-            "pctile": 0.7587
-          },
-          "fg3a": {
-            "value": 0.25,
-            "pctile": 0.505
-          },
-          "fg3_pct": {
-            "value": 1.0,
-            "pctile": 0.9454
-          }
-        },
-        "contested": {
-          "fgm": {
-            "value": 1.0,
-            "pctile": 0.4296
-          },
-          "fga": {
-            "value": 2.5,
-            "pctile": 0.5
-          },
-          "fg_pct": {
-            "value": 0.4,
-            "pctile": 0.2136
-          },
-          "efg_pct": {
-            "value": 0.45,
-            "pctile": 0.2718
-          },
-          "fg3m": {
-            "value": 0.25,
-            "pctile": 0.8325
-          },
-          "fg3a": {
-            "value": 0.25,
-            "pctile": 0.5558
-          },
-          "fg3_pct": {
-            "value": 1.0,
-            "pctile": 0.9362
-          }
-        },
-        "uncontested": {
-          "fgm": {
-            "value": 0.5,
-            "pctile": 0.1736
-          },
-          "fga": {
-            "value": 1.75,
-            "pctile": 0.2567
-          },
-          "fg_pct": {
-            "value": 0.2857,
-            "pctile": 0.0929
-          },
-          "efg_pct": {
-            "value": 0.3571,
-            "pctile": 0.1002
-          },
-          "fg3m": {
-            "value": 0.25,
-            "pctile": 0.2078
-          },
-          "fg3a": {
-            "value": 1.25,
-            "pctile": 0.2812
-          },
-          "fg3_pct": {
-            "value": 0.2,
-            "pctile": 0.123
-          }
-        }
-      },
       "career": {
         "totals": {
           "pts": 125,
@@ -7890,7 +7658,239 @@
         },
         "seasons_played": 3
       },
-      "td3_total": 0
+      "td3_total": 0,
+      "defense_tracking": {
+        "d_fgm": {
+          "value": 0.75,
+          "pctile": 0.0128
+        },
+        "d_fga": {
+          "value": 2.25,
+          "pctile": 0.0332
+        },
+        "d_fg_pct": {
+          "value": 0.333,
+          "pctile": 0.0204
+        },
+        "normal_fg_pct": {
+          "value": 0.429,
+          "pctile": 0.0561
+        },
+        "pct_plusminus": {
+          "value": -0.095,
+          "pctile": 0.0485
+        }
+      },
+      "playmaking_tracking": {
+        "drives": {
+          "drives": {
+            "value": 3.5,
+            "pctile": 0.5718
+          },
+          "drive_fgm": {
+            "value": 0.8,
+            "pctile": 0.6302
+          },
+          "drive_fga": {
+            "value": 1.8,
+            "pctile": 0.6423
+          },
+          "drive_fg_pct": {
+            "value": 0.429,
+            "pctile": 0.3771
+          },
+          "drive_pts": {
+            "value": 1.8,
+            "pctile": 0.5937
+          },
+          "drive_ast": {
+            "value": 0.5,
+            "pctile": 0.6448
+          },
+          "drive_tov": {
+            "value": 0.3,
+            "pctile": 0.5791
+          }
+        },
+        "passing": {
+          "passes_made": {
+            "value": 14.0,
+            "pctile": 0.3017
+          },
+          "passes_received": {
+            "value": 14.3,
+            "pctile": 0.3577
+          },
+          "potential_ast": {
+            "value": 3.0,
+            "pctile": 0.5012
+          },
+          "ast_points_created": {
+            "value": 7.8,
+            "pctile": 0.7421
+          },
+          "ast_to_pass_pct": {
+            "value": 0.214,
+            "pctile": 1.0
+          }
+        },
+        "possessions": {
+          "touches": {
+            "value": 17.8,
+            "pctile": 0.2968
+          },
+          "front_ct_touches": {
+            "value": 7.5,
+            "pctile": 0.1484
+          },
+          "time_of_poss": {
+            "value": 1.1,
+            "pctile": 0.5985
+          },
+          "avg_sec_per_touch": {
+            "value": 3.83,
+            "pctile": 0.8589
+          },
+          "pts_per_touch": {
+            "value": 0.296,
+            "pctile": 0.528
+          },
+          "elbow_touches": {
+            "value": 0.0,
+            "pctile": 0.0
+          },
+          "post_touches": {
+            "value": 0.0,
+            "pctile": 0.0
+          },
+          "paint_touches": {
+            "value": 0.5,
+            "pctile": 0.1557
+          }
+        }
+      },
+      "shooting_tracking": {
+        "cs": {
+          "fgm": {
+            "value": 0.75,
+            "pctile": 0.1529
+          },
+          "fga": {
+            "value": 1.75,
+            "pctile": 0.1529
+          },
+          "fg_pct": {
+            "value": 0.429,
+            "pctile": 0.3738
+          },
+          "efg_pct": {
+            "value": 0.5,
+            "pctile": 0.233
+          },
+          "fg3m": {
+            "value": 0.25,
+            "pctile": 0.2039
+          },
+          "fg3a": {
+            "value": 1.0,
+            "pctile": 0.2282
+          },
+          "fg3_pct": {
+            "value": 0.25,
+            "pctile": 0.1601
+          }
+        },
+        "pullup": {
+          "fgm": {
+            "value": 0.5,
+            "pctile": 0.4403
+          },
+          "fga": {
+            "value": 1.5,
+            "pctile": 0.5025
+          },
+          "fg_pct": {
+            "value": 0.333,
+            "pctile": 0.199
+          },
+          "efg_pct": {
+            "value": 0.417,
+            "pctile": 0.3433
+          },
+          "fg3m": {
+            "value": 0.25,
+            "pctile": 0.7687
+          },
+          "fg3a": {
+            "value": 0.25,
+            "pctile": 0.505
+          },
+          "fg3_pct": {
+            "value": 1.0,
+            "pctile": 0.9456
+          }
+        },
+        "contested": {
+          "fgm": {
+            "value": 1.0,
+            "pctile": 0.4199
+          },
+          "fga": {
+            "value": 2.5,
+            "pctile": 0.5024
+          },
+          "fg_pct": {
+            "value": 0.4,
+            "pctile": 0.2087
+          },
+          "efg_pct": {
+            "value": 0.45,
+            "pctile": 0.2718
+          },
+          "fg3m": {
+            "value": 0.25,
+            "pctile": 0.8422
+          },
+          "fg3a": {
+            "value": 0.25,
+            "pctile": 0.5631
+          },
+          "fg3_pct": {
+            "value": 1.0,
+            "pctile": 0.9369
+          }
+        },
+        "uncontested": {
+          "fgm": {
+            "value": 0.5,
+            "pctile": 0.1687
+          },
+          "fga": {
+            "value": 1.75,
+            "pctile": 0.2543
+          },
+          "fg_pct": {
+            "value": 0.2857,
+            "pctile": 0.088
+          },
+          "efg_pct": {
+            "value": 0.3571,
+            "pctile": 0.0929
+          },
+          "fg3m": {
+            "value": 0.25,
+            "pctile": 0.2005
+          },
+          "fg3a": {
+            "value": 1.25,
+            "pctile": 0.2738
+          },
+          "fg3_pct": {
+            "value": 0.2,
+            "pctile": 0.1047
+          }
+        }
+      }
     },
     {
       "id": 1627827,
@@ -8089,238 +8089,6 @@
       "blk_pct": 0.0,
       "stl_pct_pctile": 0.8161764705882353,
       "blk_pct_pctile": 0.0,
-      "defense_tracking": {
-        "d_fgm": {
-          "value": 0.8,
-          "pctile": 0.0128
-        },
-        "d_fga": {
-          "value": 2.2,
-          "pctile": 0.0282
-        },
-        "d_fg_pct": {
-          "value": 0.364,
-          "pctile": 0.0436
-        },
-        "normal_fg_pct": {
-          "value": 0.408,
-          "pctile": 0.0205
-        },
-        "pct_plusminus": {
-          "value": -0.044,
-          "pctile": 0.2077
-        }
-      },
-      "playmaking_tracking": {
-        "drives": {
-          "drives": {
-            "value": 0.0,
-            "pctile": 0.0
-          },
-          "drive_fgm": {
-            "value": 0.0,
-            "pctile": 0.0
-          },
-          "drive_fga": {
-            "value": 0.0,
-            "pctile": 0.0
-          },
-          "drive_fg_pct": {
-            "value": 0.0,
-            "pctile": 0.0
-          },
-          "drive_pts": {
-            "value": 0.0,
-            "pctile": 0.0
-          },
-          "drive_ast": {
-            "value": 0.0,
-            "pctile": 0.0
-          },
-          "drive_tov": {
-            "value": 0.0,
-            "pctile": 0.0
-          }
-        },
-        "passing": {
-          "passes_made": {
-            "value": 3.2,
-            "pctile": 0.0195
-          },
-          "passes_received": {
-            "value": 2.6,
-            "pctile": 0.0146
-          },
-          "potential_ast": {
-            "value": 0.4,
-            "pctile": 0.0365
-          },
-          "ast_points_created": {
-            "value": 1.0,
-            "pctile": 0.0998
-          },
-          "ast_to_pass_pct": {
-            "value": 0.125,
-            "pctile": 0.9002
-          }
-        },
-        "possessions": {
-          "touches": {
-            "value": 3.6,
-            "pctile": 0.0049
-          },
-          "front_ct_touches": {
-            "value": 2.2,
-            "pctile": 0.0097
-          },
-          "time_of_poss": {
-            "value": 0.1,
-            "pctile": 0.0024
-          },
-          "avg_sec_per_touch": {
-            "value": 0.97,
-            "pctile": 0.0827
-          },
-          "pts_per_touch": {
-            "value": 0.167,
-            "pctile": 0.0925
-          },
-          "elbow_touches": {
-            "value": 0.0,
-            "pctile": 0.0
-          },
-          "post_touches": {
-            "value": 0.0,
-            "pctile": 0.0
-          },
-          "paint_touches": {
-            "value": 0.0,
-            "pctile": 0.0
-          }
-        }
-      },
-      "shooting_tracking": {
-        "cs": {
-          "fgm": {
-            "value": 0.2,
-            "pctile": 0.0291
-          },
-          "fga": {
-            "value": 0.8,
-            "pctile": 0.0534
-          },
-          "fg_pct": {
-            "value": 0.25,
-            "pctile": 0.034
-          },
-          "efg_pct": {
-            "value": 0.375,
-            "pctile": 0.0631
-          },
-          "fg3m": {
-            "value": 0.2,
-            "pctile": 0.1796
-          },
-          "fg3a": {
-            "value": 0.8,
-            "pctile": 0.2039
-          },
-          "fg3_pct": {
-            "value": 0.25,
-            "pctile": 0.168
-          }
-        },
-        "pullup": {
-          "fgm": {
-            "value": null,
-            "pctile": null
-          },
-          "fga": {
-            "value": null,
-            "pctile": null
-          },
-          "fg_pct": {
-            "value": null,
-            "pctile": null
-          },
-          "efg_pct": {
-            "value": null,
-            "pctile": null
-          },
-          "fg3m": {
-            "value": null,
-            "pctile": null
-          },
-          "fg3a": {
-            "value": null,
-            "pctile": null
-          },
-          "fg3_pct": {
-            "value": null,
-            "pctile": null
-          }
-        },
-        "contested": {
-          "fgm": {
-            "value": 0.0,
-            "pctile": 0.0
-          },
-          "fga": {
-            "value": 0.2,
-            "pctile": 0.0121
-          },
-          "fg_pct": {
-            "value": 0.0,
-            "pctile": 0.0
-          },
-          "efg_pct": {
-            "value": 0.0,
-            "pctile": 0.0
-          },
-          "fg3m": {
-            "value": 0.0,
-            "pctile": 0.0
-          },
-          "fg3a": {
-            "value": 0.2,
-            "pctile": 0.5073
-          },
-          "fg3_pct": {
-            "value": 0.0,
-            "pctile": 0.0
-          }
-        },
-        "uncontested": {
-          "fgm": {
-            "value": 0.2,
-            "pctile": 0.0685
-          },
-          "fga": {
-            "value": 0.6,
-            "pctile": 0.088
-          },
-          "fg_pct": {
-            "value": 0.3333,
-            "pctile": 0.1467
-          },
-          "efg_pct": {
-            "value": 0.5,
-            "pctile": 0.3081
-          },
-          "fg3m": {
-            "value": 0.2,
-            "pctile": 0.1809
-          },
-          "fg3a": {
-            "value": 0.6,
-            "pctile": 0.1614
-          },
-          "fg3_pct": {
-            "value": 0.3333,
-            "pctile": 0.4162
-          }
-        }
-      },
       "career": {
         "totals": {
           "pts": 5035,
@@ -8390,7 +8158,239 @@
         },
         "seasons_played": 11
       },
-      "td3_total": 0
+      "td3_total": 0,
+      "defense_tracking": {
+        "d_fgm": {
+          "value": 0.8,
+          "pctile": 0.0128
+        },
+        "d_fga": {
+          "value": 2.2,
+          "pctile": 0.0281
+        },
+        "d_fg_pct": {
+          "value": 0.364,
+          "pctile": 0.0383
+        },
+        "normal_fg_pct": {
+          "value": 0.407,
+          "pctile": 0.0179
+        },
+        "pct_plusminus": {
+          "value": -0.043,
+          "pctile": 0.2117
+        }
+      },
+      "playmaking_tracking": {
+        "drives": {
+          "drives": {
+            "value": 0.0,
+            "pctile": 0.0
+          },
+          "drive_fgm": {
+            "value": 0.0,
+            "pctile": 0.0
+          },
+          "drive_fga": {
+            "value": 0.0,
+            "pctile": 0.0
+          },
+          "drive_fg_pct": {
+            "value": 0.0,
+            "pctile": 0.0
+          },
+          "drive_pts": {
+            "value": 0.0,
+            "pctile": 0.0
+          },
+          "drive_ast": {
+            "value": 0.0,
+            "pctile": 0.0
+          },
+          "drive_tov": {
+            "value": 0.0,
+            "pctile": 0.0
+          }
+        },
+        "passing": {
+          "passes_made": {
+            "value": 3.2,
+            "pctile": 0.0195
+          },
+          "passes_received": {
+            "value": 2.6,
+            "pctile": 0.0146
+          },
+          "potential_ast": {
+            "value": 0.4,
+            "pctile": 0.0316
+          },
+          "ast_points_created": {
+            "value": 1.0,
+            "pctile": 0.0973
+          },
+          "ast_to_pass_pct": {
+            "value": 0.125,
+            "pctile": 0.9002
+          }
+        },
+        "possessions": {
+          "touches": {
+            "value": 3.6,
+            "pctile": 0.0049
+          },
+          "front_ct_touches": {
+            "value": 2.2,
+            "pctile": 0.0097
+          },
+          "time_of_poss": {
+            "value": 0.1,
+            "pctile": 0.0024
+          },
+          "avg_sec_per_touch": {
+            "value": 0.97,
+            "pctile": 0.0803
+          },
+          "pts_per_touch": {
+            "value": 0.167,
+            "pctile": 0.0852
+          },
+          "elbow_touches": {
+            "value": 0.0,
+            "pctile": 0.0
+          },
+          "post_touches": {
+            "value": 0.0,
+            "pctile": 0.0
+          },
+          "paint_touches": {
+            "value": 0.0,
+            "pctile": 0.0
+          }
+        }
+      },
+      "shooting_tracking": {
+        "cs": {
+          "fgm": {
+            "value": 0.2,
+            "pctile": 0.0291
+          },
+          "fga": {
+            "value": 0.8,
+            "pctile": 0.0534
+          },
+          "fg_pct": {
+            "value": 0.25,
+            "pctile": 0.0316
+          },
+          "efg_pct": {
+            "value": 0.375,
+            "pctile": 0.0583
+          },
+          "fg3m": {
+            "value": 0.2,
+            "pctile": 0.1796
+          },
+          "fg3a": {
+            "value": 0.8,
+            "pctile": 0.2063
+          },
+          "fg3_pct": {
+            "value": 0.25,
+            "pctile": 0.1601
+          }
+        },
+        "pullup": {
+          "fgm": {
+            "value": null,
+            "pctile": null
+          },
+          "fga": {
+            "value": null,
+            "pctile": null
+          },
+          "fg_pct": {
+            "value": null,
+            "pctile": null
+          },
+          "efg_pct": {
+            "value": null,
+            "pctile": null
+          },
+          "fg3m": {
+            "value": null,
+            "pctile": null
+          },
+          "fg3a": {
+            "value": null,
+            "pctile": null
+          },
+          "fg3_pct": {
+            "value": null,
+            "pctile": null
+          }
+        },
+        "contested": {
+          "fgm": {
+            "value": 0.0,
+            "pctile": 0.0
+          },
+          "fga": {
+            "value": 0.2,
+            "pctile": 0.0121
+          },
+          "fg_pct": {
+            "value": 0.0,
+            "pctile": 0.0
+          },
+          "efg_pct": {
+            "value": 0.0,
+            "pctile": 0.0
+          },
+          "fg3m": {
+            "value": 0.0,
+            "pctile": 0.0
+          },
+          "fg3a": {
+            "value": 0.2,
+            "pctile": 0.5073
+          },
+          "fg3_pct": {
+            "value": 0.0,
+            "pctile": 0.0
+          }
+        },
+        "uncontested": {
+          "fgm": {
+            "value": 0.2,
+            "pctile": 0.066
+          },
+          "fga": {
+            "value": 0.6,
+            "pctile": 0.088
+          },
+          "fg_pct": {
+            "value": 0.3333,
+            "pctile": 0.1491
+          },
+          "efg_pct": {
+            "value": 0.5,
+            "pctile": 0.3007
+          },
+          "fg3m": {
+            "value": 0.2,
+            "pctile": 0.1809
+          },
+          "fg3a": {
+            "value": 0.6,
+            "pctile": 0.1614
+          },
+          "fg3_pct": {
+            "value": 0.3333,
+            "pctile": 0.4084
+          }
+        }
+      }
     }
   ],
   "league_medians": {
