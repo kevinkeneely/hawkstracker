@@ -29,6 +29,10 @@ import TrendSparkline, { formatValue } from '../components/TrendSparkline'
 // denominators (TmFGM, team FGA, etc.) that aren't in the per-game data today.
 // Within ~0.5% for most players; fine for display.
 export const PLAYER_STATS = [
+  // Nov 23: Net moved to first column per Kevin — gives the "how is this
+  // player impacting the team" number prime position right next to the name
+  // on both the Trends tab table and the Trends section on each player profile.
+  { key: 'net_rating', label: 'NET',   format: 'rating', color: '#27ae60', aggregate: possessionWeightedMean('net_rating'), skipKey: null },
   { key: 'pts',        label: 'PPG',   format: 'num',    color: '#e03a3e', aggregate: meanOf('pts'),             skipKey: null   },
   { key: 'oreb_pct',   label: 'OReb%', format: 'pct',    color: '#16a085', aggregate: possessionWeightedMean('oreb_pct'), skipKey: null },
   { key: 'ast_pct',    label: 'AST%',  format: 'pct',    color: '#2980b9', aggregate: possessionWeightedMean('ast_pct'),  skipKey: null },
@@ -40,7 +44,6 @@ export const PLAYER_STATS = [
   { key: 'ft_pct',     label: 'FT%',   format: 'pct',    color: '#d35400', aggregate: ratioOf('ftm', 'fta'),     skipKey: 'fta'  },
   { key: 'efg_pct',    label: 'eFG%',  format: 'pct',    color: '#8e44ad', aggregate: efgAggregate,              skipKey: 'fga'  },
   { key: 'ts_pct',     label: 'TS%',   format: 'pct',    color: '#c2185b', aggregate: tsAggregate,               skipKey: 'fga'  },
-  { key: 'net_rating', label: 'NET',   format: 'rating', color: '#27ae60', aggregate: possessionWeightedMean('net_rating'), skipKey: null },
 ]
 
 function meanOf(key) {
