@@ -2734,7 +2734,7 @@ header {
   margin: 0 0 4px;
 }
 .advanced-page-sub {
-  color: var(--text);
+  color: var(--text-dim);
   font-size: 14px;
   margin: 0;
 }
@@ -2751,7 +2751,7 @@ header {
   padding: 8px 16px;
   font-size: 14px;
   font-weight: 500;
-  color: var(--text);
+  color: var(--text-dim);
   background: var(--card, #1a1a1a);
   border: 1px solid var(--border);
   border-radius: 6px;
@@ -2789,18 +2789,18 @@ header {
 .adv-scatter-desc {
   margin: 0 0 4px;
   font-size: 13px;
-  color: var(--text);
+  color: var(--text-dim);
 }
 .adv-scatter-note {
   margin: 4px 0 0;
   font-size: 12px;
-  color: var(--text);
+  color: var(--text-dim);
   font-style: italic;
 }
 .adv-scatter-nodata {
   text-align: center;
   padding: 40px;
-  color: var(--text);
+  color: var(--text-dim);
   font-style: italic;
 }
 .adv-scatter-canvas-wrap {
@@ -2819,12 +2819,12 @@ header {
 }
 .adv-scatter-median {
   stroke: var(--accent, #c084fc);
-  stroke-opacity: 0.6;
-  stroke-width: 1;
+  stroke-opacity: 0.9;
+  stroke-width: 1.5;
   stroke-dasharray: 4 4;
 }
 .adv-scatter-tick-label {
-  fill: var(--text);
+  fill: var(--text-h);
   font-size: 11px;
   font-family: var(--mono);
 }
@@ -4194,7 +4194,7 @@ header {
   padding: 6px 14px;
   font-size: 13px;
   font-weight: 500;
-  color: var(--text);
+  color: var(--text-dim);
   background: transparent;
   border: 1px solid var(--border);
   cursor: pointer;
