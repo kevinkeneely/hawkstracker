@@ -20,7 +20,26 @@
  *   xInvert, yInvert - flip the axis so "best" is always in the upper-right
  */
 
-import { useMemo, useState } from 'react'
+import { useMemo, useRef, useState } from 'react'
+import { downloadNodeAsPng } from '../utils/downloadImage'
+
+// Nov 23: hardcoded here to build the Save PNG filename. Matches the
+// convention in PaceProjections / MilestonesToWatch. If the Advanced
+// tab ever gets a season selector, promote this to a prop.
+const CURRENT_SEASON = '2026-27'
+
+/** Turn a chart title into a slug for the saved filename.
+ *  "Catch & Shoot 3P% × Pull-Up 3P%" → "catch-shoot-3p-x-pull-up-3p"
+ *  "Deflections × Loose Balls Recovered" → "deflections-x-loose-balls-recovered"
+ */
+function slugify(title) {
+  return String(title)
+    .toLowerCase()
+    .replace(/×/g, 'x')      // keep × readable as "x"
+    .replace(/%/g, '')       // "3P%" → "3p"
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '')
+}
 
 const W = 800, H = 500
 const PAD = { top: 24, right: 30, bottom: 50, left: 60 }
@@ -43,6 +62,17 @@ export default function AdvancedScatterPlot({
   // again on the same player or on the empty background.
   const [pinned, setPinned] = useState(null)
   const [highlightHawks, setHighlightHawks] = useState(false)
+
+  // Save-PNG plumbing — matches the pattern used on ComparePage. The ref
+  // sits on the whole <section>, so the saved image includes the title,
+  // description, chart, and (unavoidably) the Save PNG button itself. The
+  // button is small enough in the corner that it reads as part of the UI,
+  // not chart content.
+  const cardRef = useRef(null)
+  const handleDownload = () => {
+    if (!cardRef.current) return
+    downloadNodeAsPng(cardRef.current, `${slugify(title)}-${CURRENT_SEASON}`)
+  }
 
   // Prefer qualified players for the main pool; fall back to all if nobody
   // qualifies (early season). Same pattern ChartsPage uses.
@@ -98,19 +128,29 @@ export default function AdvancedScatterPlot({
   }
 
   return (
-    <section className="adv-scatter">
+    <section className="adv-scatter" ref={cardRef}>
       <header className="adv-scatter-header">
         <div className="adv-scatter-title-row">
           <h3>{title}</h3>
-          <button
-            type="button"
-            className={`adv-scatter-hawks-toggle ${highlightHawks ? 'active' : ''}`}
-            onClick={() => setHighlightHawks(v => !v)}
-            title={highlightHawks ? 'Show all players normally' : 'Highlight Hawks players'}
-            aria-pressed={highlightHawks}
-          >
-            ATL
-          </button>
+          <div className="adv-scatter-title-actions">
+            <button
+              type="button"
+              className={`adv-scatter-hawks-toggle ${highlightHawks ? 'active' : ''}`}
+              onClick={() => setHighlightHawks(v => !v)}
+              title={highlightHawks ? 'Show all players normally' : 'Highlight Hawks players'}
+              aria-pressed={highlightHawks}
+            >
+              ATL
+            </button>
+            <button
+              type="button"
+              className="adv-scatter-save-btn"
+              onClick={handleDownload}
+              title="Download this chart as PNG"
+            >
+              Save PNG
+            </button>
+          </div>
         </div>
         <p className="adv-scatter-desc">{description}</p>
         {isEarlySeason && (

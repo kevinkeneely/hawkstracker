@@ -5596,3 +5596,45 @@ header {
   color: var(--rank-bad-text);
   font-weight: 600;
 }
+
+/* ---- Advanced scatter plot: Save PNG button + actions wrapper ------
+   Nov 23: added a title-actions wrapper to the right side of the chart
+   title row. Holds the existing ATL toggle + the new Save PNG button
+   side by side, pushed to the far right via margin-left: auto. */
+.adv-scatter-title-actions {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.adv-scatter-save-btn {
+  padding: 4px 10px;
+  background: transparent;
+  color: var(--text-dim);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  font-size: 11px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: color 0.12s ease, border-color 0.12s ease, background 0.12s ease;
+}
+
+.adv-scatter-save-btn:hover {
+  color: var(--text-h);
+  border-color: var(--accent-border);
+  background: color-mix(in srgb, var(--accent) 6%, transparent);
+}
+
+/* Mobile — stack actions below the title instead of cramming them on one
+   row (the ATL + Save PNG + long title combo would wrap awkwardly). */
+@media (max-width: 600px) {
+  .adv-scatter-title-row {
+    flex-wrap: wrap;
+  }
+  .adv-scatter-title-actions {
+    margin-left: 0;
+    width: 100%;
+    justify-content: flex-end;
+  }
+}
