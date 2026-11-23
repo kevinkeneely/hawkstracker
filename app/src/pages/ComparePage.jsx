@@ -81,7 +81,9 @@ export default function ComparePage({ playerData }) {
   const pageRef = useRef(null)
   const handleDownload = () => {
     if (!p1 || !p2) return
-    downloadNodeAsPng(pageRef.current, `${p1.name}-vs-${p2.name}`)
+    downloadNodeAsPng(pageRef.current, `${p1.name}-vs-${p2.name}`, {
+      ignoreSelector: '.save-png-btn',
+    })
   }
 
   if (!p1 || !p2) {

@@ -44,7 +44,12 @@ async function urlToDataUri(url) {
   })
 }
 
-export async function downloadNodeAsPng(node, filename) {
+export async function downloadNodeAsPng(node, filename, options = {}) {
+  // options.ignoreSelector: CSS selector matching elements that should be
+  // SKIPPED during capture (e.g. the Save PNG button itself, so it
+  // doesn't appear in the downloaded image). Elements stay fully visible
+  // in the DOM — html2canvas simply pretends they aren't there.
+  const ignoreSelector = options.ignoreSelector || null
   if (!node) return
   const svgImages = Array.from(node.querySelectorAll('image'))
   const originalHrefs = svgImages.map(img => img.getAttribute('href'))
@@ -72,6 +77,15 @@ export async function downloadNodeAsPng(node, filename) {
       scale: 2,
       useCORS: false,
       logging: false,
+      ignoreElements: ignoreSelector
+        ? (el) => {
+            try {
+              return !!(el.matches && el.matches(ignoreSelector))
+            } catch {
+              return false
+            }
+          }
+        : undefined,
     })
     canvas.toBlob((blob) => {
       if (!blob) throw new Error('Canvas toBlob returned null')

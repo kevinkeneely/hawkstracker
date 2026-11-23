@@ -71,7 +71,12 @@ export default function AdvancedScatterPlot({
   const cardRef = useRef(null)
   const handleDownload = () => {
     if (!cardRef.current) return
-    downloadNodeAsPng(cardRef.current, `${slugify(title)}-${CURRENT_SEASON}`)
+    // Hide the Save PNG button from the capture so the saved image is
+    // just the chart card, not a chart card with a tiny "Save PNG"
+    // button baked in. See downloadNodeAsPng for how ignoreSelector works.
+    downloadNodeAsPng(cardRef.current, `${slugify(title)}-${CURRENT_SEASON}`, {
+      ignoreSelector: '.adv-scatter-save-btn',
+    })
   }
 
   // Prefer qualified players for the main pool; fall back to all if nobody
