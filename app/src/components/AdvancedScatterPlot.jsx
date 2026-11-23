@@ -69,14 +69,23 @@ export default function AdvancedScatterPlot({
   // button is small enough in the corner that it reads as part of the UI,
   // not chart content.
   const cardRef = useRef(null)
-  const handleDownload = () => {
+  const handleDownload = async () => {
     if (!cardRef.current) return
-    // Hide the Save PNG button from the capture so the saved image is
-    // just the chart card, not a chart card with a tiny "Save PNG"
-    // button baked in. See downloadNodeAsPng for how ignoreSelector works.
-    downloadNodeAsPng(cardRef.current, `${slugify(title)}-${CURRENT_SEASON}`, {
-      ignoreSelector: '.adv-scatter-save-btn',
-    })
+    // Hide the Save PNG button from the capture AND enable save-mode
+    // styling: adding `saving-png` to the card activates a scoped CSS
+    // rule that paints every Hawks player's ring Hawks-red for the
+    // snapshot. Removed again in finally so the live chart looks the
+    // same after save.
+    cardRef.current.classList.add('saving-png')
+    try {
+      await downloadNodeAsPng(cardRef.current, `${slugify(title)}-${CURRENT_SEASON}`, {
+        ignoreSelector: '.adv-scatter-save-btn',
+      })
+    } finally {
+      // cardRef.current can be null here if the component unmounted during
+      // the async capture — check before touching classList.
+      cardRef.current?.classList.remove('saving-png')
+    }
   }
 
   // Prefer qualified players for the main pool; fall back to all if nobody
@@ -215,7 +224,7 @@ export default function AdvancedScatterPlot({
             const cx = scale.toX(p.x), cy = scale.toY(p.y)
             const isHawk = p.team === 'ATL'
             const groupOpacity = highlightHawks && !isHawk ? 0.25 : 1
-            const ringClass = `adv-scatter-dot-ring${p.qualified ? '' : ' faded'}${highlightHawks && isHawk ? ' hawks-highlight' : ''}`
+            const ringClass = `adv-scatter-dot-ring${p.qualified ? '' : ' faded'}${highlightHawks && isHawk ? ' hawks-highlight' : ''}${isHawk ? ' is-hawk' : ''}`
             return (
               <g key={p.id}
                  opacity={groupOpacity}

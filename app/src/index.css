@@ -5638,3 +5638,14 @@ header {
     justify-content: flex-end;
   }
 }
+
+/* ---- Save-mode: Hawks players get a red ring in the captured PNG ----
+   Nov 23: triggered only while html2canvas is capturing an advanced
+   scatter plot. The .saving-png class is added by handleDownload before
+   the snapshot and removed in finally, so the live chart never shows
+   this styling. Other players stay at full opacity — Hawks just gain a
+   red outline so they stand out in the saved image. */
+.adv-scatter.saving-png .adv-scatter-dot-ring.is-hawk {
+  stroke: #C8102E;
+  stroke-width: 3;
+}
