@@ -5580,3 +5580,19 @@ header {
   background: color-mix(in srgb, var(--accent) 4%, transparent);
   font-style: italic;
 }
+
+/* ---- Box score +/- column: color by sign (Nov 23) ------------------
+   Green for positive, red for negative, default text color for zero
+   (treated as "no change", not "positive"). Uses the same CSS vars as
+   the rank-good / rank-bad convention on stat tiles so the colors
+   match in both light and dark mode. */
+.boxscore-table td.bx-pm-good,
+.player-stats td.bx-pm-good {
+  color: var(--rank-good-text);
+  font-weight: 600;
+}
+.boxscore-table td.bx-pm-bad,
+.player-stats td.bx-pm-bad {
+  color: var(--rank-bad-text);
+  font-weight: 600;
+}

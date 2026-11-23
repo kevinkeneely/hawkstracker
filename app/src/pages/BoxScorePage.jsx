@@ -96,6 +96,18 @@ function fmtPlusMinus(v) {
   return n > 0 ? `+${n}` : `${n}`
 }
 
+// Nov 23: color the +/- cell by sign. Green for positive, red for negative,
+// neutral for zero/null — matching the rank-good / rank-bad convention
+// used elsewhere (stat tiles, Hustle/Clutch percentile fills), so the
+// box score looks like it belongs with the rest of the site.
+function plusMinusClass(v) {
+  if (v == null) return ''
+  const n = Number(v)
+  if (n > 0) return 'bx-pm-good'
+  if (n < 0) return 'bx-pm-bad'
+  return ''  // n === 0 → neutral
+}
+
 export default function BoxScorePage({ season, playerData }) {
   const { id } = useParams()
 
@@ -391,7 +403,7 @@ function PlayerRow({ p }) {
       <td>{fmtMA(p.fgm, p.fga)}</td>
       <td>{fmtMA(p.fg3m, p.fg3a)}</td>
       <td>{fmtMA(p.ftm, p.fta)}</td>
-      <td>{fmtPlusMinus(p.plusMinus)}</td>
+      <td className={plusMinusClass(p.plusMinus)}>{fmtPlusMinus(p.plusMinus)}</td>
     </tr>
   )
 }
