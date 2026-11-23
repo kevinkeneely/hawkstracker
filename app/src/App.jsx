@@ -21,10 +21,27 @@ import { Analytics } from '@vercel/analytics/react'
 
 const HAWKS_TEAM_ID = 1610612737
 
-// Seasons the dashboard knows about. Add new strings here when a season ends
-// and before the next one starts. The order controls dropdown order (newest
-// first). To be a valid value for state, URL, or localStorage.
-const SEASONS = ['2026-27', '2025-26']
+// Seasons the dashboard knows about. Auto-computed from today's date
+// — July 1 flip, matching the pipeline's SEASON cutover. Oldest season
+// in the list is 2025-26 (the first season this site covered); newest
+// is whatever today's date resolves to. Newest-first for dropdown order.
+//
+// No manual edit needed at season flip. The existing data-exists guard
+// below (setSeason fallback when the current season has no players yet)
+// handles the July–October empty-data window gracefully: users see the
+// most recent season with real data as the default.
+function computeSeasons() {
+  const today = new Date()
+  const month = today.getMonth() + 1  // 1-12
+  const year  = today.getFullYear()
+  const startYear = month >= 7 ? year : year - 1
+  const fmt = (y) => `${y}-${String(y + 1).slice(-2)}`
+  const current = startYear
+  const list = []
+  for (let y = current; y >= 2025; y--) list.push(fmt(y))
+  return list
+}
+const SEASONS = computeSeasons()
 const CURRENT_SEASON = SEASONS[0]
 const isValidSeason = (s) => SEASONS.includes(s)
 

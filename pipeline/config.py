@@ -1,8 +1,13 @@
 """
 Configuration for the Hawks data pipeline.
 
-Change SEASON here when the new NBA season starts.
-Add or remove endpoints by editing PLAYER_ENDPOINTS or TEAM_ENDPOINTS below.
+SEASON auto-computes from today's date (July 1 cutover) — no manual
+edit needed at season flip. For abnormal seasons (lockout, calendar
+shift), set the HAWKSTRACKER_SEASON env var (e.g. "2027-28") to
+override.
+
+Add or remove endpoints by editing PLAYER_ENDPOINTS or TEAM_ENDPOINTS
+below.
 """
 
 # ---------------------------------------------------------------------------
@@ -14,6 +19,8 @@ Add or remove endpoints by editing PLAYER_ENDPOINTS or TEAM_ENDPOINTS below.
 # accepts without rate-limiting. Must run before any
 # `from nba_api.stats.endpoints import ...` statement.
 # ---------------------------------------------------------------------------
+import os
+from datetime import date
 from nba_api.stats.library.http import NBAStatsHTTP
 
 NBAStatsHTTP.headers.update({
@@ -36,8 +43,27 @@ NBAStatsHTTP.headers.update({
 # Atlanta Hawks team ID (NBA.com's internal ID)
 ATLANTA_TEAM_ID = 1610612737
 
-# Current season — change this once per year
-SEASON = "2026-27"
+# Current NBA season. Auto-computed from today's date — flips on July 1
+# to match the NBA's offseason boundary (playoffs end in June, preseason
+# starts in October). The pipeline's writers all name their output files
+# with the season suffix, so the flip naturally freezes last season's
+# files and starts writing new-season files — no manual snapshot step.
+#
+# Env override: set HAWKSTRACKER_SEASON="YYYY-YY" to force a specific
+# season (lockout year, calendar shift, mid-year testing, etc.). The
+# computed default resumes on the next pipeline run after the env is
+# cleared.
+def _compute_current_season():
+    override = os.environ.get("HAWKSTRACKER_SEASON")
+    if override:
+        return override
+    today = date.today()
+    # Month >= 7 (July+) = we're in the NEW season that starts this fall;
+    # month < 7 = still in the season that started last fall.
+    start_year = today.year if today.month >= 7 else today.year - 1
+    return f"{start_year}-{str(start_year + 1)[-2:]}"
+
+SEASON = _compute_current_season()
 
 # Season-suffixed filenames. Every writer and reader in the pipeline uses
 # these so each season's data lives in its own file (e.g. hawksData-2026-27.json).
