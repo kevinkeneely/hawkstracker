@@ -200,9 +200,9 @@ export default function BoxScorePage({ season, playerData }) {
         <header className="boxscore-header">
           <div className="boxscore-date">{formatGameDate(game.date)}</div>
           <h1>
-            <span className="boxscore-team-name">ATL</span>{' '}
+            <Link to="/teams/ATL" className="boxscore-team-name" title="Open ATL team page">ATL</Link>{' '}
             <span className="boxscore-vs">{vsAt}</span>{' '}
-            <span className="boxscore-team-name">{game.opp_tricode}</span>
+            <Link to={`/teams/${game.opp_tricode}`} className="boxscore-team-name" title={`Open ${game.opp_tricode} team page`}>{game.opp_tricode}</Link>
           </h1>
           <p className="boxscore-upcoming-note">Scheduled: {game.status || 'TBD'}</p>
           <p className="boxscore-upcoming-sub">
@@ -275,6 +275,14 @@ export default function BoxScorePage({ season, playerData }) {
     teamScores[r[teamIdx.TEAM_ABBREVIATION]] = r[teamIdx.PTS]
   }
 
+  // Which team won — for the loser-fade treatment on the header. Returns
+  // null on a tie (shouldn't happen in NBA regulation/OT, but safety).
+  const maxScore = Math.max(...Object.values(teamScores))
+  const tiedAtMax = Object.values(teamScores).filter((s) => s === maxScore).length > 1
+  const winnerTricode = tiedAtMax
+    ? null
+    : Object.keys(teamScores).find((t) => teamScores[t] === maxScore)
+
   return (
     <HawksIdsContext.Provider value={hawksIds}>
     <div className="boxscore">
@@ -285,13 +293,23 @@ export default function BoxScorePage({ season, playerData }) {
       <header className="boxscore-header">
         {game && <div className="boxscore-date">{formatGameDate(game.date)}</div>}
         <h1>
-          {teams.map((t, i) => (
-            <span key={t}>
-              {i > 0 && <span className="boxscore-vs"> vs </span>}
-              <span className="boxscore-team-name">{t}</span>{' '}
-              <span className="boxscore-team-score">{teamScores[t] ?? '—'}</span>
-            </span>
-          ))}
+          {teams.map((t, i) => {
+            const isLoser = winnerTricode != null && t !== winnerTricode
+            const faded = isLoser ? ' boxscore-team--loser' : ''
+            return (
+              <span key={t}>
+                {i > 0 && <span className="boxscore-vs"> vs </span>}
+                <Link
+                  to={`/teams/${t}`}
+                  className={`boxscore-team-name${faded}`}
+                  title={`Open ${t} team page`}
+                >
+                  {t}
+                </Link>{' '}
+                <span className={`boxscore-team-score${faded}`}>{teamScores[t] ?? '—'}</span>
+              </span>
+            )
+          })}
         </h1>
       </header>
 
@@ -350,7 +368,7 @@ function TeamBox({ team, players }) {
   const teamClass = team === 'ATL' ? 'is-hawks' : 'is-opponent'
   return (
     <section className={`boxscore-team ${teamClass}`}>
-      <h2>{team}</h2>
+      <h2><Link to={`/teams/${team}`} className="boxscore-team-section-link" title={`Open ${team} team page`}>{team}</Link></h2>
       <div className="boxscore-table-wrap">
         <table className="boxscore-table">
           <thead>
@@ -502,7 +520,7 @@ function HustleTeamBox({ team }) {
   const teamClass = team.teamTricode === 'ATL' ? 'is-hawks' : 'is-opponent'
   return (
     <section className={`boxscore-team ${teamClass}`}>
-      <h2>{team.teamTricode}</h2>
+      <h2><Link to={`/teams/${team.teamTricode}`} className="boxscore-team-section-link" title={`Open ${team.teamTricode} team page`}>{team.teamTricode}</Link></h2>
       <div className="boxscore-table-wrap">
         <table className="boxscore-table">
           <thead>
@@ -604,7 +622,7 @@ function DefenseTeamBox({ team }) {
   const teamClass = team.teamTricode === 'ATL' ? 'is-hawks' : 'is-opponent'
   return (
     <section className={`boxscore-team ${teamClass}`}>
-      <h2>{team.teamTricode}</h2>
+      <h2><Link to={`/teams/${team.teamTricode}`} className="boxscore-team-section-link" title={`Open ${team.teamTricode} team page`}>{team.teamTricode}</Link></h2>
       <div className="boxscore-table-wrap">
         <table className="boxscore-table">
           <thead>
@@ -699,7 +717,7 @@ function ShootingTeamBox({ team }) {
   const teamClass = team.teamTricode === 'ATL' ? 'is-hawks' : 'is-opponent'
   return (
     <section className={`boxscore-team ${teamClass}`}>
-      <h2>{team.teamTricode}</h2>
+      <h2><Link to={`/teams/${team.teamTricode}`} className="boxscore-team-section-link" title={`Open ${team.teamTricode} team page`}>{team.teamTricode}</Link></h2>
       <div className="boxscore-table-wrap">
         <table className="boxscore-table">
           <thead>
@@ -773,7 +791,7 @@ function PlaymakingTeamBox({ team }) {
   const teamClass = team.teamTricode === 'ATL' ? 'is-hawks' : 'is-opponent'
   return (
     <section className={`boxscore-team ${teamClass}`}>
-      <h2>{team.teamTricode}</h2>
+      <h2><Link to={`/teams/${team.teamTricode}`} className="boxscore-team-section-link" title={`Open ${team.teamTricode} team page`}>{team.teamTricode}</Link></h2>
       <div className="boxscore-table-wrap">
         <table className="boxscore-table">
           <thead>

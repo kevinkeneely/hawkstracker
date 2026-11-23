@@ -5649,3 +5649,39 @@ header {
   stroke: #C8102E;
   stroke-width: 3;
 }
+
+/* ---- Box score: loser fade + clickable team tricodes (Nov 23) -------
+   Winner pops; loser gets a soft 0.4-opacity fade on the team code + score.
+   The vs is untouched so the matchup reads naturally. Tricodes become
+   clickable links to each team's page — in the main h1 and in every
+   team-section header bar across the 5 tabs (Traditional, Hustle, Defense,
+   Shooting, Playmaking). */
+
+.boxscore-team--loser {
+  opacity: 0.4;
+}
+
+/* Tricode link in the main h1 header — looks identical to the plain
+   span it replaced (inherits h1's color + font), gains an underline on
+   hover so it reads as clickable. */
+.boxscore-team-name {
+  color: inherit;
+  text-decoration: none;
+  transition: opacity 0.12s ease;
+}
+.boxscore-team-name:hover {
+  text-decoration: underline;
+}
+
+/* Tricode link inside each team-section header bar (ATL red, opponent
+   gold). Fills the whole bar so clicking anywhere on the strip opens
+   the team page — not just the tricode text itself. The h2 keeps its
+   padding; display:block makes the Link expand to the h2's content box. */
+.boxscore-team-section-link {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+.boxscore-team-section-link:hover {
+  text-decoration: underline;
+}
