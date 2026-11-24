@@ -159,9 +159,21 @@ def compute_per(players_headers, players_rows, teams_base_headers, teams_base_ro
 
     # ---- Percentile rank each PER within the league distribution so the
     #      Advanced tab's percentile bar can render it like any other stat.
-    #      Only qualifying players (MIN >= 500) are counted in the pool —
-    #      matches the convention used elsewhere in the site for rate stats.
-    QUALIFY_MIN = 500
+    #      Qualifier scales with how far the season has progressed, mirroring
+    #      NBA.com and Basketball-Reference leaderboard conventions: a player
+    #      qualifies if their total minutes clear a threshold prorated to
+    #      500 MIN at a full 82-game season.
+    #
+    #      Without this proration the pool collapses early in the season.
+    #      At Nov 23 only ~45 players league-wide clear 500 MIN, and they're
+    #      almost all 35+ mpg workhorses, pushing the pool median to ~17.3
+    #      and making a solid 16 PER look like the 24th percentile.
+    #
+    #      games_elapsed = max GP seen across the league (the furthest-along
+    #      team's game count). Floor of 50 MIN handles opening weekend when
+    #      the formula would otherwise accept a 1-minute cameo.
+    games_elapsed = max((row[p["GP"]] or 0) for row in players_rows)
+    QUALIFY_MIN = max(50, round(500 * games_elapsed / 82))
     qualified_pers = sorted(
         per for pid, min_total, _ in raw for per in [per_by_pid[pid]]
         if min_total >= QUALIFY_MIN
