@@ -164,6 +164,7 @@ const ADVANCED_GROUPS = [
     { key: 'efg_pct',  label: 'eFG%', format: 'pct' },
     { key: 'ts_pct',   label: 'TS%',  format: 'pct' },
     { key: 'fta_rate', label: 'FTr',  format: 'num3' },
+    { key: 'per',      label: 'PER',  format: 'num1' },
   ],
   // Shooting — 2 stats (1 row)
   [
@@ -195,6 +196,7 @@ function AdvancedTab({ player }) {
     efg_pct:   { value: player.efg_pct,   pctile: player.efg_pct_pctile },
     ts_pct:    { value: player.ts_pct,    pctile: player.ts_pct_pctile },
     fta_rate:  { value: player.fta_rate,  pctile: player.fta_rate_pctile },
+    per:       { value: player.per,       pctile: player.per_pctile },
     cs_fg3_pct: {
       value:  player.shooting_tracking?.cs?.fg3_pct?.value,
       pctile: player.shooting_tracking?.cs?.fg3_pct?.pctile,
@@ -279,7 +281,6 @@ const CLUTCH_GROUPS = [
     { key: 'reb_pct', label: 'REB%', format: 'pct' },
     { key: 'tm_tov_pct', label: 'Team TOV%', format: 'pct_raw', invert: true },
     { key: 'usg_pct', label: 'USG%', format: 'pct' },
-    { key: 'per', label: 'PER', format: 'num1' },
   ],
 ]
 
@@ -316,7 +317,6 @@ const CLUTCH_GROUPS_MOBILE = [
     { key: 'reb_pct',    label: 'REB%',       format: 'pct'  },
     { key: 'tm_tov_pct', label: 'Team TOV%',  format: 'pct_raw', invert: true },
     { key: 'usg_pct',    label: 'USG%',       format: 'pct'  },
-    { key: 'per',        label: 'PER',        format: 'num1' },
   ],
 ]
 

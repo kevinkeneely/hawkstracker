@@ -155,8 +155,28 @@ def compute_per(players_headers, players_rows, teams_base_headers, teams_base_ro
     # ---- Normalize so league average aPER maps to 15.00 ----
     total_min = sum(m for _, m, _ in raw)
     lg_aper = sum(aper * m for _, m, aper in raw) / total_min if total_min else 1
+    per_by_pid = {pid: aper * 15.0 / lg_aper for pid, _, aper in raw}
 
-    return {pid: aper * 15.0 / lg_aper for pid, _, aper in raw}
+    # ---- Percentile rank each PER within the league distribution so the
+    #      Advanced tab's percentile bar can render it like any other stat.
+    #      Only qualifying players (MIN >= 500) are counted in the pool —
+    #      matches the convention used elsewhere in the site for rate stats.
+    QUALIFY_MIN = 500
+    qualified_pers = sorted(
+        per for pid, min_total, _ in raw for per in [per_by_pid[pid]]
+        if min_total >= QUALIFY_MIN
+    )
+    n = len(qualified_pers)
+    def pctile(per_val):
+        if n == 0:
+            return None
+        # Rank (number of qualified players with lower PER) / n × 100.
+        # Bisect-left gives count of strictly-lower values.
+        import bisect
+        rank = bisect.bisect_left(qualified_pers, per_val)
+        return round(rank * 100 / n)
+
+    return {pid: {"per": per_by_pid[pid], "per_pctile": pctile(per_by_pid[pid])} for pid in per_by_pid}
 
 
 def run():
@@ -187,9 +207,10 @@ def run():
         # Rename existing .per → .pie (it's actually PIE from NBA.com)
         if "per" in player and "pie" not in player:
             player["pie"] = player["per"]
-        # Write computed PER
+        # Write computed PER + its league percentile rank
         if pid in per_by_pid:
-            player["per"] = round(per_by_pid[pid], 2)
+            player["per"] = round(per_by_pid[pid]["per"], 2)
+            player["per_pctile"] = per_by_pid[pid]["per_pctile"]
             enriched += 1
 
     with open(data_path, "w") as f:
@@ -207,7 +228,8 @@ def run():
             if "per" in player and "pie" not in player:
                 player["pie"] = player["per"]
             if pid in per_by_pid:
-                player["per"] = round(per_by_pid[pid], 2)
+                player["per"] = round(per_by_pid[pid]["per"], 2)
+                player["per_pctile"] = per_by_pid[pid]["per_pctile"]
                 enr_lb += 1
         with open(lb_path, "w") as f:
             json.dump(lb, f, indent=2)
