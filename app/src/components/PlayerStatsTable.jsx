@@ -81,6 +81,20 @@ const ADVANCED_SECTIONS = [
         pctile:  (p) => p.defense_tracking?.pct_plusminus?.pctile, invert: true },
     ],
   },
+  {
+    // One-stat "Overall Impact" section placed last. The between-sections
+    // divider logic in the table body auto-inserts a Hawks-red divider
+    // between "DFG+/- vs Norm" and PER. PER is a 1-decimal number
+    // (league average 15.00); its pctile ranks league-wide among players
+    // with MIN >= 500 (same qualifier transform_per.py applies).
+    name: 'Overall Impact',
+    cols: [
+      { key: 'per', label: 'PER',
+        format: (v) => (v == null ? '—' : v.toFixed(1)),
+        extract: (p) => p.per,
+        pctile:  (p) => p.per_pctile },
+    ],
+  },
 ]
 // Flat list of all advanced columns, used for sort-key lookup.
 const ADVANCED_COLS_FLAT = ADVANCED_SECTIONS.flatMap((s) => s.cols)
@@ -124,6 +138,9 @@ const PLAYER_ADVANCED_GLOSSARY = [
   { label: 'DFG+/- vs Norm',
     def: 'Difference between the FG% opponents shot against this defender and their season-average FG%. Negative means the defender held opponents below their norm (good defense); positive means opponents shot better than usual (bad defense).',
     formula: 'DFG% − Opponent\'s Season FG%' },
+  { label: 'PER (Player Efficiency Rating)',
+    def: 'John Hollinger\'s per-minute rating of a player\'s overall statistical production. Pace-adjusted and normalized so the league average is 15.00 every season. A rough guide: 25+ = All-NBA, 20+ = All-Star, 15 = league average, 10 = rotation player, below 10 = replacement-level. Percentile shown here ranks the player league-wide among those with 500+ minutes.',
+    formula: '[uPER formula pace-adjusted to league pace, then normalized so league avg = 15.00]' },
 ]
 
 
