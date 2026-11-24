@@ -174,7 +174,8 @@ def compute_per(players_headers, players_rows, teams_base_headers, teams_base_ro
         # Bisect-left gives count of strictly-lower values.
         import bisect
         rank = bisect.bisect_left(qualified_pers, per_val)
-        return round(rank * 100 / n)
+        # Store as 0–1 float (matching every other *_pctile field in hawksData).
+        return round(rank / n, 3)
 
     return {pid: {"per": per_by_pid[pid], "per_pctile": pctile(per_by_pid[pid])} for pid in per_by_pid}
 
