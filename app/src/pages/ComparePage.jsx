@@ -29,28 +29,35 @@ const nested = (block, key, label, format, invert) => ({
 })
 
 // ───────── Traditional ─────────
-const TRADITIONAL_ROWS = [
-  // Nov 24: GP + MPG removed from the compare table — they have no league
-  // pctile (not in PCTILE_STATS), so their rows rendered as empty bars that
-  // just added noise at the top of the view. Still visible on each player
-  // profile where they're surfaced as badges, not bars.
-  flat('ppg',         'PPG',    'num1'),
-  flat('rpg',         'RPG',    'num1'),
-  flat('apg',         'APG',    'num1'),
-  flat('spg',         'SPG',    'num1'),
-  flat('bpg',         'BPG',    'num1'),
-  flat('tov',         'TOV',    'num1', true),
-  flat('fg_pct',      'FG%',    'pct'),
-  flat('fg3_pct',     '3P%',    'pct'),
-  flat('ft_pct',      'FT%',    'pct'),
-  flat('ts_pct',      'TS%',    'pct'),
-  flat('efg_pct',     'eFG%',   'pct'),
-  flat('usg_pct',     'USG%',   'pct'),
-  flat('ast_pct',     'AST%',   'pct'),
-  flat('tov_pct',     'TOV%',   'pct',  true),
-  flat('off_rating',  'ORtg',   'num1'),
-  flat('def_rating',  'DRtg',   'num1', true),
-  flat('net_rating',  'NetRtg', 'num1'),
+// Nov 25: Traditional tab split into two groups with a Hawks-red divider
+// between them (uses CompareBarsGrouped — same renderer the Advanced tab
+// uses for its 4 groups). Team ratings surface at the top because a visitor
+// scanning five players wants the "who's the better overall player on the
+// floor" answer before the per-stat breakdowns. DRtg stays inverted so
+// lower = better = redder bar.
+// (GP + MPG removed Nov 24 — no league pctile, nothing to color-code.)
+const TRADITIONAL_GROUPS = [
+  [
+    flat('net_rating',  'NetRtg', 'num1'),
+    flat('off_rating',  'ORtg',   'num1'),
+    flat('def_rating',  'DRtg',   'num1', true),
+  ],
+  [
+    flat('ppg',         'PPG',    'num1'),
+    flat('rpg',         'RPG',    'num1'),
+    flat('apg',         'APG',    'num1'),
+    flat('spg',         'SPG',    'num1'),
+    flat('bpg',         'BPG',    'num1'),
+    flat('tov',         'TOV',    'num1', true),
+    flat('fg_pct',      'FG%',    'pct'),
+    flat('fg3_pct',     '3P%',    'pct'),
+    flat('ft_pct',      'FT%',    'pct'),
+    flat('ts_pct',      'TS%',    'pct'),
+    flat('efg_pct',     'eFG%',   'pct'),
+    flat('usg_pct',     'USG%',   'pct'),
+    flat('ast_pct',     'AST%',   'pct'),
+    flat('tov_pct',     'TOV%',   'pct',  true),
+  ],
 ]
 
 // ───────── Advanced ─────────
@@ -401,7 +408,7 @@ export default function ComparePage({ playerData }) {
           {
             key: 'traditional',
             label: 'Traditional',
-            content: <CompareBars rows={TRADITIONAL_ROWS} players={players} />,
+            content: <CompareBarsGrouped groups={TRADITIONAL_GROUPS} players={players} />,
           },
           {
             key: 'advanced',
