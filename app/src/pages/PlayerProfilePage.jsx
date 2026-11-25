@@ -164,7 +164,6 @@ const ADVANCED_GROUPS = [
     { key: 'efg_pct',  label: 'eFG%', format: 'pct' },
     { key: 'ts_pct',   label: 'TS%',  format: 'pct' },
     { key: 'fta_rate', label: 'FTr',  format: 'num3' },
-    { key: 'per',      label: 'PER',  format: 'num1' },
   ],
   // Shooting — 2 stats (1 row)
   [
@@ -177,6 +176,17 @@ const ADVANCED_GROUPS = [
   [
     { key: 'd_fg_pct',    label: 'DFG% Allowed',    format: 'pct',        invert: true },
     { key: 'd_plusminus', label: 'DFG+/- vs Norm',  format: 'pct_signed', invert: true },
+  ],
+  // Overall Impact — three one-number player ratings. Mirrors the "Overall
+  // Impact" section at the end of the Player Stats > Advanced table. All
+  // three share the same prorated-MIN pctile pool so the bars mean the
+  // same thing across rows: "fraction of qualified players ranked below
+  // this one." Numeric scales differ (PER ~15 league avg, FFOS ~50, PIS
+  // ~8) but the color + fill depth reads consistently.
+  [
+    { key: 'per',  label: 'PER',  format: 'num1' },
+    { key: 'ffos', label: 'FFOS', format: 'num1' },
+    { key: 'pis',  label: 'PIS',  format: 'num1' },
   ],
 ]
 
@@ -197,6 +207,8 @@ function AdvancedTab({ player }) {
     ts_pct:    { value: player.ts_pct,    pctile: player.ts_pct_pctile },
     fta_rate:  { value: player.fta_rate,  pctile: player.fta_rate_pctile },
     per:       { value: player.per,       pctile: player.per_pctile },
+    ffos:      { value: player.ffos,      pctile: player.ffos_pctile },
+    pis:       { value: player.pis,       pctile: player.pis_pctile },
     cs_fg3_pct: {
       value:  player.shooting_tracking?.cs?.fg3_pct?.value,
       pctile: player.shooting_tracking?.cs?.fg3_pct?.pctile,
