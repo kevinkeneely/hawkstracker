@@ -925,6 +925,16 @@ code {
   margin-bottom: 32px;
 }
 
+/* Nov 24: cap bar-section width so Traditional / Advanced / Hustle / Clutch /
+   Tracking tabs all read as narrower columns of bars rather than filling the
+   full page. 600px matches the look of the previous Advanced/Hustle 2-column
+   layout at its ~half-page width. Mobile viewports (<600px) are below the cap
+   so it has no effect there and the bars span full width as before. */
+.profile-zones,
+.profile-percentiles {
+  max-width: 600px;
+}
+
 .profile-stats h2,
 .profile-zones h2,
 .profile-percentiles h2,
@@ -1729,16 +1739,16 @@ html, body {
   flex-direction: column;
 }
 
+/* Nov 24: collapsed from 2-col to 1-col at Kevin's request so Advanced,
+   Hustle, Clutch, and Tracking all read as single stacked columns matching
+   the Traditional tab's layout. Shared with the max-width cap on
+   .profile-percentiles / .profile-zones below — together those make every
+   profile tab's bars narrower + single-column. Mobile media query dropped
+   as redundant (both breakpoints are now 1fr). */
 .pctile-group {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   gap: 14px 24px;
-}
-
-@media (max-width: 640px) {
-  .pctile-group {
-    grid-template-columns: 1fr;
-  }
 }
 
 .pctile-divider {
