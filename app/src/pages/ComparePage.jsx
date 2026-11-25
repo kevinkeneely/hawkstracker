@@ -54,9 +54,12 @@ const TRADITIONAL_GROUPS = [
     flat('ft_pct',      'FT%',    'pct'),
     flat('ts_pct',      'TS%',    'pct'),
     flat('efg_pct',     'eFG%',   'pct'),
-    flat('usg_pct',     'USG%',   'pct'),
-    flat('ast_pct',     'AST%',   'pct'),
-    flat('tov_pct',     'TOV%',   'pct',  true),
+    // Nov 25: USG%, AST%, TOV% removed — they're advanced rate stats (not
+    // basic counting stats) and already live on the Advanced tab. Keeping
+    // them on Traditional too meant the same metric showed up twice across
+    // the two tabs, with the user having to remember which was which. The
+    // Traditional tab now mirrors the player profile's "vs. League" section
+    // exactly, which excludes these three for the same reason.
   ],
 ]
 
