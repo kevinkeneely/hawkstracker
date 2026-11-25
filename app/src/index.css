@@ -2669,9 +2669,11 @@ header {
 .compare-bar-row:last-child {
   border-bottom: none;
 }
-.compare-bar-row:nth-child(even) {
-  background: var(--row-alt);
-}
+/* Nov 25: removed alternating-row shading (was .compare-bar-row:nth-child(even)
+   { background: var(--row-alt) }). Striped rows added visual noise next to the
+   color-coded percentile bars — dark/light rows fought the red/blue of the
+   bar fills. The thin .compare-bar-row border-bottom alone is enough to
+   separate rows without the extra background shift. */
 
 /* Each player's bar cell: [track | numeric value]. */
 .compare-bar {
