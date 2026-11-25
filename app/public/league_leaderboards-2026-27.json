@@ -1,6 +1,6 @@
 {
   "season": "2026-27",
-  "generated_at": "2026-11-25T02:11:40.699253-05:00",
+  "generated_at": "2026-11-25T13:51:22.572312-05:00",
   "min_gp": 5,
   "min_fga_per_zone": {
     "at_rim": 15,
@@ -115,11 +115,11 @@
         "reb_pct": 0.098
       },
       "hustle": {
-        "contested_shots": 5.57,
-        "contested_shots_2pt": 3.57,
-        "contested_shots_3pt": 2.0,
-        "deflections": 2.93,
-        "box_outs": 0.21,
+        "contested_shots": 5.33,
+        "contested_shots_2pt": 3.4,
+        "contested_shots_3pt": 1.93,
+        "deflections": 2.87,
+        "box_outs": 0.2,
         "pct_box_outs_off": 0.0,
         "pct_box_outs_def": 1.0,
         "loose_balls_recovered": 0.93,
@@ -129,9 +129,9 @@
       },
       "per": 12.86,
       "per_pctile": 0.37,
-      "ffos": 47.88,
-      "ffos_pctile": 0.4154,
-      "pis": 10.35,
+      "ffos": 47.69,
+      "ffos_pctile": 0.4092,
+      "pis": 10.33,
       "pis_pctile": 0.7569
     },
     {
@@ -412,24 +412,24 @@
         "reb_pct": 0.084
       },
       "hustle": {
-        "contested_shots": 3.8,
-        "contested_shots_2pt": 2.47,
-        "contested_shots_3pt": 1.33,
-        "deflections": 0.8,
-        "box_outs": 0.53,
+        "contested_shots": 3.75,
+        "contested_shots_2pt": 2.44,
+        "contested_shots_3pt": 1.31,
+        "deflections": 0.75,
+        "box_outs": 0.5,
         "pct_box_outs_off": 0.0,
         "pct_box_outs_def": 1.0,
-        "loose_balls_recovered": 0.27,
+        "loose_balls_recovered": 0.25,
         "charges_drawn": 0.0,
-        "screen_assists": 0.73,
-        "screen_ast_pts": 1.53
+        "screen_assists": 0.75,
+        "screen_ast_pts": 1.44
       },
       "per": 12.02,
       "per_pctile": 0.291,
-      "ffos": 45.89,
+      "ffos": 45.76,
       "ffos_pctile": 0.3569,
-      "pis": 8.26,
-      "pis_pctile": 0.5538
+      "pis": 8.24,
+      "pis_pctile": 0.5446
     },
     {
       "id": 1630174,
@@ -516,9 +516,9 @@
         "contested_shots_2pt": 3.47,
         "contested_shots_3pt": 1.8,
         "deflections": 1.0,
-        "box_outs": 0.47,
-        "pct_box_outs_off": 0.143,
-        "pct_box_outs_def": 0.857,
+        "box_outs": 0.4,
+        "pct_box_outs_off": 0.167,
+        "pct_box_outs_def": 0.833,
         "loose_balls_recovered": 0.47,
         "charges_drawn": 0.2,
         "screen_assists": 0.33,
@@ -526,8 +526,8 @@
       },
       "per": 8.91,
       "per_pctile": 0.101,
-      "ffos": 32.48,
-      "ffos_pctile": 0.1323,
+      "ffos": 32.52,
+      "ffos_pctile": 0.1262,
       "pis": 6.09,
       "pis_pctile": 0.2523
     },
@@ -626,7 +626,7 @@
       },
       "per": 13.92,
       "per_pctile": 0.498,
-      "ffos": 49.21,
+      "ffos": 49.17,
       "ffos_pctile": 0.4585,
       "pis": 5.94,
       "pis_pctile": 0.2338
@@ -727,7 +727,7 @@
       "per": 12.72,
       "per_pctile": 0.358,
       "ffos": 42.91,
-      "ffos_pctile": 0.3108,
+      "ffos_pctile": 0.3138,
       "pis": 7.79,
       "pis_pctile": 0.48
     },
@@ -827,7 +827,7 @@
       "per": 19.62,
       "per_pctile": 0.869,
       "ffos": 58.57,
-      "ffos_pctile": 0.7138,
+      "ffos_pctile": 0.7169,
       "pis": 10.8,
       "pis_pctile": 0.8
     },
@@ -1123,7 +1123,7 @@
       },
       "per": 17.26,
       "per_pctile": 0.752,
-      "ffos": 46.38,
+      "ffos": 46.34,
       "ffos_pctile": 0.3723,
       "pis": 7.16,
       "pis_pctile": 0.3938
@@ -1226,7 +1226,7 @@
       "ffos": 26.2,
       "ffos_pctile": 0.04,
       "pis": 8.07,
-      "pis_pctile": 0.5231
+      "pis_pctile": 0.52
     },
     {
       "id": 1627936,
@@ -1324,7 +1324,7 @@
       "per": 17.19,
       "per_pctile": 0.743,
       "ffos": 56.4,
-      "ffos_pctile": 0.6523,
+      "ffos_pctile": 0.6492,
       "pis": 10.59,
       "pis_pctile": 0.7754
     },
@@ -1603,24 +1603,24 @@
         "reb_pct": 0.113
       },
       "hustle": {
-        "contested_shots": 9.29,
-        "contested_shots_2pt": 6.53,
-        "contested_shots_3pt": 2.76,
-        "deflections": 2.24,
-        "box_outs": 1.41,
+        "contested_shots": 9.61,
+        "contested_shots_2pt": 6.56,
+        "contested_shots_3pt": 3.06,
+        "deflections": 2.17,
+        "box_outs": 1.33,
         "pct_box_outs_off": 0.292,
         "pct_box_outs_def": 0.708,
-        "loose_balls_recovered": 0.24,
+        "loose_balls_recovered": 0.22,
         "charges_drawn": 0.0,
-        "screen_assists": 1.47,
-        "screen_ast_pts": 3.29
+        "screen_assists": 1.5,
+        "screen_ast_pts": 3.11
       },
       "per": 16.27,
       "per_pctile": 0.676,
-      "ffos": 66.6,
+      "ffos": 66.55,
       "ffos_pctile": 0.8769,
-      "pis": 10.67,
-      "pis_pctile": 0.7846
+      "pis": 10.63,
+      "pis_pctile": 0.7815
     },
     {
       "id": 1642918,
@@ -1917,8 +1917,8 @@
       },
       "per": 25.83,
       "per_pctile": 0.979,
-      "ffos": 71.32,
-      "ffos_pctile": 0.9538,
+      "ffos": 71.37,
+      "ffos_pctile": 0.9508,
       "pis": 13.01,
       "pis_pctile": 0.9108
     },
@@ -2200,22 +2200,22 @@
         "reb_pct": 0.244
       },
       "hustle": {
-        "contested_shots": 4.06,
+        "contested_shots": 4.0,
         "contested_shots_2pt": 3.06,
-        "contested_shots_3pt": 1.0,
+        "contested_shots_3pt": 0.94,
         "deflections": 0.71,
-        "box_outs": 1.65,
-        "pct_box_outs_off": 0.643,
-        "pct_box_outs_def": 0.357,
+        "box_outs": 1.71,
+        "pct_box_outs_off": 0.621,
+        "pct_box_outs_def": 0.345,
         "loose_balls_recovered": 0.29,
         "charges_drawn": 0.0,
-        "screen_assists": 1.53,
+        "screen_assists": 1.65,
         "screen_ast_pts": 3.76
       },
       "per": 15.44,
       "per_pctile": 0.615,
-      "ffos": 32.31,
-      "ffos_pctile": 0.1169,
+      "ffos": 32.35,
+      "ffos_pctile": 0.12,
       "pis": 19.92,
       "pis_pctile": 0.9969
     },
@@ -2314,8 +2314,8 @@
       },
       "per": 13.68,
       "per_pctile": 0.465,
-      "ffos": 32.83,
-      "ffos_pctile": 0.1446,
+      "ffos": 32.78,
+      "ffos_pctile": 0.1415,
       "pis": 3.47,
       "pis_pctile": 0.0215
     },
@@ -2414,7 +2414,7 @@
       },
       "per": 10.11,
       "per_pctile": 0.165,
-      "ffos": 47.4,
+      "ffos": 47.45,
       "ffos_pctile": 0.3969,
       "pis": 5.13,
       "pis_pctile": 0.1354
@@ -2514,7 +2514,7 @@
       },
       "per": 12.22,
       "per_pctile": 0.321,
-      "ffos": 46.77,
+      "ffos": 46.72,
       "ffos_pctile": 0.3785,
       "pis": 4.02,
       "pis_pctile": 0.0462
@@ -2600,24 +2600,24 @@
         "reb_pct": 0.076
       },
       "hustle": {
-        "contested_shots": 4.0,
-        "contested_shots_2pt": 1.85,
-        "contested_shots_3pt": 2.15,
-        "deflections": 3.77,
-        "box_outs": 0.54,
+        "contested_shots": 3.79,
+        "contested_shots_2pt": 1.79,
+        "contested_shots_3pt": 2.0,
+        "deflections": 3.71,
+        "box_outs": 0.5,
         "pct_box_outs_off": 0.143,
         "pct_box_outs_def": 0.857,
-        "loose_balls_recovered": 0.62,
+        "loose_balls_recovered": 0.57,
         "charges_drawn": 0.0,
-        "screen_assists": 0.23,
-        "screen_ast_pts": 0.46
+        "screen_assists": 0.21,
+        "screen_ast_pts": 0.43
       },
       "per": 14.33,
       "per_pctile": 0.526,
       "ffos": 47.77,
-      "ffos_pctile": 0.4092,
-      "pis": 8.46,
-      "pis_pctile": 0.5877
+      "ffos_pctile": 0.4123,
+      "pis": 8.42,
+      "pis_pctile": 0.5754
     },
     {
       "id": 203076,
@@ -2700,23 +2700,23 @@
         "reb_pct": 0.142
       },
       "hustle": {
-        "contested_shots": 8.25,
-        "contested_shots_2pt": 4.44,
-        "contested_shots_3pt": 3.81,
-        "deflections": 2.56,
-        "box_outs": 1.69,
+        "contested_shots": 8.35,
+        "contested_shots_2pt": 4.35,
+        "contested_shots_3pt": 4.0,
+        "deflections": 2.65,
+        "box_outs": 1.59,
         "pct_box_outs_off": 0.333,
         "pct_box_outs_def": 0.667,
         "loose_balls_recovered": 0.94,
         "charges_drawn": 0.0,
-        "screen_assists": 2.06,
-        "screen_ast_pts": 4.63
+        "screen_assists": 2.18,
+        "screen_ast_pts": 4.35
       },
       "per": 24.91,
       "per_pctile": 0.966,
-      "ffos": 72.55,
-      "ffos_pctile": 0.9662,
-      "pis": 14.2,
+      "ffos": 72.83,
+      "ffos_pctile": 0.9723,
+      "pis": 14.23,
       "pis_pctile": 0.9477
     },
     {
@@ -2994,23 +2994,23 @@
         "reb_pct": 0.145
       },
       "hustle": {
-        "contested_shots": 4.53,
-        "contested_shots_2pt": 2.6,
-        "contested_shots_3pt": 1.93,
-        "deflections": 4.13,
-        "box_outs": 0.53,
+        "contested_shots": 4.69,
+        "contested_shots_2pt": 2.75,
+        "contested_shots_3pt": 1.94,
+        "deflections": 4.25,
+        "box_outs": 0.5,
         "pct_box_outs_off": 0.25,
         "pct_box_outs_def": 0.75,
-        "loose_balls_recovered": 0.93,
+        "loose_balls_recovered": 0.88,
         "charges_drawn": 0.0,
-        "screen_assists": 1.53,
-        "screen_ast_pts": 3.87
+        "screen_assists": 1.44,
+        "screen_ast_pts": 3.63
       },
       "per": 17.71,
       "per_pctile": 0.789,
-      "ffos": 58.98,
+      "ffos": 59.03,
       "ffos_pctile": 0.7292,
-      "pis": 13.62,
+      "pis": 13.63,
       "pis_pctile": 0.9385
     },
     {
@@ -3405,7 +3405,7 @@
       },
       "per": 23.24,
       "per_pctile": 0.957,
-      "ffos": 82.0,
+      "ffos": 81.96,
       "ffos_pctile": 0.9969,
       "pis": 14.8,
       "pis_pctile": 0.9569
@@ -3491,24 +3491,24 @@
         "reb_pct": 0.087
       },
       "hustle": {
-        "contested_shots": 2.0,
-        "contested_shots_2pt": 0.88,
-        "contested_shots_3pt": 1.12,
-        "deflections": 2.24,
-        "box_outs": 0.24,
+        "contested_shots": 1.94,
+        "contested_shots_2pt": 0.83,
+        "contested_shots_3pt": 1.11,
+        "deflections": 2.17,
+        "box_outs": 0.22,
         "pct_box_outs_off": 0.25,
         "pct_box_outs_def": 0.75,
-        "loose_balls_recovered": 0.47,
+        "loose_balls_recovered": 0.44,
         "charges_drawn": 0.06,
-        "screen_assists": 0.24,
-        "screen_ast_pts": 0.59
+        "screen_assists": 0.28,
+        "screen_ast_pts": 0.56
       },
       "per": 11.37,
       "per_pctile": 0.254,
-      "ffos": 55.85,
-      "ffos_pctile": 0.6369,
-      "pis": 9.16,
-      "pis_pctile": 0.6554
+      "ffos": 55.43,
+      "ffos_pctile": 0.6308,
+      "pis": 9.12,
+      "pis_pctile": 0.6523
     },
     {
       "id": 1631097,
@@ -3705,8 +3705,8 @@
       },
       "per": 15.09,
       "per_pctile": 0.581,
-      "ffos": 55.82,
-      "ffos_pctile": 0.6338,
+      "ffos": 55.95,
+      "ffos_pctile": 0.64,
       "pis": 5.37,
       "pis_pctile": 0.1508
     },
@@ -3791,24 +3791,24 @@
         "reb_pct": 0.08
       },
       "hustle": {
-        "contested_shots": 4.12,
-        "contested_shots_2pt": 2.94,
-        "contested_shots_3pt": 1.18,
-        "deflections": 2.35,
-        "box_outs": 0.29,
+        "contested_shots": 4.11,
+        "contested_shots_2pt": 2.78,
+        "contested_shots_3pt": 1.33,
+        "deflections": 2.22,
+        "box_outs": 0.28,
         "pct_box_outs_off": 0.0,
         "pct_box_outs_def": 1.0,
-        "loose_balls_recovered": 0.35,
+        "loose_balls_recovered": 0.33,
         "charges_drawn": 0.0,
-        "screen_assists": 0.24,
-        "screen_ast_pts": 0.59
+        "screen_assists": 0.22,
+        "screen_ast_pts": 0.56
       },
       "per": 10.5,
       "per_pctile": 0.199,
-      "ffos": 56.47,
-      "ffos_pctile": 0.6554,
-      "pis": 8.29,
-      "pis_pctile": 0.56
+      "ffos": 56.15,
+      "ffos_pctile": 0.6431,
+      "pis": 8.24,
+      "pis_pctile": 0.5446
     },
     {
       "id": 1626171,
@@ -3906,7 +3906,7 @@
       "per": 10.76,
       "per_pctile": 0.208,
       "ffos": 41.0,
-      "ffos_pctile": 0.2708,
+      "ffos_pctile": 0.2738,
       "pis": 10.99,
       "pis_pctile": 0.8123
     },
@@ -4005,10 +4005,10 @@
       },
       "per": 11.91,
       "per_pctile": 0.281,
-      "ffos": 44.4,
-      "ffos_pctile": 0.3323,
+      "ffos": 44.45,
+      "ffos_pctile": 0.3354,
       "pis": 4.52,
-      "pis_pctile": 0.0862
+      "pis_pctile": 0.0831
     },
     {
       "id": 1630538,
@@ -4105,8 +4105,8 @@
       },
       "per": 22.33,
       "per_pctile": 0.936,
-      "ffos": 55.07,
-      "ffos_pctile": 0.6246,
+      "ffos": 55.12,
+      "ffos_pctile": 0.6215,
       "pis": 5.84,
       "pis_pctile": 0.2123
     },
@@ -4195,9 +4195,9 @@
         "contested_shots_2pt": 1.1,
         "contested_shots_3pt": 1.2,
         "deflections": 2.2,
-        "box_outs": 0.1,
+        "box_outs": 0.2,
         "pct_box_outs_off": 0.0,
-        "pct_box_outs_def": 1.0,
+        "pct_box_outs_def": 0.5,
         "loose_balls_recovered": 0.4,
         "charges_drawn": 0.2,
         "screen_assists": 0.1,
@@ -4205,8 +4205,8 @@
       },
       "per": 12.45,
       "per_pctile": 0.339,
-      "ffos": 37.57,
-      "ffos_pctile": 0.2031,
+      "ffos": 37.61,
+      "ffos_pctile": 0.2062,
       "pis": 6.34,
       "pis_pctile": 0.3015
     },
@@ -4503,7 +4503,7 @@
       "per": 12.11,
       "per_pctile": 0.303,
       "ffos": 38.12,
-      "ffos_pctile": 0.2123,
+      "ffos_pctile": 0.2154,
       "pis": 6.38,
       "pis_pctile": 0.3138
     },
@@ -4602,10 +4602,10 @@
       },
       "per": 17.65,
       "per_pctile": 0.783,
-      "ffos": 44.51,
-      "ffos_pctile": 0.3354,
+      "ffos": 44.37,
+      "ffos_pctile": 0.3323,
       "pis": 8.44,
-      "pis_pctile": 0.5815
+      "pis_pctile": 0.5846
     },
     {
       "id": 1643415,
@@ -4702,8 +4702,8 @@
       },
       "per": 16.48,
       "per_pctile": 0.691,
-      "ffos": 59.28,
-      "ffos_pctile": 0.7354,
+      "ffos": 59.41,
+      "ffos_pctile": 0.7385,
       "pis": 11.53,
       "pis_pctile": 0.8462
     },
@@ -4805,7 +4805,7 @@
       "ffos": 41.31,
       "ffos_pctile": 0.28,
       "pis": 6.87,
-      "pis_pctile": 0.3569
+      "pis_pctile": 0.3538
     },
     {
       "id": 1642355,
@@ -4999,8 +4999,8 @@
       },
       "per": 19.55,
       "per_pctile": 0.865,
-      "ffos": 64.18,
-      "ffos_pctile": 0.8308,
+      "ffos": 64.09,
+      "ffos_pctile": 0.8277,
       "pis": 8.72,
       "pis_pctile": 0.6123
     },
@@ -5473,23 +5473,23 @@
         "reb_pct": 0.04
       },
       "hustle": {
-        "contested_shots": 2.67,
-        "contested_shots_2pt": 1.4,
-        "contested_shots_3pt": 1.27,
-        "deflections": 1.07,
-        "box_outs": 0.27,
+        "contested_shots": 2.69,
+        "contested_shots_2pt": 1.44,
+        "contested_shots_3pt": 1.25,
+        "deflections": 1.0,
+        "box_outs": 0.25,
         "pct_box_outs_off": 0.0,
         "pct_box_outs_def": 1.0,
-        "loose_balls_recovered": 0.33,
+        "loose_balls_recovered": 0.31,
         "charges_drawn": 0.0,
         "screen_assists": 0.0,
         "screen_ast_pts": 0.0
       },
       "per": 9.35,
       "per_pctile": 0.119,
-      "ffos": 39.73,
-      "ffos_pctile": 0.24,
-      "pis": 4.11,
+      "ffos": 39.45,
+      "ffos_pctile": 0.2369,
+      "pis": 4.08,
       "pis_pctile": 0.0523
     },
     {
@@ -5688,7 +5688,7 @@
       "per": 14.58,
       "per_pctile": 0.547,
       "ffos": 40.41,
-      "ffos_pctile": 0.2585,
+      "ffos_pctile": 0.2523,
       "pis": 5.81,
       "pis_pctile": 0.2062
     },
@@ -5787,8 +5787,8 @@
       },
       "per": 21.41,
       "per_pctile": 0.914,
-      "ffos": 41.22,
-      "ffos_pctile": 0.2738,
+      "ffos": 41.31,
+      "ffos_pctile": 0.28,
       "pis": 7.81,
       "pis_pctile": 0.4831
     },
@@ -5873,24 +5873,24 @@
         "reb_pct": 0.075
       },
       "hustle": {
-        "contested_shots": 1.42,
-        "contested_shots_2pt": 0.75,
-        "contested_shots_3pt": 0.67,
-        "deflections": 1.75,
-        "box_outs": 0.58,
+        "contested_shots": 1.46,
+        "contested_shots_2pt": 0.69,
+        "contested_shots_3pt": 0.77,
+        "deflections": 1.85,
+        "box_outs": 0.54,
         "pct_box_outs_off": 0.0,
         "pct_box_outs_def": 1.0,
-        "loose_balls_recovered": 0.42,
-        "charges_drawn": 0.0,
-        "screen_assists": 0.25,
-        "screen_ast_pts": 0.58
+        "loose_balls_recovered": 0.46,
+        "charges_drawn": 0.08,
+        "screen_assists": 0.23,
+        "screen_ast_pts": 0.54
       },
       "per": 14.46,
       "per_pctile": 0.538,
-      "ffos": 70.25,
+      "ffos": 70.8,
       "ffos_pctile": 0.9477,
-      "pis": 8.03,
-      "pis_pctile": 0.5077
+      "pis": 8.16,
+      "pis_pctile": 0.5354
     },
     {
       "id": 1643410,
@@ -6170,8 +6170,8 @@
         "reb_pct": 0.065
       },
       "hustle": {
-        "contested_shots": 2.06,
-        "contested_shots_2pt": 0.78,
+        "contested_shots": 2.11,
+        "contested_shots_2pt": 0.83,
         "contested_shots_3pt": 1.28,
         "deflections": 1.78,
         "box_outs": 0.28,
@@ -6184,8 +6184,8 @@
       },
       "per": 22.1,
       "per_pctile": 0.927,
-      "ffos": 64.28,
-      "ffos_pctile": 0.8338,
+      "ffos": 64.32,
+      "ffos_pctile": 0.8308,
       "pis": 6.78,
       "pis_pctile": 0.3477
     },
@@ -6467,24 +6467,24 @@
         "reb_pct": 0.063
       },
       "hustle": {
-        "contested_shots": 3.33,
-        "contested_shots_2pt": 1.67,
-        "contested_shots_3pt": 1.67,
-        "deflections": 1.75,
-        "box_outs": 0.58,
+        "contested_shots": 3.31,
+        "contested_shots_2pt": 1.62,
+        "contested_shots_3pt": 1.69,
+        "deflections": 1.62,
+        "box_outs": 0.54,
         "pct_box_outs_off": 0.0,
         "pct_box_outs_def": 1.0,
-        "loose_balls_recovered": 0.5,
+        "loose_balls_recovered": 0.46,
         "charges_drawn": 0.08,
-        "screen_assists": 0.25,
-        "screen_ast_pts": 0.5
+        "screen_assists": 0.23,
+        "screen_ast_pts": 0.46
       },
       "per": 12.46,
       "per_pctile": 0.343,
-      "ffos": 49.26,
-      "ffos_pctile": 0.4615,
-      "pis": 6.49,
-      "pis_pctile": 0.3262
+      "ffos": 49.03,
+      "ffos_pctile": 0.4431,
+      "pis": 6.43,
+      "pis_pctile": 0.32
     },
     {
       "id": 1642868,
@@ -6567,9 +6567,9 @@
         "reb_pct": 0.049
       },
       "hustle": {
-        "contested_shots": 2.13,
+        "contested_shots": 2.07,
         "contested_shots_2pt": 1.07,
-        "contested_shots_3pt": 1.07,
+        "contested_shots_3pt": 1.0,
         "deflections": 0.73,
         "box_outs": 0.13,
         "pct_box_outs_off": 1.0,
@@ -6581,8 +6581,8 @@
       },
       "per": 5.6,
       "per_pctile": 0.015,
-      "ffos": 32.32,
-      "ffos_pctile": 0.12,
+      "ffos": 32.28,
+      "ffos_pctile": 0.1169,
       "pis": 3.71,
       "pis_pctile": 0.0277
     },
@@ -6681,7 +6681,7 @@
       },
       "per": 19.39,
       "per_pctile": 0.853,
-      "ffos": 65.11,
+      "ffos": 64.97,
       "ffos_pctile": 0.8554,
       "pis": 12.4,
       "pis_pctile": 0.8831
@@ -6781,10 +6781,10 @@
       },
       "per": 6.23,
       "per_pctile": 0.021,
-      "ffos": 31.79,
-      "ffos_pctile": 0.1077,
+      "ffos": 31.74,
+      "ffos_pctile": 0.1046,
       "pis": 6.44,
-      "pis_pctile": 0.32
+      "pis_pctile": 0.3231
     },
     {
       "id": 1629646,
@@ -7064,21 +7064,21 @@
         "reb_pct": 0.132
       },
       "hustle": {
-        "contested_shots": 2.0,
-        "contested_shots_2pt": 1.43,
-        "contested_shots_3pt": 0.57,
-        "deflections": 0.29,
-        "box_outs": 1.0,
+        "contested_shots": 1.88,
+        "contested_shots_2pt": 1.25,
+        "contested_shots_3pt": 0.63,
+        "deflections": 0.38,
+        "box_outs": 0.88,
         "pct_box_outs_off": 0.143,
         "pct_box_outs_def": 0.857,
-        "loose_balls_recovered": 0.14,
+        "loose_balls_recovered": 0.25,
         "charges_drawn": 0.0,
-        "screen_assists": 0.29,
-        "screen_ast_pts": 0.57
+        "screen_assists": 0.25,
+        "screen_ast_pts": 0.5
       },
       "per": 9.63,
       "per_pctile": 0.131,
-      "pis": 10.37
+      "pis": 10.45
     },
     {
       "id": 1642959,
@@ -7272,8 +7272,8 @@
       },
       "per": 10.97,
       "per_pctile": 0.217,
-      "ffos": 41.85,
-      "ffos_pctile": 0.2954,
+      "ffos": 41.89,
+      "ffos_pctile": 0.2923,
       "pis": 3.64,
       "pis_pctile": 0.0246
     },
@@ -7358,24 +7358,24 @@
         "reb_pct": 0.065
       },
       "hustle": {
-        "contested_shots": 5.13,
-        "contested_shots_2pt": 2.8,
-        "contested_shots_3pt": 2.33,
-        "deflections": 2.67,
-        "box_outs": 0.2,
+        "contested_shots": 4.94,
+        "contested_shots_2pt": 2.63,
+        "contested_shots_3pt": 2.31,
+        "deflections": 2.56,
+        "box_outs": 0.19,
         "pct_box_outs_off": 0.0,
         "pct_box_outs_def": 1.0,
-        "loose_balls_recovered": 0.6,
+        "loose_balls_recovered": 0.63,
         "charges_drawn": 0.0,
-        "screen_assists": 0.93,
-        "screen_ast_pts": 2.33
+        "screen_assists": 0.88,
+        "screen_ast_pts": 2.19
       },
       "per": 15.26,
       "per_pctile": 0.596,
-      "ffos": 65.11,
-      "ffos_pctile": 0.8554,
-      "pis": 8.05,
-      "pis_pctile": 0.5169
+      "ffos": 64.92,
+      "ffos_pctile": 0.8462,
+      "pis": 8.03,
+      "pis_pctile": 0.5077
     },
     {
       "id": 203991,
@@ -7766,7 +7766,7 @@
       },
       "per": 13.35,
       "per_pctile": 0.41,
-      "ffos": 46.22,
+      "ffos": 46.26,
       "ffos_pctile": 0.3692,
       "pis": 5.99,
       "pis_pctile": 0.2462
@@ -7966,8 +7966,8 @@
       },
       "per": 13.89,
       "per_pctile": 0.492,
-      "ffos": 40.37,
-      "ffos_pctile": 0.2523,
+      "ffos": 40.5,
+      "ffos_pctile": 0.2585,
       "pis": 5.54,
       "pis_pctile": 0.1662
     },
@@ -8052,24 +8052,24 @@
         "reb_pct": 0.088
       },
       "hustle": {
-        "contested_shots": 4.19,
-        "contested_shots_2pt": 2.25,
+        "contested_shots": 4.12,
+        "contested_shots_2pt": 2.18,
         "contested_shots_3pt": 1.94,
-        "deflections": 3.63,
-        "box_outs": 0.69,
+        "deflections": 3.47,
+        "box_outs": 0.71,
         "pct_box_outs_off": 0.0,
-        "pct_box_outs_def": 1.0,
-        "loose_balls_recovered": 1.0,
+        "pct_box_outs_def": 0.917,
+        "loose_balls_recovered": 0.94,
         "charges_drawn": 0.0,
-        "screen_assists": 0.25,
-        "screen_ast_pts": 0.56
+        "screen_assists": 0.24,
+        "screen_ast_pts": 0.53
       },
       "per": 23.76,
       "per_pctile": 0.96,
-      "ffos": 56.75,
+      "ffos": 56.66,
       "ffos_pctile": 0.6585,
-      "pis": 11.42,
-      "pis_pctile": 0.8338
+      "pis": 11.34,
+      "pis_pctile": 0.8277
     },
     {
       "id": 1630557,
@@ -8156,7 +8156,7 @@
         "contested_shots_2pt": 1.63,
         "contested_shots_3pt": 1.0,
         "deflections": 0.5,
-        "box_outs": 0.38,
+        "box_outs": 0.25,
         "pct_box_outs_off": 0.0,
         "pct_box_outs_def": 1.0,
         "loose_balls_recovered": 0.25,
@@ -8166,7 +8166,7 @@
       },
       "per": 24.32,
       "per_pctile": 0.963,
-      "ffos": 60.55,
+      "ffos": 60.51,
       "ffos_pctile": 0.76,
       "pis": 5.62,
       "pis_pctile": 0.1815
@@ -8266,7 +8266,7 @@
       },
       "per": 11.59,
       "per_pctile": 0.263,
-      "ffos": 40.4,
+      "ffos": 40.45,
       "ffos_pctile": 0.2554,
       "pis": 8.22,
       "pis_pctile": 0.5385
@@ -8464,7 +8464,7 @@
       "per": 8.96,
       "per_pctile": 0.104,
       "ffos": 52.81,
-      "ffos_pctile": 0.5692,
+      "ffos_pctile": 0.5662,
       "pis": 4.4,
       "pis_pctile": 0.0738
     },
@@ -8563,7 +8563,7 @@
       },
       "per": 17.83,
       "per_pctile": 0.801,
-      "ffos": 37.89,
+      "ffos": 37.85,
       "ffos_pctile": 0.2092,
       "pis": 6.61,
       "pis_pctile": 0.3323
@@ -8649,21 +8649,21 @@
         "reb_pct": 0.117
       },
       "hustle": {
-        "contested_shots": 7.41,
-        "contested_shots_2pt": 5.76,
-        "contested_shots_3pt": 1.65,
+        "contested_shots": 7.33,
+        "contested_shots_2pt": 5.78,
+        "contested_shots_3pt": 1.56,
         "deflections": 1.0,
-        "box_outs": 1.71,
-        "pct_box_outs_off": 0.241,
-        "pct_box_outs_def": 0.759,
+        "box_outs": 1.72,
+        "pct_box_outs_off": 0.226,
+        "pct_box_outs_def": 0.71,
         "loose_balls_recovered": 0.06,
         "charges_drawn": 0.06,
-        "screen_assists": 2.47,
-        "screen_ast_pts": 5.59
+        "screen_assists": 2.39,
+        "screen_ast_pts": 5.28
       },
       "per": 18.62,
       "per_pctile": 0.82,
-      "ffos": 66.49,
+      "ffos": 66.4,
       "ffos_pctile": 0.8708,
       "pis": 10.31,
       "pis_pctile": 0.7538
@@ -8749,24 +8749,24 @@
         "reb_pct": 0.059
       },
       "hustle": {
-        "contested_shots": 3.19,
-        "contested_shots_2pt": 1.75,
-        "contested_shots_3pt": 1.44,
-        "deflections": 2.06,
-        "box_outs": 0.19,
+        "contested_shots": 3.24,
+        "contested_shots_2pt": 1.82,
+        "contested_shots_3pt": 1.41,
+        "deflections": 2.12,
+        "box_outs": 0.18,
         "pct_box_outs_off": 0.0,
         "pct_box_outs_def": 1.0,
-        "loose_balls_recovered": 0.56,
+        "loose_balls_recovered": 0.59,
         "charges_drawn": 0.0,
-        "screen_assists": 0.19,
-        "screen_ast_pts": 0.5
+        "screen_assists": 0.18,
+        "screen_ast_pts": 0.47
       },
       "per": 14.73,
       "per_pctile": 0.56,
-      "ffos": 52.09,
-      "ffos_pctile": 0.5415,
-      "pis": 6.23,
-      "pis_pctile": 0.2862
+      "ffos": 52.46,
+      "ffos_pctile": 0.5538,
+      "pis": 6.26,
+      "pis_pctile": 0.2954
     },
     {
       "id": 1642874,
@@ -8963,7 +8963,7 @@
       },
       "per": 13.86,
       "per_pctile": 0.483,
-      "ffos": 25.18,
+      "ffos": 25.23,
       "ffos_pctile": 0.0338,
       "pis": 4.18,
       "pis_pctile": 0.0585
@@ -9063,7 +9063,7 @@
       },
       "per": 15.74,
       "per_pctile": 0.627,
-      "ffos": 31.0,
+      "ffos": 30.95,
       "ffos_pctile": 0.0831,
       "pis": 2.61,
       "pis_pctile": 0.0062
@@ -9163,10 +9163,10 @@
       },
       "per": 13.92,
       "per_pctile": 0.502,
-      "ffos": 48.38,
+      "ffos": 48.34,
       "ffos_pctile": 0.4277,
       "pis": 7.68,
-      "pis_pctile": 0.4554
+      "pis_pctile": 0.4585
     },
     {
       "id": 1642357,
@@ -9460,8 +9460,8 @@
       },
       "per": 19.27,
       "per_pctile": 0.85,
-      "ffos": 66.49,
-      "ffos_pctile": 0.8708,
+      "ffos": 66.44,
+      "ffos_pctile": 0.8738,
       "pis": 12.83,
       "pis_pctile": 0.9046
     },
@@ -9561,9 +9561,9 @@
       "per": 15.52,
       "per_pctile": 0.621,
       "ffos": 40.98,
-      "ffos_pctile": 0.2677,
+      "ffos_pctile": 0.2708,
       "pis": 8.07,
-      "pis_pctile": 0.5231
+      "pis_pctile": 0.52
     },
     {
       "id": 1629631,
@@ -9660,10 +9660,10 @@
       },
       "per": 12.22,
       "per_pctile": 0.318,
-      "ffos": 52.34,
+      "ffos": 52.43,
       "ffos_pctile": 0.5508,
       "pis": 6.46,
-      "pis_pctile": 0.3231
+      "pis_pctile": 0.3262
     },
     {
       "id": 1629001,
@@ -9761,7 +9761,7 @@
       "per": 12.31,
       "per_pctile": 0.327,
       "ffos": 39.49,
-      "ffos_pctile": 0.2369,
+      "ffos_pctile": 0.24,
       "pis": 8.31,
       "pis_pctile": 0.5631
     },
@@ -9957,8 +9957,8 @@
       },
       "per": 10.03,
       "per_pctile": 0.153,
-      "ffos": 31.51,
-      "ffos_pctile": 0.0923,
+      "ffos": 31.6,
+      "ffos_pctile": 0.0985,
       "pis": 5.87,
       "pis_pctile": 0.2185
     },
@@ -10143,23 +10143,23 @@
         "reb_pct": 0.154
       },
       "hustle": {
-        "contested_shots": 3.28,
-        "contested_shots_2pt": 2.28,
-        "contested_shots_3pt": 1.0,
-        "deflections": 0.5,
-        "box_outs": 0.72,
+        "contested_shots": 3.16,
+        "contested_shots_2pt": 2.21,
+        "contested_shots_3pt": 0.95,
+        "deflections": 0.47,
+        "box_outs": 0.68,
         "pct_box_outs_off": 0.308,
         "pct_box_outs_def": 0.692,
         "loose_balls_recovered": 0.11,
         "charges_drawn": 0.11,
-        "screen_assists": 1.5,
-        "screen_ast_pts": 3.72
+        "screen_assists": 1.42,
+        "screen_ast_pts": 3.53
       },
       "per": 15.18,
       "per_pctile": 0.593,
-      "ffos": 60.59,
-      "ffos_pctile": 0.7662,
-      "pis": 11.85,
+      "ffos": 60.54,
+      "ffos_pctile": 0.7631,
+      "pis": 11.84,
       "pis_pctile": 0.8585
     },
     {
@@ -10258,9 +10258,9 @@
       "per": 13.7,
       "per_pctile": 0.471,
       "ffos": 36.88,
-      "ffos_pctile": 0.1846,
+      "ffos_pctile": 0.1785,
       "pis": 7.67,
-      "pis_pctile": 0.4523
+      "pis_pctile": 0.4554
     },
     {
       "id": 1630166,
@@ -10346,7 +10346,7 @@
         "contested_shots": 4.0,
         "contested_shots_2pt": 2.07,
         "contested_shots_3pt": 1.93,
-        "deflections": 1.47,
+        "deflections": 1.53,
         "box_outs": 0.6,
         "pct_box_outs_off": 0.111,
         "pct_box_outs_def": 0.778,
@@ -10357,9 +10357,9 @@
       },
       "per": 22.82,
       "per_pctile": 0.945,
-      "ffos": 51.51,
+      "ffos": 51.74,
       "ffos_pctile": 0.52,
-      "pis": 9.73,
+      "pis": 9.74,
       "pis_pctile": 0.6985
     },
     {
@@ -10457,7 +10457,7 @@
       },
       "per": 7.18,
       "per_pctile": 0.046,
-      "ffos": 19.4,
+      "ffos": 19.35,
       "ffos_pctile": 0.0123,
       "pis": 4.86,
       "pis_pctile": 0.1046
@@ -10557,7 +10557,7 @@
       },
       "per": 17.7,
       "per_pctile": 0.786,
-      "ffos": 54.14,
+      "ffos": 54.05,
       "ffos_pctile": 0.5877,
       "pis": 13.54,
       "pis_pctile": 0.9354
@@ -10660,7 +10660,7 @@
       "ffos": 60.34,
       "ffos_pctile": 0.7569,
       "pis": 7.47,
-      "pis_pctile": 0.4308
+      "pis_pctile": 0.4277
     },
     {
       "id": 1628401,
@@ -10743,23 +10743,23 @@
         "reb_pct": 0.05
       },
       "hustle": {
-        "contested_shots": 4.63,
-        "contested_shots_2pt": 2.56,
-        "contested_shots_3pt": 2.06,
-        "deflections": 2.0,
-        "box_outs": 0.13,
+        "contested_shots": 4.53,
+        "contested_shots_2pt": 2.41,
+        "contested_shots_3pt": 2.12,
+        "deflections": 2.12,
+        "box_outs": 0.12,
         "pct_box_outs_off": 0.5,
         "pct_box_outs_def": 0.5,
-        "loose_balls_recovered": 0.31,
-        "charges_drawn": 0.19,
-        "screen_assists": 0.31,
-        "screen_ast_pts": 0.81
+        "loose_balls_recovered": 0.29,
+        "charges_drawn": 0.18,
+        "screen_assists": 0.29,
+        "screen_ast_pts": 0.76
       },
       "per": 13.26,
       "per_pctile": 0.401,
-      "ffos": 41.99,
-      "ffos_pctile": 0.2985,
-      "pis": 5.56,
+      "ffos": 42.4,
+      "ffos_pctile": 0.3015,
+      "pis": 5.57,
       "pis_pctile": 0.1723
     },
     {
@@ -10843,24 +10843,24 @@
         "reb_pct": 0.055
       },
       "hustle": {
-        "contested_shots": 5.0,
-        "contested_shots_2pt": 2.07,
-        "contested_shots_3pt": 2.93,
-        "deflections": 2.0,
-        "box_outs": 0.4,
+        "contested_shots": 4.81,
+        "contested_shots_2pt": 2.0,
+        "contested_shots_3pt": 2.81,
+        "deflections": 1.94,
+        "box_outs": 0.44,
         "pct_box_outs_off": 0.0,
-        "pct_box_outs_def": 1.0,
-        "loose_balls_recovered": 0.73,
-        "charges_drawn": 0.07,
-        "screen_assists": 0.53,
-        "screen_ast_pts": 1.13
+        "pct_box_outs_def": 0.857,
+        "loose_balls_recovered": 0.69,
+        "charges_drawn": 0.06,
+        "screen_assists": 0.5,
+        "screen_ast_pts": 1.06
       },
       "per": 14.42,
       "per_pctile": 0.532,
-      "ffos": 49.78,
-      "ffos_pctile": 0.4831,
-      "pis": 5.51,
-      "pis_pctile": 0.16
+      "ffos": 49.69,
+      "ffos_pctile": 0.4769,
+      "pis": 5.46,
+      "pis_pctile": 0.1569
     },
     {
       "id": 1626164,
@@ -11057,8 +11057,8 @@
       },
       "per": 13.32,
       "per_pctile": 0.404,
-      "ffos": 47.57,
-      "ffos_pctile": 0.4031,
+      "ffos": 47.61,
+      "ffos_pctile": 0.4062,
       "pis": 8.51,
       "pis_pctile": 0.5938
     },
@@ -11157,7 +11157,7 @@
       },
       "per": 12.31,
       "per_pctile": 0.33,
-      "ffos": 48.14,
+      "ffos": 48.09,
       "ffos_pctile": 0.4215,
       "pis": 5.66,
       "pis_pctile": 0.1846
@@ -11252,8 +11252,8 @@
         "pct_box_outs_def": 0.684,
         "loose_balls_recovered": 0.31,
         "charges_drawn": 0.0,
-        "screen_assists": 4.88,
-        "screen_ast_pts": 11.69
+        "screen_assists": 4.81,
+        "screen_ast_pts": 11.38
       },
       "per": 20.13,
       "per_pctile": 0.89,
@@ -11343,13 +11343,13 @@
         "reb_pct": 0.197
       },
       "hustle": {
-        "contested_shots": 11.29,
-        "contested_shots_2pt": 9.53,
+        "contested_shots": 11.24,
+        "contested_shots_2pt": 9.47,
         "contested_shots_3pt": 1.76,
-        "deflections": 1.35,
-        "box_outs": 2.47,
-        "pct_box_outs_off": 0.31,
-        "pct_box_outs_def": 0.667,
+        "deflections": 1.47,
+        "box_outs": 2.53,
+        "pct_box_outs_off": 0.302,
+        "pct_box_outs_def": 0.651,
         "loose_balls_recovered": 0.29,
         "charges_drawn": 0.0,
         "screen_assists": 2.94,
@@ -11357,9 +11357,9 @@
       },
       "per": 22.22,
       "per_pctile": 0.93,
-      "ffos": 67.43,
-      "ffos_pctile": 0.8985,
-      "pis": 16.41,
+      "ffos": 68.08,
+      "ffos_pctile": 0.9077,
+      "pis": 16.45,
       "pis_pctile": 0.9785
     },
     {
@@ -11457,10 +11457,10 @@
       },
       "per": 20.95,
       "per_pctile": 0.905,
-      "ffos": 49.26,
+      "ffos": 49.21,
       "ffos_pctile": 0.4615,
       "pis": 7.33,
-      "pis_pctile": 0.4123
+      "pis_pctile": 0.4154
     },
     {
       "id": 1627827,
@@ -11948,7 +11948,7 @@
       },
       "per": 16.75,
       "per_pctile": 0.719,
-      "ffos": 64.71,
+      "ffos": 64.66,
       "ffos_pctile": 0.84,
       "pis": 5.85,
       "pis_pctile": 0.2154
@@ -12135,9 +12135,9 @@
         "contested_shots_2pt": 2.7,
         "contested_shots_3pt": 0.7,
         "deflections": 0.6,
-        "box_outs": 2.0,
-        "pct_box_outs_off": 0.35,
-        "pct_box_outs_def": 0.65,
+        "box_outs": 1.8,
+        "pct_box_outs_off": 0.333,
+        "pct_box_outs_def": 0.667,
         "loose_balls_recovered": 0.3,
         "charges_drawn": 0.0,
         "screen_assists": 2.1,
@@ -12146,7 +12146,7 @@
       "per": 13.38,
       "per_pctile": 0.416,
       "ffos": 52.62,
-      "ffos_pctile": 0.56,
+      "ffos_pctile": 0.5569,
       "pis": 14.17,
       "pis_pctile": 0.9446
     },
@@ -12245,10 +12245,10 @@
       },
       "per": 18.55,
       "per_pctile": 0.817,
-      "ffos": 56.38,
-      "ffos_pctile": 0.6492,
+      "ffos": 56.47,
+      "ffos_pctile": 0.6523,
       "pis": 8.43,
-      "pis_pctile": 0.5785
+      "pis_pctile": 0.5815
     },
     {
       "id": 1630700,
@@ -12628,21 +12628,21 @@
         "reb_pct": 0.058
       },
       "hustle": {
-        "contested_shots": 1.33,
-        "contested_shots_2pt": 0.33,
+        "contested_shots": 1.5,
+        "contested_shots_2pt": 0.5,
         "contested_shots_3pt": 1.0,
-        "deflections": 1.33,
+        "deflections": 1.0,
         "box_outs": 0.0,
         "pct_box_outs_off": 0.0,
         "pct_box_outs_def": 0.0,
         "loose_balls_recovered": 0.0,
-        "charges_drawn": 0.0,
+        "charges_drawn": 0.25,
         "screen_assists": 0.0,
         "screen_ast_pts": 0.0
       },
       "per": 10.44,
       "per_pctile": 0.193,
-      "pis": 6.42
+      "pis": 6.57
     },
     {
       "id": 1643567,
@@ -12839,8 +12839,8 @@
       },
       "per": 19.65,
       "per_pctile": 0.872,
-      "ffos": 71.49,
-      "ffos_pctile": 0.9569,
+      "ffos": 71.4,
+      "ffos_pctile": 0.9538,
       "pis": 10.12,
       "pis_pctile": 0.7385
     },
@@ -12925,24 +12925,24 @@
         "reb_pct": 0.098
       },
       "hustle": {
-        "contested_shots": 4.0,
-        "contested_shots_2pt": 1.81,
-        "contested_shots_3pt": 2.19,
-        "deflections": 1.69,
-        "box_outs": 1.38,
+        "contested_shots": 4.06,
+        "contested_shots_2pt": 1.94,
+        "contested_shots_3pt": 2.12,
+        "deflections": 1.59,
+        "box_outs": 1.29,
         "pct_box_outs_off": 0.0,
         "pct_box_outs_def": 1.0,
-        "loose_balls_recovered": 0.56,
-        "charges_drawn": 0.19,
-        "screen_assists": 0.44,
-        "screen_ast_pts": 1.0
+        "loose_balls_recovered": 0.53,
+        "charges_drawn": 0.18,
+        "screen_assists": 0.41,
+        "screen_ast_pts": 0.94
       },
       "per": 19.88,
       "per_pctile": 0.875,
-      "ffos": 41.31,
-      "ffos_pctile": 0.28,
-      "pis": 8.84,
-      "pis_pctile": 0.6308
+      "ffos": 40.57,
+      "ffos_pctile": 0.2615,
+      "pis": 8.78,
+      "pis_pctile": 0.6215
     },
     {
       "id": 1627832,
@@ -13039,7 +13039,7 @@
       },
       "per": 15.94,
       "per_pctile": 0.645,
-      "ffos": 50.99,
+      "ffos": 50.94,
       "ffos_pctile": 0.5077,
       "pis": 5.59,
       "pis_pctile": 0.1785
@@ -13239,8 +13239,8 @@
       },
       "per": 10.12,
       "per_pctile": 0.171,
-      "ffos": 49.18,
-      "ffos_pctile": 0.4492,
+      "ffos": 49.14,
+      "ffos_pctile": 0.4523,
       "pis": 6.31,
       "pis_pctile": 0.2985
     },
@@ -13622,23 +13622,23 @@
         "reb_pct": 0.162
       },
       "hustle": {
-        "contested_shots": 4.14,
-        "contested_shots_2pt": 2.5,
-        "contested_shots_3pt": 1.64,
+        "contested_shots": 4.13,
+        "contested_shots_2pt": 2.4,
+        "contested_shots_3pt": 1.73,
         "deflections": 1.07,
-        "box_outs": 0.79,
-        "pct_box_outs_off": 0.091,
-        "pct_box_outs_def": 0.909,
-        "loose_balls_recovered": 0.29,
+        "box_outs": 0.8,
+        "pct_box_outs_off": 0.083,
+        "pct_box_outs_def": 0.833,
+        "loose_balls_recovered": 0.27,
         "charges_drawn": 0.0,
-        "screen_assists": 1.0,
-        "screen_ast_pts": 2.36
+        "screen_assists": 0.93,
+        "screen_ast_pts": 2.2
       },
       "per": 16.35,
       "per_pctile": 0.682,
-      "ffos": 68.6,
-      "ffos_pctile": 0.92,
-      "pis": 13.21,
+      "ffos": 68.65,
+      "ffos_pctile": 0.9231,
+      "pis": 13.2,
       "pis_pctile": 0.9231
     },
     {
@@ -13836,8 +13836,8 @@
       },
       "per": 17.82,
       "per_pctile": 0.798,
-      "ffos": 52.35,
-      "ffos_pctile": 0.5538,
+      "ffos": 52.31,
+      "ffos_pctile": 0.5477,
       "pis": 11.13,
       "pis_pctile": 0.8215
     },
@@ -14036,10 +14036,10 @@
       },
       "per": 11.23,
       "per_pctile": 0.235,
-      "ffos": 41.43,
+      "ffos": 41.48,
       "ffos_pctile": 0.2862,
       "pis": 9.78,
-      "pis_pctile": 0.7015
+      "pis_pctile": 0.7046
     },
     {
       "id": 1643419,
@@ -14223,9 +14223,9 @@
         "contested_shots_2pt": 0.6,
         "contested_shots_3pt": 0.6,
         "deflections": 0.33,
-        "box_outs": 0.2,
+        "box_outs": 0.27,
         "pct_box_outs_off": 0.0,
-        "pct_box_outs_def": 1.0,
+        "pct_box_outs_def": 0.75,
         "loose_balls_recovered": 0.13,
         "charges_drawn": 0.0,
         "screen_assists": 0.2,
@@ -14234,9 +14234,9 @@
       "per": 9.74,
       "per_pctile": 0.135,
       "ffos": 49.12,
-      "ffos_pctile": 0.4462,
+      "ffos_pctile": 0.4492,
       "pis": 4.27,
-      "pis_pctile": 0.0615
+      "pis_pctile": 0.0646
     },
     {
       "id": 1630529,
@@ -14333,7 +14333,7 @@
       },
       "per": 5.68,
       "per_pctile": 0.018,
-      "ffos": 30.25,
+      "ffos": 30.11,
       "ffos_pctile": 0.0738,
       "pis": 5.54,
       "pis_pctile": 0.1662
@@ -14419,22 +14419,22 @@
         "reb_pct": 0.093
       },
       "hustle": {
-        "contested_shots": 2.8,
-        "contested_shots_2pt": 1.53,
-        "contested_shots_3pt": 1.27,
-        "deflections": 1.07,
+        "contested_shots": 2.81,
+        "contested_shots_2pt": 1.5,
+        "contested_shots_3pt": 1.31,
+        "deflections": 1.0,
         "box_outs": 0.13,
         "pct_box_outs_off": 0.5,
         "pct_box_outs_def": 0.5,
-        "loose_balls_recovered": 0.2,
-        "charges_drawn": 0.07,
+        "loose_balls_recovered": 0.25,
+        "charges_drawn": 0.06,
         "screen_assists": 0.0,
         "screen_ast_pts": 0.0
       },
       "per": 10.18,
       "per_pctile": 0.174,
-      "ffos": 38.68,
-      "ffos_pctile": 0.2246,
+      "ffos": 38.26,
+      "ffos_pctile": 0.2185,
       "pis": 8.35,
       "pis_pctile": 0.5723
     },
@@ -14533,8 +14533,8 @@
       },
       "per": 16.37,
       "per_pctile": 0.685,
-      "ffos": 37.49,
-      "ffos_pctile": 0.2,
+      "ffos": 37.45,
+      "ffos_pctile": 0.2031,
       "pis": 6.2,
       "pis_pctile": 0.2708
     },
@@ -14730,7 +14730,7 @@
       },
       "per": 10.36,
       "per_pctile": 0.183,
-      "ffos": 54.6,
+      "ffos": 54.55,
       "ffos_pctile": 0.6123,
       "pis": 6.5,
       "pis_pctile": 0.3292
@@ -14830,8 +14830,8 @@
       },
       "per": 12.22,
       "per_pctile": 0.315,
-      "ffos": 32.78,
-      "ffos_pctile": 0.1415,
+      "ffos": 32.88,
+      "ffos_pctile": 0.1446,
       "pis": 9.06,
       "pis_pctile": 0.6462
     },
@@ -15310,24 +15310,24 @@
         "reb_pct": 0.051
       },
       "hustle": {
-        "contested_shots": 1.67,
-        "contested_shots_2pt": 0.83,
-        "contested_shots_3pt": 0.83,
-        "deflections": 2.17,
+        "contested_shots": 2.29,
+        "contested_shots_2pt": 1.29,
+        "contested_shots_3pt": 1.0,
+        "deflections": 2.43,
         "box_outs": 0.0,
         "pct_box_outs_off": 0.0,
         "pct_box_outs_def": 0.0,
-        "loose_balls_recovered": 0.0,
-        "charges_drawn": 0.0,
-        "screen_assists": 0.33,
-        "screen_ast_pts": 0.83
+        "loose_balls_recovered": 0.29,
+        "charges_drawn": 0.14,
+        "screen_assists": 0.29,
+        "screen_ast_pts": 0.71
       },
       "per": 16.14,
       "per_pctile": 0.67,
-      "ffos": 52.37,
-      "ffos_pctile": 0.5569,
-      "pis": 6.78,
-      "pis_pctile": 0.3477
+      "ffos": 53.52,
+      "ffos_pctile": 0.5754,
+      "pis": 7.14,
+      "pis_pctile": 0.3908
     },
     {
       "id": 1630191,
@@ -15414,9 +15414,9 @@
         "contested_shots_2pt": 4.77,
         "contested_shots_3pt": 1.23,
         "deflections": 0.46,
-        "box_outs": 0.46,
-        "pct_box_outs_off": 0.167,
-        "pct_box_outs_def": 0.833,
+        "box_outs": 0.38,
+        "pct_box_outs_off": 0.2,
+        "pct_box_outs_def": 0.8,
         "loose_balls_recovered": 0.08,
         "charges_drawn": 0.0,
         "screen_assists": 2.54,
@@ -15425,9 +15425,9 @@
       "per": 17.28,
       "per_pctile": 0.755,
       "ffos": 60.56,
-      "ffos_pctile": 0.7631,
+      "ffos_pctile": 0.7662,
       "pis": 6.15,
-      "pis_pctile": 0.2677
+      "pis_pctile": 0.2646
     },
     {
       "id": 1627826,
@@ -15725,7 +15725,7 @@
       "per": 15.95,
       "per_pctile": 0.648,
       "ffos": 60.03,
-      "ffos_pctile": 0.7477,
+      "ffos_pctile": 0.7508,
       "pis": 8.33,
       "pis_pctile": 0.5692
     },
@@ -16412,10 +16412,10 @@
       },
       "per": 14.29,
       "per_pctile": 0.523,
-      "ffos": 49.31,
+      "ffos": 49.26,
       "ffos_pctile": 0.4677,
       "pis": 7.44,
-      "pis_pctile": 0.4277
+      "pis_pctile": 0.4246
     },
     {
       "id": 1631222,
@@ -16512,10 +16512,10 @@
       },
       "per": 11.19,
       "per_pctile": 0.232,
-      "ffos": 64.29,
-      "ffos_pctile": 0.8369,
+      "ffos": 64.34,
+      "ffos_pctile": 0.8338,
       "pis": 8.44,
-      "pis_pctile": 0.5815
+      "pis_pctile": 0.5846
     },
     {
       "id": 1627751,
@@ -16612,7 +16612,7 @@
       },
       "per": 15.44,
       "per_pctile": 0.618,
-      "ffos": 69.98,
+      "ffos": 70.03,
       "ffos_pctile": 0.9415,
       "pis": 12.63,
       "pis_pctile": 0.8923
@@ -16701,7 +16701,7 @@
         "contested_shots": 4.0,
         "contested_shots_2pt": 1.71,
         "contested_shots_3pt": 2.29,
-        "deflections": 1.06,
+        "deflections": 1.12,
         "box_outs": 0.35,
         "pct_box_outs_off": 0.0,
         "pct_box_outs_def": 1.0,
@@ -16712,10 +16712,10 @@
       },
       "per": 20.9,
       "per_pctile": 0.902,
-      "ffos": 41.68,
-      "ffos_pctile": 0.2892,
-      "pis": 6.2,
-      "pis_pctile": 0.2708
+      "ffos": 42.09,
+      "ffos_pctile": 0.2954,
+      "pis": 6.22,
+      "pis_pctile": 0.28
     },
     {
       "id": 1630224,
@@ -16913,7 +16913,7 @@
       "per": 16.65,
       "per_pctile": 0.706,
       "ffos": 42.34,
-      "ffos_pctile": 0.3015,
+      "ffos_pctile": 0.2985,
       "pis": 11.48,
       "pis_pctile": 0.8431
     },
@@ -17109,8 +17109,8 @@
       },
       "per": 16.66,
       "per_pctile": 0.709,
-      "ffos": 68.11,
-      "ffos_pctile": 0.9077,
+      "ffos": 68.06,
+      "ffos_pctile": 0.9046,
       "pis": 12.45,
       "pis_pctile": 0.8862
     },
@@ -17202,7 +17202,7 @@
         "box_outs": 1.4,
         "pct_box_outs_off": 0.381,
         "pct_box_outs_def": 0.619,
-        "loose_balls_recovered": 0.2,
+        "loose_balls_recovered": 0.27,
         "charges_drawn": 0.07,
         "screen_assists": 1.73,
         "screen_ast_pts": 4.0
@@ -17211,7 +17211,7 @@
       "per_pctile": 0.92,
       "ffos": 75.82,
       "ffos_pctile": 0.9815,
-      "pis": 12.23,
+      "pis": 12.27,
       "pis_pctile": 0.8769
     },
     {
@@ -17295,24 +17295,24 @@
         "reb_pct": 0.08
       },
       "hustle": {
-        "contested_shots": 4.13,
-        "contested_shots_2pt": 1.88,
-        "contested_shots_3pt": 2.25,
-        "deflections": 3.13,
-        "box_outs": 0.13,
+        "contested_shots": 3.78,
+        "contested_shots_2pt": 1.67,
+        "contested_shots_3pt": 2.11,
+        "deflections": 3.11,
+        "box_outs": 0.11,
         "pct_box_outs_off": 1.0,
         "pct_box_outs_def": 0.0,
-        "loose_balls_recovered": 0.25,
-        "charges_drawn": 0.13,
-        "screen_assists": 0.5,
-        "screen_ast_pts": 1.0
+        "loose_balls_recovered": 0.22,
+        "charges_drawn": 0.22,
+        "screen_assists": 0.44,
+        "screen_ast_pts": 0.89
       },
       "per": 7.08,
       "per_pctile": 0.04,
-      "ffos": 29.74,
-      "ffos_pctile": 0.0615,
-      "pis": 7.42,
-      "pis_pctile": 0.4246
+      "ffos": 29.88,
+      "ffos_pctile": 0.0677,
+      "pis": 7.49,
+      "pis_pctile": 0.4308
     },
     {
       "id": 1631288,
@@ -17412,7 +17412,7 @@
       "ffos": 26.32,
       "ffos_pctile": 0.0431,
       "pis": 6.91,
-      "pis_pctile": 0.3631
+      "pis_pctile": 0.36
     },
     {
       "id": 1627750,
@@ -17495,24 +17495,24 @@
         "reb_pct": 0.065
       },
       "hustle": {
-        "contested_shots": 4.4,
-        "contested_shots_2pt": 2.67,
-        "contested_shots_3pt": 1.73,
-        "deflections": 1.73,
-        "box_outs": 0.4,
+        "contested_shots": 4.31,
+        "contested_shots_2pt": 2.5,
+        "contested_shots_3pt": 1.81,
+        "deflections": 1.75,
+        "box_outs": 0.38,
         "pct_box_outs_off": 0.0,
         "pct_box_outs_def": 1.0,
-        "loose_balls_recovered": 0.67,
-        "charges_drawn": 0.2,
-        "screen_assists": 0.67,
-        "screen_ast_pts": 1.6
+        "loose_balls_recovered": 0.63,
+        "charges_drawn": 0.19,
+        "screen_assists": 0.69,
+        "screen_ast_pts": 1.5
       },
       "per": 22.89,
       "per_pctile": 0.948,
-      "ffos": 56.31,
-      "ffos_pctile": 0.6462,
-      "pis": 7.68,
-      "pis_pctile": 0.4554
+      "ffos": 56.49,
+      "ffos_pctile": 0.6554,
+      "pis": 7.65,
+      "pis_pctile": 0.4523
     },
     {
       "id": 1642347,
@@ -17609,8 +17609,8 @@
       },
       "per": 11.93,
       "per_pctile": 0.284,
-      "ffos": 29.75,
-      "ffos_pctile": 0.0646,
+      "ffos": 29.71,
+      "ffos_pctile": 0.0615,
       "pis": 5.03,
       "pis_pctile": 0.1169
     },
@@ -17896,9 +17896,9 @@
         "contested_shots_2pt": 2.14,
         "contested_shots_3pt": 0.57,
         "deflections": 0.43,
-        "box_outs": 0.71,
-        "pct_box_outs_off": 0.4,
-        "pct_box_outs_def": 0.6,
+        "box_outs": 1.0,
+        "pct_box_outs_off": 0.286,
+        "pct_box_outs_def": 0.429,
         "loose_balls_recovered": 0.14,
         "charges_drawn": 0.0,
         "screen_assists": 0.71,
@@ -18203,8 +18203,8 @@
       },
       "per": 11.91,
       "per_pctile": 0.278,
-      "ffos": 37.29,
-      "ffos_pctile": 0.1938,
+      "ffos": 37.34,
+      "ffos_pctile": 0.1908,
       "pis": 5.7,
       "pis_pctile": 0.1938
     },
@@ -18298,7 +18298,7 @@
         "pct_box_outs_def": 1.0,
         "loose_balls_recovered": 0.2,
         "charges_drawn": 0.0,
-        "screen_assists": 0.0,
+        "screen_assists": 0.2,
         "screen_ast_pts": 0.0
       },
       "per": 6.33,
@@ -18400,7 +18400,7 @@
       },
       "per": 13.56,
       "per_pctile": 0.45,
-      "ffos": 68.28,
+      "ffos": 68.23,
       "ffos_pctile": 0.9138,
       "pis": 13.42,
       "pis_pctile": 0.9323
@@ -18600,7 +18600,7 @@
       },
       "per": 6.48,
       "per_pctile": 0.031,
-      "ffos": 32.45,
+      "ffos": 32.59,
       "ffos_pctile": 0.1292,
       "pis": 4.74,
       "pis_pctile": 0.0985
@@ -18700,7 +18700,7 @@
       },
       "per": 14.41,
       "per_pctile": 0.529,
-      "ffos": 39.38,
+      "ffos": 39.43,
       "ffos_pctile": 0.2338,
       "pis": 6.34,
       "pis_pctile": 0.3015
@@ -18786,23 +18786,23 @@
         "reb_pct": 0.067
       },
       "hustle": {
-        "contested_shots": 2.0,
-        "contested_shots_2pt": 0.81,
-        "contested_shots_3pt": 1.19,
-        "deflections": 2.13,
-        "box_outs": 0.63,
+        "contested_shots": 1.88,
+        "contested_shots_2pt": 0.76,
+        "contested_shots_3pt": 1.12,
+        "deflections": 2.24,
+        "box_outs": 0.59,
         "pct_box_outs_off": 0.0,
         "pct_box_outs_def": 1.0,
-        "loose_balls_recovered": 0.25,
+        "loose_balls_recovered": 0.24,
         "charges_drawn": 0.06,
-        "screen_assists": 0.31,
-        "screen_ast_pts": 0.75
+        "screen_assists": 0.29,
+        "screen_ast_pts": 0.71
       },
       "per": 12.74,
       "per_pctile": 0.361,
-      "ffos": 64.09,
-      "ffos_pctile": 0.8277,
-      "pis": 8.39,
+      "ffos": 64.47,
+      "ffos_pctile": 0.8369,
+      "pis": 8.42,
       "pis_pctile": 0.5754
     },
     {
@@ -18900,8 +18900,8 @@
       },
       "per": 16.84,
       "per_pctile": 0.728,
-      "ffos": 68.05,
-      "ffos_pctile": 0.9046,
+      "ffos": 68.0,
+      "ffos_pctile": 0.9015,
       "pis": 11.96,
       "pis_pctile": 0.8677
     },
@@ -19001,7 +19001,7 @@
       "per": 13.45,
       "per_pctile": 0.437,
       "ffos": 53.11,
-      "ffos_pctile": 0.5723,
+      "ffos_pctile": 0.5692,
       "pis": 7.17,
       "pis_pctile": 0.3969
     },
@@ -19100,8 +19100,8 @@
       },
       "per": 18.84,
       "per_pctile": 0.832,
-      "ffos": 61.56,
-      "ffos_pctile": 0.7815,
+      "ffos": 61.65,
+      "ffos_pctile": 0.7846,
       "pis": 9.35,
       "pis_pctile": 0.6646
     },
@@ -19201,7 +19201,7 @@
       "per": 12.22,
       "per_pctile": 0.312,
       "ffos": 63.58,
-      "ffos_pctile": 0.8215,
+      "ffos_pctile": 0.8246,
       "pis": 9.25,
       "pis_pctile": 0.6615
     },
@@ -19497,10 +19497,10 @@
       },
       "per": 3.12,
       "per_pctile": 0.0,
-      "ffos": 15.17,
+      "ffos": 15.21,
       "ffos_pctile": 0.0,
       "pis": 7.68,
-      "pis_pctile": 0.4554
+      "pis_pctile": 0.4585
     },
     {
       "id": 1642281,
@@ -19597,7 +19597,7 @@
       },
       "per": 8.48,
       "per_pctile": 0.08,
-      "ffos": 24.54,
+      "ffos": 24.58,
       "ffos_pctile": 0.0277,
       "pis": 5.16,
       "pis_pctile": 0.1385
@@ -19780,23 +19780,23 @@
         "reb_pct": 0.092
       },
       "hustle": {
-        "contested_shots": 4.27,
-        "contested_shots_2pt": 1.73,
-        "contested_shots_3pt": 2.53,
-        "deflections": 2.07,
-        "box_outs": 0.8,
+        "contested_shots": 4.19,
+        "contested_shots_2pt": 1.75,
+        "contested_shots_3pt": 2.44,
+        "deflections": 2.06,
+        "box_outs": 0.75,
         "pct_box_outs_off": 0.0,
         "pct_box_outs_def": 1.0,
-        "loose_balls_recovered": 0.6,
-        "charges_drawn": 0.07,
-        "screen_assists": 0.4,
-        "screen_ast_pts": 1.13
+        "loose_balls_recovered": 0.56,
+        "charges_drawn": 0.06,
+        "screen_assists": 0.44,
+        "screen_ast_pts": 1.06
       },
       "per": 23.05,
       "per_pctile": 0.954,
-      "ffos": 43.08,
+      "ffos": 42.99,
       "ffos_pctile": 0.3169,
-      "pis": 10.24,
+      "pis": 10.2,
       "pis_pctile": 0.7477
     },
     {
@@ -19894,7 +19894,7 @@
       },
       "per": 13.67,
       "per_pctile": 0.462,
-      "ffos": 49.57,
+      "ffos": 49.52,
       "ffos_pctile": 0.4738,
       "pis": 4.03,
       "pis_pctile": 0.0492
@@ -19980,11 +19980,11 @@
         "reb_pct": 0.08
       },
       "hustle": {
-        "contested_shots": 3.26,
+        "contested_shots": 3.21,
         "contested_shots_2pt": 1.63,
-        "contested_shots_3pt": 1.63,
+        "contested_shots_3pt": 1.58,
         "deflections": 3.21,
-        "box_outs": 0.32,
+        "box_outs": 0.26,
         "pct_box_outs_off": 0.0,
         "pct_box_outs_def": 1.0,
         "loose_balls_recovered": 0.53,
@@ -19994,8 +19994,8 @@
       },
       "per": 14.24,
       "per_pctile": 0.514,
-      "ffos": 40.68,
-      "ffos_pctile": 0.2615,
+      "ffos": 40.72,
+      "ffos_pctile": 0.2646,
       "pis": 7.59,
       "pis_pctile": 0.4431
     },
@@ -20274,23 +20274,23 @@
         "reb_pct": 0.035
       },
       "hustle": {
-        "contested_shots": 1.6,
-        "contested_shots_2pt": 0.5,
-        "contested_shots_3pt": 1.1,
-        "deflections": 1.1,
-        "box_outs": 0.1,
+        "contested_shots": 1.82,
+        "contested_shots_2pt": 0.55,
+        "contested_shots_3pt": 1.27,
+        "deflections": 1.0,
+        "box_outs": 0.09,
         "pct_box_outs_off": 0.0,
         "pct_box_outs_def": 1.0,
-        "loose_balls_recovered": 0.2,
+        "loose_balls_recovered": 0.18,
         "charges_drawn": 0.0,
-        "screen_assists": 0.2,
-        "screen_ast_pts": 0.4
+        "screen_assists": 0.18,
+        "screen_ast_pts": 0.36
       },
       "per": 9.59,
       "per_pctile": 0.128,
-      "ffos": 38.6,
-      "ffos_pctile": 0.2215,
-      "pis": 4.27,
+      "ffos": 38.0,
+      "ffos_pctile": 0.2123,
+      "pis": 4.23,
       "pis_pctile": 0.0615
     },
     {
@@ -20388,8 +20388,8 @@
       },
       "per": 17.13,
       "per_pctile": 0.737,
-      "ffos": 67.91,
-      "ffos_pctile": 0.9015,
+      "ffos": 67.95,
+      "ffos_pctile": 0.8985,
       "pis": 15.49,
       "pis_pctile": 0.9723
     },
@@ -20491,7 +20491,7 @@
       "ffos": 44.27,
       "ffos_pctile": 0.3292,
       "pis": 11.37,
-      "pis_pctile": 0.8308
+      "pis_pctile": 0.8338
     },
     {
       "id": 203954,
@@ -20588,7 +20588,7 @@
       },
       "per": 18.45,
       "per_pctile": 0.81,
-      "ffos": 42.65,
+      "ffos": 42.55,
       "ffos_pctile": 0.3046,
       "pis": 13.19,
       "pis_pctile": 0.92
@@ -20674,23 +20674,23 @@
         "reb_pct": 0.111
       },
       "hustle": {
-        "contested_shots": 5.0,
-        "contested_shots_2pt": 3.56,
-        "contested_shots_3pt": 1.44,
-        "deflections": 1.75,
+        "contested_shots": 4.88,
+        "contested_shots_2pt": 3.53,
+        "contested_shots_3pt": 1.35,
+        "deflections": 1.76,
         "box_outs": 1.88,
-        "pct_box_outs_off": 0.233,
-        "pct_box_outs_def": 0.767,
-        "loose_balls_recovered": 0.38,
-        "charges_drawn": 0.19,
-        "screen_assists": 1.5,
-        "screen_ast_pts": 3.25
+        "pct_box_outs_off": 0.219,
+        "pct_box_outs_def": 0.719,
+        "loose_balls_recovered": 0.35,
+        "charges_drawn": 0.18,
+        "screen_assists": 1.53,
+        "screen_ast_pts": 3.06
       },
       "per": 13.77,
       "per_pctile": 0.477,
       "ffos": 58.06,
-      "ffos_pctile": 0.6923,
-      "pis": 9.11,
+      "ffos_pctile": 0.6954,
+      "pis": 9.09,
       "pis_pctile": 0.6492
     },
     {
@@ -20788,8 +20788,8 @@
       },
       "per": 13.42,
       "per_pctile": 0.428,
-      "ffos": 54.26,
-      "ffos_pctile": 0.6,
+      "ffos": 54.22,
+      "ffos_pctile": 0.5969,
       "pis": 8.59,
       "pis_pctile": 0.6
     },
@@ -20985,10 +20985,10 @@
       },
       "per": 14.69,
       "per_pctile": 0.554,
-      "ffos": 58.52,
-      "ffos_pctile": 0.7108,
+      "ffos": 58.48,
+      "ffos_pctile": 0.7138,
       "pis": 6.25,
-      "pis_pctile": 0.2923
+      "pis_pctile": 0.2892
     },
     {
       "id": 1630692,
@@ -21174,18 +21174,18 @@
         "contested_shots": 1.83,
         "contested_shots_2pt": 1.0,
         "contested_shots_3pt": 0.83,
-        "deflections": 0.83,
+        "deflections": 1.0,
         "box_outs": 0.0,
         "pct_box_outs_off": 0.0,
         "pct_box_outs_def": 0.0,
-        "loose_balls_recovered": 0.33,
+        "loose_balls_recovered": 0.17,
         "charges_drawn": 0.0,
         "screen_assists": 0.0,
         "screen_ast_pts": 0.0
       },
       "per": 12.11,
       "per_pctile": 0.303,
-      "pis": 4.32
+      "pis": 4.3
     },
     {
       "id": 1629162,
@@ -21271,7 +21271,7 @@
         "contested_shots": 2.0,
         "contested_shots_2pt": 1.18,
         "contested_shots_3pt": 0.82,
-        "deflections": 1.27,
+        "deflections": 1.18,
         "box_outs": 0.18,
         "pct_box_outs_off": 0.0,
         "pct_box_outs_def": 1.0,
@@ -21282,9 +21282,9 @@
       },
       "per": 14.59,
       "per_pctile": 0.55,
-      "ffos": 54.52,
-      "ffos_pctile": 0.6092,
-      "pis": 9.2,
+      "ffos": 54.43,
+      "ffos_pctile": 0.6062,
+      "pis": 9.17,
       "pis_pctile": 0.6585
     },
     {
@@ -21372,7 +21372,7 @@
         "contested_shots_2pt": 1.0,
         "contested_shots_3pt": 1.46,
         "deflections": 1.38,
-        "box_outs": 0.15,
+        "box_outs": 0.08,
         "pct_box_outs_off": 0.0,
         "pct_box_outs_def": 1.0,
         "loose_balls_recovered": 0.31,
@@ -21382,8 +21382,8 @@
       },
       "per": 17.37,
       "per_pctile": 0.761,
-      "ffos": 51.06,
-      "ffos_pctile": 0.5138,
+      "ffos": 51.02,
+      "ffos_pctile": 0.5108,
       "pis": 6.35,
       "pis_pctile": 0.3077
     },
@@ -21572,7 +21572,7 @@
         "contested_shots_2pt": 0.67,
         "contested_shots_3pt": 0.78,
         "deflections": 1.33,
-        "box_outs": 0.0,
+        "box_outs": 0.11,
         "pct_box_outs_off": 0.0,
         "pct_box_outs_def": 0.0,
         "loose_balls_recovered": 0.0,
@@ -21679,8 +21679,8 @@
       },
       "per": 4.58,
       "per_pctile": 0.006,
-      "ffos": 34.55,
-      "ffos_pctile": 0.1569,
+      "ffos": 34.6,
+      "ffos_pctile": 0.16,
       "pis": 4.39,
       "pis_pctile": 0.0708
     },
@@ -21769,9 +21769,9 @@
         "contested_shots_2pt": 2.29,
         "contested_shots_3pt": 2.35,
         "deflections": 0.82,
-        "box_outs": 0.12,
+        "box_outs": 0.18,
         "pct_box_outs_off": 0.0,
-        "pct_box_outs_def": 1.0,
+        "pct_box_outs_def": 0.667,
         "loose_balls_recovered": 0.53,
         "charges_drawn": 0.0,
         "screen_assists": 0.12,
@@ -21965,13 +21965,13 @@
         "reb_pct": 0.102
       },
       "hustle": {
-        "contested_shots": 4.79,
-        "contested_shots_2pt": 2.07,
+        "contested_shots": 4.71,
+        "contested_shots_2pt": 2.0,
         "contested_shots_3pt": 2.71,
-        "deflections": 3.71,
-        "box_outs": 0.5,
+        "deflections": 3.86,
+        "box_outs": 0.57,
         "pct_box_outs_off": 0.0,
-        "pct_box_outs_def": 1.0,
+        "pct_box_outs_def": 0.875,
         "loose_balls_recovered": 0.36,
         "charges_drawn": 0.0,
         "screen_assists": 0.57,
@@ -21979,10 +21979,10 @@
       },
       "per": 8.6,
       "per_pctile": 0.089,
-      "ffos": 31.54,
-      "ffos_pctile": 0.0985,
-      "pis": 10.05,
-      "pis_pctile": 0.7292
+      "ffos": 31.63,
+      "ffos_pctile": 0.1015,
+      "pis": 10.09,
+      "pis_pctile": 0.7323
     },
     {
       "id": 1631169,
@@ -22176,10 +22176,10 @@
       },
       "per": 7.39,
       "per_pctile": 0.055,
-      "ffos": 38.68,
-      "ffos_pctile": 0.2246,
+      "ffos": 38.72,
+      "ffos_pctile": 0.2277,
       "pis": 8.07,
-      "pis_pctile": 0.5231
+      "pis_pctile": 0.52
     },
     {
       "id": 201950,
@@ -22266,9 +22266,9 @@
         "contested_shots_2pt": 1.29,
         "contested_shots_3pt": 1.88,
         "deflections": 2.59,
-        "box_outs": 0.29,
+        "box_outs": 0.35,
         "pct_box_outs_off": 0.0,
-        "pct_box_outs_def": 0.6,
+        "pct_box_outs_def": 0.5,
         "loose_balls_recovered": 0.53,
         "charges_drawn": 0.0,
         "screen_assists": 0.47,
@@ -22277,7 +22277,7 @@
       "per": 18.46,
       "per_pctile": 0.813,
       "ffos": 59.38,
-      "ffos_pctile": 0.7385,
+      "ffos_pctile": 0.7354,
       "pis": 7.26,
       "pis_pctile": 0.4062
     },
@@ -22376,10 +22376,10 @@
       },
       "per": 13.44,
       "per_pctile": 0.434,
-      "ffos": 54.32,
+      "ffos": 54.28,
       "ffos_pctile": 0.6031,
       "pis": 7.03,
-      "pis_pctile": 0.3692
+      "pis_pctile": 0.3662
     },
     {
       "id": 1642882,
@@ -22970,7 +22970,7 @@
       "ffos": 51.02,
       "ffos_pctile": 0.5108,
       "pis": 8.13,
-      "pis_pctile": 0.5323
+      "pis_pctile": 0.5292
     },
     {
       "id": 1642857,
@@ -23067,8 +23067,8 @@
       },
       "per": 15.18,
       "per_pctile": 0.59,
-      "ffos": 52.77,
-      "ffos_pctile": 0.5662,
+      "ffos": 52.63,
+      "ffos_pctile": 0.56,
       "pis": 7.28,
       "pis_pctile": 0.4092
     },
@@ -23168,7 +23168,7 @@
       "per": 13.09,
       "per_pctile": 0.385,
       "ffos": 31.55,
-      "ffos_pctile": 0.1015,
+      "ffos_pctile": 0.0923,
       "pis": 8.74,
       "pis_pctile": 0.6154
     },
@@ -23267,7 +23267,7 @@
       },
       "per": 9.39,
       "per_pctile": 0.122,
-      "ffos": 36.85,
+      "ffos": 36.89,
       "ffos_pctile": 0.1815,
       "pis": 6.36,
       "pis_pctile": 0.3108
@@ -23368,7 +23368,7 @@
       "per": 15.39,
       "per_pctile": 0.609,
       "ffos": 43.08,
-      "ffos_pctile": 0.3169,
+      "ffos_pctile": 0.32,
       "pis": 12.79,
       "pis_pctile": 0.9015
     },
@@ -23467,8 +23467,8 @@
       },
       "per": 13.5,
       "per_pctile": 0.44,
-      "ffos": 53.48,
-      "ffos_pctile": 0.5754,
+      "ffos": 53.43,
+      "ffos_pctile": 0.5723,
       "pis": 10.44,
       "pis_pctile": 0.7631
     },
@@ -23667,10 +23667,10 @@
       },
       "per": 15.0,
       "per_pctile": 0.578,
-      "ffos": 67.11,
-      "ffos_pctile": 0.8923,
+      "ffos": 67.16,
+      "ffos_pctile": 0.8954,
       "pis": 8.79,
-      "pis_pctile": 0.6215
+      "pis_pctile": 0.6246
     },
     {
       "id": 203484,
@@ -23767,8 +23767,8 @@
       },
       "per": 9.96,
       "per_pctile": 0.147,
-      "ffos": 57.86,
-      "ffos_pctile": 0.6892,
+      "ffos": 57.91,
+      "ffos_pctile": 0.6862,
       "pis": 6.09,
       "pis_pctile": 0.2523
     },
@@ -23967,8 +23967,8 @@
       },
       "per": 19.22,
       "per_pctile": 0.847,
-      "ffos": 38.35,
-      "ffos_pctile": 0.2154,
+      "ffos": 38.4,
+      "ffos_pctile": 0.2215,
       "pis": 7.69,
       "pis_pctile": 0.4646
     },
@@ -24053,23 +24053,23 @@
         "reb_pct": 0.051
       },
       "hustle": {
-        "contested_shots": 4.88,
-        "contested_shots_2pt": 2.56,
-        "contested_shots_3pt": 2.31,
-        "deflections": 2.5,
-        "box_outs": 0.25,
+        "contested_shots": 4.65,
+        "contested_shots_2pt": 2.41,
+        "contested_shots_3pt": 2.24,
+        "deflections": 2.41,
+        "box_outs": 0.24,
         "pct_box_outs_off": 0.0,
         "pct_box_outs_def": 1.0,
-        "loose_balls_recovered": 0.13,
+        "loose_balls_recovered": 0.12,
         "charges_drawn": 0.0,
-        "screen_assists": 0.56,
-        "screen_ast_pts": 1.38
+        "screen_assists": 0.59,
+        "screen_ast_pts": 1.12
       },
       "per": 11.25,
       "per_pctile": 0.242,
-      "ffos": 37.72,
-      "ffos_pctile": 0.2062,
-      "pis": 5.26,
+      "ffos": 37.4,
+      "ffos_pctile": 0.1969,
+      "pis": 5.23,
       "pis_pctile": 0.1415
     },
     {
@@ -24264,7 +24264,7 @@
       },
       "per": 16.13,
       "per_pctile": 0.667,
-      "ffos": 27.95,
+      "ffos": 28.0,
       "ffos_pctile": 0.0492,
       "pis": 6.38,
       "pis_pctile": 0.3138
@@ -24365,7 +24365,7 @@
       "per": 16.78,
       "per_pctile": 0.722,
       "ffos": 61.02,
-      "ffos_pctile": 0.7692,
+      "ffos_pctile": 0.7723,
       "pis": 11.75,
       "pis_pctile": 0.8554
     },
@@ -24450,23 +24450,23 @@
         "reb_pct": 0.065
       },
       "hustle": {
-        "contested_shots": 1.1,
-        "contested_shots_2pt": 0.8,
-        "contested_shots_3pt": 0.3,
-        "deflections": 0.7,
-        "box_outs": 0.7,
+        "contested_shots": 1.0,
+        "contested_shots_2pt": 0.73,
+        "contested_shots_3pt": 0.27,
+        "deflections": 0.82,
+        "box_outs": 0.64,
         "pct_box_outs_off": 0.286,
         "pct_box_outs_def": 0.714,
-        "loose_balls_recovered": 0.2,
+        "loose_balls_recovered": 0.18,
         "charges_drawn": 0.0,
-        "screen_assists": 0.4,
-        "screen_ast_pts": 1.1
+        "screen_assists": 0.36,
+        "screen_ast_pts": 1.0
       },
       "per": 6.52,
       "per_pctile": 0.034,
-      "ffos": 32.4,
-      "ffos_pctile": 0.1231,
-      "pis": 5.05,
+      "ffos": 32.68,
+      "ffos_pctile": 0.1354,
+      "pis": 5.07,
       "pis_pctile": 0.12
     },
     {
@@ -24550,8 +24550,8 @@
         "reb_pct": 0.057
       },
       "hustle": {
-        "contested_shots": 1.92,
-        "contested_shots_2pt": 1.42,
+        "contested_shots": 2.0,
+        "contested_shots_2pt": 1.5,
         "contested_shots_3pt": 0.5,
         "deflections": 1.75,
         "box_outs": 0.25,
@@ -24564,7 +24564,7 @@
       },
       "per": 10.78,
       "per_pctile": 0.211,
-      "ffos": 40.01,
+      "ffos": 40.06,
       "ffos_pctile": 0.2431,
       "pis": 4.7,
       "pis_pctile": 0.0954
@@ -24664,8 +24664,8 @@
       },
       "per": 15.31,
       "per_pctile": 0.606,
-      "ffos": 45.4,
-      "ffos_pctile": 0.3508,
+      "ffos": 45.45,
+      "ffos_pctile": 0.3538,
       "pis": 2.37,
       "pis_pctile": 0.0031
     },
@@ -24959,9 +24959,9 @@
       "per": 10.32,
       "per_pctile": 0.18,
       "ffos": 32.63,
-      "ffos_pctile": 0.1354,
+      "ffos_pctile": 0.1323,
       "pis": 5.36,
-      "pis_pctile": 0.1477
+      "pis_pctile": 0.1446
     },
     {
       "id": 1627739,
@@ -25061,7 +25061,7 @@
       "ffos": 50.72,
       "ffos_pctile": 0.4954,
       "pis": 9.15,
-      "pis_pctile": 0.6523
+      "pis_pctile": 0.6554
     },
     {
       "id": 1631200,
@@ -25158,7 +25158,7 @@
       },
       "per": 9.78,
       "per_pctile": 0.138,
-      "ffos": 50.87,
+      "ffos": 50.92,
       "ffos_pctile": 0.5046,
       "pis": 7.97,
       "pis_pctile": 0.5015
@@ -25452,10 +25452,10 @@
       },
       "per": 12.28,
       "per_pctile": 0.324,
-      "ffos": 44.71,
+      "ffos": 44.66,
       "ffos_pctile": 0.3385,
       "pis": 8.26,
-      "pis_pctile": 0.5538
+      "pis_pctile": 0.56
     },
     {
       "id": 202681,
@@ -25538,24 +25538,24 @@
         "reb_pct": 0.058
       },
       "hustle": {
-        "contested_shots": 2.36,
-        "contested_shots_2pt": 1.14,
-        "contested_shots_3pt": 1.21,
-        "deflections": 2.79,
-        "box_outs": 0.29,
+        "contested_shots": 2.27,
+        "contested_shots_2pt": 1.07,
+        "contested_shots_3pt": 1.2,
+        "deflections": 2.6,
+        "box_outs": 0.27,
         "pct_box_outs_off": 0.0,
         "pct_box_outs_def": 1.0,
-        "loose_balls_recovered": 0.5,
+        "loose_balls_recovered": 0.47,
         "charges_drawn": 0.07,
         "screen_assists": 0.07,
-        "screen_ast_pts": 0.14
+        "screen_ast_pts": 0.13
       },
       "per": 19.89,
       "per_pctile": 0.878,
-      "ffos": 58.74,
-      "ffos_pctile": 0.7169,
-      "pis": 7.15,
-      "pis_pctile": 0.3908
+      "ffos": 58.32,
+      "ffos_pctile": 0.7077,
+      "pis": 7.08,
+      "pis_pctile": 0.3815
     },
     {
       "id": 1642273,
@@ -25638,23 +25638,23 @@
         "reb_pct": 0.063
       },
       "hustle": {
-        "contested_shots": 6.94,
-        "contested_shots_2pt": 3.61,
-        "contested_shots_3pt": 3.33,
-        "deflections": 1.56,
-        "box_outs": 0.72,
+        "contested_shots": 6.84,
+        "contested_shots_2pt": 3.53,
+        "contested_shots_3pt": 3.32,
+        "deflections": 1.58,
+        "box_outs": 0.68,
         "pct_box_outs_off": 0.231,
         "pct_box_outs_def": 0.769,
-        "loose_balls_recovered": 0.39,
-        "charges_drawn": 0.17,
-        "screen_assists": 0.28,
-        "screen_ast_pts": 0.67
+        "loose_balls_recovered": 0.37,
+        "charges_drawn": 0.21,
+        "screen_assists": 0.26,
+        "screen_ast_pts": 0.63
       },
       "per": 14.74,
       "per_pctile": 0.566,
-      "ffos": 36.72,
-      "ffos_pctile": 0.1754,
-      "pis": 5.32,
+      "ffos": 37.18,
+      "ffos_pctile": 0.1846,
+      "pis": 5.36,
       "pis_pctile": 0.1446
     },
     {
@@ -25855,7 +25855,7 @@
       "ffos": 35.48,
       "ffos_pctile": 0.1692,
       "pis": 6.88,
-      "pis_pctile": 0.36
+      "pis_pctile": 0.3569
     },
     {
       "id": 1642889,
@@ -26035,9 +26035,9 @@
         "reb_pct": 0.028
       },
       "hustle": {
-        "contested_shots": 4.41,
+        "contested_shots": 4.35,
         "contested_shots_2pt": 2.29,
-        "contested_shots_3pt": 2.12,
+        "contested_shots_3pt": 2.06,
         "deflections": 1.71,
         "box_outs": 0.41,
         "pct_box_outs_off": 0.0,
@@ -26049,8 +26049,8 @@
       },
       "per": 12.47,
       "per_pctile": 0.346,
-      "ffos": 52.68,
-      "ffos_pctile": 0.5631,
+      "ffos": 52.63,
+      "ffos_pctile": 0.56,
       "pis": 2.98,
       "pis_pctile": 0.0154
     },
@@ -26249,8 +26249,8 @@
       },
       "per": 15.93,
       "per_pctile": 0.642,
-      "ffos": 53.8,
-      "ffos_pctile": 0.5846,
+      "ffos": 53.75,
+      "ffos_pctile": 0.5815,
       "pis": 9.72,
       "pis_pctile": 0.6954
     },
@@ -26450,7 +26450,7 @@
       "per": 12.75,
       "per_pctile": 0.364,
       "ffos": 65.0,
-      "ffos_pctile": 0.8492,
+      "ffos_pctile": 0.8585,
       "pis": 9.44,
       "pis_pctile": 0.6677
     },
@@ -26550,9 +26550,9 @@
       "per": 11.65,
       "per_pctile": 0.266,
       "ffos": 38.49,
-      "ffos_pctile": 0.2185,
+      "ffos_pctile": 0.2246,
       "pis": 8.8,
-      "pis_pctile": 0.6277
+      "pis_pctile": 0.6308
     },
     {
       "id": 1642862,
@@ -26739,7 +26739,7 @@
         "box_outs": 0.88,
         "pct_box_outs_off": 0.133,
         "pct_box_outs_def": 0.8,
-        "loose_balls_recovered": 0.35,
+        "loose_balls_recovered": 0.41,
         "charges_drawn": 0.06,
         "screen_assists": 0.65,
         "screen_ast_pts": 1.53
@@ -26747,8 +26747,8 @@
       "per": 9.81,
       "per_pctile": 0.144,
       "ffos": 54.23,
-      "ffos_pctile": 0.5969,
-      "pis": 7.6,
+      "ffos_pctile": 0.6,
+      "pis": 7.63,
       "pis_pctile": 0.4492
     },
     {
@@ -26847,7 +26847,7 @@
       "per": 28.21,
       "per_pctile": 0.988,
       "ffos": 47.58,
-      "ffos_pctile": 0.4062,
+      "ffos_pctile": 0.4031,
       "pis": 10.57,
       "pis_pctile": 0.7692
     },
@@ -26932,23 +26932,23 @@
         "reb_pct": 0.109
       },
       "hustle": {
-        "contested_shots": 3.0,
-        "contested_shots_2pt": 2.53,
-        "contested_shots_3pt": 0.47,
-        "deflections": 1.29,
-        "box_outs": 1.29,
-        "pct_box_outs_off": 0.318,
-        "pct_box_outs_def": 0.682,
-        "loose_balls_recovered": 0.12,
-        "charges_drawn": 0.12,
-        "screen_assists": 1.35,
-        "screen_ast_pts": 3.53
+        "contested_shots": 2.94,
+        "contested_shots_2pt": 2.44,
+        "contested_shots_3pt": 0.5,
+        "deflections": 1.28,
+        "box_outs": 1.33,
+        "pct_box_outs_off": 0.292,
+        "pct_box_outs_def": 0.625,
+        "loose_balls_recovered": 0.11,
+        "charges_drawn": 0.11,
+        "screen_assists": 1.56,
+        "screen_ast_pts": 3.33
       },
       "per": 15.96,
       "per_pctile": 0.654,
-      "ffos": 65.0,
-      "ffos_pctile": 0.8492,
-      "pis": 10.85,
+      "ffos": 64.95,
+      "ffos_pctile": 0.8523,
+      "pis": 10.83,
       "pis_pctile": 0.8031
     },
     {
@@ -27132,8 +27132,8 @@
         "reb_pct": 0.127
       },
       "hustle": {
-        "contested_shots": 6.22,
-        "contested_shots_2pt": 5.11,
+        "contested_shots": 6.17,
+        "contested_shots_2pt": 5.06,
         "contested_shots_3pt": 1.11,
         "deflections": 0.33,
         "box_outs": 1.44,
@@ -27543,7 +27543,7 @@
       },
       "per": 9.05,
       "per_pctile": 0.107,
-      "ffos": 31.51,
+      "ffos": 31.55,
       "ffos_pctile": 0.0923,
       "pis": 5.69,
       "pis_pctile": 0.1908
@@ -27729,23 +27729,23 @@
         "reb_pct": 0.147
       },
       "hustle": {
-        "contested_shots": 4.13,
-        "contested_shots_2pt": 2.93,
-        "contested_shots_3pt": 1.2,
-        "deflections": 0.67,
-        "box_outs": 0.6,
-        "pct_box_outs_off": 0.444,
-        "pct_box_outs_def": 0.556,
-        "loose_balls_recovered": 0.2,
+        "contested_shots": 3.94,
+        "contested_shots_2pt": 2.75,
+        "contested_shots_3pt": 1.19,
+        "deflections": 0.63,
+        "box_outs": 0.69,
+        "pct_box_outs_off": 0.364,
+        "pct_box_outs_def": 0.455,
+        "loose_balls_recovered": 0.19,
         "charges_drawn": 0.0,
-        "screen_assists": 0.73,
-        "screen_ast_pts": 1.53
+        "screen_assists": 0.69,
+        "screen_ast_pts": 1.44
       },
       "per": 19.44,
       "per_pctile": 0.859,
-      "ffos": 69.54,
-      "ffos_pctile": 0.9323,
-      "pis": 13.24,
+      "ffos": 69.4,
+      "ffos_pctile": 0.9292,
+      "pis": 13.23,
       "pis_pctile": 0.9262
     },
     {
@@ -27846,7 +27846,7 @@
       "ffos": 39.29,
       "ffos_pctile": 0.2308,
       "pis": 7.07,
-      "pis_pctile": 0.3815
+      "pis_pctile": 0.3785
     },
     {
       "id": 1629680,
@@ -27944,7 +27944,7 @@
       "per": 12.97,
       "per_pctile": 0.379,
       "ffos": 49.11,
-      "ffos_pctile": 0.4431,
+      "ffos_pctile": 0.4462,
       "pis": 7.38,
       "pis_pctile": 0.4185
     },
@@ -28029,24 +28029,24 @@
         "reb_pct": 0.075
       },
       "hustle": {
-        "contested_shots": 3.5,
-        "contested_shots_2pt": 2.29,
-        "contested_shots_3pt": 1.21,
-        "deflections": 1.21,
-        "box_outs": 0.14,
+        "contested_shots": 3.33,
+        "contested_shots_2pt": 2.13,
+        "contested_shots_3pt": 1.2,
+        "deflections": 1.13,
+        "box_outs": 0.13,
         "pct_box_outs_off": 0.0,
         "pct_box_outs_def": 1.0,
         "loose_balls_recovered": 0.07,
         "charges_drawn": 0.0,
-        "screen_assists": 0.29,
-        "screen_ast_pts": 0.64
+        "screen_assists": 0.27,
+        "screen_ast_pts": 0.6
       },
       "per": 7.33,
       "per_pctile": 0.049,
-      "ffos": 15.94,
+      "ffos": 15.52,
       "ffos_pctile": 0.0031,
-      "pis": 5.98,
-      "pis_pctile": 0.2431
+      "pis": 5.96,
+      "pis_pctile": 0.24
     },
     {
       "id": 1629622,
@@ -28243,7 +28243,7 @@
       },
       "per": 15.11,
       "per_pctile": 0.587,
-      "ffos": 58.82,
+      "ffos": 58.77,
       "ffos_pctile": 0.7231,
       "pis": 5.7,
       "pis_pctile": 0.1938
@@ -28540,7 +28540,7 @@
       },
       "per": 15.85,
       "per_pctile": 0.633,
-      "ffos": 46.14,
+      "ffos": 46.19,
       "ffos_pctile": 0.3662,
       "pis": 9.83,
       "pis_pctile": 0.7108
@@ -28626,9 +28626,9 @@
         "reb_pct": 0.061
       },
       "hustle": {
-        "contested_shots": 3.0,
+        "contested_shots": 3.06,
         "contested_shots_2pt": 2.06,
-        "contested_shots_3pt": 0.94,
+        "contested_shots_3pt": 1.0,
         "deflections": 2.41,
         "box_outs": 0.24,
         "pct_box_outs_off": 0.0,
@@ -28640,8 +28640,8 @@
       },
       "per": 9.35,
       "per_pctile": 0.116,
-      "ffos": 35.39,
-      "ffos_pctile": 0.1662,
+      "ffos": 35.25,
+      "ffos_pctile": 0.1631,
       "pis": 5.93,
       "pis_pctile": 0.2277
     },
@@ -28730,9 +28730,9 @@
         "contested_shots_2pt": 0.33,
         "contested_shots_3pt": 0.5,
         "deflections": 1.33,
-        "box_outs": 0.17,
+        "box_outs": 0.33,
         "pct_box_outs_off": 0.0,
-        "pct_box_outs_def": 1.0,
+        "pct_box_outs_def": 0.5,
         "loose_balls_recovered": 0.0,
         "charges_drawn": 0.0,
         "screen_assists": 0.17,
@@ -28837,7 +28837,7 @@
       },
       "per": 10.39,
       "per_pctile": 0.187,
-      "ffos": 19.89,
+      "ffos": 19.85,
       "ffos_pctile": 0.0185,
       "pis": 3.92,
       "pis_pctile": 0.0369
@@ -28937,8 +28937,8 @@
       },
       "per": 19.18,
       "per_pctile": 0.844,
-      "ffos": 61.57,
-      "ffos_pctile": 0.7846,
+      "ffos": 61.52,
+      "ffos_pctile": 0.7815,
       "pis": 11.53,
       "pis_pctile": 0.8462
     },
@@ -29040,7 +29040,7 @@
       "ffos": 58.14,
       "ffos_pctile": 0.6985,
       "pis": 4.27,
-      "pis_pctile": 0.0615
+      "pis_pctile": 0.0646
     },
     {
       "id": 1629011,
@@ -29137,7 +29137,7 @@
       },
       "per": 15.43,
       "per_pctile": 0.612,
-      "ffos": 69.23,
+      "ffos": 69.27,
       "ffos_pctile": 0.9262,
       "pis": 12.72,
       "pis_pctile": 0.8985
@@ -29227,9 +29227,9 @@
         "contested_shots_2pt": 4.67,
         "contested_shots_3pt": 1.67,
         "deflections": 0.73,
-        "box_outs": 1.47,
-        "pct_box_outs_off": 0.182,
-        "pct_box_outs_def": 0.818,
+        "box_outs": 1.53,
+        "pct_box_outs_off": 0.174,
+        "pct_box_outs_def": 0.783,
         "loose_balls_recovered": 0.2,
         "charges_drawn": 0.0,
         "screen_assists": 1.93,
@@ -29420,23 +29420,23 @@
         "reb_pct": 0.133
       },
       "hustle": {
-        "contested_shots": 3.5,
-        "contested_shots_2pt": 2.0,
-        "contested_shots_3pt": 1.5,
-        "deflections": 2.0,
-        "box_outs": 1.5,
-        "pct_box_outs_off": 0.458,
-        "pct_box_outs_def": 0.542,
-        "loose_balls_recovered": 0.25,
+        "contested_shots": 3.47,
+        "contested_shots_2pt": 2.06,
+        "contested_shots_3pt": 1.41,
+        "deflections": 1.94,
+        "box_outs": 1.53,
+        "pct_box_outs_off": 0.423,
+        "pct_box_outs_def": 0.5,
+        "loose_balls_recovered": 0.24,
         "charges_drawn": 0.0,
-        "screen_assists": 2.0,
-        "screen_ast_pts": 4.44
+        "screen_assists": 1.88,
+        "screen_ast_pts": 4.18
       },
       "per": 11.75,
       "per_pctile": 0.272,
-      "ffos": 47.11,
+      "ffos": 47.06,
       "ffos_pctile": 0.3846,
-      "pis": 11.94,
+      "pis": 11.92,
       "pis_pctile": 0.8646
     },
     {
@@ -29534,7 +29534,7 @@
       },
       "per": 19.01,
       "per_pctile": 0.841,
-      "ffos": 68.57,
+      "ffos": 68.53,
       "ffos_pctile": 0.9169,
       "pis": 8.96,
       "pis_pctile": 0.64
@@ -29831,7 +29831,7 @@
       },
       "per": 11.23,
       "per_pctile": 0.239,
-      "ffos": 30.06,
+      "ffos": 29.97,
       "ffos_pctile": 0.0708,
       "pis": 8.24,
       "pis_pctile": 0.5446
@@ -30014,23 +30014,23 @@
         "reb_pct": 0.05
       },
       "hustle": {
-        "contested_shots": 2.5,
-        "contested_shots_2pt": 1.21,
-        "contested_shots_3pt": 1.29,
-        "deflections": 2.21,
-        "box_outs": 0.29,
+        "contested_shots": 2.33,
+        "contested_shots_2pt": 1.13,
+        "contested_shots_3pt": 1.2,
+        "deflections": 2.2,
+        "box_outs": 0.27,
         "pct_box_outs_off": 0.25,
         "pct_box_outs_def": 0.75,
-        "loose_balls_recovered": 0.57,
+        "loose_balls_recovered": 0.53,
         "charges_drawn": 0.0,
-        "screen_assists": 0.29,
-        "screen_ast_pts": 0.71
+        "screen_assists": 0.27,
+        "screen_ast_pts": 0.67
       },
       "per": 13.74,
       "per_pctile": 0.474,
       "ffos": 43.82,
       "ffos_pctile": 0.3262,
-      "pis": 6.73,
+      "pis": 6.71,
       "pis_pctile": 0.3415
     },
     {
@@ -30228,7 +30228,7 @@
       },
       "per": 12.18,
       "per_pctile": 0.309,
-      "ffos": 32.28,
+      "ffos": 32.23,
       "ffos_pctile": 0.1138,
       "pis": 9.95,
       "pis_pctile": 0.72
@@ -30314,23 +30314,23 @@
         "reb_pct": 0.137
       },
       "hustle": {
-        "contested_shots": 7.13,
-        "contested_shots_2pt": 5.31,
-        "contested_shots_3pt": 1.81,
-        "deflections": 1.19,
-        "box_outs": 1.63,
-        "pct_box_outs_off": 0.154,
-        "pct_box_outs_def": 0.846,
-        "loose_balls_recovered": 0.44,
+        "contested_shots": 7.41,
+        "contested_shots_2pt": 5.59,
+        "contested_shots_3pt": 1.82,
+        "deflections": 1.18,
+        "box_outs": 1.65,
+        "pct_box_outs_off": 0.143,
+        "pct_box_outs_def": 0.786,
+        "loose_balls_recovered": 0.47,
         "charges_drawn": 0.06,
-        "screen_assists": 3.63,
-        "screen_ast_pts": 8.94
+        "screen_assists": 3.53,
+        "screen_ast_pts": 8.41
       },
       "per": 18.82,
       "per_pctile": 0.829,
       "ffos": 66.82,
       "ffos_pctile": 0.8831,
-      "pis": 12.54,
+      "pis": 12.55,
       "pis_pctile": 0.8892
     },
     {
@@ -30428,8 +30428,8 @@
       },
       "per": 16.56,
       "per_pctile": 0.697,
-      "ffos": 69.37,
-      "ffos_pctile": 0.9292,
+      "ffos": 69.46,
+      "ffos_pctile": 0.9323,
       "pis": 10.74,
       "pis_pctile": 0.7938
     },
@@ -30722,8 +30722,8 @@
       },
       "per": 15.98,
       "per_pctile": 0.661,
-      "ffos": 54.86,
-      "ffos_pctile": 0.6185,
+      "ffos": 54.81,
+      "ffos_pctile": 0.6154,
       "pis": 6.78,
       "pis_pctile": 0.3477
     },
@@ -30808,24 +30808,24 @@
         "reb_pct": 0.144
       },
       "hustle": {
-        "contested_shots": 6.27,
-        "contested_shots_2pt": 4.87,
-        "contested_shots_3pt": 1.4,
-        "deflections": 3.27,
-        "box_outs": 2.33,
-        "pct_box_outs_off": 0.2,
-        "pct_box_outs_def": 0.8,
-        "loose_balls_recovered": 0.27,
+        "contested_shots": 6.19,
+        "contested_shots_2pt": 4.88,
+        "contested_shots_3pt": 1.31,
+        "deflections": 3.25,
+        "box_outs": 2.38,
+        "pct_box_outs_off": 0.184,
+        "pct_box_outs_def": 0.737,
+        "loose_balls_recovered": 0.25,
         "charges_drawn": 0.0,
-        "screen_assists": 4.53,
-        "screen_ast_pts": 10.53
+        "screen_assists": 4.38,
+        "screen_ast_pts": 9.88
       },
       "per": 26.26,
       "per_pctile": 0.982,
       "ffos": 66.92,
       "ffos_pctile": 0.8862,
-      "pis": 13.02,
-      "pis_pctile": 0.9138
+      "pis": 13.01,
+      "pis_pctile": 0.9108
     },
     {
       "id": 1631107,
@@ -30922,8 +30922,8 @@
       },
       "per": 10.67,
       "per_pctile": 0.205,
-      "ffos": 37.26,
-      "ffos_pctile": 0.1908,
+      "ffos": 37.35,
+      "ffos_pctile": 0.1938,
       "pis": 9.61,
       "pis_pctile": 0.6862
     },
@@ -31122,10 +31122,10 @@
       },
       "per": 7.6,
       "per_pctile": 0.058,
-      "ffos": 29.11,
+      "ffos": 29.16,
       "ffos_pctile": 0.0523,
       "pis": 6.22,
-      "pis_pctile": 0.2831
+      "pis_pctile": 0.28
     },
     {
       "id": 1642855,
@@ -31222,7 +31222,7 @@
       },
       "per": 10.44,
       "per_pctile": 0.193,
-      "ffos": 57.28,
+      "ffos": 57.23,
       "ffos_pctile": 0.6708,
       "pis": 11.44,
       "pis_pctile": 0.8369
@@ -31322,8 +31322,8 @@
       },
       "per": 9.99,
       "per_pctile": 0.15,
-      "ffos": 45.89,
-      "ffos_pctile": 0.3569,
+      "ffos": 45.85,
+      "ffos_pctile": 0.36,
       "pis": 8.24,
       "pis_pctile": 0.5446
     },
@@ -31619,8 +31619,8 @@
       },
       "per": 16.62,
       "per_pctile": 0.7,
-      "ffos": 49.18,
-      "ffos_pctile": 0.4492,
+      "ffos": 49.14,
+      "ffos_pctile": 0.4523,
       "pis": 7.59,
       "pis_pctile": 0.4431
     },
@@ -31719,7 +31719,7 @@
       },
       "per": 13.52,
       "per_pctile": 0.443,
-      "ffos": 47.96,
+      "ffos": 47.82,
       "ffos_pctile": 0.4185,
       "pis": 8.59,
       "pis_pctile": 0.6
@@ -31920,7 +31920,7 @@
       "per": 14.09,
       "per_pctile": 0.505,
       "ffos": 57.55,
-      "ffos_pctile": 0.6769,
+      "ffos_pctile": 0.68,
       "pis": 8.88,
       "pis_pctile": 0.6338
     },
@@ -32216,7 +32216,7 @@
       },
       "per": 10.84,
       "per_pctile": 0.214,
-      "ffos": 57.49,
+      "ffos": 57.45,
       "ffos_pctile": 0.6738,
       "pis": 9.86,
       "pis_pctile": 0.7138
@@ -32402,23 +32402,23 @@
         "reb_pct": 0.103
       },
       "hustle": {
-        "contested_shots": 5.4,
-        "contested_shots_2pt": 3.2,
-        "contested_shots_3pt": 2.2,
-        "deflections": 2.33,
-        "box_outs": 0.73,
+        "contested_shots": 5.44,
+        "contested_shots_2pt": 3.13,
+        "contested_shots_3pt": 2.31,
+        "deflections": 2.38,
+        "box_outs": 0.69,
         "pct_box_outs_off": 0.091,
         "pct_box_outs_def": 0.909,
-        "loose_balls_recovered": 0.67,
+        "loose_balls_recovered": 0.63,
         "charges_drawn": 0.0,
-        "screen_assists": 0.93,
-        "screen_ast_pts": 2.2
+        "screen_assists": 0.88,
+        "screen_ast_pts": 2.06
       },
       "per": 13.69,
       "per_pctile": 0.468,
-      "ffos": 56.95,
-      "ffos_pctile": 0.6646,
-      "pis": 9.92,
+      "ffos": 57.09,
+      "ffos_pctile": 0.6677,
+      "pis": 9.91,
       "pis_pctile": 0.7169
     },
     {
@@ -32505,7 +32505,7 @@
         "contested_shots": 1.67,
         "contested_shots_2pt": 0.67,
         "contested_shots_3pt": 1.0,
-        "deflections": 0.33,
+        "deflections": 0.67,
         "box_outs": 0.0,
         "pct_box_outs_off": 0.0,
         "pct_box_outs_def": 0.0,
@@ -32516,7 +32516,7 @@
       },
       "per": 13.77,
       "per_pctile": 0.477,
-      "pis": 3.74
+      "pis": 3.84
     },
     {
       "id": 1627783,
@@ -32714,7 +32714,7 @@
       "per": 10.27,
       "per_pctile": 0.177,
       "ffos": 35.35,
-      "ffos_pctile": 0.1631,
+      "ffos_pctile": 0.1662,
       "pis": 6.67,
       "pis_pctile": 0.3385
     },
@@ -32799,24 +32799,24 @@
         "reb_pct": 0.085
       },
       "hustle": {
-        "contested_shots": 4.79,
+        "contested_shots": 4.8,
         "contested_shots_2pt": 2.0,
-        "contested_shots_3pt": 2.79,
-        "deflections": 4.64,
-        "box_outs": 1.07,
+        "contested_shots_3pt": 2.8,
+        "deflections": 4.47,
+        "box_outs": 1.0,
         "pct_box_outs_off": 0.067,
         "pct_box_outs_def": 0.933,
-        "loose_balls_recovered": 0.5,
+        "loose_balls_recovered": 0.47,
         "charges_drawn": 0.0,
-        "screen_assists": 0.43,
-        "screen_ast_pts": 1.07
+        "screen_assists": 0.47,
+        "screen_ast_pts": 1.0
       },
       "per": 20.45,
       "per_pctile": 0.899,
       "ffos": 55.91,
-      "ffos_pctile": 0.64,
-      "pis": 9.8,
-      "pis_pctile": 0.7046
+      "ffos_pctile": 0.6369,
+      "pis": 9.74,
+      "pis_pctile": 0.6985
     },
     {
       "id": 1630194,
@@ -32899,23 +32899,23 @@
         "reb_pct": 0.134
       },
       "hustle": {
-        "contested_shots": 8.25,
-        "contested_shots_2pt": 6.25,
-        "contested_shots_3pt": 2.0,
+        "contested_shots": 7.88,
+        "contested_shots_2pt": 6.06,
+        "contested_shots_3pt": 1.82,
         "deflections": 2.88,
-        "box_outs": 1.19,
+        "box_outs": 1.12,
         "pct_box_outs_off": 0.158,
         "pct_box_outs_def": 0.842,
-        "loose_balls_recovered": 0.56,
+        "loose_balls_recovered": 0.53,
         "charges_drawn": 0.0,
-        "screen_assists": 2.38,
-        "screen_ast_pts": 5.69
+        "screen_assists": 2.24,
+        "screen_ast_pts": 5.35
       },
       "per": 18.04,
       "per_pctile": 0.804,
       "ffos": 69.76,
       "ffos_pctile": 0.9385,
-      "pis": 12.71,
+      "pis": 12.7,
       "pis_pctile": 0.8954
     },
     {
@@ -32999,24 +32999,24 @@
         "reb_pct": 0.052
       },
       "hustle": {
-        "contested_shots": 1.88,
-        "contested_shots_2pt": 0.94,
-        "contested_shots_3pt": 0.94,
-        "deflections": 1.5,
-        "box_outs": 0.31,
+        "contested_shots": 1.82,
+        "contested_shots_2pt": 0.82,
+        "contested_shots_3pt": 1.0,
+        "deflections": 1.53,
+        "box_outs": 0.29,
         "pct_box_outs_off": 0.2,
         "pct_box_outs_def": 0.8,
-        "loose_balls_recovered": 0.31,
+        "loose_balls_recovered": 0.35,
         "charges_drawn": 0.0,
-        "screen_assists": 0.19,
-        "screen_ast_pts": 0.38
+        "screen_assists": 0.18,
+        "screen_ast_pts": 0.35
       },
       "per": 13.17,
       "per_pctile": 0.391,
-      "ffos": 40.06,
+      "ffos": 40.24,
       "ffos_pctile": 0.2462,
-      "pis": 5.46,
-      "pis_pctile": 0.1569
+      "pis": 5.49,
+      "pis_pctile": 0.16
     },
     {
       "id": 1641796,
@@ -33114,7 +33114,7 @@
       "per": 13.06,
       "per_pctile": 0.382,
       "ffos": 54.51,
-      "ffos_pctile": 0.6062,
+      "ffos_pctile": 0.6092,
       "pis": 7.12,
       "pis_pctile": 0.3846
     },
@@ -33213,10 +33213,10 @@
       },
       "per": 10.45,
       "per_pctile": 0.196,
-      "ffos": 30.99,
+      "ffos": 30.94,
       "ffos_pctile": 0.08,
       "pis": 7.03,
-      "pis_pctile": 0.3692
+      "pis_pctile": 0.3662
     },
     {
       "id": 1630173,
@@ -33313,8 +33313,8 @@
       },
       "per": 14.26,
       "per_pctile": 0.52,
-      "ffos": 63.61,
-      "ffos_pctile": 0.8246,
+      "ffos": 63.47,
+      "ffos_pctile": 0.8185,
       "pis": 11.1,
       "pis_pctile": 0.8185
     },
@@ -33513,8 +33513,8 @@
       },
       "per": 14.2,
       "per_pctile": 0.511,
-      "ffos": 49.18,
-      "ffos_pctile": 0.4492,
+      "ffos": 49.23,
+      "ffos_pctile": 0.4646,
       "pis": 8.65,
       "pis_pctile": 0.6092
     },
@@ -33613,7 +33613,7 @@
       },
       "per": 10.06,
       "per_pctile": 0.156,
-      "ffos": 45.17,
+      "ffos": 45.22,
       "ffos_pctile": 0.3477,
       "pis": 6.2,
       "pis_pctile": 0.2708
@@ -33713,7 +33713,7 @@
       },
       "per": 16.67,
       "per_pctile": 0.713,
-      "ffos": 51.94,
+      "ffos": 51.98,
       "ffos_pctile": 0.5323,
       "pis": 8.58,
       "pis_pctile": 0.5969
@@ -33911,9 +33911,9 @@
       "per": 12.92,
       "per_pctile": 0.376,
       "ffos": 41.77,
-      "ffos_pctile": 0.2923,
+      "ffos_pctile": 0.2892,
       "pis": 5.51,
-      "pis_pctile": 0.16
+      "pis_pctile": 0.1631
     },
     {
       "id": 1629057,
@@ -33999,10 +33999,10 @@
         "contested_shots": 4.21,
         "contested_shots_2pt": 3.29,
         "contested_shots_3pt": 0.93,
-        "deflections": 1.21,
-        "box_outs": 1.29,
-        "pct_box_outs_off": 0.278,
-        "pct_box_outs_def": 0.722,
+        "deflections": 1.36,
+        "box_outs": 1.21,
+        "pct_box_outs_off": 0.235,
+        "pct_box_outs_def": 0.765,
         "loose_balls_recovered": 0.07,
         "charges_drawn": 0.0,
         "screen_assists": 2.0,
@@ -34010,9 +34010,9 @@
       },
       "per": 22.26,
       "per_pctile": 0.933,
-      "ffos": 71.08,
-      "ffos_pctile": 0.9508,
-      "pis": 15.43,
+      "ffos": 72.0,
+      "ffos_pctile": 0.9569,
+      "pis": 15.48,
       "pis_pctile": 0.9692
     },
     {
@@ -34193,24 +34193,24 @@
         "reb_pct": 0.114
       },
       "hustle": {
-        "contested_shots": 1.62,
-        "contested_shots_2pt": 1.08,
-        "contested_shots_3pt": 0.54,
-        "deflections": 1.38,
-        "box_outs": 0.31,
+        "contested_shots": 1.57,
+        "contested_shots_2pt": 1.07,
+        "contested_shots_3pt": 0.5,
+        "deflections": 1.36,
+        "box_outs": 0.29,
         "pct_box_outs_off": 0.5,
         "pct_box_outs_def": 0.5,
-        "loose_balls_recovered": 0.31,
-        "charges_drawn": 0.15,
-        "screen_assists": 0.46,
-        "screen_ast_pts": 1.23
+        "loose_balls_recovered": 0.36,
+        "charges_drawn": 0.14,
+        "screen_assists": 0.43,
+        "screen_ast_pts": 1.14
       },
       "per": 11.07,
       "per_pctile": 0.223,
-      "ffos": 45.54,
-      "ffos_pctile": 0.3538,
-      "pis": 10.59,
-      "pis_pctile": 0.7754
+      "ffos": 45.35,
+      "ffos_pctile": 0.3508,
+      "pis": 10.6,
+      "pis_pctile": 0.7785
     },
     {
       "id": 1626220,
@@ -34307,10 +34307,10 @@
       },
       "per": 8.14,
       "per_pctile": 0.073,
-      "ffos": 40.26,
+      "ffos": 40.35,
       "ffos_pctile": 0.2492,
       "pis": 6.25,
-      "pis_pctile": 0.2923
+      "pis_pctile": 0.2892
     },
     {
       "id": 203497,
@@ -34397,13 +34397,13 @@
         "contested_shots_2pt": 5.65,
         "contested_shots_3pt": 2.53,
         "deflections": 1.94,
-        "box_outs": 1.71,
-        "pct_box_outs_off": 0.345,
-        "pct_box_outs_def": 0.655,
+        "box_outs": 1.65,
+        "pct_box_outs_off": 0.357,
+        "pct_box_outs_def": 0.643,
         "loose_balls_recovered": 0.29,
         "charges_drawn": 0.0,
         "screen_assists": 4.06,
-        "screen_ast_pts": 10.53
+        "screen_ast_pts": 10.41
       },
       "per": 12.37,
       "per_pctile": 0.336,
@@ -34608,7 +34608,7 @@
       "per": 10.97,
       "per_pctile": 0.22,
       "ffos": 52.17,
-      "ffos_pctile": 0.5446,
+      "ffos_pctile": 0.5385,
       "pis": 5.88,
       "pis_pctile": 0.2215
     },
@@ -34807,8 +34807,8 @@
       },
       "per": 17.03,
       "per_pctile": 0.731,
-      "ffos": 64.89,
-      "ffos_pctile": 0.8462,
+      "ffos": 64.94,
+      "ffos_pctile": 0.8492,
       "pis": 11.03,
       "pis_pctile": 0.8154
     },
@@ -34908,7 +34908,7 @@
       "per": 11.08,
       "per_pctile": 0.226,
       "ffos": 36.8,
-      "ffos_pctile": 0.1785,
+      "ffos_pctile": 0.1754,
       "pis": 8.24,
       "pis_pctile": 0.5446
     },
@@ -35007,7 +35007,7 @@
       },
       "per": 15.97,
       "per_pctile": 0.657,
-      "ffos": 52.07,
+      "ffos": 52.17,
       "ffos_pctile": 0.5385,
       "pis": 7.9,
       "pis_pctile": 0.4892
@@ -35093,23 +35093,23 @@
         "reb_pct": 0.068
       },
       "hustle": {
-        "contested_shots": 2.06,
-        "contested_shots_2pt": 1.12,
-        "contested_shots_3pt": 0.94,
-        "deflections": 1.35,
-        "box_outs": 0.29,
+        "contested_shots": 2.17,
+        "contested_shots_2pt": 1.28,
+        "contested_shots_3pt": 0.89,
+        "deflections": 1.44,
+        "box_outs": 0.28,
         "pct_box_outs_off": 0.0,
         "pct_box_outs_def": 1.0,
-        "loose_balls_recovered": 0.12,
+        "loose_balls_recovered": 0.11,
         "charges_drawn": 0.0,
-        "screen_assists": 0.18,
-        "screen_ast_pts": 0.41
+        "screen_assists": 0.39,
+        "screen_ast_pts": 0.39
       },
       "per": 13.36,
       "per_pctile": 0.413,
-      "ffos": 57.58,
-      "ffos_pctile": 0.6831,
-      "pis": 6.62,
+      "ffos": 57.91,
+      "ffos_pctile": 0.6862,
+      "pis": 6.64,
       "pis_pctile": 0.3354
     },
     {
@@ -35208,7 +35208,7 @@
       "per": 11.58,
       "per_pctile": 0.26,
       "ffos": 57.65,
-      "ffos_pctile": 0.6862,
+      "ffos_pctile": 0.6831,
       "pis": 8.32,
       "pis_pctile": 0.5662
     },
@@ -35310,7 +35310,7 @@
       "ffos": 47.12,
       "ffos_pctile": 0.3877,
       "pis": 8.79,
-      "pis_pctile": 0.6215
+      "pis_pctile": 0.6246
     },
     {
       "id": 1630583,
@@ -35393,21 +35393,21 @@
         "reb_pct": 0.105
       },
       "hustle": {
-        "contested_shots": 2.29,
-        "contested_shots_2pt": 1.29,
+        "contested_shots": 2.25,
+        "contested_shots_2pt": 1.25,
         "contested_shots_3pt": 1.0,
-        "deflections": 0.57,
-        "box_outs": 0.57,
+        "deflections": 0.5,
+        "box_outs": 0.5,
         "pct_box_outs_off": 0.0,
         "pct_box_outs_def": 1.0,
-        "loose_balls_recovered": 0.14,
+        "loose_balls_recovered": 0.13,
         "charges_drawn": 0.0,
-        "screen_assists": 0.71,
-        "screen_ast_pts": 1.71
+        "screen_assists": 0.63,
+        "screen_ast_pts": 1.5
       },
       "per": 10.28,
       "per_pctile": 0.18,
-      "pis": 7.02
+      "pis": 7.0
     },
     {
       "id": 1630703,
@@ -35901,7 +35901,7 @@
       },
       "per": 11.19,
       "per_pctile": 0.229,
-      "ffos": 69.62,
+      "ffos": 69.66,
       "ffos_pctile": 0.9354,
       "pis": 7.74,
       "pis_pctile": 0.4769
@@ -36098,10 +36098,10 @@
       },
       "per": 6.25,
       "per_pctile": 0.024,
-      "ffos": 21.77,
+      "ffos": 21.82,
       "ffos_pctile": 0.0215,
       "pis": 6.14,
-      "pis_pctile": 0.2646
+      "pis_pctile": 0.2615
     },
     {
       "id": 1642461,
@@ -36184,23 +36184,23 @@
         "reb_pct": 0.06
       },
       "hustle": {
-        "contested_shots": 3.25,
-        "contested_shots_2pt": 2.38,
-        "contested_shots_3pt": 0.88,
-        "deflections": 1.63,
-        "box_outs": 0.25,
+        "contested_shots": 3.22,
+        "contested_shots_2pt": 2.44,
+        "contested_shots_3pt": 0.78,
+        "deflections": 1.56,
+        "box_outs": 0.33,
         "pct_box_outs_off": 0.0,
-        "pct_box_outs_def": 1.0,
-        "loose_balls_recovered": 0.25,
+        "pct_box_outs_def": 0.667,
+        "loose_balls_recovered": 0.22,
         "charges_drawn": 0.0,
-        "screen_assists": 0.5,
-        "screen_ast_pts": 1.13
+        "screen_assists": 0.44,
+        "screen_ast_pts": 1.0
       },
       "per": 6.39,
       "per_pctile": 0.028,
-      "ffos": 34.58,
-      "ffos_pctile": 0.16,
-      "pis": 4.84,
+      "ffos": 34.26,
+      "ffos_pctile": 0.1569,
+      "pis": 4.81,
       "pis_pctile": 0.1015
     },
     {
@@ -36298,8 +36298,8 @@
       },
       "per": 33.26,
       "per_pctile": 0.994,
-      "ffos": 63.45,
-      "ffos_pctile": 0.8123,
+      "ffos": 63.49,
+      "ffos_pctile": 0.8215,
       "pis": 9.62,
       "pis_pctile": 0.6892
     },
@@ -36401,7 +36401,7 @@
       "ffos": 51.99,
       "ffos_pctile": 0.5354,
       "pis": 8.15,
-      "pis_pctile": 0.5354
+      "pis_pctile": 0.5323
     },
     {
       "id": 203500,
@@ -36596,7 +36596,7 @@
       "per": 8.62,
       "per_pctile": 0.095,
       "ffos": 29.83,
-      "ffos_pctile": 0.0677,
+      "ffos_pctile": 0.0646,
       "pis": 5.09,
       "pis_pctile": 0.1262
     },
@@ -36889,8 +36889,8 @@
       },
       "per": 14.09,
       "per_pctile": 0.508,
-      "ffos": 47.83,
-      "ffos_pctile": 0.4123,
+      "ffos": 47.79,
+      "ffos_pctile": 0.4154,
       "pis": 10.11,
       "pis_pctile": 0.7354
     },
@@ -37086,8 +37086,8 @@
       },
       "per": 17.51,
       "per_pctile": 0.768,
-      "ffos": 67.15,
-      "ffos_pctile": 0.8954,
+      "ffos": 67.11,
+      "ffos_pctile": 0.8923,
       "pis": 10.72,
       "pis_pctile": 0.7908
     },
@@ -37269,8 +37269,8 @@
         "reb_pct": 0.068
       },
       "hustle": {
-        "contested_shots": 2.5,
-        "contested_shots_2pt": 1.36,
+        "contested_shots": 2.57,
+        "contested_shots_2pt": 1.43,
         "contested_shots_3pt": 1.14,
         "deflections": 0.93,
         "box_outs": 0.5,
@@ -37284,7 +37284,7 @@
       "per": 16.63,
       "per_pctile": 0.703,
       "ffos": 42.77,
-      "ffos_pctile": 0.3077,
+      "ffos_pctile": 0.3108,
       "pis": 7.56,
       "pis_pctile": 0.4369
     },
@@ -37383,7 +37383,7 @@
       },
       "per": 21.24,
       "per_pctile": 0.908,
-      "ffos": 75.4,
+      "ffos": 75.45,
       "ffos_pctile": 0.9785,
       "pis": 12.07,
       "pis_pctile": 0.8738
@@ -37483,8 +37483,8 @@
       },
       "per": 12.03,
       "per_pctile": 0.294,
-      "ffos": 60.05,
-      "ffos_pctile": 0.7508,
+      "ffos": 60.0,
+      "ffos_pctile": 0.7446,
       "pis": 10.58,
       "pis_pctile": 0.7723
     },
@@ -37963,10 +37963,10 @@
         "contested_shots": 4.65,
         "contested_shots_2pt": 2.59,
         "contested_shots_3pt": 2.06,
-        "deflections": 2.88,
-        "box_outs": 0.53,
-        "pct_box_outs_off": 0.111,
-        "pct_box_outs_def": 0.889,
+        "deflections": 3.0,
+        "box_outs": 0.59,
+        "pct_box_outs_off": 0.1,
+        "pct_box_outs_def": 0.8,
         "loose_balls_recovered": 0.53,
         "charges_drawn": 0.12,
         "screen_assists": 0.47,
@@ -37974,10 +37974,10 @@
       },
       "per": 10.55,
       "per_pctile": 0.202,
-      "ffos": 54.97,
-      "ffos_pctile": 0.6215,
-      "pis": 6.12,
-      "pis_pctile": 0.2585
+      "ffos": 55.29,
+      "ffos_pctile": 0.6246,
+      "pis": 6.16,
+      "pis_pctile": 0.2677
     },
     {
       "id": 1629027,
@@ -38060,24 +38060,24 @@
         "reb_pct": 0.036
       },
       "hustle": {
-        "contested_shots": 0.83,
-        "contested_shots_2pt": 0.22,
-        "contested_shots_3pt": 0.61,
-        "deflections": 1.78,
-        "box_outs": 0.06,
+        "contested_shots": 0.84,
+        "contested_shots_2pt": 0.26,
+        "contested_shots_3pt": 0.58,
+        "deflections": 1.79,
+        "box_outs": 0.05,
         "pct_box_outs_off": 0.0,
         "pct_box_outs_def": 1.0,
-        "loose_balls_recovered": 0.33,
+        "loose_balls_recovered": 0.32,
         "charges_drawn": 0.11,
         "screen_assists": 0.0,
         "screen_ast_pts": 0.0
       },
       "per": 15.95,
       "per_pctile": 0.651,
-      "ffos": 32.42,
-      "ffos_pctile": 0.1262,
+      "ffos": 32.51,
+      "ffos_pctile": 0.1231,
       "pis": 6.24,
-      "pis_pctile": 0.2892
+      "pis_pctile": 0.2862
     },
     {
       "id": 1631218,
@@ -38257,23 +38257,23 @@
         "reb_pct": 0.044
       },
       "hustle": {
-        "contested_shots": 1.29,
-        "contested_shots_2pt": 0.86,
-        "contested_shots_3pt": 0.43,
-        "deflections": 0.86,
-        "box_outs": 0.29,
+        "contested_shots": 1.2,
+        "contested_shots_2pt": 0.8,
+        "contested_shots_3pt": 0.4,
+        "deflections": 0.8,
+        "box_outs": 0.27,
         "pct_box_outs_off": 0.5,
         "pct_box_outs_def": 0.5,
-        "loose_balls_recovered": 0.14,
+        "loose_balls_recovered": 0.2,
         "charges_drawn": 0.0,
-        "screen_assists": 0.21,
-        "screen_ast_pts": 0.43
+        "screen_assists": 0.2,
+        "screen_ast_pts": 0.4
       },
       "per": 7.67,
       "per_pctile": 0.061,
-      "ffos": 33.74,
+      "ffos": 33.6,
       "ffos_pctile": 0.1477,
-      "pis": 3.96,
+      "pis": 3.98,
       "pis_pctile": 0.0431
     },
     {
@@ -38651,23 +38651,23 @@
         "reb_pct": 0.125
       },
       "hustle": {
-        "contested_shots": 4.71,
-        "contested_shots_2pt": 2.5,
-        "contested_shots_3pt": 2.21,
-        "deflections": 0.86,
-        "box_outs": 0.29,
+        "contested_shots": 4.47,
+        "contested_shots_2pt": 2.4,
+        "contested_shots_3pt": 2.07,
+        "deflections": 0.8,
+        "box_outs": 0.27,
         "pct_box_outs_off": 0.0,
         "pct_box_outs_def": 1.0,
-        "loose_balls_recovered": 0.14,
+        "loose_balls_recovered": 0.13,
         "charges_drawn": 0.0,
-        "screen_assists": 0.21,
-        "screen_ast_pts": 0.43
+        "screen_assists": 0.2,
+        "screen_ast_pts": 0.4
       },
       "per": 13.23,
       "per_pctile": 0.398,
-      "ffos": 58.12,
-      "ffos_pctile": 0.6954,
-      "pis": 10.37,
+      "ffos": 57.94,
+      "ffos_pctile": 0.6923,
+      "pis": 10.35,
       "pis_pctile": 0.76
     },
     {
@@ -38865,8 +38865,8 @@
       },
       "per": 14.84,
       "per_pctile": 0.572,
-      "ffos": 55.27,
-      "ffos_pctile": 0.6308,
+      "ffos": 55.32,
+      "ffos_pctile": 0.6277,
       "pis": 7.95,
       "pis_pctile": 0.4985
     },
@@ -38951,23 +38951,23 @@
         "reb_pct": 0.06
       },
       "hustle": {
-        "contested_shots": 3.29,
-        "contested_shots_2pt": 2.07,
-        "contested_shots_3pt": 1.21,
-        "deflections": 1.5,
-        "box_outs": 0.43,
+        "contested_shots": 3.27,
+        "contested_shots_2pt": 2.0,
+        "contested_shots_3pt": 1.27,
+        "deflections": 1.6,
+        "box_outs": 0.53,
         "pct_box_outs_off": 0.0,
-        "pct_box_outs_def": 1.0,
-        "loose_balls_recovered": 0.14,
+        "pct_box_outs_def": 0.75,
+        "loose_balls_recovered": 0.13,
         "charges_drawn": 0.0,
-        "screen_assists": 1.07,
-        "screen_ast_pts": 2.43
+        "screen_assists": 1.2,
+        "screen_ast_pts": 2.27
       },
       "per": 12.92,
       "per_pctile": 0.373,
-      "ffos": 55.17,
-      "ffos_pctile": 0.6277,
-      "pis": 4.49,
+      "ffos": 55.44,
+      "ffos_pctile": 0.6338,
+      "pis": 4.52,
       "pis_pctile": 0.0831
     },
     {
@@ -39158,7 +39158,7 @@
         "box_outs": 0.13,
         "pct_box_outs_off": 0.0,
         "pct_box_outs_def": 1.0,
-        "loose_balls_recovered": 0.63,
+        "loose_balls_recovered": 0.56,
         "charges_drawn": 0.0,
         "screen_assists": 0.06,
         "screen_ast_pts": 0.13
@@ -39167,7 +39167,7 @@
       "per_pctile": 0.893,
       "ffos": 49.91,
       "ffos_pctile": 0.4862,
-      "pis": 7.33,
+      "pis": 7.29,
       "pis_pctile": 0.4123
     },
     {
@@ -39252,8 +39252,8 @@
       },
       "hustle": {
         "contested_shots": 1.71,
-        "contested_shots_2pt": 0.71,
-        "contested_shots_3pt": 1.0,
+        "contested_shots_2pt": 0.64,
+        "contested_shots_3pt": 1.07,
         "deflections": 1.07,
         "box_outs": 0.36,
         "pct_box_outs_off": 0.2,
@@ -39366,9 +39366,9 @@
       "per": 21.63,
       "per_pctile": 0.924,
       "ffos": 54.85,
-      "ffos_pctile": 0.6154,
+      "ffos_pctile": 0.6185,
       "pis": 6.91,
-      "pis_pctile": 0.3631
+      "pis_pctile": 0.36
     },
     {
       "id": 1642878,
@@ -39468,7 +39468,7 @@
       "ffos": 61.78,
       "ffos_pctile": 0.7938,
       "pis": 7.06,
-      "pis_pctile": 0.3785
+      "pis_pctile": 0.3754
     },
     {
       "id": 1626145,
@@ -39551,23 +39551,23 @@
         "reb_pct": 0.033
       },
       "hustle": {
-        "contested_shots": 0.8,
-        "contested_shots_2pt": 0.8,
+        "contested_shots": 0.82,
+        "contested_shots_2pt": 0.82,
         "contested_shots_3pt": 0.0,
-        "deflections": 0.8,
-        "box_outs": 0.1,
+        "deflections": 0.73,
+        "box_outs": 0.09,
         "pct_box_outs_off": 0.0,
         "pct_box_outs_def": 1.0,
-        "loose_balls_recovered": 0.2,
+        "loose_balls_recovered": 0.18,
         "charges_drawn": 0.0,
-        "screen_assists": 0.2,
-        "screen_ast_pts": 0.4
+        "screen_assists": 0.18,
+        "screen_ast_pts": 0.36
       },
       "per": 8.61,
       "per_pctile": 0.092,
-      "ffos": 16.25,
+      "ffos": 15.69,
       "ffos_pctile": 0.0062,
-      "pis": 3.81,
+      "pis": 3.78,
       "pis_pctile": 0.0338
     },
     {
@@ -39665,7 +39665,7 @@
       },
       "per": 14.53,
       "per_pctile": 0.544,
-      "ffos": 57.55,
+      "ffos": 57.51,
       "ffos_pctile": 0.6769,
       "pis": 9.56,
       "pis_pctile": 0.68
@@ -39751,8 +39751,8 @@
         "reb_pct": 0.189
       },
       "hustle": {
-        "contested_shots": 11.12,
-        "contested_shots_2pt": 8.76,
+        "contested_shots": 11.06,
+        "contested_shots_2pt": 8.71,
         "contested_shots_3pt": 2.35,
         "deflections": 3.0,
         "box_outs": 2.24,
@@ -39765,7 +39765,7 @@
       },
       "per": 36.91,
       "per_pctile": 0.997,
-      "ffos": 80.17,
+      "ffos": 80.22,
       "ffos_pctile": 0.9938,
       "pis": 18.5,
       "pis_pctile": 0.9938
@@ -40048,24 +40048,24 @@
         "reb_pct": 0.075
       },
       "hustle": {
-        "contested_shots": 3.07,
-        "contested_shots_2pt": 1.4,
-        "contested_shots_3pt": 1.67,
-        "deflections": 1.73,
-        "box_outs": 0.2,
+        "contested_shots": 3.0,
+        "contested_shots_2pt": 1.44,
+        "contested_shots_3pt": 1.56,
+        "deflections": 1.69,
+        "box_outs": 0.13,
         "pct_box_outs_off": 0.0,
         "pct_box_outs_def": 1.0,
-        "loose_balls_recovered": 0.27,
-        "charges_drawn": 0.07,
-        "screen_assists": 0.33,
-        "screen_ast_pts": 0.87
+        "loose_balls_recovered": 0.31,
+        "charges_drawn": 0.06,
+        "screen_assists": 0.31,
+        "screen_ast_pts": 0.81
       },
       "per": 13.63,
       "per_pctile": 0.459,
-      "ffos": 42.92,
-      "ffos_pctile": 0.3138,
+      "ffos": 42.55,
+      "ffos_pctile": 0.3046,
       "pis": 7.04,
-      "pis_pctile": 0.3754
+      "pis_pctile": 0.3723
     },
     {
       "id": 1628976,
@@ -40148,23 +40148,23 @@
         "reb_pct": 0.131
       },
       "hustle": {
-        "contested_shots": 10.0,
-        "contested_shots_2pt": 7.31,
-        "contested_shots_3pt": 2.69,
-        "deflections": 1.56,
-        "box_outs": 3.81,
-        "pct_box_outs_off": 0.082,
-        "pct_box_outs_def": 0.918,
-        "loose_balls_recovered": 0.31,
+        "contested_shots": 9.76,
+        "contested_shots_2pt": 7.12,
+        "contested_shots_3pt": 2.65,
+        "deflections": 1.59,
+        "box_outs": 3.71,
+        "pct_box_outs_off": 0.079,
+        "pct_box_outs_def": 0.889,
+        "loose_balls_recovered": 0.35,
         "charges_drawn": 0.0,
-        "screen_assists": 2.25,
-        "screen_ast_pts": 5.06
+        "screen_assists": 2.12,
+        "screen_ast_pts": 4.76
       },
       "per": 15.31,
       "per_pctile": 0.599,
-      "ffos": 65.52,
+      "ffos": 65.57,
       "ffos_pctile": 0.8646,
-      "pis": 11.64,
+      "pis": 11.67,
       "pis_pctile": 0.8523
     },
     {
@@ -40262,7 +40262,7 @@
       },
       "per": 11.75,
       "per_pctile": 0.275,
-      "ffos": 61.14,
+      "ffos": 61.05,
       "ffos_pctile": 0.7754,
       "pis": 5.68,
       "pis_pctile": 0.1877
@@ -40348,21 +40348,21 @@
         "reb_pct": 0.057
       },
       "hustle": {
-        "contested_shots": 2.56,
-        "contested_shots_2pt": 1.78,
-        "contested_shots_3pt": 0.78,
-        "deflections": 0.44,
+        "contested_shots": 2.5,
+        "contested_shots_2pt": 1.6,
+        "contested_shots_3pt": 0.9,
+        "deflections": 0.4,
         "box_outs": 0.0,
         "pct_box_outs_off": 0.0,
         "pct_box_outs_def": 0.0,
-        "loose_balls_recovered": 0.11,
+        "loose_balls_recovered": 0.1,
         "charges_drawn": 0.0,
         "screen_assists": 0.0,
         "screen_ast_pts": 0.0
       },
       "per": 9.84,
       "per_pctile": 0.147,
-      "pis": 5.24
+      "pis": 5.22
     },
     {
       "id": 1642905,
@@ -40556,8 +40556,8 @@
       },
       "per": 17.22,
       "per_pctile": 0.749,
-      "ffos": 52.31,
-      "ffos_pctile": 0.5477,
+      "ffos": 52.26,
+      "ffos_pctile": 0.5446,
       "pis": 10.16,
       "pis_pctile": 0.7446
     },
@@ -40656,10 +40656,10 @@
       },
       "per": 16.54,
       "per_pctile": 0.694,
-      "ffos": 59.23,
+      "ffos": 59.28,
       "ffos_pctile": 0.7323,
       "pis": 16.45,
-      "pis_pctile": 0.9815
+      "pis_pctile": 0.9785
     },
     {
       "id": 1642258,
@@ -40742,24 +40742,24 @@
         "reb_pct": 0.099
       },
       "hustle": {
-        "contested_shots": 3.76,
-        "contested_shots_2pt": 2.47,
-        "contested_shots_3pt": 1.29,
-        "deflections": 3.0,
-        "box_outs": 0.29,
+        "contested_shots": 3.67,
+        "contested_shots_2pt": 2.33,
+        "contested_shots_3pt": 1.33,
+        "deflections": 2.89,
+        "box_outs": 0.28,
         "pct_box_outs_off": 0.0,
         "pct_box_outs_def": 1.0,
-        "loose_balls_recovered": 0.59,
+        "loose_balls_recovered": 0.56,
         "charges_drawn": 0.0,
-        "screen_assists": 0.35,
-        "screen_ast_pts": 0.82
+        "screen_assists": 0.33,
+        "screen_ast_pts": 0.78
       },
       "per": 13.63,
       "per_pctile": 0.456,
-      "ffos": 61.11,
-      "ffos_pctile": 0.7723,
-      "pis": 10.1,
-      "pis_pctile": 0.7323
+      "ffos": 60.88,
+      "ffos_pctile": 0.7692,
+      "pis": 10.05,
+      "pis_pctile": 0.7292
     },
     {
       "id": 1628380,
@@ -40856,7 +40856,7 @@
       },
       "per": 8.0,
       "per_pctile": 0.067,
-      "ffos": 31.78,
+      "ffos": 31.74,
       "ffos_pctile": 0.1046,
       "pis": 7.4,
       "pis_pctile": 0.4215
@@ -40956,8 +40956,8 @@
       },
       "per": 17.32,
       "per_pctile": 0.758,
-      "ffos": 58.19,
-      "ffos_pctile": 0.7015,
+      "ffos": 58.14,
+      "ffos_pctile": 0.6985,
       "pis": 12.98,
       "pis_pctile": 0.9077
     },
@@ -41056,7 +41056,7 @@
       },
       "per": 16.4,
       "per_pctile": 0.688,
-      "ffos": 46.0,
+      "ffos": 45.95,
       "ffos_pctile": 0.3631,
       "pis": 5.58,
       "pis_pctile": 0.1754
@@ -41156,8 +41156,8 @@
       },
       "per": 14.72,
       "per_pctile": 0.557,
-      "ffos": 72.68,
-      "ffos_pctile": 0.9723,
+      "ffos": 72.54,
+      "ffos_pctile": 0.9662,
       "pis": 6.76,
       "pis_pctile": 0.3446
     },
@@ -41342,11 +41342,11 @@
         "reb_pct": 0.104
       },
       "hustle": {
-        "contested_shots": 4.27,
-        "contested_shots_2pt": 3.27,
+        "contested_shots": 4.18,
+        "contested_shots_2pt": 3.18,
         "contested_shots_3pt": 1.0,
         "deflections": 0.73,
-        "box_outs": 1.0,
+        "box_outs": 0.91,
         "pct_box_outs_off": 0.0,
         "pct_box_outs_def": 1.0,
         "loose_balls_recovered": 0.18,
@@ -41356,7 +41356,7 @@
       },
       "per": 13.87,
       "per_pctile": 0.486,
-      "ffos": 56.88,
+      "ffos": 56.92,
       "ffos_pctile": 0.6615,
       "pis": 9.95,
       "pis_pctile": 0.72
