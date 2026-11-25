@@ -262,7 +262,7 @@ function App() {
             <Route path="/trends" element={<TrendsPage gameLogs={gameLogs} teamData={teamData} onoff={onoff} />} />
             <Route path="/lineups" element={<LineupsPage lineups5={lineups5} lineups4={lineups4} lineups3={lineups3} lineups2={lineups2} onoff={onoff} />} />
             <Route path="/players/:id" element={<PlayerProfilePage playerData={playerData} season={season} leagueBaseline={leagueBaseline} gameLogs={gameLogs} onoff={onoff} />} />
-            <Route path="/compare/:id1/:id2" element={<ComparePage playerData={playerData} />} />
+            <Route path="/compare/:ids" element={<ComparePage playerData={playerData} />} />
             <Route path="/games/:id" element={<BoxScorePage season={season} playerData={playerData} />} />
             <Route path="/teams/:tricode" element={<TeamHomePage teamData={teamData} standingsData={standingsData} season={season} />} />
             <Route path="/shooting"   element={<ShootingPage   playerData={playerData} season={season} />} />

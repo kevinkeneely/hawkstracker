@@ -809,7 +809,7 @@ function CompareSelector({ currentPlayerId, playerData }) {
       value=""
       onChange={(e) => {
         const otherId = e.target.value
-        if (otherId) navigate(`/compare/${currentPlayerId}/${otherId}`)
+        if (otherId) navigate(`/compare/${currentPlayerId},${otherId}`)
       }}
       aria-label="Compare with another Hawks player"
     >

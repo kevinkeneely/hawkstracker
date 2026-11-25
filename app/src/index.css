@@ -2642,6 +2642,214 @@ header {
   font-weight: 500;
 }
 
+/* ───────── Compare page: N-player percentile bars (Phase 1, Nov 24) ─────────
+   Four tabs (Traditional / Advanced / Hustle / Clutch) × up to 5 players
+   side by side. Each row is [stat label (left) | bar1 | bar2 | ... | barN]
+   where the grid-template-columns is set INLINE on each row from
+   ComparePage.jsx — "180px repeat(N, 1fr)" — so adding/removing a player
+   re-flows the layout naturally. */
+
+.compare-bars {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  overflow: hidden;
+  background: var(--bg);
+}
+
+.compare-bar-row {
+  display: grid;
+  /* grid-template-columns is set inline per-row (180px repeat(N, 1fr)) */
+  align-items: center;
+  gap: 20px;
+  padding: 14px 20px;
+  border-bottom: 1px solid var(--border);
+}
+.compare-bar-row:last-child {
+  border-bottom: none;
+}
+.compare-bar-row:nth-child(even) {
+  background: var(--row-alt);
+}
+
+/* Each player's bar cell: [track | numeric value]. */
+.compare-bar {
+  display: grid;
+  grid-template-columns: 1fr 56px;
+  align-items: center;
+  gap: 10px;
+}
+
+.compare-bar-track {
+  position: relative;
+  height: 10px;
+  background: var(--code-bg);
+  border-radius: 5px;
+  overflow: visible;
+}
+
+.compare-bar-fill {
+  height: 100%;
+  border-radius: 5px;
+  transition: width 0.3s;
+}
+
+.compare-bar-dot {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  font-weight: 600;
+  color: #fff;
+  box-shadow: 0 0 0 2px var(--bg);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  transition: left 0.3s;
+}
+
+.compare-bar-value {
+  font-family: var(--mono);
+  font-size: 13px;
+  font-variant-numeric: tabular-nums;
+  color: var(--text-h);
+  text-align: right;
+}
+
+/* Stat label on the far left (Phase 1 layout). Phase 2 may introduce a
+   centered label variant for n === 2 mirrored view. */
+.compare-bar-row-label {
+  color: var(--text-h);
+  font-size: 13px;
+  font-weight: 600;
+  text-align: left;
+  padding-right: 8px;
+}
+
+/* Hawks-red divider between groups on the Advanced tab. */
+.compare-bar-divider {
+  height: 1px;
+  background: #C8102E;
+  margin: 10px 20px;
+  opacity: 0.6;
+}
+
+/* Mobile: the row width can't accommodate 5 bar columns legibly. Collapse
+   to a stacked layout where the label is on its own line above a vertical
+   stack of player bars. Honest trade-off: more vertical scrolling, but
+   every bar stays readable. */
+@media (max-width: 640px) {
+  .compare-bar-row {
+    grid-template-columns: 1fr !important;
+    gap: 8px;
+    padding: 12px 14px;
+  }
+  .compare-bar-row-label {
+    font-size: 12px;
+    padding-bottom: 2px;
+  }
+  .compare-bar {
+    grid-template-columns: 1fr 48px;
+    gap: 8px;
+  }
+}
+
+/* ───────── Multi-player header (add / remove) ───────── */
+
+/* Replaces the fixed 3-column compare-header for N players. Flex so cards
+   wrap naturally if 5 cards don't fit on one row at narrow widths. */
+.compare-header-multi {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  background: var(--social-bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  grid-template-columns: unset; /* override the old .compare-header rule */
+}
+
+/* Relative wrapper so the remove-X can position over the card. */
+.compare-player-card-wrap {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.compare-remove-btn {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  z-index: 2;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  color: var(--text);
+  font-size: 16px;
+  line-height: 1;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+}
+.compare-remove-btn:hover {
+  background: #C8102E;
+  color: #fff;
+  border-color: #C8102E;
+}
+
+/* Big "+" placeholder card — same visual footprint as a real player card. */
+.compare-add-btn {
+  width: 120px;
+  height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 36px;
+  color: var(--text);
+  background: var(--bg);
+  border: 2px dashed var(--border);
+  border-radius: 8px;
+  cursor: pointer;
+  transition: border-color 0.15s, color 0.15s, background 0.15s;
+}
+.compare-add-btn:hover {
+  border-color: #C8102E;
+  color: #C8102E;
+  background: var(--social-bg);
+}
+
+.compare-add-picker {
+  width: 120px;
+  height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.compare-add-picker select {
+  width: 100%;
+  padding: 8px;
+  font: inherit;
+  font-size: 13px;
+  background: var(--bg);
+  color: var(--text-h);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+}
+
+
 /* "Compare with…" picker on PlayerProfilePage */
 .compare-select {
   margin-top: 10px;
