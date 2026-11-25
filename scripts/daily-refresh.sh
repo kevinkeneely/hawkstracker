@@ -90,6 +90,16 @@ run_step transform_triple_doubles     python3 -m pipeline.transform_triple_doubl
 # available side-by-side in the data.
 run_step transform_per                python3 -m pipeline.transform_per
 
+# FFOS + PIS — hawkstracker-original player metrics (Nov 24, 2026). Both
+# read already-transformed hawksData + league_leaderboards, so they must
+# run AFTER transform_per, transform_hustle, and
+# transform_league_leaderboards. See claude/advanced-metrics-plan.md
+# "Hawks-tracker-original metrics" section for formulas. Both share the
+# same prorated MIN qualifier that PER uses, so the three metrics have
+# comparable pctile pools.
+run_step transform_ffos               python3 -m pipeline.transform_ffos
+run_step transform_pis                python3 -m pipeline.transform_pis
+
 # Advanced tracking data (Phase 1 of the Advanced Stats plan — see
 # claude/advanced-stats-plan.md). Five fetches hit NBA.com tracking
 # endpoints, three "transform_tracking_X" transforms publish per-season
