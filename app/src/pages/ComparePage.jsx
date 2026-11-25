@@ -186,9 +186,9 @@ function CompareBar({ pctile, value, invert, format }) {
 
 /** One stat row: [label (left-aligned)] + [one bar per player]. The grid
  * column template is set inline so it adapts to how many players we're
- * comparing — "180px repeat(N, 1fr)" scales cleanly for 2 through 5. */
+ * comparing — "120px repeat(N, 1fr)" scales cleanly for 2 through 5. */
 function CompareBarRow({ row, players }) {
-  const tpl = { gridTemplateColumns: `180px repeat(${players.length}, 1fr)` }
+  const tpl = { gridTemplateColumns: `120px repeat(${players.length}, 1fr)` }
   return (
     <div className="compare-bar-row" style={tpl}>
       <div className="compare-bar-row-label">{row.label}</div>
@@ -370,7 +370,7 @@ export default function ComparePage({ playerData }) {
 
       <header
         className="compare-header compare-header-multi"
-        style={{ gridTemplateColumns: `180px repeat(${players.length}, 1fr)` }}
+        style={{ gridTemplateColumns: `120px repeat(${players.length}, 1fr)` }}
       >
         {/* Empty first cell so player cards align with the stat columns
             below (rows use the same 180px + N×1fr template). */}

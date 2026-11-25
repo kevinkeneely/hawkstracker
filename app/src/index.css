@@ -2564,20 +2564,21 @@ header {
 }
 
 .compare-player-card .profile-headshot {
-  width: 120px;
-  margin-bottom: 4px;
+  width: 80px;
+  margin-bottom: 2px;
 }
 
 .compare-player-card h2 {
-  margin: 4px 0 0;
-  font-size: 20px;
+  margin: 2px 0 0;
+  font-size: 13px;
+  line-height: 1.2;
   color: var(--text-h);
 }
 
 .compare-player-card p {
   margin: 0;
   color: var(--text);
-  font-size: 13px;
+  font-size: 11px;
 }
 
 .compare-vs {
@@ -2660,10 +2661,10 @@ header {
 
 .compare-bar-row {
   display: grid;
-  /* grid-template-columns is set inline per-row (180px repeat(N, 1fr)) */
+  /* grid-template-columns is set inline per-row (120px repeat(N, 1fr)) */
   align-items: center;
-  gap: 20px;
-  padding: 14px 20px;
+  gap: 14px;
+  padding: 7px 14px;
   border-bottom: 1px solid var(--border);
 }
 .compare-bar-row:last-child {
@@ -2678,16 +2679,16 @@ header {
 /* Each player's bar cell: [track | numeric value]. */
 .compare-bar {
   display: grid;
-  grid-template-columns: 1fr 56px;
+  grid-template-columns: 1fr 48px;
   align-items: center;
-  gap: 10px;
+  gap: 8px;
 }
 
 .compare-bar-track {
   position: relative;
-  height: 10px;
+  height: 8px;
   background: var(--code-bg);
-  border-radius: 5px;
+  border-radius: 4px;
   overflow: visible;
 }
 
@@ -2701,13 +2702,13 @@ header {
   position: absolute;
   top: 50%;
   transform: translate(-50%, -50%);
-  width: 26px;
-  height: 26px;
+  width: 22px;
+  height: 22px;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 11px;
+  font-size: 10px;
   font-weight: 600;
   color: #fff;
   box-shadow: 0 0 0 2px var(--bg);
@@ -2717,7 +2718,7 @@ header {
 
 .compare-bar-value {
   font-family: var(--mono);
-  font-size: 13px;
+  font-size: 12px;
   font-variant-numeric: tabular-nums;
   color: var(--text-h);
   text-align: right;
@@ -2727,17 +2728,17 @@ header {
    centered label variant for n === 2 mirrored view. */
 .compare-bar-row-label {
   color: var(--text-h);
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 600;
   text-align: left;
-  padding-right: 8px;
+  padding-right: 6px;
 }
 
 /* Hawks-red divider between groups on the Advanced tab. */
 .compare-bar-divider {
   height: 1px;
   background: #C8102E;
-  margin: 10px 20px;
+  margin: 6px 14px;
   opacity: 0.6;
 }
 
@@ -2766,22 +2767,20 @@ header {
 /* Replaces the fixed 3-column compare-header for N players. Flex so cards
    wrap naturally if 5 cards don't fit on one row at narrow widths. */
 .compare-header-multi {
-  /* Grid, matching the row template below (180px label column +
+  /* Grid, matching the row template below (120px label column +
      N×1fr per player). grid-template-columns is set inline on the
      element so adding/removing a player updates both the header and
      the rows. Result: each player card sits DIRECTLY above its stat
      column — alignment the flex version couldn't guarantee. */
   display: grid;
   align-items: flex-start;
-  gap: 20px;
-  /* Tightened padding (was 20px) so the cards sit closer to the tabs. */
-  padding: 14px 20px;
+  gap: 14px;
+  padding: 10px 14px;
   background: var(--social-bg);
   border: 1px solid var(--border);
   border-radius: 8px;
   position: relative; /* anchor for absolutely-positioned "+" button */
-  /* Slightly reduced bottom spacing so the Tabs sit closer to the cards. */
-  margin-bottom: 8px;
+  margin-bottom: 6px;
 }
 
 /* The .compare-header-label-cell div in the JSX intentionally has no
@@ -2799,22 +2798,23 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 140px;
+  /* Compact: 100px headshot + tight label; names that overflow still wrap. */
+  width: 110px;
   justify-self: center;
 }
 
 .compare-remove-btn {
   position: absolute;
-  top: -8px;
-  right: -8px;
+  top: -6px;
+  right: -6px;
   z-index: 2;
-  width: 24px;
-  height: 24px;
+  width: 18px;
+  height: 18px;
   border-radius: 50%;
   border: 1px solid var(--border);
   background: var(--bg);
   color: var(--text);
-  font-size: 16px;
+  font-size: 13px;
   line-height: 1;
   cursor: pointer;
   display: flex;
@@ -2835,14 +2835,14 @@ header {
    a utility affordance, not a profile card. */
 .compare-add-btn {
   position: absolute;
-  top: 14px;
-  right: 14px;
-  width: 44px;
-  height: 44px;
+  top: 10px;
+  right: 10px;
+  width: 34px;
+  height: 34px;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 28px;
+  font-size: 22px;
   color: var(--text);
   background: var(--bg);
   border: 2px dashed var(--border);
@@ -2859,9 +2859,9 @@ header {
 
 .compare-add-picker {
   position: absolute;
-  top: 14px;
-  right: 14px;
-  width: 180px;
+  top: 10px;
+  right: 10px;
+  width: 160px;
   display: flex;
   align-items: center;
   justify-content: center;
