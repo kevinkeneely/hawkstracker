@@ -2784,11 +2784,11 @@ header {
   margin-bottom: 8px;
 }
 
-/* Empty 180px cell at the head of the grid to parallel the row label
-   column. Nothing visible — just reserves grid space. */
-.compare-header-label-cell {
-  /* Intentionally empty. */
-}
+/* The .compare-header-label-cell div in the JSX intentionally has no
+   styles — its grid placement (first column) is implicit from source
+   order, and leaving the rule empty here would trigger a css(emptyRules)
+   lint warning. Keeping the className in the JSX as a semantic marker so
+   future readers see "this is the label column's cell." */
 
 /* Relative wrapper so the remove-X can position over the card. Each wrap
    sits inside a 1fr grid cell; justify-self centers its 140px footprint
