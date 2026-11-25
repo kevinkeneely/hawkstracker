@@ -82,17 +82,34 @@ const ADVANCED_SECTIONS = [
     ],
   },
   {
-    // One-stat "Overall Impact" section placed last. The between-sections
-    // divider logic in the table body auto-inserts a Hawks-red divider
-    // between "DFG+/- vs Norm" and PER. PER is a 1-decimal number
-    // (league average 15.00); its pctile ranks league-wide among players
-    // with MIN >= 500 (same qualifier transform_per.py applies).
+    // "Overall Impact" section placed last. The between-sections divider
+    // logic in the table body auto-inserts a Hawks-red divider between
+    // "DFG+/- vs Norm" and the first column here.
+    //
+    // Three one-number player ratings, each showing something different:
+    //  PER  — Hollinger's overall efficiency rating (league avg = 15.00)
+    //  FFOS — reweighted Four Factors + forced-TOV (league avg ~ 50)
+    //  PIS  — net possession value per 36 min (league avg ~ 8)
+    //
+    // All three share the same prorated MIN qualifier (transform_per /
+    // transform_ffos / transform_pis compute it identically), so their
+    // pctile pools are comparable and the colored bars mean the same
+    // thing across columns: "fraction of qualified players this player
+    // ranks higher than."
     name: 'Overall Impact',
     cols: [
       { key: 'per', label: 'PER',
         format: (v) => (v == null ? '—' : v.toFixed(1)),
         extract: (p) => p.per,
         pctile:  (p) => p.per_pctile },
+      { key: 'ffos', label: 'FFOS',
+        format: (v) => (v == null ? '—' : v.toFixed(1)),
+        extract: (p) => p.ffos,
+        pctile:  (p) => p.ffos_pctile },
+      { key: 'pis', label: 'PIS',
+        format: (v) => (v == null ? '—' : v.toFixed(1)),
+        extract: (p) => p.pis,
+        pctile:  (p) => p.pis_pctile },
     ],
   },
 ]
@@ -141,6 +158,12 @@ const PLAYER_ADVANCED_GLOSSARY = [
   { label: 'PER (Player Efficiency Rating)',
     def: 'John Hollinger\'s per-minute rating of a player\'s overall statistical production. Pace-adjusted and normalized so the league average is 15.00 every season. A rough guide: 25+ = All-NBA, 20+ = All-Star, 15 = league average, 10 = rotation player, below 10 = replacement-level. Percentile shown here ranks the player league-wide among those with 500+ minutes.',
     formula: '[uPER formula pace-adjusted to league pace, then normalized so league avg = 15.00]' },
+  { label: 'FFOS (Four Factors Offensive Score) — hawkstracker original',
+    def: 'Reweighted Dean Oliver\'s Four Factors framework for the modern game, with an added defensive possession-creation factor. Each factor is converted to a league-wide percentile; the weighted sum × 100 is the FFOS score. League average = 50 by construction. Higher is better. Reads as a player-level composite of what makes teams win.',
+    formula: '100 × (0.30 × eFG%ile + 0.25 × OReb%ile + 0.20 × (1 − TOV%ile) + 0.15 × ForcedTOV%ile + 0.10 × FTr%ile), where ForcedTOV combines steals + deflections + charges per 36 min' },
+  { label: 'PIS (Possession Impact Score) — hawkstracker original',
+    def: 'Net possession value created per 36 minutes. Sums every action that extends your own possession or ends an opponent possession, minus actions that give possession away. Rewards the possession-creator archetype — the Dyson Daniels type of player whose value shows up in deflections, steals, and loose balls rather than box-score shooting. League average ≈ 8; higher is better.',
+    formula: '(+1.0 × OReb + 1.0 × DReb + 1.0 × STL + 1.0 × Charges + 0.5 × LooseBalls + 0.3 × Deflections + 0.44 × FTA − 1.0 × TOV) per 36 min' },
 ]
 
 
