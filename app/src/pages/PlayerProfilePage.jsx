@@ -9,6 +9,8 @@ import {
   DEFAULT_WINDOW,
 } from './TrendsPage'
 
+import { ADVANCED_GLOSSARY } from '../lib/advancedGlossary'
+
 export default function PlayerProfilePage({ playerData, season, leagueBaseline, gameLogs, onoff }) {
   const { id } = useParams()
   const [searchParams] = useSearchParams()
@@ -245,6 +247,30 @@ function AdvancedTab({ player }) {
   return (
     <section className="profile-percentiles">
       <GroupedPctileBars groups={ADVANCED_GROUPS} data={advData} />
+      {/* Nov 24: glossary (Option A, Kevin). Mirrors the glossary under the
+          Player Stats > Advanced table. Entries shared via
+          app/src/lib/advancedGlossary.js so both views stay in sync. Inherits
+          the 600px cap on .profile-percentiles so the collapsed/expanded
+          glossary matches the bar column width above. */}
+      <details className="boxscore-glossary">
+        <summary className="boxscore-glossary-summary">
+          Glossary — what do these stats mean?
+        </summary>
+        <dl className="boxscore-glossary-list">
+          {ADVANCED_GLOSSARY.map((e) => (
+            <div key={e.label} className="boxscore-glossary-item">
+              <dt className="boxscore-glossary-term">{e.label}</dt>
+              <dd className="boxscore-glossary-def">{e.def}</dd>
+              {e.formula && (
+                <dd className="boxscore-glossary-formula">
+                  <span className="boxscore-glossary-formula-label">Formula:</span>{' '}
+                  {e.formula}
+                </dd>
+              )}
+            </div>
+          ))}
+        </dl>
+      </details>
     </section>
   )
 }
