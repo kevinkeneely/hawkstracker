@@ -2764,29 +2764,41 @@ header {
 /* Replaces the fixed 3-column compare-header for N players. Flex so cards
    wrap naturally if 5 cards don't fit on one row at narrow widths. */
 .compare-header-multi {
-  display: flex;
-  flex-wrap: wrap;
+  /* Grid, matching the row template below (180px label column +
+     N×1fr per player). grid-template-columns is set inline on the
+     element so adding/removing a player updates both the header and
+     the rows. Result: each player card sits DIRECTLY above its stat
+     column — alignment the flex version couldn't guarantee. */
+  display: grid;
   align-items: flex-start;
-  justify-content: center;
   gap: 20px;
-  padding: 20px;
+  /* Tightened padding (was 20px) so the cards sit closer to the tabs. */
+  padding: 14px 20px;
   background: var(--social-bg);
   border: 1px solid var(--border);
   border-radius: 8px;
-  grid-template-columns: unset; /* override the old .compare-header rule */
+  position: relative; /* anchor for absolutely-positioned "+" button */
+  /* Slightly reduced bottom spacing so the Tabs sit closer to the cards. */
+  margin-bottom: 8px;
 }
 
-/* Relative wrapper so the remove-X can position over the card. */
+/* Empty 180px cell at the head of the grid to parallel the row label
+   column. Nothing visible — just reserves grid space. */
+.compare-header-label-cell {
+  /* Intentionally empty. */
+}
+
+/* Relative wrapper so the remove-X can position over the card. Each wrap
+   sits inside a 1fr grid cell; justify-self centers its 140px footprint
+   within whatever width the column gets, so cards stay vertically aligned
+   under their bar columns even at narrow widths. */
 .compare-player-card-wrap {
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* Fixed width so every card has the same footprint regardless of how
-     long the player's name is (Nickeil Alexander-Walker vs Jock Landale).
-     140px covers the 120px headshot + a bit of breathing room; names that
-     exceed one line wrap under the headshot. */
   width: 140px;
+  justify-self: center;
 }
 
 .compare-remove-btn {
@@ -2815,20 +2827,27 @@ header {
   border-color: #C8102E;
 }
 
-/* Big "+" placeholder card — same visual footprint as a real player card. */
+/* "+" placeholder card. Absolutely positioned in the header's top-right
+   so it doesn't consume a grid column (which would misalign cards with
+   their stat columns below). Smaller than a full player card since it's
+   a utility affordance, not a profile card. */
 .compare-add-btn {
-  width: 120px;
-  height: 180px;
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  width: 44px;
+  height: 44px;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 36px;
+  font-size: 28px;
   color: var(--text);
   background: var(--bg);
   border: 2px dashed var(--border);
-  border-radius: 8px;
+  border-radius: 50%;
   cursor: pointer;
   transition: border-color 0.15s, color 0.15s, background 0.15s;
+  z-index: 3;
 }
 .compare-add-btn:hover {
   border-color: #C8102E;
@@ -2837,11 +2856,14 @@ header {
 }
 
 .compare-add-picker {
-  width: 120px;
-  height: 180px;
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  width: 180px;
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: 3;
 }
 .compare-add-picker select {
   width: 100%;

@@ -368,7 +368,13 @@ export default function ComparePage({ playerData }) {
         <button type="button" className="save-png-btn" onClick={handleDownload}>Save PNG</button>
       </div>
 
-      <header className="compare-header compare-header-multi">
+      <header
+        className="compare-header compare-header-multi"
+        style={{ gridTemplateColumns: `180px repeat(${players.length}, 1fr)` }}
+      >
+        {/* Empty first cell so player cards align with the stat columns
+            below (rows use the same 180px + N×1fr template). */}
+        <div className="compare-header-label-cell" />
         {players.map(p => (
           <PlayerCard
             key={p.id}
@@ -377,6 +383,10 @@ export default function ComparePage({ playerData }) {
             onRemove={() => removePlayer(p.id)}
           />
         ))}
+        {/* "+" lives OUTSIDE the grid so it doesn't push an extra column
+            onto the header that the rows below don't have. Absolutely
+            positioned at the top-right by CSS (see .compare-add-btn /
+            .compare-add-picker in index.css). */}
         {players.length < MAX_PLAYERS && (
           <AddPlayerSlot
             playerData={playerData}
