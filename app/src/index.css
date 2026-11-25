@@ -2782,6 +2782,11 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  /* Fixed width so every card has the same footprint regardless of how
+     long the player's name is (Nickeil Alexander-Walker vs Jock Landale).
+     140px covers the 120px headshot + a bit of breathing room; names that
+     exceed one line wrap under the headshot. */
+  width: 140px;
 }
 
 .compare-remove-btn {

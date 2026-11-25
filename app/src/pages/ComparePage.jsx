@@ -30,8 +30,10 @@ const nested = (block, key, label, format, invert) => ({
 
 // ───────── Traditional ─────────
 const TRADITIONAL_ROWS = [
-  flat('gp',          'GP',     'int'),
-  flat('mpg',         'MPG',    'num1'),
+  // Nov 24: GP + MPG removed from the compare table — they have no league
+  // pctile (not in PCTILE_STATS), so their rows rendered as empty bars that
+  // just added noise at the top of the view. Still visible on each player
+  // profile where they're surfaced as badges, not bars.
   flat('ppg',         'PPG',    'num1'),
   flat('rpg',         'RPG',    'num1'),
   flat('apg',         'APG',    'num1'),

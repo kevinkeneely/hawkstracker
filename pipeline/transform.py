@@ -172,6 +172,15 @@ PCTILE_STATS_ADV = {
     # pool is built on the fly from league_base's FTA / FGA columns.
     # Sentinel value tells the percentile loop to compute instead of lookup.
     "fta_rate": "__COMPUTED_FTA_RATE__",
+    # Nov 24 additions: these four were being stored as raw values on each
+    # Hawks player but without pctiles, so the compare page's Traditional
+    # tab rendered empty bars for them. All four are raw numbers / 0–1
+    # decimals already on the same scale as hawksData — no rescaling
+    # needed in the pctile loop (unlike tov_pct above).
+    "usg_pct":     "USG_PCT",
+    "off_rating":  "OFF_RATING",
+    "def_rating":  "DEF_RATING",
+    "net_rating":  "NET_RATING",
 }
 
 # Minimum total minutes played (mpg * gp) for a player to be "qualified".
