@@ -5929,3 +5929,145 @@ header {
 .boxscore-team-section-link:hover {
   text-decoration: underline;
 }
+
+/* ─────────────── Career Comparison page (Nov 26) ───────────────
+   /career/:playerId — compares one player's seasons side by side.
+   Grid is laid out with a fixed label column + one column per season;
+   number of season columns is set inline on each row. */
+
+.compare-career-btn {
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 8px;
+  padding: 6px 12px;
+  font: inherit;
+  font-size: 13px;
+  color: var(--text-h);
+  background: var(--social-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.compare-career-btn:hover {
+  border-color: var(--accent-border);
+  background-color: var(--accent-bg);
+}
+
+.career-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px 16px;
+}
+
+.career-header {
+  margin-bottom: 24px;
+}
+
+.career-back {
+  display: inline-block;
+  font-size: 13px;
+  color: var(--text);
+  text-decoration: none;
+  margin-bottom: 12px;
+}
+.career-back:hover {
+  color: var(--text-h);
+  text-decoration: underline;
+}
+
+.career-header h1 {
+  font-size: 24px;
+  color: var(--text-h);
+  margin: 0 0 6px 0;
+}
+
+.career-subtitle {
+  font-size: 13px;
+  color: var(--text-dim);
+  margin: 0;
+}
+
+.career-empty {
+  font-size: 14px;
+  color: var(--text);
+  margin-top: 16px;
+}
+
+.career-table {
+  /* Horizontal scroll on narrow viewports — long careers (10+ seasons)
+     will overflow even on desktop, so letting the table scroll is cleaner
+     than squeezing columns to illegibility. */
+  overflow-x: auto;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+}
+
+.career-row {
+  display: grid;
+  /* grid-template-columns is set inline (depends on season count) */
+  align-items: center;
+  min-width: max-content;
+}
+
+.career-row-header {
+  background: var(--social-bg);
+  border-bottom: 2px solid var(--border);
+}
+
+.career-label-cell {
+  padding: 10px 12px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text);
+  border-right: 1px solid var(--border);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.career-value-cell {
+  padding: 10px 12px;
+  font-size: 14px;
+  color: var(--text-h);
+  text-align: center;
+  font-variant-numeric: tabular-nums;
+  border-right: 1px solid var(--border);
+}
+.career-value-cell:last-child {
+  border-right: none;
+}
+
+.career-season-cell {
+  padding: 12px 8px;
+  text-align: center;
+  border-right: 1px solid var(--border);
+}
+.career-season-cell:last-child {
+  border-right: none;
+}
+
+.career-season-year {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-h);
+}
+
+.career-season-team {
+  font-size: 12px;
+  color: var(--text);
+  margin-top: 2px;
+  letter-spacing: 0.04em;
+}
+
+.career-season-age {
+  font-size: 11px;
+  color: var(--text-dim);
+  margin-top: 2px;
+}
+
+.career-divider {
+  height: 1px;
+  background: #C8102E;
+  opacity: 0.6;
+  margin: 0;
+}

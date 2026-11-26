@@ -24,9 +24,23 @@ Shape merged into each player object:
             ...
         },
         seasons_played: int,            # distinct SEASON_IDs in regular season
+        seasons: [                      # per-season breakdowns for the
+            {                           # Career Comparison view (Nov 26)
+                season: "2022-23",
+                team: "NOP",            # "NOP/ATL" for mid-season trades
+                age: 20,
+                gp: 59, min: 17.7,      # per game
+                pts: 3.9, reb: 3.1, oreb: 1.0, dreb: 2.1,
+                ast: 1.5, stl: 1.2, blk: 0.3, tov: 0.9,
+                fg_pct: 0.418, fg3_pct: 0.314, ft_pct: 0.750,
+                ts_pct: 0.478, efg_pct: 0.433,
+            },
+            ...  # one per season, chronological (oldest → newest)
+        ],
     }
 
 Nov 21: added hawks_totals for franchise all-time rank comparisons.
+Nov 26: added per-season `seasons` array for the Career Comparison view.
 """
 
 import json
@@ -94,6 +108,119 @@ def _aggregate(rows, headers, row_filter=None):
             if v is not None:
                 total += v
         out[key] = total
+    return out
+
+
+def _season_breakdowns(data):
+    """Build a list of per-season rows for the Career Comparison view.
+
+    Each element carries per-game Traditional stats plus derived shooting
+    splits (TS%, eFG%). Mid-season trades: NBA.com's rowSet includes BOTH
+    per-team rows AND a 'TOT' aggregate row for the same SEASON_ID. We use
+    the TOT row for stats (it already has the season totals pre-summed)
+    and construct a team display string from the per-team rows, e.g.
+    "NOP/ATL". Single-team seasons have just one row and no TOT.
+    """
+    headers, rows = _parse_result_set(data, "SeasonTotalsRegularSeason")
+    if not headers or not rows:
+        return []
+
+    # Resolve column indices once. Guard against any column not being
+    # present in the response (NBA.com has changed schemas before).
+    need = [
+        "SEASON_ID", "TEAM_ABBREVIATION", "PLAYER_AGE",
+        "GP", "MIN", "PTS", "REB", "OREB", "DREB",
+        "AST", "STL", "BLK", "TOV",
+        "FGM", "FGA", "FG_PCT",
+        "FG3M", "FG3A", "FG3_PCT",
+        "FTM", "FTA", "FT_PCT",
+    ]
+    idx = {name: headers.index(name) for name in need if name in headers}
+
+    # Group rows by SEASON_ID so we can detect mid-season trades.
+    by_season = {}
+    for row in rows:
+        sid = row[idx["SEASON_ID"]]
+        if sid:
+            by_season.setdefault(sid, []).append(row)
+
+    def _get(row, name, default=0):
+        if name not in idx:
+            return default
+        v = row[idx[name]]
+        return v if v is not None else default
+
+    out = []
+    for sid in sorted(by_season.keys()):  # chronological (oldest → newest)
+        season_rows = by_season[sid]
+
+        # Mid-season trade: prefer TOT row for stats; construct team display
+        # from the per-team rows in the order they appear.
+        tot_row = next(
+            (r for r in season_rows if r[idx["TEAM_ABBREVIATION"]] == "TOT"),
+            None,
+        )
+        if tot_row is not None:
+            stat_row = tot_row
+            team_display = "/".join(
+                r[idx["TEAM_ABBREVIATION"]]
+                for r in season_rows
+                if r[idx["TEAM_ABBREVIATION"]] != "TOT"
+            )
+        else:
+            stat_row = season_rows[0]
+            team_display = stat_row[idx["TEAM_ABBREVIATION"]]
+
+        gp = _get(stat_row, "GP")
+        if not gp:
+            continue  # no games played; skip
+
+        # Counting stats are season totals; divide by GP for per-game.
+        pts  = _get(stat_row, "PTS")
+        reb  = _get(stat_row, "REB")
+        oreb = _get(stat_row, "OREB")
+        dreb = _get(stat_row, "DREB")
+        ast  = _get(stat_row, "AST")
+        stl  = _get(stat_row, "STL")
+        blk  = _get(stat_row, "BLK")
+        tov  = _get(stat_row, "TOV")
+        fgm  = _get(stat_row, "FGM")
+        fga  = _get(stat_row, "FGA")
+        fg3m = _get(stat_row, "FG3M")
+        fta  = _get(stat_row, "FTA")
+        minutes = _get(stat_row, "MIN")
+
+        # Derived shooting splits — standard formulas.
+        # TS% = PTS / (2 * (FGA + 0.44 * FTA))
+        # eFG% = (FGM + 0.5 * FG3M) / FGA
+        ts_denom = 2 * (fga + 0.44 * fta)
+        ts_pct = (pts / ts_denom) if ts_denom > 0 else None
+        efg_pct = ((fgm + 0.5 * fg3m) / fga) if fga > 0 else None
+
+        age = _get(stat_row, "PLAYER_AGE", default=None)
+        age_display = int(age) if age is not None else None
+
+        out.append({
+            "season":   sid,
+            "team":     team_display,
+            "age":      age_display,
+            "gp":       gp,
+            "min":      round(minutes / gp, 1) if gp else None,
+            "pts":      round(pts / gp, 1),
+            "reb":      round(reb / gp, 1),
+            "oreb":     round(oreb / gp, 1),
+            "dreb":     round(dreb / gp, 1),
+            "ast":      round(ast / gp, 1),
+            "stl":      round(stl / gp, 1),
+            "blk":      round(blk / gp, 1),
+            "tov":      round(tov / gp, 1),
+            "fg_pct":   _get(stat_row, "FG_PCT", default=None),
+            "fg3_pct":  _get(stat_row, "FG3_PCT", default=None),
+            "ft_pct":   _get(stat_row, "FT_PCT",  default=None),
+            "ts_pct":   round(ts_pct, 3) if ts_pct is not None else None,
+            "efg_pct":  round(efg_pct, 3) if efg_pct is not None else None,
+        })
+
     return out
 
 
@@ -182,6 +309,7 @@ def _career_block(data):
         "hawks_totals": hawks_totals,
         "best_season": best,
         "seasons_played": len(seasons),
+        "seasons": _season_breakdowns(data),
     }
 
 

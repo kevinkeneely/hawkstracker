@@ -77,6 +77,9 @@ export default function PlayerProfilePage({ playerData, season, leagueBaseline, 
             {player.pos ?? '—'} · Age {player.age} · Atlanta Hawks
           </p>
           <CompareSelector currentPlayerId={player.id} playerData={playerData} />
+          <Link to={`/career/${player.id}`} className="compare-career-btn">
+            Career Comparison →
+          </Link>
         </div>
       </header>
 

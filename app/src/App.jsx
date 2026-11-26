@@ -15,6 +15,7 @@ import DefensePage from './pages/advanced/DefensePage'
 import PlaymakingPage from './pages/advanced/PlaymakingPage'
 import HustlePage from './pages/advanced/HustlePage'
 import ComparePage from './pages/ComparePage'
+import CareerPage from './pages/CareerPage'
 import HomePage from './pages/HomePage'
 import InsightsPage from './pages/InsightsPage'
 import { Analytics } from '@vercel/analytics/react'
@@ -263,6 +264,7 @@ function App() {
             <Route path="/lineups" element={<LineupsPage lineups5={lineups5} lineups4={lineups4} lineups3={lineups3} lineups2={lineups2} onoff={onoff} />} />
             <Route path="/players/:id" element={<PlayerProfilePage playerData={playerData} season={season} leagueBaseline={leagueBaseline} gameLogs={gameLogs} onoff={onoff} />} />
             <Route path="/compare/:ids" element={<ComparePage playerData={playerData} />} />
+            <Route path="/career/:playerId" element={<CareerPage playerData={playerData} />} />
             <Route path="/games/:id" element={<BoxScorePage season={season} playerData={playerData} />} />
             <Route path="/teams/:tricode" element={<TeamHomePage teamData={teamData} standingsData={standingsData} season={season} />} />
             <Route path="/shooting"   element={<ShootingPage   playerData={playerData} season={season} />} />
