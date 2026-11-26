@@ -14,26 +14,46 @@ import { useParams, Link, Navigate } from 'react-router-dom'
  */
 
 // Stats to render, in display order. Groups separated by a divider row.
+// pctile: true means the cell gets colored by that season's league-wide
+// percentile rank (stored as `<key>_pctile` on each season entry, 0-1 decimal)
+// and shows a small percentile number badge. GP and MPG are context stats —
+// they're useful for reading the trajectory but don't get a league rank.
 const CAREER_STATS = [
-  // Context
+  // Context — no pctile color (GP/MPG are role metrics, not performance)
   { key: 'gp',       label: 'GP',    format: 'int'  },
   { key: 'min',      label: 'MPG',   format: 'num1' },
   // Counting
-  { key: 'pts',      label: 'PTS',   format: 'num1', divider: true },
-  { key: 'reb',      label: 'REB',   format: 'num1' },
-  { key: 'oreb',     label: 'OREB',  format: 'num1' },
-  { key: 'dreb',     label: 'DREB',  format: 'num1' },
-  { key: 'ast',      label: 'AST',   format: 'num1' },
-  { key: 'stl',      label: 'STL',   format: 'num1' },
-  { key: 'blk',      label: 'BLK',   format: 'num1' },
-  { key: 'tov',      label: 'TOV',   format: 'num1' },
+  { key: 'pts',      label: 'PTS',   format: 'num1', divider: true, pctile: true },
+  { key: 'reb',      label: 'REB',   format: 'num1',                pctile: true },
+  { key: 'ast',      label: 'AST',   format: 'num1',                pctile: true },
+  { key: 'stl',      label: 'STL',   format: 'num1',                pctile: true },
+  { key: 'blk',      label: 'BLK',   format: 'num1',                pctile: true },
+  { key: 'tov',      label: 'TOV',   format: 'num1',                pctile: true },
   // Shooting splits
-  { key: 'fg_pct',   label: 'FG%',   format: 'pct',  divider: true },
-  { key: 'fg3_pct',  label: '3P%',   format: 'pct'  },
-  { key: 'ft_pct',   label: 'FT%',   format: 'pct'  },
-  { key: 'ts_pct',   label: 'TS%',   format: 'pct'  },
-  { key: 'efg_pct',  label: 'eFG%',  format: 'pct'  },
+  { key: 'fg_pct',   label: 'FG%',   format: 'pct',  divider: true, pctile: true },
+  { key: 'fg3_pct',  label: '3P%',   format: 'pct',                 pctile: true },
+  { key: 'ft_pct',   label: 'FT%',   format: 'pct',                 pctile: true },
+  { key: 'ts_pct',   label: 'TS%',   format: 'pct',                 pctile: true },
+  { key: 'efg_pct',  label: 'eFG%',  format: 'pct',                 pctile: true },
 ]
+
+// Mirror of colorForPctile() in PlayerStatsTable.jsx — keep in sync. The pctile
+// value is already upstream-inverted for stats where lower = better (TOV), so we
+// don't invert here. Returns a CSS rgb() string, or 'transparent' for missing.
+// Blue = 0th percentile, mid-grey = 50th, Hawks red = 100th.
+function colorForPctile(pctile) {
+  if (pctile == null) return 'transparent'
+  const BLUE = [63, 81, 181]
+  const MID  = [138, 130, 144]
+  const RED  = [200, 16, 46]
+  const [r1, g1, b1] = pctile <= 0.5 ? BLUE : MID
+  const [r2, g2, b2] = pctile <= 0.5 ? MID  : RED
+  const t = pctile <= 0.5 ? pctile * 2 : (pctile - 0.5) * 2
+  const r = Math.round(r1 + (r2 - r1) * t)
+  const g = Math.round(g1 + (g2 - g1) * t)
+  const b = Math.round(b1 + (b2 - b1) * t)
+  return `rgb(${r}, ${g}, ${b})`
+}
 
 function fmt(value, format) {
   if (value == null || Number.isNaN(value)) return '—'
@@ -122,11 +142,22 @@ export default function CareerPage({ playerData }) {
               style={{ gridTemplateColumns: gridCols }}
             >
               <div className="career-label-cell">{stat.label}</div>
-              {seasons.map((s) => (
-                <div key={s.season} className="career-value-cell">
-                  {fmt(s[stat.key], stat.format)}
-                </div>
-              ))}
+              {seasons.map((s) => {
+                const pctile = stat.pctile ? s[`${stat.key}_pctile`] : null
+                const bg = stat.pctile ? colorForPctile(pctile) : undefined
+                return (
+                  <div
+                    key={s.season}
+                    className="career-value-cell"
+                    style={bg ? { backgroundColor: bg } : undefined}
+                  >
+                    <div className="career-value-num">{fmt(s[stat.key], stat.format)}</div>
+                    {stat.pctile && pctile != null && (
+                      <div className="career-value-pctile">{Math.round(pctile * 100)}</div>
+                    )}
+                  </div>
+                )
+              })}
             </div>
           </Fragment>
         ))}

@@ -77,6 +77,149 @@ STAT_COLS = {
 BEST_SEASON_STATS = ("pts", "reb", "ast", "stl", "blk", "fg3m", "fgm", "ftm")
 
 
+# ─────────── Historical league pools (for Career Comparison percentiles) ───────────
+# Built from data/raw/historical/<season>/league_base.json files written by
+# pipeline/fetch_league_historical.py. One file per past season; frozen once
+# written. We load them once per run() invocation and reuse across all players.
+# The current season (SEASON) is NOT fetched here — the frontend pulls the
+# player's existing current-season percentiles from the main hawksData record
+# (Decision 2a — keeps current-season numbers consistent across the site).
+
+HISTORICAL_POOL_DIR = Path("data/raw/historical")
+
+# Stats that get percentile-ranked in the career view. invert=True means
+# lower value is better (TOV). GP and MPG are context, not performance,
+# so they don't get a percentile.
+PCTILE_SPEC = {
+    "pts":     False,
+    "reb":     False,
+    "ast":     False,
+    "stl":     False,
+    "blk":     False,
+    "tov":     True,     # lower = better → inverted
+    "fg_pct":  False,
+    "fg3_pct": False,
+    "ft_pct":  False,
+    "ts_pct":  False,
+    "efg_pct": False,
+}
+
+# Minimum TOTAL minutes to qualify for a historical season pool. 500 total
+# minutes is the standard full-season floor used by NBA.com-adjacent sites.
+# PlayerCareerStats returns per-game MIN, so we multiply back: gp × mpg.
+HISTORICAL_MIN_TOTAL = 500
+
+
+def _load_historical_pool(season):
+    """Load the league pool for one past season and return a list of qualified
+    players, each represented as a dict of {stat: value} for the stats in
+    PCTILE_SPEC. Returns None if the season's cached file is missing — the
+    caller should skip percentile computation for that season rather than
+    crashing. Derived TS% and eFG% are computed here so they're apples-to-
+    apples with the career data (which does the same)."""
+    fp = HISTORICAL_POOL_DIR / season / "league_base.json"
+    if not fp.exists():
+        return None
+
+    with open(fp) as f:
+        data = json.load(f)
+
+    rs_list = data.get("resultSets", [])
+    if not rs_list:
+        return None
+    rs = rs_list[0]
+    headers = rs.get("headers", [])
+    rows = rs.get("rowSet", [])
+    if not headers or not rows:
+        return None
+
+    need = ["GP", "MIN", "PTS", "REB", "AST", "STL", "BLK", "TOV",
+            "FGM", "FGA", "FG_PCT", "FG3M", "FG3A", "FG3_PCT",
+            "FTM", "FTA", "FT_PCT"]
+    idx = {col: headers.index(col) for col in need if col in headers}
+
+    pool = []
+    for row in rows:
+        gp = row[idx["GP"]] or 0
+        mpg = row[idx["MIN"]] or 0
+        if gp * mpg < HISTORICAL_MIN_TOTAL:
+            continue
+
+        # Per-game values straight from the response
+        fga  = row[idx["FGA"]]  or 0
+        fta  = row[idx["FTA"]]  or 0
+        fgm  = row[idx["FGM"]]  or 0
+        fg3m = row[idx["FG3M"]] or 0
+        pts  = row[idx["PTS"]]  or 0
+
+        # Derived shooting splits — same formulas as _season_breakdowns.
+        ts_denom = 2 * (fga + 0.44 * fta)
+        ts_pct = (pts / ts_denom) if ts_denom > 0 else None
+        efg_pct = ((fgm + 0.5 * fg3m) / fga) if fga > 0 else None
+
+        pool.append({
+            "pts":     pts,
+            "reb":     row[idx["REB"]] or 0,
+            "ast":     row[idx["AST"]] or 0,
+            "stl":     row[idx["STL"]] or 0,
+            "blk":     row[idx["BLK"]] or 0,
+            "tov":     row[idx["TOV"]] or 0,
+            "fg_pct":  row[idx["FG_PCT"]],
+            "fg3_pct": row[idx["FG3_PCT"]],
+            "ft_pct":  row[idx["FT_PCT"]],
+            "ts_pct":  ts_pct,
+            "efg_pct": efg_pct,
+        })
+    return pool
+
+
+def _percentile(value, pool_values, invert=False):
+    """Standard percentile rank — share of pool strictly below (or above, if
+    inverted) the given value, as a 0-1 decimal. The 0-1 scale matches the
+    convention used by the rest of hawksData.json for existing _pctile fields
+    (frontend expects to multiply by 100 for display). Returns None when
+    value is None or the pool is empty."""
+    if value is None or not pool_values:
+        return None
+    n = len(pool_values)
+    if invert:
+        rank = sum(1 for v in pool_values if v is not None and v > value)
+    else:
+        rank = sum(1 for v in pool_values if v is not None and v < value)
+    return round(rank / n, 4)
+
+
+def _attach_percentiles(seasons, pools, current_season):
+    """Mutate each entry in `seasons` to add `<stat>_pctile` fields computed
+    against the historical pool for its season. The current season is left
+    without pctile fields on this path — the frontend reuses the player's
+    existing current-season percentiles that live elsewhere on the player
+    record (Decision 2a)."""
+    for entry in seasons:
+        sid = entry["season"]
+        if sid == current_season:
+            continue  # frontend reads pctiles from the live player object
+
+        pool = pools.get(sid)
+        if pool is None:
+            # Historical fetch not done for this season yet. Leave pctiles
+            # absent — the frontend treats absence as "no color".
+            continue
+
+        # Did this player qualify in that season's pool? Same threshold as
+        # the pool filter itself, so a non-qualifier gets no color anywhere.
+        gp = entry.get("gp") or 0
+        mpg = entry.get("min") or 0
+        if gp * mpg < HISTORICAL_MIN_TOTAL:
+            for key in PCTILE_SPEC:
+                entry[f"{key}_pctile"] = None
+            continue
+
+        for key, invert in PCTILE_SPEC.items():
+            pool_values = [p[key] for p in pool if p.get(key) is not None]
+            entry[f"{key}_pctile"] = _percentile(entry.get(key), pool_values, invert=invert)
+
+
 def _latest_career_file(raw_dir, player_id):
     """Return the newest career_<pid>_<date>.json path for a player, or None."""
     candidates = sorted(raw_dir.glob(f"career_{player_id}_*.json"))
@@ -224,6 +367,39 @@ def _season_breakdowns(data):
     return out
 
 
+# Maps career.seasons[].<key> → the corresponding top-level player-object
+# pctile key used by the main dashboard. Most keys are named the same; a
+# handful of per-game counting stats differ (pts vs ppg, etc.) because the
+# main dashboard uses per-game-abbreviated names while career.seasons uses
+# the standard STL/PTS/REB vocabulary.
+CURRENT_PCTILE_SRC = {
+    "pts":     "ppg_pctile",
+    "reb":     "rpg_pctile",
+    "ast":     "apg_pctile",
+    "stl":     "spg_pctile",
+    "blk":     "bpg_pctile",
+    "tov":     "tov_pctile",     # already inverted upstream (low TOV = high pctile)
+    "fg_pct":  "fg_pct_pctile",
+    "fg3_pct": "fg3_pct_pctile",
+    "ft_pct":  "ft_pct_pctile",
+    "ts_pct":  "ts_pct_pctile",
+    "efg_pct": "efg_pct_pctile",
+}
+
+
+def _attach_current_season_pctiles(seasons, player, current_season):
+    """Copy the player's existing current-season percentiles onto the career
+    season entry for the current season (Decision 2a — keeps current-season
+    numbers in lockstep with the Player Stats table and every other surface).
+    Values are already 0-1 decimals on the player object, so no conversion."""
+    for entry in seasons:
+        if entry["season"] != current_season:
+            continue
+        for key, src_field in CURRENT_PCTILE_SRC.items():
+            entry[f"{key}_pctile"] = player.get(src_field)
+        break
+
+
 def _career_block(data):
     """Build the career{} block for one player from its raw file."""
     season_headers, season_rows = _parse_result_set(data, "SeasonTotalsRegularSeason")
@@ -321,8 +497,10 @@ def run():
     with open(data_path) as f:
         hawks = json.load(f)
 
+    # ─── Pass 1: build each player's career block (incl. the seasons array) ───
     enriched = 0
     missing = 0
+    all_past_seasons = set()
     for player in hawks.get("players", []):
         pid = player["id"]
         src = _latest_career_file(raw_dir, pid)
@@ -341,10 +519,46 @@ def run():
         player["career"] = block
         enriched += 1
 
+        # Collect past seasons across all players so we can preload each pool
+        # exactly once below rather than per-player.
+        for s in block.get("seasons", []):
+            sid = s.get("season")
+            if sid and sid != SEASON:
+                all_past_seasons.add(sid)
+
+    # ─── Pass 2: preload every needed historical pool once, then attach pctiles ───
+    # Preloading avoids reading the same ~200KB JSON file once per player.
+    # A missing pool file (fetch not run yet for that season) just means we
+    # skip pctiles for that season — the frontend treats absence as "no color".
+    pools = {}
+    pools_missing = []
+    for sid in sorted(all_past_seasons):
+        pool = _load_historical_pool(sid)
+        if pool is None:
+            pools_missing.append(sid)
+        else:
+            pools[sid] = pool
+
+    for player in hawks.get("players", []):
+        seasons = player.get("career", {}).get("seasons", [])
+        if seasons:
+            _attach_percentiles(seasons, pools, SEASON)
+            _attach_current_season_pctiles(seasons, player, SEASON)
+
     with open(data_path, "w") as f:
         json.dump(hawks, f, indent=2)
 
+    # Report what landed and (importantly) what didn't, so a missing historical
+    # fetch doesn't fail silently.
     print(f"[transform-player-career] enriched {enriched} players, missing {missing}")
+    if pools:
+        print(f"[transform-player-career] loaded {len(pools)} historical pools: "
+              f"{', '.join(sorted(pools.keys()))}")
+    if pools_missing:
+        print(f"[transform-player-career] WARNING: no pool file for seasons "
+              f"{', '.join(pools_missing)} — career-view pctiles skipped. "
+              f"Run: python3 -m pipeline.fetch_league_historical "
+              f"{' '.join(pools_missing)}")
 
 
 if __name__ == "__main__":

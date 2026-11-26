@@ -6026,15 +6026,48 @@ header {
 }
 
 .career-value-cell {
-  padding: 10px 12px;
-  font-size: 14px;
-  color: var(--text-h);
+  /* Stacked layout: large value number on top, small pctile badge beneath.
+     The background color is set inline from colorForPctile(); when a cell
+     has one, the text goes white with a subtle shadow (matches PctileCell
+     in PlayerStatsTable.jsx). Uncolored cells (GP, MPG, no-pctile seasons)
+     show the normal text color against the page background. */
+  padding: 10px 12px 8px 12px;
   text-align: center;
-  font-variant-numeric: tabular-nums;
   border-right: 1px solid var(--border);
+  position: relative;
+  color: var(--text-h);
 }
 .career-value-cell:last-child {
   border-right: none;
+}
+/* Any cell with an inline background (pctile color) gets white text so it
+   stays readable on the dark red/blue gradient. The attribute selector
+   matches cells where we set backgroundColor via the style prop. */
+.career-value-cell[style*="background-color"],
+.career-value-cell[style*="backgroundColor"] {
+  color: #fff;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+}
+
+.career-value-num {
+  font-size: 14px;
+  line-height: 1.2;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Pctile number — yellow, matches the badge color used on the Player Stats
+   page so the look is consistent across the app. Smaller font; rendered
+   below the value, in the normal flow (unlike the absolutely-positioned
+   badges on PlayerStatsTable — a CSS grid cell handles the vertical
+   stacking cleanly so we don't need the pin trick here). */
+.career-value-pctile {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: #FFC72C;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.45);
+  font-variant-numeric: tabular-nums;
+  margin-top: 2px;
 }
 
 .career-season-cell {
