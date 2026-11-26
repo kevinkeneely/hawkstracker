@@ -93,8 +93,10 @@ export default function CareerPage({ playerData }) {
 
   // Grid: a fixed-width label column + one column per season.
   // Set inline so the grid responds to how many seasons the player has
-  // (anywhere from 1 to a 20+-year career).
-  const gridCols = `140px repeat(${seasons.length}, minmax(90px, 1fr))`
+  // (anywhere from 1 to a 20+-year career). Nov 26: tightened label column
+  // and per-season min-width to match Player Stats table density; long
+  // careers (10+ seasons) still overflow and horizontally scroll.
+  const gridCols = `100px repeat(${seasons.length}, minmax(72px, 1fr))`
 
   return (
     <div className="career-page">

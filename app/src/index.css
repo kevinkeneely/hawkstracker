@@ -6016,8 +6016,8 @@ header {
 }
 
 .career-label-cell {
-  padding: 10px 12px;
-  font-size: 12px;
+  padding: 6px 10px;
+  font-size: 11px;
   font-weight: 600;
   color: var(--text);
   border-right: 1px solid var(--border);
@@ -6026,12 +6026,13 @@ header {
 }
 
 .career-value-cell {
-  /* Stacked layout: large value number on top, small pctile badge beneath.
-     The background color is set inline from colorForPctile(); when a cell
-     has one, the text goes white with a subtle shadow (matches PctileCell
-     in PlayerStatsTable.jsx). Uncolored cells (GP, MPG, no-pctile seasons)
-     show the normal text color against the page background. */
-  padding: 10px 12px 8px 12px;
+  /* Stacked layout: value number on top, small pctile badge beneath. Padding
+     tuned to match the Player Stats table density (tight vertical, generous
+     side-to-side) — Nov 26. The background color is set inline from
+     colorForPctile(); when a cell has one, the text goes white with a subtle
+     shadow (matches PctileCell in PlayerStatsTable.jsx). Uncolored cells
+     (GP, MPG, no-pctile seasons) show the normal text color. */
+  padding: 5px 8px 4px 8px;
   text-align: center;
   border-right: 1px solid var(--border);
   position: relative;
@@ -6050,7 +6051,7 @@ header {
 }
 
 .career-value-num {
-  font-size: 14px;
+  font-size: 13px;
   line-height: 1.2;
   font-variant-numeric: tabular-nums;
 }
@@ -6061,17 +6062,17 @@ header {
    badges on PlayerStatsTable — a CSS grid cell handles the vertical
    stacking cleanly so we don't need the pin trick here). */
 .career-value-pctile {
-  font-size: 10px;
+  font-size: 9px;
   font-weight: 700;
   letter-spacing: 0.02em;
   color: #FFC72C;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.45);
   font-variant-numeric: tabular-nums;
-  margin-top: 2px;
+  margin-top: 1px;
 }
 
 .career-season-cell {
-  padding: 12px 8px;
+  padding: 8px 6px;
   text-align: center;
   border-right: 1px solid var(--border);
 }
@@ -6080,22 +6081,22 @@ header {
 }
 
 .career-season-year {
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 600;
   color: var(--text-h);
 }
 
 .career-season-team {
-  font-size: 12px;
+  font-size: 11px;
   color: var(--text);
-  margin-top: 2px;
+  margin-top: 1px;
   letter-spacing: 0.04em;
 }
 
 .career-season-age {
-  font-size: 11px;
+  font-size: 10px;
   color: var(--text-dim);
-  margin-top: 2px;
+  margin-top: 1px;
 }
 
 .career-divider {
