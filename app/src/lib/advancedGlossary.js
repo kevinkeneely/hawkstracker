@@ -55,4 +55,7 @@ export const ADVANCED_GLOSSARY = [
   { label: 'PIS (Possession Impact Score) — hawkstracker original',
     def: 'Net possession value created per 36 minutes. Sums every action that extends your own possession or ends an opponent possession, minus actions that give possession away. Rewards the possession-creator archetype — the Dyson Daniels type of player whose value shows up in deflections, steals, and loose balls rather than box-score shooting. League average ≈ 8; higher is better.',
     formula: '(+1.0 × OReb + 1.0 × DReb + 1.0 × STL + 1.0 × Charges + 0.5 × LooseBalls + 0.3 × Deflections + 0.44 × FTA − 1.0 × TOV) per 36 min' },
+  { label: 'TWI+ (Two-Way Impact Plus) — hawkstracker original',
+    def: 'A synergy metric that rewards players who are strong on BOTH shooting efficiency (TS%) AND possession creation (PIS) at the same time. Unlike the other three one-number metrics which measure a single axis of value, TWI+ captures the compound value of two-way impact — a pure scorer or a pure possession-creator scores near league average; players who combine both score high. Named after sabermetrics convention (wRC+): 100 = league average, 150 = 50% above average, 50 = 50% below. Elite two-way players (Wemby, Giannis) land 200+.',
+    formula: '(player TS% ÷ league avg TS%) × (player PIS ÷ league avg PIS) × 100' },
 ]

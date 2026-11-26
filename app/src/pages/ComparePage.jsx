@@ -94,9 +94,10 @@ const ADVANCED_GROUPS = [
       pctile:  p => p?.defense_tracking?.pct_plusminus?.pctile },
   ],
   [
-    flat('per',  'PER',  'num1'),
-    flat('ffos', 'FFOS', 'num1'),
-    flat('pis',  'PIS',  'num1'),
+    flat('per',      'PER',  'num1'),
+    flat('ffos',     'FFOS', 'num1'),
+    flat('pis',      'PIS',  'num1'),
+    flat('twi_plus', 'TWI+', 'num1'),
   ],
 ]
 

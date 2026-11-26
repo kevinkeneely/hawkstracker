@@ -111,6 +111,10 @@ const ADVANCED_SECTIONS = [
         format: (v) => (v == null ? '—' : v.toFixed(1)),
         extract: (p) => p.pis,
         pctile:  (p) => p.pis_pctile },
+      { key: 'twi_plus', label: 'TWI+',
+        format: (v) => (v == null ? '—' : v.toFixed(1)),
+        extract: (p) => p.twi_plus,
+        pctile:  (p) => p.twi_plus_pctile },
     ],
   },
 ]

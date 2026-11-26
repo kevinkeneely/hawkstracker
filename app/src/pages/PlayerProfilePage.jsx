@@ -186,9 +186,10 @@ const ADVANCED_GROUPS = [
   // this one." Numeric scales differ (PER ~15 league avg, FFOS ~50, PIS
   // ~8) but the color + fill depth reads consistently.
   [
-    { key: 'per',  label: 'PER',  format: 'num1' },
-    { key: 'ffos', label: 'FFOS', format: 'num1' },
-    { key: 'pis',  label: 'PIS',  format: 'num1' },
+    { key: 'per',      label: 'PER',  format: 'num1' },
+    { key: 'ffos',     label: 'FFOS', format: 'num1' },
+    { key: 'pis',      label: 'PIS',  format: 'num1' },
+    { key: 'twi_plus', label: 'TWI+', format: 'num1' },
   ],
 ]
 
@@ -211,6 +212,7 @@ function AdvancedTab({ player }) {
     per:       { value: player.per,       pctile: player.per_pctile },
     ffos:      { value: player.ffos,      pctile: player.ffos_pctile },
     pis:       { value: player.pis,       pctile: player.pis_pctile },
+    twi_plus:  { value: player.twi_plus,  pctile: player.twi_plus_pctile },
     cs_fg3_pct: {
       value:  player.shooting_tracking?.cs?.fg3_pct?.value,
       pctile: player.shooting_tracking?.cs?.fg3_pct?.pctile,

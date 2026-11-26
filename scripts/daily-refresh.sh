@@ -99,6 +99,7 @@ run_step transform_per                python3 -m pipeline.transform_per
 # comparable pctile pools.
 run_step transform_ffos               python3 -m pipeline.transform_ffos
 run_step transform_pis                python3 -m pipeline.transform_pis
+run_step transform_twi                python3 -m pipeline.transform_twi
 
 # Advanced tracking data (Phase 1 of the Advanced Stats plan — see
 # claude/advanced-stats-plan.md). Five fetches hit NBA.com tracking
