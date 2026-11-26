@@ -1766,14 +1766,19 @@ html, body {
   font-variant-numeric: tabular-nums;
 }
 
-/* Hustle/Clutch: widen the label column so long labels don't overlap the bar */
+/* Hustle/Clutch: widen the label column so long labels don't overlap or
+   truncate. Nov 26: bumped 120px → 160px desktop and 95px → 120px mobile
+   because "Loose Balls Recovered" (21 chars) was truncating to
+   "Loose Balls Rec..." on the Hustle tab. The bar still gets plenty of
+   room — on Advanced/Hustle/Clutch tabs the container is capped at 600px,
+   so the bar track is still ~370px desktop / full-width-minus-120px mobile. */
 .pctile-grouped .pctile-bar-row {
-  grid-template-columns: 120px 1fr 60px;
+  grid-template-columns: 160px 1fr 60px;
 }
 
 @media (max-width: 640px) {
   .pctile-grouped .pctile-bar-row {
-    grid-template-columns: 95px 1fr 50px;
+    grid-template-columns: 120px 1fr 50px;
   }
 }
 
