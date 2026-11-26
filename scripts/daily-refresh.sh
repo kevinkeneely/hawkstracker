@@ -15,6 +15,20 @@
 REPO="/Users/kevinkeneely/Projects/hawkstracker"
 cd "$REPO" || { echo "FATAL: cannot cd $REPO"; exit 2; }
 
+# ---- Logging (Nov 26, 2026) -----------------------------------------------
+# Capture ALL stdout + stderr to logs/daily-refresh-{am|pm}.log, appended
+# per run. Added because the AM launchd job's plist had no stdout/stderr
+# redirect, so weeks of AM `backtest_projections` failures had no
+# diagnosable error output. Now whichever way the script runs — AM cron,
+# PM cron, or a manual invocation — we get a log file to debug from.
+#
+# PM users get double-logging (launchd's plist also redirects to
+# daily-refresh-pm.err.log); that's fine, both files get the output.
+LOG_SLOT=$( [ "$(date +%H)" -lt 12 ] && echo am || echo pm )
+LOG_FILE="logs/daily-refresh-${LOG_SLOT}.log"
+mkdir -p logs
+exec > >(tee -a "$LOG_FILE") 2>&1
+
 echo ""
 echo "=========================================="
 echo "Daily refresh — $(date)"
