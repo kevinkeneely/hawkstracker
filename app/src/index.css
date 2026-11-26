@@ -1758,14 +1758,6 @@ html, body {
   opacity: 0.6;
 }
 
-.clutch-summary {
-  font-size: 13px;
-  color: var(--text);
-  margin-bottom: 20px;
-  letter-spacing: 0.02em;
-  font-variant-numeric: tabular-nums;
-}
-
 /* Hustle/Clutch: widen the label column so long labels don't overlap or
    truncate. Nov 26: bumped 120px → 160px desktop and 95px → 120px mobile
    because "Loose Balls Recovered" (21 chars) was truncating to

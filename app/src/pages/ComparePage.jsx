@@ -116,28 +116,6 @@ const HUSTLE_ROWS = [
   nested('hustle', 'pct_box_outs_def',      'Def. Box Out %',   'pct'),
 ]
 
-// ───────── Clutch ─────────
-const CLUTCH_ROWS = [
-  nested('clutch', 'pts',         'PTS',        'num1'),
-  nested('clutch', 'reb',         'REB',        'num1'),
-  nested('clutch', 'ast',         'AST',        'num1'),
-  nested('clutch', 'stl',         'STL',        'num1'),
-  nested('clutch', 'blk',         'BLK',        'num1'),
-  nested('clutch', 'tov',         'TOV',        'num1', true),
-  nested('clutch', 'fg_pct',      'FG%',        'pct'),
-  nested('clutch', 'fg3_pct',     '3P%',        'pct'),
-  nested('clutch', 'ft_pct',      'FT%',        'pct'),
-  nested('clutch', 'ts_pct',      'TS%',        'pct'),
-  nested('clutch', 'efg_pct',     'eFG%',       'pct'),
-  nested('clutch', 'usg_pct',     'USG%',       'pct'),
-  nested('clutch', 'ast_pct',     'AST%',       'pct'),
-  nested('clutch', 'tm_tov_pct',  'Team TOV%',  'pct_raw', true),
-  nested('clutch', 'off_rating',  'Off Rating', 'num1'),
-  nested('clutch', 'def_rating',  'Def Rating', 'num1',    true),
-  nested('clutch', 'net_rating',  'Net Rating', 'num1'),
-  nested('clutch', 'plus_minus',  '+/−',        'num1'),
-]
-
 function formatStatValue(value, format) {
   if (value == null || Number.isNaN(value)) return '—'
   if (format === 'pct')        return `${(value * 100).toFixed(1)}%`
@@ -424,12 +402,6 @@ export default function ComparePage({ playerData }) {
             label: 'Hustle',
             content: <CompareBarsMaybeMissing rows={HUSTLE_ROWS} players={players}
                         block="hustle" missingLabel="hustle" />,
-          },
-          {
-            key: 'clutch',
-            label: 'Clutch',
-            content: <CompareBarsMaybeMissing rows={CLUTCH_ROWS} players={players}
-                        block="clutch" missingLabel="clutch" />,
           },
         ]}
       />
