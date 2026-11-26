@@ -6105,3 +6105,13 @@ header {
   opacity: 0.6;
   margin: 0;
 }
+
+/* Thinner, subtler separator for in-group row breaks — e.g. between GP and
+   MPG context rows at the top of the career table. The Hawks-red divider
+   above is reserved for section boundaries (stat groups); using it between
+   two context rows would make two red lines sit next to each other. */
+.career-divider-thin {
+  height: 1px;
+  background: var(--border);
+  margin: 0;
+}

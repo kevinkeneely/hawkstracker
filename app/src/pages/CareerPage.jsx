@@ -21,7 +21,7 @@ import { useParams, Link, Navigate } from 'react-router-dom'
 const CAREER_STATS = [
   // Context — no pctile color (GP/MPG are role metrics, not performance)
   { key: 'gp',       label: 'GP',    format: 'int'  },
-  { key: 'min',      label: 'MPG',   format: 'num1' },
+  { key: 'min',      label: 'MPG',   format: 'num1', thinDivider: true },
   // Counting
   { key: 'pts',      label: 'PTS',   format: 'num1', divider: true, pctile: true },
   { key: 'reb',      label: 'REB',   format: 'num1',                pctile: true },
@@ -136,6 +136,12 @@ export default function CareerPage({ playerData }) {
             {stat.divider && (
               <div
                 className="career-divider"
+                style={{ gridColumn: `1 / span ${seasons.length + 1}` }}
+              />
+            )}
+            {stat.thinDivider && (
+              <div
+                className="career-divider-thin"
                 style={{ gridColumn: `1 / span ${seasons.length + 1}` }}
               />
             )}
