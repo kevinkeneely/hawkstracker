@@ -48,6 +48,10 @@ const TRADITIONAL_STATS = [
 //   STL%, BLK%                  — computed via BBR formula from Base + team pools
 //   FTr                         — computed as FTA/FGA from Base pool
 const ADVANCED_STATS = [
+  // Context — same two rows that lead off Traditional; useful here too
+  // for reading role growth year-over-year alongside the rate stats.
+  { key: 'gp',       label: 'GP',    format: 'int'  },
+  { key: 'min',      label: 'MPG',   format: 'num1', thinDivider: true },
   { key: 'reb_pct',  label: 'REB%',  format: 'pct',    pctile: true },
   { key: 'ast_pct',  label: 'AST%',  format: 'pct',    pctile: true },
   { key: 'stl_pct',  label: 'STL%',  format: 'pct',    pctile: true },
@@ -68,6 +72,11 @@ const ADVANCED_STATS = [
 // renders those cells as "n/a" (styled subtly, distinct from the "—" used
 // for "data exists but didn't qualify").
 const HUSTLE_STATS = [
+  // Context — always rendered even for pre-2015-16 seasons (ignoreNa:
+  // true), since GP/MPG come from PlayerCareerStats regardless of whether
+  // NBA.com tracked hustle that year.
+  { key: 'gp',       label: 'GP',    format: 'int',             ignoreNa: true },
+  { key: 'min',      label: 'MPG',   format: 'num1', thinDivider: true, ignoreNa: true },
   { key: 'contested_shots',      label: 'Contested Shots',  format: 'num1', pctile: true },
   { key: 'contested_shots_2pt',  label: 'Contested 2PT',    format: 'num1', pctile: true },
   { key: 'contested_shots_3pt',  label: 'Contested 3PT',    format: 'num1', pctile: true },
@@ -156,7 +165,10 @@ function CareerStatsTable({ seasons, stats, gridCols, naChecker }) {
             {seasons.map((s) => {
               // Hustle-tab-specific: pre-2015-16 seasons get an 'n/a' cell
               // instead of '—', since the stat genuinely didn't exist.
-              const isNa = naChecker ? naChecker(s) : false
+              // Context stats (GP, MPG) carry ignoreNa:true because they
+              // come from PlayerCareerStats, not the hustle endpoint — they
+              // exist regardless of what NBA.com tracked that year.
+              const isNa = naChecker && !stat.ignoreNa ? naChecker(s) : false
               if (isNa) {
                 return (
                   <div key={s.season} className="career-value-cell career-value-cell-na">
