@@ -298,7 +298,7 @@ function AdvancedTabLink() {
       className={`tab ${isActive ? 'active' : ''}`}
       end={false}
     >
-      Advanced
+      Scatterplots
     </NavLink>
   )
 }
