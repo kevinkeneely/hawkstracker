@@ -6006,7 +6006,12 @@ header {
 .career-row {
   display: grid;
   /* grid-template-columns is set inline (depends on season count) */
-  align-items: center;
+  /* No align-items here: grid items stretch by default. This matters when
+     label text wraps to two lines (e.g. "CONTESTED SHOTS" on the Hustle tab)
+     — stretching means every cell in the row fills the row's full height,
+     so colored backgrounds don't leave black strips above/below. Vertical
+     centering of the cell CONTENT is handled by the flex rules on
+     .career-value-cell and .career-label-cell below. */
   min-width: max-content;
 }
 
@@ -6023,6 +6028,11 @@ header {
   border-right: 1px solid var(--border);
   text-transform: uppercase;
   letter-spacing: 0.04em;
+  /* Flex column + center so a wrapped label (e.g. "CONTESTED SHOTS")
+     sits centered in its cell rather than top-aligned. */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .career-value-cell {
@@ -6031,12 +6041,17 @@ header {
      side-to-side) — Nov 26. The background color is set inline from
      colorForPctile(); when a cell has one, the text goes white with a subtle
      shadow (matches PctileCell in PlayerStatsTable.jsx). Uncolored cells
-     (GP, MPG, no-pctile seasons) show the normal text color. */
+     (GP, MPG, no-pctile seasons) show the normal text color.
+     Flex column + center keeps the value+pctile stack vertically centered
+     when the row is forced taller by a wrapping label in the first column. */
   padding: 5px 8px 4px 8px;
   text-align: center;
   border-right: 1px solid var(--border);
   position: relative;
   color: var(--text-h);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .career-value-cell:last-child {
   border-right: none;
