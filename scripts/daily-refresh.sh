@@ -88,10 +88,13 @@ run_step transform_defensive_rates    python3 -m pipeline.transform_defensive_ra
 # hawksData under `career`. Must run AFTER transform.py (which writes the
 # player list and would otherwise overwrite the enrichment).
 run_step fetch_player_career          python3 -m pipeline.fetch_player_career
-# Safety net for Career Comparison (Nov 26): idempotent historical league fetch.
-# Normally a no-op (all needed seasons cached locally after initial backfill);
-# only fetches when a new veteran is signed and we don't have his past seasons.
-run_step fetch_league_historical      python3 -m pipeline.fetch_league_historical
+# Safety net for Career Comparison (Nov 26 #28 Traditional + #29 Advanced):
+# three idempotent historical fetches. Normally all no-ops (cached locally
+# after initial backfill); only fetch when a new veteran is signed and we
+# don't have his past seasons yet.
+run_step fetch_league_historical_base     python3 -m pipeline.fetch_league_historical
+run_step fetch_league_historical_adv      python3 -m pipeline.fetch_league_historical --measure advanced
+run_step fetch_team_historical            python3 -m pipeline.fetch_team_historical
 run_step transform_player_career      python3 -m pipeline.transform_player_career
 
 # Triple-double counts (B3 phase 3 — Milestones to Watch widget). Pulls

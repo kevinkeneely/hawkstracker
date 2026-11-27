@@ -189,6 +189,239 @@ def _percentile(value, pool_values, invert=False):
     return round(rank / n, 4)
 
 
+# ═══════════════════ Advanced career pool (Nov 26 #29) ═══════════════════
+# Stats that light up the Career Comparison > Advanced tab, mirroring the
+# Player Stats > Advanced Overall Efficiency section exactly. Each stat's
+# invert flag determines whether lower = better (TOV% only).
+#
+# Historical sources per past season:
+#   league_base.json      — per-player PTS/REB/AST/STL/BLK/FGA/FTA/TEAM_ID/MIN/GP
+#   league_advanced.json  — per-player REB%/AST%/TM_TOV%/EFG%/TS%/USG% (NBA.com direct)
+#   team_base.json        — per-team TmMP (for STL%/BLK% formula)
+#   team_opponent.json    — per-team OppFGA/OppFG3A/OppFTA/OppOREB/OppTOV (formula)
+#
+# Formulas (Basketball Reference convention; see transform_defensive_rates.py):
+#   OppPoss = OppFGA + 0.4*OppFTA - 1.07*(OppOREB/(OppOREB+TmDREB))*(OppFGA-OppFGM) + OppTOV
+#   STL% = 100 * STL * TmMP / (MP * OppPoss)
+#   BLK% = 100 * BLK * TmMP / (MP * (OppFGA - OppFG3A))
+#   FTr  = FTA / FGA
+
+ADV_PCTILE_SPEC = {
+    "reb_pct":  False,
+    "ast_pct":  False,
+    "stl_pct":  False,
+    "blk_pct":  False,
+    "tov_pct":  True,    # lower = better (fewer turnovers per possession)
+    "efg_pct":  False,
+    "ts_pct":   False,
+    "fta_rate": False,
+}
+
+
+def _load_team_pools(season):
+    """Load team_base + team_opponent for a past season and return a dict
+    keyed by TEAM_ID with the formula inputs:
+      { team_id: {tm_mp, tm_dreb, opp_fga, opp_fgm, opp_fg3a, opp_fta,
+                  opp_oreb, opp_tov, opp_poss} }
+    All values are per-game. Returns None if either file is missing."""
+    base_fp = HISTORICAL_POOL_DIR / season / "team_base.json"
+    opp_fp  = HISTORICAL_POOL_DIR / season / "team_opponent.json"
+    if not base_fp.exists() or not opp_fp.exists():
+        return None
+
+    def _rows(fp):
+        with open(fp) as f:
+            d = json.load(f)
+        rs_list = d.get("resultSets", [])
+        if not rs_list:
+            return None, None
+        rs = rs_list[0]
+        return rs.get("headers", []), rs.get("rowSet", [])
+
+    bh, br = _rows(base_fp)
+    oh, or_ = _rows(opp_fp)
+    if not bh or not oh:
+        return None
+
+    bi = {name: bh.index(name) for name in ["TEAM_ID", "MIN", "DREB"] if name in bh}
+    oi_names = ["TEAM_ID", "OPP_FGA", "OPP_FGM", "OPP_FG3A", "OPP_FTA", "OPP_OREB", "OPP_TOV"]
+    oi = {name: oh.index(name) for name in oi_names if name in oh}
+
+    # Build per-team base lookup
+    base_by_team = {}
+    for row in br:
+        tid = row[bi["TEAM_ID"]]
+        base_by_team[tid] = {
+            "tm_mp":   row[bi["MIN"]]   or 0,  # already per-game (team MPG)
+            "tm_dreb": row[bi["DREB"]]  or 0,
+        }
+
+    # Build the full pool by joining opp into base; compute OppPoss once.
+    pool = {}
+    for row in or_:
+        tid = row[oi["TEAM_ID"]]
+        if tid not in base_by_team:
+            continue
+        opp_fga  = row[oi["OPP_FGA"]]  or 0
+        opp_fgm  = row[oi["OPP_FGM"]]  or 0
+        opp_fg3a = row[oi["OPP_FG3A"]] or 0
+        opp_fta  = row[oi["OPP_FTA"]]  or 0
+        opp_oreb = row[oi["OPP_OREB"]] or 0
+        opp_tov  = row[oi["OPP_TOV"]]  or 0
+        tm_dreb  = base_by_team[tid]["tm_dreb"]
+
+        # OppPoss — Basketball Reference formula (per-game; units cancel downstream)
+        oreb_total = opp_oreb + tm_dreb
+        oreb_ratio = (opp_oreb / oreb_total) if oreb_total > 0 else 0
+        opp_poss = opp_fga + 0.4 * opp_fta - 1.07 * oreb_ratio * (opp_fga - opp_fgm) + opp_tov
+
+        pool[tid] = {
+            "tm_mp":    base_by_team[tid]["tm_mp"],
+            "opp_poss": opp_poss,
+            "opp_fga":  opp_fga,
+            "opp_fg3a": opp_fg3a,
+        }
+    return pool
+
+
+def _load_advanced_career_pool(season):
+    """Build the qualified-player pool for the Advanced career view for one
+    past season. Combines league_base (STL/BLK/FGA/FTA/MIN/TEAM_ID), the
+    league Advanced pool (direct REB%/AST%/TM_TOV%/EFG%/TS%), and team pools
+    (for STL%/BLK% formula). Returns a list of {player_id, team_id, <8 stats>}
+    dicts for players with >=500 total MIN. Returns None if any required
+    pool file is missing."""
+    base_fp = HISTORICAL_POOL_DIR / season / "league_base.json"
+    adv_fp  = HISTORICAL_POOL_DIR / season / "league_advanced.json"
+    if not base_fp.exists() or not adv_fp.exists():
+        return None
+
+    team_pool = _load_team_pools(season)
+    if team_pool is None:
+        return None
+
+    with open(base_fp) as f:
+        base_data = json.load(f)
+    with open(adv_fp) as f:
+        adv_data = json.load(f)
+
+    base_rs = base_data["resultSets"][0]
+    adv_rs = adv_data["resultSets"][0]
+    bh, br = base_rs["headers"], base_rs["rowSet"]
+    ah, ar = adv_rs["headers"], adv_rs["rowSet"]
+
+    # Index advanced rows by player_id for lookup
+    api = ah.index("PLAYER_ID")
+    adv_by_pid = {row[api]: row for row in ar}
+
+    # Column indices from base pool
+    bi = {name: bh.index(name) for name in [
+        "PLAYER_ID", "TEAM_ID", "GP", "MIN", "STL", "BLK",
+        "FGA", "FTA",
+    ] if name in bh}
+    # Column indices from advanced pool
+    ai = {name: ah.index(name) for name in [
+        "REB_PCT", "AST_PCT", "TM_TOV_PCT", "EFG_PCT", "TS_PCT",
+    ] if name in ah}
+
+    pool = []
+    for row in br:
+        gp = row[bi["GP"]] or 0
+        mpg = row[bi["MIN"]] or 0
+        if gp * mpg < HISTORICAL_MIN_TOTAL:
+            continue
+
+        pid = row[bi["PLAYER_ID"]]
+        tid = row[bi["TEAM_ID"]]
+
+        adv_row = adv_by_pid.get(pid)
+        if adv_row is None:
+            continue  # player not in advanced pool (shouldn't happen but guard)
+        team = team_pool.get(tid)
+        if team is None:
+            continue  # TEAM_ID = 0 (traded TOT row) — skip; the per-team rows
+                      # for this player are handled separately above.
+
+        stl = row[bi["STL"]] or 0
+        blk = row[bi["BLK"]] or 0
+        fga = row[bi["FGA"]] or 0
+        fta = row[bi["FTA"]] or 0
+
+        # STL% / BLK% formulas — BBR convention; per-game inputs, units cancel.
+        stl_pct = (100 * stl * team["tm_mp"] / (mpg * team["opp_poss"])) if (mpg > 0 and team["opp_poss"] > 0) else None
+        blk_denom = team["opp_fga"] - team["opp_fg3a"]
+        blk_pct = (100 * blk * team["tm_mp"] / (mpg * blk_denom)) if (mpg > 0 and blk_denom > 0) else None
+        # Store as 0-1 decimals to match the convention used for TS%/eFG%/etc.
+        if stl_pct is not None:
+            stl_pct = stl_pct / 100.0
+        if blk_pct is not None:
+            blk_pct = blk_pct / 100.0
+
+        fta_rate = (fta / fga) if fga > 0 else None
+
+        pool.append({
+            "player_id": pid,
+            "team_id":   tid,
+            "reb_pct":   adv_row[ai["REB_PCT"]]    if "REB_PCT"    in ai else None,
+            "ast_pct":   adv_row[ai["AST_PCT"]]    if "AST_PCT"    in ai else None,
+            "stl_pct":   stl_pct,
+            "blk_pct":   blk_pct,
+            # NBA.com returns TM_TOV_PCT on percent scale (13.7 means 13.7%),
+            # unlike REB_PCT/AST_PCT/TS_PCT/EFG_PCT which are decimals (0.083).
+            # Normalize to decimal here so the frontend handles all _pct
+            # fields the same way (multiply by 100 for display).
+            "tov_pct":   (adv_row[ai["TM_TOV_PCT"]] / 100.0) if ("TM_TOV_PCT" in ai and adv_row[ai["TM_TOV_PCT"]] is not None) else None,
+            "efg_pct":   adv_row[ai["EFG_PCT"]]    if "EFG_PCT"    in ai else None,
+            "ts_pct":    adv_row[ai["TS_PCT"]]     if "TS_PCT"     in ai else None,
+            "fta_rate":  fta_rate,
+        })
+    return pool
+
+
+def _attach_advanced_percentiles(seasons, adv_pools, current_season):
+    """For each past season entry in seasons, look up the player's row in
+    the advanced career pool and attach <stat>_pctile fields for the 8
+    Overall Efficiency stats. Uses the player_id from each entry? — not
+    present; we pass it in alongside through the calling run()."""
+    # NOTE: see run() — this is called per-player with a known player_id,
+    # so we take it as an arg.
+    raise NotImplementedError  # replaced below
+
+
+def _attach_advanced_percentiles_for_player(seasons, player_id, adv_pools, current_season):
+    """Attach advanced percentiles to each past season entry. For each
+    season, find the player's row in that season's advanced career pool
+    (by player_id) and compute pctile for each of the 8 stats against
+    the pool. If the player wasn't in the pool (didn't qualify), the
+    season's own stat values stay but no pctiles are attached."""
+    for entry in seasons:
+        sid = entry["season"]
+        if sid == current_season:
+            continue  # frontend reads pctiles from the live player object
+
+        pool = adv_pools.get(sid)
+        if pool is None:
+            continue  # historical fetch not done for this season
+
+        # Find this player's row in the pool
+        player_row = next((p for p in pool if p["player_id"] == player_id), None)
+        if player_row is None:
+            # Player didn't qualify in that season's pool (<500 MIN).
+            for key in ADV_PCTILE_SPEC:
+                entry[f"{key}_pctile"] = None
+            continue
+
+        # Also copy the player's own Advanced stat values onto the season
+        # entry so the frontend can display them (e.g. entry["reb_pct"] = 0.08).
+        for key in ADV_PCTILE_SPEC:
+            entry[key] = player_row.get(key)
+
+        # Compute pctile for each stat against the full pool.
+        for key, invert in ADV_PCTILE_SPEC.items():
+            pool_values = [p[key] for p in pool if p.get(key) is not None]
+            entry[f"{key}_pctile"] = _percentile(player_row.get(key), pool_values, invert=invert)
+
+
 def _attach_percentiles(seasons, pools, current_season):
     """Mutate each entry in `seasons` to add `<stat>_pctile` fields computed
     against the historical pool for its season. The current season is left
@@ -373,17 +606,44 @@ def _season_breakdowns(data):
 # main dashboard uses per-game-abbreviated names while career.seasons uses
 # the standard STL/PTS/REB vocabulary.
 CURRENT_PCTILE_SRC = {
+    # Traditional tab stats (#28) — most keys differ from source because
+    # the main dashboard uses per-game-abbreviated names (ppg vs pts).
     "pts":     "ppg_pctile",
     "reb":     "rpg_pctile",
     "ast":     "apg_pctile",
     "stl":     "spg_pctile",
     "blk":     "bpg_pctile",
-    "tov":     "tov_pctile",     # already inverted upstream (low TOV = high pctile)
+    "tov":     "tov_pctile",      # already inverted upstream (low TOV = high pctile)
     "fg_pct":  "fg_pct_pctile",
     "fg3_pct": "fg3_pct_pctile",
     "ft_pct":  "ft_pct_pctile",
     "ts_pct":  "ts_pct_pctile",
     "efg_pct": "efg_pct_pctile",
+    # Advanced tab stats (#29) — all identity-mapped (same name on both
+    # the player object and the career.seasons entry).
+    "reb_pct":  "reb_pct_pctile",
+    "ast_pct":  "ast_pct_pctile",
+    "stl_pct":  "stl_pct_pctile",
+    "blk_pct":  "blk_pct_pctile",
+    "tov_pct":  "tov_pct_pctile",  # already inverted upstream
+    "fta_rate": "fta_rate_pctile",
+}
+
+# Map of (career.seasons field) -> (player object source field) for the raw
+# Advanced stat VALUES themselves (not the pctiles). Used for the current-
+# season entry so the frontend reads e.g. entry["reb_pct"] the same way it
+# reads it from historical-season entries. Traditional values (pts/reb/ast)
+# are already there from _season_breakdowns; Advanced values aren't, because
+# PlayerCareerStats doesn't carry them.
+CURRENT_ADV_VALUE_SRC = {
+    "reb_pct":  "reb_pct",
+    "ast_pct":  "ast_pct",
+    "stl_pct":  "stl_pct",
+    "blk_pct":  "blk_pct",
+    "tov_pct":  "tov_pct",
+    "efg_pct":  "efg_pct",
+    "ts_pct":   "ts_pct",
+    "fta_rate": "fta_rate",
 }
 
 
@@ -391,12 +651,16 @@ def _attach_current_season_pctiles(seasons, player, current_season):
     """Copy the player's existing current-season percentiles onto the career
     season entry for the current season (Decision 2a — keeps current-season
     numbers in lockstep with the Player Stats table and every other surface).
+    Also copies the raw Advanced stat values (reb_pct, ast_pct, etc.) so the
+    frontend can render them identically to historical-season entries.
     Values are already 0-1 decimals on the player object, so no conversion."""
     for entry in seasons:
         if entry["season"] != current_season:
             continue
         for key, src_field in CURRENT_PCTILE_SRC.items():
             entry[f"{key}_pctile"] = player.get(src_field)
+        for key, src_field in CURRENT_ADV_VALUE_SRC.items():
+            entry[key] = player.get(src_field)
         break
 
 
@@ -527,7 +791,8 @@ def run():
                 all_past_seasons.add(sid)
 
     # ─── Pass 2: preload every needed historical pool once, then attach pctiles ───
-    # Preloading avoids reading the same ~200KB JSON file once per player.
+    # Preloading avoids reading the same files once per player (14 Hawks ×
+    # 13 past seasons × 2 pool types = 364 reads vs 26 with preloading).
     # A missing pool file (fetch not run yet for that season) just means we
     # skip pctiles for that season — the frontend treats absence as "no color".
     pools = {}
@@ -539,10 +804,23 @@ def run():
         else:
             pools[sid] = pool
 
+    # #29 Nov 26: Advanced pool — joins league_base + league_advanced + team
+    # pools to produce per-season pools of qualified players with their 8
+    # Overall Efficiency stats already computed.
+    adv_pools = {}
+    adv_pools_missing = []
+    for sid in sorted(all_past_seasons):
+        pool = _load_advanced_career_pool(sid)
+        if pool is None:
+            adv_pools_missing.append(sid)
+        else:
+            adv_pools[sid] = pool
+
     for player in hawks.get("players", []):
         seasons = player.get("career", {}).get("seasons", [])
         if seasons:
             _attach_percentiles(seasons, pools, SEASON)
+            _attach_advanced_percentiles_for_player(seasons, player["id"], adv_pools, SEASON)
             _attach_current_season_pctiles(seasons, player, SEASON)
 
     with open(data_path, "w") as f:
@@ -555,10 +833,19 @@ def run():
         print(f"[transform-player-career] loaded {len(pools)} historical pools: "
               f"{', '.join(sorted(pools.keys()))}")
     if pools_missing:
-        print(f"[transform-player-career] WARNING: no pool file for seasons "
-              f"{', '.join(pools_missing)} — career-view pctiles skipped. "
+        print(f"[transform-player-career] WARNING: no Base pool for seasons "
+              f"{', '.join(pools_missing)} — career-view Traditional pctiles skipped. "
               f"Run: python3 -m pipeline.fetch_league_historical "
               f"{' '.join(pools_missing)}")
+    if adv_pools:
+        print(f"[transform-player-career] loaded {len(adv_pools)} Advanced pools")
+    if adv_pools_missing:
+        print(f"[transform-player-career] WARNING: no Advanced pool for seasons "
+              f"{', '.join(adv_pools_missing)} — career-view Advanced pctiles skipped. "
+              f"Run: python3 -m pipeline.fetch_league_historical --measure advanced "
+              f"{' '.join(adv_pools_missing)} && "
+              f"python3 -m pipeline.fetch_team_historical "
+              f"{' '.join(adv_pools_missing)}")
 
 
 if __name__ == "__main__":
