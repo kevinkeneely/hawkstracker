@@ -229,9 +229,14 @@ export default function CareerPage({ playerData }) {
 
   // Grid: a fixed-width label column + one column per season.
   // Set inline so the grid responds to how many seasons the player has
-  // (anywhere from 1 to a 20+-year career). Same gridCols passed to both
-  // tabs so season columns stay aligned on tab switch.
-  const gridCols = `100px repeat(${seasons.length}, minmax(72px, 1fr))`
+  // (anywhere from 1 to a 20+-year career). Hustle gets a wider label
+  // column because its stat names are longer ("Contested Shots", "Loose
+  // Balls Rec.", "Off. Box Out %") and wrap to two lines at the narrower
+  // Traditional/Advanced width.
+  const makeGridCols = (labelWidth) =>
+    `${labelWidth}px repeat(${seasons.length}, minmax(72px, 1fr))`
+  const gridCols       = makeGridCols(100)
+  const hustleGridCols = makeGridCols(160)
 
   return (
     <div className="career-page">
@@ -278,7 +283,7 @@ export default function CareerPage({ playerData }) {
               <CareerStatsTable
                 seasons={seasons}
                 stats={HUSTLE_STATS}
-                gridCols={gridCols}
+                gridCols={hustleGridCols}
                 naChecker={(s) => s.hustle_available === false}
               />
             ),
