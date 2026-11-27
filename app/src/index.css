@@ -6071,6 +6071,17 @@ header {
   margin-top: 1px;
 }
 
+/* Hustle tab, pre-2015-16 seasons: NBA.com didn't track hustle until
+   2015-16, so CJ McCollum's 2013-14 and 2014-15 (and any other long-career
+   Hawks' pre-2015-16 seasons) get "n/a" rendered here instead of "—".
+   Styled subtly (dim text, lowercase, no pctile badge) so it visually
+   reads differently from "didn't qualify" cells. */
+.career-value-cell-na .career-value-num {
+  color: var(--text-dim);
+  font-style: italic;
+  font-size: 11px;
+}
+
 .career-season-cell {
   padding: 8px 6px;
   text-align: center;

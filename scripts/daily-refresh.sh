@@ -95,6 +95,7 @@ run_step fetch_player_career          python3 -m pipeline.fetch_player_career
 run_step fetch_league_historical_base     python3 -m pipeline.fetch_league_historical
 run_step fetch_league_historical_adv      python3 -m pipeline.fetch_league_historical --measure advanced
 run_step fetch_team_historical            python3 -m pipeline.fetch_team_historical
+run_step fetch_hustle_historical          python3 -m pipeline.fetch_hustle_historical
 run_step transform_player_career      python3 -m pipeline.transform_player_career
 
 # Triple-double counts (B3 phase 3 — Milestones to Watch widget). Pulls

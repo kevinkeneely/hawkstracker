@@ -388,6 +388,157 @@ def _attach_advanced_percentiles(seasons, adv_pools, current_season):
     raise NotImplementedError  # replaced below
 
 
+# ═══════════════════ Hustle career pool (Nov 26 #29 part 2) ═══════════════════
+# NBA.com started tracking hustle in 2015-16. Any Hawks career season before
+# that renders as "n/a" on the Hustle tab rather than empty, so visitors can
+# tell "stat didn't exist" apart from "player didn't qualify."
+#
+# Source per past season: data/raw/historical/<season>/league_hustle.json
+# (from fetch_hustle_historical.py). One fetch per season gives us both the
+# pool AND each Hawks player's row — unlike Advanced which needs base + adv +
+# team pools joined.
+#
+# All 11 stats are "more is better" — none inverted. The column names use
+# NBA.com's screaming-snake convention (CONTESTED_SHOTS); we normalize to
+# lowercase to match the convention everywhere else in career.seasons.
+
+HUSTLE_START_SEASON = "2015-16"  # before this, no hustle data exists at all
+
+# Map NBA.com column name → our career.seasons field name. The 11 stats
+# that the player profile's Hustle tab shows, in that same order.
+HUSTLE_COLS = {
+    "contested_shots":     "CONTESTED_SHOTS",
+    "contested_shots_2pt": "CONTESTED_SHOTS_2PT",
+    "contested_shots_3pt": "CONTESTED_SHOTS_3PT",
+    "box_outs":            "BOX_OUTS",
+    "pct_box_outs_off":    "PCT_BOX_OUTS_OFF",
+    "pct_box_outs_def":    "PCT_BOX_OUTS_DEF",
+    "screen_assists":      "SCREEN_ASSISTS",
+    "screen_ast_pts":      "SCREEN_AST_PTS",
+    "charges_drawn":       "CHARGES_DRAWN",
+    "deflections":         "DEFLECTIONS",
+    "loose_balls_recovered": "LOOSE_BALLS_RECOVERED",
+}
+
+# All hustle stats are more=better, so no inversion. Kept as a dict for
+# parity with ADV_PCTILE_SPEC / PCTILE_SPEC and for future flexibility.
+HUSTLE_PCTILE_SPEC = {k: False for k in HUSTLE_COLS}
+
+
+def _load_historical_hustle_pool(season):
+    """Load the hustle pool for one past season, filter to players with
+    >=500 total MIN, return list of {player_id, team_id, <11 hustle stats>}.
+    Returns None if the file doesn't exist (either not fetched, or pre-
+    2015-16 which has no hustle data by definition)."""
+    fp = HISTORICAL_POOL_DIR / season / "league_hustle.json"
+    if not fp.exists():
+        return None
+
+    with open(fp) as f:
+        data = json.load(f)
+
+    rs_list = data.get("resultSets", [])
+    if not rs_list:
+        return None
+    rs = rs_list[0]
+    headers = rs.get("headers", [])
+    rows = rs.get("rowSet", [])
+    if not headers or not rows:
+        return None
+
+    # The hustle endpoint uses 'G' not 'GP' for games — handle both.
+    gp_col = "G" if "G" in headers else "GP"
+    required_cols = ["PLAYER_ID", "TEAM_ID", gp_col, "MIN"] + list(HUSTLE_COLS.values())
+    idx = {name: headers.index(name) for name in required_cols if name in headers}
+
+    pool = []
+    for row in rows:
+        gp = row[idx[gp_col]] or 0
+        mpg = row[idx["MIN"]] or 0
+        if gp * mpg < HISTORICAL_MIN_TOTAL:
+            continue
+
+        entry = {
+            "player_id": row[idx["PLAYER_ID"]],
+            "team_id":   row[idx["TEAM_ID"]],
+        }
+        for our_key, nba_col in HUSTLE_COLS.items():
+            if nba_col in idx:
+                entry[our_key] = row[idx[nba_col]]
+            else:
+                entry[our_key] = None
+        pool.append(entry)
+    return pool
+
+
+def _attach_hustle_percentiles_for_player(seasons, player_id, pools, current_season):
+    """Attach hustle percentiles + raw values to each past season entry.
+
+    For a season >= 2015-16 where the pool exists and the player qualified:
+      - Copy the 11 hustle stat values onto the entry
+      - Compute pctile for each against the pool
+
+    For a season < 2015-16 (no hustle data possible): mark with
+    hustle_available=False so the frontend renders "n/a" rather than "—".
+
+    For the current season: handled separately by
+    _attach_current_season_hustle (reads from player.hustle.*).
+    """
+    for entry in seasons:
+        sid = entry["season"]
+        if sid == current_season:
+            continue  # handled by _attach_current_season_hustle
+
+        # Mark pre-2015-16 seasons explicitly so the UI knows to show n/a
+        if sid < HUSTLE_START_SEASON:
+            entry["hustle_available"] = False
+            continue
+
+        pool = pools.get(sid)
+        if pool is None:
+            # 2015-16+ season but pool fetch not done — leave fields absent,
+            # frontend treats as "didn't qualify" ("—")
+            continue
+
+        player_row = next((p for p in pool if p["player_id"] == player_id), None)
+        if player_row is None:
+            # In the pool-eligible era but didn't qualify this season
+            for key in HUSTLE_COLS:
+                entry[f"{key}_pctile"] = None
+            continue
+
+        # Copy raw values + compute pctiles
+        for key in HUSTLE_COLS:
+            entry[key] = player_row.get(key)
+        for key, invert in HUSTLE_PCTILE_SPEC.items():
+            pool_values = [p[key] for p in pool if p.get(key) is not None]
+            entry[f"{key}_pctile"] = _percentile(player_row.get(key), pool_values, invert=invert)
+
+
+def _attach_current_season_hustle(seasons, player, current_season):
+    """Current-season bridge for hustle — same Decision 2a pattern as
+    _attach_current_season_pctiles, but hustle data lives nested on the
+    player object as `player.hustle.<key>.value` / `.pctile`. We flatten
+    onto the current-season entry so the frontend reads it identically to
+    historical seasons."""
+    hustle = player.get("hustle")
+    if not hustle:
+        return  # player has no current-season hustle data (shouldn't happen for Hawks)
+
+    for entry in seasons:
+        if entry["season"] != current_season:
+            continue
+        for key in HUSTLE_COLS:
+            stat = hustle.get(key)
+            if isinstance(stat, dict):
+                entry[key] = stat.get("value")
+                entry[f"{key}_pctile"] = stat.get("pctile")
+            else:
+                # defensive — if the hustle block uses a flat shape instead
+                entry[key] = stat
+        break
+
+
 def _attach_advanced_percentiles_for_player(seasons, player_id, adv_pools, current_season):
     """Attach advanced percentiles to each past season entry. For each
     season, find the player's row in that season's advanced career pool
@@ -816,12 +967,29 @@ def run():
         else:
             adv_pools[sid] = pool
 
+    # #29 part 2 Nov 26: Hustle pool. Pre-2015-16 seasons are explicitly
+    # skipped (no hustle data exists). Any missing 2015-16+ pool means the
+    # fetch didn't happen and that season's hustle pctiles will be absent
+    # (frontend shows "—" for that case, distinct from "n/a" for pre-2015-16).
+    hustle_pools = {}
+    hustle_pools_missing = []
+    for sid in sorted(all_past_seasons):
+        if sid < HUSTLE_START_SEASON:
+            continue  # no file expected; the per-player attach handles the n/a flag
+        pool = _load_historical_hustle_pool(sid)
+        if pool is None:
+            hustle_pools_missing.append(sid)
+        else:
+            hustle_pools[sid] = pool
+
     for player in hawks.get("players", []):
         seasons = player.get("career", {}).get("seasons", [])
         if seasons:
             _attach_percentiles(seasons, pools, SEASON)
             _attach_advanced_percentiles_for_player(seasons, player["id"], adv_pools, SEASON)
+            _attach_hustle_percentiles_for_player(seasons, player["id"], hustle_pools, SEASON)
             _attach_current_season_pctiles(seasons, player, SEASON)
+            _attach_current_season_hustle(seasons, player, SEASON)
 
     with open(data_path, "w") as f:
         json.dump(hawks, f, indent=2)
@@ -846,6 +1014,13 @@ def run():
               f"{' '.join(adv_pools_missing)} && "
               f"python3 -m pipeline.fetch_team_historical "
               f"{' '.join(adv_pools_missing)}")
+    if hustle_pools:
+        print(f"[transform-player-career] loaded {len(hustle_pools)} Hustle pools")
+    if hustle_pools_missing:
+        print(f"[transform-player-career] WARNING: no Hustle pool for seasons "
+              f"{', '.join(hustle_pools_missing)} — career-view Hustle pctiles skipped. "
+              f"Run: python3 -m pipeline.fetch_hustle_historical "
+              f"{' '.join(hustle_pools_missing)}")
 
 
 if __name__ == "__main__":

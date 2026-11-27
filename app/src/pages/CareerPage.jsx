@@ -58,6 +58,29 @@ const ADVANCED_STATS = [
   { key: 'fta_rate', label: 'FTr',   format: 'num3',   pctile: true },
 ]
 
+// Hustle stats — Nov 26 #29 part 2. Mirrors the player profile's Hustle
+// tab. All 11 stats are more=better (no invert). Order matches the profile
+// view where possible.
+//
+// Pre-2015-16 wrinkle: NBA.com started tracking hustle in 2015-16, so a
+// player's earlier seasons have no hustle data at all. Those season entries
+// carry `hustle_available: false` from the transform, and the CareerStatsTable
+// renders those cells as "n/a" (styled subtly, distinct from the "—" used
+// for "data exists but didn't qualify").
+const HUSTLE_STATS = [
+  { key: 'contested_shots',      label: 'Contested Shots',  format: 'num1', pctile: true },
+  { key: 'contested_shots_2pt',  label: 'Contested 2PT',    format: 'num1', pctile: true },
+  { key: 'contested_shots_3pt',  label: 'Contested 3PT',    format: 'num1', pctile: true },
+  { key: 'box_outs',             label: 'Box Outs',         format: 'num1', pctile: true },
+  { key: 'pct_box_outs_off',     label: 'Off. Box Out %',   format: 'pct',  pctile: true },
+  { key: 'pct_box_outs_def',     label: 'Def. Box Out %',   format: 'pct',  pctile: true },
+  { key: 'screen_assists',       label: 'Screen Assists',   format: 'num1', pctile: true },
+  { key: 'screen_ast_pts',       label: 'Screen Ast PTS',   format: 'num1', pctile: true },
+  { key: 'charges_drawn',        label: 'Charges Drawn',    format: 'num1', pctile: true },
+  { key: 'deflections',          label: 'Deflections',      format: 'num1', pctile: true },
+  { key: 'loose_balls_recovered', label: 'Loose Balls Rec.', format: 'num1', pctile: true },
+]
+
 // Mirror of colorForPctile() in PlayerStatsTable.jsx — keep in sync. The pctile
 // value is already upstream-inverted for stats where lower = better (TOV), so we
 // don't invert here. Returns a CSS rgb() string, or 'transparent' for missing.
@@ -90,7 +113,7 @@ function fmt(value, format) {
  * season header always looks identical and tab switching feels like
  * transposition rather than reflowing.
  */
-function CareerStatsTable({ seasons, stats, gridCols }) {
+function CareerStatsTable({ seasons, stats, gridCols, naChecker }) {
   return (
     <div className="career-table">
       {/* Season header row — year / team / age */}
@@ -131,6 +154,16 @@ function CareerStatsTable({ seasons, stats, gridCols }) {
           >
             <div className="career-label-cell">{stat.label}</div>
             {seasons.map((s) => {
+              // Hustle-tab-specific: pre-2015-16 seasons get an 'n/a' cell
+              // instead of '—', since the stat genuinely didn't exist.
+              const isNa = naChecker ? naChecker(s) : false
+              if (isNa) {
+                return (
+                  <div key={s.season} className="career-value-cell career-value-cell-na">
+                    <div className="career-value-num">n/a</div>
+                  </div>
+                )
+              }
               const pctile = stat.pctile ? s[`${stat.key}_pctile`] : null
               const bg = stat.pctile ? colorForPctile(pctile) : undefined
               return (
@@ -223,6 +256,18 @@ export default function CareerPage({ playerData }) {
                 seasons={seasons}
                 stats={ADVANCED_STATS}
                 gridCols={gridCols}
+              />
+            ),
+          },
+          {
+            key: 'hustle',
+            label: 'Hustle',
+            content: (
+              <CareerStatsTable
+                seasons={seasons}
+                stats={HUSTLE_STATS}
+                gridCols={gridCols}
+                naChecker={(s) => s.hustle_available === false}
               />
             ),
           },
