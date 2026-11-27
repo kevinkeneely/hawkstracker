@@ -1,6 +1,6 @@
 {
   "season": "2026-27",
-  "updated": "2026-11-26",
+  "updated": "2026-11-27",
   "players": [
     {
       "id": 1630552,
@@ -191,7 +191,7 @@
         },
         "box_outs": {
           "value": 0.93,
-          "pctile": 0.7944
+          "pctile": 0.7919
         },
         "pct_box_outs_off": {
           "value": 0.154,
@@ -768,7 +768,7 @@
             "contested_shots_3pt": 2.36,
             "contested_shots_3pt_pctile": 0.8985,
             "box_outs": 0.93,
-            "box_outs_pctile": 0.7944,
+            "box_outs_pctile": 0.7919,
             "pct_box_outs_off": 0.154,
             "pct_box_outs_off_pctile": 0.632,
             "pct_box_outs_def": 0.846,
@@ -789,11 +789,11 @@
       "td3_total": 2,
       "pie": 0.135,
       "per_pctile": 0.711,
-      "ffos": 42.05,
+      "ffos": 42.0,
       "ffos_pctile": 0.2905,
       "pis": 11.48,
       "pis_pctile": 0.8471,
-      "twi_plus": 129.15,
+      "twi_plus": 129.12,
       "twi_plus_pctile": 0.7798,
       "defense_tracking": {
         "d_fgm": {
@@ -1966,7 +1966,7 @@
       "ffos_pctile": 0.63,
       "pis": 6.78,
       "pis_pctile": 0.3517,
-      "twi_plus": 80.28,
+      "twi_plus": 80.26,
       "twi_plus_pctile": 0.3364,
       "defense_tracking": {
         "d_fgm": {
@@ -2362,7 +2362,7 @@
         },
         "contested_shots_2pt": {
           "value": 2.82,
-          "pctile": 0.7716
+          "pctile": 0.769
         },
         "contested_shots_3pt": {
           "value": 1.88,
@@ -2915,7 +2915,7 @@
             "contested_shots": 4.71,
             "contested_shots_pctile": 0.7766,
             "contested_shots_2pt": 2.82,
-            "contested_shots_2pt_pctile": 0.7716,
+            "contested_shots_2pt_pctile": 0.769,
             "contested_shots_3pt": 1.88,
             "contested_shots_3pt_pctile": 0.7437,
             "box_outs": 0.41,
@@ -2944,7 +2944,7 @@
       "ffos_pctile": 0.7798,
       "pis": 14.69,
       "pis_pctile": 0.9572,
-      "twi_plus": 152.89,
+      "twi_plus": 152.85,
       "twi_plus_pctile": 0.8593,
       "defense_tracking": {
         "d_fgm": {
@@ -3372,11 +3372,11 @@
         },
         "pct_box_outs_off": {
           "value": 0.172,
-          "pctile": 0.6599
+          "pctile": 0.6574
         },
         "pct_box_outs_def": {
           "value": 0.828,
-          "pctile": 0.3959
+          "pctile": 0.3985
         }
       },
       "stl_p75": 1.0096713426291655,
@@ -4029,9 +4029,9 @@
             "box_outs": 1.71,
             "box_outs_pctile": 0.9391,
             "pct_box_outs_off": 0.172,
-            "pct_box_outs_off_pctile": 0.6599,
+            "pct_box_outs_off_pctile": 0.6574,
             "pct_box_outs_def": 0.828,
-            "pct_box_outs_def_pctile": 0.3959,
+            "pct_box_outs_def_pctile": 0.3985,
             "screen_assists": 2.18,
             "screen_assists_pctile": 0.9188,
             "screen_ast_pts": 5.12,
@@ -4052,7 +4052,7 @@
       "ffos_pctile": 0.893,
       "pis": 11.25,
       "pis_pctile": 0.8318,
-      "twi_plus": 140.07,
+      "twi_plus": 140.04,
       "twi_plus_pctile": 0.8287,
       "defense_tracking": {
         "d_fgm": {
@@ -5555,8 +5555,8 @@
       "ffos": 40.63,
       "ffos_pctile": 0.2691,
       "pis": 5.81,
-      "pis_pctile": 0.2141,
-      "twi_plus": 66.83,
+      "pis_pctile": 0.211,
+      "twi_plus": 66.82,
       "twi_plus_pctile": 0.2171,
       "defense_tracking": {
         "d_fgm": {
@@ -6599,8 +6599,8 @@
       "ffos_pctile": 0.4495,
       "pis": 5.94,
       "pis_pctile": 0.2294,
-      "twi_plus": 72.08,
-      "twi_plus_pctile": 0.2661,
+      "twi_plus": 72.07,
+      "twi_plus_pctile": 0.263,
       "defense_tracking": {
         "d_fgm": {
           "value": 4.29,
@@ -7023,7 +7023,7 @@
         },
         "box_outs": {
           "value": 0.88,
-          "pctile": 0.7741
+          "pctile": 0.7716
         },
         "pct_box_outs_off": {
           "value": 0.133,
@@ -7747,7 +7747,7 @@
             "contested_shots_3pt": 2.65,
             "contested_shots_3pt_pctile": 0.9467,
             "box_outs": 0.88,
-            "box_outs_pctile": 0.7741,
+            "box_outs_pctile": 0.7716,
             "pct_box_outs_off": 0.133,
             "pct_box_outs_off_pctile": 0.6041,
             "pct_box_outs_def": 0.867,
@@ -7768,11 +7768,11 @@
       "td3_total": 0,
       "pie": 0.047,
       "per_pctile": 0.152,
-      "ffos": 54.31,
+      "ffos": 54.27,
       "ffos_pctile": 0.5963,
       "pis": 7.63,
       "pis_pctile": 0.4557,
-      "twi_plus": 81.98,
+      "twi_plus": 81.96,
       "twi_plus_pctile": 0.3578,
       "defense_tracking": {
         "d_fgm": {
@@ -8490,8 +8490,8 @@
       "ffos_pctile": 0.2752,
       "pis": 4.7,
       "pis_pctile": 0.0979,
-      "twi_plus": 56.24,
-      "twi_plus_pctile": 0.1223,
+      "twi_plus": 56.23,
+      "twi_plus_pctile": 0.1193,
       "defense_tracking": {
         "d_fgm": {
           "value": 3.0,
@@ -9377,7 +9377,7 @@
       "ffos_pctile": 0.3425,
       "pis": 11.37,
       "pis_pctile": 0.8379,
-      "twi_plus": 130.55,
+      "twi_plus": 130.52,
       "twi_plus_pctile": 0.7859,
       "defense_tracking": {
         "d_fgm": {
@@ -9777,7 +9777,7 @@
         },
         "contested_shots_3pt": {
           "value": 1.0,
-          "pctile": 0.3173
+          "pctile": 0.3198
         },
         "deflections": {
           "value": 0.5,
@@ -10393,7 +10393,7 @@
             "contested_shots_2pt": 1.63,
             "contested_shots_2pt_pctile": 0.4721,
             "contested_shots_3pt": 1.0,
-            "contested_shots_3pt_pctile": 0.3173,
+            "contested_shots_3pt_pctile": 0.3198,
             "box_outs": 0.25,
             "box_outs_pctile": 0.2843,
             "pct_box_outs_off": 0.0,
@@ -10420,7 +10420,7 @@
       "ffos_pctile": 0.7615,
       "pis": 5.62,
       "pis_pctile": 0.1896,
-      "twi_plus": 88.68,
+      "twi_plus": 88.66,
       "twi_plus_pctile": 0.4404,
       "defense_tracking": {
         "d_fgm": {
@@ -10812,7 +10812,7 @@
       "hustle": {
         "contested_shots": {
           "value": 4.18,
-          "pctile": 0.7081
+          "pctile": 0.7056
         },
         "contested_shots_2pt": {
           "value": 3.18,
@@ -10820,7 +10820,7 @@
         },
         "contested_shots_3pt": {
           "value": 1.0,
-          "pctile": 0.3173
+          "pctile": 0.3198
         },
         "deflections": {
           "value": 0.73,
@@ -10844,7 +10844,7 @@
         },
         "box_outs": {
           "value": 0.91,
-          "pctile": 0.7919
+          "pctile": 0.7893
         },
         "pct_box_outs_off": {
           "value": 0.0,
@@ -11107,13 +11107,13 @@
             "tov_pct": 0.095,
             "fta_rate": 0.1951219512195122,
             "contested_shots": 4.18,
-            "contested_shots_pctile": 0.7081,
+            "contested_shots_pctile": 0.7056,
             "contested_shots_2pt": 3.18,
             "contested_shots_2pt_pctile": 0.8122,
             "contested_shots_3pt": 1.0,
-            "contested_shots_3pt_pctile": 0.3173,
+            "contested_shots_3pt_pctile": 0.3198,
             "box_outs": 0.91,
-            "box_outs_pctile": 0.7919,
+            "box_outs_pctile": 0.7893,
             "pct_box_outs_off": 0.0,
             "pct_box_outs_off_pctile": 0.0,
             "pct_box_outs_def": 1.0,
@@ -11138,7 +11138,7 @@
       "ffos_pctile": 0.685,
       "pis": 9.95,
       "pis_pctile": 0.7248,
-      "twi_plus": 117.81,
+      "twi_plus": 117.78,
       "twi_plus_pctile": 0.7278,
       "defense_tracking": {
         "d_fgm": {
@@ -11768,7 +11768,7 @@
       "pie": 0.083,
       "per_pctile": 0.155,
       "pis": 8.92,
-      "twi_plus": 100.92,
+      "twi_plus": 100.89,
       "defense_tracking": {
         "d_fgm": {
           "value": 1.25,
@@ -12831,7 +12831,7 @@
         },
         "contested_shots_3pt": {
           "value": 1.0,
-          "pctile": 0.3173
+          "pctile": 0.3198
         },
         "deflections": {
           "value": 2.0,
@@ -13621,7 +13621,7 @@
             "contested_shots_2pt": 0.0,
             "contested_shots_2pt_pctile": 0.0,
             "contested_shots_3pt": 1.0,
-            "contested_shots_3pt_pctile": 0.3173,
+            "contested_shots_3pt_pctile": 0.3198,
             "box_outs": 0.0,
             "box_outs_pctile": 0.0,
             "pct_box_outs_off": 0.0,
@@ -13645,7 +13645,7 @@
       "pie": 0.048,
       "per_pctile": 0.006,
       "pis": 8.03,
-      "twi_plus": 63.44,
+      "twi_plus": 63.43,
       "defense_tracking": {
         "d_fgm": {
           "value": 0.8,
