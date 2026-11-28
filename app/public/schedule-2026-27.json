@@ -249,10 +249,10 @@
       "opp_tricode": "BOS",
       "opp_name": "Boston Celtics",
       "home_away": "away",
-      "status": "8:00 pm ET",
-      "status_code": 1,
-      "hawks_score": 0,
-      "opp_score": 0
+      "status": "Final",
+      "status_code": 3,
+      "hawks_score": 87,
+      "opp_score": 86
     },
     {
       "game_id": "0022600307",
@@ -278,9 +278,20 @@
     },
     {
       "game_id": "0022600336",
-      "date": "2026-12-03",
+      "date": "2026-12-02",
       "opp_tricode": "IND",
       "opp_name": "Indiana Pacers",
+      "home_away": "home",
+      "status": "8:00 pm ET",
+      "status_code": 1,
+      "hawks_score": 0,
+      "opp_score": 0
+    },
+    {
+      "game_id": "0022601202",
+      "date": "2026-12-04",
+      "opp_tricode": "PHI",
+      "opp_name": "Philadelphia 76ers",
       "home_away": "home",
       "status": "7:00 pm ET",
       "status_code": 1,
